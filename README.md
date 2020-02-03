@@ -10,7 +10,7 @@ Actually, 171 texts are categorised as "Letteratura teatrale" in Biblioteca Ital
 
 The ```<availability>``` information given in each file reads: "Questa risorsa digitale è liberamente accessibile per uso personale o scientifico." ("This digital resource is freely accessible for personal or scientific use.")
 
-ItaDraCor is maintained by Frank Fischer and Carsten Milling. – Thanks go to Fabio Ciotti, who provided us with helpful advice.
+ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carsten Milling. – Thanks go to Fabio Ciotti, who provided us with helpful advice.
 
 ## Changelog
-* 03.02.2020: Import of 139 plays. Filenames were adjusted (e.g., "bibit001163.xml" → "alfieri-oreste.xml").
+* 03.02.2020: Import of 139 plays. – Adjust filenames (e.g., "bibit001163" → "alfieri-oreste.xml"). – Add Wikidata IDs.

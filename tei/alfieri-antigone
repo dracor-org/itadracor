@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Antigone</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>86 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000013</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Filippo ; Polinice ; Antigone ; Virginia</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814.</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione - OCR</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-04-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Ilenia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-05-05T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<performance><p>Rappresentata in Roma il dì 20 Novembre 1785</p></performance>
+<div1 n="Dedica">
+<opener><salute>AL SIGNOR FRANCESCO GORI GANDELLINI, CITTADINO S.ANESE</salute></opener>
+	<p>A lei non è stato possibile di fare una scorsa fin qui, per veder l'<title>Antigone</title> rappresentata: Antigone dunque viene a trovar lei: e spero, che ciò abbia a ridondare in mio maggior vantaggio; poiché moltissime cose, che forse nella recita le sarebbero sfuggite, ella tutte vedrà, leggendola. Quindi dal di lei ottimo giudizio mi lusingo d'ottenere (s'io pur la merito) lode scevra di adulazione; e biasimo, che in troppo maggior copia mi si dovrà, scevro di livore. Gradisca per tanto questo segno dell'amicizia mia, piccolo a quanto io l'amo e stimo, ma il maggiore tuttavia, che io dimostrar mai le possa.</p>
+<closer>
+<dateline>Roma, 8 Decembre 1782</dateline>
+<signed>VITTORIO ALFIERI</signed>
+</closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+<castItem type="role"><role>CREONTE</role></castItem>
+<castItem type="role"><role>ANTIGONE</role></castItem>
+<castItem type="role"><role>EMONE</role></castItem>
+<castItem type="role"><role>ARGIA</role></castItem>
+<castItem type="role"><role>Guardie</role></castItem>
+<castItem type="role"><role>Seguaci d'Emone</role></castItem>
+</castList>
+<set><p><emph>Scena, la Reggia in Tebe</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>ARGIA</stage>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Eccoti in Tebe, Argìa... Lena ripiglia</l>
+<l>del rapido viaggio... Oh! come a volo</l>
+<l>d'Argo venn'io! — Per troppa etade tardo,</l>
+<l>mal mi seguiva il mio fedel Menète:</l>
+<l>ma in Tebe io sto. L'ombre di notte amico</l>
+<l>velo prestaro all'ardimento mio;</l>
+<l>non vista entrai. — Questa è l'orribil reggia,</l>
+<l>cuna del troppo amato sposo, e tomba.</l>
+<l>Oh Polinice!... il traditor fratello</l>
+<l>qui nel tuo sangue l'odio iniquo ei spense.</l>
+<l>Invendicata ancor tua squallid'ombra</l>
+<l>si aggira intorno a queste mura, e niega</l>
+<l>aver la tomba al fratel crudo appresso,</l>
+<l>nell'empia Tebe; e par, ch'Argo mi additi...</l>
+<l>Sicuro asilo Argo ti fu: deh! il piede</l>
+<l>rimosso mai tu non ne avessi!... Io vengo</l>
+<l>per lo tuo cener sacro. A ciò prestarmi</l>
+<l>sola può di sua mano opra pietosa</l>
+<l>quell'Antigone, a te già cara tanto</l>
+<l>fida sorella. Oh come io l'amo! oh quale,</l>
+<l>nel vederla, e conoscerla, e abbracciarla,</l>
+<l>dolcezza al cor me ne verrà! Qui seco</l>
+<l>a pianger vengo in su la gelid'urna,</l>
+<l>che a me si aspetta; e l'otterrò: sorella</l>
+<l>non può a sposa negarla. — Unico nostro</l>
+<l>figlio, ecco il don, ch'io ti riporto in Argo;</l>
+<l>ecco il retaggio tuo; l'urna del padre! —</l>
+<l>Ma dove, incauta, il mio dolor mi mena?</l>
+<l>Argiva son, sto in Tebe, e nol rimembro? —</l>
+<l>L'ora aspettar, che Antigon' esca... E come</l>
+<l>ravviserolla?... E s'io son vista?... Oh cielo!...</l>
+<l>Or comincio a tremar;... qui sola... Oh!... parmi,</l>
+<l>che alcun si appressi: Oimè!... che dir? qual arte?</l>
+<l part="I">... Mi asconderò.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>ANTIGONE</stage>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">— Queta è la reggia; oscura</l>
+<l>la notte: or via; si vada... E che? vacilla</l>
+<l>il core? il piè, mal ferme l'orme imprime?</l>
+<l>tremo? perché donde il terrore? imprendo</l>
+<l>forse un delitto?... o morir forse io temo? —</l>
+<l>Ah! temo io sol di non compier la impresa.</l>
+<l>O Polinice, o fratel mio, finora</l>
+<l>pianto invano... — Passò stagion del pianto;</l>
+<l>tempo è d'oprar: me del mio sesso io sento</l>
+<l>fatta maggiore: ad onta oggi del crudo</l>
+<l>Creonte, avrai da me il vietato rogo;</l>
+<l>l'esequie estreme, o la mia vita, avrai. —</l>
+<l>Notte, o tu, che regnar dovresti eterna</l>
+<l>in questa terra d'ogni luce indegna,</l>
+<l>del tuo più denso orrido vel ti ammanta,</l>
+<l>per favorir l'alto disegno mio.</l>
+<l>De' satelliti regi al vigil guardo</l>
+<l>sottrammi; io spero in te. — Numi, se voi</l>
+<l>espressamente non giuraste, in Tebe</l>
+<l>nulla opra mai pietosa a fin doversi</l>
+<l>trarre, di vita io tanto sol vi chieggio,</l>
+<l>quanto a me basti ad eseguir quest'una. —</l>
+<l>Vadasi omai: santa è l'impresa: e sprone</l>
+<l>santo mi punge, alto fraterno amore...</l>
+<l>Ma, chi m'insegue? Oimè! tradita io sono...</l>
+<l>Donna a me viene? Oh! chi sei tu? rispondi.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>ARGIA, ANTIGONE</stage>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="I">Una infelice io sono.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">In queste soglie</l>
+<l part="I">che fai? che cerchi in sì tard'ora?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Io... cerco...</l>
+<l part="I">... d'Antigone...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Perché? — Ma tu, chi sei?</l>
+<l>Antigone conosci? a lei se' nota?</l>
+<l>che hai seco a far? che hai tu comun con essa?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="I">Il dolor, la pietà...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Pietà? qual voce</l>
+<l>osi tu in Tebe profferir? Creonte,</l>
+<l>regna in Tebe, nol sai? noto a te forse</l>
+<l part="I">non è Creonte?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Or dianzi io qui giungea...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>E in questa reggia il piè straniera ardisci</l>
+<l part="I">por di soppiatto? a che?...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Se in questa reggia</l>
+<l>straniera io son, colpa è di Tebe: udirmi</l>
+<l part="I">nomar qui tale io non dovrei.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Che parli?</l>
+<l part="I">Ove nascesti?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="M">In Argo.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ahi nome! oh quale</l>
+<l>orror m'inspira! A me pur sempre ignoto,</l>
+<l>deh, stato fosse! io non vivria nel pianto.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Argo a te costa lagrime? di eterno</l>
+<l part="I">pianto cagion mi è Tebe.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">I detti tuoi</l>
+<l>certo a me suonan pianto. O donna, s'altro</l>
+<l>dolor sentir che il mio potessi, al tuo</l>
+<l>io porgerei di lagrime conforto:</l>
+<l>grato al mio cor fora la storia udirne,</l>
+<l>quanto il narrarla, a te: ma, non è il tempo,</l>
+<l part="I">or che un fratello io piango...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Ah! tu se' dessa;</l>
+<l part="I">Antigone tu sei...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">... Ma... tu...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Sei dessa.</l>
+<l>Argìa son io; la vedova infelice</l>
+<l part="I">del tuo fratel più caro.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Oimè!... che ascolto?...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Unica speme mia, solo sostegno,</l>
+<l>sorella amata, al fin ti abbraccio. — Appena</l>
+<l>ti udia parlar, di Polinice il suono</l>
+<l>pareami udire: al mio core tremante</l>
+<l>porse ardir la tua voce: osai mostrarmi...</l>
+<l>Felice me!... ti trovo... Al rattenuto</l>
+<l>pianto, deh! lascia ch'io, tra' dolci amplessi,</l>
+<l>libero sfogo entro al tuo sen conceda.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>— Oh come io tremo! O tu, figlia di Adrasto,</l>
+<l>in Tebe? in queste soglie in man del fero</l>
+<l>Creonte?... Oh vista inaspettata! oh vista</l>
+<l part="I">cara non men che dolorosa!</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">In questa</l>
+<l>reggia, in cui me sperasti aver compagna,</l>
+<l>(e lo sperai pur io) così mi accogli?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Cara a me sei, più che sorella... Ah! quanto</l>
+<l>io già ti amassi, Polinice il seppe:</l>
+<l>ignoto sol m'era il tuo volto; i modi,</l>
+<l>l'indole, il core, ed il tuo amore immenso</l>
+<l>per lui, ciò tutto io già sapea. Ti amava</l>
+<l>io già, quant'egli: ma, vederti in Tebe</l>
+<l>mai non volea; né il vo'... Mille funesti</l>
+<l part="I">perigli (ah! trema) hai qui dintorno.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Estinto</l>
+<l>cadde il mio Polinice, e vuoi ch'io tremi?</l>
+<l>Che perder più, che desiar mi resta?</l>
+<l part="I">Abbracciarti, e morire.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Aver puoi morte</l>
+<l part="I">qui non degna di te.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Fia degna sempre,</l>
+<l>dov'io pur l'abbia in su l'amata tomba</l>
+<l part="I">del mio sposo.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Che parli?... Oimè!... La tomba?...</l>
+<l>Poca polve, che il copra, oggi si vieta</l>
+<l>al tuo marito, al mio fratello, in Tebe,</l>
+<l part="I">nella sua reggia.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Oh ciel! Ma il corpo esangue...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="I">Preda alle fiere in campo ei giace...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Al campo</l>
+<l part="I">io corro.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ah! ferma il piè. — Creonte iniquo,</l>
+<l>tumido già per l'usurpato trono,</l>
+<l>leggi, natura, Dei, tutto in non cale</l>
+<l>quell'empio tiene; e, non che il rogo ei nieghi</l>
+<l>ai figli d'Argo, ei dà barbara morte</l>
+<l part="I">a chi dà lor la tomba.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">In campo preda</l>
+<l>alle fiere il mio sposo?... ed io nel campo</l>
+<l>passai pur dianzi!... e tu vel lasci?... Il sesto</l>
+<l>giorno già volge, che trafitto ei cadde</l>
+<l>per man del rio fratello; ed insepolto,</l>
+<l>e nudo ei giace? e le morte ossa ancora</l>
+<l>dalla reggia paterna escluse a forza</l>
+<l part="I">stanno? e il soffre una madre?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Argìa diletta,</l>
+<l>nostre intere sventure ancor non sai. —</l>
+<l>Compier l'orrendo fratricidio appena</l>
+<l>vede Giocasta, (ahi misera!) non piange,</l>
+<l>né rimbombar fa di lamenti l'aure:</l>
+<l>dolore immenso le tronca ogni voce;</l>
+<l>immote, asciutte, le pupille figge</l>
+<l>nel duro suol: già dall'averno l'ombre</l>
+<l>de' dianzi spenti figli, e dell'ucciso</l>
+<l>Laio, in tremendo flebil suono chiama.</l>
+<l>Già le si fanno innanti; erra gran pezza</l>
+<l>così l'accesa fantasia tra i mesti</l>
+<l>spettri del suo dolore: a stento poscia</l>
+<l>rientra in sé; me desolata figlia</l>
+<l>si vede intorno, e le matrone sue.</l>
+<l>Fermo ell'ha di morir, ma il tace; e queta</l>
+<l>s'infinge, per deluderci... Ahi me lassa!...</l>
+<l>Incauta me!... delusa io son: lasciarla</l>
+<l>mai non dovea. — Chiamar placido sonno</l>
+<l>l'odo, gliel credo, e ci scostiamo: il ferro,</l>
+<l>ecco, dal fianco palpitante ancora</l>
+<l>di Polinice ha svelto, e in men ch'io il dico,</l>
+<l>nel proprio sen lo immerge; e cade, e spira. —</l>
+<l>Ed io che fo?... Di questo fatal sangue</l>
+<l>impuro avanzo, anch'io col ferro istesso</l>
+<l>dovea svenarmi; ma, pietà mi prese</l>
+<l>del non morto, né vivo, cieco padre.</l>
+<l>Per lui sofferta ho l'abborrita luce;</l>
+<l>serbata io m'era a sua tremula etade...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Edippo?... Ah! tutto ricader dovea</l>
+<l>in lui l'orror del suo misfatto. Ei vive?</l>
+<l part="I">e Polinice muore?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Oh! se tu visto</l>
+<l>lo avessi! Edippo misero! egli, in somma,</l>
+<l>padre è del nostro Polinice; ei soffre</l>
+<l>pena maggior che il fallo suo. Ramingo,</l>
+<l>cieco, indigente, addolorato, in bando</l>
+<l>ei va di Tebe. Il reo tiranno ardisce</l>
+<l>scacciarlo. Edippo misero! far noto</l>
+<l>non oserà il suo nome: il ciel, Creonte,</l>
+<l>Tebe, noi tutti, ei colmerà di orrende</l>
+<l>imprecazioni. — Al vacillante antico</l>
+<l>suo fianco irne sostegno eletta io m'era;</l>
+<l>ma gli fui tolta a forza; e qui costretta</l>
+<l>di rimanermi: ah! forse era dei Numi</l>
+<l>tale il voler; che, lungi appena il padre,</l>
+<l>degli insepolti la inaudita legge</l>
+<l>Creonte in Tebe promulgò. Chi ardiva</l>
+<l part="I">romperla qui; chi, se non io?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Chi teco,</l>
+<l>chi, se non io, potea divider l'opra?</l>
+<l>Qui ben mi trasse il cielo. Ad ottenerne</l>
+<l>da te l'amato cenere io veniva:</l>
+<l>oltre mia speme, in tempo ancora io giungo</l>
+<l>di riveder, riabbracciar le care</l>
+<l>sembianze; e quella cruda orribil piaga</l>
+<l>lavar col pianto; ed acquetar col rogo</l>
+<l>l'ombra vagante... Or, che tardiam? Sorella,</l>
+<l part="I">andianne; io prima...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">A santa impresa vassi;</l>
+<l>ma vassi a morte: io 'l deggio, e morir voglio:</l>
+<l>nulla ho che il padre al mondo, ei mi vien tolto;</l>
+<l>morte aspetto, e la bramo. — Incender lascia,</l>
+<l>tu che perir non dei, da me quel rogo,</l>
+<l>che coll'amato mio fratel mi accolga.</l>
+<l>Fummo in duo corpi un'alma sola in vita,</l>
+<l>sola una fiamma anco le morte nostre</l>
+<l>spoglie consumi, e in una polve unisca.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Perir non deggio? Oh! che di' tu? vuoi forse</l>
+<l>nel dolor vincer me? Pari in amarlo</l>
+<l>noi fummo; pari; o maggior io. Di moglie</l>
+<l part="I">altro è l'amor, che di sorella.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Argìa,</l>
+<l>teco non voglio io gareggiar di amore;</l>
+<l>di morte, sì. Vedova sei; qual sposo</l>
+<l>perdesti, il so: ma tu, figlia non nasci</l>
+<l>d'incesto; ancor la madre tua respira;</l>
+<l>esul non hai, non cieco, non mendico,</l>
+<l>non colpevole, il padre: il ciel più mite</l>
+<l>fratelli a te non diè, che l'un dell'altro</l>
+<l>nel sangue a gara si bagnasser empi.</l>
+<l>Deh! non ti offender, s'io morir vo' sola;</l>
+<l>io, di morir, pria che nascessi, degna.</l>
+<l>Deh! torna in Argo... Oh! nol rimembri? hai pegno</l>
+<l>là del tuo amor; di Polinice hai viva</l>
+<l>l'immagin là, nel tuo fanciullo: ah! torna;</l>
+<l>di te fa' lieto il disperato padre,</l>
+<l>che nulla sa di te; deh! vanne: in queste</l>
+<l>soglie null'uom ti vide; ancor n'hai tempo.</l>
+<l part="I">Contro al divieto io sola basto.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">... Il figlio?...</l>
+<l>Io l'amo, ah! sì; ma pur, vuoi tu ch'io fugga,</l>
+<l>se qui morir si dee per Polinice?</l>
+<l>Mal mi conosci. — Il pargoletto in cura</l>
+<l>riman di Adrasto; ei gli fia padre. Al pianto</l>
+<l>il crescerei; mentre a vendetta, e all'armi</l>
+<l>nutrir si de'. — Non v'ha timor, che possa</l>
+<l>tormi la vista dell'amato corpo.</l>
+<l>O Polinice mio, ch'altra ti renda</l>
+<l part="I">gli ultimi onori?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Alla tebana scure</l>
+<l part="I">porger tu il collo vuoi?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Non nella pena,</l>
+<l>nel delitto è la infamia. Ognor Creonte</l>
+<l>sarà l'infame: del suo nome ogni uomo</l>
+<l part="I">sentirà orror, pietà del nostro...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">E tormi</l>
+<l part="I">tal gloria vuoi?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Veder io vo' il mio sposo;</l>
+<l>morir sovr'esso. — E tu, qual hai tu dritto</l>
+<l>di contendermi il mio? tu, che il vedesti</l>
+<l part="I">morire, e ancor pur vivi...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Omai, te credo</l>
+<l>non minore di me. Pur, m'era forza</l>
+<l>ben accertarmi pria, quanto in te fosse</l>
+<l>del femminil timor: del dolor tuo</l>
+<l>non era io dubbia; del valore io l'era.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Disperato dolor, chi non fa prode?</l>
+<l>Ma, s'io l'amor del tuo fratel mertava,</l>
+<l part="I">donna volgare esser potea?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Perdona:</l>
+<l>io t'amo; io tremo; e il tuo destin mi duole.</l>
+<l>Ma il vuoi? si vada. Il ciel te non confonda</l>
+<l>colla stirpe d'Edippo! — Oltre l'usato</l>
+<l>parmi oscura la notte: i Numi al certo</l>
+<l>l'attenebrar per noi. Sorella, il pianto</l>
+<l>bada tu bene a rattener; più ch'altro,</l>
+<l>tradir ci può. Severa guardia in campo</l>
+<l>fan di Creonte i satelliti infami:</l>
+<l>nulla ci scopra a lor, pria della fiamma</l>
+<l>divoratrice dell'esangue busto.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Non piangerò;... ma tu,... non piangerai?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="I">Sommessamente piangeremo.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">In campo,</l>
+<l part="I">sai tu in qual parte ei giace?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Andiam: so dove</l>
+<l>gli empi il gittaro. Vieni. Io meco porto</l>
+<l>lugùbri tede: ivi favilla alcuna</l>
+<l>trarrem di selce, onde s'incendan. — Segui</l>
+<l>tacitamente ardita i passi miei.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CREONTE, EMONE</stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Ma che? tu sol nella mia gioia, o figlio,</l>
+<l>afflitto stai? Di Tebe al fin sul trono</l>
+<l>vedi il tuo padre; e tuo retaggio farsi</l>
+<l>questo mio scettro. Onde i lamenti? duolti</l>
+<l>d'Edippo forse, o di sua stirpe rea?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>E ti parria delitto aver pietade</l>
+<l>d'Edippo, e di sua stirpe? A me non fia,</l>
+<l>nel dì funesto in cui vi ascendi, il trono</l>
+<l>di così lieto augurio, onde al dolore</l>
+<l>chiuda ogni via. Tu stesso un dì potresti</l>
+<l>pentito pianger l'acquistato regno.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Io piangerò, se pianger dessi, il lungo</l>
+<l>tempo, che a' rei nepoti, infami figli</l>
+<l>del delitto, obbedia. Ma, se l'orrendo</l>
+<l>lor nascimento con più orrenda morte</l>
+<l>emendato hanno, eterno obblio li copra.</l>
+<l>Compiuto appena il lor destin, più puro</l>
+<l>in Tebe il sol, l'aer più sereno, i Numi</l>
+<l>tornar più miti: or sì, sperar ne giova</l>
+<l part="I">più lieti dì.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Tra le rovine, e il sangue</l>
+<l>de' più stretti congiunti, ogni altra speme,</l>
+<l>che di dolor, fallace torna. Edippo,</l>
+<l>di Tebe un re, (che tale egli è pur sempre)</l>
+<l>di Tebe un re, ch'esul, ramingo, cieco,</l>
+<l>spettacol nuovo a Grecia tutta appresta:</l>
+<l>duo fratelli che svenansi; fratelli</l>
+<l>del padre lor; figli d'incesta madre</l>
+<l>a te sorella, e di sua man trafitta:</l>
+<l>vedi or di nomi orribile mistura,</l>
+<l>e di morti, e di pianto. Ecco la strada,</l>
+<l>ecco gli auspici, onde a regnar salisti.</l>
+<l part="I">Ahi padre! esser puoi lieto?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Edippo solo</l>
+<l>questa per lui contaminata terra,</l>
+<l>col suo più starvi, alla terribil ira</l>
+<l>del ciel fea segno; era dover, che sgombra</l>
+<l>fosse di lui. — Ma i nostri pianti interi,</l>
+<l>figlio, non narri. Ahi scellerato Edippo!</l>
+<l>che non mi costi tu? La morte io piango</l>
+<l>anco d'un figlio; il tuo maggior fratello,</l>
+<l>Menèceo; quei, che all'empie e stolte fraudi,</l>
+<l>ai vaticini menzogneri e stolti</l>
+<l>di un Tiresia credé: Menèceo, ucciso</l>
+<l>di propria man, per salvar Tebe; ucciso,</l>
+<l>mentre pur vive Edippo? Ai suoi delitti</l>
+<l>poca è vendetta il suo perpetuo esiglio. —</l>
+<l>Ma, seco apporti ad altri lidi Edippo</l>
+<l>quella, che il segue ovunque i passi ei muova,</l>
+<l>maledizion del cielo. Il pianger noi,</l>
+<l>cosa fatta non toglie; oggi il passato</l>
+<l>obliar dessi, e di Fortuna il crine</l>
+<l part="I">forte afferrare.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Instabil Dea, non ella</l>
+<l>forza al mio cor farà. Del ciel lo sdegno</l>
+<l>bensì temer, padre, n'è d'uopo. Ah! soffri,</l>
+<l>che franco io parli. Il tuo crudel divieto,</l>
+<l>che le fiere de' Greci ombre insepolte</l>
+<l>varcar non lascia oltre Acheronte, al cielo</l>
+<l>grida vendetta. Oh! che fai tu? di regno</l>
+<l>e di prospera sorte ebbro, non pensi,</l>
+<l>che Polinice è regio sangue, e figlio</l>
+<l>di madre a te sorella? Ed ei pur giace</l>
+<l>ignudo in campo: almen lo esangue busto</l>
+<l>di lui nepote tuo, lascia che s'arda.</l>
+<l>Alla infelice Antigone, che vede</l>
+<l>di tutti i suoi l'ultimo eccidio, in dono</l>
+<l>concedi il corpo del fratel suo amato.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Al par degli empi suoi fratelli, figlia</l>
+<l part="I">non è costei di Edippo?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Al par di loro,</l>
+<l>dritto ha di Tebe al trono. Esangue corpo</l>
+<l part="I">ben puoi dar per un regno.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">A me nemica</l>
+<l part="I">ell'è...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="M">Nol creder.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Polinice ell'ama,</l>
+<l>e il genitor; Creonte dunque abborre.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Oh ciel! del padre, del fratel pietade</l>
+<l>vuoi tu ch'ella non senta? In pregio forse</l>
+<l>più la terresti, ove spietata fosse?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Più in pregio, no; ma, la odierei pur meno. —</l>
+<l>Re gli odi altrui prevenir dee; nemico</l>
+<l>stimare ogni uom, che offeso ei stima. — Ho tolto</l>
+<l>ad Antigone fera ogni pretesto,</l>
+<l>nel torle il padre. Esuli uniti entrambi,</l>
+<l>potean, vagando, un re trovar, che velo</l>
+<l>fesse all'innata ambizion d'impero</l>
+<l>di mentita pietade; e in armi a Tebe,</l>
+<l>qual venne Adrasto, un dì venisse. — Io t'odo</l>
+<l>biasmare, o figlio, il mio divieto, a cui</l>
+<l>alta ragion, che tu non sai, mi spinse.</l>
+<l>Ti fia poi nota; e, benché dura legge,</l>
+<l part="I">vedrai, ch'ella era necessaria.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Ignota</l>
+<l>m'è la ragion, di' tu? ma ignoti, parmi,</l>
+<l>ten son gli effetti. Antigone può in Tebe</l>
+<l>dell'esul padre, e del rapito trono,</l>
+<l>e del fratello che giace insepolto,</l>
+<l>non la cercando, ritrovar vendetta.</l>
+<l>Mormora il volgo, a cui tua legge spiace;</l>
+<l>e assai ne sparla e la vorria delusa;</l>
+<l part="I">e rotta la vorrà.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Rompasi; ch'altro</l>
+<l>non bramo io, no; purché la vita io m'abbia</l>
+<l part="I">di qual primier la infrangerà.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Qual fero</l>
+<l>nemico a danno tuo ciò ti consiglia?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>— Amor di te, sol mi v'astringe: il frutto</l>
+<l>tu raccorrai di quanto or biasmi. Avvezzo</l>
+<l>a delitti veder ben altri in Tebe</l>
+<l>è il cittadin; che può far altro omai,</l>
+<l part="I">che obbedirmi, e tacersi?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Acchiusa spesso</l>
+<l part="I">nel silenzio è vendetta...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">In quel di pochi;</l>
+<l>ma, nel silenzio di una gente intera,</l>
+<l>timor si acchiude, e servitù. — Tralascia</l>
+<l>di opporti, o figlio, a mie paterne viste.</l>
+<l>Non ho di te maggior, non ho più dolce</l>
+<l>cura, di te: solo mi avanzi; e solo</l>
+<l>di mie fatiche un dì godrai. Vuoi forse</l>
+<l>farti al tuo padre, innanzi tempo, ingrato? —</l>
+<l>Ma, qual di armati, e di catene suono?...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Oh! chi mai viene?... In duri lacci avvolte</l>
+<l>donne son tratte?... Antigone! che miro?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Cadde l'incauta entro mia rete; uscirne</l>
+<l part="I">male il potrà.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage><emph>Guardie con le fiaccole</emph>, ANTIGONE, ARGIA, CREONTE, EMONE</stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Che fia? quale han delitto</l>
+<l part="I">queste donzelle?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">Il vo' dir io.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Più innanzi</l>
+<l part="I">si lascin trarre il piede.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">A te davanti,</l>
+<l>ecco, mi sto. Rotta ho tua legge: io stessa</l>
+<l>tel dico: inceso al mio fratello ho il rogo.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>E avrai tu stessa il guiderdon promesso</l>
+<l>da me; lo avrai. — Ma tu, ch'io non ravviso,</l>
+<l>donna, chi sei? straniere fogge io miro...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="I">L'emula son di sua virtude.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Ah! padre,</l>
+<l>lo sdegno tuo rattempra: ira non merta</l>
+<l part="I">di re donnesca audacia.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ira? che parli?</l>
+<l>Imperturbabil giudice, le ascolto:</l>
+<l>morte è con esse già: suo nome pria</l>
+<l>sveli costei; poi la cercata pena</l>
+<l part="I">s'abbiano entrambe.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Il guiderdon vogl'io;</l>
+<l>io sola il voglio. Io la trovai nel campo;</l>
+<l>io del fratello il corpo a lei mostrava;</l>
+<l>dal ciel guidata, io deludea la infame</l>
+<l>de' satelliti tuoi mal vigil cura:</l>
+<l>alla sant'opra, io la richiesi; — ed ella</l>
+<l>di sua man mi prestava un lieve aiuto.</l>
+<l>Qual sia, nol so; mai non la vidi in Tebe;</l>
+<l>fors'ella è d'Argo, e alcun de' suoi nel campo,</l>
+<l>ad arder no, ma ad abbracciar pietosa</l>
+<l part="I">veniva...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Or sì, ch'io in ver colpevol fora;</l>
+<l>or degna io, sì, d'ogni martìr più crudo,</l>
+<l>se per timor negare opra sì santa</l>
+<l>osassi. — Iniquo re, sappi il mio nome;</l>
+<l part="I">godine, esulta...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">Ah! taci...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Io son d'Adrasto</l>
+<l>figlia; sposa son io di Polinice;</l>
+<l part="I">Argìa...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="M">Che sento?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Oh degna coppia! Il cielo</l>
+<l>oggi v'ha poste in mano mia: ministro</l>
+<l>a sue vendette oggi m'ha il ciel prescelto. —</l>
+<l>Ma tu, tenera sposa, il dolce frutto</l>
+<l>teco non rechi dell'amor tuo breve?</l>
+<l>Madre pur sei di un pargoletto erede</l>
+<l>di Tebe: ov'è? d'Edippo è sangue anch'egli:</l>
+<l part="I">Tebe lo aspetta.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Inorridisco,... fremo...</l>
+<l>O tu, che un figlio anco perdesti, ardisci</l>
+<l>con motti esacerbar di madre il duolo?</l>
+<l>Piange l'una il fratel, l'altra il marito;</l>
+<l part="I">tu le deridi? Oh cielo!</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Oh! di un tal padre</l>
+<l>non degno figlio tu! taci; coi preghi</l>
+<l>non ci avvilire omai: prova è non dubbia</l>
+<l>d'alta innocenza, esser di morte afflitte</l>
+<l part="I">dove Creonte è il re.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Tua rabbia imbelle</l>
+<l>esala pur; me non offendi: sprezza,</l>
+<l part="I">purché l'abbi, la morte.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">In me, deh! volgi</l>
+<l>il tuo furore, in me. Qui sola io venni,</l>
+<l>sconosciuta, di furto: in queste soglie</l>
+<l>di notte entrai, per ischernir tua legge.</l>
+<l>Di velenoso sdegno, è ver, che avea</l>
+<l>gonfio Antigone il cor: disegni mille</l>
+<l>volgeva in sé; ma tacita soffriva</l>
+<l>pur l'orribil divieto; e s'io non era,</l>
+<l>infranto mai non l'avrebb'ella. Il reo</l>
+<l>d'un delitto è chi 'l pensa: a chi l'ordisce</l>
+<l part="I">la pena spetta...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">A lei non creder: parla</l>
+<l>in lei pietade inopportuna, e vana.</l>
+<l>Di furto, è vero, in questa reggia il piede</l>
+<l>portò, ma non sapea la cruda legge:</l>
+<l>me qui cercava; e timida, e tremante,</l>
+<l>l'urna fatale del suo dolce amore</l>
+<l>chiedea da me. Vedi, se in Argo giunta</l>
+<l>dell'inuman divieto era la fama.</l>
+<l>Non dirò già, che non ti odiasse anch'ella;</l>
+<l>(chi non t'odia?) ma te più ancor temea:</l>
+<l>da te fuggir coll'ottenuto pegno</l>
+<l>del cener sacro, agli occhi tuoi sottrarsi,</l>
+<l>(semplice troppo!) ella sperava, e in Argo</l>
+<l>gli amati avanzi riportar. — Non io,</l>
+<l>non io così, che al tuo cospetto innanti</l>
+<l>sperai venirne; esservi godo; e dirti,</l>
+<l>che d'essa al par, più ch'ella assai, ti abborro;</l>
+<l>che a lei nel sen la inestinguibil fiamma</l>
+<l>io trasfondea di sdegno, e d'odio, ond'ardo;</l>
+<l>ch'è mio l'ardir, mia la fierezza; e tutta</l>
+<l>la rabbia, ond'ella or si riveste, è mia.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Qual sia tra voi più rea, perfide, invano</l>
+<l>voi contendete. Io mostrerovvi or ora</l>
+<l>qual più sia vil fra voi. Morte, che infame,</l>
+<l>qual vi si dee, v'appresto, or or ben altra</l>
+<l>sorger farà gara tra voi, di preghi</l>
+<l part="I">e pianti...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Oh cielo! a morte infame?... Oh padre!</l>
+<l>nol credo io, no; tu nol farai. Consiglio,</l>
+<l>se non pietade, a raddolcir l'acerbo</l>
+<l>tuo sdegno vaglia. Argìa, di Adrasto è figlia;</l>
+<l>di re possente: Adrasto, il sai, di Tebe</l>
+<l>la via conosce, e ricalcarla puote.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Dunque, pria che ritorni Adrasto in Tebe,</l>
+<l>Argìa s'immoli. — E che? pietoso farmi</l>
+<l part="I">tu per timor vorresti?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Adrasto in Tebe</l>
+<l>tornar non può; contrari ha i tempi, e i Numi;</l>
+<l>d'uomini esausto, e di tesoro, e d'arme,</l>
+<l>vendicarmi ei non puote. Ora, Creonte;</l>
+<l>uccidi, uccidi me; non fia, che Adrasto</l>
+<l>ten punisca per ora. Argìa s'uccida;</l>
+<l>che nessun danno all'uccisor ne torna:</l>
+<l>ma Antigone si salvi; a mille a mille</l>
+<l>vendicatori insorgeranno in Tebe,</l>
+<l part="I">che a pro di lei...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Cessa, o sorella; ah! meglio</l>
+<l>costui conosci: ei non è crudo a caso,</l>
+<l>né indarno. Io spero omai per te; già veggo,</l>
+<l>ch'io gli basto, e n'esulto. Il trono ei vuole,</l>
+<l>e non l'hai tu: ma, per infausto dritto,</l>
+<l>questo ch'ei vuole, e ch'ei si usurpa, è mio.</l>
+<l>Vittima a lui l'ambizione addita</l>
+<l part="I">me sola, me...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Tuo questo trono? Infami</l>
+<l>figli d'incesto, a voi di morte il dritto,</l>
+<l>non di regno, rimane. Atroce prova</l>
+<l>di ciò non fer gli empi fratelli, or dianzi</l>
+<l part="I">l'un dell'altro uccisore?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Empio tu, vile,</l>
+<l>che lor spingevi ai colpi scellerati. —</l>
+<l>Sì, del proprio fratello nascer figli,</l>
+<l>delitto è nostro; ma con noi la pena</l>
+<l>stavane già, nel nascerti nepoti.</l>
+<l>Ministro tu della nefanda guerra,</l>
+<l>tu nutritor degli odi, aggiunger fuoco</l>
+<l>al fuoco ardivi; adulator dell'uno,</l>
+<l>l'altro instigavi, e li tradivi entrambi.</l>
+<l>La via così tu ti sgombrasti al soglio,</l>
+<l part="I">ed alla infamia.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">A viva forza vuoi</l>
+<l part="I">perder te stessa, Antigone?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Sì, voglio,</l>
+<l>vo' che il tiranno, almen sola una volta,</l>
+<l>il vero ascolti. A lui non veggo intorno</l>
+<l>chi dirgliel osi. — Oh! se silenzio imporre</l>
+<l>a' tuoi rimorsi, a par che all'altrui lingua,</l>
+<l>tu potessi, Creonte; oh qual saria</l>
+<l>piena allor la tua gioia! Ma, odioso,</l>
+<l>più che a tutti, a te stesso, hai nell'incerto,</l>
+<l>nell'inquieto sogguardar, scolpito</l>
+<l part="I">e il delitto, e la pena.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">A trarvi a morte,</l>
+<l>fratelli abbominevoli del padre,</l>
+<l>mestier non eran tradimenti miei:</l>
+<l>tutti a prova il volean gl'irati Numi.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Che nomi tu gli Dei? tu, ch'altro Dio</l>
+<l>non hai, che l'util tuo, per cui sei presto</l>
+<l>ad immolar, e amici, e figli, e fama;</l>
+<l part="I">se tu l'avessi.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">— A dirmi, altro ti resta? —</l>
+<l>Chieggon Numi diversi ostie diverse.</l>
+<l>Vittima tu, già sacra agli infernali,</l>
+<l>degna ed ultima andrai d'infame prole.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Padre, a te chieggo pria breve udienza.</l>
+<l>Deh! sospendi per poco: assai ti debbo</l>
+<l part="I">cose narrar, molto importanti...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Avanza</l>
+<l>della per loro intorbidata notte</l>
+<l>alquanto ancora. Al suo morir già il punto</l>
+<l>prefisso è in me; fin che rinasca il sole,</l>
+<l part="I">udrotti...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Oimè! tu di lei sola or parli?</l>
+<l>or sì, ch'io tremo. E me con essa a morte</l>
+<l part="I">non manderai?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Più non s'indugi: entrambe</l>
+<l part="I">entro all'orror d'atra prigione...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Insieme</l>
+<l part="I">con te, sorella...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">Ah!... sì...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Disgiunte sieno. —</l>
+<l>Meco Antigone venga: io son custode</l>
+<l>a sì gran pegno: andiam. — Guardie, si tragga</l>
+<l part="I">in altro carcer l'altra.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="M">Oh ciel!...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Si vada.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="I">Ahi lassa me!...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Seguirne almen vo' l'orme.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CREONTE, EMONE</stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Ad ascoltarti eccomi presto, o figlio.</l>
+<l>Udir da te cose importanti io deggio,</l>
+<l>dicesti; e udirne potrai forse a un tempo</l>
+<l part="I">tali da me.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Supplice vengo: il fero</l>
+<l>del tuo sdegno bollente impeto primo</l>
+<l>affrontar non doveva: or, ch'ei dà loco</l>
+<l>alla ragione, io (benché sol) di Tebe</l>
+<l>pur tutta a nome, io ti scongiuro, o padre,</l>
+<l>di usar pietade. A me la negheresti?</l>
+<l>Tua legge infranto han le pietose donne;</l>
+<l>ma chi tal legge rotta non avrebbe?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Qual mi ardiria pregar per chi la infranse,</l>
+<l part="I">altri che tu?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Né in tuo pensier tu stesso</l>
+<l>degna di morte la lor santa impresa</l>
+<l>estimi; ah! no; sì ingiusto, snaturato</l>
+<l part="I">non ti credo, né il sei.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Tebe, e il mio figlio,</l>
+<l>mi appellin crudo a lor piacer, mi basta</l>
+<l>l'esser giusto. Obbedire a tutte leggi,</l>
+<l>tutti il debbono al par, quai che sien elle:</l>
+<l>tendono i re dell'opre loro ai soli</l>
+<l>Numi ragione; e non v'ha età, né grado,</l>
+<l>né sesso v'ha, che il rio delitto escusi</l>
+<l>del non sempre obbedir. Pochi impuniti</l>
+<l part="I">danno ai molti licenza.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">In far tua legge,</l>
+<l>credesti mai, che dispregiarla prime</l>
+<l>due tai donne ardirebbero? una sposa,</l>
+<l>una sorella, a gara entrambe fatte</l>
+<l part="I">del sesso lor maggiori?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Odimi, o figlio;</l>
+<l>nulla asconder ti deggio. — O tu nol sappi,</l>
+<l>ovver nol vogli, o il mio pensier tu finga</l>
+<l>non penetrar finora, aprirtel bramo. —</l>
+<l>Credei, sperai; che dico? a forza io volli,</l>
+<l>che il mio divieto in Tebe a infranger prima,</l>
+<l>sola, Antigone fosse; al fin l'ottenni,</l>
+<l>rea s'è fatt'ella; omai la inutil legge</l>
+<l part="I">fia tolta...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Oh cielo!... E tu, di me sei padre?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Ingrato figlio;... o mal esperto forse;</l>
+<l>che tale ancora crederti a me giova:</l>
+<l>padre ti sono: e se tu m'hai per reo,</l>
+<l part="I">il son per te.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Ben veggio arte esecranda,</l>
+<l>onde inalzarmi credi. — O infame trono,</l>
+<l>mio non sarai tu mai, se mio de' farti</l>
+<l part="I">sì orribil mezzo.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Io 'l tengo, è mio tuttora,</l>
+<l>mio questo trono, che non vuoi. — Se al padre</l>
+<l>qual figlio il dee non parli, al re tu parli.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Misero me!... Padre, .. perdona;... ascolta;... —</l>
+<l>oh ciel! tuo nome oscurerai, né il frutto</l>
+<l>raccorrai della trama. In re tant'oltre</l>
+<l>non val poter, che di natura il grido</l>
+<l>a opprimer basti. Ogni uom della pietosa</l>
+<l>vergine piange il duro caso: e nota,</l>
+<l>ed abborrita, e non sofferta forse</l>
+<l part="I">sarà tal arte dai Tebani.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">E ardisci</l>
+<l>tu il dubbio accor, finora a tutti ignoto,</l>
+<l>se obbedir, mi si debba? Al poter mio,</l>
+<l>altro confin che il voler mio non veggio.</l>
+<l>Tu il regnar non m'insegni. In cor d'ogni uomo</l>
+<l>ogni altro affetto, che il terrore, io tosto</l>
+<l part="I">tacer farò.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Vani i miei preghi adunque?</l>
+<l part="I">il mio sperar di tua pietade?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Vano.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Prole di re, donne, ne andranno a morte,</l>
+<l>perché al fratello, ed al marito, hann'arso</l>
+<l part="I">dovuto rogo?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Una v'andrà. — Dell'altra</l>
+<l part="I">poco rileva; ancor nol so.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Me dunque</l>
+<l>me pur con essa manderai tu a morte.</l>
+<l>Amo Antigone, sappi; e da gran tempo</l>
+<l>l'amo; e, più assai che la mia vita, io l'amo.</l>
+<l>E pria che tormi Antigone, t'è forza</l>
+<l part="I">tormi la vita.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Iniquo figlio!... Il padre</l>
+<l part="I">ami così?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">T'amo quant'essa; e il cielo</l>
+<l part="I">ne attesto.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ahi duro inciampo! — Inaspettato</l>
+<l>ferro mortal nel cor paterno hai fitto.</l>
+<l>Fatale amore! al mio riposo, al tuo,</l>
+<l>e alla gloria d'entrambi! Al mondo cosa</l>
+<l>non ho di te più cara... Amarti troppo</l>
+<l>è il mio solo delitto... E tal men rendi</l>
+<l>tu il guiderdone? ed ami, e preghi, e vuoi</l>
+<l>salva colei, che il mio poter deride;</l>
+<l>che me dispregia, e dirmel osa; e in petto</l>
+<l>cova del trono ambiziosa brama?</l>
+<l>di questo trono, oggi mia cura, in quanto</l>
+<l part="I">ei poscia un dì fia tuo.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">T'inganni: in lei</l>
+<l>non entra, il giuro, alcun pensier di regno:</l>
+<l>in te, bensì, pensier null'altro alligna.</l>
+<l>Quindi non sai, né puoi saper per prova</l>
+<l>l'alta possa d'amor, cui debil freno</l>
+<l>fia la ragion tuttora. A te nemica</l>
+<l>non estimavi Antigone, che amante</l>
+<l>pur n'era io già: cessar di amarla poscia,</l>
+<l>non stava in me: tacer poteami, e tacqui;</l>
+<l>né parlerei, se tu costretto, o padre,</l>
+<l>non mi v'avessi. — Oh cielo! a infame scure</l>
+<l>porgerà il collo?... ed io soffrirlo?... ed io</l>
+<l>vederlo? — Ah! tu, se rimirar potessi</l>
+<l>con men superbo ed offuscato sguardo</l>
+<l>suo nobil cor, l'alto pensar, sue rare</l>
+<l>sublimi doti; ammirator tu, padre,</l>
+<l>sì, ne saresti al par di me; tu stesso,</l>
+<l>più assai di me. Chi, sotto il crudo impero</l>
+<l>d'Eteòcle, mostrarsi amico in Tebe</l>
+<l>di Polinice ardì? l'ardia sol ella.</l>
+<l>Il padre cieco, da tutti diserto,</l>
+<l>in chi trovò, se non in lei, pietade?</l>
+<l>Giocasta infin, già tua sorella, e cara,</l>
+<l>dicevi allor; qual ebbe, afflitta madre,</l>
+<l>altro conforto al suo dolore immenso?</l>
+<l>qual compagna nel piangere? qual figlia</l>
+<l>altra, che Antigon', ebbe? — Ella è d'Edippo</l>
+<l>prole, di' tu? ma, sua virtude è ammenda</l>
+<l>ampia del non suo fallo. — Ancor tel dico;</l>
+<l>non è regno il pensier suo: felice</l>
+<l>mai non sperar di vedermi a suo costo:</l>
+<l>deh, lo fosse ella al mio! Del mondo il trono</l>
+<l part="I">darìa per lei, non che di Tebe.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">— Or, dimmi:</l>
+<l part="I">sei parimente riamato?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Amore</l>
+<l>non è, che il mio pareggi. Ella non m'ama;</l>
+<l>né amarmi può: s'ella non mi odia, è quanto</l>
+<l>basta al mio cor; di più non spero: è troppo,</l>
+<l>al cor di lei, che odiar pur me dovrebbe.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Di'; potrebb'ella a te dar man di sposa?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Vergin regal, cui tolti a un tempo in guisa</l>
+<l>orribil son ambo i german, la madre,</l>
+<l>e il genitor, darìa mano di sposa?</l>
+<l>e la darebbe a chi di un sangue nasce</l>
+<l>a lei fatale, e a' suoi? Ch'io tanto ardissi?</l>
+<l part="I">la mano offrirle, io, di te figlio?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ardisci;</l>
+<l>tua man le rende in un la vita, e il trono.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Troppo mi è nota; e troppo io l'amo: in pianto</l>
+<l>cresciuta sempre, or più di pria nel pianto</l>
+<l>suoi giorni mena. Un tempo a lei men tristo</l>
+<l>risorgerà poi forse, e avverso meno</l>
+<l part="I">al mio amor; tu il potrai poscia...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Che al tempo,</l>
+<l>ed a' suoi dubbi eventi, il destin nostro</l>
+<l>accomandare io voglia? invan lo speri. —</l>
+<l>Al mio cospetto, olà, traggasi or tosto</l>
+<l>Antigone. — Di morte ella è ben rea;</l>
+<l>dargliela posso a dritto; e, per me forse,</l>
+<l>dargliela fia più certo util partito...</l>
+<l>Ma pur, mi sei caro così, ch'io voglio</l>
+<l>lasciarla in vita, accoglierla qual figlia,</l>
+<l>s'ella esser tua consente. Or, fia la scelta</l>
+<l>dubbia, fra morte e fra regali nozze?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="I">Dubbia? ah! no: morte, ella scerrà.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ti abborre</l>
+<l part="I">dunque.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="M">Tropp'ama suoi.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">T'intendo. Oh figlio!</l>
+<l>vuoi, che la vita io serbi a chi torrebbe</l>
+<l>la vita a me, dove il potesse? A un padre,</l>
+<l>che tanto t'ama, osi tu chieder tanto?</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>ANTIGONE, CREONTE, EMONE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Vieni: da quel di pria diverso assai</l>
+<l>a tuo favore, Antigone, mi trovi.</l>
+<l>Non, ch'io minor stimi il tuo fallo, o meno</l>
+<l>la ingiunta pena a te dovuta io stimi:</l>
+<l>amor di padre, più che amor del giusto,</l>
+<l>mi muove a tanto. Il figliuol mio mi chiede</l>
+<l>grazia, e l'ottien, per te; dove tu presta</l>
+<l part="I">fossi...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">A che presta?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">A dargli, al mio cospetto,</l>
+<l>in meritato guiderdon,... la mano.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Antigone, perdona; io mai non chiesi</l>
+<l>tanta mercé: darmiti ei vuol: salvarti</l>
+<l part="I">vogl'io, null'altro.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Io, perdonar ti voglio.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>M'offre grazia Creonte? — A me qual altra</l>
+<l>grazia puoi far, che trucidarmi? Ah! tormi</l>
+<l>dagli occhi tuoi per sempre, il può sol morte:</l>
+<l>felice fai chi te non vede. — Impètra,</l>
+<l>Emone, il morir mio; pegno fia questo,</l>
+<l>sol pegno a me, dell'amor tuo. Deh! pensa,</l>
+<l>che di tiranno il miglior dono è morte;</l>
+<l>cui spesso ei niega a chi verace ardente</l>
+<l part="I">desio n'ha in cor...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Non cangerai tu stile?</l>
+<l>Sempre implacabil tu, superba sempre,</l>
+<l>o ch'io ti danni, o ch'io ti assolva, sei?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Cangiar io teco stil?... cangiar tu il core,</l>
+<l part="I">fora possibil più.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Questi m'è padre:</l>
+<l>se a lui favelli, Antigone, in tal guisa,</l>
+<l part="I">l'alma trafiggi a me.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ti è padre; ed altro</l>
+<l>pregio ei non ha; né scorgo io macchia alcuna,</l>
+<l part="I">Emone, in te, ch'essergli figlio.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Bada;</l>
+<l>clemenza è in me, qual passeggero lampo;</l>
+<l>rea di soverchio sei; né omai fa d'uopo,</l>
+<l part="I">che il tuo parlar nulla vi aggiunga...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Rea</l>
+<l>me troppo or fa l'incontrastabil mio</l>
+<l>trono, che usurpi tu. Va'; non ti chieggio</l>
+<l>né la vita, né il trono. Il dì, che il padre</l>
+<l>toglievi a me, ti avrei la morte io chiesta,</l>
+<l>o data a me di propria man l'avrei;</l>
+<l>ma mi restava a dar tomba al fratello.</l>
+<l>Or che compiuta ho la sant'opra, in Tebe</l>
+<l>nulla a far mi riman: se vuoi ch'io viva,</l>
+<l part="I">rendimi il padre.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Il trono; e in un con esso,</l>
+<l>io t'offro ancor non abborrito sposo;</l>
+<l>Emon, che t'ama più che non mi abborri;</l>
+<l>che t'ama più, che il proprio padre, assai.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Se non più cara, più soffribil forse</l>
+<l>farmi la vita Emon potrebbe; e solo</l>
+<l>il potrebb'ei. — Ma, qual fia vita? e trarla,</l>
+<l>a te dappresso? e udir le invendicate</l>
+<l>ombre de' miei da te traditi, e spenti,</l>
+<l>gridar vendetta dall'averno? Io, sposa,</l>
+<l>tranquilla, in braccio del figliuol del crudo</l>
+<l part="I">estirpator del sangue mio?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ben parli.</l>
+<l>Troppo fia casto il nodo: altro d'Edippo</l>
+<l>figliuol v'avesse! ei di tua mano illustre,</l>
+<l part="I">degno ei solo sarebbe...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Orribil nome,</l>
+<l>di Edippo figlia! — ma, più infame nome</l>
+<l part="I">fia, di Creonte nuora.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Ah! la mia speme</l>
+<l>vana è pur troppo omai! Può solo il sangue</l>
+<l>appagar gli odi acerbi vostri: il mio</l>
+<l>scegliete dunque; il mio versate. — È degno</l>
+<l>il rifiuto di Antigone, di lei:</l>
+<l>giusto in te, padre, anco è lo sdegno: entrambi</l>
+<l>io v'amo al par; me solo abborro. — Darle</l>
+<l>vuoi tu, Creonte, morte? or lascia, ch'ella,</l>
+<l>col darla al figliuol tuo, da te la merti. —</l>
+<l>Brami, Antigone, aver di lui vendetta?</l>
+<l>Ferisci; in questo petto (eccolo) intera</l>
+<l>avrai vendetta: il figlio unico amato</l>
+<l>in me gli togli; orbo lo rendi affatto;</l>
+<l>più misero d'Edippo. Or via, che tardi?</l>
+<l>Ferisci; a me più assai trafiggi il core,</l>
+<l part="I">coll'insultarmi il padre.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ancor del tutto</l>
+<l>non disperar: più che il dolor, lo sdegno</l>
+<l>favella in lei. — Donna, a ragion dà loco:</l>
+<l>sta il tuo destino in te; da te sol pende</l>
+<l>quell'Argìa che tant'ami, onde assai duolti,</l>
+<l>più che di te medesma; arbitra sei</l>
+<l>d'Emon, che non abborri;... e di me il sei;</l>
+<l>cui se pur odi oltre il dover, non meno</l>
+<l>oltre il dover conoscermi pietoso</l>
+<l>a te dovresti. — Intero io ti concedo</l>
+<l>ai pensamenti il dì novel che sorge: —</l>
+<l>la morte, o Emone, al cader suo, scerrai.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>ANTIGONE, EMONE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Deh! perché figlio di Creonte nasci?</l>
+<l part="I">O perché almen, lui non somigli?...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Ah! m'odi. —</l>
+<l>Questo, che a me di vita ultimo istante</l>
+<l>esser ben sento, a te vogl'io verace</l>
+<l>nunzio far de' miei sensi: il fero aspetto</l>
+<l>del genitor me lo vietava. — Or, sappi,</l>
+<l>per mia discolpa, che il rifiuto forte,</l>
+<l>e il tuo sdegno più forte, io primo il laudo,</l>
+<l>e l'apprezzo, e l'ammiro. A foco lento,</l>
+<l>pria che osartela offrire, arder vogl'io</l>
+<l>questa mia man; che di te parmi indegna,</l>
+<l>più che nol pare a te. S'io t'amo, il sai;</l>
+<l>s'io t'estimo, il saprai. — Ma intanto (oh stato</l>
+<l>terribil mio!) non basta, no, mia vita</l>
+<l>a porre in salvo oggi la tua!... Potessi,</l>
+<l>almen potessi una morte ottenerti</l>
+<l part="I">non infame!...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Più infame ebberla in Tebe</l>
+<l>madre e fratelli miei. Mi fia la scure</l>
+<l part="I">trionfo quasi.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Oh! che favelli?... Ahi vista!</l>
+<l>atroce vista!... Io nol vedrò: me vivo</l>
+<l>non fia. — Ma, m'odi, o Antigone. Forse anco</l>
+<l>il re deluder si potria... Non parlo,</l>
+<l>né il vuoi, né il vo', che la tua fama in parte</l>
+<l part="I">né pur si offenda...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Io non deludo, affronto</l>
+<l>i tiranni; e il sai tu. Pietà fraterna</l>
+<l>sola all'arte m'indusse. Usar io fraude</l>
+<l>or per salvarmi? ah! potrei forse oprarla</l>
+<l part="I">ove affrettasse il morir mio...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Se tanto</l>
+<l>fitta in te sta l'alta e feroce brama,</l>
+<l>deh! sospendila almeno. A te non chieggio</l>
+<l>cosa indegna di te: ma pur, se puoi,</l>
+<l>solo indugiando, altrui giovar; se puoi</l>
+<l>viver, senza tua infamia; e che? sì cruda</l>
+<l>contro a te stessa, e contra me sarai?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>... Emon, nol posso... A me crudel non sono: —</l>
+<l>figlia d'Edippo io sono. — Di te duolmi;</l>
+<l part="I">ma pure...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Io 'l so: cagione a te di vita</l>
+<l>esser non posso; — compagno di morte</l>
+<l>ti son bensì. — Ma, tutti oltra le negre</l>
+<l>onde di Stige i tuoi pietosi affetti</l>
+<l>ancor non stanno: ad infelice vita,</l>
+<l>ma vita pur, restano Edippo, Argìa,</l>
+<l>e il pargoletto suo, che immagin viva</l>
+<l>di Polinice cresce; a cui tu forse</l>
+<l>vorresti un dì sgombra la via di questo</l>
+<l>trono inutil per te. Deh! cedi alquanto. —</l>
+<l>Finger tu dei, che al mio pregar ti arrendi,</l>
+<l>e ch'esser vuoi mia sposa, ove si accordi</l>
+<l>frattanto al lungo tuo giusto dolore</l>
+<l>breve sfogo di tempo. Io fingerommi</l>
+<l>pago di ciò: l'indugio ad ogni costo</l>
+<l>io t'otterrò dal padre. Intanto, lice</l>
+<l>tutto aspettar dal tempo: io mai non credo,</l>
+<l>che abbandonar voglia sua figlia Adrasto</l>
+<l>tra infami lacci. Onde si aspetta meno</l>
+<l>sorge talora il difensore. Ah! vivi;</l>
+<l>per me nol chieggo, io tel ridico: io fermo</l>
+<l>son di seguirti; e non di me mi prende</l>
+<l>pietà, né averla di me dei: pel cieco</l>
+<l>tuo genitore, e per Argìa, ten priego.</l>
+<l>Lei trar de' ceppi, e riveder fors'anco</l>
+<l>il padre, e a lui forse giovar, potresti.</l>
+<l>Di lor pietà, che più di te non senti,</l>
+<l>sentir t'è forza; e a te il rimembra, e, pieno</l>
+<l>di amaro pianto, a' tuoi piedi si prostra,</l>
+<l part="I">... e ti scongiura Emone...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">... Io te scongiuro...</l>
+<l>or, che costanza, quanta io n'ebbi mai,</l>
+<l>mi è d'uopo, in molli lagrime di amore</l>
+<l>deh! non stemprarmi il cor... Se in me puoi tanto,...</l>
+<l>(e che non puoi tu in me?)... mia fama salva;</l>
+<l>lascia ch'io mora, se davver tu m'ami.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>... Me misero!... Pur io non ti lusingo...</l>
+<l part="I">Quanto a te dissi, esser potria.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Non posso</l>
+<l>esser tua mai; che val, ch'io viva? — Oh cielo!</l>
+<l>Del disperato mio dolor la vera</l>
+<l>cagione (oimè!) ch'io almen non sappia. — E s'io</l>
+<l>sposa a te mi allacciassi, ancor che finta,</l>
+<l>Grecia in udirlo (oh!) che diria? Quel padre,</l>
+<l>che del più viver mio non vil cagione</l>
+<l>sol fora, oh! s'egli mai tal nodo udisse!...</l>
+<l>Ove il duol, l'onta, e gli stenti, finora</l>
+<l>pur non l'abbiano ucciso, al cor paterno</l>
+<l>coltel saria l'orribile novella.</l>
+<l>Misero padre! il so, pur troppo; io mai</l>
+<l>non ti vedrò, mai più:... ma, de' tuoi figli</l>
+<l>ultima, e sola, io almen morrò non rea...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Mi squarci il core;... eppur, laudar mi è forza</l>
+<l>tai sensi: anch'io virtù per prova intendo...</l>
+<l>ma, lasciarti morire!... Ultimo prego,</l>
+<l>se tu non m'odi, accetta: al fianco tuo</l>
+<l>starommi, e nel mio petto il mortal colpo,</l>
+<l>pria che nel tuo, cadrà: così vendetta</l>
+<l>in parte avrai dell'inuman Creonte.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Vivi, Emon, tel comando... In noi l'amarci</l>
+<l>delitto è tal, ch'io col morir lo ammendo;</l>
+<l part="I">col viver, tu.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">— Si tenti ultima prova.</l>
+<l>Padre inuman, re sanguinario, udrai,</l>
+<l>le voci estreme disperate udrai</l>
+<l part="I">di un forsennato figlio.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Oimè! che trami?</l>
+<l>ribelle al padre tuo?... Sì orribil taccia</l>
+<l part="I">sfuggila ognora, o ch'io non t'amo.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Or, nulla</l>
+<l>piegar ti può dal tuo fero proposto?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="I">Nulla; se tu nol puoi.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Ti appresti dunque?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="I">A non più mai vederti.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">In breve, io 'l giuro,</l>
+<l part="I">mi rivedrai.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">T'arresta. Ahi lassa!... M'odi...</l>
+<l part="I">che far vuoi tu?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Mal grado tuo, salvarti.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="I">T'arresta...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>ANTIGONE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Oh ciel!... più non mi ascolta. — Or tosto,</l>
+<l>guardie, a Creonte or mi traete innanzi.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CREONTE, ANTIGONE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="I">Scegliesti?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">Ho scelto.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="M">Emon?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">Morte.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">L'avrai. —</l>
+<l>Ma bada, allor che sul tuo capo in alto</l>
+<l>penda la scure, a non cangiarti: e tardo</l>
+<l>fora il pentirti, e vano. Il fero aspetto</l>
+<l>di morte (ah!) forse sostener dappresso</l>
+<l>mal saprai tu; mal sostener di Argìa,</l>
+<l>se l'ami, i pianti; che morirti al fianco</l>
+<l>dovrà pur essa; e tu, cagion sei sola</l>
+<l>del suo morir. — Pensaci; ancor n'hai tempo...</l>
+<l>ancor tel chieggio. — Or, che di' tu?... Non parli?</l>
+<l>Fiso intrepida guardi? Avrai, superba,</l>
+<l>avrai da me ciò che tacendo chiedi.</l>
+<l>Doleami già d'averti dato io scelta,</l>
+<l part="I">fra la tua morte e l'onta mia.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Dicesti? —</l>
+<l part="I">Che tardi or più? Taci, ed adopra.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Pompa</l>
+<l>fa di coraggio a senno tuo: vedrassi</l>
+<l>quant'è, tra poco. Abbenché il punto ancora</l>
+<l>del tuo morir giunto non sia, ti voglio</l>
+<l>pur compiacer nell'affrettarlo. — Vanne,</l>
+<l>Eurimedonte; va'; traggila tosto</l>
+<l part="I">all'apprestato palco.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>EMONE, ANTIGONE, CREONTE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Al palco? Arresta...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Oh vista!... Or, guardie, or vi affrettate; a morte</l>
+<l>strascinatemi. Emon,... lasciami;... addio.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Trarla oltre più nessun di voi si attenti.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="I">E che? minacci, ove son io?...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Deh padre!...</l>
+<l>così tu m'ami? così spendi il giorno</l>
+<l part="I">concesso a lei?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Precipitar vuol ella;</l>
+<l part="I">negargliel posso?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Odi; oh! non sai? ben altro</l>
+<l>a te sovrasta inaspettato danno.</l>
+<l>D'Atene il re, Tesèo, quel forte, è fama</l>
+<l>che a Tebe in armi ei vien, degli insepolti</l>
+<l>vendicatore. A lui ne andar le Argive</l>
+<l>vedove sconsolate, in suon di sdegno</l>
+<l>e di pietà piangenti. Udia lor giuste</l>
+<l>querele il re: l'urne promesse ha loro</l>
+<l>degli estinti mariti; e non è lieve</l>
+<l>promettitor Tesèo. — Padre, previeni</l>
+<l>l'ire sue, l'onta nostra. A te non chieggio</l>
+<l>che t'arrendi al timor; bensì ti stringa</l>
+<l>pietà di Tebe tua: respira appena</l>
+<l>l'aure di pace; ove a non giusta guerra</l>
+<l>correr pur voglia in favor tuo, qual prode</l>
+<l>or ne rimane a Tebe? I forti, il sai,</l>
+<l>giaccion, chi estinto in tomba, e chi mal vivo</l>
+<l part="I">in sanguinoso letto.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">A un timor vile</l>
+<l>mi arrendo io forse? a che narrar perigli</l>
+<l>lontani, o dubbi, o falsi? A me finora</l>
+<l>Tesèo, quel forte, non chiedea pur l'urne</l>
+<l>de' forti d'Argo; e non per anco io darle</l>
+<l>negato gli ho: pria ch'ei le chiegga, io forse</l>
+<l>suo desir preverrò. Sei pago? Tebe</l>
+<l>riman secura; io non vo' guerra. — Or, lascia,</l>
+<l part="I">che al suo destin vada costei.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Vuoi dunque</l>
+<l>perder tuo figlio tu?... Ch'io sopravviva</l>
+<l>a lei, né un giorno, invan lo speri. È poco</l>
+<l>perdere il figlio; a mille danni incontro</l>
+<l>tu vai. Già assolta è Antigone; l'assolvi</l>
+<l>tu col disfar tua legge. A tutti è noto</l>
+<l>già, che a lei sola il laccio vil tendesti.</l>
+<l>La figlia amata de' suoi re su infame</l>
+<l>palco perir, Tebe vedria? di tanto</l>
+<l>non lusingarti. Alte querele, aperte</l>
+<l>minacce, ed armi risuonar già s'ode;</l>
+<l part="I">già dubbio...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Or basta. — Sovra infame palco,</l>
+<l>poiché nol vuoi, Tebe perir non vegga</l>
+<l>la figlia amata de' suoi re. — Soldati,</l>
+<l>la notte appena scenderà, che al campo,</l>
+<l>là dove giaccion gl'insepolti eroi,</l>
+<l>costei trarrete. Omai negar la tomba</l>
+<l>più non dessi a persona: il gran Tesèo</l>
+<l>mel vieta: abbiala dunque, ella, che altrui</l>
+<l>la diè; nel campo l'abbia: ivi sepolta</l>
+<l part="I">sia, viva...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Oh ciel! che sento? A scherno prendi</l>
+<l>uomini e Dei così? Versar qui pria</l>
+<l>tutto t'è d'uopo del tuo figlio il sangue.</l>
+<l>Viva in campo sepolta? Iniquo;... innanzi</l>
+<l>estinto io qui; ridotto in cener io...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Emon, dell'amor mio vuoi farti indegno?</l>
+<l>Qual ch'egli sia, t'è padre. A fera morte</l>
+<l>già, fin dal nascer mio, dannata m'ebbe</l>
+<l>il mio destino: or, che rileva il loco,</l>
+<l part="I">il tempo, il modo, ond'io morrò?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ti opponi</l>
+<l>indarno; ah! cessa: lei salvar non puoi,</l>
+<l>né a te giovare... Un infelice padre</l>
+<l part="I">di me farai; null'altro puoi...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Mi giova</l>
+<l>farti infelice, e il merti, e il sarai; spero.</l>
+<l>Il trono iniquo por ti fa in non cale</l>
+<l>di re, di padre, d'uomo, ogni più sacro</l>
+<l>dovere omai: ma, più tu il credi immoto,</l>
+<l>più crolla il trono sotto al rio tuo piede.</l>
+<l>Tebe appien scerne da Creonte Emone...</l>
+<l>V'ha chi d'un cenno il mal rapito scettro</l>
+<l>può torti: — regna; io nol darò; ma, trema,</l>
+<l part="I">se a lei...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Creonte, or sì t'imploro; ah! ratto</l>
+<l>mandami a morte. Oh di destino avverso</l>
+<l>fatal possanza! a mie tante sventure</l>
+<l>ciò sol mancava, ed al mio nascer reo,</l>
+<l>che instigatrice all'ira atroce io fossi</l>
+<l part="I">del figlio contro al padre!...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Or me si ascolti,</l>
+<l>me sol, Creonte: e non di Atene il ferro,</l>
+<l>né il re ti mova; e non di donne preghi,</l>
+<l>né di volgo lamenti: al duro tuo</l>
+<l>core discenda or la terribil voce</l>
+<l>di un disperato figlio, a cui tu stesso</l>
+<l>togli ogni fren; cui meglio era la vita</l>
+<l>non dar tu mai; ma, che pentir può farti</l>
+<l part="I">di un tal don, oggi.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Non è voce al mondo,</l>
+<l part="I">che basti a impor legge a Creonte.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Al mondo</l>
+<l>brando v'ha dunque, che le inique leggi</l>
+<l part="I">può troncar di Creonte.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="M">Ed è?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Il mio brando.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Perfido. — Insidia i dì paterni; trammi</l>
+<l>di vita, trammi; osa; rapisci, turba</l>
+<l>il regno a posta tua... Son sempre io padre</l>
+<l>di tal, che omai figlio non mi è. Punirti</l>
+<l>non so, né posso: altro non so, che amarti,</l>
+<l>e compianger tuo fallo... Or di'; che imprendo,</l>
+<l>che non torni a tuo pro? Ma, sordo, ingrato</l>
+<l>pur troppo tu, preporre ardisci un folle</l>
+<l>e sconsigliato, e non gradito amore,</l>
+<l>alla ragione alta di stato, ai dritti</l>
+<l part="I">sacrosanti del sangue...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Oh! di quai dritti</l>
+<l>favelli tu? Tutto sei re: tuo figlio</l>
+<l>non puoi tu amare: a tirannia sostegno</l>
+<l>cerchi, non altro. Io, di te nato, deggio</l>
+<l>dritto alcuno di sangue aver per sacro?</l>
+<l>A me tu norma, in crudeltà maestro</l>
+<l>tu sol mi sei; te seguo: ove mi sforzi,</l>
+<l>avanzerotti; io 'l giuro. — Havvi di stato</l>
+<l>ragion, che imprenda iniquitade aperta,</l>
+<l>qual tu disegni? Bada; amor, che mostri</l>
+<l>a me così, ch'io a te così nol renda...</l>
+<l>Delitti, il primo costa; al primo, mille</l>
+<l>ne tengon dietro, e crescon sempre; — e il sai.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Io t'odio già, s'oltre prosiegui. Ah! pria</l>
+<l>d'essermi amante, eri a Creonte figlio:</l>
+<l>forte, infrangibil, sacro, e il primo sempre</l>
+<l>d'ogni legame. Pensa, Emon, deh! pensa,</l>
+<l>che di un tal nodo io vittima pur cado.</l>
+<l>Sa il ciel, s'io t'amo; eppur tua man rifiuto,</l>
+<l>sol perché meco non si adirin l'ombre</l>
+<l>inulte ancor de' miei. La morte io scelgo,</l>
+<l>la morte io vo', perché il padre infelice</l>
+<l>dura per lui non sopportabil nuova</l>
+<l>di me non oda. — Ossequioso figlio</l>
+<l>vivi tu dunque a scellerato padre.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Il suo furor meglio soffrir poss'io,</l>
+<l>che non la tua pietà. — Di qui si tolga. —</l>
+<l>Vanne una volta, vanne. Il sol tuo aspetto</l>
+<l>fa traviare il figliuol mio. — Nell'ora</l>
+<l>ch'io t'ho prefissa, Eurimedonte, in campo</l>
+<l>traggasi; e v'abbia, anzi che morte, tomba.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>CREONTE, EMONE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>— Pria dell'ora prefissa, in campo udrassi</l>
+<l part="I">di me novella.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Emon fia in sé tornato,</l>
+<l>pria di quell'ora assai. — Le tue minacce</l>
+<l>antivenir potrei: — ma, del mio amore</l>
+<l>darti vo' più gran pegno; in te, nel tuo</l>
+<l>gran cor fidarmi, e in tua virtù primiera,</l>
+<l part="I">ch'io spenta in te non credo.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">— Or va, fia degna</l>
+<l>quant'io farò, di mia virtù primiera.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>CREONTE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>— L'indole sua ben so: più che ogni laccio,</l>
+<l>sensi d'onor lo affrenano: gran parte</l>
+<l>del suo furor la mia fidanza inceppa...</l>
+<l>Pur, potrebb'egli, ebro d'amor fors'oggi,</l>
+<l>alla forza? .. Ma è lieve a me i suoi passi</l>
+<l>spiar, deluder, rompere: di vita</l>
+<l>tolta Antigone prima, il tutto poscia,</l>
+<l>Tesèo placar, silenzio imporre al volgo,</l>
+<l>riguadagnarmi il figlio, il tutto è nulla. —</l>
+<l>Ma, che farò di Argìa? — Guardie, a me tosto</l>
+<l>Argìa si tragga. — Util non m'è sua morte;</l>
+<l>l'ira d'Adrasto anzi placar mi giova:</l>
+<l>troppi ho nemici già. Mandarla io voglio</l>
+<l>in Argo al padre: inaspettato il dono,</l>
+<l>gli arrecherà più gioia; e a me non poco</l>
+<l>così la taccia di crudel fia scema.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>CREONTE, ARGIA, <emph>guardie</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Vieni, e mi ascolta, Argìa. — Dolor verace,</l>
+<l>amor di sposa, e pio desir, condotta</l>
+<l>ebberti in Tebe, ove il divieto mio</l>
+<l>romper tu sola osato non avresti...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="I">T'inganni, io sola.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Ebben, rotto lo avresti,</l>
+<l>ma per pietà, non per dispetto, a scherno</l>
+<l>del mio sovran poter; non per tumulti</l>
+<l>destare: io scerno la pietà, l'amore,</l>
+<l>dall'interesse che di lor si vela.</l>
+<l>Crudo non son, qual pensi; abbine in prova</l>
+<l>salvezza e libertà. Di notte l'ombre</l>
+<l>scorta al venir ti furo; al sol cadente,</l>
+<l>ti rimenino al padre in Argo l'ombre.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>Eterno ad Argo già diedi l'addio:</l>
+<l>del morto sposo le reliquie estreme</l>
+<l>giacciono in Tebe; in Tebe, o viva, o morta,</l>
+<l part="I">io rimanermi vo'.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">La patria, il padre,</l>
+<l>il pargoletto tuo, veder non brami?</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>D'amato sposo abbandonar non posso</l>
+<l part="I">il cener sacro.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">E compiacer pur voglio</l>
+<l>in ciò tue brame: ad ottener di furto</l>
+<l>l'urna sua ne venivi; apertamente</l>
+<l>abbila, e il dolce incarco in Argo arreca.</l>
+<l>Vanne; all'amato sposo, ivi fra' tuoi,</l>
+<l>degna del tuo dolore ergi la tomba.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l>E fia pur ver? tanta clemenza, or donde,</l>
+<l>come, perché? Da quel di pria diverso</l>
+<l part="I">esser puoi tanto, e non t'infinger?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Visto</l>
+<l>mi hai tu poc'anzi in fuoco d'ira acceso;</l>
+<l>ma, l'ira ognor me non governa; il tempo,</l>
+<l part="I">la ragion la rintuzza.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Il ciel benigno</l>
+<l>conceda a te lungo e felice impero!</l>
+<l>Tornato sei dunque più mite? oh quanta</l>
+<l>gioia al tuo popol, quanta al figliuol tuo</l>
+<l>di ciò verrà! Tu pur pietà sentisti</l>
+<l>del caso nostro; e la pietade in noi</l>
+<l>tu cessi al fine di appellar delitto;</l>
+<l>e l'opra, a cui tu ne spingevi a forza,</l>
+<l part="I">a noi perdoni...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="M">A te perdono.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Oh! salva</l>
+<l part="I">Antigone non fia?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">L'altrui fallire</l>
+<l part="I">non confondo col tuo.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Che sento? Oh cielo!</l>
+<l part="I">ancor fra lacci geme?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">E dei tant'oltre</l>
+<l part="I">cercar? ti appresta al partir tuo.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Ch'io parta?</l>
+<l>che nel periglio la sorella io lasci?</l>
+<l>Invan lo speri. A me potea il perdono</l>
+<l>giovar, dov'ella a parte pur ne entrasse;</l>
+<l>ma in ceppi sta? pena crudel fors'anco</l>
+<l>a lei si appresta? io voglio ceppi; io voglio</l>
+<l part="I">più cruda ancor la pena...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">In Tebe, io voglio;</l>
+<l>non altri; e al voler mio cede ciascuno. —</l>
+<l>Mia legge hai rotta; e sì pur io ti assolvo:</l>
+<l>funereo rogo incendere al marito</l>
+<l>volevi; e il festi: il cener suo portarti</l>
+<l>in Argo; ed io tel dono. — Or, che più brami?</l>
+<l>che ardisci più? Dell'oprar mio vuoi conto</l>
+<l part="I">da me, tu?...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Prego; almen grazia concedi,</l>
+<l part="I">ch'io la rivegga ancora.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">In lei novello</l>
+<l>ardir cercar, che in te non hai, vuoi forse? —</l>
+<l>Di Tebe uscir, tosto che annotti, dei:</l>
+<l>irne libera in Argo ove non vogli,</l>
+<l part="I">a forza andrai.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Più d'ogni morte è duro</l>
+<l>il tuo perdon: morte, ch'a ogni altri dai,</l>
+<l>perché a me sola nieghi? Orror, che t'abbi</l>
+<l>di sparger sangue, già non ti rattiene.</l>
+<l>D'Antigone son io meno innocente,</l>
+<l part="I">ch'io pur non merti il tuo furore?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">O pena</l>
+<l>reputa, o grazia, il tuo partir, nol curo;</l>
+<l>purché tu sgombri. — Guardie, a voi l'affido:</l>
+<l>su l'imbrunire, alla Emolòida porta</l>
+<l>scenda, e al confin d'Argo si tragga: ov'ella</l>
+<l>andar negasse, a forza si strascini. —</l>
+<l part="I">Torni intanto al suo carcere.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Mi ascolta...</l>
+<l part="I">abbi pietade...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="M">Esci. —</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>CREONTE</stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Trovar degg'io</l>
+<l>al mio comando, o sia pietoso, o crudo,</l>
+<l>ribelli tutti? — E obbediran pur tutti.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>ANTIGONE <emph>tra le guardie</emph></stage>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l>Su, mi affrettate, andiam; sì lento passo</l>
+<l>sconviensi a chi del sospirato fine</l>
+<l>tocca la meta... Impietosir voi forse</l>
+<l>di me potreste?... Andiam. — Ti veggo in volto</l>
+<l>terribil morte, eppure di te non tremo. —</l>
+<l>D'Argìa sol duolmi: il suo destin (deh! dica)</l>
+<l>chi 'l sa di voi?... nessun?... Misera Argìa!...</l>
+<l part="I">sol di te piango... Vadasi.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>ANTIGONE, ARGIA <emph>tra guardie</emph></stage>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Di Tebe</l>
+<l>dunque son io scacciata?... Io porto, è vero,</l>
+<l>meco quest'urna, d'ogni mio desire</l>
+<l>principio, e fin;... ma, alla fedel compagna</l>
+<l part="I">neppur l'ultimo addio!...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Qual odo io voce</l>
+<l part="I">di pianto?...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="M">Oh ciel! chi veggio?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="M">Argìa!</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Sorella...</l>
+<l>oh me felice! oh dolce incontro! — Ahi vista!</l>
+<l part="I">carche hai le man di ferro?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ove sei tratta?</l>
+<l part="I">deh! tosto dimmi.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">A forza in Argo, al padre.</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="I">Respiro.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">A vil tanto mi tien Creonte,</l>
+<l part="I">che me vuol salva: ma, di te...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">— Se in voi,</l>
+<l>guardie, pur l'ombra è di pietà, concessi</l>
+<l>brevi momenti al favellar ne sieno. —</l>
+<l>Vieni, sorella, abbracciami; al mio petto</l>
+<l>che non ti posso io stringere? d'infami</l>
+<l>aspre ritorte orribilmente avvinta,</l>
+<l>m'è tolto... Ah! vieni, e al tuo petto me stringi.</l>
+<l>Ma che veggo? qual pegno al sen con tanta</l>
+<l>gelosa cura serri? un'urna?... Oh cielo!</l>
+<l>cener del mio fratello, amato pegno,</l>
+<l>prezioso e funesto;... ah! tu sei desso. —</l>
+<l>Quell'urna sacra alle mie labbra accosta. —</l>
+<l>Delle calde mie lagrime bagnarti</l>
+<l>concesso m'è, pria di morire!... Io tanto</l>
+<l>non sperava, o fratello;... ecco l'estremo</l>
+<l>mio pianto; a te ben io il doveva. — O Argìa,</l>
+<l>gran dono è questo: assai ti fu benigno</l>
+<l>Creonte in ciò: paga esser dei. Deh! torna</l>
+<l>in Argo ratta; al desolato padre</l>
+<l>reca quest'urna... Ah! vivi; al figlio vivi,</l>
+<l>e a lagrimar sovr'essa; e, fra... i tuoi... pianti...</l>
+<l part="I">anco rimembra... Antigone...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Mi strappi</l>
+<l>il cor... Mie voci... tronche... dai... sospiri...</l>
+<l part="I">Ch'io viva,... mentre... a morte?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">A orribil morte</l>
+<l>io vado. Il campo, ove la scorsa notte</l>
+<l>pietose fummo alla grand'opra, or debbe</l>
+<l>essermi tomba; ivi sepolta viva</l>
+<l part="I">mi vuol Creonte.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="M">Ahi scellerato!...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ei sceglie</l>
+<l>la notte a ciò, perch'ei del popol trema. —</l>
+<l>Deh! frena il pianto: va'; lasciami; avranno</l>
+<l>così lor fine in me di Edippo i figli.</l>
+<l>Io non men dolgo; ad espiare i tanti</l>
+<l>orribili delitti di mia stirpe,</l>
+<l part="I">bastasse pur mia lunga morte!...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Ah! teco</l>
+<l>divider voglio il rio supplizio; il tuo</l>
+<l>coraggio addoppia il mio; tua pena in parte</l>
+<l part="I">fia scema forse...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Oh! che di' tu? Più grave</l>
+<l part="I">mille volte saria.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Morendo insieme,</l>
+<l>potremmo almen di Polinice il nome</l>
+<l part="I">profferire; esortarci, e pianger...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Taci...</l>
+<l>deh! non mi far ripiangere... La prova</l>
+<l>ultima or fo di mia costanza. — Il pianto</l>
+<l part="I">più omai non freno...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Ahi lassa me! non posso</l>
+<l part="I">salvarti? oh ciel! né morir teco?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ah! vivi.</l>
+<l>Di Edippo tu figlia non sei; non ardi</l>
+<l>di biasmevole amore in cor, com'io;</l>
+<l>dell'uccisore e sperditor de' tuoi</l>
+<l>non ami il figlio. Ecco il mio fallo; il deggio</l>
+<l>espiar sola. — Emone, ah! tutto io sento,</l>
+<l>tutto l'amor, che a te portava: io sento</l>
+<l>il dolor tutto, a cui ti lascio. — A morte</l>
+<l>vadasi tosto. — Addio, sorella,... addio.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>CREONTE, ANTIGONE, ARGIA, <emph>guardie</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Che più s'indugia? ancor di morte al campo</l>
+<l>costei non giunse? Oh! che mai veggo? Argìa</l>
+<l>seco è? che fu? chi le accoppiò? — Di voi</l>
+<l part="I">qual mi tradisce?</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">I tuoi, di te men crudi,</l>
+<l>concesso n'han brevi momenti. A caso</l>
+<l>qui c'incontrammo: io corro al campo, a morte;</l>
+<l>non t'irritar, Creonte. Opra pietosa,</l>
+<l>giust'opra fai, serbando in vita Argìa.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="I">Creonte, deh! seco mi lascia...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Ah! fuggi,</l>
+<l part="I">pria che in lui cessi la pietà.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Si tragga</l>
+<l part="I">Argìa primiera al suo destino...</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Ahi crudi!</l>
+<l part="I">svellermi voi?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">L'ultimo amplesso dammi.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Stacchisi a forza; si strappi, strascinisi:</l>
+<l part="I">tosto, obbedite, io 'l voglio. Itene.</l>
+</sp>
+<sp><speaker><emph>Argia</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l part="I">non ti vedrò più mai?...</l>
+</sp>
+<sp><speaker><emph>Antigone</emph></speaker>
+<l part="F">Per sempre,... addio...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>CREONTE, ANTIGONE, <emph>guardie</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Or, per quest'altra parte, al campo scenda</l>
+<l>costei... Ma no. — Donde partissi, or tosto</l>
+<l>si riconduca: entrate. — Odimi, Ipsèo.<note resp="aut" place="foot" anchored="yes">Gli favella alcune parole all'orecchio.</note> —</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>CREONTE</stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>— Ogni pretesto così tolto io spero</l>
+<l>ai malcontenti. Io ben pensai: cangiarmi</l>
+<l>non dovea, che così;... tutto ad un tempo</l>
+<l>salvo ho così. — Reo mormorar di plebe</l>
+<l>da impazienza natural di freno</l>
+<l>nasce; ma spesso di pietà si ammanta.</l>
+<l>Verace, o finta, è da temersi sempre</l>
+<l>pietà di plebe; or tanto più, che il figlio</l>
+<l>instigator sen fa. — Vero è, pur troppo! —</l>
+<l>Per ingannar la sua mortal natura,</l>
+<l>crede invano chi regna, o creder finge,</l>
+<l>che sovrumana sia di re la possa:</l>
+<l>sta nel voler di chi obbedisce; e in trono</l>
+<l>trema chi fa tremar. — Ma, esperta mano</l>
+<l>prevenir non si lascia: un colpo atterra</l>
+<l>l'idol del volgo, e in un suo ardir, sua speme,</l>
+<l>e la indomabil non saputa forza. —</l>
+<l>Ma qual fragor suona dintorno? Oh! d'arme</l>
+<l>qual lampeggiar vegg'io? Che miro? Emone</l>
+<l>d'armati cinto?... incontro a me? — Ben venga;</l>
+<l part="I">in tempo ei vien.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>CREONTE, EMONE, <emph>seguaci d'Emone</emph></stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="M">Figlio, che fai?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Che figlio?</l>
+<l>Padre non ho. D'un re tiranno io vengo</l>
+<l>l'empie leggi a disfar: ma, per te stesso</l>
+<l>non temer tu; ch'io punitor non vengo</l>
+<l>de' tuoi misfatti: a' Dei si aspetta: il brando,</l>
+<l>per risparmiar nuovi delitti a Tebe,</l>
+<l part="I">snudato in man mi sta.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Contro al tuo padre,...</l>
+<l>contra il tuo re, tu in armi? — Il popol trarre</l>
+<l>a ribellar, certo, è novello il mezzo</l>
+<l>per risparmiar delitti... Ahi cieco, ingrato</l>
+<l>figlio!... mal grado tuo, pur caro al padre! —</l>
+<l>Ma di': che cerchi? innanzi tempo, scettro?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Regna, prolunga i giorni tuoi; del tuo</l>
+<l>nulla vogl'io: ma chieggo, e voglio, e torre</l>
+<l>saprommi io ben con questi miei, con questo</l>
+<l>braccio, ed a forza, il mio. Trar di tue mani</l>
+<l part="I">Antigone ed Argìa...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Che parli? — Oh folle</l>
+<l>ardire iniquo! osi impugnar la spada,</l>
+<l>perfido, e contra il genitor tu l'osi,</l>
+<l>per scior dai lacci chi dai lacci è sciolto? —</l>
+<l>Libera già, su l'orme prime, in Argo</l>
+<l>Argìa ritorna; in don la mando al padre:</l>
+<l>e a ciò finor non mi movea, ben vedi,</l>
+<l part="I">il terror del tuo brando.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">E qual destino</l>
+<l part="I">ebbe Antigone?...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Anch'ella or or fu tratta</l>
+<l>dallo squallor del suo carcere orrendo.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="I">Ov'è? vederla voglio.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Altro non brami?</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Ciò sta in me solo: a che tel chieggo? In questa</l>
+<l>reggia (benché non mia) per brevi istanti</l>
+<l>posso, e voglio, dar legge. Andiamo, o prodi</l>
+<l>guerrieri, andiam: d'empio poter si tragga</l>
+<l>regal donzella, a cui tutt'altro in Tebe</l>
+<l part="I">si dee, che pena.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">I tuoi guerrier son vani;</l>
+<l>basti a tanto tu solo: a te chi fia</l>
+<l>ch'osi il passo vietare? Entra, va', tranne</l>
+<l>chi vuoi; ti aspetto, io vilipeso padre,</l>
+<l>qui fra tuoi forti umìle, infin che il prode</l>
+<l part="I">liberator n'esca, e trionfi.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">A scherno</l>
+<l>tu parli forse; ma davvero io parlo.</l>
+<l>Mira, ben mira, s'io pur basto a tanto.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l>Va', va': <note resp="aut" place="foot" anchored="yes">S'apre la scena, e si vede il corpo di Antigone.</note> Creonte ad atterrir non basti.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Che veggio?... Oh cielo!... Antigone.., svenata! —</l>
+<l part="I">Tiranno infame,... a me tal colpo?</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Atterro</l>
+<l>così l'orgoglio: io fo così mie leggi</l>
+<l>servar; così, fo ravvedersi un figlio.</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Ravvedermi? Ah! pur troppo a te son figlio!</l>
+<l>Così nol fossi! in te il mio brando.<note resp="aut" place="foot" anchored="yes">Si avventa al padre col brando, ma istantaneamente lo ritorce in se stesso, e cade trafitto.</note> — Io... moro...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="I">Figlio, che fai? t'arresta. —</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Or, di me senti</l>
+<l>tarda pietà?... Portala, crudo, altrove...</l>
+<l>Lasciami deh! non funestar mia morte...</l>
+<l>Ecco, a te rendo il sangue tuo; meglio era</l>
+<l part="I">non darmel mai.</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Figlio!... ah! ne attesto il cielo...</l>
+<l>mai non credei, che un folle amor ti avria</l>
+<l part="I">contro a te stesso...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">... Va',... cessa; non farmi</l>
+<l>fra disperate imprecazioni orrende</l>
+<l>finir miei giorni... Io... ti fui figlio in vita...</l>
+<l part="I">tu, padre a me,... mai non lo fosti...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Oh figlio!...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l>Te nel dolore, e fra i rimorsi io lascio. —</l>
+<l>Amici, ultimo ufficio... il moribondo</l>
+<l>mio corpo... esangue,... di Antigone... al fianco</l>
+<l>traggasi;... là, voglio esalar l'estremo</l>
+<l part="I">vital... mio... spirto...</l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Oh figlio... amato troppo!...</l>
+<l>e abbandonar ti deggio? orbo per sempre</l>
+<l part="I">rimanermi?...</l>
+</sp>
+<sp><speaker><emph>Emone</emph></speaker>
+<l part="F">Creonte, o in sen m'immergi</l>
+<l>un'altra volta il ferro,... o a lei dappresso</l>
+<l part="I">trar... mi... lascia,... e morire...<note resp="aut" place="foot" anchored="yes">Viene lentamente strascinato da' suoi seguaci verso il corpo d'Antigone.</note></l>
+</sp>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">Oh figlio!... Oh colpo</l>
+<l part="I">inaspettato!<note resp="aut" place="foot" anchored="yes">Si copre il volto, e rimane immobile,finché Emone sia quasi affatto fuori dalla vistadegli spettatori.</note></l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VII</head>
+<stage>CREONTE</stage>
+<sp><speaker><emph>Creonte</emph></speaker>
+<l part="F">— O del celeste sdegno</l>
+<l>prima tremenda giustizia di sangue,...</l>
+<l>pur giungi, al fine... Io ti ravviso. — Io tremo.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,3579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Polissena</title>
+      <author>Giovanni Carmignani</author>
+    </titleStmt>
+    <extent>152 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000059</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Polissena tragedia di Giov. Carmignani</title>
+        <author>Carmignani, Giovanni</author>
+        <publisher>nella stamperia Bonducciana</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1789</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="codice">Italiano</language><language id="lat">Latino</language><language id="fre">Francese</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2000-02-28T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Patricia Frosini</name>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2000-02-28T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Patricia Frosini</name>
+        <name>CIBIT-Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-01-30T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2003-03-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<pb n="III"/>
+<head>ALL'AMICIZIA </head>
+<lg>
+<l><foreign lang="lat"><emph>O et praesidium , et
+	 dulce</emph> decus <emph>meus!
+	 <abbr>Hor.</abbr> <abbr>Od.</abbr>
+	 <num>I</num> <abbr>Lib.</abbr> <num>I</num></emph></foreign></l>
+<l> Di quest'Anima soave cura, </l>
+<l>Dono il più nobile della Natura,</l>
+<l>Laccio di teneri leggiadri cuori,</l>
+<l>Tu, che i purissimi tuoi casti ardori,</l>
+<l>Onde un sensibile seno avvampasti</l>
+<l>Novel Prometeo in Ciel furasti,</l>
+<l>Bella Amicizia diletto Nume</l>
+<l>Dalle non lubriche candide piume</l>
+<l>Del soavissimo tuo Trono al piede</l>
+<l>Trono, ove il vizio non ha sua sede,</l>
+<l>Ma dove un facile contegno arride,</l>
+<l>E placidissima Virtù s'asside,</l>
+<l>Questa, che umilioti debil fatica</l>
+<l>Accoglier degnati con destra amica.</l>
+<l>Se dall'Etereo tuo Genio spinto</l>
+<l>Mio piè il difficile Coturno ha cinto,</l>
+<l>E all'ombra Delfica del sacro alloro</l><pb n="IV"/>
+<l>Temprando l'umili miei corde d'oro</l>
+<l>Sulle vestigia di scorta Achea</l>
+<l>Seguii la tragica terribil Dea,</l>
+<l>Tutto, s'io scossimi di fama al suono,</l>
+<l>Bella Amicizia, tutto è tuo dono.</l>
+<l>Me della Gloria all'aureo Tempio</l>
+<l>Tentò di spingere tuo dolce esempio;</l>
+<l>Te indivisibile d'Amor compagna,</l>
+<l>Un nuovo l'anima fuoco accompagna,</l>
+<l>Amor dall'aurea face, e dal dardo</l>
+<l>I cuori a vincere Nume non tardo.</l>
+<l>Se di voi spingemi la doppia brama</l>
+<l>Ad opre nobili Virtù mi chiama; </l>
+<l>Per voi l'<emph>Invidia</emph> morsi non ave, </l>
+<l>E il suo la Cetera ha più soave.</l>
+<l>Per voi dell'Erebo sprezzar poteo</l>
+<l>L'orror l'intrepido Figlio d'Egeo,</l>
+<l>E oltre le Stigie onde incantate</l>
+<l>Fe l'Ombre piangere il Tracio Vate.</l>
+<l>Per voi la Reggia vider d'Averno,</l>
+<l>L'Urne, il Patibolo, e il Cuore eterno.</l>
+<l>Per voi sue ferree leggi interrotte</l>
+<l>L'inesorabile eterna Notte</l>
+<l>Mirò l'insolite alte venture,</l>
+<l>O di quest'Anima soavi cure.</l>
+    </lg>
+</div1>
+<div1 type="prefazione">
+<head>PREFAZIONE</head><pb n="V"/>
+<p><emph>Io non dò quest'edizione, che tremando.
+Tante opere applaudite al Teatro,
+e disprezzate sotto gli occhi del Lettore
+mi fanno temere un evento simile
+per la mia. Una, o due situazioni, l'arte,
+la destrezza degl'Attori, e qualche
+altra felice combinazione hanno potuto
+conciliarmi alle rappresentazioni i suffragj
+del Pubblico. Ma vi abbisognano dei
+meriti ben superiori per prodursi al gran
+giorno della stampa. Così presso a poco
+scriveva il Poeta-Filosofo di</emph> Ferney <emph>nel
+produrre la sua</emph> Marianne, <emph>e così posso
+dir'io. Una condotta presso che irreprensibile,
+un'arte grande d'interessar
+sempre, e di non annoiar mai, uno stile
+terso, e robusto nel tempo medesimo,
+ecco ciò, che potrebbe qualificare una
+buona Tragedia. Si deve commuovere, si
+deve atterrire in ogni benché minima situazione,
+e allora si è tragici. Un tratto
+snervato, un colorito poco vivace, un'
+<pb n="VI"/>
+espressione non misurata, e una situazione,
+che troppo s'accosti al comico,
+tutto questo può scemare il merito d'una
+produzione delle più applaudite.</emph> I Rimpiattarelli
+<emph>di Nerone, le troppo comiche</emph>
+astuzie <emph>d'un vecchio Rè adoprate per
+venire in chiaro qual de' due suoi figli
+è amato da una bella Principessa, la</emph>
+viltà <emph>d'un Massimo, che non scuopre
+una congiura dall'altra parte tanto importante,
+che per essere scioccamente amoroso
+di una, di cui egli deve certo conoscere
+il cuore inclinato ad amare altri,
+e ne adduca una ragione</emph>
+<foreign lang="lat">L'amour rend tout permis;
+Un venerable amant ne connoit point damis
+</foreign><emph>Gl'</emph> amori <emph>d'un vecchio Generale assassinato
+vilmente da un rival furibondo;
+Ecco ciò che ha potuto in qualche maniera
+far poco rispettare l'inimitabili
+rappresentanze di</emph> Brittannico, <emph>di</emph> Mitridate,
+<emph>di</emph> Cinna, <emph>e di</emph> Sertorio <emph>dai tratti
+pungenti dei Critici un po' troppo scrupolosi
+è vero, ma non per questo poco
+ragionevoli.
+A fronte di tutto ciò come non spaventarsi
+al solo nome di</emph> Tragedia <emph>? Come
+incoraggiarsi a por piede in una carriera
+così scabrosa, e così ardua dove
+<pb n="VII"/>
+ hanno potuto non di rado inciampare gli
+Autori immortali del</emph> Cid, <emph>d'</emph>Atalìa, <emph>d' </emph>
+Atreo, <emph>e di</emph> Semiramide?
+<emph>L'Italia è stat quasi sempre priva
+di Genj, che abbiano trattato con vera
+dignità, e con successo il conturno, ed il
+pugnale sanguinoso di Melpomene. Le
+ragioni ne son troppo note perché io le
+debba ripetere. Non che Ella non abbia
+avuti i suoi Tragici anco i più celebri;
+le altre Nazioni non sono che a lei debitrici
+della Gloria a cui hanno potuto
+far risalire il loro Teatro. La munificenza
+di Leone <num>X</num> si vide porgere la mano,
+e far risorgere dall'oblio, in cui fino
+allora era vilmente giaciuta, l'arte
+divina dei</emph> Sofocli, <emph>e degl'</emph> Euripidi.
+<emph>Questo gran Mecenate dei Letterati, e
+dei Talenti del suo Secolo profondeva tesori
+immensi per far rappresentare con
+la dovuta magnificenza, e con un apparato
+sorprendente la prima Tragedia, che
+avesse veduta l'Europa dalla decadenza
+dell'Impero in poi. La</emph> Sofonisba <emph>del</emph>
+Trissino <emph>a Vicenza, la</emph> Rosamonda <emph>del</emph>
+Rucellai <emph>a Firenze facevano echeggiare
+l'Italia degl'applausi dovuti a que' due
+celebri Scrittori prima che la Spagna,
+l'Inghilterra, e la Francia conoscessero
+<pb n="VIII"/>
+l'opere teatrali dei</emph> Lopez de Vega, <emph>dei</emph>
+Shakespear, <emph>dei</emph> Mairet, <emph>e dei</emph> Rotrou.
+<emph>Il solo</emph> Metastasio <emph>sarebbe stato forse
+un Genio veramente tragico, e avrebbe
+fornito il nostro Teatro di rappresentanze
+così sublimi da non farci invidiare
+alla Francia i</emph> Racine, <emph>e i</emph> Voltaire, <emph>se
+non avesse dovuto scrivere al gusto dei
+tempi, in cui scriveva. Il trasporto per
+la Musica ha riportata sempre, almeno
+in Italia, la preferenza sopra il buon
+gusto per la vera Poesia.</emph> Metastasio <emph>ha
+composti dei Drammi, che son capi
+d'Opera, e che per esser troppo belli hanno
+chiuso il passo a chiunque avesse avuto
+il coraggio di metter piede nella sublime
+carriera, che egli ha così inimitabilmente
+battuta.
+Il gusto per altro per la Tragedia
+sembra aver incominciato a dominare gli
+spiriti, e i talenti d'Italia. Ciò forse
+non deve ripetersi, che da una plausibile
+emulazione, e da un entusiasmo di
+arditezza, che hanno potuto eccitare negli
+animi l'ammirazione, e l'applauso,
+che si sono attirato sulle nostre Scene le
+produzioni immortali a noi pervenute
+d'oltre i Monti. Il nostro Teatro è al presente
+inondato da una quantità pressoché
+<pb n="IX"/>
+ prodigiosa di tragiche produzioni. Fra un
+infinità di Seguaci dell'Italiana Melpomene
+si vedono signoreggiare i Genj dei</emph>
+Maffei, <emph>degl'</emph> Alfieri, <emph>dei</emph> Pindemonti,
+<emph>dei</emph> Campi, <emph>dei</emph> Guerra, <emph>e dei varj altri
+celebri Scrittori.
+A fronte di questo io devo produrmi
+al gran giorno, e all'aria di pedanteria,
+con cui mi presento si può dedurre
+quale possa essere il mio coraggio.</emph> <foreign lang="lat">Spes
+est animi nostra timore minor. </foreign><emph>La Tragedia,
+che io offro agl'occhi del Pubblico
+è stata da me composta nell'età</emph> precisamente,
+<emph>in cui il Voltaire compose il
+suo Edipo. Lungi dal reputare sulle mie
+labbra questa protesta un effetto di amor
+proprio, o di vana-gloria poco riflessiva,
+ella non è, che l'effetto del ribrezzo,
+con cui io m'induco a dare alla luce
+questa mia produzione. Voltaire non ebbe
+scrupolo nessuno a premettere, che la
+Tragedia, di cui egli dava l'edizione
+era il parto della fantasia d'un Giovine
+di diciott'anni, dovrò dunque averlo
+io? So benissimo, che queste proteste
+sono più che inutili, e che a nulla servono
+per garantire una produzione dalle
+critiche dei Giudiziosi, e dalle invettive
+dei Maligni. Il Pubblico è un Giudice
+<pb n="X"/>
+inesorabile, che non ascolta altro
+che se stesso; e il proprio sentimento
+vuol dirlo con libertà, e senza ritegno
+nessuno. Egli non conosce in una produzione,
+che il merito, o il demerito di
+essa, e ben disse l'ingegnoso</emph> <foreign lang="fre">Boileau
+Un Auteur a genoux dans une
+humble Préface
+Au Lecteur, qu'il ennuye a beau
+demander grace. </foreign>
+Polissena <emph>ebbe sulle Scene un incontro
+più che fortunato: Ma questo è nulla.
+L'abilità, l'arte, e la destrezza degl'
+Attori, che la rappresentarono fu ciò
+sicuramente, che contribuì non poco a
+sostenere questa</emph> Tragedia. <emph>Io sono il
+primo a convenirne, lontano da oppormici.
+L'abile Signor Pietro Andolfati,
+che con un'energia, e con un valore
+veramente tragico sostenne il carattere
+di</emph> Pirro, <emph>e lo espresse così al vivo tanto
+nello sdegno, che nell'amore; l'inarrivabile,
+la sensibile, la vaga</emph> Polissena,
+<emph>che poté spremere dagl'occhi d'un
+Pubblico giudizioso, e imparziale le
+più soavi lacrime, che formeranno sempre
+l'elogio il più eloquente di questa
+Giovine Attrice; Questi due celebri Attori,
+senza pure escluderne gl'altri,
+<pb n="XI"/>
+che recitarono nella Tragedia furono
+quelli s enza dubbio, che le diedero quel
+poco di merito, che le si attribuì, e di
+cui ella è sicuramente sprovvista.
+Io adesso la presento agl'occhi del
+Pubblico tal quale è sortita dalla penna
+dell'Autore. Secondo il giudizio, che se
+ne darà, potrà esso prendere o incoraggiamento
+a proseguire, o, il che sarà più
+facile, un prudente partito di desistere
+da un'impresa, che mal si conviene alla
+di lui insufficienza.
+Comunque però sia di questo, egli saprà
+senza dubbio distinguere la Critica
+sensata, e giudiziosa dalla Diatriba inconveniente,
+e maligna. Rassegnatissimo
+anzi che grato alla prima egli non farà,
+che disprezzar la seconda, che suol
+esser per lo più l'appannaggio distintivo
+dell'anime vili, e invidiose. Pur
+troppo è vero, che a giorni nostri le lettere
+umane son divenute disumanissime,
+come l'ha detto un celebre Letterato del
+nostro Secolo. L'ingiurie, le cabale, le
+calunnie si son sostituite a quella dolce
+moderazione tanto propria d'un animo
+sensibile, e ben fatto, alla bella sincerità,
+al sentimento imparziale, e giudizioso.
+Pur troppo si sentono ronzare la
+<pb n="XII"/>
+per tutto di quest'oziosi, e insufficienti
+calabroni, che pascer si vorrebbero impunemente
+delle più dolci fatiche dell'
+api attente, e industriose. Si dà comunemente
+il nome di Critico a chi altro
+non conosce, che la parzialità, e la detrazione.
+Non è a questa sorte di Critici,
+che io presento la mia Tragedia,
+ma bensì ai Lettori illuminati, imparziali,
+e sinceri, poiché </emph></p>
+<lg lang="fre">
+<l>Les Muses filles du Ciel</l>
+<l>Sont des Soeurs sans jalousie </l>
+<l>Elles vivent d'ambrosie, </l>
+<l>Et non d'absinthe, &amp; de fiel; </l>
+<l>Et quand Jupiter appelle </l>
+<l>Leur assemblée immortelle </l>
+<l>Aux fêtes, qu'il donne aux Dieux </l>
+<l>Il défend, que la satyre </l>
+<l>Trouble les sons de leur lyre </l>
+<l>Par ses sons audacieux. </l>
+    </lg>
+<p rend="italic">Voltair.</p>
+</div1>
+<div1 type="dedica">
+<head>LETTERA A GAETANA ANDOLFATI</head><pb n="XIII"/>
+<p>Lettera alla signora Gaetana Andolfati giovane attrice.
+<emph>Che sostenne il carattere di</emph> Polissena
+<emph>con un successo più che favorevole.</emph></p>
+<lg>
+<l>Vaga Andolfati, non sdegnar di questi </l>
+<l>Facili Carmi, che al tuo piè presento </l>
+<l>Il più tenero omaggio, e l'umil dono. </l>
+<l>Riconoscenza di sensibil cuore </l>
+<l>Tratta sul debil vol di fragil'Estro </l>
+<l>Scorrer può far dall'inesperta penna </l>
+<l>Sensi d'ammirazion misti, e di gioja. </l>
+<l>Di Polissena, su i tuoi labbri il Fato, </l>
+<l>I suoi pianti, il suo duol, le sue sventure </l>
+<l>Tutto poteo, sol tua mercé, di pianto </l>
+<l>Fare irrigar l'impallidite guance </l>
+<l>Del commosso Uditor, spezzare il gelo </l>
+<l>De' cuori più duri, e trionfar dell'alme. </l>
+<l>Al soave girar di tue pupille, </l>
+<l>Al suono incantator della tua voce </l>
+<l>Il fiel s'estinse di maligna Invidia, </l>
+<l>E inoperose caddero al tuo piede </l><pb n="XIV"/>
+<l>Del severo Censor le rigid'armi. </l>
+<l>Già pe' tuoi merti preparato io veggo </l>
+<l>Pender dalla sanguigna altera destra </l>
+<l>Della grave Melpomene il bel Serto </l>
+<l>Che in mezzo a' plausi dell'Italia tutta </l>
+<l>Il tuo bel cuor, e l'opre tue coroni. </l>
+<l>Va', che se del feroce estinto Achille </l>
+<l>Sulla funesta taciturna Tomba </l>
+<l>Fra il comun pianto, e il replicato plauso </l>
+<l>Preda cadesti di mentita morte, </l>
+<l>L'Ara or t'attende di soave Genio </l>
+<l>Vittima d'un amor troppo beato.</l>
+    </lg>
+<p><emph>Questa Lettera fu scritta avanti gli Sponsali di
+      questa Giovine Attrice. Ciò vogliono inferire quegl'ultimi versi.</emph></p>
+</div1>
+<castList>
+<head>ATTORI</head>
+<pb n="XV"/>
+<castItem><role>PIRRO</role></castItem>
+<castItem><role>POLISSENA</role></castItem>
+<castItem><role>EROPE</role></castItem>
+<castItem><role>CALCANTE Gran Sacerdote</role></castItem>
+<castItem><role>POLIDORO</role></castItem>
+<castItem><role>ARSINDO</role></castItem>
+<castItem><role>Sacerdoti</role></castItem>
+<castItem><role>Guerrieri</role></castItem>
+<castItem><role>Guardie</role></castItem>
+<castItem><role>Popolo</role></castItem></castList>
+    <set><p>La scena è sotto le Mura di Troja
+già diroccate, ed arse.</p></set>
+  </front>
+<body>
+<div1 type="atto">
+<head>ATTO PRIMO</head>
+<div2 type="scena">
+<head>SCENA I </head>
+<pb n="XVI"/>
+<stage>S'alza il Sipario, e lascia vedere un vasto
+recinto d'antichissimo Bosco. In mezzo vi
+si scorge la tomba dell'estinto Achille. Dalla
+parte sinistra in lontano appariscono le Tende
+dell'Armata Greca. Intorno a queste si
+vedranno debolmente risplendere alcuni avanzi
+di faci preste ed estinguersi essendo
+imminente il giorno. Dalla destra si
+scuoprono le mura di Troja diroccate, e
+fumanti. Il Teatro rappresenta un'oscurissima
+notte.
+<emph>Pirro appoggiato sulla tomba del Padre denota
+in un gran dolore, ed in una specie
+d'oppressione. Arsindo è sul proscenio. Pirro
+dopo alquanto di silenzio s'alza confusamente,
+e d'un aria smarrita viene ad Arsindo.</emph></stage>
+
+<sp><speaker>PIRRO</speaker><l> Arsindo, ah! per pietà toglimi a questi </l>
+<l>Luoghi sacri alla morte ove non spira </l>
+<l>Che lutto, che terror, che pianto intorno. </l>
+<pb n="1"/>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Come, Signor! già trasgredir vorrai </l>
+<l>Al comando celeste? Egli t'astringe </l>
+<l>A consultar del Padre tuo la tomba. </l>
+<l part="I">Pirro vedi i marmi? </l>
+<stage> rend="italic"&gt;accenn. la tomba</stage>
+<l part="F">Ivi riposa </l>
+<l>Il Padre tuo, l'inclito Achille, il solo, </l>
+<l>Per cui tutta avvampò Troja superba; </l>
+<l>Calcante degli Dei l'organo augusto, </l>
+<l>Lor ministro, e interprete a te svela </l>
+<l>Esser brama del Ciel, che tu ti prostri </l>
+<l>A venerar quell'Urna ov'è raccolto </l>
+<l>Dell'estinto tuo Padre il cener sacro. </l>
+<l>L'inclita Ombra di lui placar t'è duopo, </l>
+<l>Ed ella a te paleserà qual sangue </l>
+<l>Debba grondar per ammollir quell'ira. </l>
+<l>Tu sai, che invan spiega le vele a i venti </l>
+<l>La Greca Flotta; Il Mar s'oppone, e nega </l>
+<l>Che dall'Asia depressa il Greco Legno </l>
+<l>Onde in Patria tornar l'Ancora salpi. </l>
+<l>Ciascun paventa, ed il soccorso indarno </l>
+<l>De' Numi invoca. In te, Signor, sua speme </l>
+<l>Fissa la Grecia, ed a te solo è sato </l>
+<l>Al tuo gran Genitor porger vendetta. </l>
+<l>Forse è questa la notte, in cui rompendo </l>
+<l>Quell'eterno confin dal Ciel prescritto </l>
+<l>Tra l'Averno, e la luce a lumi tuoi </l>
+<l>Mostrar debbesi Achille onde svelarti </l>
+<l>Dello sdegno de' Numi il fran segreto. </l></sp>
+<sp><speaker>PIRRO</speaker><l>  Troppo tu speri; a rosseggiar comincia </l>
+<l>Sul Balzo Oriental la bella Aurora. </l>
+<l part="I">Mira. </l>
+<stage rend="italic">quì si vedono quasi del tutto
+estinte le faci in lontano</stage>
+<pb n="2"/>
+<l part="F">Del Campo omai le faci estinte </l>
+<l>L'orror notturno a dissipare accese </l>
+<l>Non brillan più. Spettro infernal non puote </l>
+<l>Del già vicino Sol soffrir la luce. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Ebben? forse non può del tuo gran Padre </l>
+<l>Fatta già Semi-Dio l'anima augusta </l>
+<l>Cinta di gloria a te mostrarsi in mezzo </l>
+<l>Allor splendor del più brillante giorno? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Tutto è ver: Ma chi sa, che il sacro cenno, </l>
+<l>Che quì m'astringe ad ingannar non tenda </l>
+<l>La vigilanza mia! … tu sai, che schiava </l>
+<l>Polissena la sorte un dì mi fece: </l>
+<l>Agamennone l'ama: Ei tutte cerca </l>
+<l>Tutte le vie per involarla a Pirro. </l>
+<l>Calcante lo protegge … Ei seco forse </l>
+<l>Sì reo pretesto onde ingannarmi a preso.</l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Come! … Calcante! … un Sacerdote? Ah, taci: </l>
+<l>Un Ministro de' Numi in lui rispetta: </l>
+<l>Non offender così chi lor somiglia. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Infallibile dunque esser tu credi <note><foreign lang="lat"><emph>Cet organe des Dieux est il donc infallible? Un ministére saint les attache aux autels: Ils approchement des Dieux, mais ils sont des mortels</emph>. <abbr>Oedip.</abbr> Tra<abbr>g.</abbr> </foreign></note></l>
+<l>Quest'organo del Cielo? Un sacro rito </l>
+<l>È ver lo stringe all'Are, e il fa simile </l>
+<l>Quasi agli Dei, ma egl'è mortale alfine. </l>
+<l>Le passioni non toglie il sacro ammanto. </l>
+<l>Anzi v'ha chi con questo a render giunge </l>
+<l>Quasi virtudi i suoi delitti, ed avvi </l>
+<l>Più d'un fellon de' Santuarj al piede. </l><pb n="3"/>
+<l>Amico, io non ho pace … al Campo andiamo: </l>
+<l part="I">Tutto mi fa tremar. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F"> Ma qual ti punge </l>
+<l part="I">Cura sì grave? … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M"> Ah! Polissena … </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F"> E tanto </l>
+<l>La schiava tua fra' tuoi pensieri a loco? </l>
+<l part="I">Tanto degna ti sembra … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Olà: che parli? </l>
+<l>Questa schiava rispetta. A lei si debbe </l>
+<l>Qualunque omaggio, e benché vinta il collo </l>
+<l>Pieghi al giogo d'un Greco, ella è Regina.</l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Signore perdona al zelo mio … tant'ira, </l>
+<l>Un sì acerbo parlar … di Polissena </l>
+<l>Al nome sol tu di color cangiasti </l>
+<l part="I">Forse … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M"> Che dir vorrai? </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F"> Forse il tuo cuore </l>
+<l part="I">Vinto da lei … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Sì: mio fedele, io l'amo. </l>
+<l>Tacer nol posso … Il primo sei, che aperto </l>
+<l>Tutto il cuor mi leggesti, e il grande arcano </l>
+<l>Alfin m'escì chiaro da' labbri a forza. </l>
+<l>Dissimular non giova … io peno, amico, </l>
+<l>Io tutto avvampo, e i lunghieri incanti </l>
+<l>Di Polissena idolatrar m'è duopo. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I"> Oh, Ciel! </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M"> Stupisci?  </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F"> E chi stupir non debbe! </l>
+<l>Tu di Priamo uccisor, tu il più crudele </l>
+<l>De' Nemici di Troja ardere al fuoco </l>
+<l>Di Trojana beltà! … decol cotanto, </l><pb n="4"/>
+<l>Scusami, non credei d'Achille un figlio </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Ah! sol fugge l'amor chi non ha cuore! </l>
+<l>Amico, fu nella terribil notte, </l>
+<l>In cui piacque agli Dei veder distrutta </l>
+<l>La superba Ilion dall'Armi Greche, </l>
+<l>Che una dolce beltà schiavo mi rese. </l>
+<l>Col favor di Sinon le mura appena </l>
+<l>Varcar potei della Città superba, </l>
+<l>Che bramoso di strage, e sciolto il freno </l>
+<l>Al desìo di vendetta, incendio, e morte </l>
+<l>Portai dovunque, e il fulmine di Giove </l>
+<l>Brillar parea sulla fatal mia detra. </l>
+<l>Giunto alla Reggia, ove più vivo, e spesso <note><foreign lang="lat"><emph>Protinus ad sedes Priami … </emph>. <abbr>Virg.</abbr> <abbr>En.</abbr> <num>II</num>. </foreign></note></l>
+<l>Crescea l'assalto, io di mia mano infranta </l>
+<l>Con bipenne letal la maggior porta </l>
+<l>Tutta al Greco furor la strada apersi </l>
+<l>Agl'aditi reali, ed ai vestusti </l>
+<l>Tuttor vuoti di sangue atrii superbi. </l>
+<l>Pianti, singulti, e feminili strida </l>
+<l>S'udiano intorno: Ad abbracciar gl'artari </l>
+<l>Timorosa correa la turba imbelle. </l>
+<l>Oltre io mi spingo, ed inseguendo irato </l>
+<l>Polite del Re Teucro uno de' figli </l>
+<l>L'incalzo là dove piangendo insieme </l>
+<l>Col crin disciolto al vecchio Padre intorno </l>
+<l>Lacrimanti di Primao eran le Figlie. </l>
+<l>Il mio Nemico ivi disteso al suolo </l>
+<l>Il brando inalzo, e gli trafiggo il seno; </l>
+<l>A vista sì feral tutto commosso </l>
+<l>S'alza fremendo il Genitor canuto, </l>
+<l>Ed un acciar bieco impugnando, invano </l><pb n="5"/>
+<l>Sorto del Figlio a vendicar la morte </l>
+<l>Contro di me debole colpo ei vibra. </l>
+<l>Torbido allor, e di vendetta acceso </l>
+<l>Il Vecchio assalgo, ed efferando irato </l>
+<l>Con la sinistra a lui la bianca chioma </l>
+<l>La destra inalzo, e semivivo al suolo </l>
+<l>Fo dal corpo spiccar reciso il teschio.  </l>
+<l>D'un caro Padre il rimirar lo scempio </l>
+<l>Gridar le Figlie …  e Polissena … oh, Cielo! </l>
+<l>Molle di pianto alla sua Madre in braccio </l>
+<l>Pel dolor già svenuta, e quasi esangue </l>
+<l>Solo da me parea sperar mercede. </l>
+<l>Languia la sventurata, e in sen piegando </l>
+<l>Pallido il volto, e dispiegando all'aura </l>
+<l>Dolcemente negletto il crin disciolto </l>
+<l>Credimi … avria mosse le tigri al pianto. </l>
+<l>Ancor tinto di sangue il guardo volgo, </l>
+<l>E … oh! dolce incontro! … in cotal atto oppressa </l>
+<l>Miro giacer la bella mia Nemica. </l>
+<l>Facilmente s'arrende un cuor commosso: </l>
+<l>Ond'io tuttor fervido d'ira … il seno </l>
+<l>Tutto avvampar da nuovo fuoco intesi. </l>
+<l>Impallidii … mancommi il piè … m'invase </l>
+<l>Tutte le fibre, e al cuor mi scese un moto, </l>
+<l>Che tormento non fu, ma fu piacere. </l>
+<l>Ad amar comincia fin da quel punto, </l>
+<l>E a questo seno a Polissena in faccia </l>
+<l>Contro ogni voglia mia varcar fu forza </l>
+<l>Dallo sdegno all'amor il breve passo. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Deh! reprimi, Signor, se pur ti cale </l>
+<l>Dell'onor tuo, della tua gloria, in seno </l>
+<l>Reprimi alfin questo nascente affetto.</l><pb n="6"/>
+<l>Un orribil timor mi presagisce, </l>
+<l>Ch'ei fra non molto esser ti dee funesto. </l>
+<l>Lascia ogni speme, e quei maucauti moti </l>
+<l>Ond'è sospinto il giovanil tuo cuore </l>
+<l>Frena ora che il puoi; vince l'amor chi 'l fugge.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Non sperar, ch'io t'ascolti; Il Ciel in pria </l>
+<l>L'invido Ciel sulla mia testa irato </l>
+<l>Lanci senza pietà sue fiamme ultrici, </l>
+<l>Ch'io spenga nel cuor mio quel puro affetto, </l>
+<l>Che smorzar non potrà la morte istessa. </l>
+<l>Tu vola al Campo, e tutti i moti osserva </l>
+<l>E di Calcante, e del maggiore Atrida … </l>
+<l>Ah! se mai l'empio Duce a danno mio </l>
+<l>Macchina inganni, o qualche frode ordisce </l>
+<l>Paventi … Il grado in lui rispetto, è vero, </l>
+<l>Ma … mostrar gli potrei come far suole </l>
+<l>La sue vendette un disperato amante. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I"> Dunque, Signor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Cedi al mio cenno, e parti.</l>
+</sp>
+<stage rend="italic">Arsindo s'inchina, e parte.</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA II </head>
+<sp><speaker>PIRRO</speaker><l> Posso solo una volta appien disciorre </l>
+<l part="I">Libero il freno alle mie pene, o Dei! </l>
+<stage rend="italic">siede</stage>
+<l part="F">hellip; Del grande Achille il Figlio </l>
+<l>Respira in te! … Della tua Patria ancora </l>
+<l>Sei tu la speme? … Ah! ti ravviso appena. </l>
+<l>Misero! ov'è quel tuo valor primiero, </l>
+<l>Onde tenero ancor ne' tuoi verd'anni </l>
+<l>Spingendo il piè del Padre tuo sull'orme </l>
+<l><pb n="7"/>
+Della gloria le vie calcasti, ardito? </l>
+<l>Ove il rigor, che disprezzar ti fece </l>
+<l>Sordo d'amore alle più dolci voci </l>
+<l>D'ogni beltade i lusinghieri inganni? </l>
+<l>Bagnato in pria sulla marziale arena </l>
+<l>Del bel sudor della Palestra Elea </l>
+<l>L'onor, l'armi, il destrier fu sol tua cura, </l>
+<l>Ed or … torpido! … ed or schiavo infelice </l>
+<l>Piegando il collo a una passion tiranna </l>
+<l>Educato agl'Allori, ai Mirti aspiri? … </l>
+<l>Ah! invan dal sen strappar vorrei quel dardo, </l>
+<l>Che il cuor mi strazia …  e che ad amar mi spinge</l>
+<l>Ad onta mia … quella, che odiar dovrei … </l>
+<l part="I">Stelle! odiar Polissena! … </l>
+<stage rend="italic">pensa, poi con forza</stage>
+<l part="F">! no … perdona </l>
+<l>Della fierezza mia , bella mia fiamma, </l>
+<l>Perdona in me quest'infelice avanzo. </l>
+<l>Dell'uccisor del grande Achille, è vero, </l>
+<l>Tu sei germana, e il Ciel ti vuol mia schiava, </l>
+<l>Ma in te colpa non regna … Il tuo bel cuore, </l>
+<l>Cara, non è di crudeltà capace. </l>
+<l>Io t'amo … io t'idolatro … e l'amor mio, </l>
+<l>Sì quest'amor … mia speme, al suol frappoco </l>
+<l part="I">Cader farà le tue catene infrante. </l>
+<stage rend="italic">s'ascolta un lugubre mormorio nella tomba</stage>
+<l part="F">a qual grido feral … </l>
+<stage rend="italic">s'alza spaventato</stage>
+<l part="I">Da quella tomba </l>
+<l part="M">Udir si fa! … </l>
+<stage rend="italic">trema il Teatro</stage>
+<l part="F">Tremar le piante …  il suolo </l>
+<l part="I">Balza sotto il mio piè … </l>
+<stage rend="italic">va errando atterrito per il Palco</stage>
+<pb n="8"/>
+<l part="F"><emph>iel! quai rimiro </emph></l>
+<l><emph>Pallidi spettri, e formidabil'ombre </emph></l>
+<l><emph>Errar sdegnose a quest'orrore intorno? </emph></l>
+<l part="I">Numi! </l>
+<stage rend="italic">(vacilla)</stage>
+<l part="M">il cuor mi s'agghiaccia …</l>
+<stage>il Teatro trema</stage>
+<l part="F">Io tremo … il piede </l>
+<l part="I">Nega di sostenermi </l>
+<stage rend="italic">(disperato)</stage>
+<l part="F">ah! con tant'ira </l>
+<l>Che volete da me, barbari Dei?</l>
+</sp>
+<stage rend="italic">si getta a sedere</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage rend="italic">Cessa il fragore, e vedesi il gran Sacerdote Calcante
+venire a passo lento; Pirro l'osserva;
+S'alza, e dice:</stage>
+<sp><speaker>PIRRO</speaker><l part="I"> Calcante </l>
+<stage rend="italic">(andandoli incontro)</stage>
+<l part="M">quai prodigj!</l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F"> Il Ciel t'elegge </l>
+<l>Per suo vendicator; seconda, o figlio, </l>
+<l>Col voler tuo la volontà de' Numi. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Ma qual'è mai la minacciata testa, </l>
+<l>Che vuol recisa al suo furor l'Olimpo? </l>
+<l>Me l'addita, se il fai … Questa mia mano </l>
+<l>Scorrer farà l'abominevol sangue </l>
+<l>Scelto dal Cielo, e che del Dio dell'acque </l>
+<l>Molcer debbe lo sdegno, onde propizia </l>
+<l>Spinga l'aura bramata i Greci legni. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Frena il malcauto ardor. Spesso si rende </l>
+<l>Del favore de' Numi un cuore indegno </l>
+<l>Quando rapido troppo, i grandi arcani </l>
+<l>Senza adorar, vuol penetrarne il cenno. </l>
+<l>Calmati, o figlio, e l'alma tua prepara </l>
+<l>Alla grand'opra … Ella costar ti debbe. </l>
+<pb n="9"/>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Ah! ciò, Signor, ch'ho di più sacro al Mondo </l>
+<l>Ceder pronto agli Dei dolce mi fia, </l>
+<l>Se il ceder debbo. Una virtù severa </l>
+<l>Ad opra tal mi servirà di scorta. </l>
+<l>So quanto fe per sua Patria un giorno </l>
+<l>Dell'Eubea sull'arene il maggior Duce. </l>
+<l>In valor non è solo, e in queste vene </l>
+<l>Scorre limpido ancor d'Achille il sangue. </l>
+<l>Ma il credesti? … a questo cupo in mezzo </l>
+<l>Orror di morte, onde vien sparso ovunque </l>
+<l>Questo sacro recinto, all'aura sorse </l>
+<l>Mesto un grido feral da quella tomba. </l>
+<l part="I">Che mai sarà! …</l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F"> Del Padre tuo la voce, </l>
+<l>Figlio, sortir da questi marmi udisti.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I"> E che brama da me?</l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F"> Chiede vendetta.</l>
+<l>Sai, che per man del rapitore infame, </l>
+<l>Che contro l'Asia il fulmin Greco accese </l>
+<l>Cadde, ha non molto, che non valor, non forza</l>
+<l>A sì valido Eroe tolse la vita.</l>
+<l part="I">Ei tradito spirò. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Ciel! che mi narri! </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Quest'orribil segreto, è ver, coperse </l>
+<l>Con le tenebre sue finor l'oblìo; </l>
+<l>E ver, ch'io tacqui, e che soltanto Achille </l>
+<l>Fe i suoi gemiti udir da quell'orrore </l>
+<l>Ombra sdegnosa invendicata ancora. </l>
+<l>Principe … Figlio, alla tua man s'aspetta </l>
+<l part="I">Il compir la grand'opra. </l>
+<stage rend="italic">va alla tomba, e ne estrae un pugnale</stage>
+<l part="F">Ecco l'acciaro, </l>
+<l><pb n="10"/>
+L'indegno acciar, che penetrò le vie </l>
+<l>Del cuore augusto al Padre tuo tradito. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Stelle! … che sento … in rimirar quel ferro </l>
+<l>Tutte m'arde le fibre un fuoco ignoto. </l>
+<l part="I">Porgi … </l>
+<stage rend="italic">volendo impaziente il pugnale</stage>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F"> Ascoltami in pria. Giurar tu devi </l>
+<l>Su quest'acciaro a tutti i Numi in faccia </l>
+<l>Di vendicar del Padre tuo la morte.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Che? … dubitar della mia fe potresti? </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> No; ma voglion gli Dei, che all'opra astringa </l>
+<l>La tua virtude indissolubil nodo.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I"> Ebben … </l>
+<stage rend="italic">(risoluto)</stage>
+<l part="M">Ma oh Numi! </l>
+<stage rend="italic">s'arresta</stage>
+<l part="F">in appressarmi io provo </l>
+<l>Un non so che, che mi tormenta il cuore. </l>
+<l part="I">Signor … </l>
+<stage rend="italic">(esitando)</stage>
+<l part="M">Che fo? …  </l>
+<stage rend="italic">a parte</stage>
+<l part="M">giurar vorrei …</l>
+<stage rend="italic">(alto)</stage>
+<l part="F">pur sento …</l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Eh! l'Uomo estingui, e in te l'Eroe ravviva. </l>
+<l>Forse di contentar l'ombra sdegnata </l>
+<l>Paventi di colui, che ti diè vita? </l>
+<stage rend="italic">(vanno alla tomba)</stage>
+<l part="I">Vieni. Eseguisci il giuramento. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Quale, </l>
+<l>Qual mai terrore ad esitar m'induce! </l>
+<stage rend="italic">a par.</stage>
+<l part="I">Si giuri. </l>
+<stage rend="italic">alto</stage>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="M"> Ecco l'acciar.  </l>
+</sp>
+<stage rend="italic">Pirro prende il ferro</stage>
+<sp><speaker>PIRRO</speaker><l part="F"> Macchiar prometto </l>
+<l>Questo perfido ferro entro le vene </l>
+<l>A quei, che il Ciel per olocausto elegge … </l>
+<l>E su quest'urna a tutti i Numi giuro. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Degno figlio d'Achille! Il tuo deponi </l>
+<l>Innocente pugnale, e quello stringi. </l>
+<stage rend="italic">accennando quello estratto dall'urna. Pirro gli dà il proprio</stage>
+<pb n="11"/>
+<l>Quello ferir dee l'olocausto … e questo </l>
+<l>Finché l'opra fatal non sia compiuta </l>
+<l>Restar dovrà dal fianco tuo lontano </l>
+<l>Nel cupo orror di questa tomba ascoso. </l>
+<stage rend="italic">ve lo ripone</stage>
+<l>Intanto, o Figlio, il braccio tuo prepara </l>
+<l>A lacerar quell'ostinato laccio, </l>
+<l>Che per opra de' Numi al Teucro lido </l>
+<l>Tien ferme ancor le vincitrici antenne. </l>
+<l>Ma pria volgiti al Ciel; la tua virtude </l>
+<l>È grande, il so; Pur senza lui languisce. </l>
+<l>E folle è ben quei, che di troppo altero </l>
+<l>Arbitro de' suoi voti il Ciel non brama.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Tutto farò … la vittima infelice, </l>
+<l>Che il Cielo elegge a massacrar m'accingo, </l>
+<l>È già pronto il mio cuor - pur sulla scelta </l>
+<l>Tremo, Signor … </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Trema, ma sul delitto. </l>
+<l>Non paventar. Lascia, che il Ciel tu guidi </l>
+<l>Al sacrifizio, e ch'ei ti regga il braccio. </l>
+<l part="I">S'appressa alcuno … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Arsindo! che mai reca! </l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV </head>
+<stage>Calcante, Pirro, Arsindo frettoloso. </stage>
+<sp><speaker>ARSINDO</speaker><l part="I"> Corri, Signor. </l>
+<stage rend="italic">(a Pirro)</stage>
+<l part="F">Tutto è in tumulto il Campo. </l>
+<l>Agamennone freme: Egli solleva </l>
+<l>La Plebe sediziosa. A lei fu noto </l>
+<l>Il novel sacrifizio, e ciascun teme, </l>
+<l>Onde i Numi placar, della sua vita. </l>
+<l><pb n="12"/>
+Si minaccia Calcante, e te con lui. </l>
+<l>Mormora ognun, che ingannatori entrambi </l>
+<l>Per saziar la vostr'ira, e un fin privato </l>
+<l>Dello sdegno del Ciel la falsa voce </l>
+<l>Spargete ad arte, e che tuttor si vuole </l>
+<l>Far di sangue innocente il suol vermiglio. </l>
+<l>S'oppone invan de' fidi tuoi lo stuolo: </l>
+<l>Vola la Plebe alle tue tende, e i gridi </l>
+<l>Del Popol folle han preceduto il giorno. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l>  Al riparo si corra - Empj! a quel segno </l>
+<l>Giunger non puote un temerario ardire? </l>
+<l>Pirro, renditi al Campo, ed io del Cielo </l>
+<l>Implorato il favor, su' passi tuoi </l>
+<l>Pronto verrò. Vedrem se questi alteri </l>
+<l>Osan far fronte a un Sacerdote ancora. </l>
+<l>Già gl'Atridi conosco, e i lor disegni … </l>
+<l part="I">Ma … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Ti calma, ch'io pronto a tanto sdegno </l>
+<l>Volo ad impor qualche riparo almeno. </l>
+<l>E se mai furibonda, il che non credo, </l>
+<l>Spinger contra di te la cieca Turba </l>
+<l>Volesse il suo furor … pria, tel prometto, </l>
+<l>Marciar dovrà su questo corpo esangue.</l>
+</sp>
+<stage rend="italic">via</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA V </head>
+<stage rend="italic">Calcante, Arsindo.</stage>
+<sp><speaker>ARSINDO</speaker><l part="I">  Da quell'ira che speri? </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F">  Ogni soccorso.</l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I">  Ma il suo fatal amor … </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F">  Soffri, che tutta </l>
+<l><pb n="13"/>
+Spero sanar di quel gran cuor la piaga. </l>
+<l>Di già l'ostia a svenar su questa tomba </l>
+<l>L'astringe al mio voler sacra promessa. </l>
+<l>Polissena è la vittima …  il suo sangue </l>
+<l>L'Oracolo richiede; Ei sarà sparso. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I">  Ah! di Pirro pavento.  </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F">  Anch'io conosco, </l>
+<l>E con dolor, se confessar il deggio, </l>
+<l>L'indiscreto calor de' suoi trasporti. </l>
+<l>Vedo le fiamme ree de' sensi suoi; </l>
+<l>E il torrente fuocoso, a cui far sponda </l>
+<l>Procuro ognor, troppo sovente, è vero, </l>
+<l>Da me lo svelle, e troppo lungi il porta. </l>
+<l>Violento non men, che grande è nato: </l>
+<l>Tenero, ma furioso, egli è capace </l>
+<l>D'un gran delitto ancor. Del nobil sangue </l>
+<l>Che lo formò tutto l'ardor m'è noto. </l>
+<l>Ogni passione in lui furor diventa, </l>
+<l>Ma nutre ancor mille virtù, che appieno </l>
+<l>Compensar tutti ponno i vizj suoi. </l>
+<l>Di strapparli dal cor sperar mi giova </l>
+<l>Quest'affetto funesto. Or tu frattanto </l>
+<l>Vola al suo fianco, e di sedar procura </l>
+<l>Insiem con lui la sollevata Plebe. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l>  M'è legge il cenno. Ad ubbidirti io corro. </l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI </head>
+<sp><speaker>CALCANTE</speaker><l> Voi, che il cuor mi vedete, amici Numi, </l>
+<l>Deh! secondate il mio desir. Ritorni </l>
+<l><pb n="14"/>
+Alle vie di virtù quel cuor sedotto, </l>
+<l>Questo giovine Eroe, che alla mia cura </l>
+<l>Lasciò morendo un virtuoso Padre. </l>
+<l>E tu Ombra sacra, che sdegnosa ancora </l>
+<l>Forse d'intorno a me t'aggiri, calma </l>
+<l>I tuoi singulti, e di vendetta in segno </l>
+<l>Di quel sangue fatal, che tu richiedi </l>
+<l>Sparso il cenere tuo vedrai frappoco.</l>
+</sp>
+</div2>
+<trailer>Fine dell'Atto <num>I</num>.</trailer>
+   </div1>
+<div1 type="atto">
+<head>ATTO SECONDO</head>
+<div2 type="scena">
+<head>SCENA I </head>
+<pb n="15"/>
+<stage>Polidoro entra smarrito. </stage>
+<sp><speaker>POLIDORO</speaker><l> Stelle! ove son! … dove le piante aggiro </l>
+<l>Vil rifiuto dell'onde in questi lidi! </l>
+<l>In quai climi m'ha spinto egro, e languente </l>
+<l>L'implacabil destin, che ognor m'insiegue! </l>
+<l>Tutto l'onda mi tolse, e non mi resta, </l>
+<l>Che un mal fermo tuttor soffio di vita </l>
+<l>Da questo corpo ad esalar già pronto. </l>
+<l>Barbari Dei! … perché fra i gorghi immensi </l>
+<l>D'un torbido Ocean non seppellirmi,</l>
+<l>O non darmi per vinto al Trace infido? </l>
+<l>Dalle barbare mani io fuggo appena </l>
+<l>Del crudel Polimnestore, e sull'onde </l>
+<l>Cerco in preda al dolor miglior destino, </l>
+<l>Che fra l'ira de' venti, e a' lampi in mezzo </l>
+<l>Parto fatal d'un irritato Cielo </l>
+<l>Semivivo mi getta, e quasi esangue </l>
+<l>Il furor di Nettuno in queste arene.</l>
+<l>Ciel! non vedo che orror … Di questa tomba </l>
+<l>Il sacro aspetto … Il mormorio dolente </l>
+<l>Delle fronde agitate … e quest'erranti </l>
+<l>Pallid'ombre di morte … Ah! tutto accresce </l>
+<l>Di questo seno il turbamento interno. </l>
+<l part="I">Là le tende d'un Campo. </l>
+<stage rend="italic">voltandosi a sinistra, indi alla parte opposta</stage>
+<l part="F">e quà rimiro </l>
+<l>Preda d'avide fiamme, e sparsa intorno </l>
+<l><pb n="16"/>
+D'ossa insepolte, e di recisi teschj </l>
+<l>Fumar per anco una Città distrutta. </l>
+<l>Numi! sarebber mai le patrie mura </l>
+<l>Quelle, che vedi, Polidoro? … Io tremo, </l>
+<l>E un segreto terror mi dice all'alma, </l>
+<l>Che Troja è quella, e che fumanti io miro </l>
+<l>Dell'antica Ilion gl'ultimi avanzi. </l>
+<l part="I">Andiam … </l>
+<stage rend="italic">(s'incammina)</stage>
+<l part="M">Ma vengon quà due Schiave. </l>
+<stage rend="italic">(si ferma)</stage>
+<l part="F">Il cuore </l>
+<l>Agitato mi sento al loro aspetto. </l>
+<l>Di quì si fugga, e chi mai son m'ascolti.</l>
+      </sp>
+<stage rend="italic">si ritira fra gl'alberi</stage>
+</div2>
+<div2 type="scena">
+<head> SCENA II </head>
+<stage> Polissena, Erope, ambe in catene.
+Polissena mostra essere in grande agitazione; dopo
+aver fatti alcuni passi le mancan le forze;
+s'appogga ad Erope dicendo:</stage>
+<sp><speaker>POLISSENA</speaker><l part="I">  Sostienmi, amica … </l>
+</sp>
+<sp><speaker>EROPE</speaker><l part="F"> I spirti tuoi ravviva; </l>
+<l>Sorgi: Non vacillar; Del Ciel irato </l>
+<l>Con me t'attingi a sopportar lo sdegno.</l>
+     </sp>
+<stage rend="italic">la conduce sul Proscenio</stage>
+<sp><speaker>POLISSENA</speaker><l>  Ove mai mi conduci? - Ah! m'abbandona </l>
+<l>Erope, al duol, che mi soverchia il seno </l>
+<stage>siede</stage>
+<l>Oh! tristezza fatale! - Eterni Dei, </l>
+<l>Di cui tremando l'assistenza imploro,</l>
+<l>In provandola ognor deh! vi degnate </l>
+<l>Di sostener la mia costanza almeno. </l>
+<l>Disvelatemi alfin l'orror del sogno, </l>
+<l><pb n="17"/>
+Che ogni pace ritolse ai sensi miei … </l>
+<l>Ditemi almen se questi orrendi spettri </l>
+<l>Son del vostro furor gl'infausti annunzj! </l>
+</sp>
+<sp><speaker>EROPE</speaker><l> Fremer mi fai. -Da quai tartaree larce </l>
+<l>Spaventata tuttor veder ti deggio! </l>
+<l>Sempre in odio a te stessa, e in preda a mille </l>
+<l>Contrarj affetti ora di pianto aspergi </l>
+<l>Con trasporto di duol questa mia destra, </l>
+<l>Ed or fuor di te, te stessa odiando </l>
+<l>Dell'afflitto mio sen fuggi gli amplessi. </l>
+<l>Perché, da un tetro orror colpita ognora, </l>
+<l>Offusca i lumi tuoi nube di pianto? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  E tu … Amica tu stessa in questo stato </l>
+<l>Del pianto mio chieder mi puoi ragione! </l>
+<l>Ah! perché tra le fiamme, onde avvampate </l>
+<l>Caddero al suolo queste paterne Mura </l>
+<l>Involta, ed arsa io stessa ad accoppiarmi </l>
+<l>Gir non potei ne' Regni della Morte </l>
+<l>Senza catene a' miei grand'Avi al fianco? </l>
+<l>Perché al ferro nemico il collo esposto, </l>
+<l>Polissena, ancor tu di pianto asperta </l>
+<l>Del Padre tuo sul sanguinoso corpo </l>
+<l>Non cadesti trafitta, onde spirando </l>
+<l>Col sangue suo della Patria sua oppressa </l>
+<l>Smorzar  gl'incendj in qualche parte almeno? </l>
+<l part="I">O Numi! … </l>
+<stage>piange</stage>
+     </sp>
+<sp><speaker>EROPE</speaker><l> A che tuttor de' nostri mali </l>
+<l>Rinnovellar la rimembranza amara? </l>
+<l>So quanto il Ciel penar ci fece, e quanto </l>
+<l>Or fra i Nemici a sopportar ci resta.</l>
+<l>Sento, Amica, sì sento (e di te al pari) </l>
+<l>Delle nostre sventure il fatal peso. </l>
+<l><pb n="18"/>
+Ma perché mai rimproverarne i Numi! </l>
+<l>E perché lor rinfacciar tuttora </l>
+<l>Quella giusta pietà, che i giorni nostri </l>
+<l>Sempre difese? … ah! paventiam, che alfine </l>
+<l>Questa loro bontà mal corrisposta </l>
+<l>De' pianti tuoi non si ritrovi offesa. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Ah! chi pianger dovrà, se creder puoi </l>
+<l>Tu stessa, Amica, in me delitto il pianto! </l>
+<l>In mezzo al mio dolor che mai mi lascia </l>
+<l part="I">L'invido Ciel </l>
+<stage>(con disperazione)</stage>
+<l part="F">se il lacrimar mi toglie! </l>
+<l>Ecuba geme di catene avvinta </l>
+<l>Lungi da me, né mi concede almeno </l>
+<l>Per estrema mia doglia il fato avverso </l>
+<l>Qualche sollievo ne' materni amplessi. </l>
+<l>A quali eterne smanie essere io sembro </l>
+<l>Lasciata in preda! … ognun morta mi brama! </l>
+<l>Dunque, o Destin, che per soffrir non nacqui? </l>
+<l>Ognor vedrò questa mia destra oppressa </l>
+<l>Sotto il peso de' ferri … e sempre in faccia </l>
+<l>All'Uccisor del Padre mio condurre </l>
+<l>Dovrò questa mia vita! Ah! Pirro! - (Oh! nome </l>
+<l>Per me caro, e funesto a un tempo istesso!) </l>
+<l part="I">Tu sei … </l>
+<stage>(vivamente)</stage>
+<l part="M">Ciel! che dirò!</l>
+<stage>riprendendosi a parte</stage>
+<l part="F">Barbari affetti! … </l>
+<l part="I">Sventurato mio cuor! - </l>
+<stage>alto con vivacità s'alza</stage>
+<l part="F">Tutto ho perduto. </l>
+</sp>
+<sp><speaker>EROPE</speaker><l> Che? tu non conti più sul tuo Germano, </l>
+<l>Su Polidoro? ed obliar potesti </l>
+<l>Questo raggio di speme ancor non spento? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Vana speranza! - la sua morte è certa; </l>
+<l>E un sogno ancora agli occhi miei presente … </l><pb n="19"/>
+</sp>
+<sp><speaker>EROPE</speaker><l> Sulla mal certa fe perché turbarti </l>
+<l>D'una larva notturna? Una Germana? </l>
+<l>Del grande Ettore dovrà temer d'un sogno? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Volesse il Ciel, che invan tremassi! Ha sempre </l>
+<l>Tutto a temer degl'infelici il cuore. </l>
+<l>Ecuba allor, che per comun rovina </l>
+<l>Paride sventurato al giorno dette </l>
+<l>Un sogno fu, se tel rammenti, un sogno </l>
+<l>Fu di nostre sventure il nunzio infausto. </l>
+<l>Del pari un sogno i sensi suoi coperse </l>
+<l>D'un orribil terror; mentre al suo letto </l>
+<l>Fremer d'intorno, ed agitar si vide </l>
+<l>La terribil Megera ultrice fiamma. </l>
+<l>Ella le presagì, Madre infelice! </l>
+<l>Che il Figlio suo della sua Patria un giorno </l>
+<l>Lo sventurato distruttor sarebbe. </l>
+</sp>
+<sp><speaker>EROPE</speaker><l> Qual fantasma in quest'oggi, o qual sinistro </l>
+<l>Crudel presagio inorridir ti fece? </l>
+<l>Di narrarmelo ardisci; Il cuor solleva, </l>
+<l>Il racconto d'un mal ben spesso il tempra. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Qual orror! - qual spavento! - Io sola errava </l>
+<l>In questi a morte sacri orrendi asili, </l>
+<l>E fra i cupi silenzj, e l'orror tetro </l>
+<l>Di queste antiche selve irresoluto </l>
+<l>S'aggirava il mio piè da taciturne </l>
+<l>Tenebre spaventose intorno cinto. </l>
+<l>Dal mesto sen di queste auguste tombe </l>
+<l>Delle vindici Dee fatal soggiorno </l>
+<l>Furibondi sortir gemiti udia, </l>
+<l>Ed attonite in mezzo gelid'urne erravan bieche </l>
+<l><pb n="20"/>
+Mille fra lor distinte ombre di morte, </l>
+<l>Mentre lungi s'udian gl'antri selvaggi </l>
+<l>A rimbombar d'un lamentevol'eco. </l>
+<l>Quando, oh! … vista feral! - pallido in viso </l>
+<l>Tinto di sangue, e lacerato il crine </l>
+<l>Sconosciuto Garzon giacer sul suolo </l>
+<l>Da un acciaro trafitto io vedo … e sento </l>
+<l>Dirmi dal cuor, che Polidoro è quegli. </l>
+<l>Corro -  ma, oh Ciel! … da quella tomba istessa </l>
+<l>Ove il torbido Achille estinto giace </l>
+<l>Fra un turbine di fuoco, al mal distinto </l>
+<l>Cupo chiaror d'una sanguigna torcia </l>
+<l>Lacerate le vesti, e il crin coperto </l>
+<l>Di cenere freddo … a me si lancia irato </l>
+<l>Tutto asperso di sangue orrido spettro. </l>
+<l>Vendetta ei grida - ed al mio cuor lanciando </l>
+<l>Di fameliche fiamma orribil gruppo </l>
+<l>Del mio German corre sul corpo esangue, </l>
+<l>E sbranandoli il sen … Ciel! - che mai vidi! </l>
+<l>Il cuor gl'estrae - me lo presenta … e in mille </l>
+<l>Parti già lacerato al suol lo getta. </l>
+<l>Raccor volea gli sventurati avanzi </l>
+<l>Scampati al suo furor - quando impugnato </l>
+<l>Un acciaro sanguigno a Pirro il porge; </l>
+<l>Trema il mesto Garzon … ma l'ombra irata </l>
+<l>Avida di vendetta ebra gli sforza </l>
+<l>La man tremante a trapassarmi il fianco. </l>
+<l>Vibrasi il colpo … e io già stesa a terra </l>
+<l>Spirar parea - mentre saziato alfine </l>
+<l>Nell'orror della tomba il passo volto </l>
+<l>Fuggì lo Spettro; Alla sua fuga il  Cielo </l>
+<l>Fremé coi lampi, e mormorò l'Averno. </l><pb n="21"/>
+</sp>
+<sp><speaker>EROPE</speaker><l> Principessa, dal sen discaccia omai </l>
+<l>Questi torbidi oggetti, e alfin riprendi </l>
+<l>De' sensi tuoi la già perduta calma. </l>
+<l>Tutto, lo so, contro di noi congiura; </l>
+<l>Tutto estinte ci vuol … ma contro il Fato </l>
+<l>Cosa giova l'opporsi? È la costanza, </l>
+<l>Tu il sai, degl'infelici il solo appoiggio. </l>
+<l>Polissena t'acquieta … ancor fra tante </l>
+<l>Perdite nostre, in mezzo al fatal lutto, </l>
+<l>Che ci circonda, allor che vivo in petto </l>
+<l>Contro il nostro Nemico odio serbiamo </l>
+<l>Tutto no, non perdemmo …  assai ci resta.</l>
+</sp>
+<stage>via.</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA III </head>
+<stage>Polissena, indi Polidoro.</stage>
+<sp><speaker>POLISSENA</speaker><l> Nemico Ciel! che più sperar degg'io? </l>
+<l>L'unico mio conforto, il solo appoggio </l>
+<l>Della costanza mia da me s'invola … </l>
+<l part="I">Polidoro spirò … </l>
+<stage>(egli comparisce)</stage>
+<l part="F">Ma chi s'appressa? </l>
+<l>Uno Stranier! - Numi … in mirarlo solo </l>
+<l>Straziar mi sento in mille parti il cuore. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I"> Fingiam. </l>
+<stage>(a parte, indi alto)</stage>
+<l part="F">Tu chiunque sei Diva, o mortale, </l>
+<l>Cui di catene ingiustamente oppressa </l>
+<l>Tien barbaro poter … que' tuoi bei lumi </l>
+<l>Verso un misero cuor volger ti degna. </l>
+<l>Questa Terra m'è ignota, e tu rimiri </l>
+<l>Un Giovine infelice all'onde in preda </l>
+<l>Lungamente sbalzato, e salvo appena </l>
+<l><pb n="22"/>
+Di', qual lido è mai questo, e quì chi regna? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">Qual dolce suon … </l>
+<stage>(tutto a parte)</stage>
+<l part="F">qual voce … Il sangue mio </l>
+<l>Agitato entro il sen posa non trova. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I"> Come! …  e vorrai … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Nel rimirarti io sento, </l>
+<l>Giovine sventurato, il cuor commosso. </l>
+<l part="I">Sappi … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F"> Ti calma; Un grato cuor compiange </l>
+<l>A fronte dell'altrui le sue sventure: </l>
+<l>Moti son di pietà quei, che provasti. </l>
+<l part="I">Ma dimmi: ove siam noi? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Quelle, che vedi </l>
+<l>Giacer colà rovine ancor fumanti </l>
+<l>Troja un dì fur, quella Città superba, </l>
+<l>Che dettò le sue leggi all'Asia intiera. </l>
+<l>Queste a sinistra man le Tende sono </l>
+<l>De' Distruttori suoi … dell'Armi Greche. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l> Donna, che ascolto! … o dolorosa vista! </l>
+<l>Quell'è l'alta Ilion - quelle mura </l>
+<l>De' Pergami superbi? - Ah! tutto in duolo </l>
+<l>A sì truce veduta il cuor si strugge. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Stranier, tu il primo sei, cui sparger vedo </l>
+<l>Lacrime di dolor sulla mia Patria. </l>
+<l part="I">Forse … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="M"> E Priamo che fa? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Stranier, che dici? </l>
+<l>Ah! … Priamo! … oh! rimembranza! e tu che sai </l>
+<l>Ch'è fra quei sassi il Padre mio sepolto? </l>
+<l part="I">Ch'ei spirò … ch'ei lasciommi … </l>
+</sp>
+<stage>piange</stage>
+<sp><speaker>POLIDORO</speaker>
+<stage rend="italic">a parte</stage>
+<l part="F">Oh! colpo atroce! </l>
+<stage>alto</stage>
+<l part="I">Che? … Priamo è morto! … ah! Polissena! …</l>
+<pb n="23"/>
+<stage><add>con trasporto</add></stage>
+<l part="F">Io manco. </l>
+<stage>s'appoggia ad un alb.</stage>
+       </sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Stranier! </l>
+<stage>(sorpresa)</stage>
+<l part="F">tu piangi! … tu mi chiami a nome!</l>
+<l>Forse da Polidoro … Di'! … vedesti</l>
+<l part="I">Il mio German … respira ancor? </l>
+<stage>con impazien.</stage>
+</sp>
+<sp><speaker>POLIDORO</speaker><l> Sì, vive. </l>
+<l part="I">Ma, oh Dei! … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Che? - tu il conosci? - ei vive ancora! </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l> Sì - Ma sol per finir le sue sventure. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Parla … Dov'è? - le pene mie compisci … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I"> Come! - ignorar tu puoi … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Pianger ti vedo … </l>
+<l>Ah! chiunque tu sei parla, o m'uccidi. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l> I miei singulti …  il pianto mio … non fanno </l>
+<l part="I">Che scuoprirmi pur troppo.</l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Qual sospetto </l>
+<l>Nell'afflitto mio sen nasce improvviso! </l>
+<l>Il suo volto … i suoi tratti … un grido interno … </l>
+<l part="I">Possibil sia! - Stranier ti svela … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker>
+<stage><add>si getta fra le di lei braccia</add></stage>
+<l part="F">Ebbene, </l>
+<l>A questo pianto il tuo German conosci. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Mio German … </l>
+<stage>l'abbraccia con trasporto piangendo</stage>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="M"> Polissena … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Oh! lieto giorno … </l>
+<l>Oh! contentezza! - In abbracciarti … io sento </l>
+<l>L'anima errar su' labbri miei tremanti. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I"> Stelle! qul ti ritrovo! … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Il Ciel mi rende </l>
+<l>Tutto ciò che perdei, caro, in te solo. </l>
+<l>Tu in me di nuovo ogni speranza accendi, </l>
+<l>E di nulla pavento allor che i Numi </l>
+<l>Libero alfin mi t'hanno reso in braccio. </l>
+<pb n="24"/>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I"> Ma fra tanti Nemici … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Il ciglio astergi. </l>
+<l>Ti consola; tu sei per anco ignoto. </l>
+<l>Guardati di scuoprirti, e tanto spera; </l>
+<l>Fai però ch'io sappi qual sorte amica </l>
+<l>Te dalla Tracia in questi Lidi ha spinto. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l> Sai, che me pargoletto ancor mal fermo </l>
+<l>E insiem con me tesori immensi un giorno </l>
+<l>Mandò Priamo infelice al re de' Traci </l>
+<l>Onde del Figlio suo cura egl'avesse, </l>
+<l>Ed ascosi ad ogn'uopo i suoi tesori </l>
+<l>Fosser da lui; Mentre temendo avversi </l>
+<l>Contro Ilion gli Dei celare ei volle </l>
+<l>Me con pegno sì opimo al Greco avaro. </l>
+<l>Già contento io vivea sicuro in braccio </l>
+<l>Del crudel Polimnestore, e lontano </l>
+<l>Dal paventar da lui frode, od insulto; </l>
+<l>Quando all'orecchie sue giunto per fama </l>
+<l>Delle nostre sventure il fatal grido, </l>
+<l>Calpestando ogni fe, l'armi rivolse </l>
+<l>L'empio in favor del vincitore Argivo. </l>
+<l>Né quì per anco il furor suo fu sazio, </l>
+<l>Che avido del tesor, la morte mia </l>
+<l>Ordina il disumano - E che non puoi </l>
+<l>In uman petto avidità dell'oro? </l>
+<l>Io già fra il pianto una sicura morte </l>
+<l>Attendea, di catene intorno avvinto, </l>
+<l>Quando una man fedel tra l'ombre amiche </l>
+<l>D'oscurissima notte i lacci miei </l>
+<l>Propizia infranse, e sovra un legno in Porto </l>
+<l>Cauta lasciò questa mia vita in salvo. </l>
+<l>Ove drizzasse il coro suo la Nave, </l>
+<l><pb n="25"/>
+Che a morte m'involò non saprei dirti, </l>
+<l>Che lacrimando, e dal dolore oppresso </l>
+<l>Risvegliato non fui dal mio letargo </l>
+<l>Finché al fragor de' tuoni … al muggir bieco </l>
+<l>Dell'onde insane in mezzo al Mar mi vidi </l>
+<l>D'ogni forza già privo, e quasi esangue. </l>
+<l>Molto su i flutti errai, molto soffersi, </l>
+<l>E stanche alfin di tormentarmi l'onde </l>
+<l>Mi gettai semivivo in questi scogli. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Lode agli Dei! - Da quel fatal periglio </l>
+<l>Scampato omai stringer ti posso al seno! </l>
+<l>Or che ti trovo, alleggerita in parte </l>
+<l>Sopra di me l'orrida man mi sembra, </l>
+<l>Che spietata tuttora il cuor m'oppresse; </l>
+<l>E già spero …  ma a noi quale improvviso </l>
+<l part="I">Strepito giunse! … </l>
+<stage>(guarda la scena)</stage>
+<l part="M">Altrove fuggi … </l>
+<stage>(con impazienza)</stage>
+<l part="F">e cela </l>
+<l part="I">I passi tuoi … Ciel! … </l>
+<stage>(guarda di nuovo)</stage>
+<l part="F">se mai Pirro fosse … </l>
+<l part="I">Se i suoi  cupi sospetti … ah! va … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F"> Non deggio </l>
+<l>Te abbandonar … fra le tue braccia almeno </l>
+<l part="I">Bramo … </l>
+<stage>vuol por mano al pugnale</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M"> Crudel, vuoi la mia morte? </l>
+</sp>
+<sp><speaker>POLIDORO</speaker>
+<stage>partendo alla parte opposta alle Tende Greche</stage>
+<l part="F">Io cedo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV </head>
+<pb n="26"/>
+<stage>Polissena, Pirro con Guardie.
+Egli è già entrato qualche momento avanti, ed
+ha fissato gl'occhi attentamente sopra Polidoro.
+S'è alquanto turbato, ma rassicurandosi si
+calma, ed inoltrato dice alle Guardie.</stage>
+<sp><speaker>PIRRO</speaker><l> Voi quì pronti attendete ogni mio cenno.</l>
+<stage>le Guardie si dispongono nel fondo del Teatro</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Che mai vorrà? </l>
+<stage>a parte mentre Pirro
+s'avanza lentamente sul Proscenio sempre
+guardando dov'è partito Polidoro</stage>
+<l part="F">forse ha scoperto … io tremo.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I"> Polissena.</l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M"> Signor … </l>
+<stage>con timore</stage>
+     </sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Conosco omai </l>
+<l>Quanto mal si conviene alla sua destra </l>
+<l>Di que' ferri umiliati il duro peso, </l>
+<l>E mi rendono i Numi assai felice </l>
+<l>Onde pronto involarti a tal rossore.</l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Respiro … </l>
+<stage>(a parte, indi alto)</stage>
+<l part="M">0h! mio </l>
+<l part="M">Signor … lascia, ch'a' piedi … </l>
+<stage>vuol <abbr>inginocch.</abbr></stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I"> Sorgi. Che fai? … </l>
+<stage>sollevandola</stage>
+<l part="F">Compagni, olà, si tolga </l>
+<l>Questo barbaro impaccio a quella destra.</l>
+<stage>le son tolte le catene</stage>
+<l part="I">Che ciascun si ritiri. </l>
+<stage>le Guardie partono</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker>
+<stage>a parte</stage>
+<l part="F">O amabil cuore!</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Principessa, se il ciel maggior m'aprisse </l>
+<l>Strada ond'esserti grato, in favor tuo </l>
+<l><pb n="27"/>
+Godrei di tributar la vita istessa, </l>
+<l>Ma forte s'oppone, e bieco ognuno </l>
+<l>Veglia tuttor sopra i miei passi attento. </l>
+<l>Più d'un Greco m'aborre, e il maggior Duce </l>
+<l>Agamennone ancor non tutta spenta </l>
+<l>Quella face crudel d'invidia, e sdegno, </l>
+<l>Che agl'Eacidi a fronte il cuor mai sempre </l>
+<l>Gl'accese, a danno mio l'intiero Campo </l>
+<l>Molto non ha, che ad allamar s'accinse. </l>
+<l>Pur per quanto il mio grado, e la mia destra </l>
+<l>Oprar potrai, mi scorgerai, tel giuro, </l>
+<l>Del Mondo ad onta a sollevarti intento. </l>
+<l>Or  quei lacci non solo ond'eri avvinta </l>
+<l>Franger m'è grato, ma disciolta ancora </l>
+<l>Da ogn'altra servitude, ed a tuo senno </l>
+<l>Di te stessa signora io ti rilascio. </l>
+<l>Fin da quest'ora ad ogni dritto io cedo, </l>
+<l>Che sopra te poté donarmi il Fato; </l>
+<l>Libera in fin sei in quanto brami, e forse </l>
+<l>Di me stesso più ancor libera assai. </l>
+<stage>con passione</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Modera del tuo cuor tanta bontade, </l>
+<l>Di cui m'opprime il generoso eccesso. </l>
+<l>Ah! Signor … l'onorar la mia sventura </l>
+<l>Con sì nobile pensier, credimi, è un troppo </l>
+<l>Quest'alma assoggettar più che non pensi </l>
+<l>A quel giogo fatal, da cui mi sciogli. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> </l>
+<stage>con amarezza</stage>
+<l>Altri però su' passi miei vorrebbe </l>
+<l>Grato a te dimostrarsi, e se nol sai, </l>
+<l>Le tue bellezze il maggior Duce adora. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Chi? … me, Signor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Tutto scopersi. Invano </l>
+<l><pb n="28"/>
+Agamennone tenta agl'occhi miei, </l>
+<l>Cauto celar la sua nascente fiamma. </l>
+<l>Egli t'ama, egli avvampa, e ad onta sua </l>
+<l>Aperto il cuor ciascun gli legge in volto. </l>
+<l>Egli macchina forse a' suoi desiri </l>
+<l>Te involare al mio braccio, ed al suo carro, </l>
+<l>Che una pronta vittoria a lui prepara </l>
+<l>Alle patrie Città condurti avvinta. </l>
+<l>Ma non temer; finché per queste vene </l>
+<l>Aggirarsi potrà stilla di sangue </l>
+<l>De' tuoi diritti, e di te stessa insieme </l>
+<l>Ognor m'avrai vendicator costante. </l>
+<l>Assai pagò la meritata pena </l>
+<l>Ilio superba, e di vendetta assai </l>
+<l>Il barbaro piacer saziar poteo </l>
+<l>Tra le fiamme di Troja il furor Greco. </l>
+<l>Assai fumar fe queste rive un giorno </l>
+<l>Quel sangue onde nascesti, e in lui smorzato </l>
+<l>Tutto esser dee quell'ostinato sdegno, </l>
+<l>Che la Grecia allarmò. Finch'io respiri </l>
+<l>Tu libera sarai. Dolce m'è troppo </l>
+<l>Quest'avanzo di vita allor, che tutto </l>
+<l>Prodigarlo poss'io per gl'infelici, </l>
+<l>E se posso impedir, che la sua destra </l>
+<l>Al par del cuor schiava non sia ridotta </l>
+<l>D'un amante non già, ma d'un Tiranno. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Soprafatta, Signor, da ciò che ascolto </l>
+<l>Temo a ragion, che non m'inganni un sogno. </l>
+<l>Stelle! - creder potrò simil sdegno! </l>
+<l>Quel fausto Dio nel tuo gran sen l'infuse? </l>
+<l>Quanto a ragion del nome tuo la Terra </l>
+<l>È piena, e quanto il ver la fama vince! </l>
+<l><pb n="29"/>
+Tu in mio favor voler piegar te stesso? </l>
+<l>Tu d'una Schiava tua prender tal cura! </l>
+<l>Prence, e non era il non odiarmi assai? </l>
+<l>Non bastava per me l'esser tu privo </l>
+<l part="I">Di quel rancor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Io, Principessa, odiarti? </l>
+<l>Con qualunque color la mia fierezza </l>
+<l>Si sia dipinta, creder puoi, che un mostro </l>
+<l>Data ne' fianchi suoi m'abbia la vita? </l>
+<l>Quai selvaggi costumi, o qual fatale </l>
+<l>Odio, che ardesse in questo cuor, potrebbe  </l>
+<l>Il tuo volto in mirar non esser spento? </l>
+<l>Ciascun t'adora - ed io avrei </l>
+<l>Resister solo al seduttor incanto … </l>
+<stage>con traspor.</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Come! … Signor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Dissimular non giova; </l>
+<l>Già troppo avanti l'amor mio mi spinse: </l>
+<l>Vedo, che la ragion cede alla forza. </l>
+<l>Da poiché cominciò questo mio labbro </l>
+<l>Ad accusarmi … non proseguir conviene. </l>
+<l>Tutto aprirmi m'è d'uopo il gran segreto, </l>
+<l>Che più a lungo il mio cuor celar non puote. </l>
+<l>Tu al piè ti vedi un deplorabil Prence </l>
+<l>Memorabile esempio agl'altri amanti </l>
+<l>D'un temerario orgoglio. Io, che tuttora </l>
+<l>Senza mai paventar d'amor gl'inganni </l>
+<l>Le catene insultai de' schiavi suoi, </l>
+<l>Che i naufragj dell'Uom tuttor piangendo </l>
+<l>Le tempeste credei veder dal lido, </l>
+<l>Adesso io pur dal comun laccio avvinto </l>
+<l>Da quel fuoco crudel, o Principessa, </l>
+<l>Sempre portar lungi da me mi sento! </l>
+<l><pb n="30"/>
+La mia fierezza un sol momento a vinta, </l>
+<l>E quest'anima un dì così superba </l>
+<l>Mesta si vede in servitù ridotta. </l>
+<l>Da che ti vidi, disperato, afflitto, </l>
+<l>Vergognoso, piangente, e meco ognora </l>
+<l>Trasportando dovunque il fatal dardo </l>
+<l>Fitto nel cuor, da cui straziar mi sento </l>
+<l>Contro me, contro te mi provo invano. </l>
+<l>Io t'evito presente, indi lontana </l>
+<l>Ti trovo ovunque, e la tua bella imago </l>
+<l>Fra gli sdegni, e fra l'armi ognor mi siegue. </l>
+<l>Del dì la luce, e il cupo orror notturno </l>
+<l>Tutto - sì tutto agl'occhi miei presenta </l>
+<l>Il volto … oh! Dio! … ch'evitar tento indarno. </l>
+<l>Per frutto alfin della mia folle asprezza </l>
+<l>Fra i miei singulti, ed il continuo pianto </l>
+<l>me cerco in me, né ritrovar mi posso. </l>
+<l>Il mio scudo, la spada, il cocchio mio </l>
+<l>Ah! tutto m'importuna, e già sen langue </l>
+<l>In questo cuor la mia virtude oppressa. </l>
+<l>I miei soli lamenti … i pianti miei </l>
+<l>Fan risuonar queste spelonche, e oziosi </l>
+<l>La mia voce obliaro i miei destrieri. </l>
+<l>Ah! Principessa, il barbaro racconto </l>
+<l>D'un amor sì selvaggio ha in te potuto </l>
+<l>Rossor destar d'una sì rozza preda, </l>
+<l>E di sì inculto amor forse t'offendi. </l>
+<l>Ma non spregiar, mia Principessa, un fuoco </l>
+<l>Per te già concepito, e che nascoso </l>
+<l>Senza di te forse tuttor saria. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Ah! di troppo, Signore, il mio destino </l>
+<l>Questo tuo fioco onora, e troppo indegna </l>
+<l><pb n="31"/>
+Mi vogliono gli Dei de' tuoi pensieri. </l>
+<l>Or che Regno, e sostanze il Ciel mi tolse, </l>
+<l>Or, che costretta a mendicar piangendo </l>
+<l>Quest'aure, che respiro, il cuor potrei, </l>
+<l>Principe, aprire a un disuguale ardore? </l>
+<l>Ma qual tempo, Signor, per far palese </l>
+<l>Ciò, ch'esser puote ad amendue funesto! </l>
+<l>Né ti sovvien chi mi dié vita, e quale </l>
+<l>È la mia sorte? - In cenere distrutta </l>
+<l>Sotto degl'occhi miei la Patria io veggio; </l>
+<l>Opera di tua man son le ruine, </l>
+<l>Che la tengono oppressa, e la tua destra </l>
+<l>Fuma ancor del mio sangue … Il Padre mio </l>
+<l>Priamo infelice i lumi al giorno chiuse </l>
+<l>Sotto i tuoi colpi. I miei Germani, e tutti </l>
+<l>I fidi miei del furor tuo fur preda. </l>
+<l>Tutto mieté la Greca Spada; il fuoco </l>
+<l>Tutto distrusse, e suo malgrado il suolo </l>
+<l>De' Nepoti di Teucro il sangue bevve. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I"> Ah! furor ch'io detesto! </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> E poi qual speme, </l>
+<l>Signor, fomenti? Il Greco Campo intiero </l>
+<l>Bieco mi guarda, e forse brama estinto </l>
+<l>Degl'Avi miei questo rampollo ancora. </l>
+<l>Tutto, Prence infelice, ardir ti vieta </l>
+<l>Per questa schiava tua, Signor, si teme, </l>
+<stage>d'un tuono toccante</stage>
+<l>Che del cuor mio le temerarie fiamme </l>
+<l>Non riaccendano un dì de' miei Germani </l>
+<l>A una pronta vendetta il cener freddo. </l>
+<l>E quanto a me, non sperar, che questo </l>
+<l>Misero cuor d'un reo destin bersaglio,</l>
+<l><pb n="32"/>
+Che sol si pasce d'amarezza, e pianto</l>
+<l>L'amor conosca, e i suoi folli dolori?</l>
+<l>D'un vinto Re Figlia meschina, e sola </l>
+<l>Alla strage scampata altro non posso,</l>
+<l>Che piangere il mio Fato, e sulla Tomba </l>
+<l>Sparger mesta de' miei lacrime amare.</l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Tutto creder mi giova, ed il tuo pianto </l>
+<l>Delle sventure tue figlio esser debbe. </l>
+<l>Ma … scusa, o Principessa, in un amante </l>
+<l>Un sospetto, che assai forse t'offende … </l>
+<l part="I">Se mai per Agamennone. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Che dici? </l>
+<l>Agamennone! - o Dei! - Prence, che ascolto! </l>
+<l>E non è assai, che questo dì funesto </l>
+<l>Crudel m'involi a tutto ciò, che adoro, </l>
+<l>E che del mio dover schiava infelice </l>
+<l>Sottomessa mi veda ad un pianto eterno? </l>
+<l>Dunque or s'aggiunge al mio dolor l'oltraggio </l>
+<l>E all'amor d'Agamennone il mio pianto </l>
+<l>S'osa imputare, e l'odio mio malgrado </l>
+<l>Da te si vuol, che a questi lumi ei piaccia? </l>
+<l>Perdonare ad ogn'altro un tal sospetto </l>
+<l>Avrei potuto, e con lui tale offesa … </l>
+<l>Ma tu, Signor … ma tu così mi tratti? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Principessa, perdona ad un amante, </l>
+<l>Che nell'amor si perde, e che egli stesso </l>
+<l>Da un barbaro dovere astretto ognora </l>
+<l>Imminente si vede a perder tutto … </l>
+<l>Eppur non osa vendicarsi - Il cuore </l>
+<l part="I">Sospettoso però … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Signor, tu cerchi </l>
+<l>A tormentarti - Ah! deploriam piuttosto </l>
+<l><pb n="33"/>
+Amendue, caro Prence, i nostri affanni … </l>
+<stage>con trasporto</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Che? … Principessa … ed io sperar potrei! … </l>
+<l part="I">Deh! parla almen … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Troppo ti dissi - Il labbro </l>
+<l part="I">Ad onta mia … </l>
+<stage>(riprendendosi)</stage>
+<l part="F">Ma per pietà rispetta, </l>
+<l>Signor, un'infelice; Il mio ti muova </l>
+<l>Misero pianto - e non voler, tel chiedo, </l>
+<l part="I">Affligger più questo mio cuor … </l>
+<stage>con tristezza amorosa</stage>
+<l part="F">t'invola … </l>
+<l part="I">Fuggimi … </l>
+<stage>con forza</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> O Ciel! - Dunque così m'aborri, </l>
+<l>Che odiosa t'è la mia presenza istessa? </l>
+<l part="I">Crudele! … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M"> E creder puoi! … </l>
+<stage>(con vivacità)</stage>
+<l part="F">sappi … che in seno … </l>
+<l part="I">Ove sono! - Che parlo! - </l>
+<stage>(con trasporto)</stage>
+<l part="M">Ah! Prence … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Ingrata </l>
+<l>Almen compisci, o mi dividi il cuore. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> A che giova, Signor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M"> Parla … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M"> Non deggio. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Barbara! … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I"> Taci …  se il mio cuor vedessi! … </l>
+<stage>con tenerezza</stage>
+<l part="F">Basta … </l>
+<stage>(riprendendosi)</stage>
+<l part="I">lasciami in pace … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  </l>
+<stage>risoluto</stage>
+<l part="F">Invan lo speri; </l>
+<l>Finché non sia il mio destin deciso </l>
+<l part="I">Ad onta tua … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F"> Ma qual piacer spietato </l>
+<l><pb n="34"/>
+È il tuo, Signor, di rimirarmi afflitta? </l>
+<l part="I">Sappi alfin … Ciel m'assisti! … </l>
+<stage>a parte indi alto</stage>
+<l part="F">Ah! se dipende </l>
+<l>La tua felicità dalla mia fiamma … </l>
+<l>Signor - non paventare vivi pur quieto … </l>
+<l>Fortunato tu sei più che non credi; </l>
+<stage>con trasporto</stage>
+<l part="I">Che dissi! … </l>
+<stage>a parte</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Ah! Polissena! - Ah! qual contento</l>
+<l>Tutto il seno m'inonda, e il cuor m'opprime!</l>
+<l>Principessa … ed è ver? - m'invola i detti</l>
+<l>Il piacere improvviso - Il cuor non regge …</l>
+<l>E un torrente di fuoco in faccia tua </l>
+<l>Lungi da me la mia anima trasporta.</l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Fuggi … Signor … </l>
+<stage>(con tristezza).</stage>
+<l part="F">lasciami in preda al mio </l>
+<l>Dolor funesto, e non voler, ten prego, </l>
+<l part="I">Prence, esultar del tuo trionfo. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Io parto, </l>
+<l>Io m'involo, Idol mio, ma per dar calma </l>
+<l>Da te lontano a' sensi miei, che tutti </l>
+<l>Dolcemente turbaro i detti tuoi. </l>
+<l>Addio … ma di', sarà poi ver … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l> Che temi? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> Se ingannato da te … ma no - perdona: </l>
+<l>È d'inganno incapace un sì bel labbro.</l>
+</sp>
+<stage>via</stage>
+</div2>
+<div2 type="scena">
+<head> SCENA V </head>
+<sp><speaker>POLISSENA</speaker><l> Vincesti, empio, vincesti - Ah! se celata </l>
+<l>Avessi almen la debolezza mia </l>
+<l><pb n="35"/>
+Un conforto di più trovar potrei </l>
+<l>Fra tante pene. Incauto labbro! e quando </l>
+<l>I segreti del cuor celar saprai? </l>
+<l>Ma che vaneggio! ah! quando in seno scorre </l>
+<l>Quel veleno crudel, che amor si chiama </l>
+<l>Invan si cela: Egli ogni via ritrova </l>
+<l>Per palesarsi, e troppo stretto è il nodo, </l>
+<l>Che fra la lingua, e il cuor pose natura.</l>
+</sp>
+<stage>Fine dell'Atto Secondo.</stage>
+</div2>
+   </div1>
+<div1 type="atto">
+<head>ATTO TERZO</head>
+<div2 type="scena">
+<head> SCENA I </head><pb n="36"/>
+<stage>Calcante, Arsindo.</stage>
+<sp><speaker>ARSINDO</speaker><l>  Tutto è in calma, Signor; l'intiero Campo </l>
+<l>Pirro sedò: Tace l'orribil grido </l>
+<l>Dell'altera discordia, e insiem con lei </l>
+<l>Cadde represso il suo german furore. </l>
+<l>Ma quando altrui pace consiglia, molce  </l>
+<l>L'alme superbe quest'Eroe, lui stesso </l>
+<l>Frenar non può quella continua guerra, </l>
+<l>Che la mente gli turba, e il cuor gl'opprime.</l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="I"> Che mi racconti! </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F"> Il ver ti narro; È giunto </l>
+<l>A tal segno l'ardor nel sen di Pirro, </l>
+<l>Che obliando se stesso, e il grado suo </l>
+<l>Di propria man la Schiava sua disciolse. </l>
+<l>Signor, tel dissi: Invano estinguer tenti </l>
+<l>In quel cuor tempestoso un grande affetto. </l>
+<l>Ei troppo avvampa, e la ragione in lui </l>
+<l>Da una forza maggior vinta già langue. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Gioventù sconsigliata! a quai tempeste </l>
+<l>Sempre in braccio non è dell'uom la vita! </l>
+<l>Amico, ebbene, se ogni consiglio è vano </l>
+<l>Per ricondur quell'offuscato seno </l>
+<l>Al camin di virtude, e il cuoor sanarli </l>
+<l>Dalla barbara piaga, abbiam ricorso </l>
+<l>Ad altre vie: D'arte v'ha d'uopo e spero </l>
+<l>Con l'istesse armi sue vincer quel petto. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I"> E per qual via? </l>
+<pb n="37"/>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F"> Molto non ha che in questi </l>
+<l>Del nemico Sigèo barbari scogli </l>
+<l>Dal tempestoso Mar scampato appena </l>
+<l>Un Guerrier giunse. Egli di Tracia ostenta </l>
+<l>L'uso, l'insegne; Eppur mi sembra, amico, </l>
+<l>Di Priamo un Figlio. Il lacrimar sovente </l>
+<l>Sopra quelli di Troja estremi avanzi, </l>
+<l>Il favellar con Polissena, il pianto, </l>
+<l>Che con Ecuba, e Lei sparger si vede </l>
+<l>Trojano il fanno, e tale io stesso il credo. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I"> Ebben? </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F"> Costui con Polissena è spesso: </l>
+<l>Ella il compiange, e amendue dan sfogo </l>
+<l>Al loro dolore in replicati amplessi. </l>
+<l>Facil sarà di suscitare ad arte </l>
+<l>Un geloso furor nel sen di Pirro. </l>
+<l>Tutto ei teme, tu sai, tutto sospetta, </l>
+<l>E ogni lieve cagion basta in quel cuore </l>
+<l>Tutte le fiamme ad eccitar di sdegno. </l>
+<l>Odio in lui diverrà l'affetto istesso, </l>
+<l>E alle sue smanie in preda a un punto solo </l>
+<l>Sullo Stranier truciderà la Schiava. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Qual Nume t'inspirò - miglior non vedo </l>
+<l>Artificio onde trar da ceppi suoi </l>
+<l>D'Achille il Figlio. Io stesso a portar vado </l>
+<l>Tutte in quel cuor di gelosia le fiamme. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l> Arte adopra, e coraggio. O te felice! </l>
+<l>Se alle vie dell'Olimpo, ed alla Gloria </l>
+<l>Condur saprai quell'ingannato Eroe. </l>
+<l part="I">Ma il Ciel propizio a te lo guida. </l>
+<stage>vede Pirro</stage>
+<l part="F">Io parto. </l>
+</sp>
+<stage>via</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA II </head>
+<pb n="38"/>
+<stage>Pirro, Arsindo.</stage>
+<sp><speaker>ARSINDO</speaker><l part="I">  Ei di me viene in traccia. </l>
+</sp>
+<stage>a parte</stage>
+<sp><speaker>PIRRO</speaker><l part="F"> Amico, il Fato </l>
+<l>Alle ricerche mie pronto ti rende; </l>
+<l part="I">Uopo mi fa dell'opra tua. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F"> M'è legge </l>
+<l part="I">Ogni tuo cenno. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l> In queste Rive è giunto </l>
+<l>Un naufrago Stranier; Molto ei mi sembra </l>
+<l>Commosso in rimirar quelle, che oppressa </l>
+<l>Tengon l'inclita Troja alte ruine. </l>
+<l>Spesso costui di Polissena al fianco </l>
+<l>Pianger si vede - Egli a temer m'induce. </l>
+<l>Perciò tua cura sia su' passi suoi </l>
+<l>D'invigilar; Cerca qual'è la sorte, </l>
+<l>Che in questi lidi ad approdar lo spinse, </l>
+<l>Qual'è la Patria sua, qual cura alfine </l>
+<l>Tanto diletto a Polissena il renda. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l> Ma, Signor, la tua gloria, ed il tuo grado </l>
+<l>Far ti denno obliar quel cieco affetto, </l>
+<l>Che ad una Schiava tua servo può farti. </l>
+<l part="I">Se costei … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F"> Per pietà risparmia, amico, </l>
+<l>Una smania novella a questo cuore. </l>
+<l>So quanto errai -  Vedo, che l'odio incontro </l>
+<l>Del Ciel, della mia Patria - Eppur non posso </l>
+<l>Pensar soltanto a rilasciar colei, </l>
+<l>Che ad onta di me stesso amar m'è forza. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I"> Ma una nemica … </l>
+     </sp>
+<pb n="39"/>
+<sp><speaker>PIRRO</speaker><stage>sdegnato</stage>
+<l part="F">Or se tu vuoi, ch'io porga </l>
+<l>Orecchi a detti tuoi con me rispetta </l>
+<l part="I">Polissena. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Signor, ceder m'è duopo </l>
+<l>Quando tu il vuoi; Solo a donar m'avanzo </l>
+<l>Consigli a quel tuo cuor, che in preda io miro </l>
+<l>A un illecito affetto. Io non rammento, </l>
+<l>Principe, a te quell'amistà fedele. </l>
+<l>Che ti serbai tuttora; Io non attesto, </l>
+<l>Il mio candor, né la pietà, che provo </l>
+<l>In vederti perduto, e più non cale </l>
+<l>Quel tempo rimembrar, in cui mi fece </l>
+<l>D'ogni tuo passo il Padre tuo custode. </l>
+<l>La passion nulla ascolta, ed un tuo pari </l>
+<l>A' desiderj suoi mal soffre un freno. </l>
+<l>Ma pensi tu, che Polissena oblii </l>
+<l>Quanto lo sdegno tuo perder le fece, </l>
+<l>Quanto l'afflisse il  tuo furor; Che in lei </l>
+<l>La memoria fatal già sia distrutta, </l>
+<l>Che tu la Patria le rapisti, e ucciso </l>
+<l>Fu da te il Padre suo sotto i suoi lumi? </l>
+<l>I sentimenti suoi, tutti i suoi voti </l>
+<l>Forse ti son palesi? E chi, Signore, </l>
+<l>Quando se stessa a vendicar sia pronta, </l>
+<l>Chi mai potrà con salutare avviso </l>
+<l>Il tuo petto sottrarre al fatal colpo? </l>
+<l>Quai lumi a vigilar sopra i tuoi giorni </l>
+<l>Quantunque intenti a penetrar bastanti </l>
+<l>Saran l'insidie, a cui tu porti il piede! </l>
+<l>Tu fomenti, Signor, senza temerlo </l>
+<l>Un'angue entro al tuo seno; E qual riparo </l>
+<l>Potrà l'ira frenar della tua Schiava? </l>
+<l><pb n="40"/>
+Chi t'invola a un velen? Chi t'assicura </l>
+<l>Da un ferro ascoso? E ti lusinghi in fine, </l>
+<l>Che allor, che il teschio tuo vedrassi esposto </l>
+<l>Dall'istesse tue cure ai colpi suoi </l>
+<l>L'amor, che t'ha sedotto, a quell'ingrata </l>
+<l>Per te favellerà? - Tanto disprezzo </l>
+<l>Tanto orror, che costei … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Dell'odio suo </l>
+<l>Lasciami dubitare un sol momento, </l>
+<l>Lasciami lusingar, ch'io su quel cuore </l>
+<l>Abbia qualche poter … non voler trarmi </l>
+<l>Da quest'inganno, e l'error mio rispetta. </l>
+<l>Credere io debbo, e senza dubbio il credo </l>
+<l>Che l'odio tuo per Polissena è quello. </l>
+<l part="I">Che in questa guisa a favellar t'induce. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Sì - </l>
+<stage>(amaramente)</stage>
+<l>Se, Prence, però noto ti fosse </l>
+<l part="I">A qual punto … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  T'accheta - altro non bramo </l>
+<l>Udir da te; Minacci pur, se il vuole, </l>
+<l>Polissena i miei giorni; Io gl'odio; Il corso </l>
+<l>Ch'ella ne tronchi a suo piacere, almeno </l>
+<l>Da una destra sì cara avrò la morte.</l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l>  Fatale errore! - Troppo, Signor, ti lasci </l>
+<l>Al periglio condur dall'amor tuo. </l>
+<l>Tu t'inganni all'eccesso, e vedo omai, </l>
+<l>Che te col Cielo il mio silenzio offende. </l>
+<l>Io m'espongo al tuo sdegno, e cerco intanto </l>
+<l>A servirti - Scuoprir, Prince, ti voglio </l>
+<l>Ciò, che a te la passion veder non fece. </l>
+<l>Misero amante, a cui la guida serve </l>
+<l>Un ciglio seduttor! Vedi qual sia </l>
+<l>Quella, che adori, e il tuo rossor conosci. </l>
+<l><pb n="41"/>
+Poco è l'empio desìo, ch'ha di vendetta </l>
+<l>Polissena per te, poco è l'odiarti … </l>
+<l>Prence, temi un rivale - Un altro ell'ama. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Un altro ell'ama! - </l>
+<stage>(con furore)</stage>
+<l part="F">Ah! puoi tu ben, crudele, </l>
+<l>Sospettar di perfidia, e di tal colpa </l>
+<l>La virtù la più rara agl'occhi miei? </l>
+<l part="I">Amico … </l>
+<stage>rimettendosi in calma, ma con smania di dolore</stage>
+<l part="F">Tu m'uccidi …  In questo seno </l>
+<l>Perché gettar le distruttrici fiamme </l>
+<l>Di gelosia … d'orror … d'odio … di sdegno. </l>
+<l part="I">Polissena … </l>
+<stage>riflettendo con qualche pausa</stage>
+<l part="M">Ma  no … </l>
+<stage>(risoluto)</stage>
+<l part="F">saper non voglio </l>
+<l part="I">Altro da labbri tuoi … </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><stage>con con ironia in atto di partire</stage>
+<l part="F">Resta; io ti lascio. </l>
+</sp>
+<sp><speaker>PIRRO</speaker>
+<stage>dopo un poco di pausa ritenendolo</stage>
+<l part="I">Sentimi non partir …  </l>
+<stage>(riflettendo alquanto)</stage>
+<l part="F">un altro ell'ama? </l>
+<stage>con furore</stage>
+<l>Dimmi dunque, crudel, qual'è quel sangue, </l>
+<l>Che versar dee la nuova mia vendetta? </l>
+<l part="I">Di straziarmi compisci … </l>
+<stage>impaziente</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Ebben; se il vuoi … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Sì; feriscimi il cuor … </l>
+<stage>(smaniando)</stage>
+<l part="F">Dimmi - Palesa </l>
+<l part="I">Chi mi tradì … </l>
+<stage>con impazienza furiosa</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Quello Stranier, che giunse </l>
+<l part="I">In queste Rive, e che conoscer brami. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Stelle! … </l>
+<stage>come escendo da un inganno</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l>  Molto non ha, che assiso al fianco </l>
+<l>Della tua Schiava a ragionar d'amore </l>
+<l part="I"><pb n="42"/>
+Da me fu visto. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Giusto Ciel! … che intesi! </l>
+<l part="I">Perfido … </l>
+<stage>(incamminandosi)</stage>
+<l part="M">Polissena … </l>
+<stage>(trattenendosi)</stage>
+<l part="F">Ah! dove corro! </l>
+<stage>furibondo</stage>
+<l part="I">Un ferro … un stil … ch'io li trafigga. </l>
+<stage>prende per mano Arsindo</stage>
+<l part="F">Andiamo. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l>  Frena la smania tua. Conosci in prima </l>
+<l>Con gl'occhi tuoi, che sei tradito, e quindi </l>
+<l part="I">Sacrifica gl'audaci - Eccoli, </l>
+<stage>si vedon comparir nel fondo Polissena, e Polidoro,
+che parlano assieme con qualche interesse</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  O Dei! </l>
+<l>Che dubitar! - Gl'empj non vedo io stesso </l>
+<l>Esultar del lor fuoco, e in mia presenza … </l>
+<l part="I">Lascia, ch'io vibri … </l>
+<stage>mette mano alla spada</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><stage>ritenendolo</stage>
+<l part="F">A preparar mi siegui </l>
+<l part="I">La morte lor - non ti scuoprir … </l>
+<stage>lo conduce seco</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>ripone mano alla spada: si ritiene, indi sortendo</stage>
+<l part="F">Comanda, </l>
+<l>Vindice Nume, al braccio mio smarrito.</l>
+</sp>
+<stage>(partono)</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>Polidoro, e Polissena.</stage>
+<sp><speaker>POLIDORO</speaker><l>  Ciel! quegli è Pirro! - Ah! lascia pur ch'io </l>
+<l part="I">A sfidarlo, e morir … </l>
+<stage>vuol partire</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>lo ritiene</stage>
+<l part="F">Ferma: che tenti? </l>
+<l>E non vedi ove sei, non vedi a quale </l>
+<l>Fatal periglio la tua vita esponi! </l>
+<l part="I">Ferma … </l>
+<stage>sempre ritenendolo</stage>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  Almen se spirar deggio su queste</l>
+<l><pb n="43"/>
+Miserabili arene, allor ch'io muojo </l>
+<l>Aspergerle vogl'io di Greco sangue. </l>
+<l>Non a caso dall'onde il Ciel mi trasse, </l>
+<l>Ei vuol, ch'io porga al Padre mio vendetta. </l>
+<l part="I">Pirro l'uccise - ei morir debbe. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>a parte</stage>
+<l part="F">Oh! Numi! </l>
+<l>E per quanti tremar dee questo seno! </l>
+<stage>alto</stage>
+<l>Frena un malcauto sdegno - Io son perduta </l>
+<l>Se tu scoperto sei, e il Padre estinto </l>
+<l>Senza placar, me con te stesso uccidi. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l>  Ebben; si ceda … Io però in cuor non spengo </l>
+<l>Quella furia crudel che mi divora, </l>
+<l>E che la Patria a vendicar mi sprona. </l>
+<l>Se dal Campo diviso in questi orrori </l>
+<l>Solo a miei colpi il mio Rival s'offrisse </l>
+<l>Non sperar, che il risparmi … abbiano in preda</l>
+<l>Queste membra infelici i corvi, e gl'orsi … </l>
+<l>Mi strazj il mio Nemico, e dal mio braccio </l>
+<l>Io la morte riceva in mille morti </l>
+<l>Non m'atterrisco, e morirò contento, </l>
+<l>Se all'Uccisor del Padre mio, trafitto  </l>
+<l>Con quell'acciaro il fianco - a forza il traggo </l>
+<l>Per la chioma sanguigna, e col suo sangue </l>
+<l>Senz'ombra di pietà bagnar gli faccio </l>
+<l>Semivivo tuttor quelle ruine. </l>
+<l part="I">Oh! vendetta! …  </l>
+<stage>fremendo</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Ah! crudel! </l>
+<stage>con grido di dolore</stage>
+     </sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  Stelle! tu gemi! </l>
+<l part="I">Che vedo! … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  E come inorridir non debbe </l>
+<l>Quest'alma allor, che trasportar ti vedo, </l>
+<l>Da sì torbide smanie, e il Cielo istesso </l>
+<l><pb n="44"/>
+Con tanto sdegno delirando insulti? </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  Che? - D'un nemico … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Io di scusar non cerco </l>
+<l>Il furor suo; Ma s'ei la Patria nostra </l>
+<l>Tutta distrusse e di Dardanio sangue </l>
+<l>Simoente macchiò, Zanto coperse </l>
+<l>Il disnor <note>Elena</note> della Grecia a queste rive </l>
+<l>Involar volle - e l'ira sua fu giusta. </l>
+<l part="I">Ma tu … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  Che parli? - A Polidoro in faccia </l>
+<l>Sugl'occhi al tuo German difender tenti </l>
+<l>I carnefici nostri, e di vendetta </l>
+<l>In me il desìo disapprovare ardisci? </l>
+<l part="I">Forse Pirro … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Io mi perdo … </l>
+<stage>a parte</stage>
+</sp>
+<sp><speaker>POLIDORO</speaker><stage>minacciando</stage>
+<l part="F">Ah! se giammai </l>
+<l part="I">Potessi immaginar … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Di che sospetti? … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  Io pavento per te … </l>
+<stage>come sopra</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Comanda, imponi </l>
+<l>Ciò, che far debbo, onde affogarti in seno </l>
+<l>Quel timor, che ti turba, e che m'oltraggia. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l>  Voglia il Ciel, ch'io m'inganni - Ah! fa' ch'io perda </l>
+<l>Ogni timor; Degna ti rendi alfine </l>
+<l>Di Te - degli Avi tuoi - Sentimi: Io t'apro </l>
+<l>Onde tu ci soccorra un'ampia strada. </l>
+<l>Rendi grazie a gli Dei, che la tua destra </l>
+<l>Chiamano ad opra tal da coronarti </l>
+<l>Del Sesso tuo fra l'Eroine un giorno. </l>
+<l>Sò, che Pirro t'adora, e che l'affetto</l>
+<l><pb n="45"/>
+Solingo spesso al fianco tuo lo tragge. </l>
+<l part="I">Prendi - </l>
+<stage>leva un pugnale.</stage>
+<l part="F">Mentre costui di tema privo </l>
+<l>Al suo stolido amor pascolo cerca </l>
+<l>Fiso ne' lumi tuoi, passagli il cuore. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Empio! … </l>
+<stage>(inorridita)</stage>
+<l part="M">Che mi comandi! </l>
+</sp>
+<sp><speaker>POLIDORO</speaker>
+<stage>con furia</stage>
+<l part="F">Ho tutto inteso.</l>
+<l part="I">Temi, spergiura … </l>
+<stage>minacciandola</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>a parte</stage>
+<l part="M">Ah! mi tradii … </l>
+<stage>(alto)</stage>
+<l part="F">Perdona, </l>
+<l part="I">Germano al mio timor …</l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  Taci: Tu stessa </l>
+<l>Svelasti ciò, che ad accusarti basta. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Numi! e come sperar, che un debil braccio, </l>
+<l part="I">Che una femmina imbelle … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  Invan ti sforzi </l>
+<l>Pretesti a mendicar, Pirro ferisci, </l>
+<l>E allor ti crederò - Parla: Il prometti? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>a parte</stage>
+<l part="I">Oh contrasto fatal! … </l>
+<stage>(alto)</stage>
+<l part="M">sappi … </l>
+<stage>esitando</stage>
+<l part="F">Non posso. </l>
+<stage>con trasporto</stage>
+     </sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  Perfida! - Dunque vuoi … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>con trasporto di dolore</stage>
+<l part="F">Perchè straziarmi, </l>
+<l>Barbaro, in questa guisa? - Il fo - T'offendo </l>
+<l>Mentre resisto al tuo furor - Ma il Cielo </l>
+<l>Non vuol, ch'io sia per ubbidirti ingiusta, </l>
+<l>Se Pirro al Padre mio tolse la vita,</l>
+<l>Il suo fallo espiò, mentre difese </l>
+<l>Dall'ira altrui Me con la Madre - Ei franse </l>
+<l>I lacci nostri, e in libertà ci mise. </l>
+<l>Ed or tu vuoi, ch'io di mia man ferisca </l>
+<l>Il mio Benefattor … che il ferro immerga </l>
+<l>Entro quel sen, che di pietade è il nido? </l>
+<l>Vuoi, che infranta ogni legge, il cuor trafigga </l>
+<l><pb n="46"/>
+A quei, che mi salvò, che per giovarmi </l>
+<l>Non curò la sua vita, e ch'io divenga </l>
+<l part="I">Traditrice di quei … </l>
+<stage>ritenendosi</stage>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  Che non compisci? </l>
+<l part="I">Colma le smanie mie - Di quei? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Prevedo </l>
+<l>Tutto il tuo duol - Sento quai fieri colpi </l>
+<l>A portarti io m'accingo … Eppure non posso </l>
+<l part="I">Dissimular … Pirro … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><stage>fremendo a parte</stage>
+<l part="M">Ah! l'ingrata! </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  </l>
+<stage>piangendo</stage>
+<l part="F">0d onta </l>
+<l>E di Te, e di Me stessa io l'idolatro. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  Oh esecrabili accenti! … </l>
+<stage>(con furore eccessivo)</stage>
+<l part="M">Empia! … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ferisci </l>
+<l>Questo cuore infelice - e alfine estingui </l>
+<l>Ne' flutti del suo sangue il fuoco mio. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l>  Obbrobrio di tua stirpe! Alma imbecille! </l>
+<l>Disonor de' tuoi Padri! A me tu chiedi </l>
+<l>La morte, e ben la merti - ah! se la destra </l>
+<l>Non m'impedisse il mio fraterno affetto, </l>
+<l>Se non mi seducesse un debil raggio </l>
+<l>Di speranza per te, già posto avrei </l>
+<l>Un fine atroce a' tuoi macchiati giorni. </l>
+<l>Ma si sospenda il colpo - Io sperar voglio, </l>
+<l>Che l'alma tua calmar saprà ben presto </l>
+<l>Le tempeste del cuor, che tu, repressa </l>
+<l>Ogn'altra brama, ascolterai le voci </l>
+<l>Del pianto mio, del tuo dover soltanto. </l>
+<l part="I">Me lo giuri? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ah! German, perché non posso </l>
+<l>Con lacrime più degne in questo punto </l>
+<l><pb n="47"/>
+Tutte lavar dell'onor mio le macchie! </l>
+<l>Seguita pur tuttor quell'inumano </l>
+<l>Tuo dover verso me - minaccia, sgrida </l>
+<l>Con crudeltà la colpa mia; Raddoppia, </l>
+<l>Inasprisci il tuo duol … Dimmi, ch'io sono </l>
+<l>Di Te, del Cielo, e di Me stessa indegna. </l>
+<l>Agl'occhi miei tutto l'orror dipingi </l>
+<l>Del mio delitto, onde sanar quest'alma, </l>
+<l>Con l'arrossirne l'error suo s'emenda. </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l>  Or ti conosco: Or mia Germana sei. </l>
+<l>Quanto m'è dolce il rimirar risorti </l>
+<l>Di virtude i germogli in questo seno! </l>
+<l>Non vacillar; Il tuo valor seconda, </l>
+<l>E sanata vedrai presto la piaga </l>
+<l>Che così ti tormenta, e che nell'uomo </l>
+<l>Fa della vita una continua morte.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV </head>
+<stage>Escono inosservarti verso il fondo Pirro,
+ed Arsindo.</stage>
+<sp><speaker>POLIDORO</speaker>
+<stage>seguitando</stage>
+<l>Io stesso frangerò l'orribil giorno </l>
+<l>Che t'opprime - Ti calma; A questo ferro </l>
+<l part="I">L'onor m'è dato … </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><stage>adagio a Pirro</stage>
+<l part="M">Odi? </l>
+<stage>Pirro a parte ma con furore</stage>
+<l part="F">Ah! di più non soffro. </l>
+<l>Tu lontano di quà della Spergiura </l>
+<l>I passi scorta - Io punirò l'audace. </l>
+<stage>parte: Arsindo inosservato nel fondo; Polidoro dopo
+una breve scena muta con Polissena è in atto
+di partire.</stage>
+<pb n="48"/>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Ove corri? …</l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  A svenar di propria mano </l>
+<l part="I">Il tuo più reo nemico. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ah! no … m'ascolta.</l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  Come! e sì presto … </l>
+<stage>minacciando</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Io per te tremo … </l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="F">  Ascondi </l>
+<l>Quei sospiri, e quel pianto. Or or vedrai, </l>
+<l>S'io son German d'Ettorre, e se può fare </l>
+<l>Tutte le mie vendette un colpo solo.</l>
+<stage>parte</stage>
+     </sp>
+<stage>Si osservi che egli esce da una scena vicino
+al Proscenio dalla parte ove è sortito Pirro.</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA V </head>
+<stage>Polissena, Arsindo.</stage>
+<sp><speaker>POLISSENA</speaker><l>  Ei mi lascia - Egli freme. O Dei, spengete </l>
+<l>Entro quel petto un sì fatal sdegno; </l>
+<l>Essere ei puote ad amendue funesto. </l>
+<l part="I">Ciel! … qual strepito ascolto? </l>
+</sp>
+<sp><speaker>ARSINDO</speaker>
+<stage>fingendo di venir frettoloso dalla Scena</stage>
+<l part="F">Altrove io deggio </l>
+<l>Principessa, scortare i passi tuoi. </l>
+<l>Fra i Guerrier nostri è lieve pugna accesa. </l>
+<l>Al periglio t'invola. Avvi non lungi </l>
+<l>De' miei più fidi un preparato stuolo: </l>
+<l part="I">Ei sarà la tua scorta. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Ah! di' … </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Perdona </l>
+<l>All'impazienza mia. Fuggi; È tra l'armi </l>
+<l part="I">La tua vita in periglio. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  O infausto giorno!</l>
+</sp>
+<stage>parte dalla parte opposta, ond'è partito
+Pirro, e Polidoro.</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA VI </head>
+<pb n="49"/>
+<stage>Arsindo.</stage>
+<sp><speaker>ARSINDO</speaker><l> Di sì provida impresa il fin proteggi </l>
+<l part="I">Amico Ciel … </l>
+<stage>lo strepito dell'armi cresce; egli
+si volta verso la Scena</stage>
+<l part="F">Ma che temer non resta.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>ATTO TERZO, SCENA VII </head>
+<stage>Pirro, Polidoro, Arsindo, Guardie.</stage>
+<sp><speaker>POLIDORO</speaker><stage>fra le Scene</stage>
+<l part="I">Barbaro! Son tradito … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>combattendo fra le Scene</stage>
+<l part="F">Invan resisti. </l>
+<stage>compariscono tutti due combattendo. Pirro incalza
+<abbr>Polid.</abbr> che è già senz'elmo, e senza manto</stage>
+<l>Cedi quel  brando, o ti trafiggo il cuore.</l>
+</sp>
+<sp><speaker>POLIDORO</speaker><l part="I">  L'avrai … </l>
+<stage>retrocedendo</stage>
+<l part="M">Ma pria …</l>
+<stage>battendosi vien ferito da Pirro</stage>
+<l part="M">Barbare Stelle …</l>
+<stage>egli cade, e dice</stage>
+<l part="F">Io spiro. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Cadde l'audace, e seco lui sen muore </l>
+<l part="I">La frode, e il tradimento … </l>
+<stage>ripone la spada</stage>
+<l part="F">Ancor vi resta </l>
+<l>L'inumana a punir, che mi sedusse. </l>
+<l>Perfida - scelerata - e troppo indegna </l>
+<l>Della vita, di cui ti feci un dono … </l>
+<l>Vinto è dall'ira mia tutto l'affetto, </l>
+<l>Che in me regnava, e il mio furor tranquillo </l>
+<l>Cotanta offesa a vendicar sol pensa. </l>
+<l part="I">Che ella muoja … </l>
+<stage>con furia ad Arsindo</stage>
+<l part="F">ed io fazj entro il suo sangue </l>
+<l>Tutto il duol, che m'opprime e che si porti</l>
+<l><pb n="50"/>
+Agl'occhi miei l'empio suo cuor fumante. </l>
+<l part="I">Ubbidisci … </l>
+<stage>Arsindo è in atto di partire,
+ma Pirro dopo aver alquanto pensato lo ritiene
+dicendo</stage>
+<l part="F">0h! arresta … Io voglio in pria </l>
+<l part="I">Lacerar quelle membra … </l>
+<stage>verso il cadavere di Polidoro</stage>
+<l part="F">Il vedi? … amico, </l>
+<l>Ecco quel ciglio seduttor … quel labbro, </l>
+<l>Che co' suoi vezzi all'amor mio s'oppose. </l>
+<l>Egli langue … a tal vista oh! quanto io pruovo </l>
+<l>Il mio cuor sollevarsi - Ah! la spergiura </l>
+<l>Vedrallo anch'essa, e sull'indegno corpo </l>
+<l>Del fido suo cadrà da me trafitta. </l>
+<l>Solo in pensarlo io godo, e in un sol punto </l>
+<l>Tutte le mie vendette io mi figuro. </l>
+<l>Amici, olà, che sia qui tratta a forza </l>
+<l>Quella femmina ingrata, e legga scritto </l>
+<l>In quel pallido volto il suo supplizio; </l>
+<l part="I">S'adempìa il cenno mio … </l>
+<stage>due Guardie sono
+in atto di partire, ma Pirro soggiunge</stage>
+<l part="F">Ma no: fermate. </l>
+<l>Meglio pensai - Vo che più sia crudele </l>
+<l>La mia vendetta. Ognun celata tenga </l>
+<l>La morte di costui, e in chiuso loco </l>
+<l>Al mio voler lungi di quì si tragga </l>
+<l>Quest'oggetto fatal de' miei furori.</l>
+</sp>
+<stage>due Guardie portano fuori della Scena il cadavere.</stage>
+<sp><speaker>ARSINDO</speaker><l part="I">  Signor, che pronto colpo … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Invan paventi, </l>
+<l>Ch'io l'inumana a risparmiar mi pieghi. </l>
+<l>Ella cadrà tel giuro - Io che le infransi </l>
+<l>I lacci, ond'era avvinta; io, che la vita </l>
+<l>Le conservai senza cura la mia, </l>
+<l><pb n="51"/>
+Io l'aborrito, e l'ingannato sono? </l>
+<l part="I">La spergiura! … </l>
+<stage>s'appog. oppresso alla smania</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Signor, dal sen discaccia </l>
+<l>Idee sì meste, e l'infedele oblìa. </l>
+<l part="I">Calmati. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>alzandosi con furore</stage>
+<l part="F">Nò, veder la voglio, </l>
+<l>Confonderla, ascoltarla - Ah! ch'ella tremi </l>
+<l>L'apparecchio in mirar della sua morte, </l>
+<l>E che grazia mi chieda, e non l'ottenga. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l>  Come! tu brami agl'occhi suoi mostrarti? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Non temer: la sua morte è già prefissa; </l>
+<l>Nell'amor mio spera l'ingrata invano, </l>
+<l>E i suoi perfidi lumi in pria sì cari </l>
+<l>A questo seno, or non faran, che accrescere </l>
+<l>Il mio furore - Ella sarà punita. </l>
+<l part="I">Tu la Schiava mi chiama. </l>
+<stage>ad Arsindo</stage>
+<l part="F">E voi partite. </l>
+<stage>alle Guardie.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VIII </head>
+<stage>Pirro.</stage>
+<sp><speaker>PIRRO</speaker><l> Stelle! che sarà mai quella, ch'io provo </l>
+<l>Brama fatal di rimirar l'ingrata! </l>
+<l>Forse è avanzo d'amor - Forse non tutta </l>
+<l>Nel seno mio l'avida pianta è spenta! </l>
+<l>Ah! no - sparve l'incanto - Io più non amo … </l>
+<l>Io l'odio … Io vo punirla - E perché dunque </l>
+<l>Spira ella ancor? Qual frutto sperar posso </l>
+<l>Dalla presenza sua? … Se ella m'aborre, </l>
+<l>Se palese è il suo fallo, e se è giurata </l>
+<l>La morte sua … cosa mi cal del resto? </l>
+<l part="I"><pb n="52"/>
+Eccola … </l>
+<stage>(vedendo Polissena)</stage>
+<l part="F">0h! tutto palpitando il cuore </l>
+<l>Fugge il mio sangue - e in  rimirarla oblìo </l>
+<l part="I">Ciò, che dir debbo … </l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>ATTO TERZO, SCENA IX </head>
+<stage>Pirro, Polissena, Guardie.</stage>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ove son tratta! o Cieli ! </l>
+<l>Qual volto … Quali sguardi … Il mio Germano </l>
+<l part="I">Forse è scoperto … </l>
+<stage>tutto a parte</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>da sé</stage>
+<l part="F">Avidi miei furori </l>
+<l>Mi assistete al cimento, o son perduto. </l>
+<stage>alto</stage>
+<l part="I">T'avvicina. </l>
+<stage>con tuono feroce</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>tremante</stage>
+<l part="M">Ah! Signor … </l>
+<stage>(a parte)</stage>
+<l part="F">Qual tuon! qual voce! </l>
+<l part="I">Soccorso, o Dei! … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>freddamente</stage>
+<l part="F">Tu fosti un dì mia schiava. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Fortunato il momento, in cui potesti </l>
+<l>Prodigare in favor d'una tua serva </l>
+<l>Di libertade il generoso dono. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>come sopra</stage>
+<l>Dimmi: sai tu qual la cagione ne fosse? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Ah! Signor, qual mio fallo un tanto sdegno </l>
+<l part="I">Poté sì presto meritar! … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>bruscamente</stage>
+<l part="F">Rispondi. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  O tormento! … a spezzare i lacci miei </l>
+<l>Quella dolce pietà, che un dì ti spinse </l>
+<l>Fu di tua compassion forse l'effetto. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>con furia eccessiva</stage>
+<l part="I">Tu mentisci, spergiura; </l>
+<l part="F">Egli fu amore. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Dei! qual furor! … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>con furore</stage>
+<l part="F">Perfida, trema; È tutto </l>
+<l>Il tuo delitto ad onta tua palese. </l>
+     </sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Che! qual delitto!</l>
+<stage>(a parte)</stage>
+<l part="F">il mio German conobbe. </l>
+<pb n="53"/>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Me ne domandi? …  </l>
+<stage>con ironìa amara</stage>
+<l part="F">Ah! chi mi tien, che un ferro </l>
+<l>In quel perfido seno io non t'immerga? </l>
+<l part="I">Che nel tuo sangue … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>in atto supplichevole</stage>
+<l part="M">0h! Principe … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  T'acquieta; </l>
+<l>Più pietade non v'è, non v'è clemenza. </l>
+<l>Io sarò vendicato … Empia! … I tuoi falli </l>
+<l>Saran puniti, e la tua morte è certa. </l>
+<l part="I">Sì traditrice … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>con trasporto</stage>
+<l part="F">Ah! se il Ciel lo sdegno </l>
+<l>Io potei meritar, se in me v'è colpa </l>
+<l>Ella v'è sol, perch'io t'amai di troppo. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>a parte</stage>
+<l>Che? di sì puro amor può assicurarmi </l>
+<l>Il labbro tuo? qual'empietade è questa! </l>
+<l part="I">Or ben puniamla … </l>
+<stage>(alto)</stage>
+<l part="F">È poi ben veder  che m'ami? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Che dubitarne? il Ciel n'attesto. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>a parte</stage>
+<l part="F">Indegna! </l>
+<l part="I">Sentiam … </l>
+<stage>(alto)</stage>
+<l part="F">fra i beni, che promette Amore </l>
+<l>Dimmi qual ben di preferir ti piace? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  La fedeltà. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M">  Senza di lei? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  La morte. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Soddisfatta sarai … </l>
+<stage>(con furore)</stage>
+<l part="F">Guardie, si tragga </l>
+<l part="I">Lungi costei … </l>
+</sp>
+<stage>Polis. è circondata dalle Guardie.</stage>
+<sp><speaker>POLISSENA</speaker><stage>partendo dà un'occhiata penetrante a Pirro</stage>
+<l part="M">Barbaro! … </l>
+<stage>via</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Ah! con quel guardo </l>
+<l>Quasi mi disarmò - Ma non s'attenda, </l>
+<l>Che a vendicarmi; Entro il mio cuor successe </l>
+<l>Odio ad amore, a gelosìa vendetta.</l>
+</sp>
+<stage>si cala il Sipario
+Fine dell'Atto <num>III</num>.</stage>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO QUARTO</head>
+<div2 type="scena">
+<head>SCENA I </head>
+<pb n="54"/>
+<stage>Il Teatro deve rappresentare un Sotterraneo
+vasto, e profondo, che è supposto essere il
+luogo, ove è racchiusa la Tomba d'Ettore.
+Questa si vede in fondo, e sopra di essa arde
+una melanconica fiaccola, che serve a dissipare
+alquanto il funebre orrore, che è sparso per
+la Scena. Vicino al Proscenio da parte destra
+avvi una specie di tavola intagliata nella pietra,
+con sedile similmente di sasso. Sopra la
+tavola è una tazza avvelenata, ed una spada
+nuda. Da parte sinistra giace disteso sul palco
+il cadavere di Polidoro ucciso.
+<emph>Polissena condotta da una Guardia esce
+verso il fondo.</emph> </stage>
+<sp><speaker>POLISSENA</speaker><l> Dimmi almeno a qual fato i giorni miei </l>
+<l part="I">Serbati son …  </l>
+<stage>(alla Guardia)</stage>
+<l part="M">Dove mi guidi? </l>
+<stage>(la Guardia sorte)</stage>
+<l part="F">Ei fugge … </l>
+<l>Ei m'abbandona … Ove m'inoltro? - Questi </l>
+<l>Torbidi oggetti, al di cui solo aspetto </l>
+<l>S'agghiaccia il cuor - Queste ferali mura </l>
+<l>Dei veli della morte intorno cinte, </l>
+<l>Questa face lugubre, il cui sanguigno </l>
+<l>Bieco splendor l'aere rischiara appena,  </l>
+<l>E s'estingue fra l'ombre - L'atra vista </l>
+<l>Di quella tomba ove riposa Ettore, </l>
+<l>Quest'orrido apparecchio … il muggir sordo </l>
+<l><pb n="55"/>
+Di questo al Sole ignoto antro funesto, </l>
+<l>Le tenebre, il silenzio - al dolor mio </l>
+<l>Tutto convien … Ma quanto più accora, </l>
+<l>Quanto è più atroce a questo sen, che Pirro, </l>
+<l>Che il mio ben … che il mio Prence abbia disposta </l>
+<l>Questa pompa crudele agl'occhi miei. </l>
+<l>Barbaro Ciel! - perché in quel sen raccorre </l>
+<l>Tutte di gelosìa l'avide fiamme! </l>
+<l part="I">Perché! … </l>
+<stage>s'avanza sul Proscenio a sinistra</stage>
+<l part="F">Ma o Dei! chi colà giace estinto! </l>
+<l>Qual'incognita mano il cuor mi preme! </l>
+<stage>s'avvicina</stage>
+<l part="I">Stelle! …  </l>
+<stage>osserva attentamente il cadavere</stage>
+<l part="M">M'inganno! … ah! Polidoro! … </l>
+<stage>con un grido di dolore</stage>
+<l part="F">Io manco. </l>
+<stage>si getta sul sedile, ma non vede l'apparecchio</stage>
+<l part="I">Empj Numi! … </l>
+<stage>notisi, che ella volta la faccia verso Polidoro</stage>
+<l part="F">Fantasmi della notte! … </l>
+<l part="I">Furie … Averno … </l>
+<stage>s'alza furiosa, e corre al cadavere</stage>
+<l part="F">Ah! di voi chi osò spietato </l>
+<l part="I">Straziar quel petto … </l>
+<stage>vacilla, e brancolante si ritrova presso alla tavola</stage>
+<l part="F">Dove son! … Da quale </l>
+<l>Spettacolo feral cinta mi vedo! </l>
+<stage>inorridita</stage>
+<l>A che mai questa tazza …  a che quel ferro! </l>
+<l>Ah! Pirro! … ah! mostro! - a questo segno è giunta </l>
+<l>La sua folle passion! … crudel! m'uccidi </l>
+<l>Qual rivale il Germano, e mi prepari </l>
+<l>Qual'a Donna infedel morte sì atroce!</l>
+<l><pb n="56"/>
+Barbaro! - e quel tuo cuor, quell'empio cuore </l>
+<l>Condannar mi poté! - Crudel che feci! </l>
+<l>In che peccai? - Dunque l'averti amato </l>
+<l>Questa mi meritò fatal mercede? </l>
+<l part="I">O natura! o dover! </l>
+<stage>(smarrita)</stage>
+<l part="F">Chi mi soccorre? </l>
+<l>Madre … German … tutto perdei; Non resta </l>
+<l>A questo sen, che una spietata morte. </l>
+<stage>pausa, indi risoluta</stage>
+<l>Sì, si mora, e si tolga a tanti affanni </l>
+<l>Questa vita infelice …  o tu, che in seno </l>
+<stage>all'urna</stage>
+<l>Di quell'orrida tomba, Ombra, riposi </l>
+<l>Sul cenere tuo non vendicato ancora, </l>
+<l>Ettore, anima grande … ah! tu m'infiamma </l>
+<l>D'ardir le vene, onde con fermo ciglio </l>
+<l>L'ultimo fato ad incontrar m'accinga. </l>
+<stage>prende la spada</stage>
+<l part="I">Polidoro … ombra sacra …</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II </head>
+<stage>Polissena, Pirro entra inosservato nel fondo.</stage>
+<sp><speaker>PIRRO</speaker><stage>senza essere udito</stage>
+<l part="F">Ecco l'indegna. </l>
+<l>Chiama il suo bene … Il seguirà frappoco. </l>
+<stage>si ferma ad udirla</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Con quest'acciar del sangue tuo vermiglio </l>
+<l part="I">A te m'accoppierò … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M">  Fremo. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ah! Germano! … </l>
+<l part="I">Mio sangue … mia speranza … </l>
+</sp>
+<sp><speaker>PIRRO</speaker>
+<stage>con agitazione estrema</stage>
+<l part="F">Ciel! che sento! </l>
+<l>Suo German … sommi Dei! - possibil fia? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Ah! di Priamo infelice unico germe </l>
+<l><pb n="57"/>
+Scopo innocente di miei brame … arresta </l>
+<l>I passi tuoi sulla fatal palude. </l>
+<l part="I">Io vengo … </l>
+<stage>vuol ferirsi, ma s'arresta dicendo</stage>
+<l part="F">Ohimè! chi mai creduto avrebbe, </l>
+<l>Che dall'istessa man dell'idol mio, </l>
+<l>Da quei, che adoro; da colui, che solo </l>
+<l>Il cuor m'incatenò … dovessi estinto, </l>
+<l>Sventurato Germano, al suol cadere? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Cieli!… Ella m'ama! … e sarà ver? - che intesi! </l>
+<l>Suo German Polidoro! - Io sono amato! </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Almen la morte mia, terribil'ombra, </l>
+<l part="I">Ti plachi - Alfin … </l>
+<stage>vuol ferirsi nuovamente,poi si ferma</stage>
+<l part="F">Ma perché mai la destra </l>
+<l>Mi trema al fatal colpo, e non ardisco </l>
+<l>Questo soffio esalar, che ancor mi resta </l>
+<l>D'una misera vita! … ah! che un supplizio </l>
+<l part="I">Esser non dee per me la morte. </l>
+<stage>posa la spada</stage>
+<l part="F">Almeno </l>
+<l part="I">Men terribil si cerchi … </l>
+<stage>accennando la tazza</stage>
+<l part="F">Ecco la via </l>
+<l>Onde sortir da tanto duol - Si vuoti </l>
+<l>Questa tazza omicida, e in lei si beva </l>
+<l>L'ultimo mio destin … forse apprestando </l>
+<l>Questo tetro liquor, potero i lumi  </l>
+<l>Del barbaro Idol mio mescervi a sorte </l>
+<l part="I">Qualche stilla di pianto … </l>
+     </sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Io reggo appena. </l>
+<l part="I">Crudel! che feci! </l>
+<stage>smaniando avvicina</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ah! questa dolce idea </l>
+<l>Entro il mio sen tutta la forza avviva; </l>
+<l>Polissena, coraggio - Alfin si mora. </l>
+<stage>prende la tazza</stage>
+<pb n="58"/>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Fermati … oh! Dio! … </l>
+<stage>lanciandosi l'arresta, e getta la tazza</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>spaventata</stage>
+<l part="F">Da me che vuoi crudele? </l>
+<l part="I">Lasciami in pace … </l>
+<stage>cade sul sedile</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Anima mia, perdono, </l>
+<l part="I">Io t'offesi … </l>
+<stage>(con trasporto)</stage>
+<l>Io furioso a morte spinsi </l>
+<l>La metà di te stessa - Io non son degno </l>
+<l>De' sguardi tuoi; reo mi confesso in faccia </l>
+<l>Agl'Uomini, agli Dei … Ma scusa almeno </l>
+<l>Un trasporto - una furia … un ardor cieco, </l>
+<l>Che barbaro poté rendermi appunto </l>
+<l>Perché troppo t'amai … Mia Principessa, </l>
+<l part="I">Un sospir … </l>
+<stage>(teneramente)</stage>
+<l part="F">No … perdono - </l>
+<l part="I">e più non chiedo. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Involati, crudel; Vedi: tu sei </l>
+<l>Di quel sangue innocente ancor bagnato, </l>
+<l>Ancor negl'occhi tuoi scintilla il fiele, </l>
+<l>Che le viscere tue consuma, e strugge. </l>
+<l>Lasciami, fuggi … almen se il mio Germano, </l>
+<l>Se ogni speranza mi togliesti, lascia </l>
+<l>A questo sen la libertà del pianto. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Polissena … </l>
+<stage>con tenerezza</stage>
+     </sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Spietato! - aggiunger brami </l>
+<l>L'oltraggio a tuoi delitti? Il sen mi vuoi </l>
+<l>Strappar di propria mano, e trarne a forza </l>
+<l>La debol'alma? Che t'arresti? … impugna </l>
+<l>Questo barbaro acciar, che il sen trafisse </l>
+<l>A Polidoro, e per le vie lo spingi </l>
+<l>Di questo cuore … Esse a te note sono. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Ove ti porta il tuo dolor! - Deh! cessa  </l>
+<l>D'insultare a miei mali, e men severi </l>
+<l><pb n="59"/>
+Volgi que' lumi tuoi verso un meschino, </l>
+<l>Che se t'offese, il cuor straziar si sente </l>
+<l>Dalla voce feral de' suoi rimorsi. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Ah! barbaro! </l>
+<stage>(s'alza)</stage>
+<l part="F">Il tuo sen non è capace </l>
+<l>Di pentimento - Ed io contar potrei </l>
+<l part="I">Sulla tua fede? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Ah! tutto puoi, mel credi, </l>
+<l>Sopra di me, se quel tuo sdegno ammorzi; </l>
+<l>Ahimè! … la mia barbarie, il mio furore </l>
+<l>Da te fu acceso allor, che tu potesti </l>
+<l>Cessar d'amarmi - L'odio tuo, mio Nume, </l>
+<l>Il tuo rancor col tuo delitto insieme </l>
+<l>Nelle lacrime mie restin sepolti. </l>
+<l part="I">Io ti giuro … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  T'accheta; Il Ciel rispetta; </l>
+<l>Forse pretendi agl'occhi miei far pompa </l>
+<l part="I">D'una menzogna … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Tu m'oltraggi a torto. </l>
+<l>Assai t'è noto questo cuor; risparmia </l>
+<l>La pena mia - L'affetto tuo mi rendi.  </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Stelle! che chiedi! … ahimè! </l>
+<stage>voltan altrove</stage>
+     </sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Soffrir non puote </l>
+<l>Lo sguardo tuo la mia fatal presenza, </l>
+<l>E all'irritato Ciel chiedi vendetta. </l>
+<l>Ma ti volgi - l'avrai … Prendi quel ferro, </l>
+<l>E sazia nel mio sangue il tuo spavento. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Taci. Io bramo la morte. Io, che da' Numi </l>
+<l>Dagl'uomini, da te, dal mio destino </l>
+<l part="I">Aborrita mi vedo. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Io sono il solo </l>
+<l>Colpevole, il geloso, il disumano; </l>
+<l><pb n="60"/>
+Se la tema di perderti ha potuto </l>
+<l>Accecarmi … sedurmi, in questo seno </l>
+<l>Non accrescer di più le furie mie. </l>
+<l>Il tuo cuore è innocente: Egli è fedele; </l>
+<l part="I">Tu viver dei - Pirro lo vuole </l>
+<stage>con trasporto</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ah! questi </l>
+<l>Giorni infelici, il di cui fragil corso </l>
+<l>Avvelenò la fiamma tua, son gravi </l>
+<l>A quest'alma, che sol respirar puote </l>
+<l>Amarezza, e spavento - Il mio rimira </l>
+<l part="I">Germano esangue … </l>
+<stage>voltandosi al cadavere</stage>
+<l part="F">Egli mi chiama … ei chiede </l>
+<l>Da me vendetta, ed io rimiro espresso </l>
+<l>In quei languidi lumi il fato mio. </l>
+<l part="I">Mostro … tuo - che? tu m'insulti </l>
+<stage>fuor di sé</stage>
+<l part="F">e neghi </l>
+<l>Quest'estremo conforto al mio dolore? </l>
+<l>Inumano! … che fai? … ferma - tu strappi </l>
+<l>Da quella fredda spoglia il cuor ferito … </l>
+<l part="I">Tu lo strazj … </l>
+<stage>(delirando)</stage>
+<l part="F">fellon! … senti, ch'ei geme </l>
+<l part="I">Sotto il ferro omicida? … e che? </l>
+<stage>fa due passi
+indietro spaventata, e si getta sul sedile</stage>
+<l part="F">tu ardisci </l>
+<l>Portar quel cuor su' labbri miei sanguigni? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Misera! tu deliri. Amici, </l>
+<stage>escon  quattro Guardie</stage>
+<l part="F">altrove </l>
+<l>Quel cadavere si tragga, ed a quei lumi </l>
+<l>Un spettacolo sì fier pronti togliete. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  T'arresta … </l>
+<stage>s'alza, e corre alle Guardie,
+che prendono il cadavere</stage>
+<pb n="61"/>
+<l part="M">ah! tigri! </l>
+<stage>Pirro la ritiene</stage>
+<l part="F">ove si trae quel sacro </l>
+<l>Monumento, che chiude ogni mio bene! </l>
+<l part="I">Permettetemi almen, </l>
+<stage>volendo lanciarsi verso le Guardie</stage>
+<l part="F">Ch'io spiri accanto </l>
+<l part="I">A quella cara alma … </l>
+<stage>è ritenuta da <abbr>Pir.</abbr></stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  E dove corri? </l>
+<l part="I">Lascia … </l>
+<stage>due Guardie portan fuori il cadavere</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  No … </l>
+<stage>si stacca dalle mani di <abbr>Pir.</abbr></stage>
+<l part="M">Morir voglio .. </l>
+<stage>vuol correre alla Scena ma sviene</stage>
+<l part="F">Io più non reggo. </l>
+<stage>ella è sostenuta dall'altre due Guardie</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Ella manca … </l>
+<stage>(con dolore)</stage>
+<l part="F">Custodi abbiasi cura,</l>
+<l>Se vi son cari i miei, de' giorni suoi.</l>
+</sp>
+<stage>le due Guardie portano via Polissena.</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA III </head>
+<stage>Pirro.</stage>
+<sp><speaker>PIRRO</speaker><l part="I"> Torbida gelosìa! … </l>
+<stage>si getta a sedere</stage>
+<l part="F">perché cotanto </l>
+<l>Ardere un cuore! perché versare in esso </l>
+<l>Tutto il calice reo delle tue pene! </l>
+<l>Ma senza indugio a riparar si voli </l>
+<l part="I">La colpa mia. </l>
+<stage>(s'alza)</stage>
+<l part="F">Non ha il mio cuor, che un solo </l>
+<l>Sentimento; Ei non serba altra speranza, </l>
+<l>Che di placar l'idolo mio sdegnato. </l>
+<l>Se infelice a tal segno hanno gli Dei </l>
+<l>Polissena ridotta, a questa destra </l>
+<l><pb n="62"/>
+S'aspetta il sollevarla, e vo' che unisca </l>
+<l>L'anime nostre indissolubil nodo. </l>
+<l>So, che più d'un vi s'opporrà, che spenta </l>
+<l>La mia felicità vorrassi allora, </l>
+<l>Che a nascere incomincia, e che a miei voti </l>
+<l>Polissena, involar sarà tentato; </l>
+<l>Ma so ben'io come frenar sia duopo </l>
+<l>De' miei Nemici il temerario orgoglio </l>
+<l>Vedran tra i flutti del lor sangue … in mezzo </l>
+<l>Ai cadaveri, al fuoco, ed alle stragi </l>
+<l>Se Pirro io sono, e vendicar s'io sommi.</l>
+<stage>in atto di partire.</stage>
+     </sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>Pirro, Arsindo agitato.</stage>
+<sp><speaker>ARSINDO</speaker><l part="I">  Ferma, Signor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>volgendosi</stage>
+<l part="F">Che vuoi? … perché quel volto </l>
+<l>Sì pien d'orrore … onde quei Cupi sguardi </l>
+<l part="I">Quell'irto crin … </l>
+</sp>
+<sp><speaker>ARSINDO</speaker>
+<stage>riprendendo il respiro</stage>
+<l part="F">Tacer vorrei, se il Cielo </l>
+<l>A costo di mia vita a te far noto </l>
+<l>Non volesse un secreto, al mio sol nome </l>
+<l>Atterito ti mostri, e il cuor ti trema. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Parla. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Io palpito ancora; Ancor le membra </l>
+<l>Un orribil timor m'agita, e scuote. </l>
+<l>Signore, appena ciò, che vidi io stesso </l>
+<l>Creder posso, e tu fede al parlar mio </l>
+<l>Forse non presterai, sebben la merti. </l>
+<l>Era il Sol con il cocchio a mezzo il corso, </l>
+<l><pb n="63"/>
+E più feroce a quei destrieri il tergo </l>
+<l>Bieco sferzava, allor che il suol fremendo </l>
+<l>Con cieco muggir gl'aditi aperse </l>
+<l>Del seno suo, d'onde sortiro a gara </l>
+<l>Miste con atro fumo avide fiamme. </l>
+<l>Tremar le selve; ed il recinto sacro </l>
+<l>Ove del grande Achille è l'urna ascosa </l>
+<l>Fremé, si scosse, e l'Orizzonte intorno </l>
+<l>Atra fascia coprì d'orror di morte. </l>
+<l>Febo s'ascose, e di sanguigno lume </l>
+<l>Tramando sulla Terra orride vampe. </l>
+<l>Al mormorar dell'antri, al cupo fremito </l>
+<l>Dell'agitato suol mugghiò, fe in alto </l>
+<l>L'onde salir dal fondo suo Nettuno. </l>
+<l>Allor dall'urna sacra, ove l'inulta </l>
+<l>Ombra del Padre tuo gemé sovente </l>
+<l>Spettro feral mi si fe avanti, e a gridi </l>
+<l>Dell'Averno dischiuso, e in mezzo all'atre </l>
+<l>Ombre di Flegetonte, il capo augusto </l>
+<l>Crollò l'inclito Spettro, e sì mi disse. </l>
+<l>"Andate, inerti, andate pur; Troncate </l>
+<l>Il canape dal Lido, e in mezzo all'onde </l>
+<l>Prendete il corso; All'ombra mia togliete </l>
+<l>L'onor dovuto. - Empj, saprò ben'io </l>
+<l>Come punirvi; Lascerò di morte </l>
+<l>I cupi Regni; Apporterò sull'acque </l>
+<l>Il mio furor; farò la strada ai venti </l>
+<l>Onde spinganvi a gara in mezzo ai scogli, </l>
+<l>Così dunque sodisfa il Figlio mio </l>
+<l>L'ombra del Padre? - ah! va; Di', che se degno </l>
+<l>Di chi vita gli diè mostrarsi vuole </l>
+<l>Stringa l'acciar, che gli donò Calcante, </l>
+<l><pb n="64"/>
+E Polissena 'l mio furore uccida." </l>
+<l>Disse: E fra i lampi all'urna sua tornando </l>
+<l>Senza moto lasciommi, e senza voce. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  Cielo! … </l>
+<stage>si getta sul sedile</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Udisti, Signor? Se al tuo gran Padre </l>
+<l>Negar non vuoi la contentezza estrema </l>
+<l part="I">Svenar t'è duopo Polissena. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>minacciando</stage>
+<l part="F">Ardisci </l>
+<l part="I">Tanto sperar? </l>
+<stage>(con sdegno)</stage>
+<l part="F">lasciami solo; io voglio </l>
+<l>Tutto alle smanie mie gettarmi in preda. </l>
+</sp>
+<stage>s'appoggia disperato alla tavola</stage>
+<sp><speaker>ARSINDO</speaker><l part="I">  E a Calcante dirò … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M">  Lasciami. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Almeno </l>
+<l part="I">Di' se del sacrifizio … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>alzandosi confusamente</stage>
+<l part="F">A lui dir devi …  </l>
+<stage>irresoluto </stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="I">  Che debbo dir? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>impaziente</stage>
+<l part="M">Ciò che ti piace. </l>
+<stage>s'appoggia di nuovo</stage>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Oh! amore!</l>
+</sp>
+<stage>via</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA V </head>
+<stage>Pirro.</stage>
+<sp><speaker>PIRRO</speaker><l>  Compiste alfin di tormentarmi appieno </l>
+<l>Barbarie mie sventure - Il duol, che eccede, </l>
+<l>E che crudel l'anima mia soverchia </l>
+<l>Quasi a morte mi spinse, e il guardo appena </l>
+<l>Da questi marmi a sollevarmi è pronto. </l>
+<l>Quest'orrida spelonca, e quest'austera </l>
+<l><pb n="65"/>
+Pompa fatal per l'innocenza eretta </l>
+<l>Servir demmi di tromba - e in queste vene </l>
+<l>Quell'empia tazza apporterà la morte. </l>
+<stage>vi stende la mano</stage>
+<l>Ma chi ritiene la destra mia! … chi porta </l>
+<l>Lungi da me quell'omicida umore! </l>
+<stage>con illus.</stage>
+<l>Amabil Dea, che mi t'aggiri al fianco … </l>
+<l>Chi sei … che brami? … tu soccorso implori. </l>
+<l part="I">E tu vuoi, ch'io ti siegua? - Eccomi … </l>
+<stage>s'alza ritornando in se dopo breve pausa</stage>
+<l part="F">Oh! folle </l>
+<l>Del mio guasto pensier placido incanto! </l>
+<l>Ah! Polissena è tutto ciò, ch'io vedo. </l>
+<l>Ella chiede soccorso … e forse all'Ara </l>
+<l>Da suoi Nemici è trascinata a forza … </l>
+<l>Ah! questa sola idea tutto in me accende </l>
+<l>Tutto il fuoco primiero - Olà; compagni … </l>
+<stage>alla scena</stage>
+<l part="I">Tessali … Amici …  </l>
+<stage>(escono alcune Guardie)</stage>
+<l part="F">al fianco mio si tragga </l>
+<l>La mia Schiava … il mio bene … udiste? - Io voglio </l>
+<l part="I">Polissena - ubbiditte. </l>
+<stage>le Guardie partono</stage>
+<l part="F">Ah! se al supplizio </l>
+<l>Ègià condotta … ognun paventi - Io giuro </l>
+<l>A tutti i Dei di far con questo ferro </l>
+<l>Un teatro d'orror del Campo intiero. </l>
+<stage>arriva Polissena</stage>
+<l part="I">Ma che pavento? - Ecco il mio ben …</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI </head>
+<pb n="66"/>
+<stage>Pirro, Polissena.</stage>
+<sp><speaker>POLISSENA</speaker><l part="F">  Che vuoi </l>
+<l>Da un infelice oppressa? a mali miei </l>
+<l>Brami insultar di nuovo, o di tua mano </l>
+<l>Quivi affrettar l'ultima mia ruina? </l>
+<l>Felice me! se a quel sopor di morte, </l>
+<l>Che passeggiero oppresse i sensi miei </l>
+<l>Per opra tua scampata, il fatal colpo </l>
+<l>Debbo incontrar dalla tua destra istessa. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Qual sospetto t'ingombra! - Ah! se di questo </l>
+<l>Sventurato mio cuor tutte le pene </l>
+<l>Tu vedessi, crudel; forse men fiera </l>
+<l>Non faresti a miei mali un tal insulto. </l>
+<l>Tutto all'orecchie tue non giunse ancora </l>
+<l>Il mio spavento … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Spaventar sol puommi </l>
+<l>Della morte il rifiuto. Entro il tuo seno </l>
+<l>Se di pietà la voce il grido ergesse, </l>
+<l>Se l'alma tua fosse commossa in parte </l>
+<l>Dalla mia sorte, la tua destra avrebbe </l>
+<l>Prontamente recisi i giorni miei, </l>
+<l>I miei giorni dolenti al pianto, al lutto, </l>
+<l>Ed al disprezzo abbandonati - Il colmo </l>
+<l>Tu mettesti a miei mali, e in questo abisso </l>
+<l>L'avermi tratta all'ira tua non basta? </l>
+<l>Pensi tu ancor sedurmi, ancor de' lacci </l>
+<l>Tessere a questo cuor con quei trasporti, </l>
+<l>Con quei sospiri tuoi prestigj usati </l>
+<l>De' falsi amanti? Invano il tuo furore </l>
+<l><pb n="67"/>
+Di rimorso col nome agl'occhi miei </l>
+<l>Celarsi tenta - m'aborrisci, ingrato, </l>
+<l part="I">Né mai m'amasti. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>con amarezza</stage>
+<l part="F">Io non t'amai? - crudele! </l>
+<l>Taci; un ingiuria tal troppa amarezza </l>
+<l>Mescola a miei sospiri. Io, che a te sola </l>
+<l>Questo mio cuor donai, che ogn'altro volto </l>
+<l>Spregiato innanzi, a un sol girar de' tuoi </l>
+<l>Afflitti lumi ad avvampar m'astrinse </l>
+<l>D'amor la fiamma; Io, che del Ciel spregiando </l>
+<l>L'Oracol fatal, porger non oso </l>
+<l>Pronto soccorso alla mia Patria afflitta </l>
+<l>Sol per salvare i giorni tuoi … non t'amo? </l>
+<l>Barbara! - a me negar l'affetto mio? </l>
+<l>Non credere al mio fuoco, ed a quest'alma </l>
+<l>Insensibil stimar la tua sventura? </l>
+<l>Quando de' pianti miei l'amare tracce </l>
+<l>Puoi rimirare ovunque, e quand'io provo </l>
+<l>Tutto il dolor, che può provare un cuore </l>
+<l>Non veder nel mio duol, che lievi pene, </l>
+<l>E in lacrime di sangue altro, spietata, </l>
+<l>Non riscontrar, che un volontario pianto? </l>
+<l>Questo è troppo - crudel, co' tuoi trasporti </l>
+<l>Più mi festi provar, che i miei delitti, </l>
+<l>Che il mio destin, che dell'Olimpo i cenni. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Di quai cenni favelli! … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Il Ciel volesse, </l>
+<l>Ch'essi fossero a te per anco ignoti. </l>
+<l part="I">Non sai … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Parla. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Se ancor tutta non giunse </l>
+<l>Delle nostre sventure a te la fama, </l>
+<l><pb n="68"/>
+Non curar di saperle - A te pur troppo </l>
+<l>Per comune dolor note saranno. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Non dubitar di spaventarmi; a tutto </l>
+<l part="I">Disposta son - parla. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Non trar, ti prego, </l>
+<l>Da questi labbri un sì fatal annunzio. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Tu m'insulti … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Se il vuoi, tutto ti svelo. </l>
+<l>L'Oracol degli Dei morta ti vuole, </l>
+<l>E del mio Genitor l'ombra sdegnata </l>
+<l>Comanda, ch'io ti sveni, e col tuo sangue </l>
+<l>Onde placarla, il suo sepolcro asperga. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Numi! … </l>
+<stage>si getta sul sedile</stage>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Afflitto mio Bene, o vera imago </l>
+<l>Dell'oppressa virtude …  ecco a quel punto </l>
+<l>In questo dì l'empio destin c'ha tratti. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>s'appoggia</stage>
+<l>Questo sfogo perdona la mio dolore … </l>
+<l>Io respirare appena posso - e cinta </l>
+<l>Da' legami di morte è l'alma mia. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Sorgi! … non paventar. Della tua vita </l>
+<l>In me, tel giuro, il difensore avrai. </l>
+<l>Pera la Patria … il Ciel m'insiegua, e lasci </l>
+<l>Per tormentarmi il Padre mio l'Averno </l>
+<l>Sempre t'adorerò, questo mio brando </l>
+<l>Sempre terrò per tua difesa in pugno. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Ove trascorri? - Il dover tuo rammenta, </l>
+<l>Servi alla Patria, e la tua Schiava oblìa; </l>
+<l part="I">Signor … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Vedrai, se in questo petto è chiuso </l>
+<l>Tanto valor da liberarti - Io vado </l>
+<l>Tanti amici da unir, quanti sian duopo </l>
+<l><pb n="69"/>
+Per guidarti con me libera al Mare. </l>
+<l>Quivi su' legni miei potrò sicura </l>
+<l part="I">Lungi di quà condurti. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  E non paventi </l>
+<l>L'ira del Ciel? Spengi una folle speme </l>
+<l part="I">Stolido Dio de' ciechi amanti …  </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Indarno </l>
+<l>Tenti arrestarmi - a liberarti io volo. </l>
+<l part="I">Tu m'attendi, e vedrai … </l>
+<stage>in atto di partire</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><stage>alzandosi spaventata</stage>
+<l part="F">Ferma, ove corri? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="I">  A difenderti. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Oh! Dio! - Prence, rifletti … </l>
+<l part="I">Pensa, che sei … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  No, non so più chi sono.</l>
+<stage>in atto di partire</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Odimi … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="M">  Addio. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Che cerchi tu? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>parte furibondo</stage>
+<l part="F">La morte.</l>
+</sp>
+<stage>si cala il Sipario
+Fine dell'Atto <num>IV</num>.</stage>
+</div2>
+   </div1>
+<div1 type="atto">
+<head>ATTO QUINTO</head>
+<div2 type="scena">
+<head>ATTO QUINTO, SCENA I </head>
+<pb n="70"/>
+<stage>Il Teatro di nuovo rappresenta il Bosco, e la Tomba.
+Erope, Arsindo.</stage>
+<sp><speaker>EROPE</speaker><l> E dell'infausto sacrifizio ancora </l>
+<l part="I">L'esito non si sa? </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l part="F">  Come! ed ignori, </l>
+<l>Che dalle mani dei Sacerdoti a forza </l>
+<l>Pirro involò l'Ostia de' Fati attesa? </l>
+</sp>
+<sp><speaker>EROPE</speaker><l> Nulla intender poss'io; svelta poc'anzi </l>
+<l>Dall'infelice Principessa, e lungi </l>
+<l>Dal fianco suo più non la vidi, e sono, </l>
+<l>Misera! ancor del suo destino incerta. </l>
+</sp>
+<sp><speaker>ARSINDO</speaker><l>  Odimi; A cenni di Calcante appena </l>
+<l>La sventurata Vittima in potere </l>
+<l>Cadde de' Sacerdoti, e svelta a forza </l>
+<l>Dalla Turma venia … fuoco7spirante  </l>
+<l>Ecco Pirro lanciarsi, e dal suo fianco </l>
+<l>Fremer d'altri Guerrieri inclito stuolo. </l>
+<l>Leon, che sia dal cacciator ferito </l>
+<l>Sì terribil non fora allor i Campi </l>
+<l>Dell'arsa Libia co' ruggiti assorda </l>
+<l>Quando il Giovin feroce, il di cui ferro </l>
+<l>Bieco ovunque traea ruina, e morte. </l>
+<l>Impallidisce ognun: Calcante invano </l>
+<l>I Numi invoca, e al furibondo Amante </l>
+<l>Dell'Averno, e del Ciel l'ira minaccia. </l>
+<l><pb n="71"/>
+Sparge il vento i duoi detti: Il Garzon truce </l>
+<l>Fra la turma si scaglia, e al sacro braccio </l>
+<l>Degl'atterriti Sacerdoti invola </l>
+<l>Il custodito pegno; al Campo corre </l>
+<l>Dell'infame attentato il fatal grido, </l>
+<l>E già pronto è ciascuno, onde ritorre </l>
+<l>L'involato olocausto, e col suo sangue </l>
+<l>Omai l'ira placar del Cielo offeso. </l>
+</sp>
+<sp><speaker>EROPE</speaker><l> Principessa infelice! - È questo dunque </l>
+<l>Sacro solo alle stragi infausto giorno? </l>
+<l>O Frigia! o Patria! a qual'eccesso è giunto </l>
+<l>L'implacabil destin, ch'ognora t'insiegue! </l>
+<l>Ah! giacché tutto il Ciel mi tolse, almeno </l>
+<l>Polissena si cerchi, e in braccio a lei </l>
+<l>Nell'estremo sospiro diale il mio labbro </l>
+<l>L'ultimo dono all'amistà dovuto.</l>
+</sp>
+<stage>via</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA II </head>
+<stage>Arsindo.</stage>
+<sp><speaker>ARSINDO</speaker><l> Quanto il destino lor (misere!) è degno </l>
+<l>D'esser compianto. Io son de' Greci, è vero, </l>
+<l>Son lor nemico, eppur tutte risento </l>
+<l>Le lor sventure - Ma d'indugj or tempo </l>
+<l>Per me non è. Volisi al Campo, e stringa </l>
+<l>La man l'acciar per la comun salvezza. </l>
+<l>Ciel! … che rimiro! - di furore acceso </l>
+<l>Ecco quà Pirro, e Polissena è seco. </l>
+<l>A Calcante si corra, e a lui congiunto </l>
+<l>S'involi al braccio suo pegno sì sacro.</l>
+</sp>
+<stage>via</stage>
+</div2>
+<div2 type="scena">
+<head>SCENA III </head>
+<pb n="72"/>
+<stage>Pirro conduce a forza Polissena in bianca veste,
+cinta di fiori come preparata per il Sacrifizio.
+Seguito di Guerrieri.</stage>
+<sp><speaker>PIRRO</speaker><l part="I">  Seguimi: Non temer … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Dove mi guidi? </l>
+<l>Lasciami per pietà … Prence, non vedi, </l>
+<l>Che con la mia tu la tua morte affretti? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Vieni, non dubitar; D'un volgo insano </l>
+<l>Spregia i tumulti, e non temer quell'ira. </l>
+<l>Ben tosto ti farà questa mia destra </l>
+<l>Fra il Popol, fra le Guardie, e fra i Ministri </l>
+<l>Della tua morte un'ampia strada al Mare. </l>
+<l>Già tutti i miei più fidi,  qualche Duce, </l>
+<l>Che a favorirmi il mio destino ha mosso </l>
+<l>Con i Tessali miei pronti a salvarti </l>
+<l>Fremono al fianco nostro, e in pria sul suolo </l>
+<l>Disperati versar bramano il sangue, </l>
+<l>Che abbandonarti; I tuoi nemici invano </l>
+<l>Tenteran d'involarti a queste braccia. </l>
+<l>Ma, Principessa, onde provien quel pianto, </l>
+<l>Onde quel duol? … Perché alle mie premure </l>
+<l part="I">Rispondi sol con dei sospiri? … </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="F">  Ah! lascia </l>
+<l>Di liberarmi; Ogni mia speme è posta </l>
+<l>Nel fatal colpo, che a subir m'accingo.  </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Che? - tu morir? … di tormentar deh! cessa </l>
+<l>Questo misero cuor - Non sai, che pende </l>
+<l>La mia felicità da' giorni tuoi? </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l>  Principe, il Ciel non ha giammai congiunto </l>
+<l><pb n="73"/>
+Il tuo destin con i miei giorni; Invano </l>
+<l>Ti seduce l'aspetto … Egli t'inganna. </l>
+<l>E se giammai, Signor, da una meschina </l>
+<l>La tua felicità dipender puote, </l>
+<l>La morte mia far sol ti dee felice. </l>
+<l>Pensa al tuo grado, alla tua gloria; I Numi </l>
+<l>Vogliono il sangue mio; lascia, che all'Ara </l>
+<l>Lascia, Signor, che il fato mio mi tragga. </l>
+<l>Vedrai, se il Ciel tanto coraggio ha chiuso </l>
+<l>In questo sen da rimirar costante </l>
+<l part="I">Il mio supplizio. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Ah! tu mi strappi il cuore. </l>
+<l part="I">Seguimi … </l>
+<stage>vuol condurla</stage>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="M">  Invan lo speri … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Ah! cessa - Oh! Numi! </l>
+<l>Che veggio mai! - giunge Calcante, e seco </l>
+<l>Di Guerrieri, e Ministri un stuol s'avanza. </l>
+<l part="I">Difendiamoci, Amici. </l>
+<stage>(al seguito)</stage>
+<l part="F">Il sangue mio </l>
+<l>Per voi sarà della battaglia il segno. </l>
+<l part="I">Vieni … </l>
+<stage>(prende Polissena)</stage>
+<l part="F">Saprò ben'io come involarti </l>
+<l>Al barbaro furor de' tuoi tiranni. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Lasciami … </l>
+<stage>(volendo liberarsi)</stage>
+<l part="M">O Ciel! …</l>
+<stage>vede Calcante</stage>
+<l part="F">Nol soffrirò giammai.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA ULTIMA </head>
+<pb n="74"/>
+<stage>Pirro, Polissena, Calcante, Arsindo, Sacerdoti,
+Guerrieri, Guardie, Popolo.</stage>
+<sp><speaker>CALCANTE</speaker><l>  O sacrilegio! o Numi offesi! - E dove, </l>
+<l>Temerario, ti spinse un cieco affetto? </l>
+<l>Lascia quell'ostia … Ella è in poter del Cielo. </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l>  Carnefice crudel! - Non vuol l'Olimpo </l>
+<l>Questi di crudeltà barbari esempj. </l>
+<l>Tu gl'inventi, fellon; tu sei, che fingi </l>
+<l>Barbari, audaci a tuo capriccio i Numi. </l>
+<l part="I">Scostati. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F">  Scellerato! - ah! questo è troppo. </l>
+<l>Deh! non v'offenda un tale eccesso, o Dei! </l>
+<l>Così dunque, profano, il Cielo insulti, </l>
+<l>Né temi ancor, che dall'etereo seno </l>
+<l>Onde piombar sul tuo malvagio teschio </l>
+<l>Vendicatrice folgore non scenda? </l>
+<l part="I">Empio! in tal guisa … </l>
+</sp>
+<sp><speaker>PIRRO</speaker><l part="F">  A questo cuore indarno </l>
+<l>Con sognate minacce, e folli sdegni </l>
+<l>Tema la tua doppiezza incuter tenta. </l>
+<l>Combattei per la Patria, e l'ira mia </l>
+<l>L'Asia provò, né ora di nuovo in Campo </l>
+<l>Col brando in pugno all'inimico in faccia </l>
+<l>Tutto il sangue versar grave mi fora. </l>
+<l>Le fiere stragi, e le sanguigne morti </l>
+<l>Son legittime allor. Niuno pretenda </l>
+<l>D'insegnare al mio cuor quanto alla Patria </l>
+<l>Deve il mio braccio, e al Genitore estinto. </l>
+<l>Ma un altare di sangue, il sacrifizio </l>
+<l><pb n="75"/>
+D'un innocente vittima, cui nulla </l>
+<l>Fuor che il viver restò, come mai puote </l>
+<l>Servir la Patria, e consolare un Padre? </l>
+<l>L'omicidio in effetto e quando i Numi </l>
+<l>Render poteo propizj? Amici, io vidi </l>
+<l>Le superbe di Troja inclite mura </l>
+<l>Per vostra man cader al suol distrutte. </l>
+<l>De' mortali infelici il sangue, è vero, </l>
+<l>Spargemmo a rii, ma ciò seguì soltanto </l>
+<l>Di battaglia sul Campo, e non sull'Ara. </l>
+<l>Come! e si vuol, che all'empietade io giunga </l>
+<l>D'imbrattar questa man nel casto sangue </l>
+<l>D'una Donna innocente, e in un sol punto </l>
+<l>D'un Eroe qual si vuol tigre io divenga? </l>
+<l part="I">Tu puoi bramar, </l>
+<stage>(a Calcante)</stage>
+<l part="F">Ch'io Natura oltraggi, </l>
+<l>Ch'io di colei, ch'a sospirar m'apprese </l>
+<l>Il carnefice sia, ch'io senza orrore </l>
+<l>Nel suo bel petto il sacro ferro immerga, </l>
+<l>Che mentre ella ancor vive, il braccio mio </l>
+<l>Questo braccio sanguigno aprale il fianco, </l>
+<l>E fior ne tragga onde saziar gli Dei </l>
+<l>Le fumanti sue viscere, e che pieno </l>
+<l>Della tua crudeltade il Cielo offeso </l>
+<l>Vi consulti per te? - Ma ver non fia. </l>
+<l>Guerrieri, ah! chi di voi risente in seno </l>
+<l>Quanch'ombra di pietà segua i miei passi, </l>
+<l>E l'innocente vittima sottragga </l>
+<l part="I">Al furor di colui … </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="F">  Guerrieri, udite. </l>
+<l>Gl'offesi Dei fremono di sdegno: Achille </l>
+<l>Vendetta chiede, e l'ombra sua sdegnosa </l>
+<l><pb n="76"/>
+Brama far sazio il furor suo nel sangue. </l>
+<l>Polissena è la vittima: Né giova </l>
+<l>L'aure, e i Numi del Mar sperar propizj </l>
+<l>Finché il collo piegato alle bipenne </l>
+<l>La sventurata Vergine non abbia </l>
+<l>Col sangue suo questo sepolcro asperso. </l>
+<l>Popoli, vi sovvenga allor, che astretti </l>
+<l>Fra i scogli dell'Eubea da simil fato </l>
+<l>L'aure negava onde portarci in Asia </l>
+<l>A voti nostri il Dio dell'acque avverso, </l>
+<l>E la Dea delle Selve, e il fier Nettuno </l>
+<l>Sola saziò d'Ifigenia la morte. <note> <foreign lang="lat"><emph>Sanguine placatis ventos, et virgine caesa, sanguine quaerendi reditus … </emph>. <abbr>Virg.</abbr> <abbr>En.</abbr> <abbr>lib.</abbr> <num>2</num>. </foreign></note></l>
+<l>D'una Vergine il sangue a noi pur debbe </l>
+<l>Al patrio suol pronto implorar ritorno. </l>
+<l>Giove istesso è, che parla; E non potremo </l>
+<l>La Patria riveder, che a questo prezzo. </l>
+</sp>
+<sp><speaker>POLISSENA</speaker><l part="I">  Ah! t'arrendi, Signor. </l>
+<stage>(a Pirro)</stage>
+<l part="F">Vinci te stesso, </l>
+<l>E giacché tutto mi togliesti, almeno </l>
+<l>Accelera, che il puoi di propria mano </l>
+<l>L'ora da Fati al morir mio prescritta. </l>
+<l part="I">Lascia … </l>
+<stage>vuol liberarsi</stage>
+      </sp>
+<sp><speaker>PIRRO</speaker><l>  Che temi? - a questo brando è dato </l>
+<l>Il vendicarti, e finché quì tu sei </l>
+<l>Non potria spaventarmi il Mondo intero. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l part="I">  Dunque ceder non vuoi? </l>
+</sp>
+<sp><speaker>PIRRO</speaker><stage>ferocemente</stage>
+<l part="F">Lo speri indarno. </l>
+</sp>
+<sp><speaker>CALCANTE</speaker><l>  Ebben: se tanto alla passione in preda </l>
+<l>L'offuscato tuo cuor mirar degg'io </l>
+<l>Da non farti ascoltar le sacre leggi </l>
+<pb n="77"/>
+<l>Del Ciel, del tuo dover, d'un Padre estinto, </l>
+<l>Guardie, a voi spetta il trucidar colei. </l>
+<l>Da bracci suoi si svelga a forza, e debba </l>
+<l>L'ombra del grande Achille, e il Cielo irato </l>
+<l>La bramata vendetta al vostro braccio. </l>
+       </sp>
+<sp><speaker>POLISSENA</speaker> <l part="I"> Cedi… oh! Dio!
+	…</l>
+<stage>a Pirro. Le Guardie fanno un movimento</stage>
+      </sp>
+<sp><speaker>PIRRO</speaker><l part="F">  Temerarj! - a questo ferro </l>
+<l>Veder saprem chi presentarsi ardisce. </l>
+<l part="I">Secondatemi amici.</l>
+<stage>(a suoi)</stage>
+<l part="M">All'armi. </l>
+      </sp>
+<sp><speaker>CALCANTE</speaker><stage> alle Guardie, e al
+	seguito</stage>
+<l part="F">All'armi. </l>
+<l part="I">Si punisca il fellone …</l>
+      </sp>
+<stage>le truppe si muovono, e sono per incominciare la zuffa.
+Polissena già libera dalle mani di Pirro,
+che corre alla pugna, si scaglia in mezzo
+alle due Truppe, ed esclama</stage>
+<sp><speaker>POLISSENA</speaker> <l part="F"> Olà: fermate. </l>
+<l>Non sia mai ver, che per me sol si sparga </l>
+<l>Tanto sangue innocente; avranno i Numi </l>
+<l part="I">La vendetta richiesta. </l>
+      </sp>
+<sp><speaker>PIRRO</speaker> <l part="M">  O Dei!</l>
+<stage>vuol lanciarsi verso Polissena</stage>
+      </sp>
+<sp><speaker>POLISSENA</speaker> <l part="F"> Ti scosta. </l>
+<l>Conoscete chi son: Quel regio sangue </l>
+<l>D'onde nacqui, e che intatto ancor conservo </l>
+<l>Senza la destra altrui saprà versarsi. </l>
+<l part="I">Barbari, alfin sazj sarete …</l>
+<stage>leva un pugnale e si ferisce</stage>
+<l part="F">Io muojo.</l>
+<stage>cade</stage>
+      </sp>
+<sp><speaker>CALCANTE</speaker> <l part="I"> Ciel! …</l>
+      </sp>
+<stage>tutti danno segno della loro estrema
+sorpresa</stage>
+<sp><speaker>PIRRO</speaker>  <stage>immobile</stage>
+<l part="M">Polissena! …</l>
+<stage> indi inorridito correndo al cadavere</stage>
+<l part="M">Ella spirò …</l>
+<stage>disperato</stage>
+<l part="F">Crudeli! …</l>
+<pb n="78"/>
+<l>Perfidi! … ah! … voi l'uccideste … o Numi! </l>
+<l>E l'Averno non s'apre, onde di tomba </l>
+<l>Servano a questi mostri … a queste tigri </l>
+<l>Le cupe sue voragini profonde! … </l>
+<l part="I">Ciel! … </l>
+<stage>(smarrito)</stage>
+<l part="M">Dove sono! … ah! Polissena!… </l>
+<stage>(verso il cadavere)</stage>
+<l part="F">oh! dolce </l>
+<l>Metà di me… spoglia funesta, e cara </l>
+<stage>la guarda teneramente, indi disperato si getta
+sul cadavere dicendo</stage>
+<l>Se perder ti dovei … seguir ti voglio. </l>
+       </sp>
+<sp><speaker>CALCANTE</speaker> <l> Principe sventurato! - Arsindo, appresta </l>
+<l>A quell'alma abbattuta ogni soccorso. </l>
+<stage>indi risoluto al Cielo </stage>
+<l>Ecco, o Numi, a qual passo è tratto un cuore, </l>
+<l>Che se stesso sol'oda, e voi non curi.</l>
+      </sp>
+<stage>si cala il Sipario
+Fine della Tragedia.</stage>
+    </div2>
+</div1>
+</body>
+</text>
+</TEI.2>

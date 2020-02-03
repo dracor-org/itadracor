@@ -1,0 +1,4581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Adelchi</title>
+      <author>Alessandro Manzoni</author>
+    </titleStmt>
+    <extent>142 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000620</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Prime edizioni e abbozzi : serie seconda</title>
+        <title type="part">Le tragedie secondo i manoscritti e le prime stampe</title>
+        <author>Manzoni, Alessandro</author>
+        <editor id="ed">Sanesi, Ireneo</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>800</date>
+    </creation>
+    <langUsage><language id="codice">ita</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-04-08T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marina Larena</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-04-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<castList>
+<head>PERSONAGGI</head>
+<castGroup>
+<castItem type="role"><role>LONGOBARDI</role></castItem>
+<castItem type="role"><role>DESIDERIO,</role>
+<roleDesc>re.</roleDesc></castItem>
+<castItem type="role"><role>ADELCHI,</role>
+<roleDesc>suo figlio, re.</roleDesc></castItem>
+<castItem type="role"><role>ERMENGARDA,</role> <roleDesc> figlia di Desiderio. </roleDesc></castItem>
+<castItem type="role"><role>ANSBERGA,</role> <roleDesc>figlia di Desiderio, Abbadessa. </roleDesc></castItem>
+<castItem type="role"><role>VERMONDO,</role> <roleDesc>scudiero di Desiderio. </roleDesc></castItem>
+<castItem type="role"><role>ANFRIDO,</role> <roleDesc>scudiero di Adelchi. </roleDesc></castItem>
+<castItem type="role"><role>TEUDI,</role> <roleDesc>scudiero di Adelchi. </roleDesc></castItem>
+<castItem type="role"><role>BAUDO,</role> <roleDesc>duca di Brescia. </roleDesc></castItem>
+<castItem type="role"><role>GISELBERTO,</role> <roleDesc>duca di Verona. </roleDesc></castItem>
+<castItem type="role"><role>ILDECHI.</role> <roleDesc> Duca. </roleDesc></castItem>
+<castItem type="role"><role>INDOLFO.</role> <roleDesc>Duca. </roleDesc></castItem>
+<castItem type="role"><role>FARVALDO.</role> <roleDesc>Duca. </roleDesc></castItem>
+<castItem type="role"><role>ERVIGO.</role> <roleDesc>Duca. </roleDesc></castItem>
+<castItem type="role"><role>GUNTIGI.</role> <roleDesc>Duca. </roleDesc></castItem>
+<castItem type="role"><role>AMRI,</role> <roleDesc>scudiero di GUNTIGI. </roleDesc></castItem>
+<castItem type="role"><role>SVARTO,</role> <roleDesc>soldato. </roleDesc></castItem></castGroup>
+
+<castGroup><castItem type="role"><role>FRANCHI</role></castItem>
+<castItem type="role"><role>CARLO,</role> <roleDesc>re.</roleDesc></castItem>
+<castItem type="role"><role>ALBINO,</role> <roleDesc>legato. </roleDesc></castItem>
+<castItem type="role"><role>RUTLANDO.</role> <roleDesc>Conte. </roleDesc></castItem>
+<castItem type="role"><role>ARVINO.</role> <roleDesc> Conte.</roleDesc></castItem></castGroup>
+
+<castGroup><castItem type="role"><role>LATINI</role></castItem>
+<castItem type="role"><role>PIETRO,</role> <roleDesc>Legato di Adriano papa. </roleDesc></castItem>
+<castItem type="role"><role>MARTINO,</role> <roleDesc>Diacono di Ravenna. </roleDesc></castItem></castGroup>
+
+<castGroup>
+<castItem type="role"><role>DUCHI,</role></castItem> <castItem type="role"><role>SCUDIERI,</role></castItem> <castItem type="role"><role>SOLDATI</role></castItem> <castItem type="role"><role>LONGOBARDI:</role></castItem> <castItem type="role"><role>DONZELLE,</role></castItem><castItem type="role"><role> SUORE</role> <roleDesc>NEL MONASTERO DI ANSBERGA.</roleDesc>—</castItem>  <castItem type="role"><role>CONTI FRANCHI,</role></castItem><castItem type="role"><role>UN ARALDO.</role></castItem></castGroup>
+   </castList>
+</front>
+<body>
+
+
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena"><head>SCENA I</head>
+<stage><emph>Palazzo reale in Pavia.</emph></stage>
+<stage>DESIDERIO, ADELCHI, VERMONDO.</stage>
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l>O mio re Desiderio, e tu del regno</l>
+<l>Nobil collega, Adelchi; il doloroso</l>
+<l>Ed alto ufficio, che alla nostra fede</l>
+<l>Commetteste, è fornito. All'arduo muro</l>
+<l>Che Val di Susa chiude, e dalla franca</l>
+<l>La longobarda signoria divide,</l>
+<l>Come imponeste, noi ristemmo; ed ivi</l>
+<l>Tra le franche donzelle, e gli scudieri,</l>
+<l>Giunse la nobilissima Ermengarda;</l>
+<l>E da lor si divise, ed alla nostra</l>
+<l>Fida scorta si pose. I riverenti</l>
+<l>Lunghi commiati del corteggio, e il pianto</l>
+<l>Mal rattenuto in ogni ciglio, aperto</l>
+<l>Mostrar che degni eran color d'averla</l>
+<l>Sempre a regina, e che dei Franchi istessi</l>
+<l>Complice alcuno in suo pensier non era</l>
+<l>Del vil rifiuto del suo re; che vinti</l>
+<l>Tutti i cori ella avea, trattone un solo.</l>
+<l>Compimmo il resto della via. Nel bosco</l>
+<l>Che intorno al vallo occidental si stende,</l>
+<l>La real donna or posa: io la precorsi,</l>
+<l part="I">L'annunzio ad arrecar.</l>
+</lg></sp>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">L'ira del cielo</l>
+<l>E l'abbominio della terra, e il brando</l>
+<l>Vendicator sul capo dell'iniquo</l>
+<l>Che pura e bella dalle man materne</l>
+<l>La mia figlia si prese, e me la rende</l>
+<l>Con l'ignominia d'un ripudio in fronte.</l>
+<l>Onta a quel Carlo, al disleal, per cui</l>
+<l>Annunzio di sventura al cor d'un padre</l>
+<l>È udirsi dir che la sua figlia è giunta.</l>
+<l>Oh! questo dì gli sia pagato: oh! caggia</l>
+<l>Tanto in fondo costui, che il più tapino</l>
+<l>L'ultimo de' soggetti sì sollevi</l>
+<l>Dalla sua polve, e gli s'accosti, e possa</l>
+<l>Dirgli senza timor: tu fosti un vile</l>
+<l part="I">Quando oltraggiasti una innocente.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">O padre;</l>
+<l>Ch'io corra ad incontrarla, e ch'io la guidi</l>
+<l>Al tuo cospetto. Oh lassa lei, che invano</l>
+<l>Quel della madre cercherà! Dolore</l>
+<l>Sopra dolor! Su queste soglie, ahi! troppe</l>
+<l>Memorie acerbe affolleransi intorno</l>
+<l>A quell'anima offesa. Al fiero assalto</l>
+<l>Sprovveduta non venga, e senta in prima</l>
+<l>Una voce d'amor che la conforti.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Figlio, rimanti. E tu fedel Vermondo,</l>
+<l>Riedi alla figlia mia; dille che aperte</l>
+<l>De' suoi le braccia ad aspettarla stanno,</l>
+<l>De' suoi, che il cielo in questa luce ancora</l>
+<l>Lascia: tu al padre ed al fratel rimena</l>
+<l>Quel desiato volto. Alla sua scorta</l>
+<l>Due fidate donzelle, e teco Anfrido</l>
+<l>Saran bastanti: per la via segreta</l>
+<l>Al palazzo venite, e inosservati</l>
+<l>Quanto si puote: in più drappelli il resto</l>
+<l>Della gente dividi, e per diverse</l>
+<l part="I">Parti gli invia dentro le mura.</l>
+</lg>
+<stage><emph>(Vermondo parte).</emph></stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA II </head>
+
+<stage>DESIDERIO, ADELCHI</stage>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Adelchi;</l>
+<l>Che pensiero era il tuo? Tutta Pavia</l>
+<l>Far di nostr'onta testimon volevi?</l>
+<l>E la ria moltitudine a goderne,</l>
+<l>Come a festa, invitar? Dimenticasti</l>
+<l>Che ancor son vivi, che ci stan d'intorno</l>
+<l>Quei che le parti sostenean di Rachi,</l>
+<l>Quand'egli osò di contrastarmi il soglio?</l>
+<l>Nemici ascosi, aperti un tempo; a cui</l>
+<l>L'abbattimento delle nostre fronti</l>
+<l part="I">È conforto e vendetta!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Oh prezzo amaro</l>
+<l>Del regno! oh stato del costor, di quello</l>
+<l>Dei soggetti più rio! se anche il lor guardo</l>
+<l>Temer ci è forza, ed occultar la fronte</l>
+<l>Per la vergogna, e se non ci è concesso,</l>
+<l>Alla faccia del sol, d'una diletta</l>
+<l part="I">La sventura onorar!</l>
+</lg></sp>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Quando all'oltraggio</l>
+<l>Pari fia la mercé, quando la macchia</l>
+<l>Fia lavata col sangue, allor deposti</l>
+<l>I vestimenti del dolor, dall'ombre</l>
+<l>La mia figlia uscirà; figlia e sorella</l>
+<l>Non indarno di re, sovra la folla</l>
+<l>Ammiratrice, leverà la fronte</l>
+<l>Bella di gloria e di vendetta — E il giorno</l>
+<l>Lunge non è; l'arme io la tengo; e Carlo,</l>
+<l>Ei me la die': la vedova infelice</l>
+<l>Del fratel suo, di cui con arti inique</l>
+<l>Ei successor si feo, quella Gerberga</l>
+<l>Che a noi chiese un asilo, e i figli all'ombra</l>
+<l>Del nostro soglio ricovrò. Quei figli</l>
+<l>Noi condurremo al Tebro, e per corteggio</l>
+<l>Un esercito avranno: al Pastor sommo</l>
+<l>Comanderem che le innocenti teste</l>
+<l>Unga, e sovr'esse proferisca i preghi</l>
+<l>Che danno ai Franchi un re. Sul franco suolo</l>
+<l>Li porterem, dov'ebbe regno il padre,</l>
+<l>Ove han fautori a torme, ove sopita</l>
+<l>Ma non estinta in mille petti è l'ira</l>
+<l part="I">Contra l'iniquo usurpator.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Ma incerta</l>
+<l>È la risposta d'Adrian? di lui</l>
+<l>Che stretto a Carlo di cotanti nodi,</l>
+<l>Voce udir non gli fa che di lusinga</l>
+<l>E di lode non sia, voce di padre</l>
+<l>Che benedice? A lui vittoria e regno</l>
+<l>E gloria, a lui l'alto favor di Piero</l>
+<l>Promette e prega; e in questo punto ancora</l>
+<l>I suoi legati accoglie, e contra noi</l>
+<l>Certo gl'implora; contra noi la terra</l>
+<l>E il santuario di querele assorda</l>
+<l part="I">Per le città rapite.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ebben, ricusi:</l>
+<l>Nemico aperto ei fia; questa incresciosa</l>
+<l>Guerra eterna di lagni e di messaggi</l>
+<l>E di trame fia tronca; e quella al fine</l>
+<l>Comincerà dei brandi: e dubbia allora</l>
+<l>La vittoria esser può? Quel dì che indarno</l>
+<l>I nostri padri sospirar, serbato</l>
+<l>È a noi: Roma fia nostra; e tardi accorto</l>
+<l>Supplice invan, delle terrene spade</l>
+<l>Disarmato per sempre, ai santi studi</l>
+<l>Adrian tornerà; re delle preci,</l>
+<l>Signor del Sagrificio, il soglio a noi</l>
+<l part="I">Sgombro darà.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Debellator dei Greci,</l>
+<l>E terror de' ribelli; uso a non mai</l>
+<l>Tornar che dopo la vittoria, innanzi</l>
+<l>Alla tomba di Pier due volte Astolfo</l>
+<l>Piegò le insegne, e si fuggì; due volte</l>
+<l>Dell'antico pontefice la destra</l>
+<l>Che pace offrìa respinse, e sordo stette</l>
+<l>All'impotente gemito. Oltre l'alpe</l>
+<l>Fu quel gemito inteso: a vendicarlo</l>
+<l>Pipin due volte le varcò: quei Franchi</l>
+<l>Da noi soccorsi tante volte e vinti,</l>
+<l>Dettaro i patti qui. Veggio da questa</l>
+<l>Reggia il pian vergognoso, ove le tende</l>
+<l>Abborrite sorgean, dove scorrea</l>
+<l part="I">L'ugna dei Franchi corridor.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Che parli</l>
+<l>Or tu d'Astolfo e di Pipin? Sotterra</l>
+<l>Giacciono entrambi; altri mortali han regno,</l>
+<l>Altri tempi si volgono, brandite</l>
+<l>Sono altre spade. Eh! se il guerrier che il capo</l>
+<l>Al primo rischio offerse, e il muro ascese,</l>
+<l>Cadde e perì, gli altri fuggir dovranno,</l>
+<l>E disperar? Questi i consigli sono</l>
+<l>Del mio figliuol? Quel mio superbo Adelchi</l>
+<l>Dov'è, che imberbe ancor vide Spoleti</l>
+<l>Rovinoso venir, qual su la preda</l>
+<l>Giovinetto sparviero, e nella strage</l>
+<l>Spensierato tuffarsi, e su la turba</l>
+<l>Dei combattenti sfolgorar, siccome</l>
+<l>Lo sposo nel convito? Insiem col vinto</l>
+<l>Duca ribelle ei ritornò: sul campo</l>
+<l>Consorte al regno il chiesi; un grido surse</l>
+<l>Di consenso e di plauso, e nella destra</l>
+<l>— Tremenda allor — l'asta real fu posta.</l>
+<l>Ed or quel desso altro veder che inciampi</l>
+<l>E sventure non sa? Dopo una rotta</l>
+<l>Così parlar non mi dovresti. Oh cielo!</l>
+<l>Chi mi venisse a riferir che tali</l>
+<l>Son di Carlo i pensier, quali or gli scorgo</l>
+<l>Nel mio figliuol, mi colmeria di gioja.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>Deh perché non è qui! Perché non posso</l>
+<l>In campo chiuso essergli a fronte, io solo,</l>
+<l>Io fratel d'Ermengarda! e al tuo cospetto,</l>
+<l>Nel giudicio di Dio, nella mia spada</l>
+<l>La vendetta ripor del nostro oltraggio!</l>
+<l>E farti dir, che troppo presta, o padre,</l>
+<l>Una parola dal tuo labbro uscia!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Questa è voce d'Adelchi. Ebben, quel giorno</l>
+<l part="I">Che tu brami, io l'affretto.</l>
+</lg></sp>
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">O padre, un altro</l>
+<l>Giorno io veggio appressarsi. Al grido imbelle</l>
+<l>Ma riverito d'Adrian, vegg'io</l>
+<l>Carlo venir con tutta Francia; e il giorno</l>
+<l>Quello sarà dei successor d'Astolfo</l>
+<l>Incontro al figlio di Pipin. Rammenta</l>
+<l>Di chi siam re; che nelle nostre file</l>
+<l>Misti ai leali, e più di lor fors'anco,</l>
+<l>Sono i nostri nemici, e che la vista</l>
+<l>D'un'insegna straniera ogni nemico</l>
+<l>In traditor ti cangia. Il core, o padre,</l>
+<l>Basta a morir; ma la vittoria e il regno</l>
+<l>È pel felice che ai concordi impera.</l>
+<l>Odio l'aurora che m'annunzia il giorno</l>
+<l>Della battaglia, incresce l'asta e pesa</l>
+<l>Alla mia man, se nel pugnar, guardarmi</l>
+<l>Deggio dall'uom che mi combatte al fianco.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Chi mai regnò senza nemici? il core</l>
+<l>Che importa? e re siam dunque indarno? e i brandi</l>
+<l>Tener chiusi dovrem nella vagina</l>
+<l>Infin che spento ogni livor non sia?</l>
+<l>Ed aspettar sul soglio inoperosi</l>
+<l>Chi ci percota? Havvi altra via di scampo</l>
+<l>Fuorché l'ardir? Tu, che proponi al fine?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>Quel, che signor di gente invitta e fida,</l>
+<l>In un dì di vittoria, io proporrei:</l>
+<l>Sgombriam le terre dei Romani: amici</l>
+<l part="I">Siam d'Adriano: ei lo desia.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Perire,</l>
+<l>Perir sul trono, o nella polve, in pria</l>
+<l>Che tanta onta soffrir. Questo consiglio</l>
+<l>Più dalle labbra non ti sfugga: il padre</l>
+<l part="I">Te lo comanda.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA III</head>
+<stage><emph>Detti</emph>, VERMONDO <emph>che precede</emph> ERMENGARDA,</stage>
+<stage>DONZELLE <emph>che l'accompagnano</emph>.</stage>
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l part="F">O regi; ecco Ermengarda.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">Vieni, o figlia; fa cor.</l>
+</lg>
+<stage><emph>(Vermondo parte: le donzelle si scostano).</emph></stage>
+</sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Sei nelle braccia</l>
+<l>Del fratel tuo, dinanzi al padre, in mezzo</l>
+<l>Ai fidi antichi tuoi; sei nel palagio</l>
+<l>Dei re, nel tuo, più riverita e cara</l>
+<l part="I">D'allor che ne partisti.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Oh benedetta</l>
+<l>Voce dei miei! Padre, fratello, il cielo</l>
+<l>Queste parole vi ricambii; il cielo</l>
+<l>Sia sempre a voi, quali voi siete ad una</l>
+<l>Vostra infelice. Oh! se per me potesse</l>
+<l>Sorgere un lieto dì, questo sarebbe,</l>
+<l>Questo, in cui vi riveggio — Oh dolce madre!</l>
+<l>Qui ti lasciai; le tue parole estreme</l>
+<l>Io non udii; tu qui morivi — ed io...</l>
+<l>Ah! di lassù certo or ci guardi: oh! vedi</l>
+<l>Quella Ermengarda tua, cui di tua mano</l>
+<l>Adornavi quel dì, con tanta gioja,</l>
+<l>Con tanta piéta, a cui tu stessa il crine</l>
+<l>Recidesti quel dì, vedi qual torna!</l>
+<l>E benedici i cari tuoi, che accolta</l>
+<l part="I">Hanno così questa reietta.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Ah! nostro</l>
+<l part="I">È il tuo dolor, nostro l'oltraggio.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">E nostro</l>
+<l part="I">Sarà il pensier della vendetta.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">O padre</l>
+<l>Tanto non chiede il mio dolor; l'obblio</l>
+<l>Sol bramo; e il mondo volentier l'accorda</l>
+<l>Agli infelici: oh! basta; in me finisca</l>
+<l>La mia sventura. D'amistà, di pace</l>
+<l>Io la candida insegna esser dovea:</l>
+<l>Il ciel nol volle: ah! non si dica almeno</l>
+<l>Ch'io recai meco la discordia e il pianto</l>
+<l>Dovunque apparvi, a tutti a cui di gioia</l>
+<l part="I">Esser pegno dovea.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Di quell'iniquo</l>
+<l>Forse il supplizio ti dorrìa? quel vile,</l>
+<l part="I">Tu l'ameresti ancor?</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Padre, nel fondo</l>
+<l>Di questo cor che vai cercando? Ah! nulla</l>
+<l>Uscir ne può che ti rallegri: io stessa</l>
+<l>Temo d'interrogarlo: ogni passata</l>
+<l>Cosa è nulla per me — Padre, un estremo</l>
+<l>Favor ti chieggio: in questa corte, ov'io</l>
+<l>Crebbi adornata di speranze, in grembo</l>
+<l>Di quella madre, or che farei? ghirlanda</l>
+<l>Vagheggiata un momento, in su la fronte</l>
+<l>Posta per gioco un dì festivo, e tosto</l>
+<l>Gittata ai pie' del passeggiero. Al santo</l>
+<l>Di pace asilo e di pietà che un tempo</l>
+<l>La veneranda tua consorte ergea</l>
+<l>— Quasi presaga — ove la mia diletta</l>
+<l>Suora, oh felice! la sua fede strinse</l>
+<l>A quello sposo che non mai rifiuta,</l>
+<l>Lascia ch'io mi ricovri. A quelle pure</l>
+<l>Nozze aspirar più non poss'io, legata</l>
+<l>D'un altro nodo: ma non vista, in pace</l>
+<l part="I">Ivi potrò chiudere i giorni.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Al vento</l>
+<l>Questo presagio: tu vivrai: non diede</l>
+<l>Così la vita dei migliori il cielo</l>
+<l>All'arbitrio de' rei: non è in lor mano</l>
+<l>Ogni speranza inaridir, dal mondo</l>
+<l part="I">Torre ogni gioja.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Oh! non avesse mai</l>
+<l>Viste le rive del Ticin Bertrada!</l>
+<l>Non avesse la pia del longobardo</l>
+<l>Sangue una nuora desiata mai,</l>
+<l part="I">Né gli occhi volti sopra me!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Vendetta,</l>
+<l part="I">Quanto lenta verrai!</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Trova il mio prego</l>
+<l part="I">Grazia appo te?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Sollecito fu sempre</l>
+<l>Consigliero il dolor più che fedele,</l>
+<l>E di vicende e di pensieri il tempo</l>
+<l>Impreveduto apportator. Se nulla</l>
+<l>Al tuo proposto ei muta, alla mia figlia</l>
+<l part="I">Nulla disdir vogl'io.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA IV</head>
+<stage><emph>Detti</emph>,ANFRIDO.</stage> 
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Che rechi, Anfrido?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l>Sire, un legato è nella reggia, e chiede</l>
+<l>Gli sia concesso appresentarsi ai regi.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">Donde vien? chi l'invia?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">Da Roma ei viene,</l>
+<l part="I">Ma legato è d'un re.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Padre, concedi</l>
+<l part="I">Ch'io mi ritragga.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">O donne, alle sue stanze</l>
+<l>La mia figlia scorgete; a' suoi servigi</l>
+<l>Io vi destino: di regina il nome</l>
+<l part="I">Abbia e l'onor.</l>
+</lg>
+<stage><emph>(Ermengarda parte con le donzelle)</emph>.</stage>
+</sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">D'un re dicesti, Anfrido?</l>
+<l part="I">Un legato... di Carlo?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">O re, l'hai detto.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Che pretende costui? quali parole</l>
+<l>Cambiar si ponno fra di noi? qual patto</l>
+<l part="I">Che di morte non sia?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">Di gran messaggio</l>
+<l>Apportator si dice: ai duchi intanto</l>
+<l>Ai conti, a quanti nella reggia incontra</l>
+<l part="I">Favella in atto di blandir.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Conosco</l>
+<l part="I">L'arti di Carlo.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Al suo stromento il tempo</l>
+<l part="I">D'esercitarle non si dia.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Raguna</l>
+<l>Tosto i Fedeli, Anfrido, e in un con essi</l>
+<l part="I">Ei venga.</l>
+</lg>
+<stage><emph>(Anfrido parte) </emph>.</stage>
+</sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Il giorno della prova è giunto;</l>
+<l part="I">Figlio, sei tu con me?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Sì dura inchiesta</l>
+<l part="I">Quando, o padre, mertai?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Venuto è il giorno</l>
+<l>Che un voler solo, un solo cor domanda:</l>
+<l part="I">Dì, l'abbiam noi? Che pensi far?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Risponda</l>
+<l>Il passato per me: gli ordini tuoi</l>
+<l part="I">Attender penso, ed eseguirli.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">E quando</l>
+<l part="I">A' tuoi disegni opposti sieno?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">O padre!</l>
+<l>Un nemico si mostra, e tu mi chiedi</l>
+<l>Ciò ch'io farò? Più non son io che un brando</l>
+<l>Nella tua mano. Ecco il legato: il mio</l>
+<l>Dover fia scritto nella tua risposta.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA V</head>
+<stage>DESIDERIO, ADELCHI, ALBINO, <emph>Fedeli longobardi</emph>.</stage>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Duchi, e Fedeli; ai vostri re mai sempre</l>
+<l>Giova compagni nei consigli avervi,</l>
+<l>Come nel campo. — Ambasciator, che rechi?</l>
+</lg></sp>
+
+<sp><speaker>ALBINO</speaker>
+<lg>
+<l>Carlo, il diletto a Dio sire dei Franchi</l>
+<l>Dei Longobardi ai re queste parole</l>
+<l>Manda per bocca mia: volete voi</l>
+<l>Tosto le terre abbandonar di cui</l>
+<l>L'uomo illustre Pipin fe' dono a Piero?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Uomini Longobardi! in faccia a tutto</l>
+<l>Il popol nostro, testimoni voi</l>
+<l>Di ciò mi siate; se dell'uom che questi</l>
+<l>Or v'ha nomato, e ch'io nomar non voglio,</l>
+<l>Il messo accolsi, e la proposta intesi,</l>
+<l>Sacro dover di re solo potea</l>
+<l>Piegarmi a tanto. — Or tu, straniero, ascolta.</l>
+<l>Lieve domando il tuo non è; tu chiedi</l>
+<l>Il segreto dei re: sappi che ai primi</l>
+<l>Di nostra gente, a quelli sol da cui</l>
+<l>Leal consiglio ci aspettiamo, a questi</l>
+<l>Alfin che vedi intorno a noi, siam usi</l>
+<l>Di confidarlo; agli stranier non mai.</l>
+<l>Degna risposta al tuo domando è quindi</l>
+<l part="I">Non darne alcuna.</l>
+</lg></sp>
+
+<sp><speaker>ALBINO</speaker>
+<lg>
+<l part="F">E tal risposta è guerra.</l>
+<l>Di Carlo in nome io la v'intimo, a voi</l>
+<l>Desiderio ed Adelchi, a voi che poste</l>
+<l>Sul retaggio di Dio le mani avete,</l>
+<l>E contristato il Santo. A questa illustre</l>
+<l>Gente nemico il mio signor non viene:</l>
+<l>Campion di Dio, da Lui chiamato, a Lui</l>
+<l>Il suo braccio consacra, e suo mal grado</l>
+<l>Lo spiegherà contra chi voglia a parte</l>
+<l part="I">Star del vostro peccato.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Al tuo re torna</l>
+<l>Spoglia quel manto che ti rende ardito,</l>
+<l>Stringi un acciar vieni, e vedrai se Dio</l>
+<l>Sceglie a campione un traditor. — Fedeli!</l>
+<l part="I">Rispondete a costui.</l>
+</lg></sp>
+
+<sp><speaker>FEDELI</speaker>
+<lg>
+<l part="M">Guerra!</l>
+</lg></sp>
+
+<sp><speaker>ALBINO</speaker>
+<lg>
+<l part="F">E l'avrete,</l>
+<l>E tosto, e qui: l'angiol di Dio, che innanzi</l>
+<l>Al destrier di Pipin corse due volte,</l>
+<l>Il guidator che mai non guarda indietro,</l>
+<l part="I">Già si rimette in via.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Spieghi ogni duca</l>
+<l>Il suo vessillo; della guerra il bando</l>
+<l>Ogni giudice intimi, e l'oste aduni;</l>
+<l>Ogn'uom che nutre un corridor, lo salga,</l>
+<l>E accorra al grido de' suoi re. La posta</l>
+<l part="I">È alle Chiuse dell'alpi.</l>
+</lg>
+<stage><emph>(al Legato)</emph>.</stage>
+<lg>
+<l part="F">Al re dei Franchi</l>
+<l part="I">Questo invito riporta.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">E digli ancora,</l>
+<l>Che il Dio di tutti, il Dio che i giuri ascolta</l>
+<l>Che al debole son fatti, e ne malleva</l>
+<l>L'adempimento o la vendetta, il Dio</l>
+<l>Di cui talvolta più si vanta amico</l>
+<l>Chi più gli è in ira, in cor del reo sovente</l>
+<l>Mette una smania, che alla pena incontro</l>
+<l>Correr lo fa; digli che mal s'avvisa</l>
+<l>Chi va dei brandi longobardi in cerca</l>
+<l>Poi che una donna longobarda offese.</l>
+</lg>
+<stage><emph>(Partono da un lato i re con la più parte dei 
+Fedeli e dall'altro il Legato) </emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA VI</head>
+<stage>DUCHI <emph>rimasti</emph>.</stage>
+<sp><speaker>INDOLFO</speaker>
+<lg>
+<l part="I">Guerra, egli ha detto!</l>
+</lg></sp>
+
+<sp><speaker>FARVALDO</speaker>
+<lg>
+<l part="F">In questa guerra è il fato</l>
+<l part="I">Del regno.</l>
+</lg></sp>
+
+<sp><speaker>INDOLFO</speaker>
+<lg>
+<l part="M">E il nostro.</l>
+</lg></sp>
+
+<sp><speaker>ERVIGO</speaker>
+<lg>
+<l part="F">E inerti ad aspettarlo</l>
+<l part="I">Staremci?</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">Amici, di consulte il loco</l>
+<l>Questo non è. Sgombriam; per vie diverse</l>
+<l>Alla casa di Svarto ognuno arrivi.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA VII </head>
+
+<stage><emph>Casa di Svarto </emph>.</stage>
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l>Un messagger dei Franchi! Un qualche evento,</l>
+<l>Qual ch'ei pur sia, sovrasta. — In fondo all'urna,</l>
+<l>Da mille nomi ricoperto giace</l>
+<l>Il mio; se l'urna non si scote, in fondo</l>
+<l>Si rimarrà per sempre; e in questa mia</l>
+<l>Oscurità morrò, senza che alcuno</l>
+<l>Sappia nemmeno ch'io d'uscirne ardea.</l>
+<l>— Nulla son io. Se in questo tetto i grandi</l>
+<l>S'adunano talor, quelli a cui lice</l>
+<l>Essere avversi ai re; se i lor segreti</l>
+<l>Saper m'è dato, è perché nulla io sono.</l>
+<l>Chi pensa a Svarto? chi spiar s'affanna</l>
+<l>Qual piede a questo limitar si volga?</l>
+<l>Chi m'odia? chi mi teme? — Oh! se l'ardire</l>
+<l>Desse gli onor! se non avesse in pria</l>
+<l>Comandato la sorte! e se l'impero</l>
+<l>Si contendesse a spade, allor vedreste</l>
+<l>Duchi superbi, chi di noi l'avria.</l>
+<l>Se toccasse all'accorto! A tutti voi</l>
+<l>Io leggo in cor; ma il mio v'è chiuso. Oh! Quanto</l>
+<l>Stupor vi prenderia, quanto disdegno,</l>
+<l>Se vi scorgeste mai che un sol desio</l>
+<l>A voi tutti mi lega, una speranza...</l>
+<l>D'esservi pari un dì! — D'oro appagarmi</l>
+<l>Credete voi. L'oro! gittarlo al piede</l>
+<l>Del suo minor, quello è destin; ma inerme,</l>
+<l>Umil tender la mano ad afferrarlo,</l>
+<l part="I">Come il mendico...</l>
+</lg></sp>
+</div2>
+
+
+<div2 type="scena"><head>SCENA VIII </head>
+<stage>SVARTO, ILDECHI, <emph>quindi altri che sopraggiungono</emph>.</stage>
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">Il ciel ti salvi, o Svarto:</l>
+<l part="I">Nessuno è qui?</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Nessun. Quai nuove, o duca?</l>
+<l>Gravi: la guerra abbiam coi Franchi: il nodo</l>
+<l>Si ravviluppa, o Svarto; e fia mestieri</l>
+<l>Sciorlo col ferro: il dì s'appressa, io spero,</l>
+<l part="I">Del guiderdon per tutti.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Io nulla attendo,</l>
+<l part="I">Fuor che da voi.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<stage><emph>(a</emph> FARVALDO <emph>che sopraggiunge)</emph>.</stage>
+<lg>
+<l part="F">Farvaldo, alcun ti segue?</l>
+</lg></sp>
+
+<sp><speaker>FARVALDO</speaker>
+<lg>
+<l part="I">Vien sui miei passi Indolfo.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="M">Eccolo.</l>
+</lg></sp>
+
+<sp><speaker>INDOLFO</speaker>
+<lg>
+<l part="F">Amici!</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="I">Vila! Ervigo!</l>
+</lg>
+<stage><emph>(ad altri che entrano)</emph>.</stage>
+<lg>
+<l part="F">Fratelli! Ebben: supremo</l>
+<l>È il momento, il vedete: i vinti in questa</l>
+<l>Guerra, qual siasi il vincitor, siam noi,</l>
+<l>Se un gran partito non si prende. Arrida</l>
+<l>La sorte ai re; svelatamente addosso</l>
+<l>Ci piomberan: Carlo trionfi; in preso</l>
+<l>Regno, che posto ci riman? Con uno</l>
+<l>Dei combattenti è forza a star. — Credete</l>
+<l>Che in cor di questi re siavi un perdono</l>
+<l part="I">Per chi voleva un altro re?</l>
+</lg></sp>
+
+<sp><speaker>INDOLFO</speaker>
+<lg>
+<l part="F">Nessuna</l>
+<l part="I">Pace con lor.</l>
+</lg></sp>
+
+<sp><speaker>ALTRI DUCHI</speaker>
+<lg>
+<l part="M">Nessuna!</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">È d'uopo un patto</l>
+<l part="I">Stringer con Carlo.</l>
+</lg></sp>
+
+<sp><speaker>FARVALDO</speaker>
+<lg>
+<l part="M">Al suo legato...</l>
+</lg></sp>
+
+<sp><speaker>ERVIGO</speaker>
+<lg>
+<l part="F">È cinto</l>
+<l>Dagli amici dei regi: io vidi Anfrido</l>
+<l>Porglisi al fianco; e fu pensier d'Adelchi.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l>Vada adunque un di noi; rechi le nostre</l>
+<l>Promesse a Carlo, e con le sue ritorni,</l>
+<l part="I">O le rimandi.</l>
+</lg></sp>
+
+<sp><speaker>INDOLFO</speaker>
+<lg>
+<l part="M">Bene sta.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">Chi piglia</l>
+<l part="I">Quest'impresa?</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Io v'andrò. Duchi, m'udite.</l>
+<l>Se alcun di voi quinci svanisce, i guardi</l>
+<l>Fieno intesi a cercarlo; ed il sospetto</l>
+<l>La sua via frugherà, fin che la trovi:</l>
+<l>Ma che un gregario cavalier, che Svarto</l>
+<l>Manchi, non fia che più s'avveggia il mondo,</l>
+<l>Che d'un vepre scemato alla boscaglia.</l>
+<l>Se alla chiamata alcun mi noma, e chiede:</l>
+<l>Dov'è? dica un di voi: Svarto? io lo vidi</l>
+<l>Scorrer lungo il Ticino; il suo destriero</l>
+<l>Imbizzarrì, giù dall'arcion nell'onda</l>
+<l>Lo scosse; armato egli era, e più non salse</l>
+<l>Sventurato! diranno; e più di Svarto</l>
+<l>Non si farà parola. A voi non lice</l>
+<l>Inosservati andar; ma nel mio volto</l>
+<l>Chi fisserà lo sguardo? Al calpestìo</l>
+<l>Del mio ronzin che solo arrivi, appena</l>
+<l>Qualche Latin fia che si volga; e il passo</l>
+<l part="I">Tosto mi sgombrerà.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">— Svarto, io da tanto</l>
+<l part="I">Non ti credea.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Necessità lo zelo</l>
+<l>Rende operoso; e ad arrecar messaggi</l>
+<l part="I">Non è mestier che di prontezza.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">Amici!</l>
+<l part="I">Ch'ei vada?</l>
+</lg></sp>
+
+<sp><speaker>DUCHI</speaker>
+<lg>
+<l part="M">Ei vada.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">Al dì novello in pronto</l>
+<l>Sii, Svarto; e in un gli ordini nostri il fieno.</l>
+</lg></sp>
+</div2></div1>
+
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena"><head>SCENA I</head>
+<stage><emph>Campo dei Franchi in Val di Susa</emph>.</stage>
+<stage>CARLO, PIETRO</stage>
+<sp><speaker>PIETRO</speaker>
+<lg>
+<l>Carlo invitto, che udii? Toccato ancora</l>
+<l>Il suol non hai dove il secondo regno</l>
+<l>Il Signor ti destina; e di ritorno</l>
+<l>Per tutto il campo si bisbiglia! Oh! possa</l>
+<l>Dal tuo labbro real tosto smentita</l>
+<l>L'empia voce cader! L'età ventura</l>
+<l>Non abbia a dir che in sul principio tronca</l>
+<l>Giacque un'impresa risoluta in cielo,</l>
+<l>Abbracciata da te. No, ch'io non torni</l>
+<l>Al pastor santo e debba dirgli: il brando,</l>
+<l>Che suscitato iddio t'avea, ricadde</l>
+<l>Nella guaina: il tuo gran figlio volle,</l>
+<l part="I">Volle un momento, e disperò.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Quant'io</l>
+<l>Per la salvezza di tal padre oprai,</l>
+<l>Uomo di Dio, tu lo vedesti, il vide</l>
+<l>Il mondo, e fede ne farà. Di quello</l>
+<l>Che resti a far, dal mio desir consiglio</l>
+<l>Non prenderò, quando m'ha dato il suo</l>
+<l>Necessità. L'Onnipotente è un solo.</l>
+<l>Quando all'orecchio mi pervenne il grido</l>
+<l>Del Pastor minacciato, io su gl'infranti</l>
+<l>Idoli vincitor dietro l'infido</l>
+<l>Sassone camminava; e la sua fuga</l>
+<l>Mi batteva la via: ristetti in mezzo</l>
+<l>Della vittoria e patteggiai là dove</l>
+<l>Tre dì più tardi comandar potea.</l>
+<l>Tenni il campo in Ginevra; al voler mio</l>
+<l>Ogni voler piegò; Francia non ebbe</l>
+<l>Più che un affar; tutta si mosse; al varco</l>
+<l>D'Italia s'affacciò volonterosa,</l>
+<l>Come al racquisto di sue terre andrìa.</l>
+<l>Ora a che siam, tu il vedi: il varco è chiuso.</l>
+<l>Oh! se frapposti tra il conquisto e i Franchi</l>
+<l>Fosser uomini sol, questa parola</l>
+<l>Il re dei Franchi proferir potrebbe:</l>
+<l>Chiusa è la via? Natura al mio nemico</l>
+<l>Il campo preparò, gli abissi intorno</l>
+<l>Gli scavò per fossati; e questi monti,</l>
+<l>Che il Signor fabbricò, son le sue torri</l>
+<l>E i battifredi: ogni più picciol varco</l>
+<l>Chiuso è di mura, onde insultare ai mille</l>
+<l>Potrieno i dieci, ed ai guerrier le donne.</l>
+<l>— Già troppo in opra ove il valor non basta,</l>
+<l>Di valenti io perdei; troppo, fidando</l>
+<l>Nel suo vantaggio, il fiero Adelchi ha tinta</l>
+<l>Di Franco sangue la sua spada. Ardito</l>
+<l>Come un leon presso la tana, ei piomba,</l>
+<l>Percote, e fugge. Oh ciel! più volte io stesso,</l>
+<l>Nell'alta notte visitando il campo,</l>
+<l>Fermo presso le tende, udii quel nome</l>
+<l>Con terror proferito. I Franchi miei</l>
+<l>Ad una scola di terror più a lungo</l>
+<l>Io non terrò. S'io del nemico a fronte</l>
+<l>Venir poteva in campo aperto, oh! breve</l>
+<l>Era questa tenzon, certa l'impresa...</l>
+<l>Fin troppo certa per la gloria. E Svarto,</l>
+<l>Un guerrier senza nome, un fuggitivo</l>
+<l>L'avria con me divisa; ei che già vinti</l>
+<l>Mi rassegnò tanti nemici. Un giorno,</l>
+<l>Men che un giorno bastava: Iddio mel niega.</l>
+<l part="I">Non se ne parli più.</l>
+</lg></sp>
+
+<sp><speaker>PIETRO</speaker>
+<lg>
+<l part="F">Re, all'umil servo</l>
+<l>Di colui che t'elesse, e pose il regno</l>
+<l>Nella tua casa, non vorrai tu i preghi</l>
+<l>Anco inibir. Pensa a che man tu lasci</l>
+<l>Quel che padre tu nomi. Il suo nemico</l>
+<l>Già provocato a guerra avevi, in arme</l>
+<l>Già tu scendevi, e ancor di rabbia insano</l>
+<l>Più che di tema il crudo veglio al santo</l>
+<l>Pastor mandava ad intimar, che ai Franchi</l>
+<l>Desse altri re: — tu li conosci. Ei tale</l>
+<l>Mandò risposta a quel tiranno: immota</l>
+<l>Sia questa man per sempre; inaridisca</l>
+<l>Il crisma santo in su l'altar di Dio,</l>
+<l>Pria che sparso da me, seme diventi</l>
+<l>Di guerra in contro al figliuol mio. — T'aiti</l>
+<l>Quel tuo figliuol, fe' replicargli il rege;</l>
+<l>Ma pensa ben, che s'ei ti falla un giorno,</l>
+<l>Fia risoluta in fra noi due la lite.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>A che ritenti questa piaga? In vani</l>
+<l>Lamenti vuoi che anch'io mi perda? o pensi</l>
+<l>Che abbia Carlo mestier di sproni al fianco?</l>
+<l>— È in periglio Adrian: forse è mestieri</l>
+<l>Che altri a Carlo il rimembri? il veggio, il sento;</l>
+<l>E non è detto di mortal che possa</l>
+<l>Crescere il cruccio che il mio cor ne prova.</l>
+<l>Ma superar queste bastite, al suo</l>
+<l>Scampo volar... de' Franchi il re nol puote.</l>
+<l>Detto io te l'ho: né volentier ripeto</l>
+<l>Questa parola. — Io da' miei Franchi ottenni</l>
+<l>Tutto finor, perché sol grandi io chiesi</l>
+<l>E fattibili cose. All'uom che stassi</l>
+<l>Fuor degli eventi e guata, arduo talvolta</l>
+<l>Ciò ch'è più lieve appar, lieve talvolta</l>
+<l>Ciò che la possa de' mortali eccede.</l>
+<l>Ma chi tenzona con le cose, e debbe</l>
+<l>Ciò ch'egli agogna conseguir con l'opra,</l>
+<l>Quei conosce i momenti. — E che potea</l>
+<l>Io far di più? Pace al nemico offersi,</l>
+<l>Sol che le terre dei Romani ei sgombri;</l>
+<l>Oro gli offersi per la pace; e l'oro</l>
+<l>Ei ricusò! Vergogna! a ripararla</l>
+<l part="I">Sul Vésero ne andrò.</l>
+</lg></sp></div2>
+
+<div2 type="scena"><head>SCENA II</head>
+<stage><emph>Detti</emph>, ARVINO.</stage>
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l part="F">Sire, nel campo</l>
+<l>Un uom latino è giunto, e il tuo cospetto</l>
+<l part="I">Chiede.</l>
+</lg></sp>
+
+<sp><speaker>PIETRO</speaker>
+<lg>
+<l part="M">Un Latin?</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Donde arrivò? Le Chiuse</l>
+<l part="I">Come varcò?</l>
+</lg></sp>
+
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l part="F">Per calli sconosciuti,</l>
+<l>Declinandole, ei giunse: e a te si vanta</l>
+<l part="I">Grande avviso recar.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Fa ch'io gli parli.</l>
+</lg>
+<stage><emph>(Alvino parte) </emph>.</stage>
+<lg>
+<l>E tu meco l'udrai. Nulla intentato</l>
+<l>Per la salvezza d'Adriano io voglio</l>
+<l>Lasciar: di questo testimon ti chiamo.</l>
+</lg>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA III</head>
+<stage><emph>Detti</emph>, MARTINO <emph>introdotto da</emph> ARVINO.</stage>
+<stage><emph>(Arvino si ritira)</emph>).</stage>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Tu se' latino, e qui? tu nel mio campo,</l>
+<l part="I">Illeso, inosservato?</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="F">Inclita speme</l>
+<l>Dell'ovil santo e del Pastor, ti veggio;</l>
+<l>E de' miei stenti e dei perigli è questa</l>
+<l>Ampia mercé; ma non è sola. Eletto</l>
+<l>A strugger gli empi! ad insegnarti io vengo</l>
+<l part="I">La via.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">Qual via?</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="M">Quella ch'io feci.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">E come</l>
+<l>Giungesti a noi? Chi se? Donde l'ardito</l>
+<l part="I">Pensier ti venne?</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="F">All'ordin sacro ascritto</l>
+<l>Dei diaconi io son: Ravenna il giorno</l>
+<l>Mi diè: Leone, il suo Pastor, m'invia.</l>
+<l>Vanne, ei mi disse, al salvator di Roma;</l>
+<l>Trovalo; Iddio sia teco; e s'Ei di tanto</l>
+<l>Ti degna, al re sii scorta; a lui di Roma</l>
+<l part="I">Presenta il pianto e d'Adrian.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Tu vedi</l>
+<l part="I">Il suo legato.</l>
+</lg></sp>
+
+<sp><speaker>PIETRO</speaker>
+<lg>
+<l part="F">Ch'io la man ti stringa,</l>
+<l>Prode concittadino: a noi tu giungi</l>
+<l part="I">Angel di gioia.</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="F">Uom peccator son io;</l>
+<l>Ma la gioia è dal cielo, e non fia vana.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Animoso Latin; ciò che veduto,</l>
+<l>Ciò che hai sofferto, il tuo cammino e i rischi</l>
+<l part="I">Tutto mi narra.</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="F">Di Leone al cenno,</l>
+<l>Verso il tuo campo io mi drizzai; la bella</l>
+<l>Contrada attraversai, che nido è fatta</l>
+<l>Del Longobardo, e da lui piglia il nome.</l>
+<l>Scòrsi ville e città sol di latini</l>
+<l>Abitatori popolate: alcuno</l>
+<l>Dell'empia razza a te nemica e a noi</l>
+<l>Non vi riman, che le superbe spose</l>
+<l>Dei tiranni e le madri, ed i fanciulli</l>
+<l>Che s'addestrano all'armi, e i vecchi stanchi,</l>
+<l>Lasciati a guardia de' cultor soggetti,</l>
+<l>Come radi pastor di folto armento.</l>
+<l>Giunsi presso alle Chiuse: ivi addensati</l>
+<l>Sono i cavalli e l'armi; ivi raccolta</l>
+<l>Tutta una gente sta, perché in un colpo</l>
+<l part="I">Strugger la possa il braccio tuo.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Toccasti</l>
+<l part="I">Il campo lor? qual'è? che fan?</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="F">Securi</l>
+<l>Da quella parte che all'Italia è volta,</l>
+<l>Fossa non hanno né ripar, né schiere</l>
+<l>In ordinanza; a fascio stanno: e solo</l>
+<l>Si guardan quinci, donde solo han tema</l>
+<l>Che tu attinger li possa. A te per mezzo</l>
+<l>Il campo ostil quindi venir non m'era</l>
+<l>Possibil cosa; e nol tentai; ché cinto</l>
+<l>Al par di rocca è questo lato; e mille</l>
+<l>Volte nemico in fra costor chiarito</l>
+<l>M'avria la breve chioma, il mento ignudo</l>
+<l>L'abito, il volto ed il sermon latino.</l>
+<l>Straniero ed inimico, inutil morte</l>
+<l>Trovato avrei: reddir senza vederti</l>
+<l>M'era più amaro che il morir. Pensai</l>
+<l>Che dall'aspetto salvator di Carlo</l>
+<l>Un breve tratto mi partìa; risolsi</l>
+<l part="I">La via cercarne, e la rinvenni.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">E come</l>
+<l>Nota a te fu? come al nemico ascosa?</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l>Dio gli accecò, Dio mi guidò. Dal campo</l>
+<l>Inosservato uscii, l'orme ripresi</l>
+<l>Poco innanzi calcate; indi alla destra</l>
+<l>Piegai verso aquilone, e abbandonando</l>
+<l>I battuti sentieri, in una angusta</l>
+<l>Oscura valle m'internai: ma quanto</l>
+<l>Più il passo procedea, tanto allo sguardo</l>
+<l>Più spaziosa ella si fea. Qui scorsi</l>
+<l>Greggie erranti e tuguri: era codesta</l>
+<l>L'ultima stanza de' mortali: entrai</l>
+<l>Presso un pastor, chiesi l'ospizio, e sovra</l>
+<l>Lanose pelli riposai la notte.</l>
+<l>Sorto all'aurora, al buon pastor la via</l>
+<l>Addimandai di Francia. — Oltre quei monti</l>
+<l>Sono altri monti, ei disse, ed altri ancora;</l>
+<l>E lontano lontan Francia; ma via</l>
+<l>Non havvi; e mille son quei monti, e tutti</l>
+<l>Erti, nudi, tremendi, inabitati</l>
+<l>Se non da spirti, ed uom mortal giammai</l>
+<l>Non li varcò. — Le vie di Dio son molte,</l>
+<l>Più assai di quelle del mortal, risposi;</l>
+<l>E Dio mi manda. — E Dio ti scorga, ei disse:</l>
+<l>Indi tra i pani che teneva in serbo</l>
+<l>Tanti pigliò di quanti un pellegrino</l>
+<l>Puote andar carco; e in rude sacco avvolti</l>
+<l>Ne gravò le mie spalle: il guiderdone</l>
+<l>Io gli pregai dal cielo; e in via mi posi.</l>
+<l>Giunsi in capo alla valle, un giogo ascesi,</l>
+<l>E in Dio fidando, lo varcai. Qui nulla</l>
+<l>Traccia d'uomo apparìa; solo foreste</l>
+<l>D'intatti abeti, ignoti fiumi, e valli</l>
+<l>Senza sentier: tutto tacea; null'altro</l>
+<l>Che i miei passi io sentiva, e ad ora ad ora</l>
+<l>Lo scrosciar dei torrenti, o l'improvviso</l>
+<l>Stridir del falco, o l'aquila dall'erto</l>
+<l>Nido spiccata in sul mattin, rombando</l>
+<l>Passar sovra il mio capo, o, sul meriggio,</l>
+<l>Tocchi dal sole, crepitar del pino</l>
+<l>Silvestre i coni. Andai così tre giorni;</l>
+<l>E sotto l'alte piante, o nei burroni</l>
+<l>Posai tre notti. Era mia guida il sole;</l>
+<l>Io sorgeva con esso e il suo viaggio</l>
+<l>Seguia, rivolto al suo tramonto. Incerto</l>
+<l>Pur del cammino io gìa; di valle in valle</l>
+<l>Trapassando mai sempre; o se talvolta</l>
+<l>D'accessibil pendio sorgermi innanzi</l>
+<l>Vedeva un giogo, e n'attingea la cima;</l>
+<l>Altre più eccelse cime, innanzi, intorno</l>
+<l>Sovrastavanmi ancora; altre di neve</l>
+<l>Da sommo ad imo biancheggianti, e quasi</l>
+<l>Ripidi, acuti padiglioni al suolo</l>
+<l>Confitti; altre ferrigne, erette a guisa</l>
+<l>Di mura, insuperabili. — Cadeva</l>
+<l>Il terzo sol quando un gran monte io scersi</l>
+<l>Che sovra gli altri ergea la fronte; ed era</l>
+<l>Tutto una verde china; e la sua vetta</l>
+<l>Coronata di piante. A quella parte</l>
+<l>Tosto il passo io rivolsi. — Era la costa</l>
+<l>Oriental di questo monte istesso,</l>
+<l>A cui, di contro al sol cadente, il tuo</l>
+<l>Campo s'appoggia, o sire. — In su le falde</l>
+<l>Mi colsero le tenebre: le secche</l>
+<l>Lubriche spoglie degli abeti, ond'era</l>
+<l>Il suol gremito, mi fur letto, e sponda</l>
+<l>Gli antichissimi tronchi. Una ridente</l>
+<l>Speranza, all'alba, risvegliommi; e pieno</l>
+<l>Di novello vigor la costa ascesi.</l>
+<l>Appena il sommo ne toccai, l'orecchio</l>
+<l>Mi percosse un ronzio che di lontano</l>
+<l>Parea venir, cupo, incessante: io stetti</l>
+<l>Ed immoto ascoltai. Non eran l'acque</l>
+<l>Rotte fra i sassi in giù; non era il vento</l>
+<l>Che investia le foreste, e sibilando,</l>
+<l>D'una in altra scorrea; ma veramente</l>
+<l>Un romor di viventi, un indistinto</l>
+<l>Suon di favelle e d'opre e di pedate</l>
+<l>Brulicanti da lunge, un agitarsi</l>
+<l>D'uomini immenso. Il cor balzommi; e il passo</l>
+<l>Accelerai. Su questa, o re, che a noi</l>
+<l>Sembra di qui lunga ed acuta cima</l>
+<l>Fendere il ciel, quasi affilata scure,</l>
+<l>Giace un'ampia pianura, e d'erbe è folta,</l>
+<l>Non mai calcate in pria. Presi di quella</l>
+<l>Il più breve tragitto: ad ogni istante</l>
+<l>Si fea il romor più presso: divorai</l>
+<l>L'estrema via; giunsi sull'orlo, il guardo</l>
+<l>Lanciai giù nella valle, e vidi... oh! vidi</l>
+<l>Le tende d'Israello, i sospirati</l>
+<l>Padiglion di Giacobbe: al suol prostrato,</l>
+<l>Dio ringraziai, li benedissi, e scesi.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Empio colui, che non vorrà la destra</l>
+<l part="I">Qui riconoscer dell'Eccelso!</l>
+</lg></sp>
+
+<sp><speaker>PIETRO</speaker>
+<lg>
+<l part="F">E quanto</l>
+<l>Più manifesta apparirà nell'opra,</l>
+<l part="I">A cui l'Eccelso ti destina!</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Ed io</l>
+<l part="I">La compirò.</l>
+</lg>
+<stage><emph>(a Martino)</emph>.</stage>
+<lg>
+<l part="F">Pensa, o Latino, e certa</l>
+<l>Sia la risposta: a cavalieri il passo</l>
+<l part="I">Dar può la via che percorresti?</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l part="F">Il puote.</l>
+<l>E a che l'avrebbe preparata il cielo?</l>
+<l>Per chi, signor? perché un mortale oscuro</l>
+<l>Al re dei Franchi narrator venisse</l>
+<l part="I">D'inutile portento?</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Oggi a riposo</l>
+<l>Nella mia tenda rimarrai: sull'alba,</l>
+<l>Ad un'eletta di guerrier tu scorta</l>
+<l>Per quella via sarai. — Pensa, o valente,</l>
+<l>Che il fior di Francia alla tua scorta affido.</l>
+</lg></sp>
+
+<sp><speaker>MARTINO</speaker>
+<lg>
+<l>Con lor sarò: di mie promesse pegno</l>
+<l part="I">Il mio capo ti fia.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Se di quest'alpe</l>
+<l>Mi sferro alfine, e vincitore al santo</l>
+<l>Avel di Piero, al desiato amplesso</l>
+<l>Del gran padre Adrian giunger m'è dato,</l>
+<l>Se grazia alcuna al suo cospetto un mio</l>
+<l>Prego aver può, le pastorali bende</l>
+<l>Circonderan quel capo; e faran fede</l>
+<l>In quanto onor Carlo lo tenga. — Arvino.</l>
+</lg>
+<stage><emph>(entra Arvino)</emph>.</stage>
+<lg>
+<l part="I">I Conti e i Sacerdoti.</l>
+</lg>
+<stage><emph>(Arvino parte)</emph>.</stage>
+</sp>
+
+
+<sp><speaker>CARLO</speaker>
+<stage><emph>(al legato ed a Martino) </emph></stage>
+<lg>
+<l part="F">E voi, le mani</l>
+<l>Levate al ciel; le grazie a lui rendute</l>
+<l>Preghiera sien che favor novo impetri.</l>
+</lg>
+<stage><emph>(partono il Legato e Martino)</emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA IV</head>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Così, Carlo reddiva. Il riso amaro</l>
+<l>Del suo nemico e dell'età ventura</l>
+<l>Gli stava innanzi; ma l'avea giurato,</l>
+<l>Egli in Francia reddìa. — Qual de' miei prodi,</l>
+<l>Qual de' miei fidi, per consiglio o prego,</l>
+<l>Smosso m'avria dal mio proposto? E un solo,</l>
+<l>Un uom di pace, uno stranier, m'apporta</l>
+<l>Nuovi pensier! No: quei che in petto a Carlo</l>
+<l>Ripone il cor, non è costui. La stella</l>
+<l>Che scintillava al mio partir, che ascosa</l>
+<l>Stette alcun tempo, io la riveggio. Egli era</l>
+<l>Un fantasma d'error quel che parea</l>
+<l>Dall'Italia rispingermi; bugiarda</l>
+<l>Era la voce che diceami in core:</l>
+<l>No mai, no, rege esser non puoi nel suolo</l>
+<l>Ove nacque Ermengarda. — Oh! Del tuo sangue</l>
+<l>Mondo son io; tu vivi: e perché dunque</l>
+<l>Ostinata così mi stavi innanzi,</l>
+<l>Tacita, in atto di rampogna, afflitta,</l>
+<l>Pallida, e come del sepolcro uscita?</l>
+<l>Dio riprovata ha la tua casa; ed io</l>
+<l>Starle unito dovea? Se agli occhi miei</l>
+<l>Piacque Ildegarde, al letto mio compagna</l>
+<l>Non la chiamava alta ragion di regno?</l>
+<l>Se minor degli eventi è il femminile</l>
+<l>Tuo cor, che far poss'io? Che mai farìa</l>
+<l>Colui che tutti, pria d'oprar, volesse</l>
+<l>Prevedere i dolori? Un re non puote</l>
+<l>Correr l'alta sua via, senza che alcuno</l>
+<l>Cada sotto il suo piè. Larva cresciuta</l>
+<l>Nel silenzio e nell'ombra, il sol si leva,</l>
+<l part="I">Squillan le trombe; ti dilegua.</l>
+</lg></sp></div2>
+
+<div2 type="scena"><head>SCENA V</head>
+<stage>CARLO, CONTI e VESCOVI.</stage>
+<sp><speaker>CARLO</speaker>
+<stage><emph>(ai Conti)</emph>.</stage>
+<lg>
+<l part="F">A dura</l>
+<l>Prova io vi posi, o miei guerrier; vi tenni</l>
+<l>A perigli oziosi, a patimenti</l>
+<l>Che parean senza onor: ma voi fidaste</l>
+<l>Nel vostro re, voi gli obbediste come</l>
+<l>In un dì di battaglia. Or della prova</l>
+<l>È giunto il fine; e un guiderdon s'appressa</l>
+<l>Degno dei Franchi. Al sol nascente, in via</l>
+<l>Una schiera porrassi. — Eccardo, il duce</l>
+<l>Tu ne sarai. — Dell'inimico in cerca</l>
+<l>N'andranno, e tosto il giungeran là dove</l>
+<l>Ei men s'aspetta. — Ordin più chiari, Eccardo,</l>
+<l>Io ti darò. Nel longobardo campo</l>
+<l>Ho amici assai; come li scerna, e d'essi</l>
+<l>Ti valga, udrai. Da queste Chiuse il resto</l>
+<l>Voi sniderete di leggier: noi tosto</l>
+<l>Le passerem senza contrasto, e tutti</l>
+<l>Ci rivedremo in campo aperto. — Amici!</l>
+<l>Non più muraglie, né bastìe, né frecce</l>
+<l>Dai merli uscite, e feritor che rida</l>
+<l>Dai ripari impunito, o che improvviso</l>
+<l>Piombi su noi; ma insegne aperte al vento,</l>
+<l>Destrier contra destrier, genti disperse</l>
+<l>Nel piano, e petti non da noi più lunge</l>
+<l>Che la misura d'una lancia. Il dite</l>
+<l>A' miei soldati; dite lor, che lieto</l>
+<l>Vedeste il re, siccome allor che certa</l>
+<l>La vittoria predisse in Eresburgo:</l>
+<l>Che sien pronti a pugnar: che di ritorno</l>
+<l>Si parlerà dopo il conquisto, e quando</l>
+<l>Fia diviso il bottin. Tre giorni; e poi</l>
+<l>La pugna e la vittoria; indi il riposo</l>
+<l>Là nella bella Italia, in mezzo ai campi</l>
+<l>Ondeggianti di spighe, e nei frutteti</l>
+<l>Carchi di poma ai padri nostri ignote;</l>
+<l>Fra i tempi antichi e gli atrj, in quella terra</l>
+<l>Rallegrata dai canti, al sol diletta,</l>
+<l>Che i signori del mondo in sen racchiude,</l>
+<l>E i martiri di Dio; dove il supremo</l>
+<l>Pastor leva le palme, e benedice</l>
+<l>Le nostre insegne; ove nemica abbiamo</l>
+<l>Una picciola gente, e questa ancora</l>
+<l>Tra sé divisa, e mezza mia; la stessa</l>
+<l>Gente su cui due volte il mio gran padre</l>
+<l>Corse; una gente che si scioglie. Il resto</l>
+<l>Tutto è per noi; tutto ci aspetta. — Intento</l>
+<l>Dalle vedette sue, miri il nemico</l>
+<l>Moversi il nostro campo; e si rallegri.</l>
+<l>Sogni il nostro fuggir, sogni del tempio</l>
+<l>La scellerata preda, in sua man servo</l>
+<l>Sogni il sommo Levita, il comun padre,</l>
+<l>Il nostro amico; in fin che giunga Eccardo,</l>
+<l>Risvegliator non aspettato. — E voi,</l>
+<l>Vescovi santi e sacerdoti, al campo</l>
+<l>Intimate le preci. A Dio si vóti</l>
+<l>Questa impresa ch'è sua. Come i miei Franchi</l>
+<l>A Lui dinanzi abbasseran la fronte,</l>
+<l>Tale i nemici innanzi a lor, nel campo.</l>
+</lg></sp>
+</div2>
+</div1>
+
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena"><head>SCENA I</head>
+<stage><emph>Campo dei Longobardi. Piazza dinanzi alla tenda di Adelchi.</emph></stage>
+<stage>ADELCHI, ANFRIDO</stage>
+<sp><speaker>ANFRIDO</speaker>
+<stage><emph>(che sopraggiunge)</emph>.</stage>
+<lg>
+<l part="I">Signor!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Diletto Anfrido; ebben; che fanno</l>
+<l>Codesti Franchi? non dan segno ancora</l>
+<l part="I">Le tende al tutto di levar?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">Nessuno</l>
+<l>Finora: immoti tuttavia si stanno,</l>
+<l>Quali sull'alba li vedesti, quali</l>
+<l>Son da tre dì, poi che le prime schiere</l>
+<l>Cominciar la ritratta. Un lungo tratto</l>
+<l>Scorsi del vallo, esaminando; ascesi</l>
+<l>Una torre, e guatai: stretti li vidi</l>
+<l>In ordinanza, folti, all'erta, in atto</l>
+<l>Di chi assalir non pensa, ed in sospetto</l>
+<l>Sta d'un assalto, e più si guarda, quanto</l>
+<l>Più scemato è di forze; e senza offesa</l>
+<l>Ritrarsi agogna, ed il momento agguata.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>E lo potrà, pur troppo! Ei parte, il vile</l>
+<l>Offensor d'Ermengarda, ei che giurava</l>
+<l>Di spegner la mia casa; ed io non posso</l>
+<l>Spingergli addosso il mio destrier, tenerlo,</l>
+<l>Dibattermi con esso, e riposarmi</l>
+<l>Sull'armi sue! Nol posso! in campo aperto</l>
+<l>Stargli a fronte io non posso! In queste Chiuse,</l>
+<l>La fe' dei pochi, che a guardarle io scelsi,</l>
+<l>Il cor di quelli ch'io prendea fra i pochi,</l>
+<l>Compagni alle sortite, alla salvezza</l>
+<l>Poté bastar d'un regno: i traditori</l>
+<l>Stetter lontani dalla pugna, inerti,</l>
+<l>Ma contenuti. In campo aperto, al Franco,</l>
+<l>Solo coi pochi, abbandonato almeno</l>
+<l>Io sarei da costoro. Oh rabbia! Il messo</l>
+<l>Che mi dirà: Carlo è partito, un lieto</l>
+<l>Annunzio mi darà; gioia mi fia</l>
+<l part="I">Che lunge ei sia dalla mia spada!</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">O dolce</l>
+<l>Signor, ti basti questa gloria. Come</l>
+<l>Un vincitor sopra la spoglia, ei scese</l>
+<l>Su questo regno; e vinto or torna: ei vinto</l>
+<l>Si confessò quando implorò la pace,</l>
+<l>Quando il prezzo ne offerse: e tu sei quello</l>
+<l>Che l'hai respinto. Il padre tuo n'esulta;</l>
+<l>Tutto il campo il confessa; i fidi tuoi</l>
+<l>Alteri van della tua gloria, alteri</l>
+<l>Di dividerla teco; e quei codardi</l>
+<l>Che a non amarti si dannar, temerti</l>
+<l part="I">Dovranno or più che mai.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">La gloria? il mio</l>
+<l>Destino è d'agognarla, e di morire</l>
+<l>Senza averla gustata. Ah no! codesta</l>
+<l>Non è ancor gloria, Anfrido. Il mio nemico</l>
+<l>Parte impunito; a nuove imprese ei corre:</l>
+<l>Vinto in un lato, ei di vittoria altrove</l>
+<l>Andar può in cerca; ei che su un popol regna</l>
+<l>D'un sol voler, saldo, gittato in uno,</l>
+<l>Siccome il ferro del suo brando; e in pugno</l>
+<l>Come il brando lo tiensi. Ed io sull'empio</l>
+<l>Che m'offese nel cor, che per ammenda,</l>
+<l>Il mio regno assalì, compier non posso</l>
+<l>La mia vendetta! Un'altra impresa, Anfrido,</l>
+<l>Che sempre increbbe al mio pensier, né giusta</l>
+<l>Né gloriosa, si presenta: e questa</l>
+<l part="I">Certa ed agevol fia.</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">Torna agli antichi</l>
+<l part="I">Disegni il re?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Dubbiar ne puoi? Securo</l>
+<l>Dalle minacce d'esti Franchi, incontro</l>
+<l>L'apostolico sire il campo tosto</l>
+<l>Ei moverà: noi guiderem sul Tebro</l>
+<l>Tutta Longobardia, pronta, concorde</l>
+<l>Contra gl'inermi, e fida allor che a certa</l>
+<l>E facil preda la conduci. Anfrido!</l>
+<l>Qual guerra! e qual nemico! Ancor ruine</l>
+<l>Sopra ruine ammucchierem: l'antica</l>
+<l>Nostr'arte è questa: nei palagi il foco</l>
+<l>Porremo, e nei tuguri: uccisi i primi</l>
+<l>I signori del suolo, e quanti a caso</l>
+<l>Nell'asce nostre ad inciampar verranno,</l>
+<l>Fia servo il resto, e fra di noi diviso;</l>
+<l>E ai più sleali e più temuti, il meglio</l>
+<l>Toccherà della preda. — Oh! mi parea,</l>
+<l>Pur mi parea che ad altro io fossi nato,</l>
+<l>Che ad esser capo di ladron; che il cielo</l>
+<l>Su questa terra altro da far mi desse,</l>
+<l>Che senza rischio, e senza onor, guastarla.</l>
+<l>— O mio diletto! O de' miei giorni primi,</l>
+<l>De' giochi miei, dell'armi poi, de' rischi</l>
+<l>Solo compagno e dei piacer, fratello</l>
+<l>Della mia scelta; innanzi a te soltanto</l>
+<l>Tutto vola sui labbri il mio pensiero.</l>
+<l>Il mio cor m'ange, Anfrido; ei mi comanda</l>
+<l>Alte e nobili cose; e la fortuna</l>
+<l>Mi condanna ad inique: e strascinato</l>
+<l>Vo per la via ch'io non mi scelsi, oscura</l>
+<l>Senza scopo: e il mio cor s'inaridisce,</l>
+<l>Come il germe caduto in rio terreno,</l>
+<l part="I">E balzato dal vento.</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">Alto infelice!</l>
+<l>Reale amico! il tuo Fedel t'ammira,</l>
+<l>E ti compiange. Toglierti la tua</l>
+<l>Splendida cura non poss'io, ma posso</l>
+<l>Teco sentirla almeno. Al cor d'Adelchi</l>
+<l>Dir che d'omaggi, di potenza e d'oro</l>
+<l>Sia contento, il poss'io? dargli la pace</l>
+<l>Dei vili, il posso? e lo vorrei, potendo?</l>
+<l>— Soffri e sii grande: il tuo destino è questo</l>
+<l>Finor: soffri, ma spera: il tuo gran corso</l>
+<l>Comincia appena; e chi sa dir, quai tempi,</l>
+<l>Quali opre il cielo ti prepara? il cielo</l>
+<l>Che re ti fece, ed un tal cor ti diede.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA II</head>
+<stage>ADELCHI, DESIDERIO.</stage>
+<stage><emph>(Anfrido si ritira)</emph>.</stage>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Figlio, a te rege qual son io, m'è tolto</l>
+<l>Esser largo d'onor; farti più grande</l>
+<l>Nessun mortale il può: ma un premio io tengo</l>
+<l>Caro alla tua pietà, la gioia, e l'alte</l>
+<l>Lodi d'un padre. Salvator d'un regno,</l>
+<l>La tua gloria or comincia: altro più largo</l>
+<l>E agevol campo le si schiude. I dubbi,</l>
+<l>Ed i timor, che a' miei disegni un giorno</l>
+<l>Tu frapponevi, ecco, gli ha sciolti il tuo</l>
+<l>Braccio; ogni scusa il tuo valor ti fura.</l>
+<l>Dissipator di Francia! io ti saluto</l>
+<l>Conquistator di Roma: al nobil serto</l>
+<l>Che non intero mai passò sul capo</l>
+<l>Di venti re, tu di tua man porrai</l>
+<l part="I">L'ultima fronda, e la più bella.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">A quale</l>
+<l>Tu vogli impresa, il tuo guerriero, o padre,</l>
+<l part="I">Obbediente seguiratti.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">E a tanto</l>
+<l>Acquisto, o figlio, obbedienza sola</l>
+<l part="I">Spinger ti può?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Questa è in mia mano; e intera</l>
+<l part="I">L'avrai, fin ch'io respiro!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Obbediresti</l>
+<l part="I">Biasmando?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="M">Obbedirei.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Gloria e tormento</l>
+<l>Della canizie mia, braccio del padre</l>
+<l>Nella battaglia, e nei consigli inciampo;</l>
+<l>Sempre così? sempre fia d'uopo a forza</l>
+<l part="I">Traggerti alla vittoria?</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA III </head>
+<stage><emph>Detti, uno </emph>SCUDIERO <emph>frettoloso ed atterrito</emph>.</stage>
+<sp><speaker>SCUDIERE</speaker>
+<lg>
+<l part="F">I Franchi! i Franchi!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">Che dici insano?</l>
+</lg></sp>
+
+
+<sp><speaker>ALTRO SCUDIERE</speaker>
+<lg>
+<l part="M">I Franchi, o re.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Che Franchi?</l>
+</lg>
+<stage><emph>(la scena si affolla di Longobardi fuggitivi. Entra Baudo)</emph>.</stage>
+</sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="I">Baudo, che fu?</l>
+</lg></sp>
+
+
+
+<sp><speaker>BAUDO</speaker>
+<lg>
+<l part="F">Morte e sventura! Il campo</l>
+<l>È penetrato d'ogni parte: al dorso</l>
+<l part="I">Piombano i Franchi ad assalirci.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">I Franchi!</l>
+<l part="I">Per qual via?</l>
+</lg></sp>
+
+<sp><speaker>BAUDO</speaker>
+<lg>
+<l part="M">Chi lo sa?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Corriamo; ei fia</l>
+<l part="I">Un drappello sbandato.</l>
+</lg>
+<stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+
+<sp><speaker>BAUDO</speaker>
+<lg>
+<l part="F">Un'oste intera:</l>
+<l>Gli sbandati siam noi: tutto è perduto.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">Tutto è perduto?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Ebben, compagni; i Franchi?</l>
+<l>Non siam noi qui per essi? Andiam: che importa</l>
+<l>Da che parte sian giunti? I nostri brandi,</l>
+<l>Per riceverli, abbiamo. I brandi in pugno!</l>
+<l>Ei gli han provati: è una battaglia ancora:</l>
+<l>Non v'è sorpresa pel guerrier: tornate;</l>
+<l>Via, Longobardi, indietro; ove correte,</l>
+<l>Per Dio? La via che avete presa, è infame:</l>
+<l>Il nemico è di là. Seguite Adelchi.</l>
+</lg>
+<stage>(<emph>entra</emph> ANFRIDO).</stage>
+<lg>
+<l part="I">Anfrido!</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="M">O re, son teco.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<stage><emph>(avviandosi)</emph>.</stage>
+<lg>
+<l part="F">O padre; accorri,</l>
+<l part="I">Veglia alle Chiuse.</l>
+</lg>
+<stage><emph>(parte seguito da Anfrido, da Baudo e da alcuni longobardi).</emph></stage>
+</sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<stage><emph>(ai fuggitivi che attraversano la scena)</emph>.</stage>
+<lg>
+<l part="F">Sciagurati! almeno</l>
+<l>Alle Chiuse con me: se tanto a core</l>
+<l>Vi sta la vita, ivi son torri e mura</l>
+<l part="I">Da porla in salvo.</l>
+</lg>
+<stage><emph>(sopraggiungono soldati fuggitivi dalla parte opposta a quella donde è partito Adelchi)</emph>.</stage>
+</sp>
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">O re, tu qui? Deh! fuggi.</l>
+</lg>
+<stage><emph>(attraversa la scena)</emph>.</stage>
+</sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Infame! al re questo consiglio? E voi,</l>
+<l>Da chi fuggite? In abbandon le Chiuse</l>
+<l>Voi lasciate così? Che fu? Viltade</l>
+<l part="I">V'ha tolto il senno.</l>
+</lg>
+<stage><emph>(i soldati continuano a fuggire. Desiderio appunta la spada al petto d'uno di essi, e lo ferma)</emph>.</stage>
+<lg>
+<l part="F">Senza cor, se il ferro</l>
+<l>Fuggir ti fa, questo è pur ferro, e uccide</l>
+<l>Come quello dei Franchi. Al re favella:</l>
+<l part="I">Perché fuggite dalle Chiuse?</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">I Franchi</l>
+<l>Dall'altra parte hanno sorpreso il campo;</l>
+<l>Gli abbiam veduti dalle torri. I nostri</l>
+<l part="I">Son dispersi.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Tu menti. Il figliuol mio</l>
+<l>Gli ha ragunati; e li conduce incontro</l>
+<l part="I">A quei pochi nemici. Indietro!</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">O sire,</l>
+<l>Non è più tempo: e non son pochi; e' giungono:</l>
+<l>Scampo non v'è: schierati ei sono; e i nostri</l>
+<l>Chi qua, chi là, senz'arme, in fuga: Adelchi</l>
+<l part="I">Non li raguna: siam traditi.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<stage><emph>(ai fuggitivi che si affollano) </emph>.</stage>
+<lg>
+<l part="F">Oh vili!</l>
+<l>Alle Chiuse salviamci; ivi a difesa</l>
+<l part="I">Restar si può.</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">Sono deserte: i Franchi</l>
+<l>Le passeranno; e noi siam posti intanto</l>
+<l>Fra due nimici: un picciol varco appena</l>
+<l part="I">Resta alla fuga; or or fia chiuso.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ebbene;</l>
+<l part="I">Moriam qui da guerrier.</l>
+</lg></sp>
+
+<sp><speaker>ALTRO SOLDATO</speaker>
+<lg>
+<l part="F">Siamo traditi:</l>
+<l part="I">Siam venduti al macello.</l>
+</lg></sp>
+
+<sp><speaker>ALTRO SOLDATO</speaker>
+<lg>
+<l part="F">In giusta guerra</l>
+<l>Morir vogliam, come a guerrier conviensi,</l>
+<l part="I">Non isgozzati a tradimento.</l>
+</lg></sp>
+
+<sp><speaker>ALTRO SOLDATO</speaker>
+<lg>
+<l part="F">I Franchi!</l>
+</lg></sp>
+<sp><speaker>MOLTI SOLDATI</speaker>
+<lg>
+<l part="I">Fuggiamo!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ebben, correte; anch'io con voi</l>
+<l>Fuggo: è destin di chi comanda ai tristi.</l>
+</lg>
+<stage><emph>(s'avvia coi fuggitivi) </emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA IV</head>
+<stage><emph>Parte del campo abbandonato dai Longobardi, sotto alle Chiuse. </emph></stage>
+<stage>CARLO<emph>circondato da Conti franchi</emph>, SVARTO.</stage>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Ecco varcate queste Chiuse. A Dio</l>
+<l>Tutto l'onor. Terra d'Italia, io pianto</l>
+<l>Nel tuo sen questa lancia, e ti conquisto.</l>
+<l>E una vittoria senza pugna. Eccardo</l>
+<l part="I">Tutto ha già fatto.</l>
+</lg>
+<stage><emph>(ad uno dei Conti) </emph>.</stage>
+<lg>
+<l part="F">Su quel colle ascendi;</l>
+<l>Guata se vedi la sua schiera, e tosto</l>
+<l part="I">Vieni a darmene avviso.</l>
+</lg>
+<stage><emph>(il Conte parte) </emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA V</head>
+
+<stage><emph>Detti</emph>, RUTLANDO..</stage>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">E che? Rutlando,</l>
+<l part="I">Tu riedi dal conflitto?</l>
+</lg></sp>
+
+<sp><speaker>RUTLANDO</speaker>
+<lg>
+<l part="F">O re, ti chiamo</l>
+<l>In testimonio, e voi Conti, che in questo</l>
+<l>Vil giorno il brando io non cavai: ferisca</l>
+<l>Oggi chi vuol: gregge atterrito e sperso,</l>
+<l part="I">Io non l'inseguo.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">E non trovasti alcuno</l>
+<l part="I">Che mostrasse la fronte?</l>
+</lg></sp>
+
+<sp><speaker>RUTLANDO</speaker>
+<lg>
+<l part="F">Incontro io vidi</l>
+<l>Un drappello venirmi, ed alla testa</l>
+<l>Più duchi avea: sopra lor corsi; e quelli</l>
+<l>Calar tosto i vessilli, e fecer segni</l>
+<l>Di pace, e amici si gridaro. — Amici?</l>
+<l>Noi l'eravam più assai, quando alle Chiuse</l>
+<l>Ci scontravam. — Chiesero il re; le spalle</l>
+<l>Lor volsi; or li vedrai. No: s'io sapea</l>
+<l>A qual nemico si venìa, per certo</l>
+<l part="I">Mosso di Francia non sarei.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">T'accheta,</l>
+<l>Prode fra i prodi miei. Bello è d'un regno,</l>
+<l>Sia comunque, l'acquisto; in lungo, il vedi,</l>
+<l>Non andrà questo; e non temer che manchi</l>
+<l>Da far: Sassonia non è vinta ancora.</l>
+</lg>
+<stage><emph>(entra il CONTE spedito da Carlo) </emph>.</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+<stage><emph>(a Carlo) </emph>.</stage>
+<lg>
+<l>Eccardo è in campo, e verso noi s'avanza;</l>
+<l>Ei procede in battaglia: i Longobardi</l>
+<l>Fra il nostro campo e il suo, sfilati, in folla,</l>
+<l>Sfuggono a destra ed a sinistra: il piano,</l>
+<l>Che da lui ci divide, or or fia sgombro.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="I">Esser dovea così.</l>
+</lg></sp>
+
+<sp><speaker>CONTE</speaker>
+<lg>
+<l part="F">Vidi un drappello,</l>
+<l>Che s'arrendette ai nostri; e a questa volta</l>
+<l part="I">Venìa correndo.</l>
+</lg></sp>
+
+<sp><speaker>ALTRO CONTE</speaker>
+<lg>
+<l part="M">È qui.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Svarto, son quelli</l>
+<l part="I">Che m' annunziasti?</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="M">Il son. — Compagni!</l>
+</lg></sp></div2>
+
+<div2 type="scena"><head>SCENA VI</head>
+<stage><emph>Detti</emph>, ILDECHI <emph>ed altri Duchi, Giudici e Soldati longobardi</emph>.</stage>
+
+<sp><speaker>ILDECHI</speaker>
+<lg>
+<l part="F">O Svarto!</l>
+<l part="I">Il re!</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">Son desso.</l>
+</lg></sp>
+
+<sp><speaker>ILDECHI</speaker>
+<stage><emph>(s'inginocchia e pone le sue mani fra quelle di Carlo)</emph>.</stage>
+<lg>
+<l part="F">O re dei Franchi e nostro!</l>
+<l>Nella tua man vittoriosa accogli</l>
+<l>La nostra man devota, e dalla bocca</l>
+<l>Dei Longobardi tuoi l'omaggio accetta,</l>
+<l part="I">A te promesso da gran tempo.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Svarto,</l>
+<l part="I">Conte di Susa!</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="M">O re, qual grazia? ...</l>
+</lg></sp>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Il nome</l>
+<l part="I">Dimmi di questi a me devoti.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Il duca</l>
+<l>Di Trento Ildechi, di Cremona Ervigo,</l>
+<l>Ermenegildo di Milano, Indolfo</l>
+<l>Di Pisa, Vila di Piacenza: questi</l>
+<l part="I">Giudici son; questi guerrieri.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Alzatevi,</l>
+<l>Fedeli miei, giudici e duchi, ognuno</l>
+<l>Nel grado suo, per ora. I primi istanti</l>
+<l>Che di riposo avremo, io li destino</l>
+<l>Al guiderdon de' vostri merti: il tempo</l>
+<l>Questo è d'oprar. Prodi Fedeli, ai vostri</l>
+<l>Concittadin tornate, a quei che ancora</l>
+<l>Non san che Iddio de' Longobardi al regno</l>
+<l>Oggi assunto ha il suo servo; e che potrieno,</l>
+<l>Sventurati, al lor re, senza saperlo,</l>
+<l>Star contro in campo: dite lor, che ad una</l>
+<l>Gente germana, di german guerrieri</l>
+<l>Capo, guerra io non porto: una famiglia</l>
+<l>Riprovata dal Ciel, del solio indegna,</l>
+<l>A balzarnela io venni. Al vostro regno</l>
+<l>Non fia cangiato altro che il re. Vedete</l>
+<l>Quel sol? qualunque, in pria ch'ei scenda, omaggio</l>
+<l>In mia mano a far venga, o dei Fedeli</l>
+<l>Franchi, o di voi, nel grado suo serbato,</l>
+<l>Mio Fedel diverrà. Chi a me dinanzi</l>
+<l>Tragga i due che fur regi, un premio aspetti</l>
+<l part="I">Pari all'opra.</l>
+</lg>
+<stage><emph>(i Longobardi partono) </emph>.</stage>
+</sp>
+<sp><speaker>CARLO</speaker>
+<stage><emph>(a Rutlando in disparte) </emph>.</stage>
+<lg>
+<l part="F">Rutlando, ho io chiamati</l>
+<l part="I">Prodi costor?</l>
+</lg></sp>
+
+<sp><speaker>RUTLANDO</speaker>
+<lg>
+<l part="M">Pur troppo.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Errato ha il labbro</l>
+<l>Del re: questa parola ai Franchi miei</l>
+<l>In guiderdon la serbo. Oh! possa ognuno</l>
+<l>Dimenticar ch'io proferita or l'abbia.</l>
+</lg>
+<stage><emph>(s'avvia)</emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA VII</head>
+<stage><emph>Detti</emph>, ANFRIDO <emph>ferito, portato da due</emph>FRANCHI.</stage>
+<sp><speaker>RUTLANDO</speaker>
+<lg>
+<l part="I">Ecco un nemico. Ove si pugna?</l>
+</lg></sp>
+
+<sp><speaker>FRANCO</speaker>
+<lg>
+<l part="F">Il solo</l>
+<l part="I">Che pugnasse, è costui.</l>
+</lg></sp>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">Solo?</l>
+</lg></sp>
+
+<sp><speaker>FRANCO</speaker>
+<lg>
+<l part="F">Gran parte</l>
+<l>Gettan l'arme, e si danno; in fuga a torme</l>
+<l>Altri ne van. Lento ritrarsi e solo</l>
+<l>Costui vedemmo, che alle barde, all'armi,</l>
+<l>Uom d'alto affar parea: quattro guerrieri</l>
+<l>Da un drappel ci spiccammo, e a tutta briglia</l>
+<l>Sull'orme sue, pei campi. Egli inseguito</l>
+<l>Nulla affrettò della sua fuga; e quando</l>
+<l>Sopra gli fummo, si rivolse. Arrenditi,</l>
+<l>Gli gridiamo; ei ne affronta; al più vicino</l>
+<l>Vibra l'asta, e lo abbatte, la ritira,</l>
+<l>Prostra il secondo ancor, ma nello stesso</l>
+<l>Ferir, percosso dalle nostre ei cadde.</l>
+<l>Quando fu al suol, tese le mani in atto</l>
+<l>Di supplicante, e ci pregò, che posto</l>
+<l>Ogni rancor, sull'aste nostre ei fosse</l>
+<l>Portato lunge dal tumulto, in loco</l>
+<l>Dove in pace ei si muoia. Invitto sire,</l>
+<l>Meglio da far quivi non v'era: al prego</l>
+<l part="I">Ci arrendemmo.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">E ben feste: a chi resiste</l>
+<l part="I">L'ire vostre serbate.</l>
+</lg>
+<stage><emph>(a Svarto) </emph>.</stage>
+<lg>
+<l part="F">Il riconosci?</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="I">Anfrido egli è, scudier d'Adelchi.</l>
+</lg></sp>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Anfrido,</l>
+<l part="I">Tu solo andavi contro alor?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l part="F">Bisogno</l>
+<l part="I">Fa di compagni per morir?</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Rutlando!</l>
+<l part="I">Ecco un prode.</l>
+</lg>
+<stage><emph>(ad Anfrido) </emph>.</stage>
+<lg>
+<l part="F">O guerrier, perché gittavi</l>
+<l>Una vita sì degna? e non sapevi</l>
+<l>Che nostra divenìa? che, a noi cedendo,</l>
+<l>Guerrier restavi e non prigion di Carlo?</l>
+</lg></sp>
+
+<sp><speaker>ANFRIDO</speaker>
+<lg>
+<l>Io viver tuo guerrier, quand'io potea</l>
+<l>Morir quello d'Adelchi? Al ciel diletto</l>
+<l>È Adelchi, o re. Da questo giorno infame</l>
+<l>Trarrallo il ciel, lo spero, e ad un migliore</l>
+<l>Vorrà serbarlo: ma, se mai... rammenta</l>
+<l>Che, regnante o caduto, è tale Adelchi,</l>
+<l>Che chi l'offende, il Dio del cielo offende</l>
+<l>Nella più pura immagin sua. Lo vinci</l>
+<l>Tu di fortuna e di poter, ma d'alma</l>
+<l>Nessun mortale: un che si muor tel dice.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<stage><emph>(ai Conti) </emph>.</stage>
+<lg>
+<l part="I">Amar così deve un Fedel.</l>
+</lg>
+<stage><emph>(ad Anfrido) </emph>.</stage>
+<lg>
+<l part="F">Tu porti</l>
+<l>Teco la nostra stima. E il re dei Franchi</l>
+<l>Che ti stringe la man, d'onore in segno,</l>
+<l>E d'amistà. Nel suol de' prodi, o prode,</l>
+<l>Il tuo nome vivrà; le Franche donne</l>
+<l>L'udran dal nostro labbro, e il ridiranno</l>
+<l>Con riverenza e con pietà: riposo</l>
+<l>Ti pregheran. — Fulrado, a questo pio</l>
+<l part="I">Presta gli estremi uffici.</l>
+</lg>
+<stage><emph>(ai soldati che rimangono) </emph>.</stage>
+<lg>
+<l part="F">In lui vedete</l>
+<l>Un amico del re. Conti, ad Eccardo</l>
+<l>Incontro andiam: nobil saluto ei merta.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA VIII</head>
+<stage><emph>Bosco solitario</emph>.</stage>
+<stage>DESIDERIO, VERMONDO, <emph>altri</emph>LONGOBARDI <emph>fuggiaschi in disordine</emph>.</stage>
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l>Siamo in salvo, o mio re: scendi, e su queste</l>
+<l>Erbe l'antico e venerabil fianco</l>
+<l>Riposa alquanto. O mio signor, ripiglia</l>
+<l>Gli affaticati spirti. Assai dal campo</l>
+<l>Siam lunge, e fuor di strada: al nostro orecchio</l>
+<l>Lo scellerato mormorio non giunge.</l>
+<l part="I">Cinto non sei che di leali.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">E Adelchi?</l>
+</lg></sp>
+
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l>Or or fia qui, lo spero: alla sua traccia</l>
+<l>Più d'un fido inviai, che lo ritragga</l>
+<l>Dall'empio rischio a miglior pugna il serbi,</l>
+<l>E a questa posta de' leali il guidi.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>O mio Vermondo; il vecchio rege è stanco,</l>
+<l part="I">È stanco — dalla fuga.</l>
+</lg></sp>
+
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l part="F">Ahi traditori!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Vili! Nel fango han trascinato i bianchi</l>
+<l>Capelli del lor re; l'hanno costretto,</l>
+<l>Come un vile, a fuggir. — Fuggire! e quinci</l>
+<l>Non sorgerò che per fuggir di nuovo?</l>
+<l>A che pro? dove? in traccia d'un sepolcro</l>
+<l>Privo di gloria? — E comple? Io, per costoro,</l>
+<l>Fuggir? Chi il regno mi rapì, mi tolga</l>
+<l>La vita. Ebben? quand'io sarò sotterra,</l>
+<l part="I">Che mi farà codesto Carlo?</l>
+</lg></sp>
+
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l part="F">O nostro</l>
+<l>Re per sempre, fa cor: son molti i fidi;</l>
+<l>La sorpresa gli ha spersi; a te d'intorno</l>
+<l>Li chiamerà l'onor: ti restan tante</l>
+<l>Città munite: e Adelchi vive, io spero.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Maladetto quel dì che sopra il monte</l>
+<l>Alboino salì, che in giù rivolse</l>
+<l>Lo sguardo, e disse: questa terra è mia!</l>
+<l>Una terra infedel che sotto i piedi</l>
+<l>Dei successori suoi doveva aprirsi,</l>
+<l>Ed ingoiarli! Maladetto il giorno,</l>
+<l>Che un popol vi guidò, che la dovea</l>
+<l>Guardar così! che vi fondava un regno,</l>
+<l>Che una esecranda ora d'infamia ha spento!</l>
+</lg></sp>
+
+<sp><speaker>VERMONDO</speaker>
+<lg>
+<l part="I">Il re!</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="M">Figlio, sei tu?</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA IX </head>
+<stage><emph>Detti</emph>, ADELCHI.</stage>
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Padre, ti trovo!</l>
+</lg>
+<stage><emph>(si abbracciano) </emph>.</stage>
+</sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">S'io t'avessi ascoltato!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Oh! che rammenti?</l>
+<l>padre, tu vivi; un alto scopo ancora</l>
+<l>È serbato a' miei dì; spenderli posso</l>
+<l>In tua difesa. — O mio signor, la lena</l>
+<l part="I">Come ti regge?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Oh! per la prima volta</l>
+<l>Sento degli anni e degli stenti il peso.</l>
+<l>Di gravi io ne portai; ma allor non era</l>
+<l part="I">Per fuggire un nemico.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<stage><emph>(ai Longobardi) </emph>.</stage>
+<lg>
+<l part="F">Ecco, o guerrieri,</l>
+<l part="I">Il vostro re.</l>
+</lg></sp>
+
+<sp><speaker>LONGOBARDI</speaker>
+<lg>
+<l part="F">Noi morirem per lui!</l>
+</lg></sp>
+
+<sp><speaker>MOLTI LONGOBARDI</speaker>
+<lg>
+<l part="I">Tutti morrem!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Quand'è così, salvargli</l>
+<l>Forse potrem più che la vita. — E a questa</l>
+<l>Causa, or sì dubbia ma ognor sacra, afflitta</l>
+<l>Ma non perduta, voi legate ancora</l>
+<l part="I">La vostra fede?</l>
+</lg></sp>
+
+<sp><speaker>LONGOBARDI</speaker>
+<lg>
+<l part="F">Ai tuoi guerrieri, Adelchi,</l>
+<l>Risparmia i giuri: ai longobardi labbri</l>
+<l>Disdicon oggi, o re: somiglian troppo</l>
+<l>Allo spergiuro. Opre ci chiedi: il solo</l>
+<l part="I">Segno de' fidi è questo omai.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">V'ha dunque</l>
+<l>Dei Longobardi ancora! — Ebben; corriamo</l>
+<l>Sopra Pavia; fuggiam, salviam per ora</l>
+<l>La nostra vita, ma per farla in tempo</l>
+<l>Caro costar: donarla al tradimento</l>
+<l>Non è valor. Quanti potrem dispersi</l>
+<l>Raccoglierem per via; misti con noi</l>
+<l>Ritorneran soldati. Entro Pavia,</l>
+<l>A riposo, a difesa, o padre, intanto</l>
+<l>Ristar potrai: cinta di mura intatte,</l>
+<l>Ricca d'arme è Pavia: due volte Astolfo</l>
+<l>Vi si chiuse fuggiasco, e re ne uscìo.</l>
+<l>Io mi getto in Verona. O re, trascegli</l>
+<l part="I">L'uom che restar debba al tuo fianco.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Il duca</l>
+<l part="I">D'Ivrea.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<stage>(<emph>a</emph>GUNTIGI, <emph>che s'avanza</emph>).</stage>
+<lg>
+<l part="F">Guntigi, io ti confido il padre.</l>
+<l part="I">Il duca di Verona ov'è?</l>
+</lg></sp>
+
+<sp><speaker>GISELBERTO</speaker>
+<stage><emph>(si avanza) </emph>.</stage>
+<lg>
+<l part="F">Tra i fidi.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>Meco verrai: nosco trarrem Gerberga.</l>
+<l>Tristo colui che nella sua sventura</l>
+<l>Gli sventurati obblia! — Baudo, il tuo posto</l>
+<l>Lo sai; chiuditi in Brescia; ivi difendi</l>
+<l>Il tuo ducato, ed Ermengarda. — E voi,</l>
+<l>Alachi, Ansuldo, Ibba, Cunberto, Ansprando,</l>
+</lg>
+<stage><emph>(li scerne tra la folla) </emph>.</stage>
+<lg>
+<l>Tornate al campo: oggi pur troppo ai Franchi</l>
+<l>Ponno senza sospetto i Longobardi</l>
+<l>Mischiarsi: esaminate; i duchi, i conti</l>
+<l>Esplorate e i guerrier; dai traditori</l>
+<l>Discernete i sorpresi; e a quei che mesti</l>
+<l>Vergognosi vedrete da codesto</l>
+<l>Orrido sogno di viltà destarsi,</l>
+<l>Dite ch'è tempo ancor, che i re son vivi,</l>
+<l>Che si combatte, che una via rimane</l>
+<l>Di morir senza infamia; e li guidate</l>
+<l>Alle città munite. Ei diverranno</l>
+<l>Invitti: il brando del guerrier pentito</l>
+<l>È ritemprato a morte. Il tempo, i falli</l>
+<l>Dell'inimico, il vostro cor, consigli</l>
+<l>Inaspettati vi daranno. Il tempo</l>
+<l>Porterà la salute: il regno è sperso</l>
+<l part="I">In questo dì, ma non distrutto!</l>
+</lg>
+<stage><emph>(partono gli indicati da Adelchi). </emph>.</stage>
+</sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">O figlio!</l>
+<l>Tu m'hai renduto il mio vigor: partiamo.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>Padre, io t'affido a questi prodi: or ora</l>
+<l part="I">Anch'io teco sarò.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="M">Che attendi?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Anfrido.</l>
+<l>Ei dal mio fianco si disgiunse, e volle</l>
+<l>Seguirmi da lontan; più presso al rischio</l>
+<l>Star, per guardarmi: io non potei dal duro</l>
+<l>Voler, da tanta fedeltà distorlo.</l>
+<l>Seco indugiarmi, di tua vita in forse</l>
+<l>Io non potea: ma tu sei salvo; e quinci</l>
+<l part="I">Non partirò, fin ch'ei non giunga.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">E teco</l>
+<l part="I">Aspetterò.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="M">Padre...</l>
+</lg>
+<stage>(<emph>ad un</emph> SOLDATO <emph>che sopraggiunge</emph>).</stage>
+<lg>
+<l part="F">Vedesti Anfrido?</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="I">Re, che mi chiedi?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="M">O ciel! favella.</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">Il vidi</l>
+<l part="I">Morto cader.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Giorno d'infamia e d'ira,</l>
+<l>Tu se' compiuto! — O mio fratel, tu sei</l>
+<l>Morto per me! tu combattesti! ... ed io...</l>
+<l>Crudel! perché volesti ad un periglio</l>
+<l>Solo andar senza me? Non eran questi</l>
+<l>I nostri patti. Oh Dio! ... Dio, che mi serbi</l>
+<l>In vita ancor, che un gran dover mi lasci,</l>
+<l>Dammi la forza per compirlo — Andiamo.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>CORO</head>
+<lg>
+<lg type="sestina">
+<l>Dagli atrj muscosi, dai Fori cadenti,</l>
+<l>Dai boschi, dall'arse fucine stridenti,</l>
+<l>Dai solchi bagnati di servo sudor,</l>
+<l>Un volgo disperso repente si desta;</l>
+<l>Intende l'orecchio, solleva la testa,</l>
+<l>Percosso da novo crescente romor.</l>
+</lg>
+<lg type="sestina">
+<l>Dai guardi dubbiosi, dai pavidi volti,</l>
+<l>Qual raggio di sole da nuvoli folti,</l>
+<l>Traluce dei padri la fiera virtù;</l>
+<l>Nei guardi, nei volti confuso ed incerto</l>
+<l>Si mesce e discorda lo spregio sofferto</l>
+<l>Col misero orgoglio d'un tempo che fu.</l>
+</lg>
+<lg type="sestina">
+<l>S'aduna voglioso, si sperde tremante;</l>
+<l>Per torti sentieri, con passo vagante</l>
+<l>Fra tema e desire, s'avanza e ristà;</l>
+<l>E adocchia e rimira scorata e confusa</l>
+<l>Dei crudi signori la turba diffusa,</l>
+<l>Che fugge dai brandi, che sosta non ha.</l>
+</lg>
+<lg type="sestina">
+<l>Ansanti li vede, quai trepide fere,</l>
+<l>Irsuti per tema le fulve criniere,</l>
+<l>Le note latebre del covo cercar:</l>
+<l>E quivi, deposta l'usata minaccia,</l>
+<l>Le donne superbe, con pallida faccia,</l>
+<l>I figli pensosi pensose guatar.</l>
+</lg>
+<lg type="sestina">
+<l>E sopra i fuggenti, con avido brando,</l>
+<l>Quai cani disciolti, correndo, frugando,</l>
+<l>Da ritta da manca, guerrieri venir:</l>
+<l>Li vede, e rapito d'ignoto contento,</l>
+<l>Con l'agile speme precorre l'evento,</l>
+<l>E sogna la fine del duro servir.</l>
+</lg>
+<lg type="sestina">
+<l>Udite! Quei forti che tengono il campo,</l>
+<l>Che ai vostri tiranni precludon lo scampo,</l>
+<l>Son giunti da lunge, per aspri sentier:</l>
+<l>Sospeser le gioie dei prandi festosi,</l>
+<l>Assursero in fretta dai blandi riposi,</l>
+<l>Chiamati repente da squillo guerrier.</l>
+</lg>
+<lg type="sestina">
+<l>Lasciâr nelle sale del tetto natìo</l>
+<l>Le donne accorate tornanti all'addio,</l>
+<l>A preghi e consigli che il pianto troncò:</l>
+<l>Han carca la fronte dei pesti cimieri,</l>
+<l>Han poste le selle sui bruni corsieri,</l>
+<l>Volaron sul ponte che cupo sonò.</l>
+</lg>
+<lg type="sestina">
+<l>A torme, di terra passarono in terra,</l>
+<l>Cantando giulive canzoni di guerra,</l>
+<l>Ma i dolci castelli pensando nel cor;</l>
+<l>Per valli petrose, per balzi dirotti,</l>
+<l>Vegliaron nell'arme le gelide notti,</l>
+<l>Membrando i fidati colloqui d'amor.</l>
+</lg>
+<lg type="sestina">
+<l>Gli oscuri perigli di stanze incresciose,</l>
+<l>Per greppi senz'orma le corse affannose,</l>
+<l>Il rigido impero, le fami durâr;</l>
+<l>Si vider le lance calate sui petti,</l>
+<l>A canto agli scudi, rasente gli elmetti</l>
+<l>Udiron le frecce fischiando volar.</l>
+</lg>
+<lg type="sestina">
+<l>E il premio sperato, promesso a quei forti</l>
+<l>Sarebbe, o delusi, rivolger le sorti,</l>
+<l>D'un volgo straniero por fine al dolor?</l>
+<l>Tornate alle vostre superbe ruine,</l>
+<l>All'opere imbelli dell'arse officine,</l>
+<l>Ai solchi bagnati di servo sudor.</l>
+</lg>
+<lg type="sestina">
+<l>Il forte si mesce col vinto nemico;</l>
+<l>Col novo signore rimane l'antico;</l>
+<l>L'un popolo e l'altro sul collo vi sta.</l>
+<l>Dividono i servi, dividon gli armenti;</l>
+<l>Si posano insieme sui campi cruenti</l>
+<l>D'un volgo disperso che nome non ha.</l>
+</lg></lg></div2></div1>
+
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena"><head>SCENA I</head>
+
+<stage><emph>Giardino nel monastero di San Salvadore in Brescia</emph>.</stage>
+<stage>ERMENGARDA<emph>sostenuta da due donzelle</emph>, ANSBERGA.</stage>
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="I">Qui sotto il tiglio, qui.</l>
+</lg>
+<stage><emph>(s'adagia su un sedile) </emph>.</stage>
+<lg>
+<l part="F">Come è soave</l>
+<l>Questo raggio d'april! come si posa</l>
+<l>Su le fronde nascenti! Intendo or come</l>
+<l>Tanto ricerchi il sol colui che d'anni</l>
+<l part="I">Carco, fuggir sente la vita!</l>
+</lg>
+<stage><emph>(alle donzelle) </emph>.</stage>
+<lg>
+<l part="F">A voi</l>
+<l>Grazie, a voi, che reggendo il fianco infermo,</l>
+<l>Pago feste l'amor ch'oggi mi prese</l>
+<l>Di circondarmi ancor di queste aperte</l>
+<l>Aure, ch'io prime respirai, del Mella;</l>
+<l>Sotto il mio cielo di sedermi, e tutto</l>
+<l>Vederlo ancor, fin dove il guardo arriva.</l>
+<l>— Dolce sorella, a Dio sacrata madre,</l>
+<l part="I">Pietosa Ansberga!</l>
+</lg>
+<stage><emph>(le porge la mano: le donzelle si ritirano: Ansberga siede) </emph>.</stage>
+<lg>
+<l part="F">— Di tue cure il fine</l>
+<l>S'appressa, e di mie pene. Oh! con misura</l>
+<l>Le dispensa il Signor. Sento una pace</l>
+<l>Stanca, foriera della tomba: incontro</l>
+<l>L'ora di Dio più non combatte questa</l>
+<l>Mia giovinezza doma; e dolcemente</l>
+<l>Più che sperato io non avrei, dal laccio</l>
+<l>L'anima, antica nel dolor, si solve.</l>
+<l>L'ultima grazia ora ti chieggo: accogli</l>
+<l>Le solenni parole, i voti ascolta</l>
+<l>Della morente, in cor li serba, e puri</l>
+<l>Rendili un giorno a quei ch'io lascio in terra.</l>
+<l>— Non turbarti, o diletta: oh! non guardarmi</l>
+<l>Accorata così. Di Dio (nol vedi?)</l>
+<l>Questa è pietà. Vuoi che mi lasci in terra</l>
+<l>Pel dì che Brescia assaliran? per quando</l>
+<l>Un tal nemico appresserà? che a questo</l>
+<l>Ineffabile strazio Ei qui mi tenga?</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l>Cara infelice, non temer: lontane</l>
+<l>Da noi son l'armi ancor: contra Verona,</l>
+<l>Contra Pavia, dei re, dei fidi asilo,</l>
+<l>Tutte le forze sue quell'empio adopra;</l>
+<l>E, spero in Dio, non basteranno. Il nostro</l>
+<l>Nobil cugin, l'ardito Baudo, il santo</l>
+<l>Vescovo Ansvaldo a queste mura intorno</l>
+<l>Del Benaco i guerrieri e delle valli</l>
+<l>Han ragunati; e immoti stanno, accinti</l>
+<l>A difesa mortal. Quando Verona</l>
+<l>Caggia e Pavia (Dio, nol consenti!) un novo</l>
+<l part="I">Lungo conflitto...</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Io nol vedrò: disciolta</l>
+<l>Già d'ogni tema, e d'ogni amor terreno,</l>
+<l>Dal rio sperar, lunge io sarò; pel padre</l>
+<l>Io pregherò, per quell' amato Adelchi,</l>
+<l>Per te, per quei che soffrono, per quelli</l>
+<l>Che fan soffrir, per tutti. — Or tu raccogli</l>
+<l>La mia mente suprema. Al padre, Ansberga,</l>
+<l>Ed al fratel, quando li veggia — oh questa</l>
+<l>Gioia negata non vi sia! — dirai</l>
+<l>Che all'orlo estremo della vita, al punto</l>
+<l>In cui tutto s'obblìa, grata e soave</l>
+<l>Serbai memoria di quel dì, dell'atto</l>
+<l>Cortese, allor che a me tremante, incerta</l>
+<l>Steser le braccia risolute e pie,</l>
+<l>Né una reietta vergognar; dirai</l>
+<l>Che al trono del Signor, caldo incessante</l>
+<l>Per la vittoria lor stette il mio prego;</l>
+<l>E s'Ei non l'ode, alto consiglio è certo</l>
+<l>Di pietà più profonda; e ch'io morendo</l>
+<l>Gli ho benedetti — Indi, sorella... oh! questo</l>
+<l>Non mi negar! ... trova un Fedel che possa,</l>
+<l>Quando che sia, dovunque, a quel feroce</l>
+<l>Di mia gente nemico approssimarsi...</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="I">Carlo!</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Tu l'hai nomato: e sì gli dica:</l>
+<l>Senza rancor passa Ermengarda: oggetto</l>
+<l>D'odio in terra non lascia, e di quel tanto</l>
+<l>Ch'ella sofferse, Iddio scongiura, e spera</l>
+<l>Ch'egli a nessun conto ne chiegga, poi</l>
+<l>Che dalle mani sue tutto ella prese.</l>
+<l>Questo gli dica, e... se all'orecchio altero</l>
+<l>Troppa acerba non giunge esta parola...</l>
+<l part="I">Ch'io gli perdono. — Lo farai?</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Le estreme</l>
+<l>Parole mie riceva il ciel, siccome</l>
+<l part="I">Queste tue mi son sacre.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Amata! e d'una</l>
+<l>Cosa ti prego ancor: della mia spoglia,</l>
+<l>Cui, mentre un soffio l'animò, sì larga</l>
+<l>Fosti di cure, non ti sia ribrezzo</l>
+<l>Prender l'estrema; e la componi in pace.</l>
+<l>Questo anel, che tu vedi alla mia manca,</l>
+<l>Scenda seco nell'urna: ei mi fu dato</l>
+<l>Presso all'altar, dinanzi a Dio. Modesta</l>
+<l>Sia l'urna mia. — Tutti siam polve; ed io</l>
+<l>Di che mi posso gloriar? — Ma porti</l>
+<l>Di regina le insegne: un sacro nodo</l>
+<l>Mi fe' regina: il don di Dio, nessuno</l>
+<l>Rapir lo puote, il sai: come la vita,</l>
+<l part="I">Dee la morte attestarlo.</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Oh! da te lunge</l>
+<l>Queste memorie dolorose! — Adempi</l>
+<l>Il sagrifizio; odi: di questo asilo,</l>
+<l>Ove ti addusse pellegrina Iddio,</l>
+<l>Cittadina divieni; e sia la casa</l>
+<l>Del tuo riposo tua. La sacra spoglia</l>
+<l>Vesti, e lo spirto seco, e d'ogni umana</l>
+<l part="I">Cosa l'obblìo.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Che mi proponi, Ansberga?</l>
+<l>Ch'io mentisca al Signor! Pensa ch'io vado</l>
+<l>Sposa dinanzi a lui; sposa illibata,</l>
+<l>Ma d'un mortal. — Felici voi! felice</l>
+<l>Qualunque, sgombro di memorie il core</l>
+<l>Al Re dei regi offerse, e il santo velo</l>
+<l>Sovra gli occhi posò, pria di fissarli</l>
+<l part="I">In fronte all'uom! Ma — d'altri io sono.</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Oh mai</l>
+<l part="I">Stata nol fossi!</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Oh mai! ma quella via,</l>
+<l>Su cui ci pose il ciel, correrla intera</l>
+<l>Convien, qual ch'ella sia, fino all'estremo.</l>
+<l>— E, se all'annunzio di mia morte, un novo</l>
+<l>Pensier di pentimento e di pietade</l>
+<l>Assalisse quel cor? Se, per ammenda</l>
+<l>Tarda, ma dolce ancor, la fredda spoglia</l>
+<l>Ei richiedesse come sua, dovuta</l>
+<l>Alla tomba real? — Gli estinti, Ansberga,</l>
+<l>Talor dei vivi son più forti assai.</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="I">Oh! nol farà.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Tu pia, tu poni un freno</l>
+<l>Ingiurioso alla bontà di Lui,</l>
+<l>Che tocca i cor, che gode, in sua mercede,</l>
+<l>Far che ripari, chi lo fece, il torto?</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l>No, sventurata, ei nol farà. — Nol puote.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="I">Come? perché nol puote?</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">O mia diletta</l>
+<l part="I">Non chieder oltre; obblia.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Parla! alla tomba</l>
+<l part="I">Con questo dubbio non mandarmi.</l>
+</lg></sp>
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Oh! l'empio</l>
+<l part="I">Il suo delitto consumò.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Prosegui!</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l>Caccialo al tutto dal tuo cor. Di nuove</l>
+<l>Inique nozze ei si fe' reo: su gli occhi</l>
+<l>Degli uomini e di Dio, l'inverecondo,</l>
+<l>Come in trionfo, nel suo campo ei tragge</l>
+<l part="I">Questa Ildegarde sua...</l>
+</lg>
+<stage><emph>(Ermengarda sviene) </emph>.</stage>
+<lg>
+<l part="F">Tu impallidisci!</l>
+<l>Ermengarda! non m'odi? Oh ciel! Sorelle,</l>
+<l part="I">Accorrete! oh che feci!</l>
+</lg>
+<stage><emph>(entrano le due donzelle e varie suore)</emph>.</stage>
+<lg>
+<l part="F">Oh! chi soccorso</l>
+<l>Le dà? Vedete: il suo dolor l'uccide.</l>
+</lg></sp>
+
+<sp><speaker>PRIMA SUORA</speaker>
+<lg>
+<l part="I">Fa core; ella respira.</l>
+</lg></sp>
+
+<sp><speaker>SECONDA SUORA</speaker>
+<lg>
+<l part="F">O sventurata!</l>
+<l>A questa età, nata in tal loco, e tanto</l>
+<l part="I">Soffrir!</l>
+</lg></sp>
+
+<sp><speaker>DONZELLA</speaker>
+<lg>
+<l part="M">Dolce mia donna!</l>
+</lg></sp>
+
+<sp><speaker>PRIMA SUORA</speaker>
+<lg>
+<l part="F">Ecco le luci</l>
+<l part="I">Apre.</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="M">Oh che sguardo! Ciel! che fia?</l>
+</lg>
+<stage><emph>(in delirio) </emph>.</stage>
+</sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Cacciate</l>
+<l>Quella donna, o scudieri! Oh! non vedete</l>
+<l>Come s'avanza ardimentosa, e tenta</l>
+<l part="I">Prender la mano al re?</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Svegliati! Oh Dio</l>
+<l>Non dir così; ritorna in te; rispingi</l>
+<l>Questi fantasmi; il nome santo invoca.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<stage><emph>(in delirio)</emph>.</stage>
+<lg>
+<l>Carlo! non lo soffrir: lancia a costei</l>
+<l>Quel tuo sguardo severo. Oh! tosto in fuga</l>
+<l>Andranne: io stessa, io sposa tua, non rea</l>
+<l>Pur d'un pensiero, intraveder nol posso</l>
+<l>Senza tutta turbarmi — Oh ciel! che veggio?</l>
+<l>Tu le sorridi? Ah no! cessa il crudele</l>
+<l>Scherzo; ei mi strazia, io nol sostengo — O Carlo,</l>
+<l>Farmi morire di dolor, tu il puoi;</l>
+<l>Ma che gloria ti fia? Tu stesso un giorno</l>
+<l>Dolor ne avresti. — Amor tremendo è il mio.</l>
+<l>Tu nol conosci ancora; oh! tutto ancora</l>
+<l>Non tel mostrai: tu eri mio; secura</l>
+<l>Nel mio gaudio io tacea; né tutta mai</l>
+<l>Questo labbro pudico osato avria</l>
+<l>Dirti l'ebrezza del mio cor segreto.</l>
+<l>— Scacciala per pietà! Vedi; io la temo,</l>
+<l>Come una serpe: il guardo suo m'uccide.</l>
+<l>— Sola e debol son io: non sei tu il mio</l>
+<l>Unico amico? Se fui tua, se alcuna</l>
+<l>Di me dolcezza avesti... oh! non forzarmi</l>
+<l>A supplicar così dinanzi a questa</l>
+<l>Turba che mi deride... Oh cielo! ei fugge!</l>
+<l part="I">Nelle sue braccia... io muoio! ...</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Oh! mi farai</l>
+<l part="I">Teco morir!</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<stage><emph>(in delirio) </emph>.</stage>
+<lg>
+<l part="F">Dov'è Bertrada? io voglio</l>
+<l>Quella soave, quella pia. Bertrada!</l>
+<l>Dimmi, il sai tu? tu, che la prima io vidi,</l>
+<l>Che prima amai di questa casa, il sai?</l>
+<l>Parla a questa infelice: odio la voce</l>
+<l>D'ogni mortal; ma al tuo pietoso aspetto,</l>
+<l>Ma nelle braccia tue sento una vita,</l>
+<l>Un gaudio amaro che all'amor somiglia.</l>
+<l>— Lascia ch'io ti rimiri, e ch'io mi segga</l>
+<l>Qui presso a te; sì stanca io sono! Io voglio</l>
+<l>Star presso a te; voglio occultar nel tuo</l>
+<l>Grembo la faccia, e piangere: con teco</l>
+<l>Piangere io posso! Ah non partir! prometti</l>
+<l>Di non fuggir da me, fin ch'io mi levi</l>
+<l>Inebriata del mio pianto. Oh! molto</l>
+<l>Da tollerarmi non ti resta: e tanto</l>
+<l>Mi amasti! Oh quanti abbiam trascorsi insieme</l>
+<l>Giorni ridenti! Ti sovvien? varcammo</l>
+<l>Monti, fiumi e foreste: e ad ogni aurora</l>
+<l>Crescea la gioia del destarsi. Oh giorni!</l>
+<l>No, non parlarne per pietà! Sa il cielo</l>
+<l>S'io mi credea che in cor mortal giammai</l>
+<l>Tanta gioia capisse e tanto affanno!</l>
+<l>Tu piangi meco! Oh! consolar mi vuoi?</l>
+<l>Chiamami figlia: a questo nome io sento</l>
+<l>Una pienezza di martir, che il core</l>
+<l part="I">M'inonda, e il getta nell'obblio.</l>
+</lg>
+<stage><emph>(ricade) </emph>.</stage>
+</sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Tranquilla</l>
+<l part="I">Ella morìa!</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<stage><emph>(in delirio) </emph>.</stage>
+<lg>
+<l part="F">Se fosse un sogno! e l'alba</l>
+<l>Lo risolvesse in nebbia! e mi destassi</l>
+<l>Molle di pianto ed affannosa; e Carlo</l>
+<l>La cagion ne chiedesse, e sorridendo</l>
+<l part="I">Di poca fé mi rampognasse!</l>
+</lg>
+<stage><emph>(ricade in letargo)</emph>.</stage>
+</sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">O donna</l>
+<l part="I">Del ciel soccorri a questa afflitta!</l>
+</lg></sp>
+<sp><speaker>PRIMA SUORA</speaker>
+<lg>
+<l part="F">Oh! vedi:</l>
+<l>Torna la pace su quel volto; il core</l>
+<l part="I">Sotto la man più non trabalza.</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">O suora!</l>
+<l part="I">Ermengarda! Ermengarda!</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<stage><emph>(riavendosi)</emph>.</stage>
+<lg>
+<l part="F">Oh! chi mi chiama?</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l>Guardami; io sono Ansberga: a te d'intorno</l>
+<l>Stan le donzelle tue, le suore pie,</l>
+<l part="I">Che per la pace tua pregano.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">Il cielo</l>
+<l>Vi benedica. — Ah! sì: questi son volti</l>
+<l>Di pace e d'amistà. — Da un tristo sogno</l>
+<l part="I">Io mi risveglio.</l>
+</lg></sp>
+
+<sp><speaker>ANSBERGA</speaker>
+<lg>
+<l part="F">Misera! travaglio</l>
+<l>Più che ristoro ti recò sì torba</l>
+<l part="I">Quiete.</l>
+</lg></sp>
+
+<sp><speaker>ERMENGARDA</speaker>
+<lg>
+<l part="F">È ver: tutta la lena è spenta.</l>
+<l>Reggimi, o cara: e voi, cortesi, al fido</l>
+<l>Mio letticciuol traetemi: l'estrema</l>
+<l>Fatica è questa, ch'io vi do: ma tutte</l>
+<l>Son contate lassù. — Moriamo in pace.</l>
+<l>Parlatemi di Dio: sento ch'Ei giunge.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>CORO</head>
+<lg>
+<lg type="sestina">
+<l>Sparsa le trecce morbide</l>
+<l>Su l'affannoso petto,</l>
+<l>Lenta le palme, e rorida</l>
+<l>Di morte il bianco aspetto,</l>
+<l>Giace la pia, col tremolo</l>
+<l>Guardo cercando il ciel.</l>
+</lg>
+<lg type="sestina">
+<l>Cessa il compianto: unanime</l>
+<l>S'innalza una preghiera:</l>
+<l>Calata in su la gelida</l>
+<l>Fronte una man leggiera</l>
+<l>Su la pupilla cerula</l>
+<l>Stende l'estremo vel.</l>
+</lg>
+<lg type="sestina">
+<l>Sgombra, o gentil, dall'ansia</l>
+<l>Mente i terrestri ardori;</l>
+<l>Leva all'Eterno un candido</l>
+<l>Pensier d'offerta, e muori:</l>
+<l>Fuor della vita è il termine</l>
+<l>Del lungo tuo martir.</l>
+</lg>
+<lg type="sestina">
+<l>Tal della mesta, immobile</l>
+<l>Era quaggiuso il fato,</l>
+<l>Sempre un obblìo di chiedere</l>
+<l>Che le saria negato,</l>
+<l>E al Dio dei santi ascendere</l>
+<l>Santa del suo patir.</l>
+</lg>
+<lg type="sestina">
+<l>Ahi! nelle insonni tenebre,</l>
+<l>Pei claustri solitari,</l>
+<l>Fra il canto delle vergini,</l>
+<l>Ai supplicati altari,</l>
+<l>Sempre al pensier tornavano</l>
+<l>Gli irrevocati dì;</l>
+</lg>
+<lg type="sestina">
+<l>Quando ancor cara, improvida</l>
+<l>D'un avvenir mal fido,</l>
+<l>Ebra spirò le vivide</l>
+<l>Aure del Franco lido,</l>
+<l>E fra le nuore Saliche</l>
+<l>Invidiata uscì:</l>
+</lg>
+<lg type="sestina">
+<l>Quando da un poggio aereo,</l>
+<l>Il biondo crin gemmata,</l>
+<l>Vedea nel pian discorrere</l>
+<l>La caccia affaccendata,</l>
+<l>E su le sciolte redini</l>
+<l>Chino il chiomato sir;</l>
+
+</lg>
+<lg type="sestina">
+<l>E dietro a lui la furia</l>
+<l>Dei corridor fumanti;</l>
+<l>E lo sbandarsi, e il rapido</l>
+<l>Redir dei veltri ansanti;</l>
+<l>E dai tentati triboli</l>
+<l>L'irto cinghiale uscir;</l>
+</lg>
+<lg type="sestina">
+<l>E la battuta polvere</l>
+<l>Rigar di sangue, colto</l>
+<l>Dal regio stral: la tenera</l>
+<l>Alle donzelle il volto</l>
+<l>Torcea repente, pallida</l>
+<l>D'amabile terror.</l>
+</lg>
+<lg type="sestina">
+<l>Oh Mosa errante! oh tepidi</l>
+<l>Lavacri d'Aquisgrano!</l>
+<l>Ove, deposta l'orrida</l>
+<l>Maglia, il guerrier sovrano,</l>
+<l>Scendea del campo a tergere</l>
+<l>Il nobile sudor!</l>
+</lg>
+<lg type="sestina">
+<l>Come rugiada al cespite</l>
+<l>Dell'erba inaridita,</l>
+<l>Fresca negli arsi calami</l>
+<l>Fa rifluir la vita,</l>
+<l>Che verdi ancor risorgono</l>
+<l>Nel temperato albor;</l>
+</lg>
+<lg type="sestina">
+<l>Tale al pensier, cui l'empia</l>
+<l>Virtù d'amor fatica,</l>
+<l>Discende il refrigerio</l>
+<l>D'una parola amica,</l>
+<l>E il cor diverte ai placidi</l>
+<l>Gaudii d'un altro amor.</l>
+</lg>
+<lg type="sestina">
+<l>Ma come il sol che reduce</l>
+<l>L'erta infocata ascende,</l>
+<l>E con la vampa. assidua</l>
+<l>L'immobil aura incende</l>
+<l>Risorti appena i gracili</l>
+<l>Steli riarde al suol;</l>
+</lg>
+<lg type="sestina">
+<l>Ratto così dal tenue</l>
+<l>Obblio torna immortale</l>
+<l>L'amor sopito, e l'anima</l>
+<l>Impaurita assale,</l>
+<l>E le sviate immagini</l>
+<l>Richiama al noto duol.</l>
+</lg>
+<lg type="sestina">
+<l>Sgombra, o gentil, dall'ansia</l>
+<l>Mente i terrestri ardori;</l>
+<l>Leva all'Eterno un candido</l>
+<l>Pensier d'offerta, e muori:</l>
+<l>Nel suol che dee la tenera</l>
+<l>Tua spoglia ricoprir,</l>
+</lg>
+<lg type="sestina">
+<l>Altre infelici dormono,</l>
+<l>Che il duol consunse; orbate</l>
+<l>Spose dal brando, e vergini</l>
+<l>Indarno fidanzate;</l>
+<l>Madri, che i nati videro</l>
+<l>Trafitti impallidir.</l>
+</lg>
+<lg type="sestina">
+<l>Te dalla rea progenie</l>
+<l>Degli oppressor discesa,</l>
+<l>Cui fu prodezza il numero</l>
+<l>Cui fu ragion l'offesa,</l>
+<l>E dritto il sangue, e gloria</l>
+<l>Il non aver pietà,</l>
+</lg>
+<lg type="sestina">
+<l>Te collocò la provida</l>
+<l>Sventura in fra gli oppressi:</l>
+<l>Muori compianta e placida;</l>
+<l>Scendi a dormir con essi:</l>
+<l>Alle incolpate ceneri</l>
+<l>Nessuno insulterà.</l>
+</lg>
+<lg type="sestina">
+<l>Muori; e la faccia esanime</l>
+<l>Si ricomponga in pace;</l>
+<l>Com'era allor che improvida</l>
+<l>D'un avvenir fallace,</l>
+<l>Lievi pensier virginei</l>
+<l>Solo pingea. Così</l>
+</lg>
+<lg type="sestina">
+<l>Dalle squarciate nuvole</l>
+<l>Si svolve il sol cadente</l>
+<l>E dietro il monte imporpora</l>
+<l>Il trepido occidente:</l>
+<l>Al pio colono augurio</l>
+<l>Di più sereno dì.</l>
+</lg></lg>
+</div2>
+
+<div2 type="scena"><head>SCENA II</head>
+<stage><emph>Notte. Interno d'un battifredo su le mura di Pavia</emph>.</stage>
+<stage>GUNTIGI, AMRI</stage>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="I">Amri, sovvienti di Spoleti?</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<lg>
+<l part="F">E posso</l>
+<l part="I">Obbliarlo, signor?</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">D'allor che morto</l>
+<l>Il tuo signor, solo, dai nostri cinto</l>
+<l>Senza difesa rimanesti? Alzata</l>
+<l>Sul tuo capo la scure, un furibondo</l>
+<l>Già la calava; io lo ritenni: ai piedi</l>
+<l>Tu mi cadesti, e ti gridasti mio.</l>
+<l part="I">Che mi giuravi?</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<lg>
+<l part="F">Obbedienza e fede</l>
+<l>Fino alla morte. O mio signor, falsato</l>
+<l part="I">Ho il giuro mai?</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">No; ma l'istante è giunto</l>
+<l part="I">Che tu lo illustri con la prova.</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<lg>
+<l part="F">Imponi.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l>Tocca quest'armi consacrate, e giura</l>
+<l>Che il mio comando eseguirai; che mai,</l>
+<l>Né per timor né per lusinghe, ei fia</l>
+<l part="I">Mai dal tuo labbro rivelato.</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<stage><emph>(ponendo le mani sull'armi) </emph>.</stage>
+<lg>
+<l part="F">Il giuro:</l>
+<l>E se quandunque mentirò, mendico</l>
+<l>Andarne io possa, non portar più scudo,</l>
+<l part="I">Divenir servo d'un Romano.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Ascolta.</l>
+<l>A me commessa delle mura, il sai,</l>
+<l>È la custodia; io qui comando, e a nullo</l>
+<l>Obbedisco che al re. Su questo spalto</l>
+<l>Io ti pongo a vedetta, e quindi ogn'altro</l>
+<l>Guerriero allontanai. Tendi l'orecchio;</l>
+<l>E guata al lume della luna: al mezzo</l>
+<l>Quando la notte fia, cheto vedrai</l>
+<l>Alle mura un armato avvicinarsi:</l>
+<l>Svarto ei sarà... Perché così mi guati</l>
+<l>Attonito? Egli è Svarto, un che fra noi</l>
+<l>Era da men di te; che ora tra i Franchi</l>
+<l>In alto sta, sol perché seppe accorto</l>
+<l>E segreto servir. Ti basti intanto,</l>
+<l>Che amico viene al tuo signor costui.</l>
+<l>Col pomo della spada in su lo scudo</l>
+<l>Sommessamente ei picchierà: tre volte</l>
+<l>Gli renderai lo stesso segno. Al muro</l>
+<l>Una scala ei porrà: quando fia posta,</l>
+<l>Ripeti il segno; ei saliravvi: a questo</l>
+<l>Battifredo lo scorgi, e a guardia ponti</l>
+<l>Qui fuor; se un'orma, se un respiro intendi,</l>
+<l part="I">Entra ed avvisa.</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<lg>
+<l part="F">Come imponi, io tutto</l>
+<l part="I">Farò.</l>
+</lg>
+</sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Tu servi a gran disegno, e grande</l>
+<l>Fia il premio.</l>
+</lg>
+<stage><emph>(Amri parte) </emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA III </head>
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l>Fedeltà! — Che il tristo amico</l>
+<l>Di caduto signor, quei che ostinato</l>
+<l>Nella speranza, o irresoluto, stette</l>
+<l>Con lui fino all'estremo, e con lui cadde,</l>
+<l>Fedeltà! fedeltà! gridi e con essa</l>
+<l>Si consoli, sta ben. Ciò che consola</l>
+<l>Creder si vuol senza esitar. — Ma quando</l>
+<l>Tutto perder si puote, e tutto ancora</l>
+<l>Si può salvar, quando il felice, il sire</l>
+<l>Per cui Dio si dichiara, il consacrato</l>
+<l>Carlo un messo m'invia, mi vuole amico,</l>
+<l>M'invita a non perir, vuol dalla causa</l>
+<l>Della sventura separar la mia...</l>
+<l>A che, sempre rispinta, ad assalirmi</l>
+<l>Questa parola fedeltà ritorna</l>
+<l>Simile all'importuno? e sempre in mezzo</l>
+<l>Ai miei pensier si getta, e la consulta</l>
+<l>Ne turba? — Fedeltà! Bello è con essa</l>
+<l>Ogni destin, bello il morir. — Chi 'l dice?</l>
+<l>Quegli per cui si muor. — Ma l'universo</l>
+<l>Seco il ripete ad una voce, e grida</l>
+<l>Che, anco mendico e derelitto, il fido</l>
+<l>Degno è d'onor più che il fellon tra gli agi</l>
+<l>E gli amici. — Davver? Ma, s'egli è degno,</l>
+<l>Perché è mendico e derelitto? E voi</l>
+<l>Che l'ammirate, chi vi tien che in folla</l>
+<l>Non accorriate a consolarlo, a fargli</l>
+<l>Onor, le ingiurie della sorte iniqua</l>
+<l>A ristorar? Levatevi dal fianco</l>
+<l>Di quei felici che spregiate, e dove</l>
+<l>Sta questo onor fate vedervi: allora</l>
+<l>Vi crederò. Certo, se a voi consiglio</l>
+<l>Chieder dovessi, dir m'udrei: rigetta</l>
+<l>Le offerte indegne; de' tuoi re dividi,</l>
+<l>Qual ch'ella sia, la sorte. — E perché tanto</l>
+<l>A cor questo vi sta? Perché, s'io caggio</l>
+<l>Io vi farò pietà; ma se fra mezzo</l>
+<l>Alle rovine altrui ritto io rimango,</l>
+<l>Se cavalcar voi mi vedrete al fianco</l>
+<l>Del vincitor che mi sorrida, allora</l>
+<l>Forse invidia farovvi: e più v'aggrada</l>
+<l>Sentir pietà che invidia. Ah! non è puro</l>
+<l>Questo vostro consiglio. — Oh! Carlo anch'egli</l>
+<l>In cor ti spregerà. — Chi ve l'ha detto?</l>
+<l>Spregia egli Svarto, un uom di guerra oscuro,</l>
+<l>Che ai primi gradi alzò? Quando sul volto</l>
+<l>Quel potente m'onori, il core a voi</l>
+<l>Chi 'l rivela? E che importa? Ah voi volete</l>
+<l>Sparger di fiele il nappo a cui non puote</l>
+<l>Giungere il vostro labbro. A voi diletta</l>
+<l>Veder grandi cadute, ombre d'estinta</l>
+<l>Fortuna; e favellarne, e nella vostra</l>
+<l>Oscurità racconsolarvi: è questo</l>
+<l>Di vostre mire il segno: un più ridente</l>
+<l>Splende alla mia; né di toccarlo il vostro</l>
+<l>Vano clamor mi riterrà. Se basta</l>
+<l>I vostri plausi ad ottener, lo starsi</l>
+<l>Fermo alle prese col periglio, ebbene,</l>
+<l>Un tremendo io ne affronto; e un dì saprete</l>
+<l>Che a questo posto più mestier coraggio</l>
+<l>Mi fu, che un giorno di battaglia in campo.</l>
+<l>Perché, se il rege, come suol talvolta,</l>
+<l>Visitando le mura, or or qui meco</l>
+<l>Svarto trovasse a parlamento, Svarto,</l>
+<l>Un di color, ch'ei traditori, e Carlo</l>
+<l>Noma Fedeli... oh! di guardarsi indietro</l>
+<l>Non è più tempo: egli è destin, che pèra</l>
+<l>Un di noi due; far deggio in modo, o veglio,</l>
+<l>Ch'io quel non sia.</l>
+</lg>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA IV</head>
+
+<stage>GUNTIGI, SVARTO <emph>condotto da</emph> AMRI.</stage>
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="I">Guntigi!</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="M">Svarto!</l>
+</lg>
+<stage><emph>(ad Amri) </emph>.</stage>
+<lg>
+<l part="F">Alcuno</l>
+<l>Non incontrasti?</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<lg>
+<l part="I">Alcun.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Qui intorno veglia.</l>
+ </lg>
+<stage><emph>(Amri parte) </emph>.</stage>
+</sp>
+</div2>
+
+<div2 type="scena"><head>SCENA V</head>
+<stage>GUNTIGI, SVARTO.</stage>
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l>Guntigi, io vengo, e il capo mio commetto</l>
+<l part="I">Alla tua fede.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">E tu n'hai pegno: entrambi</l>
+<l part="I">Un periglio corriamo.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">E un premio immenso</l>
+<l>Trarne sta in te. Vuoi tu fermar la sorte</l>
+<l part="I">D'un popolo e la tua?</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Quando quel Franco</l>
+<l>Prigion condotto entro Pavia mi chiese</l>
+<l>Di segreto parlar messo di Carlo</l>
+<l>Mi si scoverse, e in nome suo mi disse</l>
+<l>Che l'ira di nemico a volger pronto</l>
+<l>In real grazia egli era, e in me speranza</l>
+<l>Molta ponea; ch'ogni mio danno avria</l>
+<l>Riparato da re; che tu verresti</l>
+<l>A trattar meco; io condiscesi: un pegno</l>
+<l>Ei domandò: tosto de' Franchi al campo</l>
+<l>Nascosamente il mio figliuol mandai</l>
+<l>Messo insieme ed ostaggio: e certo ancora</l>
+<l>Del mio voler non sei? Fermo è del pari</l>
+<l part="I">Carlo nel suo?</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="M">Dubbiar ne puoi?</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Ch'io sappia</l>
+<l>Ciò ch'ei desìa, ciò ch'ei promette. Ei prese</l>
+<l>La mia cittade, e ne fe' dono altrui;</l>
+<l part="I">Né resta a me che un titol vano.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">E giova</l>
+<l>Che dispogliato, altri ti creda, e quindi</l>
+<l>Implacabile a Carlo. Or sappi; il grado</l>
+<l>Che già tenesti, tu non l'hai lasciato</l>
+<l>Che per salir. Carlo a' tuoi pari dona</l>
+<l>E non promette: Ivrea perdesti; il Conte,</l>
+<l part="I">Prendi,</l>
+</lg>
+<stage><emph>(gli porge un diploma) </emph>.</stage>
+<lg>
+<l part="M">Sei di Pavia.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Da questo istante</l>
+<l>Io l'ufficio ne assumo; e fiane accorto</l>
+<l>Dall'opre il signor mio. Gli ordini suoi</l>
+<l part="I">Nunziami, o Svarto.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Ei vuol Pavia; captivo</l>
+<l>Vuole in sua mano il re: l'impresa allora</l>
+<l>Precipita al suo fin. Verona a stento</l>
+<l>Chiusa ancor tiensi: tranne pochi, ognuno</l>
+<l>Brama d'uscirne, e dirsi vinto: Adelchi</l>
+<l>Sol li ritien; ma quando Carlo arrivi</l>
+<l>Vincitor di Pavia, di resistenza</l>
+<l>Chi parlerà? L'altre città che sparse</l>
+<l>Tengonsi, e speran nell'indugio ancora,</l>
+<l>Caggion tutte in un di, membra disciolte</l>
+<l>D'avulso capo: i re caduti, è tolto</l>
+<l>Ogni pretesto di vergogna; al duro</l>
+<l>Ostinato obbedir manca il comando:</l>
+<l part="I">Ei regna, e guerra più non v'è.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Sì, certo:</l>
+<l>Pavia gli è d'uopo; ed ei l'avrà: domani,</l>
+<l>Non più tardi l'avrà. Verso la porta</l>
+<l>Occidental con qualche schiera ei venga;</l>
+<l>Finga quivi un assalto: io questa opposta</l>
+<l>Terrò sguernita, e vi porrò sol pochi</l>
+<l>Miei fidi: accesa ivi la mischia, a questa</l>
+<l>Ei corra, aperta gli sarà. Ch'io, preso</l>
+<l>Il re consegni al suo nemico, questo</l>
+<l>Carlo da me non chiegga; io fui vassallo</l>
+<l>Di Desiderio, in dì felici: e il mio</l>
+<l>Nome d'inutil macchia io coprirei.</l>
+<l>Cinto di qua, di là, lo sventurato</l>
+<l part="I">Sfuggir non può.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Felice me, che a Carlo</l>
+<l>Tal nunzio apporterò! Te più felice,</l>
+<l>Che puoi tanto per lui! — Ma dimmi ancora:</l>
+<l>Che si pensa in Pavia? Quei che il crollante</l>
+<l>Vecchio poter salvare han fermo, o seco</l>
+<l>Precipitar, son molti ancora? o all' astro</l>
+<l>Trionfator di Carlo i guardi alfine</l>
+<l>Volgonsi e i voti? e agevol fia, siccome</l>
+<l>L'altra già fu, questa vittoria estrema?</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l>Stanchi e sfidati i più, sotto il vessillo</l>
+<l>Stanno sol per costume: a lor consiglia</l>
+<l>Ogni pensier di abbandonar cui Dio</l>
+<l>Già da gran tempo abbandonò; ma in capo</l>
+<l>D'ogni pensier s'affaccia una parola</l>
+<l>Che gli spaventa: tradimento. Un'altra</l>
+<l>Più saggia a questi udir farò: salvezza</l>
+<l>Del regno; e nostri diverran; già il sono.</l>
+<l>Altri, inconcussi in loro amor, da Carlo</l>
+<l part="I">Ormai nulla sperando...</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Ebben, prometti;</l>
+<l part="I">Tutti guadagna.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Inutil rischio ei fia.</l>
+<l>Lascia perir chi vuol perir: senz'essi</l>
+<l part="I">Tutto compir si può.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Guntigi, ascolta.</l>
+<l>Fedel del Re dei Franchi io qui favello</l>
+<l>A un suo Fedel; ma Longobardo pure</l>
+<l>A un Longobardo. I patti suoi, lo credo,</l>
+<l>Carlo terrà; ma non è forse il meglio</l>
+<l>Esser cinti d'amici? in una folla</l>
+<l part="I">Di salvati da noi?</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Fiducia, o Svarto,</l>
+<l>Per fiducia ti rendo. Il dì che Carlo</l>
+<l>Senza sospetto regnerà, che un brando</l>
+<l>Non resterà, che non gli sia devoto...</l>
+<l>Guardiamci da quel dì! Ma se gli sfugge</l>
+<l>Un nemico, e respira o, e questo novo</l>
+<l>Regno minaccia, non temer che sia</l>
+<l>Posto in non cal chi glielo diede in mano.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l>Saggio tu parli e schietto. — Odi; per noi</l>
+<l>Sola via di salute era pur quella</l>
+<l>Su cui corriamo; ma d'inciampi è sparsa</l>
+<l>E d'insidie: il vedrai. Tristo a chi solo</l>
+<l>Farla vorrà. — Poi che la sorte in questa</l>
+<l>Ora solenne qui ci unì, ci elesse</l>
+<l>All'opera compagni ed al periglio</l>
+<l>Di questa notte, che obbliata mai</l>
+<l>Da noi non fia, stringiamo un patto, ad ambo</l>
+<l>Patto di vita. Su la tua fortuna</l>
+<l>Io di vegliar prometto; i tuoi nemici</l>
+<l part="I">Saranno miei.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">La tua parola, o Svarto,</l>
+<l part="I">Prendo, e la mia ti fermo.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">In vita e in morte.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="I">Pegno la destra.</l>
+</lg>
+<stage><emph>(gli porge la destra: Svarto la stringe)</emph>.</stage>
+<lg>
+<l part="F">Al re dei Franchi, amico,</l>
+<l part="I">Reca l'omaggio mio.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="M">Doman!</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<lg>
+<l part="F">Domani.</l>
+<l part="I">Amri!</l>
+</lg>
+<stage>(<emph>entra</emph> AMRI).</stage>
+<lg>
+<l part="M">È sgombro lo spalto?</l>
+</lg></sp>
+
+<sp><speaker>AMRI</speaker>
+<lg>
+<l part="F">È sgombro; e tutto</l>
+<l part="I">Tace d'intorno.</l>
+</lg></sp>
+
+<sp><speaker>GUNTIGI</speaker>
+<stage><emph>(AD Amri, accennando Svarto)</emph>.</stage>
+<lg>
+<l part="M">Il riconduci.</l>
+</lg></sp>
+
+<sp><speaker>SVARTO</speaker>
+<lg>
+<l part="F">Addio.</l>
+</lg></sp>
+</div2>
+</div1>
+
+<div1 type="atto">
+<head>ATTO V</head> 
+<div2 type="scena"><head>SCENA I</head>
+<stage><emph>Palazzo Reale in Verona</emph>.</stage>
+<stage>ADELCHI, GISELBERTO<emph>duca di Verona</emph>.</stage>
+<sp><speaker>GISELBERTO</speaker>
+<lg>
+<l>Costretto, o re, dell'oste intera io vengo</l>
+<l>A nunziarti il voler: duchi e soldati</l>
+<l>Chieggon la resa. A tutti è noto, e indarno</l>
+<l>Celar si volle, che Pavia le porte</l>
+<l>Al Franco aprì; che il vincitor s'affretta</l>
+<l>Sopra Verona; e che pur troppo ei tragge</l>
+<l>Captivo il re. Coi figli suoi Gerberga</l>
+<l>Già incontro a Carlo uscì, dell'aspro sire</l>
+<l>Più ancor fidando nel perdon, che in una</l>
+<l>Impotente amistà. Verona attrita</l>
+<l>Dal lungo assedio, di guerrier, di scorte</l>
+<l>Scema, non forte assai contra il nemico</l>
+<l>Che già la stringe, non potrà la foga</l>
+<l>Dei sorvegnenti sostener; né quelli,</l>
+<l>Che l'han difesa in fino ad or, se pochi</l>
+<l>Ne traggi o re, vogliono al rischio starsi</l>
+<l>Di pugna impari, e di spietato assalto.</l>
+<l>Fin che del fare e del soffrir concesso</l>
+<l>Era un frutto sperar, fenno e soffriro;</l>
+<l>Quanto il dover, quanto l'onor chiedea,</l>
+<l>Il diero: ai mali che non han più scopo</l>
+<l part="I">Chieggono il fine.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Esci: la mia risposta</l>
+<l part="I">Fra poco avrai.</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA II</head>
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Va, vivi, invecchia in pace;</l>
+<l>Resta un de' primi di tua gente: il merti;</l>
+<l>Va, non temer; sarai vassallo: il tempo</l>
+<l>È pei tuoi pari. — Anco il comando udirsi</l>
+<l>Intimar dei codardi, e di chi trema</l>
+<l>Prender la legge! è troppo. Han risoluto!</l>
+<l>Voglion, perché son vili; e minacciosi</l>
+<l>Li fa il terror; né soffriran che a questo</l>
+<l>Furor di codardia, s'opponga un solo,</l>
+<l>Che resti un uom fra loro! — Oh cielo! Il padre</l>
+<l>Negli artigli di Carlo! I giorni estremi</l>
+<l>Uomo d'altrui vivrà, soggetto al cenno</l>
+<l>Di quella man, che non avria voluto</l>
+<l>Come amico serrar; mangiando il pane</l>
+<l>Di chi l'offese, e l'ebbe a prezzo! E nulla</l>
+<l>Via di cavarlo dalla fossa, ov'egli</l>
+<l>Rugge tradito e solo, e chiama indarno</l>
+<l>Chi salvarlo non può! nulla! — Caduta</l>
+<l>Brescia, e il mio Baudo, il generoso, astretto</l>
+<l>Anch'ei le porte a spalancar da quelli</l>
+<l>Che non voglion morire. Oh più di tutti</l>
+<l>Fortunata Ermengarda! Oh giorni! oh casa</l>
+<l>Di Desiderio, ove d'invidia è degno</l>
+<l>Chi d'affanno morì! — Di fuor costui,</l>
+<l>Che arrogante s'avanza, e or or verrammi</l>
+<l>Ad intimar che il suo trionfo io compia;</l>
+<l>Qui la viltà che gli risponde, ed osa</l>
+<l>Pressarmi; — è troppo in una volta! Almeno</l>
+<l>Finor, perduta anco la speme, il loco</l>
+<l>V'era all'opra; ogni giorno il suo domani,</l>
+<l>Ed ogni stretta il suo partito avea.</l>
+<l>Ed ora... ed or, se in sen dei vili un core</l>
+<l>Io piantar non potei, potranno i vili</l>
+<l>Togliere al forte, che da forte ei pèra?</l>
+<l>Tutti alfin non son vili: udrammi alcuno</l>
+<l>Più d'un compagno io troverò, s'io grido:</l>
+<l>Usciam costoro ad incontrar, mostriamo</l>
+<l>Che non è ver che a tutto i Longobardi</l>
+<l>Antepongon la vita; e... se non altro,</l>
+<l>Morrem. — Che pensi? Nella tua ruina</l>
+<l>Perché quei prodi strascinar? Se nulla</l>
+<l>Ti resta a far qua giù, non puoi tu solo</l>
+<l>Morir? Nol puoi? Sento che l'alma in questo</l>
+<l>Pensier riposa alfine; ei mi sorride,</l>
+<l>Come l'amico che sul volto reca</l>
+<l>Una lieta novella. Uscir di questa</l>
+<l>Ignobil calca che mi preme; il riso</l>
+<l>Non veder del nemico; e questo peso</l>
+<l>D'ira, di dubbio, e di pietà gittarlo! ...</l>
+<l>Tu, brando mio, che del destino altrui</l>
+<l>Tante volte hai deciso, e tu secura</l>
+<l>Mano avvezza a trattarlo... e in un momento</l>
+<l>Tutto è finito. — Tutto? Ah sciagurato!</l>
+<l>Perché menti a te stesso? Il mormorio</l>
+<l>Di questi vermi ti stordisce; il solo</l>
+<l>Pensier di starti a un vincitor dinanzi</l>
+<l>Vince ogni tua virtù; ansia di questa</l>
+<l>Ora t'affrange, e fa gridarti: è troppo!</l>
+<l>E affrontar Dio potresti? e dirgli: io vengo</l>
+<l>Senza aspettar che tu mi chiami; il posto</l>
+<l>Che m'assegnasti, era difficil troppo;</l>
+<l>E l'ho deserto! — Empio! fuggire? e intanto</l>
+<l>Per compagnia fino alla tomba, al padre</l>
+<l>Lasciar questa memoria; il tuo supremo</l>
+<l>Disperato sospir legargli! Al vento,</l>
+<l>Empio pensier. — L'animo tuo ripiglia,</l>
+<l>Adelchi, uom sii. Che cerchi? in questo istante</l>
+<l>D'ogni travaglio il fin tu vuoi: non vedi,</l>
+<l>Che in tuo poter non è? — T'offre un asilo</l>
+<l>Il greco imperador. Sì; per sua bocca</l>
+<l>Te l'offre Iddio: grato l'accetta: il solo</l>
+<l>Saggio partito, il solo degno è questo.</l>
+<l>Conserva al padre la sua speme: ei possa</l>
+<l>Reduce almeno e vincitor sognarti,</l>
+<l>Infrangitor de' ceppi suoi, non tinto</l>
+<l>Del sangue sparso disperando. — E sogno</l>
+<l>Forse non fia: da più profondo abisso</l>
+<l>Altri già sorse: tutto cangia: eterni</l>
+<l>Patti non stringe con alcun fortuna.</l>
+<l part="I">Teudi!</l>
+</lg></sp>
+</div2>
+
+<div2 type="scena"><head>SCENA III</head>
+<stage>ADELCHI, TEUDI</stage>
+<sp><speaker>TEUDI</speaker>
+<lg>
+<l part="M">Mio re.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Restano amici ancora</l>
+<l part="I">Al re che cade?</l>
+</lg></sp>
+
+<sp><speaker>TEUDI</speaker>
+<lg>
+<l part="F">Sì: color che amici</l>
+<l part="I">Eran d'Adelchi.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">E che partito han preso?</l>
+</lg></sp>
+
+<sp><speaker>TEUDI</speaker>
+<lg>
+<l part="I">L'aspettano da te.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Dove son essi?</l>
+</lg></sp>
+
+<sp><speaker>TEUDI</speaker>
+<lg>
+<l>Qui nel palazzo tuo, scevri dai tristi</l>
+<l>A cui sol tarda d'esser vinti appieno.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>Tristo, o Teudi, il valor disseminato</l>
+<l>Fra la viltà! — Compagni alla mia fuga</l>
+<l>Io questi prodi prenderò: null'altro</l>
+<l>Far ne poss'io: nulla ei per me far ponno,</l>
+<l>Che seguirmi a Bisanzio. Ah! se avvi alcuno</l>
+<l>A cui soccorra un più gentil consiglio;</l>
+<l>Per pietà, me lo dia. — Da te, mio Teudi,</l>
+<l>Un più coral servigio, un più fidato</l>
+<l>Attendo ancor: resta per ora; al padre</l>
+<l>Fa che di me questa novella arrivi:</l>
+<l>Ch'io son fuggito, ma per lui; ch'io vivo</l>
+<l>Per liberarlo un dì; che non disperi.</l>
+<l>Vieni, e m'abbraccia; a dì più lieti. — Al duca</l>
+<l>Di Verona dirai che non attenda</l>
+<l>Ordini più da me. — Su la tua fede</l>
+<l part="I">Riposo, o Teudi.</l>
+</lg></sp>
+
+<sp><speaker>TEUDI</speaker>
+<lg>
+<l part="F">Oh! la secondi il cielo.</l>
+</lg>
+<stage><emph>(escono dai lati opposti)</emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA IV </head>
+<stage><emph>Tenda nel campo di Carlo sotto Verona</emph>.</stage>
+<stage>CARLO,<emph>un</emph> ARALDO, ARVINO, CONTI.</stage>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Vanne, araldo, in Verona; e al duca, a tutti</l>
+<l>I suoi guerrier questa parola esponi:</l>
+<l>Re Carlo è qui: le porte aprite; egli entra</l>
+<l>Grazioso signor; se no, più tarda</l>
+<l>L'entrata fia, ma non men certa; e i patti</l>
+<l>Quali un solo li detta, e inacerbito.</l>
+</lg>
+<stage><emph>(l'Araldo parte)</emph>.</stage>
+</sp>
+
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l>Il vinto re chiede parlarti, o sire.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="I">Che vuol?</l>
+</lg></sp>
+
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l part="F">Nol disse; ma pietosa istanza</l>
+<l part="I">Egli ne fea.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">Venga.</l>
+</lg>
+<stage><emph>(Arvino parte)</emph>.</stage>
+<lg>
+<l part="F">Vediam colui</l>
+<l>Che destinata a un'altra fronte avea</l>
+<l part="I">La corona di Carlo.</l>
+</lg>
+<stage><emph>(ai Conti)</emph>.</stage>
+<lg>
+<l part="F">Ite alle mura</l>
+<l>La custodia addoppiate; ad ogni sbocco</l>
+<l>Si vegli in arme: e che nessun mi sfugga.</l>
+</lg></sp></div2>
+
+<div2 type="scena"><head>SCENA V</head>
+<stage>CARLO, DESIDERIO.</stage>
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>A che vieni, infelice? E che parola</l>
+<l>Correr puote fra noi? Decisa il cielo</l>
+<l>Ha la nostra contesa, e più non resta</l>
+<l>Di che garrir. Tristi querele e pianto</l>
+<l>Sparger dinanzi al vincitor, disdice</l>
+<l>A chi fu re: né a me con detti acerbi</l>
+<l>L'odio antico appagar lice, né questo</l>
+<l>Gaudio superbo che in mio cor s'eleva,</l>
+<l>Ostentarti sul volto; onde sdegnato</l>
+<l>Dio non si penta, e alla vittoria in mezzo</l>
+<l>Non m'abbandoni ancor. Né, certo, un vano</l>
+<l>Da me conforto di parole attendi.</l>
+<l>Che ti direi? ciò che t'accora, è gioia</l>
+<l>Per me; né lamentar posso un destino,</l>
+<l>Ch'io non voglio mutar. Tal del mortale</l>
+<l>È la sorte qua giù: quando alle prese</l>
+<l>Son due di lor, forza è che l'un piangendo</l>
+<l>Esca del campo. Tu vivrai; null'altro</l>
+<l part="I">Dono ha Carlo per te.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Re del mio regno,</l>
+<l>Persecutor del sangue mio, qual dono</l>
+<l>Ai re caduti sia la vita, il sai?</l>
+<l>E pensi tu, ch'io vinto, io nella polve,</l>
+<l>Di gioia anco una volta inebriarmi</l>
+<l>Non potrei? del velen che il cor m'affoga</l>
+<l>Il tuo trionfo amareggiar? parole</l>
+<l>Dirti di cui ti sovverresti, e in parte</l>
+<l>Vendicato morir? Ma in te del cielo</l>
+<l>Io la vendetta adoro, e innanzi a cui</l>
+<l>Dio m'inchinò, m'inchino: a supplicarti</l>
+<l>Vengo, e m'udrai; che degli afflitti il prego</l>
+<l>È giudizio di sangue a chi lo sdegna.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="I">Parla.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">In difesa d'Adrian, tu il brando</l>
+<l part="I">Contro di me traesti?</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">A che mi chiedi</l>
+<l part="I">Quello che sai?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Sappi tu ancor che solo</l>
+<l>Io nemico gli fui, che Adelchi — e m'ode</l>
+<l>Quel Dio che è presso ai travagliati — Adelchi</l>
+<l>Al mio furor preghi, consigli, ed anco,</l>
+<l>Quanto è concesso a pio figliuol, rampogne</l>
+<l part="I">Mai sempre oppose: indarno!</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">Ebben?</l>
+</lg></sp>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Compiuta</l>
+<l>È la tua impresa: non ha più nemici</l>
+<l>Il tuo Romano: intera, e tal che basti</l>
+<l>Al cor più fiacco ed iracondo, ei gode</l>
+<l>La sicurezza e la vendetta. A questo</l>
+<l>Tu scendevi, e l'hai detto: allor tu stesso</l>
+<l>Segnasti il termin dell'offesa. Ell' era</l>
+<l>Causa di Dio, dicevi. E vinta, e nulla</l>
+<l part="I">Più ti domanda Iddio.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Tu legge imponi</l>
+<l part="I">Al vincitor?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Legge? Oh! ne' detti miei</l>
+<l>Non ti fingere orgoglio, onde sdegnarli</l>
+<l>O Carlo, il ciel molto ti die': ti vedi</l>
+<l>Il nemico ai ginocchi, e dal suo labbro</l>
+<l>Odi il prego sommesso e la lusinga;</l>
+<l>Nel suolo, ov'ei ti combattea, tu regni.</l>
+<l>Ah! non voler di più: pensa che abborre</l>
+<l>Gli smisurati desideri il cielo.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="I">Cessa.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ah! m'ascolta: un dì tu ancor potresti</l>
+<l>Assaggiar la sventura, e d'un amico</l>
+<l>Pensier che ti conforti, aver bisogno;</l>
+<l>E allor gioconda ti verrebbe in mente</l>
+<l>Di questo giorno la pietà. Rammenta</l>
+<l>Che innanzi al trono dell'Eterno un giorno</l>
+<l>Aspetterai tremando una risposta</l>
+<l>O di mercede o di rigor, com'io</l>
+<l>Dal tuo labbro or l'aspetto. Ahi! già venduto</l>
+<l>Il mio figlio t'è forse! Oh! se quell'alto</l>
+<l>Spirto indomito ardente, consumarsi</l>
+<l>Debbe in catene! ah no! pensa che reo</l>
+<l>Di nulla egli è; difese il padre: or questo</l>
+<l>Gli è tolto ancor. Che puoi temer? Per noi</l>
+<l>Non v'è brando che fera: a te vassalli</l>
+<l>Son quei che il furo a noi: da lor tradito</l>
+<l>Tu non sarai: tutto è leale al forte.</l>
+<l>Italia è tua; reggila in pace; un rege</l>
+<l>Prigion ti basti: a stranio suol consenti</l>
+<l part="I">Che il figliuol mio...</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Non più: cosa mi chiedi</l>
+<l>Tu! che da me non otterria Bertrada.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Io ti pregava! io, che per certo a prova</l>
+<l>Conoscerti dovea! Nega; sul tuo</l>
+<l>Capo il tesor della vendetta addensa;</l>
+<l>Ti fe' l'inganno vincitor; superbo</l>
+<l>La vittoria ti faccia e dispietato;</l>
+<l>Calca i prostrati, e sali; a Dio rincresci...</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Taci, tu che sei vinto. E che? pur ieri</l>
+<l>La mia morte sognavi, e grazie or chiedi,</l>
+<l>Qual converria, se nella facil'ora</l>
+<l>Di colloquio ospital lieto io sorgessi</l>
+<l>Dalla tua mensa! E perché amica e pari</l>
+<l>Non sonò la risposta al tuo desìo,</l>
+<l>Anco mi vieni a imperversar d'intorno,</l>
+<l>Come il mendico che un rifiuto ascolta!</l>
+<l>Ma quel che a me tu preparavi... Adelchi</l>
+<l>Era allor teco... non ne parli: or io</l>
+<l>Ne parlerò. Da me fuggìa Gerberga,</l>
+<l>Da me cognato, e seco i figli, i figli</l>
+<l>Del mio fratel traea, di strida empiendo</l>
+<l>Il suo passaggio, come augel che i nati</l>
+<l>Trafuga all'ugna di sparvier. Mentito</l>
+<l>Era il terror, vero soltanto il cruccio</l>
+<l>Di non regnar; ma obbrobriosa intanto</l>
+<l>Me una fama pingea quasi un immane</l>
+<l>Vorator di fanciulli, un parricida.</l>
+<l>Io soffriva, e tacea. Voi premurosi</l>
+<l>La sconsigliata raccettaste o, ed eco</l>
+<l>Feste a quel suo garrito. Ospiti voi</l>
+<l>Dei nipoti di Carlo! Difensori</l>
+<l>Voi del mio sangue incontra me! Tornata</l>
+<l>Or finalmente è, se nol sai, Gerberga</l>
+<l>A cui fuggir mai non doveva; a questo</l>
+<l>Tutor tremendo i figli adduce, e fida</l>
+<l>Le care vite a questa man. Ma voi,</l>
+<l>Altro che vita, un più superbo dono</l>
+<l>Destinavate a' miei nipoti. Al santo</l>
+<l>Pastor chiedeste, e non fu inerme il prego,</l>
+<l>Che su le chiome dei fanciulli, al peso</l>
+<l>Non pur dell'elmo avvezze, ei da spergiuro</l>
+<l>L'olio versasse del Signor. Sceglieste</l>
+<l>Un pugnal, l'affilaste, e al più diletto</l>
+<l>Amico mio por lo voleste in pugno,</l>
+<l>Perch'egli in cor me lo piantasse. E quando</l>
+<l>Io tra 'l Vèsero infido e la selvaggia</l>
+<l>Elba, i nemici a debellar del cielo</l>
+<l>Mi sarei travagliato, in Francia voi</l>
+<l>Correre, insegna contra insegna, e crisma</l>
+<l>Contra crisma levar, perfidi! e pormi</l>
+<l>In un letto di spini, il più giocondo</l>
+<l>De' vostri sogni era codesto. Al cielo</l>
+<l>Parve altrimenti. Voi tempraste al mio</l>
+<l>Labbro un calice amaro; ei v'è rimasto:</l>
+<l>Vuotatelo. Di Dio tu mi favelli;</l>
+<l>S'io nol temessi, il rio che tanto ardìa</l>
+<l>Pensi che in Francia il condurrei captivo?</l>
+<l>Cogli ora il fior che hai coltivato, e taci:</l>
+<l>Inesausta di ciance è la sventura;</l>
+<l>Ma del par sofferente e infaticato</l>
+<l>Non è d'offeso vincitor l' orecchio.</l>
+</lg></sp></div2>
+
+<div2 type="scena"><head>SCENA VI</head>
+<stage>CARLO, DESIDERIO, ARVINO.</stage>
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l>Viva re Carlo! Al cenno tuo, dai valli</l>
+<l>Calan le insegne; strepitando a terra</l>
+<l>Van le sbarre nemiche; ai claustri aperti</l>
+<l>Ognun s'affolla, ed all'omaggio accorre.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>Ahi dolente, che ascolto! e che mi resta</l>
+<l part="I">Ad ascoltar!</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">Né alcun vi manca?</l>
+</lg></sp>
+
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l part="F">Alcuno.</l>
+<l>Pochi in fuga ne gìan: ma, i nostri a fronte</l>
+<l>Visti venir, pugnar da forti, invano:</l>
+<l>Tutti restar, qual senza vita, e quale</l>
+<l part="I">Presso al morire.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="M">E son?</l>
+</lg></sp>
+
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l part="F">Tale è presente,</l>
+<l>A cui troppo dorrà, se tutto io dico.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">Nunzio di morte, tu l'hai detto.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Adelchi</l>
+<l part="I">Dunque perì?</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<stage><emph>(ad Arvino)</emph>.</stage>
+<lg>
+<l part="F">Parla, o crudele, al padre.</l>
+</lg></sp>
+
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l>La luce ei vede, ma per poco, offeso</l>
+<l>D'immedicabil colpo. Il padre ei chiede,</l>
+<l part="I">E te pur anco, o sire.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">E questo ancora</l>
+<l part="I">Mi negherai?</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">No, sventurato. — Arvino,</l>
+<l>Fa ch'ei sia tratto alla mia tenda; e digli</l>
+<l part="I">Che non ha più nimici.</l>
+</lg></sp></div2>
+
+<div2 type="scena"><head>SCENA VII </head>
+<stage>CARLO, DESIDERIO.</stage>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Oh! come grave</l>
+<l>Sei tu discesa sul mio capo antico,</l>
+<l>Mano di Dio! Qual mi ritorni il figlio!</l>
+<l>Figlio, mia sola gloria, io qui mi struggo,</l>
+<l>E tremo di vederti. Io del tuo corpo</l>
+<l>Mirerò la ferita? io che dovea</l>
+<l>Esser pianto da te! Misero! io solo</l>
+<l>Ti trassi a ciò: cieco amator, per farti</l>
+<l>Più bello il soglio, io ti scavai la tomba!</l>
+<l>Se ancor, tra il canto dei guerrier, caduto</l>
+<l>Fossi in un giorno di vittoria! o chiusi</l>
+<l>Fra il singulto de' tuoi, fra il riverente</l>
+<l>Dolor dei fidi, sul real tuo letto,</l>
+<l>Gli occhi io t'avessi... ah saria stato ancora</l>
+<l>Ineffabil cordoglio! Ed or morrai</l>
+<l>Non re, deserto, al tuo nemico in mano,</l>
+<l>Senza lamenti che del padre, e sparsi</l>
+<l>Innanzi ad uom che in ascoltarli esulta.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l>Veglio, t'inganna il tuo dolor. Pensoso,</l>
+<l>Non esultante, d'un gagliardo il fato</l>
+<l>Io contemplo, e d'un re. Nemico io fui</l>
+<l>D'Adelchi; egli era il mio, né tal, che in questo</l>
+<l>Novello seggio io riposar potessi,</l>
+<l>Lui vivo e fuor delle mie mani. Or egli</l>
+<l>Stassi in quelle di Dio: quivi non giunge</l>
+<l part="I">La nimistà d'un pio.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Dono funesto</l>
+<l>La tua pietà, s'ella giammai non scende</l>
+<l>Che sui caduti senza speme in fondo;</l>
+<l>Se allor soltanto il braccio tuo rattieni</l>
+<l>Che più loco non trovi alle ferite.</l>
+</lg></sp>
+</div2>
+<div2 type="scena"><head>SCENA VIII</head>
+<stage>CARLO, DESIDERIO, ADELCHI <emph>ferito e portato</emph>.</stage>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="I">Ahi, figlio!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">O padre, io ti riveggio! Appressa,</l>
+<l part="I">Tocca la mano del tuo figlio.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Orrendo</l>
+<l part="I">M'è il vederti così.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Molti sul campo</l>
+<l part="I">Cadder così per la mia mano.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ahi, dunque</l>
+<l>Insanabile, o caro, è questa piaga?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="I">Insanabile.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ahi lasso! ahi guerra atroce!</l>
+<l>Io crudel che la volli; io che t'uccido!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l>Non tu, né questi, ma il Signor d'entrambi.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l>O desiato da quest'occhi, oh quanto</l>
+<l>Lunge da te soffersi! Ed un pensiero</l>
+<l>Fra tante ambasce mi reggea, la speme</l>
+<l>Di narrartele un giorno, in una fida</l>
+<l part="I">Ora di pace.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Ora per me di pace,</l>
+<l>Credilo, o padre, è giunta; ah! pur che vinto</l>
+<l part="I">Te dal dolor qua giù non lasci.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Oh fronte</l>
+<l>Balda e serena! oh man gagliarda! oh ciglio</l>
+<l part="I">Che spiravi il terror!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Cessa i lamenti,</l>
+<l>Cessa, o padre, per Dio! Non era questo</l>
+<l>Il tempo di morir? Ma tu, che preso</l>
+<l>Vivrai, vissuto nella reggia, ascolta.</l>
+<l>Gran segreto è la vita; e nol comprende</l>
+<l>Che l'ora estrema. Ti fu tolto un regno:</l>
+<l>Deh! nol pianger; me 'l credi. Allor che a questa</l>
+<l>Ora tu stesso appresserai, giocondi</l>
+<l>Si schiereranno al tuo pensier dinanzi</l>
+<l>Gli anni in cui re non sarai stato, in cui</l>
+<l>Né una lagrima pur notata in cielo</l>
+<l>Fia contra te, né il nome tuo saravvi</l>
+<l>Con l'imprecar dei tribolati asceso.</l>
+<l>Godi che re non sei; godi che chiusa</l>
+<l>All'oprar t'è ogni via: loco a gentile,</l>
+<l>Ad innocente opra non v'è: non resta</l>
+<l>Che far torto, o patirlo. Una feroce</l>
+<l>Forza il mondo possiede e fa nomarsi</l>
+<l>Dritto: la man degli avi insanguinata</l>
+<l>Seminò l'ingiustizia; i padri l'hanno</l>
+<l>Coltivata col sangue; e omai la terra</l>
+<l>Altra messe non dà. Reggere iniqui</l>
+<l>Dolce non è; tu l'hai provato: e fosse;</l>
+<l>Non dee finir così? Questo felice</l>
+<l>Cui la mia morte fa più fermo il soglio,</l>
+<l>Cui tutto arride, tutto plaude e serve,</l>
+<l part="I">Questi è un uom che morrà.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ma ch' io ti perdo,</l>
+<l part="I">Figlio, di ciò chi mi consola?</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Il Dio</l>
+<l part="I">Che di tutto consola.</l>
+</lg>
+<stage><emph>(si volge a Carlo)</emph>.</stage>
+<lg>
+<l part="F">E tu, superbo</l>
+<l part="I">Nemico mio...</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Con questo nome, Adelchi,</l>
+<l>Più non chiamarmi; il fui; ma con le tombe</l>
+<l>Empia e villana è nimistà; né tale,</l>
+<l part="I">Credilo, in cor cape di Carlo.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">E amico</l>
+<l>Il mio parlar sarà, supplice, e schivo</l>
+<l>D'ogni ricordo ad ambo amaro, e a questo</l>
+<l>Per cui ti prego, e la morente mano</l>
+<l>Ripongo nella tua. Che tanta preda</l>
+<l>Tu lasci in libertà... questo io non chieggo,</l>
+<l>Ché vano, il veggio, il mio pregar saria,</l>
+<l>Vano il pregar d'ogni mortale. Immoto</l>
+<l>È il senno tuo; né a questo segno arriva</l>
+<l>Il tuo perdon. Quel che negar non puoi</l>
+<l>Senza esser crudo io ti domando. Mite</l>
+<l>Quant'esser può, scevra d'insulto sia</l>
+<l>La prigionia di questo antico, e quale</l>
+<l>La imploreresti al padre tuo, se il cielo</l>
+<l>Al dolor di lasciarlo in forza altrui</l>
+<l>Ti destinava. Il venerabil capo</l>
+<l>D'ogni oltraggio difendi: i forti incontra</l>
+<l>I caduti son molti: e la crudele</l>
+<l>Vista ei non debbe sopportar d'alcuno</l>
+<l part="I">Che vassallo il tradì.</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Porta all'avello</l>
+<l>Questa lieta certezza: Adelchi, il cielo</l>
+<l>Testimonio mi sia: la tua preghiera</l>
+<l part="I">È parola di Carlo.</l>
+</lg></sp>
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">Il tuo nemico</l>
+<l part="I">Prega per te, morendo.</l>
+</lg></sp>
+</div2>
+<div2 type="scena"><head>SCENA IX</head>
+<stage>ARVINO, CARLO, DESIDERIO, ADELCHI.</stage>
+<sp><speaker>ARVINO</speaker>
+<lg>
+<l part="F">Impazienti,</l>
+<l>Invitto re, chieggon guerrieri e duchi</l>
+<l part="I">D'essere ammessi.</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="M">Carlo!</l>
+</lg></sp>
+
+<sp><speaker>CARLO</speaker>
+<lg>
+<l part="F">Alcun non osi</l>
+<l>Avvicinarsi a questa tenda. Adelchi</l>
+<l>È signor qui. Solo d'Adelchi il padre,</l>
+<l>E il pio ministro del perdon divino,</l>
+<l part="I">Han qui l'accesso.</l>
+</lg>
+<stage><emph>(parte con Arvino) </emph>.</stage>
+</sp></div2>
+
+<div2 type="scena"><head>SCENA X</head>
+<stage>DESIDERIO, ADELCHI</stage>
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="M">Ahi, mio diletto!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">O padre,</l>
+<l part="I">Fugge la luce da quest'occhi.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Adelchi,</l>
+<l part="I">No, non lasciarmi!</l>
+</lg></sp>
+
+<sp><speaker>ADELCHI</speaker>
+<lg>
+<l part="F">O Re dei re, tradito</l>
+<l>Da un tuo Fedel, dagli altri abbandonato,</l>
+<l>Vengo alla pace tua, l'anima stanca</l>
+<l part="I">Accogli.</l>
+</lg></sp>
+
+<sp><speaker>DESIDERIO</speaker>
+<lg>
+<l part="F">Ei t'ode: oh ciel! tu manchi! Ed io...</l>
+<l>In servitude a piangerti rimango.</l>
+</lg></sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

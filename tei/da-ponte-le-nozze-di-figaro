@@ -1,0 +1,6797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Le nozze di Figaro</title>
+      <author>Lorenzo Da Ponte</author>
+    </titleStmt>
+    <extent>148 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000933</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tutti i libretti di Mozart</title>
+        <editor id="ed">Beghelli, Marco</editor>
+        <publisher>Garzanti</publisher>
+        <pubPlace>Milano</pubPlace>
+        <date>1990</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <editorialDecl><p>Alcuni versi sono fra parentesi tonde per indicare che si tratta di versi sussurrati.</p></editorialDecl><classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">italiano</language><language id="fre">francese</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>782.12 - LIBRETTI D'OPERA</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Daniele Silvi</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2003-06-07T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+
+<front>
+
+<castList>
+
+<head>PERSONAGGI</head>
+<castItem type="role"><role>IL CONTE D'ALMAVIVA</role><roleDesc>basso</roleDesc></castItem>
+<castItem type="role"><role>LA CONTESSA D'ALMAVIVA</role><roleDesc>soprano</roleDesc></castItem>
+<castItem type="role"><role>SUSANNA</role><roleDesc>promessa sposa di <add resp="ed">Figaro</add> soprano</roleDesc></castItem>
+<castItem type="role"><role>FIGARO</role><roleDesc>basso</roleDesc></castItem>
+<castItem type="role"><role>CHERUBINO</role><roleDesc>paggio del Conte soprano</roleDesc></castItem>
+<castItem type="role"><role>MARCELLINA</role><roleDesc>soprano</roleDesc></castItem>
+<castItem type="role"><role>BARTOLO</role><roleDesc>medico di Siviglia basso</roleDesc></castItem>
+<castItem type="role"><role>BASILIO</role><roleDesc>maestro di musica tenore</roleDesc></castItem>
+<castItem type="role"><role>DON CURZIO</role><roleDesc>giudice tenore</roleDesc></castItem>
+<castItem type="role"><role>BARBARINA</role><roleDesc>figlia di <add resp="ed">Antonio</add> soprano</roleDesc></castItem>
+<castItem type="role"><role>ANTONIO</role><roleDesc>giardiniere del Conte, e zio di Susanna basso</roleDesc></castItem>
+<castItem type="role"><role>Coro di paesani</role></castItem>
+<castItem type="role"><role>Coro di villanelle</role></castItem>
+<castItem type="role"><role>Coro di vari ordini di persone</role></castItem>
+</castList>
+
+<div1 type="prefazione">
+<head>PREFAZIONE</head>
+<p>Il tempo prescritto dall'uso alle drammatiche rappresentazioni, un certo dato numero di personaggi comunemente praticato nelle medesime ed alcune altri prudenti viste e convenienze, dovute ai costumi, al loco e agli spettatori, furono le cagioni per cui non ho fatto una traduzione di questa eccellente commedia, ma una imitazione, piuttosto, o vogliamo dire un estratto.</p>
+<p>Per questo sono stato costretto a ridurre a undici attori i sedici che la  compongono, due de' quali si possono eseguire da uno stesso soggetto, e ad omettere, oltre ad un intiero atto di quella, molte graziosissime scene e molti bei motti e saletti ond'è sparsa; in loco di che ho dovuto sostituire canzonette, arie, cori ed altri pensieri e parole di musica suscettibili: cose che dalla sola poesia, e non mai dalla prosa si somministrano.</p>
+<p>Ad onta, però, di tutto lo studio e di tutta la diligenza a cura avuta dal maestro di Cappella e da me per esser brevi, l'opera non sarà delle più corte che si sieno esposte sul nostro teatro; al che speriamo che basti di scusa la varietà delle fila onde è tessuta l'azione di questo dramma, la vastità e la grandezza del medesimo, la molteplicità de' pezzi musicali che si sono dovuti fare per non tenere di soverchio oziosi gli attori, per scemare la noia e monotonia dei lunghi recitativi, per esprimere a tratto a tratto con diversi colori le diverse passioni che vi campeggiano, e il desiderio nostro, particolarmente, di offrire un quasi nuovo genere di spettacolo ad un pubblico di gusto sì raffinato e di sì giudizioso intendimento.</p>
+	<signed>IL POETA</signed>
+</div1>
+
+</front>
+
+<body>
+
+<div1 type="atto">
+<head>ATTO I</head>
+
+<stage>La scena si rappresenta nel castello del Conte di Almaviva.</stage>
+
+<div2 type="scena">
+<head>SCENA I</head>
+
+<stage>Camera non affatto ammobiliata, un seggiolone in mezzo.</stage>
+<stage>Figaro con una misura in mano e Susanna allo specchio che si sta mettendo un cappellino ornato di fiori. </stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>misurando</stage>
+<l>Cinque… dieci… venti… trenta…</l>
+<l>Trentasei… quarantatré…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>fra se stessa, guardandosi nello specchio</stage>
+<l>Ora sì ch’io son contenta;</l>
+<l>Sembra fatto inver per me.</l>
+<stage>seguitando a guardarsi</stage>
+<l>Guarda un po’, mio caro Figaro,</l>
+<l>Guarda adesso il mio cappello.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Sì mio core, or è più bello,</l>
+<l>Sembra fatto inver per te.</l>
+</sp>
+
+
+<sp><speaker>SUSANNA, FIGARO</speaker>
+
+<l>Ah il mattino alle nozze vicino</l>
+<l>Quanto è dolce al mio <add resp="ed">tuo</add> tenero sposo</l>
+<l>Questo bel cappellino vezzoso</l>
+<l>Che Susanna ella stessa si fe’.</l>
+</sp>
+
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Cosa stai misurando,</l>
+<l>Caro il mio Figaretto? </l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Io guardo se quel letto</l>
+<l>Che ci destina il Conte</l>
+<l>Farà buona figura in questo loco.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>In questa stanza?…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Certo: a noi la cede</l>
+<l>Generoso il padrone.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Io per me te la dono.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>E la ragione?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>toccandosi la fronte</stage>
+<l>La ragione l’ho qui.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>facendo lo stesso</stage>
+<l>Perché non puoi</l>
+<l>Far che passi un po’ qui?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Perché non voglio.</l>
+<l>Sei tu mio servo o no?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Ma non capisco</l>
+<l>Perché tanto ti spiace</l>
+<l>La più comoda stanza del palazzo.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Perch’io son la Susanna, e tu sei pazzo.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Grazie; non tanti elogi! guarda un poco</l>
+<l>Se potriasi star meglio in altro loco.</l>
+
+<l>Se a caso Madama</l>
+<l>La notte ti chiama,</l>
+<l>din din; in due passi</l>
+<l>Da quella puoi gir.</l>
+
+<l>Vien poi l’occasione</l>
+<l>Che vuolmi li padrone,</l>
+<l>Don don; in tre salti</l>
+<l>Lo vado a servir.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Così se il mattino</l>
+<l>Il caro Contino,</l>
+<l>Din din; e ti manda</l>
+<l>Tre miglia lontan,</l>
+
+<l>Don don; e a mia porta</l>
+<l>Il diavol lo porta,</l>
+<l>Ed ecco in tre salti…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Susanna, pian pian</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ascolta…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Fa’ presto…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Se udir brami il resto,</l>
+<l>Discaccia i sospetti</l>
+<l>Che torto mi fan.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Udir bramo il resto,</l>
+<l>I dubbi, i sospetti</l>
+<l>Gelare mi fan.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Orbene; ascolta e taci!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>inquieto</stage>
+<l>Parla, che c’è di nuovo?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Il signor Conte,</l>
+<l>Stanco di andar cacciando le straniere</l>
+<l>Bellezze forestiere,</l>
+<l>Vuole ancor nel castello</l>
+<l>Ritentar la sua sorte,</l>
+<l>Né già di sua consorte, bada bene,</l>
+<l>Appetito gli viene…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>E di chi, dunque?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Della sua Susannetta.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>con sorpresa</stage>
+<l>Dite?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Di me medesma; ed ha speranza</l>
+<l>Che al nobil suo progetto</l>
+<l>Utilissima sia tal vicinanza.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Bravo! tiriamo avanti.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Queste le grazie son, questa la cura</l>
+<l>Ch’egli prende di te, della tua sposa.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Oh guarda un po’ che carità pelosa!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Chétati: or viene il meglio: Don Basilio,</l>
+<l>Mio maestro di canto, e suo mezzano,</l>
+<l>Nel darmi la lezione</l>
+<l>Mi ripete ogni dì questa canzone.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Chi Basilio? oh, birbante!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>E tu credevi</l>
+<l>Che fosse la mia dote</l>
+<l>Merto del tuo bel muso!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Me n'era lusingato.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Ei la destina</l>
+<l>Per ottener da me certe mezz’ore…</l>
+<l>Che il diritto feudale…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Come? ne’ feudi suoi</l>
+<l>Non l’ha il Conte abolito?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ebben, ora è pentito, e par che tenti</l>
+<l>Riscattarlo da me.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Bravo! mi piace:</l>
+<l>Che caro signor Conte!</l>
+<l>Ci vogliam divertir: trovato avete…</l>
+<stage>si sente suonare un campanello</stage>
+<l>Chi suona? la Contessa.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Addio, addio, addio, Figaro bello.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Coraggio, mio tesoro.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> E tu, cervello.</l>
+</sp>
+<stage>parte</stage>
+</div2>
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage>Figaro solo.</stage>
+<sp><speaker>FIGARO</speaker>
+
+<stage>passeggiando con foco per la camera e fregandosi le mani</stage>
+<l>Bravo, signor padrone!… Ora incomincio</l>
+<l>A capir il mistero… e a veder schietto</l>
+<l>Tutto il vostro progetto: a Londra, è vero?</l>
+<l>Voi ministro, io corriero, e la Susanna…</l>
+<l>Secreta ambasciatrice:</l>
+<l>Non sarà, non sarà. Figaro il dice.</l>
+
+<l>Se vuol ballare,</l>
+<l>Signor Contino,</l>
+<l>Il chitarrino</l>
+<l>Le suonerò.</l>
+
+<l>Se vuol venire</l>
+<l>Nella mia scuola</l>
+<l>La capriola</l>
+<l>Le insegnerò.</l>
+
+<l>Saprò… ma piano,</l>
+<l>Meglio ogni arcano,</l>
+<l>Dissimulando,</l>
+<l>Scoprir potrò!</l>
+
+<l>L’arte schermendo,</l>
+<l>L’arte adoprando,</l>
+<l>Di qua pungendo,</l>
+<l>Di là scherzando,</l>
+<l>Tutte le macchine</l>
+<l>rovescerò.</l>
+</sp>
+<stage>parte</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA III</head>
+
+<stage>Bartolo e Marcellina con un contratto in mano.</stage>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Ed aspettaste il giorno</l>
+<l>Fissato a le sue nozze</l>
+<l>Per parlarmi di questo?</l>
+
+</sp>
+<sp><speaker>MARCELLINA</speaker>
+
+<l>  Io non mi perdo</l>
+<l>Dottor mio di coraggio:</l>
+<l>Per romper de’ sponsali</l>
+<l>Più avanzati di questo</l>
+<l>Bastò spesso un pretesto: ed egli ha meco,</l>
+<l>Oltre a questo contratto, certi impegni…</l>
+<l>So io… basta… conviene</l>
+<l>La Susanna atterrir. Convien con arte</l>
+<l>Impuntigliarla a rifiutare il Conte.</l>
+<l>Egli per vendicarsi</l>
+<l>Prenderà il mio partito,</l>
+<l>E Figaro così fia mio marito.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<stage>prende il contratto dalle mani di Marcellina</stage>
+<l>Bene, io tutto farò: senza riserve</l>
+<l>Tutto a me palesate.</l>
+<stage>da sé</stage>
+<l>(Avrei pur gusto</l>
+<l>Di dar per moglie la mia serva antica</l>
+<l>A chi mi fece un dì rapir l’amica.)</l>
+
+<l>La vendetta, oh la vendetta!</l>
+<l>È un piacer serbato ai saggi:</l>
+<l>Obliar l’onte, gli oltraggi,</l>
+<l>È bassezza, è ognor viltà.</l>
+
+<l>Coll’astuzia… coll’arguzia…</l>
+<l>Col giudizio… col criterio…</l>
+<l>Si potrebbe… il fatto è serio…</l>
+<l>Ma credete si farà.</l>
+
+<l>Se tutto il codice</l>
+<l>Dovessi volgere,</l>
+<l>Se tutto l’indice</l>
+<l>Dovessi leggere,</l>
+
+<l>Con un equivoco,</l>
+<l>Con un sinonimo</l>
+<l>Qualche garbuglio</l>
+<l>Si troverà.</l>
+
+<l>Tutta Siviglia</l>
+<l>Conosce Bartolo:</l>
+<l>Il birbo Figaro</l>
+<l>Vostro sarà!</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA IV</head>
+
+<stage>Marcellina, poi Susanna con una cuffia da donna, un nastro e un abito da donna.</stage>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Tutto ancor non ho perso:</l>
+<l>Mi resta la speranza:</l>
+<l>Ma Susanna si avanza: io vo’ provarmi.</l>
+<stage>piano</stage>
+<l>Fingiam di non vederla…</l>
+<stage>forte</stage>
+<l>E quella buona perla</l>
+<l>La vorrebbe sposar!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé, resta indietro</stage> <stage>Di me favella.</stage>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Ma da Figaro alfine</l>
+<l>Non può meglio sperarsi: <foreign lang="fre">argent fait tout</foreign>.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>(Che lingua! Manco male</l>
+<l>Ch’ognun sa quanto vale.)</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Brava! questo è giudizio!</l>
+<l>Con quegli occhi modesti,</l>
+<l>Con quell’aria pietosa,</l>
+<l>E poi…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>(Meglio è partir.)</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l> (Che cara sposa!)</l>
+<stage>vanno tutte due per partire, e s’incontrano alla porta</stage>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>facendo una riverenza</stage>
+<l>Via resti servita,</l>
+<l>Madama brillante.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>facendo una riverenza</stage>
+<l>Non sono sì ardita,</l>
+<l>Madama piccante.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>riverenza</stage>
+<l>No, prima a lei tocca.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>riverenza</stage>
+<l>No, no, tocca a lei.</l>
+</sp>
+
+<sp><speaker>SUSANNA, MARCELLINA </speaker>
+
+<stage>riverenza</stage>
+<l>Io so i dover miei,</l>
+<l>Non fo inciviltà.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>riverenza</stage>
+<l>La sposa novella!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>riverenza</stage>
+<l>La dama d’onore!</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>riverenza</stage>
+<l>Del Conte la bella!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>riverenza</stage>
+<l>Di Spagna l’amore!</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>I meriti!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>L’abito!</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Il posto!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  L’età!</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>infuriata</stage>
+<l>Per Bacco precipito,</l>
+<l>Se ancor resta qua!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>minchiandola</stage>
+<l>Sibilla decrepita,</l>
+<l>Da rider mi fa.</l>
+</sp>
+<stage>Marcellina parte infuriata</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA V</head>
+
+<stage>Susanna e poi Cherubino.</stage>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Va’ là, vecchia pedante,</l>
+<l>Dottoressa arrogante,</l>
+<l>Perché hai letti due libri,</l>
+<l>E seccata Madama in gioventù…</l>
+<stage>mette il vestito sopra il seggiolone</stage>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>esce in fretta</stage>
+<l>Susannetta sei tu?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Son io; cosa volete?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Ah cor mio, che accidente!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Cor vostro! Cosa avvenne?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Il Conte ieri</l>
+<l>Perché trovommi sol con Barbarina,</l>
+<l>Il congedo mi diede;</l>
+<l>E se la Contessina,</l>
+<l>La mia bella comare,</l>
+<l>Grazie non m’intercede, io vado via,</l>
+<stage>con ansietà</stage>
+<l>Io non ti vedo più, Susanna mia!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Non vedete più me! Bravo! Ma dunque</l>
+<l>Non più per la Contessa</l>
+<l>Secretamente il vostro cor sospira?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Ah che troppo rispetto ella m’ispira!</l>
+<l>Felice te, che puoi</l>
+<l>Vederla quando vuoi,</l>
+<l>Che la vesti il mattino,</l>
+<l>Che la sera la spogli, che le metti</l>
+<l>Gli spilloni, i merletti…</l>
+<stage>con un sospiro</stage>
+<l> Ah, se in tuo loco…</l>
+<l>Cos’hai lì? — dimmi un poco…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ah il vago nastro, e la notturna cuffia</l>
+<l>Di comare sì bella.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Deh dammelo sorella,</l>
+<l>Dammelo, per pietà!</l>
+<stage>toglie il nastro di mano a Susanna</stage>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Presto quel nastro!</l>
+<stage>vuol riprenderlo</stage>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>egli si mette a girare intorno al seggiolone</stage>
+<l>Oh caro, oh bello, o fortunato nastro!</l>
+<stage>bacia e ribacia il nastro</stage>
+<l>Io non te ’l renderò che con la vita!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>séguita a corrergli dietro, ma poi si arresta come se fosse stanca</stage>
+<l>Cos’è quest’insolenza?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l> Eh via, sta cheta!</l>
+<l>In ricompensa poi</l>
+<l>Questa mia canzonetta io ti vo’ dare.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>E che ne debbo fare?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Leggila alla padrona:</l>
+<l>Leggila tu medesma;</l>
+<l>Leggila a Barbarina, a Marcellina;</l>
+<stage>con trasporti di gioia</stage>
+<l>Leggila ad ogni donna del palazzo!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Povero Cherubin, siete voi pazzo?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Non so più cosa son, cosa faccio,</l>
+<l>Or di fuoco, ora sono di ghiaccio,</l>
+<l>Ogni donna cangiar di colore,</l>
+<l>Ogni donna mi fa palpitar.</l>
+
+<l>Solo ai nomi d’amor, di diletto,</l>
+<l>Mi si turba, mi s’altera il petto,</l>
+<l>E a parlare mi sforza d’amore</l>
+<l>Un desio ch’io non posso spiegar.</l>
+
+<l>Parlo d’amor vegliando,</l>
+<l>Parlo d’amor sognando,</l>
+<l>All’acque, all’ombra, ai monti,</l>
+<l>Ai fiori, all’erbe, ai fonti,</l>
+<l>All’eco, all’aria, ai venti</l>
+<l>Che il suon de’ vani accenti</l>
+<l>Portano via con sé.</l>
+
+<l>E, se non ho chi m’oda,</l>
+<l>Parlo d’amore con me.</l>
+</sp>
+<stage>Cherubino va per partire, e vedendo il Conte da lontano, torna indietro impaurito e si nasconde dietro il seggiolone.</stage>
+
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+
+<stage>Cherubino, Susanna e poi il Conte.</stage>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>(Ah, son perduto!)</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>cerca mascherar Cherubino</stage>
+<l>Che timor! — Il Conte!</l>
+<l>Misera me!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+<l>Susanna, tu mi sembri</l>
+<l>Agitata e confusa.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Signor… io chiedo scusa…</l>
+<l>Ma… se mai… qui sorpresa…</l>
+<l>Per carità! partite.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Un momento, e ti lascio,</l>
+<stage>si mette a sedere sul seggiolone, prende Susanna per la mano</stage>
+<l>Odi.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>si distacca con forza</stage>
+<l>  Non odo nulla.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Due parole. Tu sai</l>
+<l>Che ambasciatore a Londra</l>
+<l>Il re mi dichiarò; di condur meco</l>
+<l>Figaro destinai.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>timida</stage>
+<l>Signor, se osassi…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>sorge</stage>
+<l>Parla, parla mia cara,</l>
+<stage>con tenerezza, e tentando di riprenderle la mano</stage>
+<l>e con quel dritto</l>
+<l>Ch’oggi prendi su me finché tu vivi</l>
+<l>Chiedi, imponi, prescrivi.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>con smania</stage>
+<l>Lasciatemi signor; dritti non prendo,</l>
+<l>Non ne vo’, non ne intendo… oh, me infelice!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ah no Susanna, io ti vo’ far felice!</l>
+<stage>come sopra</stage>
+<l>Tu ben sai quanto io t’amo: a te Basilio</l>
+<l>Tutto già disse: or senti,</l>
+<l>Se per pochi momenti</l>
+<l>Meco in giardin, sull’imbrunir del giorno…</l>
+<l>Ah per questo favore io pagherei…</l>
+
+</sp>
+<sp><speaker>BASILIO</speaker>
+
+<stage>dentro la scena</stage>
+<l>È uscito poco fa.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Chi parla?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Oh Dei!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Esci, e alcun non entri.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>inquietissima</stage>
+<l>Ch’io vi lasci qui solo?</l>
+
+</sp>
+<sp><speaker>BASILIO</speaker>
+
+<stage>dentro</stage>
+<l>Da Madama ei sarà, vado a cercarlo.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>addita il seggiolone</stage>
+<l>Qui dietro mi porrò.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Non vi celate.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Taci, e cerca ch’ei parta.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Oimè! che fate?</l>
+</sp>
+<stage>Il Conte vuol nascondersi dietro il sedile: Susanna si frappone tra il paggio e lui: il Conte la spinge dolcemente. Ella rincula, intanto il paggio passa davanti al davanti del sedile, si mette dentro in piedi, Susanna il ricopre colla vestaglia.</stage>
+
+</div2>
+<div2 type="scena">
+<head>SCENA VII</head>
+
+<stage>Detti e Basilio.</stage>
+
+<sp><speaker>BASILIO</speaker>
+
+<l>Susanna, il ciel vi salvi: avreste a caso</l>
+<l>Veduto il Conte?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> E cosa</l>
+<l>Deve far meco il Conte? — animo uscite.</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l>Aspettate, sentite,</l>
+<l>Figaro di lui cerca.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Oh cieli!</l>
+<stage>a Basilio</stage>
+<l>Ei cerca</l>
+<l>Chi dopo voi più l’odia.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>(Veggiam come mi serve.)</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Io non ho mai nella moral sentito</l>
+<l>Ch’uno ch’ama la moglie odi il marito.</l>
+<l>Per dir che il Conte v’ama…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Sortite, vil ministro</l>
+<l>Dell’altrui sfrenatezza:</l>
+<stage>con risentimento</stage>
+<l>Io non ho d’uopo</l>
+<l>Della vostra morale,</l>
+<l>Del Conte, del suo amor…</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Non c’è alcun male.</l>
+<l>Ha ciascun i suoi gusti: io mi credea</l>
+<l>Che preferir doveste per amante,</l>
+<l>Come fan tutte quante,</l>
+<l>Un signor liberal, prudente, e saggio,</l>
+<l>A un giovinastro, a un paggio…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>con ansietà</stage>
+<l>A Cherubino!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>A Cherubino! a Cherubin d’amore,</l>
+<l>Ch’oggi sul far del giorno,</l>
+<l>Passeggiava qui intorno</l>
+<l>Per entrar…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>con forza</stage>
+<l>Uom maligno,</l>
+<l>Un’impostura è questa.</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>È un maligno con voi chi ha gli occhi in testa.</l>
+<l>E quella canzonetta?</l>
+<l>Ditemi in confidenza: io sono amico,</l>
+<l>E ad altrui nulla dico:</l>
+<l>È per voi, per Madama?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>mostra dello smarrimento</stage>
+<l>Chi diavol gliel’ha detto?</l>
+
+</sp>
+<sp><speaker>BASILIO</speaker>
+
+
+<l>A proposito, figlia,</l>
+<l>Istruitelo meglio: egli la guarda</l>
+<l>A tavola sì spesso,</l>
+<l>E con tale immodestia,</l>
+<l>Che se il Conte s’accorge… ehi, sul tal punto,</l>
+<l>Sapete, egli è una bestia.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Scellerato!</l>
+<l>E perché andate voi</l>
+<l>Tai menzogne spargendo?</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Io! che ingiustizia! Quel che compro io vendo.</l>
+<l>A quel che tutti dicono</l>
+<l>Io non aggiungo un pelo.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>sortendo</stage>
+<l>Come! Che dicon tutti?</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l>  Oh bella!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Oh cielo!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Basilio</stage>
+<l>Cosa sento! tosto andate,</l>
+<l>E scacciate il seduttor.</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>In mal punto son qui giunto,</l>
+<l>Perdonate, oh mio signor.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Che ruina, me meschina,</l>
+<stage>quasi svenuta</stage>
+<l>Son oppressa dal dolor.</l>
+</sp>
+
+<sp><speaker>CONTE, BASILIO </speaker>
+
+<stage>sostenendola</stage>
+<l>Ah, già svien la poverina!</l>
+<l>Come oddio! le batte il cor!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<stage>approssimandosi al sedile in atto di farla sedere</stage>
+<l>Pian pianin su questo seggio.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Dove sono?</l>
+<stage>rinviene</stage>
+<l>Cosa veggio!</l>
+<stage>staccandosi da tutti due</stage>
+<l>Che insolenza, andate fuor.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Siamo qui per aiutarti,</l>
+<l>Non turbarti, oh mio tesor.</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<stage>con malignità</stage>
+<l>Siamo qui per aiutarvi:</l>
+<l>È sicuro il vostro onor.</l>
+<stage>al Conte</stage>
+<l>Ah del paggio quel ch’ho detto</l>
+<l>Era solo un mio sospetto!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>È un’insidia, una perfidia,</l>
+<l>Non credete all’impostor.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Parta parta il damerino!</l>
+</sp>
+
+<sp><speaker>BASILIO, SUSANNA</speaker>
+
+<l>Poverino!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>ironicamente</stage>
+<l>Poverino!</l>
+<l>Ma da me sorpreso ancor.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Come!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l>Che!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Da tua cugina</l>
+<l>L’uscio ier trovai rinchiuso;</l>
+<l>Picchio, m’apre Barbarina</l>
+<l>Paurosa fuor dell’uso.</l>
+<l>Io dal muso insospettito,</l>
+<l>Guardo, cerco in ogni sito,</l>
+<l>Ed alzando pian pianino</l>
+<l>Il tappeto al tavolino,</l>
+<l>Vedo il paggio…</l>
+<stage>imita il gesto colla vestaglia, e scopre il paggio</stage>
+<stage>con sorpresa</stage>
+<l>Ah! cosa veggio!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>con timore</stage>
+<l>Ah! crude stelle!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<stage>con riso</stage>
+<l>Ah! meglio ancora!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Onestissima signora!</l>
+<l>Or capisco come va!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Accader non può di peggio:</l>
+<l>Giusti Dei! che mai sarà!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l>Così fan tutte le belle;</l>
+<l>Non c’è alcuna novità!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Basilio, in traccia tosto</l>
+<l>Di Figaro, volate:</l>
+<l>Io vo’ ch’ei veda…</l>
+<stage>addita Cherubino che non si muove di loco</stage>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>con vivezza</stage>
+<l>Ed io che senta: andate.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Basilio</stage>
+<l>Restate:</l>
+<stage>a Susanna</stage>
+<l>Che baldanza! e quale scusa,</l>
+<l>Se la colpa è evidente?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Non ha d’uopo di scusa un’innocente.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma costui quando venne?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Egli era meco</l>
+<l>Quando voi qui giungeste, e mi chiedea</l>
+<l>D’impegnar la padrona</l>
+<l>A intercedergli grazia: il vostro arrivo</l>
+<l>In scompiglio lo pose,</l>
+<l>Ed allor in quel loco si nascose.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma s’io stesso m’assisi</l>
+<l>Quando in camera entrai!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>timidamente</stage>
+<l>Ed allora di dietro io mi celai.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E quando io là mi posi?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Allor io pian mi volsi, e qui m’ascosi.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Oh ciel! dunque ha sentito</l>
+<l>Quello ch’io ti dicea?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Feci per non sentir quanto potea.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Oh perfidia!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l> Frenatevi: vien gente.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Cherubino</stage>
+<l>E voi restate qui, picciol serpente!</l>
+</sp>
+<stage>lo tira giù dal seggiolone</stage>
+</div2>
+
+<div2 type="scena">
+<head>SCENA VIII</head>
+
+<stage>Figaro, contadini e contadine, i suddetti.
+Figaro con bianca veste in mano. Coro di contadine e contadini vestiti di bianco che spargono fiori, raccolti in piccoli panieri, davanti al Conte, e cantano il seguente:</stage>
+
+<sp><speaker>CORO</speaker>
+
+<l>Giovani liete</l>
+<l>Fiori spargete</l>
+<l>Davanti il nobile</l>
+<l>Nostro signor.</l>
+
+<l>Il suo gran core</l>
+<l>Vi serba intatto</l>
+<l>D’un più bel fiore</l>
+<l>L’almo candor.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Figaro con sorpresa</stage>
+<l>Cos’è questa commedia?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>piano a Susanna</stage>
+<l>(Eccoci in danza:</l>
+<l>Secondami cor mio.)</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>(Non ci ho speranza.)</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Signor non isdegnate</l>
+<l>Questo del nostro affetto</l>
+<l>Meritato tributo: or che aboliste</l>
+<l>Un dritto sì ingrato a chi ben ama…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Quel dritto or non v’è più; cosa si brama?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Dalla vostra saggezza il primo frutto</l>
+<l>Oggi noi coglierem: le nostre nozze</l>
+<l>Si son già stabilite: or a voi tocca</l>
+<l>Costei, che un vostro dono</l>
+<l>Illibata serbò, coprir di questa,</l>
+<l>Simbolo d’onestà, candida vesta.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>(Diabolica astuzia!</l>
+<l>Ma fingere convien.)</l>
+<stage>ad alta voce</stage>
+<l>Son grato, amici,</l>
+<l>Ad un senso sì onesto!</l>
+<l>Ma non merto per questo</l>
+<l>Né tributi né lodi; e un dritto ingiusto</l>
+<l>Né miei feudi abolendo,</l>
+<l>A natura, al dover lor dritti io rendo.</l>
+
+</sp>
+<sp><speaker>TUTTI</speaker>
+
+<l>Evviva, evviva, evviva!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>malignamente</stage>
+<l>Che virtù!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Che giustizia!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Figaro e Susanna</stage>
+<l>A voi prometto</l>
+<l>Compier la cerimonia:</l>
+<l>Chiedo sol breve indugio; io voglio in faccia</l>
+<l>De’ miei più fidi, e con più ricca pompa,</l>
+<l>Rendervi appien felici;</l>
+<stage>da sé</stage>
+<l>Marcellina si trovi.</l>
+<stage>ad alta voce</stage>
+<l>Andate, amici.</l>
+
+<stage>I contadini ripetono il Coro, spargendo il resto dei fiori, e partono.</stage>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Evviva!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Evviva!</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l> Evviva!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>a Cherubino</stage>
+<l>E voi non applaudite?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>È afflitto poveretto!</l>
+<l>Perché il padron lo scaccia dal castello!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ah in un giorno sì bello!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>In un giorno di nozze!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Quando ognuno v’ammira!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>s’inginocchia</stage>
+<l>Perdono mio signor…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Nol meritate.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Egli è ancora fanciullo!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Men di quel che tu credi.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>È ver, mancai; ma dal mio labbro alfine…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>lo alza</stage>
+<l>Ben ben; io vi perdono.</l>
+<l>Anzi farò di più: vacante è un posto</l>
+<l>D’uffizal nel reggimento mio;</l>
+<l>Io scelgo voi; partite tosto: addio.</l>
+
+<stage>Il Conte vuol partire, Susanna e Figaro l’arrestano.</stage>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO </speaker>
+
+<l>Ah fin domani sol…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  No, parta tosto.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>con passione e sospirando</stage>
+<l>A ubbidirvi signor son già disposto.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Via, per l’ultima volta</l>
+<l>La Susanna abbracciate.</l>
+<stage>da sé</stage>
+<l>(Inaspettato è il colpo.)</l>
+
+<stage>Cherubino abbraccia la Susanna, che rimane confusa.</stage>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Ehi capitano</l>
+<l>A me pure la mano.</l>
+<stage>piano a Cherubino</stage>
+<l>(Io vo’ parlarti</l>
+<l>Pria che tu parta.)</l>
+<stage>ad alta voce, con finta gioia</stage>
+<l>Addio</l>
+<l>Piccolo Cherubino;</l>
+<l>Come cangia in un punto il tuo destino.</l>
+
+<l>Non più andrai farfallone amoroso</l>
+<l>Notte e giorno d’intorno girando;</l>
+<l>Delle belle turbando il riposo,</l>
+<l>Narcisetto, Adoncino d’amor.</l>
+
+<l>Non più avrai questi bei pennacchini,</l>
+<l>Quel cappello leggero e galante,</l>
+<l>Quella chioma, quell’aria brillante,</l>
+<l>Quel vermiglio donnesco color.</l>
+
+<l>Tra guerrieri poffar Bacco!</l>
+<l>Gran mustacchi, stretto sacco,</l>
+<l>Schioppo in spalla, sciabola al fianco,</l>
+<l>Collo dritto, muso franco,</l>
+<l>O un gran casco, o un gran turbante,</l>
+<l>Molto onor, poco contante,</l>
+<l>Ed invece del fandango,</l>
+<l>Una marcia per il fango,</l>
+
+<l>Per montagne, per valloni,</l>
+<l>Con le nevi e i sollioni,</l>
+<l>Al concerto di tromboni,</l>
+<l>Di bombarde, di cannoni,</l>
+<l>Che le palle in tutti i tuoni</l>
+<l>All’orecchio fan fischiar.</l>
+
+<l>Cherubino, alla vittoria;</l>
+<l>Alla gloria militar.</l>
+</sp>
+<stage>partono tutti alla militare</stage>
+</div2>
+</div1>
+
+<div1 type="atto">
+<head>ATTO II</head>
+
+<stage>Camera ricca con alcova a tre porte.</stage>
+
+<div2 type="scena">
+<head>SCENA I</head>
+
+<stage>La Contessa sola; poi Susanna, e poi Figaro.</stage>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Porgi amor qualche ristoro</l>
+<l>Al mio duolo, a’ miei sospir.</l>
+<l>O mi rendi il mio tesoro,</l>
+<l>O mi lascia almen morir.</l>
+
+<l>Vieni, cara Susanna:</l>
+<l>Finiscimi l’istoria.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>entra</stage>
+<l>È già finita.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Dunque volle sedurti?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Oh il signor Conte</l>
+<l>Non fa tai complimenti</l>
+<l>Colle donne mie pari;</l>
+<l>Egli venne a contratto di danari.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Ah il crudel più non m’ama!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  E come poi</l>
+<l>È geloso di voi?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Come lo sono</l>
+<l>I moderni mariti: per sistema</l>
+<l>Infedeli, per genio capricciosi,</l>
+<l>E per orgoglio poi tutti gelosi.</l>
+<l>Ma se Figaro t’ama… ei sol potria…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>cantando entro la scena</stage>
+<l>La, la la la, la la la, la la la,</l>
+<l>La, la la la, la la la, la, la, la.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Eccolo: vieni, amico.</l>
+<l>Madama impaziente…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>con ilare disinvoltura</stage>
+<l>A voi non tocca</l>
+<l>Stare in pena per questo.</l>
+<l>Alfin di che si tratta? Al signor Conte</l>
+<l>Piace la sposa mia,</l>
+<l>Indi secretamente</l>
+<l>Ricuperar vorria</l>
+<l>Il diritto feudale.</l>
+<l>Possibile è la cosa, e naturale.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Possibil!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Natural!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Naturalissima.</l>
+<l>E se Susanna vuol possibilissima.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Finiscila una volta.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Ho già finito.</l>
+<l>Quindi prese il partito</l>
+<l>Di sceglier me corriero, e la Susanna</l>
+<l>Consigliera secreta d’ambasciata:</l>
+<l>E perch’ella ostinata ognor rifiuta</l>
+<l>Il diploma d’onor ch’ei le destina</l>
+<l>Minaccia di protegger Marcellina.</l>
+<l>Questo è tutto l’affare.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ed hai coraggio di trattar scherzando</l>
+<l>Un negozio sì serio?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Non vi basta</l>
+<l>Che scherzando io ci pensi? Ecco il progetto:</l>
+<l>Per Basilio un biglietto</l>
+<l>Io gli fo capitar, che l’avvertisca</l>
+<l>Di certo appuntamento</l>
+<stage>alla Contessa</stage>
+<l>Che per l’ora del ballo</l>
+<l>A un amante voi deste…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  O ciel! che sento!</l>
+<l>Ad un uom sì geloso!…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ancora meglio:</l>
+<l>Così potrem più presto imbarazzarlo,</l>
+<l>Confonderlo, imbrogliarlo,</l>
+<l>Rovesciargli i progetti,</l>
+<l>Empierlo di sospetti, e porgli in testa</l>
+<l>Che la moderna festa,</l>
+<l>Ch’ei di fare a me tenta, altri a lui faccia;</l>
+<l>Onde qua perda il tempo, ivi la traccia.</l>
+<l>Così, quasi <stage>ex abrupto</stage>, e senza ch’abbia</l>
+<l>Fatto per frastornarci alcun disegno,</l>
+<l>Vien l’ora delle nozze,</l>
+<stage>segnando la Contessa</stage>
+<l>E in faccia a lei</l>
+<l>Non fia, ch’osi d’opporsi ai voti miei.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>È ver, ma in di lui vece</l>
+<l>S’opporrà Marcellina.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>a Susanna</stage>
+<l>Aspetta: al Conte</l>
+<l>Farai subito dir, che verso sera</l>
+<l>Attèndati in giardino:</l>
+<l>Il picciol Cherubino,</l>
+<l>Per mio consiglio non ancor partito,</l>
+<l>Da femmina vestito,</l>
+<l>Faremo che in tua vece ivi sen vada.</l>
+<l>Questa è l’unica strada</l>
+<l>Onde Monsù, sorpreso da Madama,</l>
+<l>Sia costretto a far poi quel che si brama.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>a Susanna</stage>
+<l>Che ti par?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Non c’è mal.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Nel nostro caso…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Quand’egli è persuaso… e dove è il tempo?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ito è il conte alla caccia; e per qualch’ora</l>
+<l>Non sarà di ritorno.</l>
+<stage>sempre in atto di partire</stage>
+<l>  Io vado e tosto</l>
+<l>Cherubino vi mando; lascio a voi</l>
+<l>La cura di vestirlo.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>E poi?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> E poi…</l>
+
+<l>Se vuol ballare,</l>
+<l>Signor Contino,</l>
+<l>Il chitarrino</l>
+<l>Le suonerò.</l>
+</sp>
+<stage>parte</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage>La Contessa, Susanna, poi Cherubino.</stage>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Quanto duolmi, Susanna,</l>
+<l>Che questo giovinotto abbia del Conte</l>
+<l>Le stravaganze udite? Ah tu non sai!…</l>
+<l>Ma per qual causa mai</l>
+<l>Da me stessa ei non venne?…</l>
+<l>Dov’è la canzonetta?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Eccola: appunto</l>
+<l>Facciam che ce la canti.</l>
+<l>Zitto, vien gente: è desso. Avanti avanti:</l>
+<l>Signor uffiziale.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l> Ah, non chiamarmi</l>
+<l>Con nome sì fatale! ei mi rammenta</l>
+<l>Che abbandonar degg’io</l>
+<l>Comare tanto buona…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  E tanto bella!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>sospirando</stage>
+<l>Ah sì… certo…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>imitandolo</stage>
+<l>Ah sì… certo… Ipocritone!</l>
+<l>Via presto la canzone</l>
+<l>Che stamane a me deste</l>
+<l>A Madama cantante.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>aprendola</stage>
+<l>Chi n’è l’autor?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>additando Cherubino</stage>
+<l> Guardate: ha due braccia</l>
+<l>Di rossor sulla faccia.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Prendi la mia chitarra, e l’accompagna.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Io sono sì tremante…</l>
+<l>Ma se Madama vuole…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Lo vuole, sì lo vuol. Manco parole.</l>
+
+<stage>La Susanna fa il ritornello sul chitarrino.</stage>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Voi che sapete</l>
+<l>Che cosa è amor</l>
+<l>Donne vedete</l>
+<l>S’io l’ho nel cor.</l>
+
+<l>Quello ch’io provo</l>
+<l>Vi ridirò;</l>
+<l>È per me nuovo,</l>
+<l>Capir nol so.</l>
+
+<l>Sento un affetto</l>
+<l>Pien di desir,</l>
+<l>Ch’ora è diletto.</l>
+<l>Ch’ora è martir.</l>
+
+<l>Gelo, e poi sento</l>
+<l>L’alma avvampar,</l>
+<l>E in un momento</l>
+<l>Torno a gelar.</l>
+
+<l>Ricerco un bene</l>
+<l>Fuori di me</l>
+<l>Non so chi ’l tiene,</l>
+<l>Non so cos’è.</l>
+
+<l>Sospiro e gemo</l>
+<l>Senza voler,</l>
+<l>Palpito e tremo</l>
+<l>Senza saper,</l>
+
+<l>Non trovo pace</l>
+<l>Notte né dì,</l>
+<l>Ma pur mi piace</l>
+<l>Languir così.</l>
+
+<l>Voi che sapete</l>
+<l>Che cosa è amor,</l>
+<l>Donne vedete</l>
+<l>S’io l’ho nel cor.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Bravo! che bella voce! Io non sapea</l>
+<l>Che cantaste sì bene.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Oh in verità</l>
+<l>Egli fa tutto ben quello ch’ei fa.</l>
+<l>Presto a noi bel soldato:</l>
+<l>Figaro v’informò…</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Tutto mi disse.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Lasciatemi veder.</l>
+<stage>si misura con Cherubino</stage>
+<l>Andrà benissimo:</l>
+<l>Siam d’uguale statura… giù quel manto,</l>
+<stage>gli cava il manto</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>a Susanna</stage>
+<l>Che fai?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Niente paura.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>E se qualcuno entrasse?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Entri: che mal facciamo?</l>
+<l>La porta chiuderò.</l>
+<stage>chiude la porta</stage>
+<l>Ma come poi</l>
+<l>Acconciargli i capelli?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Una mia cuffia</l>
+<l>Prendi nel gabinetto</l>
+<l>Presto!</l>
+
+<stage>Susanna va nel gabinetto a pigliar una cuffia;Cherubino si accosta alla Contessa, e gli lascia veder la patente che terrà in petto; la Contessa la prende, la apre, e vede che manca il sigillo.</stage>
+
+<l>Che carta è quella?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>  La patente.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Che sollecita gente!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>L’ebbi or da Basilio.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>gliela rende</stage>
+<l>Dalla fretta obliato hanno il sigillo.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>sorte</stage>
+<l>Il sigillo di che?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Della patente.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Cospetto! che premura!</l>
+<l>Ecco la cuffia.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>a Susanna</stage>
+<l>Spìcciati: va bene.</l>
+<l>Miserabili noi, se il Conte viene.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Venite inginocchiatevi:</l>
+<stage>prende Cherubino e lo fa inginocchiare davanti, poco discosto dalla Contessa che siede</stage>
+<l>Restate fermo lì.</l>
+<stage>lo pettina da un lato, poi lo prende nel mento e lo volge a suo piacere</stage>
+<l>Pian piano or via giratevi:</l>
+<l>Bravo, va ben così.</l>
+
+<stage>Cherubino, mentre Susanna lo sta acconciando, guarda la Contessa teneramente</stage>
+<l>La faccia ora volgetemi,</l>
+<l>Olà quegli occhi a me.</l>
+<stage>sèguita ad acconciarlo ed a porgli la cuffia</stage>
+<l>Drittissimo: guardatemi.</l>
+<l>Madama qui non è.</l>
+
+<l>Più alto quel colletto…</l>
+<l>Quel ciglio un po’ più basso…</l>
+<l>Le mani sotto il petto…</l>
+<l>Vedremo poscia il passo</l>
+<l>Quando sarete in piè.</l>
+
+<stage>piano alla Contessa</stage>
+<l>Mirate il bricconcello!</l>
+<l>Mirate quanto è bello!</l>
+<l>Che furba guardatura!</l>
+<l>Che vezzo, che figura!</l>
+
+<l>Se l’amano le femmine,</l>
+<l>Han certo il lor perché.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Quante buffonerie!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Ma se ne sono</l>
+<l>Io medesma gelosa!</l>
+<stage>prende pel mento Cherubino</stage>
+<l>  Ehi serpentello,</l>
+<l>Volete tralasciar d’esser sì bello?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Finiam le ragazzate: or quelle maniche</l>
+<l>Oltre il gomito gli alza,</l>
+<l>Onde più agiatamente</l>
+<l>L’abito gli si adatti.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+ <stage>eseguisce</stage>
+<l>Ecco.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l> Più indietro.</l>
+<l>Così:</l>
+<stage>scoprendo un nastro, onde ha fasciato il braccio</stage>
+<l>  Che nastro è quello?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>È quel ch’esso involommi.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>stacca il nastro</stage>
+<l>E questo sangue?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>turbato</stage>
+<l>Quel sangue… io non so come…</l>
+<l>Poco pria sdrucciolando…</l>
+<l>In un sasso… la pelle io mi graffiai…</l>
+<l>E la piaga col nastro io mi fasciai.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Mostrate: non c’è mal. Cospetto! ha il braccio</l>
+<l>Più candido del mio! qualche ragazza…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>E segui a far la pazza?</l>
+<l>Va’ nel mio gabinetto, e prendi un poco</l>
+<l>D’inglese taffetà, ch’è sullo scrigno;</l>
+
+<stage>Susanna parte in fretta</stage>
+
+<l>In quanto al nastro…</l>
+<stage>guarda un poco il suo nastro</stage>
+
+<stage>Cherubino inginocchiato lo osserva attentamente.</stage>
+
+<l>Inver… per il colore</l>
+<l>Mi spiacea di privarmene…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>entra e le da il taffetà e le forbici</stage>
+<l> Tenete:</l>
+<l>E da legargli il braccio?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l> Un altro nastro</l>
+<l>Prendi insiem col mio vestito.</l>
+
+<stage>Susanna parte per la porta ch’è in fondo e porta seco il mantello di Cherubino.</stage>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Ah più presto m’avria quello guarito!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Perché? — questo è migliore!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Allor che un nastro…</l>
+<l>Legò la chioma… ovver toccò la pelle…</l>
+<l>D’oggetto…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>interrompendolo</stage>
+<l>Forastiero,</l>
+<l>È buon per le ferite! non è vero?</l>
+<l>Guardate qualità ch’io non sapea!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Madama scherza; ed io frattanto parto.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Poverin! che sventura!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Oh me infelice!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>con affanno e commozione</stage>
+<l>Or piange…</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>  O ciel! perché morir non lice!</l>
+<l>Forse vicino all’ultimo momento…</l>
+<l>Questa bocca oseria!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>gli asciuga gli occhi col fazzoletto</stage>
+<l>Siate saggio: cos’è questa follia?</l>
+
+<stage>Si sente picchiare alla porta.</stage>
+
+<l>Chi picchia alla mia porta?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>fuori dalla porta</stage>
+<l>Perché chiusa?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Il mio sposo, o Dei! son morta!</l>
+<l>Voi qui senza mantello!</l>
+<l>In quello stato! un ricevuto foglio…</l>
+<l>La sua gran gelosia!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con più forza</stage>
+<l>Cosa indugiate?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>confusa</stage>
+<l>Son sola… anzi… son sola…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  E a chi parlate?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>A voi… certo… a voi stesso…</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Dopo quel ch’è successo, il suo furore…</l>
+<l>Non trovo altro consiglio!</l>
+<stage>entra nel gabinetto, e chiude</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Ah mi difenda il cielo in tal periglio!</l>
+</sp>
+<stage>prende la chiave</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA III</head>
+
+<stage>La Contessa e il Conte vestito da cacciatore.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>entrando</stage>
+<l>Che novità! non fu mai vostra usanza</l>
+<l>Di rinchiudervi in stanza!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>È ver; ma io…</l>
+<l>Io stava qui mettendo…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Via, mettendo…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Certe robe… era meco la Susanna…</l>
+<l>Che in sua camera è andata.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ad ogni modo</l>
+<l>Voi non siete tranquilla.</l>
+<l>Guardate questo foglio.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>da sé</stage>
+<l> Numi! è il foglio</l>
+<l>Che Figaro gli scrisse…</l>
+
+<stage>Cherubino fa cadere un tavolino, ed una sedia in gabinetto, con molto strepito.</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Cos’è codesto strepito?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>Strepito?…</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>In gabinetto</l>
+<l>Qualcosa è caduta</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Io non intesi niente.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Convien che abbiate gran pensieri in mente.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Di che?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Là v’è qualcuno.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Chi volete che sia?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  Lo chiedo a voi.</l>
+<l>Io vengo in questo punto.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Ah sì, Susanna… appunto…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Che passò mi diceste alla sua stanza!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Alla sua stanza, o qui — non vidi bene…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Susanna! — e donde viene</l>
+<l>Che siete sì turbata?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>con un risolino forzato</stage>
+<l>Per la mia cameriera?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Io non so nulla:</l>
+<l>Ma turbata senz’altro.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Ah questa serva</l>
+<l>Più che non turba me, turba voi stesso.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>È vero, è vero: e lo vedrete adesso.</l>
+
+<stage>La Susanna entra per la porta ond’è uscita, e si ferma vedendo il Conte, che dalla porta del gabinetto sta favellando.</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Susanna or via sortite,</l>
+<l>Sortite io così vo’.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>al Conte affannata</stage>
+<l>Fermatevi… sentite…</l>
+<l>Sortire ella non può.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Cos’è codesta lite!</l>
+<l>Il paggio dove andò!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E chi vietarlo or osa?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Lo vieta l’onestà.</l>
+<l>Un abito da sposa</l>
+<l>Provando ella si sta.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Chiarissima è la cosa:</l>
+<l>L’amante qui sarà!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Bruttissima è la cosa:</l>
+<l>Chi sa cosa sarà.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Capisco qualche cosa:</l>
+<l>Veggiamo come va.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Dunque parlate almeno,</l>
+<l>Susanna se qui siete…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Nemmen nemmen nemmeno,</l>
+<l>Io v’ordino tacete.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>si nasconde entro l’alcova</stage>
+<l>Oh cielo un precipizio,</l>
+<l>Un scandalo, un disordine</l>
+<l>Qui certo nascerà.</l>
+</sp>
+
+<sp><speaker>CONTE, CONTESSA </speaker>
+
+<l>Consorte mia <add resp="ed">mio</add> giudizio,</l>
+<l>Uno scandalo, un disordine</l>
+<l>Schiviam, per carità.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Dunque, voi non aprite?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l> E perché deggio</l>
+<l>Le mie camere aprir?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ebben, lasciate,</l>
+<l>L’aprirem senza chiavi: ehi gente…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Come?</l>
+<l>Porreste a repentaglio</l>
+<l>D’una dama l’onore?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>È vero, io sbaglio:</l>
+<l>Posso senza rumore,</l>
+<l>Senza scandalo alcun di nostra gente,</l>
+<l>Andar io stesso a prender l’occorrente:</l>
+<l>Attendete pur qui… ma perché in tutto</l>
+<l>Sia il mio dubbio distrutto anco le porte</l>
+<l>Io prima chiuderò.</l>
+<stage>chiude a chiave la porta che conduce alle stanze delle cameriere</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>a parte</stage><stage>Che imprudenza!</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Voi la condiscendenza</l>
+<l>Di venir meco avrete.</l>
+<stage>con affettata ilarità</stage>
+<l>Madama, eccovi il braccio, andiamo.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>con ribrezzo</stage>
+<l>Andiamo.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>accenna il gabinetto</stage>
+<l>Susanna starà qui finché torniamo.</l>
+</sp>
+<stage>partono</stage>
+
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+
+<stage>Susanna e Cherubino.</stage>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>uscendo dall’alcova in fretta</stage>
+<l>Aprite, presto, aprite;</l>
+<stage>alla porta del gabinetto</stage>
+<l>Aprite: è la Susanna.</l>
+<l>Sortite, via, sortite,</l>
+<l>Andate via di qua.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>confuso e senza fiato</stage>
+<l>Oimè che scena orribile!</l>
+<l>Che gran fatalità!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Partite, non tardate</l>
+<l>Di qua, di qua, di là.</l>
+</sp>
+
+<sp><speaker>SUSANNA, CHERUBINO </speaker>
+
+<stage>accostandosi ad una, or ad un’altra porta</stage>
+<l>Le porte son serrate.</l>
+<l>Che mai, che mai sarà!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Qui perdersi non giova.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>V’uccide, se vi trova.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>M’uccide, se mi trova.</l>
+<stage>affacciandosi alla finestra</stage>
+<l>Veggiamo un po’ qui fuori,</l>
+<stage>facendo moto di saltar giù</stage>
+<l>Da proprio nel giardino.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>trattenendolo</stage>
+<l>Fermate, Cherubino!</l>
+<l>Fermate, per pietà!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>tornando a guardare</stage>
+<l>Un vaso o due di fiori,</l>
+<l>Più mal non avverrà.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>trattenendolo sempre</stage>
+<l>Tropp’alto per un salto.</l>
+<l>Fermate per pietà!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>si scioglie</stage>
+<l>Lasciami: pria di nuocerle,</l>
+<l>Nel foco volerei.</l>
+<l>Abbraccio te per lei</l>
+<l>Addio:</l>
+<stage>salta fuori</stage>
+<l>così si fa.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ei va a perire oh Dei!</l>
+<l>Fermate, per pietà!</l>
+<stage>mette un alto grido, siede un momento, poi va al balcone</stage>
+<l>Oh guarda il demonietto! come fugge!</l>
+<l>È già un miglio lontano.</l>
+<l>Ma non perdiamoci invano:</l>
+<l>Entriam nel gabinetto:</l>
+<l>Venga poi lo smargiasso, io qui l’aspetto.</l>
+</sp>
+<stage>entra in gabinetto e si chiude dietro la porta</stage>
+
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+
+<stage>La Contessa, il Conte con martello e tenaglia in mano; al suo arrivo esamina tutte le porte.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Tutto è come il lasciai: volete dunque</l>
+<l>Aprir voi stessa, o deggio…</l>
+<stage>in atto di aprir a forza la porta</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Aimè fermate;</l>
+<l>E ascoltatemi un poco.</l>
+
+<stage>Il Conte getta il martello e la tenaglia sopra una sedia.</stage>
+
+<l>Mi credete capace</l>
+<l>Di mancar al dover?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Come vi piace.</l>
+<l>Entro quel gabinetto</l>
+<l>Chi v’è chiuso vedrò.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>timida e tremante</stage>
+<l>Si lo vedrete…</l>
+<l>Ma uditemi tranquillo.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>alterato</stage>
+<l>Non è dunque Susanna!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>come sopra</stage>
+<l>No ma invece è un oggetto</l>
+<l>Che ragion di sospetto</l>
+<l>Non vi deve lasciar: per questa sera…</l>
+<l>Una burla innocente…</l>
+<l>Di far si disponeva… ed io vi giuro…</l>
+<l>Che l’onor… l’onestà…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Chi è dunque! Dite…</l>
+<stage>più alterato</stage>
+<l>L’ucciderò.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>come sopra</stage>
+<l>Sentite.</l>
+<l>Ah, non ho cor.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Parlate.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>È un fanciullo…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Un fanciul!…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Sì… Cherubino…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>(E mi farà il destino</l>
+<l>Ritrovar questo paggio in ogni loco!)</l>
+<stage>forte</stage>
+<l>Come? non è partito? Scellerati!</l>
+<l>Ecco i dubbi spiegati: ecco l’imbroglio,</l>
+<l>Ecco il raggiro, onde m’avverte il foglio.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA VI</head>
+
+<stage>La Contessa, il Conte.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>alla porta del gabinetto con impeto</stage>
+<l>Esci ormai garzon malnato,</l>
+<l>Sciagurato, non tardar.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>ritirandolo a forza dal gabinetto</stage>
+<l>Ah signore, quel furore</l>
+<l>Per lui fammi il cor tremar.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E d’opporvi ancor osate?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>No, sentite:</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Via parlate.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Giuro al ciel ch’ogni sospetto…</l>
+<stage>tremante e sbigottita</stage>
+<l>E lo stato in che il trovate…</l>
+<l>Sciolto il collo… nudo il petto…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Nudo il petto! Seguitate.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Per vestir femminee spoglie…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ah comprendo indegna moglie,</l>
+<l>Mi vo’ tosto vendicar.</l>
+<stage>s’appressa al gabinetto e poi torna indietro</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>con forza</stage>
+<l>Mi fa torto quel trasporto,</l>
+<l>M’oltraggiate a dubitar.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Qua la chiave.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Egli è innocente,</l>
+<l>Voi, sapete…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Non so niente.</l>
+<l>Va lontan dagli occhi miei.</l>
+<l>Un’infida, un’empia sei</l>
+<l>E mi cerchi d’infamar.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Vado… sì… ma…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Non ascolto.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Non son rea.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Vel leggo in volto!</l>
+<l>Mora, mora, e più non sia</l>
+<l>Ria cagion del mio penar.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Ah la cieca gelosia</l>
+<l>Qualche eccesso gli fa far…</l>
+</sp>
+<stage>Il Conte apre il gabinetto, e Susanna esce sulla porta tutta grave, ed ivi si ferma.</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA VII</head>
+
+<stage>I suddetti e la Susanna ch’esce dal gabinetto.</stage>
+
+<sp><speaker>CONTE, CONTESSA </speaker>
+
+<stage>con maraviglia</stage>
+<l>Susanna!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Signore,</l>
+<l>Cos’è quel stupore?</l>
+<stage>con ironia</stage>
+<l>Il brando prendete,</l>
+<l>Il paggio uccidete,</l>
+<l>Quel paggio malnato</l>
+<l>Vedetelo qua.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>Che scola! la testa</l>
+<l>Girando mi va.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>da sé</stage>
+<l>Che storia è mai questa;</l>
+<l>Susanna v’è là.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Confusa han la testa,</l>
+<l>Non san come va.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Sei sola?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Guardate:</l>
+<l>Qui ascoso sarà.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Guardiamo, guardiamo,</l>
+<l>Qui ascoso sarà.</l>
+</sp>
+<stage>entra nel gabinetto</stage>
+
+</div2>
+<div2 type="scena">
+<head>SCENA VIII</head>
+
+ <stage><add resp="ed">Susanna, la Contessa e poi il Conte.</add></stage>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Susanna, son morta:</l>
+<l>Il fiato mi manca.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>allegrissima, addita alla Contessa la finestra onde è saltato Cherubino</stage>
+<l>Più lieta, più franca,</l>
+<l>In salvo è di già.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>esce confuso dal gabinetto</stage>
+<l>Che sbaglio mai presi!</l>
+<l>Appena lo credo;</l>
+<l>Se a torto v’offesi,</l>
+<l>Perdono vi chiedo;</l>
+<l>Ma far burla simile</l>
+<l>È poi crudeltà.</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA </speaker>
+
+<stage>la Contessa col fazzoletto alla bocca per celar
+il disordine di spirito</stage>
+<l>Le vostre follie</l>
+<l>Non mertan pietà.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Io v’amo.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>rinvenendo dalla confusione a poco a poco</stage>
+<l>  Nol dite.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Vel giuro!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Mentite!</l>
+<stage>con forza e collera</stage>
+<l>Son l’empia, l’infida</l>
+<l>Che ognora v’inganna.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Quell’ira, Susanna,</l>
+<l>M’aita a calmar.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Così si condanna</l>
+<l>Chi può sospettar.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>con risentimento</stage>
+<l>Adunque la fede</l>
+<l>D’un’anima amante</l>
+<l>Sì fiera mercede</l>
+<l>Doveva sperar?</l>
+</sp>
+
+<sp><speaker>SUSANNA, CONTE </speaker>
+
+<stage>in atto di preghiera</stage>
+<l>Signora! Rosina!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>al Conte</stage>
+<l>Crudele!</l>
+<l>Più quella non sono;</l>
+<l>Ma il misero oggetto</l>
+<l>Del vostro abbandono</l>
+<l>Che avete diletto</l>
+<l>Di far disperar.</l>
+</sp>
+
+<sp><speaker>CONTE, SUSANNA </speaker>
+
+<l>Confuso, pentito,</l>
+<l>Son <add resp="ed">È</add> troppo punito:</l>
+<l>Abbiate pietà.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Soffrir sì gran torto.</l>
+<l>Quest’alma non sa.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma il paggio rinchiuso?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Fu sol per provarvi.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma i tremiti, i palpiti?…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Fu sol per burlarvi.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E un foglio sì barbaro?</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<l>Di Figaro è il foglio,</l>
+<l>E a voi per Basilio…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ah perfidi, io voglio!…</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<l>Perdono non merta</l>
+<l>Chi agli altri nol dà.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con tenerezza</stage>
+<l>Ebben, se vi piace,</l>
+<l>Comune è la pace;</l>
+<l>Rosina inflessibile</l>
+<l>Con me non sarà.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Ah quanto, Susanna,</l>
+<l>Son dolce di core!</l>
+<l>Di donne al furore</l>
+<l>Chi più crederà!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Cogli uomin, signora,</l>
+<l>Girate, volgete,</l>
+<l>Vedrete che ognora</l>
+<l>Si cade poi là.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con tenerezza</stage>
+<l>Guardatemi.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Ingrato.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ho torto: e mi pento.</l>
+<stage>bacia e ribacia la mano della Contessa</stage>
+</sp>
+
+<sp><speaker>CONTE, CONTESSA, SUSANNA</speaker>
+
+<l>Da questo momento</l>
+<l>Quest’alma a conoscervi <add resp="ed">conoscermi, conoscerla</add></l>
+<l>Apprender potrà.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA IX</head>
+
+<stage>I suddetti e Figaro.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Signori, di fuori</l>
+<l>Son già i suonatori:</l>
+<l>Le trombe sentite,</l>
+<l>I pifferi udite.</l>
+<l>Tra canti, tra balli</l>
+<l>De’ vostri vassalli,</l>
+<l>Corriamo, voliamo</l>
+<l>Le nozze a compir!</l>
+<stage>prende Susanna sotto braccio</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>trattenendolo</stage>
+<l>Pian piano, men fretta.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>La turba m’aspetta.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Un dubbio toglietemi</l>
+<l>In pria di partir.</l>
+</sp>
+
+<sp><speaker>CONTE, CONTESSA, FIGARO, SUSANNA</speaker>
+
+<stage>sottovoce</stage>
+<l>La cosa è scabrosa;</l>
+<l>Com’ha da finir!</l>
+<l>Con arte le carte</l>
+<l>Convien qui scoprir.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Figaro</stage>
+<l>Conoscete, signor Figaro,</l>
+<stage>mostrandogli il foglio</stage>
+<l>Questo foglio chi vergò?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>fingendo d’esaminarlo</stage>
+<l>Nol conosco… nol conosco..</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Nol conosci?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Nol conosci?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Nol conosci?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>a tutti tre, l’un dopo l’altro, con risolutezza</stage>
+<l>No, no, no!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>E nol desti a Don Basilio…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Per recarlo…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Tu c’intendi…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Oibò, oibò.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>E non sai del damerino…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Che stasera nel giardino…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Già capisci…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Io non lo so.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Cerchi invan difesa e scusa,</l>
+<l>Il tuo ceffo già t’accusa:</l>
+<l>Vedo ben che vuoi mentir.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>al Conte</stage>
+<l>Mente il ceffo, io già non mento.</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>a Figaro</stage>
+<l>Il talento aguzzi invano.</l>
+<l>Palesato abbiam l’arcano:</l>
+<l>Non v’è nulla da ridir.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Che rispondi?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Niente, niente.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Dunque, accordi?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Non accordo.</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>a Figaro</stage>
+<l>Eh via, chétati, balordo:</l>
+<l>La burletta ha da finir.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Per finirla lietamente</l>
+<l>E all’usanza teatrale</l>
+<stage>prendendo Susanna sotto il braccio</stage>
+<l>Un’azion matrimoniale</l>
+<l>Le faremo ora seguir.</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<stage>al Conte</stage>
+<l>Deh signor nol contrastate:</l>
+<l>Consolate i miei <add resp="ed">lor</add> desir.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>Marcellina, Marcellina!</l>
+<l>Quanto tardi a comparir!</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA X</head>
+
+<stage>La Contessa, il Conte, Susanna, Figaro e Antonio,</stage>
+
+<stage>Entra Antonio, il giardiniere, mezzo ubriaco, portando un vaso di  garofani schiacciato.</stage>
+
+<sp><speaker>ANTONIO</speaker>
+
+<stage>infuriato</stage>
+<l>Ah signore… signor…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con ansietà</stage>
+<l>Cosa è stato?…</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Che insolenza! chi ’l fece! chi fu!</l>
+</sp>
+
+<sp><speaker>CONTE, CONTESSA, FIGARO, SUSANNA</speaker>
+
+<stage>con ansietà</stage>
+<l>Cosa dici, cos’hai, cosa è nato?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<stage>come sopra</stage>
+<l>Ascoltate.</l>
+</sp>
+
+<sp><speaker>CONTE, CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>Via, parla, di’ su.</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Dal balcone che guarda in giardino</l>
+<l>Mille cose ogni dì gettar veggio,</l>
+<l>E poc’anzi, può darsi di peggio?</l>
+<l>Vidi un uom, signor mio, gittar giù.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con vivacità</stage>
+<l>Dal balcone?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<stage>additandogli il vaso di fiori schiacciato</stage>
+<l> Vedete i garofani?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>In giardino?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>  Sì.</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>piano a Figaro</stage>
+<l>Figaro all’erta!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Cosa sento!</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Costui ci sconcerta:</l>
+<stage>ad alta voce</stage>
+<l>Quel briaco che viene a far qui?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>ad Antonio con fuoco</stage>
+<l>Dunque un uom… Ma dov’è, dov’è gito?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Ratto ratto il birbone è fuggito</l>
+<l>E ad un tratto di vista m’uscì.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>sottovoce a Figaro</stage>
+<l>Sai che il paggio…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>sottovoce a Susanna</stage>
+<l>  So tutto, lo vidi.</l>
+<stage>ride forte</stage>
+<l>Ah, ah, ah!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Taci là.</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<stage>a Figaro</stage>
+<l>Cosa ridi?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>ad Antonio</stage>
+<l>Tu sei cotto dal sorger del dì.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>ad Antonio</stage>
+<l>Or ripetimi: un uom dal balcone…</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Dal balcone…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> In giardino…</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>In giardino…</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>Ma signore, se in lui parla il vino!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>ad Antonio</stage>
+<l>Segui pure: né in volto il vedesti?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>No, nol vidi.</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>sottovoce a Figaro</stage>
+<l>Olà, Figaro, ascolta!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>ad Antonio</stage>
+<l>Via piangione sta’ zitto una volta:</l>
+<stage>toccando con disprezzo i garofani</stage>
+<l>Per tre soldi far tanto tumulto:</l>
+<l>Giacché il fatto non può stare occulto,</l>
+<l>Sono io stesso saltato di lì.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Chi? voi stesso?</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Che testa! che ingegno!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>al Conte</stage>
+<l>Che stupori!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Già creder nol posso.</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<stage>a Figaro</stage>
+<l>Come mai diventaste sì grosso?</l>
+<l>Dopo il salto non foste così.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>A chi salta succede così.</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Chi ’l direbbe?</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Ed insiste, quel pazzo!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>ad Antonio</stage>
+<l>Tu che dici?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>E a me parve il ragazzo.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con fuoco</stage>
+<l>Cherubin!</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Maledetto!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Esso appunto.</l>
+<stage>ironicamente</stage>
+<l>Da Siviglia a cavallo qui giunto,</l>
+<l>Da Siviglia ov’ei forse sarà.</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<stage>con rozza semplicità</stage>
+<l>Questo no, questo no, ché il cavallo</l>
+<l>Io non vidi saltare di là.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Che pazienza! Finiam questo ballo!</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Come mai, giusto ciel! finirà?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Figaro</stage>
+<l>Dunque tu…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Saltai giù.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma perché?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Il timor…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  Che timor?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>additando le camere delle serve</stage>
+<l> Là rinchiuso,</l>
+<l>Aspettando quel caro visetto…</l>
+<l>Tippe tappe, un susurro fuor d’uso…</l>
+<l>Voi gridaste… lo scritto biglietto…</l>
+<l>Saltai giù dal terrore confuso…</l>
+<stage>fingendo d’aversi stroppiato il piede</stage>
+<l>E stravolto m’ho un nervo del piè!</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Vostre dunque saran queste carte</l>
+<stage>porgendo a Figaro alcune carte chiuse</stage>
+<l>Che perdeste…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>togliendogliele</stage>
+<l>Olà, porgile a me.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>piano alla Contessa e a Susanna</stage>
+<l>Sono in trappola.</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>piano a Figaro</stage>
+<l>Figaro all’erta!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>apre il foglio e lo chiude tosto</stage>
+<l>Dite un po’, questo foglio cos’è?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Tosto tosto… n’ho tanti, aspettate.</l>
+<stage>cavando di tasca alcune carte per guardare</stage>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Sarà forse il sommario de’ debiti.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>No, la lista degli osti.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Figaro</stage>
+<l>Parlate.</l>
+<stage>ad Antonio</stage>
+<l>E tu lascialo!</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>Lascialo <add resp="ed">Lasciami</add> e parti…</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Parto sì, ma se torno a trovarti.</l>
+<stage>parte</stage>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Vanne, vanne, non temo di te.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>riapre la carta e poi tosto la chiude</stage>
+<stage>a Figaro</stage>
+<l>Dunque?…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>piano a Susanna</stage>
+<l>  O ciel! la patente del paggio!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>piano a Figaro</stage>
+<l>Giusti Dei! la patente!…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Figaro ironicamente</stage>
+<l>Coraggio!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>fingendo di risovvenirsi</stage>
+<l>Uh, che testa! — Quest’è la patente</l>
+<l>Che poc’anzi il fanciullo mi diè.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Per che fare?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>imbrogliato</stage>
+<l>Vi manca…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  Vi manca?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>piano a Susanna</stage>
+<l>Il suggello.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>piano a Figaro</stage>
+<l> Il suggello!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  Rispondi?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>finge di pensare</stage>
+<l>È l’usanza…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Su via ti confondi?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>È l’usanza di porvi il suggello.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>guarda e vede che manca il sigillo; guasta il foglio e con somma collera lo getta</stage>
+<l>(Questo birbo mi toglie il cervello;</l>
+<l>Tutto, tutto è un mistero per me.)</l>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>(Se mi salvo da questa tempesta,</l>
+<l>Più non avvi naufragio per me.)</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>da sé</stage>
+<l>(Sbuffa invano, e la terra calpesta;</l>
+<l>Poverino, ne sa men di me.)</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA XI</head>
+
+<stage>I suddetti, Marcellina, Bartolo e Basilio.</stage>
+
+<sp><speaker>MARCELLINA, BARTOLO, BASILIO</speaker>
+
+
+<stage>al Conte</stage>
+<l>Voi signor, che giusto siete,</l>
+<l>Ci dovete or ascoltar.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>Son venuti a vendicarmi.</l>
+<l>Io mi sento a consolar.</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Son venuti a sconcertarmi,</l>
+<l>Qual rimedio ritrovar?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>al Conte</stage>
+<l>Son tre stolidi, tre pazzi.</l>
+<l>Cosa mai vengono a far?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Pian pianin, senza schiamazzi</l>
+<l>Dica ognun quel che gli par.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Un impegno nuziale</l>
+<l>Ha costui con me contratto:</l>
+<l>E pretendo che il contratto</l>
+<l>Deva meco effettuar.</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>Come! Come!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  Olà, silenzio:</l>
+<l>Io son qui per giudicar.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Io da lei scelto avvocato</l>
+<l>Vengo a far le sue difese,</l>
+<l>Le legittime pretese</l>
+<l>Io qui vengo a palesar.</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>È un birbante!…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Olà, silenzio:</l>
+<l>Io son qui per giudicar.</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Io, com’uom al mondo cognito,</l>
+<l>Vengo qui per testimonio</l>
+<l>Del promesso matrimonio</l>
+<l>Con prestanza di danar.</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>Son tre matti!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Lo vedremo,</l>
+<l>Il contratto leggeremo</l>
+<l>Tutto in ordin deve andar.</l>
+</sp>
+
+<sp><speaker>CONTE, MARCELLINA, BARTOLO, BASILIO</speaker>
+
+
+<l>Che bel colpo, che bel caso!</l>
+<l>È cresciuto a tutti il naso,</l>
+<l>Qualche Nume a noi propizio</l>
+<l>Qui li <add resp="ed">ci</add> ha fatti capitar.</l>
+</sp>
+
+<sp><speaker>CONTESSA, FIGARO, SUSANNA</speaker>
+
+<l>Son confusa <add resp="ed">confuso</add> son stordita <add resp="ed">stordito</add>,</l>
+<l>Disperata <add resp="ed">Disperato</add>, sbalordita <add resp="ed">sbalordito</add>.</l>
+<l>Certo, un diavol dell’inferno</l>
+<l>Qui li ha fatti capitar.</l>
+</sp>
+</div2>
+</div1>
+
+<div1 type="atto">
+<head>ATTO III</head>
+
+<stage>Sala ricca con due troni e preparata a festa nuziale.</stage>
+
+
+<div2 type="scena">
+<head>SCENA I </head>
+
+<stage>Il Conte solo che passeggia.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Che imbarazzo è mai questo! un foglio anonimo…</l>
+<l>La cameriera in gabinetto chiusa…</l>
+<l>La padrona confusa… un uom che salta</l>
+<l>Dal balcone in giardino… un altro appresso</l>
+<l>Che dice esser quel desso…</l>
+<l>Non so cosa pensar. Potrebbe forse</l>
+<l>Qualcun de’ miei vassalli… a simil razza</l>
+<l>È comune l’ardir, ma la Contessa…</l>
+<l>Ah, che un dubbio l’offende… ella rispetta</l>
+<l>Troppo se stessa; e l’onor mio… l’onore…</l>
+<l>Dove diamin l’ha posto umano errore!</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage>Il suddetto, la Contessa e Susanna; s’arrestano in fondo alla scena, non vedute dal Conte.</stage>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Via, fàtti core: digli</l>
+<l>Che ti attenda in giardino.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Saprò se Cherubino</l>
+<l>Era giunto a Siviglia: a tale oggetto</l>
+<l>Ho mandato Basilio…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Oh cielo! e Figaro?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>A lui non dèi dir nulla: in vece tua</l>
+<l>Voglio andarci io medesma.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Avanti sera</l>
+<l>Dovrebbe ritornar…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Oh Dio… non oso!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Pensa ch’è in tua mano il mio riposo.</l>
+<stage>si nasconde</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E Susanna? chi sa ch’ella tradito</l>
+<l>Abbia il secreto rito… Oh, se ha parlato,</l>
+<l>Gli fo sposar la vecchia.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>s’avanza</stage>
+<l>(Marcellina!)</l>
+<l>Signor…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>serio</stage>
+<l>Cosa bramate?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Mi par che siete in collera!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Volete qualche cosa?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Signor… la vostra sposa</l>
+<l>Ha i soliti vapori,</l>
+<l>E vi chiede il fiaschetto degli odori.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Prendete.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Or vel riporto.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Eh no: potete</l>
+<l>Ritenerlo per voi.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Per me?</l>
+<l>(Scusate)</l>
+<l>Questi non son mali</l>
+<l>Da donne triviali.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Un’amante, che perde il caro sposo</l>
+<l>Sul punto d’ottenerlo…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Pagando Marcellina</l>
+<l>Con la dote che voi mi prometteste…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ch’io vi promisi? quando?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Credea d’averlo inteso.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Sì, se voluto aveste</l>
+<l>Intendermi voi stessa.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  È mio dovere:</l>
+<l>E quel di sua Eccellenza è il mio volere.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Crudel! Perché finora</l>
+<l>Farmi languir così?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Signor, la donna ognora</l>
+<l>Tempo ha di dir di sì.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Dunque in giardin verrai?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Se piace a voi, verrò.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E non mi mancherai?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>No, non vi mancherò.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>(Mi sento dal contento</l>
+<l>Pieno di gioia il cor.)</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>(Scusatemi se mento,</l>
+<l>Voi che intendete amor.)</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E perché fosti meco</l>
+<l>Stamattina sì austera?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Col paggio ch’ivi c’era…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Ed a Basilio,</l>
+<l>Che per me ti parlò?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ma qual bisogno</l>
+<l>Abbiam noi che un Basilio…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> È vero, è vero,</l>
+<l>E mi prometti poi…</l>
+<l>Se tu manchi, oh cor mio.. Ma la Contessa</l>
+<l>Attenderà il fiaschetto.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Eh fu un pretesto:</l>
+<l>Parlato io non avrei senza di questo.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>le prende la mano</stage>
+<l>Carissima!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>si ritira</stage>
+<l>Vien gente.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>  È mia senz’altro.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Forbitevi la bocca, oh signor scaltro.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA III</head>
+
+<stage>Figaro, Susanna e subito il Conte.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ehi, Susanna, ove vai?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Taci: senza avvocato</l>
+<l>Hai già vinta la causa.</l>
+<stage>parte</stage>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Cosa è nato?</l>
+</sp>
+<stage>la segue</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA IV</head>
+
+<stage>Il Conte solo.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Hai già vinta la causa! cosa sento!</l>
+<l>In qual laccio cadea! Perfidi! io voglio</l>
+<l>Di tal modo punirvi… a piacer mio</l>
+<l>La sentenza sarà… Ma s’ei pagasse</l>
+<l>La vecchia pretendente?</l>
+<l>Pagarla! in qual maniera! E poi v’è Antonio</l>
+<l>Che a un incognito Figaro ricusa</l>
+<l>Di dare una nipote in matrimonio.</l>
+<l>Coltivando l’orgoglio</l>
+<l>Di questo mentecatto…</l>
+<l>Tutto giova a un raggiro… Il colpo è fatto.</l>
+
+<l>Vedrò, mentr’io sospiro,</l>
+<l>Felice un servo mio?</l>
+<l>E un ben, che invan desio,</l>
+<l>Ei posseder dovrà?</l>
+
+<l>Vedrò per man d’amore</l>
+<l>Unita a un vile oggetto</l>
+<l>Chi in me destò un affetto</l>
+<l>Che per me poi non ha?</l>
+
+<l>Ah, no, lasciarti in pace,</l>
+<l>Non vo’ questo contento,</l>
+<l>Tu non nascesti, audace!</l>
+<l>Per dare a me tormento,</l>
+<l>E forse ancor per ridere</l>
+<l>Di mia infelicità.</l>
+
+<l>Già la speranza sola</l>
+<l>Delle vendette mie</l>
+<l>Quest’anima consola</l>
+<l>E giubilar mi fa.</l>
+</sp>
+<stage>vuol partire e s’incontra con Don Curzio</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA V</head>
+
+<stage>Il Conte, Marcellina, Don Curzio, Figaro e Bartolo; poi Susanna.</stage>
+
+<sp><speaker>CURZIO</speaker>
+
+<stage>tartagliando</stage>
+<l>È decisa la lite.</l>
+<l>O pagarla, o sposarla. Ora ammutite.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Io respiro.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ed io moro.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>da sé</stage>
+<l>Alfin sposa io sarò d’un uom che adoro.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Eccellenza, m’appello…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>È giusta la sentenza:</l>
+<l>O pagar, o sposar, bravo Don Curzio.</l>
+
+</sp>
+<sp><speaker>CURZIO</speaker>
+
+<l>Bontà dì sua Eccellenza.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Che superba sentenza!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>In che superba?</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Siam tutti vendicati…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Io non la sposerò.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>La sposerai.</l>
+
+</sp>
+<sp><speaker>CURZIO</speaker>
+
+<l>O pagarla, o sposarla. Lei t’ha prestato</l>
+<l>Duemila pezzi duri.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Son gentiluomo, e senza</l>
+<l>L’assenso de’ miei nobili parenti..</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Dove sono? chi sono?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Lasciate ancor cercarli:</l>
+<l>Dopo dieci anni io spero di trovarli.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Qualche bambin trovato?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>No perduto, dottor, anzi rubato.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Come?</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Cosa?</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>La prova?</l>
+
+</sp>
+<sp><speaker>CURZIO</speaker>
+
+<l> Il testimonio?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>L’oro, le gemme, e i ricamati panni,</l>
+<l>Che ne’ più teneri anni</l>
+<l>Mi ritrovaro addosso i masnadieri,</l>
+<l>Sono gl’indizi veri</l>
+<l>Di mia nascita illustre: e sopra tutto</l>
+<l>Questo al mio braccio impresso geroglifico…</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Una spatola impressa al braccio destro…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>E a voi chi ’l disse?</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Oh Dio,</l>
+<l>È egli…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> È ver, son io.</l>
+
+</sp>
+<sp><speaker>CURZIO</speaker>
+
+<l>Chi?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Chi?</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Chi?</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>  Raffaello.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>E i ladri ti rapir…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Presso un castello.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Ecco tua madre.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Balia…</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>No, tua madre.</l>
+</sp>
+
+<sp><speaker>CONTE, CURZIO </speaker>
+
+<l>Sua madre!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Cosa sento!</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Ecco tuo padre.</l>
+<stage>abbracciando Figaro</stage>
+<l>Riconosci in questo amplesso</l>
+<l>Una madre, amato figlio!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>a Bartolo</stage>
+<l>Padre mio, fate lo stesso,</l>
+<l>Non mi fate più arrossir.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<stage>abbracciando Figaro</stage>
+<l>Resistenza la coscienza</l>
+<l>Far non lascia al tuo desir.</l>
+
+</sp>
+<sp><speaker>CURZIO</speaker>
+
+<l>Ei suo padre, ella sua madre,</l>
+<l>L’imeneo non può seguir.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Son smarrito, son stordito:</l>
+<l>Meglio è assai di qua partir.</l>
+<stage>vuol partire</stage>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Figlio amato!</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l> Figlio amato!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Parenti amati!</l>
+</sp>
+
+<stage>Susanna entra con una borsa in mano.</stage>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>arrestando il Conte</stage>
+<l>Alto, alto, signor Conte,</l>
+<l>Mille doppie son qui pronte,</l>
+<l>A pagar vengo per Figaro,</l>
+<l>Ed a porlo in libertà.</l>
+</sp>
+
+<sp><speaker>CONTE, CURZIO </speaker>
+
+<l>Non sappiam com’è la cosa,</l>
+<l>Osservate un poco là!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>si volge vedendo Figaro che abbraccia Marcellina</stage>
+<l>Già d’accordo colla sposa;</l>
+<l>Giusti Dei, che infedeltà!</l>
+<stage>vuol partire</stage>
+<l>Lascia, iniquo!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>trattenendo Susanna</stage>
+<l>No, t’arresta!</l>
+<l>Senti, oh cara!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>dà uno schiaffo a Figaro</stage>
+<l>Senti questa!</l>
+</sp>
+
+<sp><speaker>FIGARO, BARTOLO, MARCELLINA</speaker>
+
+<l>È un effetto di buon core,</l>
+<l>Tutto amore è quel che fa.</l>
+</sp>
+
+<sp><speaker>CONTE, CURZIO</speaker>
+
+<l>Fremo <add resp="ed">Freme</add>, smanio <add resp="ed">smania</add> dal furore:</l>
+<l>Il destino me la <add resp="ed">gliela</add> fa.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Fremo, smanio dal furore,</l>
+<l>Una vecchia me la fa.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<stage>corre ad abbracciar Susanna</stage>
+<l>Lo sdegno calmate,</l>
+<l>Mia cara figliuola,</l>
+<l>Sua madre abbracciate,</l>
+<l>Che or vostra sarà.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Sua madre?</l>
+
+</sp>
+<sp><speaker>TUTTI</speaker>
+
+<l> Sua madre!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>E quello è mio padre,</l>
+<l>Che a te lo dirà.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Suo padre?</l>
+
+</sp>
+<sp><speaker>TUTTI</speaker>
+
+<l> Suo padre!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>E quella è mia madre.</l>
+<l>Che a te lo dirà.</l>
+<stage>corrono tutti quattro ad abbracciarsi</stage>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO, MARCELLINA, BARTOLO</speaker>
+
+<l>Al dolce contento</l>
+<l>Di questo momento,</l>
+<l>Quest’anima appena</l>
+<l>Resister or sa.</l>
+</sp>
+
+<sp><speaker>CONTE, CURZIO</speaker>
+
+<l>Al fiero tormento</l>
+<l>Di questo momento,</l>
+<l>Quest’anima appena</l>
+<l>Resister or sa.</l>
+</sp>
+<stage>Il Conte e Don Curzio partono</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA VI</head>
+
+<stage>Susanna, Marcellina, Figaro, Bartolo.</stage>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Eccovi, oh caro amico, il dolce frutto</l>
+<l>Dell’antico amor nostro…</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>  Or non parliamo</l>
+<l>Di fatti sì remoti; egli è mio figlio,</l>
+<l>Mia consorte voi siete;</l>
+<l>E le nozze farem quando volete.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Oggi, e doppie saranno:</l>
+<stage>dà un biglietto a Figaro</stage>
+<l>Prendi, questo è il biglietto</l>
+<l>Del danar che a me devi, ed è tua dote.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>getta per terra una borsa di denari</stage>
+<l>Prendi ancor questa borsa.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<stage>fa lo stesso</stage>
+<l>E questa ancora.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Bravi, gettate pur ch’io piglio ognora.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Voliamo ad informar d’ogni avventura</l>
+<l>Madama e nostro zio.</l>
+<l>Chi al par di me contento?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Io.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Io.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Io.</l>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO, MARCELLINA, BARTOLO</speaker>
+
+<stage>partendo abbracciati</stage>
+<l>E schiatti il signor Conte al gusto mio!</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA VII</head>
+
+<stage>Barbarina, Cherubino.</stage>
+
+<sp><speaker>BARBARINA</speaker>
+
+<l>Andiamo, andiam, bel paggio, in casa mia</l>
+<l>Tutte ritroverai</l>
+<l>Le più belle ragazze del castello</l>
+<l>Di tutte sarai tu certo il più bello.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Ah! se il Conte mi trova,</l>
+<l>Misero me, tu sai</l>
+<l>Che partito ei mi crede per Siviglia.</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Oh, ve’ che maraviglia, e se ti trova,</l>
+<l>Non sarà cosa nuova…</l>
+<l>Odi… vogliam vestirti come noi:</l>
+<l>Tutte insieme andrem poi</l>
+<l>A presentar de’ fiori a Madamina;</l>
+<l>Fidati, oh Cherubin, di Barbarina.</l>
+</sp>
+<stage>partono</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA VIII</head>
+
+<stage>La Contessa sola.</stage>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>E Susanna non vien! sono ansiosa</l>
+<l>Di saper come il Conte</l>
+<l>Accolse la proposta. Alquanto ardito</l>
+<l>Il progetto mi par, e ad uno sposo</l>
+<l>Sì vivace, e geloso!</l>
+<l>Ma che mal c’è? Cangiando i miei vestiti</l>
+<l>Con quelli di Susanna, e i suoi co’ miei…</l>
+<l>Al favor della notte… oh cielo, a quale</l>
+<l>Umil stato fatale io son ridotta</l>
+<l>Da un consorte crudel, che dopo avermi</l>
+<l>Con un misto inaudito</l>
+<l>D’infedeltà, di gelosie, di sdegni,</l>
+<l>Prima amata, indi offesa, e alfin tradita,</l>
+<l>Fammi or cercar da una mia serva aita!</l>
+
+<l>Dove sono i bei momenti</l>
+<l>Di dolcezza, e di piacer,</l>
+<l>Dove andaro i giuramenti</l>
+<l>Di quel labbro menzogner?</l>
+
+<l>Perché mai, se in pianti e in pene</l>
+<l>Per me tutto si cangiò;</l>
+<l>La memoria di quel bene</l>
+<l>Dal mio sen non trapassò?</l>
+
+<l>Ah! se almen la mia costanza</l>
+<l>Nel languire amando ognor</l>
+<l>Mi portasse una speranza</l>
+<l>Di cangiar l’ingrato cor.</l>
+</sp>
+<stage>parte</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA IX</head>
+
+<stage>Il Conte ed Antonio con un cappello in mano.</stage>
+
+<sp><speaker>ANTONIO</speaker>
+
+<l>Io vi dico, signor, che Cherubino</l>
+<l>È ancora nel castello,</l>
+<l>E vedete per prova il suo cappello.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma come, se a quest’ora</l>
+<l>Esser giunto a Siviglia egli dovria?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Scusate, oggi Siviglia è a casa mia.</l>
+<l>Là vestissi da donna, e là lasciati</l>
+<l>Ha gl’altri abiti suoi.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Perfidi!</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Andiam, e li vedrete voi.</l>
+</sp>
+<stage>partono</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA X</head>
+
+<stage>La Contessa e Susanna.</stage>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Cosa mi narri, e che ne disse il Conte?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Gli si leggeva in fronte</l>
+<l>Il dispetto e la rabbia.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Piano: ché meglio or lo porremo in gabbia.</l>
+<l>Dov’è l’appuntamento</l>
+<l>Che tu gli proponesti?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>In giardino.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l> Fissiamgli un loco. Scrivi.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Ch’io scriva… ma signora…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Eh scrivi dico; e tutto</l>
+<l>Io prendo su me stessa.</l>
+
+<stage>Susanna siede e scrive.</stage>
+
+<stage>dettando</stage>
+
+<l>Canzonetta sull’aria…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>scrivendo</stage>
+<l>Sull’aria…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>dettando</stage>
+<l>Che soave zeffiretto…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>ripete le parole della Contessa</stage>
+<l>Zeffiretto…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Questa sera spirerà,</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Questa sera spirerà…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Sotto i pini del boschetto.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>domandando</stage>
+<l>Sotto i pini?</l>
+<stage>scrivendo</stage>
+<l>Sotto i pini… del boschetto</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Ei già il resto capirà.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Certo certo il capirà.</l>
+<stage>leggono insieme lo scritto</stage>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>piega la lettera</stage>
+<l>Piegato è il foglio… Or come si sigilla?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>si cava una spilla e gliela dà</stage>
+<l>Ecco… prendi una spilla:</l>
+<l>Servirà di sigillo. Attendi… scrivi</l>
+<l>Sul riverso del foglio:</l>
+<l>«Rimandate il sigillo».</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  È più bizzarro</l>
+<l>Di quel della patente.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Presto nascondi: io sento venir gente.</l>
+</sp>
+<stage>Susanna si pone il biglietto nel seno</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA XI</head>
+
+<stage>Cherubino vestito da contadinella, Barbarina e alcune altre contadinelle vestite nel medesimo modo con mazzetti  di fiori e detti.</stage>
+
+<sp><speaker>CORO</speaker>
+
+<l>Ricevete, oh padroncina,</l>
+<l>Queste rose e questi fior,</l>
+<l>Che abbiam colto stamattina</l>
+<l>Per mostrarvi il nostro amor.</l>
+
+<l>Siamo tante contadine,</l>
+<l>E siam tutte poverine:</l>
+<l>Ma quel poco che rechiamo</l>
+<l>Ve lo diamo di buon cor.</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Queste sono, Madama,</l>
+<l>Le ragazze del loco,</l>
+<l>Che il poco ch’han vi vengono ad offrire,</l>
+<l>E vi chiedon perdon del loro ardire.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Oh brave, vi ringrazio.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Come sono vezzose.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>E chi è, narratemi,</l>
+<l>Quell’amabil fanciulla</l>
+<l>Ch’ha l’aria sì modesta?</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Ell’è una mia cugina, e per le nozze</l>
+<l>È venuta ier sera.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Onoriamo la bella forastiera.</l>
+<l>Venite qui… datemi i vostri fiori.</l>
+<stage>prende i fiori di Cherubino e lo bacia in fronte</stage>
+<l>Come arrossì… Susanna, e non ti pare…</l>
+<l>Che somigli ad alcuno?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l> Al naturale.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA XII</head>
+
+<stage>I detti, il Conte ed Antonio.</stage>
+
+<stage>Antonio ha il cappello di Cherubino: entra in scena pian piano, gli cava la cuffia di donna gli mette in testa il cappello stesso.</stage>
+
+<sp><speaker>ANTONIO</speaker>
+
+<l>Ehi! cospettaccio! È questi l’uffiziale.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Oh stelle!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>(Malandrino!)</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l> Ebben, Madama…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Io sono, oh signor mio,</l>
+<l>Irritata e sorpresa al par di voi.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ma stamane…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Stamane…</l>
+<l>Per l’odierna festa</l>
+<l>Voleam travestirlo al modo stesso,</l>
+<l>Che l’han vestito adesso.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>a Cherubino</stage>
+<l>E perché non partiste?</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>cavandosi il cappello bruscamente</stage>
+<l>Signor!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Saprò punire</l>
+<l>La sua disobbedienza</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Eccellenza, Eccellenza,</l>
+<l>Voi mi dite sì spesso,</l>
+<l>Qual volta m’abbracciate e mi baciate:</l>
+<l>Barbarina, se m’ami,</l>
+<l>Ti darò quel che brami…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Io dissi questo?</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Voi.</l>
+<l>Or datemi, padrone,</l>
+<l>In sposo Cherubino,</l>
+<l>E v’amerò com’amo il mio gattino.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>al Conte</stage>
+<l>Ebbene: or tocca a voi.</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>Brava figliuola!</l>
+<l>Hai buon maestro, che ti fa la scuola.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da sé</stage>
+<l>Non so qual uom, qual demone, qual Dio</l>
+<l>Rivolga tutto quanto a torto mio.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA XIII</head>
+
+<stage>I detti, Figaro.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Signor… se trattenete</l>
+<l>Tutte queste ragazze,</l>
+<l>Addio feste… addio danza…</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>E che, vorresti</l>
+<l>Ballar col piè stravolto?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>finge di drizzarsi la gamba e poi si prova a ballare</stage>
+<l>Eh non mi duol più molto.</l>
+<stage>chiama tutte le giovani, vuol partire</stage>
+<l>Andiam belle fanciulle.</l>
+
+<stage>Il Conte lo richiama.</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>a Susanna</stage>
+<l>Come si caverà dall’imbarazzo?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>alla Contessa</stage>
+<l>Lasciate fare a lui.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Per buona sorte</l>
+<l>I vasi eran di creta.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Senza fallo.</l>
+<stage>come sopra</stage>
+<l>Andiamo, dunque, andiamo.</l>
+
+<stage>Antonio lo richiama.</stage>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>E intanto a cavallo</l>
+<l>Di galoppo a Siviglia andava il paggio.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Di galoppo, o di passo… buon viaggio.</l>
+<stage>come sopra</stage>
+<l>Venite, oh belle giovani.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>torna a ricondurlo in mezzo</stage>
+<l>E a te la sua patente</l>
+<l>Era in tasca rimasta…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l> Certamente,</l>
+<l>Che razza di domande!</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<stage>a Susanna</stage>
+<l>Via non gli far più motti, ei non t’intende.</l>
+<stage>prende per mano Cherubino e lo presenta a Figaro</stage>
+<l>Ed ecco chi pretende</l>
+<l>Che sia un bugiardo il mio signor nipote.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Cherubino?</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l> Or ci sei.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>al Conte</stage>
+<l>Che diamin canta?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Non canta, no, ma dice</l>
+<l>Ch’egli saltò stamane in sui garofani…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ei lo dice! Sarà… se ho saltato io,</l>
+<l>Si può dare che anch’esso</l>
+<l>Abbia fatto lo stesso.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Anch’esso?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Perché no?</l>
+<l>Io non impugno mai quel che non so.</l>
+
+<stage>S’ode la marcia da lontano.</stage>
+
+<l>Ecco la marcia, andiamo;</l>
+<l>Al vostri posti, oh belle, ai vostri posti.</l>
+<l>Susanna, dammi il braccio.</l>
+<stage>prende per un braccio Susanna</stage>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Eccolo.</l>
+
+<stage>Partono tutti, eccettuati il Conte e la Contessa.</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>fra sé</stage>
+<l>Temerari!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>fra sé</stage>
+<l>Io son di ghiaccio.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Contessa…</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l> Or non parliamo.</l>
+<l>Ecco qui le due nozze,</l>
+<l>Riceverle dobbiam, alfin si tratta</l>
+<l>D’una vostra protetta.</l>
+<l>Seggiam.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Seggiamo.</l>
+<stage>fra sé</stage>
+<l> (E meditiam vendetta.)</l>
+</sp>
+<stage>Siedono; la marcia s’avvicina.</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA XIV</head>
+
+<stage>I suddetti, Figaro, Susanna, Marcellina, Bartolo, Antonio, Barbarina, cacciatori con fucile in spalla, gente del foro. Contadini e contadine.</stage>
+
+<stage>Due giovinette che portano il cappello verginale con piume bianche, due altre un bianco velo, due altre i guanti e il mazzetto di fiori.  Figaro con Marcellina. Due altre giovinette che portano un simil cappello per Susanna ecc. Bartolo conduce la Susanna e s’inginocchia per ricevere lui il cappello ecc.; Figaro conduce Marcellina alla Contessa e fa la stessa funzione.</stage>
+
+<sp><speaker>DUE DONNE</speaker>
+
+<l>Amanti costanti,</l>
+<l>Seguaci d’onor,</l>
+<l>Cantate, lodate</l>
+<l>Sì saggio signor.</l>
+
+<l>A un dritto cedendo,</l>
+<l>Che oltraggia, che offende,</l>
+<l>Ei caste vi rende</l>
+<l>Ai vostri amator.</l>
+
+</sp>
+<sp><speaker>CORO</speaker>
+
+<l>Cantiamo, lodiamo</l>
+<l>Sì saggio signor.</l>
+</sp>
+<stage>I figuranti ballano.</stage>
+
+<stage>Susanna, essendo in ginocchio durante il duo, tira il Conte per l’abito, e gli mostra il bigliettino, dopo passa la mano dal lato degli spettatori alla testa, dove pare che il Conte le aggiusti il cappello, e gli dà il biglietto. Il Conte se lo mette furtivamente in seno. Susanna s’alza, e gli fa una riverenza. Figaro viene a riceverla, e si balla il fandango. Marcellina s’alza un po’ più tardi. Bartolo viene a riceverla dalle mani della Contessa.</stage>
+ <stage>Il Conte va da un lato, cava il biglietto, e fa l’atto d’un uom che rimase punto al dito: lo scuote, lo preme, lo succhia; e, vedendo il biglietto sigillato colla spilla, dice, gittando la spilla a terra, e intanto che l’orchestra suona pianissimo..</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Eh già solita usanza,</l>
+<l>Le donne ficcan gli aghi in ogni loco:</l>
+<l>Ah! ah! capisco il gioco.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>vede tutto, e dice a Susanna</stage>
+<l>Un biglietto amoroso</l>
+<l>Che gli diè nel passar qualche galante;</l>
+<l>Ed era sigillato d’una spilla,</l>
+<l>Ond’ei si punse il dito;</l>
+
+<stage>Il Conte legge, bacia il biglietto, cerca la spilla, la trova e se la mette alla manica del saio.</stage>
+
+<l>Il narciso or la cerca; oh, che stordito!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Andate amici! e sia per questa sera</l>
+<l>Disposto l’apparato nuziale</l>
+<l>Colla più ricca pompa; io vo’ che sia</l>
+<l>Magnifica la festa, e canti e fuochi,</l>
+<l>E gran cena e gran ballo: e ognuno impari</l>
+<l>Com’io tratto color, che a me son cari.</l>
+</sp>
+<stage>Il coro e la marcia si ripetono, e tutti partono.</stage>
+</div2>
+</div1>
+
+<div1 type="atto">
+<head>ATTO IV</head>
+
+<stage>Gabinetto.</stage>
+
+
+<div2 type="scena">
+<head>SCENA I</head>
+
+<stage>Barbarina sola.</stage>
+
+<sp><speaker>BARBARINA</speaker>
+
+<stage>cercando qualche cosa per terra</stage>
+<l>L’ho perduta… me meschina…</l>
+<l>Ah chi sa dove sarà?</l>
+<l>Non la trovo… E mia cugina</l>
+<l>E il padron… cosa dirà?</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage>Barbarina, Figaro e Marcellina.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Barbarina, cos’hai?</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>L’ho perduta, cugino.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Cosa?</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Cosa?</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>La spilla,</l>
+<l>Che a me diede il padrone</l>
+<l>Per recar a Susanna.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>A Susanna… la spilla?</l>
+<stage>in collera</stage>
+<l>E così tenerella</l>
+<l>Il mestiero già sai…</l>
+<stage>si calma</stage>
+<l>Di far tutto sì ben quel che tu fai?</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Cos’è? vai meco in collera?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>E non vedi ch’io scherzo? osserva… </l>
+<stage>cerca un momento per terra, dopo aver destramente cavato una spilla dall’abito o dalla cuffia di Marcellina, e la dà a Barbarina</stage>
+<l>Questa</l>
+<l>È la spilla che il Conte</l>
+<l>Da recare ti diede alla Susanna,</l>
+<l>E servia di sigillo a un bigliettino;</l>
+<l>Vedi s’io sono istrutto.</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>E perché il chiedi a me, quando sai tutto?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Aveva gusto d’udir come il padrone</l>
+<l>Ti diè la commissione.</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Che miracoli!</l>
+<l>«Tieni, fanciulla, reca questa spilla</l>
+<l>Alla bella Susanna, e dille: Questo</l>
+<l>È il sigillo de’ pini».</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ah, ah! de’ pini!</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>È ver ch’ei mi soggiunse:</l>
+<l>«Guarda che alcun non veda»;</l>
+<l>Ma tu già tacerai.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Sicuramente.</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>A te già niente preme.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Oh niente, niente.</l>
+
+</sp>
+<sp><speaker>BARBARINA</speaker>
+
+<l>Addio, mio bel cugino;</l>
+<l>Vo da Susanna, e poi da Cherubino.</l>
+</sp>
+<stage>parte saltando</stage>
+
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+
+<stage>Figaro e Marcellina.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>quasi istupidito</stage>
+<l>Madre!</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Figlio!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Son morto.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Càlmati, figlio mio.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>  Son morto, dico.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Flemma, flemma, e poi flemma: il fatto è serio;</l>
+<l>E pensarci convien: ma pensa un poco</l>
+<l>Che ancor non sai di chi si prenda gioco.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ah quella spilla, oh madre, è quella stessa</l>
+<l>Che poc’anzi ei raccolse.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>  È ver. Ma questo</l>
+<l>Al più ti porge un dritto</l>
+<l>Di stare in guardia, e vivere in sospetto:</l>
+<l>Ma non sai, se in effetto…</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>All’erta dunque: il loco del congresso</l>
+<l>So dov’è stabilito…</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Dove vai figlio mio?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>A vendicar tutti i mariti: addio.</l>
+</sp>
+<stage>parte infuriato</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA IV</head>
+
+<stage>Marcellina sola.</stage>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>Presto, avvertiam Susanna:</l>
+<l>Io la credo innocente: quella faccia,</l>
+<l>Quell’aria di modestia… e caso ancora</l>
+<l>Ch’ella non fosse… ah quando il cor non ciurma</l>
+<l>Personale interesse,</l>
+<l>Ogni donna è portata alla difesa</l>
+<l>Del suo povero sesso,</l>
+<l>Da questi uomini ingrati a torto oppresso.</l>
+
+<l>Il capro e la capretta</l>
+<l>Son sempre in amistà,</l>
+<l>L’agnello all’agnelletta</l>
+<l>La guerra mai non fa;</l>
+
+<l>Le più feroci belve</l>
+<l>Per selve e per campagne</l>
+<l>Lascian le lor compagne</l>
+<l>In pace e libertà.</l>
+
+<l>Sol noi povere femmine</l>
+<l>Che tanto amiam questi uomini,</l>
+<l>Trattate siam dai perfidi</l>
+<l>Ognor con crudeltà.</l>
+</sp>
+<stage>parte</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA V</head>
+
+<stage>Folto giardino con due nicchie parallele preticabili.</stage>
+
+<stage>Barbarina sola con alcune frutta e ciambelle.</stage>
+
+<sp><speaker>BARBARINA</speaker>
+
+<stage>con in mano alcune frutta e ciambelle</stage>
+<l>Nel padiglione a manca: ei così disse.</l>
+<l>È questo… è questo… e poi se non venisse?</l>
+<l>Oh ve’ che brava gente! A stento darmi</l>
+<l>Un arancio, una pera, e una ciambella.</l>
+<l>«Per chi madamigella?»</l>
+<l>«Oh, per qualcun, signori»</l>
+<l>«Già lo sappiam»: ebbene,</l>
+<l>Il padron l’odia, ed io gli voglio bene,</l>
+<l>Però costommi un bacio, e cosa importa,</l>
+<l>Forse qualcun me ’l renderà…</l>
+<stage>sente arrivare qualcuno</stage>
+<l> Son morta.</l>
+</sp>
+<stage>fugge impaurita ed entra nella nicchia a manca</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA VI</head>
+
+<stage>Figaro solo; poi Basilio, Bartolo e truppa di lavoratori. Figaro con mantello e lanternino notturno.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>È Barbarina…</l>
+<stage>ode venir gente</stage>
+<l>Chi va là?</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+<l>Son quelli</l>
+<l>Che invitasti a venir.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Che brutto ceffo!</l>
+<l>Sembri un cospirator: che diamin sono</l>
+<l>Quegli infausti apparati?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Lo vedrete tra poco.</l>
+<l>In questo stesso loco</l>
+<l>Celebrerem la festa</l>
+<l>Della mia sposa onesta</l>
+<l>E del feudal signor…</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Ah buono buono,</l>
+<l>Capisco come egli è.</l>
+<stage>da sé</stage>
+<l>(Accordati si son senza di me.)</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Voi da questi contorni</l>
+<l>Non vi scostate; intanto</l>
+<l>Io vado a dar certi ordini,</l>
+<l>E torno in pochi istanti:</l>
+<l>A un fischio mio correte tutti quanti.</l>
+</sp>
+<stage>Partono tutti, eccettuati Bartolo e Basilio.</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA VII</head>
+
+<stage>Basilio e Bartolo.</stage>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Ha i diavoli nel corpo.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>Ma cosa nacque?</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l> Nulla.</l>
+<l>Susanna piace al Conte: ella, d’accordo,</l>
+<l>Gli diè un appuntamento</l>
+<l>Ch’a Figaro non piace.</l>
+</sp>
+
+<sp><speaker>BARTOLO</speaker>
+
+<l>E che dunque dovria soffrirlo in pace?</l>
+</sp>
+
+<sp><speaker>BASILIO</speaker>
+
+
+<l>Quello che soffron tanti</l>
+<l>Ei soffrir non potrebbe? e poi, sentite,</l>
+<l>Che guadagno può far? Nel mondo, amico,</l>
+<l>L’accozzarla co’ grandi</l>
+<l>Fu pericolo ognora:</l>
+<l>Dàn novanta per cento, e han vinto ancora.</l>
+
+<l>In quegli anni, in cui val poco</l>
+<l>La mal pratica ragion,</l>
+<l>Ebbi anch’io lo stesso fuoco:</l>
+<l>Fui quel pazzo ch’or non son.</l>
+
+<l>Che col tempo e coi perigli</l>
+<l>Donna flemma capitò;</l>
+<l>E i capricci, ed i puntigli</l>
+<l>Dalla testa mi cavò.</l>
+
+<l>Presso un picciolo abituro</l>
+<l>Seco lei mi trasse un giorno,</l>
+<l>E, togliendo giù dal muro</l>
+<l>Del pacifico soggiorno</l>
+<l>Una pelle di somaro,</l>
+<l>Prendi, disse, oh figlio caro,</l>
+<l>Poi disparve, e mi lasciò.</l>
+
+<l>Mentre ancor, tacito,</l>
+<l>Guardo quel dono,</l>
+<l>Il ciel s’annuvola,</l>
+<l>Rimbomba il tuono,</l>
+<l>Mista alla grandine</l>
+<l>Scroscia la piova,</l>
+<l>Ecco le membra</l>
+<l>Coprir mi giova</l>
+<l>Col manto d’asino</l>
+<l>Che mi donò.</l>
+
+<l>Finisce il turbine,</l>
+<l>Né fo due passi,</l>
+<l>Che fiera orribile</l>
+<l>Dianzi a me fassi;</l>
+<l>Già già mi tocca,</l>
+<l>L’ingorda bocca,</l>
+<l>Già di difendermi</l>
+<l>Speme non ho.</l>
+
+<l>Ma il fiuto ignobile</l>
+<l>Del mio vestito</l>
+<l>Tolse alla belva</l>
+<l>Sì l’appetito,</l>
+<l>Che, disprezzandomi,</l>
+<l>Si rinselvò.</l>
+
+<l>Così conoscere</l>
+<l>Mi fe’ la sorte</l>
+<l>Ch’onte, pericoli,</l>
+<l>Vergogna, e morte</l>
+<l>Col cuoio d’asino</l>
+<l>Fuggir si può.</l>
+</sp>
+<stage>Basilio e Bartolo partono.</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA VIII</head>
+
+<stage>Figaro solo.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Tutto è disposto: l’ora</l>
+<l>Dovrebbe esser vicina; io sento gente.</l>
+<l>È dessa… non è alcun… buia è la notte…</l>
+<l>Ed io comincio ormai,</l>
+<l>A fare il scimunito</l>
+<l>Mestiero di marito.</l>
+<l>Ingrata! nel momento</l>
+<l>Della mia cerimonia…</l>
+<l>Ei godeva leggendo: e nel vederlo</l>
+<l>Io rideva di me senza saperlo.</l>
+<l>Oh Susanna, Susanna,</l>
+<l>Quanta pena mi costi,</l>
+<l>Con quell’ingenua faccia…!</l>
+<l>Con quegli occhi innocenti…</l>
+<l>Chi creduto l’avria?</l>
+<l>Ah che il fidarsi a donna è ognor follia!</l>
+
+<l>Aprite un po’ quegli occhi,</l>
+<l>Uomini incauti e sciocchi,</l>
+<l>Guardate queste femmine,</l>
+<l>Guardate cosa son!</l>
+
+<l>Queste chiamate Dee</l>
+<l>Dagli ingannati sensi,</l>
+<l>A cui tributa incensi</l>
+<l>La debole ragion,</l>
+
+<l>Son streghe che incantano</l>
+<l>Per farci penar,</l>
+<l>Sirene che cantano</l>
+<l>Per farci affogar,</l>
+
+<l>Civette che allettano</l>
+<l>Per trarci le piume,</l>
+<l>Comete che brillano</l>
+<l>Per toglierci il lume;</l>
+
+<l>Son rose spinose,</l>
+<l>Son volpi vezzose,</l>
+<l>Son orse benigne,</l>
+<l>Colombe maligne,</l>
+<l>Maestre d’inganni</l>
+<l>Amiche d’affanni</l>
+<l>Che fingono, mentono,</l>
+<l>Amore non senton,</l>
+<l>Non senton pietà.</l>
+
+<l>Il resto nol dico,</l>
+<l>già ognuno lo sa.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA IX</head>
+
+<stage>Susanna e Contessa travestite; Marcellina.</stage>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Signora, ella mi disse</l>
+<l>Che Figaro verravvi.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l>  Anzi, è venuto:</l>
+<l>Abbassa un po’ la voce.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Dunque, un ci ascolta, e l’altro</l>
+<l>Dèe venir a cercarmi.</l>
+<l>Incominciam.</l>
+</sp>
+
+<sp><speaker>MARCELLINA</speaker>
+
+<l> Io voglio qui celarmi</l>
+</sp>
+<stage>entra dove entrò Barbarina</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA X</head>
+
+<stage>I suddetti, Figaro in disparte.</stage>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Madama, voi tremate: avreste freddo?</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Parmi umida la notte; io mi ritiro.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>da sé</stage>
+<l>(Eccoci della crisi al grande istante.)</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Io sotto queste piante,</l>
+<l>Se Madama il permette,</l>
+<l>Resto a prendere il fresco una mezz’ora.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>(Il fresco, il fresco!)</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>  Restaci in buon’ora.</l>
+<stage>si nasconde</stage>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>sottovoce</stage>
+<l>Il birbo è in sentinella:</l>
+<l>Divertiamci anche noi:</l>
+<l>Diamogli la mercé de’ dubbi suoi.</l>
+<stage>ad alta voce</stage>
+<l>Giunse alfin il momento</l>
+<l>Che godrò senza affanno</l>
+<l>In braccio all’idol mio. Timide cure,</l>
+<l>Uscite dal mio petto,</l>
+<l>A turbar non venite il mio diletto!</l>
+<l>Oh, come par che all’amoroso foco</l>
+<l>L’amenità del loco,</l>
+<l>La terra, e il ciel risponda,</l>
+<l>Come la notte i furti miei seconda!</l>
+
+<l>Deh vieni non tardar, oh gioia bella,</l>
+<l>Vieni ove amore per goder t’appella,</l>
+
+<l>Finché non splende in ciel notturna face,</l>
+<l>Finché l’aria è ancor bruna e il mondo tace.</l>
+
+<l>Qui mormora il ruscel, qui scherza l’aura,</l>
+<l>Che col dolce sussurro il cor ristaura,</l>
+
+<l>Qui ridono i fioretti, e l’erba è fresca,</l>
+<l>Ai piaceri d’amor qui tutto adesca.</l>
+
+<l>Vieni ben mio, tra queste piante ascose</l>
+<l>Ti vo’ la fronte incoronar di rose.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA XI</head>
+
+<stage>I suddetti e poi Cherubino.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Perfida, e in quella forma</l>
+<l>Meco mentia? Non so s’io veglio o dormo.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>cantando</stage>
+<l>La la la la la la la la lera.</l>
+
+<l>Voi che intendete</l>
+<l>Che cosa è amor</l>
+<l>Donne vedete</l>
+<l>S’io l’ho nel cor.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Il picciol paggio!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l> Io sento gente, entriamo</l>
+<l>Ove entrò Barbarina.</l>
+<l>Oh vedo qui una donna.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l> Ahi me meschina!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>M’inganno! a quel cappello</l>
+<l>Che nell’ombra vegg’io, parmi Susanna.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>E se il Conte ora vien, sorte tiranna!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Pian pianin le andrò più presso,</l>
+<l>Tempo perso non sarà.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>(Ah, se il Conte arriva adesso,</l>
+<l>Qualche imbroglio accaderà!)</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>alla Contessa</stage>
+<l>Susannetta… Non risponde…</l>
+<l>Colla mano il volto asconde…</l>
+<l>Or la burlo, in verità.</l>
+<stage>la prende per la mano e l’accarezza</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>cerca liberarsi alterando la voce a tempo</stage>
+<l>Arditello, sfacciatello,</l>
+<l>Ite presto via di qua!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Smorfiosa, maliziosa,</l>
+<l>Io già so perché sei qua.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA XII</head>
+
+<stage>I suddetti, il Conte.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>da lontano</stage>
+<l>Ecco qui la mia Susanna!</l>
+</sp>
+
+<sp><speaker>FIGARO, SUSANNA</speaker>
+
+<stage>lontani l’uno dall’altro</stage>
+<l>Ecco qui l’uccellatore.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Non far meco la tiranna!</l>
+</sp>
+
+<sp><speaker>SUSANNA, CONTE, FIGARO</speaker>
+
+<stage>da sé</stage>
+<l>Ah nel sen mi batte il core!</l>
+<l>Un altr’uom con lei si sta.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Via, partite, o chiamo gente.</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<stage>sempre tenendola per la mano</stage>
+<l>Dammi un bacio, o non fai niente.</l>
+</sp>
+
+<sp><speaker>SUSANNA, CONTE, FIGARO</speaker>
+
+<stage>da sé</stage>
+<l>Alla voce è quegli il paggio.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Anche un bacio, che coraggio!</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>E perché far io non posso</l>
+<l>Quel che il Conte or or farà!</l>
+</sp>
+
+<sp><speaker> CONTESSA, SUSANNA, CONTE, FIGARO</speaker>
+
+<stage>tutti da sé</stage>
+<l>(Temerario!)</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Oh, ve’ che smorfie,</l>
+<l>Sai ch’io fui dietro il sofà.</l>
+</sp>
+
+<sp><speaker> CONTESSA, SUSANNA, CONTE, FIGARO</speaker>
+
+<stage>come sopra</stage>
+<l>(Se il ribaldo ancor sta saldo,</l>
+<l>La faccenda guasterà.)</l>
+</sp>
+
+<sp><speaker>CHERUBINO</speaker>
+
+<l>Prendi intanto…</l>
+</sp>
+<stage>volendo dare un bacio alla Contessa</stage>
+
+<stage>Il Conte si mette in mezzo e riceve il bacio egli stesso.</stage>
+
+<sp><speaker>CONTESSA, CHERUBINO</speaker>
+
+<l>Oh cielo, il Conte!</l>
+</sp>
+
+<stage>Il paggio entra da Barbarina.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>appressandosi al Conte</stage>
+<l>Vo’ veder cosa fan là.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Perché voi nol ripetete,</l>
+<l>Ricevete questo qua!</l>
+</sp>
+<stage>crede di dare uno schiaffo al Paggio e lo dà a Figaro</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Ah ci ho fatto un bel guadagno</l>
+<l>Colla mia curiosità!</l>
+</sp>
+<stage>si ritira</stage>
+
+<sp><speaker>CONTESSA, CONTE</speaker>
+
+<l>Ah ci ha fatto un bel guadagno</l>
+<l>Colla sua temerità!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>ride</stage>
+<l>Ah! ci ha fatto un bel guadagno,</l>
+<l>Colla sua curiosità!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>alla Contessa</stage>
+<l>Partito è alfin l’audace,</l>
+<l>Accostati ben mio!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Giacché così vi piace,</l>
+<l>Eccomi qui, Signor.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Che compiacente femmina!</l>
+<l>Che sposa di buon cor!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Porgimi la manina!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Io ve la do.</l>
+</sp>
+
+<sp><speaker>CONTE, FIGARO</speaker>
+
+<l>  Carina!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Che dita tenerelle!</l>
+<l>Che delicata pelle!</l>
+<l>Mi pizzica, mi stuzzica,</l>
+<l>M’empie di un nuovo ardor.</l>
+</sp>
+
+<sp><speaker>SUSANNA, CONTESSA, FIGARO</speaker>
+
+<l>La cieca prevenzione</l>
+<l>Delude la ragione,</l>
+<l>Inganna i sensi ognor.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Oltre la dote, oh cara,</l>
+<l>Ricevi anco un brillante</l>
+<l>Che a te porge un amante</l>
+<l>In pegno del suo amor.</l>
+<stage>le dà un anello</stage>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Tutto Susanna piglia</l>
+<l>Dal suo benefattor.</l>
+</sp>
+
+<sp><speaker>SUSANNA, CONTE, FIGARO</speaker>
+
+<l>Va tutto a maraviglia!</l>
+<l>Ma il meglio manca ancor.</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>al Conte</stage>
+<l>Signor, d’accese fiaccole</l>
+<l>Io veggio il balenar.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Entriam, mia bella Venere</l>
+<l>Andiamoci a celar!</l>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO</speaker>
+
+<l>Mariti scimuniti,</l>
+<l>Venite ad imparar!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Al buio, signor mio?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>È quello che vogl’io:</l>
+<l>Tu sai che là per leggere</l>
+<l>Io non desio d’entrar.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>La perfida lo séguita,</l>
+<l>È vano il dubitar.</l>
+<stage>passa</stage>
+</sp>
+
+<sp><speaker>CONTESSA, SUSANNA</speaker>
+
+<l>I furbi sono in trappola,</l>
+<l>Cammina ben l’affar.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con voce alterata</stage>
+<l>Chi passa?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>con rabbia</stage>
+<l>Passa gente!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>sottovoce al Conte</stage>
+<l>È Figaro: men vo.</l>
+<stage>entra a man destra</stage>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Andate; io poi verrò.</l>
+</sp>
+<stage>si disperde pel bosco</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA XIII</head>
+
+<stage>Figaro e Susanna.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Tutto è tranquillo e placido;</l>
+<l>Entrò la bella Venere;</l>
+<l>Col vago Marte prendere</l>
+<l>Nuovo Vulcano del secolo</l>
+<l>In rete la potrò.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>cangiando la voce</stage>
+<l>Ehi Figaro: tacete</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Oh questa è la Contessa…</l>
+<stage>a Susanna</stage>
+<l>A tempo qui giungete…</l>
+<l>Vedrete là voi stessa…</l>
+<l>Il Conte, e la mia sposa…</l>
+<l>Di propria man la cosa</l>
+<l>Toccar io vi farò.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>si dimentica di alterar la voce</stage>
+<l>Parlate un po’ più basso.</l>
+<l>Di qua non muovo passo,</l>
+<l>Ma vendicar mi vo’.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>da sé</stage>
+<l>(Susanna!)</l>
+<stage>a Susanna</stage>
+<l>Vendicarsi?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Sì.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Come potria farsi?</l>
+<stage>da sé</stage>
+<l>La volpe vuol sorprendermi,</l>
+<l>E secondar la vo’.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>L’iniquo io vo’ sorprendere;</l>
+<l>Poi so quel che farò.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>con comica affettazione</stage>
+<l>Ah se Madama il vuole!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Su via, manco parole.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>come sopra</stage>
+<l>Eccomi ai vostri piedi…</l>
+<l>Ho pieno il cor di fuoco.</l>
+<l>Esaminate il loco…</l>
+<l>Pensate al traditor.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>da sé</stage>
+<l>Come la man mi pizzica,</l>
+<l>Che smania, che furor!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>da sé</stage>
+<l>Come il polmon mi si altera,</l>
+<l>Che smania, che furor!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>alterando la voce un poco</stage>
+<l>E senza alcun affetto?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Suppliscavi il dispetto.</l>
+<l>Non perdiam tempo invano,</l>
+<stage>si frega le mani</stage>
+<l>Datemi un po’ la mano…</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>in voce naturale gli dà uno schiaffo</stage>
+<l>Servitevi, signor!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Che schiaffo!</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>lo schiaffeggia a tempo</stage>
+<l> E ancora questo,</l>
+<l>E questo, e poi quest’altro.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Non batter così presto.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>sempre schiaffeggiandolo</stage>
+<l>E questo, signor scaltro,</l>
+<l>E qui quest’altro ancor!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Oh schiaffi graziosissimi,</l>
+<l>Oh mio felice amor.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Impara, impara, o perfido,</l>
+<l>A fare il seduttor.</l>
+</sp>
+</div2>
+
+<div2 type="scena">
+<head>SCENA XIV</head>
+
+<stage>I suddetti, poi il Conte.</stage>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>si mette in ginocchio</stage>
+<l>Pace, pace, mio dolce tesoro,</l>
+<l>Io conobbi la voce che adoro,</l>
+<l>E che impressa ognor serbo nel cor.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>ridendo e con sorpresa</stage>
+<l>La mia voce?</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>La voce che adoro.</l>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO</speaker>
+
+<l>Pace, pace, mio dolce tesoro,</l>
+<l>Pace, pace, mio tenero amor.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Non la trovo, e girai tutto il bosco.</l>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO</speaker>
+
+<l>Questi è il Conte, alla voce il conosco.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>parlando verso la nicchia, dove entrò Madama, cui apre egli stesso</stage>
+<l>Ehi, Susanna… sei sorda… sei muta?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>Bella, bella! non l’hai conosciuta!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>sottovoce a Susanna</stage>
+<l>Chi?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Madama.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Madama?</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<l>  Madama.</l>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO</speaker>
+
+<stage>sottovoce</stage>
+<l>La commedia, idol mio, terminiamo,</l>
+<l>Consoliamo il bizzarro amator.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>mettendosi ai piedi di Susanna</stage>
+<l>Sì, Madama, voi siete il ben mio.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>La mia sposa… Ah, senz’arme son io.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>sempre inginocchiato</stage>
+<l>Un ristoro al mio cor concedete.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>alterando la voce</stage>
+<l>Io sono qui, faccio quel che volete.</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Ah, ribaldi!</l>
+</sp>
+
+<sp><speaker>SUSANNA, FIGARO</speaker>
+
+<l> Ah, corriamo, mio bene,</l>
+<l>E le pene compensi il piacer.</l>
+</sp>
+<stage>Susanna entra nella nicchia.</stage>
+
+</div2>
+
+<div2 type="scena">
+<head>SCENA XV</head>
+
+<stage>I suddetti, Antonio, Basilio, servitori con fiaccole accese; indi la Contessa.</stage>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>arresta Figaro</stage>
+<l>Gente, gente, all’armi all’armi!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>finge eccessiva paura</stage>
+<l>Il padrone! Son perduto!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Gente, gente, aiuto, aiuto!</l>
+</sp>
+
+<sp><speaker>BASILIO, ANTONIO</speaker>
+
+<l>Cosa avvenne?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Il scellerato!</l>
+<l>M’ha tradito, m’ha infamato,</l>
+<l>E con chi, state a veder.</l>
+</sp>
+
+<sp><speaker>BASILIO, ANTONIO</speaker>
+
+<stage>sottovoce</stage>
+<l>Son stordito, sbalordito.</l>
+<l>Non mi par che ciò sia ver!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Sono storditi, sbalorditi:</l>
+<l>Oh, che scena, che piacer!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Invan resistete,</l>
+<l>Uscite, Madama,</l>
+<l>Il premio or avrete</l>
+<l>Di vostra onestà.</l>
+
+<stage>Il Conte tira pel braccio Cherubino, che fa forza per non uscire, né si vede che per metà; dopo il paggio, escono Barbarina, Marcellina e Susanna, vestita cogli abiti della Contessa: si tiene il fazzoletto sulla faccia, e s’inginocchia ai piedi del Conte.</stage>
+
+<l>Il paggio!</l>
+
+</sp>
+<sp><speaker>ANTONIO</speaker>
+
+<l>  Mia figlia!</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<l>Mia madre!</l>
+</sp>
+
+<sp><speaker>BASILIO, ANTONIO, BARTOLO, FIGARO</speaker>
+
+<l> Madama!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>Scoperta è la trama,</l>
+<l>La perfida è qua.</l>
+</sp>
+
+<sp><speaker>SUSANNA</speaker>
+
+<stage>s’inginocchia ai piedi del Conte</stage>
+<l>Perdono! perdono!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>No, no, non sperarlo.</l>
+</sp>
+
+<sp><speaker>FIGARO</speaker>
+
+<stage>s’inginocchia</stage>
+<l>Perdono! perdono!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<l>No, no, non vo’ darlo!</l>
+</sp>
+
+<sp><speaker>SUSANNA, CHERUBINO, MARCELLINA, BASILIO, ANTONIO, FIGARO</speaker>
+
+<stage>s’inginocchiano</stage>
+<l>Perdono, perdono!</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>con più forza</stage>
+<l>No no, no, no, no!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<stage>esce dall’altra nicchia</stage>
+<l>Almeno io per loro</l>
+<l>Perdono otterrò.</l>
+</sp>
+<stage>vuole inginocchiarsi; il Conte non lo permette</stage>
+
+<sp><speaker>CONTE, BASILIO, ANTONIO, BARTOLO</speaker>
+
+<stage>da sé</stage>
+<l>Oh cielo, che veggio!</l>
+<l>Deliro! vaneggio!</l>
+<l>Che creder non so?</l>
+</sp>
+
+<sp><speaker>CONTE</speaker>
+
+<stage>in tono supplichevole</stage>
+<l>Contessa, perdono!</l>
+</sp>
+
+<sp><speaker>CONTESSA</speaker>
+
+<l>Più docile io sono,</l>
+<l>E dico di sì.</l>
+
+</sp>
+<sp><speaker>TUTTI</speaker>
+
+<l>Ah tutti contenti</l>
+<l>Saremo così.</l>
+
+<l>Questo giorno di tormenti,</l>
+<l>Di capricci e di follia,</l>
+<l>In contenti e in allegria</l>
+<l>Solo amor può terminar.</l>
+
+<l>Sposi, amici, al ballo, al gioco,</l>
+<l>Alle mine date foco,</l>
+<l>Ed al suon di lieta marcia</l>
+<l>Corriam tutti a festeggiar!</l>
+</sp>
+
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

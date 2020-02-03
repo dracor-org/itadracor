@@ -1,0 +1,3172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il teatro comico</title>
+      <author>Carlo Goldoni</author>
+    </titleStmt>
+    <extent>160 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001010</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Carlo Goldoni : teatro</title>
+        <title type="part">Il servitore di due padroni, Il teatro comico, La famiglia dell'antiquario, Le femmine puntigliose, La bottega del caffè</title>
+        <author>Goldoni, Carlo</author>
+        <editor id="ed">Pieri, Marzia</editor>
+        <publisher>Einaudi</publisher>
+        <pubPlace>Torino</pubPlace>
+        <date>1991</date>
+        <note>Fa parte di: Il Teatro Italiano : 4 : Teatro del Settecento</note>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <editorialDecl><p>Quando nell'originale cartaceo nella lista dei personaggi la medesima descrizione era attribuita a più di un personaggio con una parentesi graffa, la descrizione è stata ripetuta per ciascun personaggio cui era stata attribuita.</p></editorialDecl><classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita"/></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - LETTERATURA DRAMMATICA ITALIANA. 1748-1814</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-01-12T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica con software</item>
+    </change>
+    <change>
+      <date>2004-01-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<opener><salute><hi rend="sc">ALLA NOBILISSIMA DAMA LA SIGNORA MARCHESA</hi> DONNA MARGHERITA LITTA <hi rend="sc">NEI MARCHESI CALDERARI REGI FEUDATARI DI TURANO, E BELVIGNATE, CONTADO DI LODI, E DI PADERNO, PIEVE DI DESIO, DUCATO DI MILANO.</hi></salute></opener>
+<p rend="italic">Niuno meglio di voi, Nobilissima Dama, può dar giudizio delle 
+buone, o delle cattive Commedie, poiché non solo talento grande, peregrino
+avete per discernere l'ottimo in tutte le cose, ma della Commedia
+precisamente vi compiacete moltissimo onde aggiunto al vostro 
+sapere il parziale diletto, siete, e delle bellezze, e de' difetti di essa una 
+perfetta Conoscitrice.</p>
+<p rend="italic">Quando nell'anno scorso giunse in Milano la Compagnia de' Comici
+a rappresentare le Commedie mie di Carattere, tremai del giudizio
+rispettabile de' Milanesi, ma più di tutti tremai del vostro, poiché 
+sendomi nota la vostra delicatezza, e l'ottimo gusto vostro, pareami 
+veder dipendere dall approvazione vostra quella del maggior numero.</p>
+<p rend="italic">Egli è verissimo, che seguitando voi l'adorabile esempio della vostra
+gran Genitrice, siete due magnanime Protettrici di tutti quelli, 
+che scrivendo, e operando contribuiscono in varie guise al bel piacer 
+del Teatro, e ciò lusingarmi doveva che anch'io Autor di Commedie, 
+goduto avrei del vostro benignissimo Padrocinio; ma lasciate Nobilissima
+Dama, ch'io vi confessi l'audace volo de' miei pensieri.</p>
+<p rend="italic">L'esser da voi protetto è onor grande, grandissimo, invidiabile, e 
+sospirato, ma io ebbi ti coraggio di desiderare ancora di più. E può bramarsi
+di più, oltre la vostra protezione? Sì, evvi la approvazion vostra, 
+la quale siccome dal vostro sapere deve sinceramente dipendere, ottenuta,
+che s'abbia. basta sola a rendere famoso e chiaro qualunque fortunato Scrittore.</p>
+<p rend="italic">Ho io per tanto questa vostra approvazion conseguita? Voi benignamente
+mi lusingaste che sì. Soffriste tutte le sere le mie Commedie 
+al Teatro, e nelle repliche di esse con sempre eguale bontà osservaste 
+non solo voi, ma eccitaste ad osservar anche gli altri l'attenzione, e il 
+silenzio. E in casa mi concedeste di potervi leggere alcuna di esse Opere
+mie, e questa precisamente, che ora ardisco di presentarvi, il Teatro
+Comico intitolata, prima di esporla sulle Scene (dubitando io con ragione
+dell'esito per essere prefazione di Commedie piucché Commedia).
+La sottoposi al savissimo giudizio vostro, e voi vi compiaceste 
+d'approvarla animandomi a darla al publico, e presagendomi quel fortunato
+incontro, ch'essa in fatti ebbe in Milano.</p>
+<p rend="italic">Ad onta di tutto questo la cognizion di me medesimo non cessa di 
+farmi credere, che nel vostro compatimento abbiavi la maggior parte 
+la vostra grande bontà, la quale non fa rendere chi che sia sconsolato, 
+ma in ogni guisa, o sia, che delle povere fatiche mie piacer prendiate, o 
+che la vostra benignità nasconda a voi medesima i miei difetti, sarà 
+sempre per me gloriosa, e vera felicità l'essere da voi in pari modo 
+compatito, e protetto.</p>
+<p rend="italic">Se io consacro a voi, Nobilissima Dama, il mio Teatro Comico, che 
+vale a dire, quella Commedia, in cui ho procurato di dare un 'idea del 
+modo mio di pensare, e se voi, non solo vi degnate permettere, che in 
+fronte vi ponga il Venerabile nome vostro, ma della vostra approvazione
+l'avete preventivamente creduta degna, vengonsi ad autenticare 
+per vere, ed infallibili tutte le massime, e le direzioni da me proposte 
+per far rivivere, come so, e come posso la Commedia in Italia.</p>
+<p rend="italic">Voi siete quella Dama, che per grandezza gareggia colle principali 
+di Europa, tanto ricca di beni di Fortuna, quanto di Virtù, e di sapere, 
+onde, e per tutto questo, e per la rara vostra esemplar saviezza, moderazione,
+e prudenza, siete venerabile nella vostra gran Patria, e i giudizi vostri
+in Milano, e ovunque la fama arriva del vostro nome, sono 
+autorevoli, decisivi, e certi.</p>
+<p rend="italic">Taccia dunque, e suo mal grado si morda il labbro chi, o per invidia,
+o per altro men disonesto fine volesse le Commedie mie lacerare. 
+Tutte son'esse dal vostro nome difese, poiché se questa voi difendete, 
+che in certo modo è delle altre regola, e guida, non potete quelle che 
+seguono abbandonare.</p>
+<p rend="italic">Per compiere la Fortuna mia, e quella delle povere mie Commedie,
+mancami solo, che voi nella vostra splendida, e grandiosa villeggiatura,
+ove al numeroso concorso degli Ospiti, e dei Vicini, fra gli altri
+magnifici trattenimenti dar solete quello della Commedia, alcuna 
+delle mie rendiate degna di essere recitata da voi, e da' valorosi vostri 
+compagni.</p>
+<p rend="italic">La vostra facondia, il vostro spinto, il vostro brio non contenterebbesi
+già di quello, che rozzamente ho io scritto; ma di quante vezzose, 
+brillanti cose non sentirebbonsi arricchite le Scene, e quanta maggior 
+forza voi non dareste ai pensieri, agli affetti; giacché per detto comune 
+di tutti quelli, che hanno avuto la fortuna di udirvi, e di mirarvi, sulle 
+vostre nobili Scene, voi siete la miglior Attrice, e la piùpronta, e la più dotta parlatrice d'Italia.</p>
+<p rend="italic">Voi anche di quest'onore mi lusingaste, e in vano mai non parlate, 
+onde son quasi certo di conseguirlo, siccome ora, mercé la vostra benignità
+e grazia, posso imprimere su questo ossequioso foglio, ch'io sono 
+col più profondo rispetto.</p>
+<p rend="italic">Di Voi Nobilissima Dama</p>
+<p rend="italic">Umiliss. Divotiss. e Obblig. Serv.</p>
+<closer><signed>CARLO GOLDONI</signed>
+<dateline>Torino 24 Aprile 1751.</dateline></closer>
+</div1>
+<div1 type="epistola">
+<head>Lettera dell'autore allo stampatore</head>
+<p>Se a voi non fosse noto, ch'io sono occupato in lunghe, e continue
+fatiche; crederei certamente, che mi doveste incolpare, o di pigro, o di
+poco curante, poiché dal mese d'Ottobre ch'io fui in Venezia, ho prolungato
+fino al presente a mandarvi la prima Commedia da dare in luce nel Tomo
+secondo, che desiderate di pubblicare. Ma spero che a bastanza mi scusi
+appresso di voi, e appresso a quelle persone ancora, che attendessero la
+presente edizione, l'aver veduto che mi convenne in pochi mesi dettare
+sedici nuove Commedie per adempire l'obbligo mio, attenendo la promessa
+ch'io avea fatta pubblicamente. Oltre a questo ebbi ancora a soddisfare nel
+corso del medesimo tempo alcune altre persone, che mi richiesero di 
+quattro drammi faceti da fargli recitare in musica, e terminate il 
+Carnovale passato, posi incontanente mano a un altro Dramma che 
+dovrà rappresentarsi in San Samuele nel prossimo venturo Autunno.
+Da tante, e così continue fatiche torniato, non era possibile, 
+ch'io potessi pensare nello stesso tempo anche all'obbligo dell'edizione.
+Finalmente partitomi da Venezia, e giunto in Milano, quivi 
+mi soprattenni quindici giorni, per ristorarmi alquanto delle passate 
+fatiche, facendo la più lieta, e la più deliziosa vita, che mai far potessi:
+e di là poi pervenuto in Torino, ch'è quanto dire, nella più bella 
+Città, che vedessi mai, eccomi ritornato a' miei primi lavori. Tutto 
+ciò era necessario eh io vi dicessi, acciocché riducendovi a mente le 
+mie occupazioni, mi scusiate volentieri della mia tardanza. Ora finalmente
+fra gli altri lavori, che vado facendo, per dimostrarvi d'avere a memoria
+l'obbligo che ho con voi, riduco a qualche miglior 
+forma quelle 4 Commedie, che ho deliberato, che debbano formare 
+il secondo volume, ed ecco che per la prima vi mando quella ch'è 
+intitolata il <title>Teatro Comico.</title> E perché più tosto questa eleggessi, che 
+verun' altra vi renderò ragione al presente.</p>
+<p>Il <title>Teatro Comico</title>, piuttosto che una Commedia, è una Prefazione
+alle mie Commedie; e s'io l'avessi avuta nel tempo, che si pubblicava
+il primo volume, l'avrei a tutte le altre preferita appunto per 
+questa cagione. Io ho in essa palesemente notati tutti que' difetti, 
+che ho cercato di fuggire, e tutti que' fondamenti sopra i quali ho 
+stabilito il mio metodo nel comporre le Commedie. Né altra diversità
+è fra un proemio, e questo componimento, se non, che nel primo 
+avrei detto il mio parere forse con noia de' leggitori, e nel secondo 
+vado in parte schivando il tedio col movimento dell'azione. Io non 
+intesi perciò di dare nuove regole altrui; ma solamente di far conoscere,
+che con lunghe osservazioni, e con essercizio continuo, son 
+giunto ad aprirmi una via, da poter per essa camminare, non senza 
+sicurezza; di che mi fa fede il gradimento che trovano fra gli spettatori
+le mie Commedie. Io avrei desiderio, che qualunque persona si 
+dà al comporre in ogni qualità di studio, notificasse altrui per qual 
+cammino si è avviata, perciocché alle arti servirebbe sempre di lume,
+e di miglioramento. Così non meno bramo, che qualche nobile 
+Ingegno d'Italia si ponga a perfezionare l'opera mia, e a ricuperare 
+l'onor delle nostre Scene con le buone Commedie che sieno veramente
+Commedie, e non Scene insieme accozzate senza ordine, e 
+senza regola; e io, che fino ad ora sembrerà forse a taluno, che voglia 
+far da maestro, non mi vergognerò mai d'apprendere da chicchessia,
+quando abbia capacità d'insegnare.</p>
+<p>Vi ricorderete, che la Commedia, ch'io vi mando venne recitata 
+la prima sera dell'anno scorso, ed in essa erano innestati que' complimenti,
+che sogliono fare i Comici agli uditori la prima sera che 
+s'apre il Teatro, le quali cose furono poscia da me levate come pani 
+disutili nella stessa Commedia.</p>
+<p>Sollecitate la ristampa del primo, e la stampa del secondo tomo, 
+poiché in Milano ho esitati que' pochi primi, che m'avete consegnati,
+e qui è chi me ne richede ogni giorno; e io non ne ho, né voi ne 
+avete, onde fate che sieno apparechiati il più presto, che si possa, 
+per mandarmene con la prima occasione. Vi raccomando una buona
+correzione alle stampe, di che m'affido alla vigilanza vostra, e di 
+chi v'assiste, e state sano. Addio.</p>
+<dateline>Torino 24 Aprile 1751.</dateline>
+</div1>
+<castList>
+<head>Personaggi</head>
+<castItem type="role"><role><emph>Ottavio</emph>,</role> <roleDesc>primo amoroso, e capo della compagnia</roleDesc></castItem>
+<castItem type="role"><role><emph>Rosaura</emph>,</role> <roleDesc>prima donna</roleDesc></castItem>
+<castItem type="role"><role><emph>Beatrice</emph>,</role> <roleDesc>seconda donna</roleDesc></castItem>
+<castItem type="role"><role><emph>Florindo</emph>,</role> <roleDesc>secondo amoroso</roleDesc></castItem>
+<castItem type="role"><role><emph>Lelio</emph>,</role> <roleDesc>poeta</roleDesc></castItem>
+<castItem type="role"><role><emph>Eleonora</emph>,</role> <roleDesc>cantatrice</roleDesc></castItem>
+<castItem type="role"><role><emph>Colombina</emph>,</role> <roleDesc>servetta di teatro</roleDesc></castItem>
+<castItem type="role"><role><emph>Pantalone</emph></role></castItem>
+<castItem type="role"><role><emph>Dottore</emph>,</role> <roleDesc>prima senza maschera, e poi colla maschera</roleDesc></castItem>
+<castItem type="role"><role><emph>Brighella</emph>,</role> <roleDesc>prima senza maschera, e poi colla maschera</roleDesc></castItem>
+<castItem type="role"><role><emph>Arlecchino</emph>,</role> <roleDesc>prima senza maschera, e poi colla maschera</roleDesc></castItem>
+<castItem type="role"><role><emph>Il Suggeritore</emph></role></castItem>
+<castItem type="role"><role><emph>Uno Staffiere</emph>,</role> <roleDesc>che parla</roleDesc></castItem>
+<castItem type="role"><role><emph>Servitori di teatro</emph>,</role> <roleDesc>che non parlano</roleDesc></castItem>
+</castList>
+<set><p>La scena stabile è il teatro medesimo, in cui si
+rappresentano le commedie, con scene, e prospetto di camera;
+figurandosi esser di giorno, senza lumi, e senza spettatori.</p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>Atto primo</head>
+<div2 type="scena">
+<head>Scena prima</head>
+<stage>S'alza la tenda, e prima che intieramente sia alzata, esce</stage>
+<stage><emph>Ottavio, poi Florindo.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Fermatevi, fermatevi, non alzate la tenda, fermatevi <emph>(verso la scena)</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Perché, signor Ottavio, non volete, che si alzi la
+tenda?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per provare un terzo atto di commedia non ci è
+bisogno di alzar la tenda.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>E non ci è ragione di tenerla calata.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Signor sì, che vi è ragione di tenerla calata,
+signor sì. Voi altri signori non pensate a quello che penso
+io. Calate giù quella tenda <emph>(verso la scena)</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Fermatevi <emph>(verso la scena)</emph>. Se si cala la tenda,
+non ci si vede più, onde per provare le nostre scene, signor
+capo di compagnia, vi converrà far accender de' lumi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quand'è così, sarà meglio alzare la tenda. Tiratela
+su, che non voglio spendere in lumi <emph>(verso la scena)</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Bravo, viva l'economia.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh amico caro, se non avessi un poco d'economia, le cose anderebbero in precipizio. I comici non si
+arrichiscono, quanti ne acquistano, tanti ne spendono.
+Felici quelli che in capo all'anno la levano del pari; ma
+per lo più l'uscita è maggiore dell'entrata.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Vorrei sapere per qual causa non volevate alzare la
+tenda.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Acciocché non si vedesse da nessuno a provare le
+nostre scene.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>A mezza mattina, chi ha da venire al teatro?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh vi sono de' curiosi, che si leverebbero avanti
+giorno.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>La nostra compagnia è stata altre volte veduta, non
+vi sarà poi tanta curiosità.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Abbiamo de' personaggi nuovi.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>È vero; questi non si dee lasciarli vedere alle
+prove.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quando si vuol mettere in grazia un personaggio,
+conviene farlo un poco desiderare, e per farlo comparire,
+bisogna dargli poca parte, ma buona.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Eppur vi sono di quelli, che pregano i poeti,
+acciocché facciano due terzi di commedia sopra di loro.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Male, malissimo. Se sono buoni annoiano, se sono
+cattivi, fanno venir la rabbia.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Ma qui si perde il tempo, e non si fa cosa alcuna.
+Questi signori compagni non vengono.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>L'uso comune de' commedianti; levarsi sempre tardi.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>La nostra maggior pena sta nelle prove.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma le prove sono quelle, che fanno buono il comico.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Ecco la prima donna.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non è poco, che sia venuta prima degli altri. Per
+usanza le prime donne hanno la vanità di farsi aspettare.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena seconda</head>
+<stage><emph>Rosaura, e detti.</emph></stage>
+<sp><speaker>ROSAURA</speaker> <p>Ecco qui; io son la prima di tutti. Queste signore donne non favoriscono? Signor Ottavio, se tardano io me ne vado.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Cara signora Rosaura, siete venuta in questo
+momento, e di già v'inquietate? Abiate pazienza; ne ho tanta
+io; abbiatene un poca voi ancora.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Parmi, che a me si potesse mandarne l'avviso, quando
+tutti stati fossero ragunati.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>(Sentite? Parla da prima donna) <emph>(piano ad Ottavio)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>(Ci vuol politica; convien sofferirla). Signora mia,
+vi ho pregata a venir per tempo, e ho desiderato, che
+veniste prima degli altri, per poter discorrere fra voi e
+me, qualche cosa toccante la direzione delle nostre
+commedie.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Non siete il capo della compagnia? Voi potete
+disporre senza dipendere.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Posso disporre, egli è vero, ma ho piacere, che
+tutti siano di me contenti; e voi specialmente, per cui ho
+tutta la stima.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>(Volete voi dipendere da' suoi consigli?) <emph>(piano ad Ottavio)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>(Questa è la mia massima; ascolto tutti, e poi fo a
+mio modo) <emph>(piano a Florindo)</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Ditemi, signor Ottavio, qual'è la commedia, che
+avete destinato di fare domani a sera?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quella nuova intitolata: <emph>Il Padre rivale del figlio</emph>. Ieri abbiamo provato il primo, e il secondo atto, e
+oggi proveremo il terzo.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Per provarla non ho difficoltà, ma per farla domani
+a sera, non sono persuasa.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>(Sentite? Non l'approva) <emph>(piano ad Ottavio)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>(E che sì, che l'approverà?) <emph>(piano a Florindo)</emph>.
+Qual altra commedia credereste voi, che fosse meglio
+rappresentare?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Il poeta, che somministra a noi le commedie, ne ha
+fatte in quest'anno sedici tutte nove, tutte di carattere,
+tutte scritte. Facciamone una di quelle.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Sedici commedie in un anno! Pare impossibile.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì certamente, egli le ha fatte. Si è impegnato di
+farle, e le ha fatte.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Quali sono i titoli delle sedici commedie fatte in
+un anno?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Ve le dirò io: <emph>Il teatro comico</emph>, <emph>I puntigli delle donne</emph>, <emph>La bottega del caffè</emph>, <emph>Il bugiardo</emph>,
+<emph>L'adulatore</emph>, <emph>I poeti</emph>, <emph>La Pamela</emph>, <emph>Il cavalier di buon gusto</emph>, <emph>Il giuocatore</emph>, <emph>Il vero amico</emph>, <emph>La finta ammalata</emph>, <emph>La donna prudente</emph>, <emph>L'incognita perseguitata dal bravo impertinente</emph>, <emph>L'avventuriere onorato</emph>, <emph>La donna volubile</emph>, <emph>I pettegolezzi delle donne</emph>, comedia veneziana.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Fra queste non è la commedia, che abbiamo a fare
+domani a sera. Non è forse anch'essa del medesimo autore?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì, è sua; ma è una picciola farsa, ch'egli non
+conta nel numero delle sue commedie.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Perché dunque vogliamo fare una farsa, e non più
+tosto una delle migliori commedie?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Cara signora Rosaura, sapete pure, che ci mancano
+due parti serie, un uomo, ed una donna. Questi si aspettano,
+e se non giungono, non si potranno fare commedie di
+carattere.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Se facciamo le Commedie dell'Arte, vogliamo star
+bene. Il mondo è annoiato di veder sempre le cose istesse,
+di sentir sempre le parole medesime, e gli uditori sanno
+cosa deve dir l'Arlecchino prima, ch'egli apra la bocca. Per
+me, vi protesto, signor Ottavio, che in pochissime commedie
+antiche reciterò; sono invaghita del nuovo stile, e questo
+solo mi piace: dimani a sera reciterò, perché, se la
+commedia non è di carattere, è almeno condotta bene, e si
+sentono ben maneggiati gli affetti. Per altro, se non si
+compie la compagnia, potete anche far di meno di me.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma frattanto...</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Orsù signor Ottavio, sono stata in piedi tanto che
+basta. Vado nel mio camerino a sedere. Quando si prova,
+chiamatemi, e dite a coteste signore comiche, che non si
+avvezzino a far aspettare la prima donna <emph>(via)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena terza</head>
+<stage><emph>Ottavio, e Florindo.</emph></stage>
+<sp><speaker>FLORINDO</speaker> <p>Io crepo dalle risa.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Voi ridete, e io bestemmierei.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Non mi avete detto, che ci vuoi pazienza?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì, la pazienza ci vuole, ma il veleno mi rode.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Ecco il Pantalone.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Caro amico, fatemi un piacere, andate a sollecitar
+coteste donne.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Volentieri, anderò. Già preveggo di ritrovarle, o
+in letto, o alla tavoletta. Queste sono le loro principali
+incombenze, o riposare, o farsi belle <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quarta</head>
+<stage><emph>Ottavio, poi Pantalone.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Ben levato signor Pantalone.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Patron riverito.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Che avete, che mi parete turbato?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>No so, gnanca mi. Me sento un certo tremazzo a
+torno, che me par d'aver la freve.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Lasciate, ch'io senta il polso.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Tolè pur, Compare, sappième dir, se el bate a tempo
+ordinario, o in tripola.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Voi non avete febbre, ma il polso è molto agitato;
+qualche cosa avete, che vi disturba.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Saveu cosa, che gh'ho? Una paura, che non so in che
+mondo che sia.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Avete paura? Di che?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Caro sior Ottavio, buttemo le burle da banda, e
+parlemo sul sodo. Le commedie de carattere le ha butà
+sottosora el nostro mistier. Un povero commediante, che ha
+fatto el so studio segondo l'arte, e che ha fatto l'uso de
+dir all'improvviso ben mal quel che vien, trovandose in
+necessità de studiar, e de dover dir el premedità, se el
+gh'ha reputazion, bisogna, che el ghe pensa, bisogna, che el
+se sfadiga a studiar, e che el trema sempre ogni volta, che
+se fa una niova commedia, dubitando, o de no saverla quanto
+basta, o de no sostegnir el carattere come xè necessario.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Siamo d'accordo, signor Pantalone, che questa nuova
+maniera di recitare esige maggior fatica, e maggior
+attenzione; ma quanto maggior riputazione ai comici
+acquista? Ditemi di grazia, con tutte le commedie dell'arte,
+avreste mai riscosso l'applauso, che avete avuto nell'<emph>Uomo Prudente</emph>, nell'<emph>Avvocato</emph>, nei <emph>Due gemelli</emph>, nel <emph>Vero Amico</emph>, nei <emph>Poeti</emph>, nell'<emph>Avventuriere</emph>, e in tante altre,
+nelle quali il poeta si è compiaciuto di preeleggere il
+Pantalone?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Xè vero; son contentissimo, ma tremo sempre. Me par
+sempre, che el sbalzo sia troppo grando, e me arecordo quei
+versi del Tasso:</p>
+<l>Mentre ai voli troppo alti e repentini</l>
+<l>Sogliono i precipizi esser vicini.</l>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sapete il Tasso? Si vede, che siete pratico di
+Venezia, e del gusto di essa quanto al Tasso, che vi si
+canta quasi comunemente.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Oh in materia de Venezia, so anca mi de barca
+menar.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Vi siete divertito in essa da giovine?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Che cade! Ho fatto un poco de tutto.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Colle belle donne come ve la siete passata?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker>
+<l>E porto in me di quelle donne istesse</l>
+<l>le onorate memorie ancora impresse.</l>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Bravo signor Pantalone; mi piace il vostro brio,
+la vostra giovialità; spesse volte vi sento cantare.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Sior sì; co no gh'ho bezzi canto sempre.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Fatemi un piacere, fino a tanto, che i nostri
+carissimi signori compagni ci favoriscono di venire,
+cantatemi una canzonetta.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Dopo, che ho studià tre ore, volè che canta?
+Compatime, no ve posso servir.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Già siamo soli, nessuno ci sente.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>In verità, che no posso; un'altra volta ve servirò.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Fatimi questo piacere. Bramo di sentire, se state
+bene di voce.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>E se stago ben, me voleu farsi far cantar in
+teatro?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Perché no?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Voleu, che ve diga? Mi fazzo da Pantalon, e no da
+musico, e se avesse volesto far da musico, no gh'averia
+l'incomodo della barba <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quinta</head>
+<stage><emph>Ottavio, poi Colombina.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Dice così, ma è compiacente. Se farà di bisogno, son
+certo, ch'ei canterà.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Riverisco il signor Ottavio.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh, signora Colombina, vi sono schiavo; voi siete
+delle più diligenti.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Io faccio sempre volentieri il mio debito, e che ciò
+sia la verità osservate: siccome la parte, che mi è toccata
+nella commedia, che oggi si prova, è lunga un dito, ne ho
+presa un altra in mano, e a vado studiando.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Bravissima, così mi piace. Di che commedia è la
+parte, che avete in mano?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Questa è la parte di <emph>Catte</emph> nella <emph>Putta onorata</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ah, ah! vi piace quel caratterino di Pelarina?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Sulla scena sì, ma fuori della scena no.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eh! o poco, o molto, le donne pelano sempre.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Una volta pelavano, ma adesso son finiti i polastri.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E pure si vede anche adesso dei giovanotti pelati
+fino all'osso.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Sapete perché? Ve lo dirò io. Prima di tutto perché
+le penne son poche, poi una penna al giuoco, un'altra a
+crapola, una ai teatri, una ai festini; per le povere donne
+non restano, che le picciole penne matte, e qualche volta
+tocca a noi altre a rivestire cotesti poveri spennacchiati.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Voi ne avete mai rivestito alcuno?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Oh io non son gonza.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Certo, che saprete il fatto vostro, siete
+commediante.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>So il fatto mio quanto basta per non lasciarmi
+infinocchiare, per altro circa l'essere commediante, vi sono
+di quelle, che non girano il mondo; vi sono delle
+casalinghe, che ne fanno cento volte più di noi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sicché dunque per esser furba, basta esser donna.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>È vero, ma sapete perché, le donne son furbe?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Perché?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Perché gli uomini insegnano loro la malizia.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per altro, se non fossero gli uomini, sareste
+innocentissime.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Senza dubbio.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E noi saremmo innocenti se non foste voi altre
+donne.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eh galeotti maledetti!</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eh streghe in diavolate!</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Orsù, signor Ottavio, cosa facciamo? Si prova, o non
+si prova?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mancano ancora le signore donne, l'Arlecchino, e il
+Brighella.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena sesta</head>
+<stage><emph>Brighella, e detti.</emph></stage>
+<sp><speaker>BRIGHELLA</speaker> <p>Brighella l'è qua per servirla.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh bravo.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Son sta' fin'adesso a discorrer con un poeta.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Poeta? Di qual genere?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Poeta comico.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>È un certo signor Lelio?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Giusto el sior Lelio.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>È stato anche a trovar me, e subito che l'ho
+veduto, l'ho raffigurato per poeta.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per qual cagione?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Perché era miserabile, e allegro.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Da questi segni l'avete raffigurato per poeta?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Sì, signore. I poeti a fronte delle miserie, si
+divertiscono colle Muse, e stanno allegri.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Oh ghe n'è dei altri, che fa cusì.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E quali sono?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>I commedianti.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>È vero, è vero; anch'essi, quando non hanno danari
+vendono, e impegnano per star allegri.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ghe n'è de quei, che i è pieni de cucche, e i va'
+intrepidi come paladini.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Perdonatemi, signori miei, fate torto a voi stessi
+parlando così. In tutta l'arte comica vi saranno pur troppo
+de' malviventi; ma di questi il mondo è pieno, e in tutte le
+arti qualcheduno se ne ritrova. Il vero comico deve essere,
+come tutti gli altri onorato, deve conoscere il suo dovere,
+e deve essere amante dell'onore, e di tutte le morali virtù.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>El comico pol aver tutte le virtù, fora d'una.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E qual'è quella virtù, che non può avere?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>L'economia.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Appunto come il poeta.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eppure, se vi è nessuno, che abbia bisogno
+dell'economia, il recitante delle commedie dovrebbe essere
+quegli, perché essendo l'arte comica soggetta a infinite
+peripezie, l'utile è sempre incerto, e le disgrazie
+succedono facilmente.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Sto poeta lo volemio sentir?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Noi non ne abbiamo bisogno.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>N'importa; sentimolo per curiosità.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per semplice curiosità non lo sentirei. Degli uomini
+dotti dobbiamo aver rispetto. Ma perché, voi me lo
+proponete, lo sentirò volentieri: e se averà qualche buona
+idea, non sarò lontano dall'accettarla.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>E il nostro poeta non se l'avrebbe a male?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Niente. Conosco il suo carattere. Egli se l'avrebbe
+a male se cotesto signor Lelio volesse strapazzare i
+componimenti suoi, ma se sarà un uomo di garbo, e un savio e
+discreto critico, son certo, che gli sarà buon amico.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Donca lo vado a introdur?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì, e fatemi il piacere d'avvisare gli altri,
+acciocché si trovino tutti qui a sentirlo. Ho piacere, che
+ognuno dica il suo sentimento. I commedianti, ancorché non
+abbiano l'abilità di comporre le commedie, hanno però
+bastante cognizione per discernere le buone dalle cattive.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Sì, ma gh'è de quelli, che pretende giudicar della
+commedia dalla so parte. Se la parte l'è longa, i dise, che
+la commedia l'è bona, se la parte l'è curta, i dise, che la
+commedia l'è cattiva, ogiun vorria esser in grado de far la
+prima figura, e el comico giubila, e gode, col sente le
+risade, e le sbattude de man.
+Poiché se el popol ride, e lieto applaude
+el comico sarà degno di laude.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena settima</head>
+<stage><emph>Ottavio, e Colombina.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Ecco i soliti versi. Una volta tutte le scene si
+terminavano così.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>È verissimo; tutti i dialoghi si finivano in
+canzonetta. Tutti i recitanti all'improvviso diventavano
+poeti.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oggidì essendosi rinnovato il gusto delle commedie,
+si è moderato l'uso di tali versi.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Gran novità si sono introdotte nel teatro comico.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Pare a voi, che chi ha introdotto tali novità abbia
+fatto più male, o più bene?</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Questa è una quistione, che non è per me. Ma però
+vedendo, che il mondo vi applaudisce, giudico, che averà
+fatto più bene, che male. Vi dico ciò non ostante, che per
+noi ha fatto male, perché abbiamo da studiare assai più, e
+per voi ha fatto bene, perché la cassetta vi frutta meglio
+<emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ottava</head>
+<stage><emph>Ottavio, poi Arlecchino.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Tutti fanno i conti sulla cassetta, e non pensano
+alle gravi spese, che io ho! Se un anno va male, addio
+signor capo. Oh ecco l'Arlecchino.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Signor Ottavio, siccome ho l'onore di favorirla
+colla mia insufficienza, così son venuto a ricever
+l'incomodo delle so grazie.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Viva il signor Arlecchino. (No so se parli da
+secondo zanni, o creda di parlar bene).</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Mi hanno detto, ch'io venga allo sconcerto, e non ho
+mancato, anzi ero in una bottega, che bevevo il caffè, e per
+far presto, ho rotto la chiccara per servirla...</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mi dispace d'essere stato cagione di questo male.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Niente, niente, <emph>Post factum nullum consilium</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>(È un bell'umore davvero). Mi dica, signor
+Allecchino, come le piace Venezia?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Niente affatto.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>No! Perché?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Perché ieri sera son cascado in canale.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Povero signore Arlecchino, come ha fatto?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Vi dirò: siccome la navicella...</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma ella parla toscano?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Sempre a rotta de collo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Il secondo zanni non deve parlar toscano.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Caro signor, la me diga, in che linguaggio parla el
+secondo zane?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dovrebbe parlare bergamasco.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Dovrebbe! Lo so anch'io dovrebbe. Ma come parla?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non lo so nemmen io.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Vada dunque a imparare come parlano gl'Arlecchini, e
+poi venga a correggere noi. La lara, la lara <emph>(canticchiando con aria)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>(Fa ridere ancora me). Ditemi un poco, come avete
+fatto a cadere in aqua?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>In tel smontar da una gondola, ho messo un piede in
+terra, e l'altro sulla banda della barca. La barca s'ha
+slontanà dalla riva, e mi de bergamasco son diventà
+venezian.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Signor Arlecchino, domani a sera bisogna andar in
+scena colla commedia nuova.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Son qua, muso duro, fazza tosta, gnente paura.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Arriccordatevi, che non si recita più all'antica.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>E nu reciteremo alla moderna.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ora si è rinnovato il buon gusto.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>El bon, el piase anca ai bergamaschi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E gli uditori non si contentano di poco.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Vu fè de tutto per metterme in suggezion, e no farè
+gnente. Mi fazzo un personaggio, che ha da far rider, se ho
+da far rider i altri, bisogna prima, che rida mi, onde no
+ghe vòi pensar. La sarà co la sarà, d'una cosa sola
+pregherò, supplicherò la mia carissima, la mia pietosissima
+udienza, per carità, per cortesia, che se i me vol onorar de
+qualche dozena de pomi, in vece de crudi, che i li toga
+cotti.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Lodo la vostra franchezza. In qualche altra persona
+potrebbe dirsi temerità, ma in un Arlecchino, il quale, come
+dite voi, deve far ridere, questa giovialità, questa
+intrepidezza è un bel capitale.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Audaces Fortuna iuvat, timidosque</emph>, con quel che
+segue.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Tra poco devo sentire un poeta, e poi voglio, che
+proviamo qualche scena.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Se volì un poeta, son qua mi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Siete anche poeta?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Eccome!</p>
+<l>Anch'io de' pazzi ho il triplicato onore.</l>
+<l>Son poeta, son musico, e pittore <emph>(parte)</emph>.</l>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Buono, buono. Mi piace assai. In un Arlecchino
+anche i versi son tollerabili. Ma cotesti signori non
+vengono. Anderò io a sollecitargli. Gran pazienza ci vuole a
+far il capo di compagnia. Chi non lo crede provi una
+settimana, e protesto, che gliene anderà via subito la
+volontà <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena nona</head>
+<stage><emph>Beatrice, ed il Dottore senza maschera.</emph></stage>
+<sp><speaker>BEATRICE</speaker> <p>Via signor Dottore favoritemi, andiamo. Voglio che
+siate voi il mio cavaliere servente.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>in cielo me ne liberi.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Per qual cagione?</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Perché in primo luogo, io non son così pazzo che
+voglia assoggettarmi all'umore stravagante di una donna. In
+secondo, perché se volessi farlo, lo farei fuori di
+compagnia, che chi ha giudizio porta la puzza lontano da
+casa; e in terzo luogo, perché con lei farei per l'appunto
+la parte dal Dottore nella commedia intitolata: <emph>La Suocera, e la Nuora</emph>.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Che vuol dire?</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Per premio della mia servitù, non potrei attendere
+altro, che un bicchier d'acqua nel viso.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Sentite, io non bado a queste cose. Serventi non
+ne ho mai avuto, e non ne voglio, ma quando dovessi averne,
+gli vorrei giovani.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Le donne s'attaccano sempre al loro peggio.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Non è mai peggio quello che piace.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Non s'ha da cercar quel che piace, ma quel che
+giova.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Veramente non siete buono da altro, che da dar
+buoni consigli.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Io son buono per dargli, ma ella a quanto veggo non
+è buona da ricevergli.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Quando sarò vecchia, gli riceverò.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Principiis obsta; sero medicina paratur</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena decima</head>
+<stage><emph>Ottavio, Florindo, Rosaura, e i detti.</emph></stage>
+<sp><speaker>BEATRICE</speaker> <p>Buon giorno, signora Rosaura.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Riverisco la signora Beatrice.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Come sta? Sta bene?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Benissimo per servirla. E ella?</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Eh così, così! Un poco abbattuta dal viaggio.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>O che gran patimenti sono questi viaggi!</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Mi fanno ridere quelli che dicono, che noi andiamo a spasso, a divertirci pel mondo.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Spasso eh? Si mangia male, si dorme peggio, si patisce ora il caldo, e ora il freddo. Questo spasso lo lascierei pur volentieri.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Signore mie, hanno terminato i loro complimenti?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>I miei complimenti gli finisco presto.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Io pure non m'ingolfo colle cerimonie.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sediamo dunque. Servitori, dove siete. Portate da
+sedere <emph>(I servitori portano le sedie, tutti siedono, le donne stanno vicine)</emph>. Or ora sentiremo un poeta da nuovo.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Lo sentirò volentieri.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Eccolo, che viene.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Poverino! È molto magro.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena undicesima</head>
+<stage><emph>Lelio, e i detti.</emph></stage>
+<sp><speaker>LELIO</speaker> <p>Servitor umilissimo a loro signori <emph>(tutti lo salutano)</emph>. Mi favoriscano di grazia; qual è di queste
+signore la prima donna?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ecco qui la signora Rosaura.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Permetta, che con tutto il rispetto eserciti un
+atto del mio dovere <emph>(le bacia la mano)</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Mi onora troppo, signore io non lo merito.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ella, signora, è forse la seconda donna? <emph>(a Beatrice)</emph>.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Per servirla.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Permetta, che ancora seco... <emph>(come sopra)</emph>.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>No certamente <emph>(la ritira)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>La supplico... <emph>(torna a provare)</emph>.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Non s'incomodi <emph>(come sopra)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>È mio debito.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Come comanda <emph>(gliela bacia)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Questo poeta è molto cerimonioso <emph>(a Florindo)</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>I poeti colle donne sono quasi tutti così <emph>(ad Ottavio)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ella dunque è il signor Lelio, celebre compositore
+di commedie, non è così?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>A' suoi comandi. Chi è V. S. se è lecito di saperlo?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sostengo la parte di primo amoroso, e sono il capo
+della compagnia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Lasci dunque, che eserciti seco gli atti del mio
+rispetto <emph>(lo riverisce con affettazione)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>La prego non s'incomodi. Eh là, dategli da sedere.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ella mi onora con troppa bontà <emph>(servi portano una sedia vicino a Florindo, e partono)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>S'accomodi.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ora, se mi permette anderò vicino a queste belle
+signore.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ella sta volentieri vicino alle donne.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Vede bene. Le Muse son femmine. Viva il bel sesso.
+Viva il bel sesso.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Signor poeta, le son servitore.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Schiavo suo. Chi è ella, mio padrone?</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Il dottor per servirla.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Bravo, me ne rallegro. Ho una bella commedia fatta
+per lei.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Com'è intitolata?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Il Dottore ignorante</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Mi diletto anch'io sa ella di comporre, ed ho fatto
+ancor io una commedia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sì? Com'è intitolata?</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Il Poeta matto</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Viva il signor Dottore. Madama, ho delle scene di tenerezza, fatte apposta per voi, che faranno piangere non
+solo gl'uditori, ma gli scanni stessi <emph>(a Rosaura)</emph>.
+Signora, ho per voi delle scene di forza, che faranno
+battere le mani anco a' palchi medesimi <emph>(a Beatrice)</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>(Piangere li scanni, battere le mani a' palchi.
+Questo è un poeta del Seicento) <emph>(da sé)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ci favorisca di farci godere qualche cosa di bello.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Questa è una commedia a soggetto, che ho fatta in
+tre quarti d'ora.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Si può ben dire, che è fatta -
+precipitevolissimevolmente.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Senta il titolo. <emph>Pantalone padre amoroso, con Arlecchino servo fedele, Brighella mezzano per interesse, Ottavio economo in villa, e Rosaura delirante per amore</emph>.
+Ah, che ne dite? È bello? Vi piace? <emph>(alle donne)</emph>. <emph>(verso la scena</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>È un titolo tanto lungo, che non me lo ricordo più.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>È un titolo che comprende quasi tutta la
+compagnia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Questo è il bello; far che il titolo serva
+d'argomento alla commedia.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mi perdoni, signor Lelio. Le buone commedie devono
+avere l'unità dell'azione; uno deve essere l'argomento, e
+semplice deve essere il loro titolo.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Bene. Meglio è abbondare, che mancare. Questa
+commedia ha cinque titoli, prendete di essi qual più vi
+piace. Alzi fate così, ogni anno che tornate a recitarla,
+mutate il titolo, e averete per cinque anni una commedia,
+che parerà sempre nuova.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Andiamo avanti. Sentiamo come principia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ah Madama, gran piacere proverò io, se avrò l'onore
+di scrivere qualche cosa per voi <emph>(a Rosaura)</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Mi dispiace, ch'io le farò poco onore.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Quanto mi piace la vostra idea! Siete fatta apposta
+per sostenere il carattere di una bellezza tiranna <emph>(A Beatrice)</emph>.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Il signor poeta mi burla.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Lo dico con tutto il core.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Signor poeta, di grazia, ha ella mai recitato?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ho recitato nelle più celebri accademie d'Italia.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Mi pare, che V. S. sia fatto appunto per le scene
+di caricatura.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E così, signore si può sentire questo soggetto?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Eccomi, subito vi servo: <emph>Atto primo. Strada. Pantalone, e Dottore. Scena d'amicizia</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Anticaglia, anticaglia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma di grazia ascoltatemi. <emph>Il Dottore chiede la figlia a Pantalone</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>E Pantalone gliela promette.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Bravo, è vero. <emph>E Pantalone gliela promette. Il Dottore si ritira. Pantalone picchia, e chiama Rosaura</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E Rosaura viene in istrada.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sì signore, e Rosaura viene in istrada.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Con sua buona grazia, non voglio sentir altro
+<emph>(s'alza)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Perché? Cosa c'è di male?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Questa enorme improprietà di far venire le donne, in
+istrada è stata tollerata in Italia per molti anni con
+iscapito del nostro decoro. Grazie al Cielo l'abbiamo
+corretta, l'abbiamo abolita, e non si ha più da permettere
+sul nostro teatro.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Facciamo così. <emph>Pantalone va in casa della figlia, e il Dottor resta</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E frattanto che Pantalone sta in casa, cosa deve dir
+il Dottore?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Mentre Pantalone è in casa, il Dottore... dice quel, che vuole. In questo</emph>, sentite. <emph>In questo Arlecchino servo del Dottore viene pian piano, e dà una bastonata al padrone</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oibò, oibò sempre peggio.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Se il poeta facesse da Dottore, il lazzo anderebbe
+bene.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Che il servo bastoni il padrone è una indignità.
+Purtroppo è stato praticato da' comici questo bel lazzo, ma
+ora non si usa più. Si può dare maggior inezia? Arlecchino
+bastona il padrone, e il padrone lo soffre perché è faceto?
+Signor poeta, se non ha qualche cosa di più moderno, la
+prego, non s'incomodi più oltre.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sentite almeno questo dialogo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sentiamo il dialogo.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Dialogo primo. Uomo prega, donna scaccia.</emph> (Uomo)
+<emph>Tu sorda più del vento, non odi il mio lamento?</emph> (Donna)
+<emph>Olà, vammi lontano, insolente qual mosca, o qual tafano.</emph>
+(Uomo) <emph>Idolo mio diletto...</emph></p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non posso più.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Abbiate compassione...</emph></p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Andategli a cantar sul colascione <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>(S'accosta a Florindo)</emph> (Donna) <emph>Quanto più voi mi amate, tanto più mi secate.</emph> (Uomo) <emph>Barbaro core ingrato.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Anch'io signor poeta, son seccato <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>(Donna) <emph>(va dal Dottore)</emph> <emph>Va' pure amante insano, già tu mi preghi invano.</emph> (Uomo) <emph>Sentimi o Donna o Dea.</emph></p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Oh mi ha fatto venir la diarrea <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>(Donna). <emph>(va da Beatrice)</emph> <emph>Fuggi vola sparisci.</emph>
+(Uomo) <emph>Fermati, o cruda Arpia.</emph></p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Vado via, vado via <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Non far di me strapazzo (verso Rosaura).</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Signor Poeta mio, voi siete pazzo <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>(Donna) <emph>Non sperar da me pietà, che pietà di te non ho.</emph> (Uomo) <emph>Se pietà da te non ho, disperato morirò.</emph>
+Come! tutti si sono partiti? Mi hanno piantato? Così
+scherniscono un uomo della mia sorta? Giuro al Cielo mi
+vendicherò. Farò loro vedere chi sono. Farò recitare le mie
+commedie a dispetto loro, e se altro luogo non troverò per
+esporle, le farò recitar sopra un banco in piazza da una
+compagnia di valorosissimi cerretani. Chi sono costoro, che
+pretendono tutto a un tratto di rinnovare il teatro comico?
+Si dànno ad intendere per aver esposto al pubblico alcune
+commedie nuove di cancellare tutte le vecchie? Non sarà mai
+vero, e con le loro novità, non arriveranno mai a far tanti
+danari, quanti ne ha fatti per tanti anni il gran <emph>Convitato di Pietra</emph>.</p>
+</sp>
+</div2></div1>
+<div1 type="atto">
+<head>Atto secondo</head>
+<div2 type="scena">
+<head>Scena prima</head>
+<stage><emph>Lelio, e Brighella.</emph></stage>
+<sp><speaker>LELIO</speaker> <p>Signor Brighella, son disperato.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ma, caro signor, la ghe va a proponer per prima
+commedia una strazza d'un soggetto, che no l'è gnanca bon
+per una compagnia de bambocci.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>In quanto al soggetto mi rimetto, ma il mio
+dialogo, non lo dovevano strapazzare così.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ma no sàla, che dialoghi, uscite, soliloqui,
+rimproveri, concetti, disperazion, tirade, le son cosse, che
+no le usan più?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma presentemente che cosa si usa?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Commedie de carattere.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Oh delle commedie di carattere, ne ho quante ne
+vogliono.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Perché donca no ghe n'àla proposto qualcheduna al
+nostro capo?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Perché non credeva, che gl'Italiani avessero il
+gusto delle commedie di carattere.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Anzi l'Italia adesso corre drio unicamente a sta
+sorte de commedie, e ghe dirò de più, che in poco tempo ha
+tanto profità el bon gusto nell'animo delle persone, che
+adesso anca la zente bassa decide francamente sui caratteri,
+e su i difetti delle commedie.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Quella è una cosa assai prodigiosa.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ma ghe dirò anca el perché. La commedia l'è stada
+inventada per corregger i vizi, e metter in ridicolo i
+cattivi costumi, e quando le commedie dai antighi se faceva
+così, tuto el popolo decideva, perché vedendo la copia d'un
+carattere in scena, ognun trovava, o in se stesso, o in
+qualchedun'altro l'original. Quando le commedie son
+deventade meramente ridicole, nissun ghe abbadava più,
+perché, col pretesto de far rider, se ammetteva i più alti,
+i più sonori spropositi. Adesso che se torna a pescar le
+commedie nel <emph>mare magnum</emph> della natura, i omeni se sente a
+bisegar in tel cor, e investindose della passion, o del
+carattere, che se rappresenta, i sa discerner se la passion
+sia ben sostegnuda, se il carattere sia ben condotto, e
+osservà.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Signor Brighella, voi parlate in una maniera, che
+parete più poeta, che commediante.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ghe dirò, patron. Colla maschera son Brighella,
+senza maschera son un omo, che se non è poeta per
+l'invenzion, ha però quel discernimento, che basta per
+intender el so mistier. Un comico ignorante no pol riuscir
+in nessun carattere.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>(Ho gran timore, che questi comici ne sappiano più
+di me). Caro amico, fatemi il piacere di dire al vostro capo
+di compagnia, che ho delle commedie di carattere.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ghe lo dirò, e la pol tornar stassera, o
+domattina, che gh'averò parlà.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>No; avrei fretta di farlo adesso.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>La vede; s'ha da concertar alcune scene de
+commedia per doman de sera; adesso nol ghe poderà abbadar.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Se non mi ascolta subito, vado via, e darò le mie
+commedie a qualche altra compagnia.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>La se comodi pur. Nu no ghe n'avemo bisogno.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Il vostro teatro perderà molto.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Ghe vorrà pazienza.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Domani devo partire; se ora non mi ascolta non
+faremo più a tempo.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>La vaga a bon viazo.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Amico, per dirvi tutto col cuore sulle labbra, non
+ho denari, e non so come far a mangiare.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Questa l'è una bella rason, che me persuade.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Mi raccomando alla vostra assistenza; dite una
+buona parola per me.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Vado da sior Ottavio, e spero, che el vegnirà a
+sentir subito cossa che la gh'ha, circa ai caratteri. (Ma
+credo, che el più bel carattere de commedia sia el suo, cioè
+el poeta affamado) <emph>(da sé, e parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena seconda</head>
+<stage><emph>Lelio, poi Rosaura.</emph></stage>
+<sp><speaker>LELIO</speaker> <p>Sono venuto in una congiuntura pessima. I comici
+sono oggidì illuminati; ma non importa. Spirito, e
+franchezza. Può darsi, che mi riesca di far valere
+l'impostura. Ma ecco la prima donna che torna. Io credo di
+aver fatta qualche impressione sullo spirito di lei.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Signor Lelio ancora qui?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sì mia signora, qual invaghita farfalla mi vo
+raggirando intorno al lume delle vostre pupille.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Signore, se voi seguiterete questo stile, vi farete
+ridicolo.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma i vostri libri, che chiamate <emph>generici</emph> non sono
+tutti pieni di questi concetti?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>I miei libri, che contenevano tali concetti gli ho
+tutti abbruciati, e così hanno fatto tutte quelle recitanti,
+che sono dal moderno gusto illuminate. Noi facciamo per lo
+più commedie di carattere, premeditate, ma quando ci accade
+di parlare all'improvviso, ci serviamo dello stil familiare,
+naturale, e facile, per non distaccarsi dal verisimile.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Quand'è così, vi darò io delle commedie scritte con
+uno stile sì dolce, che nell'impararle v'incanteranno.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Basta che non sia stile antico, pieno d'<emph>antitesi</emph>,
+e di <emph>traslati</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>L'<emph>antitesi</emph> forse non fa bell'udire? Il
+contrapposto delle parole non suona bene all'orecchio?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Fin che l'<emph>antitesi</emph> è <emph>figura</emph>, va bene; ma quando
+diventa <emph>vizio</emph> è insoffribile.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Gli uomini della mia sorta, sanno dai <emph>vizi</emph> trar
+le <emph>figure</emph>, e mi dà l'animo di rendere una graziosa figura
+di <emph>repetizione</emph> la più ordinaria <emph>cacofonia</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Sentirò volontieri le belle produzioni dello spirito
+di lei.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ah, signora Rosaura, voi avete ad essere la mia
+sovrana, la mia stella, il mio nume.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Questa <emph>figura</emph> mi pare <emph>iperbole</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Andrò investigando colla mia più fina <emph>retorica</emph>
+tutti i <emph>luoghi topici</emph> del vostro cuore.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>(Non vorrei, che la sua <emph>retorica</emph> intendesse di
+passare all'<emph>umanità</emph> ).</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Dalla vostra bellezza <emph>argomento filosoficamente</emph> la
+vostra bontà.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Piuttosto che <emph>filosofo</emph>, mi parete un bel
+<emph>matematico</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Mi renderò <emph>speculativo</emph> nelle prerogative del
+vostro merito.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Fallate il <emph>conto</emph>, siete un cattivo <emph>aritmetico</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Spero, che colla perfezione dell'<emph>optica</emph> potrò
+<emph>speculare</emph> la vostra bellezza.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Anche in questo siete un pessimo <emph>astrologo</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>È possibile, che non vogliate esser <emph>medica</emph>
+amorosa delle mie piaghe?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Sapete cosa sarò? Un <emph>giudice legale</emph>, che vi farà
+legare, e condurre allo spedale de' pazzi. (Se troppo stessi
+con lui, farebbe impazzire ancora me. Mi ha fatto dire di
+quei concetti, che sono proibiti, come le pistole corte)
+<emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena terza</head>
+<stage><emph>Lelio, poi Ottavio.</emph></stage>
+<sp><speaker>LELIO</speaker> <p>Queste principesse di teatro pretendono d'aver
+troppa sovranità su i poeti, e se non fossimo noi, non
+riscuoterebbero dall'udienza gli applausi. Ma ecco il signor
+capo; conviene contenersi con esso con umiltà. Oh fame,
+fame, sei pur dolorosa!</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mi ha detto il signor Brighella, che V. S. ha delle
+commedie di carattere, e ancorché io non ne abbia bisogno,
+tuttavolta per farle piacere, ne prenderò qualcheduna.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Le sarò eternamente obbligato.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Da sedere <emph>(servi portano due sedie, e partono)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>(Fortuna aiutami) <emph>(da sé)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Favoritemi, e mostratemi qualche cosa di bello.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ora vi servo subito. Questa è una commedia tradotta
+dal francese, ed è intitolata...</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non occorre altro. Quando è una commedia tradotta
+non fa per me.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Perché? Disprezzate voi l'opere dei Francesi?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non le disprezzo; le lodo, le stimo, le venero, ma
+non sono il caso per me. I Francesi hanno trionfato
+nell'arte delle commedie per un secolo intiero; sarebbe
+ormai tempo, che l'Italia facesse conoscere non essere in
+ella spento il lume de' buoni autori, i quali dopo i greci,
+ed i latini sono stati i primi ad arricchire, e ad
+illustrare il teatro. I Francesi nelle loro commedie, non si
+può dire che non abbiano de' bei caratteri, e ben sostenuti,
+che non maneggiano bene le passioni, e che i loro concetti
+non siano arguti, spiritosi, e brillanti, ma gl'uditori di
+quel paese si contentano del poco. Un carattere solo basta
+per sostenere una commedia francese. Intorno ad una sola
+passione ben maneggiata e condotta, raggirano una quantità
+di periodi, i quali colla forza dell'esprimere prendono aria
+di novità. I nostri Italiani vogliono molto più. Vogliono,
+che il carattere principale sia forte, originale, e
+conosciuto, che quasi tutte le persone, che formano gli
+episodi siano altrettanti caratteri; che l'intreccio sia
+mediocremente fecondo d'accidenti, e di novità. Vogliono la
+morale mescolata coi sali, e colle facezie. Vogliono il fine
+inaspettato, ma bene originato dalla condotta della
+commedia. Vogliono tante infinite cose, che troppo lungo
+sarebbe il dirle, e solamente, coll'uso, colla pratica, e
+col tempo si può arrivar a conoscerle, e ad eseguirle.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma quando poi una commedia ha tutte queste buone
+qualità, in Italia, piace a tutti?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh signor no. Perché, siccome ognuno, che va alla
+commedia pensa in un modo particolare, così fa in lui vario
+effetto, secondo il modo suo di pensare. Al malinconico non
+piace la barzeletta; all'allegro non piace la moralità.
+Questa è la ragione per cui le commedie non hanno mai, e mai
+non averanno l'applauso universale. Ma la verità però si è,
+che quando sono buone, alla maggior parte piacciono, quando
+sono cattive quasi a tutti dispiacciono.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Quand'è così, io ho una commedia di carattere di
+mia invenzione, che son sicuro che piacerà alla maggior
+parte. Mi pare d'avere osservati in essa tutti i precetti,
+ma quando non li avessi tutti adempiuti, son certo d'avere
+osservato il più essenziale, che è quello della scena
+stabile.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Chi vi ha detto, che la scena stabile sia un
+precetto essenziale?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Aristotile.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Avete letto Aristotile?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Per dirla, non l'ho letto, ma ho sentito a dire
+così.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Vi spiegherò io cosa dice Aristotile. Questo buon
+filosofo intorno alla commedia ha principiato a scrivere, ma
+non ha terminato, e non abbiamo di lui, sopra tal materia,
+che poche imperfette pagine. Egli ha prescritta nella sua
+poetica l'osservanza della scena stabile rispetto alla
+tragedia, e non ha parlato della commedia. Vi è chi dice,
+che quanto ha detto della tragedia si debba intendere ancora
+della commedia, e che se avesse terminato il trattato della
+commedia, avrebbe prescritta la scena stabile. Ma a ciò
+rispondesi, che se Aristotile fosse vivo presentemente,
+cancellerebbe egli medesimo quest'arduo precetto, perché da
+questo ne nascono mille assurdi, mille improprietà, e
+indecenze. Due sorti di Commedia distinguo: <emph>commedia semplice</emph>, e <emph>commedia d'intreccio</emph>. La commedia <emph>semplice</emph>
+può farsi in iscena stabile. La commedia d'<emph>intreccio</emph> così
+non può farsi senza durezza, e improprietà. Gli antichi non
+hanno avuta la facilità, che abbiamo noi di cambiar le
+scene, e per questo ne osservano l'unità. Noi avremo
+osservata l'unità del luogo, semprecché si farà la commedia
+in una stessa città, e molto più se si farà in un'istessa
+casa; basta che non si vada da <emph>Napoli</emph> in <emph>Castiglia</emph> come
+senza difficoltà solevano praticar gli Spagnuoli, i quali
+oggidì principiano a correggere quest'abuso, e a farsi
+scrupolo della distanza, e del tempo. Onde concludo, che se
+la commedia senza stiracchiature, o improprietà può farsi in
+siscena stabile, si faccia; ma se per l'unità della scena,
+si hanno a introdurre degli assurdi; è meglio cambiar la
+scena, e osservare le regole del verisimile.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ed io ho fatto tanta fatica per osservare questo
+precetto.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Può essere, che la scena stabile vada bene. Qual è
+il titolo della vostra commedia?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Il padre mezzano delle proprie figliuole</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oimè! Cattivo argomento. Quando il protagonista
+della commedia è di cattivo costume, o deve cambiar
+carattere contro i buoni precetti, o deve riescire la
+commedia stessa una scelleraggine.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Dunque non si hanno a mettere sulla scena i cattivi
+caratteri per correggerli, e svergognarli?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>I cattivi caratteri si mettono in iscena, ma non i
+caratteri scandolosi, come sarebbe questo di un padre, che
+faccia il mezzano alle proprie figliuole. E poi quando si
+vuole introdurre un cattivo carattere in una commedia, si
+mette di fianco, e non in prospetto, che vale a dire, per
+episodio, in confronto del carattere virtuoso, perché
+maggiormente si esalti la virtù, e si deprima il vizio.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Signor Ottavio, non so più cosa dire. Io non ho
+altro da offerirvi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mi spiace infinitamente, ma quanto mi avete offerito
+non fa per me.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Signor Ottavio, le mie miserie sono grandi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mi rincresce, ma non so come soccorrervi.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Una cosa mi resta a offerirvi, e spero, che non vi
+darà il cuore di sprezzarla.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ditemi in che consiste?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Nella mia stessa persona.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Che cosa dovrei fare di voi?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Farò il comico, se vi degnate accettarmi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p><emph>(s'alza)</emph> Voi vi esibite per comico? Un poeta, che
+deve esser maestro de' comici, discende al grado di
+recitante? Siete un impostore, e come siete stato un falso
+poeta; così sareste un cattivo comico. Onde rifiuto la
+vostra persona come ho le opere vostre già rifiutate,
+dicendovi per ultimo, che v'ingannate, se credete che i
+comici onorati, come noi siamo, diano ricetto a' vagabondi
+<emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Vadano al diavolo i soggetti, le commedie, e la
+poesia. Era meglio, che mi mettessi a recitare alla prima.
+Ma se ora il capo mi scaccia, e non mi vuole, chi sa! col
+mezzo del signor Brighella può essere, che mi accetti.
+Tant'è; mi piace il teatro. Se non son buono per comporre,
+mi metterrò a recitare. Come quel buon soldato, che non
+potendo essere capitano, si contentò del grado di tamburino
+<emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quarta</head>
+<stage><emph>Il Suggeritore con fogli in mano, e cerino. Poi ROSAURA, e
+FLORINDO.</emph></stage>
+<sp><speaker>SUGGERITORE</speaker> <p>Animo, signori, che l'ora vien tarda. Vengano a
+provare le loro scene. Tocca a Rosaura, e a Florindo.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Eccomi, io son pronta.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Son qui, suggerite <emph>(al suggeritore)</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Avvertite bene, signor suggeritore: dove so la
+parte, suggerite piano, dove non la so, suggerite forte.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Ma come farò io a conoscere dove la sa, e dove non
+la sa?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Se sapete il vostro mestiere, l'avete a conoscere.
+Andate, e se mi farete sbagliare, povero voi.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>(Già, è l'usanza de' commedianti: quando non sanno
+la parte, danno la colpa al suggeritore) <emph>(entra e va a suggerire)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quinta</head>
+<stage><emph>Rosaura e Florindo</emph></stage>
+<sp><speaker>ROSAURA</speaker> <p><emph>Caro Florindo, mi fate torto se dubitate della mia</emph>
+<emph>fede. Mio padre non arriverà mai a disporre della mia mano.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Non mi fa temer vostro padre, ma il mio. Può darsi che il signor Dottore, amandovi teneramente, non voglia la vostra rovina; ma l'amore, che ha per voi mio padre, mi mette in angoscia, e non ho cuore per dichiararmi ad esso rivale.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Mi credete voi tanto sciocca, che voglia consentire alle nozze del signor Pantalone? Ho detto che sarò sposa in casa Bisognosi ma fra me intesi del figliuolo, e non del padre.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Eppure egli si lusingava di possedervi, e guai a me, se discoprisse la nostra corrispondenza.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Terrò celato il mio amore fino a tanto, che dal mio silenzio mi venga minacciata la vostra perdita.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Addio, mia cara, conservatemi la vostra fede.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>E mi lasciate sì tosto?</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Se il vostro genitore vi sorprende, sarà svelato ogni arcano.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Egli non viene a casa per ora.</emph></p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena sesta</head>
+<stage><emph>Pantalone, e detti.</emph></stage>
+<sp><speaker>PANTALONE</speaker> <p>(di dentro) <emph>O de casa; se pol vegnìr?</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Oimè. mio padre.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Nascondetevi in quella camera.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Verrà a parlarvi d'amore.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Lo seconderò per non dar sospetto.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Secondatelo fino a un certo segno.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Presto, presto, partite.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Oh amor fatale, che mi obbliga ad essere geloso di mio padre medesimo</emph> (si ritira)<emph>.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Gh'è nissun? Se pol vegnìr?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Venga, venga, signor Pantalone.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Siora Rosaura, patrona reverita. Xèla sola?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Sì, signore, son sola. Mio padre è fuori di casa.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Se contentela, che me ferma un pochetto con ela, o vorla, che vaga via?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Ella è il padrone di andare, e di stare, a suo piacere.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Grazie, la mia cara fia. Benedetta quella bocchetta, che dise quele bele parole.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Mi fa ridere, signor Pantalone.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Cuor aliegro el Ciel l'aiuta. Gh'ho gusto, che ridè, che stè alegra, e quando ve vedo de bona vogia, sento propriamente, che el cuor me bagola.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>M'imagino che sarà venuto per ritrovare mio padre.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>No, colonna mia, no speranza mia, che no son vegnù per el papà, son vegnù per la tata.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>E chi è questa tata?</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Ah furbetta! Ah ladra de sto cuor! Lo savè, che spasemo, che muoro per vu?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Vi sono molto tenuta del vostro amore.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Ale curte. Za, che semo soli, e nissun ne sente, ve contenteu, ve degneu, de compagnarve in matrimonio con mi?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Signore, bisognerà parlarne a mio padre.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Vostro sior pare xè mio bon amigo, e spero che nol me dirà de no. Ma vorave sentir da vu le mie care viscere, do parole, che consolasse el mio povero cuor. Vorrave, che vu me disessi: Sior sì; sior Pantalon lo tiorò, ghe voggio tutto el mio ben, siben, che l'è vecchio, el me piase tanto; se me disè cusì, me fe andar in bruo de lasagne.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Io queste cose non le so dire.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Disè, fia mia, aveu mai fatto l'amor?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Non, signore, mai.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>No savè, come che se fazza a far l'amor?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Non lo so, in verità.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Ve l'insegnerò mi, cara; ve l'insegnerò mi.</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Queste non mi paiono cose per la sua età.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Amor no porta respetto a nissun. Tanto el ferisce i zoveni, quanto i vecchi; e tanto i vecchi, quanto i zoveni bisogna compatirli co i xè innamorai.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Dunque avrete compassione ancora a me, se sono innamorato.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Come? Qua ti xè?</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Sì; signore, son qui per quella stessa cagione, che fa qui essere voi.</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Confesso el vero, che tremo dala colera, e dal rossor vedendo in fazza de mio fio scoverte le mie debolezze. Xè granda la temerità da comparirme davanti in t'una congiuntura tanto pericolosa, ma sta sorpresa, sto scoprimento servirà de fren ai to dessegni, e alle mie passion. Per remediar al mal esempio, che t'ho dà in sta occasion, sappi che me condanno da mi medesimo, che confesso esser stà tropo debole, tropo facile, tropo matto. Se ho dito, che i vecchi, e i zoveni che s'innamora, merita compatimento, l'è stà un trasporto dell'amorosa passion. Per altro i vecchi, che gh'ha fioi, no i s'ha da innamorar con pregiudizio della so famegia. I fioi, che gh'ha pare, no i s'ha da incapriciar senza el consenso de quello, che li ha messi al mondo. Onde fora tutti do desta casa. Mi per elezion, ti per obbedienza. Mi per remediar al scandalo, che t'ho dà: ti per imparar a viver con cautela, con più giudizio, e con più respetto a to pare.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Ma, signore...</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Animo, digo, fora subito de sta casa.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Permetetemi...</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Obedissi, o te trarrò zoso della scala con le mie man.</emph></p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>(Maledettissima gelosia, che mi rendesti impaziente)</emph> (parte).</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Siora Rosaura, no so cossa dir. V'ho volesto ben, ve ne vogio ancora, e ve ne vorrò. Ma un momento solo ha deciso de vu, e de mi. De vu, che no sarè più tormentada da sto povero vecchio; de mi, che morirò quanto prima, sacrificando la vita al mio decoro, alla mia estimazion.</emph>
+(parte)</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Oimè! Qual gelo mi ricerca le vene? In qual'agitazione si ritrova il mio core?</emph> (Dite piano, che la
+parte la so). <emph>(verso il suggeritore)</emph> <emph>Florindo, scoperto dal padre, non verrà più in mia casa, non sarà più mio sposo? Ahi, che il dolore mi uccide. Ahi, che l'affanno...</emph>
+(Suggerite, che non me ne ricordo) <emph>Ahi che l'affanno m'opprime, Infelice Rosaura, e potrai vivere senza il tuo diletto Florindo? E soffrirai questa dolorosa...</emph> Zitto <emph>(al suggeritore)</emph>. <emph>Questa dolorosa separazione? Ah no. A costo di perder tutto, a costo di perigli, e di morte, voglio andare in traccia dell'idol mio, voglio superare l'avverso... l'avverso fato... E voglio far conoscere al mondo...</emph> Maledetto suggeritore, che non si sente; non
+voglio dir altro <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena settima</head>
+<stage><emph>Suggeritore col libro in mano, poi COLOMBINA.</emph></stage>
+<sp><speaker>SUGGERITORE</speaker> <p>Animo Colombina. Tocca a <emph>Colombina</emph>, e poi ad
+<emph>Arlecchino</emph>. Non la finiscono mai. Maladetto questo
+mestiere! Bisogna star qui tre, o quattr'ore a sfiatarsi, e
+poi i signori comici sempre gridano, e non si contentano
+mai. Sono vent'ore sonate, e sa il Cielo, se il signor capo
+di compagnia mi darà nemmeno da pranzo. Colombina <emph>(chiama forte)</emph>.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Son qui, son qui.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Animo, che è tardi <emph>(entra, e va a suggerire)</emph>.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Povera signora Rosaura, povera la mia padrona! Che cosa mai ha che piange, e si dispera? Eh so ben io cosa vi vorrebbe pel suo male! Un pezzo di giovinotto ben fatto, che le fa cesse passare la malinconia. Ma il punto sta, che anch'io ho bisogno dello stesso medicamento. Arlecchino, e Brighella sono ugualmente accesi delle mie strepitose bellezze, ma non saprei a qual di loro dar dovessi la preferenza. Brighella è troppo furbo, Arlecchino è troppo sciocco. L'accorto vorrà fare a modo suo, l'ignorante non saprà fare a modo mio. Col furbo starò male di giorno, e collo sciocco starò male di notte. Se vi fosse qualcheduno a cui potessi chiedere consiglio, glielo chiederei volontieri.</emph></p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ottava</head>
+<stage><emph>Brighella, e Arlecchino, che ascoltano, e detta.</emph></stage>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Basta andrò girando per la città, e a quante donne incontrerò, voglio dimandare, se sia meglio prendere un marito accorto, o un marito ignorante.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Accorto, accorto.</emph> (s'avanza)</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Ignorante, ignorante.</emph> (s'avanza)</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Ognuno difende la propria causa.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Mi digo el vero.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Mi gh'ho rason.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>E te lo proverò con argomenti in forma.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>E mi lo proverò con argomenti in scarpa.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Bene, chi di voi mi persuaderà, sarà mio marito.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Mi come omo accorto, sfadigherò, suderò, perché in casa no te manca mai da magnar.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Questo è un buon capitale.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Mi come omo ignorante, che no sa far gnente, lasserò, che i boni amici porta in casa da magnar, e da bever.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Anche così, potrebbe andar bene.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Mi, come omo accorto, che sa sostegnir el ponto d'onor, te farò respettar da tutti.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Mi piace.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Mi, come omo ignorante, e pacifico, farò, che tutti te voia ben.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Non mi dispiace.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Mi come omo accorto, regolerò perfettamente la</emph>
+<emph>casa.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Buono.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Mi, come omo ignorante, lasserò che ti la regoli ti.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Meglio.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Se ti vorrà divertimenti, mi te condurrò da per tutto.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Benissimo.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Mi, se ti vorrà andar a spasso, te lasserò andar sola dove ti vol.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Ottimamente.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Mi, se vederò, che qualche zerbinoto vegna per insolentarte, lo scazzerò colle brutte.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Bravo.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Mi, se vederò qualchedun, che te zira d'intorno darò logo alla fortuna.</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Bravissimo.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Mi, se troverò qualchedun in casa el copperò!</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>E mi torrò ed candelier, e ghe farò lume.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Cossa dixeu?</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Cossa te par?</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Ora, che ho sentite le vostre ragioni, concludo, che Brighella pare troppo rigoroso, e Arlecchino troppo paziente. Onde, fate così, impastatevi tutti due, fate di due pazzi un uomo savio, ed allora vi sposerò.</emph> (parte)</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Arlecchin?</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Brighella?</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Com'ela?</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Com'ela?</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Ti, che ti è un maccaron, ti te pol impastar facilmente.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Piuttosto ti, che ti è una lasagna senza dreto, e senza roverso.</emph></p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Basta, no l'è mio decoro, che me metta in compatenza con ti.</emph></p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>Sastu cossa, che podemo far? Colombina sa far la furba, e l'accorta, quando che la vol; ergo impastemose tutti do con ela, e faremo de tre paste una pasta da far biscotto per le galere.</emph></p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena nona</head>
+<stage><emph>Brighella, poi Ottavio, e Florindo.</emph></stage>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Costù per quel che vedo, l'è goffo, e destro; ma no saria mio decoro, che me lassasse da lu superar. Qua ghe vol spirito, ghe vol inzegno. Qual piloto, che trovandose in alto mar colla nave, osservando dalla bussola della calamita, che el vento sbalza da garbin a sirocco, ordena ai marineri zirar le vele; cusì anca mi, ai marineri dei mi pensieri...</emph></p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Basta così, basta così.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Obbligatissimo alle lo grazie <emph>(si cava la maschera)</emph>. Perché no volela, che fenissa la mia scena?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Perché queste comparazioni, queste allegorie non si
+usano più.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>E pur quando le se fa, la zente sbate le man.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Bisogna vedere chi è, che batte. La gente dotta non
+s'appaga di queste freddure. Che diavolo di bestialità?
+paragonare l'uomo innamorato al piloto, che è in mare, e poi
+dire: <emph>I marineri dei miei pensieri</emph>! Queste cose il poeta
+non le ha scritte. Questo è un paragone recitato di vostra
+testa.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Donca non ho da dir paralleli?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Signor no.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Non ho da cercar allegorie?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Nemmeno.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Manco fadiga, e più sanità <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena decima</head>
+<stage><emph>Ottavio, e Florindo</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Vedete signor Florindo? Ecco la ragione per cui
+bisogna procurar di tenere i commedianti legati al
+premeditato, perché facilmente cadono nell'antico, e
+nell'inverisimile.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Dunque s'hanno da abolire intieramente le commedie
+all'improviso?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Intieramente no; anzi va bene, che gl'Italiani si
+mantengano in possesso di far quello, che non hanno avuto
+coraggio di far le altre nazioni. I Francesi sogliono dire,
+che i comici italiani sono temerari, arrischiandosi a
+parlare in pubblico all'improviso; ma questa, che può dirsi
+temerità nei comici ignoranti è una bella virtù de' comici
+virtuosi; e ci sono tuttavia de' personaggi eccellenti, che
+ad onor dell'Italia, e a gloria dell'arte nostra, portano in
+trionfo con merito, e con applauso l'ammirabile prerogativa
+di parlare a soggetto, con non minor eleganza di quello che
+potesse fare un poeta scrivendo.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Ma le maschere ordinariamente patiscono a dire il
+premeditato.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quando il premeditato è grazioso, e brillante, bene
+adattato al carattere del personaggio, che deve dirlo, ogni
+buona maschera volentieri lo impara.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Dalle nostre commedie di carattere non si
+potrebbero levar le maschere?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Guai a noi, se facessimo una tal novità: non è ancor
+tempo di farla. In tutte le cose non è da mettersi di fronte
+contro all'universale. Una volta il popolo andava alla
+commedia solamente per ridere, e non voleva vedere altro che
+le maschere in iscena, e se le parti serie avevano un
+dialogo un poco lungo, s'annoiavano immediatamente; ora si
+vanno avvezzando a sentir volentieri le parti serie, e
+godono le parole, e si compiacciono degl'accidenti, e
+gustano la morale, e ridono dei sali, e dei frizzi, cavati
+dal serio medesimo, ma vedono volentieri anco le maschere, e
+non bisogna levarle del tutto, anzi convien cercare di bene
+allogarle, e di sostenerle con merito nel loro carattere
+ridicolo anco a fronte del serio più lepido, e più grazioso.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Ma questa è una maniera di comporre assai
+difficile.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>È una maniera ritrovata, non ha molto, alla di cui
+comparsa tutti si sono invaghiti, e non andrà gran tempo,
+che si sveglieranno i più fertili ingegni a migliorarla,
+come desidera di buon cuore, chi l'ha inventata.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena undicesima</head>
+<stage><emph>Dottore coll'abito, ma colla maschera alzata, e detti.</emph></stage>
+<sp><speaker>DOTTAVIO</speaker> <p>Servitor di lor signori.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Riverisco il signor Dottore.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Voleva provar ancor io le mie scene, ma parmi, che
+ci sia poco buona disposizione.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per questa mattina basta così. Proveremo qualche
+altra cosa dopo pranso.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Io sto lontano di casa, mi rincresce aver d'andare,
+e tornare.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Eh resterete qui a pranso dal signor Ottavio, già
+faccio conto di restarvi ancor io.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Quando è così, mi cavo la maschera.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Padroni; s'accommodino.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>È il nostro capo di compagnia, non ci mancherebbe
+altro.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena dodicesima</head>
+<stage><emph>Il Suggeritore dalla scena, e poi Brighella senza
+maschera, Lelio, e detti.</emph></stage>
+<sp><speaker>SUGGERITORE</speaker> <p>Quand'è così, starò anch'io a ricevere le sue
+grazie <emph>(ad Ottavio)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì signore, mi maraviglio <emph>(suggeritore entra)</emph>.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Sior Ottavio, so che l'ha tanta bontà per mi, che
+no la me negherà una grazia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>(fa riverenze)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dite pure; in quel che posso, vi servirò.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>(come sopra)</emph>.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>L'è qua el sior Lelio. El desidera de far el
+comico: el gh'ha del spirito, dell'abilità; sta compagnia la
+gh'ha bisogno d'un altro moroso; la me fazza sta finezza; la
+lo riceva in grazia mia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>(come sopra)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per compiacere il mio caro signor Brighella, lo
+farei volentieri, ma chi mi assicura, che possa riuscire?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Fermo cusì; provemolo. Se contentela sior Lelio,
+de far una piccola prova?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sono contentissimo. Mi rincresce, che ora non
+posso, mentre non avendo bevuto la cioccolata, sono di
+stomaco, e di voce un poco debole.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Faremo così; torni dopo pranzo, e si proverà.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma frattanto dove avrei io d'andare?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Vada a casa, poi torni.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Casa io non ne ho.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma dove è alloggiato?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>In nissun luogo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quant'e, che è in Venezia?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Da ieri in qua.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E dove ha mangiato ieri?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>In nessun luogo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ieri non ha mangiato?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Né ieri, né stamattina.
+</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma dunque come farà...</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Signor poeta, venga a pranzo dal capo di compagnia.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Riceverò le sue grazie, signor capo; perché questi
+appunto sono gl'incerti de' poeti.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Io non la ricevo per poeta, ma per comico.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Venga, venga, signore, questo è un incerto anco dei
+comici quando si fa la prova.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh mi perdoni! Mi tornerebbe un bel conto.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Questa è fatta, non se ne parla più. Oggi vedrà la
+mia abilità.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>E la principieremo a vedere alla tavola.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena tredicesima</head>
+<stage><emph>Colombina, e detti.</emph></stage>
+<sp><speaker>COLOMBINA</speaker> <p>Signor Ottavio, è arrivata alla porta una forestiera
+piena di ricciolini, tutta brio, col tabarrino, col
+cappellino, e domanda del capo di compagnia.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Venga avanti.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Non sarebbe meglio riceverla dopo desinare?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sentiamo cosa vuole.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Ora la faccio passare.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mandiamo un servitore.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Eh io fo la serva da burla, la farò anche davvero
+<emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quattordicesima</head>
+<stage><emph>Rosaura, Beatrice, e detti.</emph></stage>
+<sp><speaker>ROSAURA</speaker> <p>Grand'aria! grand'aria!</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Bellezze grandi! bellezze grandi!</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Che cosa c'è, signore mie?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Vien su della scala una forestiera, che incanta.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Ha il servitore colla livrea, sarà qualche gran
+signora.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Or ora la vedremo. Eccola.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quindicesima</head>
+<stage><emph>Eleonora con un Staffiere, e i detti.</emph></stage>
+<sp><speaker>ELEONORA</speaker> <p>Serva a lor signori.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Servitor ossequiosissimo, mia signora <emph>(le donne le fan riverenza, e tutti gli uomini stanno col cappello in mano)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sono comici, lor signori?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì, signora, per servirla.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Chi è il capo della compagnia?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Io per ubbidirla.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>È questa è la prima donna? <emph>(verso Rosaura)</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>A' suoi comandi <emph>(con una riverenza)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Brava ragazza; so, che vi fate onore.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Grazie alla sua bontà.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Io pure vado volentieri alle commedie, e quando
+vedo le vostre buffonerie, rido, come una pazza.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ci favorisca di grazia, acciò ch'io non mancassi del
+mio dovere; mi dica con chi ho l'onor di parlare.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sono una virtuosa di musica <emph>(tutti si guardano fra di loro, e si mettono il cappello in testa)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ella è dunque una cantatrice?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Cantatrice? Sono una virtuosa di musica.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Insegna forse la musica?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Non signore, canto.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dunque è cantatrice.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Fate voi da prima donna? <emph>(ad Eleonora)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Qualche volta.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Brava ragazza, vi verrò a vedere <emph>(burlandola)</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Anch'io, signora, quando sento le smorfie delle
+cantatrici, crepo dalle risa.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Perdoni in grazia, non è ella la signora Eleonora?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sì signore per l'appunto.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Non si ricorda, che ha recitato in un mio dramma?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Dove? Non mi sovviene.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>A Firenze.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Il dramma com'era intitolato?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>La Didone in bernesco</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sì, signore, è vero. Io faceva la prima parte.
+Anzi l'impressario andò fallito per cagione del libro.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Tutti dicevano a cagione della prima donna; per
+altro, mi rimetto.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Dunque ella recita in opere buffe?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sì signora, qualche volta.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>E viene a ridere delle buffonerie dei commedianti?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Vi dirò. Mi piace tanto il vostro modo di
+trattare, che verrei volentieri ad unirmi con voi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Vuol fare la commediante?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Io la commendiante? Mi maraviglio di voi. Una
+virtuosa mia pari, non si abbassa a tal segno.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma dunque cosa vuol fare con noi?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Per far la fortuna della vostra compagnia, verrò a
+cantar gl'intermezzi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Obbligatissimo alle sue grazie.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sentite; il compagno lo troverò io, e con
+cinquecento zecchini vi assolverete dalla spesa di tutti
+due.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non più di cinquecento zecchini?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Viaggi, alloggi, piccolo vestiario, queste sono
+cose, che ci s'intendono.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eh benissimo, cose, che si usano.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Gl'intermezzi gli abbiamo noi; ne faremo quattro
+per obbligo in ogni piazza, e volendone di più, ci farete un
+regalo di dieci zecchini per ogni muta.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Anche qui non c'è male.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>L'orchestra poi, deve esser magnifica.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Questo s'intende.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Abiti sempre nuovi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ho il sarto in casa.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Il mio staffiere fa la parte muta, e si contenterà
+di venti scudi il mese.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Anche il servitore è discreto.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Tutto va bene.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Va benissimo.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>La cosa è aggiustata.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Aggiustatissima.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Dunque...</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dunque può andarsene, che noi non abbiamo bisogno di
+lei.</p>
+</sp>
+<sp><speaker>TUTTI</speaker> <p>Bravo, bravo <emph>(con allegria)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Come! Mi disprezzate così?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Cosa credete, signora mia, che i comici abbiano
+bisogno per far fortuna, dell'animo della vostra musica? Pur
+troppo per qualche tempo l'arte nostra si è avvilita a segno
+di mendicar dalla musica i suffragi per tirar la gente al
+teatro. Ma grazie al Cielo, si sono tutti disingannati, ed è
+stata intieramente sbandita dai nostri teatri. Io non voglio
+entrare nel merito, o nel demerito de' professori di canto,
+ma vi dico, che tanto è virtuoso il musico, quanto il
+comico, quando ognuno sappia il suo mestiere; con questa
+differenza, che noi per comparire, dobbiamo studiare per
+necessità, ma voi altre piccole cantatrici, vi fate
+imboccare un paio di arie, come i pappagalli, e a forza di
+uscir di tuono vi fate batter le mani. Signora virtuosa, la
+riverisco <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ecco qui. I comici sono sempre nemici dei virtuosi
+di musica.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Non è vero, signora, non è vero. I comici sanno
+rispettare quei musici, che hanno del merito, della virtù;
+ma i musici di merito, e virtuosi rispettano altresì i
+comici onorati, e dabbene. Se foste voi una virtuosa di
+grado, non verreste a offerirvi a cantare gl'intermezzi
+nella commedia. Ma quando ciò vi riuscisse, avreste
+migliorato assai di condizione, mentre è molto meglio vivere
+fra' comici mediocri, come siamo noi, che fra i cattivi
+musici, coi quali sarete sin'ora stata. Signora virtuosa a
+lei m'inchino <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Questa prima donna avrà fatto da principessa, e si
+crede di esser ancora tale.</p>
+</sp>
+<sp><speaker>BEATRICE</speaker> <p>Come voi, che avrete veduti i cartoni di qualche
+libro di musica, e vi date a credere di essere virtuosa. È
+passato il tempo, signora mia, che la musica si teneva sotto
+i piedi l'arte comica. Adesso abbiamo anche noi il teatro
+pieno di nobiltà, e se prima venivano da voi per ammirare, e
+da noi per ridere; ora vengono da noi per goder la commedia,
+e da voi per la conversazione <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sono ardite davvero queste commedianti, signori
+miei, non mi credeva d'avere un simile trattamento.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Sareste stata meglio trattata, se foste venuta con
+miglior maniera a parlarci.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Noi altre virtuose parliamo quasi tutte così.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>E noi altri comici rispondiamo così <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sia maladetto quando son qui venuta.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Certo che ha fatto male a venir a sporcare i
+virtuosi suoi piedi sulle tavole della commedia.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Voi, chi siete?</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Il Dottor per servirla.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Dottor di commedia?</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Com'ella virtuosa di teatro.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Che vuol dire, Dottore senza dottrina.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Che vuol dire: virtuosa senza saper né legger; né
+scrivere <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ma questo è troppo; se qui testo, ci va della mia
+riputazione. Staffiere, voglio andar via.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Siora virtuosa, se la volesse restar servida a
+magnar quattro risi coi commedianti, l'è padrona.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Oh voi siete un uomo proprio, e civile.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Mi no son padron de casa, mal el capo di compagnia
+l'è tanto mio amigo, che se ghe la condurrò su, so che el la
+vederà volentiera.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ma le donne, mi perderanno il rispetto?</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Basta, che la se contegna con prudenza, e la
+vederà, che tutte le ghe farà ciera.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Andate ditelo al capo di compagnia, e s'egli
+m'invita, può essere, che mi lasci indurre a venire.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p>Vado subito. (Ho inteso. La musica de sta patrona,
+l'è compagna della poesia del sior Lelio. Fame tanta, che fa
+paura) <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Signora Eleonora, a me che sono vostro conoscente
+antico, potete parlare con libertà. Come vanno le cose
+vostre?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Male assai. L'impresario dell'opera, in cui io
+recitava, è fallito; ho perduta la paga, ho dovuto far il
+viaggio a mie spese, e per dirvi tutto, non ho altro, che
+quello, che mi vedete intorno.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Anch'io, signora mia, sono nello stesso caso, e se
+volete prendere il partito, che ho preso io, starete bene
+ancor voi.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>A che cosa vi siete voi appigliato?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>A fare il comico.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ed io dovrò abbassarmi a tal segno?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Signora mia, come state d'appetito?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Alquanto bene.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ed io benissimo. Andiamo a desinare, che poi ne
+parleremo.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Il capo di compagnia non mi ha mandato l'invito.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Non importa: andiamo, che è galantuomo. Non vi
+rifiuterà.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ho qualche difficoltà.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Se avete difficoltà voi, non l'ho io. Vado a
+sentire l'armonia de' cucchiai, che è la più bella musica di
+questo mondo <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Staffiere, che facciamo?</p>
+</sp>
+<sp><speaker>STAFFIERE</speaker> <p>Io ho una fame, che non posso più.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Andiamo, o non andiamo?</p>
+</sp>
+<sp><speaker>STAFFIERE</speaker> <p>Andiamo per amor del Cielo.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Bisognerà superar la vergogna. Ma che farò? Mi
+lascierò persuadere a far la comica? Mi regolerò secondo la
+tavola dei commedianti. Già, per dirla, è tutto teatro, e di
+cattiva musica, può essere, ch'io diventi, mediocre comica.
+Quante mie compagne farebbero così, se potessero! È meglio
+guadagnarsi il pane colle sue fatiche, che dar occasione di
+mormorare <emph>(parte collo staffiere)</emph>.</p>
+</sp>
+</div2></div1>
+<div1 type="atto">
+<head>Atto terzo</head>
+<div2 type="scena">
+<head>Scena prima</head>
+<stage><emph>Ottavio, e Florindo.</emph></stage>
+<sp><speaker>FLORINDO</speaker> <p>Ora la compagnia è veramente compiuta. Il signor
+Lelio, e la signora Eleonora suppliscono a due persone,
+ch'erano necessarie.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Chi sa se saranno buoni da recitare?</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Gli proverete; ma io giudico, che abbiano a
+riuscire ottimamente.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Poi converrà osservare il loro modo di vivere. Uno
+ha in capo la poesia, l'altra la musica; non vorrei che
+m'inquietassero colle loro idee. Sapete, ch'io sopra tutto
+fo capitale della quiete nella mia compagnia, che stimo più
+un personaggio di buoni costumi, che un bravo comico, che
+sia torbido, e di mal talento.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>E così va fatto. La buona armonia fra compagni
+contribuisce al buon esito delle commedie. Dove sono
+dissensioni, gare, invidie, gelosie, tutte le cose vanno
+male.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Io non so come la signora Eleonora siasi indotta in
+un momento a voler far la comica.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>La necessità la conduce a procacciarsi questo poco
+di pane.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quando sarà rimessa in buono stato, farà come tanti
+altri, non si ricorderà del benefizio, e ci volterà le
+spalle.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Il mondo è sempre stato così.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>L'ingratitudine è una gran colpa.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Eppure tanti sono gl'ingrati.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Osservate il signor Lelio, che medita qualche cosa
+per far prova della sua abilità.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Ora verrà da voi a farsi sentire. Non gli voglio
+dar soggezione.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì fate bene a partire. Andate dalla signora
+Eleonora, e quando mi sarò sbrigato dal poeta, mandatemi la
+virtuosa.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Poeta salvatico, e virtuosa ridicola <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena seconda</head>
+<stage><emph>Ottavio, poi Lelio.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Ecco il signor Lelio, che viene con passo grave.
+Farà probabilmente qualche scena.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p><emph>Sono stato per rivedere la mia bella, e non avendo avuto la fortuna di ritrovarla, voglio portarmi a rintracciarla al mercato</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Signor Lelio, con chi intendete di parlare?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Non vedete, ch'io recito?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Capisco, che recitate; ma recitando, con chi
+parlate?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Parlo da me stesso. Questa è un'uscita, un
+soliloquio.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E parlando da voi medesimo, dite: <emph>Sono stato a riveder la mia bella</emph>? Un uomo da se stesso, non parla così.
+Pare, che venghiate in scena a raccontare a qualche persona
+dove siete stato.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ebbene, parlo col popolo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Qui vi voleva. E non vedete, che col popolo non si
+parla? Che il comico deve immaginarsi, quando è solo, che
+nessuno lo senta, e che nessuno lo veda? Quello di parlare
+col popolo è un vizio intollerabile, e non si deve
+permettere in verun conto.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma se quasi tutti quelli, che recitano
+all'improvviso fanno così. Quasi tutti, quando escono soli
+vengono a raccontare al popolo dove sono stati, e dove
+vogliono andare.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Fanno male, malissimo, e non si devono seguitare</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Dunque non si faranno mai soliloqui.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Signor sì, i soliloqui sono necessari per ispiegare
+gl'interni sentimenti del cuore, dar cognizione al popolo
+del proprio carattere, e mostrar gl'effetti, e i cambiamenti
+delle passioni.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ma come si fanno i soliloqui senza parlare al
+popolo?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Con una somma facilità: sentite il vostro discorso
+regolato, e naturale. In vece di dire: <emph>Sono stato dalla mia bella, e non l'ho ritrovata; voglio andarla a ricercare, ecc.</emph> Si dice così: <emph>Fortuna ingrata, tu che mi vietasti il contento di rivedere nella propria casa il mio bene, concedimi che possa rinvenirla</emph>...</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Al mercato.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh questa è più graziosa! Volete andar a ritrovare
+la vostra bella al mercato?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sì signore, al mercato. Mi figuro, che la mia bella
+sia una rivendugliola, e se mi aveste lasciato finire,
+avreste sentito nell'argomento, chi sono io, chi è colei,
+come ci siamo innamorati, e come penso di conchiudere le
+nostre nozze.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Tutta questa roba volevate dire da voi solo? Vi
+serva di regola, che mai non si fanno gli argomenti della
+commedia da una sola persona in scena, non essendo
+verisimile, che un uomo, che parla solo, faccia a se stesso
+l'istoria de' suoi amori, o dei suoi accidenti. I nostri
+comici solevano per lo più nella prima scena far dichiarare
+l'argomento, o dal Pantalone col Dottore; o dal padrone con
+il servo, o dalla donna colla cameriera. Ma la vera maniera
+di far l'argomento delle commedie senza annoiare il popolo,
+si è dividere l'argomento stesso in più scene, e a poco, a
+poco andarlo dilucidando, con piacere, e con sorpresa degli
+ascoltanti.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Orsù, signor Ottavio, all'improvviso non voglio
+recitare. Voi avete delle regole, che non sono comuni, ed io
+che sono principiante, le so meno degli altri. Reciterò
+nelle commedie studiate.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Bene; ma vi vuol tempo avanti che impariate una
+parte, e che io vi possa sentire.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Vi reciterò qualche cosa del mio.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Benissimo; dite su, che v'ascolto.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Vi reciterò un pezzo di commedia in versi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>In versi? Mi dispiace.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Eppure le buone commedie italiane devono essere
+scritte in versi. Così hanno fatto i nostri antichi, e così
+vogliono che si faccia alcuni moderni.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Venero gl'antichi, rispetto i moderni, ma non sono
+di ciò persuaso. La commedia deve essere in tutto
+verisimile, e non è verisimile, che le persone parlino in
+verso. Oh mi direte, il verso non si ha da conoscere, e dee
+all'orecchio parer prosa. Se non si ha da conoscere il
+verso, se deve parer prosa, dunque scrivete in prosa.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Non volete, che vi reciti questi versi?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Recitateli pure. Ma ditemi in confidenza, sono
+vostri?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ho paura di no.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E di chi sono?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Ve lo dirò poi. Questa è una scena, che fa il padre
+colla figlia, persuadendola a non maritarsi.</p>
+<lg rend="italic">
+<l>Figlia, che mi sei cara quanto mai</l>
+<l>Dir si possa, e per te sai quanto ho fatto.</l>
+<l>Prima di vincolarti con il duro</l> 
+<l>Laccio del matrimonio, ascolta quanti</l> 
+<l>Pesi trae seco il coniugal diletto.</l> 
+<l>Bellezza, e gioventù preziosi arredi</l> 
+<l>Della femmina, son dal matrimonio</l> 
+<l>Oppressi, e posti in fuga innanzi al tempo.</l>
+<l>Vengono i figli. Oh dura cosa i figli!</l>
+<l>Il portarli nel seno, il darli al mondo,</l> 
+<l>L'allevarli, il nudrirli sono cose,</l>
+<l>Che fanno inorridir! Ma chi t'accerta,</l> 
+<l>Che il marito non sia geloso, e voglia</l>
+<l>A te vietar quel, ch'egli andrà cercando?</l> 
+<l>Pensaci, figlia, pensaci, e poi quando</l> 
+<l>Avrai meglio pensato; sarò padre</l> 
+<l>Per compiacerti come ora lo sono</l> 
+<l>Per consigliarti.</l></lg>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Questi effettivamente non paiono versi, e duro
+fatica a credere, che siano versi.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Volete sentire se sono versi? Ecco, udite, come si
+fanno conoscere quando si vuole <emph>(recita i medesimi versi declamandoli per far conoscere il metro)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>È vero, sono versi, e non paiono versi. Caro amico,
+ditemi di chi sono?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Voi gli dovreste conoscere.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eppure non gli conosco.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sono dell'autore delle vostre commedie.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Com'è possibile, s'egli non ha mai fatto commedie in
+versi, e ha protestato di non volerne fare?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Effettivamente non ne vol fare; ma a me, che sono
+poeta mi ha confidato questa sua scena.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dunque lo conoscete?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Lo conosco, e spero arrivar anch'io a comporre
+delle commedie com'egli ha fatto.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eh figliuolo, bisogna prima consumar sul teatro
+tanti anni, quanti ne ha egli consumati, e poi potrete
+sperare di far qualche cosa. Credete, ch'egli sia diventato
+compositore di commedie ad un tratto? L'ha fatto a poco a
+poco, ed è arrivato ad essere compatito dopo un lungo
+studio, una lunga pratica, ed una continova instancabile
+osservazione del teatro; dei costumi, e del genio delle
+nazioni.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Alle corte, sono buono da recitare?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Siete sufficiente.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Mi accettate nella vostra compagnia?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Vi accetto con ogni soddisfazione.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Quand'è così, son contento. Attenderò a recitare, e
+lascierò l'umore del comporre; giacché per quel, che sento,
+sono tanti i precetti d'una commedia, quante, sono per così
+dire le parole, che la compongono.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena terza</head>
+<stage><emph>Ottavio, poi Eleonora.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Questo giovine ha del brio. Pare un poco girellaio,
+come dicono i fiorentini, ma per la scena vi vuole sempre
+uno, a cui addattar si possano i caratteri più brillanti.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Serva, signor Ottavio.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Riverisco la signora virtuosa.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Non mi mortificate d'avvantaggio. So benissimo,
+che con poco garbo mi sono a voi presentata, che aveva
+necessità di soccorso, ma l'aria musicale influisce così. La
+vostra tavola ha principiato a disingannarmi; il contegno,
+l'affabilità, la modestia delle vostre donne, ha fatto ch'io
+mi sono innamorata di loro, e di tutti voi. Vedesi veramente
+smentita la massima di chi crede, che le femmine del teatro,
+siano poco ben costumate, e traggano il loro guadagno parte
+dalla scena, e parte dalla casa.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per nostra consolazione, non solo è sbandito
+qualunque reo costume nelle persone, ma ogni scandalo dalla
+scena. Più non si sentono parole oscene, equivoci sporchi,
+dialoghi disonesti. Più non si vedono lazzi pericolosi,
+gesti scorretti, scene lubriche, di mal esempio. Vi possono
+andar le fanciulle, senza timor d'apprendere cose immodeste,
+o maliziose.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Orsù, signor Ottavio, io voglio essere comica, e
+mi raccomando alla vostra assistenza.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Raccomandatevi a voi medesima; che vale a dire,
+studiate, osservate gli altri, imparate bene le parti, e
+sopra tutto, se vi sentite a fare un poco d'applauso, non
+v'insuperbite, e non vi date subito a credere di essere una
+gran donna. Se sentite a battere le mani, non ve ne fidate.
+Un tale applauso suol essere equivoco. Molti battono per
+costume, altri per passione, alcuni per genio, altri per
+impegno, e molti ancora, perché sono pagati dai protettori.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Io protettori non ne ho.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Siete stata cantatrice, e non avete protettori?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Io non ne ho, e mi raccomando a voi.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Io sono il capo di compagnia; io amo tutti
+ugualmente, e desidero, che tutti si facciano onore per il
+loro, e per il mio interesse: ma non uso parzialità a
+nessuno, e specialmente alle donne, perché, per quanto siano
+buone, fra loro s'invidiano.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ma non volete nemmeno provarmi, se sono capace di
+sostenere il posto, che mi date di terza donna?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Oh questo poi sì, mentre il mio interesse vuole, che
+mi assicuri della vostra abilità.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Vi dirò qualche pezzo di recitativo, che so.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma non in musica.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Lo dirò senza musica. Reciterò una scena della
+<emph>Didone bernesca</emph>, composta dal signor Lelio.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Di quella, che ha fatto fallire l'impresario?</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Sentite <emph>(si volta verso Ottavio a recitare)</emph>:
+<emph>Enea d'Asia splendore</emph>...</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Con vostra buona grazia. Voltate la vita verso
+l'udienza.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Ma se ho da parlare con Enea.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ebbene; si tiene il petto verso l'udienza, e con
+grazia si gira un poco il capo verso il personaggio;
+osservate:
+<emph>Enea d'Asia splendore</emph>...</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>In musica, non mi hanno insegnato così.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Eh lo so, che voi altre non badate ad altro, che
+alle cadenze.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker>
+<lg rend="italic">
+<l>Enea d'Asia splendore,</l>
+<l>Amor di Donna Venere, </l> 
+<l>E solo Amor di queste luci tenere; </l>
+<l>Vedi come in Cartagine bambina, </l>
+<l>Consolate del tuo felice arrivo, </l>
+<l>Ballano la furlana anco le torri? </l>
+</lg></sp>
+<sp><speaker>OTTAVIO</speaker> <p>Basta così; non dite altro per amor del Cielo.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Perché? recito tanto male?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>No quanto al recitare sono contento, ma non posso
+sofferire di sentir a porre in ridicolo i bellissimi, e
+dolcissimi versi della <emph>Didone</emph>, e se avessi saputo, che il
+signor Lelio ha strappazzati i drammi d'un così celebre, e
+venerabile poeta, non l'avrei accettato nella mia compagnia:
+ma si guarderà egli di farlo mai più. Troppo obbligo abbiamo
+alle opere di lui, dalle quali tanto profitto abbiamo noi
+ricavato.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Dunque vi pare, ch'io possa sufficientemente
+passare per recitante?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per una principiante siete passabile; la voce non è
+ferma, ma questa si fa coll'uso del recitare. Badate bene di
+battere le ultime sillabe, che s'intendano. Recitate più
+tosto adagio, ma non troppo, e nelle parti di forza,
+caricate la voce, e accelerate più del solito le parole.
+Guardatevi sopra tutto dalla cantilena, e dalla
+declamazione, ma recitate naturalmente, come se parlaste,
+mentre essendo la commedia una imitazione della natura, si
+deve fare tutto quello, che è verisimile. Circa al gesto,
+anche questo deve essere naturale. Movete le mani secondo il
+senso della parola. Gestite per lo più colla dritta, e poche
+volte colla sinistra, e avvertite di non moverle tutte due
+in una volta, se non quando un impeto di collera, una
+sorpresa, una esclamazione lo richiedesse; servendovi di
+regola, che principiando il periodo con una mano, mai non si
+finisce coll'altra, ma con quella con cui si principia,
+terminare ancora si deve. D'un'altra cosa molto osservabile,
+ma da pochi intesa voglio avvertirvi. Quando un personaggio
+fa scena con voi, badategli, e non vi distraete cogl'occhi,
+o colla mente; e non guardate qua, e là per le scene, o per
+i palchetti, mentre da ciò ne nascono tre pessimi effetti.
+Il primo, che l'udienza si sdegna, e crede, o ignorante, o
+vano il personaggio distratto. Secondo, si commette una mala
+creanza verso il personaggio con cui si deve far scena; e
+per ultimo, quando non si bada al filo del ragionamento,
+arriva inaspettata la parola del suggeritore, e si recita
+con sgarbo, e senza naturalezza; tutte cose che tendono a
+rovinar il mestiere, e a precipitare le commedie.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Vi ringrazio dei buoni documenti, che voi mi date;
+procurerò di metterli in pratica.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Quando siete in libertà; e che non recitate, andate
+agli altri teatri. Osservate come recitano i buoni comici,
+mentre questo è un mestiere, che s'impara più colla pratica,
+che colle regole.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Anche questo non mi dispiace.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Un altro avvertimento voglio darvi, e poi andiamo, e
+lasciamo, che i comici provino il resto della commedia, che
+s'ha da fare. Signora Eleonora, siate amica di tutti, e non
+date confidenza a nessuno. Se sentite a dir male dei
+compagni, procurate di metter bene. Se vi riportano qualche
+cosa, che sia contro di voi, non credete, e non badate loro.
+Circa alle parti, prendete quello, che vi si dà; non
+crediate, che sia la parte lunga quella che fa onore al
+comico, ma la parte buona. Siate diligente, venite presto al
+teatro procurate di dar nel genio a tutti, e se qualcheduno
+vi vede mal volentieri, dissimulate; mentre l'adulazione è
+vizio, ma una savia dissimulazione è sempre stata virtù
+<emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>ELEONORA</speaker> <p>Questo capo di compagnia, mi ha dato più
+avvertimenti di quello, che faccia un maestro di collegio il
+primo giorno, che riceve un nuovo scolare. Però gli sono
+obbligata. Procurerò di valermene al caso, e giacché mi sono
+eletta questa professione, cercherò di essere, se non delle
+prime, non delle ultime almeno <emph>(parte)</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quarta</head>
+<stage><emph>Il Suggeritore, poi Rosaura, ed il Dottore con maschera.</emph></stage>
+<sp><speaker>SUGGERITORE</speaker> <p>Animo, signori, che il tempo passa, e vien sera.
+Tocca a Rosaura, e al Dottore <emph>(entra)</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Figliuola mia, da che procede mai questa tua malinconia? È possibile, che tu non lo voglia confidare ad un padre, che ti ama?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Per amor del Cielo, non mi tormentate</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Vuoi un abito? Te lo farò. Vuoi che andiamo in campagna? Ti condurrò. Vuoi una festa di ballo? La ordinerò. Vuoi marito? Te lo</emph>...</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Ahi!</emph> (sospirando).</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Sì, te lo darò. Dimmi un poco, la mia ragazza, sei tu innamorata?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Signor padre, compatite la mia debolezza, sono innamorata pur troppo</emph> (piangendo).</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Via, non piangere, ti compatisco. Sei in età da marito, ed io non lascierò di consolarti, se sarà giusto. Dimmi; chi è l'amante, per cui sospiri?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>È il figlio del signor Pantalone de' Bisognosi</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Il giovane non può essere migliore. Son contentissimo. S'egli ti brama, te lo darò</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Ahi!</emph> (respirando)</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Sì, te lo darò, te lo darò</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quinta</head>
+<stage><emph>Colombina, e i detti.</emph></stage>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Poverino. Non ho core da vederlo penare</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Cosa c'è Colombina?</emph></p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Vi è un povero giovinotto, che passeggia sotto le finestre di questa casa, e piange, e si dispera, e dà la testa nelle muraglie</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Oimè! Chi è egli? Dimmelo</emph>.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>È il povero signor Florindo</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Il mio bene, il mio cuore, l'anima mia. Signor padre, per carità</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Sì, cara figlia voglio consolarti. Presto, Colombina, chiamalo, e digli, ch'io gli voglio parlare</emph>.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Subito, non perdo tempo; quando si tratta di far servizio alla gioventù, mi consolo tutta</emph> (parte).</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Caro il mio caro padre, che mi vuol tanto bene</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Sei l'unico frutto dell'amor mio</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Me lo darete per marito?</emph></p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Te lo darò, te lo darò</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Ma vi è una difficoltà</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>E quale?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Il padre di Florindo non si contenterà</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>No? Per qual ragione?</emph></p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Perché anche il buon vecchio è innamorato di me</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Lo so, lo so, ma non importa; rimedieremo anche a questo</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena sesta</head>
+<stage><emph>Florindo, e i detti.</emph></stage>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Ecco, eccolo, che muore dalla consolazione</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>(Benedetti quegli occhi; mi fanno tutta sudare)</emph>
+(da sé).</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Signor Dottore, perdoni, se incorraggito da Colombina... perché se la signora Rosaura... Ma anzi il suo signor padre... Compatisca, non so cosa mi dica</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Intendo, intendo; siete innamorato della mia figliuola, e la vorreste per moglie, non è così?</emph>
+</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Altro non desidero</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Ma sento a dire, che vostro padre abbia delle pretensioni ridicole</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Il padre è rivale del figlio</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Dunque non si ha da perder tempo. Bisogna levargli la speranza di poterla ottenere</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Ma come?</emph></p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Dando immediatamente la mano a Rosaura</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Questa è una cosa, che mi rallegra</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Questa è una cosa, che mi consola</emph>.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Questa è una cosa, che mi fa crepar dall'invidia</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Animo dunque, che si conchiuda, datevi la mano</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Eccola, unita al mio cuore</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Eccola, in testimonio della mia fede</emph> (si dànno la
+mano).</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>Oh cari! Oh che bella cosa! Mi sento venir l'acqua in bocca</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena settima</head>
+<stage><emph>Pantalone, e i detti.</emph></stage>
+<sp><speaker>PANTALONE</speaker> <p><emph>Com'èla? Coss'è sto negozio?</emph></p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Signor Pantalone, benché non vi siete degnato di parlar meco, ho rilevata la vostra intenzione, ed io ciecamente l'ho secondata</emph>.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Come? Intenzion de cossa?</emph></p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Ditemi di grazia; non avete voi desiderato, che mia figlia fosse sposa del signor Florindo?</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>No xè vero gnente</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Avete pur detto a lei di volerla maritare in casa vostra</emph>.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Sior sì, ma no co mio fio</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Dunque con chi?</emph></p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Con mi, con mi</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Non credeva mai, che in questa età vi sorprendesse una simile malinconia. Compatitemi, ho equivocato, ma questo equivoco ha prodotto il matrimonio di vostro figlio con Rosaura mia figlia</emph>.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>No sarà mai vero, no l'accorderò mai</emph>.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>Anzi sarà senz'altro. Se non l'accordate voi, l'accordo io. Voi, e vostro figlio avete fatto all'amore con la mia figliuola; dunque o il padre, o il figlio l'aveva a sposare. Per me, tanto m'era uno, quanto l'altro. Ma siccome il figlio è più giovine, è più lesto di gamba, egli è arrivato prima, e voi, che siete vecchio, non avete potuto finir la corsa, e siete rimasto a mezza strada</emph>.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p><emph>È il solito de' vecchi dopo quattro passi bisogna che si riposino</emph>.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Ve digo, che questa la xè una baronada, che un pare, non ha da far el mezzan alla putta, per trappolar el fio d'un galantomo, d'un omo d'onor</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p><emph>Via, signor padre, non andate in colera</emph> (a
+Pantalone).</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p><emph>E un galantuomo, un uomo d'onore, non ha da sedurre la figlia di un buon amico, contro le leggi dell'ospitalità, e della buona amicizia</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Per amor del Cielo, non vi alterate</emph> (al Dottore).</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ottava</head>
+<stage><emph>Lelio, e detti.</emph></stage>
+<sp><speaker>LELIO</speaker> <p>Bravi, signori comici, bravi. Veramente questa è
+una bella scena. Il signor capo di compagnia mi va dicendo,
+che il teatro si è riformato, che ora si osservano tutte le
+buone regole, e pur questa vostra scena è uno sproposito;
+non può stare, e non si può fare così.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Perché non può stare? Qual è lo sproposito, che
+notate voi in questa scena?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>È uno dei più grandi, e dei più massicci, che dir
+si possa.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Chi èla ela, patron? El proto delle commedie?</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>È un poeta famosissimo <emph>(fa il cenno, che mangia bene)</emph>.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Sa perfettamente a memoria la <emph>Buccolica</emph> di
+Virgilio.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>So, e non so; ma so che questa è una cattiva scena.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena nona</head>
+<stage><emph>Ottavio, e i detti.</emph></stage>
+<sp><speaker>OTTAVIO</speaker> <p>Cosa c'è? non si finisce di provare?</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Abbiamo quasi finito, ma il signor Lelio grida, e
+dice, che questa scena va male.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per qual cagione lo dice, signor Lelio?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Perché ho inteso dire, che Orazio nella sua
+<emph>Poetica</emph> dia per precetto, che non si facciano lavorare in
+scena più di tre persone in una volta, e in questa scena
+sono cinque.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Perdonatemi, dite a chi ve l'ha dato ad intendere,
+che Orazio non va inteso così. Egli dice: <emph>Nec quarta loqui</emph>
+<emph>persona laboret</emph>. Alcuni intendono, che egli dica: <emph>Non lavorino più di tre</emph>. Ma egli ha inteso dire, che se sono
+quattro, il quarto non si affatichi, cioè, che non si diano
+incommodo i quattro attori un con l'altro, come succede
+nelle scene all'improvviso, nelle quali, quando sono
+quattro, o cinque persone in scena, fanno subito una
+confusione. Per altro le scene si possono fare anche di
+otto, e di dieci persone, quando sieno ben regolate; e che
+tutti i personaggi si facciano parlare a tempo, senza che
+uno disturbi l'altro, come accordano tutti i migliori
+autori, li quali hanno interpretato il passo d'Orazio da voi
+allegato.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Anche qui dunque ho detto male.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Prima di parlare sopra i precetti degli antichi,
+conviene considerare due cose; la prima: il vero senso, con
+cui hanno scritto. La seconda, se a' nostri tempi convenga
+quel, che hanno scritto; mentre siccome si è variato il modo
+di vestire, di mangiare, e di conversare, così è anche
+cangiato il gusto, e l'ordine delle commedie.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>E così questo gusto varierà ancora, e le commedie
+da voi adesso portate in trionfo, diverranno anticaglie,
+come la <emph>Statua</emph>, il <emph>Finto Principe</emph>, e <emph>Madama Pataffia</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Le commedie diverranno antiche dopo averle fatte, e
+rifatte, ma la maniera di far le commedie spererei, che
+avesse sempre da crescere in meglio. I caratteri veri, e
+conosciuti piaceranno sempre, e ancorché non siano i
+caratteri infiniti in genere, sono infiniti in spezie,
+mentre ogni virtù, ogni vizio, ogni costume, ogni difetto,
+prende aria diversa dalla varietà delle circostanze.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sapete cosa piacerà sempre sul teatro?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>E che cosa?</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>La critica.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Basta che sia moderata. Che prenda di mira
+l'universale, e non il particolare, il vizio, e non il
+vizioso; che sia mera critica, e non inclini alla satira.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Signor capo di compagnia, con sua buona grazia, una
+delle due, o ci lasci finir di provare, o permetta, che ce
+n'andiamo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Avete ragione. Questo signor comico novello, mi fa
+usare una mala creanza. Quando i comici provano, non
+s'interrompono <emph>(a Lelio)</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Io credeva, che avessero finito quando <emph>Florindo</emph>,
+e <emph>Rosaura</emph> si sono sposati, mentre si sa, che tutte le
+commedie finiscono coi matrimoni.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non tutte, non tutte.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Oh quasi tutte, quasi tutte.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Sior Ottavio, mi fenisso in te la commedia prima
+dei altri, se contentela, che diga la mia scena, e che vaga
+via?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Sì, fate come volete.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena decima</head>
+<stage><emph>Il Suggeritore, e detti.</emph></stage>
+<sp><speaker>SUGGERITORE</speaker> <p>Cospetto del diavolo! Si finisce, o non si finisce
+questa maledetta commedia?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Son qua, dixè su, che ve vegno drio.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Sian maladette le prove.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma voi sempre gridate. Quando si prova, vorreste,
+che si andasse per le poste per finir presto. Quando si fa
+la commedia, se qualcheduno parla dietro le scene,
+taroccate, che vi si sentono da per tutto.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Se tarocco, ho ragione, mentre la scena è sempre
+piena di gente, che fa romore, e mi maraviglio di lei, che
+lasci venir tanta gente in scena, che non ci possiamo
+movere.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per l'avvenire non sarà così. Voglio assolutamente
+la scena sgombrata.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Io non so, che piacere abbiano a venire a veder la
+commedia in scena.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Lo fanno per non andare nella platea.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Eppure la commedia si gode meglio in platea, che in
+scena.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>Sì, ma taluni, sputano dai palchi, e infastidiscono
+le persone, che sono giù.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Veramente per perfezionare il buon ordine de'
+teatri, manca l'osservanza di questa onestissima pulizia.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Manca un'altra cosa, che non ardisco dirla.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Siamo tra di noi, potete parlare con libertà.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Che nei palchetti non facciano tanto romore.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>È difficile assai.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Per dirla è una gran pena per noi altri comici
+recitare allora quando si fa strepito nell'udienza. Bisogna
+sfiatarsi per farsi sentire, e non basta.</p>
+</sp>
+<sp><speaker>COLOMBINA</speaker> <p>In un pubblico bisogna aver pazienza. E alle volte,
+che si sentono certi fischietti, certe cantatine da gallo?
+Gioventù allegra; vi vuol pazienza.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Mi dispiace, che disturbano gli altri.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>E quando si sentono a sbadigliare?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Segno, che la commedia non piace.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Eh qualche volta lo fanno con malizia; e per lo più
+nelle prime sere delle commedie nuove, per rovinarle, se
+possono.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Sapete cosa cantano quelli, che vanno alla
+commedia? La canzonetta d'un intermezzo: <emph>Signor mio, non vi è riparo, io qui spendo il mio denaro, voglio far quel, che mi par</emph>.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Vado, o non vado?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Via, andè, che ve mando.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Come parla, signor Pantalone?</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Colla bocca, compare.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p>Avverta bene, e mi porti rispetto, altrimenti si
+pentirà. Le farò dire degli spropositi in scena, se non mi
+tratterrà bene. Mentre se i commedianti si fanno onore, è a
+cagione della mia buona maniera di suggerire.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Certamente tutto contribuisce al buon esito delle
+cose.</p>
+</sp>
+<sp><speaker>SUGGERITORE</speaker> <p><emph>So, che non vorreste, che vostro figlio</emph> (di
+dentro suggerendo)<emph>. So che non vorreste, che vostro figlio</emph>
+(più forte).</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p>Dottor, a vu.</p>
+</sp>
+<sp><speaker>DOTTAVIO</speaker> <p>Ah son qui. <emph>So, che non vorreste, che vostro figlio si ammogliasse, perché voi siete innamorato della mia figliuola, ma questa vostra debolezza fa torto al vostro carattere, alla vostra età. Rosaura non si sarebbe mai persuasa di sposar voi; dunque era inutile il vostro amore, ed è un atto di giustizia, che contentate il vostro figlio; e se amate Rosaura, farete un'azione eroica, da uomo onesto, da uomo savio, e prudente a cederla a una persona, che la renderà felice, e contenta, e avrete voi la consolazione di essere stato la causa della sua più vera felicità</emph>.</p>
+</sp>
+<sp><speaker>PANTALONE</speaker> <p><emph>Siben, son un galantomo, son un omo d'onor, vogio ben a sta puta, e vogio far un sforzo per desmostrarghe l'amor, che ghe porto. Florindo sposerà vostra fia, ma perché vostra fia l'ho vardada con qualche passion, e no me la posso desmentegar, no vogio metterme a rischio, avendola in casa, de viver continuamente all'inferno. Florindo, fio mio, el Cielo te benediga. Sposa siora Rosaura; che la lo merita, e resta in casa con ela, e co so sior pare, fina che vivo mi, e te passerò un onesto, e comodo trattamento. Niora, za, che no m'avè volesto ben a mi, vogiè ben a mio fio. Trattelo con amor, e con carità, e compatì le debolezza de un povero vecchio, orbà più dal vostro merito, che dalle vostre bellezze. Dottor caro, vegnì da mi, che metteremo in carta ogni cosa. Se ve bisogna robba, bezzi, son qua. Spenderò, farò tutto, ma in sta casa no ghe vegno mai più. Oimè, gh'ho el cuor ingroppà me sento, che no posso più</emph>.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p><emph>Povero padre mi fa pietà</emph>.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ultima</head>
+<stage><emph>Brighella, Arlecchino, e i detti.</emph></stage>
+<sp><speaker>ARLECCHINO</speaker> <p><emph>E cusì per tornar al nostro proposito. Colombina dème la man</emph>.</p>
+</sp>
+<sp><speaker>BRIGHELLA</speaker> <p><emph>Colombina non farà sto torto a Brighella</emph>.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Signor Ottavio, ecco appunto, come termina il mio
+soggetto, che voi non avete voluto sentire <emph>(cava il foglietto, e legge)</emph>. <emph>Florindo sposa Rosaura. Arlecchino Colombina; e coi matrimoni termina la commedia</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Siete veramente spiritoso.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Anzi vi dirò di più...</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Sior Ottavio, gh'è altro da provar?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Per ora basta così.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>La podeva aver anca la bontà de sparagnarme sta gran
+fadiga <emph>(si cava la maschera)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Perché?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Perché sta sorte de scene, le fazzo co dormo.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Non dite così, signor Arlecchino, non dite così.
+Anco nelle piccole scene si distingue l'uomo di garbo. Le
+cose quando sono fatte, quando sono dette con grazia,
+compariscono il doppio, e quanto le scene sono più brevi,
+tanto più piacciono. L'Arlecchino deve parlar poco, ma a
+tempo. Deve dire la sua botta frizzante, e non stiracchiata.
+Stroppiar qualche parola naturalmente; ma non stroppiarle
+tutte, e guardarsi da quelle stroppiature, che sono comuni a
+tutti i secondi zanni. Bisogna crear sempre qualche cosa del
+suo, e per creare bisogna studiare.</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>La me perdona, che se pol crear anca senza studiar.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ma come?</p>
+</sp>
+<sp><speaker>ARLECCHINO</speaker> <p>Far come che ho fatto mi, maridarse, e far nascer
+dei fioi <emph>(parte)</emph>.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Questa non è stata cattiva.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Se non si prova altro, anderò via ancor</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Ora anderemo tutti.</p>
+</sp>
+<sp><speaker>FLORINDO</speaker> <p>Possiamo andare dal nostro signor capo, che ci darà
+il caffè.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Padroni, vengano pure.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Una cosa voleva dirvi per ultimo, e poi ho finito.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dica pure...</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Il mio soggetto finiva con un sonetto, vorrei, che
+mi diceste, se sia ben fatto, o malfatto terminare la
+commedia con un sonetto.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Dirò; i sonetti in qualche commedia stanno bene, e
+in qualche commedia stanno male. Anche il nostro poeta
+alcune volte li ha usati con ragione, e alcune volte ne
+potea far di meno. Per esempio: nella <emph>Donna di Garbo</emph>, si
+termina la commedia in un'accademia, ed è lecito chiuderla
+con un sonetto. Nella <emph>Putta onorata</emph>, Bettina termina con
+un brindesi, e lo fa in un sonetto. Nella <emph>Buona Moglie</emph>,
+dice in un sonetto finale, qual'esser debba la moglie buona.
+Nella <emph>Vedova Scaltra</emph>, e nei due <emph>Gemelli Veneziani</emph>, si
+potevano risparmiare; e nelle altre non ha fatto sonetti al
+fine, perché questi assolutamente senza una ragione non si
+possono, e non si devono fare.</p>
+</sp>
+<sp><speaker>LELIO</speaker> <p>Manco male, che ha errato anche il vostro poeta.</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Egli è uomo, come gl'altri, e può facilmente
+ingannarsi, anzi colle mie stesse orecchie l'ho sentito dir
+più, e più volte, che trema sempre allorché deve produrre
+una nuova sua commedia su queste scene. Che la commedia è un
+componimento difficile, che non si lusinga d'arrivare a
+conoscere, quanto basta, la perfezione della Commedia, e che
+si contenta di aver dato uno stimolo alle persone dotte, e
+di spirito, per rendere un giorno la riputazione al teatro
+italiano.</p>
+</sp>
+<sp><speaker>ROSAURA</speaker> <p>Signor Ottavio, sono stanca di star in piedi, avete
+ancor finito di chiaccherare?</p>
+</sp>
+<sp><speaker>OTTAVIO</speaker> <p>Andiamo pure: è terminata la prova, e da quanto
+abbiamo avuto occasione di discorrere, e di trattare in
+questa giornata, credo che ricavare si possa, qual abbia ad
+essere, secondo l'idea nostra, il nostro <emph>Teatro Comico</emph>.</p>
+</sp>
+</div2></div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,4165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Marianna</title>
+      <author>Lodovico Dolce</author>
+    </titleStmt>
+    <extent>178 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001117</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Teatro del Cinquecento</title>
+        <title type="part">La tragedia</title>
+        <editor id="ed">Cremante, Renzo</editor>
+        <publisher>R. Ricciardi</publisher>
+        <pubPlace>Milano [ecc.]</pubPlace>
+        <date>1988</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita"/></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.05120804 - LETTERATURA DRAMMATICA ITALIANA. TRAGEDIA. RACCOLTE. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-01-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marina Larena</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-02-09T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<head>AL MAGNIFICO E VIRTUOSISSIMO M. ANTONIO MOLINO</head>
+<p>Era nel vero ben convenevole, Mag. M. Antonio, che avendo voi ricercato da me ch'io dettassi la presente Tragedia e dapoi non senza molta vostra fatica procurato et ottenuto che ella publicamente si recitasse, foste similmente cagione che si desse alle stampe. Io, per confessar la verità, era sopra modo disideroso che la medesima si rappresentasse; non perché io la stimassi più di quello ch'era dicevole, ma a fine che, udendola biasimare e mordere da alcuni, si facesse saggio del giudicio universale. È avenuto adunque che prima essendo, come per prova, recitata in casa del Mag. e dottiss. S. Sebastiano Erizzo, senza non pur la Musica e lo apparato della Scena, che sono poste da Aristotele come parti principali e necessarie alla favola, ma senza ancora i vestimenti, ella fu comunemente lodata da trecento e più gentiluomini che vi si erano raunati per udirla. Et essendo dipoi recitata con gli abiti, col canto e con gli ornamenti convenevoli nel palagio dell'Eccellentissimo S. Duca di Ferrara, quantunque la prima volta per la gran moltitudine fosse turbato il rappresentarla, la seconda fu confermato il giudicio primiero. Di che ne tengo obligo primieramente a voi, che ne sete stato il capo, et a quelli altri gentiluomini che ve ne sono stati compagni. E dovendo ella uscir fuori, ho giudicato similmente convenevole che ella esca sotto il nome vostro: sì per le cagioni dette di sopra, come per li molti oblighi che io vi porto; e specialmente per le vostre segnalate virtù. Voi sete nato di padre e di madre legitimamente nobili, e da fanciullo applicaste l'animo ad ogni bella virtù degna di gentiluomo. Onde poi in maneggiare arme, in Musica, in agilità e destrezza del corpo e nelle volgari lettere sete riuscito perfetto. Oltre a ciò, dandovi alla lingua Greca e alla Bergamasca, più volte queste per vostro diporto contrafacendo e componendo e recitando Comedie, avete ottenuto il nome del primo che in questa città si abbia lasciato giamai vedere et udire in Scena. Oltre a ciò, sete di sì bello e ben composto animo, che a voi non si può opporre difetto veruno: ardente nella religione, ripieno di carità e cortese e liberale verso ciascuno, in guisa che non è alcuno che non vi ami et onori. E già i vostri piacevoli Poemi, Sonetti et altri componimenti volano per la bocca di tutti, e da tutti gl'intendenti e che gustano quelle lingue vengono letti e celebrati. A voi adunque io faccio dono di quello che ragionevolmente si può dir vostro. Ricevete adunque il mio animo e difendete le cose vostre. 
+In Venezia ai xxv di Maggio M D LXV.</p>
+<signed>Lodovico Dolce</signed></div1>
+<prologue>
+<head>LA TRAGEDIA PARLA E FA IL PROLOGO</head>
+<lg type="non definito">
+<l>Io, qual vedete a questi oscuri panni,</l>
+<l>A questo scettro, a questa ignuda spada</l>
+<l>Et a questa corona, son colei</l>
+<l>Che Tragedia nomar gli antichi Greci.</l>
+<l>Né l'origine mia scende dal cielo,</l>
+<l>Ch'io già nacqui tra voi, non tra privati,</l>
+<l>Ma tra Principi, Regi e Imperatori;</l>
+<l>Né, come la Comedia, apporto giuochi</l>
+<l>E diletti e piacer, ma doglie e pianti,</l>
+<l>Rappresentando morti atre e funeste</l>
+<l>O di Tiranni, o di Re giusti, oppressi</l>
+<l>Da nimica Fortuna, o di Reine:</l>
+<l>Che di passar nel volgo non mi cale.</l>
+<l>Né però mi ricorda unqua fra' Greci</l>
+<l>Né fra' Latin, ch'alcun de' miei seguaci</l>
+<l>Consentisse ch'innanzi a' riguardanti</l>
+<l>Omicidio d'altrui si commettesse:</l>
+<l>Ch'oltre ch'è cosa orribile a vedere</l>
+<l>Privar di vita un uom, bench'ei sia degno,</l>
+<l>Hanno avuto per lume altra ragione.</l>
+<l>Onde colui che qui condotta m'have,</l>
+<l>Dietro la scorta di sì chiari duci,</l>
+<l>In questo al Venusin volle accostarsi,</l>
+<l>Che con lirici versi di lontano</l>
+<l>Si lasciò in tutto e Pindaro et Alceo,</l>
+<l>E non al gran discepol di Platone,</l>
+<l>Il quale ha di me scritto ordini e leggi.</l>
+<l>Che se ben fu Filosofo di tanto</l>
+<l>Sonoro grido, egli non fu Poeta;</l>
+<l>E chi vuol por le Poesie di quanti</l>
+<l>Tragici fur dentro le sue bilancie</l>
+<l>Non sarà degno di tal nome alcuno:</l>
+<l>E perdonimi, s'io gli pongo avante</l>
+<l>In ciò il giudicio di Poeta illustre,</l>
+<l>Che con l'opre mostrò quant'ei sapea.</l>
+<l>Ma, per dir di me stessa alcuna cosa,</l>
+<l>Io stava a guisa di donzella afflitta</l>
+<l>Che rifiutata sia da chi l'aveva</l>
+<l>De le sue nozze riputata degna.</l>
+<l>Non ch'io fossi però tanto arrogante</l>
+<l>Ch'io volessi aguagliarmi di bellezza</l>
+<l>Ad alcune onorate mie compagne,</l>
+<l>Sì come a Sofonisba et a Canace,</l>
+<l>Ad Orbecche, a Rosmonda e ad altre tali;</l>
+<l>Ma sol per gran desio d'esser veduta</l>
+<l>Da voi Signori, e comparere in Scena.</l>
+<l>Or che, mercé di quei che m'han racolta,</l>
+<l>L'onesto mio desir veggio adempito,</l>
+<l>Tutta allegra a' vostr'occhi io m'appresento.</l>
+<l>E spero ancor, qual io mi sia, dovervi</l>
+<l>Piacer (s'io non m'inganno) come v'hanno</l>
+<l>Piaciuto già le prime mie sorelle,</l>
+<l>Ifigenia, Giocasta e quella Dido</l>
+<l>Che 'l mio gran Mantovan, con darle morte,</l>
+<l>Fece immortale a·ppar de' secol tutti;</l>
+<l>E movervi a pietà forse non meno</l>
+<l>Che vi mosse già mai miseria altrui.</l>
+<l>Ben confesso ch'in me non troverete</l>
+<l>Superbe voci, né epiteti gravi,</l>
+<l>Ma (se pur questo a voi prometter posso)</l>
+<l>Sermon soave e dir facile e puro.</l>
+<l>Né m'è accaduto il gir con troppa cura</l>
+<l>Cercando l'arte: perché da sé stesso</l>
+<l>Il soggetto indurrà ne' vostri petti</l>
+<l>Quella pietà che muove i cuori umani.</l>
+<l>E forse ch'io vedrò tinger le guancie</l>
+<l>Di caldo pianto a voi, leggiadre donne,</l>
+<l>D'alta beltade e di virtute esempio,</l>
+<l>E chiaro specchio d'onestate invitta.</l>
+<l>Qui vedrete ad un tempo odio et amore,</l>
+<l>Disdegno e gelosia giostrar di pari</l>
+<l>Nel cuor d'Erode; e lui dannar a morte</l>
+<l>La suocera, la moglie e i proprii figli:</l>
+<l>E poi tardi pentirsi, come aviene</l>
+<l>A chi nel giudicar troppo s'affretta.</l>
+<l>Ma felice città, città beata</l>
+<l>(A te dico, VINEGIA, alma et illustre),</l>
+<l>Non tanto perché sei libera e donna</l>
+<l>Di così grande e fortunato impero,</l>
+<l>Ornamento d'Italia e parimente</l>
+<l>Porto e rifugio de le genti afflitte,</l>
+<l>Né perché il tuo LEON fu sempre adorno</l>
+<l>Di trionfi, di palme e di trofei;</l>
+<l>Quanto perché, sì come vede il mondo,</l>
+<l>De' tuoi gran Senator l'alta prudenza,</l>
+<l>Il grave senno e la giustizia santa</l>
+<l>Non lasciò che nel tuo tranquillo grembo</l>
+<l>Seguisser mai sì scelerati effetti.</l>
+<l>Dunque mai sempre il tuo dominio eterni</l>
+<l>L'alta bontà del creator celeste</l>
+<l>Che tempra i cieli e l'universo regge:</l>
+<l>Poi che questo di quel ch'è colà suso</l>
+<l>È vera forma e chiaro esempio in terra.</l>
+<l>Questa che di lontan vi si dimostra</l>
+<l>È la città dove 'l figliuol di Dio,</l>
+<l>Alor ch'egli vestì l'umana spoglia,</l>
+<l>Sparse ne' cuor de' suoi più cari eletti</l>
+<l>Il seme de la santa alma dottrina</l>
+<l>Ch'a' credenti la via del cielo aperse.</l>
+<l>E quest'altro, che v'è vicino a gli occhi,</l>
+<l>È un Castel non lontan da la cittade,</l>
+<l>Ov'oggi seguiranno orribil morti,</l>
+<l>Da far Mezenzio divenir pietoso.</l>
+<l>Or voi, vostra mercé, porgete orecchie</l>
+<l>A le parole di quei che verranno</l>
+<l>Ad apportarvi il tragico successo,</l>
+<l>E lor volgete con la mente gli occhi,</l>
+<l>Degnando tutti di silenzio amico.</l></lg>
+<trailer>IL FINE DEL PRIMO PROLOGO</trailer></prologue>
+<prologue>
+<head>PROLOGO SECONDO</head>
+<stage>PLUTONE e la GELOSIA</stage>
+<sp><speaker><add resp="ed">PLUT.</add></speaker>
+<lg type="non definito">
+<l>Io, se ben mi dimostro a gli occhi vostri</l>
+<l>D'aspetto sì piacevole e giocondo,</l>
+<l>E tutto è 'l mio vestir leggiadro e bianco,</l>
+<l>Io son (s'è alcun che non sappia), io sono</l>
+<l>L'orrido Re de le Tartaree genti,</l>
+<l>Uscito fuor de la caverna oscura,</l>
+<l>Ove tormento l'anime dannate</l>
+<l>Al foco eterno et al perpetuo pianto.</l>
+<l>La cagion che mi fa veder il giorno</l>
+<l>È l'ardente desio ch'è nel mio petto</l>
+<l>Di far di preda ogn'or ricco l'Inferno.</l>
+<l>Onde più mesi son ch'i' vo seguendo</l>
+<l>Con ogni mio saper, con ogni forza,</l>
+<l>Erode, di Giudea fiero Tiranno,</l>
+<l>Per ritirarlo giù nel cieco fondo,</l>
+<l>D'ogni scelerità ripieno e grave.</l>
+<l>E lo farò: però che nel suo core</l>
+<l>Manderò ad abitar la Gelosia,</l>
+<l>Mostro peggior di tutti quanti i mostri</l>
+<l>Che infettino le menti de' mortali.</l>
+<l>Dico la Gelosia, crudel nimica</l>
+<l>De gli altrui beni e de' diletti umani,</l>
+<l>Che 'nsieme col Sospetto, suo fratello,</l>
+<l>E con l'Ira, che già son ite avanti,</l>
+<l>Le condurrà, fra il corso di poche ore,</l>
+<l>A tal furor et a pazzia sì strana,</l>
+<l>Che la moglie, la suocera et i figli</l>
+<l>Condannerà senza pietade a morte.</l>
+<l>Et io trionferò de la sua noia:</l>
+<l>E molto più, quando per questi eccessi</l>
+<l>Nel mio regno infernal verrà a trovarmi.</l>
+<l>E de l'anima sua farò l'istesso</l>
+<l>Che soglio far de' Principi malvagi,</l>
+<l>De' qual mai sempre fu piena la terra.</l>
+<l>Ben tempo ria che 'l Re che 'l ciel governa,</l>
+<l>Prendendo umana carne, vincitore</l>
+<l>D'ogni mondano affanno e de la morte,</l>
+<l>Me, che Principe son di questo mondo,</l>
+<l>Caccierà fuor con mio perpetuo scorno:</l>
+<l>Tal che di man mille sperate spoglie</l>
+<l>Mi fiano tolte; e così parimente</l>
+<l>La potenza, ch'avea dal dì che prima</l>
+<l>Mi fe' cader da' più beati scanni,</l>
+<l>Sarà del tutto a me levata e cassa.</l>
+<l>In tanto adunque terrò gli occhi aperti</l>
+<l>E l'estremo farò d'ogni mia possa</l>
+<l>Di trar ne' lacci miei popoli e Regi.</l>
+<l>E così la Giudea sarà la prima</l>
+<l>E la casa d'Erode; onde fia tosto</l>
+<l>Un altro Erode che, cercando in vano</l>
+<l>D'uccider de la Vergine il figliuolo,</l>
+<l>Farà morir in uno istesso giorno</l>
+<l>E mille e mille pargoletti infanti.</l>
+<l>Ma ecco la crudel di ch'io ragiono,</l>
+<l>Ecco la Gelosia: vien qui, ministra</l>
+<l>D'ogni duol, d'ogni pena e d'ogni male.</l>
+<l>Moviti: e dentro l'animo d'Erode</l>
+<l>Pon ogni tuo venen, sì che ne segua</l>
+<l>L'effetto fier che già gran tempo i' bramo.</l>
+<l>Tu, molti già per causa assai men grave</l>
+<l>Ne sospingesti a morti atre e funeste:</l>
+<l>Or fa' ch'esso ne spenga e questo e quelli,</l>
+<l>Ch'ancor ne porterai cinta la fronte</l>
+<l>Di sempre verde e sempiterno alloro.</l></lg>
+    </sp>
+<sp><speaker>GEL.</speaker>
+<lg type="non definito">
+<l>Re de' dannati e Dio bel basso regno,</l>
+<l>Là dove io nacqui e gli alimenti presi</l>
+<l>Che fur carni di serpi e di ceraste:</l>
+<l>In un volger di ciglia, in un momento,</l>
+<l>Adempirò la tua immutabil voglia:</l>
+<l>Che 'l Sospetto, ch'è gito in compagnia</l>
+<l>De l'Ira a dimorar dentro il suo petto,</l>
+<l>Mi farà prestamente agevol calle</l>
+<l>Da penetrar per tutte le sue vene,</l>
+<l>Sì che 'l tuo cor ne fia contento e pago.</l>
+<l>Io corro lieta a cosi bella impresa,</l>
+<l>Poi che tanto da te n'aspetto onore:</l>
+<l>Quantunque ogni diletto, ogni mia gioia,</l>
+<l>Sia di bagnarmi ogn'or ne l'altrui sangue.</l>
+</lg></sp>
+<sp><speaker>PLUT.</speaker>
+<lg type="non definito"><l>Quanta la forza è di tal mostro rio,</l>
+<l>Penso che raro è quel che no 'l conosca.</l>
+<l>Io, che desio di ruinar il mondo,</l>
+<l>Adopro lui più che null'altro spesso:</l>
+<l>Però che non è alcun che nel suo petto</l>
+<l>Non senta un tempo l'amoroso ardore.</l>
+<l>E però che gli amor sono diversi,</l>
+<l>Diverse son le spezie di costei,</l>
+<l>Ma servon tutte ad uno istesso capo.</l>
+<l>Ora io men vado a ritrovar ancora</l>
+<l>L'empio ch'io dico: e sarò seco e in lui,</l>
+<l>Guidando i suoi pensieri e l'opre tutte;</l>
+<l>E sarò sì invisibile e segreto</l>
+<l>Ch'egli non s'avedrà d'avermi seco.</l>
+<l>Fuggi tu, sole, et abandona il cielo,</l>
+<l>Se puoi, per non veder sì crude morti:</l>
+<l>Che quanto a me, non godo e non mi pasco</l>
+<l>Di più soavi e delicati cibi.</l></lg></sp>
+<trailer>IL FINE DEL SECONDO PROLOGO</trailer></prologue>
+<castList>
+<head>PERSONE CHE NELLA TRAGEDIA PARLANO</head>
+
+<castItem type="role"><role>MARIANNA</role> <roleDesc><emph>Reina</emph></roleDesc></castItem>
+<castItem type="role"><role>BERENICE</role> <roleDesc><emph>Nudrice</emph></roleDesc></castItem>
+<castItem type="role"><role>SOEMO</role> <roleDesc><emph>Capitano d'Erode</emph></roleDesc></castItem>
+<castItem type="role"><role>CORO</role></castItem>
+<castItem type="role"><role>ERODE</role></castItem>
+<castItem type="role"><role>SOLOME</role> <roleDesc><emph> Sorella d'Erode</emph></roleDesc></castItem>
+<castItem type="role"><role>COPPIERE</role> <roleDesc><emph>d'Erode</emph></roleDesc></castItem>
+<castItem type="role"><role>BENIAMINO</role> <roleDesc><emph>Eunuco, servo di Marianna</emph></roleDesc></castItem>
+<castItem type="role"><role>ALESSANDRA</role> <roleDesc><emph>Madre di Marianna</emph></roleDesc></castItem>
+<castItem type="role"><role>CONSIGLIERE</role> <roleDesc><emph>d'Erode</emph></roleDesc></castItem>
+<castItem type="role"><role>NUNZIO</role></castItem>
+<castItem type="role"><role>ALESSANDRO</role> <roleDesc><emph>Figliuoli d'Erode</emph></roleDesc></castItem>
+<castItem type="role"><role>ARISTOBOLO</role> <roleDesc><emph>Figliuoli d'Erode</emph></roleDesc></castItem>
+<castItem type="role"><role>MESSO</role></castItem>
+<castItem type="role"><role><add resp="ed">SOLDATI di Erode</add></role></castItem>
+<castItem type="role"><role>UN ALTRO NUNZIO</role></castItem>
+   </castList>
+<set><p><emph>La Scena si pone in Alessandrio, Castello di Giudea</emph></p></set>
+   <set><p>Il Coro è delle Damigelle di Marianna</p>
+   </set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO PRIMO</head>
+<div2 type="scena">
+<stage>MARIANNA <emph>Reina</emph>, BERENICE <emph>Nudrice</emph></stage>
+ <sp><speaker><add resp="ed">MAR.</add></speaker>
+<lg type="non definito">
+<l>O fiere, sanguinose, empie sorelle,</l>
+<l>Vendicatrici de gli umani oltraggi,</l>
+<l>S'è ver quel che di voi si legge e scrive,</l>
+<l>Spiccatevi da' crini un de' serpenti,</l>
+<l>E spargete per tutto di veneno</l>
+<l>Il mio dolente et angoscioso petto.</l>
+<l>Ingombratemi, a guisa di Medea,</l>
+<l>Di disdegno, di rabbia e di furore;</l>
+<l>E questa regal casa, alta e sublime,</l>
+<l>Oggi ripiena sia tutta di sangue.</l>
+<l>E ben di ciò ne face indizio il sole,</l>
+<l>Ch'ora nasconde tra le nubi i raggi</l>
+<l>E tinto è di pallor la bella faccia.</l>
+<l>Quinci Megera (ch'altri esser non puote)</l>
+<l>Il gran palagio orribilmente scuote,</l>
+<l>Come chiusi tra lor fossero i venti</l>
+<l>Ne l'ampio grembo de la madre antica.</l>
+<l>Impossibil è ch'oggi non dimostri</l>
+<l>Stella, al mio grave duci benigna e pia,</l>
+<l>Nel Re più ch'altro mai fiero et ingiusto</l>
+<l>Degno gastigo e giusto.</l>
+<l>Ma pur che questo sia,</l>
+<l>Segua, ch'io nel desio, la morte mia.</l></lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Cara figlia e Reina,</l>
+<l>Quai v'inducon tormenti</l>
+<l>A formar tali accenti?</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Deh, come sarà mai, Nudrice amica,</l>
+<l>Che, per fin ch'avrò spirto in queste membra,</l>
+<l>Io possa amar lo scelerato Erode?</l>
+<l>Che chiamar no 'l debb'io Re, né consorte,</l>
+<l>Avendo verso me più volte usato</l>
+<l>Effetti da nimico e da Tiranno.</l>
+<l>Io tacerò sì come con la morte</l>
+<l>D'Ircano, avolo mio, s'aperse il varco</l>
+<l>Da salir empiamente a questo regno:</l>
+<l>A questo grande e popoloso regno</l>
+<l>De la ricca Giudea, gran tempo madre</l>
+<l>Di Re felici e Capitani egregi,</l>
+<l>Bench'ora, per cagion de' nostri falli,</l>
+<l>Sia tributaria a le Romane forze.</l>
+<l>Né voglio dir sì come parimente</l>
+<l>Il mio caro fratel tolse di vita,</l>
+<l>Cui si deveva la real corona.</l>
+<l>Che quantunque quest'opere crudeli</l>
+<l>In cor di tigre troverian pietade,</l>
+<l>L'ambizione il può scusar in parte,</l>
+<l>E 'l mal nato desio d'aver d'altrui</l>
+<l>Dominio e signoria, che così spesso</l>
+<l>Volge sossopra onesto, ordini e leggi.</l>
+<l>Senza che 'l tempo, il qual chiamano i saggi</l>
+<l>Medicina volgar de' nostri mali,</l>
+<l>Fa che si scordan le passate offese,</l>
+<l>E le noie di noi rende men gravi.</l>
+<l>Ma qual ragion potrà ritrovar scusa</l>
+<l>Al fier desir, a la spietata voglia</l>
+<l>Ch'egli ha tra pochi mesi a me dimostro?</l>
+<l>E perché non debb'io con tutta l'alma</l>
+<l>Non solo odiarlo (che pur debbo sempre)</l>
+<l>Ma procacciar di far degna vendetta</l>
+<l>Del fratello, de l'avo e di me stessa?</l>
+<l>Poi che de la vendetta non è cosa</l>
+<l>Più dolce tra' mortai, né più gioconda,</l>
+<l>In guisa che più d'un, per vendicarsi,</l>
+<l>Non temeo mille ferri e mille morti.</l>
+<l>E me ne invita un fiero orribil sogno</l>
+<l>C'ho fatto questa notte innanzi l'alba:</l>
+<l>In qual ti conterò, s'udir ti cale.</l></lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito"> 
+<l>Reina, ben sapete</l>
+<l>Sì come sol da voi deriva e pende</l>
+<l>Lo stame de la vita che m'avanza,</l>
+<l>E gli affanni di voi reputo miei.</l>
+<l>Però mi raccontate il sogno vostro,</l>
+<l>Ch'attentamente e volentier v'ascolto;</l>
+<l>E tanto più, vedendovi turbata</l>
+<l>Via più ch'ancora io vi vedessi mai.</l>
+<l>E dapoi m'aprirete la cagione</l>
+<l>Che vi fa contra Erode or sì crudele;</l>
+<l>Il qual, come a me par, vi prezza et ama</l>
+<l>Più che sé stesso e che la propria vita.</l>
+<l>E se ben pose man nel vostro sangue,</l>
+<l>Per la cagion che dite, è certo degno</l>
+<l>Almen di scusa, se non di perdono.</l>
+<l>Che come esser fra noi dispiace servo</l>
+<l>A ciascun ch'è dottato d'intelletto</l>
+<l>(Che no 'l comporta la natura umana),</l>
+<l>Così a l'incontro chi più sa, più brama</l>
+<l>Aver imperio altrui, s'ei ben l'ottiene</l>
+<l>Non per virtù, ma per inganni e forza.</l>
+<l>Poi seco vissa in un medesmo letto</l>
+<l>Sete tanti anni, ch'ora è troppo tardo</l>
+<l>Il dolervi di cosa che non puote,</l>
+<l>Come trascorsa, ritornar a dietro;</l>
+<l>Anzi deve del tutto sepelirsi,</l>
+<l>Com'è in proverbio, ne l'oblio di Lete.</l>
+<l>Ma scopritemi pur quanto vi piace,</l>
+<l>Che ben sapete che mai sempre io fui</l>
+<l>De' pensier vostri secretaria antica.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Se dir mi dèi crudel, saprai dapoi</l>
+<l>Ch'io t'avrò fatto manifesto il sogno.</l>
+<l>Dunque udirai che la passata notte,</l>
+<l>Ne l'apparir de la novella aurora,</l>
+<l>Mi chiuse ambe le luci un lieve sonno:</l>
+<l>Quando a me parve di vedermi avante</l>
+<l>Un giovane ch'involto in negri panni</l>
+<l>Avea la gola sanguinosa e 'l petto,</l>
+<l>Anzi parea che d'ambi parimente</l>
+<l>Uscisse fuori un gran rivo di sangue.</l>
+<l>Questi tosto, chiamandomi per nome,</l>
+<l>Mi disse: Marianna, non conosci</l>
+<l>Il misero Aristobol tuo fratello?</l>
+<l>Aristobolo io sono, a te sì caro,</l>
+<l>Mentre l'aura vital qui mi sostenne.</l>
+<l>E non ho, come vedi, abandonato</l>
+<l>Il cieco regno de la morta gente</l>
+<l>Per dolermi di te, che moglie vivi</l>
+<l>D'un che nel sangue mio tinse le mani,</l>
+<l>Ma solo per recarti utile aviso</l>
+<l>Che ti guardi da Erode: che nel fine</l>
+<l>Non ti sciolga di vita, come sciolse</l>
+<l>Queste dolenti mie membra meschine.</l>
+<l>Non perch'odio ti porti, ch'egli t'ama,</l>
+<l>Quanto si possa amar cosa terrena,</l>
+<l>Ma solo indotto a ciò da van sospetto</l>
+<l>De l'empia avelenata gelosia.</l>
+<l>Guardisi ancor da' suoi nascosi sdegni</l>
+<l>La misera Reina, nostra madre,</l>
+<l>E due tuoi figli: un, che 'l mio nome porta,</l>
+<l>E l'altro ch'è dal suo detto Alessandro.</l>
+<l>E se ambedue finir potrete vive</l>
+<l>Tutto lo spazio del seguente giorno,</l>
+<l>Lo potrete segnar con bianche pietre.</l>
+<l>Questo mi basta averti detto. Io torno,</l>
+<l>Onde venuto i' son, perché non posso</l>
+<l>I rai soffrir de la tranquilla luce,</l>
+<l>Che mi sforza mal grado a dipartirmi.</l>
+<l>Ciò detto, in un momento dileguossi,</l>
+<l>E si partì da le mie luci il sonno,</l>
+<l>E 'l petto mi trovai molle di pianto.</l>
+<l>Questo è 'l mio sogno. Or da me intenderai</l>
+<l>Conformi effetti che seguiro avanti;</l>
+<l>E parimente udrai cosa che solo</l>
+<l>A mia madre, al mio Eunuco è manifesta.</l></lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Non sono da sprezzar, Reina, i sogni:</l>
+<l>Però che Dio, sotto a sì fatti veli,</l>
+<l>Ci scopre il ver de le future cose.</l>
+<l>Ma di quello ch'a gli occhi si dimostra,</l>
+<l>Non si può non aver ferma certezza,</l>
+<l>Né dubitar che sian l'imagin false.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Tu dèi saper ch'Erode (il qual giamai</l>
+<l>Marito i' non dirò), non sono ancora</l>
+<l>Dodici mesi o tredici forniti,</l>
+<l>Per certe gravi accuse fu chiamato</l>
+<l>Dal grande Augusto, Imperator di Roma.</l>
+<l>Il qual, avendo Marc'Antonio vinto</l>
+<l>Con battaglia naval là tra que' mari,</l>
+<l>Et ei non senza biasmo indi fuggendo</l>
+<l>Con Cleopatra sua verso l'Egitto,</l>
+<l>Volse colà le vincitrici insegne;</l>
+<l>E fece sì che l'uno e l'altro al fine</l>
+<l>Per disperazion si diè la morte:</l>
+<l>Questi col ferro e quella col veneno,</l>
+<l>Col veneno mortifero de l'aspe,</l>
+<l>Ond'ella, involta in un profondo sonno,</l>
+<l>Si lasciò morder sotto a la mammella.</l>
+<l>Generosa Reina, che più tosto</l>
+<l>Volle morir, ch'a guisa di captiva</l>
+<l>Esser di quel felice alto Monarca</l>
+<l>Nel trionfo condotta innanzi al carro.</l>
+<l>Ora, essendo chiamato ne l'Egitto,</l>
+<l>Andovvi Erode. E pria ch'egli v'andasse,</l>
+<l>Come colui ch'assai ben conosceva</l>
+<l>Per più delitti meritar la morte,</l>
+<l>Impose a un suo fedel che, s'avenisse</l>
+<l>In questa andata il fin de la sua vita,</l>
+<l>Con la sua propria mano ei m'uccidesse.</l>
+<l>E me non sol, ma la Reina ancora.</l>
+<l>Vedi se questo è, come dici, segno</l>
+<l>Di buona mente e d'amoroso affetto,</l>
+<l>O pur di crudeltate e di fierezza.</l>
+<l>Ma 'I suo fedele, anteponendo in questo</l>
+<l>A l'obligo il dovere e la pietate,</l>
+<l>A mia madre et a me fece palese</l>
+<l>Quel ch'imposto gli avea l'aspro Tiranno.</l>
+<l>E tale è la cagion ch'essendo Erode</l>
+<l>Ieri tornato a salvamento a noi,</l>
+<l>E i più teneri affetti a me mostrando</l>
+<l>Ch'a cara moglie dimostrar si ponno,</l>
+<l>Con poco lieto aspetto io lo raccolsi.</l>
+<l>E quinci avien ch'io tema che 'l mio sogno</l>
+<l>Riesca verità palese e chiara,</l>
+<l>S'io stessa non m'oppongo a la mia sorte;</l>
+<l>E l'animo in fra due sospesso pende,</l>
+<l>Ch'io vorrei prevenir questo crudele:</l>
+<l>Ma non è la mia mano avezza al ferro.</l></lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Fiera imposizion fu veramente</l>
+<l>Quella del nostro Re, né può chiamarsi,</l>
+<l>In fatto così reo, se non ingiusto.</l>
+<l>Ma s'io risguardo e giudico ben dritto,</l>
+<l>Già non fu crudeltà, ch'a ciò l'addusse,</l>
+<l>Ma sol l'ardente amor ch'egli vi porta.</l>
+<l>Però ch'al mio parer si dubitava</l>
+<l>(E non senza cagion) ch'esso qualvolta</l>
+<l>Fosse costretto di lasciar la vita,</l>
+<l>Volger deveste a nove nozze il piede,</l>
+<l>E che per moglie vi cercasse ogniuno,</l>
+<l>Per esser troppo di bellezze adorna;</l>
+<l>E similmente, ch'a tai nozze ancora</l>
+<l>S'aggiungesse la madre consigliera,</l>
+<l>Tal che, di voi nascendo altri figliuoli,</l>
+<l>I suoi del regno rimanesser privi.</l>
+<l>Così mi credo; e la credenza mia</l>
+<l>Sovra molte ragion ferma s'appoggia.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Crudeltà con amor non pò aver loco:</l>
+<l>E crederò che l'adducesse a questo</l>
+<l>Invidia, sdegno e crudeltate insieme,</l>
+<l>E certa bestial furia e pazzia,</l>
+<l>La qual più volte il terminarlo indusse</l>
+<l>A volger il pugnal contra il mio petto.</l>
+<l>Più volte ancor, pien di furor, mi disse:</l>
+<l>Marianna, tu cerchi ch'io ti mandi</l>
+<l>A ritrovar il tuo fratello e l'avo.</l></lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Amor a punto fa di questi effetti,</l>
+<l>Ma tra poco di man li caggion l'armi:</l>
+<l>Indi cresce il suo ardor e più s'affina.</l>
+</lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Adunque io, che son nata (ahi, che ne piango)</l>
+<l>Di real sangue, doverò patire,</l>
+<l>Patir devrò che questo empio omicida,</l>
+<l>Che si gode il mio regno e le mie case,</l>
+<l>Ogni dì mi minacci e mi tormenti?</l>
+<l>O pure aspetterò ch'egli m'ancida?</l>
+<l>Ecco, Aristobol m'ammonisce in sogno:</l>
+<l>Ma io, che debbo far, poi ch'i' son donna?</l>
+<l>Quello che fèr le giovani animose</l>
+<l>Figlie di Belo per gradir al padre,</l>
+<l>Ch'uccisero i mariti ad uno ad uno?</l>
+<l>O seguirò l'esempio de la nostra</l>
+<l>Ardita Ebrea, che con la invitta mano</l>
+<l>Fece il folle amator del capo scemo?</l>
+<l>Oimè, benché io ne sia cotanto offesa</l>
+<l>E ch'io ne tema in pochi giorni morte,</l>
+<l>Estremo mal di tutti quanti i mali,</l>
+<l>S'io non son presta a spingerlo di vita,</l>
+<l>Verso l'iniquo ho il petto d'Ipernestra,</l>
+<l>Che sola a Linco suo fida e benigna</l>
+<l>Salvò la vita, aprendo a sé la morte:</l>
+<l>Non perch'io l'ami (e perché deggio amarlo?),</l>
+<l>Ma perché nata son troppo pietosa.</l>
+<l>E questo aver pietà sarà cagione</l>
+<l>(Ben lo conosco) de la propria morte.</l>
+</lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Ragion non veggio, onde per voi si tema</l>
+<l>Che 'l Re, che v'ama et havvi sempre amato,</l>
+<l>Cangi l'amor in odio or così forte</l>
+<l>Che vi mandi uccidendo a l'altra vita:</l>
+<l>Massimamente non gli dando voi</l>
+<l>Punto cagion di mutamento alcuno.</l>
+<l>E benché gelosia spesso l'assaglia,</l>
+<l>Questo, come v'ho detto e a dirvi i' torno,</l>
+<l>Scemar non suole amor, anzi l'accresce.</l>
+<l>Siatevi pur, sì come foste sempre,</l>
+<l>Casta e modesta, e vi guardate ogn'ora</l>
+<l>Di non gli dar un menomo sospetto.</l>
+<l>E quanto al sogno, onde temete morte,</l>
+<l>Saper devete ben che molte volte</l>
+<l>Il desir e 'l timor fa che si sogna</l>
+<l>Cosa diversamente e trista e lieta,</l>
+<l>Che poi si vede ne gli effetti vana.</l>
+<l>Che voi siate pietosa, meritate</l>
+<l>Eterna lode; et a prudente donna</l>
+<l>E gran Reina, come sete voi,</l>
+<l>De la necessità conven far legge.</l>
+<l>Ma ecco vien Soemo, Capitano</l>
+<l>Del nostro Re, che voi, Reina, osserva</l>
+<l>Quanto conviene ad uom fedele e buono.</l>
+<l>Né voglio consegliarvi, perché voi</l>
+<l>Abondate di senno e di prudenza,</l>
+<l>Et ancora avevate fatto il callo</l>
+<l>Contro a' colpi crudel de la Fortuna.</l>
+<l>Andrò di dentro: che l'istesso forse</l>
+<l>Vi porgerà qualch'utile conforto,</l>
+<l>Come colui ch'assai più scorge e vede</l>
+<l>Di quel che può veder semplice vecchia,</l>
+<l>Di tempo, più che d'intelletto, grave.</l></lg></sp></div2>
+
+<div2 type="scena">
+<stage>SOEMO, MARIANNA</stage>
+<sp><speaker><add resp="ed">SOE.</add></speaker>
+<lg type="non definito">
+<l>Voi sapete, Reina, ch'io mi posi</l>
+<l>A gran risco e periglio de la morte,</l>
+<l>Alor ch'interamente vi scopersi</l>
+<l>Sì come Erode, ne la sua partenza,</l>
+<l>Ordinato m'avea ch'io v'uccidessi,</l>
+<l>Quando nuova venisse in questa corte</l>
+<l>Ch'Augusto avesse fatto uccider lui,</l>
+<l>O per altro accidente ei fosse morto:</l>
+<l>Il che vi poté far non legger fede,</l>
+<l>Sì come amava la salute vostra,</l>
+<l>Poi ch'io l'anteponeva a quel ch'io debbo</l>
+<l>Al mio Signore, et a la propria vita.</l>
+<l>Però che, se giamai ciò pervenisse</l>
+<l>A le sue orecchie, senza dubbio alcuno,</l>
+<l>Per guidardon di questa mia pietate</l>
+<l>Mi dannerebbe a sanguinosa morte,</l>
+<l>De la qual io sarei non poco degno,</l>
+<l>Sol per aver mancato d'obedirlo:</l>
+<l>Benché certo obedir è cosa indegna</l>
+<l>A Signor che comanda offici ingiusti.</l>
+<l>Et or l'essermi indotto a consigliarvi</l>
+<l>A cosa di tal peso e sì importante,</l>
+<l>Vi dee porger indizio parimente</l>
+<l>Ch'io v'ami, e 'l vostro ben cerchi e procuri,</l>
+<l>E per giovar a voi non tema morte.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Soemo, ei non accade con parole</l>
+<l>Dipinger quel che si dimostra in fatti.</l>
+<l>So che sincero amor t'indusse a farmi</l>
+<l>Palese l'impietà del fiero Erode;</l>
+<l>E 'l medesimo amor ti spinge a darmi</l>
+<l>Fedele insieme et utile consiglio.</l>
+<l>E forse a qualche tempo troverai,</l>
+<l>Se 'l giusto Dio vorrà lasciarmi in vita,</l>
+<l>Tanta in me gratitudine, quant'io</l>
+<l>In te sempre conobbi amor e fede.</l></lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Voi devete saper, Reina, adunque,</l>
+<l>Sì come Erode è sospettoso tanto</l>
+<l>Che sovente si teme ch'i figliuoli</l>
+<l>Non faccian contra lui qualche congiura.</l>
+<l>E di ciò n'appariscon tanti segni,</l>
+<l>Ch'io dubito ch'un dì, per uscir fuori</l>
+<l>Di queste noie, come iniquo padre,</l>
+<l>Non gli faccia privar tutti di vita.</l>
+<l>E voglia Dio che 'l dubbio ch'io ne tengo</l>
+<l>Faccia parer il mio giudicio falso.</l>
+<l>Questo che in lui è natural sospetto</l>
+<l>Avete voi cresciuto col mostrarvi</l>
+<l>Nel suo ritorno addolorata e mesta:</l>
+<l>In maniera ch'ei volge or ne la mente</l>
+<l>(Come appar manifesto nel suo volto),</l>
+<l>Discorrendo tra sé, vari pensieri.</l>
+<l>E questa mane, essendo assai per tempo,</l>
+<l>Sì come io soglio, a ritrovarlo andato,</l>
+<l>Mi disse con aspetto assai tranquillo</l>
+<l>(Ma, come si vedea ben chiaramente,</l>
+<l>Non lieve doglia li premeva il core):</l>
+<l>Soemo, io ti commisi che dovessi</l>
+<l>Far quanto a me parea che fosse onesto</l>
+<l>De la mia Marianna e de la madre,</l>
+<l>Con le condizion ch'io ti proposi,</l>
+<l>Acciò che 'l regno mio ne' miei figliuoli</l>
+<l>Passasse, senza impedimento alcuno:</l>
+<l>Ch'io ben conosco l'odio che mi porta</l>
+<l>Alessandra, sua madre. E cosi credo</l>
+<l>C'hai ciò, come fedel, tenuto accolto</l>
+<l>Ne la più interna parte del tuo petto.</l>
+<l>Però saper vorrei donde procede</l>
+<l>Che Marianna nel ritorno mio,</l>
+<l>Ove mostrar devea somma allegrezza,</l>
+<l>S'amasse me da vera e fida moglie,</l>
+<l>Dimostra insino a qui contrario effetto.</l>
+<l>Che non appare in lei pur segno alcuno</l>
+<l>Di contentezza; anzi, sì come fosse</l>
+<l>A lei tornato alcun nimico innanzi,</l>
+<l>Risguarda me con occhio oscuro e torto.</l>
+<l>Similmente nel volto d'Alessandra</l>
+<l>Solo io veggio superbia et alterezza.</l>
+<l>Questo sarebbe a me d'intender grato</l>
+<l>Da te, cui forse la cagion è chiara.</l>
+<l>Ciò detto avendo, a lui così risposi:</l>
+<l>Re, mio Signor, l'aver in me fidato</l>
+<l>Sì gran secreto e di momento tale,</l>
+<l>Può far chiaro e cortissimo argomento</l>
+<l>Che ritrovato ne la mia persona</l>
+<l>Abbiate quelle parti che si denno</l>
+<l>A leal servitor, com'io fui sempre:</l>
+<l>Il che vi mosse a por su le mie spalle</l>
+<l>Il grave peso de le vostre genti,</l>
+<l>E farmi d'ogni impresa Capitano.</l>
+<l>E quinci non mi par che mi convenga</l>
+<l>Or, per giustificarvi la mia fede,</l>
+<l>Usar verso di voi molte parole.</l>
+<l>Solo io dirò che non vedrete mai</l>
+<l>Contrario effetto a quel ch'io vi favello.</l>
+<l>E quando ei si vedesse in alcun tempo,</l>
+<l>Voi ne potrete far quanto vi giovi:</l>
+<l>Che tutta la mia vita è in poter vostro,</l>
+<l>E stimerò ch'ogni supplicio grave</l>
+<l>Sia del mio gran peccato assai minore.</l>
+<l>Io non so la cagion che la Reina,</l>
+<l>Né men la madre, mova a dimostrarsi,</l>
+<l>Sì come dite, a voi così turbate:</l>
+<l>Se due per aventura elle non sono.</l>
+<l>L'una, che voi, partendo per Egitto,</l>
+<l>L'abbiate in questo picciolo Castello,</l>
+<l>Come in una fortezza, ambe rinchiuse,</l>
+<l>Quasi non vi fidando di lor fede,</l>
+<l>Ma temendo ch'un dì qualche trattato</l>
+<l>Non abbiano a tramar contra di voi:</l>
+<l>Massime avendo i figli altrove posti,</l>
+<l>E seco ancor la madre vostra insieme.</l>
+<l>L'altra io stimo che sia per falsi avisi</l>
+<l>L'aver inteso come ne l'Egitto</l>
+<l>Eravate invaghito de l'amore</l>
+<l>Di certa bella giovane, congiunta</l>
+<l>Per parentado a quella Cleopatra</l>
+<l>Che trasse Antonio e sé medesma a morte:</l>
+<l>La qual in pochi giorni divenuta</l>
+<l>V'era cortese amica e concubina.</l>
+<l>Se queste due non sono or le cagioni</l>
+<l>Di tanta novitate, altre i' non veggio.</l>
+<l>Dimostrò il Re di queste mie parole</l>
+<l>Rimaner sodisfatto e assai contento:</l>
+<l>Ma non so quel che chiuso abbia nel petto.</l>
+<l>Mi diè licenza: e 'n questa sopravenne</l>
+<l>Solome sua sorella, a voi nimica,</l>
+<l>Nimica perché invidia il vostro bene,</l>
+<l>E perché voi più volte, contendendo</l>
+<l>Con lei, le avete a vituperio opposto</l>
+<l>L'esser nata di stirpe oscura e bassa.</l>
+<l>Ella entrò ne la camera d'Erode;</l>
+<l>E quei che v'eran dentro uscito fuori,</l>
+<l>E da le guardie fu l'uscio serrato.</l>
+<l>Io non so indovinar (poi che non sono</l>
+<l>Mago o profeta) quai possan nel vero</l>
+<l>Esser in somma i parlamenti loro.</l>
+<l>Nondimeno, per quel ch'io vo pensando,</l>
+<l>Temo che questa donna non ordisca</l>
+<l>Qualche calunnia, che v'apporti danno.</l>
+<l>Il Re facile è a creder ogni cosa,</l>
+<l>Et ella è astuta e l'animo ha maligno:</l>
+<l>Però vorrei ch'armaste il vostro petto</l>
+<l>De l'usata prudenza, e che copriste</l>
+<l>I dolor vostri sotto a lieto aspetto.</l>
+<l>E se 'l Re vi dimanda la cagione</l>
+<l>De la trista accoglienza, la recate</l>
+<l>A le due da me finte a vostro bene.</l>
+<l>Che quanto a me, quando si sappia il vero,</l>
+<l>Il deverne morir non mi fia grave,</l>
+<l>Non men per voi, Reina, che mi sete</l>
+<l>Per sangue vera e natural Signora,</l>
+<l>Che per le sante leggi e per l'onesto.</l>
+</lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Leale e vero amico, il ciel m'ha dato</l>
+<l>Così intrepido il cuor, l'animo grande,</l>
+<l>Che finger io non so, né dir menzogna,</l>
+<l>Né di letizia posso ornar il volto,</l>
+<l>Quando grave dolor m'affligge l'alma.</l>
+<l>Né parmi che convenga a donna nata</l>
+<l>D'alta stirpe real, come son io,</l>
+<l>Serbar ne la sua vita altro costume:</l>
+<l>Onde in questo è soverchio il confortarmi.</l>
+<l>Né fia certo giamai che 'l fiero Erode</l>
+<l>In me vegg'altro, fuor ch'ira e disdegno.</l>
+<l>E se averrà che me ne segua morte,</l>
+<l>Morrò contenta. Et oh, potess'io prima</l>
+<l>De le sue molte ingiurie vendicarmi,</l>
+<l>Ch'a ritrovar i miei n'andrei beata.</l>
+<l>Ma spero in Dio che, come ei fece acquisto</l>
+<l>Di questo regno con lo sparso sangue</l>
+<l>Del mio buon avo Ircano, e parimente</l>
+<l>Del misero Aristobol mio fratello,</l>
+<l>Così con dolorosa e cruda morte</l>
+<l>Debba un dì parimente esserne privo.</l>
+<l>Ma porto e porterotti obligo eterno,</l>
+<l>Che sii tanto sollecito e sì caldo</l>
+<l>De la mia vita e del mio bene insieme;</l>
+<l>E giuroti che mai per la mia lingua,</l>
+<l>Di quello ch'a te piacque di scoprirmi,</l>
+<l>Ei non fia per udir parola alcuna.</l></lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>È prudenza, Reina, il fuggir morte.</l>
+</lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Non per restar in vergognosa vita.</l>
+<l>SOE. In questo caso seguitar dovreste</l>
+<l>Il costume che serba il navigante:</l>
+<l>Ch'a vari venti varie vele adopra.</l>
+<l>Poi che 'l vostro turbarvi ha il Re sospinto</l>
+<l>A sospetto et a furia, or vi mostrate</l>
+<l>Verso di lui tutta benigna e dolce.</l>
+<l>E si come è di voi sempre geloso,</l>
+<l>Cosi fate che paia a questa volta</l>
+<l>Che gelosa di lui voi siate ancora;</l>
+<l>E lo spazio de gli anni che vi resta</l>
+<l>Procacciate di viver seco in pace.</l>
+<l>In tal modo, avenendo ch'egli sia</l>
+<l>Re giusto e buono, e voi con esso lui,</l>
+<l>Scordandovi 'l passato, vi portate</l>
+<l>Da moglie amica, e riposate il core.</l>
+<l>S'egli sarà Tiranno empio e malvagio,</l>
+<l>Sappiate certo che l'eterno Dio</l>
+<l>Farà de' vostri affanni alta vendetta.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Molte cose nel dir facili sono</l>
+<l>Che si trovan difficili ne l'opra.</l>
+<l>Ma basta, ch'io ricevo volentieri</l>
+<l>Il buono animo tuo pronto e fedele:</l>
+<l>E di ciò ne vedrai cortese effetto.</l></lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Vaglivi in questo la prudenza vostra.</l>
+<l>Ma non starò più vosco, acciò non porga</l>
+<l>La mia dimora al Re doppio sospetto.</l>
+<l>E rendetevi certa che m'avrete</l>
+<l>Presto ad ogni successo, o buono o reo.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Et io vo dentro a disfogar il core.</l></lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Come dietro al balen seguita il tuono,</l>
+<l>E col tuon scocca la saetta ardente</l>
+<l>Che de l'ira di Dio ministra è spesso,</l>
+<l>Così del balenar che face Erode</l>
+<l>Con occhi fieri, e dal noioso tuono</l>
+<l>De le parole dette a questo e quello</l>
+<l>Io temo al fin che 'l fulmine non esca</l>
+<l>Che percuota la testa a' suoi più cari.</l>
+<l>Ma certo io non devea far manifesto</l>
+<l>Quello che di secreto ei mi commise</l>
+<l>A la Reina et la madre; eccetto</l>
+<l>In caso, donde 'l fin fosse avenuto,</l>
+<l>Sì come ei si temea, de la sua vita:</l>
+<l>Ch'avrebbon ambe conosciuto alora</l>
+<l>Il mio amor, la mia fé, la mia bontate</l>
+<l>E la mia lealtà con più chiarezza.</l>
+<l>Ma sì mi parve un tal mandato ingiusto,</l>
+<l>Che tener non potei le labbra chiuse.</l>
+<l>Quinci n'è per uscir non picciol male,</l>
+<l>Ch'io veggio chiari i segni, e pur attendo</l>
+<l>Che lo stral mi ferisca ad ora ad ora.</l>
+<l>Pur sosterrò con saldo e forte petto</l>
+<l>I colpi de la fiera empia e crudele,</l>
+<l>Che non senza cagion cieca è dipinta:</l>
+<l>E ridurrommi in tanto al mio palagio.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>CORO</stage>
+<sp>
+<lg type="non definito">
+<lg type="non definito">
+<l>Signor, ch'a' padri nostri,</l>
+<l>Mercé di tua bontade,</l>
+<l>Dimostrasti la via ch'al ciel conduce;</l>
+<l>E 'n questi oscuri chiostri</l>
+<l>Giustizia et onestade</l>
+<l>E pace et union per te riluce:</l>
+<l>Il sol de la tua luce</l>
+<l>Sgombri le nebbie intorno</l>
+<l>Che minaccian tempesta orrida e greve.</l>
+<l>Sia qui la notte breve,</l>
+<l>E torni chiaro e senza nube il giorno.</l></lg>
+<lg type="non definito">
+<l>Basti il passato male</l>
+<l>A la nostra Reina,</l>
+<l>Ricevuto ne l'avo e nel fratello.</l>
+<l>E se prego mortale</l>
+<l>Ti sospinge et inchina</l>
+<l>A dar a i peccator giusto flagello,</l>
+<l>Il Re fiero e rubello</l>
+<l>A le tue sante leggi,</l>
+<l>Signor, punisci con supplicio degno;</l>
+<l>E torni questo regno</l>
+<l>A cui s'aspetta, e i cari antichi seggi.</l></lg>
+<lg type="non definito">
+<l>Tu liberasti, o Dio,</l>
+<l>Senza principio e fine,</l>
+<l>Prima e sola cagion d'ogni cagione,</l>
+<l>Bench'ei fosse restio</l>
+<l>A le tue discipline,</l>
+<l>L'afflitto popol tuo da Faraone</l>
+<l>E chi sua speme pone</l>
+<l>In tua pietà infinita</l>
+<l>Mai la tua santa man non abandona.</l>
+<l>Tu sei la nostra vita,</l>
+<l>E vien da te ogni scettro, ogni corona.</l></lg>
+<lg type="non definito">
+<l>Vedi, sì come Erode,</l>
+<l>Che 'l freno usurpa e tiene</l>
+<l>De la terra da te tanto diletta,</l>
+<l>De l'altrui sangue gode,</l>
+<l>E di tormenti e pene,</l>
+<l>Come di cibo suo, l'anima alletta.</l>
+<l>Scenda adunque con fretta</l>
+<l>La tua giustizia, padre,</l>
+<l>Sovra di lui, crudel più d'ogni fera;</l>
+<l>E la figlia e la madre</l>
+<l>Difendi, eterno Re, sì che non pèra.</l></lg></lg></sp></div2>
+<trailer>IL FINE DEL PRIMO ATTO</trailer>
+</div1>
+<div1 type="atto">
+<head>ATTO SECONDO</head>
+<div2 type="scena">
+<stage>ERODE, SOLOME</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>Certo non è fra noi, sorella, stato</l>
+<l>Più torbido, inquieto e pien d'affanni,</l>
+<l>Che l'esser, com'io son, Prencipe e Rege.</l>
+<l>Però ch'oltra il desio, che mai non queta,</l>
+<l>D'allargar i dominii in ogni parte,</l>
+<l>E tributarie far le genti tutte,</l>
+<l>Sempre vario timor combatte l'alma.</l>
+<l>Ch'o si teme di perder l'acquistato</l>
+<l>(Il che sovente aviene); o tra le molte</l>
+<l>Vivande, dentro l'or bere il veneno,</l>
+<l>Che preparato spesso è da' più cari;</l>
+<l>O in altre guise di finir la vita,</l>
+<l>Talora in gravi esili, et or col ferro,</l>
+<l>Quando in fiera prigione, o s'ei si trova</l>
+<l>Cosa peggior di pene e di tormenti.</l>
+<l>E chi stimato avria che Marianna,</l>
+<l>Ch'era l'anima mia, ch'era il mio bene,</l>
+<l>Procacciasse sì cruda or la mia morte?</l>
+<l>Tal dunque frutto un lungo amor attende?</l>
+<l>Questo per ben amar premio s'acquista?</l>
+<l>Così sperar si dee da cara moglie?</l>
+<l>Ah, sesso feminile ingrato et empio!</l>
+<l>Ch'io te ne incolpo, poi che veramente</l>
+<l>La natura di te fu sempre tale.</l>
+<l>Ma ritorna a ridurmi un'altra volta</l>
+<l>Il suo trattato orribile e nefando:</l>
+<l>Che fra tanto il Coppier per cui mandai</l>
+<l>(Che non puote indugiar) sarà presente.</l></lg></sp>
+<sp><speaker>SOL.</speaker>
+<lg type="non definito">
+<l>Mio fratello e Signor, io vi ridico</l>
+<l>Che 'l buon vostro Coppier sta mane istessa</l>
+<l>Venne ne la mia camera a trovarmi,</l>
+<l>Tutto turbato e pallido nel volto,</l>
+<l>Non altrimenti che fuggito avesse</l>
+<l>La morte o qualche grave altro accidente.</l>
+<l>E con poche parole mi scoperse</l>
+<l>Sì come Marianna gli avea dato</l>
+<l>Fiera battaglia, quando con promesse</l>
+<l>Di farne lui Signor d'assai castella,</l>
+<l>E quando con minaccie d'incolparlo</l>
+<l>Ch'avesse preso ardir d'usarle forza.</l>
+<l>E tutto questo la malvagia feo</l>
+<l>Per inducerlo a porgervi il veneno;</l>
+<l>In modo ch'egli, per salvar la vita,</l>
+<l>Promise di far ciò con giuramento.</l>
+<l>Ma sbrigato che fu da questa iniqua,</l>
+<l>A me sen venne e raccontommi il tutto.</l>
+<l>Disse che disegnato a tal delitto</l>
+<l>Aveva apunto questo giorno, in cui</l>
+<l>Far dovevate un splendido convito.</l>
+<l>Ecco, sì come io v'ho spiegato avante,</l>
+<l>L'occolte sceleraggini e l'immensa,</l>
+<l>Empia malvagità di Marianna.</l>
+<l>Ma stimo che l'amarla oltre ogni segno</l>
+<l>(Cosa che fèste fuor di modo sempre)</l>
+<l>Cagion sarà che voi non crederete</l>
+<l>La veritate: anzi a l'inferma mente</l>
+<l>Parrà dolce l'amaro, ambrosia il fele.</l>
+<l>Ma ben sapete che l'affezione</l>
+<l>Non lascia far altrui giudicio dritto;</l>
+<l>E voi l'amate in guisa che sovente</l>
+<l>Le avete comportato molte cose</l>
+<l>Che non dee comportar giusto Signore.</l>
+<l>Lasciamo star gli spessi oltraggi fatti</l>
+<l>A la persona mia col dispregiarmi,</l>
+<l>Tutto che sia tal biasmo a voi comune.</l>
+<l>Quante volte s'è opposta a' saggi vostri</l>
+<l>Giudicii? e de la propria volontate</l>
+<l>Ha fatto a molti et a voi stesso legge?</l>
+<l>Ella ha impedito i premi, ella le pene,</l>
+<l>Ch'erano terminati a' buoni e rei.</l>
+<l>O vergogna d'ogniun che regge stati:</l>
+<l>Ch'una femina in man tenga la briglia</l>
+<l>E, come piace a lei, l'allenti e stringa!</l>
+<l>E che dirò nel fine? Ella era quella</l>
+<l>Che le chiavi volgea di questo regno,</l>
+<l>E non già Re, ma come servo, Erode.</l>
+<l>Or ecco il guiderdon ch'a voi ne viene.</l>
+<l>E sappiate che l'odio che vi porta,</l>
+<l>Alessandra le accresce, e l'è compagna</l>
+<l>In cotal crudeltate, e forse duce.</l>
+<l>Ma 'l fedel vostro giunge. Da l'istessa</l>
+<l>Sua lingua avrete il ver chiaro e palese.</l>
+<l>Et io, poi che fornito ho verso voi</l>
+<l>D'amorevol sorella officio degno,</l>
+<l>Lasciando de la propria vita vostra,</l>
+<l>Come a punto conviene, a voi la cura,</l>
+<l>Tornerò dentro al mio tranquillo albergo,</l>
+<l>Ove privata vita allegra io vivo.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>COPPIERE, ERODE</stage>
+<sp><speaker><add resp="ed">COP.</add></speaker>
+<lg type="non definito">
+<l>Ecco, o Re giusto, che, da voi chiamato,</l>
+<l>Son qui venuto a la presenza vostra,</l>
+<l>Come bramoso d'obedirvi, lieto;</l>
+<l>Ma non sapendo la cagion di questo,</l>
+<l>Dentro la mente mia tutto confuso.</l>
+<l>Però che 'l vostro solito costume</l>
+<l>Non è d'adoperarmi in altra cosa</l>
+<l>Fuor ch'a la mensa, alor ch'in ricchi vasi</l>
+<l>Io v'appresento di mia mano il vino.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Tu porgi orecchie a le parole mie,</l>
+<l>E di quello ch'io son per dimandarti,</l>
+<l>Di parte in parte mi rispondi il vero.</l>
+<l>Ch'altramente per forza di tormenti</l>
+<l>Vorrò saper quel che saper desio.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Signor, da questa lingua intenderete</l>
+<l>La verità senz'ombra di menzogna,</l>
+<l>Come sempre dee far servo fedele.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Dunque mi di': quand'è c'hai favellato</l>
+<l part="I">Con Marianna mia?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l part="F">Signor, io credo</l>
+<l>Che fornite non sian quattro o cinqu'ore.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Le parlasti da lei sendo chiamato,</l>
+<l>O pur da te movesti a questo effetto?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Ella con molta instanza mi ridusse</l>
+<l>In un de' suoi via più segreti alberghi,</l>
+<l>E meco ragionò di cosa tale</l>
+<l>Ch'al pensar mi si arricciano le chiome.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Questo adunque convien che mi palesi.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Deh lasciate, Signor, ch'io lo vi taccia.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Tacer vorrai quel che scoprir mi dèi,</l>
+<l>Posto ch'ancora ei non m'appartenesse?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Anzi appartiene a la persona vostra.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>E tu fin qui tenerlo chiuso ardisci?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Non vorrei, Signor mio, che 'l divolgarlo</l>
+<l>Apportasse alcun danno a la Reina.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Hai più cura di lei che di me stesso?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Basta, Signor, che non sarete offeso.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Dunque pensasti tu di farmi offesa?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Io no, Signor, ma la consorte vostra.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Et osi ancor d'invilupparmi il vero?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Non vogliate, vi prego, intender cosa</l>
+<l>Ch'intesa v'empietà tutto di sdegno,</l>
+<l>E vi spingerà forse a incrudelire</l>
+<l>Nel sangue di colei ch'amate tanto;</l>
+<l>E me, sì come apportator non grato</l>
+<l>Di ree novelle, avrete in odio sempre.</l>
+<l>Ma bastivi ch'io sono e sempre fui</l>
+<l>E sarò sempre fedel servo vostro,</l>
+<l>E volgerei più tosto questa spada</l>
+<l>Contra il mio petto, che mai commettessi</l>
+<l>Delitto alcun contra la vostra vita.</l>
+<l>E s'io dico bugia, che questo giorno</l>
+<l>Apporti a gli occhi miei l'ultima luce.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Non voler più, con differirmi il vero,</l>
+<l>Tener l'animo mio tristo e sospeso,</l>
+<l>Ma senza più tardar mi scopri il tutto;</l>
+<l>Se non che, tuo mal grado, con la forza</l>
+<l>Ti farò dir ciò che tu vai tacendo.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Poi che così volete, io v'obedisco,</l>
+<l>E v'affermo e vi dico in poche voci</l>
+<l>Che la Reina, in ciò non molto accorta,</l>
+<l>Con gran promesse si credeva indurmi</l>
+<l>In questo giorno a porgervi il veneno:</l>
+<l>Non conoscendo il mio sincero amore</l>
+<l>Verso di voi e la mia pura fede.</l>
+<l>Io di tale impietà l'avrei ripresa,</l>
+<l>Et era già per scior la lingua, quando</l>
+<l>Minacciommi con furia d'incolparmi</l>
+<l>Ch'io, de le sue bellezze inamorato,</l>
+<l>Avessi preso ardir di violarla,</l>
+<l>E contra il vostro onor usarle forza.</l>
+<l>Questa minaccia mi stordì sì forte</l>
+<l>Ch'io promisi adempirne il suo desio:</l>
+<l>E questo le affermai con giuramento.</l>
+<l>Ma partito da lei, subitamente</l>
+<l>Io mi ridussi a la sorella vostra,</l>
+<l>A la qual raccontai quanto io v'ho detto,</l>
+<l>Dubitando d'offendervi o turbarvi,</l>
+<l>Quand'io l'avessi rapportato a voi.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Questo delitto è così strano e grave,</l>
+<l>Così fuor d'ogni officio di mogliera,</l>
+<l>Anzi sì lunge da gli affetti umani,</l>
+<l>Ch'io non lo debbo creder di leggieri.</l>
+<l>Però, se vuoi ch'io lo ti creda, è d'uopo</l>
+<l>Che tu con qualche indizio manifesto,</l>
+<l>Over con qualche testimon, lo provi.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Re, chi si move a far alcun delitto,</l>
+<l>S'egli privo non è de l'intelletto,</l>
+<l>Procura farlo sì celatamente</l>
+<l>Che, sì come è in proverbio, l'una mano</l>
+<l>De l'altra non ne possa aver contezza.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Per questo Marianna non devea</l>
+<l>Fidar ne la tua fé sì sozza impresa,</l>
+<l>Potendo dubitar che la facessi</l>
+<l>Per debito e ragione a me palese.</l>
+<l>Ma, sì come prudente, avria cercato</l>
+<l>Di venir al suo fin per altra via.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Ella a cotal effetto non poteva</l>
+<l>Miglior mezo trovar, né occasione.</l>
+<l>E quanto a me, benché devea avedersi</l>
+<l>Com'io v'era fedele e leal servo,</l>
+<l>A l'incontro sapea che la grandezza</l>
+<l>De' premi può guastar ben sana mente,</l>
+<l>E chi sta saldo a l'impeto de l'oro</l>
+<l>Può disprezzar ogni guerriero armato.</l>
+<l>Così da l'altra parte seppe ordirmi</l>
+<l>Un laccio tal, da non potermi sciorre.</l>
+<l>E questo fu col minacciar ch'avrebbe</l>
+<l>Detto a voi, mio Signor, ch'usarle forza</l>
+<l>Avea voluto. Il che creduto avreste,</l>
+<l>Sì perché tale era credibil cosa,</l>
+<l>Però che di legger si crede il male,</l>
+<l>E sì pel grande amor che le portate.</l>
+<l>Ma questo io posso ognior giustificarvi</l>
+<l>Per la lingua medesma del suo Eunuco.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Partecipe è costui di tal segreto?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>È partecipe, e dir posso compagno.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Come compagno? Io non intendo questo.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Egli trovò il veneno, egli lo serba.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>E chi sa che non siate ambi d'accordo,</l>
+<l>A morte e a disonor di Marianna?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Qual dee cagion indurci a tanto male?</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Lo stimolo d'alcun ch'odia costei,</l>
+<l>O porta invidia al mio tranquillo stato.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Io dirò, Signor mio, con veritate</l>
+<l>Che le ricchezze ch'ebbe Crasso o Mida,</l>
+<l>O quante han tutti i Re, non avrian forza</l>
+<l>Di mai piegar il vostro servo fido</l>
+<l>Ad opera malvagia e scelerata.</l>
+<l>E ben m'avete tal sempre tenuto,</l>
+<l>Ch'altramente a mia fé voi non avreste</l>
+<l>Creduto officio di cotanto peso.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Ciascuno è buon, pria che commetta il male.</l>
+<l>Ma volendo peccar, è di bisogno</l>
+<l>Ch'a qualche tempo il rio fatto incominci:</l>
+<l>Ond'è cotesta tua non buona scusa.</l>
+<l>Ma non usar in ciò fraude et inganno,</l>
+<l>Però che dopo molti aspri supplici</l>
+<l>(Se in me giustizia fia, come fu sempre)</l>
+<l>Gli augelli pascerai de le tue carni.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Signor, ho detto espressamente il vero,</l>
+<l>E non men pento, ancor ch'io ne morissi:</l>
+<l>Che tal la verità che i grandi offende</l>
+<l>Produce spesso a chi la scopre frutto.</l>
+<l>Ma non fia malagevole a trovare</l>
+<l>Il venen, se v'usate diligenza.</l>
+<l>E così voi vedrete come in specchio</l>
+<l>La purità de la mia fé sincera,</l>
+<l>Poiché l'Eunuco il custodisce e serba.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Basta. Daratti il cuor di sostenere</l>
+<l>Quanto m'affermi a la Reina avanti?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Questo io farò, benché mal volentieri,</l>
+<l>Per debito rispetto e riverenza</l>
+<l>Che, dopo voi, a sua persona io porto.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>La riverenza che portassi a lei,</l>
+<l>In questo caso a me sarebbe offesa.</l>
+<l>Vo' dunque che tu parli a faccia a faccia</l>
+<l>Con Marianna, e lassi ogni rispetto.</l>
+<l>Onde a quest'ora io manderò per lei.</l>
+<l>Poi mi riserbo interrogar l'Eunuco.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Non bisogna, Signor, che voi mandiate,</l>
+<l>Ch'ella esce fuori, et è l'Eunuco seco.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>MARIANNA, ERODE, COPPIERE</stage>
+<sp><speaker><add resp="ed">MAR.</add></speaker>
+<lg type="non definito">
+<l>L'avervi udito favellar irato</l>
+<l>Con questo vostro servo, e nominarmi,</l>
+<l>Fin là dov'era in camera rinchiusa,</l>
+<l>M'ha indotta ad uscir fuor, desiderando</l>
+<l>D'intender la cagion che vi sospinge</l>
+<l>A ragionar di me come di rea.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Marianna, io torrei perder il regno,</l>
+<l>E 'nsieme rimaner mendico e nudo,</l>
+<l>Prima ch'aver cagion, come n'ho troppa,</l>
+<l>D'imputarti, o crudel, delitto alcuno.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Se delitto è l'avervi amato sempre</l>
+<l>Con quello amor ch'amar si dee consorte,</l>
+<l>Et onorato come mio Signore,</l>
+<l>Avete alta cagion d'odiarmi ogniora.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Non m'accade mostrar quel che t'è chiaro,</l>
+<l>Ma sol dirò che se di cuor amando</l>
+<l>L'uom si fa degno di venir amato,</l>
+<l>Tu Marianna sei tenuta amarmi</l>
+<l>Più che moglie giamai consorte amasse.</l>
+<l>Et a l'incontro, disleale e ingrata,</l>
+<l>Procuri crudelmente or la mia morte.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Questa scelerità, ch'e vana e falsa,</l>
+<l>Qual esser può così sfacciato e rio</l>
+<l>Ch'abbia di rapportarvi avuto ardire?</l>
+<l>Ma la fingete voi per trovar quindi</l>
+<l>Occasion di tòr a me la vita,</l>
+<l>O per aver materia ad ogni tempo</l>
+<l>D'esercitar la vostra crudeltate,</l>
+<l>O per odio mortal che mi portate,</l>
+<l>O per volger il core a nove nozze.</l>
+<l>Ma, qual sia la cagione, io vi fo certo</l>
+<l>Che far non mi si può cosa più cara.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Chi disprezza la vita non conosce</l>
+<l>Quanto un viver onesto e senza colpa</l>
+<l>Ci fa degni nel fin d'un'altra vita,</l>
+<l>Che toglier non ci può tempo né morte.</l>
+<l>Tu brami di morir, e questo è segno</l>
+<l>C'hai fatto o vai tramando nel tuo core</l>
+<l>Di far cosa, onde sii degna di morte.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Io fin qui non commisi alcun peccato</l>
+<l>Fuor ch'in amarvi, perché so che voi</l>
+<l>Mai di me non amaste altro che 'l corpo;</l>
+<l>Né ciò commetter son per alcun tempo,</l>
+<l>Parte perché son femina impotente,</l>
+<l>E parte perché lascio la vendetta</l>
+<l>Di molte avute offese al Re del cielo.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Cosa non è che maggiormente offenda</l>
+<l>Tra noi mortai la Maestà di Dio,</l>
+<l>Che 'l dimostrarsi a i benefici ingrato.</l>
+<l>Io col proprio valor e co i sudori</l>
+<l>Difendendo gli Ebrei, che molte volte</l>
+<l>Sarebbon stati da i nimici oppressi,</l>
+<l>Meritai d'acquistar corona e scetro</l>
+<l>Di questo regno, il qual mai sempre ressi</l>
+<l>Con temperanza tal, che 'l popol spesso</l>
+<l>M'ha dato onore e titolo di padre.</l>
+<l>E potendo di te far le mie voglie,</l>
+<l>Qual d'altre damigelle han fatto molti,</l>
+<l>E tenerti appo me per concubina,</l>
+<l>Overo ad un privato maritarti,</l>
+<l>Ti presi per legitima consorte:</l>
+<l>E diedi similmente a te corona</l>
+<l>E Reina ti fèi di sì gran regno;</l>
+<l>E tua madre onorai com'ella fosse</l>
+<l>La medesma ch'al mondo mi produsse.</l>
+<l>Né meno amai di te, qual tu m'opponi,</l>
+<l>Il corpo sol: perché se fosse stato</l>
+<l>Questo cagion del mio sì lungo amore,</l>
+<l>Benché dottata la natura t'abbia</l>
+<l>Di non poca bellezza, altre ci avea</l>
+<l>Per la Giudea ch'eran di te più belle.</l>
+<l>Ma volsimi ad amarti, imaginando</l>
+<l>Che dentro avesti l'animo sì bello,</l>
+<l>Come di fuor mi si mostrava il volto.</l>
+<l>Ma ben vegg'or che tu, sotto apparenza</l>
+<l>Di rendermi buon cambio del mio amore,</l>
+<l>Hai nudrito nel petto un cor di serpe:</l>
+<l>Né bisogna altra prova che tu cerchi,</l>
+<l>Empia, per man d'altrui tormi la vita,</l>
+<l>Che la tua propria lingua ti condanna.</l>
+<l>E nel ver meco discorrendo quanto</l>
+<l>Mi sei tenuta, non poteva indurmi</l>
+<l>A creder a l'altrui vere parole:</l>
+<l>Quantunque il poco lieto volto, il quale</l>
+<l>M'hai dimostrato in questo mio ritorno,</l>
+<l>Mi facesse restar molto sospeso.</l>
+<l>Or non pur credo quel ch'io non credea,</l>
+<l>Ma parmi aver la man sopra il veneno.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Erode, da quel dì che mi prendeste</l>
+<l>Per moglie, io mi proposi di scordarmi</l>
+<l>Tutte le ingiurie mie, tutte l'offese</l>
+<l>Che da voi ricevute ho nel mio sangue;</l>
+<l>E l'osservai da indi in qua mai sempre,</l>
+<l>Cedendo a' colpi rei de la Fortuna.</l>
+<l>Poscia, trovando in voi diversi effetti</l>
+<l>(Ch'ora mi ponevate insino al cielo,</l>
+<l>Aguagliandomi a lei di castitate</l>
+<l>Che fe' col suo morir libera Roma,</l>
+<l>Et or dubitavate di mia fede),</l>
+<l>Cangiai l'animo mio sforzatamente,</l>
+<l>E desiai più volte di morire,</l>
+<l>Per uscir de gli affanni in che sì spesso</l>
+<l>La vostra instabil mente mi ponea.</l>
+<l>Ma questo è nulla a paragon de l'atto</l>
+<l>Empio e crudel ch'a la partenza vostra</l>
+<l>Avete verso me fiero dimostro,</l>
+<l>Riducendomi come prigioniera</l>
+<l>Dentro questo Castel, fra lochi incolti,</l>
+<l>Con mille guardie e mille spie d'intorno:</l>
+<l>Quasi aveste proposto nel ritorno</l>
+<l>Di levarmi la vita. Et a che fine</l>
+<l>Tenermi in tal distretto con la madre?</l>
+<l>Forse che non er'io più che sicura</l>
+<l>Dentro a Gerusalem, ricetto e seggio</l>
+<l>Vostro e di tutti quanti i Re passati?</l>
+<l>Ma stender non mi voglio in questa parte,</l>
+<l>Che forse sta ne l'erba ascoso l'angue:</l>
+<l>Il quale accenna, anzi dimostra espresso,</l>
+<l>Che, contra quel che voi mostrar volete,</l>
+<l>In alcun tempo non m'amaste mai.</l>
+<l>Con tutto ciò, benché cagion n'avessi,</l>
+<l>Pur un lieve pensier meco non volsi</l>
+<l>A machinar contra la vostra vita,</l>
+<l>Né mai sarà ch'io l'abbia, s'i' vivessi</l>
+<l>Più spazio assai de la Cumea Sibilla.</l>
+<l>E s'alcun è che dir voglia altrimenti,</l>
+<l>Non dice il vero, e tesse a voi menzogna.</l>
+<l>Ma conchiudo che voi da voi medesmo</l>
+<l>Fingete questo, per trovar cagione</l>
+<l>Apparente di tòrre a me la vita,</l>
+<l>Indotto da l'amor che voi portate</l>
+<l>A qualche nuova concubina, o mosso</l>
+<l>Da gelosa paura o da sospetto,</l>
+<l>O da la vostra crudeltà natia.</l>
+<l>Ma ecco il petto mio, stringete il ferro</l>
+<l>Et apritelo omai, ch'a me fia grato</l>
+<l>Se tanta sete avete del mio sangue:</l>
+<l>Che 'l morir mi fia gioia et a l'incontro</l>
+<l>Assai peggio che morte il viver vosco;</l>
+<l>E fia l'uccider me lieve peccato</l>
+<l>A voi, che 'l frate e l'avo mio uccideste.</l>
+<l>Ma ben sarebbe a me d'intender caro</l>
+<l>A che parlato di veneno avete.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Io non so, Marianna, onde tu prenda</l>
+<l>Cotanta sicurezza (o ne' tuoi merti,</l>
+<l>O ne la mia bontà), ch'ardischi dire</l>
+<l>Quel che sai chiarmente esser bugia.</l>
+<l>Prenderla ne' tuoi merti tu non puoi,</l>
+<l>Se non sei tanto d'intelletto priva,</l>
+<l>Che merto tenghi l'aver procurato</l>
+<l>Al tuo marito, al tuo Signor la morte,</l>
+<l>Da cui dèi riconoseer tanti beni.</l>
+<l>Se t'assicuri ne la mia bontate,</l>
+<l>Puoi anco imaginarti com'io tengo</l>
+<l>La vita più ch'ogni altra cosa cara;</l>
+<l>E che in ciascun che viene offeso suole</l>
+<l>L'odio esser tanto, quanto fu l'amore</l>
+<l>Ch'egli portò a colui donde e l'offesa.</l>
+<l>Oltre che, quando la giustizia zoppa,</l>
+<l>Manca a Signor il suo maggior sostegno.</l>
+<l>Ma che mostri così sprezzar la vita,</l>
+<l>Ti sgannerai, mi penso, in fra poche ore,</l>
+<l>Alor che ti vedrai la morte appresso.</l>
+<l>Dunque, perché 'l tuo volto non diventa</l>
+<l>Per vergogna di foco, o tutto bianco,</l>
+<l>In dir ch'in alcun tempo (o immortal Dio!)</l>
+<l>Non volgesti il pensier, né 'l volgerai</l>
+<l>A machinar contra di me la morte?</l>
+<l>Sarai tanto sfacciata che tu neghi</l>
+<l>D'aver tramato che costui dovesse</l>
+<l>Darmi il venen, quand'ei mi porge il vino?</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Se questo ha detto, egli ne mente; e voi</l>
+<l>Credete la bugia, se ciò credete.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Or di' tu, mio fedel, la veritate;</l>
+<l>E non aver rispetto a questa ingrata.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>A che più replicar quel ch'io v'ho detto?</l>
+<l>Ella se 'l sa non men che lo sapp'io.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Et io replicherò che tu ne menti,</l>
+<l>E ch'Erode a ciò dir t'have sospinto,</l>
+<l>Per far di me qual del fratello e l'avo.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Or senza più tardar discopri il vero</l>
+<l>De la malvagità di questa rea.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Alto Re, la conscienza ha troppa forza.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Che parli di conscienza? Io ti ridico</l>
+<l>Che senza più tardar racconti il vero.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Dico che la conscienza ha troppa forza.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Io non so quel che di conscienza parli.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Se voi mi promettete di donarmi.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Cortese Re senza richiesta dona.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Tropp'alto è 'l don che chieder vi vorrei.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Dunque vuoi patteggiar di doni meco?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Signor mio sì, ch'a me la vita importa.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Forse chiedermi vuoi la vita in dono?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Ciò bramo e chieggio, e così piaccia a voi.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Cotesto è un confessar d'aver peccato.</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Peccato ho, mio Signor, a dirvi il falso.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Adunque non è ver quel che m'hai detto?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Anzi pura calunnia e falsa accusa.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>E chi t'ha spinto a così grave fallo?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Hammi sospinto la sorella vostra.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Dunque tu, per gradir a mia sorella,</l>
+<l>Hai, mentitor, colpata una innocente?</l></lg></sp>
+<sp><speaker>COP.</speaker>
+<lg type="non definito">
+<l>Hollo fatto, Signor, per fuggir morte.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Anzi l'hai fatto per lasciar la vita,</l>
+<l>Poi che dovevi altrui causar la morte.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Ecco sì come Dio clemente e giusto</l>
+<l>Non comporta che 'l ver si stia nascosto.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Qui certo è ascosa qualche occolta frode.</l>
+<l>Marianna, ritorna onde partisti,</l>
+<l>E questo Eunuco tuo rimanga meco.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Godo che quanto più voi cercarete,</l>
+<l>Tanto vi apparirà più bello il vero</l>
+<l>E l'innocenza mia sarà più chiara.</l>
+<l>La vita, avendo a dimorar con voi.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Or tu, ministro mio, sostien costui,</l>
+<l>E menalo prigion, perfin ch'io prenda</l>
+<l>Altra spedizion, altro consiglio </l>
+<l>Ne la malvagità del suo peccato.</l></lg></sp>
+</div2>
+<div2 type="scena">
+<stage>ERODE, BENIAMINO Eunuco</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>Tu sai, Beniamin, che da' prim'anni</l>
+<l>Io t'allevai ne la mia corte in guisa</l>
+<l>Che stato fosti a me figlio o fratello,</l>
+<l>Onde apprender ti feci ogni bell'arte,</l>
+<l>Et applicarti a quei lodati studi</l>
+<l>Ch'appartengono ad uom nato gentile.</l>
+<l>Poi parendomi in te veder non meno</l>
+<l>Ornamenti di fede e di bontate</l>
+<l>Che di dottrina (cosa che si suole</l>
+<l>Oggidì ritrovar in poche corti),</l>
+<l>A' servigi ti posi di colei</l>
+<l>Che fu, dal dì ch'io la conobbi a questo,</l>
+<l>Di sì gran regno e del mio cor Reina.</l>
+<l>E nel vero io conobbi che tu sempre</l>
+<l>Servita l'hai con quella lealtate</l>
+<l>Ch'a ben creato servo si conviene.</l>
+<l>Il che creder io vo' che tu facessi,</l>
+<l>Non men per sodisfar compitamente</l>
+<l>A quanto le dovevi, ma più ancora</l>
+<l>Però che chiaramente comprendevi</l>
+<l>Che lei servir era un servir me stesso.</l>
+<l>Io t'ho dunque fin qui sempre tenuto</l>
+<l>Buono e fedele, e sempre ho avuto in cuore</l>
+<l>Di sollevarti a qualche degna altezza,</l>
+<l>Levandoti del grado in che ti trovi.</l>
+<l>Ma perché spesso l'uom si va cangiando,</l>
+<l>Tal che col tempo il buon diventa rio,</l>
+<l>Onde tal volta è degno di perdono,</l>
+<l>E tale ancora aspro gastigo merta,</l>
+<l>Se sai che Marianna abbia voluto</l>
+<l>Avenenarmi e sei di questo a parte,</l>
+<l>Io ti giuro per questa sacra testa</l>
+<l>E per colui che tempra ogni elemento</l>
+<l>Che, confessando apertamente il vero,</l>
+<l>Io ciò non solo son per perdonarti,</l>
+<l>Ma per dartene ancor premio sì buono</l>
+<l>Che non avrai da invidiar alcuno.</l>
+<l>A l'incontro, se tacci e che mi sia</l>
+<l>Conta la verità per altra lingua,</l>
+<l>Sappi che fochi, lacci e croci e ruote,</l>
+<l>E 'nsieme mille e mille altri.tormenti,</l>
+<l>Saran pene leggere al par di quelle</l>
+<l>Ch'io ti farò sentir ne le tue membra.</l>
+<l>E forse ch'anco invidia porterai</l>
+<l>A quel ch'arse e muggiò nel proprio toro.</l>
+<l>Da l'una parte innanzi a gli occhi tuoi</l>
+<l>Ti si scopre un terrestre Paradiso,</l>
+<l>Da l'altra di Pluton l'orrido regno.</l>
+<l>L'arbitrio è in te di prender questo o quello.</l></lg></sp>
+<sp><speaker>BEN.</speaker>
+<lg type="non definito">
+<l>Re, mio Signor, d'aver io non conosco</l>
+<l>Obligo dopo Dio maggior altrui,</l>
+<l>Ch'a la vostra infinita alta bontate.</l>
+<l>Però qual volta io fossi il più malvagio</l>
+<l>Uomo che sostenesse unqua la terra,</l>
+<l>Per li vostri gran merti io non potrei</l>
+<l>Esser se non a voi sempre fedele.</l>
+<l>E ben ch'io sia tenuto a la Reina,</l>
+<l>Son più tenuto al debito e a l'onesto:</l>
+<l>Onde, quand'ella avesse alcun trattato</l>
+<l>Fatto contra di voi, subitamente</l>
+<l>Sapendol io, ne avreste avuto aviso.</l>
+<l>E come aver potrei fatto altramente</l>
+<l>Verso un Signor amabile e cortese,</l>
+<l>Da cui deriva quanto è in me di buono,</l>
+<l>Il mio onor, il mio bene e la mia vita?</l>
+<l>Ma tenete per cosa certa e vera,</l>
+<l>Liberandone il cor d'ogni sospetto,</l>
+<l>Che la Reina mia viene incolpata</l>
+<l>Di cosa tale a cui non pensò mai:</l>
+<l>Perch'ella ha di bontà ripieno il petto,</l>
+<l>Né un nevo sol di rio pensier la macchia.</l>
+<l>Appresso v'ama e riverisce quanto</l>
+<l>Amar e riverir si dee consorte</l>
+<l>E magnanimo Re, qual sete voi.</l>
+<l>È ver ch'onesta causa l'ha turbata</l>
+<l>Via più che molto. E, se mi lece dire,</l>
+<l>Voi sete, Signor mio, più che tradito</l>
+<l>Da quei ch'anno appo voi grado maggiore;</l>
+<l>E ben che siate sì prudente e saggio,</l>
+<l>Chiudete gli occhi e non ve n'avedete.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Si suol dir per proverbio antico e vero</l>
+<l>Che colui c'ha più servi, ha più nimici:</l>
+<l>Ma s'egli avien che tu conosca quali</l>
+<l>Siano color che traditor mi sono,</l>
+<l>Perché fin qui me gli hai tenuto ascosi?</l></lg></sp>
+<sp><speaker>BEN.</speaker>
+<lg type="non definito">
+<l>Sapete ben che ne gli abbietti e vili</l>
+<l>Agevolmente ogni gran mal si crede;</l>
+<l>Ma di quei che son posto a qualche altezza</l>
+<l>Con gran difficultà s'ascolta il vero.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Anzi coloro i quali han maggior forza</l>
+<l>Fanno più verisimili le accuse,</l>
+<l>E son più da temer quanto più questi</l>
+<l>Gustano del regnar l'alta dolcezza.</l>
+<l>Però mi di', senza rispetto alcuno:</l>
+<l>Qual sono i traditor de' quai favelli?</l></lg></sp>
+<sp><speaker>BEN.</speaker>
+<lg type="non definito">
+<l>Signor, io so come la bontà vostra</l>
+<l>Nel Capitan Soemo ha tanta fede</l>
+<l>Ch'a lui, partendo già, commise quello</l>
+<l>Ch'ad alcun altro non avria commesso.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>O giustizia di Dio, che non consenti</l>
+<l>Che verun tradimento occulto stia!</l>
+<l>Gli commisi più cose, le quai tutte</l>
+<l>Stimo che fedelmente abbia esequito.</l></lg></sp>
+<sp><speaker>BEN.</speaker>
+<lg type="non definito">
+<l>Io credo ch'esequita abbia ciascuna,</l>
+<l>Ma non quella che più d'altre devea.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>E quale è quella c'ha lasciato a dietro?</l></lg></sp>
+<sp><speaker>BEN.</speaker>
+<lg type="non definito">
+<l>Dirò liberamente, poi che voi</l>
+<l>Da me cercate il vero, e debbo dirlo.</l>
+<l>Avete voi, Signor, nel dipartirvi</l>
+<l>Imposto a questi per espressa legge</l>
+<l>Che, quando fosse adivenuto il fine</l>
+<l>De' vostri giorni (il che per nostro bene</l>
+<l>Non è piaciuto a la pietà di Dio)</l>
+<l>Di sua mano occidesse la Reina?</l>
+<l>Se questo imposto a lui voi non avete,</l>
+<l>Ei fece da malvagio cavalliero</l>
+<l>A gravar voi d'una calunnia tale.</l>
+<l>E se a l'incontro glie l'avete imposto,</l>
+<l>Discoprendolo a lei, com'egli ha fatto,</l>
+<l>È mancato a l'officio di fedele,</l>
+<l>Anzi portato s'è (per dirlo chiaro)</l>
+<l>Da servo disleal, perfido e ingrato.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Questa è la verità, né vo' negarla:</l>
+<l>Però ch'a la partenza, dubitando</l>
+<l>Che Marianna mia, dov'io mancassi,</l>
+<l>Volgesse il core a le seconde nozze,</l>
+<l>Acciò, sì come accompagnommi in vita,</l>
+<l>Così m'accompagnasse ancora in morte,</l>
+<l>E 'l maggior mio figliuolo avesse il regno,</l>
+<l>Commisi a questo mancator di fede</l>
+<l>Ch'usasse in lei così crudele effetto,</l>
+<l>Mosso da la pietà verso i miei figli</l>
+<l>E da l'immenso amor verso la istessa.</l>
+<l>La qual cosa avend'egli discoverta</l>
+<l>A Marianna, è manifesto segno</l>
+<l>Che tra loro ci sia trama d'amore.</l>
+<l>Ma tu, com'hai saputo un tal secreto?</l></lg></sp>
+<sp><speaker>BEN.</speaker>
+<lg type="non definito">
+<l>Soemo lo scoperse a la Reina.</l>
+<l>Ella poi ragionando con la madre,</l>
+<l>Né curando di me, come fedele,</l>
+<l>Per questo esso pervenne a le mie orecchie.</l>
+<l>Il che permise la bontà di Dio</l>
+<l>Acciò ch'al fin lo rivelassi a voi.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Or ben conoscer mi si fa quel ch'io</l>
+<l>Non conosceva, or la cagione io veggio</l>
+<l>Per cui verso di me, che sì l'amai,</l>
+<l>Si mostra Marianna or sì turbata,</l>
+<l>E parimente apparecchiò il veneno:</l>
+<l>Di cui dubbio non è, benché quel rio</l>
+<l>Che pria me 'l confessò, se n'ha ridetto.</l>
+<l>Ma tu notizia hai ben di questo e d'altro.</l>
+<l>Or vanne dentro, e voi lo custodite,</l>
+<l>Ch'a scior sì vari et intricati nodi</l>
+<l>Conven più diligenza e maggior tempo:</l>
+<l>Benché, prima che torni il sol ne l'onde,</l>
+<l>Io farò quel che già fece Alessandro.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<stage>CORO</stage>
+<sp>
+<lg type="non definito">
+<lg type="non definito">
+<l>come (e ben veggiamo espressi esempi)</l>
+<l>È fugittiva e frale</l>
+<l>Ogni gioia mortale,</l>
+<l>E 'l tempo fa di tutto accerbi scempi.</l>
+<l>Così di rei Tiranni, iniqui et empi</l>
+<l>Fu sempre pieno il mondo</l>
+<l>Dal dì che 'l suo fattor creollo pria.</l>
+<l>Acciò qua giù troppo non duri o sia</l>
+<l>Stato fra noi mortai lieto e giocondo.</l></lg>
+<lg type="non definito">
+<l>Ne la primiera giovanetta etate,</l>
+<l>Dopo breve intervallo</l>
+<l>Del grave antico fallo</l>
+<l>Di che tutte le genti fur macchiate,</l>
+<l>L'un fratel, spenta ogni natia pietate,</l>
+<l>L'altro fratello uccise:</l>
+<l>Onde non meritò da Dio perdono.</l>
+<l>Né valse a quei de l'intelletto il dono</l>
+<l>Che fe' la Torre che più d'un divise.</l></lg>
+<lg type="non definito">
+<l>Quinci crescendo ognior l'empia licenza,</l>
+<l>Ad ogni opera rea</l>
+<l>Ciascun fiero scendea,</l>
+<l>Non temendo gastigo o penitenza;</l>
+<l>Quando Dio, per estinguer la semenza</l>
+<l>De' suoi figliuoli ingrati,</l>
+<l>Dentro l'acque perdeo l'umana gente,</l>
+<l>Serbando solo il buono et innocente</l>
+<l>Da cui fu l'uomo e gli animai salvati.</l></lg>
+<lg type="non definito">
+<l>Ma non per questo il rio seme d'Adamo</l>
+<l>De' primi fu migliore,</l>
+<l>Ma divenne peggiore,</l>
+<l>Correndo al vizio come pesce a l'amo;</l>
+<l>Né gli valse di Dio dolce ricchiamo,</l>
+<l>Che pur cadde nel peggio.</l>
+<l>Sasselo il rio Saul, sal Faraone,</l>
+<l>E via più d'un Busiri e d'un Sinone,</l>
+<l>Che turbar quasi ogni corona e seggio.</l></lg>
+<lg type="non definito">
+<l>Ma chi s'imaginasse di spiegare</l>
+<l>In poche voci i danni</l>
+<l>Ch'altrui con lunghi affanni</l>
+<l>Fecer patir alme di sangue avare,</l>
+<l>Penseria di rinchiuder tutto 'l mare</l>
+<l>In picciol vaso e 'nsieme</l>
+<l>Le stelle annoverar ad una ad una:</l>
+<l>E non il fato o la crudel Fortuna,</l>
+<l>Ma sol malvagità ci sferza e preme.</l></lg>
+<lg type="non definito">
+<l>Però le gravi colpe a dietro lasso</l>
+<l>De la presente etate,</l>
+<l>U' la sceleritate</l>
+<l>Venuta è ad abitar con largo passo,</l>
+<l>E tutti i nostri mali anco trappassò;</l>
+<l>Che lo spirto divino</l>
+<l>Mi spinge a dir che fin che 'l Re celeste</l>
+<l>Farà prender al figlio umana veste,</l>
+<l>Quel che scorge là sù dritto camino</l>
+<l>L'uomo non prenderà, misero e lasso,</l>
+<l>Ma fia del cielo e d'ogni gioia casso.</l></lg></lg></sp></div2>
+
+<trailer>IL FINE DEL SECONDO ATTO</trailer></div1>
+
+<div1 type="atto"><head>ATTO TERZO</head>
+<div2 type="scena">
+<stage>ALESSANDRA, MARIANNA, CORO</stage>
+<sp><speaker><add resp="ed">ALES.</add></speaker>
+<lg type="non definito">
+<l>Cara figliuola mia, mentre ch'io vado</l>
+<l>Discorrendo tra me su gli accidenti</l>
+<l>Ch'io temei sempre e tu contato m'hai,</l>
+<l>Io mi risolvo indubitatamente</l>
+<l>Ch'ambedue siamo d'ogni parte cinte</l>
+<l>Da comuni miserie: e da quel lato</l>
+<l>Veggio Cariddi, e da quest'altro Scilla.</l>
+<l>Perché, quantunque il rio Coppier d'Erode,</l>
+<l>Ch'appo lui t'ha incolpata di veneno,</l>
+<l>Nel fin pentito d'aver detto il falso</l>
+<l>Abbia di ciò rivolto a la sorella</l>
+<l>Del Re, sì come è 'l ver, tutta la colpa,</l>
+<l>Dicendo ch'ella l'abbia indotto a questo,</l>
+<l>Nondimeno, send'ei pien di sospetto,</l>
+<l>Il ver crederà falso e il falso vero.</l>
+<l>S'aggiunge a questo che 'l tuo Eunuco, il quale</l>
+<l>A pieno è consapevole di quanto</l>
+<l>Soemo, a noi fedel, ci discoperse,</l>
+<l>Sì come quel ch'è giovanetto, e 'nsieme</l>
+<l>È via più delicato assai che forte,</l>
+<l>Ad ogni lieve e picciolo tormento</l>
+<l>A lui ne lo farà palese e conto.</l>
+<l>Onde non solo è da temer la morte</l>
+<l>Di quel meschin, ma di noi stesse ancora;</l>
+<l>Però che non l'avendo esso obedito,</l>
+<l>Più che certo sarà ch'abbiamo insieme</l>
+<l>Fatto contra di lui qualche congiura,</l>
+<l>E sia vera l'accusa del veneno.</l>
+<l>Quinci direi che, poi che ci troviamo</l>
+<l>Poste in questo periglio così forte,</l>
+<l>Ricorressimo umili a la pietate</l>
+<l>Del Re del ciel, che sol puote aiutarci.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Tutto quel, madre pia, che prevedete</l>
+<l>A noi di male, ho preveduto anch'io:</l>
+<l>E tanto più c'ho conosciuto a prova</l>
+<l>Ch'Erode, per l'amor ch'egli mi porta</l>
+<l>(S'amor si deve addimandar un caldo</l>
+<l>E sfrenato desio di possedermi,</l>
+<l>Solo di furia e di lusuria pieno),</l>
+<l>Arde di caldo ardor di gelosia.</l>
+<l>Ond'ei si crederà veracemente</l>
+<l>Che tra Soemo e me ci sia adultero,</l>
+<l>E che non sia questo adulterio senza</l>
+<l>Saputa over consiglio anco di noi,</l>
+<l>E per incoronar costui del regno</l>
+<l>Io m'abbia mossa a procacciarli morte.</l>
+<l>Così di tal da lui creduto oltraggio</l>
+<l>Ei vorrà che 'l supplicio sia il levarne,</l>
+<l>Senza più ricercar, tutti di vita.</l>
+<l>Io non posso negar, madre, e non nego</l>
+<l>Che non ami il seren di questa luce,</l>
+<l>Che gradir suol comunemente a tutti.</l>
+<l>Ma più tosto che viver in tal guisa</l>
+<l>Con questo fier che, quanto al suo desio,</l>
+<l>Ambi ne uccise fin alora quando</l>
+<l>Impose al mio fedel che m'uccidesse,</l>
+<l>Bramo non una sol, ma mille morti.</l>
+<l>Solo mi duol che voi, per mia cagione,</l>
+<l>Aggiate a uscir di vita, e parimente</l>
+<l>Soemo, per amar troppo l'onesto.</l>
+<l>Ma quel ch'aviene in questi bassi regni,</l>
+<l>Tutto procede dal voler di sopra;</l>
+<l>E convien che la nostra volontate</l>
+<l>Sia conforme a colui che tutto regge.</l>
+<l>Un sol confortoabbiam, che s'ei permette</l>
+<l>Molt'opre ingiuste e contro a la sua legge,</l>
+<l>Non lascia poi di castigar i rei.</l>
+<l>Onde non è Tiranno o Re malvagio</l>
+<l>Che senza aspro flagello esca di vita;</l>
+<l>E se non ha tra noi premi condegni,</l>
+<l>Doppi li sente al fin tra li dannati.</l></lg></sp>
+<sp><speaker>ALES.</speaker>
+<lg type="non definito">
+<l>Noi, figlia, non sappiam quanto dispone</l>
+<l>Ne la sua providenza il Re celeste,</l>
+<l>Né può sapersi, de le nostre vite.</l>
+<l>Però dobbiamo procacciar con tutto</l>
+<l>Il poter nostro conservarle, insino</l>
+<l>Che piace a lui che ci produsse in vita.</l>
+<l>Dunque facciamo sacrificio a Dio,</l>
+<l>Offrendogli la vittima e pregando</l>
+<l>La sua santa pietà che ci difenda</l>
+<l>Da le ingiuste calunnie e da la morte.</l>
+<l>Poi, seguane che può, viviamo liete</l>
+<l>E nel voler di lui liete moriamo:</l>
+<l>Che l'innocenza nostra su nel cielo</l>
+<l>Onorata sarà di miglior vita.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Reina, voi potete leggermente</l>
+<l>Con le vostre parole</l>
+<l>Acquetar del Re nostro ogni disdegno.</l>
+<l>E ciò devete far, quando non fosse</l>
+<l>A voi la vita cara,</l>
+<l>Per non gir con disnor a fiera morte.</l>
+<l>Che, quando voi non difendiate il vero,</l>
+<l>Il mondo crederà che siate stata</l>
+<l>Adultera e omicida: che la voglia</l>
+<l>Stimar si suol, quanto si fa l'effetto.</l>
+<l>Ma se ne viene il Re tutto turbato.</l></lg></sp></div2>
+
+<div2 type="scena">
+<stage>ERODE, MARIANNA, CONSIGLIERE</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>Marianna, la tua malvagia mente,</l>
+<l>La tua perfidia e la tua crudeltate,</l>
+<l>Scopertami da Dio per l'altrui lingua,</l>
+<l>Aprir m'ha fatto finalmente gli occhi,</l>
+<l>Che 'l mio soverchio amor mi tenne chiusi.</l>
+<l>Tu macchiate hai le leggi, infida moglie,</l>
+<l>Del letto marital? tu, madre iniqua</l>
+<l>Di tanti figli, da lusuria spinta</l>
+<l>Hai fatto al loro et al mio onor oltraggio?</l>
+<l>Tu di novello adultero superba</l>
+<l>Hai seco machinato a la mia morte?</l>
+<l>Ma 'l premio ti darò conforme al merto.</l></lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Erode, l'esser voi geloso a torto</l>
+<l>Et insieme crudel, vi fa dir questo.</l>
+<l>L'un veder non vi lascia quel che voi</l>
+<l>Veder dovreste, se non foste cieco,</l>
+<l>E che conosce chiaramente ogniuno,</l>
+<l>Cioè mia castità candida e pura</l>
+<l>E la bontate e l'innocenza mia;</l>
+<l>L'altro v'induce ad ogni strano effetto.</l>
+<l>E che fia poi, quando nel sangue mio</l>
+<l>Avrete sazie l'assetate voglie?</l>
+<l>Io dico e dirò il ver senza spavento,</l>
+<l>Ch'io fui mai sempre inver di voi fedele</l>
+<l>E casta, più che voi Re giusto e buono.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Io non contenderò teco in parole,</l>
+<l>Ch'i'sarei sciocco, sì come tu rea.</l>
+<l>Conducetela dentro: che tra poco</l>
+<l>Le farò confessar il suo peccato</l>
+<l>E depor la superbia e l'alterezza;</l>
+<l>E siate diligenti in custodire</l>
+<l>Lei parimente e la sua ingiusta madre.</l></lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Re, per quel che tra me vo discorrendo</l>
+<l>(Et anco è openion de' dotti e saggi),</l>
+<l>È felice quel Principe che prima</l>
+<l>Ch'ei faccia opera alcuna si consiglia</l>
+<l>Con suoi fedeli e con giudicio sano</l>
+<l>Conosce interamente e scerne e vede</l>
+<l>Quai consigli sian buoni e quai sian rei.</l>
+<l>Felicissimo è quel che consigliarsi</l>
+<l>Sa da sé stesso e da sé stesso pende:</l>
+<l>Ma questo è più difficile a trovarsi,</l>
+<l>Che non è forse una cornice bianca.</l>
+<l>Che d'una parte l'odio e d'altra insieme</l>
+<l>L'affezion combatte i nostri petti,</l>
+<l>Onde la mente, ch'infettata viene</l>
+<l>Da queste passion, sendo corrotta,</l>
+<l>Non puote far alcun giudicio sano:</l>
+<l>Quinci ne resta la giustizia zoppa.</l>
+<l>Però, Signor mio caro, io vi conforto,</l>
+<l>Ch'in questo caso, che cotanto importa,</l>
+<l>Vogliate andar più ritenuto, e 'nsieme</l>
+<l>Ascoltar il parer de'vostri fidi:</l>
+<l>Non perché di prudenza alcun v'avanzi,</l>
+<l>Ma perché ne le cose nostre istesse</l>
+<l>La passion vi può far veder torto.</l>
+<l>Ecco che un orator, benché eloquente,</l>
+<l>Ne la sua propria causa un altro cerca.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Quando un delitto è manifesto e chiaro,</l>
+<l>Non è d'uopo ascoltar gli altrui consigli,</l>
+<l>Ma bisogna eseguir tosto le leggi.</l>
+<l>Tu sai (ch'io te l'ho detto) che 'l Coppiere</l>
+<l>Pria m'ebbe ad affermar che Marianna</l>
+<l>L'aveva indotto con minaccie e doni</l>
+<l>A prometter di porgermi il veneno,</l>
+<l>Poi si ridisse, essendo ella presente;</l>
+<l>Finalmente, da me posto a i tormenti,</l>
+<l>Ad affermar tornò la prima accusa,</l>
+<l>E 'n questo detto egli finio la vita.</l>
+<l>L'altro costantemente affermò quanto</l>
+<l>Detto m'avea, senz'esserne richiesto.</l>
+<l>Ma presupposto ch'ella del veneno</l>
+<l>Fosse innocente, e sia l'accusa falsa,</l>
+<l>Esser falso non può già l'adultero.</l>
+<l>Che se 'l malvagio non avesse avuto</l>
+<l>Con lei comercio d'amoroso ardore,</l>
+<l>Non le avria detto quel ch'io le commisi,</l>
+<l>Non le avria discoverto un tal segreto</l>
+<l>Ch'io forse non avria commesso altrui.</l>
+<l>Onde è segno evidente che l'amore</l>
+<l>Portato a lei gli fe' poner da parte</l>
+<l>La fé che mantener devea sincera.</l>
+<l>Però non è mistier di consigliarmi</l>
+<l>In cosa manifesta e sì palese,</l>
+<l>Ma dar si denno ad amendue le pene</l>
+<l>Di che tal fallo e l'adulterio è degno.</l></lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Veggio, Signor, che la credenza vostra</l>
+<l>Di cose tanto orribili e malvage</l>
+<l>S'appoggia tutta solamente sopra</l>
+<l>A congetture, le quai spesse volte</l>
+<l>Riescon vere, e false anco sovente.</l>
+<l>Che, quanto al tòsco, d'un ch'abbia due lingue,</l>
+<l>Et ora a un modo et ora a un altro parla,</l>
+<l>Voi non potete trar giudicio buono.</l>
+<l>Ma da l'aver Soemo discoperto</l>
+<l>Quel che gli commetteste a la Reina,</l>
+<l>Voi formate argomento d'adultero</l>
+<l>E quindi parimente di veneno,</l>
+<l>Onde prendete questa congettura</l>
+<l>Per indizio non sol, ma per certezza;</l>
+<l>Ma potete di ciò molto ingannarvi.</l>
+<l>Perché può bene istar ch'abbia Soemo</l>
+<l>Fatto palese a Marianna quanto</l>
+<l>Voi nel vostro partir gli commetteste.</l>
+<l>Ma non però ne segue che per questo</l>
+<l>Adultero si debba addimandarlo:</l>
+<l>Che imprudenza lo puote aver indotto,</l>
+<l>O forse voi questo segreto vostro</l>
+<l>Potete aver ad altri compartito</l>
+<l>Che, per gratificarsi a la Reina,</l>
+<l>Glie l'avrà fatto noto e manifesto.</l>
+<l>Falsa è ancora l'accusa del veneno;</l>
+<l>E voi sapete ben che non si move</l>
+<l>Alcuno ad opra grande, se non tratto</l>
+<l>Da speranza d'averne utile o lode.</l>
+<l>E qual di lode o di profitto speme</l>
+<l>Poteva indur la real moglie vostra</l>
+<l>A procurar giamai d'avelenarvi?</l>
+<l>Non è ella Reina? non ha sempre</l>
+<l>Di voi disposto come di sé stessa?</l>
+<l>Non s'inchinano a lei le vostre genti?</l>
+<l>Potev'ella, dapoi la morte vostra,</l>
+<l>Aver grado miglior, maggior altezza?</l>
+<l>Questo non già: ch'era bisogno, o ch'ella</l>
+<l>Da sé reggesse ognior vedova il regno,</l>
+<l>Non essendo i figliuoli atti a tal peso</l>
+<l>Per non aver ancor matura etate,</l>
+<l>Overo a tal governo altri prendesse.</l>
+<l>Quanto a lei, ben potea saper che male</l>
+<l>Dal popol di Giudea saria obedita,</l>
+<l>Che fu spesso ritroso a i propri Regi;</l>
+<l>E 'l fidar sopra altrui sì grave pondo</l>
+<l>Le poteva apportar più mal che bene:</l>
+<l>Che quel tal di leggieri avria potuto</l>
+<l>Del regno a poco a poco impadronirsi,</l>
+<l>E di vita privar anco i figliuoli.</l>
+<l>E quanto a l'adulterio, non è cosa</l>
+<l>Onde prender dobbiate alcun sospetto,</l>
+<l>Avendo conosciuta la Reina</l>
+<l>Mai sempre casta e verso voi fedele.</l>
+<l>Ma intorno a ciò vi parlerò nel fine.</l>
+<l>Quel c'ho detto di lei, può dirsi ancora</l>
+<l>Del Capitan, ch'adultero chiamate.</l>
+<l>Egli appo voi tien sì onorato loco</l>
+<l>Ch'alcun non è ch'in dignità l'avanzi.</l>
+<l>Ma posto ancor ch'ambizion l'avesse</l>
+<l>Sospinto a desiar la prima altezza</l>
+<l>E tirar Marianna a le sue voglie:</l>
+<l>Poteva ei ben stimar che non sarebbe</l>
+<l>Stato giamai dal popolo obedito,</l>
+<l>Anzi, come Tiran, di vita spinto.</l>
+<l>Senza che l'uom, quantunque da natura</l>
+<l>Inclinato sia al male, esser non puote</l>
+<l>Che pessimo così divenga a un tratto.</l>
+<l>Questo da voi considerar bisogna</l>
+<l>E proceder dapoi nel giudicare</l>
+<l>Senza affetto verun, con lento passo:</l>
+<l>E maggiormente intorno a la Reina,</l>
+<l>Di cui potete far giudicio tale,</l>
+<l>Che dopo 'l fatto in van vi pentirete.</l>
+<l>Et Alessandro in ciò vi porga esempio,</l>
+<l>Che ucciso Clito suo per subit'ira,</l>
+<l>Fu per volger le man contra sé stesso.</l>
+<l>Lasciate in ciò passar alquanti giorni,</l>
+<l>Ch'in questo mezo raffreddato essendo</l>
+<l>Quell'impeto che caldo or vi trasporta,</l>
+<l>Col consiglio de' vostri e col prudente</l>
+<l>Vostro saper, giudicarete poi</l>
+<l>Come dee giudicar Principe saggio.</l>
+<l>E pensate che queste mie parole</l>
+<l>Formi verso di voi fede et amore,</l>
+<l>Ch'ogni adulazion da me disgombra.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Sì come chi non ha figli non puote</l>
+<l>Stimar l'amor e carità del padre,</l>
+<l>Così colui che non riceve oltraggio</l>
+<l>Non può ben giudicar quant'egli pesa.</l>
+<l>Io sono offeso nel mio proprio onore,</l>
+<l>E l'offesa è palese. E non ne debbo</l>
+<l>Sfogar la passion che sente il core</l>
+<l>Con degna e memorabile vendetta?</l>
+<l>E tanto più che la vendetta fia</l>
+<l>Degna giustizia e chiaro esempio a' rei.</l>
+<l>Poi fievoli son tutte le ragioni</l>
+<l>Che tu m'adduci; e ci son molti esempi</l>
+<l>Di color ch'occupar con questi mezi</l>
+<l>Gli scettri e le corone e che regnaro;</l>
+<l>E d'infedeli mogli ne son piene</l>
+<l>Tutte le nostre e le Romane carte.</l>
+<l>Né io scopersi il mio segreto ad altri</l>
+<l>Fuor ch'a costui, sì ch'egli l'intese.</l>
+<l>È vero che l'amor ch'io porto a questa</l>
+<l>Ingrata e turbatrice del mio bene</l>
+<l>Mi farà gir vèr lei più temperato.</l>
+<l>Ma d'intorno a Soemo ho stabilito</l>
+<l>Che, prima che s'oscuri il nostro cielo,</l>
+<l>Ei del suo fallo scelerato et empio</l>
+<l>Degno gastigo e degno premio porti.</l>
+<l>Et ho per lui mandato, e 'n tua presenza</l>
+<l>Voglio che l'adulterio ei mi confessi.</l></lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Signor, io stimerò che tutto quello</l>
+<l>Che in cotal grave accusa opererete,</l>
+<l>Da la giustizia non si parta un dito:</l>
+<l>Che lo spirto di Dio sarà con voi.</l>
+<l>Ma ben vi torno a confortar che in questo</l>
+<l>Con maturo discorso procediate,</l>
+<l>Acciò che 'l pentimento non vi segua,</l>
+<l>Ch'apporta duol senza rimedio al fine.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Io lo veggo venir, e per le vene</l>
+<l>Commover mi si sente il sangue tutto.</l>
+<l>CONS.Deh, si raffreddi in voi l'ira e lo sdegno.</l></lg></sp>
+</div2>
+<div2 type="scena">
+<stage>SOEMO, ERODE, CONSIGLIERE</stage>
+<sp><speaker><add resp="ed">SOE.</add></speaker>
+<lg type="non definito">
+<l>Colui, benigno Re, da cui discende</l>
+<l>Ogni felicità, vi dia salute.</l></lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>E porga a te la gioia che tu merti.</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>In che vi fa mistieri or di servirvi</l>
+<l>De l'opra mia, poi che l'altezza vostra</l>
+<l>Ha mandato per me con tanta fretta?</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Sendo verso di me tanto fedele,</l>
+<l>Quanto al maggior bisogno hai dimostrato,</l>
+<l>Da te medesmo imaginar tel puoi.</l></lg></sp>
+<sp><speaker>
+SOE.</speaker>
+<lg type="non definito">
+<l>Voi mi solete adoperar in molti</l>
+<l>Maneggi malagevoli e importanti,</l>
+<l>Né cosa è sì difficile e sì grave</l>
+<l>Ch'a la persona mia non commettiate:</l>
+<l>Non perché non ci siano altri nel regno</l>
+<l>Che di valor m'aguaglino, et ancora</l>
+<l>Che non possan talor lasciarmi a dietro,</l>
+<l>Ma perché non vi par d'aver trovato</l>
+<l>In altri tanta diligenza e fede.</l>
+<l>E nel ver di giudicio alcuna volta,</l>
+<l>Sì com'uom, Signor mio, posso ingannarmi,</l>
+<l>Ma d'animo e di buona volontate</l>
+<l>Ardisco dir ch'alcun non mi si accosta.</l>
+<l>E s'io non prendo error, veduto avete</l>
+<l>Non una sol, ma molte esperienze.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Massime nel segreto ch'io commisi</l>
+<l>Ultimamente a la tua tanta fede.</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>In questo e in ciascun altro parimente</l>
+<l>Che vi degnaste in alcun tempo impormi.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Se così fedelmente t'hai portato</l>
+<l>Ne gli altri, come t'hai portato in questo,</l>
+<l>Non è più disleale uomo nel mondo,</l>
+<l>Né maggior traditor, di quel che sei.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Deh temprate, Signor, temprate l'ira.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>La tua perfidia t'è di mente uscita?</l>
+<l>O stimi ch'ella a me non sia palese?</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Se perfido è il fedel, che fia l'infido?</l>
+<l>Io non conosco in me perfidia alcuna,</l>
+<l>Né so com'esser possa a voi palese</l>
+<l>Cosa che non è in me, né fia giamai.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Quello ch'io ti commisi nel partire,</l>
+<l>Sì come non ha molto mi dicesti,</l>
+<l>Hai tenuto riposo nel tuo petto?</l>
+<l>Se l'hai tenuto, non è dubbio alcuno</l>
+<l>Che tu verso di me non sii fedele.</l>
+<l>Ma se l'hai discoperto a Marianna,</l>
+<l>Questa dirai perfidia o fedeltate?</l>
+<l>E che vuol dire cotesto tuo silenzio?</l>
+<l>Perché non mi rispondi? Parti forse</l>
+<l>La mia dimanda di risposta indegna?</l>
+<l>O pur taci però ch'ardir non hai</l>
+<l>Di negar quel ch'è troppo manifesto?</l>
+<l>Vedete come è divenuto in volto</l>
+<l>Pallido e in tutti i gesti sbigottito,</l>
+<l>Come l'avesse morso un freddo serpe.</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Signor, qual volta io penso a la gran forza</l>
+<l>Che la Fortuna ha nelle cose umane.</l>
+<l>ER.Tu pigli da lontan la tua risposta.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Concedete, Signor, ch'egli risponda</l>
+<l>Liberamente, e qual per lui si vuole:</l>
+<l>Che ciò non può adombrar la veritate.</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Io mi sento tremar dal capo al piede:</l>
+<l>Però che questa rea fa ch'in un punto</l>
+<l>Si perde l'acquistato di molt'anni.</l>
+<l>Ecco un lieve error commesso a caso</l>
+<l>Fia cagion di levarmi presso a voi</l>
+<l>Quel favor, quella grazia e quell'amore</l>
+<l>Di che, in processo d'assai lungo tempo,</l>
+<l>Fatto m'avea la mia virtute acquisto.</l>
+<l>Voi saprete, Signor, che la Reina,</l>
+<l>Com'io vi dissi, a la partenza vostra,</l>
+<l>In tal Castel vedendosi rinchiusa</l>
+<l>Et osservata ognior da guardie tante,</l>
+<l>Venne in openion che 'l vostro amore</l>
+<l>In odio verso lei cangiato aveste;</l>
+<l>E questa openion l'addusse a tale,</l>
+<l>Che in tutto si volea levar di vita.</l>
+<l>Ond'io per dar rimedio a sì gran male,</l>
+<l>Indotto da imprudenza (o che 'l mio fato</l>
+<l>Così portasse) a lei dissi: Reina,</l>
+<l>Se vi pensate che 'l buon Re non v'ami</l>
+<l>Quanto si puote amar cosa mortale,</l>
+<l>Voi siete in cieco e grave error involta,</l>
+<l>Et io ven posso dar verace prova;</l>
+<l>Ch'egli, per non far perdita di voi</l>
+<l>Ne l'altra vita e sempre avervi a lato,</l>
+<l>Mi commise che, quand'esso mancassi</l>
+<l>In quella assenza, uccider vi dovessi:</l>
+<l>Cosa che da voi stessa avreste fatto,</l>
+<l>Per non restar in vita senza quello</l>
+<l>Che stimate di voi la miglior parte.</l>
+<l>Il che quando recaste a crudeltate,</l>
+<l>Voi non comprendereste quant'ei v'ama.</l>
+<l>Però vivete lieta, che fia tosto</l>
+<l>Il suo ritorno, e 'l rivedrete in breve.</l>
+<l>Or confesso, Signor, che sciocco io fui,</l>
+<l>Ma perfido non già; né nacque meno</l>
+<l>Questo da rio voler, che mi spingesse</l>
+<l>Ad esservi nimico o traditore.</l>
+<l>Voi posto sempre in mia custodia avete</l>
+<l>Le castella e città del vostro regno;</l>
+<l>E ritrovato in ciò sempre m'avete</l>
+<l>Conforme in tutto al desiderio vostro.</l>
+<l>Or, come è verisimile ch'io sia</l>
+<l>Cangiato sì da la mia prima mente,</l>
+<l>Ch'abbia voluto offendervi cotanto</l>
+<l>In cosa della quale io non potea</l>
+<l>Né utile ritrar, né lode alcuna?</l>
+<l>Conchiudo, Signor mio, d'aver errato,</l>
+<l>Ma che 'l mio error è degno di perdono,</l>
+<l>Poi da poco discorso è proceduto.</l>
+<l>E come avrebbe campo il Re del cielo</l>
+<l>Da dimostrar la sua somma pietate,</l>
+<l>Se l'uomo non peccasse alcuna volta?</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>L'infirmità ch'offende il corpo umano,</l>
+<l>Da l'offeso ogni volta è conosciuta,</l>
+<l>Onde ricorre al medico e guarrisce.</l>
+<l>Ma de l'animo i morbi ha rari o pochi,</l>
+<l>Che n'abbian conoscenza: ch'a ciascuno</l>
+<l>Sembra d'averlo sano, e quinci aviene</l>
+<l>Che non cura d'impiastri o medicine.</l>
+<l>Io voglio dir che questo disleale</l>
+<l>Non conosce, ignorante, il suo peccato.</l>
+<l>Anzi, cotanto cieco esser non puote,</l>
+<l>Ch'egli non vegga la gravezza immensa</l>
+<l>De la sua contra me commessa offesa;</l>
+<l>E cerca con ragion deboli e sciocche,</l>
+<l>Tristo, quant'egli può, di menomarla,</l>
+<l>E farla di perdono insieme degna.</l>
+<l>Ma sì come ei confessa che fu sciocco</l>
+<l>Ad operar il mal ch'egli ha operato,</l>
+<l>Così è sciocco non pur, ma forse nato</l>
+<l>A creder con tal velo ricoprillo.</l>
+<l>Ma non è già ch'egli sia pazzo o sciocco,</l>
+<l>Ma stima me così di luce privo,</l>
+<l>Ch'ei possa il ner pel bianco dimostrarmi.</l>
+<l>Tu m'hai fatto una offesa la maggiore</l>
+<l>Che farmi si potesse in verun atto:</l>
+<l>E molto ben da te la comprendevi.</l>
+<l>Ma disprezzasti la persona mia,</l>
+<l>A fin di vedere a Marianna</l>
+<l>Che lei n'amavi e t'era la sua vita</l>
+<l>Più cara assai che 'l debito e l'onore.</l>
+<l>E ciò perché credevi fermamente</l>
+<l>Che più d'Egitto io non tornassi salvo.</l>
+<l>Onde avevi proposto per tal via</l>
+<l>Di far con essa maritaggio, e 'nsieme</l>
+<l>D'occupar in tal guisa il regno mio.</l>
+<l>E ciò sperato ancor tu non avresti,</l>
+<l>Malvagio traditor, se prima sec</l>
+<l>Qualche pratica avuto non aveste.</l>
+<l>Ma 'l gastigo n'avrai, come a lei dissi,</l>
+<l>Al to grave delitto in parte eguale.</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Signor, il fallo mio scusar non voglio,</l>
+<l>Ma dico ch'esso è grande più di quanto</l>
+<l>Si possa imaginar da umano ingegno.</l>
+<l>Ma sa colui che vede apertamente</l>
+<l>Quel che si chiude dentro a' nostri petti</l>
+<l>Che da malvagità non è venuto.</l>
+<l>E se 'l mio avesse un specchio, onde potesse</l>
+<l>Questo mio cor a voi tralucer fuori,</l>
+<l>Tutto 'l vedreste candido e sincero.</l>
+<l>Mia fé verso di voi serbai mai sempre</l>
+<l>Ne l'altre cose ad ogni tempo intatta,</l>
+<l>E non pur non v'ho offeso ne l'onore,</l>
+<l>Ma tal scelerità giamai pensata.</l>
+<l>E chi di ciò incolpasse la Reina,</l>
+<l>Potrebbe così dir che nel gran Dio</l>
+<l>Non si trovi giustizia né pietate.</l>
+<l>Né verisimil è ch'io machinassi,</l>
+<l>O machinato avessi d'occupare</l>
+<l>Lo scettro e la corona di quel regno</l>
+<l>Che dopo voi s'aspetta a' figli vostri.</l>
+<l>Perché fora bisogno che bramato</l>
+<l>Avessi di far questo, o col consenso</l>
+<l>De' popoli soggetti al vostro regno,</l>
+<l>Over con adoprar le forze e l'armi.</l>
+<l>Col consenso de' popoli, in che modo,</l>
+<l>Avendo essi a lo stato successori</l>
+<l>Legittimi e di giusto Re figliuoli?</l>
+<l>Per forza d'arme? E chi m'avrebbe dato</l>
+<l>Aita in ciò, che tutti son per voi?</l>
+<l>Certo, che quando avessi il cor rivolto</l>
+<l>A tal pensier, sarei stato non pure</l>
+<l>Malvagio, ma sciocchissimo e ignorante.</l>
+<l>Or quanto, alto Signor, al primo eccesso,</l>
+<l>Io v'affermo e confesso d'esser reo</l>
+<l>Per sola inavertenza. E s'io son degno</l>
+<l>D'alcun perdon, la vostra gran bontate</l>
+<l>Dimostri quanto sia dolce e pietosa.</l>
+<l>Quanto al secondo, io son tanto innocente,</l>
+<l>Quanto voi giusto Re, quanto fu mai</l>
+<l>L'Ebreo Gioseppe, o 'l giovinetto Greco</l>
+<l>Che scampò dal furor de la matrigna.</l>
+<l>E se dir più potessi, i' più direi.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Se l'esser tu, sì come sei nel vero</l>
+<l>Traditor et adultero egualmente,</l>
+<l>Non fosse da sé stesso aperto e chiaro,</l>
+<l>Io lo ti farei dir per la tua lingua</l>
+<l>Con la solita forza de' tormenti.</l>
+<l>Ma 'l peccato veggendosi palese,</l>
+<l>Quand'io ti perdonassi non sarei</l>
+<l>Quel giusto Re che tu mi di' ch'io sono.</l>
+<l>Né men l'esempio seguirei, si come</l>
+<l>Debbo seguir, del Re de gli elementi,</l>
+<l>Il qual non solo al padre nostro antico</l>
+<l>Non volle perdonar il primo errore,</l>
+<l>Ma spesso gastigò le genti ree,</l>
+<l>Quando col foco e quando con la spada,</l>
+<l>E spesso con la fame e con la peste.</l>
+<l>Il gran peccato tuo degno è di morte:</l>
+<l>E vuo' che tu ne moia, e ne morrai</l>
+<l>Non solo in questo dì, ma tra poch'ore.</l>
+<l>È vero ch'io potrei far lapidarti</l>
+<l>Dal popol nostro, o lacerar da' cani,</l>
+<l>O sospenderti a un palo, o porre in croce,</l>
+<l>Over darti alcun altro aspro flagello:</l>
+<l>Il che morte saria debita e giusta.</l>
+<l>Ma per umanità vuo' che ti sia</l>
+<l>Dipartita dal busto oggi la testa.</l>
+<l>Questa è la mia sentenza. Or tosto voi</l>
+<l>Conducetelo in piazza del Castello</l>
+<l>E imponete al carnefice che faccia</l>
+<l>Che 'l giusto voler mio resti adempito.</l>
+</lg></sp>
+<sp><speaker>SOE.</speaker>
+<lg type="non definito">
+<l>Erode, come io ne morrò innocente,</l>
+<l>Così faccia il gran Dio che non ti vegga</l>
+<l>Contento o allegro de' tuoi propri figli.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>ERODE, CONSIGLIERE</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>Se l'uom che, indotto da malvagia mente,</l>
+<l>Alcun privato ne l'onor offende,</l>
+<l>È degno di gastigo: or che conviene</l>
+<l>A chi ad un Re o Signor ingiuria faccia?</l>
+<l>Oh, quanto volentier vorrei che questo</l>
+<l>Perfido e traditor ne l'onor mio</l>
+<l>Un tale oltraggio non avesse usato!</l>
+<l>Ch'io viverei ancor più che mai lieto,</l>
+<l>Et ei si trovarebbe in maggior grado</l>
+<l>Di quello che fin qui s'è ritrovato;</l>
+<l>E, quel che importa più, con Marianna</l>
+<l>Fornirei tutto 'l tempo che m'avanza</l>
+<l>Senza sospetto alcun, come felice.</l>
+<l>Onde 'l dolor che ricevuto i' n'aggio</l>
+<l>De la sua rotta fé, del suo peccato,</l>
+<l>Non mi sospingerebbe a quel ch'io temo</l>
+<l>Che contra di costei non mi sospinga.</l>
+<l>Che d'una parte mi ritiene amore,</l>
+<l>E d'altra la ragion mi volge e sprona,</l>
+<l>Né son ben risoluto qual di due</l>
+<l>Portar debba vittoria del mio core.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Signor, parmi soverchio il confortarvi</l>
+<l>Da capo a usar in ciò qualche lentezza,</l>
+<l>Acciò il pentir non ve ne segua tardo;</l>
+<l>Pur io dirò che di Soemo certo</l>
+<l>La morte non sarà tenuta ingiusta,</l>
+<l>Per aver discoverto a la Reina</l>
+<l>Segreto tale e di tanta importanza.</l>
+<l>Benché potrà parer forse ad alcuno</l>
+<l>Questa punizion troppo severa,</l>
+<l>Giudicando tra lui che la prigione</l>
+<l>O l'esilio doveva esser bastante.</l>
+<l>Ma, quanto a Marianna, se per sorte</l>
+<l>L'ira v'induce a condannarla a morte</l>
+<l>(Che però non lo credo), abbiate certo</l>
+<l>Che tenuto sarete da ciascuno</l>
+<l>In giudicio cotal empio et ingiusto.</l>
+<l>Perché de l'adulterio non avete</l>
+<l>Certezza io non dirò, ma indizio alcuno.</l>
+<l>Che non è ragionevole che donna,</l>
+<l>C'ha tanto tempo senza macchia alcuna</l>
+<l>Verso di voi sua castità serbata,</l>
+<l>Or che passata è quella fresca etate</l>
+<l>In che aver suole amor in noi più forza,</l>
+<l>A non lecite fiamme apra il suo petto.</l>
+<l>E quando avesse pur avuto luogo</l>
+<l>In lei, come non have, ardor veruno,</l>
+<l>Ciò nel suo cor avria desto et acceso</l>
+<l>Bellezza, gioventute e cose tali</l>
+<l>Che sono a mover donna atti istrumenti.</l>
+<l>Ma che parte è in Soemo che potesse</l>
+<l>Dal diritto sentiero aver piegata</l>
+<l>Lei, che fu sempre d'onestà colonna?</l>
+<l>Se prima a la beltà risguardo abbiamo,</l>
+<l>Esso ha pallido il volto e gli occhi fieri,</l>
+<l>E in tutti gli atti e movimenti suoi</l>
+<l>Del terribil via più che de l'umano;</l>
+<l>Quanto a l'età, s'accosta a la vecchiezza.</l>
+<l>Onde è cosa ridicola a pensare</l>
+<l>Ch'ella s'avesse eletto un tale amante,</l>
+<l>E tanto più che ne la vostra corte</l>
+<l>Si trovan molti cavalieri illustri,</l>
+<l>Giovani, prodi e di bellezze adorni.</l>
+<l>Ma qual parte di bel manca egli a voi?</l>
+<l>È forse alcun ch'in ciò vi vada innanzi?</l>
+<l>In cui risplende più la maestade</l>
+<l>Regia, di quel ch'ella risplende in voi?</l>
+<l>Io taccio quella amabile dolcezza,</l>
+<l>Che vi fa sino a gl'inimici grato.</l>
+<l>Poi sette lustri non passate ancora:</l>
+<l>Età miglior di qual si voglia etate.</l>
+<l>Se a tal condizion volgete alquanto</l>
+<l>Il pensier vostro, voi non crederete</l>
+<l>Che la Reina abbia commesso fallo,</l>
+<l>E che n'avete sol vano sospetto.</l>
+<l>Ci son di sua innocenza altre ragioni,</l>
+<l>Ch'io tacerò per non infastidirvi:</l>
+<l>E le sapete voi così com'io.</l>
+<l>Però, Signor, sì come foste sempre,</l>
+<l>Così a quest'ora ancor siate prudente,</l>
+<l>Né fate pregiudizio a l'onestade</l>
+<l>Di lei, ch'a voi giamai non fece oltraggio.</l>
+<l>Ricordatevi ancor che voi sedete</l>
+<l>Nel seggio che già fu de gli avi suoi.</l>
+<l>E se passato io sono alquanto avanti,</l>
+<l>Attribuite questo a la mia fede.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Io conosco in gran parte che son vere</l>
+<l>Queste condizion che tu m'hai dette.</l>
+<l>E qual volta prendessero le donne</l>
+<l>L'alma ragion per lor sostegno e scorta,</l>
+<l>Dubbio non è ch'alcuna d'esse mai</l>
+<l>Non caderebbe ne gli error ne' quali</l>
+<l>Noi le veggiam precipitar sovente.</l>
+<l>Ma par ch'altro animal che viva in terra</l>
+<l>Non sì lassi così da l'appetito</l>
+<l>Cieco portar ad ogni grave errore,</l>
+<l>Come fa per natura questo sesso.</l>
+<l>Ma conchiudo che, quando io non avessi</l>
+<l>In Marianna mia fuor che sospetto,</l>
+<l>Questo ad ogni impietà devrebbe indurmi</l>
+<l>Contra di lei: ch'a la persona mia</l>
+<l>Non sol convien che non si faccia offesa,</l>
+<l>Ma tòrre ogni cagion ch'altri sospetti.</l>
+<l>Ma sia d'intorno a ciò detto a bastanza:</l>
+<l>Che di quel ch'appartiene a Marianna</l>
+<l>In cotal fatto, io penserò dapoi.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<stage>CORO</stage>
+<sp>
+<lg type="non definito">
+<lg type="sestina">
+<l>Dura condizione hanno le genti</l>
+<l>Che servono a malvagio empio Tiranno,</l>
+<l>Che non gode se non de gli altrui danni.</l>
+<l>Perché la vita lor peggio è che morte,</l>
+<l>De le miserie umane ultimo fine,</l>
+<l>Né gustano giamai felice un giorno.</l></lg>
+<lg type="sestina">
+<l>Sorge più ch'atra notte oscuro il giorno</l>
+<l>In ogni tempo a l'infelici genti:</l>
+<l>Tal che del viver lor bramano il fine,</l>
+<l>Poi che non ponno di crudel Tiranno</l>
+<l>Fuggir oltraggio o ingiuriosa morte</l>
+<l>Dopo mille tormenti e mille danni.</l></lg>
+<lg type="sestina">
+<l>Molte noie sovente e molti danni</l>
+<l>Apporta a l'uomo il variar del giorno,</l>
+<l>In fin che lo conduce a la sua morte.</l>
+<l>Pur è felice, al par di quelle genti</l>
+<l>Di cui sotto feroce aspro Tiranno</l>
+<l>Le miserie giamai non hanno fine.</l></lg>
+<lg type="sestina">
+<l>O beato colui che tosto al fine</l>
+<l>Col morir giunge de' suoi lunghi danni,</l>
+<l>De l'unghie uscendo di crudel Tiranno,</l>
+<l>E benedir può mille volte il giorno:</l>
+<l>Che non fecer giamai popoli o genti</l>
+<l>La più tranquilla e riposata morte.</l></lg>
+<lg type="sestina">
+<l>Chiamano ad or ad or te, sorda morte,</l>
+<l>Che le conduca al desiato fine,</l>
+<l>Le tormentate e miserabil genti;</l>
+<l>Per finir parimente i gravi danni</l>
+<l>Che senza mai posar di giorno in giorno</l>
+<l>Porge lor sempre ingordo e rio Tiranno.</l></lg>
+<lg type="sestina">
+<l>Distrugga, sommo Dio, questo Tiranno</l>
+<l>Tua forte man con meritata morte.</l>
+<l>Fa' che 'l sol porti questo lieto giorno,</l>
+<l>Che con giusta vendetta abbiano fine</l>
+<l>Gl'aspri flagelli et i penosi danni</l>
+<l>De le meschine e travagliate genti.</l></lg>
+<lg type="terzina">
+<l>Sperate, afflitte genti, uscir di danni:</l>
+<l>Che sì come ogni giorno arriva al fine,</l>
+<l>Così morte ci toglie ogni Tiranno.</l></lg></lg></sp></div2>
+<trailer>IL FINE DEL TERZO ATTO</trailer></div1>
+<div1 type="atto">
+<head>ATTO QUARTO</head>
+<div2 type="scena">
+<stage>NUNZIO, CORO</stage>
+<sp><speaker><add resp="ed">NUN.</add></speaker>
+<lg type="non definito">
+<l>Deh, perché non ho io misero l'ali</l>
+<l>Da poter sollevarmi alto da terra</l>
+<l>Sì che più non vedessi orma né segno</l>
+<l>Di questo empio Castello? Empio lo chiamo</l>
+<l>Poi ch'opere sì crude in lui si fanno.</l>
+<l>Privar l'uom de la vita è cosa fiera:</l>
+<l>Pur, quando ciò si fa per mantenere</l>
+<l>L'alma giustizia in piè, Dio lo concede.</l>
+<l>Ma uccider per sospetto uno innocente,</l>
+<l>Non è officio da Re, ma da Tiranno.</l>
+<l>Questi sono de' frutti che l'uom coglie</l>
+<l>Dal servir ne le corti. O voi infelici,</l>
+<l>Che da' Principi sete in alto posti:</l>
+<l>Che molte volte, senza causa alcuna,</l>
+<l>D'ogni miseria vi trovate al fondo.</l>
+<l>Non dico già che non ci sian de' buoni</l>
+<l>(Che ce ne son): ma gran fatica è a l'uomo</l>
+<l>A potersi schermire e farsi scudo</l>
+<l>Da le false calunnie che si danno</l>
+<l>Lor da l'invidia spesso de gli eguali,</l>
+<l>E de gl'infimi ancora e de' maggiori.</l>
+<l>Oltre che trova la Fortuna mille</l>
+<l>Occasion di volger sottosopra</l>
+<l>Lo stato altrui, sia pur sublime et alto.</l>
+<l>Ma bisogna tener le labbra chiuse,</l>
+<l>E tacendo soffrir i nostri danni.</l>
+<l>Soemo che fu già cotanto grande</l>
+<l>Presso il Re nostro, or come stato fosse</l>
+<l>Il maggior suo nimico e 'l più malvagio</l>
+<l>Cavallier che fu mai sopra la terra,</l>
+<l>Con publica ignominia ne la piazza</l>
+<l>Per le man del carnefice ha forniti</l>
+<l>I giorni suoi con non devuta morte.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Pur dunque è stato ucciso</l>
+<l>Così tosto colui</l>
+<l>Ch'era poc'anzi il destro occhio d'Erode?</l>
+<l>Chi penserebbe mai</l>
+<l>Che l'umane grandezze</l>
+<l>Corressero a tal fine?</l>
+<l>Ahi, mondo pien d'affanni,</l>
+<l>Pieno d'ogni dolore!</l>
+<l>Ma chi serve a Signore,</l>
+<l>Dev'esser diligente</l>
+<l>Di non preterir cosa ch'ei comandi:</l>
+<l>Perché un picciolo errore</l>
+<l>Ch'ei commetta una volta,</l>
+<l>Gli toglie ogni favore</l>
+<l>E fa scordar ogni passato merto.</l>
+<l>Ben era degno certo</l>
+<l>Soemo di gastigo</l>
+<l>(Se giudicar a noi non si disdice),</l>
+<l>Ma non però di morte,</l>
+<l>Se affermar non vogliamo</l>
+<l>Ch'un Re può dir: così comando e voglio,</l>
+<l>Sia la mia volontate,</l>
+<l>Altrui ragione e legge.</l>
+<l>Ma non dispiaccia a te di raccontarne</l>
+<l>Com'è successo il fatto:</l>
+<l>Ch'a noi fia cosa grata,</l>
+<l>Poi ch'altro non possiamo</l>
+<l>Darli ne la sua morte,</l>
+<l>Ora donarli almen lagrime e pianto.</l>
+<l>Né ti rincresca ancora</l>
+<l>Di dirci quel che porti</l>
+<l>In quel bacin d'argento,</l>
+<l>D'oscuro e negro vel chiuso e coperto.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Come è avenuto il fin di quel meschino,</l>
+<l>Ne la guisa ch'Erode ha comandato,</l>
+<l>Io son tenuto raccontarlo a lui;</l>
+<l>E di mostrar a lui primieramente</l>
+<l>Quel che 'l bacin d'argento in sé nasconde.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>O rettor delle stelle, e che fia questo?</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Voi tosto lo vedrete. Ecco il Re nostro.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>ERODE, NUNZIO, CORO</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>È la sentenza mia stata eseguita?</l>
+<l>È sì come ordinai seguito il fine</l>
+<l>Del traditor e iniquo di Soemo?</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Signor, subitamente ei fu dal boia</l>
+<l>Nel mezo del Castel decapitato:</l>
+<l>E qui son le reliquie ch' imponeste</l>
+<l>Che vi fossero innanzi appresentate.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>O reliquie d'un empio e traditore,</l>
+<l>D'un adultero fiero che volea</l>
+<l>Tormi insieme nel fin la vita e 'l regno!</l>
+<l>Coprile: che vedute holle a bastanza;</l>
+<l>Né spettacol giarnai mi fu sì grato.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>O cosa empia e inumana!</l>
+<l>O spettacolo orrendo e dispietato!</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Voi non ardite di formar parole</l>
+<l>E restatevi chete;</l>
+<l>E tu mi di', per rallegrarmi il core</l>
+<l>Sì come queste han rallegrato gli occhi,</l>
+<l>Come avenuto è il fin di parte in parte.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Signor, saper devrete che Soemo</l>
+<l>Condotto in piazza fu, legato e stretto,</l>
+<l>Seguitandogli dietro il popol tutto,</l>
+<l>Pieno di meraviglia e di pietate:</l>
+<l>Di meraviglia, che dannato a morte</l>
+<l>Fosse quell'uom che vi fu tanto grato</l>
+<l>E dopo voi temuto era da tutti;</l>
+<l>Di pietà, non sapendo qual cagione</l>
+<l>Lo conducesse a far sì brutto fine.</l>
+<l>Quivi, poi che nel mezo ei fu fermato,</l>
+<l>Un de' ministri gli levò di dosso</l>
+<l>La vesta di broccato, e in vece d'ella</l>
+<l>Di panno lo coprì logoro et atro.</l>
+<l>Poi legatoli insieme ambe le mani</l>
+<l>Dopo le spalle con ben stretti nodi</l>
+<l>E l'officio al carnefice commesso</l>
+<l>Disse gridando un publico trombetta:</l>
+<l>Popolo, il nostro Re, sì come giusto,</l>
+<l>Ha condannato questo ingrato a morte</l>
+<l>Mosso da due ragion, ciascuna grave.</l>
+<l>L'una d'aver scoverto a la Reina</l>
+<l>Un suo segreto grande et importante,</l>
+<l>E l'altra per onor del Re si tace.</l>
+<l>Voi la giustizia sua lieti lodate,</l>
+<l>E di tal Re rendete grazie a Dio.</l>
+<l>Alcun non fu ch'a tai parole osasse</l>
+<l>Le labbra aprir: ciascun rimase cheto.</l>
+<l>Et egli alora, risguardando intorno</l>
+<l>Le genti sparse, con sicura faccia,</l>
+<l>Quasi lieto formò sì fatti accenti:</l>
+<l>Io chiamo, popol buon, fedele e giusto,</l>
+<l>In testimon del vero il Re superno,</l>
+<l>Come non mi condanna a questa morte</l>
+<l>Delitto alcun ch'io commettessi mai,</l>
+<l>Ma rio sospetto e crudeltà d'Erode.</l>
+<l>E benché io ne potessi chiaramente</l>
+<l>Ogni sua iniquità farvi palese,</l>
+<l>A lui portar io voglio quel rispetto</l>
+<l>Ch'a la sua fellonia non si conviene.</l>
+<l>Ma quanto ei sia crudel, come non tema</l>
+<l>La giustizia di Dio, per quel ch'io posso</l>
+<l>Per più d'una ragione imaginarmi,</l>
+<l>Voi lo vedrete innanzi a gli occhi tosto.</l>
+<l>Ch'a tal passo vedrete (e voglia Dio</l>
+<l>Ch'io me ne inganni) la Reina vostra,</l>
+<l>E forse parimente anco i figliuoli:</l>
+<l>Però che non fu mai Tiranno alcuno</l>
+<l>Che lui di rabbia e crudeltà avanzasse.</l>
+<l>A me sappiate che 'l morir non duole,</l>
+<l>Perch'io moro innocente; e in altra cosa,</l>
+<l>Se offeso ho il creator de l'universo,</l>
+<l>La sua pietà mi porgerà perdono.</l>
+<l>Ma s'egli è giusto Dio (come dobbiamo</l>
+<l>Creder, e come è vero), aspetti Erode,</l>
+<l>Tardi o per tempo, a l'empia sua fierezza,</l>
+<l>A l'empio suo furor, degno gastigo.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>O tristo e mentitor fino a la morte.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Poi che questo ebbe detto, incontanente</l>
+<l>Con franco e saldo cuore inchinò 'l collo,</l>
+<l>Aspettando il maggior di tutti i mali.</l>
+<l>Alora il manigoldo a un colpo solo</l>
+<l>La testa gli partì ratto dal busto,</l>
+<l>Che tre volte gridò: moro innocente</l>
+<l>ER. Egli se n'avedrà giù ne l'Inferno.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Cadde il tronco versando un rio di sangue.</l>
+<l>Gli aperse a questo il fiero boia il petto</l>
+<l>Dal manco lato, e fuor gli trasse il cuore,</l>
+<l>Il qual tremava e palpitava ancora.</l>
+<l>Indi, tagliando al morto ambe le mani,</l>
+<l>Quelle insieme col cuore e con la testa</l>
+<l>Pose in questo bacino, ivi recato,</l>
+<l>Ricoprendol col panno d'ogn'intorno.</l>
+<l>E poi m'impose chi n'avea la cura,</l>
+<l>Che nel modo c'ho fatto il vi porgessi.</l>
+<l>Tal è la morte di colui che fue</l>
+<l>Il prim'uom ch'ebbe mai la vostra corte.</l>
+<l>E queste son (sì come io v'ho già detto</l>
+<l>E voi veduto chiaramente avete)</l>
+<l>Le parti principali del suo corpo</l>
+<l>Ch'ordinaste ch'a voi fosser portate.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>La pena fu minor del suo demerto,</l>
+<l>E m'è grave ch'usai troppa pietate:</l>
+<l>Che far io lo devea sepelir vivo,</l>
+<l>O più tosto stracciarlo a brano a brano.</l>
+<l>Ma soverchia bontà fa peccar spesso.</l>
+<l>Queste parti terrai così coperte,</l>
+<l>Ch'io voglio che le vegga la Reina.</l>
+<l>Una di voi, pietose damigelle,</l>
+<l>La faccia da mia parte venir fuori,</l>
+<l>E la mia fida guardia l'accompagni.</l>
+</lg></sp>
+<sp><speaker>COR</speaker>
+<lg type="non definito">
+<l>. Eccomi obediente</l>
+<l>Ad ogni vostro cenno.</l>
+<l>Così faccia il Signor che crudeltate</l>
+<l>Non usiate in colei</l>
+<l>Che sempre esempio fu di castitate.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Rimase di tal morte sodisfatto</l>
+<l>Il popolo, o mostrò che gli dolesse?</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Questo affermar non so: che la paura</l>
+<l>Sovente fa che i sudditi stan cheti.</l>
+<l>Ma, per quel che si vide ne l'aspetto,</l>
+<l>Parve ch'a tutti ciò premesse molto.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>L'ignoranza è cagion ne la vil turba</l>
+<l>Di sciocchi affetti e di giudicii falsi.</l>
+<l>Né cosa è più volubile e leggera</l>
+<l>Di quel ch'è il volgo, e temeraria e pazza;</l>
+<l>E sovente, quel ch'oggi li dispiace,</l>
+<l>Doman gli aggrada, e sommamente il prezza:</l>
+<l>Onde di lui far non si deve stima.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Ma ecco, Signor mio, la guardia et ecco</l>
+<l>Uscir la damigella e la Reina.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>ERODE, MARIANNA, NUNZIO</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>Due grandi errori ho nel ritorno mio,</l>
+<l>Marianna, commessi; e d'ambedue</l>
+<l>Certo non picciol duol mi preme il core.</l>
+<l>L'uno di non aver fatto per tutto</l>
+<l>Questo palagio ornar di panni d'oro,</l>
+<l>Et insieme regal splendida festa,</l>
+<l>Per dimostrar de l'allegrezza segno</l>
+<l>Che somma ho presa in rivederti sana.</l>
+<l>L'altro (e questo è maggior), d'esser mancato</l>
+<l>A l'obligo ch'io porto in onorarti</l>
+<l>Di qualche raro e prezioso dono</l>
+<l>Conveniente a la tua pura fede.</l>
+<l>Il primo error per emendar io sono,</l>
+<l>Tosto che 'l sole il nuovo giorno apporti.</l>
+<l>L'altro emendato ho nel presente in parte:</l>
+<l>Perché a questo bacin si chiude dentro</l>
+<l>Cosa che più che la tua vita amasti,</l>
+<l>E credo ch'amerai dopo la morte.</l>
+<l>Tu, servo mio fedel, ne leva il panno,</l>
+<l>Acciò ch'ella veder possa con gli occhi</l>
+<l>Quel che sempre con l'animo ha veduto.</l>
+</lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Crudel Erode: io non dirò mai Rege,</l>
+<l>Anzi crudel Tiranno, e questo è poco;</l>
+<l>Crudelissima Furia de l'Inferno:</l>
+<l>Non ti basta d'aver fatto morire</l>
+<l>Uno innocente, che veder ti godi</l>
+<l>Le sue reliquie, come gemme, avanti?</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Tu, Nunzio, or ben solleva alta la testa:</l>
+<l>Volgi qui Marianna, e fisa gli occhi.</l>
+<l>Questo è quel volto che già tanto grato</l>
+<l>Fu, moglie iniqua, al tuo sfrenato ardore.</l>
+<l>Solleva in alto ancora ambe le mani.</l>
+<l>Queste le mani son che molte volte</l>
+<l>T'han cinto il collo in vituperio nostro.</l>
+<l>Prendi anco in mano e le dimostra il core.</l>
+<l>Questo è nel fin quel cuor, donna impudica,</l>
+<l>Appo 'l qual ebbe 'l tuo sì caro albergo.</l>
+<l>Or godi lieta le reliquie morte</l>
+<l>Di quel fellon, che sì ti piacque vivo.</l>
+<l>Vedi s'io potea far, ingrata donna,</l>
+<l>A' merti tuoi più convenevol dono.</l>
+</lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Di Dio nimico e de la gente umana,</l>
+<l>Sì fatti sono i premi che tu dài</l>
+<l>A color che ti servon fedelmente?</l>
+<l>In che t'ha offeso il miser di Soemo,</l>
+<l>Fuor ch'in avermi discoperto quello</l>
+<l>Che scoprir mi devea, send'egli giusto?</l>
+<l>Tu commettesti a lui che m'uccidesse,</l>
+<l>Se te uccideva o la giustizia o Dio.</l>
+<l>Ti dimando se questo ei far devea,</l>
+<l>Se far devea morir una innocente,</l>
+<l>Per servir a le voglie d'un Tiranno.</l>
+<l>Già non devea: che non concede altrui</l>
+<l>La legge che si privi alcun di vita,</l>
+<l>Se per qualche delitto ei non lo merta.</l>
+<l>E qual delitto aveva ei mai commesso</l>
+<l>Contra di te? In che trovasti, o fiero,</l>
+<l>Ch'in qual si voglia cosa io t'abbia offeso?</l>
+<l>Certo in nessuna: e tu, crudel, lo sai.</l>
+<l>Adunque, se non era egli tenuto</l>
+<l>A far quel mal che vietano le leggi,</l>
+<l>Non era anco tenuto d'occultarlo</l>
+<l>A colei ne la qual far si devea.</l>
+<l>Ma tu potresti dir ch'o buono o reo</l>
+<l>Che tu ti sia, esser ne vuoi obedito;</l>
+<l>E l'inobedienza si punisce</l>
+<l>Così da i giusti Re, qual da i Tiranni.</l>
+<l>Io tel concedo: ma non era assai</l>
+<l>Punir costui senza dannarlo a morte?</l>
+<l>Non avevi più modi da punirlo,</l>
+<l>Se punir si conven l'opere buone?</l>
+<l>Ma tu per adempir il tuo desire,</l>
+<l>Ch'ad ogni tempo fu vago di sangue,</l>
+<l>Hai finto c'ho voluto avelenarti,</l>
+<l>Indotto pur da lui col quale affermi</l>
+<l>C'ho commesso adulterio. Ah, rio Tiranno,</l>
+<l>Anzi mostro crudel de la natura!</l>
+<l>Così infami te stesso e la tua casa,</l>
+<l>Per ingordigia c'hai de l'altrui morte?</l>
+<l>Ma pongasi che questa crudeltate</l>
+<l>Sia nata da sospetto, il qual hai preso</l>
+<l>Da lo avermi Soemo appalesato</l>
+<l>Quel ch'imponesti ch'ei tenesse occolto.</l>
+<l>Adunque per sospetto tu discendi</l>
+<l>A far i tuoi fedel di vita privi,</l>
+<l>E trattar da impudica la mogliera?</l>
+<l>Se mai di ciò ti fosse stata alcuna</l>
+<l>Accusa data (ancor che non si debba</l>
+<l>Rapportar di leggeri a l'altrui lingua,</l>
+<l>Se chiaro ben non si ritrova il vero),</l>
+<l>Saresti degno di perdono in parte.</l>
+<l>M'a tener il sospetto per certezza</l>
+<l>È cosa da fierissimo Tiranno.</l>
+<l>Ma certo è che tu brami di vedere,</l>
+<l>Com'hai visto del misero innocente,</l>
+<l>Così egualmente il fin de la mia vita,</l>
+<l>Acciò d'Ircano più non resti prole.</l>
+<l>Ma fa mestier, compir volendo questo,</l>
+<l>Che tu levi di vita anco i figliuoli,</l>
+<l>Sì come è da stimar ch'anco farai.</l>
+<l>E quanto a me, come t'ho detto avante,</l>
+<l>Ho più caro morir, che viver teco;</l>
+<l>Né sorte imaginar ti puoi di morte</l>
+<l>Tanto acerba e crudel, che mi spaventi.</l>
+<l>E se per questo m'hai fatto uscir fuori,</l>
+<l>O giorno a me sovra ogni giorno chiaro:</l>
+<l>In cui, per grazia di ch'el ciel governa,</l>
+<l>Uscirò de le tue spietate mani,</l>
+<l>E innanzi al mio fattor n'andrò volando.</l>
+<l>Il qual io pregherò che de le tante</l>
+<l>Offese a me già fatte et al mio sangue,</l>
+<l>Faccia, com'ei farà, giusta vendetta;</l>
+<l>E dal tuo esempio impari ogni Tiranno</l>
+<l>Ad osservar ei primo quelle leggi</l>
+<l>Ch'e' vuol che sian dal popolo osservate.</l>
+<l>Sol ti cheggio una grazia, a cui mi movo</l>
+<l>Da materna pietà sendo sospinta.</l>
+<l>E questa è ch'a mia madre, anch'ella come</l>
+<l>Son io monda del tutto et innocente,</l>
+<l>Non t'incresca di dar la vita in dono.</l>
+<l>Sii di mia vita quanto vuoi Tiranno,</l>
+<l>Isquarta il corpo mio, fa di lui straccio:</l>
+<l>Ma ne la sua giusto Signor ti mostra.</l>
+<l>E s'è bisogno ancor che pei figliuoli</l>
+<l>Ti preghi, io faccio questo officio ancora.</l>
+<l>Se ciò tu mi concedi, io ti prometto</l>
+<l>Supplicar al Signor che la mia morte</l>
+<l>E quella di Soemo ti perdoni.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Due cose m'hanno, scelerata donna,</l>
+<l>Agevolmente insino a qui ingannato</l>
+<l>Verso te di giudicio e di parere.</l>
+<l>L'una è stato l'aspetto del tuo volto</l>
+<l>Atto a ingannar ogni più astuto ingegno,</l>
+<l>Che in te mi prometteva un cor più puro</l>
+<l>Che non han le columbe. E l'altra foro</l>
+<l>Le tue false e dolcissime parole,</l>
+<l>Che mi poser più volte innanzi a gli occhi</l>
+<l>Un velo tal, che non permise ch'io</l>
+<l>Vedessi quel c'ho discoperto al fine.</l>
+<l>Or che la tua malvagità m'è chiara,</l>
+<l>Non ponno queste o quel farmi più inganno.</l>
+<l>Tu m'hai tradito, e 'l tradimento è tale</l>
+<l>Che l'usar in te stessa ogni maniera</l>
+<l>Di crudeltà, si dee chiamar pietate.</l>
+<l>So che più tosto t'è grato il morire</l>
+<l>Che 'l viver meco: e per questo cercasti</l>
+<l>Tormi di vita, acciò per la mia morte</l>
+<l>Liberamente ti godessi quello</l>
+<l>Che, col morir, t'ha tolto ogni dolcezza</l>
+<l>Che solevi gustar de la tua vita.</l>
+<l>E la certezza c'ho del tuo peccato</l>
+<l>Chiami sospetto et ingordigia, nata</l>
+<l>Da sete, come dici, del tuo sangue.</l>
+<l>E pur tu stessa sai che dici il falso.</l>
+<l>Ma or, per dimostrar ch'io t'amo ancora,</l>
+<l>Come sempre t'amai, vo' contentarti.</l>
+<l>Così pietoso io ti condanno a morte;</l>
+<l>E pietà chiamo il condannarti a questa,</l>
+<l>Perché io so che ti do doppia allegrezza:</l>
+<l>L'una, che sarai priva di vedermi;</l>
+<l>L'altra, perché morendo compagnia</l>
+<l>Terrai perpetua a quel malvagio e rio,</l>
+<l>Di cui, restando in vita, parimente</l>
+<l>Restaresti ad ognior spogliata e cassa.</l>
+<l>E perché maggiormente tu conosca</l>
+<l>La mia pietà vèr te, che non la merti,</l>
+<l>Ti concedo ch'elegga qual maniera</l>
+<l>Di morte a te parrà che sia men grave.</l>
+</lg></sp>
+<sp><speaker>MAR.</speaker>
+<lg type="non definito">
+<l>Io torno a dir ch'ogni più cruda morte</l>
+<l>A me più cara fia,</l>
+<l>Che star in vita teco,</l>
+<l>Nimico di giustizia e di pietate.</l>
+<l>E se mi fai la grazia ch'io ti cheggio,</l>
+<l>Donna non morì mai di me più lieta,</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Or vanne dentro, e voi la seguitate;</l>
+<l>E tu, mio presidente, farai tosto</l>
+<l>Quanto da me di lei ti fia commesso.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Signor, aspetto che mi comandiate</l>
+<l>Quello che voi volete che si faccia</l>
+<l>De le reliquie ch'ancor tengo in mano.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Dalle a mangiar subitamente a' cani;</l>
+<l>E cosi fa del corpo di costui,</l>
+<l>Perché degni non son di sepoltura.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Io farò tutto quel che m'imponete.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>BERENICE, ERODE, ALESSANDRO, ARISTOBOLO <emph>figliuoli d'Erode</emph>, CORO, <add resp="ed">SOLDATI <emph>di Erode</emph></add></stage>
+<sp><speaker><add resp="ed">BER.</add></speaker>
+<lg type="non definito">
+<l>Benigno Re, vi prego, se pregarvi</l>
+<l>Da la vostra bontà m'è conceduto,</l>
+<l>Che vi piaccia por giù l'ira e lo sdegno</l>
+<l>Che vi fan sospettar di Marianna</l>
+<l>Quel che vero non è né fu giamai,</l>
+<l>E v'hanno indotto a condannar a morte</l>
+<l>Senza difetto alcuno una innocente.</l>
+<l>Io vi prego, per Dio, non siate ingiusto</l>
+<l>Contra de la consorte, poi che mai</l>
+<l>Non commetteste in altri opera ingiusta.</l>
+<l>E se verso ciascun sete pietoso,</l>
+<l>Non vi mostrate or contra lei crudele.</l>
+<l>Quinci punir volendo gli adulteri,</l>
+<l>Come cercan le leggi e l'onestate,</l>
+<l>Date premio a costei, che sempre fue</l>
+<l>Al letto marital fedele e casta.</l>
+<l>Io ti prego, Signor, che i preghi miei</l>
+<l>Di questa onesta grazia siano degni.</l>
+<l>Ben sapete che meglio è da la morte</l>
+<l>Liberar un colpevole, che imporre</l>
+<l>Che moia, com'è questa, un'innocente.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Semplice vecchia, il numero de gli anni</l>
+<l>E l'amor che tu porti a Marianna</l>
+<l>Non ti lascia veder che cerchi indurmi</l>
+<l>Da giustizia a ingiustizia, e che mi preghi,</l>
+<l>Per dimostrar pietade a la malvagia,</l>
+<l>A divenir crudel contra me stesso.</l>
+<l>Ma t'affatichi indarno: or ti diparti.</l>
+</lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Poi ch'io non posso ritrovar pietade,</l>
+<l>Anzi pur d'onestà debito officio</l>
+<l>Ne l'indurato cuor del padre vostro,</l>
+<l>Voi che gli sete figli or procurate</l>
+<l>Di far quel ch'io non posso. O Re, volgete</l>
+<l>Gli occhi a' vostri figliuoli, e non negate</l>
+<l>La grazia a lor ch'a me negata avete.</l>
+</lg></sp>
+<sp><speaker>ALES.</speaker>
+<lg type="non definito">
+<l>Re, padre e Signor mio, l'amor che noi</l>
+<l>Fratelli a la Reina nostra madre</l>
+<l>Portiam debitamente e la pietade,</l>
+<l>Ci constringe a pregarvi umilemente</l>
+<l>Che non vogliate in lei, sì come udimo,</l>
+<l>Usar effetto alcun contra le leggi.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Voi non parlate come si conviene.</l>
+</lg></sp>
+<sp><speaker>ALES.</speaker>
+<lg type="non definito">
+<l>Illustre genitor, noi ben sappiamo</l>
+<l>Quanto i figliuoli sian tenuti al padre;</l>
+<l>E v'abbiam quel rispetto e riverenza</l>
+<l>Che si conviene a l'obligo de' figli.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Io non vi riconosco per figliuoli.</l>
+</lg></sp>
+<sp><speaker>ALES.</speaker>
+<lg type="non definito">
+<l>Adunque cangeremo le parole,</l>
+<l>E vi giuriam pei raggi di quel sole</l>
+<l>Che porge luce a le terrene cose,</l>
+<l>E per quel santo Re che regge il cielo,</l>
+<l>Che, se sarete contra lei crudele,</l>
+<l>Noi saremo dal debito sforzati</l>
+<l>A por da parte e l'obligo e 'l rispetto.</l>
+<l>Nostra madre giamai non fece oltraggio</l>
+<l>Al letto marital, né contra voi</l>
+<l>Oprò cosa giamai d'onor indegna.</l>
+<l>E chi di lei ragiona o ragionato</l>
+<l>Ha in altra guisa, è mentitor malvagio</l>
+<l>E traditor de la corona vostra.</l>
+<l>E questa veritate ambi vogliamo</l>
+<l>(Benché tenera è ancor la nostra etate)</l>
+<l>Ambedue sostener con l'arme in mano</l>
+<l>Contra ciascun che di negarla ardisca.</l>
+<l>Ma voi (sia detto con la vostra pace)</l>
+<l>Non fate officio di voi stesso degno</l>
+<l>Ad infamar la vostra casa e noi,</l>
+<l>D'adulterio incolpando la Reina,</l>
+<l>La qual, sì come io dico, sempre casta</l>
+<l>Fu verso voi, né mai vi fece offesa.</l>
+<l>Ma sete inver troppo soggetto a l'ira,</l>
+<l>Troppo precipitoso e troppo fiero.</l>
+<l>E Dio voglia che questo a qualche tempo</l>
+<l>Non v'apporti vergogna e grave danno.</l>
+<l>Or, quanto a noi, vi replico da capo</l>
+<l>Che voi non procediate ingiustamente</l>
+<l>Contra di lei: perché l'istesso effetto</l>
+<l>Sarem sforzati a far contra di voi,</l>
+<l>Imparando da voi l'esser crudele.</l>
+</lg></sp>
+<sp><speaker>ARIS.</speaker>
+<lg type="non definito">
+<l>Io non so se chiamar padre vi debba,</l>
+<l>Benché mi sete padre: poi che dite</l>
+<l>Che non ci conoscete per figliuoli.</l>
+<l>Ma dirò quel c'ha detto mio fratello,</l>
+<l>Ch'io vi prego, vi supplico e scongiuro</l>
+<l>Per le leggi e per Dio che non vogliate</l>
+<l>Incrudelir contra la madre nostra,</l>
+<l>Che contra voi mai non commise fallo.</l>
+<l>Ecco ch'io pongo le ginocchia in terra</l>
+<l>E bacio insieme le ginocchia vostre.</l>
+<l>Levatevi, levatevi, per Dio,</l>
+<l>Da tanta crudeltà, che vi prometto</l>
+<l>Che s'oggi sarà il fin de la sua vita,</l>
+<l>Sarà medesmamente anco di voi;</l>
+<l>E se noi non potrem far sì bell'opra,</l>
+<l>La farà certo un dì la man divina.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Ah tolga il Re del cielo</l>
+<l>Ch'oggi ne segua qualche crudeltade,</l>
+<l>Che sia d'infamia a la presente etade.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Le parole da voi, malvagi, dette</l>
+<l>Dimostran chiaro e manifesto molto</l>
+<l>Che nessun d'ambi voi sia mio figliuolo,</l>
+<l>Ma di Soemo d'adulterio nati.</l>
+<l>Che se materno amor vi fa pietosi</l>
+<l>Verso cui non devete, maggiormente</l>
+<l>L'obligo di natura vi dovrebbe</l>
+<l>Aver fatto inclinati inverso al padre:</l>
+<l>Però che la natura ha troppa forza.</l>
+<l>Ma sete, com'io dico, di quel seme</l>
+<l>Che, qual si convenia, del tutto ho spento.</l>
+<l>La madre vostra ognior visse impudica</l>
+<l>E impudica morrà, mal grado vostro.</l>
+<l>Né testimon si puote aver maggiore</l>
+<l>Contra di lei, che la malvagia mente</l>
+<l>E 'l rio voler che contra me mostrate.</l>
+<l>Or come, giusto Dio, come far denno</l>
+<l>Le case de' privati, se le corte</l>
+<l>Reali, ove 'l rispetto è via maggiore,</l>
+<l>Non si ponno schermir da gli adulteri?</l>
+</lg></sp>
+<sp><speaker>ALES.</speaker>
+<lg type="non definito">
+<l>Padre, però che siam pur vostri figli,</l>
+<l>Benché l'ira vi fa dir altramente,</l>
+<l>E la Reina fu sempre pudica,</l>
+<l>Non vogliate, per Dio, deh, non vogliate</l>
+<l>Usar tal crudeltà contra di lei;</l>
+<l>E di ciò vi preghiam con tutto il core.</l>
+<l>Esaudite le lagrime et il pianto,</l>
+<l>E vogliate più tosto in noi vedere</l>
+<l>La pietade che i figli a' padri denno,</l>
+<l>Ch'esser fiera cagione in noi d'asprezza.</l>
+<l>Tu, mio fratel, fa il simile egualmente</l>
+<l>E li chiedi perdon di quel c'hai detto.</l>
+</lg></sp>
+<sp><speaker>ARIS.</speaker>
+<lg type="non definito">
+<l>Padre. . .</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Parlar più non bisogna: io non t'ascolto.</l>
+<l>Né padre di', che non sei mio figliuolo.</l>
+<l>E se di questo corpo usciti foste,</l>
+<l>Ancor non crederei mi foste figli.</l>
+<l>Onde vi tratterò come bastardi,</l>
+<l>E nimici mortal de la mia vita.</l>
+<l>E qual sarà di voi che primamente,</l>
+<l>Soldati miei, dimostrerà d'amarmi?</l>
+<l>Qual prima pel suo Re stringerà il ferro,</l>
+<l>Benché a sì poca età ciò non condegna?</l>
+<l>Ma prendeteli al tutto, o vivi, o morti.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>O crudeltate immensa!</l>
+<l>Ecco le spade ignude,</l>
+<l>Ecco come ambedue</l>
+<l>Si difendon da molti,</l>
+<l>Benché inermi e garzoni.</l>
+<l>Ma lassa, che valore</l>
+<l>A troppa forza cede.</l>
+<l>Ecco come son cinti d'ogn'intorno,</l>
+<l>Et ecco che son presi.</l>
+<l>O lagrimoso giorno!</l>
+</lg></sp>
+<sp><speaker>SOLD.</speaker>
+<lg type="non definito">
+<l>Ecco la volontà vostra eseguita.</l>
+<l>Comandateci, o Re, quel che volete</l>
+<l part="I">Che vi si faccia.</l></lg>
+</sp>
+<sp><speaker>ALES.</speaker>
+<lg type="non definito">
+<l part="F">Ingiusto e rio Tiranno,</l>
+<l>Sì come avete condannata a morte</l>
+<l>L'innocente Reina, nostra madre,</l>
+<l>Condannate anco noi, perché maggiore</l>
+<l>Sia l'ingiustizia e l'impietate vostra,</l>
+<l>E succedan nel regno i vostri eguali.</l>
+</lg></sp>
+<sp><speaker>ARIS.</speaker>
+<lg type="non definito">
+<l>Condannateci tosto, acciò che tosto</l>
+<l>Sia il fine e de la madre e de' figliuoli:</l>
+<l>De la malvagità del vostro core</l>
+<l>Aspettando da Dio giusta vendetta.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>S'ambi costoro in sì immatura etade</l>
+<l>Sono vèr me sì audaci e sì crudeli,</l>
+<l>Or che farian col trappassar del tempo?</l>
+<l>Bisogna estinguer l'uno e l'altro serpe,</l>
+<l>Prima ch'accresca in lor veneno e forza.</l>
+<l>Conduceteli insieme parimente</l>
+<l>Al luogo del supplizio, et ambedue</l>
+<l>Sien con un laccio strangolati e morti,</l>
+<l>Acciò che, essendo di quel reo figliuoli,</l>
+<l>Non abbiano a succeder nel mio regno:</l>
+<l>E ciò dinanzi de l'iniqua madre.</l>
+<l>Di cui dapoi che a la presenza fia</l>
+<l>Tagliata anco la testa ad Alessandra,</l>
+<l>Madre de l'impudica, finalmente</l>
+<l>Marianna ne sia decapitata:</l>
+<l>Ma la primiera morte abbia Alessandra,</l>
+<l>La seconda i bastardi, ella la terza.</l>
+<l>Et altro de' lor corpi non si faccia,</l>
+<l>Fin ch'ordine da me vi sarà dato.</l>
+<l>E questo per mio nome imponerete</l>
+<l>Al presidente, che l'osservi a pieno.</l>
+<l>Ma che vuole a quest'ora il mio fedele</l>
+<l>Consiglier, ma noioso et importuno?</l>
+<l>Or ciò si faccia tosto, acciò che tosto</l>
+<l>Mi porti il Nunzio la bramata nova.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>O madri ambe infelici,</l>
+<l>Infelici figliuoli,</l>
+<l>Et infelice Rege:</l>
+<l>Ch'ancor vi pentirete</l>
+<l>Di tanta e incomparabil crudeltate.</l>
+<l>Oimè, che la pietate</l>
+<l>Con la giustizia insieme è gita al cielo:</l>
+<l>E qui di lor non resta ombra, né velo.</l></lg></sp></div2>
+
+<div2 type="scena">
+<stage>CONSIGLIERE, ERODE</stage>
+<sp><speaker><add resp="ed">CONS.</add></speaker>
+<lg type="non definito">
+<l>Re, mio Signor, i buon consigli denno</l>
+<l>Replicarsi più volte, acciò che, s'una</l>
+<l>Volta et un'altra rifiutati sono,</l>
+<l>Nel fin, per non errar, vengano presi.</l>
+<l>Rivocate, per Dio, mentre potete,</l>
+<l>L'ingiusta, abominosa, aspra sentenza</l>
+<l>Che contro a Marianna avete data,</l>
+<l>Contro a sua madre e contro a' figli vostri.</l>
+<l>Rivocatela, dico, e non v'incresca</l>
+<l>Di consentir a chi vi porta amore,</l>
+<l>E de l'utile vostro è desioso</l>
+<l>E de la pace e de la vostra gioia.</l>
+<l>E stimate che quel c'ha giudicato</l>
+<l>Con tal severità, contra ogni onesto,</l>
+<l>Sia stato sol furore, e non Erode.</l>
+<l>Rivocatela, dico, immantenente:</l>
+<l>Poi senza passion porgete orecchie</l>
+<l>A le ragion che per addurvi io sono.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>L'addurmi più ragioni è un perder tempo,</l>
+<l>Ch'io voglio (e la ragion vuol ch'io lo voglia)</l>
+<l>Ch'irrevocabil sia la mia sentenza.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Per Dio, rompete l'indorata mente,</l>
+<l>Et aprite quegli occhi che lo sdegno</l>
+<l>Vi tien per vostro mal serrati e chiusi.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Quando arà avuto la sentenza effetto,</l>
+<l>T'ascolterò, per ributtar dapoi</l>
+<l>Tutte le tue ragioni ad una ad una.</l>
+<l>Solo io dirò c'ho condannato a morte</l>
+<l>Non i figliuoli miei, ma i miei nimici.</l>
+<l>Né parimente la consorte mia,</l>
+<l>Ma un'adultera infame, che volea</l>
+<l>Col mezo del venen tormi di vita.</l>
+<l>Così non una suocera, ma un'aspe,</l>
+<l>Che procurò di ber tutto 'l mio sangue.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Più volte, Signor mio, torno a pregarvi,</l>
+<l>Et insieme vi supplico umilmente</l>
+<l>Che rivochiate la sentenza vostra:</l>
+<l>Che sete ingiusto, e voi no 'l conoscete.</l>
+<l>E la ingiustizia vostra non procede</l>
+<l>Da trista mente od animo malvagio</l>
+<l>(Anzi avanzate in ciò molt'altri Regi),</l>
+<l>Ma da l'ardor et impeto de l'ira,</l>
+<l>La quale è 'l più pestifero veneno</l>
+<l>Che infettar soglia il petto de' mortali.</l>
+<l>Ove si lesse in alcun tempo mai</l>
+<l>Che 'l padre fesse uccider i figliuoli?</l>
+<l>E se 'l suo fe' morir quel gran Romano,</l>
+<l>Degno è di scusa, poi che pose avanti</l>
+<l>Il ben comune a l'amor suo privato.</l>
+<l>Ma voi fate levar, per odio e sdegno,</l>
+<l>Di vita due innocenti figli vostri</l>
+<l>E due madri, le qual fur parimente</l>
+<l>Verso di voi, Signor, sempre fedeli.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Or si ponga silenzio a questi detti:</l>
+<l>Giusta è la mia sentenza, e la confermo.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Di ciò, Signor, vi pentirete al fine.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Pentito ancor non m'ho d'alcun mio fatto.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Questo vi basterà per mille e mille.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Anzi questo mi fia di somma lode.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Anzi di biasmo e di perpetuo duolo.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>La giustizia non fa di tali effetti.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Signor mio non, ma l'ingiustizia e l'ira.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Tu meno sai, di quel che ti presumi.</l>
+</lg></sp>
+<sp><speaker>CONS.</speaker>
+<lg type="non definito">
+<l>Se quei che 'l ver vi dicono non sanno,</l>
+<l>Saggi siano appo voi gli adulatori.</l>
+<l>A me basti più volte avervi mostro</l>
+<l>Quel che v'insegnerà l'avenimento.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<stage>CORO</stage>
+<sp>
+<lg type="non definito">
+<lg type="non definito">
+<l>Quand'ardono le case de' vicini,</l>
+<l>Alor si dee temere</l>
+<l>Che quell'incendio sopra noi discenda.</l>
+<l>Onde s'avien ch'aiuti almi e divini</l>
+<l>De le celesti sfere</l>
+<l>Non vietino che 'l foco oltre si estenda,</l>
+<l>Convien che tutte una ruina offenda</l>
+<l>Noi misere donzelle.</l>
+<l>Ch'avendo il Re le voglie empie e rubelle</l>
+<l>Ad ogni legge, ad ogni opera buona,</l>
+<l>Sì ch'a' suoi propri figli non perdona,</l>
+<l>E fiero et inumano</l>
+<l>Nel sangue de la sua fida consorte</l>
+<l>Stende l'iniqua mano,</l>
+<l>Più facilmente altrui darà la morte.</l></lg>
+<lg type="non definito">
+<l>Oh, come avien quel c'ho sovente udito,</l>
+<l>Che le pazzie de i Regi</l>
+<l>Fan che patisca il popolo innocente.</l>
+<l>O duol sovra il pensiero alto e infinito,</l>
+<l>Ch'a molti uomini egregi</l>
+<l>Apporti danno un Re fiero e nocente.</l>
+<l>Ma sfortunata te, misera gente,</l>
+<l>Soggetta al rio furore</l>
+<l>D'ingiustissimo e barbaro Signore.</l>
+<l>Prima senno, valor, bontà e fortezza</l>
+<l>Alzava l'uomo a la regale altezza.</l>
+<l>Or forza e crudeltate,</l>
+<l>Tradimenti, rapine, arti et inganni</l>
+<l>(O te misera etate!)</l>
+<l>Pongon più d'un sopra gli aurati scanni.</l></lg>
+<lg type="non definito">
+<l>E senza addur esempi de' passati</l>
+<l>O de' moderni tempi,</l>
+<l>Lo specchio inanzi abbiam lucido e chiaro:</l>
+<l>Che con tutti i malvagi e scelerati,</l>
+<l>Con i crudeli et empi,</l>
+<l>Non sol ne va l'iniquo Erode a paro,</l>
+<l><add resp="ed">............ aro</add></l>
+<l>Ma ciascun dietro lassa,</l>
+<l>E di molto gran spazio innanzi passa.</l>
+<l>Misere dunque noi, che sì da presso</l>
+<l>Siamo a le pene, al nostro male istesso.</l>
+<l>Deh, chi potrà salvarne,</l>
+<l>Se tu, padre del ciel pietoso e giusto,</l>
+<l>Non movi a consolarne</l>
+<l>Con la morte d'un Re cotanto ingiusto?</l></lg>
+<lg type="non definito">
+<l>Ben ancor fia che la Giustizia al mondo,</l>
+<l>Più che mai chiara e bella,</l>
+<l>Tenga il suo seggio in su l'Ibero e 'l Reno;</l>
+<l>E 'l bel santo dominio almo e giocondo</l>
+<l>De la città donzella,</l>
+<l>Che d'Adria premerà l'ondoso seno</l>
+<l>Volga sì giusto e così amico freno,</l>
+<l>Che la felice età, detta da l'oro,</l>
+<l>Ritornerà il suo ricco, alto tesoro.</l>
+<l>Ma fin che 'l sole allumerà questi anni,</l>
+<l>Sgombra, rettor celeste, i nostri danni;</l>
+<l>Né la sentenza fiera</l>
+<l>De l'iniquo Tiranno abbia l'effetto</l>
+<l>Ch'esso n'attende e spera,</l>
+<l>Tutto di crudeltà ripieno il petto.</l>
+<l>E se di qualche errore</l></lg>
+<lg type="terzina">
+<l>Punir vuoi, padre, il popol tuo che langue.</l>
+<l>Punisci noi, Signore,</l>
+<l>Né pèra l'innocente e real sangue.</l></lg></lg></sp></div2>
+<trailer>IL FINE DEL QUARTO ATTO</trailer>
+</div1>
+<div1 type="atto"><head>ATTO QUINTO</head>
+<div2 type="scena">
+<stage>BERENICE, CORO</stage>
+<sp><speaker><add resp="ed">BER.</add></speaker>
+<lg type="non definito">
+<l>Sconsolate donzelle,</l>
+<l>Per la morte crudele</l>
+<l>De la Reina vostra</l>
+<l>Accompagnate il mio sì giusto pianto.</l>
+<l>Crudelissime stelle,</l>
+<l>Che consentiste a tanto</l>
+<l>Scelerato decreto!</l>
+<l>Ma tu, fiero Tiranno,</l>
+<l>Tu, mostro empio e nefando,</l>
+<l>Come potesti condannar a morte</l>
+<l>Una moglie innocente?</l>
+<l>Una che tanto amasti?</l>
+<l>Una di cui possedi</l>
+<l>Lo scettro e la corona?</l>
+<l>Et insieme privar anco di vita</l>
+<l>La sua madre e i tuoi figli?</l>
+<l>Sconsolate donzelle,</l>
+<l>Accompagnate il mio sì giusto pianto.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Vecchia, infelice vecchia,</l>
+<l>Ch'a la nostra Reina</l>
+<l>Porgesti il latte, e sei</l>
+<l>Rimasa in questa età per maggior pena:</l>
+<l>La miseria è comune,</l>
+<l>Comuni i nostri danni.</l>
+<l>Così avessimo tante</l>
+<l>Lagrime da versar per gli occhi fuora,</l>
+<l>Quanti dentro del cor abbiam tormenti.</l>
+</lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>O vituperio de l'umane genti,</l>
+<l>Uscito de l'Inferno</l>
+<l>Per tòr di vita i buoni,</l>
+<l>Crudelissima fera</l>
+<l>Piena d'ogni veneno:</l>
+<l>Tu col tuo acuto dente</l>
+<l>Hai tronco a la Giudea,</l>
+<l>Quasi candido fior in un bel prato,</l>
+<l>Il suo maggior onore;</l>
+<l>A noi, misere, tolto ogni sostegno,</l>
+<l>Ogni pace, ogni gioia,</l>
+<l>Senza speme giamai d'alcun ristoro.</l>
+<l>Oimè, perché non moro?</l>
+<l>E perché sì gelato</l>
+<l>Ho ne le vene il sangue,</l>
+<l>Che con laccio o con ferro</l>
+<l>Di cotante miserie non mi sciolgo?</l>
+<l>Sconsolate donzelle,</l>
+<l>Accompagnate il mio sì giusto pianto.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Or ben caduta è al fondo</l>
+<l>L'alta casa d'Ircano,</l>
+<l>Ch'esser solea di gloria al nome nostro!</l>
+<l>Et a qual tempo mai</l>
+<l>Fiorirà tal valor, tanta virtute?</l>
+<l>Ahi, che nostra salute</l>
+<l>Seco è del tutto estinta!</l>
+<l>Ahi, mondane grandezze,</l>
+<l>Che van tosto in ruina!</l>
+</lg></sp>
+<sp><speaker><add resp="ed">BER.</add></speaker>
+<lg type="non definito">
+<l>Ma non sarà giamai</l>
+<l>Che senza te, che come figlia amai,</l>
+<l>Rimanga un giorno in vita.</l>
+<l>Mi concedesse almeno</l>
+<l>Erode che, sì come io teco vissi</l>
+<l>Sempre, dal giorno ch'io</l>
+<l>Fanciulletta ti diedi il latte primo,</l>
+<l>Così una sepoltura</l>
+<l>Ambe noi rinchiudesse;</l>
+<l>E 'nsieme con la tua si mescolasse</l>
+<l>La mia cenere ancora.</l>
+<l>Che, se bene è diverso</l>
+<l>Tra noi lo stato, però che tu forse</l>
+<l>Reina, io sono ancella,</l>
+<l>Eguale fu tra noi sempre l'amore:</l>
+<l>E come questo mi te fe' figliuola,</l>
+<l>Tu m'avessi per madre!</l>
+<l>Ma cessiamo dal pianto,</l>
+<l>Infin che non udiamo</l>
+<l>Del nostro orribil mal la nuova certa.</l>
+<l>Chi sa che 'l fiero Re non sia pentito.</l>
+</lg></sp>
+<sp><speaker><add resp="ed">COR</add></speaker>
+<lg type="non definito">
+<l>Ma ecco a punto, dolorosa vecchia,</l>
+<l>Ecco ch'ei si dimostra,</l>
+<l>Et ha gli occhi vermigli</l>
+<l>Di non usato pianto.</l></lg></sp></div2>
+<div2 type="scena">
+<stage>ERODE, MESSO,<add resp="ed">BERENICE</add>, CORO</stage>
+<sp><speaker><add resp="ed">ER.</add></speaker>
+<lg type="non definito">
+<l>Oh, come facilmente i pensier nostri</l>
+<l>Si van cangiando! E chi creduto avrebbe</l>
+<l>Che la durezza mia sì tosto fosse</l>
+<l>Intenerita e divenuta tale,</l>
+<l>Che di mia crudeltà mi pento e dolgo?</l>
+<l>La qual m'ha spinto a condannar a morte</l>
+<l>I miei più cari. E sopra tutto duolmi</l>
+<l>De la mia Marianna. Ah, quanto puote</l>
+<l>Un subito disdegno, un rio sospetto</l>
+<l>Nato di gelosia! Poteva io, lasso,</l>
+<l>Cosa operar più scelerata e fiera</l>
+<l>Che incrudelir, oimè, nel proprio sangue,</l>
+<l>Et a morte dannar colei che meco</l>
+<l>È vivuta tant'anni e del mio core</l>
+<l>Sempre ha avuto fin qui dominio intero?</l>
+<l>Oh, come un freddo verme entro mi rode,</l>
+<l>Come strugger mi sento e come io veggio</l>
+<l>Del mio fedel tutti i ricordi veri.</l>
+<l>Ben ho mandato un messo a rivocare</l>
+<l>La mal data sentenza: ma costui</l>
+<l>Mi dubito che tardo non sia giunto.</l>
+<l>Ahi Marianna mia, mi ti congiunse</l>
+<l>Amor, or mi ti toglie ira, odio, sdegno.</l>
+<l>Ma voglia Dio che 'l mio temer sia vano:</l>
+<l>Che se tu sei passata a l'altra vita,</l>
+<l>Or son disposto anch'io di gir a morte,</l>
+<l>Acciò, s'io t'ho perduto in questa luce,</l>
+<l>Ti trovi ne le tenebre d'abisso.</l>
+<l>Ahi, Re misero al mondo, ahi, Re infelice,</l>
+<l>Qual è colui che t'ha cotanto offeso?</l>
+<l>Tu medesimo, tu ti sei privato</l>
+<l>De la più cara e più gradita cosa</l>
+<l>Ch'avevi in terra: e te dunque punisci,</l>
+<l>Punisci te, che te punir conviene.</l>
+<l>Pietoso Dio che sei nimico espresso</l>
+<l>De l'opere crudel, fa', tua mercede,</l>
+<l>Che questa crudeltà non sia adempita.</l>
+<l>Ma del mio mal cattivo augurio veggio:</l>
+<l>Veggio tornar il messo ch'io mandai</l>
+<l>Con lenti passi e impallidito in volto.</l>
+<l>Dimmi tosto la nuova che tu porti,</l>
+<l>Senza rispetto: o sia malvagia, o buona,</l>
+</lg></sp>
+<sp><speaker>MES.</speaker>
+<lg type="non definito">
+<l>Signor, non posso dirla senza pianto:</l>
+<l>La tua pietade è stata troppo tarda.</l>
+<l>ER. O me più ch'altro misero e infelice!</l>
+</lg></sp>
+<sp><speaker>MES.</speaker>
+<lg type="non definito">
+<l>Marianna, i tuoi figli et Alessandra</l>
+<l>Son giunti al fin de le giornate loro.</l>
+<l>Le due, spargendo con la vita il sangue,</l>
+<l>Al motor de le stelle han resa l'alma;</l>
+<l>Gli altri fur soffogati in spazio breve.</l>
+<l>Ma tosto sarà qui chi di tal morti</l>
+<l>Te ne darà particolar aviso.</l>
+</lg></sp>
+<sp><speaker>BER.</speaker>
+<lg type="non definito">
+<l>Ah, ch'io non voglio più restar in vita,</l>
+<l>Poi che morta è colei</l>
+<l>Che fu sola sostegno al viver mio!</l>
+<l>Or vivi tu, Re fiero,</l>
+<l>Vita qual si conviene</l>
+<l>A l'alta tua fierezza!</l>
+<l>Che se 'l duol non m'uccide,</l>
+<l>Ucciderò me stessa.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Ben sei crudele, Erode,</l>
+<l>Se non volgi la spada or nel tuo petto!</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Oimè, che tale è il frutto</l>
+<l>Del pentimento tardo!</l>
+<l>O misera Reina!</l>
+<l>O miseri figliuoli,</l>
+<l>E misera Alessandra!</l>
+<l>Anzi, felici voi, che sete giti</l>
+<l>A vera gioia e pace:</l>
+<l>E noi del tutto misere e dolenti,</l>
+<l>Poscia che siam rimase</l>
+<l>A la guerra, a i tormenti.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Erode empio e crudele,</l>
+<l>Che ben empio e crudel posso chiamarmi,</l>
+<l>Or di tua crudeltate,</l>
+<l>Maggior che mai s'udisse in altra etate,</l>
+<l>Senti l'assenzo e 'l fele!</l>
+</lg></sp>
+<sp><speaker>MES.</speaker>
+<lg type="non definito">
+<l>Ma ecco che ne vien, Signor, colui</l>
+<l>Che vi racconterà tutto il successo.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<stage>NUNZIO, ERODE, CORO</stage>
+<sp><speaker><add resp="ed">NUN.</add></speaker>
+<lg type="non definito">
+<l>Signor, s'apportator di ree novelle</l>
+<l>Fossi, o di buone, io resterei dubbioso:</l>
+<l>Se quel che fatto s'è, non fosse fatto</l>
+<l>D'ordine vostro. È dunque officio mio</l>
+<l>Di raccontar minutamente come</l>
+<l>La vostra volontà stata è obedita.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Narrami pur, tu c'hai veduto il tutto,</l>
+<l>Ogni particolar avenimento,</l>
+<l>Acciò tanto dolor di queste morti</l>
+<l>Prenda e senta nel core e dentro a l'alma,</l>
+<l>Quant'io presi diletto in comandarle.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Fu la Reina a quell'istesso loco</l>
+<l>Condotta, u' fu colui condotto prima,</l>
+<l>Donde nata è la origin d'ogni male;</l>
+<l>E dopo lei condotta fu la madre.</l>
+<l>A cui disse il carnefice: Madama,</l>
+<l>Per ordine del Re morir devete</l>
+<l>A gli occhi propri de la figlia avante.</l>
+<l>Disponetevi dunque a questo passo,</l>
+<l>Che far non si convien più d'una volta.</l>
+<l>Avreste alor veduto un rio di pianto</l>
+<l>Uscir de gli occhi a la pietosa figlia,</l>
+<l>La qual disse: Voi sete, o cara madre,</l>
+<l>Condannata da Erode a dura morte</l>
+<l>Sol per cagion che voi mi sete madre.</l>
+<l>O dunque abominoso parto vostro!</l>
+<l>Perché quel dì che prima apersi gli occhi,</l>
+<l>Io non li chiusi in sempiterno sonno?</l>
+<l>Perché quel primo dì non fu l'estremo</l>
+<l>Ch'io dovessi veder de la mia vita,</l>
+<l>Se 'l viver mio devea recarvi morte?</l>
+<l>O perché non poss'io con la mia morte</l>
+<l>Ricomperar la vostra degna vita,</l>
+<l>Che non mi saria grave ora la morte?</l>
+<l>Et ella a lei: Dolcissima figliuola,</l>
+<l>Bisogna, com'io dissi, ch'ambedue</l>
+<l>Ci acquetiam nel voler del sommo Dio.</l>
+<l>Egli vuol che facciamo or questa morte;</l>
+<l>E noi moriam contente, con fermezza,</l>
+<l>Che morrendo innocenti e senza macchia</l>
+<l>Egli raccolgerà l'anime nostre .</l>
+<l>Tra l'anime beate de gli eletti.</l>
+<l>E preghiam sua pietà ch'al Re feroce</l>
+<l>Perdoni: che non sa ciò ch'ei si faccia,</l>
+<l>Tal gli adombra ignoranza l'intelletto.</l>
+<l>Tu dammi, figlia mia, l'ultimo bacio.</l>
+<l>Ciò detto avendo, le smarrite labbia</l>
+<l>A le labbra accostò de la Reina,</l>
+<l>La qual disse: Mia madre, itene in pace,</l>
+<l>Che tosto compagnia vi farò anch'io.</l>
+<l>Io non vi potrei dir sì come pianse</l>
+<l>Il popol tutto al suon di tai parole.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Pianto avrebbe una tigre, un serpe, un'orsa.</l>
+<l>Ma sì come fu indegna</l>
+<l>La morte d'Alessandra,</l>
+<l>Così dicevol era</l>
+<l>Che, venuta send'ella in questa vita</l>
+<l>Innanzi a la figliuola,</l>
+<l>Ancor nel suo morir la precedesse.</l>
+<l>Ma fu spettacol fiero,</l>
+<l>Da non poter soffrire,</l>
+<l>Veder innanzi gli occhi</l>
+<l>Colei morir col ferro,</l>
+<l>Ond'ella ebbe la vita.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Pose l'afflitta le ginocchia in terra,</l>
+<l>Indi, piegando umilmente il collo,</l>
+<l>Sostenne il colpo fiero</l>
+<l>Che le spiccò la testa.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Mi maraviglio che l'istesso colpo</l>
+<l>Non levò similmente</l>
+<l>La vita a la Reina.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Non morì certo e non rimase viva;</l>
+<l>E quella che mostrossi a gli occhi nostri,</l>
+<l>Marianna non fu, ma d'essa l'ombra.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>O come ora è diverso questo core</l>
+<l>Da quel ch'era poc'anzi! Ma tu segui,</l>
+<l>Senza lasciar veruna cosa a dietro.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Dopo questa, il maggior figlio Alessandro</l>
+<l>Anzi fu strascinato che condotto</l>
+<l>Pur ne l'istesso loco innanzi gli occhi</l>
+<l>De la dolente et infelice madre.</l>
+<l>Il qual, guardando i circostanti, e dopo</l>
+<l>Traendo un profondissimo sospiro,</l>
+<l>Disse, ma tuttavia con gli occhi asciutti</l>
+<l>E con volto sì intrepido e sicuro,</l>
+<l>Com'egli non devesse andar a morte,</l>
+<l>M'a le sue nozze, a qualche gaudio immenso:</l>
+<l>Non mi pesa il morir, perch'io conosco</l>
+<l>D'esser nato con legge di morire;</l>
+<l>E qual si voglia cruda, orrenda morte</l>
+<l>Non deve spaventar un forte petto.</l>
+<l>Ma duolmi di morir senza vendetta</l>
+<l>De l'innocente mia madre infelice.</l>
+<l>Che se la spada insanguinata avessi</l>
+<l>Nel rio Tiranno, ond'è dannata a morte,</l>
+<l>Felice io stimerei l'uscir di vita.</l>
+<l>Ma tu, che calchi la giustizia santa,</l>
+<l>Indegno d'aver titolo di Rege,</l>
+<l>Anzi indegno d'aver umana forma,</l>
+<l>Condanni a morte i tuoi figli innocenti</l>
+<l>Perché, sì come figli, hanno voluto</l>
+<l>Difender ambedue la madre loro?</l>
+<l>Tale è officio di padre? questa è quella</l>
+<l>Paterna carità, che s'usa a' figli?</l>
+<l>Ma tu ci di' che non sei nostro padre.</l>
+<l>E dici il ver: c'hai l'animo diverso</l>
+<l>Di gran lunga da quel ch'a padre deve.</l>
+<l>Deve il padre a' figliuoli esser pietoso:</l>
+<l>E tu senza cagion gli danni a morte.</l>
+<l>Ma la vendetta che non ho potuto</l>
+<l>Far, come era mio debito, faralla</l>
+<l>Il giusto Dio, che de' peccati nostri</l>
+<l>Non lascia la memoria ir in oblio.</l>
+<l>Avendo così detto, il figlio vostro</l>
+<l>Rivolse gli occhi a la dolente madre,</l>
+<l>E disse: Madre, poi che morir deggio</l>
+<l>Per aver procurato a voi la vita,</l>
+<l>Ne moro lieto; e prego che prendiate</l>
+<l>La volontà in iscambio de l'effetto.</l>
+<l>Noi tosto ci vedrem ne l'altra vita,</l>
+<l>Ove non è dolor, fraudi od inganni,</l>
+<l>Ma sotto a giusto giudice si vive</l>
+<l>Eterna vita e di contento piena,</l>
+<l>E si fa beffe de l'umane cose.</l>
+<l>Dio, che non abandona gl'innocenti,</l>
+<l>Ne la morte pietoso v'accompagni.</l>
+<l>Or voi ne lascio e la mondana luce.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>O misero garzone!</l>
+<l>O crudeltade immensa!</l>
+</lg></sp>
+<sp><speaker><add resp="ed">NUN.</add></speaker>
+<lg type="non definito">
+<l>Dopo queste parole arditamente</l>
+<l>Al carnefice disse ch'ei facesse</l>
+<l>L'officio ch'a lui stato era commesso.</l>
+<l>Il quale intorno al collo un forte laccio</l>
+<l>Gli pose e 'n poco spazio lo costrinse</l>
+<l>A mandar, lasso, fuor lo spirto e l'alma.</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>O scelerato Erode, o crudel padre!</l>
+<l>S'avien che padre pur nomarmi deggio,</l>
+<l>Ch'i' non fui per pietà, né per amore,</l>
+<l>Ma solamente per natura padre.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>O Re certo infelice,</l>
+<l>Infelice per vostra</l>
+<l>Sola cagion: voi conoscete tardo</l>
+<l>Il vostro grave errore.</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>A pena il primo ebbe serrati gli occhi,</l>
+<l>Che strascinato fu l'altro fratello</l>
+<l>Innanzi a la Reina, che si stava</l>
+<l>Immobile, sì come stata fosse</l>
+<l>Una statua di marmo o una pittura,</l>
+<l>O sì come si scrive di colei</l>
+<l>Che per molta pietà divenne sasso.</l>
+<l>Et egli altro non disse, se non: Madre,</l>
+<l>A Dio piace ch'io mora, et a me piace.</l>
+<l>E sì come io ne moro volentieri,</l>
+<l>Cosi morite voi salda e costante:</l>
+<l>Perché l'anime nostre ascenderanno</l>
+<l>Ove salir non suole alcun Tiranno,</l>
+<l>Né alma iniqua e di peccati lorda.</l>
+<l>Spedillo il boia così tosto, come</l>
+<l>L'altro spedì con la medesma morte,</l>
+<l>E posti i corpi un presso l'altro furo.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>A che misero fine,</l>
+<l>Senza cagione alcuna,</l>
+<l>Son giunti due figliuoli</l>
+<l>Del gran Re di Giudea!</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Figli infelici, figli:</l>
+<l>Ben potei generarvi</l>
+<l>Et a sì fiera morte condannarvi,</l>
+<l>Ma non posso, meschino,</l>
+<l>Più ritornarvi in vita!</l>
+</lg></sp>
+<sp><speaker>NUN.</speaker>
+<lg type="non definito">
+<l>Poi che sì tristo officio ebbe 'l suo fine,</l>
+<l>La Reina, vedendo che restava</l>
+<l>A lei finir la tormentata vita,</l>
+<l>Disse: Ben vedi tu, popol pietoso,</l>
+<l>Che trovar non si può sotto la luna</l>
+<l>Crudeltà eguale a quella che 'l Re vostro</l>
+<l>Ha usata, qual mastin, nel proprio sangue.</l>
+<l>Né gli è bastato condannarmi a morte,</l>
+<l>C'ha voluto che pria morir vedessi</l>
+<l>L'innocente mia madre e i miei figliuoli.</l>
+<l>O giusto Dio, puoi sofferir la tanta</l>
+<l>Impietà d'un fierissimo Tiranno?</l>
+<l>Questo creder non voglio, e con ragione</l>
+<l>Creder non debbo. Ma dove è 'l gastigo</l>
+<l>Che dava spesso la tua santa mano</l>
+<l>Ai Regi ribellanti a la tua legge?</l>
+<l>Deh, perché tardi? Quanto a la mia vita,</l>
+<l>Non fu mai vita ad altri così cara,</l>
+<l>Quant'ora a me la non devuta morte.</l>
+<l>Ma sappi ogniun di voi, prima ch'io moia,</l>
+<l>Che non sol non commisi alcun delitto</l>
+<l>Di quelli, pel cui van falso sospetto</l>
+<l>Il Re crudel m'ha condannata a morte;</l>
+<l>Ma l'amai sempre con quel casto zelo</l>
+<l>D'amor, che moglie amar deve consorte,</l>
+<l>Perfin che mi fu noto ch'egli avea</l>
+<l>Ordinato a quel suo che m'uccidesse.</l>
+<l>Da indi in qua l'amor ch'io gli portai</l>
+<l>Tutto rivolsi in odio giustamente;</l>
+<l>Il qual odio, se ancor ne l'altra vita</l>
+<l>Si può serbar, io serberollo eterno.</l>
+<l>Intanto voi, figliuoli, e tu, mia madre,</l>
+<l>Ecco ch'io son per farvi compagnia.</l>
+<l>Io credo che le vostre anime sante</l>
+<l>Sian qui d'intorno e aspettino la mia,</l>
+<l>Che non tarderà molto. E questo detto,</l>
+<l>Seguitò al manigoldo: E tu, se vuoi</l>
+<l>Questo mio petto aprir, eccolo ignudo</l>
+<l>(E si squarciò con man la vesta); overo,</l>
+<l>Se brami di svenarmi, ecco la gola.</l>
+<l>E se questa non vuoi, né quella morte,</l>
+<l>Ma dipartir dal busto a me la testa,</l>
+<l>Ecco ch'io piego obediente il collo.</l>
+<l>Alora il boia, ch'attendeva questo,</l>
+<l>Dal bel candido tergo dipartilla.</l>
+<l>Tre sbalzi fe' la dipartita testa,</l>
+<l>E da la fredda lingua uscir s'udio:</l>
+<l>Saziati, crudo Erode; ecco 'l mio fine.</l>
+<l>Questa de la Reina fu la morte.</l>
+<l>Or comandate, Re, d'intorno a' corpi,</l>
+<l>Quel che volete voi che se ne faccia.</l>
+</lg></sp>
+<sp><speaker>COR.</speaker>
+<lg type="non definito">
+<l>Il Re per la gran doglia</l>
+<l>Da lui, ma tardo, presa,</l>
+<l>Non può formar parola.</l>
+<l>O misera Reina, tal devea</l>
+<l>Esser dunque il tuo fine?</l>
+<l>Or che sarà di noi,</l>
+<l>Senza di te, meschine?</l>
+<l>O sanguinosa corte,</l>
+<l>Corte oscura e funesta!</l>
+</lg></sp>
+<sp><speaker>ER.</speaker>
+<lg type="non definito">
+<l>Ora io conosco, mio mal grado, a prova</l>
+<l>Che non basta il dolor, benché sia grave,</l>
+<l>A scioglier l'uom de la terrena spoglia:</l>
+<l>Che 'l mio tolto m'avrebbe omai di vita;</l>
+<l>E non ho da dolermi di Fortuna,</l>
+<l>Ch'io stesso del mio mal ministro fui,</l>
+<l>Ingannato da l'empia mia sorella</l>
+<l>A cui riserbo al fin giusto gastigo.</l>
+<l>Ah, Marianna mia, dov'ora sei?</l>
+<l>Com'esser può che senza la tua vita</l>
+<l>Io possa un'ora rimaner in vita?</l>
+<l>Questo esser non può mai, questo non fia.</l>
+<l>Non si vedrà giamai che viva Erode,</l>
+<l>De la sua Marianna essendo privo.</l>
+<l>Ahi, Marianna mia, non mi rispondi!</l>
+<l>Certo de' figli miei piango la morte,</l>
+<l>Ch'eran pur carne, oimè, di queste carni,</l>
+<l>E dopo me devean tener il regno.</l>
+<l>Ma non è duolo al gran dolor eguale</l>
+<l>Che de la morte sua, misero, io prendo.</l>
+<l>Ahi, Marianna mia, dove sei gita?</l>
+<l>S'io credessi con l'anima trovarti</l>
+<l>Di là donde giamai non torna alcuno,</l>
+<l>A me non saria cosa acerba o grave</l>
+<l>Con le mie proprie mani aprirmi il petto.</l>
+<l>Ma tu, sì come pura et innocente,</l>
+<l>Sciolta da' facci uman sei gita al cielo,</l>
+<l>Et io discenderei da te lontano,</l>
+<l>Pieno di sceleraggini, a l'Inferno:</l>
+<l>Ond'io ti perderei compitamente.</l>
+<l>Ahi, Marianna mia, non mi rispondi!</l>
+<l>Misero me, ch'io parlo ora con lei</l>
+<l>Proprio com'ella fosse a me presente,</l>
+<l>Né so che l'alma sua, da me lontana,</l>
+<l>Prega il Signor del cielo e de la terra</l>
+<l>Che faccia sopra me degna vendetta.</l>
+<l>Ma poi che, lasso, il lamentar è indarno,</l>
+<l>E non ho forza di tornarti in vita,</l>
+<l>Almen t'onorerò ne la tua morte</l>
+<l>Di ricca e convenevol sepoltura.</l>
+<l>Ahi, cara Marianna, io stesso fui</l>
+<l>Cagion del mio dolor, de la tua morte.</l>
+<l>Ben hai dunque cagion d'odiarmi sempre,</l>
+<l>E 'nsieme disprezzar tutti gli onori</l>
+<l>Ch'io posso far ne la tua cruda morte.</l>
+<l>Marianna, io ti chiamo: e tu non m'odi!</l>
+<l>Ma se pentito cuor merta perdono,</l>
+<l>Del mio sì gran peccato or mi perdona.</l>
+<l>Perdonami, ben nata: e non ti dolga</l>
+<l>D'esser chiamata ognior da la mia lingua.</l>
+<l>Intanto a voi comando che facciate</l>
+<l>Con balsamo e con altri almi licori</l>
+<l>S'unga il leggiadro corpo, acciò che mai</l>
+<l>Esso per tempo alcun non si corrompa.</l>
+<l>I corpi de' miei figli anco sian posti</l>
+<l>Dentro a' sepolcri de gli antichi Regi,</l>
+<l>E parimente il corpo d'Alessandra.</l>
+<l>Così ritornerò nel mio palagio,</l>
+<l>Che senza te mi parerà vivendo</l>
+<l>Il cerchio fier de l'infernal Tiranno.</l>
+<l>Ahi, Marianna mia, piangerò sempre</l>
+<l>Il grave mio peccato e la tua morte.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<stage>CORO</stage>
+<sp>
+<lg type="non definito">
+<l>Vedete, egri mortali,</l>
+<l>Come l'ira è cagione</l>
+<l>D'incomparabil mali.</l>
+<l>Però non vi lasciate uscir di mano</l>
+<l>Il fren de la ragione,</l>
+<l>Se poi doler non vi volete in vano</l>
+<l>Che questo acuto sprone,</l>
+<l>Voi trasportando a precipizii tali,</l>
+<l>Vi guasti ogni opra, ogni consiglio sano.</l></lg></sp></div2>
+<trailer>IL FINE DELLA TRAGEDIA</trailer>
+</div1>
+</body>
+</text>
+</TEI.2>

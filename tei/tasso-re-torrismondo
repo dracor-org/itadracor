@@ -1,0 +1,4626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Re Torrismondo</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>180 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000057</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Teatro</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Guglielminetti, Marziano</editor>
+        <publisher>Garzanti</publisher>
+        <pubPlace>Milano</pubPlace>
+        <date>1995</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita"/></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-04-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Tiziana Mancinelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-05-05T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 type="epistola">
+<opener><salute>AL SERENISSIMO SIGNOR DON VINCENZO GONZAGA  DUCA DI MANTOVA E DI MONFERRATO, ETC.</salute></opener>
+
+	<p rend="italic">La tragedia per opinione di alcuni è gravissimo' componimento, come ad altri pare, affettuosissimo e convenevole a' giovenetti: i quali, oltre tutti gli altri, par che  ricerchi per uditori. E benché queste due opinioni paiano fra se contrarie e discordi, ora si conosce come possano amichevolmente concordare perché V. Altezza nel fior degli  anni suoi giovenili dimostra tanta gravità di costumi e tanta  prudenza, ch'a niuno altro principe par che più si convegna  questo poema. Oltre a ciò, la tragedia per giudizio d'Aristotele  ne l'esser perfetto supera ciascuno altro. E voi sete principe dotato d'altissimo ingegno e d'ogni perfezione, sì come colui al quale non mancano l'antiche ricchezze, né le virtù e la gloria  degli antecessori, né i nuovi ornamenti accresciuti dal padre a la  vostra nobilissima stirpe, né il proprio valore e la propria  eccellenza in esercitar l'armi e le lettere, né l'azione, né la  contemplazione, e particolarmente ne la poesia, ne la quale  ancora può essere annoverato fra' principi che nobilmente hanno scritto e poetato A V. Altezza dunque, ch'è perfettissimo principe, dedico e consacro questo perfettissimo poema, estimando che 'l dono, quantunque minore del suo merito, non  sia disdicevole a la sua grandezza, né a la mia affezione, che  tanto cresce in me, quanto il saper in lei si va accrescendo. In  una cosa solamente potrebbe alcuno estimar ch'io avessi avuto  poco risguardo a la sua prospera fortuna. Io dico nel donare a  felicissimo principe infelicissima composizione; ma le azioni de'  miseri possono ancora a' beati servire per ammaestramento; e V. Altezza, leggendo o ascoltando questa favola, troverà alcune  cose da imitare, altre da schivare, altre da lodare, altre da  riprendere, altre da rallegrarsi, altre da contristarsi. E potrà col suo gravissimo giudizio purgar in guisa l'animo, ed in guisa  temprar le passioni, che l'altrui dolore sia cagione del suo diletto; e l'imprudenza degli altri, del suo avedimento; e gli infortunii, de  la sua prosperità. E piaccia a Dio di scacciar lontano da la sua casa ogni infelicità, ogni tempesta, ogni nube, ogni nebbia, ogni  ombra di nemica fortuna o di fortunoso avenimento, spargendolo  non dico in Gozia, o in Norvegia, o 'n Suezia, ma fra gli ultimi  Biarmi, e fra i mostri e le fiere e le notturne larve di quella orrida  regione, dove sei mesi de l'anno sono tenebre di continova notte. Piaccia ancora a V. Altezza ch'io sia a parte de la sua felicità,  poic'ha voluto farmi parte de la sua casa, accioché il poeta non  sia infelice come il poema, né la mia fortuna simil a quella che si  descrive ne la tragedia; ma se le poesie ancora hanno la rea e la  buona sorte, come alcuno ha creduto, questa, essendo di mia  divenuta sua, può sperare lieta e felice mutazione, e fama  perpetua ed onore e riputazione fra gli altri componimenti; perché la memoria de la cortesia di V. Altezza fia immortale, ed  intesa e divolgata per varie lingue ne le più lontane parti del  Settentrione.</p>
+	<closer><dateline>Di Bergamo il primo di settembre 1587.</dateline>
+<salute>Di V. Altezza Sereniss.
+Affez.mo e devot.mo ser.re</salute>
+<signed>TORQUATO TASSO</signed></closer></div1>
+
+<castList>
+<head>INTERLOCUTORI</head>
+<castItem type="role"><role>NUTRICE</role></castItem>
+<castItem type="role"><role>ALVIDA</role></castItem>
+<castItem type="role"><role>TORRISMONDO, RE DE'</role></castItem>
+<castItem type="role"><role>GOTI</role></castItem>
+<castItem type="role"><role>CONSIGLIERO</role></castItem>
+<castItem type="role"><role>CORO</role></castItem>
+<castItem type="role"><role>MESSAGGIERO PRIMO</role></castItem>
+<castItem type="role"><role>ROSMONDA</role></castItem>
+<castItem type="role"><role>REGINA MADRE</role></castItem>
+<castItem type="role"><role>GERMONDO, RE DI SUEZIA</role></castItem>
+<castItem type="role"><role>CAMERIERA</role></castItem>
+<castItem type="role"><role>INDOVINO</role></castItem>
+<castItem type="role"><role>FRONTONE</role></castItem>
+<castItem type="role"><role>MESSAGGIERO SECONDO</role></castItem>
+<castItem type="role"><role>CAMERIERO</role></castItem>
+</castList>
+
+</front>
+
+<body>
+<div1 type="atto">
+<head>ATTO PRIMO</head>
+<div2 type="scena">
+<head><add resp="ed">[SCENA PRIMA]</add></head>
+<stage>NUTRICE, ALVIDA</stage>
+
+<sp><speaker><add resp="ed">[NUTRICE]</add></speaker>
+<lg>
+<l>Deh qual cagione ascosa, alta regina,</l>
+<l>sì per tempo vi sveglia? Ed or che l'alba</l>
+<l>nel lucido oriente a pena è desta,</l>
+<l>dove ite frettolosa? E quai vestigi</l>
+<l>di timore in un tempo e di desio</l>
+<l>veggio nel vostro volto e ne la fronte?</l>
+<l>Perch'a pena la turba interno affetto,</l>
+<l>o pur novella passion l'adombra,</l>
+<l>ch'io me n'aveggio. A me, che per etate,</l>
+<l>e per officio, e per fedele amore,</l>
+<l>vi sono in vece di pietosa madre,</l>
+<l>e serva per volere e per fortuna,</l>
+<l>il pensier sì molesto ormai si scopra,</l>
+<l>che nulla sì celato o sì riposto</l>
+<l>dee rinchiuder giamai ch'a me l'asconda.</l>
+</lg></sp>
+
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Cara nudrice e madre, egli è ben dritto</l>
+<l>ch'a voi si mostri quello ond'osa a pena</l>
+<l>ragionar fra se stesso il mio pensiero;</l>
+<l>perch'a la vostra fede, al vostro senno</l>
+<l>più canuto del pelo, al buon consiglio,</l>
+<l>meglio è commesso ogni secreto affetto,</l>
+<l>ogni occulto desio del cor profondo,</l>
+<l>ch'a me stessa non è. Bramo e pavento,</l>
+<l>no 'l nego, ma so ben quel ch'i' desio;</l>
+<l>quel che tema, io non so. Temo ombre e sogni,</l>
+<l>ed antichi prodigi, e novi mostri,</l>
+<l>promesse antiche e nove, anzi minacce</l>
+<l>di fortuna, del ciel, del fato averso,</l>
+<l>di stelle congiurate; e temo, ahi lassa,</l>
+<l>un non so che d'infausto o pur d'orrendo,</l>
+<l>ch'a me confonde un mio pensier dolente,</l>
+<l>lo qual mi sveglia e mi perturba e m'ange,</l>
+<l>la notte e 'l giorno. Oimè, giamai non chiudo</l>
+<l>queste luci già stanche in breve sonno,</l>
+<l>ch'a me forme d'orrore e di spavento</l>
+<l>il sogno non presenti; ed or mi sembra</l>
+<l>che dal fianco mi sia rapito a forza</l>
+<l>il caro sposo, e senza lui solinga</l>
+<l>gir per via lunga e tenebrosa errando;</l>
+<l>or le mura stillar, sudare i marmi</l>
+<l>miro, o credo mirar, di negro sangue;</l>
+<l>or da le tombe antiche, ove sepolte</l>
+<l>l'alte regine fur di questo regno,</l>
+<l>uscir gran simolacro e gran ribombo,</l>
+<l>quasi d'un gran gigante, il qual rivolga</l>
+<l>incontra al cielo Olimpo, e Pelia, ed Ossa,</l>
+<l>e mi scacci dal letto, e mi dimostri,</l>
+<l>perch'io vi fugga da sanguigna sferza,</l>
+<l>una orrida spelunca, e dietro il varco</l>
+<l>poscia mi chiuda; onde, s'io temo il sonno</l>
+<l>e la quiete, anzi l'orribil guerra</l>
+<l>de' notturni fantasmi a l'aria fosca,</l>
+<l>sorgendo spesso ad incontrar l'aurora,</l>
+<l>meraviglia non è, cara nutrice.</l>
+<l>Lassa me, simil sono a quella inferma</l>
+<l>che d'algente rigor la notte è scossa,</l>
+<l>poi su 'l mattin d'ardente febre avampa;</l>
+<l>perché non prima cessa il freddo gelo</l>
+<l>del notturno timor, ch'in me s'accende</l>
+<l>l'amoroso desio, che m'arde e strugge.</l>
+<l>Ben sai tu, mia fedel, che 'l primo giorno</l>
+<l>che Torrismondo agli occhi miei s'offerse,</l>
+<l>detto a me fu che dal famoso regno</l>
+<l>de' fieri Goti era venuto al nostro</l>
+<l>de la Norvegia, ed al mio padre istesso,</l>
+<l>per richiedermi in moglie; onde mi piacque</l>
+<l>tanto quel suo magnanimo sembiante</l>
+<l>e quella sua virtù per fama illustre,</l>
+<l>ch'obliai quasi le promesse e l'onta.</l>
+<l>Perch'io promesso aveva al vecchio padre</l>
+<l>di non voler, di non gradir pregata</l>
+<l>nobile amante, o cavaliero, o sposo,</l>
+<l>che di far non giurasse aspra vendetta</l>
+<l>del suo morto figliuolo e mio fratello;</l>
+<l>e 'l confermai nel dì solenne e sacro,</l>
+<l>in cui già nacque e poi con destro fato</l>
+<l>ei prese la corona e 'l manto adorno,</l>
+<l>e ne rinova ogni anno e festa e pompa,</l>
+<l>che quasi diventò pompa funebre.</l>
+<l>Quante promesse e giuramenti a l'aura</l>
+<l>tu spargi, Amor, qual fumo oscuro od ombra!</l>
+<l>Io del piacer di quella prima vista</l>
+<l>così presa restai, ch'avria precorso</l>
+<l>il mio pronto voler tardo consiglio,</l>
+<l>se non mi ritenea con duro freno</l>
+<l>rimembranza, vergogna, ira e disdegno.</l>
+<l>Ma poiché meco egli tentò parlando</l>
+<l>d'amore il guado, e pur vendetta io chiesi;</l>
+<l>chiesi vendetta, ed ebbi fede in pegno</l>
+<l>di vendetta e d'amor; mi diedi in preda</l>
+<l>al suo volere, al mio desir tiranno,</l>
+<l>e prima quasi fui, che sposa, amante;</l>
+<l>e me n'avidi a pena. E come poscia</l>
+<l>l'alto mio genitor con ricca dote</l>
+<l>suo genero il facesse; e come in segno</l>
+<l>di casto amor e di costante fede</l>
+<l>la sua destra ei porgesse a la mia destra;</l>
+<l>come pensasse di voler le nozze</l>
+<l>celebrar in Arane, e côrre i frutti</l>
+<l>del matrimonio nel paterno regno,</l>
+<l>e di sua gente e di sua madre i prieghi</l>
+<l>mi fosser porti e loro usanza esposta,</l>
+<l>tutto è già noto a voi. Noto è pur anco</l>
+<l>che pria ch'al porto di Talarma insieme</l>
+<l>raccogliesse le navi, in riva al mare,</l>
+<l>in erma riva e 'n solitaria arena,</l>
+<l>come sposo non già, ma come amante,</l>
+<l>ei fece le fuitive occulte nozze,</l>
+<l>che sotto l'ombre ricoprì la notte,</l>
+<l>e ne l'alto silenzio; e fuor non corse</l>
+<l>la fama e 'l suono del notturno amore,</l>
+<l>ch'in lui tosto s'estinse; e nullo il seppe,</l>
+<l>se non forse sol tu, che nel mio volto</l>
+<l>de la vergogna conoscesti i segni.</l>
+<l>Or poi che giunti siam ne l'alta reggia</l>
+<l>de' magnanimi Goti, ov'è l'antica</l>
+<l>suocera, che da me nipoti attende,</l>
+<l>che s'aspetti non so, né che s'agogni;</l>
+<l>ma si ritarda il desiato giorno.</l>
+<l>Già venti volte è il sol tuffato in grembo,</l>
+<l>da che giungemmo, a l'ocean profondo,</l>
+<l>e pur anco s'indugia; ed io fratanto</l>
+<l>(deggio 'l dire o tacer?) lassa mi struggo,</l>
+<l>come tenera neve in colle aprico.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Regina, come or vano il timor vostro</l>
+<l>e 'l notturno spavento in voi mi sembra,</l>
+<l>così giusta cagion mi par che v'arda</l>
+<l>d'amoroso desio; né dee turbarvi</l>
+<l>il vostro amor; che giovanetta donna,</l>
+<l>che per giovane sposo in cor non senta</l>
+<l>qualche fiamma d'amore, è più gelata</l>
+<l>che dura neve in orrida alpe il verno.</l>
+<l>Ma la santa onestà temprar dovrebbe,</l>
+<l>e l'onesta vergogna, ardor soverchio,</l>
+<l>perch'ei s'asconda a' desiosi amanti.</l>
+<l>Ma non sarà più lungo omai l'indugio,</l>
+<l>che già s'aspetta qui, se 'l vero intendo,</l>
+<l>de la Suezia il re di giorno in giorno.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Sollo, e più la tardanza ancor molesta</l>
+<l>me per la sua cagion. Così vendetta</l>
+<l>veggio del sangue mio? Così del padre</l>
+<l>consolar posso l'ostinato affanno,</l>
+<l>e placar del fratel l'ombra dolente?</l>
+<l>Posso e voglio così? Non lece adunque</l>
+<l>premere il letto marital, se prima</l>
+<l>a noi d'Olma non viene il re Germondo,</l>
+<l>di tutta la mia stirpe aspro nemico?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Amico è del tuo re; né dee la moglie</l>
+<l>amare e disamar co 'l proprio affetto,</l>
+<l>ma con le voglie sol del suo marito.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Siasi come a voi pare; a voi concedo</l>
+<l>questo assai volentier, ch'io voglio e deggio</l>
+<l>d'ogni piacer di lui far mio diletto,</l>
+<l>Così potessi pur qualche favilla</l>
+<l>estinguer del mio foco e de la fiamma,</l>
+<l>o piacer tanto a lui, ch'ad altro intende,</l>
+<l>ch'egli pur ne sentisse eguale ardore.</l>
+<l>Lassa, ch'in van ciò bramo, e 'n van l'attendo,</l>
+<l>né mi bisogna ancor pungente ferro,</l>
+<l>che nel letto divida i nostri amori</l>
+<l>e i soverchi diletti. Ei già mi sembra</l>
+<l>schivo di me per disdegnoso gusto:</l>
+<l>perché da quella notte a me dimostro</l>
+<l>non ha segno di sposo, o pur d'amante.</l>
+<l>Madre, io pur ve 'l dirò, benché vergogna</l>
+<l>affreni la mia lingua e risospinga</l>
+<l>le mie parole indietro. A lui sovente</l>
+<l>prendo la destra e m'avicino al fianco:</l>
+<l>ei trema, e tinge di pallore il volto,</l>
+<l>che sembra (onde mi turba e mi sgomenta)</l>
+<l>pallidezza di morte, e non d'amore;</l>
+<l>o 'n altra parte il volge, o 'l china a terra,</l>
+<l>turbato e fosco; e se talor mi parla,</l>
+<l>parla in voci tremanti, e co' sospiri</l>
+<l part="I">le parole interrompe.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l part="F">O figlia, i segni</l>
+<l>narrate voi d'ardente, intenso amore.</l>
+<l>Tremare, impallidir, timidi sguardi,</l>
+<l>timide voci, e sospirar parlando,</l>
+<l>scopron talora un desioso amante.</l>
+<l>E se non mostra ancor l'istesse voglie,</l>
+<l>che mostrò già ne le deserte arene,</l>
+<l>sai che la solitudine e la notte</l>
+<l>sono sproni d'amore, ond'ei trascorra;</l>
+<l>ma lo splendor del sole, il suon, la turba</l>
+<l>del palagio real, sovente apporta</l>
+<l>lieta vergogna, in aspettando un giorno</l>
+<l>che per gioia maggior tanto ritarda.</l>
+<l>E s'egli era in quel lido amante ardito,</l>
+<l>accusar non si dee, perch'or si mostri</l>
+<l>modesto sposo ne l'antica reggia.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Piaccia a Dio che sia vero. Io pur fra tanto,</l>
+<l>poi ch'altro non mi lece, almen conforto</l>
+<l>dal rimirarlo prendo. Or vengo in parte</l>
+<l>ov'egli star sovente ha per costume,</l>
+<l>in queste adorne logge o 'n questo campo,</l>
+<l>ov'altri i suoi destrier sospinge e frena,</l>
+<l>altri gli muove a salti o volge in cerchio.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Altra stanza, regina, a voi conviensi,</l>
+<l>vergine ancor, non che fanciulla e donna.</l>
+<l>Ben ha camere ornate il vostro albergo,</l>
+<l>ove potrete, accompagnata o sola,</l>
+<l>spesso mirarlo dal balcon soprano.</l>
+</lg></sp>
+</div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SECONDA]</add></head>
+<stage>NUTRICE <emph>sola</emph></stage>
+
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Non so ch'in terra sia tranquillo stato</l>
+<l>o pacifico sì, che no 'l perturbi</l>
+<l>o speranza, o timore, o gioia, o doglia;</l>
+<l>né grandezza sì ferma, o nel suo merto</l>
+<l>fondata, o nel favor d'alta fortuna,</l>
+<l>che l'incostante non atterri o crolli,</l>
+<l>o non minacci. Ecco felice donna</l>
+<l>pur dianzi, e tanto più quanto men seppe</l>
+<l>di sua prosperità, che, nata a pena,</l>
+<l>fu in alto seggio di fortuna assisa.</l>
+<l>Ed or, quando parea che più benigno</l>
+<l>le fosse il cielo e più le stelle amiche,</l>
+<l>per l'alte nozze sue teme e paventa,</l>
+<l>e s'adira in un tempo e si disdegna.</l>
+<l>Ma dove amor comanda, è l'odio estinto,</l>
+<l>e cedon l'ire antiche al novo foco.</l>
+<l>E s'al casto e soave e dolce ardore</l>
+<l>si dilegua lo sdegno, ancor si sgombri</l>
+<l>il sospetto e la tema; e poi ch'elegge</l>
+<l>d'amar quel ch'ella deve, amor le giovi.</l>
+<l>Ami felicemente; e 'l lieto corso</l>
+<l>di questa vita, che trapassa e fugge,</l>
+<l>non l'interrompa mai l'invida sorte,</l>
+<l>che far subito suole il tempo rio.</l>
+<l>Ma temo del contrario, e mi spaventa</l>
+<l>del suo timor cagione antica occulta,</l>
+<l>non sol novo timor, ch'è quasi un segno</l>
+<l>di futura tempesta; e l'atre nubi</l>
+<l>risolver si potranno al fin in pianto,</l>
+<l>se legitimo amor non solve il nembo.</l>
+<l>Ma ecco il re, cui la regina aspetta.</l>
+</lg></sp>
+</div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA TERZA]</add></head>
+<stage>TORRISMONDO RE, CONSIGLIERO.</stage>
+
+<sp><speaker><add resp="ed">[TORRISMONDO]</add></speaker>
+<lg>
+<l>Ahi, quando mai la Tana, o 'l Reno, o l'Istro,</l>
+<l>o l'inospite mare, o 'l mar vermiglio,</l>
+<l>o l'onde caspe, o l'ocean profondo,</l>
+<l>potrian lavar occulta e 'ndegna colpa,</l>
+<l>che mi tinse e macchiò le membra e l'alma?</l>
+<l>Vivo ancor dunque, e spiro, e veggio il sole?</l>
+<l>Ne la luce del mondo ancor dimoro?</l>
+<l>E re son detto, e cavalier m'appello?</l>
+<l>La spada al fianco io porto, in man lo scettro</l>
+<l>ancor sostegno, e la corona in fronte?</l>
+<l>E pur v'è chi m'inchina e chi m'assorge,</l>
+<l>e forse ancor chi m'ama: ahi, quelli è certo</l>
+<l>che del suo fido amor coglie tal frutto.</l>
+<l>Ma che mi giova, oimè, s'al core infermo</l>
+<l>spiace la vita, e se ben dritto estimo</l>
+<l>ch'indegnamente a me questa aura spiri</l>
+<l>e 'ndegnamente il sole a me risplenda;</l>
+<l>se 'l titolo real, la pompa e l'ostro,</l>
+<l>e 'l diadema gemmato e d'or lucente,</l>
+<l>e la sonora fama, e 'l nome illustre</l>
+<l>di cavalier m'offende, e tutti insieme</l>
+<l>pregi, onori, servigio io schivo e sdegno;</l>
+<l>e se me stesso in guisa odio ed aborro</l>
+<l>che ne l'essere amato offesa io sento?</l>
+<l>Lasso, io ben me n'andrei per l'erme arene</l>
+<l>solingo, errante; e ne l'Ercinia folta</l>
+<l>e ne la negra selva, o 'n rupe o 'n antro</l>
+<l>riposto e fosco d'iperborei monti,</l>
+<l>o di ladroni in orrida spelunca,</l>
+<l>m'asconderei dagli altri, il dì fuggendo,</l>
+<l>e da le stelle e dal seren notturno.</l>
+<l>Ma che mi può giovar, s'io non m'ascondo</l>
+<l>a me medesmo? Oimè, son io, son io,</l>
+<l>quel che fuggito or sono e quel che fuggo:</l>
+<l>di me stesso ho vergogna e scorno ed onta,</l>
+<l>odioso a me fatto e grave pondo.</l>
+<l>Che giova ch'io non oda e non paventi</l>
+<l>i detti e 'l mormorar del folle volgo,</l>
+<l>o l'accuse de' saggi, o i fieri morsi</l>
+<l>di troppo acuto o velenoso dente,</l>
+<l>se la mia propria conscienza immonda</l>
+<l>altamente nel cor rimbomba e mugge,</l>
+<l>s'ella a vespro mi sgrida ed a le squille,</l>
+<l>se mi sveglia le notti e rompe il sonno</l>
+<l>e mille miei confusi e tristi sogni?</l>
+<l>Misero me, non Cerbero, non Scilla</l>
+<l>così latrò come io ne l'alma or sento</l>
+<l>il suo fiero latrar; non mostro od angue</l>
+<l>ne l'Africa arenosa, od Idra in Lerna,</l>
+<l>o di Furia in Cocito empia cerasta,</l>
+<l>morse giamai com'ella rode e morde.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Se la fede, o signor, mostrata in prima</l>
+<l>ne le fortune liete e ne l'averse</l>
+<l>porger può tanto ardire ad umil servo,</l>
+<l>ch'osi pregare il suo signor tal volta,</l>
+<l>perch'i pensieri occulti a lui riveli,</l>
+<l>io prego voi che del turbato aspetto</l>
+<l>scopriate la cagion, gli affanni interni,</l>
+<l>e qual commesso abbiate errore o colpa,</l>
+<l>che tanto sdegno in voi raccolga e 'nfiammi</l>
+<l>contra voi stesso, e sì v'aggravi e turbi;</l>
+<l>che di lungo silenzio è grave il peso</l>
+<l>in sofferendo, e co'l soffrir s'inaspra,</l>
+<l>ma si consola, in ragionando, e molce;</l>
+<l>ed uom, ch'al fin deporre in fidi orecchi</l>
+<l>il noioso pensier parlando ardisca,</l>
+<l>l'alma sua alleggia d'aspra e dura salma.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>O mio fedele, a cui l'alto governo</l>
+<l>di mia tenera età conceder volle</l>
+<l>il re mio padre e signor vostro antico,</l>
+<l>ben mi ricordo i detti e i modi e l'opre,</l>
+<l>onde voi mi scorgeste; e quai sovente</l>
+<l>mi proponeste ancor dinanzi agli occhi</l>
+<l>d'onestà, di virtù mirabil forme,</l>
+<l>e quai di regi o di guerrieri essempi,</l>
+<l>che ne l'arti di pace o di battaglia</l>
+<l>furon lodati; e qual acuto sprone</l>
+<l>di generosa invidia il cor mi punse,</l>
+<l>e qual di vero onor dolce lusinga</l>
+<l>invaghir mi solea. Ma troppo accresce</l>
+<l>questa dolce memoria il duolo acerbo,</l>
+<l>che quanto io dal sentier, che voi segnaste,</l>
+<l>mi veggio traviato esser più lunge,</l>
+<l>tanto più contra me di sdegno avampo.</l>
+<l>E s'ad alcun, fra quanti il sol rimira</l>
+<l>o la terra sostiene o 'l mar circonda,</l>
+<l>per vergogna celar dovessi il fallo,</l>
+<l>esser voi quel devreste: alti consigli</l>
+<l>da voi già presi, e poi gittai e sparsi.</l>
+<l>Ma 'l vostro amor, la fede un tempo esperta,</l>
+<l>l'etate e 'l senno e quella amica speme,</l>
+<l>che del vostro consiglio ancor m'avanza,</l>
+<l>conforti al dir mi son; benché paventa</l>
+<l>e 'norridisce a ricordarsi il core,</l>
+<l>e per dolor rifugge, onde sdegnosa</l>
+<l>s'induce a ragionar la tarda lingua;</l>
+<l>però in disparte io v'ho chiamato e lunge.</l>
+<l>Devete rammentar ch'uscito a pena</l>
+<l>di fanciullezza, e di quel fren disciolto</l>
+<l>che già teneste voi soave e dolce,</l>
+<l>fui vago di mercar fama ed onore;</l>
+<l>onde lasciai la patria e 'l nobil padre,</l>
+<l>e gli eccelsi palagi, e vidi errando</l>
+<l>vari estrani costumi e genti strane;</l>
+<l>e sconosciuto e solo io fui sovente,</l>
+<l>ove il ferro s'adopra e sparge il sangue.</l>
+<l>In quelli errori miei, com'al Ciel piacque,</l>
+<l>mi strinsi d'amicizia in dolce nodo</l>
+<l>co 'l buon Germondo, ch'a Suezia impera,</l>
+<l>giovene anch'egli, e pur di gloria ardente,</l>
+<l>e pien d'alto desio d'eterna fama.</l>
+<l>Seco i Tartari erranti e seco i Moschi,</l>
+<l>cercando i paludosi e larghi campi,</l>
+<l>seco i Sarmati i' vidi, e i Rossi, e gli Unni,</l>
+<l>e de la gran Germania i lidi e i monti;</l>
+<l>seco a l'estremo gli ultimi Biarmi</l>
+<l>vidi tornando, e quel sì lungo giorno</l>
+<l>a cui succede poi sì lunga notte;</l>
+<l>ed altre parti de la terra algente,</l>
+<l>che ghiaccia a' sette gelidi Trioni,</l>
+<l>tutta lontana dal camin del sole.</l>
+<l>Seco de la milizia i gravi affanni</l>
+<l>soffersi, e seco ebbi commune un tempo</l>
+<l>non men gravi fatiche e gran perigli</l>
+<l>che ricche prede e gloriose palme,</l>
+<l>da nemici acquistate e da tiranni;</l>
+<l>onde sovente in perigliosa guerra</l>
+<l>egli scudo mi fe' del proprio petto</l>
+<l>e mi sottrasse a dispietata morte,</l>
+<l>ed io talor, là dove amor n'aguaglia,</l>
+<l>la vita mia per la sua vita esposi.</l>
+<l>Ma, dapoi che moriro i padri nostri,</l>
+<l>sendo al governo de' lasciati regni</l>
+<l>richiamati ambodue, gli offici e l'opre</l>
+<l>non cessâr d'amicizia, anzi disgiunti</l>
+<l>di loco, e più che mai di core uniti,</l>
+<l>cogliemmo ancor di lei frutti soavi.</l>
+<l>Misero, or vengo a quel che mi tormenta.</l>
+<l>Questo mio caro e valoroso amico,</l>
+<l>pria che facesse elezione e sorte</l>
+<l>noi de l'arme compagni e degli errori,</l>
+<l>trasse in Norvegia a la famosa giostra,</l>
+<l>ond'ebbe ei poscia fra mille altri il pregio.</l>
+<l>Ivi in sì forte punto agli occhi suoi</l>
+<l>si dimostrò la fanciulletta Alvida,</l>
+<l>ch'egli sentissi in su la prima vista</l>
+<l>l'alma avampar d'inestinguibil fiamma.</l>
+<l>E bench'ei far non possa, o non ardisca,</l>
+<l>che fuor traluca del suo ardor favilla,</l>
+<l>che dagli occhi di lei sia vista e piaccia,</l>
+<l>pur nudrì nel suo cuore ardente foco.</l>
+<l>Né lunghezza di tempo o di camino,</l>
+<l>né rischio, né disagio, né fatica,</l>
+<l>né veder novi regni e nove genti,</l>
+<l>selve, monti, campagne, e fiumi, e mari,</l>
+<l>né di nova beltà novo diletto,</l>
+<l>né s'altro è che d'amor la face estingua,</l>
+<l>intepediro i suoi amorosi incendi.</l>
+<l>Ma, de' pensieri esca facendo al foco,</l>
+<l>tutto quel tempo agli altri il tenne occulto</l>
+<l>ch'errò per varie parti; e del suo core</l>
+<l>secretari sol fummo Amore ed io.</l>
+<l>Ma poiché richiamato al nobil regno</l>
+<l>egli s'assise ne l'antico seggio,</l>
+<l>l'animo a le sue nozze anco rivolto,</l>
+<l>mille strade tentando, usò mille arti,</l>
+<l>mille mezzi adoprò, mille preghiere</l>
+<l>or come re porgendo, or come amante,</l>
+<l>liberal di promesse e largo d'oro,</l>
+<l>sol per indur d'Alvida il vecchio padre,</l>
+<l>che la sua figlia al suo pregar conceda;</l>
+<l>ma indurato il trovò di core e d'alma</l>
+<l>perché d'ingegno, di costumi e d'opre</l>
+<l>altero il re canuto, anzi superbo,</l>
+<l>di natura implacabile, e tenace</l>
+<l>d'ogni proposto, e di vendetta ingordo,</l>
+<l>la pace ricusò con gente aversa,</l>
+<l>da cui tal volta depredato ed arso</l>
+<l>vide il suo regno, e violati i tempî,</l>
+<l>dispogliati gli altari, e tratti i figli</l>
+<l>da le cune piangendo, e da' sepolcri</l>
+<l>le ceneri degli avi, e sparse al vento;</l>
+<l>da cui, non ch'altri, un suo figliuol medesmo,</l>
+<l>senza lagrime no, né senza lutto,</l>
+<l>ma pur senza vendetta, anciso giacque</l>
+<l>orribilmente; e l'uccisor Germondo</l>
+<l>egli stimò ne la sanguigna mischia,</l>
+<l>non l'essercito solo o solo il volgo.</l>
+<l>E veramente ei fu ch'in aspra guerra</l>
+<l>n'ebbe le spoglie, e pur non volle il vanto.</l>
+<l>Poiché sprezzare ed aborrir si vide</l>
+<l>de l'inclita Suezia il re possente,</l>
+<l>par che dentro arda tutto, e fuori avampi</l>
+<l>di giusto sdegno incontra il fiero veglio,</l>
+<l>che di lui fatto avea l'aspro rifiuto.</l>
+<l>Non però per divieto, o per repulsa,</l>
+<l>o per ira, o per odio, o per contrasto,</l>
+<l>del primo amore intepidì pur dramma.</l>
+<l>E ben è ver che negli umani ingegni,</l>
+<l>e più ne' più magnanimi e più alteri,</l>
+<l>per la difficoltà cresce il desio,</l>
+<l>in guisa d'acqua che rinchiusa ingorga,</l>
+<l>o pur di fiamma in cavernoso monte,</l>
+<l>ch'aperto non ritrova uscendo il varco</l>
+<l>e di ruine il ciel tonando ingombra.</l>
+<l>Dunque ei fermato è di voler, malgrado</l>
+<l>del crudo padre, la pudica figlia,</l>
+<l>e di piegar, comunque il ciel si volga</l>
+<l>e sia fermo il destin, varia la sorte,</l>
+<l>la donna; o di morir ne l'alta impresa.</l>
+<l>D'acquistarla per furto o per rapina</l>
+<l>dispose; e mille modi in sé volgendo</l>
+<l>ora d'accorgimento ed or di forza,</l>
+<l>al fin gli altri rifiuta, e questo elegge.</l>
+<l>Per un secreto suo fido messaggio</l>
+<l>e per lettere sue con forti prieghi</l>
+<l>mi strinse a dimandar la figlia al padre,</l>
+<l>e avutala poi con sì bella arte,</l>
+<l>la concedessi a lui, che n'era amante,</l>
+<l>né re saria di re genero indegno.</l>
+<l>Io, se ben conoscea che questo inganno</l>
+<l>irritati gli sdegni e forse l'arme</l>
+<l>incontra me de la Norvegia avrebbe,</l>
+<l>estimai ch'ove è scritto, ove s'intenda</l>
+<l>d'onorata amicizia il caro nome,</l>
+<l>quel che meno per sé parrebbe onesto</l>
+<l>acquisti d'onestà quasi sembianti;</l>
+<l>e se ragion mai violar si debbe,</l>
+<l>sol per l'amico violar si debbe;</l>
+<l>ne l'altre cose poi giustizia osserva.</l>
+<l>E posposi al piacer del caro amico</l>
+<l>l'altrui pace e la mia, tanto mi piacque</l>
+<l>divenir disleal per troppa fede.</l>
+<l>Questo fisso tra me, non per messaggi,</l>
+<l>né con quell'arti che sovente usarsi</l>
+<l>soglion tra gli alti regi in pace o 'n guerra,</l>
+<l>del suocero tentai la stabil mente,</l>
+<l>ma gli indugi troncai: rapido corsi</l>
+<l>del mio voler messaggio e di me stesso.</l>
+<l>Ei gradì la venuta e le proposte,</l>
+<l>e congiunse a la mia la real destra,</l>
+<l>ed a me diede e ricevé la fede,</l>
+<l>ch'io di non osservar prefisso avea.</l>
+<l>Ed io tolto congedo, e la mia donna</l>
+<l>posta su l'alte navi, anzi mia preda,</l>
+<l>spiegai le vele; e negli aperti campi</l>
+<l>per l'ondoso ocean drizzando il corso,</l>
+<l>lasciava di Norvegia i porti e i lidi.</l>
+<l>Noi lieti solcavamo il mar sonante,</l>
+<l>con cento acuti rostri il mar rompendo,</l>
+<l>e la creduta sposa al fianco affissa</l>
+<l>m'invitava ad amar pensosa amando.</l>
+<l>Ben in me stesso io mi raccolsi e strinsi,</l>
+<l>in guisa d'uomo a cui d'intorno accampa</l>
+<l>dispietato nemico. Il tempo largo,</l>
+<l>e l'ozio lungo e lento, e 'l loco angusto,</l>
+<l>e gli inviti d'amor, lusinghe e sguardi,</l>
+<l>rossor, pallore, e parlar tronco e breve</l>
+<l>solo inteso da noi, con mille assalti</l>
+<l>vinsero al fin la combattuta fede.</l>
+<l>Ahi ben è ver che risospinto Amore</l>
+<l>più fiero e per repulsa e per incontro</l>
+<l>ad assalir sen torna, e legge antica</l>
+<l>è che nessuno amato amar perdoni.</l>
+<l>Ma sedea la ragion al suo governo,</l>
+<l>ancor frenando ogni desio rubbello,</l>
+<l>quando il sereno cielo a noi refulse</l>
+<l>e folgorâr da quattro parti i lampi;</l>
+<l>e la crudel fortuna e 'l cielo averso,</l>
+<l>con Amor congiurati, e l'empie stelle</l>
+<l>mosser gran vento e procelloso a cerchio,</l>
+<l>perturbator del cielo e de la terra,</l>
+<l>e del mar violento empio tiranno,</l>
+<l>che quanto a caso incontra, intorno avolge,</l>
+<l>gira, contorce, svelle, inalza e porta,</l>
+<l>e poi sommerge; e ci turbâro il corso</l>
+<l>tutti gli altri fremendo, e Borea ad Austro</l>
+<l>s'oppose irato, e muggiâr quinci e quindi,</l>
+<l>e Zefiro con Euro urtossi in giostra;</l>
+<l>e diventò di nembi e di procelle</l>
+<l>il mar turbato un periglioso campo;</l>
+<l>cinta l'aria di nubi, intorno intorno</l>
+<l>una improvisa nacque orribil notte,</l>
+<l>che quasi parve un spaventoso inferno,</l>
+<l>sol da' baleni avendo il lume incerto;</l>
+<l>e s'inalzâr al ciel bianchi e spumanti</l>
+<l>mille gran monti di volubile onda,</l>
+<l>ed altrettante in mezzo al mar profondo</l>
+<l>voragini s'aprîr, valli e caverne,</l>
+<l>e tra l'acque apparîr foreste e selve</l>
+<l>orribilmente, e tenebrosi abissi;</l>
+<l>ed apparver notando i fieri mostri</l>
+<l>con varie forme, e 'l numeroso armento</l>
+<l>terrore accrebbe; e 'n tempestosa pioggia</l>
+<l>pur si disciolse al fin l'oscuro nembo;</l>
+<l>e per l'ampio ocean portò disperse</l>
+<l>le combattute navi il fiero turbo:</l>
+<l>e parte ne percosse a' duri scogli,</l>
+<l>parte a le travi smisurate, sovra</l>
+<l>il mar sorgenti in più terribil forma,</l>
+<l>talché schiere parean con arme ed aste,</l>
+<l>e 'n minacciose rupi o 'n ciechi sassi,</l>
+<l>che son de' vivi ancor fiero sepolcro;</l>
+<l>parte a le basi di montagne alpestri</l>
+<l>sempre canute, ove risona e mugge,</l>
+<l>mentre combatte l'un con l'altro flutto,</l>
+<l>e 'l frange e 'nbianca, e come il tuon rimbomba,</l>
+<l>e di spavento i naviganti ingombra;</l>
+<l>parte inghiotinne ancor l'empia Caribdi,</l>
+<l>che l'onde e i legni intieri absorbe e mesce;</l>
+<l>son rari i notatori in vasto gorgo.</l>
+<l>Ma co 'l flutto maggior nubilo spirto</l>
+<l>il nostro batte, e 'l risospinge a forza,</l>
+<l>sì ch'a gran pena il buon nocchiero accorto</l>
+<l>lui salvò, sé ritrasse e noi raccolse</l>
+<l>d'uno altissimo monte a' curvi fianchi,</l>
+<l>dove mastra natura in guisa d'elmo</l>
+<l>forma scolpito a meraviglia un porto,</l>
+<l>che tutti scaccia i venti e le tempeste,</l>
+<l>ma pur di sangue è crudelmente asperso,</l>
+<l>fiero principio e fin d'acerba guerra.</l>
+<l>Qui ricovrammo sbigotiti e mesti,</l>
+<l>ponendo il piè nel solitario lido.</l>
+<l>Mentre l'umide vesti altri rasciuga,</l>
+<l>ed altri accende le fumanti selve,</l>
+<l>con Alvida io restai de l'ampia tenda</l>
+<l>ne la più interna parte. E già sorgea</l>
+<l>la notte amica de' furtivi amori,</l>
+<l>ed ella a me si ristringea tremante</l>
+<l>ancor per la paura e per l'affanno.</l>
+<l>Questo quel punto fu che sol mi vinse.</l>
+<l>Allora amor, furore, impeto e forza</l>
+<l>di piacere amoroso, al cieco furto</l>
+<l>sforzâr le membra oltra l'usanza ingorde.</l>
+<l>Ahi lasso, allor per impensata colpa</l>
+<l>ruppi la fede, e violai d'onore</l>
+<l>e d'amicizia le severe leggi.</l>
+<l>Contaminato di novello oltraggio,</l>
+<l>traditor fatto di fedele amico,</l>
+<l>anzi nemico divenuto amando,</l>
+<l>da indi in qua sono agitato, ahi lasso,</l>
+<l>da mille miei pensieri, anzi da mille</l>
+<l>vermi di penitenza io son trafitto,</l>
+<l>non sol roder mi sento il core e l'alma;</l>
+<l>né mai da' miei furori o pace o tregua</l>
+<l>ritrovar posso. O Furie, o dire, o mie</l>
+<l>debite pene, e de' non giusti falli</l>
+<l>giuste vendicatrici! Ove ch'io volga</l>
+<l>gli occhi, o giri la mente e 'l mio pensiero,</l>
+<l>l'atto che ricoprì l'oscura notte</l>
+<l>mi s'appresenta, e parmi in chiara luce</l>
+<l>a tutti gli occhi de' mortali esposto.</l>
+<l>Ivi mi s'offre in spaventosa faccia</l>
+<l>il mio tradito amico, odo l'accuse</l>
+<l>e le giuste querele, odo i lamenti,</l>
+<l>l'amor suo, la costanza, ad uno ad uno</l>
+<l>tanti merti, tante opre, e tante prove</l>
+<l>che fatte egli ha d'inviolabil fede.</l>
+<l>Misero me, tra i duri artigli e i morsi</l>
+<l>d'impura conscienza e di dolore,</l>
+<l>gli amorosi martiri han loco e parte;</l>
+<l>e di lasciar la male amata donna,</l>
+<l>che lasciar converria, così m'incresce,</l>
+<l>che di lasciar la vita insieme io penso.</l>
+<l>Questo il più facil modo, e questa sembra</l>
+<l>la più spedita via d'uscir d'impaccio.</l>
+<l>E poi che 'l duro, inestricabil nodo</l>
+<l>ond'amore e fortuna or m'hanno involto</l>
+<l>scioglier più non si può, s'incida e spezzi.</l>
+<l>Ch'avrei questo conforto almen partendo</l>
+<l>da questa luce a me turbata e fosca,</l>
+<l>ch'io medesmo la pena e la vendetta</l>
+<l>farei del caro amico e di me stesso,</l>
+<l>l'onta sua rimovendo e la mia colpa,</l>
+<l>se rimover si può commesso fallo;</l>
+<l>giusto in me, benché tardi, e per lui forte.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Signor, tanto ogni mal più grave è sempre,</l>
+<l>quanto è in più nobil parte; e dal soggetto</l>
+<l>diversa qualità prende l'offesa.</l>
+<l>E quinci avien che sembra un leggier colpo</l>
+<l>ne le spalle sovente e ne le braccia</l>
+<l>e ne l'altre robuste e forti membra</l>
+<l>quel ch'a gli occhi saria gravoso, e certa</l>
+<l>e dogliosa cagion d'acerba morte.</l>
+<l>E però questo error, che posto in libra</l>
+<l>per sé non fora di soverchio pondo,</l>
+<l>e saria forse lieve in uom del volgo</l>
+<l>ed in quelle amicizie al mondo usate,</l>
+<l>ov'è l'util misura angusta e scarsa,</l>
+<l>od in quell'altre che 'l diletto accoppia,</l>
+<l>molto (ch'io già negar no 'l voglio o posso)</l>
+<l>in animo gentil grave diventa,</l>
+<l>tra grandezza di scettri e di corone,</l>
+<l>e tra 'l rigor di quelle sante leggi,</l>
+<l>che la vera amicizia altrui prescrisse.</l>
+<l>Error di cavalier, di re, d'amico</l>
+<l>contra sì nobil cavaliero e re,</l>
+<l>contra amico sì caro e sì fedele,</l>
+<l>fu questo vostro; e dee chiamarsi errore,</l>
+<l>o se volete pur, peccato e colpa,</l>
+<l>o d'ardente desio, di cieco e folle</l>
+<l>amor si dica impetuoso affetto:</l>
+<l>nome di sceleraggine ei non merta.</l>
+<l>Lunge per Dio, signor, sia lunge e sevro</l>
+<l>da questa opra e da voi titolo indegno.</l>
+<l>Non soggiacete a non dovuto incarco:</l>
+<l>che s'uom non dee di falsa laude ornarsi,</l>
+<l>non dee gravarsi ancor di falso biasmo.</l>
+<l>Non sete, no, la passion v'accieca,</l>
+<l>o traditore, o scelerato, od empio.</l>
+<l>Scelerato è colui, se dritto estimo,</l>
+<l>che la nostra ragion, divina parte,</l>
+<l>e del ciel prezioso e caro dono,</l>
+<l>da la natura sua travolge e torce,</l>
+<l>come si svolge il rio dal proprio corso,</l>
+<l>e la piega nel male, onde trabocca,</l>
+<l>ed incontra al voler di chi la diede</l>
+<l>guida a l'opre la fa malvagie ed empie,</l>
+<l>precipitando; e 'l precipizio è fraude.</l>
+<l>Ma chi, senza fermar falso consiglio</l>
+<l>di perversa ragion, trascorra a forza,</l>
+<l>ove il rapisce il suo desio tiranno,</l>
+<l>scelerato non è, per grave colpa</l>
+<l>dove amore il trasporti o pur disdegno.</l>
+<l>D'ira e d'amor, possenti e fieri affetti,</l>
+<l>la nostra umanitade ivi più abonda,</l>
+<l>ov'è più di vigore; e rado aviene</l>
+<l>che generoso cor, guerriero ed alto</l>
+<l>non sia spinto da loro e risospinto,</l>
+<l>come da venti procelloso mare.</l>
+<l>Però non ricusiate al dolor vostro</l>
+<l>quel freno aver che la ragion vi porge.</l>
+<l>Lascio tanti famosi e chiari essempi</l>
+<l>e d'Alcide e d'Achille e d'Alessandro,</l>
+<l>e lascio il vaneggiar de' più moderni</l>
+<l>regi vinti d'amore, e prima invitti.</l>
+<l>Vedeste bella e giovinetta donna,</l>
+<l>e fu nel poter vostro, e non vi mosse</l>
+<l>la bellezza ad amar: costretto e tardi</l>
+<l>voi rispondeste agli amorosi invitti,</l>
+<l>dando ad amore e tre repulse e quattro:</l>
+<l>raffrenaste il desio, gli sguardi e i detti.</l>
+<l>Al fin amor, fortuna, il loco e 'l tempo</l>
+<l>vinser tanta costanza e tanta fede.</l>
+<l>Erraste, e fu d'Amore e vostro il fallo;</l>
+<l>ma senza scusa almeno o senza essempio</l>
+<l>egli non fu: però di morte è indegno.</l>
+<l>Né morte, ch'uom di propria mano affretti,</l>
+<l>scema commesso errore, anzi l'accresce.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Se morte esser non può pena od emenda</l>
+<l>giusta del fallo, almen del mio dolore</l>
+<l part="I">fia buon rimedio o fine.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l part="F">Anzi principio</l>
+<l>e cagion fora di maggior tormento.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker><lg>
+<l>Come viver debb'io, sposo d'Alvida,</l>
+<l>o pur di lei privarmi? Io ritenerla</l>
+<l>non posso, che non scopra insieme aperta</l>
+<l>la debil fede; e s'io da me la parto,</l>
+<l>come l'anima mia restar può meco?</l>
+<l>Il duol farà quel che non fece il ferro.</l>
+<l>Non è questo, non è fuggir la morte,</l>
+<l>ma scegliersi di lei più acerbo modo.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker><lg>
+<l>Non è duol così acerbo e così grave,</l>
+<l>che mitigato al fin non sia dal tempo,</l>
+<l>confortator degli animi dolenti,</l>
+<l>medicina ed oblio di tutti i mali.</l>
+<l>Ma d'aspettare a voi non si conviene</l>
+<l>commun rimedio e 'l suo volgar conforto;</l>
+<l>ma dal valore interno e da voi stesso</l>
+<l>prenderlo, e prevenir l'altrui consiglio.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker><lg>
+<l>Tarda incontra al dolor sarà l'aita,</l>
+<l>se dee portarla il tempo; e debil fia</l>
+<l>se da la debil mia virtù l'attendo.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Virtù non è mai vinta, e 'l tempo vola.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Vola, quando egli è portator de' mali;</l>
+<l>ma nel recare i beni è lento e zoppo.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Ei con giusta misura il volo spiega;</l>
+<l>ma nel moto inegual de' nostri affetti</l>
+<l>è quella dismisura e quel soverchio:</l>
+<l>e noi pur la rechiam là suso al cielo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ma s'egli avvien che la ragione e 'l tempo,</l>
+<l>ragion, misero me, vinta ed inerme,</l>
+<l>dal dolor mi ricopra e mi difenda,</l>
+<l>fia questa moglie di Germondo e mia?</l>
+<l>Se la fede, ch'io diedi, e potea darle,</l>
+<l>fu stabilita pur (come al ciel piacque)</l>
+<l>con l'atto sol del matrimonio occulto,</l>
+<l>fatta è pur mia. S'io l'abbandono e cedo,</l>
+<l>la cederò qual concubina a drudo.</l>
+<l>A guisa dunque di lasciva amante</l>
+<l>si giacerà nel letto altrui la sposa</l>
+<l>del re de' Goti; ed ei soffrir potrallo?</l>
+<l>Vergognosa union, crudel divorzo,</l>
+<l>se da me la disgiungo, e 'n questa guisa</l>
+<l>la congiungo al compagno, ond'ei schernito</l>
+<l>non la si goda mai pura ed intatta.</l>
+<l>Tale aver non la può, che 'l furor mio</l>
+<l>contaminolla e 'l primo fior ne colse.</l>
+<l>Abbia l'avanzo almen de' miei furori,</l>
+<l>ma com'è legge antica; e passi almeno</l>
+<l>a le seconde nozze onesta sposa,</l>
+<l>se non vergine donna. Ah non sia vero</l>
+<l>che, per mia colpa, d'impudichi amori</l>
+<l>illegitima prole al fido amico</l>
+<l>nasca, e che porti la corona in fronte</l>
+<l>de la Suezia il successor bastardo.</l>
+<l>Questo, questo è quel nodo, oimè dolente,</l>
+<l>che scioglier non si può, se non si tronca</l>
+<l>il nodo ov'è la vita</l>
+<l>a queste membra unita.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Signor, forte ragione e vera è questa</l>
+<l>perché non sia, come rassembra, onesto</l>
+<l>che, voi restando in vita, Alvida possa</l>
+<l>unirsi in compagnia co 'l re Germondo;</l>
+<l>ma non si reca già, né può recarsi,</l>
+<l>che debbiate a voi stesso empio e spietato</l>
+<l>armar la destra ingiuriosa, e l'alma</l>
+<l>a forza discacciar dal nobil corpo,</l>
+<l>ove quasi custode Iddio la pose,</l>
+<l>onde partir non dee pria che, fornita</l>
+<l>la sua custodia, ei la richiami al Cielo.</l>
+<l>Nulla dritta ragion ch'a ciò vi spinga</l>
+<l>ritrovar si potria, ch'in van si cerca</l>
+<l>giusta in terra cagion d'ingiusto fatto.</l>
+<l>Ma se voi senza vita, o senza donna</l>
+<l>dee rimaner Germondo, or si rimanga</l>
+<l>senza l'amata donna il re Germondo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Egli privo d'amante ed io d'amico,</l>
+<l>e d'onor privo ancor nel tempo stesso,</l>
+<l>come viver potremo? Ahi dura sorte!</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Dura: ma sofferir conviene in terra</l>
+<l>ciò che necessità comanda e sforza,</l>
+<l>necessità regina, anzi tiranna,</l>
+<l>se non quanto è il voler libero e sciolto:</l>
+<l>ch'a lei soggetti son gli egri mortali,</l>
+<l>e tutte in ciel le stelle, erranti e fisse,</l>
+<l>tutti i lor cerchi; e ne' lor corsi obliqui</l>
+<l>servano eterni, e 'n variar costanti,</l>
+<l>gli ordini suoi fatali e l'alte leggi.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Faccia quanto è prefisso il mio destino.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Pur veggio di salvare alto consiglio</l>
+<l>vostra fama e l'onor, che quasi affonda.</l>
+<l>E s'egli è ver ch'abbia sì fermo amore</l>
+<l>l'alte radici sue nel molle petto</l>
+<l>d'Alvida, anzi nel core e ne le fibre,</l>
+<l>consentir non vorrà ch'ignoto amante,</l>
+<l>nemico amante ed odioso amante</l>
+<l>tinto del sangue suo, le giaccia appresso.</l>
+<l>Ella d'amarlo e di voler negando,</l>
+<l>e pertinace a' preghi o pur costante,</l>
+<l>vi porgerà cagion quattro e sei volte</l>
+<l>di ritenerla, e diece forse, e cento.</l>
+<l>E direte: – Non lece e non conviensi</l>
+<l>a cavaliero il far oltraggio a donna.</l>
+<l>Pregherò teco amico; e teco insieme</l>
+<l>ogni arte usar mi giova ed ogni ingegno;</l>
+<l>ma sforzar non la voglio. – Il buon Germondo,</l>
+<l>s'egli è di cor magnanimo e gentile,</l>
+<l>farà ch'amore a la ragion dia loco.</l>
+<l>Così la sposa al fin, così l'amico,</l>
+<l part="I">così l'onor si salverà.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">L'onore</l>
+<l>seguita il bene oprar, come ombra il corpo.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Questo, ch'onor sovente il mondo appella,</l>
+<l>è ne l'opinioni e ne le lingue</l>
+<l>esterno ben, ch'in noi deriva altronde:</l>
+<l>né mai la colpa occulta infamia apporta,</l>
+<l>né gloria accresce alcun bel fatto ascoso.</l>
+<l>Ma perché viva con l'onor l'onesto</l>
+<l>e con l'amico l'amicizia e 'l regno,</l>
+<l>diasi d'Alvida in vece a lui Rosmonda,</l>
+<l>sorella vostra; e se l'età canuta</l>
+<l>può giudicar di feminil bellezza,</l>
+<l part="I">via più d'Alvida è bella.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Amor non vuole</l>
+<l>cambio, né trova ricompensa al mondo</l>
+<l part="I">donna cara perduta.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l part="F">Amor d'un core</l>
+<l>per novello piacer così fia tratto</l>
+<l>come d'asse si trae chiodo per chiodo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Lasso, la mia soror disprezza e sdegna</l>
+<l>ed amori ed amanti e feste e pompe,</l>
+<l>come già fece ne l'antiche selve</l>
+<l>rigida ninfa, o ne' rinchiusi chiostri</l>
+<l part="I">vergine sacra.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l part="F">È casta insieme e saggia,</l>
+<l>e i soavi conforti e i saggi prieghi</l>
+<l>e 'l buon consiglio e le preghiere oneste</l>
+<l>soppor faranle al novo giogo il collo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>O mio fedel, nel disperato caso</l>
+<l>quel consiglio che sol m'avanza in terra</l>
+<l>da voi m'è dato. Io seguirollo; e quando</l>
+<l>vano ei pur sia, per l'ultimo refugio</l>
+<l>ricovrerò ne l'ampio sen di morte,</l>
+<l>porto de le miserie e fin del pianto,</l>
+<l>ch'a nessuno è rinchiuso, e tutti accoglie</l>
+<l>i faticosi abitator del mondo,</l>
+<l>e tutti acqueta in sempiterno sonno.</l>
+</lg></sp>
+<trailer>IL FINE DEL PRIMO ATTO</trailer></div2>
+<div2 type="parte">
+<sp><speaker>CORO</speaker>
+<lg>
+<l>O Sapienza, o del gran padre eterno</l>
+<l>eterna figlia, o dea, di lui nascesti</l>
+<l>anzi gli dei celesti,</l>
+<l>a cui nulla altra fu nel Ciel seconda;</l>
+<l>e da' stellanti chiostri al lago Averno,</l>
+<l>e dovunque Acheronte oscuro inonda</l>
+<l>o Stige atra circonda,</l>
+<l>nulla s'aguaglia al tuo valor superno.</l>
+<l>O dea possente e gloriosa in guerra,</l>
+<l>ch'ami ed orni la pace e lei difendi,</l>
+<l>se qui mai voli e scendi,</l>
+<l>fai beata l'algente e fredda terra.</l>
+<l>Mentre l'impero ancor vaneggia ed erra</l>
+<l>fuor d'alta sede, e 'l tuo favor sospendi,</l>
+<l>non sdegnar questa parte,</l>
+<l>perché nato vi sia l'orrido Marte.</l>
+<l>	E quando i suoi destrier percote e sferza</l>
+<l>sovra l'adamantino e duro smalto,</l>
+<l>e porta fero assalto,</l>
+<l>e fa vermigli i monti e 'l giel sanguigno,</l>
+<l>tu rendi lui, come sovente ei scherza,</l>
+<l>più mansueto in fronte e più benigno,</l>
+<l>d'irato e di maligno,</l>
+<l>tu che sei prima e non seconda o terza.</l>
+<l>Tu la discordia pazza e 'l furor empio,</l>
+<l>tu lo spavento e tu l'orror discaccia,</l>
+<l>e si disgombri e taccia</l>
+<l>ogni atto iniquo, ogni spietato essempio.</l>
+<l>Tu, peregrina diva, altari e tempio</l>
+<l>avrai, pregata ove ascoltar ti piaccia.</l>
+<l>Deh, non voltarne il tergo,</l>
+<l>che peregrina avesti in Roma albergo;</l>
+<l>	ma inanzi al seggio ove d'eterne stelle</l>
+<l>ne fa segno tuo padre, e tuoni e lampi</l>
+<l>sparge in cerulei campi</l>
+<l>e fulminando irato arde e fiammeggia,</l>
+<l>placalo, e queta i nembi e le procelle,</l>
+<l>e seco aspira a questa invitta reggia</l>
+<l>perch'onorar si deggia,</l>
+<l>che non siamo a tua gloria alme rubbelle.</l>
+<l>Noi siam la valorosa antica gente,</l>
+<l>onde orribil vestigio anco riserba</l>
+<l>Roma, e quella superba</l>
+<l>che n'usurpa la sede alta e lucente.</l>
+<l>Quinci gran pregi ha l'Orto e l'Occidente,</l>
+<l>gli ha gloriosi più di fronda o d'erba,</l>
+<l>perché del nostro sangue</l>
+<l>ivi la fama e la virtù non langue.</l>
+<l>	E 'n questo clima ov'Aquilon rimbomba</l>
+<l>e con tre soli impallidisce il giorno,</l>
+<l>di fare oltraggio e scorno</l>
+<l>al ciel tentâr poggiando altri giganti.</l>
+<l>E monte aggiunto a monte, e tomba a tomba,</l>
+<l>alte ruine e scogli in mar sonanti</l>
+<l>a folgori tonanti,</l>
+<l>son opre degne ancor di chiara tromba.</l>
+<l>D'altri divi altri figli i regni nostri</l>
+<l>reggeano un tempo, altre famose palme</l>
+<l>ebber le nobili alme</l>
+<l>e que' che già domâr serpenti e mostri.</l>
+<l>E là 've pria fendean con mille rostri</l>
+<l>le navi che portâr cavalli e salme,</l>
+<l>poscia sostenne il pondo</l>
+<l>degli esserciti armati il mar profondo.</l>
+<l>	Ed ora il re ch'il freno allenta e stringe,</l>
+<l>de l'auree spoglie d'occidente onusti</l>
+<l>cento avi suoi vetusti</l>
+<l>può numerare, e di gran padre è figlio.</l>
+<l>A lui, che per onor la spada cinge,</l>
+<l>deh rivolgi dal ciel pietosa il ciglio,</l>
+<l>s'è vicino il periglio,</l>
+<l>tu che sei pronta a' valorosi e giusti.</l>
+<l>E se l'alme, deposto il grave incarco,</l>
+<l>a le sedi tornâr del Ciel serene</l>
+<l>da le membra terrene,</l>
+<l>tardi ei sen rieda a te leggiero e scarco.</l>
+<l>Ed armato il paventi al suon de l'arco</l>
+<l>l'ultima Tile e le remote arene,</l>
+<l>e la più rozza turba,</l>
+<l>e s'altri a noi contrasta, o noi perturba.</l>
+<l>	O diva, i rami sacri</l>
+<l>tranquilla oliva a te non erge e spande,</l>
+<l>né si tesson di lei varie ghirlande;</l>
+<l>ma pur altra in sua vece il re consacri</l>
+<l>alma e felice pianta;</l>
+<l>tu sgombra i nostri errori, o saggia e santa.</l>
+</lg></sp>
+</div2></div1>
+<div1 type="atto">
+<head>ATTO SECONDO</head>
+<div2 type="scena">
+<head><add resp="ed">[SCENA PRIMA]</add></head>
+<stage>MESSAGGERO, TORRISMONDO, CORO</stage>
+<sp><speaker><add resp="ed">[MESSAGGERO]</add></speaker>
+<lg>
+<l>Me di seguire il mio signore aggrada,</l>
+<l>o calchi il ghiaccio de' canuti monti,</l>
+<l>o le paludi pur ch'indura il verno.</l>
+<l>Ed or quanto m'è caro e quanto dolce</l>
+<l>l'esser venuto seco a l'alta pompa</l>
+<l>ne la famosa Arana! Ei segue, e 'ntanto</l>
+<l>al re de' Goti messagiero io giungo,</l>
+<l>perch'io gli dia del suo arrivar novella.</l>
+<l>Ma chieder voglio a que' ch'insieme veggio</l>
+<l>ove sia del buon re l'aurato albergo.</l>
+<l>O cavalieri, io di Suezia or vegno,</l>
+<l>per ritrovare il re; dov'è la reggia?</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>È quella che t'addito, ed ei medesmo</l>
+<l>quel che là vedi tacito e pensoso.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>O magnanimo re de' Goti illustri,</l>
+<l>de l'inclita Suezia il re possente</l>
+<l>a voi manda salute e questa carta.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>La lettra è di credenza. Espor vi piaccia</l>
+<l part="I">quel ch'ei v'impose.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l part="F">Il mio signor Germondo</l>
+<l>dentro a' confin del vostro regno è giunto,</l>
+<l>e già vicino; e pria che 'l sole arrivi</l>
+<l>del lucido oriente a mezzo il corso,</l>
+<l>sarà ne la famosa e nobil reggia;</l>
+<l>ed ha voluto ch'io messaggio inanzi</l>
+<l>porti insieme l'aviso e porga i prieghi,</l>
+<l>perché raccolto ei sia come conviensi</l>
+<l>a l'amicizia, a cui sarian soverchi</l>
+<l>tutti i segni d'onore e tutti i modi,</l>
+<l>che son fra gli altri usati. Ei si rammenta</l>
+<l>del dolce tempo e de l'età più verde,</l>
+<l>de l'error, de' viaggi, e de le giostre,</l>
+<l>de l'imprese, de' pregi, e de le spoglie,</l>
+<l>de la gloria commune, e de la guerra;</l>
+<l>ma più del vostro amor. Né d'uopo è forse</l>
+<l>ch'io lo ricordi a chi 'l riserba in mente.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Oh memoria, oh tempo, oh come allegro</l>
+<l>de l'amico fedel novella ascolto!</l>
+<l>Dunque sarà qui tosto. Oimè, sospiro</l>
+<l>perch'a tanto piacer non basta il petto,</l>
+<l>talch'una parte se 'n riversa e spande.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>La soverchia allegrezza e 'l duol soverchio,</l>
+<l>venti contrari a la serena vita,</l>
+<l>soffian quasi egualmente e fan sospiri;</l>
+<l>e molti sono ancor gl'interni affetti</l>
+<l>da cui distilla, anzi deriva il pianto,</l>
+<l>quasi da fonti di ben larga vena:</l>
+<l>la pietate, il piacer, il duol, lo sdegno;</l>
+<l>tal ch'il segno di fuor non è mai certo</l>
+<l>di quella passion che dentro abonda.</l>
+<l>Ed or nel signor nostro effetti adopra</l>
+<l>l'infinita allegrezza, o così parmi,</l>
+<l>qual suole in altri adoperar la doglia.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Signor, se con sì ardente e puro affetto</l>
+<l>amate il nostro re, giurar ben posso</l>
+<l>ch'è l'amor pari; e l'un risponde a l'altro,</l>
+<l>e non ha, quanto il sole illustra e scalda,</l>
+<l part="I">di lui più fido amico.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Esperto il credo.</l>
+<l>Anzi certo sono io che 'l ver si narra.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Ei de le vostre nozze è lieto in modo</l>
+<l>che 'l piacer vostro in lui trasfuso inonda,</l>
+<l>a guisa di gran pioggia o di torrente.</l>
+<l>Gioisce al suon di vostre lodi eccelse</l>
+<l>o per l'arti di pace o di battaglia;</l>
+<l>gioisce se i costumi alcuno essalta,</l>
+<l>e racconta i viaggi, i lunghi errori,</l>
+<l>la beltà de la sposa, il merto e i pregi;</l>
+<l>e del padre e di voi sovente ei chiede.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>N'udrà liete novelle. E lieto ascolto</l>
+<l>le vostre anch'io; ma, del camin già lasso,</l>
+<l>deh non vi stanchi il ragionar più lungo.</l>
+<l>Sarà da me raccolto il re Germondo</l>
+<l>com'egli vuole. È suo de' Goti il regno</l>
+<l>non men ch'egli sia mio: però comandi.</l>
+<l>Voi prendete riposo. E tu 'l conduci</l>
+<l>a le sue stanze, e sia tua cura intanto</l>
+<l>ch'egli onorato sia; che ben conviensi,</l>
+<l>e 'l merta il suo valor, l'ufficio e 'l tempo,</l>
+<l>e l'alta degnità di chi ce 'l manda.</l>
+</lg></sp>
+</div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SECONDA]</add></head>
+<stage>TORRISMONDO <emph>solo</emph></stage>
+
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Pur tacque al fine, e pur al fin dinanzi</l>
+<l>mi si tolse costui, ch'a me parlando</l>
+<l>quasi il cor trapassò d'acuti strali.</l>
+<l>O maculata conscienza, or come</l>
+<l>mi trafigge ogni detto! Oimè dolente</l>
+<l>che fia se di Germondo udrò le voci?</l>
+<l>Non a Sisifo il rischio alto sovrasta</l>
+<l>così terribil di pendente pietra,</l>
+<l>come a me il suo venire. O Torrismondo,</l>
+<l>come potrai tu udirlo? O con qual fronte</l>
+<l>sostener sua presenza? O con quali occhi</l>
+<l>drizzar in lui gli sguardi? O cielo, o sole,</l>
+<l>che non t'involvi in una eterna notte?</l>
+<l>O perché non rivolgi adietro il corso</l>
+<l>perch'io visto non sia, perché non veggia?</l>
+<l>Misero, allora avrei bramato a tempo</l>
+<l>che gli occhi mi coprisse un fosco velo</l>
+<l>d'orror caliginoso e di tenebra,</l>
+<l>ch'io sì fissi li tenni al caro volto</l>
+<l>de la mia donna: allor traean diletto,</l>
+<l>onde non conveniasi. Or è ben dritto</l>
+<l>che stian piangendo a la vergogna aperti,</l>
+<l>e di là traggan noia, onde conviensi,</l>
+<l>perché la man costante il ferro adopre.</l>
+<l>Ma vien l'ora fatale e 'l forte punto,</l>
+<l>ch'io cerco di fuggire; e 'l cerco indarno,</l>
+<l>se non costringe la canuta madre</l>
+<l>la figlia sua, col suo materno impero,</l>
+<l>sì come io l'ho pregata, ella promesso.</l>
+<l>E so ch'al mio pregar fia pronta Alvida.</l>
+<l>Ma chi m'affida, oimè, che di Germondo</l>
+<l>l'alma piegar si possa a novo amore?</l>
+<l>E se fia vano il più fedel consiglio,</l>
+<l>non ha rimedio il male altro che morte.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA TERZA]</add></head>
+<stage>ROSMONDA</stage>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>O felice colei, sia donna o serva,</l>
+<l>che la vita mortal trapassa in guisa</l>
+<l>che tra via non si macchi, e non s'asperga</l>
+<l>nel suo negro e terren limo palustre.</l>
+<l>Ma chi non ne n'asperge? Ahi non sono altro</l>
+<l>serve ricchezze al mondo e servi onori</l>
+<l>ch'atro fango tenace intorno a l'alma,</l>
+<l>per cui sovente in suo camin s'arresta.</l>
+<l>Io, che d'alta fortuna aura seconda</l>
+<l>portando alzò ne la sublime altezza,</l>
+<l>e mi ripose nel più degno albergo,</l>
+<l>de' regi invitti e gloriosi in grembo,</l>
+<l>e son detta di re figlia e sorella,</l>
+<l>dal piacer, da l'onore e da le pompe,</l>
+<l>e da questa real superba vita</l>
+<l>fuggirei, come augel libero e sciolto,</l>
+<l>a l'umil povertà di verde chiostro.</l>
+<l>Or tra vari conviti e vari balli</l>
+<l>pur mal mio grado io spendo i giorni integri</l>
+<l>e de le notti a' dì gran parte aggiungo;</l>
+<l>onde talor vergogna ho di me stessa,</l>
+<l>s'a vergine sacrata a Dio nascendo,</l>
+<l>è vergogna l'amar cosa terrena;</l>
+<l>ma chi d'amor si guarda e si difende?</l>
+<l>o non si scalda a la vicina fiamma?</l>
+<l>Misera io non volendo amo, ed avampo</l>
+<l>appresso il mio signor, ch'io fuggo, e cerco</l>
+<l>dapoi che l'ho fuggito; indi mi pento,</l>
+<l>del mio voler non che del suo dubbiosa.</l>
+<l>E non so quel ch'io cerchi o quel ch'io brami,</l>
+<l>e se più si disdica e men convenga</l>
+<l>come sorella amarlo o come serva.</l>
+<l>Ma s'ei pur di sorella ardente amore</l>
+<l>prendesse a sdegno, esser mi giovi ancilla,</l>
+<l>ed ancilla chiamarmi e serva umile.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUARTA]</add></head>
+<stage>REGINA MADRE, ROSMONDA.</stage>
+<sp><speaker><add resp="ed">[REGINA]</add></speaker>
+<lg>
+<l>A te sol forse ancora è, figlia, occulto</l>
+<l>ch'oggi arrivar qui deve il re Germondo.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="I">Anzi è ben noto.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">Non ben si pare.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Che deggio far? Non so ch'a me s'aspetti</l>
+<l part="I">alcuna cura.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">O figlia,</l>
+<l>con la regina sposa insieme accorlo</l>
+<l>ancor tu dêi. S'è quel signor cortese,</l>
+<l>quel re, quel cavalier che suona il grido,</l>
+<l>ei tosto sen verrà per farvi onore.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="I">Io così credo.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">Or come dunque</l>
+<l>sì gran re ne l'altero e festo giorno</l>
+<l>così negletta di raccôr tu pensi?</l>
+<l>Perché non orni tue leggiadre membra</l>
+<l>di preziosa vesta? E non accresci</l>
+<l>con abito gentil quella bellezza,</l>
+<l>ch'il cielo a te donò cortese e largo,</l>
+<l>prendendo, come è pur la nostra usanza,</l>
+<l>l'aurea corona, o figlia, o l'aureo cinto?</l>
+<l>Bellezza inculta e chiusa in umil gonna</l>
+<l>è quasi rozza e mal polita gemma,</l>
+<l>ch'in piombo vile ancor poco riluce.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Questa nostra bellezza, onde cotanto</l>
+<l>se'n va femineo stuol lieto e superbo,</l>
+<l>di natura stimo io dannoso dono,</l>
+<l>che nuoce a chi 'l possede ed a chi 'l mira.</l>
+<l>Lo qual vergine saggia anzi devrebbe</l>
+<l>celar, ch'in lieta danza od in teatro</l>
+<l part="I">spesso mostrarla altrui.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">Questa bellezza</l>
+<l>proprio ben, propria dote e proprio dono</l>
+<l>è de le donne, o figlia, e propria laude,</l>
+<l>come è proprio de l'uom valore e forza.</l>
+<l>Questa in vece d'ardire e d'eloquenza</l>
+<l>ne diè natura, o pur d'accorto ingegno;</l>
+<l>e fu più liberale in un sol dono,</l>
+<l>ch'in mille altri ch'altrui dispensa e parte;</l>
+<l>ed agguagliamo, anzi vinciam, con questa,</l>
+<l>ricchi, saggi, facondi, industri e forti.</l>
+<l>E vittorie e trionfi e spoglie e palme</l>
+<l>le nostre sono, e son più care e belle</l>
+<l>e maggiori di quelle onde si vanta</l>
+<l>l'uom, che di sangue è tinto e d'ira colmo,</l>
+<l>perch'i vinti da loro aspri nemici</l>
+<l>odiano la vittoria e i vincitori;</l>
+<l>ma da noi vinti sono i nostri amanti,</l>
+<l>ch'aman le vincitrici e la vittoria,</l>
+<l>che gli fece soggetti. Or s'uomo è folle,</l>
+<l>s'egli ricusa di fortezza il pregio,</l>
+<l>non dêi già tu stimare accorta donna</l>
+<l>quella che sprezzi il titol d'esser bella.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Io più tosto credea che doti nostre</l>
+<l>fossero la modestia e la vergogna,</l>
+<l>la pudicizia, la pietà, la fede,</l>
+<l>e mi credea ch'un bel silenzio in donna</l>
+<l>di felice eloquenza il merto aguagli.</l>
+<l>Ma pur s'è così cara altrui bellezza,</l>
+<l>come voi dite, tanto è cara, o parmi,</l>
+<l>quanto ella è di virtù fregio e corona.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Se fregio è, dunque esser non dee negletto.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>S'è fregio altrui, è di se stessa adorna.</l>
+<l>E bench'io bella a mio parer non sia</l>
+<l>sì come pare a voi, ch'in me volgete</l>
+<l>dolce sguardo di madre, ornar mi deggio,</l>
+<l>che sarò, se non bella, almeno ornata.</l>
+<l>Non per vaghezza nova o per diletto,</l>
+<l>ma per piacere a voi, del voler vostro</l>
+<l>è ragion ch'a me stessa io faccia legge.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Ver dici, e dritto estimi, e meglio pensi.</l>
+<l>E vo' sperar ch'al peregrino invitto</l>
+<l>parrai quale a me sembri; onde ei sovente</l>
+<l>dirà fra sé medesmo sospirando:</l>
+<l>– Già sì belle non son, né sì leggiadre,</l>
+<l>le figliuole de' principi sueci.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Tolga Iddio che per me sospiri o pianga,</l>
+<l part="I">od ami alcuno, o mostri amare.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">Adunque</l>
+<l>a te non saria caro, o cara figlia,</l>
+<l>che re sì degno e sì possente in guerra</l>
+<l>sospirasse per te di casto amore,</l>
+<l>in guisa tal ch'incoronar le chiome</l>
+<l>a te bramasse e la serena fronte</l>
+<l>d'altra maggior corona e d'aureo manto,</l>
+<l>e farti (ascolti il cielo i nostri preghi)</l>
+<l>di magnanime genti alta reina.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Madre, io no 'l vo' negar, ne l'alta mente</l>
+<l>questo pensiero è già riposto e fisso,</l>
+<l>di viver vita solitaria e sciolta,</l>
+<l>in casta libertade; e 'l caro pregio</l>
+<l>di mia virginità serbarmi integro</l>
+<l>più stimo, ch'acquistar corone e scettri.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Ei ben si par che, giovenetta donna,</l>
+<l>quanto sia grave e faticoso il pondo</l>
+<l>de la vita mortal, a pena intendi.</l>
+<l>La nostra umanitade è quasi un giogo</l>
+<l>gravoso, che natura e 'l cielo impone,</l>
+<l>a cui la donna o l'uom disgiunto e sevro</l>
+<l>per sostegno non basta, e l'un s'appoggia</l>
+<l>ne l'altro, ove distringa insieme amore</l>
+<l>marito e moglie di voler concorde,</l>
+<l>compartendo fra lor gli offici e l'opre.</l>
+<l>E l'un vita da l'altro allor riceve</l>
+<l>quasi egualmente, e fan leggiero il peso,</l>
+<l>cara la salma e dilettoso il giogo.</l>
+<l>Deh, chi mai vide scompagnato bue,</l>
+<l>solo traendo il già comune incarco,</l>
+<l>stanco segnar gemendo i lunghi solchi?</l>
+<l>Cosa più strana a rimirar mi sembra</l>
+<l>che donna scompagnata or segni indarno</l>
+<l>de la felice vita i dolci campi:</l>
+<l>e ben l'insegna, a chi riguarda il vero,</l>
+<l>l'esperienza, al bene oprar maestra.</l>
+<l>Perché l'alto signore a cui mi scelse</l>
+<l>compagna il cielo, e 'l suo co 'l mio volere,</l>
+<l>in guisa m'aiutò, mentre egli visse,</l>
+<l>a sopportar ciò che natura o 'l caso</l>
+<l>suole apportar di grave e di molesto,</l>
+<l>ch'alleggiata ne fui; né sentì poscia</l>
+<l>cosa, onde soffra l'alma il duol soverchio.</l>
+<l>Ma poiché morte ci disgiunse, ahi morte</l>
+<l>per me sempre onorata e sempre acerba,</l>
+<l>sola rimasa e sotto iniqua salma,</l>
+<l>di cadendo mancar tra via pavento,</l>
+<l>ed a gran pena, dagli affanni oppressa,</l>
+<l>per l'estreme giornate di mia vita</l>
+<l>trar posso questo vecchio e debil fianco.</l>
+<l>Lassa, né torno a ricalcar giamai</l>
+<l>lo sconsolato mio vedovo letto,</l>
+<l>ch'io no 'l bagni di lagrime notturne</l>
+<l>rimembrando fra me ch'un tempo impressi</l>
+<l>io solea rimirar cari vestigi</l>
+<l>del mio signore, e ch'ei porgea ricetto</l>
+<l>a' piaceri, a' riposi, al dolce sonno,</l>
+<l>a' soavi susurri, a' baci, a' detti,</l>
+<l>secretario fedel di fido amore,</l>
+<l>di secreti pensier, d'alti consigli.</l>
+<l>Ma dove mi trasporti a viva forza,</l>
+<l>memoria innamorata?</l>
+<l>Sostien ch'io torni ove il dover mi spinge.</l>
+<l>S'a me diede allegrezza e fece onore</l>
+<l>il bene amato mio signor diletto,</l>
+<l>io spesso ancor gli agevolai gli affanni;</l>
+<l>e quanto in me adoprava il buon consiglio,</l>
+<l>tanto in lui (s'io non erro) il mio conforto,</l>
+<l>e 'l vestir seco d'un color conforme</l>
+<l>tutti i pensieri, ed il portare insieme</l>
+<l>tutto quel ch'è più grave e più noioso</l>
+<l>nel corso de la vita. E mentre intento</l>
+<l>era a stringere il freno, a rallentarlo</l>
+<l>a' Goti vincitori, a mover l'arme,</l>
+<l>ad infiammare, ad ammorzar gl'incendi</l>
+<l>di civil Marte o pur d'estrania guerra,</l>
+<l>sovra me tutto riposar gli piacque</l>
+<l>il domestico peso. E seco un tempo</l>
+<l>questa vita mortal, se non felice,</l>
+<l>che felice non è stato mortale,</l>
+<l>pur lieta almeno e fortunata i' vissi;</l>
+<l>e sventurata sol perché quel giorno</l>
+<l>a me non fu l'estremo, e non rinchiuse</l>
+<l>queste mie stanche membra in quella tomba,</l>
+<l>ov'egli i nostri amori e 'l mio diletto</l>
+<l>se 'n portò seco, e se gli tien sepulti.</l>
+<l>Oh pur simil compagno e vita eguale</l>
+<l>a te sia destinato; e tal sarebbe,</l>
+<l>per quel che di lui stimi, il re Germondo.</l>
+<l>Tu, s'avvien ch'egli a te s'inchini e pieghi,</l>
+<l>schifa non ti mostrar di tale amante.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Se ben di noi che siamo in verde etate</l>
+<l>quella è più saggia che saper men crede,</l>
+<l>e de la madre sua canuta il senno</l>
+<l>molto prepone al giovenil consiglio</l>
+<l>nel misurar le cose, io pur fra tanto</l>
+<l>oserò dir quel ch'ascoltai parlando.</l>
+<l>La compagnia de l'uom più lieve alquanto</l>
+<l>può far la noia, e può temprar l'affanno,</l>
+<l>onde la vita femminile è grave.</l>
+<l>Ma s'in alcune cose ella n'alleggia,</l>
+<l>più ne preme ne l'altre, e quasi atterra,</l>
+<l>e maggior peso a la consorte aggiunge</l>
+<l>che non le toglie in sofferendo. Ed anco</l>
+<l>molto stimar si può difficil soma</l>
+<l>il voler del marito, anzi l'impero,</l>
+<l>qualunque egli pur sia, severo o dolce.</l>
+<l>Or non è ella assai gravosa cura</l>
+<l>quella de' figli? A l'infelice madre</l>
+<l>non paion gravi a la più algente bruma</l>
+<l>lor notturni viaggi, e i passi sparsi</l>
+<l>ed ogni error ch'i peregrini intrica,</l>
+<l>la povertà, l'essiglio, e gli altri rischi,</l>
+<l>e le pallide morti, e i lunghi morbi,</l>
+<l>fianchi, stomachi, febri? E s'odo il vero,</l>
+<l>la gravidanza ancora è grave pondo,</l>
+<l>e lungo pondo, e doloroso il parto,</l>
+<l>sì ch'il figliuol, ch'è de le nozze il frutto,</l>
+<l>è frutto al padre, ed a la madre è peso;</l>
+<l>peso anzi il nascer grave, e poi nascendo,</l>
+<l>né poi nato è leggiero. E pur di questo,</l>
+<l>di cui la vita virginale è scarca,</l>
+<l>il matrimonio più n'aggrava e 'ngombra.</l>
+<l>Che dirò, s'egli avien che sian discordi</l>
+<l>il marito e la moglie, o se la donna</l>
+<l>s'incontra in uom superbo e crudo e stolto?</l>
+<l>Infelice servaggio ed aspro giogo</l>
+<l>puote allor dirsi il suo. Ma sian concordi</l>
+<l>d'animi, di volere e di consiglio,</l>
+<l>e viva l'un ne l'altro; or che ne segue?</l>
+<l>Forse questa non è penosa vita?</l>
+<l>Allor quanto ama più, quanto conosce</l>
+<l>d'essere amata più la nobil donna,</l>
+<l>tanto a mille pensieri è più soggetta,</l>
+<l>ed agli affetti suoi gli affetti ascosi</l>
+<l>del suo fedel, come sian propi, aggiunge.</l>
+<l>Teme co 'l suo timor, duolsi co 'l duolo,</l>
+<l>con le lagrime sue lagrima e piange,</l>
+<l>e co 'l suo sospirar sospira e geme.</l>
+<l>E benché sia sicura in chiusa stanza,</l>
+<l>o 'n alto monte, o 'n forte eccelsa torre,</l>
+<l>è pur sovente esposta a' casi aversi</l>
+<l>ed a' perigli di battaglia incerta.</l>
+<l>Di ciò non cerco io già stranieri essempi,</l>
+<l>perché de' nostri oltra misura abondo.</l>
+<l>E da voi gli prendo io, ch'a me tal volta</l>
+<l>contra la ragion vostra in vece d'arme</l>
+<l>altre varie ragioni a me porgete.</l>
+<l>Ma se 'l marito a la gran madre antica</l>
+<l>dopo l'estremo passo al fin ritorna,</l>
+<l>ella sente il dolor d'acerba morte;</l>
+<l>e seco muore in un medesimo tempo</l>
+<l>a' piaceri, a le gioie, e vive al lutto.</l>
+<l>Onde conchiuderei con certe prove</l>
+<l>che sia noioso il matrimonio e grave,</l>
+<l>ch'in lui sterile vita o pur feconda,</l>
+<l>l'esser amata od odiosa, apporta</l>
+<l>solleciti pensier, fastidi e pene</l>
+<l>quasi egualmente. Ed io no 'l fuggo e sprezzo</l>
+<l>solo per ischivar gli affanni umani;</l>
+<l>ma più nobil desio, più casto zelo</l>
+<l>me de la vita virginale invoglia.</l>
+<l>Ed a me gioveria lanciare i dardi</l>
+<l>tal volta in caccia e saettar con l'arco,</l>
+<l>e premer co' miei gridi i passi e 'l corso</l>
+<l>di spumante cinghiale, e, tronco il capo,</l>
+<l>portarlo in vece di famosa palma:</l>
+<l>poiché non posso il crin d'elmo lucente</l>
+<l>coprirmi in guerra, e sostener lo scudo</l>
+<l>che luna somigliò di puro argento,</l>
+<l>con una man frenando alto destriero,</l>
+<l>e con l'altra vibrar la spada e l'asta,</l>
+<l>come un tempo solean feroci donne</l>
+<l>che da questa famosa e fredda terra</l>
+<l>già mosser guerra a' più lontani regni.</l>
+<l>Ma se tanto sperare a me non lece,</l>
+<l>almen somiglierò, sciolta vivendo,</l>
+<l>libera cerva in solitaria chiostra,</l>
+<l>non bue disgiunto in male arato campo.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Non è stato mortal così tranquillo,</l>
+<l>quale ei si sia, del quale accorta lingua</l>
+<l>molte miserie annoverar non possa;</l>
+<l>però lasciando i paragoni e i tempi</l>
+<l>de le vite diverse, io certo affermo</l>
+<l>che tu sol non sei nata a te medesma.</l>
+<l>A me che ti produssi, a tuo fratello</l>
+<l>ch'uscì del ventre istesso, a questa invitta</l>
+<l>gloriosa cittate ancor nascesti.</l>
+<l>Or perché dunque (ah cessi il vano affetto)</l>
+<l>in guisa vuoi di solitaria fera</l>
+<l>viver selvaggia e rigida e solinga?</l>
+<l>Chiede l'utilità del nostro regno</l>
+<l>e del caro fratel che pieghi il collo</l>
+<l>in così lieto giorno al dolce giogo.</l>
+<l>A la patria, al germano, a vecchia madre</l>
+<l>fia 'l tuo voler preposto? Ahi non ti stringe</l>
+<l>la materna pietà? Non vedi ch'io</l>
+<l>del mio corso mortal tocco la meta?</l>
+<l>Perché dunque s'invidia il mio diletto?</l>
+<l>Non vuoi ch'io veggia, anzi ch'a morte aggiunga,</l>
+<l>rinovellar questa mia stanca vita</l>
+<l>ne l'imagine mia, ne' mia nepoti,</l>
+<l>nati da l'uno e l'altro amato figlio?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Già non resti per me che bella prole</l>
+<l>te felice non faccia. Egli è ben dritto</l>
+<l>ch'obbedisca la figlia a saggia madre.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Degna è di te la tua risposta, e cara.</l>
+<l>Or va, t'adorna, o figlia, e t'incorona.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUINTA]</add></head>
+<stage>REGINA MADRE <emph>sola</emph></stage>
+
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Infelice non è dolente donna,</l>
+<l>se ne' suoi figli il suo dolor consola</l>
+<l>e 'n lor s'appoggia, e quasi in lor s'avanza,</l>
+<l>e de la vita allunga il dubbio corso;</l>
+<l>e depone i fastidi e i gravi affanni,</l>
+<l>a guisa di soverchio inutil fascio,</l>
+<l>ch'impedisce il viaggio, anzi il perturba.</l>
+<l>Non si vede per lor, né si conosce,</l>
+<l>né sprezzata, né sola, né deserta,</l>
+<l>né odiosa od aborrita vecchia.</l>
+<l>E 'l numero de' figli è caro, e basta,</l>
+<l>se l'un maschio è di lor, femina è l'altra.</l>
+<l>In tal numero a pieno oggi s'adempie</l>
+<l>la mia felicitade, o si rintegra</l>
+<l>se desiosa fu già. Felice madre</l>
+<l>di prole fortunata, e lieto giorno!</l>
+<l>Certo del sommo Dio son dono i figli;</l>
+<l>ed egli che donolli ancor gli serva,</l>
+<l>gli guarda, gli difende, anzi gli accresce,</l>
+<l>come ora io veggio i miei cresciuti al colmo</l>
+<l>di valor, di fortuna e di bellezza.</l>
+<l>Ma ecco il re se 'n viene: un lume io veggio</l>
+<l>degli occhi miei che d'ostro e d'or risplende,</l>
+<l>mentre l'altro s'adorna in altra pompa.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SESTA]</add></head>
+<stage>REGINA MADRE, TORRISMONDO</stage>
+
+<sp><speaker><add resp="ed">[REGINA]</add></speaker>
+<lg>
+<l>Dopo molte ragioni e molti preghi</l>
+<l>si rende al voler nostro al fin Rosmonda,</l>
+<l>ma non in guisa che piacer dimostri.</l>
+<l>Anzi io la vidi tra dolente e lieta</l>
+<l>sospirando partirsi. Oh, pur congiunte</l>
+<l>sian nozze a nozze, ond'il piacer s'accresca,</l>
+<l>e si doppin le feste e i giuochi e i balli.</l>
+<l>Fia contenta (o ch'io spero) a vecchia madre</l>
+<l>d'aver creduto, ed al fratello insieme.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Non è saggio colui ch'insieme accoppia</l>
+<l>vergine sì ritrosa e re possente</l>
+<l>contra 'l piacer di lei; ma, s'io non erro,</l>
+<l>fora simil pazzia condurre in caccia</l>
+<l>sforzati i cani. Or sia che può: se l'abbia,</l>
+<l part="I">s'ei la vorrà.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">Ma con felice sorte.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Sia felice, se può. Ma nulla manchi</l>
+<l>a la nostra grandezza, al nostro merto:</l>
+<l>abito signoril, ricchezza e pompa.</l>
+<l>S'ornin cento con lei vergini illustri</l>
+<l>d'aurea corona ancora e d'aureo cinto,</l>
+<l>ed altrettante ancora illustri donne,</l>
+<l>pur con aurea corona ed aureo cinto,</l>
+<l>seguano Alvida. Ella di gemme e d'auro,</l>
+<l>come sparso di stelle il ciel sereno,</l>
+<l>fra le seguaci sue lieta risplenda.</l>
+<l>Abbia scettro, monil, corona e manto,</l>
+<l>e s'altro novo fregio, altro lavoro</l>
+<l>d'abito antico in lei vaghezza accresce.</l>
+<l>Ma questa è vostra cura e vostra laude,</l>
+<l>e, in aspettando il re, l'ore notturne</l>
+<l>tolte per sì bell'opre avete al sonno.</l>
+<l>Ora a voi cavalieri, a voi mi volgo,</l>
+<l>gioveni arditi. Altri sublime ed alto</l>
+<l>drizzi un castel di fredda neve e salda,</l>
+<l>e 'l coroni di mura intorno intorno;</l>
+<l>faccian le sue difese, e faccian quattro</l>
+<l>ne' quattro lati suoi torri superbe;</l>
+<l>e da candida mole insegna negra,</l>
+<l>dispiegandosi a l'aure, al ciel s'inalzi;</l>
+<l>e vi sia chi 'l difenda, e chi l'assalga.</l>
+<l>Altri nel corso, altri mostrar nel salto</l>
+<l>il valor si prepari, altri lanciando</l>
+<l>le palle di gravoso e duro marmo,</l>
+<l>altri di ferro, il qual sospinge e caccia</l>
+<l>la polve e 'l foco, il magistero e l'arte.</l>
+<l>Altri si veggia in saettar maestro</l>
+<l>ne la meta sublime; e 'n alto segno,</l>
+<l>d'una girevole asta in cima affisso</l>
+<l>quasi volante augel, balestri e scocchi</l>
+<l>rintuzzate quadrella, in sin ch'a terra</l>
+<l>caggia disciolto. Altri in veloce schermo</l>
+<l>percota o schivi, e 'n su l'adversa fronte</l>
+<l>faccia piaga il colpir, vergogna il cenno</l>
+<l>de le palpebre a chi riceve il colpo.</l>
+<l>Altri di grave piombo armi la destra</l>
+<l>e d'aspro cuoio e dur l'intorni e cinga,</l>
+<l>perché gema il nemico al duro pondo.</l>
+<l>Altri sovra le funi i passi estenda,</l>
+<l>e sospeso nel ciel si volga e libri.</l>
+<l>Altri di rota in guisa in aria spinto</l>
+<l>si giri a torno; altri di cerchio in cerchio</l>
+<l>passi guizzando, e sembri in acqua il pesce;</l>
+<l>altri fra spade acute ignudo scherzi.</l>
+<l>Altri in forma di rota o di grande arco</l>
+<l>conduca e riconduca un lieto ballo,</l>
+<l>d'antichi eroi cantando i fatti eccelsi</l>
+<l>a la voce del re, ch'indrizza e regge</l>
+<l>co 'l suon la danza; e i timpani sonanti</l>
+<l>e con lieti sonori altri metalli</l>
+<l>sotto il destro ginocchio avinte squille</l>
+<l>confondan l'alte voci e 'l chiaro canto.</l>
+<l>Ed altri salti armato al suon di tromba</l>
+<l>o di piva canora, or presto or tardi,</l>
+<l>facendo risonar nel vario salto</l>
+<l>le spade insieme e sfavillar percosse.</l>
+<l>Altri, dove in gran freddo il foco accenso</l>
+<l>degli abeti riluce e stride e scoppia,</l>
+<l>con lungo giro intorno a lui si volga:</l>
+<l>sì che l'estremo caggia in viva fiamma,</l>
+<l>rotta quella catena, e poi risorto</l>
+<l>da' compagni s'inalzi in alto seggio.</l>
+<l>Altri là dove il giel s'indura e stringe,</l>
+<l>condurrà i suoi destrier quasi volanti.</l>
+<l>Ed altri a prova su 'l nevoso ghiaccio</l>
+<l>spinga or domite fere, e già selvagge,</l>
+<l>c'hanno sì lunghe e sì ramose corna</l>
+<l>e vincer ponno al corso i venti e l'aura.</l>
+<l>Ed altri armato di lorica e d'elmo</l>
+<l>percoteransi urtando il petto e 'l dorso,</l>
+<l>di trapassar cercando il duro usbergo</l>
+<l>e penetrare il ferro e romper l'aste.</l>
+<l>Ed io (ch'è già vicino il re Germondo</l>
+<l>a la sede real) li movo incontra</l>
+<l>con mille e mille cavalieri adorni,</l>
+<l>vestiti al mio color purpureo e bianco,</l>
+<l>che già fra tutti gli altri a prova ho scelti.</l>
+<l>L'altre diverse mie lucenti squadre</l>
+<l>a cavallo ed a piè fratanto accolga</l>
+<l>il mio buon duce intorno a l'alta reggia,</l>
+<l>e i destrier di metallo, onde rimbomba</l>
+<l>la fiamma ne l'uscir d'ardente bocca</l>
+<l>con negro fumo, e i miei veloci carri;</l>
+<l>e lungo spazio di campagna ingombri,</l>
+<l>sotto vittoriosa e grande insegna.</l>
+</lg></sp>
+<trailer> IL FINE DEL SECONDO ATTO</trailer></div2>
+<div2 type="parte">
+
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Non sono estinte ancor l'eccelse leggi,</l>
+<l>generate là su ne l'alto cielo,</l>
+<l>de l'opre saggie e caste</l>
+<l>e del parlar che l'onestà conservi:</l>
+<l>perch'ella qui ritrova alberghi e seggi</l>
+<l>tra l'altissime nevi e 'l duro gelo,</l>
+<l>e tra gli scudi e l'aste</l>
+<l>vive secura, e tra ministri e servi.</l>
+<l>Pensier vani e protervi</l>
+<l>sempre nido non fanno in nobil core;</l>
+<l>né, perché la ragion il fren si toglia</l>
+<l>ch'in altri regge amore,</l>
+<l>del suo gentile ardir l'alma dispoglia,</l>
+<l>ma degli antichi essempi ancor l'invoglia.</l>
+<l>	E potrebbe costei gravar la fronte</l>
+<l>di lucido elmo, e seguitar nel corso</l>
+<l>cervo non solo, o damma,</l>
+<l>ma de l'estranie genti ostile schiera:</l>
+<l>come Ippolita in riva al Termodonte,</l>
+<l>d'un gran destrier premendo armato il dorso</l>
+<l>con la sinistra mamma,</l>
+<l>alta regina, e di sua gloria altera.</l>
+<l>Ma se questa è guerrera,</l>
+<l>chi farà di sue spoglie unqua trofeo?</l>
+<l>O chi potrà condurla avinta o presa?</l>
+<l>Quale Ercole o Teseo</l>
+<l>avrà l'eterno onor di bella impresa,</l>
+<l>s'in lei non è d'amor favilla accesa?</l>
+<l>	O de l'aurea speranza antica figlia,</l>
+<l>fama immortal, che gli anni avanzi e i lustri,</l>
+<l>e dal sepolcro oscuro</l>
+<l>l'uom talvolta fuor traggi e 'l togli a morte,</l>
+<l>narra a costei, che tanto a lor somiglia,</l>
+<l>l'antiche donne e le moderne illustri,</l>
+<l>che sotto il pigro Arturo</l>
+<l>ebbero insieme il cor pudico e forte.</l>
+<l>Se per le vie distorte</l>
+<l>da questa reggia invitta il sol disgiunge</l>
+<l>correndo intorno i suoi destrieri aversi,</l>
+<l>non è turbato o lunge</l>
+<l>tanto giamai, ch'i raggi in noi conversi</l>
+<l>non miri di valor pregi diversi.</l>
+<l>	Vincan di casta madre</l>
+<l>la sua vergine figlia i casti preghi,</l>
+<l>e l'arco rea fortuna altrove or tenda.</l>
+<l>E più si stringa e leghi</l>
+<l>l'una coppia con l'altra, e più s'accenda,</l>
+<l>e più nel dubbio alta virtù risplenda.</l>
+</lg></sp>
+</div2></div1>
+<div1 type="atto">
+<head>ATTO TERZO</head>
+<div2 type="scena">
+<head><add resp="ed">[SCENA PRIMA]</add></head>
+<stage>CONSIGLIERO</stage>
+
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>A molti egri mortali (or mi sovviene</l>
+<l>di quel che spesso ho già pensato e letto)</l>
+<l>fedel non fu de l'amicizia il porto,</l>
+<l>che sovente il turbò, qual nembo oscuro,</l>
+<l>il desio d'usurpar cittati e regni,</l>
+<l>o gran brama d'onore, o d'alto orgoglio</l>
+<l>rapido vento, o pur disdegno ed ira,</l>
+<l>che mormorando mova altra tempesta.</l>
+<l>Ma questo, ove il mio re nel mar solcando</l>
+<l>de la vita mortal legò la nave</l>
+<l>tutta d'arme e d'onore adorna e carca,</l>
+<l>e l'ancore il fermâr co 'l duro morso,</l>
+<l>s'àncora fu la fede e quinci e quindi;</l>
+<l>questo, dico, sì lieto e sì tranquillo</l>
+<l>seno de l'amicizia, ardente spirto</l>
+<l>d'amor sossopra volse, e non turbolla</l>
+<l>né turbar la poteva altra procella</l>
+<l>prima né dopo. E 'l risospinse in alto</l>
+<l>pur il medesmo amor tra duri scogli,</l>
+<l>talch'è vicino ad affondar tra l'onde.</l>
+<l>Io canuto nocchier siedo al governo,</l>
+<l>presto di navigare a ciascun vento,</l>
+<l>sì come piace al re. Parlare io debbo</l>
+<l>con duci di Suezia e con Germondo,</l>
+<l>perch'ei rivolga il cor dal primo oggetto;</l>
+<l>e parlerò. Ma sinché il re s'attende,</l>
+<l>lascerò gli altri riposar. Fra tanto</l>
+<l>molte cose fra me volgo e rivolgo.</l>
+<l>Dura condizione e dura legge</l>
+<l>di tutti noi che siam ministri e servi!</l>
+<l>A noi quanto è di grave qua giù e d'aspro</l>
+<l>tutto far si conviene, e diam sovente</l>
+<l>noi severe sentenze e pene acerbe.</l>
+<l>Il diletto e 'l piacer serbano i regi</l>
+<l>a se medesmi, e 'l far le grazie e i doni.</l>
+<l>Né già tentar m'incresce il dubbio guado,</l>
+<l>che men torbido sembra e men sonante</l>
+<l>a chi men vi rimira e men v'attende:</l>
+<l>che leve ogni fatica ed ogni rischio</l>
+<l>mi farà del mio re l'amore e 'l merto.</l>
+<l>Ma spesso temo di tentarlo indarno,</l>
+<l>s'egli medesmo o prima o poi no 'l varca.</l>
+<l>Favorisca fortuna il mio consiglio;</l>
+<l>ceda il re di Suezia al re de' Goti</l>
+<l>questo amor, questo giorno e queste nozze:</l>
+<l>che degli antichi Goti è 'l primo onore;</l>
+<l>e pur cede a l'onore il grave e 'l forte</l>
+<l>e 'l fortissimo ancora. E bench'agguagli</l>
+<l>l'uno de l'altro re la gloria e l'opre,</l>
+<l>questo è maggior per dignitate eccelsa</l>
+<l>di tanti regi e cavalieri invitti,</l>
+<l>che già l'imperio soggiogâr del mondo.</l>
+<l>Cedagli dunque l'altro. Ed è ben dritto.</l>
+<l>Com'a l'alma stagion, ch'i frutti apporta,</l>
+<l>partendo cede il pigro e 'l freddo verno;</l>
+<l>o come de la notte il nero cerchio</l>
+<l>concede al sole, ove un bel giorno accenda</l>
+<l>sovra i lucenti e candidi cavalli;</l>
+<l>o come la fatica al dolce sonno;</l>
+<l>o come spesso cede, in mar che frange,</l>
+<l>quel che perturba a chi racqueta il flutto;</l>
+<l>dal sole impari e da le stelle erranti,</l>
+<l>da le sublimi cose e da l'eterne,</l>
+<l>a ceder l'uomo a l'uom terreno e frale.</l>
+<l>Forse altre volte, e già preveggio il tempo,</l>
+<l>al mio signor non cederà Germondo;</l>
+<l>ma ceduto gli fia. Così mantiensi</l>
+<l>ogni amicizia de' mortali in terra.</l>
+</lg></sp>
+</div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SECONDA]</add></head>
+<stage>ROSMONDA <emph>sola</emph></stage>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>O possente Fortuna, a me pur anco,</l>
+<l>che fui dal tuo favor portata in alto,</l>
+<l>con sembiante fallace or tu lusinghi,</l>
+<l>e di altezza in altezza, ov'io paventi</l>
+<l>la caduta maggior, portarmi accenni,</l>
+<l>quasi di monte in monte. E veggio omai,</l>
+<l>o di veder pens'io, sembianze e torme</l>
+<l>d'inganni, di timori e di perigli.</l>
+<l>Oh quanti precipizî! Appressa il tempo</l>
+<l>da rifiutar le tue fallaci pompe</l>
+<l>e i tuoi doni bugiardi. A che più tardo?</l>
+<l>A che non lascio le mentite spoglie</l>
+<l>e la falsa persona e 'l vero nome,</l>
+<l>se 'l mio valor non m'assicura ed arma?</l>
+<l>Bastava che di re sorella e figlia</l>
+<l>fossi creduta. Usurparò le nozze</l>
+<l>ancor d'alta regina, audace sposa</l>
+<l>e finta moglie e non verace amante?</l>
+<l>Potrò l'alma piegar d'un re feroce,</l>
+<l>ch'altrove forse è volta, e vòti i voti</l>
+<l>de la mia vera madre al fin saranno,</l>
+<l>a la cui tomba lagrimai sovente,</l>
+<l>cercando di pietà lodi non false?</l>
+<l>Ahi, non sia vero. Io rendo al fine, io rendo</l>
+<l>quel ch'al fin mi prestò la sorte e 'l fato.</l>
+<l>L'ho goduto gran tempo. Altera vissi</l>
+<l>vergine e fortunata, ed or vivrommi</l>
+<l>di mia sorte contenta in verde chiostro.</l>
+<l>Altri, se più convienle, altri si prenda</l>
+<l>questo tuo don, Fortuna, e tu 'l dispensa</l>
+<l>altrui, come ti piace, o com'è giusto.</l>
+</lg></sp>
+</div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA TERZA]</add></head>
+<stage>TORRISMONDO, GERMONDO</stage>
+<sp><speaker><add resp="ed">[TORRISMONDO]</add></speaker>
+<lg>
+<l>Le nemicizie de' mortali in terra</l>
+<l>esser devrian mortali ed aver fine;</l>
+<l>ma l'amicizie, eterne. Or siano estinte,</l>
+<l>co' valorosi che, morendo in guerra,</l>
+<l>tinsero già la terra e tinser l'onda</l>
+<l>tre volte e quattro di sanguigno smalto,</l>
+<l>l'ire e gli sdegni tutti. E qui cominci,</l>
+<l>o pur si stabilisca e si rintegri,</l>
+<l>la pace e l'union di questi regni.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Già voi foste di me la miglior parte,</l>
+<l>or nulla parte è mia, ma tutto è vostro,</l>
+<l>o tutto fia, se pur non prende a scherno</l>
+<l>vera amicizia quanto amore agogna,</l>
+<l>ch'è d'altrui vincitor, da lei sol vinto.</l>
+<l>Voi mi date ad Alvida. E 'nsieme Alvida</l>
+<l>a me date voi solo. È vostro dono</l>
+<l>il mio sì lieto amore e la mia vita.</l>
+<l>Ch'io per voi sono or vivo, e sono amante,</l>
+<l>e sarò sposo. E s'ella ancor diviene</l>
+<l>per voi mia donna, e sposa a' vostri preghi,</l>
+<l>raccolto amore ov'accogliea disdegno,</l>
+<l>qual fia dono maggior? Corone e scettri</l>
+<l>assai men pregio, o pur trionfi e palme.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Anzi io pur vostro sono. E me donando,</l>
+<l>e lei, che mia si crede, in parte adempio</l>
+<l>il mio dever; ma non fornisco il dono,</l>
+<l>che me d'obligo tragga e voi d'impaccio.</l>
+<l>Sì darvi potessi io di nobil donna</l>
+<l>il disdegnoso cor, ch'a me riserba,</l>
+<l>come farò ch'il mio veggiate aperto.</l>
+<l>Perché vane non sian tante promesse,</l>
+<l>per me la bella Alvida ami Germondo,</l>
+<l>ami Germondo me. S'aspetta indarno</l>
+<l>da me vendetta pur d'oltraggio e d'onta.</l>
+<l>Vendicatela voi, ch'ardire e forza</l>
+<l part="I">ben avete per farlo.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">I vostri oltraggi</l>
+<l>son pronto a vendicar. Dal freddo carro</l>
+<l>mover prima vedrem Vulturno ed Austro,</l>
+<l>e spirar Borea da l'ardenti arene,</l>
+<l>e 'l sol farà l'occaso in oriente,</l>
+<l>e sorgerà da la famosa Calpe</l>
+<l>e da l'altra sublime alta colonna,</l>
+<l>ed illustrar d'Atlante il primo raggio</l>
+<l>vedrassi il crine e la superba fronte,</l>
+<l>e l'ocean nel salso ed ampio grembo</l>
+<l>darà l'albergo oltre il costume a l'Orse,</l>
+<l>e torneranno i fiumi a' larghi fonti,</l>
+<l>e i gran mostri del mare in cima a' faggi</l>
+<l>si vedran gir volando o sopra agli olmi,</l>
+<l>e co' pesci albergar ne l'acqua i cervi,</l>
+<l>prima che tanta amicizia io tuffi in Lete</l>
+<l>per novo amore. A' merti, al nome, a l'opra,</l>
+<l>debita è quasi la memoria eterna,</l>
+<l>ed io questa rimembro e l'altre insieme;</l>
+<l>però che grazia ognor grazia produce.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUARTA]</add></head>
+<stage>TORRISMONDO <emph>ed</emph> ALVIDA</stage>
+
+<sp><speaker><add resp="ed">[TORRISMONDO]</add></speaker>
+<lg>
+<l>Regina, ad onorar le vostre nozze</l>
+<l>venuto è di Suezia il re Germondo,</l>
+<l>invitto cavaliero e d'alta fama,</l>
+<l>e, quel che tutto avanza, è nostro amico,</l>
+<l>né men vostro che mio; né tante offese</l>
+<l>fece a' Norvegi mai la nobil destra,</l>
+<l>quanti farvi servigi ei brama e spera.</l>
+<l>Porger dunque la vostra a lui vi piaccia,</l>
+<l>pegno di fede e di perpetua pace.</l>
+<l>Fatelo perch'è mio, e perch'è vostro,</l>
+<l>e perché tanto ei v'ama, e perch'il merta.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Basti ch'è vostro amico; altro non chiedo.</l>
+<l>Perché sol dee stimar la donna amici</l>
+<l>quei che 'l marito estima. E 'l merto e 'l pregio</l>
+<l>e 'l valor e l'amor, per me soverchio,</l>
+<l>m'è sol caro per voi: che vostra io sono,</l>
+<l>e sol quanto a voi piace a me conviensi.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Questa del vostro amor, del vostro senno,</l>
+<l>ho fede e speme. Oggi memoria acerba</l>
+<l>non perturbi l'altero e lieto giorno,</l>
+<l>e la sembianza vostra, e 'l vostro petto.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Nel mio petto giammai piacere o noia</l>
+<l>non entrerà, che non sia vostro insieme.</l>
+<l>Che vostro è 'l mio volere, ed io ve 'l diedi,</l>
+<l>quando vi die' me stessa; e vostra è l'alma.</l>
+<l>Posso io, s'a voi dispiaccio, odiar me stessa;</l>
+<l>posso, se voi l'amate, amar Germondo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Estingua tutti gli odii il nostro amore,</l>
+<l>e nessuno odio il nostro amore estingua.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUINTA]</add></head>
+<stage>CAMERIERA, ALVIDA.</stage>
+<sp><speaker><add resp="ed">[CAMERIERA]</add></speaker>
+<lg>
+<l>Questi doni a voi manda, alta regina,</l>
+<l>il buon re mio signore e vostro servo;</l>
+<l>ch'al servir non estima eguale il regno,</l>
+<l>né stimeria bench'il superbo scettro</l>
+<l>i Garamanti e gli Etiopi e gli Indi</l>
+<l>tremar facesse, e 'nsieme Eufrate e Tigre,</l>
+<l>Acheloo, Nilo, Oronte, Idaspe e Gange,</l>
+<l>Ato, Parnaso, Tauro, Atlante, Olimpo,</l>
+<l>e s'altro sorge tanto o tanto inaspra</l>
+<l>lunge da noi famoso orribil monte.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Di valoroso re leggiadri e ricchi</l>
+<l>doni son questi, e portator cortese.</l>
+</lg></sp>
+<sp><speaker>CAMERIERA</speaker>
+<lg>
+<l>Non aguagli alcun dono il vostro merto;</l>
+<l>ma non aggiate il donatore a sdegno,</l>
+<l>ch'or vi presenta e la corona e 'l manto</l>
+<l>e questa imago in preziosa gemma</l>
+<l part="I">scolpita.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l part="F">A prova la ricchezza e l'arte</l>
+<l>contende, o l'opra la materia avanza;</l>
+<l>e la sua cortesia sì tosto aguaglia</l>
+<l>del suo chiaro valor la fama illustre;</l>
+<l>né mi stimò di tanto onore indegna.</l>
+<l>Ma quai lodi o quai grazie al signor vostro</l>
+<l>rendere io posso? O chi per me le rende?</l>
+</lg></sp>
+<sp><speaker>CAMERIERA</speaker>
+<lg>
+<l>È grazia l'accettarli; e 'l don gradito</l>
+<l>il donator d'obligo eterno astringe.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SESTA]</add></head>
+<stage>ALVIDA, NUTRICE</stage>
+
+<sp><speaker><add resp="ed">[ALVIDA]</add></speaker>
+<lg>
+<l>Quai doni io veggio? E quai parole ascolto?</l>
+<l>Quale imagine è questa? A chi somiglia?</l>
+<l>A me. Son io, mi raffiguro al viso,</l>
+<l>a l'abito non già. Norvegio o goto</l>
+<l>a me non sembra. E perch'a' piedi impresse</l>
+<l>calcata la corona e 'l lucido elmo,</l>
+<l>e di strale pungente armò la destra?</l>
+<l>E 'l leon coronato al ricco giogo,</l>
+<l>qual segno è d'altra parte, e 'l fregio intorno,</l>
+<l>ch'è di mirto e di palma insieme avvinto?</l>
+<l>Questi nel manto seminati e sparsi</l>
+<l>sono strali e facelle e nodi involti,</l>
+<l>mirabile opra; e di mirabil mastro</l>
+<l>maraviglioso onor d'alta corona</l>
+<l>come riluce di vermiglio smalto!</l>
+<l>Sono stille di sangue. Il don conosco.</l>
+<l>De la dolce vendetta il caro pregio</l>
+<l>e del mio lacrimare insieme i segni</l>
+<l>rimiro, e mi rammento il tempo e 'l loco.</l>
+<l>E tu conosci di famosa giostra,</l>
+<l>nutrice, il dono? È questo il prezzo, è questo,</l>
+<l>e questa è la corona in premio offerta</l>
+<l>al vincitor del periglioso gioco,</l>
+<l>ch'era poscia invitato ad altra pugna.</l>
+<l>Ed io la diedi, e così volle il padre</l>
+<l>mio sfortunato e del fratello anciso.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>La corona io conosco, e 'l dì rimembro</l>
+<l>de le famose prove, e 'l dubbio arringo</l>
+<l>ch'al suon già rimbombò di trombe e d'armi;</l>
+<l>ma l'altre cose, che 'l parlare accenna,</l>
+<l>parte mi son palesi, e parte occulte.</l>
+<l>Perch'ancor non passava il primo lustro</l>
+<l>vostra tenera età, che 'l vecchio padre,</l>
+<l>accioch'io vi nutrissi, a me vi diede,</l>
+<l>dicendo: – Nudrirai nel casto seno</l>
+<l>la mia vendetta e del mio regno antico,</l>
+<l>de' tributi e de l'onte e degl'inganni</l>
+<l>e de l'insidie. È destinata in sorte.</l>
+<l>Egli più non mi disse, io più non chiesi.</l>
+<l>Seppi dapoi ch'i più famosi magi</l>
+<l>predicevano al re l'alta vendetta.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Ma prima nuova ingiuria il duolo accrebbe,</l>
+<l>e fe' maggior ne l'orbo padre il danno.</l>
+<l>Perché a' Dani mandando aiuto in guerra</l>
+<l>co 'l suo figliuol, che di lucenti squadre</l>
+<l>troppo inesperto duce allor divenne,</l>
+<l>contra i forti Sueci, a cui Germondo,</l>
+<l>già ne l'arme famoso, ardire accrebbe,</l>
+<l>vi cadde il mio fratello al primo assalto,</l>
+<l>dal feroce nemico oppresso e stanco.</l>
+<l>Ei di seriche adorno e d'auree spoglie,</l>
+<l>ch'io di mia propria mano avea conteste,</l>
+<l>tutto splendea, sovra un destrier correndo,</l>
+<l>lo qual nato parea di fiamma e d'aura;</l>
+<l>e la corona ancor portava in fronte,</l>
+<l>che 'l possente guerrier gli ruppe e trasse;</l>
+<l>e gli uccise il cavallo e sparse l'armi,</l>
+<l>e fe' caderlo in un sanguigno monte,</l>
+<l>dove, ahi lassa, morì nel fior degli anni.</l>
+<l>E de le spoglie il vincitor superbo</l>
+<l>indi partissi; e 'l suon dolente e mesto</l>
+<l>si sparse intorno, e 'l lagrimoso grido.</l>
+<l>Altri danni, altre guerre, altre battaglie,</l>
+<l>altre morti seguiro in picciol tempo;</l>
+<l>né poi successe certa e fida pace,</l>
+<l>né fur mai queti i cori, o l'ira estinta.</l>
+<l>Ecco a la giostra i cavalieri accoglie</l>
+<l>il re mio padre, e com'altrui divolga</l>
+<l>publico bando in questa parte e 'n quella,</l>
+<l>al vincitor promesso è 'l ricco pregio.</l>
+<l>Vengon da' regni estrani al nostro regno</l>
+<l>e da lontane rive a' lidi nostri</l>
+<l>famosi cavalieri, a prova adorni</l>
+<l>di fino argento e d'or, di gemme e d'ostro,</l>
+<l>d'altri colori e di leggiadre imprese.</l>
+<l>Tutto d'arme e d'armati il suol risplende</l>
+<l>de l'ampia Nicosia. Risuona intorno</l>
+<l>di varii gridi e varii suoni il campo.</l>
+<l>Fuor de l'alta cittade il re n'alberga,</l>
+<l>co' suoi giudici assiso in alto seggio;</l>
+<l>io fra nobili donne, in parte opposta.</l>
+<l>Si rompon mille lance in mille incontri,</l>
+<l>e mille spade fanno uscir faville</l>
+<l>dagli elmi e dagli usberghi; il pian s'ingombra</l>
+<l>di caduti guerrieri e di cadenti;</l>
+<l>è dubbia la vittoria, e 'l pregio incerto.</l>
+<l>E mentre era sospesa ancor la palma,</l>
+<l>apparve un cavalier con arme negre,</l>
+<l>ch'estranio mi parea, con bigie penne</l>
+<l>diffuse a l'aura ventillando e sparse,</l>
+<l>che parve al primo corso orribil lampo,</l>
+<l>a cui repente segua atra tempesta.</l>
+<l>Rotte già nove lance, il re m'accenna</l>
+<l>che mandi in dono al cavaliero un'asta.</l>
+<l>Con questa di feroce e duro colpo</l>
+<l>quel che gli altri vincea gittò per terra.</l>
+<l>Né men possente poi vibrando apparse</l>
+<l>la fera spada in varii assalti. Ei vinse,</l>
+<l>e poi fu coronato al suon di trombe.</l>
+<l>Io volea porli in testa aurea corona,</l>
+<l>ma non la volle a noi mostrare inerme;</l>
+<l>ond'io la posi, ei la pigliò su l'elmo.</l>
+<l>Cortesia ritrovò, che 'l volto e 'l nome</l>
+<l>poté celarne, e si partì repente.</l>
+<l>Né fu veduto più. Ma fur discordi,</l>
+<l>ragionando di lui guerrieri e donne.</l>
+<l>Io seppi sol, ben mi rimembra il modo,</l>
+<l>che si partiva il cavalier dolente</l>
+<l>mio servo, e di fortuna aspro nemico.</l>
+<l>Or riconosco la corona e 'l pregio.</l>
+<l>Era dunque Germondo? Osò Germondo</l>
+<l>contra i Norvegi in perigliosa giostra</l>
+<l>dentro Norveggia istessa esporsi a morte?</l>
+<l>Tanto ardir, tanto core in vana impresa?</l>
+<l>Poi tanta secretezza e tanto amore?</l>
+<l>È sì picciola fede in vero amante?</l>
+<l>E s'ei non era, onde, in qual tempo, e quando</l>
+<l>ebbe poi la corona? A chi la tolse?</l>
+<l>Chi gliela diede? Ed or perché la manda?</l>
+<l>Che segna il manto e la scolpita gemma?</l>
+<l>O quai pensier son questi, e quai parole?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Non so, ma varie cose asconde il tempo,</l>
+<l>altre rivela, e muta in parte e cangia;</l>
+<l>muta il cor, il pensier, l'usanze e l'opre.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Di mutato voler conosci i segni?</l>
+<l>Son d'amante o d'amico i cari doni?</l>
+<l>Chi mi tenta, Germondo o 'l suo fedele?</l>
+<l>Tenta moglie od amica, amante o sposa?</l>
+<l>Tenerli io deggio, o rimandarli indietro?</l>
+<l>E s'io gli tengo pur, terrògli ascosi?</l>
+<l>O gli paleserò? Scoperti o chiusi</l>
+<l>al mio caro signor faranno offesa?</l>
+<l>Il parlar gli fia grave o 'l mio silenzio?</l>
+<l>Il timore o l'ardir gli fia molesto?</l>
+<l>Gli piacerà la stima o 'l mio disprezzo?</l>
+<l>Forse deggio io fallir perch'ei non erri?</l>
+<l>O deggio forse amar perch'ei non ami?</l>
+<l>O più tosto odiar perch'ei non odi?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Quai disprezzi, quali odii e quali amori</l>
+<l>ragioni, o figlia, e qual timor t'ingombra?</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Temo l'altrui timor, non solo il mio;</l>
+<l>e d'altrui gelosia mi fa gelosa</l>
+<l>solo il sospetto; anzi il presagio, ahi lassa!</l>
+<l>Se troppa fede il mio signore inganna,</l>
+<l>in lui manchi la fede, o in me s'accresca,</l>
+<l>o pur creda a me sola; a me la serbi,</l>
+<l>perch'è mia la sua fede, a me fu data.</l>
+<l>A me chi la ritoglie o chi l'usurpa?</l>
+<l>O chi la fa commune o la comparte?</l>
+<l>O come la sua fede alcun m'aguaglia?</l>
+<l>Ma forse ella non è soverchia fede.</l>
+<l>È forse gelosia, che si riscopre</l>
+<l>sotto false sembianze. Oimè dolente,</l>
+<l>deh, qual altra cagione ha 'l mio dolore,</l>
+<l>se non è il suo timor? S'egli non teme,</l>
+<l>perché mi fugge?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Il timor vostro il suo timor v'adombra,</l>
+<l>anzi ve 'l finge; e se 'l timor lasciate,</l>
+<l>non temerà, non crederò che tema.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Quale amante non teme un altro amante?</l>
+<l>Quale amor non molesta un altro amore?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>L'amor fedele, io credo, e 'l fido amante.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Ma fede si turbò talor per fede,</l>
+<l>non ch'amor per amor. S'amò primiero</l>
+<l>Germondo re possente e re famoso,</l>
+<l>cavalier di gran pregio e di gran fama,</l>
+<l>e, come pare altrui, bello e leggiadro;</l>
+<l>s'amò nemico, o pur nemica amando</l>
+<l>tenne occulto l'amor al proprio amico,</l>
+<l>non è lieve cagion d'alto sospetto.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Rara beltà, valore e chiara fama</l>
+<l>del cavalier, che fece i ricchi doni;</l>
+<l>se far non ponno or voi, regina, amante,</l>
+<l>già far non denno il vostro re geloso.</l>
+<l>Deh, sgombrate del cor l'affanno e l'ombra,</l>
+<l>ch'ogni vostro diletto or quasi adugge.</l>
+<l>Dianzi vi perturbava il sonno il sogno</l>
+<l>fallace, che giamai non serva intere</l>
+<l>le sue vane promesse o le minacce,</l>
+<l>e spavento vi diè notturno orrore</l>
+<l>di simolacri erranti o di fantasmi;</l>
+<l>or desta, nove larve a voi fingete,</l>
+<l>e gli amici temete e 'l signor vostro;</l>
+<l>e paventate i doni, e chi gli porta,</l>
+<l>e chi gli manda, e le figure e i segni,</l>
+<l>voi sola a voi cagion di tema indarno.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>A qual vendetta adunque ancor mi serba</l>
+<l>il temuto destino? E quale inganno</l>
+<l>o quali insidie vendicare io deggio?</l>
+<l>Ov'è l'ingannatore? Ov'è la fraude?</l>
+<l>Chi la ricopre, ahi lassa, o chi l'asconde?</l>
+<l>O tosto si discopra, o stia nascosta</l>
+<l>eternamente. Io temo, io temo, ahi lassa!</l>
+<l>E se del mio timor io son cagione,</l>
+<l>par che me stessa io tema. E sol m'affida</l>
+<l>del mio caro signore il dolce sguardo,</l>
+<l>e la sembianza lieta, e 'l vago aspetto.</l>
+<l>Egli mi raconsoli e m'assicuri.</l>
+<l>Egli sgombri il timor, disperda il ghiaccio.</l>
+<l>Egli cari mi faccia i doni, e i modi,</l>
+<l>e i donatori, e i messi, e i detti, e l'opre;</l>
+<l>e se vuole, odiosi. A lui m'adorno.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SETTIMA]</add></head>
+<stage>ALVIDA, REGINA MADRE.</stage>
+
+<sp><speaker><add resp="ed">[ALVIDA]</add></speaker>
+<lg>
+<l>Son doni di Suezia. Il re Germondo</l>
+<l>me gli ha mandati, al figliuol vostro amico,</l>
+<l>ed a me, quanto ei vuole. Ed io gradisco</l>
+<l>ciò ch'al re mio signor diletta e piace.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Ne 'l donare un gentile alto costume</l>
+<l>serba l'amico re; ma i ricchi doni</l>
+<l>son belli oltre il costume, oltre l'usanza,</l>
+<l>e convengon, regina, al vostro merto.</l>
+<l>E noi corone avremo e care gemme</l>
+<l>per donare a l'incontra. Onore è il dono;</l>
+<l>onorato esser dee com'egli onora,</l>
+<l>perch'è ferma amicizia e stabil fede,</l>
+<l>se da l'onor comincia; ogni altra, incerta.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>Certo è l'amor, certo è l'onor ch'io deggio</l>
+<l>a l'alto mio signor, certa è la fede,</l>
+<l>ch'i suoi più cari ad onorar m'astringe.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>S'onora negli amici il re sovente,</l>
+<l>e ne' più fidi. Oggi è solenne giorno,</l>
+<l>giorno festo ed altero, e l'alta reggia</l>
+<l>adorna già risplende, e 'l sacro tempio.</l>
+<l>Venuto è 'l re Germondo e i duci illustri</l>
+<l>del nostro regno e i cavalieri egregi,</l>
+<l>d'Eruli un messo, un messaggier degli Unni;</l>
+<l>mandati ha 'l re di Dacia i messi e i doni.</l>
+</lg></sp></div2>
+<div2 type="parte">
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Amore, hai l'odio incontra e seco giostri,</l>
+<l>seco guerreggi, Amore,</l>
+<l>e con un giro alterno</l>
+<l>questo distruggi, e nasce il mondo eterno.</l>
+<l>Altro è, che non riluce agli occhi nostri,</l>
+<l>più sereno splendore,</l>
+<l>altre forme più belle</l>
+<l>di sol lucente e di serene stelle.</l>
+<l>Altre vittorie in regno alto e superno,</l>
+<l>altre palme tu pregi,</l>
+<l>che spoglie sanguinose o vinti regi,</l>
+<l>altra gloria, senza ira e senza scherno.</l>
+<l>Amore invitto in guerra,</l>
+<l>perché non vinci e non trionfi in terra?</l>
+<l>	Perché non orni, o vincitor possente,</l>
+<l>de' felici trofei</l>
+<l>questa chiostra terrena,</l>
+<l>con lieta pompa, ov'è tormento e pena?</l>
+<l>Perch'il superbo sdegno e l'ira ardente</l>
+<l>qua giuso e fra gli dei</l>
+<l>non si dilegua e strugge,</l>
+<l>se divo od uom non ti precorre e fugge?</l>
+<l>Ciò che l'ira ne turba, or tu serena:</l>
+<l>spengi le sue faville,</l>
+<l>accendi le tue fiamme e fa tranquille.</l>
+<l>Stringi d'antica i nodi, Amor, catena,</l>
+<l>ond'anco è 'l mondo avinto,</l>
+<l>catenato il furore e quasi estinto.</l>
+<l>	Deh, non s'aguagli a te nemico indegno,</l>
+<l>perché volga e rivolga</l>
+<l>queste cose la sorte,</l>
+<l>co 'l tornar dolce vita od atra morte.</l>
+<l>Diagli pur l'incostante instabil regno,</l>
+<l>annodi i lacci o sciolga,</l>
+<l>in alte parti o 'n ime</l>
+<l>già non adegua il tuo valor sublime.</l>
+<l>Tu, nel diletto e nel dolor più forte,</l>
+<l>miglior fortuna adduci,</l>
+<l>e queste sfere o quelle orni e produci.</l>
+<l>Tale, apra o serri in ciel lucenti porte,</l>
+<l>o vada il sole o torni,</l>
+<l>han possanza inegual le notti e i giorni.</l>
+<l>	Contra fera discordia, Amor, contendi,</l>
+<l>come luce con l'ombra.</l>
+<l>Ma come l'arme hai prese</l>
+<l>contra amicizia? Ahi, chi primier l'intese?</l>
+<l>S'offendi lei, pur te medesmo offendi;</l>
+<l>s'il tuo valor la sgombra,</l>
+<l>te scacci, e sechi in parti,</l>
+<l>s'amicizia da te dividi e parti.</l>
+<l>Stendi l'arco per lei, signor cortese:</l>
+<l>ella per te s'accinga,</l>
+<l>e la spada per te raggiri e stringa.</l>
+<l>Non cominci nova ira e nove offese,</l>
+<l>né l'uno e l'altro affetto</l>
+<l>turbi a duo regi il valoroso petto.</l>
+<l>	Deh, rendi, Amore, ogni pensiero amico.</l>
+<l>Amor, fa teco pace,</l>
+<l>perch'è vera amicizia amor verace.</l>
+</lg></sp></div2></div1>
+<div1 type="atto">
+<head>ATTO QUARTO</head>
+<div2 type="scena">
+<head><add resp="ed">[SCENA PRIMA]</add></head>
+<stage>CONSIGLIERO, GERMONDO</stage>
+<sp><speaker><add resp="ed">[CONSIGLIERO]</add></speaker>
+<lg>
+<l>Il venir vostro al re de' Goti, al regno,</l>
+<l>a la reggia, signor, la festa accresce,</l>
+<l>aggiunge l'allegrezza, i giochi addoppia,</l>
+<l>pace conferma in lei; spietata guerra,</l>
+<l>il furore, il terror rispinge e caccia</l>
+<l>oltre gli estremi e più gelati monti,</l>
+<l>e 'l più compresso e più stagnante ghiaccio,</l>
+<l>e i più deserti e più solinghi campi.</l>
+<l>Oggi Goti e Sueci, amiche genti,</l>
+<l>non sol Norvegi e Goti, aggiunte insieme</l>
+<l>ponno pur stabilir la pace eterna.</l>
+<l>Oggi la fama vostra al ciel s'inalza,</l>
+<l>e quasi da l'un polo a l'altro aggiunge.</l>
+<l>Oggi par che paventi al suon de l'arco</l>
+<l>l'Europa tutta, e l'Occidente estremo,</l>
+<l>e contra Tile ancor l'ultima Battro.</l>
+<l>Perché non fan sì forti i nostri regni</l>
+<l>stagni, paludi, monti e rupi alpestri</l>
+<l>e città d'alte mura intorno cinte</l>
+<l>e moli e porti e l'ocean profondo,</l>
+<l>come il vostro valor, ch'in voi s'aguaglia</l>
+<l>a la vostra grandezza, e 'l nome vostro,</l>
+<l>e i cavalieri egregi, e i duci illustri.</l>
+<l>Lascio tanti ministri e tanti servi,</l>
+<l>tante vostre ricchezze antiche e nove.</l>
+<l>Ben senza voi, sì grandi e sì possenti,</l>
+<l>l'umil plebe saria difesa inferma</l>
+<l>di fragil torre, e voi le torri eccelse</l>
+<l>sete di guerra e i torreggianti scogli.</l>
+<l>Chi voi dunque congiunge, a queste sponde</l>
+<l>nova difesa fa e novo sostegno</l>
+<l>del vostro onore, e l'assicura ed arma</l>
+<l>contra l'insidie e i più feroci assalti.</l>
+<l>Non temerem che da remota parte</l>
+<l>venga solcando il mar rapace turba</l>
+<l>per depredarne, o ch'alto incendio infiammi</l>
+<l>le già mature spiche, o i tetti accenda.</l>
+<l>Perché vostra virtù represse e lunge</l>
+<l>poté scacciar da noi gli oltraggi e l'onte.</l>
+<l>Voi minacciando usciste, o regi invitti,</l>
+<l>e l'un corse a l'Occaso e l'altro a l'Orto,</l>
+<l>prima diviso e poi congiunto in guerra,</l>
+<l>come duo gran torrenti a mezzo il verno,</l>
+<l>o duo fulmini alati appresso a' lampi,</l>
+<l>quando fiammeggia il cielo e poi rimbomba.</l>
+<l>Ma del raro valor vestigia sparse</l>
+<l>altamente lasciaste, offesi, estinti,</l>
+<l>domi, vinti, feriti, oppressi e stanchi,</l>
+<l>duci, guerrieri, regi, eroi famosi.</l>
+<l>Ed in mille alme ancor lo sdegno avampa,</l>
+<l>e 'l desio d'alto imperio e di vendetta,</l>
+<l>lo qual tosto s'accende e tardi estingue,</l>
+<l>e si nasconde a' più sereni tempi,</l>
+<l>ne' turbati si scopre, e fuor si mostra</l>
+<l>tanto maggior quanto più giacque occulto.</l>
+<l>Or che pensa il Germano, o pensa il Greco?</l>
+<l>O qual nutre sdegnando orribil parto</l>
+<l>gravida d'ira la Panonia e d'arme?</l>
+<l>Queste cose tra me sovente io volgo.</l>
+<l>E già non veggio più sicuro scampo,</l>
+<l>o più saggio consiglio, inanzi al rischio,</l>
+<l>ch'unire insieme i tre famosi regni,</l>
+<l>che 'l gran padre Ocean quasi circonda</l>
+<l>e dagli altri scompagna e 'n un congiunge.</l>
+<l>Perch'ogni stato per concordia avanza,</l>
+<l>e per discordia al fin vacilla e cade.</l>
+<l>Duo già ne sono uniti; e questo giorno,</l>
+<l>ch'Alvida e Torrismondo annoda e stringe,</l>
+<l>stringer potriasi ancor a voi Rosmonda,</l>
+<l>ch'aguaglia a mio parer. Ma fia gran merto</l>
+<l>non lasciar parte in tanta gloria al senso.</l>
+<l>Molti sono tra voi legami e nodi</l>
+<l>d'amicizia, d'amor, di stabil fede;</l>
+<l>e nessun dee mancarne. Aggiunto a' primi</l>
+<l>sia questo novo e caro. E nulla or manchi</l>
+<l>a lieta pace, or che dal ciel discende</l>
+<l>a tre popoli arcieri e 'n guerra esperti.</l>
+<l>Fra' quai nessuno in amar voi precorse</l>
+<l>me d'anni grave. E questo ancor m'affida,</l>
+<l>e la vostra bontà, la grazia, e 'l senno:</l>
+<l>talché primiero a ragionarne ardisco.</l>
+<l>Ma non prego solo io. Congiunta or prega</l>
+<l>questa, canuta e venerabil madre,</l>
+<l>antica terra, e di trionfi adorna.</l>
+<l>E son queste sue voci e sue preghiere:</l>
+<l>– O miei figli, o mia gloria, o mia possanza,</l>
+<l>per le mie spoglie e per l'antiche palme,</l>
+<l>per le vittorie mie famose al mondo,</l>
+<l>per l'alte imprese ond'è la gloria eterna,</l>
+<l>per le corone degli antichi vostri,</l>
+<l>che fur miei figli e non venuti altronde,</l>
+<l>questa grazia vi chiedo io vecchia e stanca;</l>
+<l>e grazia, a giusta età concessa, è giusta.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Pensier canuto e di canuta etade</l>
+<l>è quel ch'in voi si volge, e i detti lodo,</l>
+<l>e gradisco il voler, gli affetti e l'opre.</l>
+<l>Ma sì vera, sì ferma e sì costante</l>
+<l>è la nostra amicizia, e strinse in guisa</l>
+<l>amor, fede, valor duo regi errando,</l>
+<l>che non si stringeria per nove nozze</l>
+<l>con più tenace nodo o con più saldo.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Se nodo mai non s'allentò per nodo,</l>
+<l>ma s'un simil per l'altro abonda e cresce,</l>
+<l>per legitimo amor non fia disciolta</l>
+<l>vera amicizia, anzi sarà più salda.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Amor, che fare il pò, confermi e stringa</l>
+<l part="I">amicizia fedel.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l part="F">Migliori estimo</l>
+<l>le nozze assai che l'amicizia ha fatte:</l>
+<l part="I">l'altre pericolose.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">Ivi sovente</l>
+<l>si ritrova gran lode ov'è gran rischio.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Lodato spesso è lo schifar periglio,</l>
+<l part="I">quando si schifa altrui.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">L'ardir più stimo,</l>
+<l>se pò far gli altri arditi un solo ardito.</l>
+</lg></sp>
+<sp><speaker>CONSIGLIERO</speaker>
+<lg>
+<l>Or de l'ardire è tempo, or del consiglio,</l>
+<l>e s'ardire e consiglio in un s'accoppia,</l>
+<l>fortuna ingiuriosa in van contrasta</l>
+<l>a magnanima impresa, o lei seconda.</l>
+<l>Ma questo ancor sereno e chiaro tempo</l>
+<l>providenza veloce in voi richiede.</l>
+<l>Congiunta ha 'l re norvegio al re de' Goti</l>
+<l>la figlia. Ed oggi è lieto e sacro giorno,</l>
+<l>ch'apre di stabil pace agli altri il varco,</l>
+<l>già aperto a voi. Nozze giungete a nozze,</l>
+<l>né siate voi tra tanto amor l'estremo.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Primo sono in amare. Amai l'amico,</l>
+<l>di valor primo e 'n riamar secondo</l>
+<l>ed amerò finché 'l guerrero spirto</l>
+<l>reggerà queste pronte o tarde membra.</l>
+<l>E mi rammento ancor ch'a lui giurando</l>
+<l>la fede i' diedi, ed egli a me la strinse,</l>
+<l>che l'un de l'altro a vendicar gli oltraggi</l>
+<l>pronto sarebbe. Or non perturbi o rompa</l>
+<l>nuovo patto per me gli antichi patti.</l>
+<l>E s'ei per liete nozze è pur contento</l>
+<l>di pacifico stato e di tranquillo,</l>
+<l>io ne godo per lui. Per lui ricovro</l>
+<l>ne la pace e nel porto, e lascio il campo</l>
+<l>e l'orrida tempesta e i venti aversi.</l>
+<l>Vera amicizia dunque il mar sonante</l>
+<l>mi faccia, o queto, il ciel sereno, o fosco;</l>
+<l>e di ferro m'avolga e mi circondi,</l>
+<l>e mi tinga in sanguigno i monti e l'onde,</l>
+<l>se così vuole, o 'l sangue asciughi e terga,</l>
+<l>e mi scinga la spada al fianco inerme.</l>
+<l>Vera amicizia ancor mi faccia amante,</l>
+<l>e se le par, marito; e tutte estingua</l>
+<l>d'Amore e d'Imeneo le faci ardenti,</l>
+<l>o di Marte le fiamme e 'l foco accresca.</l>
+<l>Così direte al re: – Lodo e confermo</l>
+<l>che 'l vero amico mi discioglia o leghi. –</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SECONDA]</add></head>
+<stage>GERMONDO <emph>solo</emph></stage>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Giusto non è che sia stimato indarno</l>
+<l>malvagio il buono, o pur buon il malvagio,</l>
+<l>perché perdita far di buono amico</l>
+<l>e de la cara vita è danno eguale;</l>
+<l>ma tai cose co 'l tempo altri conosce,</l>
+<l>che sol pò il tempo dimostrar l'uom giusto.</l>
+<l>Però se i giorni e l'ore e gli anni e i lustri</l>
+<l>Torrismondo mostrâr verace amico,</l>
+<l>parer non muto e di mutar non bramo,</l>
+<l>anzi le vie del core io chiudo e serro</l>
+<l>quanto m'è dato; e le ragioni incontra</l>
+<l>al sospettar, ch'è sì leggiero e pronto</l>
+<l>per sì varia cagion, raccolgo a' passi.</l>
+<l>Oh pur questa mia vera e stabil fede</l>
+<l>non solo questo dì, ma un lungo corso</l>
+<l>più mi confermi ancor d'anni volanti,</l>
+<l>perché sian d'amicizia eterno essempio</l>
+<l>l'invitto re de' Goti e 'l suo Germondo.</l>
+<l>Pur l'accoglienza e 'l modo ancor mi turba,</l>
+<l>assai diverso, e men sereno aspetto</l>
+<l>che non soleva, e de la fé promessa</l>
+<l>e di nostra amicizia e degli errori</l>
+<l>e de l'amata donna e del suo sdegno,</l>
+<l>dopo breve parlar, lungo silenzio,</l>
+<l>e breve vista dopo lunghi affanni.</l>
+<l>Così peso di scettro e di corona</l>
+<l>fa l'uom più grave, e con turbata fronte</l>
+<l>spesso l'inchina, e di pensier l'ingombra.</l>
+<l>Solo amor non invecchia, o tardi invecchia.</l>
+<l>A me sperato o posseduto regno,</l>
+<l>o fatto danno, o minacciata guerra,</l>
+<l>tanto da sospirar giamai non porge,</l>
+<l>ch'amor non tragga al tormentoso fianco</l>
+<l>altri mille sospiri. O liete giostre,</l>
+<l>o cari pregi miei, corone ed arme,</l>
+<l>o vittorie, o fatiche, o passi sparsi,</l>
+<l>al pensier non portate ora tranquilla</l>
+<l>senza la donna mia. Saggi consigli,</l>
+<l>altre paci, altre nozze, ed altri modi</l>
+<l>di vero amore, e d'amicizia aggiunte</l>
+<l>lodo ben io. Ma per unirci insieme,</l>
+<l>sorella a me non manca, o stato, od auro.</l>
+<l>Ma faccia Torrismondo. A lui commesso</l>
+<l>ho 'l governo de l'alma, ed egli il regga.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA TERZA]</add></head>
+<stage>ROSMONDA, TORRISMONDO</stage>
+
+<sp><speaker><add resp="ed">[ROSMONDA]</add></speaker>
+<lg>
+<l>È semplice parlar quel che discopre</l>
+<l>la verità. Però, narrando il vero,</l>
+<l>con lungo giro di parole adorne</l>
+<l>or non m'avolgo. O re, son vostra serva;</l>
+<l>e vostra serva nacqui e vissi in fasce.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">Non sei dunque Rosmonda?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">Io son Rosmonda.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">Non sei sorella mia?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">Né d'esser niego,</l>
+<l part="I">alto signor.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Troppo vaneggi, ah folle!</l>
+<l>Qual timor, quale error così t'ingombra,</l>
+<l>che di stato servil tanto paventi?</l>
+<l>Da tal principio a ricusar cominci?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Se femina ci nasce, or serva nasce</l>
+<l>per natura, per legge e per usanza,</l>
+<l>del voler di suo padre e del fratello.</l>
+<l>Ma fra tutte altre in terra o prima o sola</l>
+<l>è dolce servitù servire al padre</l>
+<l>ed a la madre, a cui partir l'impero</l>
+<l>de' figli si devria. Né gli anni o 'l senno</l>
+<l>fanno ogni imperio del fratel superbo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Obbedisci a tua madre, ove ti piaccia.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Io non ho madre, ma regina e donna.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Non sei tu di Rusilla unica figlia?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Né unica, né figlia esser mi vanto</l>
+<l>de la regina de' feroci Goti.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker><lg>
+<l>E pur sei tu Rosmonda, e mia sorella?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Io sono altra Rosmonda, altra sorella.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Distingui omai questo parlar, distingui</l>
+<l part="I">questi confusi affanni.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">A me fu madre</l>
+<l>la tua nutrice, e poi nutrì Rosmonda.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Nova cosa mi narri e cosa occulta,</l>
+<l>e cosa che mi spiace e mi molesta.</l>
+<l>Ma pur vizio è 'l mentir d'alma servile,</l>
+<l>talché serva non sei, se tu non menti.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Serva far mi poté fortuna aversa</l>
+<l>de l'uno e l'altro mio parente antico.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>La tua propria fortuna il fallo emenda</l>
+<l>de la sorte del padre, anzi il tuo merto.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Il merto è nel dir vero, il premio attendo</l>
+<l>di libertà, se libertà conviensi.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>S'è ciò pur vero, è con modestia il vero,</l>
+<l>e men si crederia superbo vanto,</l>
+<l>se dee credere il mal l'accorto e 'l saggio,</l>
+<l part="I">ove il non creder giovi.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">È picciol danno</l>
+<l>perder l'opinion, ch'è quasi un'ombra,</l>
+<l>e di finta sorella un falso inganno;</l>
+<l>anzi gran pro' mi pare ed util certo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Quasi povero sia de' Goti il regno,</l>
+<l>cui può sì ricco far guerrera stirpe,</l>
+<l>le magnanime donne e i duci illustri.</l>
+<l>Ma deh, come sei tu vera Rosmonda,</l>
+<l>e finta mia sorella, e falsa figlia</l>
+<l>de la regina degli antichi Goti?</l>
+<l>Chi fece il grande inganno, o 'l tenne ascosto</l>
+<l>tanti e tanti anni? E qual destino o forza</l>
+<l>la fraude e l'arte a palesar t'astringe?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Per mia madre e per me breve io rispondo.</l>
+<l>Fe' l'inganno gentil pietà, non fraude,</l>
+<l part="I">e 'l discopre pietà.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Tu parli oscuro,</l>
+<l>perché stringi gran cose in picciol fascio.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Da qual parte io comincio a fare illustre</l>
+<l>quel ch'oscura il silenzio e 'l tempo involve?</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Quel che ricopre, al fin discopre il tempo.</l>
+<l>Ma de le prime tu primier comincia.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Sappi che grave già per gli anni, e stanca</l>
+<l>dopo la morte d'uno e d'altro figlio,</l>
+<l>dopo la servitù che d'ostro e d'oro</l>
+<l>ne l'alta reggia altrui sovente adorna,</l>
+<l>la madre mia di me portava il pondo,</l>
+<l>con suo non leggier duolo e gran periglio.</l>
+<l>Onde quel che nascesse a Dio fu sacro</l>
+<l>da lei nel voto; ed egli accolse i preghi,</l>
+<l>talch'il descender mio nel basso mondo</l>
+<l>non fu cagione a lei d'aspra partenza,</l>
+<l>né 'l chiaro dì ch'io nacqui a lei funebre.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Dunque i materni e non i propi voti</l>
+<l>tu cerchi d'adempir, vergine bella?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Son miei voti i suoi voti; e poi s'aggiunse</l>
+<l>al suo volere il mio volere istesso</l>
+<l>quel sempre acerbo ed onorato giorno</l>
+<l>che giacque esangue e rendé l'alma al cielo,</l>
+<l>mentre io sedea dogliosa in su la sponda</l>
+<l>del suo vedovo letto, e lagrimando</l>
+<l>prendea la sua gelata e cara destra</l>
+<l>con la mia destra. E le sue voci estreme,</l>
+<l>ben mi rammento, e rammentar me 'n deggio,</l>
+<l>tra freddi baci e lagrime dolenti</l>
+<l>fur proprio queste: – È pietà vera, o figlia,</l>
+<l>non ricusar la tua verace madre,</l>
+<l>che madre ti sarà per picciol tempo.</l>
+<l>Io ti portai nel ventre e caro parto</l>
+<l>ti diedi al mondo, anzi a quel Dio t'offersi</l>
+<l>che regge il mondo e mi salvò nel rischio.</l>
+<l>Tu, se puoi, de la madre i voti adempi,</l>
+<l>e disciogliendo lei, sciogli te stessa.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>La tua vera pietà conosco e lodo.</l>
+<l>Ma qual pietoso o qual lodato inganno</l>
+<l>te mi diè per sorella, e l'altra ascose</l>
+<l>che fu vera sorella e vera figlia,</l>
+<l>di magnanimo re, d'alta regina?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Fe' mia madre l'inganno, anzi tuo padre:</l>
+<l>e pietà fu de l'una, e fu de l'altro</l>
+<l>o consiglio, o fortuna, o fato, o forza.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>A chi si fece la mirabil fraude?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>A la regina tua pudica madre,</l>
+<l>la qual mi stima ancor diletta figlia.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>In tanti anni del ver delusa vecchia</l>
+<l>non s'accorge, non l'ode, e non conosce</l>
+<l>la sua madre la figlia, o pur s'infinge?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Non s'infinse d'amar, né d'esser madre,</l>
+<l>se fa madre l'amor, che spesso adegua</l>
+<l>le forze di natura, e quasi avanza.</l>
+<l>Né di scoprire osai l'arte pietosa</l>
+<l>che le schifò già noia e diè diletto,</l>
+<l>ed or porge diletto e schiva affanno.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ma come ella primiera al novo inganno</l>
+<l>diè così stabil fede, e non s'accorse</l>
+<l>de la perduta figlia, e poi del cambio?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>La natura e l'età, che non distinse</l>
+<l>me da la tua sorella, e 'l tempo, e 'l luogo,</l>
+<l>dove in disparte ambe nutriva e lunge</l>
+<l>la vera madre mia da l'alta reggia,</l>
+<l>tanto ingannâr la tua; ma più la fede,</l>
+<l>ch'ebbe ne la nutrice e nel marito.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Se la fede ingannò, l'inganno è giusto.</l>
+<l part="I">Ma dove ella nutrivvi?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">Appresso un antro,</l>
+<l>che molte sedi ha di polito sasso</l>
+<l>e di pumice rara oscure celle</l>
+<l>dentro non sol, ma bel teatro e tempio,</l>
+<l>e tra pendenti rupi alte colonne,</l>
+<l>ombroso, venerabile, secreto.</l>
+<l>Ma lieto il fanno l'erbe e lieto i fonti,</l>
+<l>e l'edere seguaci e i pini e i faggi,</l>
+<l>tessendo i rami e le perpetue fronde,</l>
+<l>sì ch'entrar non vi possa il caldo raggio.</l>
+<l>Ne le parti medesme entro la selva</l>
+<l>sorge un palagio al re tra i verdi chiostri.</l>
+<l>Ivi tua suora ed io giacemmo in culla.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>La cagion di quel cambio ancor m'ascondi.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>La cagion fu del padre alto consiglio,</l>
+<l>o profondo timor che l'alma ingombra.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">Qual timore, e di che?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">D'aspra ventura,</l>
+<l>che 'l suo regno passasse ad altri regi.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>E come nacque in lui questa temenza</l>
+<l>di sì lontano male? O chi destolla?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Il parlar la destò d'accorte ninfe,</l>
+<l>ch'altrui soglion predir gli eterni fati.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Dunque ei diede credenza al vano incanto,</l>
+<l>ch'effetto poi non ebbe in quattro lustri?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Diede, e diede la figlia ancora in fasce</l>
+<l>a l'alpestre donzelle, o pur selvagge,</l>
+<l>e tra quell'ombre in quell'orror nutrita</l>
+<l>la fanciulletta fu d'atra spelunca.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Perché si tacque a la regina eccelsa?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Quel palagio, quell' antro, e quelle ninfe,</l>
+<l>e quelle antiche usanze, e l'arti maghe</l>
+<l>eran sospette a la pietosa madre;</l>
+<l>a cui mostrata fui, volgendo il sole</l>
+<l>già de la vita mia il secondo corso,</l>
+<l>pur come figlia sua, né mi conobbe;</l>
+<l>e 'l re fece l'inganno, e 'l tenne occulto.</l>
+<l>E per voler di lui s'infinse e tacque</l>
+<l>la vera madre mia, che presa in guerra</l>
+<l>fu già da lui ne la sua patria Irlanda,</l>
+<l>ov'ella nata fu di nobil sangue.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Vive l'altra sorella ancor ne l'antro?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Vi stette a pena infino a l'anno istesso,</l>
+<l>e poi d'altri indovini altri consigli</l>
+<l>crebbero quel timore e quel sospetto,</l>
+<l>talché mandolla in più lontane parti</l>
+<l>per un secreto suo fedel messaggio;</l>
+<l part="I">né seppi come, o dove.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Il servo almeno</l>
+<l part="I">conoscer tu devresti.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">Io no 'l conosco,</l>
+<l>né so ben anco, s'io n'intesi il nome;</l>
+<l>ma spesso udia già ricordar Frontone,</l>
+<l part="I">e 'l nome in mente or serbo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Il re celato</l>
+<l>tenne sempre a la moglie il cambio e l'arte?</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Tenne sinché 'l prevenne acerba morte,</l>
+<l>facendo lui co' Dani aspra battaglia.</l>
+<l>Così narrò la mia canuta ed egra</l>
+<l>madre languente, e lui seguì morendo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Cose mi narri tu d'alto silenzio</l>
+<l>veracemente degne, e 'n cor profondo</l>
+<l>serbar le devi e ritenerle ascoste;</l>
+<l>ch'i secreti de' regi al folle volgo</l>
+<l>ben commessi non sono, e fuor gli sparge</l>
+<l>spesso loquace fama, anzi buggiarda.</l>
+<l>A me chiamisi il Saggio, e poi Frontone.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUARTA]</add></head>
+<stage>TORRISMONDO, INDOVINO, CORO</stage>
+<sp><speaker><add resp="ed">[TORRISMONDO]</add></speaker>
+<lg>
+<l>Lasso, quinci fortuna e quindi amore</l>
+<l>mille pungenti strali ognor m'aventa,</l>
+<l>né scocca a voto mai, né tira indarno.</l>
+<l>I pensier son saette, e 'l core un segno,</l>
+<l>de la vittoria è la mia vita il pregio,</l>
+<l>giudici il mio volere e 'l mio destino,</l>
+<l>né l'un né l'altro arciero ancora è stanco.</l>
+<l>Che fia, misero me? Per caso od arte</l>
+<l>quasi mi si rapisce e mi s'invola</l>
+<l>una sorella, e d'esser mia ricusa,</l>
+<l>e l'altra, oimè, non trovo e non racquisto,</l>
+<l>e non ristoro o ricompenso il danno,</l>
+<l>e 'l cambio manca ove mancò la fede,</l>
+<l>acciocch'offrir non possa al re Germondo</l>
+<l>cosa degna di lui, ma vano in tutto</l>
+<l>sia come l'impromessa altro consiglio.</l>
+<l>Sorella per sorella, o sorte iniqua,</l>
+<l>già supponesti ne la culla e 'n fasce,</l>
+<l>ed or me la ritogli anzi la tomba,</l>
+<l>e l'altra non mi rendi. O speco, o selve,</l>
+<l>in cui già la nutrîr leggiadre ninfe,</l>
+<l>o de la terra algente orridi monti,</l>
+<l>o gioghi alpestri, o tenebrose valli,</l>
+<l>ove s'asconde? O 'n qual deserta piaggia,</l>
+<l>in qual isola tua solinga ed erma,</l>
+<l>o gran padre Ocean, nel vasto grembo</l>
+<l>tu la circondi? Andrò pur anco errando,</l>
+<l>andrò solcando il mare, andrò cercando</l>
+<l>non la perduta fede e chi l'insegna,</l>
+<l>ma come possa almen coprire il fallo?</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Ecco, signore, a voi già viene il Saggio,</l>
+<l>a cui sol fra' mortali è noto il vero</l>
+<l>da caligini occulto e da tenebre.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>O Saggio, tu che sai (pensando a tutto</l>
+<l>quel che s'insegna al mondo o si dimostra)</l>
+<l>i secreti del cielo e de la terra,</l>
+<l>dimmi se mia sorella è in questo regno.</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l>Ahi, ahi, quanto è 'l saper dannoso e grave,</l>
+<l>ove al saggio non giovi. E ben previdi</l>
+<l>ch'io veniva a trovar periglio e biasmo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Per qual cagion tu sei turbato in vista?</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l>Lasciami, no 'l cercar, nulla rileva</l>
+<l>che 'l mio pensier si scopra o si nasconda.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Dimmi se mia sorella è in questo regno.</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l>È dove nacque, e dove nacque or posa,</l>
+<l>se pur ha posa, e non ha posa in terra.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">Dunque in terra non è?</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l part="F">Non posa in terra,</l>
+<l>ma poserà dove tu avrai riposo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Quale agli oscuri detti oscuro velo</l>
+<l>intorno avolgi, o quale inganno od arte?</l>
+<l>Dimmi se mia sorella è in questo regno.</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l>Tu medesmo t'inganni. È tua la frode,</l>
+<l>perché tu la facesti e teco alberga.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Se non è il tuo saper vano com'ombra</l>
+<l>discopri tu l'inganno, e tu rivela</l>
+<l>se la sorella mia tra Goti or vive.</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l part="I">Vive tra Goti.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Ed in qual parte, e come?</l>
+<l>È quella forse che stimava, od altra?</l>
+<l>S'altra, dove s'asconde o si ritrova?</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l>È l'altra, ed u' si trova ancor s'asconde,</l>
+<l>e la ritroverai da te partendo</l>
+<l part="I">e servando la fede.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Intrichi ancora</l>
+<l>gli oscuri sensi di parole incerte,</l>
+<l>per accrescer l'inganno e 'nsieme il prezzo</l>
+<l>de le menzogne tue. Parlar conviensi</l>
+<l>talché si scopra in ragionando il falso.</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l>È certo il tuo destin, la fede incerta.</l>
+<l>Ma se quanto oro entro le vene asconde</l>
+<l>l'avara terra a me nel prezzo offrissi,</l>
+<l>altro non puoi saper, ch'il fato involve</l>
+<l>l'altre cose, che chiedi, al nostro senso,</l>
+<l>e lor nasconde entro profonda notte.</l>
+<l>Ma pur veggio nascendo il gran Centauro</l>
+<l>saettar fin dal cielo e tender l'arco,</l>
+<l>e la belva crudel, ch'irata mugge,</l>
+<l>con terribil sembianza uscir de l'antro,</l>
+<l>e paventare il Vecchio, e 'l fiero Marte</l>
+<l>oppor lo scudo e fiammeggiar ne l'elmo,</l>
+<l>e con la spada e fulminar con l'asta.</l>
+<l>Veggio, o parmi veder, del vecchio Atlante</l>
+<l>appresso il cerchio, e 'l gran Delfino ascoso,</l>
+<l>e stella minacciar più tarda e pigra.</l>
+<l>E la Vergine io veggio amica a l'arti</l>
+<l>turbata in vista, e la celeste Libra</l>
+<l>con men felici e men sereni raggi.</l>
+<l>E cader la Corona in mezzo a l'onde.</l>
+<l>Né dimostrar benigno e lieto aspetto</l>
+<l>chi scote da le nubi il ciel tonando,</l>
+<l>o pur la mansueta e gentil figlia,</l>
+<l>Ma 'l superbo guerrier la mira e turba.</l>
+<l>E i lascivi animali ancora io sguardo,</l>
+<l>a cui vicino è Marte, e vibra il ferro;</l>
+<l>e i duo pesci, lucenti il dorso e il tergo,</l>
+<l>l'uno a Borea inalzarsi, e l'altro scendere</l>
+<l>a l'Austro, e di tre giri e di tre fiamme</l>
+<l>acceso il cielo, e da quel nodo avinto</l>
+<l>tre volte intorno e minacciando, appresso,</l>
+<l>il fero dio che regge il quinto cerchio;</l>
+<l>e, pien d'orrore ogni altro e di spavento,</l>
+<l>de' segni o degli alberghi empio tiranno</l>
+<l>girando intorno ir con veloce carro,</l>
+<l>o signoreggi a sommo il cielo, o caggia.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Vero o falso che parli, ei solo intende</l>
+<l>le sue parole, e 'l suo giudicio è incerto</l>
+<l>non men del nostro. E se l'uom dar potesse</l>
+<l>per sapienza sapienza in cambio,</l>
+<l>aver potrebbe accorgimento e senno</l>
+<l>quanto bastasse a ragionar co' regi.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Lasciamlo. Or trovi le spelunche e i monti,</l>
+<l>ove nulla impedir del ciel notturno</l>
+<l>gli pò l'aspetto. Ivi a sua voglia intenda</l>
+<l>a misurarlo, a numerar le stelle,</l>
+<l>e con danno minor se stesso inganni,</l>
+<l part="I">se così vuole.</l>
+</lg></sp>
+<sp><speaker>INDOVINO</speaker>
+<lg>
+<l part="F">Anzi ch'al fine aggiunga</l>
+<l>una di quelle omai fornite parti,</l>
+<l>de le cui note ho questo legno impresso;</l>
+<l>a cui la stanca mia vita s'appoggia,</l>
+<l>I miei veri giudìci or presi a scherno,</l>
+<l>o superba Aarana, o reggia antica</l>
+<l>ch'or da te mi discacci, a te fian conti.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUINTA]</add></head>
+<stage>FRONTONE, TORRISMONDO</stage>
+<sp><speaker><add resp="ed">[FRONTONE]</add></speaker>
+<lg>
+<l>Qual fortuna o qual caso or mi richiama</l>
+<l>dopo tanti anni di quiete amica</l>
+<l>a la tempesta del reale albergo?</l>
+<l>La qual sovente ella perturba e mesce.</l>
+<l>O felice colui che vive in guisa</l>
+<l>ch'altrui celar si possa, o 'n alto monte,</l>
+<l>o 'n colle, o 'n poggio, o 'n valle ima e palustre.</l>
+<l>Ma dove ella non mira? Ove non giunge?</l>
+<l>Qual non ritrova ancor solinga parte?</l>
+<l>Ecco mi tragge pur da casa angusta</l>
+<l>e mi conduce al re. Sia destra almeno</l>
+<l>questa che spira a la mia stanca etade</l>
+<l>aura de la fortuna, e sia tranquilla.</l>
+<l>Al vostro comandare or pronto io vegno,</l>
+<l part="I">invitto re de' Goti.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Arrivi a tempo,</l>
+<l>per trarmi fuor d'inganno. Or narra il vero.</l>
+<l>Questa, che fu creduta, è mia sorella?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l part="I">Non nacque di tua madre.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">E in questo errore</l>
+<l>ella tanti anni si rimase involta?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Così piacque a tuo padre, e piacque al fato.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ma, dapoi ch'ebbe me prodotto al mondo,</l>
+<l>altri produsse? O stanca al primo parto</l>
+<l>steril divenne ed infeconda madre?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Steril non già, ch'al partorir secondo</l>
+<l>fece d'una fanciulla il re più lieto.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">Che avenne di lei?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l part="F">Temuta in fasce</l>
+<l>fu per fiero destin dal padre istesso.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>E qual d'una fanciulla aver temenza</l>
+<l part="I">re forte e saggio debbe?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l part="F">Avea spavento</l>
+<l>del minacciar de le nemiche stelle.</l>
+<l>Che, lei crescendo di bellezza e d'anni,</l>
+<l>a te morte predisse, a noi servaggio</l>
+<l>il fatal canto de l'accorte ninfe</l>
+<l>che pargoletta la nutrîr ne l'antro.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Chi lunge la portò dal verde speco?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Io: così volle il padre e volle il cielo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">In qual parte del mondo?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l part="F">Ove non volli,</l>
+<l>né 'l re commise. Anzi portati a forza</l>
+<l>fummo ella ed io, ch'altro voler possente</l>
+<l>è più di quel de' regi, ed altra forza.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ma dove la mandava il re mio padre?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Sin nel regno di Dacia. Ed ivi occulta</l>
+<l>si pensò di tenerla al suo destino.</l>
+<l>Ma fu presa la nave il terzo giorno,</l>
+<l>ch'ambo ci conducea per l'onde salse,</l>
+<l>da quattro armati legni, in cui, turbando</l>
+<l>del profondo oceano i salsi regni,</l>
+<l>gìan con rapido corso e con rapace</l>
+<l>i ladroni del mar fieri Norvegi.</l>
+<l>E fu divisa poi la fatta preda,</l>
+<l>ed io ne l'uno, ella ne l'altro abete</l>
+<l>fu messa; io tra prigioni, ella tra donne;</l>
+<l>io di catene carco, ella disciolta.</l>
+<l>E rivolgendo in ver' Norvegia il corso,</l>
+<l>in un seno di mar trovammo ascosi</l>
+<l>molti legni de' Goti, anch'essi avezzi</l>
+<l>di corseggiare i larghi ondosi campi,</l>
+<l>da' quali a pena si fuggì volando,</l>
+<l>come alata saetta, il leggier legno</l>
+<l>ov'era la fanciulla, e fu repente</l>
+<l>preso quell'altro ove legato io giacqui.</l>
+<l>E 'l duce allor di quelle genti infide</l>
+<l>pur in mia vece ivi rimase avinto.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ma sai tu qual rifugio o quale scampo</l>
+<l>avesse il legno, il qual portò per l'onde</l>
+<l>troppo infelice e troppo nobil preda?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>In Norvegia fuggì, se 'l ver n'intesi</l>
+<l part="I">da quel prigione.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">E che di lei divenne?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Questo non so. Perch'in quel tempo stesso</l>
+<l>il re prevento fu d'acerba morte,</l>
+<l>e nove morti appresso e novi affanni</l>
+<l>turbâr de' Goti e de' Norvegi il regno.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ma del ladro marin contezza avesti?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>L'ebbi di lor. Perché fratelli entrambi</l>
+<l>furo e di nobil sangue, e 'n aspro essiglio</l>
+<l>cacciati a forza. E prigionier rimase</l>
+<l>Aldano, e lunge si ritrasse Araldo.</l>
+<l>Ma quel che vi restò, fra noi dimora.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SESTA]</add></head>
+<stage>MESSAGGERO, CORO, TORRISMONDO, FRONTONE</stage>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Questa del nostro re matura morte</l>
+<l>affrettar dee, non ritardar le nozze.</l>
+<l>Perch'egli, il giorno avanti, a sé raccolse</l>
+<l>i duci di Norvegia, e i saggi e i forti,</l>
+<l>e lor pregò ch'a la sua figlia Alvida</l>
+<l>serbassero la fede e 'nsieme il regno,</l>
+<l>di cui fatta l'avea vivendo erede.</l>
+<l>Talché lo mio venir non fia dolente,</l>
+<l>ma lieto, o di piacer temprato almeno.</l>
+<l>Perocch'il bene al male ognor si mesce,</l>
+<l>e 'l male al bene. E con sì varie tempre</l>
+<l>il dolore e la gioia ancora è mista.</l>
+<l>Ma dove fia la bella alta regina,</l>
+<l>figlia de la fortuna e figlia ancora</l>
+<l>del re già morto? A cui l'amiche stelle</l>
+<l>or fan soggetti i duo possenti regni,</l>
+<l>che 'l spumante ocean circonda e bagna,</l>
+<l>e 'l terzo, se vorrà, d'infesto, amico.</l>
+<l>Imparerò da voi la nobil reggia</l>
+<l>del re de' Goti invitto, e dove alberghi</l>
+<l part="I">la sua regina?</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l part="F">Ecco il sublime tetto:</l>
+<l>ella dentro dimora, e fuor si spazia</l>
+<l>il re nostro signore.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Siate sempre felice e co' felici,</l>
+<l>o degnissimo re d'alta regina.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>E tu, che bene auguri, e ne sei degno</l>
+<l>per buono augurio ancor. Ma sponi e narra</l>
+<l>qual cagion ti conduca, o che n'apporti.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Non rea novella a questo antico regno,</l>
+<l>a questa alta regina, a queste nozze,</l>
+<l>e buona a voi, cui tanto il cielo arrise.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">Narrala.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l part="F">A la regina io sono il messo.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Quello ch'a me si spone, a lei si narra,</l>
+<l>perché nulla è fra noi distinto e sevro.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>La Norvegia lo scettro a lei riserba.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Perché? Non regna ancora il vecchio Araldo?</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Non certo; ma 'l sepolcro in sé l'asconde.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="I">È dunque Araldo morto?</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l part="F">Il vero udisti.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>L'uccise lungo od improviso assalto</l>
+<l>de la morte crudel, che tutti ancide?</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Tosto gli antichi corpi il male atterra.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Ha ceduto a natura iniqua e parca,</l>
+<l>che la vita mortal restringe e serra</l>
+<l>dentro brevi confini e troppo angusti,</l>
+<l>quando è la vita assai minor del merto.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>A lei suo corpo, a voi concede il regno.</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Signor, quest'è pur quello ond'or si parla,</l>
+<l>che l'antica memoria ancor non perdo</l>
+<l part="I">de' sembianti e del nome.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Ei giunge a tempo.</l>
+<l>Ma riconosce ei te, se lui conosci?</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>D'avermi visto ti rimembra unquanco?</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l part="I">Non mi ricordo.</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l part="F">Io ridurollo a mente,</l>
+<l>e di quel che non sa farollo accorto;</l>
+<l>e ben so ch'ora il sa. Sovienti, amico,</l>
+<l>d'aver con quattro legni un legno preso?</l>
+<l>Che del mar trapassava il dubbio varco,</l>
+<l>ed a' liti di Gozia, in occidente</l>
+<l>conversi, rivolgea l'eccelsa poppa,</l>
+<l>avendo i Dani e i lor paesi a fronte.</l>
+<l>Io fui preso in quel legno: or mi conosci?</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Si cangia spesso la fortuna e 'l tempo,</l>
+<l>e spesso altra cagion di nostre colpe</l>
+<l>stata è l'avara e la maligna sorte.</l>
+</lg></sp>
+<sp><speaker>FRONTONE</speaker>
+<lg>
+<l>Ma che facesti de la nobil preda,</l>
+<l>de la vergine dico? È muto, o morto.</l>
+<l>Non sai ch'abbiamo il tuo fratel non lunge?</l>
+<l>Egli parli in tua vece, o tu ragiona.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>De le cose passate il fato accusa.</l>
+<l>Fu quella colpa sua, ma nostro il merto</l>
+<l>ch'a la vergine diè sì nobil padre.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Oimè, ch'io tardi intendo, e troppo intendo,</l>
+<l>e di conoscer troppo ancor pavento.</l>
+<l>Ma 'l conoscer inanzi empio destino</l>
+<l>è solazzo nel male. Or tu racconta</l>
+<l>il ver, qualunque sia: ch'alta mercede</l>
+<l>suol ritrovare il ver, non che perdono.</l>
+</lg></sp>
+<sp><speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+<lg>
+<l>Diedi la verginella al re dolente</l>
+<l>per la sua morta figlia, e die' conforto</l>
+<l>che temprasse il suo lutto e 'l suo dolore,</l>
+<l>sì che figlia si fe' la cara ancilla;</l>
+<l>che di Rosmonda poi chiamata Alvida</l>
+<l>fu co 'l nome de l'altra, ed or s'appella.</l>
+<l>L'istoria a pochi è nota, a molti ascosa.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Oimè, che troppo al fin si scopre, ahi lasso!</l>
+<l>Qual ritrovo o ricerco altro consiglio?</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SETTIMA]</add></head>
+<stage>GERMONDO, TORRISMONDO</stage>
+
+<sp><speaker><add resp="ed">[GERMONDO]</add></speaker>
+<lg>
+<l>Altro dunque è fra noi più caro mezzo,</l>
+<l>che s'interpone e ne ristringe insieme,</l>
+<l>o ne disgiunge? E non potrà Germondo</l>
+<l>saper quel ch'in sé volge il re de' Goti</l>
+<l part="I">da lui medesmo?</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l part="F">Il re de' Goti è vostro</l>
+<l>signor, come fu sempre, e vostro il regno.</l>
+<l>Ma l'altrui stabil voglia, e 'l vostro amore,</l>
+<l>e la sua dura sorte, il fa dolente.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Perturbator a voi di liete nozze</l>
+<l>non venni in Gozia; e se 'l venir v'infesta,</l>
+<l>altrui colpa è 'l venire e nostro errore;</l>
+<l>e torno indietro, e non ritorno a tempo,</l>
+<l>né duo gran falli una partenza emenda.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Fortuna errò, che volse i lieti giochi</l>
+<l>in tristi lutti e inaspettata morte,</l>
+<l>per cui, se di tal fede il messo è degno,</l>
+<l>Norvegia ha 'l re perduto, Alvida il padre.</l>
+<l>Voi se cedete i mesti giorni al pianto</l>
+<l>e fuggite il dolor nel primo incontro,</l>
+<l>io non v'arresto; e non vi chiudo il passo,</l>
+<l>s'al piacer vostro di tornar v'aggrada.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Così noto io vi sono? Al vostro lutto</l>
+<l>io potrei dimostrare asciutto il viso?</l>
+<l>Io mai sottrar le spalle al vostro incarco?</l>
+<l>Se 'l mio pianto contempra il vostro duolo,</l>
+<l>verserò 'l pianto; e se vendetta, il sangue.</l>
+</lg></sp>
+<sp><speaker>TORRISMONDO</speaker>
+<lg>
+<l>Io conobbi, Germondo, il valor vostro,</l>
+<l>che splendea com'un sole; or più risplende,</l>
+<l>né sono orbo al suo lume. Empia fortuna</l>
+<l>farmi l'alba potrà turbata e negra,</l>
+<l>e l'ocean coprir d'oscuro nembo,</l>
+<l>o pur celarmi a mezzo giorno il cielo;</l>
+<l>ma non far ch'io non veggia il vostro merto</l>
+<l>e 'l dever mio. Volli una volta, e dissi;</l>
+<l>or non muto il voler, né cangio i detti.</l>
+<l>È vostra Alvida e di Norvegia il regno;</l>
+<l>e sarà, s'io potrò. Ma più vi deggio.</l>
+<l>Perché non perdo il mio, né spargo e spando,</l>
+<l>come far io devrei, la vita e l'alma.</l>
+</lg></sp></div2>
+<div2 type="parte">
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Quale arte occulta, o qual saper adempie</l>
+<l>da le celesti sfere</l>
+<l>d'orror gli egri mortali e di spavento?</l>
+<l>Vi sono amori ed odii, e mostri e fere</l>
+<l>là su spietate ed empie,</l>
+<l>cagion di morte iniqua o di tormento?</l>
+<l>Vi son là su tiranni? E l'aria e 'l vento</l>
+<l>non ci perturban solo, e i salsi regni,</l>
+<l>co' feri aspetti, e la feconda terra,</l>
+<l>ma più gli umani ingegni?</l>
+<l>Tante ire e tanti sdegni</l>
+<l>movono e dentro a noi sì orribil guerra?</l>
+<l>O son voci onde il volgo agogna ed erra,</l>
+<l>e ciò che gira intorno</l>
+<l>è per far bello il mondo e 'l cielo adorno?</l>
+<l>	Ma, se pur d'alta parte a noi minaccia,</l>
+<l>e da' suoi regni in questi</l>
+<l>di rea fortuna or guerra indìce il fato,</l>
+<l>Leon, Tauro, Serpente, Orse celesti,</l>
+<l>qui dove il mondo agghiaccia,</l>
+<l>e gran Centauro ed Orione armato,</l>
+<l>non si renda per segno in ciel turbato</l>
+<l>l'animo invitto, e non si mostri infermo,</l>
+<l>ma co 'l valor respinga i duri colpi;</l>
+<l>che 'l destin non è fermo</l>
+<l>a l'intrepido schermo.</l>
+<l>Perch'umana virtù nulla s'incolpi,</l>
+<l>ma de l'ingiuste accuse il ciel discolpi,</l>
+<l>sovra le stelle eccelse</l>
+<l>nata, e scesa nel core, albergo felse.</l>
+<l>	Che non lece a virtù? Nel gran periglio</l>
+<l>chi di lei più sicura</l>
+<l>e presta aspira al cielo e 'n alto intende?</l>
+<l>Chi più, là dove Borea i fiumi indura,</l>
+<l>l'arme ha pronte e 'l consiglio,</l>
+<l>o dove ardente sol l'arene accende?</l>
+<l>Non la bruma o l'ardor virtute offende,</l>
+<l>non ferro, o fiamma, o venti, o rupi averse,</l>
+<l>o duri scogli a lei far ponno oltraggio:</l>
+<l>perché navi sommerse</l>
+<l>siano ed altre disperse,</l>
+<l>mandi procella infesta al gran viaggio,</l>
+<l>e 'n ciel s'estingua ogni lucente raggio.</l>
+<l>E co' più fieri spirti</l>
+<l>sprezza fortuna ancor tra scogli e sirti.</l>
+<l>	Virtù non lascia in terra o pur ne l'onde</l>
+<l>guado intentato o passo,</l>
+<l>od occulta latebra, o calle incerto.</l>
+<l>A lei s'apre la selva e 'l duro sasso,</l>
+<l>e ne l'acque profonde</l>
+<l>s'aperse a legni il monte al mare aperto.</l>
+<l>Al fin d'Argo la fama oscura e 'l merto</l>
+<l>fia di Giason, ch'a più lodate imprese</l>
+<l>porteranno altre navi i duci illustri.</l>
+<l>Avrà sue leggi prese</l>
+<l>l'ocean, che distese</l>
+<l>le braccia intorno. E già volgendo i lustri</l>
+<l>averrà che lor gloria il mondo illustri,</l>
+<l>come sol, che rotando</l>
+<l>caccia le nubi e le tempeste in bando.</l>
+<l>	Virtù scende a l'Inferno,</l>
+<l>passa Stige secura ed Acheronte,</l>
+<l>non che l'orrido bosco o l'erto monte.</l>
+<l>Virtude al ciel ritorna,</l>
+<l>e, dove prima nacque, al fin soggiorna.</l>
+</lg></sp>
+</div2></div1>
+<div1 type="atto">
+<head>ATTO QUINTO</head>
+<div2 type="scena">
+<head><add resp="ed">[SCENA PRIMA]</add></head>
+<stage>ALVIDA, NUTRICE</stage>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>In qual parte del mondo or m'ha condotta</l>
+<l>la mia fortuna, e fra qual gente avversa,</l>
+<l part="I">o dei sommi del cielo?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l part="F">Ancor temete,</l>
+<l part="I">e vi dolete ancor.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l part="F">Io più non temo,</l>
+<l>né posso più temer, che 'l male è certo,</l>
+<l>e certo il danno e la vergogna e l'onta.</l>
+<l>Già son tradita, esclusa, anzi scacciata,</l>
+<l>perch'è morto in un tempo il re mio padre</l>
+<l>e del marito mio la fede estinta.</l>
+<l>Egli da l'una parte a tutti impone</l>
+<l>ch'a me si asconda l'improvisa morte,</l>
+<l>da l'altra ei mi conforta e mi comanda</l>
+<l>ch'io pensi a novo sposo o a novo amante,</l>
+<l>e mi chiama sorella, e mi discaccia</l>
+<l>con questo nome.</l>
+<l>O mar di Gozia, o lidi, o porti, o reggia,</l>
+<l>che raccogliesti le regine antiche,</l>
+<l>dove ricovro, ahi lassa, o dove fuggo?</l>
+<l>Dove m'ascondo più? Nel proprio regno,</l>
+<l>u' l'alta sede il mio nemico ingombri,</l>
+<l>perch'io vi serva? O 'n più odiosa parte</l>
+<l>spero trovar pietà, tradita amante,</l>
+<l>anzi tradita sposa?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>È possibil giammai che tanto inganno</l>
+<l>alberghi in Torrismondo e tanta fraude?</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>È possibile, è vero, è certo, è certa</l>
+<l>la sua fraude e 'l mio scorno e l'altrui morte;</l>
+<l>anzi la violenza è certa, e 'nsieme</l>
+<l>la mia morte medesma, oh me dolente!</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Certa la fate voi d'incerta e dubbia,</l>
+<l>or facendovi incontra al male estremo;</l>
+<l>ma pur non fu tanto importuna unquanco</l>
+<l>l'iniqua, inesorabile, superba,</l>
+<l>né con tanto disprezzo e tanto orgoglio</l>
+<l>perturbò a' lieti amanti un dì felice.</l>
+<l>Ma son tutti, morendo il padre vostro,</l>
+<l>seco estinti gli amici e i fidi servi</l>
+<l>e i suoi cari parenti? E spente insieme</l>
+<l>l'onestà, la vergogna e la giustizia?</l>
+<l>Né secura è la fede in parte alcuna?</l>
+<l>Già tutte siam tradite e quasi morte,</l>
+<l>se non è vano il timor vostro e 'l dubbio.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>O morì la giustizia il giorno istesso</l>
+<l>co 'l giustissimo vecchio, o seco sparve,</l>
+<l>e fe' seco volando al ciel ritorno.</l>
+<l>E la forza e la fraude e 'l tradimento</l>
+<l>presero ogni alma ed ingombrâr la terra.</l>
+<l>Non ardisce la fede erger la destra,</l>
+<l>e l'onor più non osa alzar la fronte.</l>
+<l>E la ragione è muta, anzi lusinga</l>
+<l>la possente fortuna. Al fato averso</l>
+<l>cede il senno e 'l consiglio, e cede al ferro</l>
+<l>maestà di temute antiche leggi,</l>
+<l>mentre a guisa di tuono altrui spaventa</l>
+<l>e d'arme e di minacce alto ribombo.</l>
+<l>È re chiamato il forte. Al forte il regno,</l>
+<l>altrui malgrado, è supplicando offerto,</l>
+<l>e ciò che piace al più possente è giusto.</l>
+<l>Io non gli piaccio, e 'l suo piacer conturbo</l>
+<l>io sola; e de' Norvegi or preso il regno,</l>
+<l>la regina rifiuta il re sublime</l>
+<l part="I">de' magnanimi Goti.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l part="F">A detti falsi</l>
+<l>forse troppo credete; e 'l dritto e 'l torto</l>
+<l>alma turbata e mesta, egra d'amore,</l>
+<l>non conosce sovente, e non distingue</l>
+<l>dal vero il falso, e l'un per l'altro afferma.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Siasi de la novella, e del messaggio,</l>
+<l>e de la fé norvegia, e del mio regno</l>
+<l>e degli ordini suoi turbati e rotti</l>
+<l>ciò che vuol la mia sorte, o 'l mio nemico:</l>
+<l>basta ch'ei mi rifiuta; e 'l vero io ascolto</l>
+<l>del rifiuto crudele. Io stessa, io stessa</l>
+<l>con questi propi orecchi udii pur dianzi:</l>
+<l>– Alvida, il vostro sposo è 'l re Germondo,</l>
+<l>non vi spiaccia cangiar l'un re ne l'altro,</l>
+<l>e l'un ne l'altro valoroso amico,</l>
+<l>ed al nostro voler concorde e fermo</l>
+<l>il vostro non discordi. – In questo modo</l>
+<l>mi concede al suo amico, anzi al nemico</l>
+<l>del sangue mio. Così vuol ch'io m'acqueti</l>
+<l>nel voler d'uno amante e d'un tiranno.</l>
+<l>Così l'un re mi compra e l'altro vende</l>
+<l>ed io son pur la serva, anzi la merce</l>
+<l>fra tanta cupidigia e tal disprezzo.</l>
+<l>Udisti mai tal fede? Udisti cambio</l>
+<l>tanto insolito al mondo e tanto ingiusto?</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Senza disprezzo, forse, e senza sdegno</l>
+<l>è questo cambio. Alta ragione occulta</l>
+<l>dee movere il buon re: che d'opra incerta</l>
+<l>sovente il buon consiglio altrui s'asconde.</l>
+</lg></sp>
+<sp><speaker>ALVIDA</speaker>
+<lg>
+<l>La ragion, ch'egli adduce, è finta e vana</l>
+<l>e in me lo sdegno accresce, in me lo scorno,</l>
+<l>mentre il crudel così mi scaccia e parte</l>
+<l>prende gioco di me. – Marito vostro,</l>
+<l>mi disse, è 'l buon Germondo, ed io fratello. –</l>
+<l>Ed adornando va menzogne e fole</l>
+<l>d'un rapto antico e d'un'antica fraude.</l>
+<l>E mi figura e finge un bosco, un antro</l>
+<l>di ninfe incantatrici. E 'l falso inganno</l>
+<l>vera cagione è del rifiuto ingiusto,</l>
+<l>e fia di peggio. E Torrismondo è questi,</l>
+<l>questi, che mi discaccia, anzi m'ancide,</l>
+<l>questi, ch'ebbe di me le prime spoglie,</l>
+<l>or l'ultime n'attende, e già se 'n gode;</l>
+<l>e questi è 'l mio diletto e la mia vita.</l>
+<l>Oggi d'estinto re sprezzata figlia</l>
+<l>son rifiutata. O patria, o terra, o cielo,</l>
+<l>rifiutata vivrò? Vivrò schernita?</l>
+<l>Vivrò con tanto scorno? Ancora indugio?</l>
+<l>Ancor pavento? E che? La morte, o 'l tardi</l>
+<l>morire? Ed amo ancora? Ancor sospiro?</l>
+<l>Lacrimo ancor? Non è vergogna il pianto?</l>
+<l>Che fan questi sospir? Timida mano,</l>
+<l>timidissimo cor, che pur agogni?</l>
+<l>Mancano l'arme a l'ira, o l'ira a l'alma?</l>
+<l>Se vendetta non vuoi, né vuole amore,</l>
+<l>basta un punto a la morte. Or mori, ed ama</l>
+<l>morendo; e se la morte estingue amore,</l>
+<l>l'anima estingua ancor, che vera morte</l>
+<l>non saria, se vivesse amore e l'alma.</l>
+</lg></sp>
+<sp><speaker>NUTRICE</speaker>
+<lg>
+<l>Deh, lasciate pensier crudele ed empio.</l>
+<l>Niun vi sforza ancora o vi discaccia:</l>
+<l>ma v'onora ciascuno, ed ancor donna</l>
+<l>sete di voi medesma, e di noi tutte</l>
+<l>sete e sarete sempre alta regina.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SECONDA]</add></head>
+<stage>REGINA</stage>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Dopo tanti anni e lustri un dì sereno,</l>
+<l>un chiaro e lieto dì fortuna apporta.</l>
+<l>Ogni cosa là dentro è fatta adorna</l>
+<l>e ridente, e di gemme e d'or riluce.</l>
+<l>Duo lieti matrimoni in un sol giorno,</l>
+<l>due regi e due regine aggiunte insieme,</l>
+<l>duo figli, anzi pur quattro; e quinci e quindi</l>
+<l>pur con sangue real misto il mio sangue,</l>
+<l>e bellezza e valore e gloria e pompa,</l>
+<l>e molte in una reggia amiche genti,</l>
+<l>e doni e giostre e cari e lieti balli,</l>
+<l>oggi vedrò contenta. Ahi nostra mente,</l>
+<l>che ti contenta o chi t'appaga in terra,</l>
+<l>se non si può d'empio destin superbo</l>
+<l>mutar piangendo la severa legge,</l>
+<l>né sua ragion ritorre a fera morte?</l>
+<l>Lassa, non questa fronte essangue e crespa,</l>
+<l>o questa coma che più rara imbianca,</l>
+<l>o gli umeri già curvi e 'l piè tremante</l>
+<l>scemano il mio piacer. Ma tu sol manchi,</l>
+<l>o mio già re, già sposo, a queste nozze,</l>
+<l>o de' figliuoli miei signore e padre.</l>
+<l>Deh, se rimiri mai del ciel sereno</l>
+<l>de' tuoi diletti e miei l'amato albergo,</l>
+<l>e se ritorni a consolarmi in sonno,</l>
+<l>sii presente, se puoi. Risguarda i figli,</l>
+<l>o padre, e di famosa e chiara stirpe</l>
+<l>lieto l'onor ti faccia, amico spirto.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA TERZA]</add></head>
+<stage>ROSMONDA <emph>sola</emph></stage>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l>Ancor mi vivo di mio stato incerta,</l>
+<l>ancor pavento e spero e bramo e taccio,</l>
+<l>e del parlar mi pento e de l'ardire,</l>
+<l>e poi del mio pentire io mi ripento.</l>
+<l>Quel che sarà non so, che non governa</l>
+<l>queste cose mortali il voler nostro,</l>
+<l>ma 'l voler di colui che tutto regge.</l>
+<l>Però questo solenne e lieto giorno</l>
+<l>visiterò devota i sacri altari,</l>
+<l>ed offrirò queste ghirlande al tempio</l>
+<l>di vergini viole e d'altri fiori,</l>
+<l>persi, gialli, purpurei, azurri e bianchi,</l>
+<l>ch'in su l'aurora io colsi, e poi contesti</l>
+<l>gli ho di mia mano. Or degni il re del cielo</l>
+<l>gradir la mia devota e pura mente,</l>
+<l>ed al settentrion gli occhi rivolga</l>
+<l>pietosamente e con benigno sguardo.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUARTA]</add></head>
+<stage>CAMERIERO, CORO</stage>
+<sp><speaker><add resp="ed">[CAMERIERO]</add></speaker>
+<lg>
+<l>O Gozia, o d'Aquilone invitto regno,</l>
+<l>o patria antica, oggi è tua gloria al fondo,</l>
+<l>oggi è 'l sostegno tuo caduto e sparso,</l>
+<l>oggi fera cagion d'eterno pianto</l>
+<l part="I">a te si porge.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l part="F">Ahi, che dolente voce</l>
+<l>mi percote gli orecchi e giunge al core.</l>
+<l part="I">Che fia?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Misera madre e mesto giorno,</l>
+<l>reggia infelice, e chi vi more e vive</l>
+<l>infelice egualmente. Orribil caso!</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Narralo, e dà principio al mio dolore.</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>Il re doglioso a la dolente Alvida</l>
+<l>già detto avea ch'al suo fedel Germondo</l>
+<l>esser moglie devea, con brevi preghi</l>
+<l>stringendo lei ch'in questo amor contenta,</l>
+<l>come ben convenia, quetasse il core,</l>
+<l>che l'altre cose poi saprebbe a tempo.</l>
+<l>Ma del suo padre l'improvisa morte,</l>
+<l>per occulta cagion tenuta ascosa,</l>
+<l>accrebbe in lei sospetto e duolo e sdegno,</l>
+<l>ch'in furor si converse e 'n nova rabbia,</l>
+<l>pur come fosse già schernita amante,</l>
+<l>data in preda al nemico; onde s'ancise,</l>
+<l>passando di sua man co 'l ferro acuto</l>
+<l>il suo tenero petto.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Ahi troppo frettolosa! Ahi cruda morte,</l>
+<l part="I">estremo d'ogni male!</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Il male integro</l>
+<l>non sapete anco. Il re stesso offese</l>
+<l>nel modo istesso, e giace appresso estinto.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Ahi, ahi, ahi, crudel morte e crudel fato!</l>
+<l>Quale altro più gravoso oltraggio o danno</l>
+<l>può farci la fortuna o 'l cielo averso?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>Non so. Ma l'un dolore aggiunge a l'altro,</l>
+<l>l'una a l'altra ruina. E 'n forte punto</l>
+<l>oggi è la stirpe sua recisa e tronca.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Misera ed orba madre, ove s'appoggia</l>
+<l>la cadente vecchiezza, e chi sostienla?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>L'infelice non sa d'aver trovato</l>
+<l>Oggi una figlia e duo perduti insieme,</l>
+<l>e forse lieta ogni passato affanno</l>
+<l>in tutto oblia, non sol consola e molce,</l>
+<l>e di gioia e piacere ha colmo il petto.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Or chi le narrerà l'aspro destino</l>
+<l part="I">de' suoi morti figliuoli?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Io non ardisco</l>
+<l>con questo aviso di passarle il core.</l>
+<l>Ma già tutto d'orrore e di spavento</l>
+<l>là dentro è pieno il suo reale albergo,</l>
+<l>e risonare i tetti e l'ampie logge</l>
+<l>odono intorno di femineo pianto,</l>
+<l>e di battersi il petto e palma a palma,</l>
+<l>e di meste querele e di lamenti:</l>
+<l>tanto timor, tanto dolore ingombra</l>
+<l>le femine norvegie. E men dolenti</l>
+<l>sarian, se, fatte serve in cruda guerra,</l>
+<l>fossero da nemici infesti ed empi,</l>
+<l>e temessero omai di morte e d'onta.</l>
+<l>E l'altre sconsolate e meste donne</l>
+<l>consolarne non ponno, anzi, piangendo</l>
+<l>parte, pianger fariano un cor selvaggio</l>
+<l>del suo dolore, e lacrimar le pietre.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>E noi, che parte abbiamo in tanto danno,</l>
+<l>non sapremo anco più distinti i modi</l>
+<l part="I">d'una morte e de l'altra?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Il re trovolla</l>
+<l>pallida, essangue, onde le disse: – Alvida,</l>
+<l>Alvida, anima mia, che odo, ahi lasso,</l>
+<l>che veggio? Ahi qual pensiero, ahi qual inganno,</l>
+<l>qual dolor, qual furor così ti spinse</l>
+<l>a ferir te medesma? Oimè, son queste</l>
+<l>piaghe de la tua mano? – Allor gravosa</l>
+<l>ella rispose con languida voce:</l>
+<l>– Dunque viver devea d'altrui che vostra,</l>
+<l>e da voi rifiutata?</l>
+<l>E potea co 'l vostro odio e co 'l disprezzo,</l>
+<l>se de l'amor vivea?</l>
+<l>Assai men grave è il rifiutar la vita,</l>
+<l>e men grave il morire.</l>
+<l>Già fuggir non poteva in altra guisa</l>
+<l>tanto dolore.</l>
+<l>Ei ripigliò que' suoi dogliosi accenti:</l>
+<l>– Tanto dolore io sosterrò vivendo?</l>
+<l>O 'n altra guisa io morrei dunque, Alvida,</l>
+<l>se voi moriste? Ah, no 'l consenta il cielo!</l>
+<l>Io vi potrei lasciare, Alvida, in morte?</l>
+<l>Con le ferite vostre il cor nel petto</l>
+<l>voi mi passaste, Alvida.</l>
+<l>E questo vostro sangue è sangue mio,</l>
+<l>o Alvida sorella,</l>
+<l>così voglio chiamarvi. – E 'l ver le disse,</l>
+<l>e confermò giurando e lagrimando</l>
+<l>l'inganno e 'l fallo de l'ardita destra.</l>
+<l>Ella parte credeva, e già pentita</l>
+<l>parea d'abbandonar la chiara luce</l>
+<l>nel fior degli anni, e rispondea gemendo:</l>
+<l>– In quel modo che lece io sarò vostra,</l>
+<l>quanto meco potrà durar questa alma,</l>
+<l>e poi vostra morrommi.</l>
+<l>Spiacemi sol che 'l morir mio vi turbi,</l>
+<l>e v'apporti cagion d'amara vita. –</l>
+<l>Egli, pur lagrimando, a lei soggiunse:</l>
+<l>– Come fratello omai, non come amante,</l>
+<l>prendo gli ultimi baci. Al vostro sposo</l>
+<l>gli altri pregata di serbar vi piaccia,</l>
+<l>che non sarà mortal sì duro colpo. –</l>
+<l>Ma in van sperò, perché l'estremo spirto</l>
+<l>ne la bocca di lui spirava; e disse:</l>
+<l>– O mio più che fratello e più ch'amato,</l>
+<l>esser questo non pò, che morte adombra</l>
+<l>già le mie luci. –</l>
+<l>Dapoi ch'ella fu morta, il re sospeso</l>
+<l>stette per breve spazio; e muto e mesto,</l>
+<l>da la pietate e da l'orror confuso,</l>
+<l>il suo dolor premea nel cor profondo.</l>
+<l>Poi disse: – Alvida, tu sei morta, io vivo</l>
+<l>senza l'anima? – E tacque.</l>
+<l>E scrisse questa lettra, e la mi porse</l>
+<l>dicendo: – Porteraila al re Germondo,</l>
+<l>e quanto avrai di me sentito e visto,</l>
+<l>tutto gli narra, e scusa il nostro fallo. –</l>
+<l>Così disse. E mentre io pensoso attendo,</l>
+<l>dal suo fianco sinistro ei prese il ferro,</l>
+<l>e si trafisse con la destra il petto,</l>
+<l>senza parlar, senza mutar sembianza,</l>
+<l>pur come fosse lieto in far vendetta.</l>
+<l>Io gridai, corsi, presi il braccio indarno,</l>
+<l>non anco debil fatto. Ei mi respinse</l>
+<l>con quel valor che non ha pari al mondo,</l>
+<l>dicendo: – Amico, al mio voler t'acqueta,</l>
+<l>e ne la tua fortuna. A te morendo</l>
+<l>lascio il più caro officio e 'l più lodato,</l>
+<l>un signor più felice, un re più degno,</l>
+<l>e la memoria mia.</l>
+<l>Ch'ognun la cara vita altrui pò tôrre,</l>
+<l>ma la morte, nessuno. –</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA QUINTA]</add></head>
+<stage>GERMONDO, CAMERIERO</stage>
+
+<sp><speaker><add resp="ed">[GERMONDO]</add></speaker>
+<lg>
+<l>Qual suon dolente il lieto dì perturba?</l>
+<l>E di confuse voci e d'alte strida</l>
+<l>qual tumulto s'aggira? E di temenza</l>
+<l>son questi, o di gran doglia incerti segni?</l>
+<l>Forse è dentro il nemico, o pur s'aspetta?</l>
+<l>Ma sia che può, non sarò giunto indarno;</l>
+<l>e dar non si potrà Norvegio o Dano</l>
+<l>del suo fallace ardir superbo vanto.</l>
+<l>Qual pazzia sì gli affida, o quale inganno,</l>
+<l>se Torrismondo ha 'l fido amico appresso?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>Oimè, che Torrismondo altro nemico</l>
+<l>non ebbe che se stesso e la sua fede.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker><lg>
+<l>Qual nemicizia intendi, o che ragioni?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>Ei, signor, la vi spone, e qui la narra.</l>
+<l>Perché questa è sua carta, io fido servo.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Oimè, quel ch'io leggo e quel ch'intendo!</l>
+<l>Odi le sue parole e 'l mio dolore.</l>
+<l>– Scrivo inanzi al morire, e tardi io scrivo,</l>
+<l>e tardi io muoio. Altri m'è corso inanzi,</l>
+<l>e la sua morte di morir m'insegna,</l>
+<l>perch'io muoia più mesto e più dolente,</l>
+<l>una donna seguendo, e sia l'estremo</l>
+<l>chi 'l primo esser devea spargendo il sangue,</l>
+<l>non per lavar, ma per fuggir la colpa,</l>
+<l>ch'or porterò come gravoso pondo</l>
+<l>per questa ultima via. Morrò lasciando</l>
+<l>di moglie in vece a voi canuta madre;</l>
+<l>perché la mia sorella a me la fede</l>
+<l>o 'l poterla osservare, a sé la vita,</l>
+<l>a voi se stessa ha tolto. O vero amico,</l>
+<l>se vero amico mi può far la morte,</l>
+<l>vero amico sono io. Prendete il regno,</l>
+<l>non ricusate or la corona e 'l manto,</l>
+<l>e d'amico fedele il nome e l'opre.</l>
+<l>Siate a cadente vecchia alto sostegno</l>
+<l>in vece mia. Non disprezzate i preghi,</l>
+<l>non disdegnate in su l'orribil passo</l>
+<l>che tal mi chiami e di tal nome onori</l>
+<l>l'acerba morte mia, che tutto solve,</l>
+<l>fuorché l'obbligo mio ch'a voi mi strinse.</l>
+<l>Vivete voi, che 'l valor vostro è degno</l>
+<l>d'eterna vita, e l'amicizia e 'l merto.</l>
+<l>Io chiedo questa grazia a voi morendo. –</l>
+<l>O dolente principio, o fin dolente!</l>
+<l>Ma che pensa? Dov'è? Non vive ancora?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>Visse, lasciò la moglie, or lascia il regno;</l>
+<l>e l'uno è tuo, l'altro pur volle il fato.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Oscuro è quel che narri, e quel ch'accenna</l>
+<l part="I">il tuo signor.</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Ei riconobbe Alvida</l>
+<l>la sua vera sorella, e poi s'uccise,</l>
+<l>come credo io, per emendare il fallo</l>
+<l part="I">In voi commesso.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">Era sorella adunque?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="I">Era, e saprete come.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">Ahi, troppo a torto</l>
+<l>tanto si diffidò nel fido amico,</l>
+<l>che la mia fede, e non la sua, condanna</l>
+<l>con la sua morte. Oimè, qual grave colpa</l>
+<l>non perdona amicizia o non difende?</l>
+<l>Meno offeso m'avria volgendo il ferro</l>
+<l>contra il mio petto. Anzi io morir devea,</l>
+<l>ch'a lui diedi cagion d'acerba morte.</l>
+<l>Ahi fortuna, ahi promesse, ahi fede, ahi fede,</l>
+<l>così t'osserva, e così dona il regno?</l>
+<l part="I">Così me prega?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Il ciel fe' scarso il dono,</l>
+<l>e la sua Parca e la fortuna aversa,</l>
+<l>non l'ultimo voler; che tutto ei diede</l>
+<l part="I">quanto darvi potea.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">Tutto ei mi tolse,</l>
+<l>togliendomi se stesso. Amor crudele,</l>
+<l>tu sei cagion del mio spietato affanno,</l>
+<l>tu mi togli l'amico e tu l'amata,</l>
+<l>e tu gli uccidi, e mi trafiggi il petto</l>
+<l>con duo colpi mortali. Io tutto perdo</l>
+<l>poiché lui perdo. Oimè dolente acquisto,</l>
+<l>dannoso acquisto, in cui perde se stessa</l>
+<l>la nova sposa, e 'l re se stesso e gli altri,</l>
+<l>e 'l suo figliuol la madre, e 'l vero amico</l>
+<l>l'amico suo, né ritrovò l'amante;</l>
+<l>la milizia l'onor, ch'orba divenne;</l>
+<l>questo regno, il signore; io, la speranza</l>
+<l>d'ogni mia gloria e d'ogni mio diletto.</l>
+<l>Perdere ancora il cielo il sol devrebbe,</l>
+<l>e 'l sole i raggi, e la sua luce il giorno,</l>
+<l>e per pietà celar l'oscura notte</l>
+<l>il fallo altrui co 'l tenebroso manto;</l>
+<l>perdere il mare i lidi, e l'alte sponde</l>
+<l>gli ondosi fiumi, e ricoprir la terra</l>
+<l>ingrata, or che non sente e non conosce</l>
+<l>il danno proprio, e non s'adira e sterpe</l>
+<l>faggi, orni, pini, cerri, antiche querce,</l>
+<l>alti sepolcri, e d'infelice morte</l>
+<l>dolente e mesto albergo, o pur non crolla</l>
+<l>questa gran reggia e le superbe torri,</l>
+<l>e non percote i monti a' duri monti,</l>
+<l>e non rompe i lor gioghi, e i gravi sassi</l>
+<l>da l'aspre rupi non trabocca al fondo,</l>
+<l>e nel suo grembo alta ruina involve</l>
+<l>di mete, di colossi e di colonne,</l>
+<l>perché sia non angusta e 'ndegna tomba;</l>
+<l>e da valli e da selve e da spelunche</l>
+<l>con spaventose voci alto non mugge,</l>
+<l>per far l'essequie con l'estremo pianto,</l>
+<l>che darà al mondo ancor perpetuo affanno.</l>
+</lg></sp></div2>
+<div2 type="scena">
+<head><add resp="ed">[SCENA SESTA]</add></head>
+<stage>REGINA, CAMERIERO, GERMONDO, ROSMONDA, CORO</stage>
+
+<sp><speaker><add resp="ed">[REGINA]</add></speaker>
+<lg>
+<l>Deh, che si tace a me, che si nasconde?</l>
+<l>Sola non saprò io, schernita vecchia,</l>
+<l>di chi son madre, o pur se madre io sono?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l>Regina, oggi la sorte il vero scopre,</l>
+<l>ch'a tutti noi molti anni occulto giacque.</l>
+<l>Però non accusar nostro consiglio,</l>
+<l>ch'a te non fu cagion d'alcuno inganno;</l>
+<l>ma qui si mostri il tuo canuto senno.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Se pur questa non è mia vera figlia,</l>
+<l part="I">qual altra è dunque?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Partoristi un'altra,</l>
+<l>prima Rosmonda e poi chiamata Alvida,</l>
+<l>del buon re tuo marito e signor nostro;</l>
+<l>ma per sua poi nudrilla il re norvegio.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Tanto dolor per ritrovata figlia</l>
+<l>e trovata sorella? Altro pavento</l>
+<l>che disturbate nozze. Altro si perde.</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="I">Oimè lasso!</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="F">Qual silenzio è questo?</l>
+<l part="I">Ov'è la mia Rosmonda?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F">Ov'ella volse.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l part="I">E Torrismondo?</l>
+</lg></sp>
+<sp><speaker>CAMERIERO</speaker>
+<lg>
+<l part="F"> In quel medesmo loco,</l>
+<l part="I">ov'egli volle.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">Altre percosse in prima</l>
+<l>hai sostenute di fortuna aversa;</l>
+<l>ora questi soffrir più gravi colpi,</l>
+<l>che già primi non sono, al fin convienti,</l>
+<l>o mia saggia regina e saggia madre,</l>
+<l>che s'altri figli avesti, or son tuo figlio:</l>
+<l>non mi sdegnar, benché sia grave il danno.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Ahi, ahi, ahi, dice: Avesti; io non gli ho dunque?</l>
+<l>Non respiran più dunque</l>
+<l part="I">i miei duo cari figli?</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l part="F">Ahi, che non caggia!</l>
+<l>Deh quinci Torrismondo e quindi Alvida,</l>
+<l>quinci vera amicizia e quindi amore</l>
+<l>fanno degli occhi miei duo larghi fonti</l>
+<l>d'amarissimo pianto, e 'l core albergo</l>
+<l>d'infiniti sospiri. E 'n tanto affanno</l>
+<l>e fra tanti dolori ha sì gran parte</l>
+<l>la pietà di costei. Misera vecchia,</l>
+<l>e più misera madre! Oimè, quel giorno</l>
+<l>ch'ella sperava più d'esser felice,</l>
+<l>è fatta di miseria estremo essempio.</l>
+<l>Io sarò suo conforto, anzi sostegno.</l>
+<l>Io farò questo, lagrimando insieme,</l>
+<l>dolente sì, ma pur dovuto officio</l>
+<l>e pieno di pietà. Consenta almeno</l>
+<l part="I">ch'io la sostegna.</l>
+</lg></sp>
+<sp><speaker>ROSMONDA</speaker>
+<lg>
+<l part="F">Oh foss'io morta in fasce,</l>
+<l>o 'n questo giorno almen, turbato e fosco,</l>
+<l>mentre egli fu sì lieto e sì tranquillo.</l>
+<l>Bello e dolce morire era allor quando</l>
+<l>io fatto non l'avea dolente e tristo.</l>
+<l>Io misera il perturbo, e l'alta reggia</l>
+<l>io riempio d'orrore e di spavento.</l>
+<l>Io la corona atterro e crollo il seggio.</l>
+<l>Io d'error fui cagione, or son di morte</l>
+<l>al mio signore. Or m'offrirò per figlia</l>
+<l>a questa orba regina ed orba madre,</l>
+<l>la qual pur dianzi ricusai per madre.</l>
+<l>E ricusai, misera me, l'amore,</l>
+<l>e ricusai l'onore,</l>
+<l>serva troppo infelice,</l>
+<l>ch'era pur meglio ch'io morissi in culla,</l>
+<l>innocente fanciulla.</l>
+</lg></sp>
+<sp><speaker>CORO</speaker>
+<lg>
+<l>A piangere impariamo il vostro affanno</l>
+<l>nel comune dolor che tutti afflige.</l>
+<l>Al signor nostro omai quale altro onore</l>
+<l>far possiam che di lagrime dolenti?</l>
+<l>Al signor nostro, il qual fu lume e speglio</l>
+<l>di virtute e d'onor, chi nega il pianto?</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Ahi, chi mi tiene in vita?</l>
+<l>O vecchiezza vivace,</l>
+<l>a che mi serbi ancora?</l>
+<l>Non de' miei dolci figli</l>
+<l>a le bramate nozze,</l>
+<l>non al parto felice</l>
+<l>de' nepoti mi serbi.</l>
+<l>Al duolo amaro, al lutto,</l>
+<l>a la morte, a la tomba</l>
+<l>de' miei duo cari figli,</l>
+<l>or mi conserva il fato.</l>
+<l>Ahi, ahi, ahi, ahi,</l>
+<l>ch'io non gli trovo, e cerco,</l>
+<l>misera me dolente,</l>
+<l>pur di vederli in vano.</l>
+<l>Ahi, dove sono?</l>
+<l>Ahi, chi gli asconde?</l>
+<l>O vivi, o morti,</l>
+<l>anzi pur morti.</l>
+<l>Oimè,</l>
+<l>oimè!</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Quetate il duol, che tutto scopre il tempo.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Signor, se dura morte</l>
+<l>i miei figlioli estinse,</l>
+<l>che non me 'l puoi negare,</l>
+<l>e certo non me 'l nieghi,</l>
+<l>ma co 'l pianto il confermi</l>
+<l>e co' mesti sospiri,</l>
+<l>abbi pietà, ti prego,</l>
+<l>di me: passami il petto,</l>
+<l>e fa ch'io segua omai</l>
+<l>l'uno e l'altro mio figlio,</l>
+<l>già stanca e tarda vecchia,</l>
+<l>e sconsolata madre</l>
+<l>meschina.</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>S'io potessi, regina, i figli vostri</l>
+<l>con la mia morte ritornare in vita,</l>
+<l>sì 'l farei senza indugio, e 'n altro modo</l>
+<l>creder non posso di morir contento.</l>
+<l>Ma, poi che legge il nega aspra e superba</l>
+<l>di spietato destin, vivrò dolente</l>
+<l>sol per vostro sostegno e vostro scampo.</l>
+<l>E saran con funebre e nobil pompa</l>
+<l>i vostri cari figli ambo rinchiusi</l>
+<l>in un grande e marmoreo sepolcro:</l>
+<l>perché questo è de' morti onore estremo,</l>
+<l>benché ad invitti re, famosi in arme,</l>
+<l>sia tomba l'universo e 'l cielo albergo.</l>
+<l>A voi dunque vivrò, regina e madre:</l>
+<l>voi sarete regina, io vostro servo,</l>
+<l>e vostro figlio ancor, se troppo a sdegno</l>
+<l>voi non m'avete. A voi la spada io cingo,</l>
+<l>per voi non gitto la corona o calco,</l>
+<l>non spargo l'arme sì felici un tempo,</l>
+<l>e non verso lo spirto e spando il sangue.</l>
+<l>Pronto a' vostri servigi, al vostro cenno,</l>
+<l>sinché le membra reggerà quest'alma,</l>
+<l>sarà co 'l proprio regno il re Germondo.</l>
+</lg></sp>
+<sp><speaker>REGINA</speaker>
+<lg>
+<l>Oimè, che la mia vita</l>
+<l>è quasi giunta al fine,</l>
+<l>ed io pur anco vivo,</l>
+<l>perché l'amata vista</l>
+<l>mi faccia di morire</l>
+<l>via più bramosa</l>
+<l>co' dolci figli,</l>
+<l>ahi, ahi, ahi, ahi!</l>
+</lg></sp>
+<sp><speaker>GERMONDO</speaker>
+<lg>
+<l>Oimè, che non trapassi. O donne, o donne,</l>
+<l>portatela voi dentro, abbiate cura,</l>
+<l>che 'l dolor non l'uccida, o tosco, o ferro.</l>
+<l>O mia vita non vita, o fumo, od ombra</l>
+<l>di vera vita, o simolacro, o morte!</l>
+</lg></sp></div2>
+<div2 type="parte">
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Ahi lacrime, ahi dolore:</l>
+<l>passa la vita e si dilegua e fugge,</l>
+<l>come giel che si strugge.</l>
+<l>	Ogni altezza s'inchina, e sparge a terra</l>
+<l>ogni fermo sostegno,</l>
+<l>ogni possente regno</l>
+<l>in pace cadde al fin, se crebbe in guerra.</l>
+<l>E come raggio il verno, imbruna e more</l>
+<l>gloria d'altrui splendore;</l>
+<l>	e come alpestro e rapido torrente,</l>
+<l>come acceso baleno</l>
+<l>in notturno sereno,</l>
+<l>come aura, o fumo, o come stral, repente</l>
+<l>volan le nostre fame, ed ogni onore</l>
+<l>sembra languido fiore.</l>
+<l>	Che più si spera o che s'attende omai?</l>
+<l>Dopo trionfo e palma,</l>
+<l>sol qui restano a l'alma</l>
+<l>lutto e lamento e lagrimosi lai.</l>
+<l>Che più giova amicizia, o giova amore?</l>
+<l>Ahi lagrime, ahi dolore!</l>
+</lg></sp></div2>
+<trailer>IL FINE</trailer>
+</div1>
+
+</body>
+</text>
+</TEI.2>

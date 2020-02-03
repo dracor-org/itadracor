@@ -1,0 +1,3586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Gl'innamorati</title>
+      <author>Carlo Goldoni</author>
+    </titleStmt>
+    <extent>168 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000556</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Carlo Goldoni : teatro</title>
+        <title type="part">La locandiera, La sposa persiana, Il campiello, Gl'innamorati, I rusteghi, Le smanie per la villeggiatura</title>
+        <author>Goldoni, Carlo</author>
+        <editor id="ed">Pieri, Marzia</editor>
+        <publisher>Einaudi</publisher>
+        <pubPlace>Torino</pubPlace>
+        <date>1991</date>
+        <note>Fa parte di: Il Teatro Italiano : 4 : Teatro del Settecento</note>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <editorialDecl><p>Quando nell'originale cartaceo nella lista dei personaggi la medesima descrizione era attribuita a più di un personaggio con una parentesi graffa, la descrizione è stata ripetuta per ciascun personaggio cui era stata attribuita.</p></editorialDecl><classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita"/></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - LETTERATURA DRAMMATICA ITALIANA. 1748-1814</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-01-12T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica con software</item>
+    </change>
+    <change>
+      <date>2004-01-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<opener><salute><hi rend="sc">ALL'ILLUSTRISS. SIGNOR BARONE</hi>
+ANTONIO ANCAJANI
+<hi rend="sc">NOBILE SPOLETINO</hi></salute></opener>
+<p><emph>Mi è sempre restata impressa nell'animo, Illustriss. Signor
+Barone, la somma cortesia, con cui ella voleami ospite in casa sua nel mio
+ritorno da Roma, e avrei approfittato delle grazie sue, se il desiderio
+di riveder la Toscana non mi avesse preventivamente determinato a
+prendere il più disastroso cammino. Ho abbracciato con giubbilo gli
+amici miei di Firenze, ma mi è costato il discapito di non conoscere in
+Lei un Cavaliere, degnissimo di essere conosciuto, ed amato. Ho
+concepita assai più una tal perdita ora, ch'Ella si è qui portata, poiché la
+gentilezza sua, e il tratto amabile, e il saggio suo ragionare mi fanno
+maggiormente pentire di non avere tre anni prima di sì gran bene partecipato.
+Vorrei risarcirmi, se io lo potessi, ma ella è qui per un affare
+piissimo, che l'interessa, ed io sono, malamente occupato, ma quasi
+continuamente occupato. So non per tanto, ch'ella ne' suoi respiri legge
+le opere mie volentieri, e va talvolta al Teatro a vederle rappresentare,
+e parla poi di esse, e di me in una maniera che vale a colmarmi di
+onore, e di consolazione. Avvi una spia onorata, che mi riporta i
+sentimenti di Lei cortesi, ed umani. Questi è un amico, ch'io stimo, ed
+amo, e so essere da Lei amato, e stimato; è questi il Signor Marco Milesi,
+giovane di bel talento, di cuore aperto, e d'illibato costume, ed è
+quegli appunto, che procurommi da lungi il di Lei Patrocinio, e cose di
+Lei m'ha detto capaci d'innamorare ogni uomo onesto, e sincero. No,
+non tema, Illustrissimo Signor Barone, ch'io voglia ridirle in faccia
+tutto ciò, che di Lei mi ha detto, e quanto io medesimo ho potuto poi
+rilevare. Non vorrei eccitare la di lei modestia a rimproverare l'amico,
+e meritarmi il di Lei sdegno in tempo, che bramo sempre più assicurarmi
+del suo benignissimo affetto. Questo Foglio le caderà sotto gli
+occhi, perch 'io intendo di pubblicarlo nel secondo Volume della mia
+novella Edizione nel presentarle con esso una mia Commedia, raccomandata
+al nome suo venerabile, per una testimonianza del mio rispetto,
+e del mio umilissimo aggradimento. Egli è certo, ch'io desidero
+di piacerle, e che cercherò di evitare tutto ciò, che le potesse esser
+discaro, e principalmente le lodi, di cui so Ella essere saggiamente nemico.
+Ma Ella da troppa gente avrebbe a guardarsi, se tutti coloro temer
+volesse, che la conoscono, ed anelano a pubblicar le sue lodi. Non può
+certamente sdegnare, che dicasi della di lei casa principalmente quel,
+che le storie ne dicono, sendo l'illustre di Lei Famiglia una delle quattro
+principali dell'Umbria, decorata mai sempre dai primi onori Ecclesiastici,
+e secolari, con Porpore Cardinalizie, con varie Croci, fra quali
+l'insigne luminosa di Malta, che maggiormente risplende nel Signor
+Comendatore di Lei Fratello. Nell'armi, e nelle lettere parimenti si è
+sempre segnalata la sua Famiglia, e ciò si sa comunemente de' suoi
+Maggiori, e s'Ella volesse dare ad intendere di non avere in sè i medesimi
+fregi, non gli riuscirebbe di farlo, giacché pubblico si rende il di
+lei talento, e il di lei sapere col libro utile, che ha sotto il torchio,
+risguardante il Comercio attivo, e passivo della Città di Spoleto. Cosa
+bensì potrà parere maravigliosa, che un Cavaliere di sangue illustre,
+ricco di beni di fortuna, e non bisognevole di comerciare, impieghi il
+suo tempo, e le sue attenzioni in cosa utile non per sé stesso, ma per la
+Patria. Ciò spiega il vero carattere del buon Cittadino, e dà sempre più
+a conoscere, che la Mercatura, non è messe indegna de' Cavalieri, e
+che tutti deonsi onoratamente impiegare al pubblico bene, a contribuire
+alla pubblica felicità. Fin qui non può Ella rimproverarmi di
+aver detto cosa, che potesse nascondersi, sendo il Pubblico di tutto ciò
+prevenuto. Molto più dir potrei delle di Lei particolari Virtù, ma qui
+incontrerei lo scoglio della Modestia, che sta nel di lei cuore come
+Regina al governo della bontà, della gentilezza, della pietà, della cortesia.
+Passerò oltre adunque, senza qui trattenermi, e le chiederò permissione
+di seco lei consolarmi del felicissimo Matrimonio da tre anni
+contratto fra l'unico genttlissimo di Lei Nipote e la Nobilissima egregia
+Dama de' Panieri di Perugia, Famiglia anch'essa delle quattro
+suddette, più rinomate dell'Umbria. Grande so essere stato il di lei
+contento per una sì preziosa unione, accresciuto si è il di Lei giubbilo
+per la Bambina, che ne ha prodotta, e mi aspetto vedere compita la sua
+allegrezza con prole Maschile, ch'io lor desidero di vero cuore, e che la
+Provvidenza ad una sì pia, e sì religiosa Famiglia non può mancar di
+concedere. Porgono voti all'altissimo per ogni di lei serena felicità fra
+gli altri Popoli dell'antichissima e valorosa di lei Città, i poveri di
+quell'Ospitale, al di cui bene ella presiede, ed invigila con tanto esimia,
+e singolar carità, con tanto incomodo della persona, e sagnfizio
+de' propri danari, e queste voci sono a Dio più vicine, e queste opere
+sono a Dio le più care Ella per altro, Illustrissimo Signor Barone, che
+sa conoscere la vera pietà, separata dal rigoroso abbandono di tutti gli
+onesti piaceri di nostra vita, non ricusa di trattenersi talvolta piacevolmente,
+e so, come dissi a principio, che non isdegna di leggere le mie
+Commedie, ed ecco perché indotto mi sono a dedicargliene una umilmente,
+supplicandola di volerla ricevere come un tributo alla cortesia,
+con cui mi soffre, e mi onora, ed ossequiosamente mi dico.</emph></p>
+<p><emph>Di V. S. Illustrissima</emph></p>
+<p><emph>Umiliss. Devotiss. e Obbligatiss. Serv.</emph></p>
+<closer><signed>CARLO GOLDONI</signed></closer>
+</div1>
+<prologue>
+<head>L'AUTORE A CHI LEGGE</head>
+<p>Poche sono quelle Commedie, nelle quali non entrino
+innamorati, e in quasi tutte l'onesto amore è il principale
+movente della Comica azione. Questa Commedia adunque, che ha
+per titolo gl'<title>Innamorati</title>, dee rappresentar un amore più
+violento di tutti gli altri. Due persone, che si amano
+fedelmente, perfettamente, dovrebbero esser felici, tanto
+più, ch'io non figuro ostacoli, che attraversino le loro
+brame, ma la pazza gelosia, che nella nostra Italia
+principalmente, è il flagello de' cuori amanti, intorbida il
+bel sereno, e fa nascere le tempeste anche in mezzo alla
+calma. Per maggiormente spiegare il carattere de' veri
+amanti, affascinati dalla passione, convien che sieno
+leggieri, fantastici e quasi irragionevoli i motivi de'
+gelosi sospetti, e ciò per rendere vieppiù ridicola una
+debolezza, che inquieta il Mondo, e arriva a far impazzire
+chi a tempo non sa guardarsene, o moderarla. Darsi de' pugni
+pel capo, stracciarsi le vesti, minacciare la propria vita
+sono galanterie di questo gentile amore. Non è da Romanzo il
+coltello, con cui si vuol ferire l'Amante invasato da
+quest'amore. Ne ho veduti degli esempi cogli occhi miei, e
+se non mi vergognassi, direi da chi li ho veduti. Povera
+gioventù sconsigliata! Volersi tormentar per amore! Voler,
+che il balsamo si converta in veleno! Pazzie, pazzie.
+Specchiatevi, o giovani, in questi Innamorati ch'io vi
+presento; ridete di loro, e non fate, che si abbia a rider
+di voi.</p></prologue>
+<castList>
+<head>Personaggi</head>
+<castItem type="role"><role><emph>Fabrizio,</emph></role> <roleDesc>vecchio, cittadino; </roleDesc></castItem>
+<castItem type="role"><role><emph>Eugenia, </emph></role> <roleDesc>nipote di Fabrizio; </roleDesc></castItem>
+<castItem type="role"><role><emph>Flamminia, </emph></role> <roleDesc>nipote di Fabrizio, vedova; </roleDesc></castItem>
+<castItem type="role"><role><emph>Fulgenzio, </emph></role> <roleDesc>cittadino amante di Eugenia; </roleDesc></castItem>
+<castItem type="role"><role><emph>Clorinda, </emph></role> <roleDesc>cognata di Fulgenzio;</roleDesc></castItem>
+<castItem type="role"><role><emph>Roberto, </emph></role> <roleDesc>gentiluomo;</roleDesc></castItem>
+<castItem type="role"><role><emph>Ridolfo, </emph></role> <roleDesc>amico di Fabrizio;</roleDesc></castItem>
+<castItem type="role"><role><emph>Lisetta, </emph></role> <roleDesc>cameriera in casa di Fabrizio;</roleDesc></castItem>
+<castItem type="role"><role><emph>Succianespole, </emph></role> <roleDesc>vecchio servitore di Fabrizio;</roleDesc></castItem>
+<castItem type="role"><role><emph>Tognino, </emph></role> <roleDesc>servitore di Fulgenzio.</roleDesc></castItem>
+</castList>
+<set><p>La scena si rappresenta in una stanza commune in casa di Fabrizio
+in Milano.</p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>Atto primo</head>
+<div2 type="scena">
+<head>Scena prima</head>
+<stage><emph>Eugenia, e Flaminia.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <p>Che cosa avete, signora sorella, che mi guardate
+così di mal occhio?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eugenia mia, compatitemi. Mi fate tanto venir la
+bile, che oramai non vi posso più guardar con amore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Bella davvero! che cosa vi ho fatto, che non mi
+potete vedere?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non posso soffrire quella maniera aspra, liticosa,
+indiscreta, con cui solete trattare il signor Fulgenzio.
+Egli è innamorato di voi perdutamente; si vede, si conosce,
+che spasima, che vi adora, e voi non cercate, che
+d'inquietarlo, e corrispondergli con mala grazia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>In verità mi fareste ridere. Avete tanta compassione
+per il signor Fulgenzio?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ho per lui quella carità, ch'egli merita, e che
+voi dovreste usargli per giustizia, e per gratitudine. È un
+uomo civile, è un uomo ricco, è di buonissimo core.
+Considerate che voi avete pochissima dote; che nostro zio a
+forza di spendere in corbellerie ha precipitata la casa; che
+io mi sono maritata, come il Cielo ha voluto, e ho penato
+tre anni in povertà col marito, e quand'è morto, ho avuto
+scarsa occasione di piangere. Così, e peggio, potrebbe
+accadere di voi, che non siete in migliore stato del mio. Il
+signor Fulgenzio, che vi ama tanto, e che ha detto di
+volervi sposare è l'unico forse che possa fare la vostra
+fortuna. Ma voi, sorella cara, lo perderete; lo perderete
+senz'altro; e ci scommetto, che ieri sera si è più del
+solito disgustato, e starete un pezzo a vederlo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ed io scommetto, che non passano due ore, che
+Fulgenzio è qui, e mi prega; e se voglio, mi domanda ancora
+perdono.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Voi l'avete ingiuriato, ed egli vi chiederà il
+perdono?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh! non sarebbe la prima volta.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Vi fidate troppo della sua bontà.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E anch'egli si può compromettere dell'amor mio.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>L'amate dunque, e lo trattate sì male?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E che cosa finalmente gli ho fatto?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Niente! In tutto il tempo, che viene qui è mai
+passato un giorno, o una sera senza, che voi lo abbiate
+fatto inquietare?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sono sempre io quella, che lo fa inquietare? Parmi,
+ch'egli sia soffistico e puntiglioso assai più di me.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non è vero.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh voi sapete assai quello, che vi dite.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Specialmente poi lo tormentate sempre sul
+proposito di sua cognata.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sua cognata io non la posso vedere.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E che cosa vi ha fatto quella povera donna?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non mi ha fatto niente, ma non la posso vedere.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Quest'odio è cattivo, sorella cara. Il Cielo vi
+castigherà.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Io non le porto odio; ma non la posso vedere.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eppure ella vi ha fatto delle finezze.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Si tenga le sue finezze; meno, che io la vedo sto
+meglio.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che cosa vi siete cacciata in testa? Che Fulgenzio
+sia impazzito per la cognata? Sapete pure ch'egli la serve,
+e l'assiste, perché gli fu raccomandata da suo fratello.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, va bene, ma che bisogno c'è, ch'egli vada a
+spasso con lei, e pianti me qui sola, come una bestia?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Orsù, signora sorella, io vi consiglio, per vostro
+meglio abbandonare ogni cattivo pensiere, e di questa donna
+vi prego a non ne parlare.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh sì, vi prometto, di non parlarne mai più.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Se lo farete, farete bene. Ma torno a dire, io
+dubito, che il signor Fulgenzio per oggi almeno non si lasci
+vedere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Possibile? non è mai stato un giorno senza venire.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Se non fosse in collera, a quest'ora forse sarebbe
+venuto.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Anzi l'aveva detto di venire questa mattina.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Oh, non viene assolutamente.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Quasi, quasi, gli manderei a dir qualche cosa.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Vi dispiace eh, che non venga?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sicuro che me ne dispiace. Gli voglio bene davvero.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E sempre lo disgustate.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ho questo temperamento. Per altro lo sa, che gli
+voglio bene.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Un poco più d'umiltà, sorella.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E voi tenete sempre da lui.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Io tengo dalla ragione. (Guai se non facessi così
+è una vipera)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Chi viene?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È il servitore del signor Fulgenzio.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non ve l'ho detto? Quanto credete, che sia lontano
+il padrone?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Aspettate prima. Chi sa, che non mandi qualche
+ambasciata, che vi dispiaccia!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ha della roba il servitore.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Povero galantuomo è di buonissimo core.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena seconda</head>
+<stage><emph>Tognino e dette.</emph></stage>
+<sp><speaker>TOGNINO</speaker> <p>Servo di lor signore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Addio, Tognino. Che fa il padrone?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Sta bene. La riverisce, e le manda questo
+viglietto.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E qui, che ci avete?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Un po' di frutta.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Poverino!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sentite, come mi scrive</p> <stage><emph>(a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È sdegnato?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Vorrebbe far lo sdegnato, ma non lo sa fare.
+Sentite, come principia: <emph>Crudelaccia!</emph>
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Via, via è parola d'amore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p><emph>Mi prendo la libertà di mandarvi due frutta, perché possiate raddolcirvi la bocca, che avete per solito amareggiata di fele.</emph>
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È amore, è amore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p><emph>Sarei venuto in persona, se non avessi temuto di accrescere i vostri sdegni.</emph>
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sentite?</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma ci verrà</p> <stage><emph>(a Flamminia)</emph>.</stage> <p><emph>Vi amo teneramente, e appunto per questo, stando da voi lontano, intendo unicamente di compiacervi.</emph>
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sentite?</p> <stage><emph>(con più forza)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma ci verrà. <emph>Bramerei due righe di vostra mano per assicurarmi, se vi è rimasta nel cuore qualche scintilla d'amore per me.</emph></p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Via; rispondetegli; e usategli un poco di carità.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Siete molto compassionevole.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Oh io non posso vedere a penar nessuno.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Con questi uomini non bisogna poi essere tanto
+corrive; e non è sempre ben fatto far loro conoscere, che si
+amano tanto.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Io non l'ho mai usata questa politica, e non la
+saprei usare.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Scrivetegli voi per me.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Volete, che lo faccia davvero?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, fatelo, che mi farete piacere. Io ci metto assai
+tempo a scrivere; voi scriverete meglio, e più presto.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Avvertite, ch'io voglio scrivere a modo mio.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, scrivete come vi pare.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Voglio scrivere per placarlo, e non per irritarlo
+di più.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Credete, ch'io abbia piacere di disgustarlo? Signora
+no. Fate anzi una bella lettera, che lo consoli il mio caro
+coruccio bello.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>In nome vostro.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>In nome mio; ci s'intende.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Aspettate, quel giovane, che or ora vengo colla
+risposta</p> <stage><emph>(a Tognino)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>Dove vuole, ch'io posi questo canestro?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Date qui, date qui. Guardate, Eugenia, che belle
+frutta! Sa, che vi piacciono, e ve le manda. In vece di star
+sulle sue vi manda le frutta. Un uomo come questo non lo
+trovate più. Io so, che se avessi un amante simile lo vorrei
+propriamente adorare</p> <stage><emph>(parte coi frutti)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena terza</head>
+<stage><emph>Eugenia, e Tognino.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <p>A che ora è venuto a casa ieri sera il vostro
+padrone?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>È venuto prima del solito. Non erano ancor sonate
+le due.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che ha detto sua cognata, quando l'ha veduto venir
+così presto?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Ha mostrato d'aver piacere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Aveva compagnia la signora Clorinda?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Oh da lei non ci vien mai nessuno. Ella è di
+natural melanconico. Suo marito è anche qualche poco geloso;
+è andato a Genova per affari, l'ha raccomandata al fratello,
+ed ella non tratta con nessun altro.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Le fa buona compagnia il signor Fulgenzio?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Quand'è in casa, procura di divertirla.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>La diverte bene?</p> <stage><emph>(con un poco di sdegno)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>(Se parlo, non vorrei far male). La diverte
+m'intendo, così, mangiano insieme.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ridono a tavola?</p> <stage><emph>(placidamente)</emph>.</stage></sp>
+<sp><speaker>TOGNINO</speaker> <p>Qualche volta.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>È grazioso veramente il vostro padrone. Mi ha detto
+che gioca qualche volta con sua cognata; è egli vero?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Sì signora, giocano qualche volta.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E vanno a spasso la sera.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Io non lo so veramente.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Perché me lo volete negare? Persone mi hanno detto
+per certo, che li hanno veduti a spasso anche ieri sera.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Può essere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi fareste venir la rabbia. Può essere? dite, che è
+di sicuro.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Lo sa di certo?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Fate conto, ch'io l'abbia veduto.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Bene; quando lo sa, perché me lo domanda?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Come ci casca bene il baggiano). E a che ora sono
+tornati a casa?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>A tre ore in circa.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Hanno cenato subito?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Subito.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E poi avranno giocato una partitina.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Hanno giocato una partitina.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Venga da me, che sta fresco).</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quarta</head>
+<stage><emph>Flamminia, e detti.</emph></stage>
+<sp><speaker>FLAMMINIA</speaker> <p>Ecco qui la lettera bell'e fatta. La volete
+sentire?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Date qui, non preme.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Signora no, ve la voglio far sentire. <emph>Mio bene...</emph>
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma bene bene... </p><stage><emph>(con caricatura)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Cosa vorreste significare?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Niente; dico, che dite bene.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sentite. <emph>Mi hanno tanto consolato le vostre righe, che non ho termini sufficienti per ispiegarvi il giubbilo del mio cuore.</emph>
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E che giubbilo!</p> <stage><emph>(con ironia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>No forse?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì</p> <stage><emph>(con ironia caricata)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Siete pure sguaiata. <emph>Mi pare un secolo ch'io non vi vedo. Caro il mio bene...</emph>
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma bene.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Io non vi capisco.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi capisco da me.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Pazza). <emph>Venite a consolare la vostra cara gioietta.</emph>
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Con quella bella grazietta!</p> <stage><emph>(con ironia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che modo è questo?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ci fo la rima.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Mi fareste dir delle brutte rime. Finiamola.
+<emph>Vedrete ch'io non sono la crudelaccia; ma la vostra fedele, sincera amante. Eugenia Pandolfi.</emph> Vi pare, che non abbia
+scritto a dovere?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ottimamente. Date qui, che la voglio sigillar io.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eh, la so sigillare da me.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>La voglio consegnar io a Tognino, acciò possa dire
+che l'ha ricevuta da me.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Fin qui non avete il torto. Eccola</p> <stage><emph>(dà la lettera ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Venite qui, Tognino.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Eccomi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Dite al vostro padrone che mia sorella Flamminia in
+nome mio gli ha scritto una bella lettera, e che io
+medesima, colle mie mani l'ho lacerata</p> <stage><emph>(straccia la lettera)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che! siete impazzita davvero? Mi fate di queste
+scene?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E ditegli, che venga da me, che gli darò la risposta
+in voce</p> <stage><emph>(a Tognino)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>Come comanda.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non glielo dite, che ha stracciata la lettera.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Anzi, glielo deve dire. Tognino, se glielo dite, vi
+do un testone di mancia.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Sarà per sua grazia. Non mancherò di servirla.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Dico, che non gli dite niente</p> <stage><emph>(a Tognino)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>Perdoni. La sua signora sorella ha delle maniere
+obbliganti. Un testone vale a Milano quarantacinque soldi di
+buona moneta</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quinta</head>
+<stage><emph>Flamminia, ed Eugenia.</emph></stage>
+<sp><speaker>FLAMMINIA</speaker> <p>E perché avete fatto questa baggianata?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>L'avete mai letto il libro del Perché? Leggetelo, e
+lo saprete.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sguaiaterie, vi dico; e ne sono stucca, e
+ristucca.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Gran premura aveva ieri sera il signor Fulgenzio
+d'andare a casa!
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È andato via per la rabbia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh pensate! è andato via, perché aveva un impegno.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E con chi?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Col diavolo, che se lo porti.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eugenia, voi vi volete precipitare.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Quando si tratta di quelle maladette bugie, non le
+posso soffrire.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Vi ha detto qualche cosa il servitore?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Niente.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non istate a credere sì facilmente...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh io già non credo a nessuno.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>A Fulgenzio potete credere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Peggio.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E a me?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Peggio.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Già chi non dice a vostro modo ha il torto presso
+di voi. Ecco qui nostro zio.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Chi diavolo c'è con lui?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Un forastiere mi pare.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ha sempre seco delle seccature.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sì, chi sentirà lui sarà qualche gran personaggio.
+Sarà di costa di re. Egli magnifica tutte le cose, e si fa
+burlare da tutti.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena sesta</head>
+<stage><emph>Fabrizio, Roberto, e dette.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Signore nipoti, ecco qui un cavaliere, che vi vuol
+conoscere, e favorire: il conte d'Otricoli; una delle prime
+famiglie d'Italia, di una ricchezza immensa.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Mi fa troppo onore il signore Fabrizio. Io non
+merito nessuno di questi elogi.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E non serve dire, e non dire; quest'è il primo
+cavaliere del mondo. In materia di cavalleria, non c'è
+altrettanto in tutta l'Europa. Fate il vostro dovere col
+signor Conte</p> <stage><emph>(alle donne con qualche risetto)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Signore, attribuisco a mia singolare fortuna
+l'onor di conoscere un cavaliere di tanta stima</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Posso io consolarmi...
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Vede, signor Cavaliere? Questa è Flamminia mia
+nipote. È vedova. Ha avuto per marito il primo mercante di
+Milano.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(È morto miserabile il povero disgraziato).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>È una donna, che per una casa non si dà la
+compagna. Non c'è in tutto Milano; non c'è in tutta l'Italia
+una donna, come Flamminia.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Mi rallegro infinitamente colla signora.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Mio zio si diverte; non ho questi meriti.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via, signora Eugenia, ditegli qualche cosa. Fate
+conoscere il vostro spirito, la vostra vivacità. Non c'è,
+veda; non c'è in tutto il mondo una giovane, come lei. Balla
+in una maniera, che i primi ballerini sono rimasti storditi.
+Canta poi di un gusto, che chi la sente more. Parla che non
+c'è stata mai da che mondo è mondo una parlatrice compagna.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>È ammirabile la signora per la virtù, e per il
+merito della bellezza.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Vi prego non secondare mio zio nel piacer di
+mortificarmi.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>È ancor zitella la signora Eugenia?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sì signore. M'è stata richiesta dalla prima nobiltà
+di Milano; ma io non l'ho voluta dare a nessuno. Ho delle
+idee grandiose sopra di lei.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>In fatti ella merita una fortuna corrispondente alle
+sue rare prerogative.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Al giorno d'oggi vi è poco da compromettersi. Ci
+sono più debiti, che ricchezze. Dei conti d'Otricoli non ce
+n'è che un solo al mondo.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Io vaglio molto meno degli altri. Le mie fortune
+sono assai limitate. Quello di che mi pregio si è la
+sincerità, e l'onore.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Nipoti mie quest'è l'esempio dei cavalieri onorati;
+è il libro aperto, che insegna agli uomini la sincerità.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Lo conoscerete, ch'è un pezzo questo signore?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Quest'è la prima volta che ho l'onor di vederlo.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(E pare, che sieno trent'anni, che lo conosce).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>È stato diretto a me da un amico mio di Bologna,
+ch'è il fiore de' galantuomini, ed il più bravo pittore, che
+sia stato al mondo dopo Zeusi, ed Apelle. Signor Conte, ella
+si diletterà di pitture.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Certamente, me ne diletto assaissimo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Eh, gli uomini grandi, gli uomini di talento
+sublime, come quello del signor Conte non possono fare a
+meno di non intendersi d'ogni cosa. Vedrà nella mia
+miserabile casa, nel povero mio tugurio, nella mia
+capannuccia dei tesori, in materia di quadri delle cose
+stupende. Cose, che non le ha il Re di Francia. Originali
+dei primi maestri dell'arte. Signore nipoti, conducete
+questo cavaliere a vedere la mia miserabile galleria.
+Fategli vedere quel quadro maraviglioso, quell'opera insigne
+del pittor de' pittori. Vedrà, signor Cavaliere, un quadro
+spaventosissimo del Tiziani, di cui mi hanno offerto due
+mila doppie ed io l'ho avuto per cento zecchini! Che dice
+eh? per cento zecchini un quadro, che vale due mila doppie;
+cosa vuol dire intendersi delle cose! Oh io poi per
+conoscere non la cedo ai primi conoscitori del mondo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Poveri danari gettati! Ha tutte copie, e gliele
+fanno pagar per originali).
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Si vede, che siete assai di buon gusto. Avrò
+occasion d'ammirare.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Eh picciole cose. Comparirà la miseria. Ehi fategli
+vedere quei quattro pezzi stupendi del Wandich, quelle due
+cene singolarissime insigni del Veronese, quella meraviglia
+del Guercino, quell'aurora inimitabile di Michel'Angelo
+Buonarotti, quella notte inestimabile del Correggio. Tesori,
+signor Conte, tesori.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Voi, a quel, che sento avete una galleria da
+monarca.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Picciole cosarelle da pover'uomo. Si serva,
+favorisca di andare colle mie nipoti.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ma noi non ce n'intendiamo di quadri, e non li
+sapremo distinguere come voi...</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Che serve? Se non ve n'intendete voi; se ne intende
+il signor Cavaliere. Ho un affare per ora, che mi trattiene.
+Servitelo intanto, che poi verrò io pure, e gli farò vedere
+di quelle cose, che non avrà mai vedute.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Mi sarà carissima la vostra compagnia (ma più quella
+delle sue nipoti).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Anderò io, sorella, non v'è bisogno che voi
+venghiate)</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Anzi ci voglio venire).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Se arriva il signor Fulgenzio... )
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Che importa a me, che mi trovi col forastiere? Oh
+questa è bella! Va egli a spasso con sua cognata? Voglio
+ancor io trattare con chi mi aggrada)</p> <stage><emph>(da sé e parte)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Gran testa originale è costei)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Vada, signor Cavaliere, s'accomodi.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Mi prevalerò delle vostre grazie</p> <stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Eh favorisca.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Che mi comandate?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oggi avrà la bontà di restare a mangiar una cattiva
+zuppa con noi.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Oh questo poi...
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oh non c'è risposta.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>No, certo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Per sicurissimo.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Ne parleremo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Mi dà parola?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Contentatevi...
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Mi dà parola?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Non so che dire.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Compatirà la miseria, ma sentirà un paio di piatti,
+che i simili non li avrà la tavola dell'Imperadore, e
+saranno fatti dalle mie mani.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Non posso ricusare le vostre grazie. (Egli
+ingrandisce tutte le cose, ma credo, che non si dia un pazzo
+più grande di lui)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena settima</head>
+<stage><emph>Fabrizio, poi Succianespole</emph>.</stage>
+<sp><speaker>FABRIZIO</speaker> <p>Sono in impegno di farmi onore. Voglio, che tutti
+possano dir bene di me; se vado anch'io per il mondo, mi
+verranno incontro colle carrozze, coi tiri a sei, colle
+trombette. Mi dispiace, che non ci ho altri che un servitore
+solo vecchio, stordito. Ma farò io. I buoni piatti li farò
+io. Ehi, Succianespole.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Signore.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Come stiamo in cucina?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Bene.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>È acceso il foco?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Perché non è acceso il foco?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Perché non c'è legna.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Non mi star a fare lo scimunito, che oggi ho da dar
+da pranzo a un'Eccellenza.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Ci ho gusto.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Succianespole, che cosa daremo da pranzo a Sua
+Eccellenza?</p> <stage><emph>(ridente con confidenza)</emph>.</stage>
+</sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Tutto quello, che comanda Vostra Eccellenza.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Qualche volta mi faresti arrabbiare con questa tua
+flemmaccia maladetta.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Io son lesto.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Lo sai fare il pasticcio di maccheroni?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Un fricandò alla francese?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Una zuppa coll'erbuccie?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Colle polpettine?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E coi fegatelli arrostiti?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Hai danari per ispendere?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ti ho pur dato un zecchino.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Quanti giorni sono?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>L'hai speso?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E il tuo salario, che ti ho dato l'hai speso?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E non hai più un quattrino?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Maladetto sia il «gnor sì», e il «gnor no». Si
+sente altro da te, che «gnor sì» e «gnor no»?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Insegnatemi che cosa ho da dire.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Bisogna pensare a trovar danari.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Quante posate ci sono?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Sei, mi pare.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sì erano dodici. Sei le ho impegnate, restano sei.
+Siamo in quattro; impegnamone due.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Va' al monte, e spicciati.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E non mi fare aspettare due ore.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Andremo a spendere, quando torni.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>C'è vino?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>C'è pane?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Che tu sia maladetto, Gnor sì, che tu sia
+bastonato...
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor no</p> <stage><emph>(parte con una riverenza, poi torna)</emph>.</stage></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Io non so, come vada. In casa mia non vi è mai il
+bisogno, e oramai ho dato fine a tutto. Ma non importa. Io
+ho da avere delle fortunaccie. I gran soggettoni, ch'io
+tratto, i principi, i cavalieri, ch'io servo, mi faranno
+cavalcar colle staffe d'oro. Semino per raccogliere; e il
+grano della mia testa mi ha da rendere il cento per uno. Che
+si impegni, e che si spenda; e poi? in carrozza, in
+carrozza.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>In carretta</p> <stage><emph>(spuntando dalla scena, e subito parte)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Il diavolo che ti porti</p> <stage><emph>(gli corre dietro, e parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ottava</head>
+<stage><emph>Lisetta, e Ridolfo.</emph></stage>
+<sp><speaker>LISETTA</speaker> <p>Che mi comanda il signor Ridolfo?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Ho necessità di parlare con una delle vostre
+padrone.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Dica pure a quale di esse ho da far l'ambasciata.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Veramente l'affare appartiene alla signora Eugenia,
+ma io parlerei più volentieri alla signora Flamminia.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Perdoni la curiosità; so, che V. S. è amico molto
+del signor Fulgenzio, ci sarebbe forse qualche novità fra
+lui e la padroncina?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Per l'appunto, vi è una novità non indiferente.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>La prima l'ho indovinata; vo' un po' vedere se
+indovino ancor la seconda. Viene forse per trattare il come,
+e il quando per concludere queste nozze?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Tutto al contrario. Vi dirò quello, ch'io son per
+fare, poiché Fulgenzio m'ha detto di dirlo pubblicamente.
+L'amico per mezzo mio si licenzia dalla signora Eugenia.
+Desidera farlo con civiltà, ma qui non lo vedrete mai più.
+(Se costei glielo dicesse prima di me, mi farebbe piacere).
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Ma perché questa risoluzione così repentina?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Questo poi non l'abbiamo a cercare, né voi, né io.
+Fulgenzio, e la signora Eugenia sapranno eglino la cagione.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Oh è facile indovinare il perché. Avranno gridato
+insieme.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Può essere.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>E se hanno gridato faranno la pace.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Mi par dificile.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>L'hanno fatta tante altre volte.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Questa volta l'amico è risolutissimo. Per quanto gli
+abbia io suggerito di pensarvi, di star a vedere, di non
+precipitare una risoluzione di questa natura, ha battuto
+sodo, mi ha risposto, come un cane arrabbiato, e fino colle
+lagrime agli occhi mi ha pregato per carità, che io venissi
+a disimpegnarlo.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Non ci credo, e non ci crederò mai. Ne ho vedute
+tante di queste scene, che non ci credo.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Orsù in ogni modo io mi vo' disimpegnare dalla mia
+commissione. Parlare con una di esse; spiegar l'intenzione
+dell'amico Fulgenzio, e nasca, quel, che sa nascere, io non
+vo' strolicar d'avvantaggio.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Se voi parlate di ciò alla signora Eugenia, la fate
+cascar morta; almeno usatele carità. Non le date il colpo
+tutto ad un tratto.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Credetemi io lo faccio mal volentieri. Ho pregato
+l'amico di dispensarmi: gli ho anche detto che mi lagnerei
+se dopo di aver fatto io questo passo lo riconoscessi
+pentito. Tant'è, è costantissimo, vuol ch'io lo faccia.
+Chiamatemi la signora Flamminia.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>È di là ora con un forastiere, che per ordine di
+suo zio gli fa veder certi quadri.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>E la signora Eugenia dov'è?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Ella pure si è messa della partita... Oh aspettate.
+Che il signor Fulgenzio abbia saputo del forastiere, e che
+sia sdegnato per questo?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Oibò; mi ha detto di certa lettera; ma non l'ho
+capito. Orsù fatemi un poco parlare o coll'una, o con
+l'altra.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Povera padrona! Andrò, signore... Oh chi è qui?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Per bacco! È qui Fulgenzio.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Non ve l'ho detto?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Verrà a cercare di me.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Eh sì, verrà a cercare di voi!</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena nona</head>
+<stage><emph>Fulgenzio, e detti.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>(Una parola)</p> <stage><emph>(a Ridolfo, chiamandolo a parte, con ansietà)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>(Non l'ho ancora potuta vedere)</p> <stage><emph>(piano a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Non le avete parlato?)
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>(No, vi dico).
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Non sa niente la signora Eugenia di quello, che vi
+avevo raccomandato?)
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>(Ma se non ho veduto, né lei, né la sorella!)
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Lisetta è informata di nulla?)
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>(Sì, qualche cosa le ho detto).
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Caro amico, compatitemi per carità. Dopo, che da me
+partiste mi sono sentito gelare il sangue; sarei caduto per
+terra, se il servitore non mi sosteneva. Ah, quell'indegno
+del servidore è stato causa di tutto. La povera Eugenia è
+gelosa, e l'eccesso della sua gelosia è partorito da un
+eccesso d'amore. Buon per me, che non avete parlato.
+Lisetta, per amor del Cielo non dite niente alla vostra
+padrona. Tenete queste poche monete, godetele per amor mio.
+E voi, Ridolfo, amatissimo perdonate le mie debolezze, e
+ricevete le mie scuse in questo tenero sincero abbraccio.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Mi pareva impossibile, che non avesse ad esser
+così).
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Amico, vi compatisco, ma non mi mettete più in tali
+impegni.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Avete ragione. Ringraziamo il cielo, che è andata
+bene. Lisetta, dov'è la signora Eugenia?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>È di là, che si veste. (Non gli dico niente del
+forastiere).
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Se volesse favorir di venire...
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Glielo dirò, signore</p> <stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ehi; è in collera?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Non mi pare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Via, chiamatela.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Oh, questi si amano daddovero!)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena decima</head>
+<stage><emph>Fulgenzio, e Ridolfo.</emph></stage>
+<sp><speaker>RIDOLFO</speaker> <p>Amico, a rivederci.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Andate via?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Volete, ch'io resti?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>No, no, se vi preme, andate pure.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Sì, vado. Conosco benissimo, che il restar solo non
+vi dispiace. Vi compatisco, ma permettetemi, che qualche
+cosa vi dica per amicizia. Se conoscete, che la persona che
+amate meriti l'amor vostro, disponete l'animo a sofferir
+qualche cosa. Tutti in questo mondo ci dobbiamo compatire
+l'un l'altro, e specialmente la donna merita di essere un
+poco più compatita. Se poi vi sembra aver giusto motivo di
+dolervi di lei, pensateci prima di risolvere, ma quando
+avete pensato, ma quando avete risolto, non fate che la
+ragion vi abbandoni, e che l'affetto vi acciechi, vi
+trasporti, e vi avvilisca a tal segno</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena undicesima</head>
+<stage><emph>Fulgenzio, poi Eugenia.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>Dice bene l'amico, dice benissimo. Dalle donne
+qualche cosa convien soffrire, quando si sa specialmente,
+che una donna vuol bene, non serve il sofisticare, non
+conviene pesar le parole colla bilancia dell'oro, e guardare
+i moscherini col microscopio per ingrandirli. Son troppo
+caldo, lo conosco da me; ma in avvenire voglio assolutamente
+correggermi, vuo' moderarmi. Già so che mi vuol bene. Se
+vuol dire, lasciarla dire. Eccola. Voglia il Cielo, ch'ella
+sia di buon umore. Mi pare ilare in volto. Ma qualche volta
+sa fingere. Non vorrei, che dissimulasse. Orsù non
+principiamo a sofisticare.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Serva umilissima, signor Fulgenzio</p> <stage><emph>(affettando allegria)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Quest'umilissima si poteva lasciar nella penna.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi scappò, non volendo. La riverisco. Che fa? Sta
+bene?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Eh! sto bene io. Ed ella come sta?</p> <stage><emph>(intorbidandosi un poco)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Benissimo. Ottimamente.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Me ne consolo. È molto allegra questa mattina.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Quando sono in grazia sua, sono sempre allegrissima.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(C'è del torbido: non mi vorrei inquietare, ma ho
+paura non potermi tenere).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che dice ella di queste belle giornate?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Con questo «ella», con questo «ella» mi ha un
+pochino sturbato, signora mia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Questa mattina sono stata in complimenti, e mi è
+restato il «lei» fra le labbra.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>In complimenti con chi?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Con certe amiche, che sono venute a favorirmi. Anzi
+mi hanno detto, che vogliono venir questa sera, per condurmi
+a spasso con loro.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E che cosa avete risposto?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che ci anderò volentieri.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Senza di me?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sicuro.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Mi piace. S'accomodi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh bella! Mi avete mai condotta voi una sera a
+spasso?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non vi ho condotta, perché non mi avete comandato
+di farlo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh dite, perché avete degli altri impegni.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Io? che impegni?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh via, che serve? Se avete in casa qualche mazzo di
+carte, che vi avvanzi, favorite portarmelo, che mi divertirò
+un poco dopo cena, a giocare una partita con mia sorella.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Che novità è questa? che discorso è questo? cosa
+c'è sotto a questo vostro ragionamento?
+</p>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Niente, signore. Faccio per non andare a letto sì
+presto. Voi avete fretta di partire la sera, e vi
+compatisco, perché avete i vostri interessi, avete degli
+affari importanti, ed io starò a divertirmi con mia sorella,
+o anderò a spasso colle mie amiche.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Eh signora Eugenia, ci conoschiamo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Prenderete anche ciò in mala parte?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ci conoschiamo, vi dico, ci conoschiamo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, ci conoschiamo, e ci conoschiamo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ma il mio servidore in casa vostra non ci verrà
+più.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che importa a me, che ci venga né il servitor, né il
+padrone?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Eh già; queste sono le solite sue buone grazie.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ha tabacco?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Se sono andato a far due passi con mia cognata...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che cosa c'entra vostra cognata? che importa a me di
+vostra cognata?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>So quel, che dico; e non avrete più il divertimento
+di tirar giù quel balordo del mio servitore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi maraviglio di voi, che parliate così. Vi torno a
+dire, non m'importa né di lui, né di voi.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Né di me? non v'importa di me? né di lui né di me?
+non ve n'importa?</p> <stage><emph>(passeggiando in giro con isdegno)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Fermatevi, che mi fate girar il capo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Né di lui, né di me?</p> <stage><emph>(si dà un pugno nella testa)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Facciamo scene?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Né di lui, né di me?</p> <stage><emph>(si batte il capo a due mani)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Animo; finiamo queste sguaiaterie</p> <stage><emph>(fra lo sdegno, e l'amore)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non posso più</p> <stage><emph>(si abbandona sopra una sedia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Avvertite, che siete pazzo davvero.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Son pazzo, son pazzo?</p> <stage><emph>(seguita a battersi)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Non la volete finire?</p> <stage><emph>(con un poco di tenerezza)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Cagna! crudele!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Bell'amore! a ogni menoma cosa subito si sdegna, va
+in bestia, non può soffrir niente il signor delicato.
+Finalmente chi vuol bene ha da compatire; e ad una donna le
+si deve donar qualche cosa. Bella maniera da farsi amare!
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, avete ragione</p> <stage><emph>(placato)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ogni giorno siamo alle medesime.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Compatitemi, non farò più.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non mi fate di queste ragazzate, che non ne voglio.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Andrete a spasso questa sera?</p> <stage><emph>(ridente amoroso)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Se mi parerà.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Con chi anderete?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh!</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Con me anderete.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sicuro!</p> <stage><emph>(ironica)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non volete venir con me?</p> <stage><emph>(un poco sdegnato)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Se ci veniste volentieri.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ma cara Eugenia, possibile, che ancora non siate
+certa dell'amor mio? In un anno in circa, che ho la
+consolazione della vostra cara amicizia, vi ho dato scarse
+prove d'amore? Ancora mi volete fare il torto di dubitarne?
+So che vi sta sul core quella povera mia cognata. Ma sapete
+il debito, che mi corre. Mio fratello, che l'ama
+teneramente, me l'ha con calore raccomandata. Sono un
+galantuomo, sono un uomo d'onore. Non posso abbandonarla,
+non posso trattarla con inciviltà; se siete una donna
+ragionevole appagatevi dell'onesto, compatite le mie
+circostanze, e per amor del Cielo, Eugenia mia, non mi
+tormentate.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Via avete ragione. Non vi tormenterò più.
+Compatitemi; conosco, che ho fatto male...
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Basta così, che mi si spezza il core per la
+tenerezza.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi vorrete sempre bene?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Credetemi, che domandandomi questa cosa voi mi
+offendete.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ve la domando, perché vorrei sentirmelo repplicare
+ogn'ora, ogni momento.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, cara, ve ne vorrò in eterno; e se il Cielo
+vuole, non passerà gran tempo, che sarete mia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E che cosa aspettate?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Il ritorno il mio fratello.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non potete maritarvi senza di lui?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>La convenienza vuol ch'io l'aspetti.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Io lo so perché diferite.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E perché?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Perché avete paura di disgustare vostra cognata.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Maladetta sia mia cognata; maladetto sia quando
+parlo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eccolo qui, non si può parlare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ma se sempre mi provocate.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi voglio mettere a non dir più una parola.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non potete parlare senza dire delle sciocchezze?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Le sciocchezze le dite voi, signor insolente.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Or ora vi faccio vedere qualche spettacolo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ehi, chi è di là?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non chiamate</p> <stage><emph>(arrabiato)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Pazzo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Anderò via.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Andate.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non ci tornerò più.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non m'importa.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Diavolo, portami. Portami diavolo</p> <stage><emph>(parte correndo)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Che vita è questa? Che amor maladetto! Non posso
+resistere, non posso più</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2></div1>
+<div1 type="atto">
+<head>Atto secondo</head>
+<div2 type="scena">
+<head>Scena prima</head>
+<stage><emph>Flamminia, e Ridolfo.</emph></stage>
+<sp><speaker>FLAMMINIA</speaker> <p>Scusate, signor Ridolfo, la libertà che mi sono
+presa. Perdonatemi, se vi ho incomodato.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Anzi è onor mio il potervi obbedire.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Quant'è che non avete veduto il signor Fulgenzio?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>L'ho veduto qui, non sono ancora due ore. Mi figuro,
+che si saranno pacificati colla signora Eugenia.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Oh caro signor Ridolfo, sono cose da non credere,
+e da non dire. Si erano pacificati, e tutto ad un tratto,
+sono andati giù di bel nuovo, e il signor Fulgenzio è
+partito gridando, chiamando il diavolo, che pareva un'anima
+disperata.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Possibile che abbiano sempre a far questa vita? Si
+amano o non si amano?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sono innamoratissimi, ma sono tutti e due
+puntigliosi. Mia sorella è sofistica. Fulgenzio è caldo,
+intollerante, subitaneo. In somma si potrebbe fare sopra di
+loro la più bella commedia di questo mondo.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>E che cosa posso far io, per servire la signora
+Flamminia?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Vi dirò, signore. Io sono naturalmente di buon
+core, portata a far del bene a tutti, se posso. Specialmente
+per mia sorella, che l'amo, come mio sangue, e che fuori di
+certe picciole debolezze prodotte da questo suo amore è la
+più buona ragazza di questo mondo. Mi dispiace vederla
+afflitta. Dopo, che è partito il signor Fulgenzio con quella
+manieraccia, come vi ho detto, è andata nella sua camera, si
+è messa a piangere dirottamente, e non vi è stato caso di
+poterla quietare. Supplico per tanto il signor Ridolfo,
+volersi prender l'incomodo di ricercar Fulgenzio, e con bel
+modo persuaderlo di tornar qui, per consolare questa povera
+figlia; e gli dica pure che piange, che si dispera, e lo
+persuada ad essere un poco più umano, un poco più
+tollerante, e sopra tutto, vi supplico, per amor del Cielo,
+insinuargli di ommettere ogni riguardo, di superare ogni
+difficoltà, e di concludere queste nozze; e vi prego dirgli
+altresì, che mia sorella ha promesso a me, che sarà più
+cauta per l'avvenire, che non gli darà più disgusti, che non
+parlerà più di quella tal persona, che egli sa; anzi fatemi
+il piacer di dirgli...
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Adagio, signora mia, che di tante cose non me ne
+ricorderò più nessuna.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Torniamo da capo.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Non basterebbe, ch'io gli dicessi, che venga qui?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sì: ma vorrei che fosse da voi prevenuto...</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena seconda</head>
+<stage><emph>Fabrizio, Succianespole colla sporta, e detti.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Flamminia, preparatemi una camiscia, che son tutto
+sudato</p> <stage><emph>(Ridolfo lo saluta)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ditelo a Lisetta, signore. Ella è appunto nella
+vostra camera.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Riverisco il signor Ridolfo.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Ho fatto già il mio dovere.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Compatitemi. Ho tanto camminato, ho tanto faticato
+che mi gira la testa. Ma ho fatto poi una spesa, che né
+anche il governatore. Succianespole, è vero?
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Andate a mutarvi</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Ch'io vada?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Aspetta.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Con questo peso...</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Aspetta. Lasciami veder quel cappone. Osservate. Si
+è mai veduto da che mondo è mondo un cappone compagno?
+Lasciami vedere quella vitella. Ah? che dite? È da
+dipingere? È cosa rara? Eh la vitella che ho io in questo
+paese non l'ha nessuno. Signor Ridolfo, questa vitella è un
+butirro, è un balsamo. Resti a mangiarne un pezzetto con
+noi.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Vi ringrazio, signore...
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>No, no, assolutamente. Guardate queste animelle;
+che roba! che piatto! che esquisitezza! Ne avete da mangiar
+una anche voi.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Vi supplico dispensarmi...
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Non mi fate andar in collera. Io poi... io poi...
+Ah? che piccioni! Avete mai veduti piccioni simili? Signor
+no, e signor no. Questi sono piccioni, che li salvano
+solamente per me. E sentirete, che salsa ch'io ci farò. Io,
+io, colle mie mani. E il signor Ridolfo resterà a favorire
+con noi.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Siete tanto obbligante, che non si può dire di no.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Una parola</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Cosa vuoi?</p> <stage><emph>(accostandosi)</emph>.</stage>
+</sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>(E le posate?)</p> <stage><emph>(piano a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>(È vero. Non importa; darai a me una posata di
+stagno; mettila bene sotto la salvietta, che non si veda).
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Presto va' in cucina, va' a lavorare.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì</p> <stage><emph>(s'incamina adagio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Fa' presto.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ma spicciati.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì</p> <stage><emph>(come sopra, e parte)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Signor zio, a quel, ch'io vedo, vogliamo andare a
+tavola molto tardi.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Eh, non dubitate di niente. Se vado io in cucina,
+in tre quarti d'ora fo da mangiare per cinquecento persone.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ih! che sparata!
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Per modo di dire; per modo di dire.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E non andate a mutarvi?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sì, c'è tempo. Dov'è Eugenia?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Nella sua camera.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E il signor Conte dov'è?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>A guardare i quadri.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Lo compatisco: non si può saziare. Andatelo a
+chiamare il signor Conte, che favorisca di venir qui.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E perché ha da venir qui? Non istà bene dov'egli
+sta?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ditegli, che venga qui. Gli voglio far conoscere
+questo degno galantuomo del signor Ridolfo. Vedrete un gran
+cavaliere, signor Ridolfo; un pezzo grosso; uno di quelli,
+che fanno tremare. Ma via, chiamatelo</p> <stage><emph>(a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Senza, che m'incomodi, eccolo, ch'egli viene da
+sé.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>È un'arca di scienze, è un mostro di virtù.
+Resterete maravigliato</p> <stage><emph>(a Ridolfo)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena terza</head>
+<stage><emph>Roberto, e detti, poi Lisetta.</emph></stage>
+<sp><speaker>ROBERTO</speaker> <p>Queste signore si sono annoiate di me; le compatisco
+hanno pensato meglio lasciarmi solo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Dov'è Eugenia? Presto chiamatela</p> <stage><emph>(a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Voglio far altro io, che chiamarla.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Uh! siete pure svenevole. Lisetta</p> <stage><emph>(chiama)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>Che comanda?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Di' subito ad Eugenia che venga qui.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Se mi domanda il perché?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Dille, che venga qui, che una persona la vuol
+vedere, e le vuol parlare.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Può essere, che il signor Ridolfo le abbia a dir
+qualche cosa per parte del signor Fulgenzio. Con questa
+speranza la farò venire)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Andate, signor Ridolfo a ritrovare il signor
+Fulgenzio, e fatelo venir qui, e ditegli tutto quel, che vi
+ho detto)</p> <stage><emph>(piano a Ridolfo)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>(Sì, se me ne ricorderò). Con sua licenza signor
+Fabrizio.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Come? Andate via? Non mi avete dato parola di
+restar con noi?
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Tornerò verso l'ora del pranzo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Vi aspetto. Non si dà in tavola senza di voi.
+Signor Conte, questi è il primo causidico di Milano, il
+primo curiale del mondo, il più bravo legale di tutto il
+regno della Giurisprudenza.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Me ne rallegro infinitamente.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>L'amicizia, che ha per me il signor Fabrizio, lo fa
+trascendere in soverchie lodi.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ha qualche causa in Milano il signor Conte?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Ne avevo una, per dirla, ma siamo per convenire
+cogli avversari, e terminarla amichevolmente.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>No, non la termini amichevolmente. Si lasci servire
+dal signor Ridolfo, dal principe dei curiali; gliela farà
+guadagnare senz'altro.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Ma se già ho i miei legali.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Che legali? che legali? Sono tutti ignoranti.
+Questi è il legale, e non ve n'è altri fuori di lui. Faccia
+a mio modo si metta nelle di lui mani. Signor Ridolfo, vada
+a casa del signor Conte, si faccia informare, e si faccia
+consegnar le scritture.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Ma se sta per accomodarsi...</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Non vi ha da essere accomodamento. Il signor Conte
+vuol essere servito da lei, e con chi crede vussignoria aver
+che fare? Col primo cavaliere dello Stato Romano, che ha
+feudi con padronanza assoluta, che è conosciuto da tutta
+l'Europa, e stimato, e venerato da principi, e da potentati.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Basta, basta, signor Fabrizio. Non mi mettete in
+ridicolo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Parlo con ogni rispetto. So quel, che dico, e la
+verità s'ha da dire.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Andate che si fa tardi)</p> <stage><emph>(a Ridolfo)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Con vostra permissione. Vado per ritornare tra poco</p> <stage><emph>(a Fabrizio, e parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quarta</head>
+<stage><emph>Flamminia, Fabrizio, e Roberto, poi Succianespole.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Grand'uomo! grand'uomo! Si chiamerà contento di
+lui</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>(Dica, quello che vuole, io non voglio far una lite
+per dargli gusto).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E così, signore zio, non vi siete mutato?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Mi muterò. Voglio andare in cucina, a lavorar per
+il mio padrone: il signor conte d'Otricoli. Dica: gli piace
+la salsa verde?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Sì signore, mi piace.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Bene, si farà la salsa verde per il mio padrone.
+Dica: gli piace lo stuffato?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Anzi moltissimo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Si farà lo stuffato per il mio padrone.
+Succianespole.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Signore.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Lo stuffato, e la salsa verde per il mio padrone.
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Gnor sì</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Succianespole poi è un omo di garbo. Non fo per
+dire, ma un servitore come lui non si trova. Fidato,
+attento, sollecito, pontuale, bravo cuoco, buono spenditore:
+è l'oracolo dei servitori.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quinta</head>
+<stage><emph>Eugenia, e detti.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <p>Che mi comanda il signore zio?</p> <stage><emph>(melanconica)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>State qui, state a far compagnia a questo
+cavaliere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non c'è il signor Ridolfo? (Se lo sapeva non ci
+venivo).
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>La mia compagnia non piace alla signorina.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Eh cosa dice mai? Lo riceve per grazia, per onore,
+per gloria. Si accomodino. Una sedia al padrone</p> <stage><emph>(porta una sedia a Roberto)</emph>.</stage> <p>Ecco due sedie per le mie signore nepoti</p> <stage><emph>(porta le sedie)</emph>.</stage> <p>Stiano in allegria, si divertano, ch'io anderò a lavorare; anderò
+a far il cuoco. Chi sono io? Sono il cuoco del mio padrone</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena sesta</head>
+<stage><emph>Flamminia, Eugenia, Roberto, tutti a sedere.</emph></stage>
+<sp><speaker>ROBERTO</speaker> <p>È sempre così gioviale il signor Fabrizio?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Lodo la vostra modestia; dovevate dire così
+caricato.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>È di buon core, ma anche il buon core, quando
+eccede è soverchio</p> <stage><emph>(sempre in aria melanconica)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Che ha la signora Eugenia, che mi par melanconica?</p> <stage><emph>(a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non saprei, averà i suoi motivi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Diteglielo liberamente, se ha piacer di saperlo. Io
+non mi vergogno di manifestare una verità, che non mi fa
+disonore. Sono innamorata, signore, di uno che dovrebbe
+essere mio consorte, so di avergli dato un disgusto, me ne
+dispiace, e non sono contenta, se non lo vedo pacificato.
+(Così non mi seccherà più costui colle sue sguaiataggini).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sentite, che bel carattere è quello di mia
+sorella? La sincerità non vi è oro, che la paghi.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Mi piace tanto la verità in bocca di una fanciulla,
+e sono sì poco avvezzo a sperimentarla, che sempre più la
+signora Eugenia mi obbliga a riverirla, e ad amarla.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sono tenuta alla vostra bontà; e mi rincresce, che
+inutilmente impiegate il vostro amore, e la vostra stima</p> <stage><emph>(con serietà)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Non per questo cesserò di sperare.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E in che volete sperare?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Nelle vicende della fortuna, nei casi, che possono
+impensatamente accadere; in qualche esempio di mutazioni
+accadute. Chi sa? Anche i grandi amori sono soggetti alle
+loro peripezie. Anzi quando le cose sono giunte all'eccesso,
+per lo più sono forzate a retrocedere, a diminuire. Caso
+mai, che il vostro amante non fosse fido, quanto voi siete,
+avrò sempre anticipata la mia onesta dichiarazione.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non dice male il signor Conte. Il suo amore non
+pregiudica né voi, né il signor Fulgenzio, e non si possono
+prevedere i casi. (Io non vorrei veder nessuno scontento).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Per me non vi hanno da essere altri casi. O di
+Fulgenzio, o di nessun altro.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Così dovete dire, e mi compiaccio, che lo diciate;
+ma dei casi ne potriano succedere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non vorrei, che foste l'augello del mal augurio.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>No, signora, non mi prendete in cattiva parte.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È un cavalier di garbo, il signor Conte</p> <stage><emph>(ad Eugenia)</emph>.</stage> <p>Convien
+compatirla. Parla così, perch'è innamorata</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Siatelo, che il Cielo vi benedica. Ma state allegra.
+Io non vi darò molestia su questo punto. Divertiamoci;
+parliamo di cose liete</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>È impossibile, signore; ho il core troppo
+angustiato.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena settima</head>
+<stage><emph>Lisetta, e detti.</emph></stage>
+<sp><speaker>LISETTA</speaker> <p>(Signora, ho veduto venire il signor Fulgenzio)</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Come l'hai veduto?)
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Dalla finestra).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Era solo?)
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Parlava col signor Ridolfo).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Parveti che fosse sdegnato?)
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Anzi mi parve allegro, e l'ho veduto venire
+saltellando verso la casa).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Sia ringraziato il Cielo. Ridolfo lo avrà placato.
+Ha fatto bene mia sorella a servirsi di lui)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>(Ha degl'interessi la signora Eugenia)</p> <stage><emph>(piano a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Credo sia venuto l'amico)</p> <stage><emph>(piano a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Flamminia</p> <stage><emph>(con bocca ridente)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È venuto?</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Lode al Cielo, vi vedo pure colla bocca ridente</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Chi sa, se ha veduto il signor Ridolfo</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì l'ha veduto. È allegro. Non è egli vero,
+Lisetta?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Verissimo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eccolo, eccolo</p> <stage><emph>(ridente)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>(Fa invidia un sì bell'amore)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ottava</head>
+<stage><emph>Fulgenzio, e detti.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <stage><emph>(entra, e vedendo Roberto resta un poco sospeso)</emph></stage> <p>(Chi è costui?)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Venga, venga, signor Fulgenzio. Questo cavalier
+forastiere è venuto qui in questo momento. È vero?</p> <stage><emph>(a Roberto)</emph>.</stage> <p>È un
+amico di nostro zio, e parte presto di Milano. È vero?</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Sì signora, come comanda.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Son servitor umilissimo a quel signor forastiere, e
+a lor signore ancora</p> <stage><emph>(con serietà)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Si fa sempre desiderare il signor Fulgenzio</p> <stage><emph>(allegra)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Troppe grazie, signora. Io non merito di essere
+desiderato</p> <stage><emph>(affettando indifferenza)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Accomodatevi</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ben volentieri</p> <stage><emph>(prende una sedia, e la porta presso Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Poni qui una sedia, Lisetta. Favorisca presso di me</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Grazie. Sto ben dove sono.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Venite qui, con licenza di questo signore, vi ho da
+dir una cosa</p> <stage><emph>(con allegria a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non mancherà tempo</p> <stage><emph>(fingendo allegria)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Chi ha tempo non aspetti tempo</p> <stage><emph>(con allegria)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>È molto allegra la signora Eugenia. (Questa è la
+pena, che si prende, quando parto da lei sdegnato)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>La sua allegrezza è frutto della vostra venuta,
+signore.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Della mia venuta?</p> <stage><emph>(con serietà)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Sì, mi consolo con voi, che avete la sorte di
+possedere il più bel cuore del mondo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Il signor forastiere venuto in questo momento, è
+stato di già informato dalla signora Eugenia?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Vi dispiace, che si sappia, che noi ci vogliamo
+bene?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non signora; non mi dispiacerebbe, se si dicesse la
+verità.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Per parte mia non v'è dubbio; se voi poi non vi
+sentite in istato di confermarlo...</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena nona</head>
+<stage><emph>Fabrizio col grembiale da cucina, e detti.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Flamminia.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Signore. Bella figura!
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sapete voi, dove sia lo zucchero?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sì signore; è sull'armadio nella mia camera.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Voglio fare un dolce, e brusco per il mio padrone.
+Oh compatisca, signor Fulgenzio; l'avevo preso per il signor
+Ridolfo. Bravo; è venuto a favorirci, ho piacere, vuol
+restare a pranzo con noi?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Vi ringrazio, signore...
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Signor Conte, si contenta, che si inviti a pranzo
+con noi questo nobile cittadino? È una perla, veda, è oro
+colato.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Signore, non siete padrone voi in casa vostra?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>No, fin tanto che il signor Conte sta in Milano,
+egli è il padrone di casa mia.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ci sta molto il signor Conte in Milano?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oh, ci starà un pezzo. Ha una lite, e gliela dirige
+quell'uomo grande, quell'uomo celebre del signor Ridolfo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(E queste signore mi hanno dato ad intendere, che
+parte presto. Le bugie non si dicono a caso).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Signor Conte, io ho degli affari; non potrò essere
+continuamente a servirla. Ecco chi la servirà. Il primo
+letterato d'Europa. Uno, che vanta il sangue puro purissimo
+della più cospicua cittadinanza sino al tempo dei
+Longobardi. Intendente di tutto, specialmente di quadri. Ha
+veduto la mia picciola galleria?</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Sì signor l'ho veduta, e ammirata.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ma in due ore non si può veder tutto.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sono due ore che è qui il signor Conte?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sì certo, è venuto a favorirmi per tempo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(E mi dissero ch'era venuto in quel punto! Questo
+non si chiama sottilizzare. Sono bugie patenti).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oggi, signor Fulgenzio, avrete l'onor di pranzare
+col primo lume della nobiltà, colla prima stella d'Italia,
+col più ricco cavaliere privato dei nostri giorni.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>(E tira innanzi così).
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ma io, signore, non posso profittar delle vostre
+grazie.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Che serve?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>No certo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via, dico.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non posso.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ed io voglio. Comando io in questa casa... No non
+comando io, comanda il padrone, e il padrone lo pregherà di
+restare.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Signore, s'egli non può, o non vuole, perché lo
+vogliamo obbligare?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Costui non vorrebbe che ci restassi; converrà,
+ch'io ci stia per iscoprire il disegno).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Stupisco, che non abbia piacere di restar a pranzo
+con me. Ci pensa poco, al vedere).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via, signor Fulgenzio, faccia un'azione eroica.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Mi fa specie, che Eugenia non mi dice niente,
+ch'io resti. Segno, che non le preme).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Mi maraviglio di voi, signor Fulgenzio, che vi
+fate tanto pregare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Mi farei pregar meno, se non temessi di recar
+disturbo alla compagnia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che ragioni fiacche! dite, che non volete restare,
+perché vi preme di andare a casa, per non lasciar sola la
+signora Clorinda vostra cognata. Ecco il perché. Ha ragione,
+signor zio. Non l'obbligate a dar un dispiacere a quella
+povera signorina
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Sì: vuol rimproverar me, perch'io non abbia
+occasione di rimproverar lei)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ora mangia il veleno. Lo conosco. Ci ho gusto).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Se fosse mia figlia, le darei degli schiaffi).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via, signor Fulgenzio, mi lasci andare in cucina,
+mi consoli con un bel sì.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Per far vedere, che qualcheduno s'inganna, resterò
+a godere le vostre grazie.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oh bravo!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ora sono contenta)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E viva il signor Fulgenzio.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ma facciamo le cose ben fatte. Signor Fulgenzio,
+Eugenia mia nipote vi supplica di una grazia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Che diavolo vorrà dire?)
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Io non son degno dei comandi della signora Eugenia.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via, che occorre? Ci conosciamo. Eugenia mia nipote
+vi prega, vi supplica, che subito andiate a casa, che
+prendiate la signora Clorinda vostra cognata, e che la
+conduciate qui a pranzo con noi.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>La signora Eugenia mi prega di questo?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Io non mi sono mai sognata questa bestialità.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Bestialità la chiamate?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, vi par cosa propria incomodar una signora a
+quest'ora?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>È ora incomoda questa? Vi mancano due ore a mezzo
+giorno. Ha tempo quanto vuole a vestirsi, a conciarsi, e a
+venire a bell'agio.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Pare, che c'entri il diavolo a bella posta).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Basta, io lascio fare al signor Fulgenzio.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Pregatelo</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh questo poi no.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Lo prego io dunque</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Dispensatemi. Son certo, che mia cognata non ci
+verrà.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(È certo, che non verrà; perché sa, che colei non
+mi può vedere).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Proviamo; andate a dirglielo in nome mio.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>No certo, signore. Scusatemi non ci vado.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>E volete, che stia a mangiar sola? Non è dovere.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Piuttosto non ci resterò né men io.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, piuttosto andrà con lei, a servirla di
+compagnia; lasciatelo andare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Se non crepo è un prodigio).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Ma giusto Cielo! che testa è quella?)
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Orsù non occor altro. (So io quel, che farò. Anderò
+io a invitarla). Succianespole.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena decima</head>
+<stage><emph>Succianespole, e detti.</emph></stage>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>Signore</p> <stage><emph>(con una stoviglia in mano)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Tieni questo grembiale che or ora vengo, e, senti,
+cresci qualche cosa per due persone di più).
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>(E le posate?)
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Oh diavolo! come faremo?)
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>(Come faremo?)
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Ingegnati).
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>(Vi sono quelle di legno).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Sciocco! la riputazione. Zitto, l'ho trovata. Farò
+così; me ne farò prestar due dalla signora Clorinda. È una
+donna di garbo, non dirà niente a nessuno. Farò bene?)
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>(Gnor sì).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Va' a lavorare).
+</p></sp>
+<sp><speaker>SUCCIANESPOLE</speaker> <p>(Gnor sì)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Con licenza di lor signori.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Dove va, signor zio?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Succianespole si è scordato di comprare una cosa.
+Vado io, e torno subito. (Eh per ripieghi non c'è un par
+mio. Starei bene a una Corte, maggiordomo, primo ministro.
+Non sono morto. Chi sa?)</p> <stage><emph>(parte)</emph></stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena undicesima</head>
+<stage><emph>Flamminia, Eugenia, Fulgenzio, e Roberto.</emph></stage>
+<sp><speaker>ROBERTO</speaker> <p>(In questa casa vi è il più bel divertimento del
+mondo).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi dispiace del sagrifizio, che oggi deve fare il
+signor Fulgenzio.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E a me dispiace, che ogni sagrifizio è male
+accettato.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Signori miei, amore non si pasce di sdegno, ma di
+dolcezze</p> <stage><emph>(a Fulgenzio, e ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Bravo, dite lor qualche cosa; che non istiano
+sempre ingrugnati</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sarei più fortunato, se avessi il merito del signor
+Conte.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Io non ho merito alcuno; ma vi accerto bensì, che se
+avessi un'amante, come questa gentil signora, mi chiamerei
+fortunato.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E chi v'impedisce una sì gran fortuna?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Io non faccio mal'opera con nessuno...
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Se parlate per me...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Se parlate per lui, mi rinunzia solennemente</p> <stage><emph>(a Roberto)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ella interpreta i miei sentimenti, a misura delle
+sue inclinazioni.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Il signor Conte non è capace di interrompere il
+corso dei vostri amori.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì: è arrivato in questo momento, e parte
+prestissimo di Milano.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Io ho parlato così...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh lasciatelo dire. Non sapete com'è fatto? Ha
+voglia di taroccare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E voi avete voglia di vedermi fare delle pazzie. Ma
+questo gusto non ve lo darò più. Ho fissato di non volermi
+più scaldare il sangue per voi. Signor Conte, da dove viene
+ora, se è lecito?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Da Roma, signore.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Che dice di quella gran città?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Bella, magnifica, piena di meraviglie.
+</p></sp>
+<sp><speaker>FLAM</speaker> <p>A noi non importa di Roma.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Lasciatelo dire; lasciate, che si diverta.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Mi dicono, che a Roma ci sono delle belle donne, è
+egli vero?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Sì, certo, ed hanno una galanteria sorprendente.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sono così ostinate, come le milanesi?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Questa poi compatitemi...</p> <stage><emph>(a Fulgenzio)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>A Roma, signore, degli uomini incivil ve ne sono?</p> <stage><emph>(a Roberto)</emph></stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Via via, non vi lasciate trasportar dalla collera.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Andrei a Roma pur volentieri.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Andate, che sarete la consolazione di Pasquino.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Fa caldo oggi, mi pare</p> <stage><emph>(si alza affettando indiferenza, ma si vede che freme)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Signor Conte, vorrei pregarvi di una finezza).
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>(Comandatemi).
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Fate mostra di aver da fare qualche cosa. Andate
+di là per un poco).
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>(Sì, è giusto, lasciamoli in libertà)</p> <stage><emph>(a Flamminia)</emph>.</stage> <p>Signora
+Eugenia si ricordi dei casi, che ponno nascere. Con licenza
+di lor signori</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena dodicesima</head>
+<stage><emph>Flamminia, Eugenia, e Fulgenzio.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>E di quai casi intende di dire?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Chi lo sa? gli badate voi? Noi non ci pensiamo né
+meno. Eugenia non lo può vedere.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Così credo ancor io.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Caro signor Fulgenzio, siete assai sospettoso.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non parlate, sorella, che or ora lo farete dar nelle
+furie.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Oh non vi è dubbio. Non vi è pericolo che mi
+vediate infuriare. Ho preso un altro sistema; son diventato
+pacifico. Non mi riscaldo più.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Via dunque; siate buono. Mia sorella, poverina,
+credetelo vi ama di vero cuore. Io l'ho veduta piangere...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non è vero. Non le credete. Lo dice a posta</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>A che servono ora codeste scene? Io non le voglio
+assolutamente. Vado di là, perché il signor Conte non dica.
+(Sorella, abbiate giudizio)</p> <stage><emph>(piano ad Eugenia)</emph>.</stage> <p>(Abbiate carità, signor
+Fulgenzio)</p> <stage><emph>(piano a Fulgenzio)</emph>.</stage> <p>Ah poveri innamorati!</p> <stage><emph>(a tutti due, e parte)</emph></stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena tredicesima</head>
+<stage><emph>Fulgenzio, ed Eugenia.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>(Per me ho finito d'essere innamorato)</p> <stage><emph>(passeggia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Voglio piuttosto mettermi un sasso al collo, e
+andarmi a gettar nel Naviglio)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Si vede chiaro, che è annoiata di me)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ha il cuore con tanto di pelo)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Ci scommetterei la testa, che il Conte le piace)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Finto! doppio come le cipolle!)</p> <stage><emph>(da sé)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Son pur pazzo io a perdere il mio tempo, e a
+perdere la salute, ed il riposo per lei)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Lo vedrebbe un cieco, che ha più premura per la
+cognata, che per me)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Penerò un poco, ma lo supererò questo indegnissimo
+amore)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Se ora mi tratta così, guai a me se fosse mio
+sposo)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Farò un viaggio; me ne scorderò)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ha una faccia, che pare il vero demonio)</p> <stage><emph>(da sé)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(E stimo, che non mi dice niente)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Che ho da fare io con questo girandolone? È meglio
+che me ne vada)</p> <stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Buon viaggio</p> <stage><emph>(forte)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Felice ritorno</p> <stage><emph>(si volta)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Vada, vada, che il signor Conte l'aspetta.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Perché non va a dire alla signora cognata, che resta
+a pranzo fuori di casa?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Maladetta!)</p> <stage><emph>(si va sdegnando a poco a poco)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Perché non le va a chieder licenza di restar qui?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Le si possano seccar le labbra)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma ora, che ci penso; non vorrà, che lo sappia la
+sua signora cognata, che resta qui, avrà paura, avrà
+soggezione.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Possa parlare per l'ultima volta)</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi spiacerebbe, che avesse da disgustare la sua
+signora cognata.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Lasciate star mia cognata</p> <stage><emph>(acceso di collera)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh oh quel bravo signore, che non va più in bestia!
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Non posso resistere)</p> <stage><emph>(da sé, e tira fuori il fazzoletto</emph>).</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Non dubiti, che avrà finito di arrabbiarsi per me.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <stage><emph>(straccia il fazzoletto coi denti)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi duole del tempo, che ha gettato con una pazza.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <stage><emph>(segue a stracciare il fazzoletto)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma si consoli, che dormirà i suoi sonni.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <stage><emph>(tira fuori nascostamente un coltello)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Povera me!) Eh dico, signor Fulgenzio</p> <stage><emph>(timorosa, vedendo il coltello)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Che vuol da me?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Cos'avete in mano?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Niente.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Voglio vedere.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non ho niente, vi dico.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non facciam ragazzate.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>All'onore di riverirla</p> <stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Fermatevi.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ha qualche cosa da comandarmi?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che c'è in quella mano?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Niente</p> <stage><emph>(mostra la mano vuota)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>In quell'altra?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Niente.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non facciamo scene, vi dico.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Che scene, che scene? Le fa ella le scene. Io non
+faccio scene.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mettete giù quel coltello.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Che cosa vi sognate voi di coltello?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che serve? Non mi fate arrabbiar d'avvantaggio,
+datelo qui</p> <stage><emph>(si accosta per averlo)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Che cosa credete voi, ch'io voglia fare di questo
+coltello?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che lo so io?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Voglio mondare una mela.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Fulgenzio</p> <stage><emph>(intenerendosi)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Lasciatemi stare</p> <stage><emph>(con più caldo)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Fulgenzio</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Lasciatemi stare</p> <stage><emph>(crescendo il caldo)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Per carità.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Per me non c'è carità, né amore, né compassione</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ascoltate una parola almeno.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Cosa volete dirmi?</p> <stage><emph>(con isdegno)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Una parola sola.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Via, ditela</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Placatevi, se volete ch'io parli.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah!</p> <stage><emph>(sospira con isdegno)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Datemi quel coltello.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Signora no.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ve lo domando, se non per l'amore, che mi portate,
+per quello almeno, che mi avete portato.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah!</p> <stage><emph>(si lascia cadere il coltello di mano)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Maladetto coltello!)</p> <stage><emph>(lo prende velocemente e lo getta via)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Mi sento morire).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Vi sono io così odiosa, che volete morire piuttosto
+che volermi bene?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, voglio morire piuttosto, che vedervi in braccio
+ad un altro.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma come è possile mai, che vi passino per mente
+pensieri così indegni di voi, e di me? Io amar altri, che il
+mio Fulgenzio? Io darmi ad altri, fuori che al mio bene,
+all'anima mia, al mio tesoro? Non sarà mai, non sarà mai.
+Morirei prima di farlo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Lo posso credere?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Se non lo dico di core, il Cielo mi fulmini.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ma perché addomesticarvi col signor Conte? Perché
+trattarlo subito con confidenza? e palesargli l'impegno che
+avete meco? E perché darmi ad intendere vostra sorella,
+ch'ei parte presto, ch'era venuto poc'anzi? perché dirmi
+delle bugie? perché darmi occasione di sospettare?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ah Fulgenzio, non sono io, che vi dà occasione di
+sospettare, ma la poca fede, che avete di me, fa inquietar
+voi, ed insulta la mia onoratezza: quali domestichezze ho io
+praticate col Conte, oltre l'onesta convenienza di sedere in
+conversazione, unicamente per compiacere a mio zio?
+M'imputate a delitto l'avergli palesato l'amor che ho per
+voi? Lodatemi anzi d'averlo fatto. Segno, che vi amo
+davvero, e che la mia sincera dichiarazione tende a
+disingannare chi per avventura si lusingasse di me. La
+povera mia sorella conosce il vostro temperamento. Le sarà
+parso vedervi entrare burbero, e sospettoso. Amore l'indusse
+al desio di acchetarvi, e la debolezza le diè il cattivo
+consiglio. Tutto ciò non sarebbe niente, se voi non foste
+mal prevenuto. E qual motivo avete di sospettare di me? V'ho
+date io scarse prove dell'amor mio? Vi pare, che sia di voi
+poco accesa? Non vi bastano le mie lacrime, i miei sospiri?
+Sono inquieta è vero; ma le mie inquietudini sono partorite
+da amore. Vi tormento, sì, qualche volta, ma chi ama davvero
+soffre un leggier travaglio, in grazia di quell'oggetto, che
+piace. Fulgenzio mio, non vi tormenterò più. Voi mi
+abbandonerete, ed io vi amerò in eterno. Troverete un'amante
+di me più amabile, più ricca, più meritevole, ma non più
+tenera, né più fedele. Se vi dà pena il vedermi, privatemi
+della vostra vista, ma conservatemi i giorni vostri. Vivete,
+o caro, se non per me, almeno per voi medesimo. Ancor che
+mio non siate, sì, ve lo giuro, io sarò sempre vostra, e lo
+sarò fin che viva, e lo sarò colla maggior tenerezza del
+cuore.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Anima mia dolcissima, cuor mio caro, vi domando
+perdono, compatitemi per carità</p> <stage><emph>(s'inginocchia a' piedi di Eugenia, e restano tutti e due senza parlare)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quattordicesima</head>
+<stage><emph>Fabrizio, Clorinda e detti.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Oh, ecco qui la signora Clorinda.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Oimè! che dirà il signor Fabrizio, se mi ha veduto
+in quest'atto?</p> <stage><emph>(Fabrizio, e Clorinda restano un poco indietro ammirati)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ah trema della cognata. Gli duole, che lo abbia
+veduto ai miei piedi).
+</p></sp>
+<sp><speaker>CLORINDA</speaker> <p>(Povero signor Fulgenzio! mi dispiace che rimasto
+sia sconcertato. Compatisco l'amore, e mi sovviene, che il
+mio caro sposo faceva meco lo stesso).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Eugenia, che cos'è stato? è venuto male al signor
+Fulgenzio?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Mi par di sì, domandatelo a lui.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Vi è venuto qualche male, signore?</p> <stage><emph>(a Fulgenzio)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, certo, mi è venuto un giramento di capo; non
+avete osservato, ch'io era caduto in terra? (Non sappia,
+ch'io mi gettava ai piedi della nipote).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Si scusa per cagione della cognata).
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ora, come vi sentite?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Un poco meglio.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Aspettate, che vi voglio guarir del tutto. Vado a
+prender un maraviglioso, stupendo arcano del famosissimo,
+magnificentissimo Cosmopolita</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quindicesima</head>
+<stage><emph>Eugenia, Clorinda, e Fulgenzio.</emph></stage>
+<sp><speaker>CLORINDA</speaker> <p>Scusate, signora Eugenia, se son venuta a recarvi
+incomodo. Il signor Fabrizio a forza di buone grazie, mi ha,
+posso dir, violentata.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>In fatti, senza una violenza non si potevano sperar
+queste grazie.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Oh Cieli! prevedo qualche nuovo disastro).
+</p></sp>
+<sp><speaker>CLORINDA</speaker> <p>Voi mi mortificate, signora. Sapete che ho per voi
+quella stima, e quel rispetto, che meritate, ma daché partì
+mio marito, non sono uscita di casa.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Né anche la sera?
+</p></sp>
+<sp><speaker>CLORINDA</speaker> <p>Ah sì, una sera con mio cognato, ve l'ha egli
+detto?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh non mi ha detto niente. Egli non mi usa simili
+confidenze.
+</p></sp>
+<sp><speaker>CLORINDA</speaker> <p>Male, signor cognato, quando si ama si dice tutto.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che ha il signor Fulgenzio che è ammutolito?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Niente signora. (Cielo, aiutami).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Fa così in casa, signora Clorinda?
+</p></sp>
+<sp><speaker>CLORINDA</speaker> <p>No, per dirla; è piuttosto gioviale.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, non è accigliato, se non quando viene da me. Qui
+è dove gli si promove la malinconia.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Signora, non potete dire, che sia stato sempre
+così.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>È vero, è da poco tempo; da che vi sono diventata
+noiosa.
+</p></sp>
+<sp><speaker>CLORINDA</speaker> <p>Eppure mi parla sempre di voi con un amore
+grandissimo</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Gioca in casa il signor Fulgenzio?</p> <stage><emph>(a Clorinda)</emph></stage>
+</sp>
+<sp><speaker>CLORINDA</speaker> <p>Sì, qualche volta.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E da me grida, bestemmia; tira fuori i coltelli.
+(Dove è andato quel maladetto coltello, che glielo voglio
+rendere or ora)</p> <stage><emph>(mostra di cercar il coltello)</emph>.</stage>
+</sp>
+<sp><speaker>CLORINDA</speaker> <p>(Perché le fate di queste scene?)</p> <stage><emph>(piano a Fulgenzio)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Perché, perché... Ora non posso parlare</p> <stage><emph>(guardandosi da Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Che cosa sono questi segreti? Se avete dei segreti
+non avete tempo di comunicarveli in casa? Anche qui venite a
+fare <emph>ci ci</emph>? Questo è un volere provocare la mia
+sofferenza</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+<sp><speaker>CLORINDA</speaker> <p>Che vuol dire questo discorso?</p> <stage><emph>(a Fulgenzio)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Eh sia maladetto, quando siete venuta qui</p> <stage><emph>(corre dietro ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>CLORINDA</speaker> <p>Che modo e questo? Mio cognato mi perde il
+rispetto? Che Eugenia sia gelosa di me? Sarebbe un insulto
+troppo grave al decoro mio. Fortuna, che non è lontano
+l'arrivo di mio consorte. Che fo? resto o men vado? La
+prudenza insegna dissimulare. Saprò farlo col padrone di
+questa casa, ma non con quell'incivile di mio cognato</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2></div1>
+<div1 type="atto">
+<head>Atto terzo</head>
+<div2 type="scena">
+<head>Scena prima</head>
+<stage><emph>Lisetta, e Tognino.</emph></stage>
+<sp><speaker>LISETTA</speaker> <p>Ma che desinare arrabiato è stato quello di questa
+mattina!
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Io non ne saprei indovinare il perché.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Qualche briga vi è stata fra la signora Clorinda, e
+il signor Fulgenzio.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>La mia padrona è di temperamento quieto, e
+pacifico. Non vi è mai stato che dire con suo marito; e con
+suo cognato si amavano come fratelli.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>E quest'amore innocente, e questa loro buona
+corrispondenza è quella che fa delirar la signora Eugenia.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Me ne sono avveduto questa mattina, quando ella mi
+ha tirato giù per saper quel che fanno, e quel che non
+fanno. Io ho parlato alla buona, non credendo mai, che fosse
+gelosa di una cognata.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Non è vero che sia gelosa.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>E che cos'è dunque?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>È puntigliosa. Non le dispiacciono le attenzioni,
+che usa il signor Fulgenzio alla signora Clorinda, perché li
+dubiti innamorati, ma perché vorrebbe essere ella sola
+servita, corteggiata, distinta, e non soffre che l'amante
+usi una menoma attenzione a qual si sia persona di questo
+mondo. Lo vorrebbe sempre qui, lo vorrebbe sempre con lei.
+Crede che la premura per la cognata distragga il signor
+Fulgenzio dall'assiduità di servirla; s'immagina, che gli
+possano insinuare delle massime poco a lei favorevoli. Sa di
+aver poca dote. Ha sdegno, che la signora Clorinda abbia
+portato in casa sei mila scudi. Dubita, che il signor
+Fulgenzio la stimi, e la veneri anche per questo, e che
+concepisca dell'avversione alla di lei povertà. Noi donne,
+se nol sapete, siamo per solito ambiziosette. Abbiamo a
+sdegno quelle che sono, o quelle, che possono più di noi.
+Ogni una vorrebbe essere la sola stimata; la sola riverita,
+ed amata, da colui specialmente, che si è dichiarato per
+lei, e ogni cosa le fa ombra; e chi più, e chi meno, dubita,
+sospetta, s'inquieta. Ed ecco le fonti d'onde derivano le
+smanie della padrona. Amore, timore, vanità e sospetto.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>E quale di queste passioni nel cuore della signora
+Eugenia è la dominante?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Oh l'amore, l'amore. Se non amasse tanto, non
+sarebbe né sospettosa, né sofistica a questo segno. La
+vanità di essere la distinta, provien dall'amore: che
+importerebbe a lei, che il signor Fulgenzio facesse la corte
+alla cognata, se non avesse per lui della tenerezza, e se
+non credesse di essere amata?
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Ma quando termineranno questi loro deliri?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Subito, che il signor Fulgenzio l'avrà sposata.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>E perché non la sposa?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Intesi dire, che non lo fa, se non torna il di lui
+fratello.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Io credo che debba essere qui a momenti. Una
+lettera venuta questa mattina, mi pare lo faccia poco
+lontano.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Voglia il Cielo, che finiscano di penare. Vi
+assicuro, che delle stravaganze della signora Eugenia ne
+risento anch'io la mia parte.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Parmi sentir del rumore di là dove mangiano.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Sono alle bottiglie. Avranno gli spiriti in moto.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Ho curiosità di sentire. Sempre mi trema il cuore
+per il mio padrone.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Aspettate. Senza, che andiamo di là, da questa porta
+si può rilevar qualche cosa</p> <stage><emph>(va alla porta, e guarda per il buco della chiave)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>(È un po' troppo caldo il padrone).
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Oh diancine! non sono in allegria, no. Ho sentito
+delle parole di sdegno</p> <stage><emph>(a Tognino, scostandosi dalla porta)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>Lasciate che senta</p> <stage><emph>(si accosta alla porta)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>Guardate per il buco della chiave</p> <stage><emph>(a Tognino)</emph>.</stage> <p>(Dubito, che non
+voglia finir in bene).
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Vi sono de' guai. La mia padrona piange</p> <stage><emph>(scostandosi)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>Piange la signora Clorinda?</p> <stage><emph>(corre a vedere alla porta)</emph></stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>(Quella buona signora non merita queste
+afflizioni).
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Il signor Fabrizio è in collera; ha gettato via la
+salvietta, e si è partito di tavola</p> <stage><emph>(stando presso la porta)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>E il mio padrone che cosa fa?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Aspettate</p> <stage><emph>(guarda)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>(Dubito di qualche gran precipizio).
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>È sdraiato sopra la tavola, colla testa cacciata
+fra le braccia. Ho veduto che il signor Ridolfo gli parla,
+ma egli non gli risponde.
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>Lasciatemi un po' vedere</p> <stage><emph>(si accosta alla porta)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>Sì, soddisfatevi</p> <stage><emph>(si ritira dalla porta)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>(Non vorrei né meno conoscerlo, non che essere al
+suo servizio. Mi fa compassione)</p> <stage><emph>(guarda)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>(Certo, se durano a far questa vita, io non ci sto).
+</p></sp>
+<sp><speaker>TOGNINO</speaker> <p>La signora Eugenia è balzata in piedi</p> <stage><emph>(a Lisetta)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>Lasciate vedere</p> <stage><emph>(corre alla porta, e guarda)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>Che cosa fa?</p> <stage><emph>(con ansietà)</emph>.</stage>
+</sp>
+<sp><speaker>LISETTA</speaker> <p>Se ne va via</p> <stage><emph>(osserva)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>E la mia padrona?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Si asciuga gli occhi</p> <stage><emph>(osserva)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>E il padrone?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Non si move</p> <stage><emph>(osserva)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>E la signora Flamminia?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Par che pianga ella pure</p> <stage><emph>(osserva)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>E quel forastiere?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Prende tabacco, e non parla</p> <stage><emph>(osserva)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena seconda</head>
+<stage><emph>Eugenia, e detti.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <p>Che fate lì a quella porta?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Niente, signora</p> <stage><emph>(Lisetta, e Tognino si spaventano)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Andate via.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Perdoni</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>Compatisca</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Levatevi di qui, vi dico.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>(Oh, le fuma il capo davvero)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+<sp><speaker>TOGNINO</speaker> <p>(Povero padrone! Voglio vedere, se ha bisogno di
+nulla)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena terza</head>
+<stage><emph>Eugenia sola.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <stage><emph>(ponendosi a sedere con isdegno)</emph></stage> <p>No, non voglio più far questa vita. Se tirerò innanzi così, diverrò tisica, morirò disperata.
+Veggo da me medesima, che di giorno in giorno mi vo dimagrando, e per
+chi? Per un ingrato. Non serve dire: Fulgenzio è un ingrato.
+Ha sempre finto volermi bene, ma non me ne ha mai voluto.
+Nelle occasioni si conosce chi ama. Se avesse per me quella
+premura, che dovrebbe avere, cosa gl'importerebbe disgustar
+per me la cognata? Oh! gliel'ha raccomandata il fratello. Il
+fratello è fratello, e l'amante è amante; e se ho d'amare,
+voglio essere amata, e chi mi ama ha da scordarsi d'ogni
+altro affetto. Ma è impossibile, mi dirà taluno, trovar un
+uomo come tu lo vorresti. Bene, se non c'è, non m'importa.
+Andrò in un ritiro, andrò lontana dal mondo. Già il signor
+Fulgenzio è annoiato di me, ed ha ragione di esserlo, perché
+sono assai delicata. Si è pacificato più volte; si è
+umiliato; mi ha domandato perdono, non vorrà più farlo, ed
+io non voglio esser la prima. È meglio così. Ho risolto;
+voglio andarmi a chiudere in un ritiro. Sarà contento; non
+mi vedrà più. Avrà finito di essere tormentato. Servirà la
+cognata; troverà un'altra amante; si mariterà.</p> <stage><emph>(a poco a poco si dispone a piangere)</emph></stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quarta</head>
+<stage><emph>Flamminia e la suddetta.</emph></stage>
+<sp><speaker>FLAMMINIA</speaker> <p>Che fate qui da voi sola?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Niente</p> <stage><emph>(nascondendo le lacrime)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eh via, finiamola.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Lasciatemi stare</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Pare lo facciate apposta, perché il signor
+Fulgenzio si stanchi, e vi perda l'amore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che importa a me del suo amore?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eh via. Si sa, che vi preme.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>No davvero, non ci penso più.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>È quella maladetta bile, che vi fa parlare così.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Aspettate domani, e vedrete. Se è bile, o cos'è.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E che cosa volete fare domani?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Voglio ritirarmi dal mondo.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sì, sì, dormiteci sopra, e non sarà altro.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sorella, voi ancora non mi conoscete.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Vi conosco pur troppo</p> <stage><emph>(un poco alterata)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Sono irragionevole, è vero?</p> <stage><emph>(sdegnata)</emph></stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Avete delle ore buone, ma altresì delle ore molto
+cattive.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ora sono nelle ore pessime. Lasciatemi stare</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Nostro zio è fuori di sé.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che gli ho fatto io?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che cosa avete fatto alla signora Clorinda?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Già tutti proteggono quella gran dama. Io sono il
+cane del macellaio: ossa, e busse.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Dovevate portar rispetto al padrone di casa, che
+l'ha invitata.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma che cosa le ho fatto?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che lo so io? È venuta a tavola colle lagrime
+agli occhi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh! sapete perché è venuta colle lagrime agli occhi?
+Perché ha trovato qui suo cognato.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Io so, che si è doluta molto di lui, e dice, che
+le ha perduto il rispetto.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, ha ragione; pretende, che non si parta da lei,
+che stia seco a pranzo, a farle fresco su la minestra, se
+scotta, e se non lo fa, dice, che le perde il rispetto.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Questa finalmente è una cosa, che dee durar poco.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Come poco?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Se vien suo consorte, il signor Fulgenzio ha
+finito.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E quando verrà questo suo consorte?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ho inteso dire, che l'aspettano oggi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oggi?</p> <stage><emph>(un poco placata)</emph></stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Così disse la signora Clorinda.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Eh, sì! se tornerà suo marito non seguiteranno a
+convivere insieme?</p> <stage><emph>(alterata)</emph></stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Può esser di no. Se il signor Fulgenzio vi sposa,
+non sarà cosa illecita, che lo preghiate di metter casa da
+sé.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>La metterebbe poi?</p> <stage><emph>(placata)</emph></stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Son persuasa di sì. Sapete, che non vi sa negar
+cosa alcuna.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Guardate la bella premura, che ha di me. Si move,
+per venirmi a vedere? Sa staccarsi un momento dalla cognata?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Eccolo, eccolo, ch'egli viene.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non gli dite niente, ch'io aveva risolto
+d'abbandonarlo.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Io non fo di queste pazzie.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Vien molto adagio. Sarà sdegnato.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Parlategli con umiltà.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ho da pregarlo? Oh questo poi no.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>L'ha fatto egli tante volte con noi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Basta. Se sperassi, che le cose andassero come dite
+voi; e se veramente mi volesse bene...
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Se non vi amasse, non verrebbe qui...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Zitto, zitto. Sentiamo, che cosa dice.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quinta</head>
+<stage><emph>Fulgenzio e dette.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>Signora Eugenia, mi permetterete, ch'io vi dica una
+cosa, da voi forse non prevveduta. Ho piacere che vi si
+trovi la signora Flamminia.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Oh, vi è del male. Non l'ho mai più veduto così
+burbero, come ora).
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Che sì, che vuol fare il bravo).
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Voi sapete, ch'io vi amo, ma sapete altresì, ch'io
+sono un uomo d'onore</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Io non so nessuna di queste cose.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Come! mettereste in dubbio la mia onoratezza?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Non le badate, signor Fulgenzio. Io la conosco
+questa mozzina, lo dice apposta per farvi arrabbiare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>La signora Eugenia può dir quel, che vuole; può
+burlarsi di me, può deridermi, può insultarmi, ma non mi può
+intaccar nell'onore.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Se fossi un uomo, mi sfiderebbe alla spada.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Felice voi, che potete scherzare. Nello stato in
+cui mi ritrovo, non fo poco, se ho tanto fiato da poter
+parlare. L'amor, che ho per voi, è arrivato all'eccesso, è
+arrivato a farmi perdere la ragione, son divenuto brutale,
+nemico degli uomini, e di me stesso. Ma tutto questo sarebbe
+poco, se non mi facesse essere indiscreto, incivile, e quel
+ch'è peggio, ingrato al mio sangue, e sprezzatore del decoro
+della famiglia. Che dirà di me mio fratello? che dirà egli,
+quando saprà, che per cagion vostra ho perduto il rispetto
+alla di lui moglie?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oh oh, ecco qui, ecco qui, d'onde derivano le smanie
+del signor Fulgenzio. Ecco lo sforzo della delicatezza
+d'onore. Ha detto una parola torta alla dilettissima sua
+cognata. Ha commesso un error grandissimo. Si sente morire
+d'averlo fatto. Bisogna rendere soddisfazione a questa
+illustre signora. Volete, che vada io a domandarle scusa per
+voi?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che manieraccia è questa? Lo voglio dire al
+signore zio</p> <stage><emph>(ad Eugenia)</emph>.</stage> <p>Per l'amor del Cielo, signor Fulgenzio, non le
+badate.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non mettete in ridicolo una cosa seria</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Io voglio ridere quanto mi pare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ridete pure a vostro talento. La vostra ilarità in
+un caso simile dipende, o da poco amore, o, compatitemi, da
+poca ragione.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, sono una pazza. Non lo sapete?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>No signora; sapete esser saggia, quando volete.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma questa volta son pazza. Ditelo liberamente.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Se non lo dice egli, lo dirò io.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Voi non c'entrate, signora</p> <stage><emph>(a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Meritereste, che tutti vi abbandonassero.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Basta, che non mi abbandoni il Cielo.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Il Cielo non assiste a chi ha massime come le
+vostre.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che? sono una bestia io? non merito l'assistenza del
+Cielo?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>L'ingratitudine è odiosa agli uomini, e ai numi.
+Voi trattate male con chi vi ama; cercate di affliggere le
+persone innocenti; odiate chi vi consiglia al bene; tradite
+voi stessa; calpestate i doni del Cielo: e non arrossite di
+voi medesima?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Via, signora Flamminia, non l'affliggete
+d'avvantaggio. Io non ho cuore di vederla mortificata.
+Eugenia è assai ragionevole per conoscere da se stessa i
+trasporti della passione. Sono stato io più debole, e più
+mentecatto di lei, doveva conoscere il peso delle sue
+parole, compatirla, e dissimulare. La collera mi ha
+trasportato. Ella non mi ha sforzato a insultar mia cognata;
+sono stato io l'incauto, il mal accorto, il furente. Eugenia
+mi ama, ed è per amore gelosa.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Io non sono gelosa di vostra cognata.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Lo so; è uno sdegno da voi concepito per timore di
+non essere preferita; ma cara Eugenia, disingannatevi; vi
+amo, e vi stimo sopra tutte le cose di questo mondo.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>(Parla, in una maniera, che farebbe intenerire i
+sassi. Possibile, ch'ella voglia essere così caparbia?)
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Se conoscete dunque il motivo delle mie
+inquietudini, perché non cercate la via di rendermi
+consolata?</p> <stage><emph>(a Fulgenzio)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, cara, vi chiedo scusa della poca attenzione,
+che avessi avuta per voi; cercherò in avvenire di meglio
+meritarmi l'affetto vostro; e spero vicino il tempo di
+potervi dare la più vera testimonianza dell'amor mio.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sarebbe tempo, che il mio cuor respirasse.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Abbiate giudizio. Se siete in pace sappiateci
+stare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Eugenia carissima, voi mi avete da accordare una
+grazia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non siete voi padrone di comandarmi?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Me l'avete da far con buon animo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Se non desidero, che compiacervi!
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Mi avete a permettere, ch'io possa ricondurre mia
+cognata alla propria casa.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Se qui l'ha condotta il signore zio, perché non può
+egli restituirla dove l'ha presa?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Il signor Fabrizio è sdegnato; non si lascia
+vedere; e poi aspettasi mio fratello, e non ho piacere che
+trovi in casa degli sconcerti.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, sì, avete ragione. Accompagnatela pure</p> <stage><emph>(dissimulando)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Me lo dite di cuore?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Anzi.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ho paura, che vogliate dissimulare, e che dentro di
+voi non siate contenta.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Che volete voi sottilizzar d'avvantaggio? È una
+cosa giusta; lo conosce, e l'accorda. Fate quest'atto di
+onestà, di dovere, e poi subito tornate qui</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>No, no, che non s'incomodi a ritornare.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>La sentite, signora Flamminia?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ho sentito tanto, che basta, e non ne voglio
+sentire di più. (Le caccierei la testa nel muro)</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena sesta</head>
+<stage><emph>Fulgenzio ed Eugenia.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>Questa è la grazia, che avete promesso accordarmi?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Io non v'impedisco, che la conduciate.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ma con mal animo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non dovete badare all'animo mio; basta, che
+soddisfacciate al vostro.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Io non sono portato per altro, che per
+l'adempimento del mio dovere.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Adempitelo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, in ogni maniera l'adempirò. Posso tutto
+sagrificarvi fuor che l'onore di me, e della mia famiglia.
+Se quest'atto del mio dovere mi ha da costare la perdita
+dell'amor vostro, ne verrà in conseguenza il fine della mia
+vita, ma non per questo un uomo d'onore dee preferire al
+decoro la sua passione.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Fatemi almeno un piacere.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Oh Cielo! comandatemi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Andate, finitela, e non tormentate di più.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E ho da lasciarvi qui in questo stato?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Un uomo d'onore non ha da preferire la passione al
+decoro. Ma che dico io di passione? Andate, andate, che mi
+sono abbastanza disingannata.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah nemica della ragione, nemica di me, e di voi
+medesima!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Avvertite, che insolenze io non ne voglio soffrire.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Farò una risoluzione da disperato.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena settima</head>
+<stage><emph>Ridolfo e detti.</emph></stage>
+<sp><speaker>RIDOLFO</speaker> <p>Amico, una parola.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah Ridolfo, soccorretemi per carità!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Soccorretelo quel povero sfortunato. Levatelo dalla
+presenza di una irragionevole, di una ingrata</p> <stage><emph>(a Ridolfo)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Perdonatemi, signora, s'io vi dispiaccio. Mi preme
+l'onor dell'amico. La signora Clorinda ha risolto di partir
+sola. Ricusa la mia compagnia, ricusa ogni altro, se non la
+riconduce il cognato.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E perché non va egli a servirla? È un'ora, che
+glielo dico; ed egli persiste ad importunarmi.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Via dunque rammentatevi del fratello, e fate il
+vostro dovere</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Più che restate qui, e più mi recate noia</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Andiamo</p> <stage><emph>(a Ridolfo sdegnoso contro Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Ogni onestà lo richiede</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, andiamo</p> <stage><emph>(smanioso, e incerto)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Ma se ve lo dice ella stessa</p> <stage><emph>(a Fulgenzio accennando Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, vi dico; andiamo</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Compatitelo, signora Eugenia.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Barbara!</p> <stage><emph>(ad Eugenia fremendo)</emph></stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Sono stanca.</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ingrata!</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>O andate voi, o vado io.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Andrò io, maladetta!</p> <stage><emph>(parte correndo)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Compatitelo</p> <stage><emph>(ad Eugenio)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Andate, andate con lui</p> <stage><emph>(sdegnosa)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Siete sdegnata meco?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Andate, signor protettore</p> <stage><emph>(come sopra)</emph>.</stage>
+</sp>
+<sp><speaker>RIDOLFO</speaker> <p>Protettore di chi?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Della parentela.
+</p></sp>
+<sp><speaker>RIDOLFO</speaker> <p>Vi compatisco, perché siete una donna</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ottava</head>
+<stage><emph>Eugenia sola.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <p>Sia ringraziato il Cielo, sarà finita. È meglio
+così. Già se Fulgenzio fosse mio sposo non avrei un'ora di
+bene; e s'ei lo facesse, lo farebbe per forza. Si vede
+chiaro, che non mi ama. Ed io sarei stolida, se volessi
+amarlo. Quest'angustia di cuore, che ora mi sento, non è
+amore, è sdegno. Sdegno non già, perché il perfido mi
+abbandoni, ma ira contro me stessa per avergli creduto. E
+sarò così sciocca di andarmi a chiudere in un ritiro per la
+perdita di un ingrato? Darò a lui questa soddisfazione,
+acciò se ne vanti, e vada raccontando agli amici la mia
+disperazione, come un trionfo della sua perfidia? No, non
+fia vero; vada egli, ed ammiri la mia costanza. Ma quale
+costanza, se mi sento morire?</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena nona</head>
+<stage><emph>Fabrizio, Roberto, e detta.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Cospetto di bacco! chi sono io in questa casa?
+Sono il padrone, o sono qualche stivale?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Con chi l'avete, signore zio?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>L'ho con voi, sciocca.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Con me?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sì, con voi; io sono il padrone; e non ci sono in
+questa casa altri padroni, che io; e una nipote, che dipende
+da me, non dee far all'amore, senza che io lo sappia; e
+molto meno parlare di maritarsi: insolente!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Or ora mi sente con queste sue baggianate).
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Signore, non la mortificate così</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>La vede, signor Conte? Questa è la più stolida
+ragazza di questo mondo. Non sa, che si faccia, non sa che
+si dica; non è buona da nulla; e parla di maritarsi.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Non vorrei, che mi tirasse a cimento).
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Ma voi, signore, me l'avete pure lodata, avete pur
+detto che non c'è in tutto il mondo una giovane, come lei.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Mi disdico di quel, che ho detto. È una sciocca, è
+una frasca, è un'impertinente.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Signor Conte, siccome non avrete dato fede
+all'elogio, spero non crederete al biasimo, con cui vorrebbe
+discreditarmi.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Tant'è vero, ch'io non lo credo; che se mai per
+avventura accadesser di que' casi da me previsti, non avrei
+alcuna difficoltà ad offerirvi la mano.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Come? il signor Conte si degnerebbe di sposar mia
+nipote?
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Sì, certo, e mi chiamerei felice, se avessi la sorte
+di conseguirla.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ah nipote, questa sarebbe per voi una gran fortuna,
+e per me una gloria immortale. Il signor conte d'Otricoli,
+cavaliere sublime, illibato, celebre, dovizioso, rampollo
+illustre di eccelsi progenitori, il fiore della nobiltà,
+l'esempio della onoratezza, il prototipo della vera
+cavalleria. Felice voi, felice me, felice la nostra casa!
+Dice davvero?</p> <stage><emph>(al Conte)</emph></stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Io non ho tutti i pregi, dei quali mi caricate; ma
+vanto quello della sincerità; e ve lo dico di core.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Senta, signore, la collera fa dire delle pazzie,
+per altro Eugenia è un portento; fa invidia a tutte le
+donne, è una gioia, è un incanto. Sa di tutto, sa far di
+tutto, ha una mente chiarissima, ha un cuor bellissimo;
+saggia, morigerata, obbediente: ha tutte le buone parti
+immaginabili della bontà.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Credo tutto, ma ella ha il cuor prevenuto per altro
+amante.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Siete voi impazzita per il signor Fulgenzio? per
+quello stolido? per quell'ignorante? uomo vile, indegno
+della mia casa, spiantato, vagabondo, plebeo?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Signore, non vi ricordate voi d'averlo lodato?
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Che lodare! che lodare! io non fo conto di quella
+sorta di gente. In casa mia non ci verrà più. E se voi
+ardirete d'amarlo...
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Acchetatevi; che già è finita. Fulgenzio è da me
+licenziato.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oh brava! Sente, signor Conte? Queste si chiamano
+donne. Questo è pensar giusto, pensar con prudenza.
+</p>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Signora Eugenia, sarebbe per avventura venuto il
+caso?
+</p>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ah una vendetta sarebbe pure opportuna).
+</p>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via, risolvete. In un momento potete diventare una
+gran dama, una gran signora, una principessa.
+</p>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Non tanto, signora. Ma uno stato comodo non vi
+mancherà</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>(Quand'è fatta, è fatta. Può essere che
+quell'ingrato frema, e si disperi, e si penta, quando mi
+avrà perduta).
+</p>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Via. Cuor mio, risolvete</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Signore disponete di me</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Oh bocca d'oro! l'avete sentita?</p> <stage><emph>(al Conte)</emph></stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Tocca a voi a terminare di consolarmi</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Per me ve l'accordo subito, in questo momento.
+</p>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>(Signore, vostra nipote vale un tesoro; ma le
+convenienze della mia casa esigono qualche dote)</p> <stage><emph>(piano a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Dote!)</p> <stage><emph>(a Roberto, con maraviglia)</emph>.</stage>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>La volete maritar senza dote?
+</p>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>(Ho sempre che fare con degli spiantati).
+</p>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Signore, la mia dote ci deve essere. Me l'ha
+lasciata mio padre, e lo zio non la può negare.
+</p>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Bisogna vedere, se il signor Conte la può
+assicurare.
+</p>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Un cavalier così ricco?</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Ricco! ricco! che so io, se sia ricco?
+</p>
+</sp>
+<sp><speaker>ROBERTO</speaker> <p>Fareste meglio, signore, a esaltar meno le persone
+non conosciute, e a risparmiare gl'insulti ai cavalieri
+onorati. Voi mi avete promesso vostra nipote; ella v'ha
+acconsentito: penserò io a farmi render giustizia</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena decima</head>
+<stage><emph>Fabrizio, ed Eugenia.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Orsù, io non voglio impegni. Ho data la parola,
+converrà mantenerla</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Ma signore...
+</p>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Non c'è altro signore, converrà, ch'io trovi la
+dote, e voi lo dovete sposare</p> <stage><emph>(parte)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena undicesima</head>
+<stage><emph>Eugenia sola.</emph></stage>
+<sp><speaker>EUGENIA</speaker> <p>Povera me! cosa ho fatto? Ma ho fatto bene.
+Fulgenzio mi veda sposa, e crepi di gelosia. So che viverò
+poco, ché già a quest'ora mi principia a rodere il verme di
+una patetica disperazione; ma prima di morire, avrò la
+consolazione di vederlo fremere, e delirare. Fremere, e
+delirare? perché? Se non ha per me quell'amore ch'io mi
+credeva, di che ha da fremere, e delirare? Stolta ch'io
+sono, riderà piuttosto, se crederà ch'io mi sia legata
+altrui per isdegno. Farò forza a me stessa, cercherò, che il
+Conte mi piaccia; imiterò l'indiferenza di quel perfido, di
+quel disumano... Oh Cieli! eccolo. A che viene a tormentarmi
+l'indegno? Non posso reggere a quella vista. Sarà meglio
+ch'io mi allontani</p> <stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena dodicesima</head>
+<stage><emph>Fulgenzio, e detta.</emph></stage>
+<sp><speaker>FULGENZIO</speaker> <p>Fermatevi, signora Eugenia.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Che pretendete da me?</p> <stage><emph>(con isdegno)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ascoltatemi per carità.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>L'avete servita la signora Clorinda?</p> <stage><emph>(con ironia)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>No, non è ancora partita.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E che fa in casa mia? Perché non l'accompagnate?</p> <stage><emph>(con isdegno)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Finito ho l'obbligo di servirla, terminato ho
+l'incarico d'accompagnarla.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E perché?</p> <stage><emph>(sostenuta)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Perché è giunto in Milano il di lei consorte.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>È arrivato il signor Anselmo?</p> <stage><emph>(meno sostenuta)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Sì, è arrivato poc'anzi. Non ritrovò in casa la
+sposa. Seppe dov'era; è venuto egli stesso a vederla, ad
+abbracciarla. Fa ora i suoi convenevoli col signor Fabrizio,
+e colla signora Flamminia. Chiese di voi, le fu risposto che
+siete in camera ritirata, e parte a momenti accompagnata dal
+caro sposo.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>E voi?</p> <stage><emph>(patetica)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Resterò qui, se mel concedete.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non volete essere col fratello a discorrere degli
+affari vostri?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>In due parole ho seco lui trattato, e concluso il
+maggior affare, che mi premesse.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Cioè gli avrete reso conto della custodia, in cui
+gli teneste la sposa.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>No, ingrata. Gli palesai l'amor mio; gli spiegai la
+brama di avervi in moglie; il mio caro fratello me l'accorda
+placidamente; mi esibisce poter condurre la moglie in casa.
+È pronto dividere, s'io lo voglio, l'abitazione, e le
+facoltà. Mi ama tanto, che nulla seppe negarmi, e
+permettetemi, ch'io lo dica, se il zio non vi può dar dote,
+brama ch'io sia contento, e non avrà per voi meno stima, e
+meno rispetto.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>(Ah incauta! ah ingrata! perché impegnarmi col
+Conte?)</p> <stage><emph>(smaniosa e piangente)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Oh stelle! così accogliete una nuova che mi
+lusingai dovesse rendervi consolata? Ardireste voi
+paventare, ch'io frequentassi con passione mia cognata? Non
+fate a lei, non fate a me un sì gran torto. Pure se
+l'impressione nell'animo vostro non può per ora
+scancellarsi, vi prometto, vi giuro di non trattarla, di non
+vederla mai più.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Povera me! son morta</p> <stage><emph>(si abbandona sopra una sedia)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Eugenia, che cosa è questa?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Ah sì, Fulgenzio, maltrattatemi, disprezzatemi, che
+avete giusta ragion di farlo.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>No, cara, voglio amarvi teneramente.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Non merito l'amor vostro.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Voi sarete la mia cara sposa.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>No, non deggio esserlo; abbandonatemi.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non dovete esserlo? Anima mia, perché mai?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Perché ad altri ho data la mia parola.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E a chi?</p> <stage><emph>(tremante)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Al conte Roberto.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Quando?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Poc'anzi.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>E perché?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Per vendetta.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Contro di chi vendetta?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Contro di me medesima; contro il mio cuore, contro
+la mia colpevole debolezza. Oimè, mi sento morire</p> <stage><emph>(si copre col fazzoletto, e resta così)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah perfida! ah disleale! quest'è l'amore? questa è
+la fedeltà? No, che non aveste amore per me. Furono sempre
+finti i vostri sospiri. Mendaci sono ora le vostre smanie.
+Me ne sono avveduto della vostra inclinazione pel mio
+rivale. Erano pretesti per istancarmi, le gelosie mal
+fondate, i sospetti ingiuriosi, le invettive, e gl'insulti.
+Godi, o barbara, della mia disperazione, trionfa della mia
+buona fede, deridi un misero, che per te more, ma trema
+della giustizia del Cielo. Ti lascio in preda del tuo
+rossore; parlino per me i tuoi rimorsi; e per ultimo dono di
+chi tu sprezzi, assicurati di non vedermi più</p> <stage><emph>(in atto di partire)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <stage><emph>(svenuta cade sopra una sedia vicina)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <stage><emph>(sentendo strepito si volta)</emph></stage> <p>Oimè; che è
+questo? Eugenia Eugenia, aiuto, soccorso!</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena tredicesima</head>
+<stage><emph>Flamminia, Lisetta, e detti.</emph></stage>
+<sp><speaker>FLAMMINIA</speaker> <p>Che cos'è?
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Cos'è stato?
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Soccorretela.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sorella.
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Signora padrona</p> <stage><emph>(l'alzano, e la rimettono sulla sedia)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>(Ah! se non mi amasse... Ma oh Cieli! potrebbe
+fingere. E perché fingere, se non mi amasse?)
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Via, via è rinvenuta.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ah, sorella mia, ve l'ho detto. Siete nemica di
+voi medesima.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Deh lasciate ch'io mora.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah no, vivete. Il Cielo mi vuol infelice. Pazienza.
+Vi amerò da lontano, benché mia non sarete.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>E perché non ha da esser vostra?</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Perché ad altri si abbandonò per vendetta.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Volete dire, perché ha dato parola al conte
+Roberto?</p> <stage><emph>(a Fulgenzio)</emph></stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah sì, fortunatissimo Conte.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Fortunato voi vi potete chiamare, che aveste me in
+aiuto; fortunata Eugenia, cha ha una sorella, che l'ama. Il
+Conte fu da me illuminato. Seppe, che lo faceva per astio,
+per capriccio, per disperazione. Non è sì pazzo a volersi
+nutrire una serpe nel seno; e lascia in libertà la
+fanciulla.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Oimè dite il vero?</p> <stage><emph>(alzandosi con tenerezza a Flamminia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Così è, sorella. Fulgenzio è vostro.
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>No, che non sarà mio.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Perché no, crudele?
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Perché non lo merito.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Lo conoscete il torto, che mi faceste?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Via non parlate altro</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Lasciatelo dir, che ha ragione</p> <stage><emph>(a Flamminia, con tenerezza)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Abbandonarmi per così poco!</p> <stage><emph>(ad Eugenia)</emph>.</stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Ma via, dico</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, insultatemi, che mi si conviene. Conosco l'amor
+grande che per me avete; so di non meritarlo. Usatemi
+carità, se vi aggrada; siatemi rigoroso, se il vostro cuor
+lo comporta; in ogni guisa mi duole d'avervi offeso, e vi
+domando perdono.
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Ah non più, idolo mio!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Sì, perdonatemi.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>O che sian benedetti!
+</p></sp>
+<sp><speaker>LISETTA</speaker> <p>Mi fanno piangere.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena quattordicesima</head>
+<stage><emph>Fabrizio e detti.</emph></stage>
+<sp><speaker>FABRIZIO</speaker> <p>Cosa fa qui questo temerario?
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Abbiate pazienza, signore. Questi ha da essere lo
+sposo di mia sorella.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Non è degno d'imparentarsi con me.
+</p></sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sentite. La sposerà senza dote.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Senza dote?</p> <stage><emph>(a Flamminia)</emph></stage>
+</sp>
+<sp><speaker>FLAMMINIA</speaker> <p>Sì, signore.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>La prendete voi senza dote?</p> <stage><emph>(a Fulgenzio)</emph>.</stage>
+</sp>
+<sp><speaker>FULGENZIO</speaker> <p>Non ci ho veruna difficoltà.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Caro nipote, il Cielo vi benedica</p> <stage><emph>(l'abbraccia)</emph>.</stage>
+</sp>
+</div2>
+<div2 type="scena">
+<head>Scena ultima</head>
+<stage><emph>Roberto, Ridolfo e detti.</emph></stage>
+<sp><speaker>RIDOLFO</speaker> <p>Ecco qui il signor Conte, il quale persuaso dalle
+mie ragioni, si contenterà che il signor Fabrizio gli faccia
+una semplice scusa.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Scusatemi signor Conte. Il Cielo ha voluto così.
+Mia nipote merita molto, e la fortuna le ha concesso in
+isposo il re de' galantuomini; il più bravo giovane di
+questo mondo, il più saggio, il più dotto, il più nobile
+cittadino di Milano.
+</p></sp>
+<sp><speaker>ROBERTO</speaker> <p>Scuso in voi la più sonora, la più ridicola
+caricatura del mondo.
+</p></sp>
+<sp><speaker>FABRIZIO</speaker> <p>Viva mille anni il Conte dei Conti, il Cavaliere
+dei Cavalieri!
+</p></sp>
+<sp><speaker>FULGENZIO</speaker> <p>Deh, concedetemi, che io le porga la destra</p> <stage><emph>(a Fabrizio)</emph>.</stage>
+</sp>
+<sp><speaker>FABRIZIO</speaker> <p>Sì, generoso nipote; eroe del Ticino, gloria del
+nostro secolo!
+</p></sp>
+<sp><speaker>EUGENIA</speaker> <p>Caro sposo, finalmente siete mio, vostra sono. Oh
+quante stravaganze prodotte furono dal nostro amore!
+Vicendevoli sono state le nostre gelosie, i nostri affanni,
+le nostre pene. Chi potrà dire, che non fummo noi, e che non
+siamo tuttavia innamorati? Oh quanti si saranno specchiati
+in noi! Deh quelli almeno, che si trovassero nel caso nostro
+alzin le mani, ed applaudiscano alle nostre consolazioni.</p>
+</sp>
+</div2></div1>
+</body>
+</text>
+</TEI.2>

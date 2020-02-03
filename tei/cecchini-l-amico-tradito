@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>L'amico tradito</title>
+      <author>Pier Maria Cecchini</author>
+    </titleStmt>
+    <extent>134 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000920</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Commedie dei comici dell'arte</title>
+        <editor id="ed">Falavolti, Laura</editor>
+        <publisher>UTET</publisher>
+        <pubPlace>Torino</pubPlace>
+        <date>1982</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>600</date>
+    </creation>
+    <langUsage><language id="ita"/><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.5 - LETTERATURA DRAMMATICA ITALIANA. 1585-1748</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Siena</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Siena</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-07-29T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marta Zanazzi</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica con software</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<head rend="sc"><add resp="ed">AL DUCA SANNESIO</add></head>
+<opener>
+<salute>Illustrissimo ed eccellentissimo signore,</salute>
+</opener>
+<p>L'<title>Amico tradito</title>, comedia da me composta nell'estiva stagione prossima passata, benché ella sotto precetti d'Aristotele non abbia avuto il suo natale, nulladimeno, fatta ardita dalle mie ragioni, osa comparir avanti gli occhi di vostra eccellenza. Vanno le mie ragioni fondate su l'antica servitù che sempre professai divotissima alla felice memoria dell'invitto suo genitore; e non tralignante verso la persona di vostra eccellenza, a cui, per mille favori ricevuti, tanto devo.</p>
+<p>La gradisca almeno come parto d'un suo servidore, e pieghi tal ora lo sguardo verso le sue carti, più d'errori piene che di concetti, e me conservi, mentr'io l'inchino, nell'estimatissima sua grazia.</p>
+<closer>Di vostra signoria illustrissima ed eccellentissima
+umilissimo servitore
+<signed rend="sc">Pier Maria Cecchini</signed>
+</closer>
+<pb n="687"/>
+</div1>
+<castList>
+<head rend="italic">PERSONE, CHE V'INTERVENGONO</head>
+<castItem type="role">
+<role>PANTALONE,</role><roleDesc><emph>veneziano</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>CINZIO,</role><roleDesc><emph>suo figlio</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>DOTTOR GRAZIANO</role>
+</castItem>
+<castItem type="role">
+<role>VIRGINIO,</role><roleDesc><emph>figlio</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>CELIA,</role><roleDesc><emph>nipote vien oggi da Bologna</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>FRITELLINO,</role><roleDesc><emph>servo di Virginio</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>FLAMINIA,</role><roleDesc><emph>amata e non anco sposata da Cinzio</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>BAGATTINO,</role><roleDesc><emph>servo</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>FRANCESCHINA,</role><roleDesc><emph>serva</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>CARLUCCIO,</role><roleDesc><emph>bambino, figlio di Flaminia e Cinzio</emph></roleDesc>
+</castItem>
+<castItem type="role">
+<role>CAPITAN RINOCERONTE</role>
+</castItem>
+</castList>
+<pb n="689"/>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO PRIMO</head>
+<div2 type="scena">
+<head rend="italic">SCENA I</head>
+<stage><hi rend="sc">pantalone</hi> <hi rend="italic">e</hi> <hi rend="sc">dottore</hi></stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>È possibile che sto mondo no possa star senza despareri?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Da i dsparer nass l' discordi, da l' discordi l' lit, e da le lit la vita d'i duttur.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>I mii despareri ne incaga a i dottori, puo' che no i puol zenerar lite, né altre discordie, che la separazion della nostr'amicizia.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p><foreign lang="lat">Amicitiam frangere potest dici frangere amicitiam et</foreign> amicus non est amicus, si amicitia non durat.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>I sensi de sti vostri latini tanto volgari xe così balordi, quanto che Verzinio vostro xe un dissoluto, per la qual cossa no vogio che Cinzio mio fio pratica più con esso, sotto pena della privazion de tutte le mie facultae, perché ho molto ben compreso che tutto quello che lui opera de mal xe tutto in vertù del mal esempio e del mal consegio de vostro fio.<pb n="691"/></p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Putana d' mi, an sidi in la gran colra, e sì ha parladi tant'alterad, ch'al s' comprend ch'avidi pers 'l giudizi, e sì an savidi quel ch'an dsì.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Come, se so quel che digo, se mio dir xe fondao su 'l far de mio fio?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Vostr fiol ha del far? Mo a lu ndrà ben, perché l'è car quest'ann. E chi gh' l'ha dà Virgini? Ah furb, al m' l'ha rubà a mi! Dadm un poch al mia far, via prest, al mia far.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>No se intendemo, sior capochia.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Com ch'an v'intend? Al se delina hoc far farriis al furment triticum tritidici. La fava, faba fabae, la fava picciola, haec fabula, fava porcina, Scribonius Cargus. An intend molt ben mi!</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Nol xe el far nome, el xe el far verbo, che significa far poltronarie come fa vostro fio, e che sia la veritae, eccolo ch'el vien in qua con una putana. <stage>(<emph>E si ritira</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>O pota d' Zuda, questa è Celia mia nazza, che vien da Bologna per mudar aria.</p>
+</sp>
+<pb n="692"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA II</head>
+<stage><hi rend="sc">virginio, celia</hi> <hi rend="italic">con una serva</hi> <add resp="ed"><hi rend="sc">dottore</hi> <hi rend="italic">e</hi> <hi rend="sc">pantalone</hi></add></stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Signora cugina, non mi poteva il Cielo favorir d'avantaggio, che nel farmi giunger a tempo di poterla servire. Ma perché non mandar avviso della sua venuta?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Lo incomodo non premeditato dà meno incomodo.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>E qual noia puol porgere chi con la sua presenza non solo scaccia la noia, ma tiene suprema virtù di poter introdurre una consolatissima gioia?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Signor cugino, le cirimonie ch'oltra passano i termini credibili o sono favolose o puoco lontane dal scandaloso. Non vorrei che fosti udito, per quanto io amo il nostro decoro.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p><stage>(<emph>Si fa innanzi, l'abbraccia, e dice</emph>)</stage>Oh sgnora Celia, sgnora nvodina mia dolza, mo ch' gust, oh ch' consulaziun, sana, bella, grassa, tonda, mobida e tutta gudibil. Vgnì in ca', vgnidù a rpusar su 'l let. Andem.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Entriamo tutti, entriamo.</p>
+</sp>
+<stage>(<emph>Tutti entrano. Pantalone riman solo, senza aver mai udito nulla, ma però, vedute le cerimonie, dice</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Non ho mai visto el più grazioso ruffian de quel dottor, né 'l più libero putanier de so fio, né 'l più bel postribulo de quella casa.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA III</head>
+<stage><hi rend="sc">cinzio, pantalone</hi></stage>
+<stage>(<emph>Cinzio nell'arrivar guarda le finestre di Flaminia. Pantalone l'osserva, Cinzio dice</emph>)</stage><pb n="693"/>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>O albergo, vera cagione che Cinzio viva senz'anima. O anima, che colà dentro vivi in Flaminia e che Flaminia sia quasi moribonda, quantunque abbia due anime.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Ecco quel furbo, che guarda, parla e sospira. Ghe voio mortificar le rene con sto baston che vedo qua in terra. Tiò, tiò, tiò, pezzo de can, nemigo mio, scandolo della zitae e traditor di sé medemo!</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>A me signor padre? a Cinzio? a vostro figlio?</p>
+</sp>
+<stage>(<emph>Pantalone li dà una mano su 'l volto e li rompe il naso</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ohimè, cavarmi ancor sangue? Questo è pur vostro sangue; e, quello che più vi deve premere, sangue innocente.</p>
+</sp>
+<stage>(<emph>Pantalone piange sotto voce</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Quel sangue che sparso per altro accidente vi averebbe tutto contaminato, ora viene violentato da voi e forse con qualche diletto?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Ohimè, ohimè, i me.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Quel sangue (dico) pura residenza di quell'anima che il Cielo vi fe' mediatore per farla scender in questo corpo?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Non più, ché ste viscere (pur massa tormentae da altri accidenti) no puol più far, incontro al martirio de ste parole, convertie in tante stilettae per destruzer sto corpo, forsi nassuo perché ti nasci, e che senz'altro morirave si ti morissi. Lievate in piè, abbrazzame e basame.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Io non mi levarò mai, s'io non son fatto sicuro che il vostro sdegno abbia finito di contaminar il vostro amore.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Ecco, che mi te lievo, e per segurezza della purità del mio affetto, te do sto baso, e per certezza del pronto mio effetto, te dono sta borsa con zinquanta zecchini trabuccanti. Paga (se ti ha qualche debito) e vien a casa a portarme e a consolarme con quella parte che me manca, quando ti è fuora. A Dio Cinzio.</p>
+</sp>
+<stage>(<emph>Cinzio riman solo</emph>)</stage><pb n="694"/>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Segno evidente di ribellata natura al corso di una longa avarizia. O Cielo, e che favori son questi? Anzi, che grazie, in tempo di tanta necessità di Flaminia mia.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA IV</head>
+<stage><hi rend="sc">bagattino</hi> <hi rend="italic">e</hi> <hi rend="sc">cinzio</hi></stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>O povertà, muda luogh! Se non am senti, che 'l bisognarà che mi muda mond, puo' ch'in quest am senti morir de fam.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ecco quell'infelice di Bagattin, il quale ha unite all'infelicità della sua nascita, l'estremità di quelle de gl'accidenti di Flaminia.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>O signor Cinzio. Perdoném, che non g'ho fiat de respondia plu fort, perché l'è doi dì, che tra la signora Flaminia non avem mangiat otter che una zambela da un baioch e un tochet de formai, scampat de bocca a un sorgh, che fuziva de cumbat.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Miseria che solo a udirla contamina e confonde tutt'i nostri sensi.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>E a provarla contamin e ammazza i desgraziat.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Che dice la signora Flaminia?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>La no parla, per non mandà fuora quel poch de fiat che gh' serv a pena per respirà.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>E ho inteso, tu vòi ch'io mora, poiché la mia vita tanto vive, quanto sa che Flaminia vive.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ul voster viver e morir, sta su le relativ, ma al noster sta su la sustantaria. Mo quel voster bambì, quella cara lengueta, che sa nominà tutt le cose mangiative se ben nol ghe ne ha mai niguna?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non più afflizioni, non più digiuni o patimenti, poiché le cose passate son tutte finite.<pb n="695"/></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>E so anca mi che tutt le cos passat son finide, ma l'è le present, e quelle ch'an da vegnì, che me dan travai.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ecco il rimedio delle presenti e delle future, eccoti una borsa con cinquanta zecchini. Spendi, mangia, mangiate, state allegri, che forse non mancarà mai più nulla.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Il nulla non n'amanca mai lui, perché l'avem sempre, l'è un qualche cose che n'aviva abbandonat.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Orsù, guarda che la borsa non ti sia rubata. Di' alla signora Flaminia che questo è il tempo di adoperar la prudenza e di vincer soffrendo quello che perderebbe disperando. Bacia il mio Caruluccio, il mio caro figliuolo, compragli ciambelle, frutti e tutte quelle galanterie, le quali son proprie della sua età.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Non è tempo de galanterie, né de zambele, ma de pan, vin, manestra, formai, macarù, carne de bò, con al rest de quelle cose, che la natura me andarà de man in man a dandom la lista.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>A Dio Bagattino, mille saluti a quella a cui è appoggiata la mia salute. <stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A Dio signor Cinzi. Zinquanta zecchini? Am dubiti che la quantità non me intorbide la liberalità e che n'm' passi via al temp del spender e del mangià.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA V</head>
+<stage><hi rend="sc">capitano</hi> <hi rend="italic">e</hi> <hi rend="sc">bagattino</hi></stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io ho perduta la traccia di Celia. Mi dubito che Marte, per farmi una burla, non voglia fingere di averla tolta in fallo per Venere e averla condotta in qualche luoco alle strette. E se ciò credessi su il saldo, le belle piattonate ch'io<pb n="696"/> li vorrei dare! Ma ecco chi me ne saprà forsi dar qualche indizio.</p>
+<p>O buon compagno. A Dio, a Dio.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Questa è un'invenziù per invidarm a spender i zinquanta zecchì. Am vuoi logà la borsa. Bondì fradel, bondì.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Fratello a chi?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A vu, sol ve par d'essern degn.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Degno di che?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>D'avì un fradel che sia galant'om.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>E che ti pensi ch'io sia? Furfante, ignorante, briccone, mascalzone, impiccato, malcreato.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A nol so, nol vuoi savì, no mel desì, lassém sta e andé in colà, che ho olter in cò, che sta chilò, a menà boi, con un sonai da sparavier, a Dio messer.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Férmati, in virtù di quell'ordine che puol far che si fermino tutti gli eserciti, ancorché marcianti, spironanti e fuganti.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Am fermi, che i furfant, a tutt i or, ha da obedì a i so mazor.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Levati il capello.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Eccol levat.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Rispondi con riverenza. Hai tu veduto passar di qui la Bellezza in abito di campagna?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Signor no.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Hai tu veduto rapir da Marte una che pareva ma non era Venere?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Signor no. Ho ben vedut rapir da Sabàt un che pariva ma non era po' vu.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Tu non m'intendi, bisogna ch'io parli più aperto, più chiaro, più intelligibile, più proprio e accomodato al tuo sape<pb n="697"/>re, al tuo ingegno e alla tua intelligenza. Hai tu veduto passare una gentildonna accompagnata da una serva, che veniva da questa parte?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Signor no; ma signor no sul sald, signor no maiuscolament, e signor no, per quant am pudì creder che v'abbia per un chiacchiarù.<stage>(<emph>E va correndo</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io non mi poteva imbatter in peggior di costui. Voglio cercar tutta la città, e quando mi avegga esser disperato il negozio di ritrovarla, voglio ritirarmi in un luoco il più eminente della città, e con un soffio gettar a terra tutte le cose. No, ché se Celia fusse in qualcheduna di esse potrebbe perire. Non caderebbe quelle ove fusse Celia, se non per quanto fusse per lasciar Celia visibile a gl'occhi del Capitano; che non può il mio fiato, ben che convertito in Borea, o d'Aquilone, far altro uffizio che di rifrigerante con la mia bellissima Celia. Io non voglio perder più tempo, poiché anche Celia patisce in estremo, non mi vedendo.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VI</head>
+<stage><hi rend="sc">virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ed è pur vero, o Fritellino, che l'amicizia ch'io tengo con Cinzio, e l'amor grande ch'io le porto, fanno ch'io sia nemico a me istesso, e che per lui ancora abbia in abborimento me medemo.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Se così è, farete rider gl'amici, e in breve tempo doventarete pazzo. Ma come sta questo?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Io amo Flaminia, amata con tutte le viscere da Cinzio. Io non oso scoprirmi, per non offender Cinzio, e tacendo occido me stesso.<pb n="698"/></p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>O che abuso, o che pazzia. Ascoltatemi bene: se uno (fuori di voi) amasse Flaminia, concorrendo Cinzio in amore, che faresti?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>L'ucciderei.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Perché?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Perché io amo Cinzio sopra tutti gl'altri amici ch'io m'abbia.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>O questo ha più del credibile, poiché amando voi Cinzio più del suo concorrente, vi porresti a i danni di quello. Ma naturalmente dovendo amar voi stesso più di Cinzio, non è bene il credere che vi poniate a i vostri danni più tosto che a quelli di Cinzio. Onde bisogna concludere che tra Cinzio e un altro, viva Cinzio, ma tra Cinzio e Virginio, viva Virginio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Buono, per mia fé, dottrina più salda della mia. Procurisi adunque Flaminia, e potendola ottenere abbiasi pazienza l'amico, poiché il proprio interesse malamente conosce l'altrui bisogno.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Udite un'altra ragione più costante della prima. Se si dovesse dar una sentenza che dovesse esser cacciato il cuore o a Virginio o a Cinzio, che caldezza d'uffizio vogliam credere che fareste, tutti due, accioché fosse cacciato al compagno?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Grande.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non dite di essere senza cuore, non avendo Flaminia? non lo dice l'istesso Cinzio? Orsù non più, lasciate fare a me, retiratevi, ché or ora vi mostrarò come si confermino i cuori.</p>
+</sp>
+<stage>(<emph>Virginio si ritira. Fritellino batte da Flaminia</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VII</head>
+<stage><hi rend="sc">flaminia, fritellino</hi> <hi rend="italic">e</hi> <hi rend="sc">virginio</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Non ci sarà nissuno che vadi a veder chi batte, eh? Orsù, ci andarò io. Chi batte?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Un vostro servitore, signora Flaminia. Il signor Cinzio è in casa?<pb n="699"/></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Non ci è e di rado ci viene.</p>
+</sp>
+<stage>(<emph>Fritellino rivolto a Virginio dice</emph>)</stage>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non vel diss'io che sarebbe dall'amica?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Io non lo potevo mai credere, andiamo.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Vengo or ora. </p>
+<p>Ah povera signora Flaminia mal trattata, puoco conosciuta e, forse... chi sa! È meglio tacere.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Tu hai detto tanto che il non dir il rimanente non è quasi tacere. Di', che è di Cinzio?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Bene di corpo, ma molto infermo d'operazioni.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>E come? Ohimè, tu mi uccidi.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Io non posso dir altro. Andiamo.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>È meglio. Non affligger più quella povera signora. Andiamo, ché lo trovaremo colà.</p>
+</sp>
+<stage>(<emph>Partono</emph>)</stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Lo trovaremo colà? ma dove? Adunque Cinzio ha luoco di più gusto della casa mia, nella quale ha pur la fede impegnata, il sangue in deposito e l'onore obligato? Sì che può stare, poiché le sue dimore adombrate di scuse sono validissime querele approvate e convinte, e quello che non sai tu, o Flaminia, lo debbe sapere tutta la città. Ma eccolo, non voglio mostrarmi adirata.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VIII</head>
+<stage><hi rend="sc">cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ogn'ora, ch'io sto senza veder la mia Flaminia, è un secolo di tormento a quest'anima mia. Ma eccola. </p>
+<p>E come in strada? Guardatevi, guardiamoci, che mio padre non n'abbia qualche relazione, che malbeato me e puoco contenta voi.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Adunque vostro padre procura tanto di saper dove andate?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ohimè, non si può credere.</p>
+</sp>
+<stage>(<emph>In questo arriva Fritellino</emph>)</stage><pb n="700"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA IX</head>
+<stage><hi rend="sc">fritellino, cinzio, flaminia</hi></stage>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Signor Cinzio, venite via correndo, ché il signor Virginio vi aspetta dove voi sapete.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Sì, sì, vengo. Signora abbiate pazienza. <stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>E dove va così in fretta?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Da una tal signora, dove credevamo di ritrovarlo.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p><stage>(<emph>sola</emph>)</stage>E forsi ch'io gli ho potuto addimandar dove va, forsi ch'egli mi ha detto ora ritorno? L'uno non me l'averebbe detto, e l'altro l'ha taciuto per non mentire. O Cinzio tanto diverso da te, che non sei più Cinzio; ché se fosti Cinzio (com'eri) saresti anco Flaminia, e se fosti Flaminia saresti fedele: onde non sei più né Cinzio né Flaminia né fedele. Chi sei adunque? un'anima diformata, la quale, intorbidate le potenze, informa un corpo senza fede, immemore de gl'oblighi, con l'intelletto così contaminato, che ti sei dimenticato l'obligo e di padre e di marito.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA X</head>
+<stage><hi rend="sc">bagattino</hi> <hi rend="italic">con robbe da mangiare, e</hi> <hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Questa è carne e questi son polaster, che tant temp han abbut ul band da casa nostra, signora. Ecco vivand da pudì stà allegrament, questa è tutta spisa fatta del denar del signor Cinz con ul rest de zinquanta zecchì, che ho chilò int'al taschì.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Robbe di Cinzio? danari di Cinzio?</p>
+</sp>
+<stage>(<emph>Getta via tutto</emph>)</stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Fermef signora, ohimè, tanti ingredienti, da metì infossù ne i budei per salut dell'affliziù del corpo, han d'andà adonca a mal tutti? Signora Flaminia, avvertì, che morirem de fam prestissim.<pb n="701"/></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Io non mi curo, son di già avvelenata. <stage>(<emph>Entra</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Orvietà, orvietà, prest, orvietà.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XI</head>
+<stage><hi rend="sc">franceschina</hi> <hi rend="italic">al romore, e</hi> <hi rend="sc">bagattin</hi></stage>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Che strepiti? che romori? O quanta robba mangiativa, chi l'ha versata?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Effetti del velen.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>E che? è forse robba avvelenata? Levala via.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>E no, l'è una signora, che ha ul velen int'al venter, che non ghe ha volut mettì dentr sti altri laùr.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Ah an, ha fatto bene, mangiamolo noi.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Andemoi a mangià.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Bisogna prima cucinare e poi mangiare.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ul se cusina a chi ha temp d'aspettà.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Vuoi tu dunque mangiar questa carne cruda?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>La mangiaravi anc viva.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>O lupo, entriamo, e lascia far a me.</p>
+</sp>
+<stage>(<emph>Entrano da Flaminia</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XII</head>
+<stage><hi rend="sc">fritellino</hi> <hi rend="italic">solo</hi></stage>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Io non voglio lasciar strada intentata, invenzion oziosa, né qualsivoglia modo difficile, per aiutar Virginio. Ne ho pensat'uno che, forse forse, sarà il migliore di quanti me ne sian passati per la mente. Voglio servirmi della signora Celia. O bella se mi riesce, come l'animo mi predice.</p>
+</sp>
+<pb n="702"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIII</head>
+<stage><hi rend="sc">celia</hi> <hi rend="italic">alla finestra</hi>, <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Sarò io forse venuta in questa casa per non veder mai più il mio Capitano? Egli ha pur sempre seguitato la carrozza da Bologna sin qua a Ferrara.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>E chi ha seguitato la carrozza?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Ohimè, che costui mi avrà udita. Un canino, ch'io ho poi smarrito nell'entrar dentro.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Mi dispiace che l'abbiate smarrito prima ch'egli sia entrato.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Entrarà, se non è entrato, e forsi lo trovarò.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Io non ho veduto cani, ho ben visto un Capitano, il quale va sperso per la città.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Ohimè, non più, vengo a basso.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>O quanto è stato bene per i miei disegni, ch'io abbia udito quel nome di Capitano! Questo senz'altro è un suo amante. Eccola.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Che dici tu di Capitano?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Che dite voi di cagnolino?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Parliamo di quello che più importa.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Vi debbe importar più (mi cred'io) quel canino, del qual dovet'esser innamorata, che quel Capitano, che al certo non conoscete.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Orsù via, furbo, tu mi hai sentita.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>E intesa, ch'è peggio.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>E bene, che di' tu? dove è questo Capitano?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Lo cercarò, lo trovarò, ve lo condurò, e che volete di più?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Nulla, e io che posso far per te?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Gran cose con puoca fatica.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Eccomi pronta.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Il signor Virginio vostro cugino, per una scommessa fatta con un gentiluomo, il quale fa il bel parlatore, vorrebbe udirlo parlare amorosamente, e che voi lo ascoltaste, per veder se la presenza di una dama lo sgomenta. E, occor<pb n="703"/>rendo, desidera anche che gli rispondiate, per meglio chiarirsi della sua sufficienza.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>O questo non farò mai.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Fate punto su il «non lo farò» e levate via quel «mai».</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Io dico che non lo farò mai, mai, mai.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Questa moltitudine di mai è la ruvina de i vostri negozii.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>E come?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Né io mai, anzi mai, mai, vi condurrò il Capitano, e, di più, procurarò ch'egli se ne vadi via della città. A Dio signora.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Férmati, ch'io levo il mai! Ma mi riserbo però il quando.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Il quando lo so io.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>E come lo sai tu, s'io non l'ho ancora determinato?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Sarà quando vorrete il Capitano.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Se così fusse sarebbe or ora.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Facciamo adunque così. Io tornerò, farete, e io farò, e così contenti tutti due, l'uno non si potrà doler dell'altro.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Io me n'entro, ti attendo, non mancare, ch'io al certo non mancarò.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Il negozio piglia una tal forma, che mi promette ogni bene, e di raro chi ben principia finisce male i negozii. </p>
+<p>Ma ecco, per mia fé, Cinzio, ed è accompagnato con Virginio.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIV</head>
+<stage><hi rend="sc">cinzio, virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Signor Virginio, vostra signoria mi ha da far grazie di venir meco a cena, ché doppo discorreremo di quello ch'oggi non abbiamo potuto concludere per l'interrompimento di quelli che, con tanta mala creanza, si hanno volsuto accompagnar con noi, senza esser richiesti, e quasi mezo rifiutati.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Di questi ce ne son tanti, che il Cielo ne guardi ogn'uomo ch'abbia faccende.</p>
+</sp>
+<stage>(<emph>Fritellino accenna Virginio. Virginio guarda Fritellino e non l'intende</emph>)</stage><pb n="704"/>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Costui mi accenna, né so che voglia dire.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Signor Virginio, questo è il tempo che voi rimediate a quello di cui forse non sarete per più poterci rimediare se il signor Cinzio vi lascia.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Che domine vuol dir costui? Sì, è vero.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Lasciate dir a me, ch'io mi accorgo che non vorresti incomodar il signor Cinzio.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Férmati, ch'io mi dichiaro che il maggior incommodo che potessi aver quest'animo mio sarebbe il credere che il signor Virginio avesse pensiero d'incomodarmi, anche con il tenermi sempre impiegato ne' suoi affari. Di', che cosa poss'io fare per suo servizio?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Sappia, vostra signoria, come il signor Virginio è amante riamato...</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Che cosa sarà questa?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Di una signora. E perché il padre di lei ambisce di darla ad uno di casa Bisognosi, vorrebbe, per levar il vecchio di sospetto, che i favori di vostra signoria s'impiegassero (almeno per una volta) in parlare a detta signora, accioché una tal serva, posta da lui alla guardia, non avesse cagione di scoprirgli i suoi amori, ma che potesse assicurar il padre che lei parla ad un di casa Bisognosi, sì che con quattro parole amorose ella può assicurar i guste del signor Virginio e della sua dama.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>O che invenzione storpiata, e dall'ingegno e dalle parole!</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Il signor Virginio non vuol altro? Dopo cena faremo il servizio. Entriamo, ché ne discorreremo meglio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Tu glie l'hai pur volsuto dire, an?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ha fatto bene. O di casa.</p>
+</sp>
+<pb n="705"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XV</head>
+<stage><hi rend="sc">flaminia, cinzio, virginio</hi> <add resp="ed"><hi rend="sc">fritellino</hi></add></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>O che bella compagnia. Vogliono cenar qui tutti?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Signora sì.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Starete molto bene. Ma perché vien notte, non laudo lo star qui fuori al sereno. Entriamo. O che allegrezza!</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVI</head>
+<stage><hi rend="sc">capitano</hi></stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io son sicuro che Celia mia è in questa casa, essendomi stato detto che un suo zio abbita qui dentro. Il quale, quando avesse voglia di pazzamente morire, si opporrebbe scioccamente a i miei gusti. O porte, o finestre, se avesti punto di senso, come vi spalancaresti all'avviso de i miei desiderii. A luna, luna cornuta! Io vedo che tu vuoi spontar fuori: non lo fare, sta' nascosta, ché tu porti pericolo ch'io non ispicchi un salto e ch'io non venghi con un guanto di maglia a sfigurarti quel volto, altre volte da me minacciato in simili occasioni. Queste stelle scintillano che par che si rallegrino nel vedermi passeggiar senza quell'alterazione ch'altra volta le pose spavento ch'io li privassi del loro albergo.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVII</head>
+<stage><hi rend="sc">bagattino</hi> <hi rend="italic">e</hi> <hi rend="sc">capitano</hi></stage>
+<stage>(<emph>Notte</emph>)</stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ora al no gh'è negot da mangià e ora al gh'è tropp mangiador.<pb n="706"/></p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Chi parla?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ecco un olter mangiador.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Chi va là?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Mi no vagh in là, ma a sto ferm chilò.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Tu parli e non m'addimandi licenza.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Se domanda anc licenza de tasì?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Anco di questo.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>E com se puol ela domandà, se no se parla?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Si addimanda e poi subito si tace.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Mi voraf licenza de parlà e de tasì quando me torna comod.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Queste licenze generali non si danno se non in iscritto; onde bisogna che tu vadi alla mia segretaria.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Com l'hoi da domandà?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Dimanda la segretaria del Capitano e tanto basta.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>An, se' vu Capitano de le secret civil e criminal, n'è?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>A furfante, passa qui, va' di là, salta, balla, fa' corbette! Io non so che mi tenga ch'io non ti pigli per un braccio o per un piede e gettarti cento miglia oltre i Monti Caspi.</p>
+</sp>
+<stage>(<emph>Bagatin corre via</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVIII</head>
+<stage><hi rend="sc">cinzio, virginio, fritellino, capitano</hi></stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Iscusate l'indugio, caro signore, la serva è pazza, il servo mal pratico.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Non importa, signore.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Che ho io da fare in suo servizio?<pb n="707"/></p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Se si raccorda, gli dissi che il padre della dama riamante del signor Virginio aveva (e ha) gran pensiero di maritarla in uno di casa Bisognosi, onde ogn'altro partito gli par manchevole di merito, e dubitand'egli che la giovane non inclini al signor Virginio, desideriamo che lei parli quattro parole amorose con detta signora, acciò che la sua serva riferisca che non parla con Virginio.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non era buono ogn'uno di far quest'uffizio e massime dovendosi far di notte?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Si poteva farlo far ad ogn'altro, ma la confidenza del signor Virginio non è generale con tutti gl'amici.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Dice bene Fritellino. Io non ho amico più confidente del mio signor Cinzio.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Io non fui mai tanto intricato com'ora: bisogna ch'io diversi le parole dal cuore, e che pazienza.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Quattro parole bastano.<stage>(<emph>Fa cenni a Celia</emph>)</stage></p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIX</head>
+<stage><hi rend="sc">fritellino, celia, virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">capitano</hi> <hi rend="italic">in disparte</hi> <add resp="ed"><hi rend="sc">cinzio</hi></add></stage>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Questa debb'esser l'ora di parlare o di ascoltare quello della scommessa.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Signora Celia, fatemi la grazia compiuta, ch'io vo per il signor Capitano. </p>
+<p>Signor Cinzio, all'ordine.<stage>(<emph>Ed entra da Flaminia</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Se ci fussero altri Capitani che me, in questo mondo, direi che colui andasse per un altro Capitano.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Io non so dove mi principiare. </p>
+<p>Signora, signora mia.</p>
+</sp>
+<pb n="708"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XX</head>
+<stage><hi rend="sc">flaminia, fritellino, cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">capitano</hi> <add resp="ed"><hi rend="sc">celia</hi> <hi rend="italic">e</hi> <hi rend="sc">virginio</hi></add></stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Signora mia, l'amor grande ch'io vi porto m'intorbida i discorsi e mi confonde i concetti.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>O traditore!</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Onde non posso a pieno iscoprire quello che tanto tempo io ho in animo di dirgli.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Non posso più.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Tacete, o dite piano.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ah cuor mio tribulato! Anzi, tribulato cuor mio.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>È troppo aspettare. Ah traditore!<stage>(<emph>E lo ferisce</emph>)</stage></p>
+</sp>
+<stage>(<emph>Cinzio cade e dice</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Son morto.</p>
+</sp>
+<stage>(<emph>Virginio fugge</emph>)</stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Se non sei morto morirai, ingannatore, perfido, spergiuro!</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non più, ché queste parole sono peggiori delle ferite.</p>
+</sp>
+<stage>(<emph>Fritellino spinge in casa Flaminia per forza, la serra, poi dice</emph>)</stage>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Ohimè, che romor è questo?<stage>(<emph>E va via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Medici, amici, non ci è nissuno? Me n'anderò solo, almeno sapess'io dove.<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Al corpo di me, che la mia spada ha ferito un non so chi, ch'io non me ne sono avveduto, né so chi si sia. Voglio che me lo dica.<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<pb n="709"/>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO SECONDO</head>
+<div2 type="scena">
+<head rend="italic">SCENA I</head>
+<stage><hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Almeno sapess'io se Cinzio sia morto, o s'io mi debbo assicurare ch'egli sia per morire, poi che in ogni modo la sua vita potrebbe cagionar mill'altre ruvine a mill'altre povere innocenti. </p>
+<p>Io avevo quel servo sospetto di mala lingua, e se le prove non mi accertavano il mancamento di Cinzio, forse ch'io averei sempre sospettato della bontà di quell'uomo da bene; poiché per altro tempo non averei mai creduto (a chi si fusse) mancamento nella fede di Cinzio. Ma che dich'io? alla fede di uno che mai non n'ebbe? all'amor mio, dirò, il quale sì come non ebbe mai pari, così Cinzio nel tradimento non ebbe mai uguale. Tant'anni di patimento, carcerazione quasi perpetua, una vita sempre inquieta, e finalmente una morte risuscitante per più volte farmi morire. E come potrò vivamente amare quel parto nato delle nostre congiunzioni, pensando che quello puol più tosto esser venuto alla luce per testimonio del mio mancamento, che per indizio di conformità di sangue tra noi. Io amerò però, e sarà per quella parte di pura concorrenza che solo fu mia, la quale, assicurata dalla mia fede, renderà il figlio legitimo parto di celeste disposizione.</p>
+</sp>
+<pb n="711"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA II</head>
+<stage><hi rend="sc">cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Il male non è quanto mi dubitava. Ma ecco questa furia infernale.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Ma eccolo, che non è morto.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>A me questi tradimenti eh?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Non si puol tradire un traditore.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Che t'ho fatt'io, inumanissima femina?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Ancor me ingiuri?<stage>(<emph>E li dà un schiaffo</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>A me un schiaffo?<stage>(<emph>Li tira e la tocca con il pugnale</emph>)</stage></p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA III</head>
+<stage><hi rend="sc">dottor</hi> <hi rend="italic">si mette di mezzo</hi>, <hi rend="sc">flaminia</hi> <hi rend="italic">e</hi> <hi rend="sc">cinzio</hi></stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>N' v' dadi, n' v' dadi, perché i pugnai cavan sangu e 'l sangu v'imbrattarà i pugn'.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Io non posso dimorarmi senza pericolo di far male, le mie ragioni son troppo potenti. In grazia, conducetela in casa vostra, e s'è ferita, fatela medicare.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Si parte il ribaldo, sapendo che, nel dirvi i suoi mancamenti, non vi potreste tenere d'ingiuriarlo. Io son ferita.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Am la mustrarì in casa comdament sul lett dispuià, e sì a vdrò che tasta i vuol. Andém, la mia tosa.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Andiamo, e intenderete gran cose.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>E sì an vedrò fuors de mazzor.</p>
+</sp>
+<stage>(<emph>Ed entrano in casa</emph>)</stage><pb n="712"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA IV</head>
+<stage><hi rend="sc">virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Quella fa una gran ruvina, Fritellino.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Avete un gran passo, signor Virginio! Ve la cogliesti come se le botte venissero a voi.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Io lo feci per non esser addimandato per testimonio.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>E acciò ch'io fussi testimonio della vostra buona disposizione di gambe.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Lasciamo le burle. E che crediamo che succedesse di Flaminia e Cinzio?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non si può creder nulla di buono, egli fu ferito, ch'io lo so di sicuro.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Malamente?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Buonamente non può essere.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Vogliamo veder s'egli è in casa?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non ci sarà (mi cred'io).</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Dove lo trovaremo?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Ecco vostro padre ch'esce di casa.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA V</head>
+<stage><hi rend="sc">dottor, virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Capucci! Che quas a i ho det com dis una volta un altr. La cos è intrigada, insanguinada, invlupada e quas desprada.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Di dove venite, signor padre?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>De casa dov al gh'è... O gran cossa! Ascolta, stupiss, e puo' di' com puol esser. L'è un poch longa, tutt'via rassumém, restringém e cavàm sola la sostanzia, la qual è questa. I aspetti del Ciel non cognosudi da tutti mnazzava sangu, per via di fer adoperad per man d'una donna.<pb n="713"/></p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ohimè, il caso di Flaminia!</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Donc, sent la miseria de l'accident, mentr ch'in strada iera. Tas mo, una, dò, tre, quattr, vint dò or, a i ho da far. Bon dì.<stage>(<emph>E va via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Se n'è andato e lasciatoci in una confusione così gagliarda, che meglio era il non vederlo.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Abbiamo però rassunto la ferita e non so che altro, che quasi pare che il tutto sia noto alla casa vostra. Questi principii mi bastano per fondamento di una gran fabrica.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VI</head>
+<stage><hi rend="sc">capitano, virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>La mia spada mi giura esser più di trent'anni che non ha offeso niuno. Ma il romore fu però grande, e quello che mi fece incolpar la spada fu ch'io udii uno che disse: «Ohimè son morto!», e mi parve anco di udir la voce di Celia mia.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Questo è il signor Capitan Rinoceronte, amico e signor mio di tant'anni.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>O questo è maggior ciarlone di vostro padre!</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Io fo riverenza al signor Capitano, raccordandogli la mia divozione di tanto tempo.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>E io l'auguro quelli anni di salute ch'io ho levati di vita a 7834 Maumetani.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Grand'affetto, in gran parte ristretto alla mia credenza.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io debbo dire al signor Virginio, in conformità della mia svisceratezza, che il Cielo mi ha infuso di volergli esser cognato, o vogliamo dir cugino, essend'ella fratel cugino della signora Celia, desiderando io che mi divenghi moglie per moltiplicar quella specie, mortificazione de gl'infedeli.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Il partito di queste nozze è molto avantaggiato alla nostra condizione, ma l'autorità di far ciò non è propria<pb n="714"/> mia, ma sì ben di mio padre, come quello che di Bologna ne tiene assoluto mandato. Ne parlerò con lui e sarò sollecito negoziatore de' suoi desiderii. In tanto vado, per non mi poter più trattenere. Servitor suo.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>A Dio, signor Virginio.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Rimanete in tanta buon'ora.</p>
+</sp>
+<stage>(<emph>Partono. Capitano rimane</emph>)</stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>S'io non sapessi che la signora Celia tien meco commune il desiderio, dubitarei di qualche intoppo, che mi astringesse ad una delle mie stravagantissime stravaganze.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VII</head>
+<stage><hi rend="sc">celia</hi> <hi rend="italic">e</hi> <hi rend="sc">capitano</hi></stage>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Io son pur stata tanto sollecita, ch'io ho quasi importunatamente impetrato dal Cielo di poterla vedere.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>E io stava sospetto che la notte passata non si fusse lasciata vedere alle finestre, anzi che non avesse amorosamente parlato con un cavaliere.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Io mi feci alla finestra, e gli volevo parlare, ma però fintamente; e questo per servir ad uno il quale mi aveva promesso in premio di farmi parlare con vostra signoria.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Anco quest'ombra di sospetto mi potrebbe porger alterazione, s'io non fussi certo che la memoria ch'io l'amo non l'avrebbe lasciato commetter minima scintilla d'errore.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Vi si può anco aggiungere che la rimembranza della mia qualità non mi averebbe permesso ombra di mancamento.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io l'ho chiesta in moglie al signor suo cugino, il quale mi ha promesso di unire l'autorità di suo padre alla prontezza della sua volontà, e quanto prima darmi libero il possesso dell'impero (anzi della monarchia) de i meriti e della bellezza di vostra signoria.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Io vorrei ch'ella lasciasse gl'iperboli per deridere, e non l'esercitasse nel laudare, poiché mi porrà in dubbio se mi burla o se mi lauda.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Burlar quando laudo la signora Celia? Io burlerei più tosto quand'io giuro a fé da generale.<pb n="715"/></p>
+<p>Vado per il signor Virginio, rimanghi lieta, ché oggi spero la vanità delle parole s'abbia a ridurre in generosità de' fatti.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VIII</head>
+<stage><hi rend="sc">bagattino</hi> <hi rend="italic">con una lettera, e</hi> <hi rend="sc">celia</hi></stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>È possibil che noss possa viver senza travai? e che 'l bisogna anc piass i fastidii d'olter? </p>
+<p>Bondì, signora Celia.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Bon dì. Ho visto costui, sì, sì. </p>
+<p>Che lettera è quella?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Una lettera del signor Cinzi, che va alla signora Flaminia.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>La signora Flaminia è in casa nostra travagliata, disperata e anco leggiermente ferita. Io li dirò che tu gli vuoi parlare, aspetta non ti partire.<stage>(<emph>Ed entra</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ul signor Cinzi me ha datt caregh che la faci tornà a casa soa, e far che la lezi sto scartabel. Ma se no la 'l voless lezil, che farò io?</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA IX</head>
+<stage><hi rend="sc">flaminia</hi> <hi rend="italic">e</hi> <hi rend="sc">bagattino</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Chi mi vuole?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Mancaraff che ve piarav.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Orsù, manco ciancie, sei tu che mi domanda?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Signora sì, ma no tant furiosa.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>La mia furia a te poco debb'importare. Che vuoi?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Parlarve.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Parla, di' presto, né mi tener su le burle.<pb n="716"/></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Se parli prest, a no m' poss fà ben intender, né dis delle zanze chi parla a proposit.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>O tu sei pontuale nelle risposte.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Sie' mo anca vu pontual ne l'ascoltarm?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Orsù di'.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ul signor Cinzi...</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Ohimè, che odioso principio!</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ul fi' sarà fors amoros. Ul signor Cinzi, tutt afflitt, sconsolat e mez mort, m'ha chiamat.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Questi sono principii per rendermi curiosa di saper perché tante disgrazie. Io non le voglio sapere, poiché non possono andar disunite da quelle materie che mi rendono più di lui sconsolata e afflitta. E s'egli è mezzo morto, è un grand'avantaggio che hanno i suoi meriti, che lo ricercarebbero morto di molto tempo.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Augurémegli dal ben, per non av da pianzer ul so mal.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Hai tu altro che dirmi?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Non ho ancora cominzat.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Comincia, e quanto prima finisci.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Me chiamò, com av diss, Cinzi e me diss: Bagattin, quel che mi no poss fà per impedimento de forze e per mancament de fiat, fal ti per quell'amor e per quell'affett, che ti ha semper mostrat alla signora Flaminia e a mi. Digli che la torni alla casa nostra, per non far savì a tutta la città i fatt noster, e dagli in man sta lettera che a volivi scriver con al mé sangu, se i amis non m'impediva.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Sue lettere? o questo no!</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Lézila e po' stràzzela.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Legger caratteri impressi da quella mano che mi voleva uccidere? chi mi consigliarebbe?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ah signora, che l'intenziù del signor Cinzi no ha mai peccat, se bè la colera l'ha fat parì peccador. Lézine dò righe sole.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Da' qui, vediamo quello ch'egli sa dire. </p>
+<p>«Amatissimo mio bene... », menti per la gola! Dir mio bene, quando egli sa che io mi sono avveduta ch'egli mi vuol male, sì per le parole udite, come per essermi poi<pb n="717"/> certificata dalla crudeltà de' suoi fatti, che s'egli non mi ha uccisa è stato per la cura che ha tenuto il Cielo di me.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Lézin un olter verset.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>«L'afflitt'anima mia, ohimè, avolta tra queste apparenze di colpe, che la possono rendere odiosa alla mia Flaminia (parendoli forsi somministratrice di costumi infedeli) non potrà mai respirare sino all'avviso della sua salute», avviso di salute di chi procurasti darli la morte? Piglia, ch'io non ne voglio altro.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ohimè. Dò altre paroline.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>«Che quando tosto non l'abbia, niuno speri di più vivo rivedermi», vuol morir? Ah!</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Pur che 'l nun sia mort.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>«Io non niego, mia vita, che quell'amorose parole, che tu forsi potesti avermi udito dire a Celia, non possino esser state accenditrice di sdegno; ma non erano mie (testimonio il mio core, che mai vi concorse), ma sì ben dette ad istanza d'amico, il qual fece parer affetto di Cinzio quello che fu stimolo delle sue parole. S'io potessi più regger la penna, direi d'avantaggio, ma il dolor mi contamina lo spirito e indebolisce la mano.» E chi potrebbe legger con gli occhi asciutti parole così lacrimevoli? Ohimè, Bagattino.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Lezì ul rest, cara signora.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>«Dirò solo che il ritorno alla casa è tanto dovuto, quanto che non è ragionevole che il picciolo nostro bambino rimanghi senza la cara mamma», né meno debbe stare senza il caro babbo. Sustentami, Bagattino, e accompagnami in casa, ché quasi non mi posso più reggere. O affetto di madre, o credenza d'amante!</p>
+</sp>
+<stage>(<emph>Entrano</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA X</head>
+<stage><hi rend="sc">virginio, fritellino</hi></stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Io non ho più dubbio che Flaminia non debb'esser mia.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Se l'avete in casa, non è vostra?<pb n="718"/></p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Riman solo ch'ella si contenta per non mi dar occasione di sforzarla.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Ne vengon sforzate puoche.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>E pur qualched'una...</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Qualcheduna lo dice, ma niuna vien creduta.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Battiamo e informiamoci da Celia del modo che dobbiamo tenir per scoprirci. Tic, toc.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XI</head>
+<stage><hi rend="sc">celia, virginio, fritellino</hi></stage>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Siete voi, signor cugino? e perché non venir in casa?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Sarebbe stato forse meglio per più comodamente poterli dimandare della signora Flaminia. O bene, come sta, che dice?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Per ora io non so quello ch'ella dica, poiché per quello ch'io mi sono avveduta è andata a casa sua, e, mi perdoni sua signoria, con qualche mancamento di buona creanza, non mi avendo pur detto a Dio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>A casa è ita? e come si mostra alterata?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Tanto che niuno lo saprebbe dir se non lei.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Si è riposata? ha male?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Il suo maggior mal è nell'animo, luoco che non ha ricorso alle medicine ordinarie. L'infelice isvenì. Io la slacciai e con mille parole e baci la ridussi capace di consiglio, ché prima non era possibile il potergliene dare.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Si spogliò tutta?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Si lasciò spogliar quelle parti che gli potevano render meno noiosa l'agitazione del male.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Male assai, eh?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Una ferita, ma di puoco momento, che anco si sanarebbe con lo scordarsi di averla. Ma cercando per tutto il corpo per vedere se ve n'era più d'una, non ne trovai d'altre.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non dovesti cercar bene.<pb n="719"/></p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Cercai, e ne l'usar diligenza più che ordinaria, viddi (ohimè viddi) un neo, ch'ella tiene sotto la zinna manca, che fieramente mi violentò l'animo e ordinò alle labra che per tributo li dessero mille baci. Egli non si spiccava punto dall'avvorio delle sue carni, ma v'era impresso qual stella fissa nel cristallino di quel corpo, ch'io non so dir se sia cielo o pur s'io la debba chiamar materia terrestre come son l'altre, che so io? Orsù, non più di questo.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Sotto la zinna manca?</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Sì, sotto la zinna manca.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Seguitate il vostro discorso.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Io la rivestei, la ribaciai, e tanto mi sono rimaste impresse le sue bellezze, ch'io mi sono mortificata l'opinione ch'io aveva di esser bella anch'io. Me n'entro, per andare a baciar anche quel luoco tocco dalla divinità di quelle membra, che sono pure insidiatrici dell'idolatria del suo bello.<stage>(<emph>Lei entra</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Scopritevi alla signora Flaminia, senza pur perdere un momento di tempo, ch'io vado per por all'ordine una tal invenzione, la più criminale che mai sia stata posta in opera ne gl'atti civili de gl'amanti.<stage>(<emph>via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Guarda di far bene, accioché il civile non divenga poi criminale, per te, poiché ne gl'atti civili de gl'amanti, non comprendo che v'abbia luoco la criminalità delle tue invenzioni. Ma come dirò, e come? e come mi scoprirò con Flaminia? adulterò dell'amicizia ch'io tengo con Cinzio? La dottrina di Fritellino, dettami nel principio, è quella che può esser legge a gl'amanti. Tic, toc.</p>
+</sp>
+<pb n="720"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XII</head>
+<stage><hi rend="sc">flaminia</hi> <hi rend="italic">e</hi> <hi rend="sc">virginio</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Non è in casa il signor Cinzio.Volet'altro?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Voglio lei, e non compiacendosi di udirmi, gli dirò cosa che forse non gli dispiacerà.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Ancorch'ella fusse per dispiacermi, temperarei il dispiacere con l'intendere che a lei piace di parlarmi.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Dovendo imprimere le mie parole nel più vivo del cuore della signora Flaminia, bisognarebbe ch'io avessi una suavità di concetti, che dolcemente la rendessero capace ch'io non posso di meno di non amarla, sì per l'obligo commune che ogn'un tiene di amarla, sì per quello che è poi mio solo, per non poter vivere senza servirla. È gran tempo che lo stimolo della mia salute mi sprona di venirla a ritrovare, ma dubitando che Cinzio non rimanesse offeso per l'amore ch'io mi credeva che vi portasse, ho taciuto sin qui, e forse non averei mai detto nulla, s'io non mi fussi accertato de i suoi mancamenti. </p>
+<p>Vengo adunque a supplicarla di voler dar luoco nella sua memoria a chi non è mai per scordarsi la grandezza de' suoi meriti.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Io ho rassunto dall'infedeltà del vostro discorso come vorresti ch'io tenessi Cinzio per infedele, la qual cosa potendo anche essere, ed essendo di ragione che l'una e l'altra si palesi in fronte del mondo, sarà necessario il dar principio dalla vostra temerità di soverchio biasimevole per non dir infame, e perché Cinzio sappia ch'io so i suoi mancamenti, li dirò che me gli avete scoperti.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ohimè, ch'io perdo in uno l'amico e l'amata, meglio è ch'io occida costei.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Io gli dirò insieme...</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p><stage>(<emph>mette mano al pugnale</emph>)</stage> Che gli dirai, scelerata?</p>
+</sp>
+<pb n="721"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIII</head>
+<stage><hi rend="sc">cinzio</hi> <hi rend="italic">subbito,</hi> <hi rend="sc">virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">flaminia</hi></stage>
+<stage>(<emph>Virginio sotto occhio vede Cinzio e dice</emph>)</stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Questo pugnale sia la mia morte, se il signor Cinzio non vi ama di tutto cuore.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>O amico caro, o uffizio degno di un animo nobile com'è il vostro!<stage>(<emph>E l'abbraccia, poi rivolto a Flaminia, entrano</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Né anche Fritellino avrebbe saputo trovar così subbito un partito così bello. Pur ch'ella non gli dica ora il tutto. Forse che no. Ecco Fritellino.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIV</head>
+<stage><hi rend="sc">fritellino</hi> <hi rend="italic">con una lettera, e</hi> <hi rend="sc">virginio</hi></stage>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>O io l'ho trovata bella!</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>O se tu sapessi, fratello, mi è pur intervenuto la bella cosa! Orsù, te la dirò poi. Che lettera è quella?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Questa è una materia che ti renderà gustatissimo, sappi. O ecco gente.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XV</head>
+<stage><hi rend="sc">capitano, virginio, fritellino</hi></stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Bondì. Io son venuto per la risposta.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Che termini son questi? </p>
+<p>Attaccàtela, dite che non sapete ciò che si dica.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ma s'io lo so.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Attaccàtela, ché so io perché.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Non so che vi dichiate di risposta.<pb n="722"/></p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Non mi avete promesso la signora Celia per moglie?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Dite: «Menti per la gola! ».</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>È troppo, lascia dir a me. </p>
+<p>Io non me lo ricordo.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Signor Virginio, non dite ch'io metta mano, ché me la vorresti aver data prima che promessa.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ho la spada anch'io.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Metti mano!</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Eccomi.</p>
+</sp>
+<stage>(<emph>Fanno alle coltellate</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVI</head>
+<stage><add resp="ed"><hi rend="italic">Tutti i personaggi della precedente, più</hi> <hi rend="sc">cinzio</hi></add></stage>
+<stage>(<emph>Cinzio difende Virginio.Fritellino si lascia cader la lettera</emph>)</stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io non voglio ammazzar tanti in una volta.<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>I pari miei non fanno il ruffiano.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Che differenze sono le vostre?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Lasciatele dire a me, signor Virginio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Di', ché se bene le so, tu lo sai meglio di me.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Quel Capitano Cucuzza mi aveva data quella lettera, ch'io ho poi gettata in terra, acciò che io la portassi alla signora Flaminia.</p>
+</sp>
+<stage>(<emph>Cinzio piglia la lettera</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Questa lettera?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Signor sì, e mi soggiunse: "Né ti creder di far offesa alla signora Flaminia, poiché ella non ha altro gusto che il legger le mie, anzi ch'io ti assicuro che ne trarrai non solo mille benedizioni, ma buona mancia ancora, poi che la nostra prattica è di molti mesi".</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non più, io ho inteso abbastanza. Il prenderne vendetta sarà pensier mio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Mi dispiace de i vostri disgusti.<stage>(<emph>E via</emph>)</stage><pb n="723"/></p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Anc a mi.<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Voglio veder un poco la leggiadria de i concetti. «Non v'ha titolo che arrivi a i gran meriti di vostra signoria, onde dirò solo: anima di questo corpo, poiché lontano da lei vivo quasi disanimato, e di già sarei morto, se quel fiato, ch'io ricevei dalla sua bocca in virtù di quel bacio che mi diede, non mi avesse alimentato sin ora. Non gli sarà adunque discaro di trovar modo, ond'io possa la notte a ventura venire a ricevere nuovo alimento e a ribaciar quel neo dilizia di queste labra... », ohimè, ch'io non posso più, «le quali non osano di accostarsi più ad altr'oggetto, per non offender la grandezza del suo gran merito. Non sarebbe gran cosa che quel Cinzio... », quel Cinzio? «non venisse a casa questa notte, avendo inteso ch'egli ha fatto la pace con suo padre? » Io so che va ispiando tutti i fatti miei. Io... non occorre l'andar moltiplicando i disgusti con la lunghezza del leggere. A i rimedii! Ma che rimedio si può pigliare ad un caso seguìto? Altro non saprei che mi fare, salvo che con la lor morte dar la gloria in mano della vendetta. Morirai, indegna, e s'io morrò, sarà solo per non lasciarti senza le mie persecuzioni anco nell'altra vita.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVII</head>
+<stage><hi rend="sc">pantalone, cinzio</hi> <hi rend="italic">tutto suspeso</hi></stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Non ho mai più visto Cinzio da i zinquanta zecchini in qua. Mi vago dubitando de no ghe aver pagao el viazo d'andarse con Dio, con qualche morosetta. Ma eccolo, tutto sospeso estatico. </p>
+<p>Cinzio? o Cinzio? Cinzio? Ti no rispondi.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>O quanto faresti meglio a levarvi di qui, prima ch'io vi rompi il naso con un pugno.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Costui parla, ma nol me vede, né sa chi el diga ste parole. Cinzio, fio mio, sappi che t'ho maridao in un partio tanto bon, che ti medemo non saveresti desiderar meio.<pb n="724"/></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Fio mio te ho maridao? Andeve a far dar un boio al cervello!</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Un boio al cervello? Vago in casa a tior un baston per darte un boio alle spalle, forfante insolente!</p>
+</sp>
+<stage>(<emph>Cinzio non lo guarda mai, e doppo partito dice</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Chi era costui che mi rompeva il capo? Orsù, Cinzio, non è più tempo di star su le considerazioni, ma determinatamente lasciar i dubbii e porsi con ogni fretta alle vendette di quel Capitano. O eccolo là.</p>
+</sp>
+<stage>(<emph>Getta il ferraiolo, cappello, mette mano alla spada, e corre via</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVIII</head>
+<stage><hi rend="sc">dottor</hi></stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Am vuoi andar a vder quel che fa la signora Flaminia. Che pagn son questi? O che bel fraiol, al i è anc al capel, e si al n's' ved al patron, am vuoi vestir un poch suldadescament.</p>
+</sp>
+<stage>(<emph>In questo</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIX</head>
+<stage><hi rend="sc">pantalon</hi> <hi rend="italic">e</hi> <hi rend="sc">dottor</hi></stage>
+<stage>(<emph>Pantalon, credendolo Cinzio, lo bastona, e dice</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalon</emph>.</speaker><p>Tiò forfante, impara de responder a to pare!</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Non più, caro signor padr.<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">pantalon</emph>.</speaker><p>L'ho io castigao sto furbo.<stage>(<emph>E via</emph>)</stage><pb n="725"/></p>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO TERZO</head>
+<div2 type="scena">
+<head rend="italic">SCENA I</head>
+<stage><hi rend="sc">dottor</hi></stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Ch' vuoia è vgnù a mio padr d' vegnirm a bastonar, ch'è trent'an che l'è mort e fuor che 'l n'mnava l' man? Se gh' diff vgnir in ment ch'una volta am diss a un mia fradel fiol d'un bech?</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA II</head>
+<stage><hi rend="sc">cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">dottor</hi></stage>
+<stage>(<emph>Cinzio senza parlarli leva le sue robbe d'intorno. Dottor non parla e si lascia levar il tutto, poi con una bella riverenza si parte</emph>).</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>E come sono capitate queste robbe in man di costui? Ah, sì, io mi ricordo che quasi pazzo lo gettai a punto in questo luoco. Oh lettera, lettera impressa de quei caratteri che furono originati dal tuo cuore a pregiudizio della mia vita e a distruzione de l'onor mio! Ma sì come io non ho più nulla di tuo, avendo tu donato ciò c'hai di buono a quel Capitano (sì come ho letto meglio su la tua), né tu ragione<pb n="727"/>volmente devi aver nulla del mio. E prima che tu dia principio a mal trattar Carluccio mio, voglio che tu me lo renda. Dico mio, poiché in quel tempo so che tu non avevi mezzo adulterati i pensieri, né sapevi che al mondo ci foss'altri per te che Cinzio solo. Ora lo voglio, né voglio tardar un momento a levartene il possesso. </p>
+<p>Tic, toc, o di casa!</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Sarà forse uno di quelli amici fedeli.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA III</head>
+<stage><hi rend="sc">flaminia</hi> <hi rend="italic">e</hi> <hi rend="sc">cinzio</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>O siate il benvenuto, io ho pur da dirvi le gran cose. Par che siate alterato, che avete?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Chiama Carluccio.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>E perché?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Bagattino, Bagattino.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA IV</head>
+<stage><hi rend="sc">bagattino, cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Che me comandef, signur?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Presto, va e conducimi qui Carluccio.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Vaghi e vegni adess adess.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Non offendete la ragione con lo soverchio esser alterato. Che novità è questa?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non hai ancora provato la mia alterazione.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA V</head>
+<stage><hi rend="sc">bagattino, cinzio, flaminia</hi> <hi rend="italic">e</hi> <hi rend="sc">carluccio</hi></stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Eccol, che 'l voliva far la cacca.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Vien meco, ché il luoco de gl'angeli non è tutt'uno con quello delle furie. <stage>(<emph>Lo porta via</emph>)</stage><pb n="728"/></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Cinzio, Carluccio? cor mio? ohimè, che sorte di furto è questo? rubbarmi l'anima? dove s'intese mai la ferità di quest'uso sacrilego? Cinzio avverti, ch'è tuo, non lo niego, ma che però è anco mio; onde del pari lo dobbiamo godere senza pregiudizio delle comuni ragioni. Ah, che non è tempo di dimorarsi, ma di seguirlo, e farmi restituire quello che non mi poteva levare.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Questa è una lit, che ha molt del stravagant. Cinzi ha purtat via ul putel per no tornà più, Flaminia ul seguita e starà via un gran pez, la casa è vuoda de zent e piena de robba. Chì ghe va fà 'l consei e intender quel che dis Franceschina. </p>
+<p>Tic, toc. Franceschina? o Franceschina.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VI</head>
+<stage><hi rend="sc">franceschina</hi> <hi rend="italic">e</hi> <hi rend="sc">bagattino</hi></stage>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Che furie son queste?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>La fortuna, che ha pressia de sbrigàn de povertà.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>E come? Di', presto.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A sem patroni della casa, dal momebel, se però stem stabil int'al portal via.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Ce l'hanno donato?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>No, i ne l'ha lassat.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>E che son morti?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>I è vini tutti dal cervel in fuora, che 'l se gh'è svanit e lor gh'è cors dré.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>O tu m'intrichi.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A te digh che Cinzi ha portà via Carluzz. Flaminia è tegnù dré a tutti dò, al negozzi è desperad, la robba è in<pb n="729"/> le nostre man, che se anca nu no perdem al zervel, me par che la n'posse servì inte i noster bisogn, che puol vegnì a remedià anc ai present.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>O bene, come faremo?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Vender tutt. Che se a sort i se tornass accordà, che i se accordi anc a comprà de l'altra robba.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VII</head>
+<stage><hi rend="sc">pantalone</hi>, <hi rend="italic">non conosciuto da loro,</hi> <hi rend="sc">bagattino</hi> <hi rend="italic">e</hi> <hi rend="sc">franceschina</hi></stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Come quel furfant de Cinzio se lassò bastonar senza quasi muoverse mai? Forsi che fu per obedienzia. O e son pur bestial in le mie ressoluzion (podeva anco far de manco de darghe).</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Quest'om ne savrà fors insegnà chi comprarà le robb.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Ci vuole una qualche invenzione, per non parer che le robbiamo.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>L'ho bella e trovada.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Costù ha ciera del solenissimo furbo.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Signor, un mé parent, che è mort, m'ha lassat certi mobili, che voraf mo venderli. Com'hoi da fà, perché mi no son pratich della terra?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Bisogna mostrar el testamento del parent, per veder s'el xe la veritae, ch'el vi abbia lassai.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Al dir ul vira, i è mobei d'un mé patrù, che è andat fuora della città e me ha dat ordine che i vendi.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Bisogna che ti mostri l'ordine in scritto. E però, a dirte al vero, compro anca mi robbe, ma no compro se non robbe rubbae.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Di questo abbiamo bisogno noi.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Signor, per non avì testament, né mandat, fé conto che l'abbia rubbat e comparé vu.<pb n="730"/></p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Dove xele?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>In quella ca', che a dirv al vira ghe stava un gentilom chiamat ul signor Cinzi, fiol d'un tal vecchiazz, beccù cornut, avar, spilorz, miser, al qual, avend una murusa, bisognava per mantegnirla rubbar in casa, stocchizà con i amisi e far quel fa un pover zoven fiul d'un pader sassin.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>No lo inzuriar tanto! Come hallo nome?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Polenton, Pelizon, Poltrunzon... no, no, Pantalon! un nom infin da scopazzon.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Orsù tornemo alle robbe, dove xele? Vedemole.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Aspetta, Franceschina, che a vegni adess adess.<stage>(<emph>Entrano</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Il Cielo ce la mandi buona. Se i patroni tornassero mentre che siamo su la vendita, bella frustatura per me e solenne galera per Bagattino. Ma io direi di non ne saper nulla, in ogni modo io non ho parlato e non ho contrattato con questo vecchio né con altri.</p>
+</sp>
+<stage>(<emph>Pantalon parla in casa</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Sto pavaion, che credeva che fosse in le altre mie robbe da inverno, xe vegnuo a sborarse in sta casa che no cognosco. E ste spagliere, che ho dao la colpa a più de diese, che me le abbia robbae?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Messer, o messer, vegnì de qua, che el gh'è dell'altro, robba bona.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Me basta d'aver visto sin qua. Andemo fuora a far el mercao.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Andém.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Quanto vustu de tutto?</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Cent trenta sett scud e un terz.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Robba che me costa a mi più di zinquezento. Te ne voio dar ottanta.<pb n="731"/></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Cossa è più, ottanta o zent?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Zento xe vinti più de ottanta.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Ghe ne voio donca ottanta e po' vinti.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Orsù, tiò questi a bon conto. Dame la chiave della casa, che vago per il restante.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Mo perché volif la chiav?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Per esser seguro che ti no vendi le robbe a qualchedun altro.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Non so fà poltronerie. Eccov la chiav.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Mostra quei soldi, che te i voio dar tutti in tanti zecchini traboccanti.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Tolì, demen assé.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Quel Pelizon, Poltronzon (ma però Pantalon) son mi; quel vecchio spilorzo, becco, cornuo, non son mi, el xe to pare! Furbo, laro, nassuo per le forche e la frusta.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Questa vien a me.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Xe poco a i to meriti, ma adesso vago a formar una querela dalla qual ensirà una sentenzia che forsi gramo quando ti sii nassuo! E ti, porca, putana, poltrona, ruffiana, strega, te vogio far metter su l'aseno con la coda in man, e darte una frustadura, che te serva per memoria, e al popol per esempio.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Signor, io non ce ne ho colpa, ma sì ben quel ribaldo, il quale, ripreso da me, voleva ammazzarmi. E quante volte ho conteso con te dicendo: il signor Cinzio è figlio di un uomo da bene, ché così dice tutta la città? Non ti voglio più vedere, ché le tue furbarie mi avvelenano. </p>
+<p>A Dio signore, il Cielo v'ispiri a conoscermi. <stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Isquisitissima mariuola, astutissima poltrona, che xe questa. </p>
+<p>E ti, furbo, lievate de qua, puo' che me resolvo de lassar ch'el Cielo te gastiga.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A credi, signor, che ve sie' accort che non so fà ul lader, se ben ul bisogn me voliva insegnà. <stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>O mondo, o Cinzio, o robbe, o furbi, o accidente, che in vero me ha disciplinà 'l giudizio a non incolpar né a<pb n="732"/> far reo de cause criminal mai più nissun, se prima con el levar la fede alle relaziò, no lasso luogo che giusto abbia spazio de comparir. No truovo però scusa per Cinzio, qua dentro ghe xe la domestichezza de i furti, qua ghe giera la signora e qua xe il tempio de tutt i so mancamenti e qua xe la dogana, dove se desgabellava tutte le poltronerie che se faseva in casa mia.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA VIII</head>
+<stage><hi rend="sc">flaminia</hi> <hi rend="italic">in abito di serva</hi>, <hi rend="sc">pantalone</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Io non saperei trovar abito proporzionato alle mie miserie, anco ch'io vestissi quello della necessità. O Flaminia, se la divisione dell'anima da questo corpo è di tanto dolore, e qual dolore debb'esser il tuo, che con uno non più inteso modo hai un'anima tripartita? e ogni parte così alienata, che non puoi trovar modo di unirle? Cinzio in virtù d'amore ne tien una, l'altra in virtù dell'odio te l'involò con il figlio, e tu sei rimasta con quella sola porzione che non ti basterebbe per vivere, se chi te la diede non la facesse servire per un'anima intiera.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>L'uso della curiositae me ha fatto fermar per saver le cause delle lamentazion de quella povera zovene. Bonzorno fia.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Buon anno, mio signore.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Che aspetto, che maestae, che portamento? ma non halla un'illustrissima depenta nella fronte? Me sento una violenza d'offerirghe 'l mio servizio, che me sforza a lassar 'l pensier de i mii affari e tutto dedicarme a i so comandi.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Vostra signoria non se maravigli se così immota me ne sto, quasi ch'io non avessi a far nulla, poiché il molto che fare mi confonde il modo di ritrovar la via per dar principio.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Le vostre passion me ha de muodo intorbidao l'arbitrio, che ad altro nol me lassa pensar che nell'impiegarme ne i vostri commandi.<pb n="733"/></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>La pregarei a farmi grazia di ritrovarmi una casa onorata per potervi fedelissimamente impiegare il mio servizio.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>El Ciel ve ha de zà provisto d'un liogo dove poderé comandando farve obbedir.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Il mio merito non arriva tant'oltre.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Gl'ordini del Ciel conferisce i meriti e dona le comoditae. Fé conto che mi sia istromento della divina disposizion e che quello sia el liuogo determinao all'esercizio de i vostri meriti.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Io non posso altro che credere che voler divino vi abbia eletto istromento per solevar le mie passioni, le quali, con aggio maggiore, vi narrerò entrati che saremo in casa.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Entremo, ché reposada me diré puo' quello che v'importa e che più ve preme.</p>
+</sp>
+<stage>(<emph>Entrano</emph>)</stage>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA IX</head>
+<stage><hi rend="sc">cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">carluccio</hi></stage>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Pappa, io ho fame. Vorrei veder la mamma.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Mangiarai, figliuol mio, ma della mamma non ne parlar, m'intendi?</p>
+</sp>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Perché, che gl'ho fatto? Son pur anco stato buono.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Foss'ella così buona, come se' tu.</p>
+</sp>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Mo ella non grida mai, se non quando non ci è pane e ch'io ho fame.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Orsù taci, ch'io ti portarò in luoco dove starai meglio che con la mamma.</p>
+</sp>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Voglio la mamma io, mamma, mamma.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA X</head>
+<stage><hi rend="sc">flaminia, carlo</hi> <hi rend="italic">e</hi> <hi rend="sc">cinzio</hi></stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Eccomi, figlio. <stage>(<emph>Lo piglia per un braccio</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Lassalo, traditrice!</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Menti per la gola, scellerato!</p>
+</sp>
+<pb n="734"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XI</head>
+<stage><add resp="ed"><hi rend="italic">Personaggi della precedente, più</hi> <hi rend="sc">pantalone</hi></add></stage>
+<stage>(<emph>Pantalone in casa dice</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Che romori sent'io in strada?</p>
+</sp>
+<stage>(<emph>Cinzio, udendo il padre, fugge</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p><stage>(<emph>in strada</emph>)</stage> Che romori? che fio xe questi?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Ecco cessato una gran parte del mio dolore ed ecco in questo solo oggetto la tregua de gl'infiniti miei dispiaceri. Signore, questo è mio figlio, involatomi da un barbaro che quasi mi aveva ridotta fuor di me stessa, e con molta ragione, poiché se fuori della mia vita v'era il figliuolo ed entro alle viscere la barbarità del furto, e come potea io non esser tutta contaminata? Ora mi sono in gran parte riauta. Baciami, caro il mio bene, bacia la tua mamma, figlio.</p>
+</sp>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Mi aveva pensato di andar sempre gridando mamma così forte, ché, se fosti anco stata su 'l tetto, m'avresti sentito.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Cara lenguetta, caro bambino, mo chi no xe innamorarave in quelle care parolette de zuccaro? Portelo in casa, ché vegno anca mi.</p>
+</sp>
+<stage>(<emph>Flaminia e Carluccio entrano in casa</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Voio tior sta fia per moier, per governo e per caritae, e lassar che Cinzio fazza anch'esso a so modo. Mo come me chiamerà sto fantolin? Babo, pare, missier? El par che quel missier se asseta meio a sta etae, de tutti i altri nomi.</p>
+</sp>
+<stage>(<emph>Carluccio in casa dice</emph>)</stage>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Missere, missere, ove siete?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Vegno fio, vegno. Orsù, sou 'l missier.</p>
+</sp>
+<pb n="735"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XII</head>
+<stage><hi rend="sc">dottor</hi> <hi rend="italic">e</hi> <hi rend="sc">capitano</hi></stage>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Voi Dottore? esercitate l'avvocato? o siete giudice? o pur un uomo vestito così per far ridere?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>A son Dottor, a so far l'avocat, e sì a spier d' far al zuds per mandarv in galea a farv pianzer.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io non intendo la scabrosità di questa vostra lingua. Ditemi, conosceresti voi il Dottor Graziano?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>A n' al cgnoss.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Bisogna conoscerlo, trovarlo, parlarli e dirli che non vadi questa notte a casa, per quanto egli ha accaro di levarsi domattina; se però egli ha negozii in Europa, poi che voglio portar la sua casa in Affrica con Celia mia moglie, di dove l'ho fatta regina di tutto quel paese.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Celia sa 'la sta vostra deliberazion?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Chesto signor no, io voglio fare il tutto all'improviso.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>I aviv mai parlà?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io gl'ho data la fede sino in Bologna, ho poi ratificata in questa città.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>I aviv dit di condurla in Affrica?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Signor no. Io glie lo voglio dir poi, per il cammino.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Mo com purtariv la casa?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Con un soffio la anderò spingendo per l'aria sino che arriviamo alla nostra reggia.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>A dir al vera a son so barba e son 'l Dottor Grazian. Av la concied con pat ch'av voi andar in casa, andar a let e dormir sin a tant ch'am dsì: a sem in Affrica.<pb n="736"/></p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Vostra signoria, padre, volsi dir zio, della regina Celia? Io mi risolvo di far le nozze in questa città, a fine che voi possiate regalar tutt i Dottori, per poterli poi far un privilegio, che hanno mangiato alla mia tavola. Io vorrei parlarli.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Chi v' tien? n'i aviv tuccà la man senza mi?</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Signor sì.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Mo tucai anc 'l rest. O d' casa?</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIII</head>
+<stage><hi rend="sc">celia, dottor</hi> <hi rend="italic">e</hi> <hi rend="sc">capitano</hi></stage>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Che addimandate signor zio?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>An dimand nient mi, l'è chì al re d'Affrica ch' dmanda la regina.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>O signor Capitano.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>L'è calà d' condizion.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Iscusatemi, ch'io non vi aveva veduto.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Il signor Dottor sa ben quello ch'io aveva pensato di fare, ma mi son mutato di pensiero.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Vi par che ci ritocchiam la mano in presenza del signor zio?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Bisogna toccar quel che n'v' sid tucà, perché la man av la tuccassi sina in Bologna.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>È vero, che ci rimane dunque che fare?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Quel che n'è fat. Andanv in casa, ch' la natura v'insegnerà 'l rest.</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Andiamo monarchessa delle donne e moglie del monarca delle milizie.</p>
+</sp>
+<stage>(<emph>Entrano</emph>)</stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Da chì a poch, la monarchia sarà stracca.</p>
+</sp>
+<pb n="737"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIV</head>
+<stage><hi rend="sc">virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Io voglio Flaminia in tutti i modi. Vada la robba, non si estimi la vita, e se l'onor patisce, abbia pazienza anco lui ché Amor non guarda ad altro che al proprio interesse.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Se la robba se ne va, la vita riman tribulando; e un corpo tribulato dalla povertà non serve all'onore per altro che per una carcere secreta che non lo lascia venir mai alla luce.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Come faremo per aver Flaminia?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non la volete per goderla, o per amor o per forza?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Sì.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Godendola non la disonorate?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>La vorrei per moglie io.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Ed ella non vuol voi, adunque non puol essere.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Pigliamola adunque a disonorare.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Dovendola disonorare, disonoratevi per meglio disonorarla.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Forfante, disonorarmi?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>E che? crederesti forsi d'onorarvi con il furto d'una donna che non vi vuole? E questo non è meno lo intiero disonore ch'io son per dirvi.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Che ci è di peggio, o di più grave, che non possi esser stato commesso da chi professa e spende il nome di uomo onorato?</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Si spendono anco tante doppie per buone e pur son false. Orsù a i fatti nostri. Sapete quello che bisogna che di necessità voi facciate? Ve lo dirò: bisogna che amazziate Cinzio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ohimè, questo non mai.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Lasciatelo dunque far a lui?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>E come?<pb n="738"/></p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>E che, voi dubitate forsi che Cinzio non vi amazzi, accorgendosi che l'insidiate la donna? o pur almeno non v'impedisca che non l'abbiate, la qual cosa (secondo voi) sarebbe pur anche una ferita mortale?</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Lo farei poi anche, quando il mondo potess'aver qualche sodisfazione intorno al perché, onde non si dicesse che io l'avessi fatto solo per levargli la donna.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Io ho per la mente un perché tanto onorato, che al dispetto dell'essere, parerete uomo da bene.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Nel parere consist'oggi l'importanza. Se così è, facciamolo.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Voglio che sparghiam voce che Cinzio si vanta di goder Celia, vostra cugina, e io trovarò doi uomini da bene che giureranno di averlo udito.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>O bello, o buono, o ingegno nato solo per dar consiglio! Io al primo incontro senza parlare li darò una pugnalata.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Eccolo che viene. Animo, ardire, coraggio!</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XV</head>
+<stage><hi rend="sc">cinzio, virginio</hi> <hi rend="italic">e</hi> <hi rend="sc">fritellino</hi></stage>
+<stage>(<emph>Virginio senza parlare mette mano al pugnale</emph>)</stage></div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVI</head>
+<stage><add resp="ed"><hi rend="italic">Personaggi della precedente, più</hi> <hi rend="sc">flaminia</hi></add></stage>
+<stage>(<emph>Flaminia per di dietro li leva il pugnale, che non lo vede e dice</emph>)</stage>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>O traditore!</p>
+</sp>
+<stage>(<emph>Cinzio si volta</emph>)</stage>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p><stage>(<emph>subito dice</emph>)</stage> Traditrice sei tu, che vuoi occidere uno amante di cui certo sei indegna!</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ah scelerata!</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>La cosa s'intriga.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>E perché a me questo?<pb n="739"/></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Uditemi due parole.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non debbe parlare chi è indegna di aver tanto parlato.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Concedetemi in grazia ch'io parli, per non vi aver a pentire di non mi aver lasciato parlare.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Di', ma di' presto.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Ditemi, la casa non è l'albergo di chi ci sta?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Che proposito? Sì, che vòi tu dire?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Quel fodro, che tiene a canto quel traditore, è l'albergo di questo pugnale, con cui vi voleva tradire. Io glie lo levai, acciò non vi togliesse la vita. Se questo è l'errore, condannatemi, ma leggete prima nel suo volto il processo del suo mancamento.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Non più, il caso è tanto apparente, che ogni negativa sarebbe una irriverente bugia in offesa della purissima innocenza di Flaminia, tradita da me in tante guise, che il solo accennarle sarebbe il martiro di ogni anima ben composta. Io ho amato con ogni sfrenatagine la bella Flaminia e dalla perfida natura di un mio servo ebbi per consiglio...</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Non è tempo di star più qui.<stage>(<emph>E fugge</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Ebbi, dico, per consiglio di romper il rispetto all'amicizia e d'esser sollecito persecutore del signor Cinzio, da me per altro tempo osservato e riverito quanto le mie forze mi permettevano (se non quanto il suo gran merito richiedeva). Fui invitato da quel perfido a persuader vostra signoria di amorosamente parlare in tempo di notte a quella dama, per far che la signora Flaminia, ingelosita, si fuggisse di casa. Successero qui intorno diversi accidenti, che ridussero il caso in una disperata risoluzione di ferir Flaminia, la quale salvata (a persuasione del signor Cinzio) dal Dottor mio zio, fu poscia ridotta in casa e in letto, dove poi Celia mia cugina la spugliò e li fece quella poca servitù che la picciol offesa del ferro per allora ricercava. Viddi Celia (e semplicemente mi riferì) un tal neo sotto la zinna manca alla signora Flaminia, e con parole (puramente adescatrici) me lo rappresentò in guisa ch'io immediate mi sentii rapire di grembo alla ragione e precipitare nelle braccia della lascivia. Sopra di questo<pb n="740"/> neo fu, dalla diabolica natura di quel mio servo, fabricata una perfidissima invenzione (che senz'altro il demonio non era capace di una così perfida dottrina) e fu che in nome di un tal Capitano si dovesse formar una lettera amorosa nella quale descrivesse la bellezza del neo, la grazia più volte ricevuta di ribaciarlo e molt'altre bugie, che unite, la morte a pena bastarebbe per indice di quel male che merita quel ribaldo. Mi fece poi fare quella spropositata quistione sotto spezie di difensore della sua dabenaggine, che non arebbe permesso ch'egli portasse lettere amorose. Mi consigliò il medesimo traditore ch'io vi occidesi sotto certi pretesti che vi avantavate di goder Celia, che so io? Orsù, non più, poiché non è di dovere che più viva un aperto occisore della fama di Flaminia, un pubblico distruggitore della vostra quiete, e un deliberato occisore della vostra vita, la quale tanto è viva, quanto che il Cielo l'ha conservata come innocente.</p>
+</sp>
+<stage>(<emph>Cinzio abbraccia Flaminia</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Non si tratti più di colpe, essendo rassunte tutte in</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Non si tratti meno di castigo, essendo offizio del Cielo. Trattisi adunque solo di perdoni, essendo uffizio di quell'uomo onorato, non conosciuto da chi usa di far vendetta.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Io non poteva essere ben conosciuta da voi, se non con il mezzo di questo che ha posto il suo onor a sbaraglio per conservazione del mio.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>Sapendo di non meritar perdono, io sto anco in dubbio di averlo ottenuto.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Il Cielo faccia l'istesso e sarete sicuro del castigo.</p>
+</sp>
+<sp><speaker><emph rend="sc">virginio</emph>.</speaker><p>A Dio, signori.<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Ohimè, la porta de mio padre si apre. O il mio padrone esce di casa.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVII</head>
+<stage><hi rend="sc">pantalone</hi> <hi rend="italic">e</hi> <hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Dove seu, fia mia?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Son qui, signore.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Che feu qua in strada?<pb n="741"/></p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Mi pareva che fusse stato battuto alla porta, ma non fu poi vero.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Orsù fia, sta' a sentir quello che me ha ispirao el Ciel per vostro ben e per mio gusto. Cioè, che senza cercar altra fede della vostra nascita, che quella sola che me fa i vostri costumi, de volerve tior per mogier. Mo disème, quel fantolin di chi èllo o di chi fu ello fio?</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Con più comodo glie lo dirò, né mi par che sia bene lo strigner tanto negozio così importante fino all'intiero conoscimento, se si dee fare. Vadi e torni, ché forsi da un mio discorso comprenderà ch'io merito l'amor suo per la realtà di questo animo mio svilupato da tutti gl'interessi. <stage>(<emph>Ed entra</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Questo xe un accrescimento di desiderio che me farave levar gl'intoppi a tutte le difficultae. Mi no credo che l'abbia mario, se ben quel fantolin è una certa raise, è qualche sospetto. El puol anch'esser fio d'un amante che se interponesse a i mii disegni, questo vuol dir niente, quando mi ho el consenso della zovene. El xe stao un gran colpo quello aver detto che comprenderò che la merita l'amor mio.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XVIII</head>
+<stage><hi rend="sc">cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">pantalone</hi></stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Io non so se Flaminia sarà tornata a casa sua o se pur smarrita (non volendo star sola) sarà ritornata in casa dalla signora Celia. O ecco mio padre. </p>
+<p>Buon giorno, signor padre. In grazia mi scusi di tanti mancamenti di creanza, poiché preda di mille agitazioni e d'animo e di corpo, non so ormai più quello ch'io mi faccia o in virtù di chi operi.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Orsù, te voio agiustar la mente e accomodart 'l corpo. Ti xe innamorao, ch'el so, e sin adesso ti ti è vardao da mi, che forsi ti averessi sposà quella che zà molto tempo ti<pb n="742"/> galdi. Te do rason, no vogio più che i legami del timor te fazza adulterar i oblighi delle promesse. Tiola, se ti la vuol, né ti averà però causa de inzelosirte per tema d'accrescimento d'eredi, essendo int'una tal etae, che più tosto me abreviano i zorni che prestarli alla discendenza. Però marìdate ché me marido, né se parli tra nu de cose che abbia da introdur disputa intorno a quello che xe che no xe 'l dover.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>La legge del dovere è quella che si spicca dal vostro volere. Ma chi è la sposa?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Te vogio far rider e stupir. Truovo qua in strada una zovene preda della necessitae, che lacrimevolmente va cercando patron. Me ritiro in mi, la guardo, vedo una tal serenitae in la so fronte, che immediate me dispose a tiorla più per servirla che perché essa me servisse. E qua deti subito le chiave del mio arbitrio in mano della compassion, la qual subito l'ha inserao nella stanzia della caritae, con un ordine espresso ch'el debba sposar per quanto el tien cara la grazia del Ciel.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>E chi vorebbe contradire alla giustizia di questa causa? Ma ditemi, e dove è questa giovine?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>La xe in casa e sì a te zuro da pare che no ghe ho manco toccao una man. Ma te ho da dir de più bello: questa ha un fantolin el più caro, el più bello e 'l più dolze mataziuol de tutto el mondo, no te digo altro, el meterave l'allegrezza nel tempio della malenconia! El noma Carluzzo, Carleto, Carlin.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Carluccio?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Sì, ma ascolta el più bello. Un fio d'un becco cornuo ghe l'aveva tiolto, no so se per burlo o per farla desperar; basta, ché al despetto de quella bestia se ha trovao. Se ti avessi visto quanto la povera zovane s'è muà de ciera! Fa' conto ch'el si sia visto el caligo convertirse in sol: la se ha abbelio tutto l'asetto, de muodo che mi giudico ch'el mondo non abbia niente de più bello de sta zovene.<pb n="743"/></p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Com'ha ella nome?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Flaminia.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p><foreign lang="lat">Et est</foreign>. Si può vedere?</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Se puol, ma no vogio. Andemo, prima che ti la vedi, a tior delle veste che possa servir per indizio del so merito e per la medema strada ne compraremo anca per vestir la toa. Andemo.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Andiamo. </p>
+<p>Non ho più dubio che non sia Flaminia mia.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XIX</head>
+<stage><hi rend="sc">dottor</hi></stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>An so s'al re d'Affrica abbia ancora consgnà l' scetr alla razina. Al diss d' portar la casa in Affrica, è possibil ch'in quel paes al re n'abbia dov aluzar?</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XX</head>
+<stage><hi rend="sc">franceschina</hi> <hi rend="italic">filando</hi>, <hi rend="sc">bagattino</hi> <hi rend="italic">aguchiando, e</hi> <hi rend="sc">dottor</hi></stage>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Tu sei cagione ch'io fila, né trovarò mai più una patrona come la signora Flaminia.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>E mi vagh agucchiand, né poss guadagnà tant ch'accompri l'acqui vita. O ecc un om. </p>
+<p>Bondì messir.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Bondì e bon ann.</p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Me savrisev insegnà un patrù?</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>E a me una patrona?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Fad cont d'aver truvà tutt du la vostra vintura. Ti at vuoi metter con al re d'Affrica e tu con la razina.<pb n="744"/></p>
+</sp>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>Dai al mat! Dai al mat! <stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>Dagli, che è matto, dagli, dagli!<stage>(<emph>E via</emph>)</stage></p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>O ch' besti, com l' zent s' zuoga la sort.<stage>(<emph>Piglia le chiave, apre ed entra in casa</emph>)</stage></p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXI</head>
+<stage><hi rend="sc">pantalone, cinzio, mercante</hi> <hi rend="italic">con veste</hi></stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Se ben le xe veste fatte, le xe però niuove.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Diamo le sue alla vostra sposa e l'altre le portaremo poi alla mia.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Bon, ti parli ben. O de casa!</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXII</head>
+<stage><hi rend="sc">flaminia, cinzio, pantalone</hi></stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Nel costituirve mia maggior, ve costituisso anco patrona del mio aver e comenzo de ste vesture.</p>
+</sp>
+<stage>(<emph>Flaminia guarda sott'occhio Cinzio. Cinzio accenna che pigli le veste. Pantalone gli guarda tutti doi e dice</emph>)</stage>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Par che ve cognosse.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>La riconosco e so ch'ella è gentildonna meritevole di maggior presente di questo.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Fo quanto mi comandate.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Pigliate ancor queste dua per mia moglie.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>La cognosèla?</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Meglio di nissun altro.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>E l'ho accaro, a fé de omo da ben.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>O eccola.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Dove xela?</p>
+</sp>
+<stage>(<emph>Cinzio tocca la mano a Flaminia e dice</emph>)</stage>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>O signora consorte.</p>
+</sp>
+<pb n="745"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXIII</head>
+<stage><hi rend="sc">carluccio</hi> <hi rend="italic">e stessi</hi></stage>
+<sp><speaker><emph rend="sc">carluccio</emph>.</speaker><p>Signor padre bello caro. Ecco il mio missere.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Ecco i miei furbi.</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Signor padre, questa è mia moglie, il cui merito è sottoscritto dal vostro giudizio.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Non ho liogo da dolerme, né da reprenderve. Tiolève, ch'el Cielo ve benedighi.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXIV</head>
+<stage><hi rend="sc">capitano, celia, dottor, cinzio, flaminia, pantalone</hi></stage>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Larg al re e alla regina d'Affrica!</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Dove setli?</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>Eccoli.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>O che bestia!</p>
+</sp>
+<sp><speaker><emph rend="sc">capitano</emph>.</speaker><p>Io invito tutti alle nozze, alle feste, al torneo e alla giostra, la qual si farà all'arrivo di due mila cavaglieri ch'io aspetto d'Affrica e di Portugallo.</p>
+</sp>
+<sp><speaker><emph rend="sc">dottor</emph>.</speaker><p>E si n' saran tant, quattr Ebrei, che faran una moresca.</p>
+</sp>
+<sp><speaker><emph rend="sc">celia</emph>.</speaker><p>Signora Flaminia mi rallegro somamente di vederla e forsi risanata del corpo e dell'animo.</p>
+</sp>
+<sp><speaker><emph rend="sc">flaminia</emph>.</speaker><p>Le cicatrici rimaranno però sempre.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Chi è costù, scapao dalle forche?</p>
+</sp>
+<pb n="746"/>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXV</head>
+<stage><hi rend="sc">fritellino</hi> <hi rend="italic">con una corda al collo,</hi> <hi rend="sc">celia, capitano, cinzio</hi> <hi rend="italic">e</hi> <hi rend="sc">flaminia</hi></stage>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Eccovi, o signori, il ritratto di tutte le scelleragini, il compendio di tutte le furbarie, e, per dirvi tutto in una parola, eccovi Fritellino!</p>
+</sp>
+<sp><speaker><emph rend="sc">cinzio</emph>.</speaker><p>Taci, ché sappiamo tanto che tu senz'altro non confessaresti tanto. Divieni quello che non sei mai stato e sarai uomo da bene.</p>
+</sp>
+<sp><speaker><emph rend="sc">fritellino</emph>.</speaker><p>Io ho una cosa molto difficile, il far un esercizio che non si abbia mai imparato.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXVI</head>
+<stage><add resp="ed"><hi rend="italic">Personaggi della precedente, più</hi> <hi rend="sc">bagattino</hi> <hi rend="italic">e</hi> <hi rend="sc">franceschina</hi></add></stage>
+<stage>(<emph>Bagattino e Franceschina sono stati in disparte a veder il tutto</emph>)</stage>
+<sp><speaker><emph rend="sc">bagattino</emph>.</speaker><p>A sem chilò per domandat perdon d'un mal ch'a non avem finit de fà. Però se avì perdonat a chi ne ha fatt tanti, perdonén anca nu, che non avem fatt se non mez.</p>
+</sp>
+<sp><speaker><emph rend="sc">pantalone</emph>.</speaker><p>Non doventar laro, ché ti non sa far el mestier. Lassalo far a chi el fa senza paura della nostra giustizia. Te sia perdonao.</p>
+</sp>
+<sp><speaker><emph rend="sc">franceschina</emph>.</speaker><p>E io domando perdono di non aver fatto nulla.</p>
+</sp>
+</div2>
+<div2 type="scena">
+<head rend="italic">SCENA XXVII</head>
+<stage>(<emph>Uno togato parla con l'Auditorio</emph>)</stage>
+<sp><speaker><emph rend="sc">TOGATO</emph>.</speaker><p>Cortesissimi signori, che con qualche incommodo averete favorito l'autore e con esso i rappresentanti, servite ancora all'occorenza de i vostri interessi con il negar il consen<pb n="747"/>so a chi vi persuade al male; accioché non crediate ne gl'errori che quasi hanno consumato a Virginio, con la riputazione, la vita ancora. </p>
+<p>E voi, signori carichi d'anni, non allegerite il cervello con lo alterarvi se in casa avete giovani innamorati, poiché vi mettete a pericolo di servir per esempio di leggerezza nel tempo assegnato apunto alla vostr'età per correggere chi è leggier di mente. Lo so che averete raccolte materie di maggior profitto, le quali, per non più stancarvi, lasciarò il carico alla rettitudine del vostro giudizio.</p>
+</sp>
+</div2>
+</div1>
+<trailer rend="italic">IL FINE</trailer>
+<pb n="748"/>
+</body>
+</text>
+</TEI.2>

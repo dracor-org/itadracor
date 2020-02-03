@@ -1,0 +1,3496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Pausania</title>
+      <author>Francesco Saverio Salfi</author>
+    </titleStmt>
+    <extent>160 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit001541</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Teatrali contese</title>
+        <title type="part">tomo</title>
+        <author>Pagano, Francesco Mario</author>
+        <editor id="ed">Granese, Alberto</editor>
+        <publisher>Edisud</publisher>
+        <pubPlace>Salerno</pubPlace>
+        <date>1999</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">italiano</language><language id="lat">latino</language><language id="fr">francese</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Salerno</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Salerno</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2005-01-18T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Antonio Elefante</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2005-01-18T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	<text>
+		<front>
+			<div1 n="Dedica">
+				<epigraph>
+					<q>
+						<foreign lang="lat">
+							<emph>Pausanias lacedaemonius, magnus homo
+sed varius in omni genere vitae fuit:
+nam ut virtutibus eluxit, sic vitiis est obrutus.
+<bibl>CORN. NEP.</bibl>
+							</emph>
+						</foreign>
+					</q>
+				</epigraph>
+				<head>
+					<emph>A GUGLIELMO BRUNE GENERALISSIMO DELL'ARMATA D'ITALIA</emph>
+				</head>
+				<signed>FRANCO SALFI
+</signed>
+				<salute>SALUTE
+</salute>
+				<p>A te, non come a condottiere di eserciti, ma ad amico delle arti, io, come artista e quindi
+amico tuo, benché oscuro e negletto, dono questa mia qual ch'ella siasi tragedia.
+</p>
+				<p>Ella, nata in Francia, forse non altro presenta che un'immagine, per quanto ho saputo,
+verace di Sparta. Comeché la distanza de’ costumi sia di gran lunga maggiore di
+quella de’ tempi, è stata sempre cosa utilissima riputata il richiamare alla memoria
+degli uomini, degenerati o risorti, alcuni originali della veneranda antichità,
+affinché, riguardando a que’ grandi esemplari, potessero di tanto approssimarsi
+ad essi le copie, ove fosse pure sperabile a dì più felici o meno tristi imitarli.</p>
+				<p>Io mi sono proposto di tratteggiare de’ personaggi spartani non già, nudi
+affatto di passioni, quali è  piaciuto spesso dipignerli; ho però  tentato
+d'improntare un certo carattere di spartanismo nelle loro debolezze e, quasi non dissi, nel
+delitto medesimo.</p>
+				<p>Pausania, insigne e per virtù e per vizi, presso a divenire tiranno, per non dire
+piuttosto a voler divenirlo, forse non cessa di essere ancora spartano.</p>
+				<p>Egli potrebbe insegnare una gran verità, utilissima in tutti i tempi ed a quante
+nazioni fossero amiche e degne di libertà, che non bisogna cioè  né
+nulla né troppo fidarsi negli uomini illustri e potenti.</p>
+				<p>Ma possono qualche volta le armi quel che le arti dovrebbero sempre, ancorché poco
+utilmente, tentare? o dovran sempre la licenza delle une e la viltà delle altre
+cospirare a danno della virtù  e della ragione?… Oh noi veramente felici!
+e tu non men grande! se amando le arti e dirigendo le armi di entrambe ti valga, come pur
+tutti i buoni lo sperano, a solo e sempre combattere l'errore degl'ingannati che ordinariamente
+gemono, e la sceleratezza degl'impostori che ordinariamente trionfano!</p>
+				<closer>
+					<dateline>Teatro patriotico di Milano,
+<date>15  Fruttifero VIII.</date>
+					</dateline>
+				</closer>
+			</div1>
+			<castList>
+				<head>PERSONAGGI</head>
+				<castItem>
+					<role>PAUSANIA</role>
+				</castItem>
+				<castItem>
+					<role>TEANE</role>
+				</castItem>
+				<castItem>
+					<role>EURISTIA</role>
+				</castItem>
+				<castItem>
+					<role>EUDAMIDA</role>
+				</castItem>
+				<castItem>
+					<role>ARCHIDAMO</role>
+				</castItem>
+				<castItem>
+					<role>ARGILIO</role>
+				</castItem>
+				<castItem>
+					<role>EFORI</role>
+				</castItem>
+				<castItem>
+					<role>POPOLO</role>
+				</castItem>
+				<castItem>
+					<role>GUARDIE</role>
+				</castItem>
+			</castList>
+			<set>
+				<p>
+					<hi>Scena, il foro, poi la casa di Pausania, indi il tempio di Minerva Calcieca,
+in Sparta.</hi>
+				</p>
+			</set>
+		</front>
+		<body>
+			<div1 type="atto">
+				<head>ATTO PRIMO</head>
+				<div2 type="scena">
+					<head>
+						<emph>SCENA PRIMA</emph>
+					</head>
+					<stage>ARCHIDAMO, EUDAMIDA</stage>
+					<stage>Foro di Sparta</stage>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Giugni, Eudamida, in tempo. In questo punto</l>
+						<l>Dalla Troade a noi torna il messaggio,</l>
+						<l>Dagli efori spedito. Ivi in Golona</l>
+						<l>Cercò Pausania; e l'ordine supremo</l>
+						<l>Di Sparta gli recò, di appresentarsi</l>
+						<l part="I">Immantinente agli efori.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Ned altro</l>
+						<l>Ei veder seppe, Archidamo, che valga</l>
+						<l>A raffermare o dileguar cotesti</l>
+						<l part="I">Rinascenti sospetti?</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Ei troppo vide</l>
+						<l>Che non mentì finor la fama: che aspro</l>
+						<l>Pausania or più, non che spartani, or tutti</l>
+						<l>Sprezza gli usi di Sparta, e quegli adotta</l>
+						<l>Della Persia nemica. Abito e culto</l>
+						<l>E costumi ei cangiò: persiana veste</l>
+						<l>Mollemente il ricopre; egizi o medi</l>
+						<l>Gli fan servil corteggio; a mensa e’ siede </l>
+						<l>Splendida sì, che ognun ne abborre; insomma,</l>
+						<l>Nella pompa, ne’ sensi e più nell'opre,</l>
+						<l>Anzi che re di Sparta, ancorché tale</l>
+						<l>Ei più non sia, non più spartano, uom servo</l>
+						<l>Della corte di Serse omai rassembra!</l>
+						<l>Aggiugne ancora, aver per tutto udito</l>
+						<l>Che del Peloponneso e dell'Eubea</l>
+						<l>Più lidi ei corse e molti ei vide occulti</l>
+						<l>Della spartana libertà nemici;</l>
+						<l>E, quel che importa il piú, fra questi ei vide</l>
+						<l>L'uom della Grecia il più temuto e scaltro,</l>
+						<l>Temistocle, nemico ognor di Sparta,</l>
+						<l>Ed or, poiché da Atene era proscritto,</l>
+						<l part="I">Di Grecia tutta aspro nemico.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Io quasi</l>
+						<l>Son fuor di me! Che intesi? – E qual mai  stolto</l>
+						<l part="I">Disegno ei nutrir può?</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Quel che ognor meco</l>
+						<l>Temono i buoni: ch'egli Sparta abborra,</l>
+						<l>Che le leggi ne sprezzi e che turbarne</l>
+						<l part="I">Mediti in cor la libertà….</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Che dici?</l>
+						<l>Nel tuo strano timor tu sempre eccedi!</l>
+						<l>Né più rammenti che in Platea per lui</l>
+						<l>Il sostegno miglior de’ Persi, il fero</l>
+						<l>Mardonio, cadde e seco trasse immensa</l>
+						<l>De’ barbari ruina? che per lui</l>
+						<l>Riconquistati fur Bisanzio e Cipro</l>
+						<l>Ed Ellesponto? e che a quest'ora forse</l>
+						<l>La greca libertà sarebbe spenta,</l>
+						<l part="I">Se Pausania non era?</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Io ne rammento,</l>
+						<l>Più che nol pensi tu, le imprese prime</l>
+						<l>E quanto egli era un dì; quindi io più temo</l>
+						<l>Le sue stesse virtù, le glorie, il nome.</l>
+						<l>Fosse spartano ancor, com'egli è grande!</l>
+						<l>E chi non è tutto spartan, nemico</l>
+						<l>Di Sparta egli è. – Mel credi: è già gran tempo</l>
+						<l>Che Pausania degenera da’ suoi.</l>
+						<l>Non più di libertate; amor di regno</l>
+						<l>Gli s'intravede in core. Il reo presagio</l>
+						<l>Io già ne scorsi, allor che di Platea</l>
+						<l>Tutto a sé trar l'onor pretese, e strano</l>
+						<l>Consecrar quindi un monumento in Delfo,</l>
+						<l>Più che al merto de’ Greci, al suo nascente</l>
+						<l>Orgoglio. Ei d'allor più che re di Sparta,</l>
+						<l>Despota apparve quasi. E degna pena</l>
+						<l>Sparta ben n'ebbe; ché l'impero, ond'ella</l>
+						<l>Godea sul mar, la Grecia tutta, in tempo</l>
+						<l part="I">Ammutinata, a torle giunse.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Oh! taci</l>
+						<l>L'infausto caso; e,  più che altrui, ne incolpa</l>
+						<l>La seduttrice Atene, ognor bramosa</l>
+						<l>Di primeggiar fra noi. – Ma, qual che fosse</l>
+						<l>Di ci?? cagion vera, il fio pagonne</l>
+						<l>Pausania già: tosto il suo nome in Delfo</l>
+						<l>Fu per noi scancellato; e, quel che debbe</l>
+						<l>Più spaventar qual sia despota, Sparta</l>
+						<l>Alfin di re la dignità gli tolse.</l>
+						<l>Scacciato indi dal trono, e quasi errando</l>
+						<l>In volontario esiglio, or di’: non soffre</l>
+						<l part="I">De’ suoi trascorsi ammenda grave?</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Ei nuovo</l>
+						<l>Desio può trarne di vendetta; e forse</l>
+						<l part="I">Di tal brama or si pasce!</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">E quai potrebbe</l>
+						<l part="I">Mezzi tentar?</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Tranne il consiglio, tutti</l>
+						<l>Può Serse offrirgli; né il consiglio manca,</l>
+						<l part="I">Se Pausania a lui serve.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Or odi accusa</l>
+						<l>Prodotta sempre e non provata mai!</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>Perché, a rischio di Sparta, in lui si volle,</l>
+						<l>Piucché punirne i nuovi errori, i prischi</l>
+						<l part="I">Suoi merti riconoscere.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Più giusto</l>
+						<l>Di’ che finor n'eran le glorie certe,</l>
+						<l>Dubbia l'accusa; ed a punirlo quindi</l>
+						<l part="I">Troppo lievi gl'indizi.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">E son mai lievi,</l>
+						<l>Ove la patria è minacciata e teme?</l>
+						<l>E che? vuoi tu che il suo disegno sia</l>
+						<l>Punito, allor che l'arrestarlo è vano?</l>
+						<l>Che nel sen della Grecia ei l'armi porti</l>
+						<l>Della Persia e de’ barbari? ch'ei regni</l>
+						<l>Tiranno in Sparta? e allor che spenti noi</l>
+						<l>Pria che servi cadrem, punirlo speri?</l>
+						<l>Questa incauta ragion, che tu pur saggia</l>
+						<l>Credi nel giudicar, dove ci tragga,</l>
+						<l part="I">Eudamida, nol vedi?</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Io veggio or dove</l>
+						<l>Lo zelo tuo trarci potria! – Tu temi</l>
+						<l>La straniera tirannide e non questa</l>
+						<l>Tirannide peggior che il tuo soverchio</l>
+						<l>Zelo introdur potria fra noi? Che fora</l>
+						<l>Di nostra libertà, se degli altrui</l>
+						<l>Sospetti ingiusti vittime sovente</l>
+						<l>I migliori cadessero? se vili,</l>
+						<l>Mentiti, incerti, irrequieti sempre</l>
+						<l>Ne rendesse il terrore? Abbiasi questa</l>
+						<l>Ragion l'Asia avvilita, ov'è sol legge</l>
+						<l>Il timor di chi regna e di chi serve;</l>
+						<l>Sparta non già. Le nostre leggi, il sai,</l>
+						<l>Perchè all'invidia altrui si ponga un freno,</l>
+						<l>Di qual sia fallo a noi chieggon le prove</l>
+						<l>Chiare ognor più quanto è maggiore il lustro</l>
+						<l>Di chi si accusa; e fin ch'eforo in Sparta</l>
+						<l>Io con voi seggo a condannar qualsia</l>
+						<l>Spartano, mai non indurrammi altrui</l>
+						<l>Mal fondato sospetto o timor vano.</l>
+						<l>Chè, se tu invece prove certe addurne</l>
+						<l>Oggi agli efori sappia e innanzi a Sparta</l>
+						<l>L'accusato convincerne, vedrai</l>
+						<l part="I">Se io primo allor saprò dannarlo.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">E certe,</l>
+						<l>Più che nol brami, oggi ne avrai tu prove.</l>
+						<l>Pausania omai tardar non dee; l'udremo</l>
+						<l>Efori noi. Più che altri, infin gli Dei</l>
+						<l>Sapran mostrarci in tanto rischio il vero.</l>
+						<l>E vedrai forse, Eudamida, né invano</l>
+						<l>Lo spero, quanto alla comun salute</l>
+						<l>Giovi di Sparta il cangiar modo e stile</l>
+						<l part="I">Nel giudicar de’ re!</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<emph>SCENA SECONDA</emph>
+					</head>
+					<stage>EUDAMIDA</stage>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Fervido troppo</l>
+						<l>Di libertà, troppo oltr'ei teme. – Sparta</l>
+						<l>Qual può danno temer? Veglian gli Dei,</l>
+						<l>Veglian le leggi, ogni spartan pur veglia;</l>
+						<l>E avvenir può che io sol'oggi traveda</l>
+						<l>Di Sparta a danno? e che impunito vada</l>
+						<l>Chi di tradirla in ver si attenti?… Oh! viene</l>
+						<l part="I">La madre di Pausania.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<emph>SCENA TERZA</emph>
+					</head>
+					<stage>EUDAMIDA, TEANE</stage>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Un solo istante,</l>
+						<l>Eudamida, deh! soffri che alle tue</l>
+						<l>Gravi cure io ti tolga. Ah! tu conforta</l>
+						<l>Una madre che trema! – Intorno io sento</l>
+						<l>Sorda una voce mormorar, che desta</l>
+						<l>Sull'assente Pausania ancor gli antichi</l>
+						<l>Sospetti odiosi. Se ciò a madre incresca,</l>
+						<l>Che ama più che altri il figlio e più che il figlio</l>
+						<l>La patria sua, tu il pensa! Eppur finora</l>
+						<l>Lusingando io mi gia che fosse questa</l>
+						<l>Voce di volgo, instabile e fugace,</l>
+						<l>Che spesso non risparmia anco i migliori.</l>
+						<l>Ma, ad onta delle mie lusinghe, io sento</l>
+						<l>Che al giudizio degli efori supremo</l>
+						<l>Deggia Pausania esporsi. – Or, deh! se lece</l>
+						<l>A madre il ricercarne ed anzi tempo</l>
+						<l>A te darne contezza, or tu mi togli</l>
+						<l>Dall'incertezza orribile in cui vivo!</l>
+						<l>È ver quanto io finor ne udii? Ritorna</l>
+						<l>Pausania qui? Sparta lo chiama? giusti</l>
+						<l part="I">Son pur gli altrui sospetti?…</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Oh Ciel! che chiedi? –</l>
+						<l>Men tristo annunzio, e di te degno, io darti,</l>
+						<l>Donna, vorrei; vorrei pur dir che a tue</l>
+						<l>Virtù spartane appien risponda il figlio;</l>
+						<l part="I">Ma contra il ver che dir poss'io?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">T'intesi!</l>
+						<l part="I">Dunque mio figlio è reo?</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Tal, io nol credo;</l>
+						<l>E forse ei tal non è. Ma di lui tanti</l>
+						<l>Sorgon sospetti, ch'è mestier ch'ei stesso</l>
+						<l part="I">Venga in Sparta a smentirli.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E qual può nuova</l>
+						<l>Rea cagion riprodurli? Erano un tempo,</l>
+						<l>Se non giusti, opportuni. Egli era illustre,</l>
+						<l>Possente e re, liberator di Sparta</l>
+						<l>E della Grecia intera, e  trono ed armi</l>
+						<l>E fama ei possedeva. Or'è privato,</l>
+						<l>Inerme, oscuro, di ogni mezzo privo,</l>
+						<l>Costretto quasi a fuggir Sparta e i suoi,</l>
+						<l>A cercar lunge un qualche asilo… Ed avvi</l>
+						<l>Chi ne sospetta ancora? E che può mai</l>
+						<l>Aver tentato, chè ei soffrir qui deggia</l>
+						<l>Il giudizio degli efori? Il Ciel tolga</l>
+						<l>Che io degli efori biasmi il rigor giusto!</l>
+						<l>Ma nel misero stato, in cui sperava</l>
+						<l>Io già ch'ei dileguar potesse i primi</l>
+						<l>Sospetti altrui, qual gli si puote ancora</l>
+						<l part="I">Nuovo disegno apporre?</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Esser potrebbe</l>
+						<l>Vano il sospetto ancor; pur v'ha chi teme</l>
+						<l>Ch'ei, più che a Sparta, a’ suoi nemici or serva.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="I">Misero!… – Ed onde ciò?</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">D’ modi strani,</l>
+						<l>Che per legge non men che per costume</l>
+						<l part="I">Sparta detesta, e ch'egli ostenta.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E a tale</l>
+						<l>Dimenticar potria d'esser mio figlio</l>
+						<l>E, più che mio, figlio di Sparta? Io tremo</l>
+						<l>Solo in pensarlo! – Eudamida, e tu il credi?</l>
+						<l>Deggio temerne anch'io? Deh! tu dilegua</l>
+						<l>Oppur conferma il mio timor. Tel giuro,</l>
+						<l>E a voi lo giuro ancor, Numi tremendi</l>
+						<l>Di Sparta: se mai noto il reo disegno</l>
+						<l>Fosse a me di Pausania, io più del figlio</l>
+						<l>Non mi rammenterei; tu mi vedresti</l>
+						<l>Abbandonarlo al suo destino e all'ira</l>
+						<l>Giusta di Sparta; insomma, io non sarei</l>
+						<l>Madre più mai, sarei spartana. Ah! pria</l>
+						<l>Che mi tragga in error la mia materna</l>
+						<l>Pietà, tu mi assecura; e mi consiglia,</l>
+						<l>Se Sparta o il figlio mio difender deggia.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>Modera il tuo timor. Le nostre leggi</l>
+						<l>Difenderan Sparta non men che il figlio.</l>
+						<l>Mentre qui staran gli efori, secure</l>
+						<l>Staranno ognor la libertà comune</l>
+						<l>E l'innocenza altrui privata. Io spero</l>
+						<l>Che abbian questa in Pausania ancor gli Dei</l>
+						<l>Serbata intera; e ch'egli intera possa</l>
+						<l>Agli efori mostrarla, e smentir quindi</l>
+						<l>Gli altrui sospetti. Almen tu il merti. Calma</l>
+						<l>Il tuo soverchio affanno; or nel consiglio</l>
+						<l>Degli efori ti affida; e,  più che in esso,</l>
+						<l>Nell'alme leggi di Licurgo affida</l>
+						<l part="I">Sparta non men che il figlio tuo.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<emph>SCENA QUARTA</emph>
+					</head>
+					<stage>TEANE</stage>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Potessi</l>
+						<l>Calmare in parte il mio timore! Ei cresce,</l>
+						<l>Quanto io più cerco soffocarlo! Ahi lassa!</l>
+						<l>E di me che saria, se mai nel figlio</l>
+						<l>Un nemico di Sparta io difendessi?</l>
+						<l>Se fosse ver!… – Deh! qual vicenda io soffro</l>
+						<l>Di amor, di speme e d'incertezza? Io l'amo;</l>
+						<l>E a dubitar, malgrado mio, comincio!…</l>
+						<l>Se il dubbio sol m'inorridisce! ah! pria</l>
+						<l>Che diventi per me fatal certezza,</l>
+						<l>Deh! voi, pietosi Dei, questi cadenti</l>
+						<l part="I">Miei dì troncate…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<emph>SCENA QUINTA</emph>
+					</head>
+					<stage>TEANE, EURISTIA</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ah corri, o donna… In punto</l>
+						<l>Pausania arriva… Io n'ebbi avviso appena</l>
+						<l>E ratta venni a qui cercarti. Io deggio,</l>
+						<l>Come nel duol, pur nella gioia averti</l>
+						<l>Compagna: unite ad abbracciar corriamo,</l>
+						<l part="I">Io lo sposo e tu il figlio.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E tu di gioia</l>
+						<l>Mi parli, Euristia, in questo dì! né sai</l>
+						<l>Quanto per noi riuscir potria  funesto?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Io so che meco ognor tu sospiravi</l>
+						<l>Sull'assenza del figlio; e che agli Dei</l>
+						<l>Preghi finor porgevi, ond'egli a Sparta</l>
+						<l part="I">E a’ lari suoi tornasse alfin.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Ma preghi</l>
+						<l>Non porsi io mai, perch'ei tornasse quale</l>
+						<l>A dar conto di sè Sparta lo chiama.</l>
+						<l>Il suo ritorno, ch'io finor bramai,</l>
+						<l>Or mi spaventa, Euristia! E tu pur vuoi</l>
+						<l>Ch'io corra ad incontrarlo? – Ad incontrarlo</l>
+						<l>Corsi io la prima un dì; ma, allor, dal campo,</l>
+						<l>Sparso di polve e di sangue nemico,</l>
+						<l>Liberator di Grecia egli tornava;</l>
+						<l>Allor me pur seguian le alme donzelle</l>
+						<l>Spartane; e in nome della patria, eterna</l>
+						<l>Gli offrian corona, e più, l'amor di Sparta;</l>
+						<l>E fra i comuni applausi io lo serrava</l>
+						<l>Tra le mie braccia e di materno pianto</l>
+						<l>Pur lo bagnava; ed era allor quel pianto</l>
+						<l>Pianto di gioia… – Oh tempi! oh giorno!… Il figlio</l>
+						<l>Or torna, è ver; ma a trionfar non torna;</l>
+						<l>Sul proprio scudo omai non torna estinto,</l>
+						<l>Perch'io ne baci le ferite e lieta</l>
+						<l>Del mio pianto le avvivi. Ei torna, oh quanto</l>
+						<l>Da quel di pria diverso! odioso a’ buoni,</l>
+						<l>A’ più sospetto ed a me stessa quasi;</l>
+						<l>E, quel che più d'alto terror mi stringe!</l>
+						<l part="I">E chi sa, se innocente…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ohimè! che dici?</l>
+						<l>Del figlio tuo tu ancor diffidi? e il danni,</l>
+						<l part="I">Pria che pronunzin gli efori?</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Se in core</l>
+						<l>Tu mi leggessi, appien vedresti, o donna,</l>
+						<l>Qual dura pena è a me l'aver del figlio</l>
+						<l>Il minor dubbio! Inorridita l'alma</l>
+						<l>Rifugge; e il dubbio, oh Ciel! più ognor l'incalza! –</l>
+						<l>Eppure in sì misero stato io l'amo</l>
+						<l>E di sì intenso amor che spesso temo</l>
+						<l>Non sia pari all'amor che a Sparta io deggio! –</l>
+						<l>Né però creder tu che a me sì dolga</l>
+						<l>Che altri di lui sospetti e che il sospetto</l>
+						<l>Non valga egli a distruggere. Non duolmi</l>
+						<l>Neppur ch'ei sia punito e con la vita</l>
+						<l>In un la fama ei perda. Estinto ancora,</l>
+						<l>Potria chiarirsi un dì la sua innocenza</l>
+						<l>E tornar caro a Sparta il nome suo.</l>
+						<l>Credimi, Euristia: io sarei lieta appieno</l>
+						<l>Della morte del figlio, ov'ella Sparta</l>
+						<l>Far potesse tranquilla e foss'io certa</l>
+						<l>Dell'innocenza sua. – Ma se mai vero</l>
+						<l part="I">Fosse il delitto!…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ah! nol sarà. Più volte</l>
+						<l>Ei trionfò della calunnia iniqua;</l>
+						<l part="I">Trionferà pur questa volta.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Ed io,</l>
+						<l>Al par di te, lo spero e il bramo; e il Cielo</l>
+						<l>Ne prego; e sol di questa speme or vivo!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Dunque si vada ad incontrarlo. Almeno,</l>
+						<l>Da tutti omai negletto, a’ fianchi suoi</l>
+						<l part="I">La sposa ei veggia e la sua madre.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E Sparta</l>
+						<l>Che direbbe di noi? La sua innocenza</l>
+						<l>Mostri egli pria; l'amor di madre io quindi</l>
+						<l>Gli mostrerò. – Più che nol pensi, o donna,</l>
+						<l>Difenderlo io vorrei; vorrei del figlio,</l>
+						<l>E di Sparta non men, l'oltraggio e il danno</l>
+						<l>Io stessa prevenir… Ma non potrebbe</l>
+						<l>Ancor tradirmi la pietà?… – Deh! vieni</l>
+						<l>Meco nel tempio. Il cor chiede consiglio;</l>
+						<l>Né può sperarlo che dal Cielo. Andiamo;</l>
+						<l>Chi sa?… malgrado mio, lieto un presagio</l>
+						<l part="I">Mi parla in cor!… Deh! vieni.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ad obbedirti</l>
+						<l>Son presta. – Eppur, me misera! mi uccide</l>
+						<l part="I">Lo starmi ancor da lui divisa!</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">I Numi</l>
+						<l>Odan pria per la patria i nostri voti;</l>
+						<l>Quindi pel figlio e per lo sposo. – Oh! fossi</l>
+						<l>Di sua innocenza appien secura! Io stessa,</l>
+						<l>Più che altri, ne farei, di Sparta a vista,</l>
+						<l part="I">Piena difesa.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Il Ciel tuoi voti accolga!</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO SECONDO</head>
+				<div2 type="scena">
+					<head>
+						<emph>SCENA PRIMA</emph>
+					</head>
+					<stage>PAUSANIA, EURISTIA, ARGILIO</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Euristia, va; non mi seguir… – Già siamo</l>
+						<l>Al tribunal degli efori. Io qui deggio</l>
+						<l>Udire il mio destino. A che vuoi meco</l>
+						<l part="I">Divider l'onta, a cui mi espongo?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Sparta</l>
+						<l>Sa già che sposo a me tu sei, ch'io ti amo;</l>
+						<l>Sappia quindi ch'io voglio il tuo qualsia</l>
+						<l part="I">Fero destin divider teco.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F"> Ad altri</l>
+						<l>Tempi, deh! serba le tue cure. Il mio</l>
+						<l>Periglio a sostenere or basto io solo.</l>
+						<l>Gli efori qui mi appellano; pria che altri</l>
+						<l part="I">Udir lor voglio; e il deggio.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Un qualche istante</l>
+						<l>Pur riveder potevi i lari tuoi</l>
+						<l>Deserti; e quivi riabbracciare il figlio;</l>
+						<l>E la tua madre consolar, che palpita</l>
+						<l part="I">Sul tuo destino!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Il vedi. In tale stato</l>
+						<l>Io non godrei del figlio; e della madre</l>
+						<l part="I">Accrescerei l'affanno.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Oh! se veduti</l>
+						<l>Gli avessi tu! Pargoleggiando l'uno</l>
+						<l>E articolando di Pausania il nome,</l>
+						<l>Par che dal Cielo il padre suo reclami.</l>
+						<l>E l'altra, ognor fra nuovi dubbi incerta,</l>
+						<l>Gli altrui sospetti esaminar non osa;</l>
+						<l>Ed or li teme, or li condanna; e sempre</l>
+						<l>Più t'ama e reo non sa temerti. – Or dianzi</l>
+						<l>Io la seguii di Pallade nel tempio;</l>
+						<l>E, più che fiori, ella spargea sull'ara</l>
+						<l>Le sue materne lagrime; e tremante,&gt;</l>
+						<l>Il gran Nume abbracciando, “a te, dicea,</l>
+						<l>Pria Sparta io raccomando e poscia il figlio;</l>
+						<l>Tu quei sensi magnanimi in lui serba</l>
+						<l>Ch'io gl'istillai col latte; ed innocente</l>
+						<l>Torni alla patria sua, torni alla madre</l>
+						<l>Qual ne partiva allor che ratto corse</l>
+						<l>De’ barbari a sgombrar la Grecia intera”.</l>
+						<l>Così pregava; e il suo spartano prego</l>
+						<l>Gìan ripetendo quante all'ara intorno</l>
+						<l>Stavan supplici madri; e il suo materno</l>
+						<l>Pianto pur tutte a lagrimar movea!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Meglio, o donna, a’ suoi voti unisci i tuoi.</l>
+						<l>Che giova lo star qui? La mia giust'ira</l>
+						<l>E l'onta ingiusta accrescerebbe. Lascia</l>
+						<l>Ch'io primo e solo il rio furore affronti</l>
+						<l>Degli efori. Ancor paghi essi non sono</l>
+						<l>Di avermi tolto onori e trono e fama;</l>
+						<l>Di avermi astretto a lasciar Sparta e quanto</l>
+						<l>Io vi avea di più caro; e, se il potessi,</l>
+						<l part="I">Ad abborrirla quasi…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ohimè! quali odo</l>
+						<l part="I">Strani sensi da te?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Né strani estimi</l>
+						<l part="I">Tu gli oltraggi ch'io soffro?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">È ver; ma denno</l>
+						<l>Gli efori, il sai, di Sparta adempier l'alte,</l>
+						<l>Divine leggi. Al par di queste ei denno</l>
+						<l>Mostrarsi inesorabili; eppur vidi</l>
+						<l>Alcun di lor sul tuo destin dolersi;</l>
+						<l>E sperar meco che smentir tu possa</l>
+						<l>Gli accusatori tuoi. La tua giust'ira</l>
+						<l>Modera omai. – Tu sai che, se pur troppo</l>
+						<l>Della sua libertà Sparta è gelosa,</l>
+						<l>Non è men giusta. Qual vincesti un tempo</l>
+						<l>I tuoi nemici in campo e la comune</l>
+						<l>Libertà difendesti, i tuoi nemici</l>
+						<l>Vinci or non meno e l'innocenza tua</l>
+						<l>Magnanimo difendi. Al popol mostra</l>
+						<l>Che sei spartano; e il popol tutto udrai,</l>
+						<l>Se non suo re, suo cittadin chiamarti;</l>
+						<l part="I">E forse ancor…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Che speri mai? Più volte</l>
+						<l>Finora assolto io fui. – Ma di’: sul trono</l>
+						<l part="I">Mi vedi or tu?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F"> Che parli? E avrebbe il trono</l>
+						<l>Rassicurata più la tua innocenza?</l>
+						<l>Oh! non l'avessi mai goduto, mai</l>
+						<l>Questo poter sì necessario e sempre</l>
+						<l>Dal popolo temuto! or tu saresti</l>
+						<l>Forse men grande e più stimato al certo!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Cessa; non più. Qual sia il periglio, lascia</l>
+						<l>A me la mia difesa. – Oggi salvarmi,</l>
+						<l>Ad onta ancor de’ miei nemici, io spero; –</l>
+						<l>Ma dagli efori no, da me lo spero.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Misera me!… tu fai tremarmi!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E sei</l>
+						<l part="I">Spartana tu?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Pur troppo, io sento, ahi lassa!</l>
+						<l>Che moglie io sono! L'ira tua soverchia</l>
+						<l part="I">Tremar mi fa!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Dunque il cimento evita.</l>
+						<l>Va’; conforta la madre; al figlio assisti. –</l>
+						<l>Nol vedi? appieno in me securo io stommi.</l>
+						<l>Ad onta del periglio in cui mi trovo,</l>
+						<l>Maggior de’ miei nemici ancor mi sento!</l>
+						<l>Va’; più non ti odo; lasciami; l'impongo.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Oh momento terribile!… Pietosi</l>
+						<l>Numi, se io più nol posso, ah, voi sovr'esso</l>
+						<l>Vegliate almeno; a voi, com'io finora</l>
+						<l>L'amor suo vero, or l'innocenza affido.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>PAUSANIA, ARGILIO</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Tu mi compiangi, Argilio? Ah! vieni; abbraccia,</l>
+						<l>Se non il re, l'amico tuo. Se fidi,</l>
+						<l>Qual mi se’ tu, mi saran gli altri, io degno</l>
+						<l>D'invidia più che di pietà m'estimo. –</l>
+						<l>Ma dimmi or tu: Sparta di me che pensa?</l>
+						<l>Che più sperano i miei? Del tutto han forse</l>
+						<l part="I">Obliato il mio nome?</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Il popol, fero</l>
+						<l>Della sua piena libertà, sovente</l>
+						<l>Beve gli altrui sospetti; e tu ben sai</l>
+						<l>Che ogni gran nome oblia, s'egli alcun danno</l>
+						<l>Giugne a temerne. Il tuo valor, le tue</l>
+						<l>Stesse virtù più sospettar lo fanno;</l>
+						<l>E se tiranno or te non crede, ei teme</l>
+						<l>Ch'esserlo alfin tu voglia, e più, che il possa;</l>
+						<l>E par tua colpa sola esser tu stato</l>
+						<l>Un dì possente e re. – Fremono intanto</l>
+						<l>I fidi tuoi; ma tacciono fremendo.</l>
+						<l>Essi finor non osano mostrarsi</l>
+						<l>Tuoi difensori e condannar la strana</l>
+						<l>Rigidezza degli efori; ma cauti</l>
+						<l>Attendono l'istante, in cui le accuse</l>
+						<l>Altrui smentir tu possa; e nella tua</l>
+						<l>La difesa tentar di quanti prodi</l>
+						<l>Sdegnano or quasi di servir più Sparta</l>
+						<l>Per non esserne alfin, qual tu, puniti.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Se de’ migliori io regno in cor, del volgo</l>
+						<l>I sospetti non men che il rigor sprezzo</l>
+						<l>Degli efori. Per uso il volgo adotta</l>
+						<l>Anco i pensieri di chi regna; e forse</l>
+						<l>Gli efori qui regnar non potran sempre.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>E chi attentar potria la lor suprema</l>
+						<l>Autorità? Dopo i suoi Numi, Sparta</l>
+						<l>Non rispetta che gli efori; il senato</l>
+						<l>Opporsi a lor non osa; i re non sono</l>
+						<l>Che degli efori schiavi; or tutta, insomma,</l>
+						<l part="I">Sta negli efori Sparta!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E alcun non freme</l>
+						<l>Contra questo degli efori usurpato</l>
+						<l>Dispotico potere? A Sparta diede</l>
+						<l>Licurgo mai questi arbitri? Non sono</l>
+						<l>L'opra di un cieco popolar consiglio,</l>
+						<l>Che gli ordini di Sparta e di Licurgo</l>
+						<l>Le leggi annulla?… E libera si crede?</l>
+						<l>Oh inaudita viltà?… Per questi or suda</l>
+						<l>Fra le armi lo Spartan; servono a questi</l>
+						<l>E cittadini e re. Né giova; colpa</l>
+						<l>È altrui merto. Da che regnan essi,</l>
+						<l>Leggi non più, non libertà, non dritti,</l>
+						<l>Sparta più non esiste! – Ed io con gli altri</l>
+						<l>Soffrirlo ancor dovrei? dovrei vedermi</l>
+						<l>Di re, qual era, or vil così?… Non mai.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Frena il trasporto. Ove tu stai, non vedi?</l>
+						<l>Sparta in te sol volto ha lo sguardo; e gli atti,</l>
+						<l>I tuoi pensieri sospettosa osserva.</l>
+						<l>In questo punto gli efori qui denno</l>
+						<l>Assolverti o punirti. Il tuo periglio</l>
+						<l>Deh! più tu non accrescere. La tua</l>
+						<l>Sola innocenza appien l'odio altrui spenga.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>La mia innocenza e il mio soffrir non fece</l>
+						<l>Che render Sparta ognor più ingrata e questi</l>
+						<l part="I">Efori iniqui più…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Gli efori io veggio</l>
+						<l>Venir!… lor segue taciturno e fero</l>
+						<l part="I">Lungo stuolo di popolo!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Qual onta?… –</l>
+						<l>Va’; cerca, Argilio, i fidi miei; ritenta</l>
+						<l>L'antica fede e la pietà novella.</l>
+						<l>Lascia a me il resto. Di spartan mi avanza,</l>
+						<l>Se tutto alfin perdei, quanto ancor basti</l>
+						<l>Di quest'istante a sostener l'oltraggio!</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>
+						<p>PAUSANIA, EUDAMIDA, ARCHIDAMO, EFORI <hi>che si vanno collocando al loro
+	seggio,</hi>
+						</p>
+						<p>POPOLO<hi>che rispettosamente ristà a loro intorno
+	</hi>
+						</p>
+					</stage>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>Popolo, e voi quanti qui state, udite. –</l>
+						<l>Pausania è questi ch'io vi addito, un tempo</l>
+						<l>Già vostro re; dal trono indi scacciato </l>
+						<l>E da ammenda più grave assolto forse.</l>
+						<l>Sospetto ancor di nuove trame, ei torna</l>
+						<l>Qui da Golona e si appresenta a Sparta,</l>
+						<l>Onde ragion delle opre sue dar piena. –</l>
+						<l>Il maggior dritto che abbia Sparta è questo:</l>
+						<l>Giudicare i suoi re; dal trono al foro</l>
+						<l>Trarli privati; e li dannar, s'è d'uopo. –</l>
+						<l>Oh! fosse a questo tribunal presente</l>
+						<l>Ogni popolo oppresso! ad esser grande</l>
+						<l>E libero da Sparta apprenderebbe.</l>
+						<l>Chè vera libertà mal regge dove</l>
+						<l>Chi a distruggerla aspiri esser non possa</l>
+						<l>Dalle leggi punito; e se una volta</l>
+						<l>Avvien ch'ella si perda o ne si tolga,</l>
+						<l>Forza non v'ha, non v'ha ragion che basti</l>
+						<l>A riacquistarla appien… Ma, pria che a Sparta</l>
+						<l>Un tanto danno avvenga, il Ciel punisca</l>
+						<l>Non pur chi l'osi, chi, più vil, lo soffra! –</l>
+						<l>Odi, Pausania, or tu. Sparta, gelosa</l>
+						<l>Di sue leggi non men che de’ suoi puri</l>
+						<l>Natii costumi, ancor di te diffida.</l>
+						<l>Le opre tue dubbie e i non spartani modi</l>
+						<l>Già da più tempo in te sogguarda. Omai</l>
+						<l>L'alta accusa rinnova e te vuol reo</l>
+						<l>Di empie mire tiranniche; ma, pria</l>
+						<l>Che il tuo destin pronunzi, ella udir vuole,</l>
+						<l>Qual dee, le tue discolpe; e a sè ti chiama.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Il messaggio degli efori io conobbi;</l>
+						<l>Ed agli efori io venni. Udrò coteste</l>
+						<l>Novelle accuse e smentirò, qual soglio,</l>
+						<l>Gli accusatori miei. Così potessi</l>
+						<l>Vederli ancor puniti! – Eppur, lo spero;</l>
+						<l>Se qui, più che altri, omai regnan le leggi.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>Dove or se’ tu, più non rammenti? o torni</l>
+						<l>Cangiato sì che più non sai che Sparta</l>
+						<l>Non adora che i Numi e le sue leggi?</l>
+						<l>Or sappi tu che delle leggi in nome</l>
+						<l part="I">Per gli efori ti parla.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F"> Ed io gli ascolto.</l>
+					</sp>
+					<sp>
+						<speaker> ARCHIDAMO</speaker>
+						<l part="I">– Narra: perché Sparta lasciasti?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Io volli</l>
+						<l>Torle un oggetto di livor, di sprezzo.</l>
+						<l>E poi ch'io re non era, esser soldato</l>
+						<l>Spontaneo elessi, pria che oziar fra’ lari</l>
+						<l part="I">Inutile e negletto.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Alcun nemico</l>
+						<l part="I">Hai tu di Sparta conosciuto?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Molti</l>
+						<l>A Platea ne conobbi, allor ch'io Sparta</l>
+						<l part="I">E la Grecia salvai.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Né mai vedesti</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="I">Temistocle?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Lo vidi allor che vinse</l>
+						<l>La persa armata a Salamina; il vidi</l>
+						<l>In Sparta allor che del Pireo difese </l>
+						<l>Le ancor nascenti mura; e in Argo io volli</l>
+						<l>Vedere in lui qual ne compensi Atene</l>
+						<l>Le sublimi virtù, le utili imprese;</l>
+						<l>E apprender quindi qual si possa all'uopo</l>
+						<l>La ingiustizia de’ suoi soffrir tranquillo.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>Né ad altro fin Temistocle, ned altri</l>
+						<l part="I">Tu frequentasti mai?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Se il sai, lo svela</l>
+						<l part="I">Tu, che mi accusi.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">E perché tu scegliesti</l>
+						<l>Quasi nel sen dell'Asia a tuo soggiorno</l>
+						<l part="I">La remota Golona?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Ivi lontano</l>
+						<l>Da Sparta io più, da’ suoi sospetti eterni</l>
+						<l part="I">Vie più securo io mi credea.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Speravi</l>
+						<l>Che di Sparta vegliante ivi lo sguardo</l>
+						<l>Non ti giugnesse? e che potesse quindi</l>
+						<l>Conspirar teco ognor più cauto il Perso?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Il Perso, è ver, me frequentò; ma nota</l>
+						<l>La cagion n'era. – Omai favola al mondo</l>
+						<l>Reso per opra vostra, ei volle spesso</l>
+						<l>Riconoscere in me, benché dal trono</l>
+						<l>Espulso, di Mardonio il vincitore,</l>
+						<l>Il difensor di Grecia tutta; e forse,</l>
+						<l>Se non dell'odio suo, dell'ira vostra</l>
+						<l>Gli effetti in me commiserando, ei volle</l>
+						<l>Un fero esemplo contemplar dell'alta</l>
+						<l part="I">Spartana ingratitudine!</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Spartano</l>
+						<l>S'eri tu ancor, tu stesso in te gli effetti</l>
+						<l>Di nostra libertà mostrar dovevi;</l>
+						<l>E qual da’ re di Persia a’ re di Sparta </l>
+						<l>Spazio corra infinito; e che i re sono</l>
+						<l>Qui soggetti alle leggi e non tiranni,</l>
+						<l>Quai gl'idolatra altrove il mondo schiavo. –</l>
+						<l>Ma tu, pria che ad altrui mostrare i veri</l>
+						<l>Usi di Sparta liberi, i servili</l>
+						<l>Della Persia apprendevi. Erano quindi</l>
+						<l>Barbari i modi tuoi; l'abito medo;</l>
+						<l>Egizio il tuo corteggio; orientali</l>
+						<l>La mensa e il fasto; e per dir tutto in una,</l>
+						<l>Satellite di corte eri tu vile!</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>A’ rimproveri tuoi breve io rispondo. –</l>
+						<l>Della Persia e de’ barbari i costumi</l>
+						<l>Sovente appresi e ne imitai sol quanto</l>
+						<l>A dignità di re fosse conforme;</l>
+						<l>Né sconvenisse a cittadin di Sparta. –</l>
+						<l>L'Egizio a me servia, perché l'Ilota,</l>
+						<l>Condannato a servir da noi Spartani,</l>
+						<l>Risparmiar volli.– E mi si torce a fallo</l>
+						<l>Or l'apparenza, perché mancan l'opre?</l>
+						<l>Un'usanza innocente è il mio delitto?</l>
+						<l>E, perch'io trassi già l'abito medo,</l>
+						<l part="I">Meno Spartan son io?</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Così rammenti</l>
+						<l part="I">Di Licurgo le leggi?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Io ne rammento</l>
+						<l>Che opra sua non son gli efori; ch'ei tutta</l>
+						<l>Pose ne’  re la maestà di Sparta.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>E perché i re del gran Licurgo l'opra</l>
+						<l>Non attentasser mai, Sparta la pose</l>
+						<l>Alla guardia degli efori; né questi</l>
+						<l>Ti avrian di re la dignità mai tolta,</l>
+						<l>Se violata pria tu non l'avessi.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Io violata l'ebbi allor ch'io solo</l>
+						<l>Salvai la Grecia intera e a Sparta diedi</l>
+						<l>Fra le greche città la gloria prima. –</l>
+						<l>Ma, s'è ragion che la memoria omai</l>
+						<l>Ne pera, pria che me, punite questi</l>
+						<l>Illustri monumenti che a voi diero</l>
+						<l>Le spoglie di Platea, l'oro de’ Persi,</l>
+						<l>Le mie vittorie. Io guiderdon già n'ebbi</l>
+						<l>Allor che il trono mi fu tolto e vita</l>
+						<l>Mi si lasciò, perché più sempre io soffra</l>
+						<l part="I">Nuovi oltraggi e più gravi.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Or ti credevi</l>
+						<l>Che, perché tu la Grecia un dì salvasti,</l>
+						<l>Tiranneggiarla quindi impunemente</l>
+						<l>Potessi tu? Perché l'eroe ne fosti,</l>
+						<l>Esserne debbi il despota? e le leggi</l>
+						<l>E gli ordini turbarne? e muti e vili</l>
+						<l>Applaudirti dovrian gli efori e Sparta?</l>
+						<l>Chi de’ tiranni non arresta il primo</l>
+						<l>Passo è già schiavo. – Or mira: il popol freme</l>
+						<l>E, fremendo, in suon d'ira il tuo destino</l>
+						<l part="I">Pronunzia quasi…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E ben; che tarda? Immoli</l>
+						<l>Questa vittima sacra all'odio vostro,</l>
+						<l>Cui zelo voi di libertà nomate. –</l>
+						<l>Popolo, sì, pria ch'io più reo diventi </l>
+						<l>Per opra lor, qual ch'ella sia, reclamo</l>
+						<l>La sentenza da te. D'innanzi il reo</l>
+						<l>Ti sta; chiara è l'accusa; è suo delitto</l>
+						<l>L'altrui livor. Si danni omai. Null'altro</l>
+						<l>Mi avanza or più che una spregevol vita;</l>
+						<l>Ed il tormela or fia la minor pena.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>Pena, l'avrai, non pur da noi, da quanti </l>
+						<l>Amin la Grecia e le sue leggi; eterno </l>
+						<l>L'odio ti avrai di quanti odiar sapranno</l>
+						<l>E tiranni e tirannide! – E di questi,</l>
+						<l>Non che di Sparta in nome, io primo, a vista</l>
+						<l>Di quanti or mi odon qui, l'alta sentenza</l>
+						<l part="I">Pronunzio…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>PAUSANIA, EUDAMIDA, ARCHIDAMO, TEANE, EFORI, POPOLO <hi rend="Italic">e</hi>
+	GUARDIE</stage>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Ah! no; – pria che si danni il figlio,</l>
+						<l>Efori, deh! vi piaccia ancor per poco</l>
+						<l part="I">Udir la madre.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="M">Oh! qual incontro?…</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Loco</l>
+						<l>A femminil lamento, il sai, non dassi</l>
+						<l part="I">Unque fra noi.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Né femminil lamento</l>
+						<l>A voi qui reco. Assai di Sparta gli usi</l>
+						<l part="I">E le leggi io rispetto.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">E Sparta anch'essa</l>
+						<l>Le tue virtù, donna, rispetta. – Frena,</l>
+						<l>Archidamo, il tuo zelo. Ella capace</l>
+						<l>Di sedurci non è. – Donna, che chiedi?</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Ch'io stessa il figlio mio difender possa. –</l>
+						<l>Spartani, ah! no, della materna inchiesta</l>
+						<l>Non vi prenda stupore. è strano il caso;</l>
+						<l>Ma non men strana è la cagion! Se certa</l>
+						<l>Del disegno foss'io che a lui s'imputa,</l>
+						<l>Spartani, or contra lui, voi le tremende</l>
+						<l>Leggi di Sparta reclamar mi udreste.</l>
+						<l>Ma, ad onta degli altrui sospetti, ond'era</l>
+						<l>Quasi anch'io tratta a sospettarne, il core</l>
+						<l>A pro del figlio sì forte mi parla</l>
+						<l>Che, più che di natura, io riconosco</l>
+						<l>Ne’ moti strani suoi l'occulto impulso</l>
+						<l>Del Cielo! e forse io non m'inganno. – Or dianzi</l>
+						<l>Io nel tempio di Pallade i miei voti</l>
+						<l>Per la mia patria offriva; e pur tremava</l>
+						<l>Sulla sorte del figlio: allor che strana </l>
+						<l>Luce improvvisa i dubbi miei rischiara!</l>
+						<l>Sparve il timor; speme sottentra e quasi</l>
+						<l>Certezza che innocente egli pur sia</l>
+						<l>Del temuto delitto. A tai presagi</l>
+						<l>Fatta secura in me, l'ara abbandono</l>
+						<l>Di Pallade; e sollecita io qui corro</l>
+						<l>A difendere il figlio. – Or, sia pur questo</l>
+						<l>L'alto voler del Ciel, che per la madre</l>
+						<l>Sia Pausania difeso; o inganno sia</l>
+						<l>Di materna pietà, che al Ciel l'ascrive,</l>
+						<l>Efori, deh! mi udite, onde rimorso</l>
+						<l>Non resti in me di avere un dì negletto</l>
+						<l>Quest'ufficio qualsia del figlio a scampo.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Ancorché forse invan, di me già diedi,</l>
+						<l part="I">Donna, ragion; che speri più?</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Dar questo</l>
+						<l>Sfogo al mio core; e abbandonarti poscia</l>
+						<l>Alle leggi di Sparta e degli Dei.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>Gli efori omai ti ascoltano. Difendi,</l>
+						<l>Tu madre, il figlio; efori noi, le leggi</l>
+						<l part="I">Difenderem.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Spartani, io non difendo</l>
+						<l>Gli strani modi suoi, né quanto in esso</l>
+						<l>Della rigida Sparta offende il guardo</l>
+						<l>E i sinceri costumi. Anch' io nel biasmo</l>
+						<l>Altamente con voi. Ma ch'ei col Perso</l>
+						<l>Contra Sparta conspiri, efori, io mai</l>
+						<l>Nol crederò. Troppo il delitto è strano</l>
+						<l>Per un spartan, che a libertà sol nacque,</l>
+						<l>Che per essa pugnò!… Salvato ei dunque</l>
+						<l>Avria la Grecia intera, onde poi farla</l>
+						<l>Schiava d'un re? vinto i nemici avrebbe,</l>
+						<l>Perché indi al vinto il vincitor servisse?</l>
+						<l>Ed obbedisse ei stesso a chi tremava</l>
+						<l>Un tempo al nome suo? – Potea, nol niego,</l>
+						<l>Ambizion sedurlo e più l'esemplo</l>
+						<l>Dell'oriental tirannide; ma quali</l>
+						<l>Prove, Spartani, a voi finor ne diede?</l>
+						<l>Soffrite or deh! ch'io le rammenti. – Egli era</l>
+						<l>Già vostro re; vi spiacque il suo comando;</l>
+						<l>E al giudizio degli efori il depose.</l>
+						<l>Privato indi divenne; e di onor privo,</l>
+						<l>Spontaneo ei corse a militar nel campo.</l>
+						<l>Si rinnovan le accuse; ed ei, chiamato</l>
+						<l>Da voi, qui torna a dar di sè pur conto.</l>
+						<l>Né tanto basta a dileguar qual sia</l>
+						<l>Dubbio nelle opre sue? S'ei contra Sparta</l>
+						<l>Pur conspirasse, agli ordini di Sparta</l>
+						<l>Avrebbe egli obbedito? avria sperato,</l>
+						<l>Piucché dal perso re, da voi difesa</l>
+						<l>Ed asilo e mercede? – Ed a sì chiari</l>
+						<l>Segni di sua innocenza, avvi chi desta</l>
+						<l>Ancor gli altrui sospetti! E non può questi</l>
+						<l>Destar, piucché zelo di patria vero,</l>
+						<l>Astio e livor di sue virtudi? – Sparta,</l>
+						<l>Efori, io non accuso. Io so che in essa</l>
+						<l>Non sogliono allignar sì tristi affetti.</l>
+						<l>Ma spargerli non può l'invida Atene,</l>
+						<l>Perché i costumi nostri interi, ch'ella</l>
+						<l>D'imitar sdegna, almen corrompa? e oscuri</l>
+						<l>L'onor di quegli eroi ch'ella più teme?… –</l>
+						<l>Ma io forse il figlio oltre il dover difendo.</l>
+						<l>Eppur gli Dei ne attesto: io reo nol credo;</l>
+						<l>E spero che nè tal voglia oggi Sparta</l>
+						<l>Riconoscerlo intera. Chè, se falsa</l>
+						<l>Pietà mi avesse illuso, il suo destino,</l>
+						<l>Efori, proferite; e se, qual madre</l>
+						<l>Finor difesi il figlio, ancor nel vostro</l>
+						<l>Giudizio, qual ch'ei sia, saprò spartana</l>
+						<l>L'alto consiglio rispettar di Sparta.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>Donna, al tuo dir di alto stupor compresi,</l>
+						<l>Quanti qui stanno, io veggio! Ancor che madre,</l>
+						<l>Tu spartana favelli! Or, perché chiara,</l>
+						<l>Come la tua virtù, non è del figlio</l>
+						<l>La contesa innocenza? – Al ben di Sparta </l>
+						<l>Era l'esame necessario; e giusto</l>
+						<l>Il giudizio ne fia: ché amor del retto,</l>
+						<l>Non invidia o pietà, noi tutti move;</l>
+						<l>E prova il popol tutto avranne piena. –</l>
+						<l>Efori, or parlo a voi, se a me concede</l>
+						<l>L'età di aprir miei sensi il primo. Udito</l>
+						<l>Noi di Pausania abbiam le accuse a un tempo</l>
+						<l>E le discolpe. Alto il delitto io veggio;</l>
+						<l>Ma non pari al delitto ancor le prove.</l>
+						<l>Queste da voi sol chieggo e quai le chiede</l>
+						<l>Da noi la legge; e fin che tai non le offra</l>
+						<l>Una più grave indagine del vero,</l>
+						<l>Ned innocente appien, ned appien reo</l>
+						<l>Oserò giudicarlo. – Io penso intanto</l>
+						<l>Che si consulti anco il senato, e sia</l>
+						<l>Oggi di tanta lite anch'esso a parte.</l>
+						<l>E vegga infine il popolo, qualora</l>
+						<l>A voi pur piaccia, ch'il senato intero,</l>
+						<l>Al suo cospetto, di Pausania ad una</l>
+						<l>L'innocenza proclami od il castigo.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l>Oh! qual mezzo proponi? Esser funesto</l>
+						<l part="I">Potria cotesto indugio!</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Un solo istante</l>
+						<l>Sparta perder non puote; e l'innocenza</l>
+						<l>Altrui vie più assicura. – Efori, io dissi</l>
+						<l>Il voto mio; se v'ha cui spiaccia, schietto</l>
+						<l part="I">Favelli. – Il vedi? ognun l'approva.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="F">Dunque</l>
+						<l>Pausania qui da noi si chiama, ond'abbia,</l>
+						<l>Più che in altrui, negli efori difesa?</l>
+						<l>E il senato consulti? ed ei conspiri</l>
+						<l part="I">Qui securo fra noi?</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Sparta l'osserva.</l>
+						<l>Che puoi temer? Se il suo disegno è vero,</l>
+						<l>Occulto qui restar non può; ne attesto,</l>
+						<l>Più che i vindici Dei, le nostre leggi. –</l>
+						<l>Pausania, dal senato il tuo destino</l>
+						<l part="I">Attendi or tu.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Qual ch'egli sia, pur sempre</l>
+						<l>Pari opporgli saprò la mia costanza.</l>
+						<l>Tutto da Sparta a tollerare appresi.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>E Sparta ancor magnanima rispetta</l>
+						<l>Le glorie tue, che tu disprezzi or forse.</l>
+						<l>Ella potrebbe a ria prigion pur trarti;</l>
+						<l>Ma alla madre ti affida. – Or tu sovr'esso,</l>
+						<l>Donna, più che altri, veglia; e ti rammenta</l>
+						<l>Che il tuo più lieve error potrebbe a danno</l>
+						<l part="I">Della patria tornare!</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Ah! peran pria</l>
+						<l>La madre e il figlio in un, che il minor danno</l>
+						<l>Per mia cagione avvenga! – Efori, io spero,</l>
+						<l>E lo prometto a voi, del figlio in nome,</l>
+						<l>Che, se di lui qualche sospetto avanzi,</l>
+						<l> Non pur co’ detti suoi, saprà coll'opre</l>
+						<l part="I">Smentirlo appieno.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Ed io l'augurio accetto.</l>
+					</sp>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="I">Or via; si tronchi ogni altro indugio.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Tosto</l>
+						<l>Si raduni il senato; e il popol tutto</l>
+						<l part="I">Si appelli al gran consesso.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Oh giorno!… Io spero;</l>
+						<l>Eppur non cesso di tremare!… – Oh figlio!…</l>
+						<l>Abbracciarlo io vorrei; nè l'oso ancora!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Ognun me sdegna! e a nuovi affronti espormi</l>
+						<l>Io deggio ancora? – eppur soffrirlo io deggio!</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO TERZO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>PAUSANIA, ARGILIO</stage>
+					<stage>
+						<hi>Casa di Pausania</hi>
+					</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Oh! vieni, Argilio. Alfin siam soli. Io deggio</l>
+						<l>Un gran mistero confidarti… – Or dimmi:</l>
+						<l>Poss' io dell'amistà, della tua fede</l>
+						<l part="I">Una prova tentar?</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Che di’? Se basta</l>
+						<l>A tuo scampo il mio sangue, appien ti spiega.</l>
+						<l>Dopo i tuoi tanti benefizi, il sai,</l>
+						<l part="I">Sacra è a te la mia vita.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Omai tu vedi</l>
+						<l>Tutto il mio stato orribile! Ridotto</l>
+						<l>Ad essere la favola de’ Greci</l>
+						<l>E l'orror de’ Spartani; esposto sempre</l>
+						<l>Ad esser vilipeso, e ingiustamente</l>
+						<l>Accusato e punito; astretto infine</l>
+						<l>Quasi a più non sentir quei sacri affetti,</l>
+						<l>Che natura ed amor mi avean da prima</l>
+						<l>Nel cor trasfusi; a mia difesa estrema</l>
+						<l>Altro mezzo io non trovo che sperarla</l>
+						<l part="I">Da miei nemici…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="M">Oh Ciel!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Tu ti conturbi?</l>
+						<l>E n'hai ragion; non men turbato io sono! –</l>
+						<l>Ma altro mezzo io non veggio: o condannato</l>
+						<l>Dagli efori, vilmente io perir deggio;</l>
+						<l>O salvezza sperar dal Perso stesso,</l>
+						<l>Che al nome mio, più che di Grecia al nome,</l>
+						<l part="I">Tremava un dì!</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Che intesi? – Erano dunque</l>
+						<l part="I">Giusti i sospetti?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Un dì non eran tali,</l>
+						<l>Priaché di Sparta ingrata il rigor troppo</l>
+						<l>Non m'inducesse a vendicarmi. Oh! quanto</l>
+						<l>A me costò questo tremendo passo!…</l>
+						<l>Se mi leggessi in cor!… – Ma, che più giova?</l>
+						<l>Tutto è deciso già. Dell'opra il meglio</l>
+						<l>Oggi affidare in te sol deggio. – Prendi</l>
+						<l>Tu questo foglio. Della persa armata</l>
+						<l>Al sommo duce, ad Artabazo tosto</l>
+						<l>Recarlo debbi; ei non ignora il resto.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Deh! se ti affidi in me, tutto mi svela:</l>
+						<l part="I">Qual mai disegno è il tuo?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Di vendicarmi;</l>
+						<l>Di me salvare e quanti esser pon meco</l>
+						<l>Perseguitati ingiustamente all'ombra</l>
+						<l>D'una mentita libertà. – Sol duolmi</l>
+						<l>Che l'opra io da me sol compier non possa!</l>
+						<l>Che da un barbaro vil, da me più volte</l>
+						<l>Vinto, sperar deggia io soccorso!… – L'onta</l>
+						<l>Forse il successo ammenderà. Troppo oltre</l>
+						<l>La mente e il cor de’ più questo sovverte</l>
+						<l>Di libertà delirio strano! è forza,</l>
+						<l>Qual che il mezzo ne sia, porvi un riparo.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>E speri tu  che un tanto ben si lasci</l>
+						<l>Rapir la Grecia? Sia ragion, sia inganno,</l>
+						<l>Del sangue suo l'alimentò finora;</l>
+						<l>Tutti vivon per essa e in essa i Greci.</l>
+						<l>Da che di libertà pugnaro all'ombra,</l>
+						<l>Qual di Dario o di Serse immensa forza</l>
+						<l part="I">Potè mai soggiogarli?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">È ver; ma stanchi</l>
+						<l>Son molti alfin di più pugnar per essa;</l>
+						<l>Né fra noi manca chi l'abborre in core! –</l>
+						<l>Tu vedi a quanti oltraggi e danni or questa </l>
+						<l>Di libertà larva fallace esponga </l>
+						<l>Spesso i migliori! Or l'un partito, or l'altro</l>
+						<l>Cade e trionfa. Egualità si vanta,</l>
+						<l>Dritto, ragion mai sempre; ed alla forza</l>
+						<l>Di pochi, o più sagaci o più potenti,</l>
+						<l>Servono i molti. Libertà si appella</l>
+						<l>Il venir parteggiando; il farsi guerra;</l>
+						<l>L'illudersi a vicenda; e tutti infine</l>
+						<l>Tiranneggiar l'un dopo l'altro. Quindi</l>
+						<l>Or i suo’ eroi proscrive Atene; or danna</l>
+						<l>Sparta i suoi re; né alcun pur v'ha che all'ombra</l>
+						<l>Di questa libertà, se non mercede,</l>
+						<l>Pace almen trovi e sicurezza. In somma,</l>
+						<l>Ella è cara a chi regna; odiosa a quanti</l>
+						<l>All'altrui libertà servon delusi. –</l>
+						<l>Io non invan finor corsi privato</l>
+						<l>Di Grecia i lidi; e già conspiran meco</l>
+						<l>Della Grecia i migliori. Offre Corinto</l>
+						<l>I suoi più ricchi; e i suoi più saggi Atene.</l>
+						<l>Fra gli altri ancor Temistocle congiura!</l>
+						<l>Dell'armata, che un tempo a vincer trassi,</l>
+						<l>Una parte me segue; e, più che ogni altri,</l>
+						<l>I Messeni me seguono e gl'Iloti,</l>
+						<l part="I">Di più servire impazienti.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Nato</l>
+						<l>Fra questi anch'io, sebben di Sparta l'aspro</l>
+						<l>Giogo sopporti, inorridisco al fero,</l>
+						<l>Terribile cimento a cui ti esponi!</l>
+						<l>Dal popolo osservato, a’ molti inviso,</l>
+						<l>Dagli efori accusato, giudicarti</l>
+						<l part="I">Debbe or’ ora il senato!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Io del senato</l>
+						<l>Con l'oro della Persia ho già gran parte</l>
+						<l>Sedotta a mia difesa; e perciò, grave</l>
+						<l>Del gran disegno, or qui securo io torno.</l>
+						<l>Nel grado, nel mio nome, e più mi affido</l>
+						<l>Nel rispetto opportun, che a me le leggi</l>
+						<l>Di Sparta ancor concedono. – Frattanto</l>
+						<l>Milita l'altro re da noi lontano.</l>
+						<l>Nulla io qui temo; or da me pende il tutto. –</l>
+						<l>Lungo l'euboiche spiagge alto veleggia</l>
+						<l>La persa armata. Tripartita offrirsi</l>
+						<l>Debbe a Corinto, Atene e Gitio; e tutta</l>
+						<l>Sommovere la Grecia in un istante.</l>
+						<l>Già inoltrata è l'impresa a tal che invano</l>
+						<l>Più tenterei ritrarmene. Da Sparta</l>
+						<l>Il segno io darne deggio; e il segno è questo. –</l>
+						<l>Va’; vola; occulto ad Artabazo il reca.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="I">Deh! più cauto, se il puoi…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Non è più tempo.</l>
+						<l>Ogni consiglio è inutile o dannoso;</l>
+						<l>Un punto che si perda, io son perduto!</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Il tuo periglio or mi spaventa!… Io tremo</l>
+						<l part="I">Solo per te!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Tu perdermi o salvarmi</l>
+						<l part="I">Puoi solo…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="M">E che far deggio?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Obbedir ratto. –</l>
+						<l>Se mi ami ancor, se vuoi salvarmi, parti;</l>
+						<l>Cerca Artabazo; in te mi affido e in lui.</l>
+						<l>Dalla tua fé la mia salvezza or pende.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>PAUSANIA</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Ei per me trema! ed io di lui non meno,</l>
+						<l>Ma per più forte, alta cagion pur tremo!</l>
+						<l>Fero un rimorso dentro il cor mi grida,</l>
+						<l>Quanto più Sparta io miro! – Oh sacro nome</l>
+						<l>Di patria! oh innato, inestinguibil, vero</l>
+						<l>Amor di libertà!… potessi almeno</l>
+						<l>Obliarti un istante! io ti risento</l>
+						<l>Più forte ancor, quanto più cerco invano</l>
+						<l>Di soffocarti e d’ingannar me stesso!…</l>
+						<l>Oh! stato mio crudele, orrendo!… Io Sparta</l>
+						<l>Oso tradire; e, mio malgrado, io l’amo! –</l>
+						<l>E che amar posso in lei che non mi offenda?</l>
+						<l>Qui ‘l mio trono io perdei; qui l’odio regna</l>
+						<l>De’ miei persecutori; ognor qui soffro</l>
+						<l>Peggior del primo il novo oltraggio; Sparta</l>
+						<l>Infin da’ cinque è dominata; ed io</l>
+						<l>Dagli eraclidi nato, io, che già salva</l>
+						<l>Resi la Grecia e Sparta illustre, io deggio</l>
+						<l>Di questi efori ognor soffrir l’orgoglio,</l>
+						<l>Che di virtù mentita ammantano essi?…</l>
+						<l>Pur troppo! essi mi han tratto a questo passo;</l>
+						<l>E lor punir degg’io del mio delitto… –</l>
+						<l part="I">Oh! giugne Euristia!</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>PAUSANIA, EURISTIA</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Invan finor te cerco,</l>
+						<l>Pausania. Un solo istante ancor concesso</l>
+						<l>Non m’è di teco trattenermi! Alfine</l>
+						<l>Tu sospirato a’ lari tuoi ritorni;</l>
+						<l>Né ancor riabbracci i tuoi? né della sposa,</l>
+						<l part="I">Né del figlio più chiedi?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Invan finor te cerco,</l>
+						<l>È ver… lo veggio…</l>
+						<l>Il mio destino anco il piacer mi toglie</l>
+						<l>Di trattenermi almen fra’ miei più cari.</l>
+						<l>Alla difesa mia, che quella acchiude</l>
+						<l>Pur di voi tutti, or solo inteso, ad altri</l>
+						<l>Affetti loco io dar non oso. Or solo</l>
+						<l>Sento il periglio in cui mi trovo! e fora</l>
+						<l>Danno comun se altro pensier volgessi. –</l>
+						<l>L’alto giudizio ancor su me sospeso</l>
+						<l>Sta; nel senato a mi oltraggiar di nuovo</l>
+						<l part="I">Omai si pensa; e chi sa forse?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ah! cessi</l>
+						<l>L’infausto augurio! Ad or ad or più veggio</l>
+						<l>Il turbine svanir, che sul tuo capo</l>
+						<l>Già tremendo apparia. Se fosse vero</l>
+						<l>Il reo pensier che a te s’imputa, or dianzi</l>
+						<l>Ti avrian dannato gli efori; eppur cauti</l>
+						<l>Non osan giudicarti, ed al senato</l>
+						<l>Han dell’incerta lite il fin commesso.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>E forse, onde men torni onta più grave. –</l>
+						<l>Chi sa qual trama or mi si ordisce? Or forse</l>
+						<l>Nuove insidie si tentano al mio nome!…</l>
+						<l part="I">E speri tu ne’ miei nemici?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Io spero</l>
+						<l>Nelle leggi di Sparta e nella somma</l>
+						<l>Equità del senato; e, più che in altro,</l>
+						<l>Nell’innocenza tua… Ma, tu più fremi?</l>
+						<l>Un profondo pensier ti appar sul ciglio,</l>
+						<l part="I">Che fa tremarmi!… Ohimè! che pensi?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Nulla</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Deh! ti spiega alla moglie.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E che dir posso</l>
+						<l>Che a te pur non sia noto? Or di’: potrei</l>
+						<l>Tutto premer l’orror di quest’istante?</l>
+						<l>Esser lieto io potrei qui, dove il guardo</l>
+						<l>Alzar non oso, ch’io non veggia intorno</l>
+						<l>Le antiche glorie e il mio presente danno? –</l>
+						<l>E per più pena io star qui deggio! mira</l>
+						<l>Destino! Almen finora orbo del trono,</l>
+						<l>Da me proscritto, in volontario esiglio</l>
+						<l>Miei tristi dì traeva; a tutti ignoto</l>
+						<l>Quasi, il trono perduto almen non stava</l>
+						<l>Innanzi a me; ned io soffria lo sguardo</l>
+						<l part="I">Insultatore…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">E qui tranquillo in vece</l>
+						<l>Viver non puoi di tua famiglia in seno?</l>
+						<l>Scarco di quel poter che rende odiosi</l>
+						<l>Anco i migliori, chi l’onor può torti,</l>
+						<l>Che ogni altr’onor vince d’assai, di vero</l>
+						<l>Cittadino spartan? Più re non sei;</l>
+						<l>Ma figlio sei, consorte e padre. In quanti</l>
+						<l>Affetti virtuosi or puoi la pace</l>
+						<l>Tua ricercar fra noi? chi più del figlio,</l>
+						<l>Chi della sposa più temperar puote</l>
+						<l part="I">Del tuo cor l’amarezza?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Un altro istante</l>
+						<l>Scegli perciò. Da troppo gravi cure</l>
+						<l>Oppresso, or più vi attristerei presente. –</l>
+						<l>Perché turbar vuoi la tua pace, e indarno?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>E pace aver poss’io, se non l’ho teco?</l>
+						<l>Io piango e spero e prego il Ciel che mostri</l>
+						<l>La tua innocenza; e in te Sparta rivegga</l>
+						<l part="I">Un cittadino, un figlio…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">In me non puote</l>
+						<l>Sparta or veder che un re sprezzato e inulto. –</l>
+						<l>Con essa ancor, deh! tu mi sprezza; oblia</l>
+						<l>Lo sposo e il padre; al figlio assisti invece;</l>
+						<l>E a me di me lascia il pensier… Per ora</l>
+						<l>In me veder non dei che un infelice…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>EURISTIA</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Misera me!… Qual preme in sen profondo</l>
+						<l>Rancore? Ei parla; e par che ad altro intenda!</l>
+						<l>Egli me sfugge; e del fuggir pretesti</l>
+						<l>Mendica vani! Io più non veggio in lui</l>
+						<l>Lo sposo, il padre;… e lo spartan fors’anco!… –</l>
+						<l>Solo timor non è quel che l’affanna!</l>
+						<l>Forse… che penso? anche il sospetto?… Ahi lassa!</l>
+						<l>Perché nel cor di chi più si ama il guardo</l>
+						<l part="I">Legger non puote?… –</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>EURISTIA, ARGILIO</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Argilio! … Ohimè!…turbato</l>
+						<l part="I">A che vieni?… che cerchi?…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Accorri;… ah! salva</l>
+						<l part="I">Pausania or tu…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Che avvenne mai?… Dannollo</l>
+						<l part="I">Il senato?…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Non già; ma, se tu all’uopo</l>
+						<l part="I">Pur non ti adopri, egli è perduto…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">E come?…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Certo è il delitto: contra Sparta ei stesso</l>
+						<l part="I">Conspira…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Oh! che di’ tu?…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Dal suo periglio</l>
+						<l>Invan tentai dianzi ritrarlo. Fermo</l>
+						<l>Nel suo fero proposto, ei nulla ascolta;</l>
+						<l>E me destina suo messaggio occulto</l>
+						<l>Ad Artabazo… Io per lui tremo!… eppure</l>
+						<l>Mezzo non vidi allor che di obbedirgli</l>
+						<l>O di tradirlo. Or, pensa tu, s’io mai</l>
+						<l>Di tradirlo capace esser potea!</l>
+						<l>Quindi pieno il pensier del suo periglio,</l>
+						<l>Mi appresto a secondarlo. – Era io già fuori</l>
+						<l>Da queste mura appena che una voce</l>
+						<l>Più che mortale mi risuona intorno!</l>
+						<l>Già mi parea che vindici di Sparta</l>
+						<l>Gl’Iddii mi minacciassero, se ardissi</l>
+						<l>Di più inoltrarmi… La lena mi manca!</l>
+						<l>Il piè vacilla! ed a gran pena io posso</l>
+						<l>Una via ritentar che qui mi guidi.</l>
+						<l>E te qui cerco, ond’io l’orror ti mostri</l>
+						<l>Del suo periglio; e tu, se il puoi, lo salvi.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Che intesi?… E creder deggio?… e fia mai vero?…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Così nol fosse! – Ma, se a me nol credi,</l>
+						<l>Credilo al foglio, ch’io recar doveva</l>
+						<l>Ad Artabazo. A te l’affido. – Or l’ira</l>
+						<l>Di Pausania su me tutta ricaggia!</l>
+						<l>Contento io son del mio destin, se io posso</l>
+						<l part="I">Per opra tua salvarlo almeno.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Io tremo</l>
+						<l>Sol nell’aprirlo! or che sarà, se il leggo? –</l>
+						<l>“Pausania ad Artabazo. Io sono in Sparta.</l>
+						<l>Gli efori non ardiscono dannarmi.</l>
+						<l>Molti giuran difesa, altri vendetta.</l>
+						<l>Son presti i miei; né la mia assenza ha in essi</l>
+						<l>Il fervor primo intepidito. Or compi</l>
+						<l>Tu il resto; ed io di più mertar son certo</l>
+						<l>Di Sparta il trono, l’amistà di Serse</l>
+						<l>E la man di sua figlia, a me promessa”.</l>
+						<l>La mano di sua figlia!… Oh Dei!… la mano</l>
+						<l>Di una barbara vile e l’abborrita</l>
+						<l>Amistà d’un tiranno; infin, l’iniqua</l>
+						<l>Ambizion d’un trono, a tal può trarlo</l>
+						<l>Terribile attentato?… Oh Ciel! che lessi?…</l>
+						<l>Argilio, e tu lo credi? e n’hai tu prove</l>
+						<l>Più certe?… Ahimè! che cerco?… e non son queste</l>
+						<l>Le note sue? Non leggo io stessa in questo</l>
+						<l>Foglio il delitto, di sua mano  espresso?</l>
+						<l>E più che in questo foglio, io nol leggea</l>
+						<l>Nel suo torbido ciglio e ne’ suoi feri,</l>
+						<l>Confusi detti?… Ed io l’amava! ed io</l>
+						<l>Pur tremava per lui! Vedi compenso,</l>
+						<l>Ch’ei rende all’amor mio! Fero mi sfugge,</l>
+						<l>Mi ripudia, mi oblia!… Ma, che non puote,</l>
+						<l>Chi di tradir la patria sua non teme?</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Numi! che feci? – Deh! più saggia or, donna,</l>
+						<l part="I">Previeni il suo periglio.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">E che? vorresti</l>
+						<l>Ch’io difendessi un perfido, che immola</l>
+						<l>Ad una vil nemica e patria e sposa?</l>
+						<l>Che al di lei cocchio oriental me forse</l>
+						<l>Danna sprezzata ancella?… io, che spartana?…</l>
+						<l>Oh! non più udito oltraggio!… E tu vorresti</l>
+						<l>Ch’io lo soffrissi?… Io deggio sol di Sparta</l>
+						<l>E de’ suoi Numi abbandonarlo all’ira;…</l>
+						<l>Dovrei punirlo io stessa… Ohimè! che dico?</l>
+						<l>E di tanta virtù sarei capace?</l>
+						<l>Potrei dimenticar ch’egli è mio sposo?</l>
+						<l>Ch’è pur mio figlio il figlio suo?… Deh! scusa</l>
+						<l>Il turbamento mio… Che dir, che farmi</l>
+						<l>Non so!… son fuor di me! Più che al mio grave</l>
+						<l>Affronto, io fremo al suo delitto!… Eppure,</l>
+						<l>Nel tumulto de’ sensi, io sento appieno</l>
+						<l>Che maggior de’ miei torti amor mi arresta!…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l>Ed arrestare anch’esso amor non puote</l>
+						<l part="I">E ritenerlo dal delitto?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">– E credi</l>
+						<l>Ch’ei riconosca ancor dell’amor mio</l>
+						<l>La voce? che udir voglia i preghi miei?</l>
+						<l>Che a Sparta, a’ suoi, che a me ritornar possa</l>
+						<l>Pentito appieno?… Ah! di’: scorgesti in lui</l>
+						<l>Della virtù sua prisca un qualche segno?</l>
+						<l>Se non di me, si risovvenne almeno</l>
+						<l part="I">Del figlio suo?… Tutto mi narra.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Tranne</l>
+						<l>Il suo disegno, a me tutt’altro ei tacque.</l>
+						<l>Eppur la guerra, ch’ei nel cor premeva</l>
+						<l>Invan, mostrava appien ch’egli non era</l>
+						<l>Nato al delitto… – Infin, pria che sia vano,</l>
+						<l>Sull’orlo del periglio or, deh! l’arresta.</l>
+						<l>Più che il tuo sdegno, ei pietà merta. Io spero</l>
+						<l>Tutto dall’opra tua. – Ma, il tempo stringe!…</l>
+						<l>Dall’ira sua nel vicin tempio io fuggo.</l>
+						<l>Va, prega, piangi; e tu salvarlo or tenta.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SESTA</hi>
+					</head>
+					<stage>EURISTIA</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Salvarlo!… e bastar ponno i preghi e il pianto</l>
+						<l>Di una moglie tradita? E qual mi resta</l>
+						<l>Arme miglior, se a ciò non basta il pianto?…</l>
+						<l>Si tenti almen;… si vada… Oh Ciel! non l’oso!</l>
+						<l>Una gelida man mi stringe il core!</l>
+						<l>E se di speme un lampo sol balena,</l>
+						<l>Tanto maggior mi si offre il suo delitto</l>
+						<l>Ch’io più di pria dispero e tremo!… Ahi lassa!</l>
+						<l part="I">Che mai farò?… chi mi consiglia?</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA stageTIMA</hi>
+					</head>
+					<stage>EURISTIA, TEANE</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Oh madre!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Figlia, deh! meco appien ti allegra!… Assolto</l>
+						<l>Fu Pausania in senato… – Ohimè!… l’eccesso</l>
+						<l>Della gioia mi opprime!… – Intenti i padri</l>
+						<l>Stavano all’ alt’ accusa; e il popol tutto</l>
+						<l>Dintorno udia ferocemente muto</l>
+						<l>La gran causa di Sparta. Ancor più fero</l>
+						<l>Archidamo parlò; ma, poiché a’ lievi</l>
+						<l>Sospetti altrui non rispondean le prove</l>
+						<l>E all’altrui vista io pur mi offersi, incerta</l>
+						<l>Della patria e del figlio, udissi un grido</l>
+						<l>Del senato e del popolo concorde,</l>
+						<l>Che i sospetti condanna e il figlio assolve.</l>
+						<l>Deh! vieni or meco a ricercarne. Io posso</l>
+						<l>Senza rimorso or riabbracciarlo e tutti</l>
+						<l>Sfogare i miei finor repressi affetti!…</l>
+						<l>Ma, tu sospiri?… ohimè! qual importuno</l>
+						<l part="I">Turbamento t’invade?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Oh madre!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Parla:</l>
+						<l part="I">Che vuoi tu dir?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Che siam tradite entrambe!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="I">Da chi?… segui…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">– Non posso!… Oh Ciel!… – Tu stessa</l>
+						<l part="I">Leggi ed apprendi il resto.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E qual mistero?… –</l>
+						<l>“Pausania ad Artabazo”… – Oh! qual mi assale</l>
+						<l>Orror di morte?… Oh sventurata madre!… –</l>
+						<l part="I">Chi ti diè questo foglio?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Argilio…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Quando?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Or dianzi…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="M" n="1">Dove?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M" n="2">In questo loco…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E quale</l>
+						<l part="I">Ragion lo mosse?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Amor, pietà, rispetto</l>
+						<l part="I">Di Pausania e di Sparta…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">In un Ilota</l>
+						<l>Tanta virtù! Chi ‘l crederebbe?… Oh Sparta!</l>
+						<l>Ti ama uno schiavo e ti tradisce il figlio!…</l>
+						<l>Figlio!… che dissi? In lui veder non deggio</l>
+						<l>Che il nemico di Sparta, il mio nemico!…</l>
+						<l>E il popol dianzi pur me stessa udia</l>
+						<l>La difesa pigliarne! ed io serviva</l>
+						<l>Al suo vil tradimento?… – Euristia, ah! piangi,</l>
+						<l>Piangi a ragion la tua, la mia sventura!</l>
+						<l>Rea son io pur di un tanto eccesso; ei nacque</l>
+						<l>Da questo seno; ei del mio sangue è parte;</l>
+						<l>E innocente il credea! credeva iniqui</l>
+						<l>Gli accusatori suoi! complice quasi</l>
+						<l>Era io del suo misfatto!… Oh scorno!… Oh! nata</l>
+						<l>Non foss’io mai, poiché da me dovea</l>
+						<l>Nascer di Grecia il traditor più vile!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Lassa! a’ tuoi detti io tremo or più! Consiglio</l>
+						<l>Da te sperava e tu il mio orror più accresci!</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Di’: l’avresti creduto ch’io nel figlio,</l>
+						<l>Ch’era un dì la mia speme, il mio sostegno,</l>
+						<l>L’amor di Sparta e l’idolo de’ Greci,</l>
+						<l>Veder dovessi alfin, non che di Sparta,</l>
+						<l>L’infamia della Grecia, il mio rossore?</l>
+						<l>Ed in qual punto?… Allor ch’io lo credea</l>
+						<l>Assolto e quasi di ogni colpa intero!… –</l>
+						<l>Onnipossenti Dei, perché sì lunga</l>
+						<l>Vita mi concedeste? Or non avrei</l>
+						<l>Veduto almen la mia vergogna eterna.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Or qual si puote al mio dolore e al tuo,</l>
+						<l>Al periglio comun pronto riparo</l>
+						<l part="I">Implorar dagli Dei?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Quel che tu meco,</l>
+						<l>Che ogni Spartano implorar dee, che il figlio,</l>
+						<l>S’ei fosse tal, ne implorerebbe ancora;</l>
+						<l>Lo scempio de’ nemici, la vendetta</l>
+						<l part="I">Di Sparta…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Oh! che di’ mai?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Che tutto io sento</l>
+						<l>L'orror di questo dì! che madre io sono,</l>
+						<l>Benchè Spartana; che, s’è d’uopo, tutti</l>
+						<l>Deggio alla patria omai del cor gli affetti</l>
+						<l>Sacrificare…Oh giorno! Oh Sparta!… Oh! quale</l>
+						<l>Sacrificio terribile a me chiedi!… –</l>
+						<l part="I">Ma, il tempo preme!… Andiam…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">E dove?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Il solo</l>
+						<l>Mezzo a tentar che or resta; e ch’il Ciel forse</l>
+						<l part="I">M’inspira in questo punto!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">E qual?… ti spiega…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Vieni e me imita; un punto sol potrebbe</l>
+						<l>Nuocere a Sparta… – Avrem poi il tempo entrambe,</l>
+						<l>Io di piangere il figlio e tu lo sposo…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Oh! quai mi annuncia il cor nuove sventure!</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO QUARTO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>PAUSANIA</stage>
+					<stage>[<hi>Vestibulo del tempio di Minerva Calcieca</hi>]</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>In questo tempio Argilio entrar fu visto. –</l>
+						<l>Qual presagio mi turba? E qual può fargli</l>
+						<l>Strana cagion procrastinare il mio</l>
+						<l part="I">Messaggio, a lui commesso? – Entriam…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>PAUSANIA, TEANE, EURISTIA</stage>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">T’arresta,</l>
+						<l>Pausania; ansante io te qui cerco; grata</l>
+						<l part="I">Per me novella udir tu debbi.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E quale?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Qual forse tu non ti aspettavi. – Assolto</l>
+						<l>Già fosti dal senato. I suoi sospetti</l>
+						<l>Sparta depone; e ancor vederti spera</l>
+						<l>Nonché spartan, qual eri un dì, ma degno</l>
+						<l>Di risalir sul trono onde scendesti.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Io so che Sparta ognor mi accusa e assolve,</l>
+						<l part="I">Per dannarmi di nuovo.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E sai ch’io forse,</l>
+						<l>Più che altri, a favor tuo l’ancor sospesa</l>
+						<l>Sentenza io trassi? e che, lo sguardo appena</l>
+						<l>In me rivolse il popolo e il senato,</l>
+						<l>La tua innocenza proclamata ad una</l>
+						<l part="I">Voce si udì?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Lode agli Dei! La mia</l>
+						<l>Salvezza, più che agli efori e al senato,</l>
+						<l part="I">Deggio a te, madre.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">– Or dimmi: dal senato,</l>
+						<l>Dagli efori, da me questo mertavi</l>
+						<l part="I">Strano favor?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Che sento?… E che dir vuoi?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Che finor m’ingannasti; che tu Sparta</l>
+						<l>Tradisci allor che ti perdona; e ch’io</l>
+						<l>Era già presso a divenir ministra</l>
+						<l>Del tradimento tuo, quando punirti</l>
+						<l>Sparta doveva ed accusarti io prima.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Chi mi tradì?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Tu stesso. – Il riconosci?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Oh Ciel!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Tu fremi al tuo delitto!… ed hai</l>
+						<l>Potuto concepirlo? E chi fu l’empio,</l>
+						<l>Che ti sedusse? Or di’: ti avea cresciuto</l>
+						<l>A tanto io mai? Degli avi io sol ti avea</l>
+						<l>Mostro l’alto cammino; e ad emularne</l>
+						<l>Le glorie eri tu giunto. Io ti dicea</l>
+						<l>Cogli altri pur l’onor di Sparta e mio,</l>
+						<l>Il terror de’ nemici!… E tu speravi</l>
+						<l>Di Licurgo annientar la più grand’opra,</l>
+						<l>Il miglior don che fatto il Ciel ne avesse,</l>
+						<l>La nostra libertà, cui tu dovevi</l>
+						<l>Le tue virtù, le glorie tue, te stesso? –</l>
+						<l>E un tant’eccesso avrian gli Dei sofferto?</l>
+						<l>E se gli Dei di Sparta un solo istante</l>
+						<l>L’avessero obliata e favorito</l>
+						<l>Il tuo disegno orribile; speravi</l>
+						<l>Tu su la patria tua regnar tiranno? –</l>
+						<l>Priaché sovr’essa, tu regnato avresti</l>
+						<l>Sulle ceneri sue; le madri,  i figli</l>
+						<l>Pria trucidati avrebbero, che schiavi</l>
+						<l>Vederli d’un tiranno; e tutti ad una</l>
+						<l>Sepolti si sarian fra le ruine</l>
+						<l>Della spartana libertà!… Tu stesso</l>
+						<l>Festi più volte un sì terribil voto!</l>
+						<l>Ed or, da te degenere, tu sei</l>
+						<l>Il suo maggior nemico, il mio rossore,</l>
+						<l>L’obbrobrio della Grecia?… Ah! no; ripara</l>
+						<l>Tu stesso al suo periglio. Ancor tu puoi</l>
+						<l>Salvar la patria e, in parte almen, tua fama.</l>
+						<l>L’onor del pentimento or sol ti resta.</l>
+						<l>Ed a ciò vengo e ti consiglio e prego,</l>
+						<l>E per l’ultima volta. Al duolo immenso,</l>
+						<l>Che tu mi rechi, il vedi, io pur non posso</l>
+						<l>Sopravviver di molto. Ah! pria ch’io muoia,</l>
+						<l>Ti riveggia spartano anche una volta!</l>
+						<l>Solo conforto, che morendo io possa</l>
+						<l>Meco trar nella tomba! Ancor non abbia,</l>
+						<l>Poiché là fra gli estinti io sarò teco,</l>
+						<l>Il rossor di fuggirti ombra nemica.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Pausania, ah! sì; di madre a’ preghi il pianto</l>
+						<l>Unisce ancor la moglie tua, che sprezzi</l>
+						<l>E che pur ti ama. Io per te tremo! a vista</l>
+						<l>Del tuo periglio i torti miei non oso</l>
+						<l>Rimproverarti. Alfin, se il vuoi, mi oblia;</l>
+						<l>Tutto da te soffrir saprò, pur ch’io</l>
+						<l>In te non veggia il traditor di Sparta;</l>
+						<l>E il suo non men che il tuo periglio in tempo</l>
+						<l>Pur tu prevenga. Al mio terror, deh! credi.</l>
+						<l>Impunito gli Dei non soffriranno</l>
+						<l>Il tradimento tuo. Chi men tu pensi,</l>
+						<l>E forse ancor de’ tuoi più cari, a Sparta</l>
+						<l>Saprà farlo palese. E allor qual mai</l>
+						<l>Tu lasceresti a’ tuoi fatal retaggio</l>
+						<l>Di obbrobrio e di dolor?… Figlio infelice!…</l>
+						<l>Che gli risponderò, quand’ei del padre</l>
+						<l>Mi chiederà? gli narrerò le tante</l>
+						<l>Imprese tue; dirò che tu salvasti</l>
+						<l>Tutta la Grecia un dì;… ma, non si dica</l>
+						<l>Che chi tradì la patria era suo padre.</l>
+						<l>Non abbia ei stesso a maledir la tomba,</l>
+						<l>Che dee serbar le tue ceneri odiose.</l>
+						<l>Previeni un tanto orror; previeni il tuo,</l>
+						<l>Il periglio comune; e i torti miei,</l>
+						<l>Di cui nel cor l’atrocità pur tutta</l>
+						<l>Sento, in nome di Sparta, io ti perdono.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Infelice! tu taci? E non ti scuote</l>
+						<l>Il pianto della moglie, il mio consiglio</l>
+						<l>E più, la patria tua, che ancor ti chiama,</l>
+						<l>E contra te da te difesa attende?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Qual terribile assalto?… E che far deggio?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>La trama rea, che ordisti tu, tu stesso</l>
+						<l part="I">Tosto annientare e i rei punirne…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E come?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Ecco l’unico mezzo; io tel’addito.</l>
+						<l>Vien meco avanti agli efori; tu stesso,</l>
+						<l>Di Sparta a vista, il tuo delitto accusa;</l>
+						<l>E contra i rei, contra te stesso implora</l>
+						<l part="I">Delle leggi il poter…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Che di’ tu mai?</l>
+						<l>Ch’io mi offra volontario a’ miei più feri</l>
+						<l>Persecutori, che mi han tratto a questo</l>
+						<l>Disperato cimento? Io per lor deggio</l>
+						<l>Sparta tradire e non sperar difesa</l>
+						<l part="I">Che da’ nemici suoi!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Perfido! e quale</l>
+						<l>Sia pur forte cagion, potea sì vile</l>
+						<l>Giustificar nero attentato? E vita</l>
+						<l>E pace e fama ed innocenza, tutto</l>
+						<l part="I">Alla patria non debbi?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E patria è questa,</l>
+						<l>Da che regnan qui gli efori? Non servi</l>
+						<l>Tu stessa qui? Non torna a te pur l’onta</l>
+						<l part="I">Degli oltraggi ch’io soffro?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Oh Ciel! tu tenti</l>
+						<l>Ancor la mia virtù? Servo tu nomi</l>
+						<l>Chi alle leggi obbedisce? E sei spartano?…</l>
+						<l>No; tiranno se’ tu! Tu non traspiri</l>
+						<l>Che avidità di regno, odio di leggi,</l>
+						<l part="I">Favor di servitù!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Più che nol pensi,</l>
+						<l>Odio il servaggio; e perciò tento i torti</l>
+						<l>Miei vendicare. Io veggio appien che involve</l>
+						<l>La mia vendetta ancor di Sparta il danno.</l>
+						<l>E assai men duole! e nel mio cor ne fremo!</l>
+						<l>Ma a tal son già che invan più mi trarrei</l>
+						<l>Dall’opra, ch’io di te non men abborro!</l>
+						<l>Ti basti or sol che del mio stato io tutto</l>
+						<l>Veggio l’orror; che odio me stesso; ch’empio</l>
+						<l>Destin mi spinge al mio delitto; ch’io</l>
+						<l>Invan più arresterei l’alta congiura,</l>
+						<l part="I">Già vicina a scoppiar…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Che sento? E speri</l>
+						<l>Che si possa compir la perfida opra? –</l>
+						<l>Se il senato, se gli efori, se Sparta</l>
+						<l>Perseverasser nell’inganno, se altri</l>
+						<l>Non ardisse accusarti, se gli Dei</l>
+						<l>Abbandonar volessero un istante</l>
+						<l>La patria al furor tuo; credi tu, ch’io,</l>
+						<l>Più che gli Dei, gli efori e Sparta, il tuo</l>
+						<l>Prevenir non saprei disegno iniquo? –</l>
+						<l>Di’: mi conosci tu? Se me non spegni,</l>
+						<l>Tutto invan tenti. A secondar l’impresa</l>
+						<l>T’è forza omai sacrificar me prima;</l>
+						<l>E in questo sen, che ti diè vita, tutto</l>
+						<l>L’occulto stile immergere, che tieni</l>
+						<l>Contra Sparta impugnato; e del mio sangue,</l>
+						<l>Onde sei parte, e braccio e panni intinto,</l>
+						<l>Spiegare a’ tuoi della congiura il cenno;</l>
+						<l>E tal mostrarti al primo slancio degno</l>
+						<l>De’  tuoi, del trono; infin, tiranno intero… –</l>
+						<l>Ecco un ferro; ecco il petto… E che? ti arresti?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Qual nel suo sguardo, oh Ciel! virtù sfavilla,</l>
+						<l>Che ad ammirarla ed a tremar mi sforza?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Oh momento terribile!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">L’estremo</l>
+						<l>Esser dee questo ad ambo. Io tel ripeto:…</l>
+						<l>Sacrifica tua madre o sei perduto.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Che mi proponi tu?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Dissi. Risolvi.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>E che poss’io risolvere? Nol vedi</l>
+						<l>Che il delitto mi tragge a suo talento;</l>
+						<l>Che invan più reggo al suo furor; che un Dio,</l>
+						<l>Di me maggior, m’invade, a Sparta avverso;</l>
+						<l part="I">Ch’io più non sono in me?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Dunque hai deciso?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Necessario è il delitto…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Ahi lassa!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E speri</l>
+						<l part="I">Eseguirlo?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="M" n="1">O perire…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M" n="2">Ah! cessa…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">– Oh figlio!…</l>
+						<l part="I">A qual passo mi sforzi?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Ad abborrirmi…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Oh patria! oh Sparta! oh mio dover!… – Si vada…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Dove così smarrita?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Ove gli Dei,</l>
+						<l part="I">Ove Sparta mi appella…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ohimè! che pensi?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Dare un esempio alle spartane madri:</l>
+						<l>Sparta salvare e poi morir di duolo!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Ove il dolor ti tragge?… oh Ciel! ti arresta…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>PAUSANIA</stage>
+					<l>Qual da’ suoi detti risoluti spira</l>
+					<l>Insolita minaccia?… e chi sa quale</l>
+					<l>Minacci or danno, irreparabil forse?… –</l>
+					<l>Che possa contra il figlio ancor la madre?…</l>
+					<l>Sia che si vuol, più consultar non deggio;</l>
+					<l>Dessi eseguir. Saprà il periglio all’uopo</l>
+					<l>Offerirmi uno scampo; infin, la vita</l>
+					<l>Al mio disegno è sacra. – Or sol mi grava</l>
+					<l>Che trionfino gli efori; ch’io sia</l>
+					<l>Di lor mano punito; che a lor deggia</l>
+					<l>Soggiacer forse invendicato!… – A quale</l>
+					<l part="I">Cimento, Argilio, or tu mi esponi?…</l>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>PAUSANIA, ARGILIO</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Omai</l>
+						<l>Ti vendica, Pausania. Ecco, l’asilo</l>
+						<l>Abbandono, se il vuoi. – Del tuo periglio</l>
+						<l>è ver, son reo; ma per salvarti il sono.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Che mai festi, infelice? Allor che tutta</l>
+						<l>Era riposta in te la mia salvezza,</l>
+						<l>Tu mi tradisci? tu?… né l’ira mia</l>
+						<l part="I">Temesti almen?…</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Io sol temetti l’ira</l>
+						<l>Del Ciel, di Sparta; e più per te, lo giuro,</l>
+						<l>Che per me la temetti. Il Nume stesso</l>
+						<l>Ne chiamo in testimon, ch’io qui venìa</l>
+						<l>Ad implorare in mio soccorso. Tutto</l>
+						<l>Ad Euristia svelai, perch’io sperava</l>
+						<l>Ch’ella, a te moglie, più di me potesse</l>
+						<l>Trarti dal tuo disegno e in un dal tuo</l>
+						<l part="I">Periglio aperto.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E tu maggior lo rendi!</l>
+						<l>Tutto or noto è alla madre; ed io più temo</l>
+						<l part="I">La sua virtù che l’odio altrui.</l>
+					</sp>
+					<sp>
+						<speaker>ARGILIO</speaker>
+						<l part="F">Che dici?</l>
+						<l part="I">E che temerne dei?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Ciò che inspirarle</l>
+						<l>Potria furor di libertà, feroce</l>
+						<l>Zelo di patria, ira di Numi. – Ell’ama,</l>
+						<l>Più che suo figlio, Sparta! E ciò non basta</l>
+						<l part="I">Perché temerne or tutto io deggia?…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>PAUSANIA, ARGILIO, EURISTIA</stage>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Io torno!…</l>
+						<l part="I">Pausania!… ohimè!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="M">Che avvenne mai?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ti salva;…</l>
+						<l>Teane… oh Ciel!… la madre tua;… tremante</l>
+						<l>Io stessa or or la vidi;…  e non udiva</l>
+						<l>Più le mie voci, il pianto mio;… parea</l>
+						<l>Che un Nume la guidasse! e un Nume al certo</l>
+						<l>Le offre Eudamida incontro. Risoluta</l>
+						<l>Sull’istante l’arresta e gli appresenta</l>
+						<l>Il tuo foglio esecrabile. – Qual possa</l>
+						<l>Danno venirne, ohimè! tu il pensa. Incerta</l>
+						<l>Quindi a te corro… Or, deh! qual puoi tu scampo</l>
+						<l part="I">Al tuo periglio opporre?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Io veggio alfine</l>
+						<l>Ch’è sol mio scampo il non sperarne alcuno.</l>
+						<l>Col mio periglio il mio furor più cresce!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Lassa! che dici mai?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Che ancor di nuovi</l>
+						<l>Eccessi ho d’uopo; che, a smentir l’accusa,</l>
+						<l>Forza è  ch’io tolga omai l’unica prova,</l>
+						<l>Che affermarla potria; che pera, in somma,</l>
+						<l part="I">L’autor del danno mio…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Che fai?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Cominci</l>
+						<l part="I">Da te la mia vendetta…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M">Ah! no…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SESTA</hi>
+					</head>
+					<stage>PAUSANIA, ARGILIO, EURISTIA,TEANE, EUDAMIDA, <hi rend="Italic">altri</hi> EFORI
+<hi rend="Italic">e</hi> GUARDIE
+</stage>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Ti arresta…</l>
+						<l>Gli efori omai ti osservano. – Deponi</l>
+						<l part="I">Quel ferro or tu; Sparta l’impone.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E a Sparta</l>
+						<l part="I">Io sol lo rendo.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">E che tentavi, o stolto?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Un perfido punir, che al rio disegno</l>
+						<l>Serve de’ miei nemici; che conspira</l>
+						<l>Contra il mio nome; che gli altrui sospetti</l>
+						<l part="I">Cerca destar…</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Pausania, e che? di nuovo</l>
+						<l>Speri ingannarci tu? Certo è il delitto;</l>
+						<l part="I">Manifeste le prove…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E chi l’afferma?</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>Argilio, il foglio, i tuoi più cari, quanto</l>
+						<l>Dintorno ti rimprovera, e più, il tuo</l>
+						<l part="I">Disperato furore…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E prestar fede</l>
+						<l>A un Ilota puoi tu? Da’ servi dunque</l>
+						<l>La securtà de’ cittadini or pende?</l>
+						<l>Qual fede accordan lor le nostre leggi?</l>
+						<l>Non puote il foglio aver mentito ei stesso?</l>
+						<l>E peso accresce alla menzogna vile</l>
+						<l>L’altrui stupor, lo sdegno mio!… Qual nuovo</l>
+						<l>Stil di perdermi è questo? Ancor mi appello</l>
+						<l>Alle leggi di Sparta, a’ dritti sacri</l>
+						<l>De’ cittadini suoi. – Ché, se uno schiavo</l>
+						<l>Non può, né dee convincermi, chi fia</l>
+						<l part="I">Che osi accusarmi innanzi a voi?</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F"> Tua madre.</l>
+						<l>Io, che finor ti amai, che ti credea</l>
+						<l>Spartano e figlio mio, che ti difesi</l>
+						<l>Agli efori ed a Sparta, ancor, s’è d’uopo,</l>
+						<l>Il tuo delitto accuso; ed il gran Giove,</l>
+						<l>Che qui ti udia, vendicator ne attesto.</l>
+						<l>Avanti a questo Nume, or dianzi ei stesso</l>
+						<l>Non osava negarlo; e a farne ammenda,</l>
+						<l>In parte almeno, indurlo invan potero</l>
+						<l>Il pianto della moglie, il mio consiglio,</l>
+						<l>I suoi tardi rimorsi… – Efori, alfine</l>
+						<l part="I">Egli è convinto.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Misera! che festi?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Il mio dover. – Compiete, efori, il vostro.</l>
+						<l>Io più figlio non ho; solo a voi Sparta</l>
+						<l>Or raccomando. A voi l’onor si aspetta</l>
+						<l>Omai rivendicarne; a me la mia</l>
+						<l>Debolezza ammendare… Io più non reggo!</l>
+						<l>Deh! tu mi assisti;… io piango e ne arrossisco!…</l>
+						<l part="I">Il pianto almen si celi altrove…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">E il pianto</l>
+						<l>Può in noi sfogare l’immenso dolore?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">La sua virtù mi abbatte or sol!</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA stageTIMA</hi>
+					</head>
+					<stage>PAUSANIA, EUDAMIDA, ARGILIO <hi rend="Italic">altri</hi> EFORI <hi rend="Italic">e</hi>
+GUARDIE</stage>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Oh eccelsa!</l>
+						<l>Oh magnanima donna! – E tu da’ suoi</l>
+						<l>Sensi, Pausania, tralignar potesti?</l>
+						<l>Qual mai potè sedurti a tanto eccesso</l>
+						<l part="I">Fera cagion?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F"> La maestà suprema</l>
+						<l>Di re, per voi sol vilipesa; i dritti</l>
+						<l>Del mio sangue usurpati; infin, l’iniqua</l>
+						<l>Mercè che all’opre mie per voi raccolsi.</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>Di questo tempio esci tu dunque. Innanzi</l>
+						<l>Al popol tutto a reclamar non meno</l>
+						<l>I dritti tuoi che a vendicar tuoi torti</l>
+						<l>Vieni, se l’osi tu. Quivi io ti appello,</l>
+						<l>Di Sparta in nome. Allor vedrai, se come</l>
+						<l>Sparta finora a te dannar fu lenta,</l>
+						<l>Con pari senno il suo indugiare ammendi. –</l>
+						<l>Seguimi, Argilio. – E voi del tempio al varco</l>
+						<l part="I">Vegliate a guardia.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA OTTAVA</hi>
+					</head>
+					<stage>PAUSANIA</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">A qual estremo, avverso</l>
+						<l>Fato, mi spingi e mi abbandoni? – Omai</l>
+						<l>Che spero? Io veggio appien che il Ciel, più che altri,</l>
+						<l>Sparta difende! E ben; sia questo tempio</l>
+						<l>Più che a me asilo, in un prigione e tomba!</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO QUINTO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>PAUSANIA</stage>
+					<stage>
+						<hi>Interno del tempio di Minerva Calcieca</hi>
+					</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Dove mi ascondo?… Misero! io non veggio</l>
+						<l>Che l’orror del delitto a me dintorno! –</l>
+						<l>Oh tempio! oh giorni! oh venerando Nume</l>
+						<l>Di Sparta! A te qui le mie glorie offriva;</l>
+						<l>Io qui cercava del mio cor la pace…</l>
+						<l>Ed or qui, più che altrove, e nel silenzio</l>
+						<l>Di queste mura, tremenda m’incalza</l>
+						<l>La minaccia di Sparta!… Ove un asilo?…</l>
+						<l>Ove sperar più calma?… Eterni Dei,</l>
+						<l>Perché l’aspetto del delitto intero,</l>
+						<l>Come or lo veggio, appien nol vidi allora</l>
+						<l>Che il reo disegno impresi? Or non sarei</l>
+						<l>L’orror del Ciel, de’ Greci e di me stesso! –</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>PAUSANIA, EURISTIA</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Oh! chi si avanza?… Oh Ciel!… tu qui?..</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Deh! vieni.</l>
+						<l>Se finor me fuggisti, or, deh! mi segui,</l>
+						<l>Pria che più cresca il tuo periglio. In arme</l>
+						<l>Ferocemente tacito trascorre</l>
+						<l>Da tutte parti il popolo. Al senato</l>
+						<l>Volano i padri e gli efori. Tra ferri</l>
+						<l>Molti de’ tuoi più cari or tradur vidi.</l>
+						<l>Sparta non spira che silenzio e morte!</l>
+						<l>Ma, da che or tutti a sua difesa intenti</l>
+						<l>Vegliano, pria che il tumulto più ingrossi,</l>
+						<l>E te qui colga, quest’istante afferra.</l>
+						<l>Fuggi il tuo rischio; va’; ti offra un asilo,</l>
+						<l>Poi ch’io nol deggio, la tua nuova sposa.</l>
+						<l>Purché tu a Sparta danno alcun non rechi,</l>
+						<l>Dall’ira sua ti salvi ella, che il puote.</l>
+						<l part="I">Salvati ovunque ed io son paga.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Oh nuovo</l>
+						<l>Rimprovero mortale!… E il grave oltraggio</l>
+						<l part="I">Vendichi or tu così?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Finor pur troppo</l>
+						<l>Il mio trasporto m’ingannò! La prima</l>
+						<l part="I">Io t’accusai!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Sparta servisti. Io suo</l>
+						<l>Era non men che tuo nemico. – Or sappi</l>
+						<l>Che ad oltraggiarti, non amor; me trasse</l>
+						<l>Ambizion, vendetta. Io strinsi quindi</l>
+						<l>L’amicizia di Serse e n’eran pegno</l>
+						<l part="I">Di sua figlia le nozze…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Or non è tempo</l>
+						<l>Di rammentare i torti miei. Ti salva,</l>
+						<l>E gli oblio tutti. – Ancor, chi sa? potresti</l>
+						<l>Servir la patria, e far del tuo delitto</l>
+						<l>Intera ammenda; e sospirato alfine</l>
+						<l>Tornare a Sparta e alla tua moglie. Il primo</l>
+						<l>Fra i Greci tu non sei che, da’ suoi lari</l>
+						<l>Esule errando, abbiano Atene e Sparta</l>
+						<l>In seno accolto; e nelle glorie nuove</l>
+						<l>Dimenticato i primi oltraggi. – Ah! vieni,</l>
+						<l>Priaché te cerchin gli efori; almen tenta</l>
+						<l>L’ultimo scampo, qual ch’ei sia. Per mezzo</l>
+						<l>Il popol fero io ti aprirò la strada;</l>
+						<l>Io sarò schermo all’ire altrui… Deh! cerca</l>
+						<l part="I">La tua salvezza altrove.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E come? e dove?</l>
+						<l>Che non m’insegua il mio delitto sempre? –</l>
+						<l>Va’; mi lascia al mio fato. Io più non posso</l>
+						<l>Meglio Sparta servir che del misfatto</l>
+						<l>Punito in me, lasciando a lei l’esemplo.</l>
+						<l>Più che la pena, or la mia vita abborro</l>
+						<l>Obbrobriosa, vile. Omai ti basti</l>
+						<l>Che spartano io morrò, se tal non vissi.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Che di’?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Non più; la tua virtù richiama:</l>
+						<l>Mira in me, non lo sposo; il tuo nemico,</l>
+						<l part="I">Il nemico di Sparta.</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Ah! tal non sei,</l>
+						<l part="I">Poiché il tuo fallo appien conosci.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">E vuoi</l>
+						<l>Che il castigo io ne fugga? io che finora</l>
+						<l>Fuggir non seppi il mio delitto? – Vanne;</l>
+						<l>Deh! veglia or tu sul figlio; a lui rammenta</l>
+						<l>Che un dì innocente era io l’amor di Sparta;</l>
+						<l>Che,  reo, l’orror poi ne divenni; apprenda</l>
+						<l>Dalle virtù, da’ falli miei, qual deggia</l>
+						<l>Crescere a Sparta ed ammendar del padre</l>
+						<l>L’infamia immensa. E tu, che mi perdoni,</l>
+						<l>La morte no, la mia vergogna or piangi!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l>Con questi sensi, sol di Sparta degni,</l>
+						<l part="I">Come tradirla tu potesti?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Intera</l>
+						<l>Mal si conserva la virtù sul trono!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="I">Oh! qual tumulto?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">“Al traditor” si grida.</l>
+						<l>Odi voce del popolo, che il mio</l>
+						<l part="I">Destino affretta!</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="M" n="1">Ah! no…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="M" n="2">Che fai?…</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Perdono…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>E speri tu spartana! il mio perdono?</l>
+						<l>E chi fra noi tant’osa, che non sia</l>
+						<l part="I">Delle leggi nemico?</l>
+					</sp>
+					<sp>
+						<speaker>EURISTIA</speaker>
+						<l part="F">Io più non veggio</l>
+						<l>Che il tuo periglio! Il Ciel sa ben se io Sparta</l>
+						<l>Rispetto; ma per te sì tremo, ahi lassa!</l>
+						<l part="I">Che quasi oblio d’esser spartana!…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>PAUSANIA</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Oh fero!…</l>
+						<l>Oh terribile istante!… Omai si affretti</l>
+						<l>Il mio destin qualsia. Troppo mi grava!… –</l>
+						<l>Ma, ché non corro ad incontrarlo io stesso?</l>
+						<l>Perché non offro al popolo, che freme,</l>
+						<l>La vittima ch’ei chiede?… Or via; si vada…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>PAUSANIA, TEANE</stage>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Che veggio?… Oh madre!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E son più madre?… Ah! taci</l>
+						<l>Quel fatal nome, ch’è l’onta mia eterna!</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Dunque vendica te, la patria, i Numi,</l>
+						<l part="I">Quanti oltraggiai.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">Sparta lo dee. – Fuggirti</l>
+						<l>Io sol dovrei; ma una secreta forza,</l>
+						<l>Ma una mano invisibile mi tragge,</l>
+						<l>Pur mio malgrado, a inorridir con teco</l>
+						<l>Sul tuo destino. – Almen cos?otessi</l>
+						<l>In me punir l’involontaria colpa</l>
+						<l>Di averti amato e generato a danno</l>
+						<l>Di Grecia tutta ed a mio scorno eterno.</l>
+						<l>Sparta almen veggia che, s’io te difesi</l>
+						<l>Del tuo delitto ignara, or che appien certa</l>
+						<l>Ne sono, al suo giudizio e al tuo castigo</l>
+						<l>Fò plauso io stessa… Ah! possano gli Dei</l>
+						<l>Inspirarmi perciò virtù che basti! –</l>
+						<l>Ma in questo tempio a che tu resti? Forse</l>
+						<l>Di Sparta sol, non de’ suoi Numi or temi</l>
+						<l>L’irata vista? Oppur da lor tu speri</l>
+						<l>Quella pietà che non avesti, ingrato,</l>
+						<l>Di me tu mai, nè più da alcun tu merti?</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>E qual poss’io danno temer, che agguagli</l>
+						<l>Della mia vita odiosa un solo istante?</l>
+						<l>Più che altro, i miei rimorsi or fan di Sparta</l>
+						<l>Vendetta piena. Altro io non temo. – Asilo</l>
+						<l>No, dagli Dei non chieggo; io sol ne imploro,</l>
+						<l>Al disperato strazio mio conforto,</l>
+						<l part="I">Il sospeso castigo.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E in questo punto</l>
+						<l>L’implorano pur teco le spartane</l>
+						<l>Madri, che meco un dì la tua salvezza</l>
+						<l part="I">Sovente ne imploravano.</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Esaudite</l>
+						<l>Tutte già sono. Più che tu non pensi,</l>
+						<l>Son dagli Dei punito. È il mio delitto</l>
+						<l>Il carnefice mio. Desso mi toglie,</l>
+						<l>Non che la vita, la mia gloria, il nome,</l>
+						<l>L’amor de’ Greci, il tuo… Ma, deh! se un giorno</l>
+						<l>Seppi tanto mertar, se Sparta amai,</l>
+						<l>Se un tempo io fui degno di te; se infine</l>
+						<l>Maggior del mio delitto è il mio rimorso,</l>
+						<l>Deh! riconosci il figlio e lo compiangi…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Misero!… In te non veggio più che l’onta</l>
+						<l>Di Sparta e mia! Mio figlio eri tu allora</l>
+						<l>Che per la nostra libertà pugnavi;</l>
+						<l>Che meco in questo tempio e a questo Nume</l>
+						<l>Offrivi per la patria i voti tuoi. –</l>
+						<l>Deh! quante volte in questo tempio, cinto</l>
+						<l>Di trionfali allori un dì ti udia</l>
+						<l>Sparta, il popolo, il Cielo!… Omai rimira</l>
+						<l>Qual ti circonda spettacolo odioso!</l>
+						<l>De’ tanti eroi, del cui bel numero uno</l>
+						<l>Eri pur tu, contempla ancor gli eterni</l>
+						<stage>
+							<p>
+								<hi>Distacca un pugnale da uno de’ monumenti, nel quale stava sospeso</hi>
+							</p>
+						</stage>
+						<l part="I">Monumenti… – Che veggio?</l>
+						<l part="F">Or di’conosci</l>
+						<l part="I">Tu questo brando?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="M">Egli era mio.</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">– Rappreso</l>
+						<l>Ancor v’è il sangue che in Platea spargesti!…</l>
+						<l part="I">Lo vedi?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="M">Oh vista!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E ti rammenti il giorno</l>
+						<l>Che a questo Nume tu il sacravi? Io stessa</l>
+						<l>A te daccanto stava; e il popol tutto</l>
+						<l>Dintorno ti applaudia, non che di Sparta,</l>
+						<l>Di Grecia eroe, liberator, sostegno!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">In qual punto il rammenti?…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E tu giuravi…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Di oprarlo a pro di Sparta e a danno sempre</l>
+						<l part="I">De’ suoi nemici…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="F">E il giuramento hai pieno?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="I">Adempierlo ancor posso.</l>
+						<stage>
+							<p>
+								<hi>Strappa il pugnale di mano alla madre, e risolutamente si ferisce.</hi>
+							</p>
+						</stage>
+						<l part="F">– Ecco nel figlio</l>
+						<l>Il nemico di Sparta omai punito!…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l part="I">Oh figlio!…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l part="F">Oh madre!… Di pietade un lampo</l>
+						<l>In te pur vidi! …io son contento. – Or solo,</l>
+						<l>Se alfin mertai la tua pietà, deh! narra</l>
+						<l>Il pentimento mio; salva il mio nome…</l>
+					</sp>
+					<sp>
+						<speaker>TEANE</speaker>
+						<l>Più non resisto!… Il mio dover compiei…</l>
+						<l>Sparta, perdona omai queste, ch’io verso,</l>
+						<l>Lagrime di dolor nel sangue suo. –</l>
+						<l>Deh! perché non moristi allor che il sangue</l>
+						<l>Per la patria versavi? Io pur versato</l>
+						<l>Avrei nel sangue tuo pianto di gioia!…</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>PAUSANIA, TEANE, EUDAMIDA, ARCHIDAMO, EFORI <hi rend="Italic">e</hi> GUARDIE</stage>
+					<sp>
+						<speaker>ARCHIDAMO</speaker>
+						<l part="I">Odi la tua condanna…</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l part="F">Oh Ciel!… che veggio?…</l>
+					</sp>
+					<sp>
+						<speaker>PAUSANIA</speaker>
+						<l>Vendicata la patria;… e il suo nemico</l>
+						<l>Di mia man trucidato. – Or sappia Sparta</l>
+						<l>Che alta di regno irresistibil brama</l>
+						<l>M’ingannò, mi sedusse;… che per farmi</l>
+						<l>Tiranno io qui schiavo d’un re divenni,</l>
+						<l>Che, mentr’era io spartan, tremava in trono…</l>
+						<l>Ma se in parte ammendar puote il delitto</l>
+						<l>Questo sangue ch’io verso, al nome mio</l>
+						<l>Perdoni almeno;… o ne ricordi quanto</l>
+						<l>Basti perch’ella non si affidi mai</l>
+						<l>Ne’ potenti e ne’ re…. Madre!… la sposa…</l>
+						<l>Ti affido… e il figlio… Or salva è Sparta… Io moro!</l>
+					</sp>
+					<sp>
+						<speaker>EUDAMIDA</speaker>
+						<l>– Si muri il tempio profanato. Al volgo</l>
+						<l>Tutto si taccia; e qui sepolto resti</l>
+						<l>Lo scandalo di Sparta e l’empio caso.</l>
+					</sp>
+					<trailer>FINE</trailer>
+				</div2>
+				</div1>
+				</body>
+				<back>
+				<div1 n="DISCORSO DELL’AUTORE INTORNO LA PRESENTE TRAGEDIA">
+					<head>
+						<hi rend="Italic">
+DISCORSO DELL’AUTORE INTORNO LA PRESENTE TRAGEDIA, DIRETTO ALLA SOCIETÀ DEL TEATRO PATRIOTICO
+DI MILANO.</hi>
+					</head>
+					<p>Ecco la prima e sola tragedia ch’io vi presento stampata, fra le molte ch’io già
+sperava potervi presentare a quest’ora. Erano già molti anni ch’io mi occupava
+fortemente di esse; e sempre più conoscendo a prova la difficoltà somma di
+spingerle alla loro minima imperfezione possibile, malgrado delle insinuazioni de’ pochi,
+i quali ne affrettavan la stampa, io seppi rispettare assai più il severo giudizio
+dell’autore che il favorevole compatimento degli uditori e de’ leggitori. Lusingandole
+intanto della remota speranza di pubblicarle e condannandole alla tortura instancabile della
+lima, dopo aver meco percorso le varie vicende della rivoluzione, fecero esse naufragio in
+Napoli, dove erano state per la più parte disegnate o prodotte. Esse soggiacquero alla
+più orribile crisi che avessero mai cagionata il furore di un re e il vandalismo di un
+popolazzo, fatto dalla natura e dall’arte per degnamente obbedirgli.
+</p>
+					<p>È pur sorprendente come io, ricercato avidamente dalla vendetta di un tiranno, che
+fissa la storia di questo secolo per la sceleratezza del suo carattere, abbia salvato questo
+avanzo di vita, per piangere la perdita di tanti amici, degni già di miglior sorte, come
+oramai di più pronta vendetta. Malgrado il sacrifizio di tante vittime insigni, la cui
+memoria mi starà eterna nel cuore, malgrado il fato infelice della mia patria, che hanno
+affrettato la perfidia de’ pochi e la credulità de’ molti, io non posso
+dissimulare il dolore di aver perduto i miei letterari travagli, che, se non erano stati
+dettati da un genio creatore, che in me non è, l’erano certamente dalla verità e
+dalla virtù, che non ho tradite giammai.</p>
+					<p>Mi sia permesso di far questo sfogo nel seno di una società, a cui non meno io che
+quanto mi apparteneva le appartenevamo, e che per le mie tragedie, quali elle si fossero,
+cominciava ad interessarsi. Nel numero di queste io contava l’<title>Alessandro d’Epiro</title>
+che, sfuggendo la minaccia di un oracolo, ne incontra inevitabilmente il destino fra i popoli
+bruzii, i quali seppero esercitare i doveri della vendetta contra i diritti della conquista.Vi
+era ancora la <title>Giovanna</title>, regina di Napoli, strangolata da Carlo Durazzo, suo
+nipote, eccitato a quest’opera pia dalla corte pontificia, che puniva i delitti de’ re
+con altri delitti, come gli Dei della Grecia punivano gli Edipi, i Tiesti e gli Atridi. Per
+tacer delle altre, io ho fra queste tragedie perduta ancor quella de’
+<title>Trenta tiranni</title> di Atene, la quale doveva servire all’aprimento del nostro teatro,
+se il nuovo ordine di cose non l’avesse vietato. Ella avrebbe
+richiamato alla memoria degl’Italiani non degenerati la trista influenza di Lisandro e di
+Sparta sulla libertà della Grecia e massimamente di Atene; e quindi molti ricordi
+avrebbe dati, non meno opportuni a’ tempi che a’ nostri bisogni.</p>
+					<p>Checché sia e possa esser di queste, appena arrivato a godere di un asilo in Francia,
+ho cercato ritentar le mie forze e ritogliere, se pur mi venisse fatto, una parte de’
+miei pensieri a quei barbari saccheggiatori, che disonorano il secolo ed il paese che gli ha
+prodotti. Il primo saggio del mio ricominciato sperimento si è la presente tragedia,
+cui m’è riuscito di porre finalmente in asstageto e di dar quindi alla luce dopo una
+serie di bizzarre vicende. Essa era stata sulle prime disegnata in Napoli; di là
+emigrato, ne fu tentata in Milano la prima esecuzione; rifuggito indi in Francia, fu
+ricomposta in Marsiglia; riperduta finalmente in Lione, fu di là riprincipiata,
+ritornando in Italia, dove per la quarta volta è stata rimessa a fine. Ed ecco la
+principale cagione per cui,  memore di tante perdite e temendo di perderla ancora, mi sono
+proposto di subito affidarla alle stampe contra il tremendo precetto della novennale
+correzione; per quindi correggerla a miglior tempo, qualora io lo potessi, e degna pur di
+correzione foss’ella riputata dal pubblico.</p>
+					<p>Qualunque ella sia, sarà sempre una prova, almeno presso di voi, dello zelo sincero
+col quale concorro all’interesse vostro, se quello è dell’arti teatrali, alla cui
+perfezione pare che sia o debba essere unicamente destinato il nostro istituto. Perloché
+io mi aspetto dalla direzione di questo quei lumi ulteriori, che possano un giorno rendere
+questa tragedia di voi più degna e l’autore più utile al pubblico.</p>
+					<p>La rappresentazione è uno de’ mezzi più sicuri per giudicare massimamente
+dell’effetto di una tragedia. Spesse volte n’è regolarissimo il piano, ben definiti
+i caratteri, l’azione economicamente promossa, lo stile conveniente, la versificazione felice;
+ma tutti questi pregi mancano di quella specie di vita, che sola animando l’azione, i
+caratteri, lo stile, i versi, le parole medesime, rianima sempre più l’interesse non
+pur di chi legge, ma di chi ascolta. La più parte delle tragedie italiane può
+somministrare copioso argomento di lode a chi voglia aver la pena di comentarle; ma riescono
+intollerabili sulle scene a chi voglia per poco sperimentarne il successo. Il Signorelli ha
+ripieni stagete volumi della <title>Storia de’ teatri</title>; e pure molte cose ha
+obliate, che meritavan di esserlo, come le tante che ne sono state rammemorate. Ma quante
+delle tragedie, da lui lette o lodate nel suo gabinetto, sarebbero sulle scene altamente
+fischiate e derise? Io non pretendo perciò di negare alcune bellezze di dettaglio, che
+pur troppo ci si distinguono; io qui parlo dell’insieme di una tragedia e di quella vita che
+dee animarla.</p>
+					<p>Risulta quindi il più gran vantaggio che gl’italiani scrittori di tragedie e di
+commedie possano ricavare dal vostro instituto. Venendo queste commesse alle vostre cure e
+da voi minutamente analizzate e rappresentate decentemente, si possono nelle prove ragionate
+e metodiche, e più nelle precise rappresentazioni che ne farete, rilevarne i difetti
+ed anche i rimedi opportuni de’ quali corresse loro bisogno. I migliori scrittori hanno
+pur troppo sentito di quanta utilità riuscirebbe loro l’avere un teatro ben ordinato,
+per farvi i primi sperimenti de’ loro travagli; e chi ha potuto usarne non ha tralasciato
+di ritoccarli e di portarli a quel punto che la sola rappresentazione decente poteva loro
+indicare.</p>
+					<p>Spesso una parola di meno o di più, o qua piuttosto che là collocata, è
+capace di produrre un effetto prodigioso. Ne sono un’evidente dimostrazione il
+<emph>
+							<foreign lang="fr">Qu'il mourût</foreign>
+						</emph> di Pier Corneille
+nell’<title>Orazio</title>; il <emph>
+							<foreign lang="fr">Vous changez de visage</foreign>
+						</emph>
+! di Racine nel <title>Mitridate</title>; il <emph>
+							<foreign lang="fr">Vous pleurez</foreign>
+						</emph>
+! di Voltaire nella <title>Zaira</title>. Se ben si risguarda, l’incantesimo della scena di
+Fedra, obbligata a manifestare la sua incestuosa passione, è dovuto in gran parte al
+collocamento artificioso di certe parole più in un luogo che in un altro. Che ne
+avverrebbe se certe semplici !amazioni, che pure potrebbero traslocarsi altrove senza
+pregiudizio dell’intelligenza, non fossero là dove riescono di
+un’efficacia straordinaria? Niuno ha maneggiato questo artificio più maestrevolmente
+di Alfieri. Tante volte il pedante, che tutto freddamente compassa alla misura di un certo
+ritmo epico od elegiaco o d’un certo iperbato retoricale, non sa rilevare quanta forza inspiri
+alla declamazione un epiteto o un avverbio, che chiuda un senso qualunque e fissi l’aumento
+dell’azione o la qualità del soggetto; e quindi spesso disprezza quei vezzi che
+non sa riconoscere. Per darne un esempio, qual forza non aggiugne la voce sempre nel fine
+di quel verso notissimo, che così bene diffinisce i nobili, non che di Roma, di tutti i
+luoghi e di tutti i tempi?
+<q>“Or superbi, or umili, e infami sempre”</q>.
+Infinite bellezze di questa specie prestano i dialoghi di Alfieri a quel declamatore, il
+quale sappia pescarle attentamente e più opportunamente valersene.</p>
+					<p>Alcuni momenti di azione e di spettacolo non possono facilmente bene immaginarsi, né,
+bene immaginati, ancor bene eseguirsi, se non si applichino severamente alla scena. Da tale
+difficoltà è nato forse il precetto che non permette ad alcuni troppo scrupolosi
+di dialogizzare con la quarta persona; pedantismo che ci avrebbe privati delle migliori scene
+dell’<title>Atalia</title> del Racine, del quinto atto della <title>Rodoguna</title> di Pier
+Corneille e di tante altre scene, spezialmente nelle commedie. In queste è più
+volte riuscito mirabile l’intreccio di più interlocutori, animato in una scena medesima.
+Ne hanno usato con prudenza e successo il Molière e il Goldoni; ma più di ogni
+altro ne ha abusato il Liveri, che spesso sacrificava a quest’artificio, per altro ingegnoso
+ove sia parcamente adoperato, e l’interesse dell’azione principale e l’attenzione o interrotta
+o dissipata degli ascoltanti.</p>
+					<p>I versi, che spesso sono riputati tanto migliori quanto sono più fluidi e scorrevoli
+o risonanti e magnifici, riescono meno agevoli a declamarsi e quasi a maneggiarsi, come si
+dovrebbe, da chi dee declamarli. Quindi addiviene che quei versi, che più piacevolmente
+si leggono, declamati non producono lo stesso effetto, per non potersi evitare quella troppa
+armonia, che spesso svela il troppo artificio del versificatore a danno della passione, e
+più spesso violenta e stanca il declamatore, che invano si affanna di nasconderla o
+di modificarla. Il verso tragico dovrebbe sostenere la delamazione, ma non trascinarla. Gli
+antichi forse vi provvedevano coi giambi. I versificatori italiani, avendo tentato d’imitare
+un ritmo simile ed essendo infelicemente riusciti, il Gravina colla sua languida versificazione
+e il Martello con una pretta imitazione degli emistichi francesi, si sono convenuti nell’uso
+degli endecasillabi. Ma, poiché versi cosiffatti aveano servito decentemente a sostenere
+il suono, quando della tromba epica, quando della lira armoniosa e quando dell’elegia
+lamentevole, se ne doveva meglio diffinire una nuova specie, vie più adattata all’uso
+del dialogo tragico, al quale pare che non dovrebbero esserlo i versi epici, lirici ed elegiaci.
+Alfieri ha ottimamente compresa questa rimarchevole differenza; e ne ha pur tentata e qualche
+volta spinta forse troppo oltre l’applicazione.</p>
+					<p>Ma tutte queste teorie o conjetture dovrebbero soggiacere a replicati sperimenti, per
+giudicare della verità di esse e più dell’utilità della loro applicazione.
+Ed ecco dove i nostri sforzi dovrebbero particolarmente risguardare. Insomma, le pruove che
+delle tragedie e delle commedie sarete per fare, non come far le sogliono i dilettanti per
+inutile passatempo o i pretesi attori italiani per venale necessità, voi potrete e
+dovrete fornire moltissimi lumi, teoretici e pratici, de’ quali potranno opportunamente
+giovarsi gli autori non meno che gli attori. Da un tale esercizio metodico ed analitico può
+l’Italia promettersi un regolare progresso in un’arte, quanto difficile, altrettanto presso di
+noi trascurata. Il genio di una lingua ricca di modi e di armonia imitativa, la docilità
+degli organi vocali, che le obbediscono, un genere di versificazione modificabile all’infinito,
+tutti questi ed altri pregi moltissimi possono assicurarle quel grado di perfezione che hanno
+tutte le altre arti in Italia; ma che la declamazione non avrà giammai, finché
+uomini forniti di spirito e di sentimento, capaci di sentire con forza le passioni e
+d’imprimerle egualmente negli altri, non ci si applichino seriamente. La Francia vanta i Baron,
+i Brizard, i le Kain, le Champmeslè, le le Couvreur, le Dumesnil, le Clairon, e tante e
+tanti altri; ma quali de’ suoi può metter l’Italia a linea di questi? Ella vanta
+all’incontro a dì nostri i Canova, i Ceracchi, gli Appiani, i Morghen, i Volpato, i
+Rosaspina, i Longhi, gli Albertolli, i Gonzaga, gli Antolini ecc. in genere di pittura, di
+scultura, di bulino, d’architettura; ma in genere di declamazione non può forse additare
+se non se Petronio Zanarini, come il solo fenomeno, il quale, mostrando di quanto gli restino
+indietro gli attori italiani, mostra altresì di quanto potrebbero andare avanti, se
+volessero e sapessero emularne i talenti e più la morale, senza di cui tutti gli altri
+talenti non otterrebbero mai un pieno successo.</p>
+					<p>Da quanto finora si è per me ragionato, chiaramente risultano e la natura e la
+utilità della nostra liberale instituzione. Dirigendomi a voi per la prima volta, io
+non poteva non occuparvi per un momento in queste idee, che promettono a voi gloria,
+instruzione e diletto al pubblico, prosperità alle arti; tanto più che da queste
+idee, alimentate e fecondate da voi, io mi aspetto quell’efficace cooperazione, che dee
+incoraggiarmi non meno a correggere la presente tragedia che a ricomporre le altre perdute. E
+daché di queste non posso per ora parlarvi, permettetemi ancora ch’io vi trattenga
+alquanto sulla prima rinata, che io vi presento. Io credo mio dovere, come socio vostro, il
+deporre nel vostro seno le prime idee archetipe di questa, perché giudichiate nel
+tempo stesso e della giustezza del disegno e del successo dell’esecuzione.</p>
+					<p>Il nome di Pausania, re di Sparta, famoso per le sue vittorie e le sue vicende, è
+troppo noto perché io ne parli di vantaggio; ed io credo che la prima scena ne richiami
+quanto basti perché i leggitori e gli uditori ne sieno agevolmente instruiti. Tucidide
+e Cornelio Nipote lo hanno caratterizzato con le tinte dell’orgoglio il più intollerabile
+e della più smodata ambizione.</p>
+					<p>Chi non ignora i vizi e l’attentato di Pausania non può ignorare la virtù della
+madre, per alcuni nominata Teano, cui Nipote ha raccomandata alla memoria degli uomini liberi
+per la sola azione di aver gittato la prima pietra nel murarsi il tempio, nel quale erasi il
+figlio rifuggito. Quest’unico straordinario tratto che della vita di lei si conserva,
+m’inspirò la prima idea di formare il disegno di una madre spartana e quindi dell’intera
+tragedia.</p>
+					<p>Io sento di aver dato tanta di virtù a Pausania e di passione alla madre, quanto non
+ne han dato all’uno gli storici particolari di esso, né dato avrebbero all’altra i
+panegiristi delle donne spartane. Io temeva che, altramente operando, pregiudicassi non meno
+alla prevenzione, che di Sparta si ha, che all’effetto della tragedia, a cui debbon servire
+le passioni e i delitti medesimi.</p>
+					<p>Mi pareva, quanto a Pausania, che fosse troppo strano a’ bei tempi di Sparta un certo
+carattere di assoluta ambizion tirannesca, quale forse sarebbe convenuto a qualunque
+altro greco, che spartano non fosse. Ho perciò tratteggiato Pausania più
+dall’aspetto dell’orgoglio, passione fierissima e capace di produrre egualmente de’ gran
+delitti e delle grandi virtù. Risentendo e dovendo ei perciò risentire assai
+vivamente la umiliazione di esser destituito dalla dignità di re, né scorgendo
+altra via di rivendicare le sue pretenzioni, si trova come impegnato suo malgrado a conspirare
+con Serse contra Sparta e la Grecia. Ciò non ostante non l’abbandona mai il sentimento
+di patria e più di quell’indipendenza natia, che in certo modo sviluppa in lui i suoi
+delitti, i suoi rimorsi, il suo pentimento. Egli dovrebbe esser fiero e quando congiura e
+quando si rimorde e quando si pente; ed io ho voluto e tentato farlo comparir tale; ché,
+se tal non appaia, più che al disegno, all’esecuzione si ascriva.</p>
+					<p>Potrebbe ad alcuno parere anche strano ch’egli rilevi qualche volta gli abusi della
+libertà con troppa sollecitudine, da fare intravedere più l’artificio
+dell’autore che l’interesse dell’interlocutore. Ma forse cesserà siffatta stranezza,
+qualora attentamente si consideri lo stato delle cose di Sparta, la condizione degl’ Iloti e
+il malcontento di coloro che di ordinario stimano cattivo il governo, che li punisce o
+trascura. E poi si sa che, volendo Pausania e dovendo attirare alla sua parte gl’ Iloti,
+non poteva altramente tentarli che lusingandoli, secondo che Nipote asserisce, con la speranza
+di libertà; e quando questa si promette a’ più che non l’hanno, non può
+darsi che col sacrificio de’ pochi, i quali ne abusano a danno di quelli. Potrebbe finalmente
+bastare ch’ei non era in sé persuaso di quanto cercava persuadere ad altrui; e che egli
+insomma riesce a sedur gli altri, ma non sé medesimo, odiando i suoi giudici, ma
+rispettando sempre la libertà e la patria.</p>
+					<p>Per la stessa ragione ho inteso di modellare sullo stesso torno la dinunzia del disegno di
+Pausania, fatta per Argilio. Tucidide e Nipote ci assicurano ch’egli tradì Pausania per
+amore della propria vita; e bene stava questo contegno ad un ilota originario. Nella presente
+tragedia Argilio perde Pausania per volere unicamente salvarlo, agitato da una specie di
+timore religioso, cui gl’inspira l’idea di Sparta e di libertà.</p>
+					<p>Siffatte modificazioni, oltre il giovare assaissimo all’interesse de’ caratteri ed
+all’effetto della tragedia, dovrebbero parere convenienti altresì al carattere ed al
+costume degli Spartani, pe’ quali siamo tanto vantaggiosamente e forse a ragion
+prevenuti. Io almeno ho opinato a questo modo.</p>
+					<p>Per lo contrario e’ potrebbe giudicarsi altramente del carattere di Teano e di Euristia,
+nelle quali le passioni di madre e di moglie si sviluppano a tale da urtar forse la prevenzione
+di coloro i quali, se non hanno mentito affatto parlando delle mogli e delle madri spartane,
+hanno almeno voluto generalizzare ciò che non apparteneva se non se alla stranezza di
+alcuni individui o di certi tempi degenerati. La natura o non si è potuta violentare
+a quel segno che costoro avrebbero voluto darci ad intendere o,  se l’è stata per
+qualche tempo, ella ha dovuto ben tosto rimettersi fra quei confini, cui costituiscono il
+vero ed il verosimile. Per quanto Licurgo abbia studiato di spogliare l’amor coniugale della
+gelosia, o per dir meglio de’ trasporti di questa, e la materna pietà di una tenerezza
+corruttrice; per quanto alcune spose ed alcune madri, in conseguenza di questi princ?, ne
+abbiano qualche volta abusato per fanatismo ed entusiasmo, Euristia è pur moglie e
+Teano è pur madre. Contuttociò l’una è più moglie che spartana e
+l’altra è più spartana che madre; o almeno avrei voluto ch’esse  pur tali
+riuscissero.</p>
+					<p>Nulla dico de’ due efori messi in azione; essi amano e rispettano la libertà e
+più le leggi che ne prevengon l’abuso. L’uno però è moderato; impaziente
+l’altro: ma servono entrambi, ancorché per mezzi diversi, ad un fine medesimo,
+cioè alla sicurezza pubblica; e non già a fini diversi od opposti, che
+ordinariamente sostituiscono alla repubblica le fazioni distruggitrici dell’unità
+e della forza politica.</p>
+					<p>Ritornando al carattere di Teano, contra del quale reagiscono più efficacemente gli
+altri caratteri della tragedia, per insvilupparne tutta l’attività, mi si permetta di
+osservare che la virtù di spartana e la passione di madre stanno alle prese e
+cominciano a collidersi quasi col cominciare della tragedia. Quanto dovesse un tale impegno
+riuscire difficile, si potrebbe agevolmente rilevare dal considerare che il Voltaire, avendo
+voluto agitare un simile contrasto altamente tragico nel <title>Bruto</title>, non ne ha
+occupato dell’intera tragedia che il solo atto quinto; non essendo gli altri atti destinati
+che al contrasto che soffre Tito fra l’amore di patria e quello di Tullia. Il severo Alfieri
+ha richiamato lo stesso argomento e, rendendolo per alcuni riguardi assai più romano che
+il Voltaire, ha dato più luogo all’agitazione di Bruto, e ne ha cavati due atti ripieni
+di calore e di passione. Ma i tre atti  precedenti non si occupano che nello stabilire in Roma
+la nascente libertà e nel difenderla dagli attacchi esterni, che le vanno minacciando i
+Tarquini, e dalle seduzioni ed insidie interne, che le viene ordendo Mamilio. Di modo che mi
+è paruto, rileggendo e raffrontando le due tragedie, che l’unità di oggetto e
+d’interesse si rilevasse più nel <title>Bruto</title> di Voltaire che in quello di
+Alfieri.</p>
+					<p>Nel primo l’ambasciatore Aronte si presenta subito in iscena e manifesta il suo disegno di
+riordire o di confermar la congiura e di avvolgere nel di lei seno il giovinetto Tito. Tito
+dal principio combatte contra tutte le passioni violente del suo cuore e le molteplici insidie
+de’ satelliti de’ Tarquini, finché succumbe e si perde. Non così
+avviene nel secondo dell’ambasciatore Mamilio, che non prima del terzo atto tenta la seduzione
+di Tiberio e di Tito, la quale non prima d’allora desta il principale interesse sulla sorte di
+Bruto. Sino allora non siam presi che da profondo dolore nel mirare opportunamente il cadavere
+sanguinoso della violata Lucrezia, o da altissima meraviglia nel vedere svilupparsi i sentimenti
+sublimi di vendetta o di libertà; ma quanto maggiore impressione siffatte cose producono,
+altrettanto pare troppo ritardato o non troppo connesso l’avvenimento principale, al cui
+interesse debbono tutti gli altri rapidamente ed efficacemente concorrere.</p>
+					<p>Io non ardirei di richiamare un tale paragone con la mia tragedia, se ciò non fosse
+per mostrare altrui l’esempio di questi due grandi ed originali scrittori, quanto fosse ardua
+cosa il cavare da un simile argomento materia bastante a formarne un’intera tragedia, senza
+che ad episodi estranei si fosse punto ricorso. La virtù spartana e l’amore materno di
+Teano reagiscono dal principio sino alla fine; come e quanto, e se non molto infelicemente,
+lo dicano coloro che avranno il piacere o la noia di leggerla o di ascoltarla.</p>
+					<p>Io non ho inteso per questo di voler giustificare i difetti di questa qualunque tragedia.
+Molti ce ne ha, che il tempo, la tranquillità e la sperienza potranno opportunamente
+correggere, oltre gli altri moltissimi, cui è dato rilevare a coloro che attentamente
+la leggeranno o pazientemente l’ascolteranno. È cosa omai risaputa che la perfezione
+è un fenomeno nelle cose drammatiche, e nelle tragedie massimamente; ed è forse
+la meno imperfetta sol quella che sappia il più interessare fra le altre. Ed ecco il
+perché, malgrado a’ tanti difetti del soggetto e dell’artificio, l’<title>Edipo re</title>
+sarà sempre la migliore tragedia di Sofocle; l’<title>Ifigenia</title>, l’<title>Alceste</title>
+e l’<title>Ippolito</title> le migliori di Euripide; la <title>Mirra</title> fra le tante di
+Alfieri ecc. Perloché ad essere giusto in un genere tanto difficile, si dovrebbe essere
+più o meno indulgente per quelle tragedie che più o meno interessassero delle altre;
+e specialmente se alcuno de’ loro difetti, che pur troppo di questa specie ve n’ha, tendessero
+in certo modo ad animare ed accrescere l’interesse predominante dell’azione. Io spero di
+sottomettere al vostro giudizio alcune mie idee sul metodo della censura drammatica e
+forse all’occasione che verrà da voi destinato un giornale per questo oggetto. I trascorsi
+altrui, rilevati a tempo e giudiziosamente biasimati o tollerati, offrono la miglior guida a
+coloro che volessero e sapessero profittarne.</p>
+					<p>Spetta adunque a voi il tollerare quei difetti che sono qualche volta inevitabili e qualche
+altra utili e quasi necessari al progredimento del soggetto; e il rilevare quegli altri de’
+quali  io possa giovarmi, correggendoli da tempo in tempo. La tragedia presente è
+ormai più vostra che mia, come lo saranno tutte quelle altre che le succederanno con
+più profitto, mercè gli sforzi di coloro che già travagliano in questo
+genere. Insomma dall’instituto vostro si aspetta il pubblico quell’analisi ragionata sulle
+opere degli antichi e moderni scrittori drammatici, la quale sempre più prepari ed
+assicuri il giudizio ed il gusto di coloro che fra voi ardiranno calzare il coturno od il
+socco. Allora conciliando nella maniera più efficace, e forse non ancora usitata, la
+pratica e la teorica, si verrebbe coll’aiuto di amendue a quel grado di perfettibilità,
+al quale non ci approssimeremo giammai, finché non conspirino insieme allo stesso
+scopo il teatro e la scuola.</p>
+				</div1>
+			</back>
+	</text>
+</TEI.2>

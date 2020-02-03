@@ -1,0 +1,2345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Bruto secondo</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>98 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000016</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Don Garzia ; Saul ; Agide ; Sofonisba ; Bruto primo ; Mirra ; Bruto secondo</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814.</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione - OCR</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-04-22T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Ilenia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-05-05T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>AL POPOLO ITALIANO FUTURO</salute></opener>
+	<p>Da voi, o generosi e liberi Italiani, spero che mi verrà perdonato l'oltraggio che io stava innocentemente facendo ai vostri avi, o bisavi, nell'attentarmi di presentar loro due <title>Bruti</title>; tragedie, nelle quali, in vece di donne, interlocutore e attore, fra molti altissimi personaggi, era il popolo.</p>
+	<p>Ben sento anch'io, quanto era grave l'offesa, di attribuire e lingua, e mano, e intelletto, a chi (per essersi interamente scordato d'aver avuto questi tre doni dalla natura) credeva impossibile quasi, che altri fosse per riacquistarli giammai.</p>
+<quote rend="block">
+<p>Ma, se le mie parole esser den seme,
+che frutti <emph>onore a chi da morte io desto</emph>;</p>
+</quote>
+<p>io mi lusingo che da voi mi sarà forse retribuita giustizia, e non scevra di qualche laude. Così pure ho certezza, che se dai vostri bisavi mi veniva di ciò dato biasimo, non potea egli però essere scevro del tutto di stima: perché tutti non poteano mai odiare o sprezzare colui, che nessuno individuo odiava; e che manifestamente sforzavasi (per quanto era in lui) di giovare a tutti, od ai più.</p>
+<closer>
+<dateline>Parigi, 17 Gennaio 1789</dateline>
+<signed>VITTORIO ALFIERI</signed>
+</closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+<castItem type="role"><role>CESARE</role></castItem>
+<castItem type="role"><role>ANTONIO</role></castItem>
+<castItem type="role"><role>CICERONE</role></castItem>
+<castItem type="role"><role>BRUTO</role></castItem>
+<castItem type="role"><role>CASSIO</role></castItem>
+<castItem type="role"><role>CIMBRO</role></castItem>
+<castItem type="role"><role>POPOLO</role></castItem>
+<castItem type="role"><role>Senatori</role></castItem>
+<castItem type="role"><role>Congiurati</role></castItem>
+<castItem type="role"><role>Littori</role></castItem>
+</castList>
+<set><p><emph>Scena, il Tempio della Concordia, poi di Pompeo, in Roma</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CESARE, ANTONIO, CICERONE, BRUTO, CASSIO, CIMBRO <emph>Senatori</emph>. <emph>Tutti seduti</emph></stage>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>Padri illustri, a consesso oggi vi appella</l>
+<l>il dittator di Roma. È ver, che rade</l>
+<l>volte adunovvi Cesare: ma soli</l>
+<l>n'eran cagione i miei nemici e vostri,</l>
+<l>che depor mai non mi lasciavan l'armi,</l>
+<l>se prima io ratto infaticabilmente</l>
+<l>a debellargli appien dal Nilo al Beti</l>
+<l>non trascorrea. Ma al fin, concesso viemmi,</l>
+<l>ciò che bramai sovra ogni cosa io sempre,</l>
+<l>giovarmi in Roma del romano senno;</l>
+<l>e, ridonata pria Roma a se stessa,</l>
+<l>consultarne con voi. — Dal civil sangue</l>
+<l>respira or ella; e tempo è omai, che al Tebro</l>
+<l>ogni uom riabbia ogni suo dritto, e quindi</l>
+<l>taccia il livor della calunnia atroce.</l>
+<l>Non è, non è (qual grido stolto il suona)</l>
+<l>Roma in nulla scemata: al sol suo nome,</l>
+<l>infra il Tago, e l'Eufrate; infra l'adusta</l>
+<l>Siene, e la divisa ultima ignota</l>
+<l>boreale Albione; al sol suo nome,</l>
+<l>trema ogni gente: e vie più trema il Parto,</l>
+<l>da ch'ei di Crasso è vincitore; il Parto,</l>
+<l>che sta di sua vittoria inopinata</l>
+<l>stupidamente attonito; e ne aspetta</l>
+<l>il gastigo da voi. Null'altro manca</l>
+<l>alla gloria di Roma; ai Parti e al mondo</l>
+<l>mostrar, che là cadean morti, e non vinti,</l>
+<l>quei romani soldati, a cui fea d'uopo</l>
+<l>romano duce, che non d'auro avesse,</l>
+<l>ma di vittoria, sete. A tor tal onta,</l>
+<l>a darvi in Roma il re dei Parti avvinto,</l>
+<l>io mi appresto; o a perir nell'alta impresa.</l>
+<l>A trattar di tal guerra, ho scelto io questo</l>
+<l>tempio di fausto nome: augurio lieto</l>
+<l>per noi sen tragga: ah! sì; concordia piena</l>
+<l>infra noi tutti, omai fia sola il certo</l>
+<l>pegno del vincer nostro. Ad essa io dunque</l>
+<l>e vi esorto, e vi prego. — Ivi ci appella</l>
+<l>l'onor di Roma, ove l'oltraggio immenso</l>
+<l>ebber l'aquile invitte: a ogni altro affetto</l>
+<l>silenzio impon l'onor per ora. In folla</l>
+<l>arde il popol nel foro; udir sue grida</l>
+<l>di qui possiam; che a noi vendetta ei pure</l>
+<l>chiede (e la vuol) dei temerari Parti.</l>
+<l>Risolver dunque oggi dobbiam dell'alta</l>
+<l>vendetta noi, pria d'ogni cosa. Io chieggo</l>
+<l>dal fior di Roma (e, con romana gioia,</l>
+<l>chiesto a un tempo e ottenuto, io già l'ascolto)</l>
+<l>quell'unanime assenso, al cui rimbombo</l>
+<l>sperso fia tosto ogni nemico, o spento.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Di maraviglia tanta il cor m'inonda</l>
+<l>l'udir parlar di unanime consenso,</l>
+<l>ch'io qui primo rispondo; ancor che a tanti</l>
+<l>minor, tacer me faccia uso di legge.</l>
+<l>Oggi a noi dunque, a noi, già da tanti anni</l>
+<l>muti a forza, il parlare oggi si rende?</l>
+<l>Io primier dunque, favellar mi attento:</l>
+<l>io, che il gran Cato infra mie braccia vidi</l>
+<l>in Utica spirare. Ah! fosser pari</l>
+<l>mie' sensi a' suoi! Ma in brevità fien pari,</l>
+<l>se in altezza nol sono. — Altri nemici,</l>
+<l>altri obbrobri, altre offese, e assai più gravi,</l>
+<l>Roma punire e vendicar de' pria</l>
+<l>che pur pensare ai Parti. Istoria lunga,</l>
+<l>dai Gracchi in poi, fian le romane stragi.</l>
+<l>Il foro, i templi suoi, le non men sacre</l>
+<l>case, inondar vedea di sangue Roma:</l>
+<l>n'è tutta Italia, e n'è il suo mar cosperso:</l>
+<l>qual parte omai v'ha del romano impero,</l>
+<l>che non sia pingue di romano sangue?</l>
+<l>Sparso è forse dai Parti? — In rei soldati</l>
+<l>conversi tutti i cittadin già buoni;</l>
+<l>in crudi brandi, i necessari aratri;</l>
+<l>in mannaie, le leggi; in re feroci</l>
+<l>i capitani: altro a patir ne resta?</l>
+<l>Altro a temer? — Pria d'ogni cosa, io dunque</l>
+<l>dico, che il tutto nel primier suo stato</l>
+<l>tornar si debba; e pria rifarsi Roma,</l>
+<l>poi vendicarla. Il che ai Romani è lieve.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l>Io, consol, parlo; e spetta a me: non parla</l>
+<l>chi orgogliose stoltezze al vento spande;</l>
+<l>né alcun lo ascolta. — È mio parere, o padri,</l>
+<l>che quanto il nostro dittatore invitto</l>
+<l>chiede or da noi, (benché eseguire il possa</l>
+<l>ei per se stesso omai) non pure intende</l>
+<l>a tutta render la sua gloria a Roma,</l>
+<l>ma che di Roma l'esser, la possanza,</l>
+<l>la securtà ne pende. Invendicato</l>
+<l>cadde in battaglia un roman duce mai?</l>
+<l>Di vinta pugna i lor nemici mai</l>
+<l>impuniti ne andar presso ai nostri avi?</l>
+<l>Per ogni busto di roman guerriero,</l>
+<l>nemiche teste a mille a mille poscia</l>
+<l>cadean recise dai romani brandi.</l>
+<l>Or, ciò che Roma, entro al confin ristretta</l>
+<l>d'Italia sola, assentir mai non volle,</l>
+<l>il soffrirebbe or che i confin del mondo</l>
+<l>di Roma il sono? E, sorda fosse anch'ella</l>
+<l>a sue glorie; poniam, che il Parto andarne</l>
+<l>impunito lasciasse; a lei qual danno</l>
+<l>non si vedria tornar dal tristo esemplo?</l>
+<l>Popoli molti, e bellicosi, han sede</l>
+<l>fra il Parto e noi: chi, chi terralli a freno,</l>
+<l>se dell'armi romane il terror tace?</l>
+<l>Grecia, Illiria, Macedoni, Germani,</l>
+<l>Galli, Britanni, Ispani, Affrica, Egitto,</l>
+<l>guerriera gente, che oltraggiata, e vinta,</l>
+<l>d'ogni intorno ne accerchia, a Roma imbelle</l>
+<l>vorrian servir? né un giorno sol, né un'ora.</l>
+<l>Oltre all'onor, dunque innegabil grave</l>
+<l>necessitade a vol nell'Asia spinge</l>
+<l>l'aquile nostre a debellarla. — Il solo</l>
+<l>duce a tanta vendetta a sceglier resta. —</l>
+<l>Ma, al cospetto di Cesare, chi duce</l>
+<l>osa nomarsi? — Altro eleggiamne, a patto,</l>
+<l>ch'ei di vittorie, e di finite guerre,</l>
+<l>e di conquiste, e di trionfi, avanzi</l>
+<l>Cesare; o ch'anco in sol pugnar lo agguagli. —</l>
+<l>Vile invidia che val? Cesare, e Roma,</l>
+<l>sono in duo nomi omai sola una cosa;</l>
+<l>poiché a Roma l'impero alto del mondo</l>
+<l>Cesare sol rende, e mantiene. Aperto</l>
+<l>nemico è dunque or della patria, iniquo</l>
+<l>traditor n'è, chi a sua privata e bassa</l>
+<l>picciola causa, la comun grandezza</l>
+<l>e securtà posporre, invido, ardisce.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Io quell'iniquo or dunque, io sì, son quello,</l>
+<l>cui traditore un traditore appella.</l>
+<l>Primo il sono, e men vanto; or che in duo nomi</l>
+<l>sola una cosa ell'è Cesare e Roma. —</l>
+<l>Breve parla chi dice. Altri qui faccia,</l>
+<l>con servili, artefatti, e vuoti accenti,</l>
+<l>suonar di patria il nome: ove pur resti</l>
+<l>patria per noi, su i casi suoi si aspetta</l>
+<l>il risolvere ai padri; in nome io 'l dico</l>
+<l>di lor; ma ai veri padri; e non, com'ora,</l>
+<l>adunati a capriccio; e non per vana</l>
+<l>forma a scherno richiesti; e non da vili</l>
+<l>sgherri infami accerchiati intorno intorno,</l>
+<l>e custoditi; e non in vista, e quasi</l>
+<l>ascoltati da un popolo mal compro</l>
+<l>da chi il pasce e corrompe. È un popol questo?</l>
+<l>Questo, che libertade altra non prezza,</l>
+<l>né conosce, che il farsi al bene inciampo,</l>
+<l>e ad ogni male scudo? ei la sua Roma</l>
+<l>nei gladiator del circo infame ha posta,</l>
+<l>e nella pingue annona dell'Egitto.</l>
+<l>Da una tal gente pria sgombro il senato</l>
+<l>veggasi, e allor ciascun di noi si ascolti. —</l>
+<l>Preaccennare il mio parer frattanto</l>
+<l>piacemi, ed è: Che dittator non v'abbia,</l>
+<l>poiché guerra or non v'ha; che eletti sieno</l>
+<l>consoli giusti; che un senato giusto</l>
+<l>facciasi; e un giusto popolo, e tribuni</l>
+<l>veri il foro rivegga. Allor dei Parti</l>
+<l>deliberar può Roma; allor, che a segni</l>
+<l>certi, di nuovo riconoscer Roma</l>
+<l>noi Romani potremo. Infin che un'ombra</l>
+<l>vediam di lei fallace, i veri, e pochi</l>
+<l>suoi cittadini apprestinsi per essa</l>
+<l>a far gli ultimi sforzi; or che i suoi tanti</l>
+<l>nemici fan gli ultimi lor contr'essa.</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l>Figlio di Roma, e non ingrato, io l'amo</l>
+<l>più che me stesso: e Roma, il dì che salva</l>
+<l>dall'empia man di Catilina io l'ebbi,</l>
+<l>padre chiamommi. In rimembrarlo, ancora</l>
+<l>di tenerezza e gratitudin sento</l>
+<l>venirne il dolce pianto sul mio ciglio.</l>
+<l>Sempre il pubblico ben, la pace vera,</l>
+<l>la libertà, fur la mia brama; e il sono.</l>
+<l>Morire io solo, e qual per Roma io vissi,</l>
+<l>per lei deh possa! oh qual mi fia guadagno,</l>
+<l>s'io questo avanzo di una trista vita</l>
+<l>per lei consunta, alla sua pace io dono! —</l>
+<l>Pel vero io parlo; e al canuto mio crine</l>
+<l>creder ben puossi. Il mio parlar non tende,</l>
+<l>né a più inasprir chi dagli oltraggi molti</l>
+<l>sofferti a lungo, inacerbita ha l'alma</l>
+<l>già di bastante, ancor che giusto, sdegno;</l>
+<l>né a più innalzare il già soverchio orgoglio</l>
+<l>di chi signor del tutto omai si tiene.</l>
+<l>A conciliar (che ancor possibil fora)</l>
+<l>col ben di ognuno il ben di Roma, io parlo. —</l>
+<l>Già vediam da gran tempo i tristi effetti</l>
+<l>del mal fra noi snudato acciaro. I soli</l>
+<l>nomi dei capi infrangitor di leggi</l>
+<l>si andar cangiando, e con più strazio sempre</l>
+<l>della oppressa repubblica. Chi l'ama</l>
+<l>davver fra noi, chi è cittadin di cuore,</l>
+<l>e non di labro, ora il mio esemplo siegua.</l>
+<l>Fra i rancor cupi ascosi, infra gli atroci</l>
+<l>odi palesi, infra i branditi ferri,</l>
+<l>(se pur l'Erinni rabide li fanno</l>
+<l>snudar di nuovo) ognun di noi frapponga</l>
+<l>inerme il petto: o ricomposti in pace</l>
+<l>fian così quei discorsi animi feri;</l>
+<l>o dalle inique spade trucidati</l>
+<l>cadrem noi soli; ad onta lor, Romani</l>
+<l>soli, e veraci, noi. — Son questi i sensi,</l>
+<l>questi i sospiri, il lagrimare è questo</l>
+<l>di un cittadin di Roma: al par voi tutti,</l>
+<l>deh! lo ascoltate: e chi di gloria troppa</l>
+<l>è carco già, deh! non la offuschi, o perda,</l>
+<l>tentando invan di più acquistarne: e quale</l>
+<l>all'altrui gloria invidia porta, or pensi</l>
+<l>che invidia no, ma virtuosa eccelsa</l>
+<l>gara in ben far, può sola i propri pregi</l>
+<l>accrescer molto, e in nobil modo e schietto</l>
+<l>scemar gli altrui. — Ma, poiché omai ne avanza</l>
+<l>tanto in Roma a trattar, dei Parti io stimo,</l>
+<l>per or si taccia. Ah! ricomposta, ed una,</l>
+<l>per noi sia Roma; e ad un suo sguardo tosto,</l>
+<l>Parti, e quanti altri abbia nemici estrani,</l>
+<l>spariscon tutti, come nebbia al vento.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Cimbro, Cassio, e il gran Tullio, hanno i loro alti</l>
+<l>romani sensi in sì romana guisa</l>
+<l>esposti omai, che nulla a dir di Roma,</l>
+<l>a chi vien dopo, resta. Altro non resta,</l>
+<l>che a favellar di chi in se stesso ha posta</l>
+<l>Roma, e neppur dissimularlo or degna. —</l>
+<l>Cesare, a te, poiché in te solo è Roma,</l>
+<l>di Roma no, di te parlare io voglio. —</l>
+<l>Io non t'amo, e tu il sai; tu, che non ami</l>
+<l>Roma; cagion del non mio amarti, sola:</l>
+<l>te non invidio, perché a te minore</l>
+<l>più non mi estimo, da che tu sei fatto</l>
+<l>già minor di te stesso; io te non temo,</l>
+<l>Cesare, no; perché a morir non servo</l>
+<l>son presto io sempre: io te non odio, al fine,</l>
+<l>perché in nulla ti temo. Or dunque, ascolta</l>
+<l>qui il solo Bruto; e a Bruto sol dà fede;</l>
+<l>non al tuo consol servo, che sì lungi</l>
+<l>da tue virtudi stassi, e sol divide</l>
+<l>teco i tuoi vizi, e gli asseconda, e accresce. —</l>
+<l>Tu forse ancor, Cesare, merti (io 'l credo)</l>
+<l>d'esser salvo; e il vorrei; perché tu a Roma</l>
+<l>puoi giovar, ravvedendoti: tu il puoi,</l>
+<l>come potesti nuocerle già tanto.</l>
+<l>Questo popol tuo stesso, (al vivo or dianzi</l>
+<l>Cassio il ritrasse) il popolo tuo stesso,</l>
+<l>ha pochi dì, del tuo poter ti fea</l>
+<l>meno ebro alquanto. Udito hai tu le grida</l>
+<l>di popolare indegnazione, il giorno,</l>
+<l>che, quasi a giuoco, il regio serto al crine</l>
+<l>leggiadramente cingerti tentava</l>
+<l>la maestà del consol nuovo: udito</l>
+<l>hai fremer tutti; e la regal tua rabbia</l>
+<l>impallidir te fea. Ma il serto infame,</l>
+<l>cui pur bramavi ardentemente in cuore,</l>
+<l>fu per tua man respinto: applauso quindi</l>
+<l>ne riscotevi universal; ma punte</l>
+<l>eran mortali al petto tuo, le voci</l>
+<l>del tuo popol, che in ver non più romano,</l>
+<l>ma né quanto il volevi era pur stolto.</l>
+<l>Imparasti in quel dì, che Roma un breve</l>
+<l>tiranno aver, ma un re non mai, potea.</l>
+<l>Che un cittadin non sei, tu il sai, pur troppo</l>
+<l>per la pace tua interna: esser tiranno</l>
+<l>pur ti pesa, anco il veggio: e a ciò non eri</l>
+<l>nato tu forse; or, s'io ti abborra, il vedi.</l>
+<l>Svela su dunque, ove tu il sappi, a noi,</l>
+<l>ed a te stesso in un, ciò ch'esser credi,</l>
+<l>ciò ch'esser speri. — Ove nol sappi, impara,</l>
+<l>tu dittator dal cittadino Bruto,</l>
+<l>ciò ch'esser merti. Cesare, un incarco,</l>
+<l>alto più assai di quel che assumi, avanza.</l>
+<l>Speme hai di farti l'oppressor di Roma;</l>
+<l>liberator fartene ardisci, e n'abbi</l>
+<l>certezza intera. — Assai ben scorgi, al modo</l>
+<l>con cui Bruto ti parla, che se pensi</l>
+<l>esser già fatto a noi signor, non io</l>
+<l>suddito a te per anco esser mi estimo.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l>Del temerario tuo parlar la pena,</l>
+<l part="I">in breve, io 'l giuro...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Or basti. — Io nell'udirvi</l>
+<l>sì lungamente tacito, non lieve</l>
+<l>prova novella ho di me dato; e, dove</l>
+<l>me signor d'ogni cosa io pur tenessi,</l>
+<l>non indegno il sarei; poich'io l'ardito</l>
+<l>licenzioso altrui parlare osava,</l>
+<l>non solo udir, ma provocare. A voi</l>
+<l>abbastanza pur libera non pare</l>
+<l>quest'adunanza ancor; benché d'oltraggi</l>
+<l>carco v'abbiate il dittator, che oltraggi</l>
+<l>può non udir, s'ei vuole. Al sol novello,</l>
+<l>lungi dal foro, e senza armate scorte</l>
+<l>che voi difendan dalla plebe, io, dunque</l>
+<l>entro alla curia di Pompeo v'invito</l>
+<l>a consesso più franco. Ivi, più a lungo,</l>
+<l>più duri ancora e più insultanti detti,</l>
+<l>udrò da voi: ma quivi, esser de' fermo</l>
+<l>il destino dei Parti. Ove ai più giovi,</l>
+<l>non io dissento, ch'ivi fermo a un tempo</l>
+<l>sia, ma dai più, di Cesare il destino.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CICERONE, CIMBRO</stage>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l>Securo asilo, ove di Roma i casi</l>
+<l part="I">trattar, non resta, altro che questo...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Ah! poco</l>
+<l>ne resta a dir; solo ad oprar ne avanza.</l>
+<l>In tuo nome invitati ho Cassio e Bruto</l>
+<l>a qui venirne; e qui saranno in breve.</l>
+<l>Nulla indugiar, fia il meglio; al sol novello</l>
+<l>corre (ahi pur troppo!) il suo periglio estremo</l>
+<l part="I">la patria nostra.</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l part="F">È ver, che indugio nullo</l>
+<l>più non ponendo egli al disegno iniquo,</l>
+<l>la baldanza di Cesare secura</l>
+<l>ogni indugio a noi toglie. Altro ei non vuole,</l>
+<l>che un esercito in armi; or, che convinto</l>
+<l>per prova egli è, che della compra plebe</l>
+<l>può men l'amore in suo favor, che il fero</l>
+<l>terror di tutti. Ei degli oltraggi nostri</l>
+<l>ride in suo cor; gridar noi lascia a vuoto:</l>
+<l>pur che l'esercito abbia: e n'ha certezza</l>
+<l>dalle più voci, che in senato ei merca.</l>
+<l>Di libertà le nostre ultime grida</l>
+<l>scontar faranne al suo ritorno ei poscia</l>
+<l>I romani guerrieri ai Parti incontro</l>
+<l>guida ei, per dar l'ultimo crollo a Roma,</l>
+<l>come a lei diè, del Reno in riva, i primi.</l>
+<l>Tropp'oltre, troppo, è omai trascorso: or tempo,</l>
+<l>anch'io il confesso, all'indugiar non havvi.</l>
+<l>Ma, come il de' buon cittadino, io tremo:</l>
+<l>rabbrividisco, in sol pensar, che forse</l>
+<l>da quanto stiam noi per risolver, pende</l>
+<l part="I">il destino di Roma.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Ecco venirne</l>
+<l part="I">Cassio ver noi.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>CASSIO, CICERONE, CIMBRO</stage>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Tardo venn'io? Ma pure,</l>
+<l part="I">non v'è per anco Bruto.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">In breve, ei giunge.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Me qui seguir volean molti de' nostri:</l>
+<l>ma i delatori, in queste triste mura,</l>
+<l>tanti son più che i cittadini omai,</l>
+<l>che a tormi appieno ogni sospetto, io volli</l>
+<l>solo affatto venirne. Alla severa</l>
+<l>virtù di Cimbro, e del gran Tullio al senno,</l>
+<l>e all'implacabil ira mia, sol basti</l>
+<l>aggiunger ora la sublime altezza</l>
+<l>dello sdegno di Bruto. Altro consiglio</l>
+<l>puossi unir mai, meglio temprato, ed atto</l>
+<l>quindi a meglio adoprarsi a pro di Roma?</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l>Deh, pur così voglian di Roma i Numi!</l>
+<l>Io, quant'è in me, presto a giovar di tutto</l>
+<l>sono alla patria mia: duolmi, che solo</l>
+<l>debile un fiato di non verde etade</l>
+<l>mi resti a dar per essa. Omai, con mano</l>
+<l>poco oprar può la consunta mia forza;</l>
+<l>ma, se con lingua mai liberi audaci</l>
+<l>sensi, o nel foro, o nel senato, io porsi;</l>
+<l>più che il mai fossi, intrepid'oggi udrammi</l>
+<l>Roma tuonar liberi accenti: Roma,</l>
+<l>a cui, se estinta infra suoi ceppi or cade,</l>
+<l>né sopravviver pur d'un giorno, io giuro.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Vero orator di libertà tu sempre</l>
+<l>eri, e sublime il tuo parlar, fea forza</l>
+<l>a Roma spesso: ma, chi omai rimane</l>
+<l>degno di udirti? Od atterriti, o compri</l>
+<l>son tutti omai; né intenderebber pure</l>
+<l part="I">sublimi tuoi sensi...</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l part="F">Il popol nostro,</l>
+<l>benché non più romano, è popol sempre:</l>
+<l>e sia ogni uomo per sé, quanto più il puote,</l>
+<l>corrotto e vile, i più si cangian, tosto</l>
+<l>che si adunano i molti: io direi quasi,</l>
+<l>che in comun puossi a lor prestar nel foro</l>
+<l>alma tutt'altra, appien diversa in tutto,</l>
+<l>da quella c'ha fra i lari suoi ciascuno.</l>
+<l>Il vero, il falso, ira, pietà, dolore,</l>
+<l>ragion, giustizia, onor, gloria per anco;</l>
+<l>affetti son, che in cor si ponno</l>
+<l>destar d'uomini molti (quai ch'ei sieno)</l>
+<l>dall'uom che in cor, come fra' labri, gli abbia</l>
+<l>tutti davvero. Ove pur vaglian detti</l>
+<l>forti, liberi, ardenti, io non indarno</l>
+<l>oggi salir spero in ringhiera; e voglio</l>
+<l>ivi morir, s'è d'uopo. — Al poter rio</l>
+<l>di quel Cesare stesso, onde or si trema,</l>
+<l>quale origine base ei stesso dava?</l>
+<l>La opinion dei più. Col brando ei doma,</l>
+<l>le Gallie, è ver; ma con la lingua ei doma,</l>
+<l>coi lusinghieri artificiosi accenti,</l>
+<l>le sue legion da prima, e in parte poscia</l>
+<l>il popol anco: ei sol, né spegner tutti,</l>
+<l>né comprar tutti allor potea: far servi</l>
+<l>ben tutti or può quei che ingannati ha pria.</l>
+<l>E noi del par con lingua non potremmo</l>
+<l>disingannare, illuminar, far sani,</l>
+<l>e gl'intelletti e i cuori? Infra il mio dire,</l>
+<l>e il favellar del dittator tiranno,</l>
+<l>sta la forza per lui, per me sta il vero:</l>
+<l>se mi si presta orecchio, ancor pur tanto</l>
+<l>mi affido io, sì, nel mio sublime tema,</l>
+<l>ch'armi non curo. A orecchi e cor, già stati</l>
+<l>romani un dì, giunger può voce ancora,</l>
+<l>che romani per breve almen li torni.</l>
+<l>Svelato appien, Cesare vinto è appieno.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Dubbio non v'ha: se ti ascoltasse Roma,</l>
+<l>potria il maschio tuo dir tornarla in vita:</l>
+<l>ma, s'anco tu scegliessi, generoso,</l>
+<l>di ascender solo, e di morir su i rostri,</l>
+<l>ch'or son morte a chi il nome osa portarvi</l>
+<l>di libertà; s'anco tu sol ciò ardissi;</l>
+<l>tolto pur sempre dalle infami grida</l>
+<l>di prezzolata vil genìa ti fora,</l>
+<l>l'esser udito. Ella omai sola tiene</l>
+<l>del foro il campo, e ogni dritt'uom sbandisce.</l>
+<l>Non è più al Tebro Roma: armi, e virtudi,</l>
+<l>e cittadini, or ricercar si denno</l>
+<l>nelle estreme provincie. A guerra aperta</l>
+<l>duro assai troppo è il ritornar; ma pace</l>
+<l>pur non è questa. I pravi umor, che tanti</l>
+<l>tra viva e morta opprimon Roma, è forza</l>
+<l>(pur troppo!) ancor col sangue ripurgarli.</l>
+<l>Romano al certo era Catone; e il sangue</l>
+<l>dei cittadini spargere abborriva;</l>
+<l>pur, quel giusto de' giusti anco il dicea:</l>
+<l>«Dall'armi nata, e omai dall'armi spenta,</l>
+<l>non può riviver che dall'armi, Roma».</l>
+<l>Ch'altro a far ne rimane? O Roma è vinta,</l>
+<l>e con lei tutti i cittadin veraci</l>
+<l>cadono; o vince, e annichiliti spersi</l>
+<l>sono, o cangiati, i rei. Cesare forse</l>
+<l>la vittoria allacciò? sconfitto ei venga</l>
+<l>solo una volta; e la sua stessa plebe,</l>
+<l>convinta che invincibile ei non era,</l>
+<l>conoscerallo allora; a un grido allora</l>
+<l>tutti ardiran tiranno empio nomarlo,</l>
+<l part="I">e come tal proscriverlo.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Proscritto</l>
+<l>perché non pria da noi? Da un popol vile</l>
+<l>tal sentenza aspettiam, qualor noi darla,</l>
+<l>quando eseguirla il possiam noi primieri?</l>
+<l>Fin che ad arbitrio nostro, a Roma in mezzo,</l>
+<l>entro a sue case, infra il senato istesso,</l>
+<l>possiam combatter Cesare, e compiuta</l>
+<l>noi riportarne palma; in campo, a costo</l>
+<l>di tante vite della sua men empie,</l>
+<l>a pugna iniqua ei provocar dovrassi,</l>
+<l>e forse per non vincerlo? Ove un brando,</l>
+<l>questo mio solo, e la indomabil ira</l>
+<l>che snudar mel farà, bastano, e troppo</l>
+<l>fiano, a troncar quella sprezzabil vita,</l>
+<l>che Roma or tutta indegnamente in pianto</l>
+<l>tiene allacciata e serva; ove non altro</l>
+<l>a trucidar qual sia il tiranno vuolsi,</l>
+<l>che solo un brando, ed un Roman che il tratti;</l>
+<l>perché, perché, tanti adoprarne? — Ah! segga</l>
+<l>altri a consiglio, e ponderi, e discùta,</l>
+<l>e ondeggi, e indugi, infin che manchi il tempo:</l>
+<l>io tra i mezzi il miglior stimo il più breve:</l>
+<l>or più, di tanto, che il più breve a un tratto</l>
+<l>fia 'l più ardito, il più nobile, il più certo.</l>
+<l>Degno è di Roma il trucidar quest'uno</l>
+<l>apertamente; e di morir pur merta,</l>
+<l>di man di Cassio, Cesare. All'altrui</l>
+<l>giusto furor lascio il punir l'infame</l>
+<l>servo-console Antonio. — Ecco, vien Bruto:</l>
+<l>udiam, udiam, s'ei dal mio dir dissenta.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>BRUTO, CICERONE, CASSIO, CIMBRO</stage>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l>Sì tardo giunge a cotant'alto affare</l>
+<l part="I">Bruto?...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ah! primiero io vi giungea, se tolto</l>
+<l part="I">finor non m'era...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="M">E da chi mai?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Pensarlo,</l>
+<l>nullo il potria di voi. Parlarmi a lungo</l>
+<l part="I">volle Antonio finora.</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l part="M">Antonio?</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">E il vile</l>
+<l>satellite di Cesare otteneva</l>
+<l part="I">udienza da Bruto?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ebbela, e in nome</l>
+<l>del suo Cesare stesso. Egli abboccarsi</l>
+<l>vuol meco, ad ogni patto: a lui venirne</l>
+<l part="I">m'offre, s'io il voglio; o ch'egli a me...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Certo, ebbe</l>
+<l part="I">da te ripulsa...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">No. Cesare amico,</l>
+<l>al cor mio schietto or più terror non reca,</l>
+<l>che Cesare nemico. Udirlo io quindi</l>
+<l>voglio, e fra breve, e in questo tempio stesso.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="I">Ma, che mai vuol da te?</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Comprarmi; forse.</l>
+<l>Ma in Bruto ancor, voi vi affidate, io spero.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="I">Più che in noi stessi.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Affidan tutti in Bruto;</l>
+<l part="I">anco i più vili.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E a risvegliarmi, in fatti,</l>
+<l>(quasi io dormissi) infra' miei passi io trovo</l>
+<l>disseminati incitatori avvisi:</l>
+<l>brevi, forti, romani; a me di laude</l>
+<l>e biasmo in un, come se lento io fossi</l>
+<l>a ciò che vuol Roma da me. Nol sono;</l>
+<l part="I">ed ogni spron mi è vano.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Ma, che speri</l>
+<l part="I">dal favellar con Cesare?...</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l part="F">Cangiarlo</l>
+<l part="I">tu speri forse...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E piacemi, che il senno</l>
+<l>del magnanimo Tullio, al mio disegno</l>
+<l part="I">si apponga in parte.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Oh! che di' tu? Noi tutti,</l>
+<l>lungamente aspettandoti, qui esposto</l>
+<l>abbiamo a lungo il parer nostro: un solo</l>
+<l>fummo in Cesare odiar, nell'amar Roma,</l>
+<l>e nel voler morir per lei: ma fummo</l>
+<l>tre diversi nel modo. Infra il tornarne</l>
+<l>alla civile guerra; o il popol trarre</l>
+<l>d'inganno, e all'armi; o col privato ferro</l>
+<l>svenar Cesare in Roma; or di', qual fora</l>
+<l part="I">il partito di Bruto?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Il mio? — Nessuno,</l>
+<l>per or, di questi. Ove fia vano poscia</l>
+<l part="I">il mio, scerrò pur sempre il terzo.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Il tuo?</l>
+<l part="I">E qual altro ne resta?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">A voi son noto:</l>
+<l>parlar non soglio invan: piacciavi udirmi. —</l>
+<l>Per sanarsi in un giorno, inferma troppo</l>
+<l>è Roma ormai. Puossi infiammar la plebe,</l>
+<l>ma per breve, a virtù; che mai coll'oro</l>
+<l>non si tragge al ben far, come coll'oro</l>
+<l>altri a viltà la tragge. Esser può compra</l>
+<l>la virtù vera, mai? Fallace base</l>
+<l>a libertà novella il popol guasto</l>
+<l>sarebbe adunque. Ma, il senato è forse</l>
+<l>più sano? annoverar si pon gli schietti;</l>
+<l>odian Cesare in core i rei pur anco,</l>
+<l>non perch'ei toglie libertade a tutti</l>
+<l>ma perché a lor, tiranno unico, ei toglie</l>
+<l>d'esser tiranni. A lui succeder vonno;</l>
+<l part="I">lo abborriscon perciò.</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l part="F">Così non fosse</l>
+<l part="I">come vero è, pur troppo!</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ir cauto il buono</l>
+<l>cittadin debbe, infra bruttura tanta,</l>
+<l>per non far peggio. Cesare è tiranno;</l>
+<l>ma non sempre lo è stato. Il vil desio</l>
+<l>d'esser pieno signore, in cor gli sorge</l>
+<l>da non gran tempo: e il vile Antonio, ad arte,</l>
+<l>inspirando gliel va, per trarlo forse</l>
+<l>a sua rovina, e innalzar sé sovr'esso.</l>
+<l part="I">Tali amici ha il tiranno.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Innata in petto</l>
+<l>la iniqua brama di regnar sempr'ebbe</l>
+<l part="I">Cesare...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">No; non di regnar: mai tanto</l>
+<l>non osava ei bramare. Or tu l'estimi</l>
+<l>più grande, e ardito, che nol fosse ei mai.</l>
+<l>Necessità di gloria, animo ardente,</l>
+<l>anco il desir non alto di vendetta</l>
+<l>dei privati nemici, e in fin più ch'altro,</l>
+<l>l'occasion felice, ivi l'han spinto,</l>
+<l>dove giunge ora attonito egli stesso</l>
+<l>del suo salire. Entro il suo cuor può ancora</l>
+<l>desio d'onor, più che desio di regno.</l>
+<l>Provar vel deggio? Or, non disegna ei forse</l>
+<l>d'ir contra i Parti, e abbandonar pur Roma,</l>
+<l part="I">ove tanti ha nemici?</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Ei mercar spera</l>
+<l>con l'alloro dei Parti il regio serto.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Dunque a virtù, più assai che a forza, ei vuole</l>
+<l>del regio serto esser tenuto: ei dunque</l>
+<l part="I">ambizioso è più che reo...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Sue laudi</l>
+<l part="I">a noi tu intessi?...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Udite il fine. — Ondeggia</l>
+<l>Cesare ancora infra se stesso; ei brama</l>
+<l>la gloria ancor; non è dunqu'egli in core</l>
+<l>perfetto ancor tiranno: ma, ei comincia</l>
+<l>a tremar pure, e finor non tremava;</l>
+<l>vero tiranno ei sta per esser dunque.</l>
+<l>Timor lo invase, ha pochi dì, nel punto</l>
+<l>che il venduto suo popolo ei vedea</l>
+<l>la corona negargli. Ma, qual sia,</l>
+<l>non è sprezzabil Cesare, né indegno</l>
+<l>ch'altri a lui schiuda al ravvedersi strada.</l>
+<l>Io per me deggio, o dispregiar me stesso,</l>
+<l>o lui stimar; poiché pur volli a lui</l>
+<l>esser tenuto io della vita, il giorno</l>
+<l>ch'io ne' campi farsalici in sue mani</l>
+<l>vinto cadeva. Io vivo; e assai gran macchia</l>
+<l>è il mio vivere a Bruto; ma saprolla</l>
+<l>io scancellar, senza esser vil, né ingrato.</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l>Dell'armi è tal spesso la sorte: avresti</l>
+<l>tu, se il vincevi, la vittoria seco</l>
+<l>pure usata così. Non ebbe in dono</l>
+<l>Cesare stesso anch'ei sua vita, a Roma</l>
+<l>or sì fatale? in don la vita anch'egli,</l>
+<l>per grazia espressa, e vieppiù espresso errore,</l>
+<l part="I">non ricevea da Silla?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">È vero; eppure</l>
+<l>mai non mi scordo i benefici altrui:</l>
+<l>ma il mio dover, e la mia patria a un tempo,</l>
+<l>in cor ben fitti io porto. A Bruto, in somma,</l>
+<l>Cesare è tal, che dittator tiranno,</l>
+<l>(qual è, qual fassi ogni dì più) nol vuole</l>
+<l>Bruto lasciare a patto nullo in vita;</l>
+<l>e vuol svenarlo, o esser svenato ei stesso...</l>
+<l>Ma, tale in un Cesare a Bruto appare,</l>
+<l>che libertade, e impero, e nerbo, e vita</l>
+<l>render, per ora, ei solo il puote a Roma,</l>
+<l>s'ei cittadin ritorna. È della plebe</l>
+<l>l'idolo già; norma divenga ai buoni;</l>
+<l>faccia de' rei terrore esser le leggi:</l>
+<l>e, finché torni al prisco stato il tutto,</l>
+<l>dal disfar leggi al custodirle sia</l>
+<l>il suo poter converso. Ei d'alti sensi</l>
+<l>nacque; ei fu cittadino: ancor di fama</l>
+<l>egli arde: è cieco, sì; ma tal lo han fatto</l>
+<l>sol la prospera sorte, e gli empi amici,</l>
+<l>che fatto gli hanno della gloria vera</l>
+<l>l'orme smarrire. O che il mio dire è un nulla;</l>
+<l>o ch'io parole sì incalzanti e calde</l>
+<l>trar dal mio petto, e sì veraci e forti</l>
+<l>ragion tremende addur saprogli, e tante,</l>
+<l>ch'io sì, sforzar Cesare spero; e farlo</l>
+<l>grande davvero, e di virtù sì pura,</l>
+<l>ch'ei sia d'ogni uom, d'ogni Romano, il primo;</l>
+<l>senza esser più che un cittadin di Roma.</l>
+<l>Sol che sua gloria a Roma giovi, innanzi</l>
+<l>io la pongo alla mia: ben salda prova</l>
+<l>questo disegno mio, parmi, saranne. —</l>
+<l>Ma, se a Cesare or parla indarno Bruto,</l>
+<l>tu il vedi, o Cassio con me sempre io 'l reco;</l>
+<l>ecco il pugnal, ch'a uccider lui fia ratto,</l>
+<l part="I">più che il tuo brando...</l>
+</sp>
+<sp><speaker><emph>Cicerone</emph></speaker>
+<l part="F">Oh cittadin verace!</l>
+<l>Grande sei troppo tu; mal da te stesso</l>
+<l>tu puoi conoscer Cesare tiranno.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Sublime Bruto, una impossibil cosa,</l>
+<l>ma di te degna, in mente volgi; e solo</l>
+<l>tentarla puoi. Non io mi oppongo: ah! trarti</l>
+<l>d'inganno appien, Cesare solo il puote.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Far d'un tiranno un cittadino? O Bruto,</l>
+<l>questa tua speme generosa, è prova</l>
+<l>ch'esser tu mai tiranno non potresti.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Chiaro in breve fia ciò: d'ogni oprar mio</l>
+<l>qui poi darovvi pieno conto io stesso. —</l>
+<l>Ov'io vano orator perdente n'esca,</l>
+<l>tanto più acerbo feritor gagliardo</l>
+<l>a' cenni tuoi, Cassio, mi avrai; tel giuro.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CESARE, ANTONIO</stage>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l>Cesare, sì; fra poco a te vien Bruto</l>
+<l>in questo tempio stesso, ove a te piacque</l>
+<l>gli arroganti suoi sensi udir pur dianzi,</l>
+<l>e tollerarli. Il riudrai fra breve</l>
+<l part="I">da solo a sol, poiché tu il vuoi.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ten sono</l>
+<l>tenuto assai: lieve non era impresa</l>
+<l>il piegar Bruto ad abboccarsi or meco;</l>
+<l>né ad altri mai, fuorché ad Antonio, darne</l>
+<l part="I">osato avrei lo incarco.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Oh! quanto duolmi,</l>
+<l>che a' detti miei tu sordo ognor, ti ostini</l>
+<l>in sopportar codesto Bruto! Il primo</l>
+<l>de' tuoi voler fia questo, a cui si arrenda</l>
+<l>di mala voglia Antonio. In suon d'amico</l>
+<l>pregar pur volli, e in nome tuo, colui,</l>
+<l>che mortal tuo nemico a certa prova</l>
+<l>esser conosco, e come tale abborro.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>Odian Cesare molti: eppur, sol uno</l>
+<l>nemico io conto, che di me sia degno:</l>
+<l part="I">e Bruto egli è.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Quindi or, non Bruto solo,</l>
+<l>ma Bruto prima, e i Cassi, e i Cimbri poscia,</l>
+<l>e i Tulli, e tanti uccider densi, e tanti.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>Quant'alto è più, quanto più acerbo e forte</l>
+<l>il nemico, di tanto a me più sempre</l>
+<l>piacque il vincerlo; e il fea, più che con l'armi,</l>
+<l>spesso assai col perdono. Ai queti detti</l>
+<l>ricorrer, quando adoprar puossi il ferro;</l>
+<l>persuader, convincere, far forza</l>
+<l>a un cor pien d'odio, e farsi essere amico</l>
+<l>l'uomo, a cui torre ogni esser puossi; ah! questa</l>
+<l>contro a degno nemico è la vendetta</l>
+<l part="I">la più illustre; e la mia.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Cesare apprenda</l>
+<l>sol da se stesso ad esser grande: il fea</l>
+<l>natura a ciò: ma il far securi a un tempo</l>
+<l>Roma e sé, da chi gli ama ambo del pari</l>
+<l>oggi ei l'apprenda: e sovra ogni uom, quell'uno</l>
+<l>son io. Non cesso di ridirti io mai,</l>
+<l>che se Bruto non spegni, in ciò ti preme</l>
+<l>più assai la vana tua gloria privata,</l>
+<l>che non la vera della patria; e poco</l>
+<l>mostri curar la securtà di entrambi.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>E atterrir tu con vil sospetto forse</l>
+<l part="I">Cesare vuoi?</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Se non per sé, per Roma</l>
+<l>tremar ben può Cesare anch'egli, e il debbe.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>Morir per Roma, e per la gloria ei debbe;</l>
+<l>non per sé mai tremar, né mai per essa.</l>
+<l>Vinti ho di Roma io gl'inimici in campo;</l>
+<l>quei soli eran di Cesare i nemici.</l>
+<l>Tra quei che il ferro contro a lei snudaro,</l>
+<l>un d'essi è Bruto; io già coll'armi in mano</l>
+<l>preso l'ebbi, e perire allor nol fea</l>
+<l>col giusto brando della guerra; ed ora</l>
+<l>fra le mura di Roma, inerme (oh cielo!)</l>
+<l>col reo pugnal di fraude, o con la ingiusta</l>
+<l>scure, il farei trucidar io? Non havvi</l>
+<l>ragion, che trarmi a eccesso tal mai possa:</l>
+<l>s'anco il volessi, ... ah! forse... io nol... potrei. —</l>
+<l>Ma in somma, ai tanti mie' trionfi manca</l>
+<l>quello ancora dei Parti, e quel di Bruto:</l>
+<l>questo all'altro fia scala. Amico farmi</l>
+<l>Bruto voglio, a ogni costo. Il far vendetta</l>
+<l>del trucidato Crasso, a tutto innanzi</l>
+<l>per ora io pongo; e può giovarmi assai</l>
+<l>Bruto all'impresa, in cui riposta a un tempo</l>
+<l>fia la gloria di Cesare e di Roma.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="I">Puoi tu accrescerti fama?</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ove da farsi</l>
+<l>altro più resta, il da me fatto io stimo</l>
+<l>un nulla: è tal l'animo mio. Mi tragge</l>
+<l>or contra il Parto irresistibil forza.</l>
+<l>Vivo me, Roma rimanersi vinta?</l>
+<l>Ah! mille volte pria Cesare pera. —</l>
+<l>Ma, di discordie, e d'atri umor perversi,</l>
+<l>piena lasciar pur la città non posso,</l>
+<l>mentre in Asia guerreggio: né lasciarla</l>
+<l>piena di sangue e di terror vorrei;</l>
+<l>benché a frenarla sia tal mezzo il certo.</l>
+<l part="I">Bruto può sol tutto appianarmi...</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">E un nulla</l>
+<l part="I">reputi Antonio dunque?</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">— Di me parte</l>
+<l>sei tu nelle guerriere imprese mie:</l>
+<l>quindi terror dei Parti anche te voglio</l>
+<l>al fianco mio. Giovarmi in altra guisa</l>
+<l part="I">di Bruto io penso.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Io ogni guisa io presto</l>
+<l>sono a servirti; e il sai. Ma, cieco troppo</l>
+<l part="I">sei, quanto a Bruto.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Assai più cieco è forse</l>
+<l>ei quanto a me. Ma il dì fia questo, io spero,</l>
+<l>che il potrò tor d'inganno: oggi mi è forza</l>
+<l part="I">ciò almen tentare...</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="M">Eccolo appunto.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Or, seco</l>
+<l part="I">lasciami; in breve a te verronne.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Appieno,</l>
+<l>deh! tu d'inganno trar te stesso possa;</l>
+<l>e in tempo ancor conoscer ben costui!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>BRUTO, CESARE</stage>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Cesare, antichi noi nemici siamo:</l>
+<l>ma il vincitor sei tu finora, ed anco</l>
+<l>il più felice sembri. Io, benché il vinto</l>
+<l>paia, di te men misero pur sono.</l>
+<l>Ma, qual che il nostro animo sia, battuta,</l>
+<l>vinta, egra, oppressa, moribonda, è Roma.</l>
+<l>Pari desir, cagion diversa molto,</l>
+<l>tratti qui ci hanno ad abboccarci. A dirmi</l>
+<l>gran cose hai tu, se Antonio il ver narrommi;</l>
+<l>ed io pure alte cose a dirti vengo,</l>
+<l part="I">se ascoltarle tu ardisci.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ancor che Bruto</l>
+<l>stato sia sempre a me nemico, a Bruto</l>
+<l>non l'era io mai, né il son; né, se il volessi,</l>
+<l>esserlo mai potrei. Venuto io stesso</l>
+<l>a favellarti in tua magion saria;</l>
+<l>ma temea, che ad oltraggio tel recassi;</l>
+<l>Cesare osarne andar, dove consorte</l>
+<l>a Bruto sta del gran Caton la suora:</l>
+<l>quind'io con preghi a qui venirne invito</l>
+<l>ti fea. — Me sol, senza littori, e senza</l>
+<l>pompa nessuna, vedi; in tutto pari</l>
+<l>a Bruto; ove pur tale ei me non sdegni.</l>
+<l>Qui non udrai, né il dittator di Roma,</l>
+<l part="I">né il vincitor del gran Pompeo...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Corteggio</l>
+<l>sol di Cesare degno, è il valor suo:</l>
+<l>e vieppiù quando ei si appresenta a Bruto. —</l>
+<l>Felice te, se addietro anco tu puoi,</l>
+<l>come le scuri ed i littor, lasciarti</l>
+<l>ed i rimorsi e il perpetuo terrore,</l>
+<l part="I">di un dittator perpetuo!</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Terrore?</l>
+<l>Non che al mio cor, non è parola questa,</l>
+<l part="I">nota pure al mio orecchio.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ignota ell'era</l>
+<l>al gran Cesare in campo invitto duce;</l>
+<l>non l'è a Cesare in Roma, ora per forza</l>
+<l>suo dittatore. È generoso troppo,</l>
+<l>per negarmelo. Cesare: e, senz'onta,</l>
+<l>può confessarlo a Bruto. Osar ciò dirmi,</l>
+<l>di tua stessa grandezza è assai gran parte.</l>
+<l>Franchi parliam: degno è d'entrambi. — Ai molti</l>
+<l>incuter mai timor non puote un solo,</l>
+<l>senza ei primo tremare. Odine, in prova</l>
+<l>qual sia ver me il tuo stato. Uccider Bruto,</l>
+<l>senza contrasto il puoi: sai, ch'io non t'amo;</l>
+<l>sai, che a tua iniqua ambizione inciampo</l>
+<l>esser poss'io: ma pur, perché nol fai?</l>
+<l>Perché temi, che a te più danno arrechi</l>
+<l>l'uccidermi ora. Favellarmi, intanto,</l>
+<l>e udirmi vuoi, perché il timor ti è norma</l>
+<l>unica omai; né il sai tu stesso forse;</l>
+<l part="I">o di saperlo sfuggi.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ingrato! ... e il torre</l>
+<l>di Farsaglia nei campi a te la vita,</l>
+<l part="I">forse in mia man non stette?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ebro tu allora</l>
+<l>di gloria, e ancor della battaglia caldo,</l>
+<l>eri grande: e per esserlo sei nato:</l>
+<l>ma qui, te di te stesso fai minore,</l>
+<l>ogni dì più. — Ravvediti; conosci,</l>
+<l>che tu, freddo pacifico tiranno</l>
+<l part="I">mai non nascesti, io te l'affermo...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Eppure,</l>
+<l>misto di oltraggi il tuo laudar mi piace.</l>
+<l>T'amo; ti estimo: io vorrei solo al mondo</l>
+<l>esser Bruto, s'io Cesare non fossi.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Ambo esser puoi; molto aggiungendo a Bruto,</l>
+<l>nulla togliendo a Cesare: ten vengo</l>
+<l>a far l'invito io stesso. In te sta solo</l>
+<l>l'esser grande davvero: oltre ogni sommo</l>
+<l>prisco Romano, essere tu il puoi: fia il mezzo</l>
+<l>semplice molto; osa adoprarlo: io primo</l>
+<l>te ne scongiuro; e di romano pianto,</l>
+<l>in ciò dirti, mi sento umido il ciglio... —</l>
+<l>Ma, tu non parli? Ah! tu ben sai, qual fora</l>
+<l>l'alto mio mezzo: in cor tu 'l senti, il grido</l>
+<l>di verità, che imperiosa tuona.</l>
+<l>Ardisci, ardisci; il laccio infame scuoti,</l>
+<l>che ti fa nullo a' tuoi stessi occhi; e avvinto</l>
+<l>ti tiene, e schiavo, più che altrui non tieni.</l>
+<l>A esser Cesare impara oggi da Bruto.</l>
+<l>S'io di tua gloria invido fossi, udresti</l>
+<l>or me pregarti ad annullar la mia?</l>
+<l>Conosco il ver; me non lusingo: in Roma,</l>
+<l>a te minor di dignitade, e d'anni,</l>
+<l>e di possanza, e di trionfi, io sono,</l>
+<l>come di fama. Se innalzarsi il nome</l>
+<l>di Bruto può col proprio volo, il puote</l>
+<l>soltanto omai su la rovina intera</l>
+<l>del nome tuo. Sommessa odo una voce,</l>
+<l>timida, e quindi non romana affatto,</l>
+<l>Bruto appellar liberator di Roma,</l>
+<l>come oppressor ten chiama. A farmi io tale,</l>
+<l>ch'io ti sconfigga, o ch'io ti spenga, è d'uopo.</l>
+<l>Lieve il primo non è; più che nol credi</l>
+<l>lieve il secondo: e, se a me sol pensassi,</l>
+<l>tolto il signor già mi sarei: ma penso,</l>
+<l>romano, a Roma; e sol per essa io scelgo</l>
+<l>di te pregar, quando te uccider debbo,</l>
+<l>Cesare, ah! sì, tu cittadin tornarne</l>
+<l>a forza dei, da me convinto. A Roma</l>
+<l>tu primo puoi, tu sol, tu mille volte</l>
+<l>più il puoi di Bruto, a Roma render tutto;</l>
+<l>pace, e salvezza, e gloria, e libertade:</l>
+<l>quanto le hai tolto, in somma. Ancor per breve</l>
+<l>tu cittadin tua regia possa adopra,</l>
+<l>nel render forza alle abbattute leggi,</l>
+<l>nel tor per sempre a ogni uom l'ardire e i mezzi</l>
+<l>d'imitarti tiranno; e hai tolto a un tempo</l>
+<l>a ogni uom, per quanto ei sia roman, l'ardire</l>
+<l>di pareggiarti cittadino. — Or, dimmi:</l>
+<l>ti estimi tu minor di Silla? Ei, reo</l>
+<l>più assai di te, più crudo, di più sangue</l>
+<l>bagnato e sazio; ei, cittadin pur anco</l>
+<l>farsi ardiva, e fu grande. Oh! quanto il fora</l>
+<l>Cesare più, che di possanza è giunto</l>
+<l>oltre a Silla di tanto! Altra, ben altra</l>
+<l>fia gloria a te, se tu spontaneo rendi</l>
+<l>a chi si aspetta, ciò che possa ed arte</l>
+<l>ti dier; se sai meglio apprezzar te stesso;</l>
+<l>se togli, in somma, che in eterno in Roma</l>
+<l>nullo Cesare mai, né Silla, rieda.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>— Sublime ardente giovine; il tuo ratto</l>
+<l>forte facondo favellar, pur troppo!</l>
+<l>vero è fors'anche. Ignota forza al core</l>
+<l>mi fan tuoi detti; e allora che a me ti chiami</l>
+<l>minore, io 'l sento, ad onta mia, di quanto</l>
+<l>maggior mi sei. Ma, il confessarlo io primo,</l>
+<l>e il non n'essere offeso, e il non odiarti</l>
+<l>sicure prove esser ti denno, e immense,</l>
+<l>che un qualche strano affetto io pur nudrisco</l>
+<l>per te nel seno. — A me sei caro, il credi;</l>
+<l>e molto il sei. — Ciò ch'io di compier, tempo</l>
+<l>omai non ho, meglio da te compiuto</l>
+<l>vo' ch'ei sia, dopo me. Lascia, ch'io aggiunga</l>
+<l>a' miei trionfi i debellati Parti:</l>
+<l>ed io contento muoio. In campo ho tratto</l>
+<l>di mia vita gran parte; il campo tomba</l>
+<l>mi fia sol degna. Ho tolta, è vero, in parte</l>
+<l>la libertà, ma in maggior copia ho aggiunto</l>
+<l>gloria a Roma, e possanza: al cessar mio,</l>
+<l>ammenderai di mie vittorie all'ombra</l>
+<l>tu, Bruto, i danni, ch'io le fea. Secura</l>
+<l>posare in me più non può Roma: il bene</l>
+<l>ch'io vorrei farle, avvelenato ognora</l>
+<l>fia dal mal che le ho fatto. Io quindi ho scelto,</l>
+<l>in mio pensiero, alle sue interne piaghe</l>
+<l>te sanatore: integro sempre, e grande,</l>
+<l>stato sei tu: meglio di me, puoi grandi</l>
+<l>far tu i Romani, ed integri tornarli.</l>
+<l>Io, qual padre, ti parlo;... e, più che figlio,</l>
+<l part="I">o Bruto mio, mi sei.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">... Non m'è ben chiaro</l>
+<l>questo tuo favellare. A me non puote</l>
+<l>in guisa niuna mai toccar la ingiusta</l>
+<l>sterminata tua possa. E che? tu parli</l>
+<l>di Roma già, quasi d'un tuo paterno</l>
+<l part="I">retaggio?...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ah! m'odi. — A te più omai non posso</l>
+<l>nasconder cosa, che a te nota, or debbe</l>
+<l part="I">cangiarti affatto in favor mio.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Cangiarmi</l>
+<l>puoi, se ti cangi; e se te stesso vinci;</l>
+<l part="I">trionfo sol, che a te rimanga...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Udito</l>
+<l part="I">che avrai l'arcano, altro sarai.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Romano</l>
+<l part="I">sarò pur sempre. Ma, favella.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">... O Bruto,</l>
+<l>nel mio contegno teco, e ne' miei sguardi,</l>
+<l>e ne' miei detti, e nel tacer mio stesso,</l>
+<l>di', non ti par che un smisurato affetto</l>
+<l part="I">per te mi muova e mi trasporti?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">È vero;</l>
+<l>osservo in te non so qual moto; e parmi</l>
+<l>d'uom più assai, che di tiranno: e finto</l>
+<l>creder nol posso; e schietto, attribuirlo</l>
+<l part="I">a che non so.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">... Ma tu, per me quai senti</l>
+<l part="I">moti entro al petto?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ah! mille: e invidia tranne,</l>
+<l>tutti per te provo a vicenda i moti.</l>
+<l>Dir non li so; ma, tutti in due gli stringo:</l>
+<l>se tiranno persisti, ira ed orrore;</l>
+<l>s'uom tu ritorni e cittadino, immenso</l>
+<l>m'inspiri amor di maraviglia misto.</l>
+<l part="I">Qual vuoi dei due da Bruto?</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Amore io voglio:</l>
+<l>e a me tu il dei... Sacro, infrangibil nodo</l>
+<l part="I">a me ti allaccia.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="M">A te? qual fia?...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Tu nasci</l>
+<l part="I">vero mio figlio.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="M">Oh ciel! che ascolto?...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ah! vieni,</l>
+<l part="I">figlio, al mio seno...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="M">Esser potria?...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Se forse</l>
+<l>a me nol credi, alla tua madre istessa</l>
+<l>il crederai. Questo è un suo foglio; io l'ebbi</l>
+<l>in Farsaglia, poche ore anzi alla pugna.</l>
+<l>Mira; a te nota è la sua mano: ah! leggi.</l>
+</sp>
+<sp><speaker><emph>Bruto<note resp="aut" place="foot" anchored="yes">Legge il foglio</note></emph></speaker>
+<l>«Cesare (oh ciel!) stai per combatter forse,</l>
+<l>Pompeo non pure, e i cittadini tuoi,</l>
+<l>ma il tuo proprio figliuolo. È Bruto il frutto</l>
+<l>de' nostri amori giovenili. È forza,</l>
+<l>ch'io te lo sveli; a ciò null'altro trarmi</l>
+<l>mai non potrebbe, che il timor di madre.</l>
+<l>Inorridisci, o Cesare; sospendi,</l>
+<l>se ancor n'è tempo, il brando: esser tu ucciso</l>
+<l>puoi dal tuo figlio; o di tua man tu stesso</l>
+<l>puoi trucidarlo. Io tremo... Il ciel, deh! voglia,</l>
+<l>che udito in tempo abbiami un padre!... Io tremo...</l>
+<l>Servilia.» — Oh colpo inaspettato e fero!</l>
+<l part="I">Io di Cesare figlio?</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ah! sì, tu il sei.</l>
+<l part="I">Deh! fra mie braccia vieni.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Oh padre!... Oh Roma!</l>
+<l>Oh natura!... Oh dover!... — Pria d'abbracciarti,</l>
+<l>mira, a' tuoi piè prostrato Bruto cade;</l>
+<l>né sorgerà, se in te di Roma a un tempo</l>
+<l part="I">ei non abbraccia il padre.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ah! sorgi, o figlio. —</l>
+<l>Deh! come mai sì gelido e feroce</l>
+<l>rinserri il cor, che alcun privato affetto</l>
+<l part="I">nulla in te possa?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E che? credi or tu forse</l>
+<l>d'amar tuo figlio? Ami te stesso; e tutto</l>
+<l>serve in tuo core al sol desio di regno.</l>
+<l>Mostrati, e padre, e cittadin; che padre</l>
+<l>non è tiranno mai: deh! tal ti mostra;</l>
+<l>e un figlio in me ritroverai. La vita</l>
+<l>dammi due volte: io schiavo, esser nol posso;</l>
+<l>tiranno, esser nol voglio. O Bruto è figlio</l>
+<l>di liber'uom, libero anch'egli, in Roma</l>
+<l>libera: o Bruto, esser non vuole. Io sono</l>
+<l>presto a versar tutto per Roma il sangue;</l>
+<l>e in un per te, dove un Roman tu sii,</l>
+<l>vero di Bruto padre... Oh gioia! io veggo</l>
+<l>sul tuo ciglio spuntare un nobil pianto?</l>
+<l>Rotto è del cor l'ambizioso smalto;</l>
+<l>padre or tu sei. Deh! di natura ascolta</l>
+<l>per bocca mia le voci; e Bruto, e Roma,</l>
+<l part="I">per te sien uno.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">... Il cor mi squarci... Oh dura</l>
+<l>necessità!... Seguir del core i moti</l>
+<l>soli non posso. — Odimi, amato Bruto. —</l>
+<l>Troppo il servir di Roma è omai maturo:</l>
+<l>con più danno per essa, e men virtude,</l>
+<l>altri terralla, ove tenerla nieghi</l>
+<l part="I">Bruto di man di Cesare...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Oh parole!</l>
+<l>Oh di corrotto animo servo infami</l>
+<l>sensi! — A me, no, non fosti, né sei padre.</l>
+<l>Pria che svelarmi il vil tuo core, e il mio</l>
+<l>vil nascimento, era pietà più espressa</l>
+<l part="I">me trucidar, tu, di tua mano...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Oh figlio!...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="I">Cedi, o Cesare...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Ingrato, ... snaturato...</l>
+<l part="I">che far vuoi dunque?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">O salvar Roma io voglio,</l>
+<l part="I">o perir seco.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Io ravvederti voglio,</l>
+<l>o perir di tua mano. Orrida, atroce</l>
+<l>è la tua sconoscenza... Eppure, io spero,</l>
+<l>ch'onta ed orror ne sentirai tu innanzi</l>
+<l>che in senato ci vegga il dì novello. —</l>
+<l>Ma, se allor poi nel non volermi padre</l>
+<l>ti ostini, ingrato; e se, qual figlio, sdegni</l>
+<l>meco divider tutto; al dì novello,</l>
+<l part="I">signor mi avrai.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">— Già pria d'allora, io spero,</l>
+<l>l'onta e l'orror d'esser tiranno indarno,</l>
+<l>ti avran cangiato in vero padre. — In petto</l>
+<l>non puommi a un tratto germogliar di figlio</l>
+<l>l'amor, se tu forte e sublime prova</l>
+<l>pria non mi dai del tuo paterno amore.</l>
+<l>D'ogni altro affetto è quel di padre il primo;</l>
+<l>e nel tuo cor de' vincere. Mi avrai</l>
+<l>figlio allora, il più tenero, il più caldo,</l>
+<l>il più sommesso, che mai fosse... Oh padre!</l>
+<l>Qual gioia allor, quanta dolcezza, e quanto</l>
+<l part="I">orgoglio avrò d'esserti figlio!...</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Il sei,</l>
+<l>qual ch'io mi sia: né mai contro al tuo padre</l>
+<l part="I">volger ti puoi, senza esser empio...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ho nome</l>
+<l>Bruto; ed a me, sublime madre è Roma. —</l>
+<l>Deh! non sforzarmi a reputar mio vero</l>
+<l>genitor solo quel romano Bruto,</l>
+<l>che a Roma e vita e libertà, col sangue</l>
+<l>de' propri suoi svenati figli, dava.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>CESARE</stage>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>Oh me infelice!... E fia pur ver, che il solo</l>
+<l>figliuol mio da me vinto or non si dica,</l>
+<l>mentr'io pur tutto il vinto mondo affreno?</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CASSIO, CIMBRO</stage>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Quant'io ti dico, è certo: uscir fu visto</l>
+<l>Bruto or dianzi di qui; turbato in volto,</l>
+<l>pregni di pianto gli occhi, ei si avviava</l>
+<l>ver le sue case. Oh! potrebbe egli mai</l>
+<l part="I">cangiarsi?...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Ah! no. Bruto ama Roma; ed ama</l>
+<l>la gloria, e il retto. A noi verrà tra breve,</l>
+<l>come il promise. In lui, più che in me stesso,</l>
+<l>credo, e mi affido. Ogni suo detto, ed opra,</l>
+<l>d'alto cor nasce; ei della patria sola</l>
+<l part="I">l'util pondera, e vede.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Eccolo appunto.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="I">Non tel diss'io?</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>BRUTO, CASSIO, CIMBRO</stage>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Che fia? voi soli trovo?</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>E siam noi pochi, ove tu a noi ti aggiungi?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="I">Tullio manca...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Nol sai? precipitoso</l>
+<l>ei con molti altri senatori usciva</l>
+<l part="I">di Roma or dianzi.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Il gel degli anni in lui</l>
+<l>l'ardir suo prisco, e la virtude agghiaccia...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Ma non l'estingue. Ah! niun Romano ardisca</l>
+<l>il gran Tullio spregiar. Per esso io 'l giuro,</l>
+<l>che a miglior uopo, a pro di Roma, ei serba</l>
+<l part="I">e libertade e vita.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Oh noi felici!</l>
+<l>Noi certi almen, siam certi, o di venirne</l>
+<l>a onorata laudevole vecchiezza,</l>
+<l>liberi; o certi, di perir con Roma,</l>
+<l part="I">nel fior degli anni.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ah! sì; felici voi!...</l>
+<l>Nol son io, no; cui riman scelta orrenda</l>
+<l>fra il morir snaturato, o il viver servo.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="I">Che dir vuoi tu?</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Dal favellar tuo lungo</l>
+<l part="I">col dittator, che ne traesti?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Io?... nulla</l>
+<l>per Roma; orrore e dolor smisurato</l>
+<l>per me; stupor per voi, misto fors'anco</l>
+<l part="I">di un giusto sprezzo.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="M">E per chi mai?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Per Bruto.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="I">Spregiarti noi?</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Tu, che di Roma sei,</l>
+<l part="I">e di noi, l'alma?...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Io son,... chi 'l crederia?...</l>
+<l>Misero me!... Finor tenuto io m'era</l>
+<l>del divin Cato il genero, e il nipote;...</l>
+<l>e del tiranno Cesare io son figlio.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="I">Che ascolto? Esser potrebbe?...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">E sia: non toglie,</l>
+<l>che il più fero nemico del tiranno</l>
+<l>non sia Bruto pur sempre: ah! Cassio il giura.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Orribil macchia inaspettata io trovo</l>
+<l>nel mio sangue; a lavarla, io tutto il deggio</l>
+<l part="I">versar per Roma.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">O Bruto, di te stesso</l>
+<l part="I">figlio esser dei.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Ma pur, quai prove addusse</l>
+<l part="I">Cesare a te? Come a lui fede?...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ah! prove,</l>
+<l>certe pur troppo, ei mi adducea. Qual padre</l>
+<l>ei da pria mi parlava: a parte pormi</l>
+<l>dell'esecrabil suo poter volea</l>
+<l>per ora, e farmen poscia infame erede.</l>
+<l>Dal tirannico ciglio umano pianto</l>
+<l>scendea pur anco; e del suo guasto cuore,</l>
+<l>senza arrossir, le più riposte falde,</l>
+<l>come a figlio, ei mi apriva. A farmi appieno</l>
+<l>convinto in fine, un fatal foglio (oh cielo!)</l>
+<l>legger mi fea. Servilia a lui vergollo</l>
+<l>di proprio pugno. In quel funesto foglio,</l>
+<l>scritto pria che si alzasse il crudel suono</l>
+<l>della tromba farsalica, tremante</l>
+<l>Servilia svela, e afferma, ch'io son frutto</l>
+<l>dei loro amori; e in brevi e caldi detti,</l>
+<l>ella scongiura Cesare a non farsi</l>
+<l part="I">trucidator del proprio figlio.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Oh fero,</l>
+<l>funesto arcano! entro all'eterna notte</l>
+<l part="I">che non restasti?...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">E se qual figlio ei t'ama,</l>
+<l>nel veder tanta in te virtù verace,</l>
+<l>nell'ascoltar gli alti tuoi forti sensi,</l>
+<l>come resister mai di un vero padre</l>
+<l>potea pur l'alma? Indubitabil prova</l>
+<l>ne riportasti omai, che nulla al mondo</l>
+<l>Cesare può dal vil suo fango trarre.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Talvolta ancora il ver traluce all'ebbra</l>
+<l>mente sua, ma traluce in debil raggio.</l>
+<l>Uso in campo a regnar or già molti anni,</l>
+<l>fero un error lo invesca; ei gloria somma</l>
+<l>stima il sommo poter; quindi ei s'ostina</l>
+<l part="I">a voler regno, o morte.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">E morte egli abbia</l>
+<l part="I">tal mostro dunque.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Incorreggibil, fermo</l>
+<l>tiranno egli è. Pensa omai dunque, o Bruto,</l>
+<l>che un cittadin di Roma non ha padre...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>E che un tiranno non ha figli mai...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>E che in cor mai non avrà Bruto pace. —</l>
+<l>Sì, generosi amici, al nobil vostro</l>
+<l>cospetto io 'l dico: a voi, che in cor sentite</l>
+<l>sublimi e sacri di natura i moti;</l>
+<l>a voi, che impulso da natura, e norma,</l>
+<l>pigliate all'alta necessaria impresa,</l>
+<l>ch'or per compiere stiamo; a voi, che solo</l>
+<l>per far securi in grembo al padre i figli,</l>
+<l>meco anelate or di troncar per sempre</l>
+<l>la tirannia che parte e rompe e annulla</l>
+<l>ogni vincol più santo; a voi non temo</l>
+<l>tutto mostrare il dolore, e l'orrore,</l>
+<l>che a brani a brani il cuor squarciano a gara</l>
+<l>di me figlio di Cesare e di Roma.</l>
+<l>Nemico aspro, implacabil, del tiranno</l>
+<l>io mi mostrava in faccia a lui; né un detto,</l>
+<l>né un moto, né una lagrima appariva</l>
+<l>di debolezza in me; ma, lunge io appena</l>
+<l>dagli occhi suoi, di mille furie in preda</l>
+<l>cadeami l'alma. Ai lari miei men corro:</l>
+<l>ivi, sicuro sfogo, alto consiglio,</l>
+<l>cor più sublime assai del mio, mi è dato</l>
+<l>di ritrovar: fra' lari miei la illustre</l>
+<l>Porzia di Cato figlia, a Cato pari,</l>
+<l part="I">moglie alberga di Bruto...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">E d'ambo degna</l>
+<l part="I">è la gran donna.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Ah! così stata il fosse</l>
+<l part="I">anco Servilia!</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ella, in sereno e forte</l>
+<l>volto, bench'egra giaccia or da più giorni,</l>
+<l>me turbato raccoglie. Anzi ch'io parli,</l>
+<l>dice ella a me: «Bruto, gran cose in petto</l>
+<l>da lungo tempo ascondi; ardir non ebbi</l>
+<l>di domandarten mai, fin che a feroce</l>
+<l>prova, ma certa, il mio coraggio appieno</l>
+<l>non ebbi io stessa conosciuto. Or, mira;</l>
+<l>donna non sono». E in così dir, cadersi</l>
+<l>lascia del manto il lembo, e a me discuopre</l>
+<l>larga orribile piaga a sommo il fianco.</l>
+<l>Quindi soggiunge: «Questa immensa piaga,</l>
+<l>con questo stil, da questa mano, è fatta,</l>
+<l>or son più giorni: a te taciuta sempre,</l>
+<l>e imperturbabilmente sopportata</l>
+<l>dal mio cor, benché infermo il corpo giaccia;</l>
+<l>degna al fin, s'io non erro, questa piaga</l>
+<l>fammi e d'udire, e di tacer, gli arcani</l>
+<l part="I">di Bruto mio».</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="M">Qual donna!</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">A lei qual puossi</l>
+<l part="I">uom pareggiare?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">A lei davante io quindi,</l>
+<l>quasi a mio tutelar Genio sublime,</l>
+<l>prostrato caddi, a una tal vista; e muto,</l>
+<l>piangente, immoto, attonito, mi stava. —</l>
+<l>Ripresa poscia la favella, io tutte</l>
+<l>l'aspre tempeste del mio cor le narro.</l>
+<l>Piange al mio pianger ella; ma il suo pianto</l>
+<l>non è di donna, è di Romano. Il solo</l>
+<l>fato avverso ella incolpa: e in darmi forse</l>
+<l>lo abbraccio estremo, osa membrarmi ancora,</l>
+<l>ch'io di Roma son figlio, a Porzia sposo,</l>
+<l>e ch'io Bruto mi appello. — Ah! né un istante</l>
+<l>mai non diedi all'oblio tai nomi, mai:</l>
+<l>e a giurarvelo, vengo. — Altro non volli,</l>
+<l>che del mio stato orribile accennarvi</l>
+<l>la minor parte; e d'amistà fu sfogo</l>
+<l>quant'io finora dissi. — Or, so; voi primi</l>
+<l>convincer deggio, che da Roma tormi,</l>
+<l>né il può natura stessa... Ma, il dolore,</l>
+<l>il disperato dolor mio torrammi</l>
+<l>poscia, pur troppo! e per sempre, a me stesso.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Romani siamo, è ver; ma siamo a un tempo</l>
+<l>uomini; il non sentirne affetto alcuno,</l>
+<l>ferocia in noi stupida fora... Oh Bruto!...</l>
+<l>Il tuo parlar strappa a me pure il pianto.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Sentir dobbiam tutti gli umani affetti;</l>
+<l>ma, innanzi a quello della patria oppressa,</l>
+<l>straziata, e morente, taccion tutti:</l>
+<l>o, se pur parlan, l'ascoltargli a ogni uomo,</l>
+<l part="I">fuor che a Bruto, si dona.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">In reputarmi</l>
+<l>più forte e grande ch'io nol son, me grande</l>
+<l>e forte fai, più ch'io per me nol fora. —</l>
+<l>Cassio, ecco omai rasciutto ho il ciglio appieno. —</l>
+<l>Già si appressan le tenebre: il gran giorno</l>
+<l>doman sarà. Tutto di nuovo io giuro,</l>
+<l>quanto è fra noi già risoluto. Io poso</l>
+<l>del tutto in voi; posate in me: null'altro</l>
+<l>chieggo da voi, fuor che aspettiate il cenno</l>
+<l part="I">da me soltanto.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Ah! dei Romani il primo</l>
+<l part="I">davver sei tu. — Ma, chi mai vien?...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Che veggio?</l>
+<l part="I">Antonio!</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">A me Cesare or certo il manda.</l>
+<l part="I">State; e ci udite.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>ANTONIO, CASSIO, BRUTO, CIMBRO</stage>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">In traccia, o Bruto, io vengo</l>
+<l part="I">di te: parlar teco degg'io.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Favella:</l>
+<l part="I">io t'ascolto.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Ma, dato emmi l'incarco</l>
+<l part="I">dal dittatore...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="M">E sia ciò pure.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Io debbo</l>
+<l part="I">favellare a te solo.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Io qui son solo.</l>
+<l>Cassio, di Giunia a me germana è sposo;</l>
+<l>del gran Caton mio suocero, l'amico</l>
+<l>era Cimbro, e il più fido: amor di Roma,</l>
+<l>sangue, amistà, fan che in tre corpi un'alma</l>
+<l>sola siam noi. Nulla può dire a Bruto</l>
+<l>Cesare mai, che nol ridica ei tosto</l>
+<l part="I">a Cassio, e a Cimbro.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Hai tu comun con essi</l>
+<l part="I">anco il padre?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Diviso han meco anch'essi</l>
+<l>l'onta e il dolor del tristo nascer mio:</l>
+<l>tutto ei sanno. Favella. — Io son ben certo,</l>
+<l>che in sé tornato Cesare, ei t'invia,</l>
+<l>generoso, per tormi or la vergogna</l>
+<l>d'esser io stato d'un tiranno il figlio.</l>
+<l>Tutto esponi, su dunque: aver non puoi</l>
+<l>del cangiarsi di Cesare sublime,</l>
+<l>da re ch'egli era in cittadin, più accetti</l>
+<l>testimon mai, di questi. — Or via, ci svela</l>
+<l>il suo novello amore alto per Roma;</l>
+<l>le sue per me vere paterne mire;</l>
+<l>ch'io benedica il dì, che di lui nacqui.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l>— Di parlare a te solo m'imponeva</l>
+<l>il dittatore. Ei, vero padre, e cieco</l>
+<l>quanto infelice, lusingarsi ancora</l>
+<l>pur vuol, che arrender ti potresti al grido</l>
+<l part="I">possente e sacro di natura.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E in quale</l>
+<l>guisa arrendermi debbo? a che piegarmi?...</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l>A rispettare e amar chi a te diè vita:</l>
+<l>ovver, se amar tuo ferreo cuor non puote,</l>
+<l>a non tradire il tuo dover più sacro;</l>
+<l>a non mostrarti immemore ed indegno</l>
+<l>dei ricevuti benefizi; in somma,</l>
+<l>a mertar quei, ch'egli a te nuovi appresta. —</l>
+<l>Troppo esser temi uman, se a ciò ti pieghi?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Queste, ch'or vuote ad arte a me tu dai,</l>
+<l>parole son; stringi, e rispondi. È presto</l>
+<l>Cesare, al dì novello, in pien senato,</l>
+<l>a rinunziar la dittatura? è presto</l>
+<l>senza esercito a starsi? a scior dal rio</l>
+<l>comun terror tutti i Romani? a sciorne</l>
+<l>e gli amici, e i nemici, e in un se stesso?</l>
+<l>a render vita alle da lui sprezzate</l>
+<l>battute e spente leggi sacrosante?</l>
+<l>a sottoporsi ad esse sole ei primo? —</l>
+<l>Questi son, questi, i benefizi espressi,</l>
+<l>cui far può a Bruto il genitor suo vero.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="I">Sta bene. — Altro hai che dirmi?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Altro non dico</l>
+<l>a chi udirmi non merta. — Al signor tuo</l>
+<l>riedi tu dunque, e digli; che ancor spero,</l>
+<l>anzi, ch'io credo, e certo son, che al nuovo</l>
+<l>sole in senato utili cose ed alte,</l>
+<l>per la salvezza e libertà di Roma,</l>
+<l>ei proporrà: digli, che Bruto allora,</l>
+<l>di Roma tutta in faccia, a' piedi suoi</l>
+<l>cadrà primier, qual cittadino e figlio;</l>
+<l>dove pur padre e cittadino ei sia.</l>
+<l>E digli in fin, ch'ardo in mio core al paro</l>
+<l>di far riviver per noi tutti Roma,</l>
+<l>come di far rivivere per essa</l>
+<l part="I">Cesare...</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l part="F">Intendo. — A lui dirò quant'io,</l>
+<l>(pur troppo invan!) gran tempo è già, gli dissi.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Maligno messo, ed infedel, ti estimo,</l>
+<l>infra Cesare e Bruto: ma, s'ei pure</l>
+<l>a ciò te scelse, a te risposta io diedi.</l>
+</sp>
+<sp><speaker><emph>Antonio</emph></speaker>
+<l>Se a me credesse, e all'utile di Roma.</l>
+<l>Cesare omai, messo ei non altro a Bruto</l>
+<l>dovria mandar, che coi littor le scuri.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>BRUTO, CASSIO, CIMBRO</stage>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="I">Udiste?...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Oh Bruto!... il Dio tu sei di Roma.</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Questo arrogante iniquo schiavo, anch'egli</l>
+<l part="I">punir si debbe...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ei di nostr'ira, parmi,</l>
+<l>degno non fora. — Amici, ultima prova</l>
+<l>domane io fo: se vana ell'è, promisi</l>
+<l>io di dar cenno, e di aspettarlo voi:</l>
+<l part="I">v'affiderete in me?</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Tu a noi sei tutto. —</l>
+<l>Usciam di qui: tempo è d'andarne ai pochi</l>
+<l>che noi scegliemmo; e che a morir per Roma</l>
+<l part="I">doman con noi si apprestano.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Si vada.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage><emph>La scena è nella curia di Pompeo</emph></stage>
+<stage>BRUTO, CASSIO, <emph>Senatori</emph>, <emph>che si vanno collocando ai lor luoghi</emph></stage>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Scarsa esser vuol questa adunanza, parmi;</l>
+<l part="I">minor dell'altra assai...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Pur che minore</l>
+<l>non sia il cor di chi resta; a noi ciò basta.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Odi tu, Bruto, la inquieta plebe,</l>
+<l>come già di sue grida assorda l'aure?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Varian sue grida ad ogni nuovo evento:</l>
+<l>lasciala; anch'essa in questo dì giovarne</l>
+<l part="I">forse potrà.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Mai non ti vidi io tanto</l>
+<l part="I">securo, e in calma.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="M">Arde il periglio.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Oh Bruto!...</l>
+<l part="I">Bruto, a te solo io cedo.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Il gran Pompeo,</l>
+<l>che marmoreo qui spira, e ai pochi nostri</l>
+<l>par ch'or presieda, omai securo fammi,</l>
+<l part="I">quanto il vicin periglio.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Ecco, appressarsi</l>
+<l part="I">del tiranno i littori.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E Casca, e Cimbro?...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l>Feri scelto hanno il primo loco, a forza:</l>
+<l part="I">sieguon dappresso Cesare.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Pensasti</l>
+<l part="I">ad impedir che l'empio Antonio?...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">A bada</l>
+<l>fuor del senato il tratterranno a lungo</l>
+<l>Fulvio e Macrin; s'anco impedirlo è d'uopo,</l>
+<l part="I">con la forza il faranno.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Or, ben sta il tutto.</l>
+<l>Pigliam ciascuno il loco nostro. — Addio,</l>
+<l>Cassio. Noi qui ci disgiungiam pur schiavi;</l>
+<l>liberi, spero, abbraccieremci in breve,</l>
+<l>ovver morenti. — Udrai da pria gli estremi</l>
+<l>sforzi di un figlio; ma vedrai tu poscia</l>
+<l part="I">di un cittadin gli ultimi sforzi.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Oh Bruto!</l>
+<l>Ogni acciar pende dal solo tuo cenno.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>SENATORI <emph>seduti</emph>. BRUTO <emph>e</emph> CASSIO <emph>ai lor luoghi</emph>. CESARE, <emph>preceduto dai littori</emph>, <emph>che poscia lo lasciano</emph>; CASCA, CIMBRO, <emph>e molti altri</emph>, <emph>lo seguono</emph>. <emph>Tutti sorgono all'entrar di Cesare</emph>, <emph>finch'egli seduto non sia</emph></stage>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>Oh! che mai fu? mezzo il senato appena,</l>
+<l>benché sia l'assegnata ora trascorsa?...</l>
+<l>Ma, tardo io stesso oltre il dover, vi giungo. —</l>
+<l>Padri Coscritti, assai mi duol di avervi</l>
+<l>indugiati... Ma pur, qual fia cagione,</l>
+<l>che di voi sì gran parte ora mi toglie?</l>
+</sp>
+<stage rend="align: center"><emph>Silenzio universale</emph></stage>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Null'uom risponde? — A tutti noi pur nota</l>
+<l>è la cagion richiesta. — Or, non te l'apre,</l>
+<l>Cesare, appieno il tacer di noi tutti? —</l>
+<l>Ma, udirla vuoi? — Quei che adunar qui vedi,</l>
+<l>il terror gli adunò; quei che non vedi,</l>
+<l part="I">gli ha dispersi il terrore.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">A me novelli</l>
+<l>non son di Bruto i temerari accenti;</l>
+<l>come a te non è nuova la clemenza</l>
+<l>generosa di Cesare. — Ma invano;</l>
+<l part="I">che ad altercar qui non venn'io...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Né invano</l>
+<l>ad offenderti noi. — Mal si avvisaro,</l>
+<l>certo, quei padri, che in sì lieto giorno</l>
+<l>dal senato spariro: e mal fan quelli,</l>
+<l>che in senato or stan muti. — Io, conscio appieno</l>
+<l>degli alti sensi che a spiegar si appresta</l>
+<l>Cesare a noi, mal rattener di gioia</l>
+<l>gl'impeti posso; e disgombrar mi giova</l>
+<l>il falso altrui terrore. — Ah! no, non nutre</l>
+<l>contro alla patria omai niun reo disegno</l>
+<l>Cesare in petto; ah! no: la generosa</l>
+<l>clemenza sua, che a Bruto oggi ei rinfaccia,</l>
+<l>e che adoprar mai più non dee per Bruto,</l>
+<l>tutta or già l'ha rivolta egli all'afflitta</l>
+<l>Roma tremante. Oggi, vel giuro, un nuovo</l>
+<l>maggior trionfo a' suoi trionfi tanti</l>
+<l>Cesare aggiunge; ei vincitor ne viene</l>
+<l>qui di se stesso, e della invidia altrui.</l>
+<l>Vel giuro io, sì, nobili padri; a questo</l>
+<l>suo trionfo sublime oggi vi aduna</l>
+<l>Cesare: ei vuole ai cittadini suoi</l>
+<l>rifarsi pari; e il vuol spontaneo: e quindi,</l>
+<l>infra gli uomini tutti al mondo stati,</l>
+<l>mai non ebbe, né avrà. Cesare il pari.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="I">Troncar potrei. Bruto, il tuo dir...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Né paia</l>
+<l>temeraria arroganza a voi la mia;</l>
+<l>pretore appena, osare io pure i detti</l>
+<l>preoccupar del dittatore. È Bruto</l>
+<l>col gran Cesare omai sola una cosa. —</l>
+<l>Veggio inarcar dallo stupor le ciglia:</l>
+<l>oscuro ai padri è il mio parlar; ma tosto,</l>
+<l>d'un motto sol, chiaro il farò. — Son figlio</l>
+<l part="I">io di Cesare...</l>
+</sp>
+<stage rend="align: center"><emph>Grido universale di stupore</emph></stage>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Sì; di lui son nato;</l>
+<l>e assai men pregio; poiché Cesare oggi,</l>
+<l>di dittator perpetuo ch'egli era,</l>
+<l>perpetuo e primo cittadin si è fatto.</l>
+</sp>
+<stage rend="align: center"><emph>Grido universale di gioia</emph></stage>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l>... Bruto è mio figlio, è ver; l'arcano or dianzi</l>
+<l>glie ne svelava io stesso. A me gran forza</l>
+<l>fean l'eloquenza, l'impeto, l'ardire,</l>
+<l>e un non so che di sovruman, che spira</l>
+<l>il suo parlar: nobil, bollente spirto,</l>
+<l>vero mio figlio, è Bruto. Io quindi, a farvi,</l>
+<l>Romani, il ben che in mio poter per ora</l>
+<l>non sta di farvi, assai di me più degno</l>
+<l>lui, dopo me, trascelgo: a lui la intera</l>
+<l>mia possanza lasciar, disegno; in esso</l>
+<l>fondata io l'ho: Cesare avrete in lui...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Securo io stommi: ah! di ciò mai capace,</l>
+<l>non che gli amici, né i nemici stessi</l>
+<l>più acerbi e implacabili di Bruto,</l>
+<l>nol credon, no. — Cesare a me sua possa</l>
+<l>cede, o Romani: e in ciò vuol dir, che ai preghi</l>
+<l>di me suo figlio, il suo poter non giusto</l>
+<l>Cesare annulla, e in libertà per sempre</l>
+<l part="I">Roma ei ripone.</l>
+</sp>
+<stage rend="align: center"><emph>Grido universale di gioia</emph></stage>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Or basti. Al mio cospetto</l>
+<l>tu, come figlio, e come a me minore,</l>
+<l>tacerti dei. — Cesare, o Padri, or parla. —</l>
+<l>Ir contra i Parti, irrevocabilmente</l>
+<l>ho fermo in mio pensiero. All'alba prima,</l>
+<l>colle mie fide legioni, io muovo</l>
+<l>ver l'Asia: inulta ivi di Crasso l'ombra,</l>
+<l>da gran tempo mi appella, e a forza tragge.</l>
+<l>Lascio Antonio alla Italia; abbialo Roma</l>
+<l>quasi un altro me stesso: alle assegnate</l>
+<l>provincie lor tornino e Cassio, e Cimbro,</l>
+<l>e Casca: al fianco mio Bruto starassi.</l>
+<l>Spenti i nemici avrò di Roma appena,</l>
+<l>a darmi in man de' miei nemici io riedo:</l>
+<l>e, o dittatore, o cittadino, o nulla,</l>
+<l>qual più vorrà. Roma a sua posta avrammi.</l>
+</sp>
+<stage rend="align: center"><emph>Silenzio universale</emph></stage>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>— Non di Romano al certo, né di padre,</l>
+<l>né di Cesare pur, queste che udimmo,</l>
+<l>eran parole. I rei comandi questi</l>
+<l>fur di assoluto re. — Deh! padre, ancora</l>
+<l>m'odi una volta; i pianti ascolta, e i preghi</l>
+<l>di un cittadin, di un figlio. Odimi; tutta</l>
+<l>meco ti parla, or per mia bocca, Roma.</l>
+<l>Mira quel Bruto, cui null'uom mai vide</l>
+<l>finor né pianger, né pregar; tu il mira</l>
+<l>a' piedi tuoi. Di Bruto esser vuoi padre,</l>
+<l part="I">e non l'esser di Roma?</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="F">Omai preghiere,</l>
+<l>che son pubblico oltraggio, udir non voglio.</l>
+<l>Sorgi, e taci. — Appellarmi osa tiranno</l>
+<l>costui; ma, nol son io: se il fossi, a farmi</l>
+<l>sì atroce ingiuria in faccia a Roma, io stesso</l>
+<l>riserbato lo avrei? — Quanto in sua mente</l>
+<l>il dittator fermava, esser de' tutto.</l>
+<l>L'util così di Roma impera; e ogni uomo,</l>
+<l>che di obbedirmi omai dubita, o niega,</l>
+<l>è di Roma nemico; e lei rubello,</l>
+<l part="I">traditor empio egli è.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">— Come si debbe</l>
+<l>da cittadini veri, omai noi tutti</l>
+<l part="I">obbediam dunque al dittatore.<note resp="aut" place="foot" anchored="yes">Bruto snuda, e brandisce il pugnale; i congiurati si avventano a Cesare coi ferri.</note></l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l part="F">Muori,</l>
+<l part="I">tiranno, muori.</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">E ch'io pur anco il fera.</l>
+</sp>
+<sp><speaker><emph>Cesare</emph></speaker>
+<l part="I">Traditori...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E ch'io sol ferir nol possa?...</l>
+</sp>
+<sp><speaker><emph>Alcuni Senatori</emph></speaker>
+<l part="I">Muoia, muoia, il tiranno.</l>
+</sp>
+<sp><speaker><emph>Altri Senatori</emph></speaker>
+<l part="F">Oh vista! oh giorno!</l>
+</sp>
+<sp><speaker><emph>Cesare<note resp="aut" place="foot" anchored="yes">Carco di ferite, trascinandosi fino alla statua di Pompeo, dove, copertosi il volto col manto, egli spira.</note></emph></speaker>
+<l part="I">Figlio,... e tu pure?... Io moro...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Oh padre!... Oh Roma!...</l>
+</sp>
+<sp><speaker><emph>Cimbro</emph></speaker>
+<l>Ma, dei fuggenti al grido, accorre in folla</l>
+<l part="I">il popol già...</l>
+</sp>
+<sp><speaker><emph>Cassio</emph></speaker>
+<l part="F">Lascia, che il popol venga:</l>
+<l>spento è il tiranno. A trucidar si corra</l>
+<l part="I">Antonio anch'ei.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>POPOLO, BRUTO, CESARE, <emph>morto</emph></stage>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">Che fu? quai grida udimmo?</l>
+<l>qual sangue è questo? Oh! col pugnale in alto</l>
+<l part="I">Bruto immobile sta?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Popol di Marte,</l>
+<l>(se ancora il sei) là, là rivolgi or gli occhi:</l>
+<l>mira chi appiè del gran Pompeo sen giace...</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l>Cesare? oh vista! Ei nel suo sangue immerso?...</l>
+<l part="I">Oh rabbia!...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Sì; nel proprio sangue immerso</l>
+<l>Cesare giace: ed io, benché non tinto</l>
+<l>di sangue in man voi mi vediate il ferro,</l>
+<l>io pur cogli altri, io pur, Cesare uccisi...</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="I">Ah traditor! tu pur morrai...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Già volta</l>
+<l>sta dell'acciaro al petto mio la punta:</l>
+<l>morire io vo': ma, mi ascoltate pria.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l>Si uccida pria chi Cesare trafisse...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Altro uccisore invan cercate: or tutti</l>
+<l>dispersi già fra l'ondeggiante folla,</l>
+<l>i feritor spariro: invan cercate</l>
+<l>altro uccisor, che Bruto. Ove feroci</l>
+<l>a vendicare il dittator qui tratti</l>
+<l>v'abbia il furore, alla vendetta vostra</l>
+<l>basti il capo di Bruto. — Ma, se in mente,</l>
+<l>se in cor pur anco a voi risuona il nome</l>
+<l>di vera e sacra libertade, il petto</l>
+<l>a piena gioia aprite: è spento al fine,</l>
+<l part="I">è spento là, di Roma il re.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">Che parli?</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Di Roma il re, sì, vel confermo, e il giuro:</l>
+<l>era ei ben re: tal qui parlava; e tale</l>
+<l>mostrossi ei già ne' Lupercali a voi,</l>
+<l>quel dì che aver la ria corona a schivo</l>
+<l>fingendo, al crin pur cinger la si fea</l>
+<l>ben tre volte da Antonio. A voi non piacque</l>
+<l>la tresca infame; e a certa prova ei chiaro</l>
+<l>vide, che re mai non saria, che a forza.</l>
+<l>Quindi a guerra novella, or, mentre esausta</l>
+<l>d'uomini, e d'armi, e di tesoro è Roma,</l>
+<l>irne in campo ei volea; certo egli quindi</l>
+<l>di re tornarne a mano armata, e farvi</l>
+<l>caro costare il mal negato serto.</l>
+<l>L'oro, i banchetti, le lusinghe, i giuochi,</l>
+<l>per far voi servi, ei profondea: ma indarno</l>
+<l>l'empio il tentò; Romani voi, la vostra</l>
+<l>libertà non vendete: e ancor per essa</l>
+<l>presti a morir tutti vi veggio: e il sono</l>
+<l>io, quanto voi. Libera è Roma; in punto</l>
+<l>Bruto morrebbe. Or via, svenate dunque</l>
+<l>chi libertà, virtù vi rende, e vita;</l>
+<l>per vendicare il vostro re, svenate</l>
+<l>Bruto voi dunque: eccovi ignudo il petto...</l>
+<l>Chi non vuol esser libero, me uccida. —</l>
+<l>Ma, chi uccidermi niega, omai seguirmi</l>
+<l>debbe, ed a forza terminar la impresa.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="I">Qual dir fia questo. Un Dio lo inspira...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Ah! veggo</l>
+<l>a poco a poco ritornar Romani</l>
+<l>i già servi di Cesare. Or, se Bruto</l>
+<l>roman sia anch'egli, udite. — Havvi tra voi</l>
+<l>chi pur pensato abbia finora mai</l>
+<l>ciò, ch'ora io sto con giuramento espresso</l>
+<l>per disvelare a voi? — Vero mio padre</l>
+<l part="I">Cesare m'era...</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">Oh ciel! che mai ci narri?...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Figlio a Cesare nasco; io 'l giuro; ei stesso</l>
+<l>ier l'arcano svelavami; ed in pegno</l>
+<l>di amor paterno, ei mi volea, (vel giuro)</l>
+<l>voleva un dì, quasi tranquillo e pieno</l>
+<l>proprio retaggio suo, Roma lasciarmi.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="I">Oh ria baldanza!...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">E le sue mire inique</l>
+<l>tutte a me quindi ei discoprire ardiva...</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l>Dunque (ah pur troppo!) ei disegnava al fine</l>
+<l part="I">vero tiranno appalesarsi...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Io piansi,</l>
+<l>pregai, qual figlio; e in un, qual cittadino,</l>
+<l>lo scongiurai di abbandonar l'infame</l>
+<l>non romano disegno: ah! che non feci,</l>
+<l>per cangiarlo da re?... Chiesta per anco</l>
+<l>gli ho in don la morte; che da lui più cara</l>
+<l>che il non suo regno m'era: indarno il tutto:</l>
+<l>nel tirannico petto ei fermo avea,</l>
+<l>o il regnare, o il morire. Il cenno allora</l>
+<l>di trucidarlo io dava; io stesso il dava</l>
+<l>a pochi e forti: ma in alto frattanto</l>
+<l>sospeso stava il tremante mio braccio...</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="I">Oh virtù prisca! oh vero Bruto!</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">È spento</l>
+<l>di Roma il re; grazie agli Iddii sen renda...</l>
+<l>Ma ucciso ha Bruto il proprio padre;... ei merta</l>
+<l>da voi la morte... E viver volli io forse?...</l>
+<l>Per brevi istanti, io il deggio ancor; finch'io</l>
+<l>con voi mi adopro a far secura appieno</l>
+<l>la rinascente comun patria nostra:</l>
+<l>di cittadin liberatore, il forte</l>
+<l>alto dover, compier, si aspetta a Bruto;</l>
+<l>ei vive a ciò: ma lo immolar se stesso,</l>
+<l>di propria man su la paterna tomba,</l>
+<l>si aspetta all'empio parricida figlio</l>
+<l part="I">del gran Cesare poscia.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">Oh fero evento!...</l>
+<l>Stupor, terror, pietade;... oh! quanti a un tempo</l>
+<l>moti proviamo?... Oh vista! in pianto anch'egli,</l>
+<l part="I">tra il suo furor, Bruto si stempra?...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">— Io piango.</l>
+<l>Romani, sì; Cesare estinto io piango.</l>
+<l>Sublimi doti, uniche al mondo; un'alma,</l>
+<l>cui non fu mai l'egual, Cesare avea:</l>
+<l>cor vile ha in petto chi nol piange estinto. —</l>
+<l>Ma, chi ardisce bramarlo omai pur vivo,</l>
+<l part="I">Roman non è.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">Fiamma è il tuo dire, o Bruto...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l>Fiamma sian l'opre vostre; alta è l'impresa;</l>
+<l>degna è di noi: seguitemi; si renda</l>
+<l>piena ed eterna or libertade a Roma.</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l>Per Roma, ah! sì, su l'orme tue siam presti</l>
+<l part="I">a tutto, sì...</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">Via dunque, andiam noi ratti</l>
+<l>al Campidoglio; andiamo; il seggio è quello</l>
+<l>di libertade, sacro: in man lasciarlo</l>
+<l part="I">dei traditor vorreste?</l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">Andiam: si tolga</l>
+<l part="I">la sacra rocca ai traditori.</l>
+</sp>
+<sp><speaker><emph>Bruto</emph></speaker>
+<l part="F">A morte,</l>
+<l part="I">a morte andiam, o a libertade.<note resp="aut" place="foot" anchored="yes">Si muove Bruto, brandendo ferocemente la spada; il popolo tutto a furore lo segue.</note></l>
+</sp>
+<sp><speaker><emph>Popolo</emph></speaker>
+<l part="F">A morte,</l>
+<l>con Bruto a morte, o a libertà si vada.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

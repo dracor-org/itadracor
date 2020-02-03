@@ -1,0 +1,3817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Cleopatra</title>
+      <author>Giambattista Giraldi Cinzio</author>
+    </titleStmt>
+    <extent>182 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001040</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Cleopatra tragedia</title>
+        <author>Giraldi, Giovanni Battista</author>
+        <editor id="ed">Morrison, Mary</editor>
+        <editor id="ed2">Osborn, Peggy</editor>
+        <editor id="ed3">Menegus, Tiziana</editor>
+        <publisher>University of Exeter</publisher>
+        <pubPlace>Exter</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2003-05-06T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Sansavini</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2003-05-06T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Sansavini</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-07T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Gritti</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Codifica XML - Sono state controllate le codifiche, correggendone gli errori.</item>
+    </change>
+    <change>
+      <date>2003-06-16T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body><head><hi rend="sc">Cleopatra Tragedia</hi></head>
+<div1 type="dedica">
+<pb n="3"/>
+<head><hi rend="sc">ALL'ILLUSTRISSIMO ET ECCELLENTISSIMO SIGNOR ET PATRON </hi></head> 
+<p>mio sempre 
+colendissimo Il Signor <name>Don Giovanni Andrea d'Oria</name>.
+Sì come sono alcuni affetti cotanto nei corpi umani agglutinati, 
+che non solo in quelli tenacemente si serbano, mentre che i corpi 
+aura vitale spirano; ma anco dai generanti ne' generati 
+successivamente si transfondono, così e non altrimenti mi credo, 
+che siano alcuni altri affetti cotanto negli animi umani 
+inviscerati, che dai padri nei figli si vadino propagando; poscia 
+che quello intimo amore, e riverenza grande, ch'era in Messer 
+<name>Giovambattista</name>mio padre verso Vostra Eccellenza Illustrissima in me transfusa inviolabilmente si mantiene. 
+Onde uscendo fuori le 
+tragedie di esso mio padre, mi è parso ragionevole di ciò darlene 
+qualche segnale; e rivolgendo nell'animo mio quale tragedia più a 
+lei convenesse, non ho potuto altre trovarne, che meglio se le 
+accommodasse di <name>Cleopatra</name>, in cui si narra la memorabile attiaca 
+vittoria navale del fortunatissimo <name>Augusto</name> contra Messer <name>Antonio</name>, e 
+<name>Cleopatra</name> amanti. Percioché ella sino dalla fanciullezza, che fu 
+l'anno ottavo della sua età consegnò le sue allora tenere membra 
+al servigio della gran maestà del Re Catolico, e conseguentemente 
+alla gloria della nostra religione, e alla commune salvezza; 
+sofferendo con mirabile pacienza in quei tanto teneri anni i 
+disagi militari, quasi che a lei fossero gioiose feste 
+gl'incommodi delle navigationi, i pericoli dei flutti marini, e 
+le sanguinose navali battaglie; e crescendo con gli anni il 
+giudizio, e 'l sapere, cominciò giovanetto ad avere onoratissimi 
+carichi; e meglio conosciuto di giorno in giorno il suo valore da 
+quel saggio re, generalati importantissimi, da cui ella poi n'ha 
+riportato, e ne riporta ogni ora tante onorate vittorie, e tanti 
+vittoriosi onori, com'è palese a tutto il mondo. Dunque 
+<name>Cleopatra</name> Tragedia via più di tutte l'altre sue sorelle a Vostra 
+Eccellenza Illustrissima se le deve. Perché si deve a vittorioso 
+duce, vittoriosa tragedia, a gran duce navale gran vittoria 
+navale. Benché infiniti saggi ella abbia dato di non esser men 
+valoroso guerriero di terra, che di mare, ma la chiamo più tosto 
+gran duce navale, perché la destinò il suo prudentissimo re più 
+tosto alla perigliosa marina guerra, che alla terrestre. E sì 
+come la fenice doppo lunghissima vita si forma un rogo d'odorati 
+legni, in cui ardendo ringiovenisce; così Vostra Eccellenza 
+Illustrissima si va accumulando un rogo di vittorie, come di
+tanti legni odorati, con cui doppo questa terrena morte 
+eternamente viverà; ma sì come la stessa fenice per lungo tempo 
+vive, così ogni buono, e ogni fedele le desidera vita per molti 
+anni (poiché eterna non la compatisce l'inferma nostra umanità) e ripiena di tutte quelle prosperità, ch'a nobilissimo e 
+valorosissimo cavaliere, e duce cristiano convengono. Con che 
+umilissimamente le bacio la mano. Di <name>Ferrara</name> il <date value="01-10-1583">primo d'Ottobre MDLXXXIII</date>.
+Di Vostra Eccellenza Illustrissima e Eccellentissima umilissimo e 
+devotissimo servitore
+<name>Celso Giraldi</name>
+</p></div1>
+<div1 type="introduzione"><head><hi rend="sc">ARGOMENTO</hi></head>
+<pb n="4"/>
+<p>ll'<name>Egitto</name> accoglie <name>Marco Antonio</name> 
+mentre egli è in guerra con <name>Ottavio</name>, e lo prende per marito. Mentre sono in mischia i due nemici in battaglia navale, <name>Cleopatra</name>, tocca da feminil paura, si dà a fuggire, onde riman vincitore <name>Ottavio</name>. 
+Ella teme che il marito non stimi lei essere cagione 
+dell'infelice avenimento, con averlo tradito, per certificarsi 
+dell'animo suo, finge di essersi uccisa. Il che inteso <name>Marco 
+Antonio</name>, se stesso uccide. Teme <name>Cleopatra</name>, che <name>Ottavio</name>la conduca in trionfo a <name>Roma</name>, e per fuggir sì grave scorno si dà morte.
+La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.
+</p></div1>
+<div1>
+<castList>
+<head><hi rend="sc">LE PERSONE CHE PARLANO.</hi></head>
+
+<castItem type="role"><role>Cleopatra, Reina.</role></castItem> 
+<castItem type="role"><role>Ottavio.</role></castItem>
+<castItem type="role"><role>Nutrice di Cleopatra.</role></castItem> 
+<castItem type="role"><role>Agrippa.</role></castItem>
+<castItem type="role"><role>Famigliar di Cleopatra.</role></castItem> 
+<castItem type="role"><role>Mecenate.</role></castItem>
+<castItem type="role"><role>Capitano di Marco Antonio.</role></castItem> 
+<castItem type="role"><role>Alfier del General di Ottavio.</role></castItem>
+<castItem type="role"><role>Marco Antonio.</role></castItem> 
+<castItem type="role"><role>Olimpo, medico di Cleopatra.</role></castItem>
+<castItem type="role"><role>Servo di Marco Antonio.</role></castItem> 
+<castItem type="role"><role>Servo di Marco Antonio.</role></castItem>
+<castItem type="role"><role>Cameriera di Cleopatra.</role></castItem> 
+<castItem type="role"><role>Gallo.</role></castItem>
+<castItem type="role"><role>Eunuco di Cleopatra.</role></castItem> 
+<castItem type="role"><role>Proculeio.</role></castItem>
+<castItem type="role"><role>Coro.</role></castItem> 
+<castItem type="role"><role>Sacerdote di Cleopatra.</role></castItem>
+<castItem type="role"><role>Segretario di Cleopatra.</role></castItem></castList>
+    <stage>Il Coro è di donne della corte di Cleopatra.</stage>
+   </div1>
+<div1 type="prologo"><head><hi rend="sc">PROLOGO</hi></head>
+<pb n="5"/>
+<sp><l>Fra le cose trovate da gli antichi</l>
+<l>Per insegnare i buon costumi al mondo,</l>
+<l>Nulla ve n'ha, che più diletti, e giovi,</l>
+<l>Che le favole, ben condutte in scena;</l>
+<l>E benché d'esse sian varie le sorti,</l>
+<l>Fra quelle nondimen di maggior loda</l>
+<l>Ottiene la tragedia il primo luoco,</l>
+<l>Siasi ella di fin mesto, o di fin lieto,</l>
+<l>Come poema, che in gravità avanza</l>
+<l>Onde compassion ne nasca, e orrore,</l>
+<l>Purga da' vizi gli animi mortali,</l>
+<l>E lor face bramar sol la virtute,</l>
+<l>Veggendo che fin facciano coloro,</l>
+<l>Che in tutto buon non sono, o in tutto rei.</l>
+<l>Il che quantunque malagevol sia,</l>
+<l>Ai più chiari, e più nobili intelletti,</l>
+<l>Nondimeno ha voluto oggi il Poeta</l>
+<l>(Quanto meglio ha potuto) addurre in scena</l>
+<l>Ad utile comun, nuova tragedia,</l>
+<l>Che in sé contiene il fin di <name>Cleopatra</name>,</l>
+<l>A cui sopposto fu tutto l'<name>Egitto</name>,</l>
+<l>E parimente il fin di <name>Marco Antonio</name>,</l>
+<l>Che l'armi aveva contra <name>Ottavio</name>prese,</l>
+<l>Per sopporre al suo imperio il mondo tutto.</l>
+<l>Quindi vedrete, spettatori, quanto</l>
+<l>Poco giovin gli imperi, e i tesori,</l>
+<l>E le potenze, e l'altre doti umane</l>
+<l>Quando il piacere a la virtù prevale,</l>
+<l>Piacer che tragga l'uom fuor di se stesso,</l>
+<l>E che guerra maggior fanno agli imperi</l>
+<l>Le delizie, e i diletti, che son fuori</l>
+<l>De l'ordine comun de la ragione,</l>
+<l>Che molte squadre de' nemici armati.</l>
+<l>E che puote regnar sol lungamente</l>
+<l>Chi, preso il lume de la ragion per guida,</l>
+<l>Sa comandare a sé, regger se stesso.</l>
+<l>Questa è <name>Alessandria</name>, e quel, ch'è là è l'<name>Egitto</name></l>
+<pb n="6"/>
+<l>Che sì fertile fan l'onde del <name>Nilo</name>.</l>
+<l>Qui il caso avien, di cui parlato ho dianzi,</l>
+<l>Che a molti potrà dar salubri essempi.</l>
+<l>Più volea dir, ma veggo <name>Cleopatra</name>,</l>
+<l>Che vuole uscir, e mio debito è darle</l>
+<l>Luoco. Però mi basterà, per ora,</l>
+<l>L'avervi mostro, che soggetto debba</l>
+<l>Aver questa tragedia. Ora, nel fine</l>
+<l>Di questo mio ragionamento, udienza</l>
+<l>Grata vi cheggio, a nome del Poeta,</l>
+<l>Il quale altro non pensa, altro non cura</l>
+<l>Che porgervi, giovando, quel diletto</l>
+<l>Che si conviene a favola reale.</l>
+<l>Però vi prego, ch'ascoltiate attenti</l>
+<l>Questo grave successo. Così mai</l>
+<l>Van disio non vi tocchi, ma vi regga</l>
+<l>La ragione in tal guisa, che la vita</l>
+<l>Sempre abbiate felice, e il fin lieto,</l>
+<l>E ve ne segua eterna gloria al mondo.</l>
+</sp></div1>
+<div1 type="atto"><head><hi rend="sc">ATTO PRIMO</hi></head>
+<div2 type="scena"><head><hi rend="sc">SCENA PRIMA</hi></head>
+<pb n="7"/>
+<sp><speaker>Cleopatra</speaker> 
+<l>Lassa, dove più mai debbo piegare</l>
+<l>L'afflitta mente mia? mi trovo tanto</l>
+<l>Da la Fortuna combattuta, ch'io</l>
+<l>Non so a che più sperare in cosa alcuna.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Reina mia, queste mortali cose</l>
+<l>Non rimangono sempre in uno stato,</l>
+<l>Ma di dì in dì si mutan, d'ora, in ora,</l>
+<l>E come chi è felice temer deve,</l>
+<l>Che l'allegrezza non si muti in pianto'</l>
+<l>Così chi miser' è deve sperare</l>
+<l>Che la miseria si converta in gioia.</l>
+<l>Però, se bene una, e due volte trista</l>
+<l>Avete avuta la Fortuna, lieta</l>
+<l>Vi devete sperar di averla ancora.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Così seconda un lungo tempo sempre</l>
+<l>Avuta l'ho, così felice, ch'io</l>
+<l>Dubito ch'ella inacerbir si voglia,</l>
+<l>E quanto mi alzò al sommo de la ruota,</l>
+<l>Tanto mi cacci indegnamente al fondo.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>E che cosa è, ch' ora temer vi faccia,</l>
+<l>Che vi sia sì nimica la Fortuna?</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ohimé, dapoi che <name>Marco Antonio</name>, e <name>Ottavio</name></l>
+<l>Vennero a la battaglia con le navi,</l>
+<l>Et io, da feminil paura spinta</l>
+<l>(Ché soffrir non potei sì fiero assalto)</l>
+<l>A fuggir cominciai, quando vittoria</l>
+<l>Devea sperare, e <name>Marco Antonio</name> astratto</l>
+<l>Dal singolare amor che mi portava</l>
+<l>Si diè a seguirmi, e ad <name>Ottavio</name> in preda</l>
+<l>Lasciò l'armata, onde vittoria ottenne,</l>
+<l>Sempre avuto ho in memoria le parole,</l>
+<l>Ch' uno dei maghi miei disse ad <name>Antonio</name>,</l>
+<l>Che, mentre egli sol' era, avea fortuna,</l>
+<l>Illustre, eccelsa, ma ad <name>Ottavio</name> giunto</l>
+<l>Vile tosto veniva, oscura, e bassa.</l>
+<pb n="8"/>
+<l>Il che vero ho veduto insino ad ora,</l>
+<l>Ché mai sempre rimaso è in ogni guerra</l>
+<l>Vincitor contra <name>Marco Antonio</name> <name>Ottavio</name>.</l>
+<l>E temer ciò mi fa, ch'al fin l'<name>Egitto</name></l>
+<l>Resti in forza ad <name>Ottavio</name>, e che scacciata</l>
+<l>Io sia del regno, e così io venga preda</l>
+<l>Del vincitor romano, et in trionfo</l>
+<l>Condutta sia, come vil serva a <name>Roma</name>.</l>
+<l>Ma prima cacciar vo' del corpo l'alma,</l>
+<l>Ch'a vergogna sì vil condotta io sia.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Che stran pensier vi turba, ohimé, la mente?</l>
+<l>Sete come colui, che in campo viene</l>
+<l>Per far battaglia, e trema anzi la tromba.</l>
+<l>Sapete pur, che in <name>Alessandria</name> accolte</l>
+<l>Le genti contra <name>Ottavio</name> ha <name>Marco Antonio</name></l>
+<l>E deono venir' oggi a guerra insieme,</l>
+<l>E forse, insino ad or, vi son venuti.</l>
+<l>E perché non potrebbe esser, ch'Ottavio</l>
+<l>Ne la battaglia perditor restasse?</l>
+<l>Stabile, e ferma veritade quello</l>
+<l>Non è, ch'avenir deve, e non più questo</l>
+<l>Esser può, che quell'altro. In man di Dio</l>
+<l>Il futuro è, Reina, e poco saggio,</l>
+<l>Esser possendo l'uno, e l'altro, è quegli,</l>
+<l>Che sperar non vuol ben, temere il male.</l>
+<l>Però, senza più affliggervi, vi piaccia</l>
+<l>Voler veder de la battaglia il fine.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Non può quegli sperar lieto successo,</l>
+<l>Che si vede Fortuna ognor contraria,</l>
+<l>E come i casi lieti dan speranza</l>
+<l>Così la levan gli infelici a fatto.</l>
+<l>Ho già veduto io, che fin debba avere</l>
+<l>Questa battaglia. Se fu <name>Marco Antonio</name></l>
+<l>(Quando scemate non erano punto</l>
+<l>Le forze sue) perdente, che sperare</l>
+<l>Debb' io che queste sue reliquie estreme</l>
+<l>Abbian ne la battaglia oggi vittoria?</l>
+<l>L'aver perduto una, e due volte, e avere</l>
+<l>L'eccidio suo, la sua ruina innanzi</l>
+<l>Spesso è cagion, che quel, che non potero</l>
+<l>Molti soldati fare, il fanno pochi.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Rimaner vi dee pur, Reina, a mente</l>
+<l>Quel, ch'udito da lui più volte avete</l>
+<l>Che fra' Parti fu già da <name>Faraote</name></l>
+<l>Condutto <name>Marco Antonio</name> a stato tale,</l>
+<l>Ch'ei, per non esser del nemico preda,</l>
+<l>A <name>Ranno</name>, servo suo, commesso avea,</l>
+<l>Che l'uccidesse, e gli togliesse il capo</l>
+<l>Dal collo, acciò che il suo crudel nemico</l>
+<l>Conoscerlo fra i morti non potesse.</l>
+<l>E nondimen rimase il Parto vinto</l>
+<l>Dal vostro <name>Marco Antonio</name> in quella guerra.</l>
+<l>Egli è, Reina, quel capitano ora,</l>
+<l>Ch'era a quel tempo, anzi più esperto assai.</l>
+<pb n="9"/>
+<l>E s'allor vinse, perche non debbiamo</l>
+<l>Pensar che vincitore ora anche resti?</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>De la perdita, ohimé, mi dier gli Dei</l>
+<l>Cara nutrice, allora indizio espresso</l>
+<l>Ch'egli l'armata contra <name>Ottavio</name> mosse.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>E ch'indizio fu quel, ch'or sì v'affligge?</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Aveano alcune rondinelle il nido</l>
+<l>Per molti giorni fatto in quella nave,</l>
+<l>Che nome avea da <name>Marco Antonio</name>, <name>Antonia</name>,</l>
+<l>E prima che venesser con le navi</l>
+<l><name>Ottavio</name> e <name>Marco Antonio</name> a la battaglia</l>
+<l>Ve ne venner di nove, e a guerra insieme</l>
+<l>Venute essendo, fuor scacciar le prime,</l>
+<l>E il nido tolser loro, il che mi mostra,</l>
+<l><name>Nutrice</name> mia, ch'al fin sarà scacciato</l>
+<l>Di questo regno, chi or possiede il regno.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Se i regni si perdessero ogni volta,</l>
+<l>Che fan guerra fra lor gli augei, <name>Reina</name>,</l>
+<l>Sarebbe sempre sottosopra il mondo.</l>
+<l>Ma, quando avesser pur le rondinelle</l>
+<l>Portato augurio alcuno, volea forse</l>
+<l>Mostrar, che vincitor deveva <name>Ottavio</name></l>
+<l>Esser, come fu allor. Ma ora è finito</l>
+<l>Questo sospetto, e fia gran senno omai</l>
+<l>Ad altro dare il cor, ch'a le querele.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Forza è, ch'al lamentar si dia colei,</l>
+<l>Che non si vede innanzi altro che pianto,</l>
+<l>Né prometter si può se non dolore.</l>
+<l>Ma chi è costui, che sì maninconioso</l>
+<l>Sen vien verso la corte? Egli è un de' miei</l>
+<l>Famigliari, nutrice; e in atto mostra</l>
+<l>Esser più d'ognun tristo. Or da costui</l>
+<l>Udrai s' avrò cagion di pianger sempre.</l>
+<l part="I">Vo' che qui l'aspettiam.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Come vi piace.</l>
+<l>E prego Dio, che questo timor vostro</l>
+<l>Abbia tal fin, che ne restiate lieta.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Come esser puote ciò, se congiurate</l>
+<l>Sono contra di me nel ciel le stelle?</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SECONDA
+</hi></head>
+<sp><speaker>Famigliare</speaker> 
+<l>Miser colui, cui la Fortuna volta</l>
+<l>Le spalle, e gli si mostra aspra nemica,</l>
+<l>Può ben ei dir d'esser rimaso senza</l>
+<l>Presidio, e il vede or <name>Marco Antonio</name> in fatto,</l>
+<l>Né liberalità vi giova, o indizio</l>
+<l>Che si mostri ad altrui d'animo grato,</l>
+<l>Perché mantenga la giurata fede.</l>
+<pb n="10"/>
+<l>Ieri, perché un soldato alto valore</l>
+<l>Contra il nemico avea mostrato, in campo,</l>
+<l>Per più animarlo, <name>Marco Antonio</name>, doni</l>
+<l>Singolari gli diede, e <name>Cleopatra</name>.</l>
+<l>E l'infedel la notte ito è ad Ottavio,</l>
+<l>Et oggi preso ha contra <name>Marco Antonio</name></l>
+<l>(Nulla curando i doni, e la fé nulla)</l>
+<l>Sì alto benefattor suo, l'arme in mano,</l>
+<l>Testimon dando, ch 'animo al mal vòlto</l>
+<l>Non si puote mutar per benefici,</l>
+<l>Ma con l'ingratitudine compensa</l>
+<l>I benefici, e de la fede manca.</l>
+<l>Pur che gli si offra cosa, onde servirsi</l>
+<l>Possa, ad utile suo, con l'altrui danno,</l>
+<l>E che se ben qualche desio d'onore</l>
+<l>Talor lo sprona a qualche bella impresa,</l>
+<l>D'ogni cosa al fin può più la Natura,</l>
+<l>Avezza al male et al mancar di fede,</l>
+<l>Né basta a tal esser malvagio, e reo</l>
+<l>Ma spessissime volte seco tira</l>
+<l>Molti altri, e molti a le scelerate opre,</l>
+<l>Il che si vede chiaro in questa guerra.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Molto afflitto si mostra questi in atto,</l>
+<l>Né altro aspettar da lui posso ch'affanno.</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l>Col mal officio, ch'ha fatto costui,</l>
+<l>A la ruina nato de l'<name>Egitto</name>,</l>
+<l>Ch'espor devea per <name>Marco Antonio </name>l'alma,</l>
+<l>Indutti ha quei, che mille volte, e mille</l>
+<l>Giurato a <name>Marco Antonio</name> han servar fede,</l>
+<l>Ch' ora tradito l'hanno, e si son dati</l>
+<l>Tutti ad <name>Ottavio</name>, e per lui prese han l'arme</l>
+<l>Contra il lor capitan malignamente.</l>
+<l>E vero, è vero quel, che si suol dire,</l>
+<l>Che chiunque possiede maggior gente</l>
+<l>E' più d'ognun da' suoi nemici involto.</l>
+<l>Gran ventura ben fu, che <name>Marco Antonio</name></l>
+<l>Si ridusse a quel colle, per vedere</l>
+<l>Con ch'animo assaliano i suoi soldati</l>
+<l>Ottavio, e ch'egli indi sperar devesse,</l>
+<l>Che, se ne la battaglia si trovava,</l>
+<l>Il davano al nemico ne le mani,</l>
+<l>Or l'essercito ha vòlto con l'armata</l>
+<l>Contra <name>Alessandria</name><name>Ottavio</name>, e a la reina</l>
+<l>Nostra, e al regno porta ultimo eccidio.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Veggo, nutrice mia, quanto infelice</l>
+<l part="I">Novella apporta questi.</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l part="F">O poverella,</l>
+<l>O poverella <name>Cleopatra</name>, a che ora</l>
+<l>Condutta sei? Oh quanto fu infelice</l>
+<l>Per te quel dì, che con la nave d'oro</l>
+<l>E coi remi d'argento, e con le vele</l>
+<l>Di porpora n'andasti a <name>Marco Antonio</name>,</l>
+<l>Ornata sì, che simigliavi proprio</l>
+<l><name>Vener</name>, che <name>Bacco</name> a ritrovare andasse.</l>
+<pb n="11"/>
+<l>Allor, misera te, fu la ruina</l>
+<l>De te medesmo, e del tuo regno espressa.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Starai a veder, che <name>Marco Antonio</name> in questa</l>
+<l>Battaglia è stato vinto, e preso, e morto.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="I">Forse che no.</l></sp>
+<sp><speaker>Cleopatra </speaker>
+<l part="F">Io veggo bene quanto</l>
+<l>Dolente vien costui verso la corte.</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l>Ma vedi com'a un tratto, avrà perduto</l>
+<l>Questa reina <name>Marco Antonio</name> e il regno.</l>
+<l>Che così tosto ch'egli vide andare</l>
+<l>L'armata et i soldati da la parte</l>
+<l>Del suo nemico, si pensò che fusse</l>
+<l>Cleopatra cagion del tradimento.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Io non posso soffrir tanta dimora,</l>
+<l>Andiamo a lui, nutrice. Che novella</l>
+<l part="I">Porti dal campo?</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l part="F">La peggior, Reina,</l>
+<l>Che si possa portare a real donna.</l>
+<l>L'armata, et i soldati hanno tradito</l>
+<l>Il vostro <name>Marco Antonio</name>, et il nemico</l>
+<l>Vincitor vien verso la terra armato,</l>
+<l part="I">Per far preda di voi.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ohimé dolente,</l>
+<l>Bene il cor mi dicea, che ciò sarebbe,</l>
+<l>Ché sapeva io ch'ove fortuna manca,</l>
+<l>Fede non è in alcuno, e tanto amici</l>
+<l>Ha l'uom, quanto è felice, ma se viene</l>
+<l>Meno la sorte buona, ei riman solo.</l>
+<l>Ma, dimmi, è vivo <name>Marco Antonio</name>? o morto?</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l>Egli vivo è ma sciocchezza è che in lui</l>
+<l part="I">Poniate alcuna speme.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ch'è egli forse</l>
+<l part="I">Ne le mani di <name>Ottavio</name>?</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l part="F">Egli è pur salvo.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ma perché in lui non debb'io por più speme,</l>
+<l part="I">S'egli salvo è?</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l part="F">Perché per capitale</l>
+<l part="I">Nemica vi ha.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Per capital nemica</l>
+<l part="I">Mi ha <name>Marco Antonio</name>? che ne sai tu?</l></sp>
+<sp><speaker>Famigliare</speaker> 
+<l part="F">Tosto</l>
+<l>Che si vide tradir da' suoi soldati</l>
+<l>Diede la colpa a voi del tradimento,</l>
+<l>Dicendo: Ovunque vado, o <name>Cleopatra</name>,</l>
+<l>Provo, a ruina mia, l'insidie tue.</l>
+<l>Ne la battaglia de le navi in preda</l>
+<l>Mi lasciati ad <name>Ottavio</name>, indi fuggendo,</l>
+<l>Et ora contra me fatt' hai voltare</l>
+<l>Tutta la gente, che mi avevi data,</l>
+<l>Perch' io rimanga del nemico preda.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Che strano guiderdon del vostro amore</l>
+<l part="I">Avete, ohimè, Reina.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Questo a punto</l>
+<l><name>Nutrice</name> è la mercede, che la ria <gap/></l></sp></div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUINTA</hi></head>
+<stage>Marco Antonio, Servo, Capitano.</stage>
+<pb n="15"/>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Io non voglio,</l>
+<l>Fedel mio, andar in man d'<name>Ottavio</name> vivo,</l>
+<l>E come sicur ciò possa schivare,</l>
+<l><name>Cassio</name> già me 'l mostrò, me 'l mostrò</l>
+<l><name>Bruto</name>.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Ne vo' che morte anche vi diate, questi</l>
+<l>Non son pensier, Signor, degni di voi.</l>
+<l>Vo', che pensiam di ricovrare il regno,</l>
+<l>E non di gire indegnamente a morte,</l>
+<l>E che non goda <name>Ottavio</name> di vedere,</l>
+<l>Che noi ci diamo, da noi stessi, morte.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Ahi fedel mio, quanto sarei sciocco ora,</l>
+<l>S'io pensassi poter ricuperare</l>
+<l>Quel, ch'ha dato Fortuna al mio nemico,</l>
+<l>Facendomi tradire a que' soldati,</l>
+<l>Con cui sperava aver certa vittoria.</l>
+<l>E più sciocco sarei, se non essendo</l>
+<l>Quel, che dianzi era, avessi il viver caro.</l>
+<l>Morir vo' adunque, e con la morte mia</l>
+<l>Omai por fine a le miserie gravi.</l>
+<l>Et a trastull' esser de la ria Fortuna,</l>
+<l>Che contra me s'è per <name>Ottavio</name> armata.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Signor, sì come non si inalza il saggio</l>
+<l>Per le felicità più che convenga</l>
+<l>A la prudenza, così egli non lascia,</l>
+<l>Che caso averso il suo valore opprima.</l>
+<l>Avenga ciò che vuole, egli è quel sempre,</l>
+<l>Ch'egli era prima, e pur non muta il viso,</l>
+<l>Non che sommetta l'animo al dolore,</l>
+<l>Però, benché crudelmente vi assaglia</l>
+<l>Or la Fortuna, e ogni sua forza adopre,</l>
+<l>Per farvi il più infelice uomo del mondo,</l>
+<l>Non devete lasciar l'animo vostro.</l>
+<l>Io voglio che pensiam, che esser non possa</l>
+<l>Perdita, ovunque è <name>Marco Antonio</name> salvo;</l>
+<l>E che, col valor vostro, anche potreste</l>
+<l>Ottavio indurre a battersi la guancia.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Sciocco colui, che nel fondo del mare</l>
+<l>Si trova nudo, e d'ogni forza privo,</l>
+<l>E poter spera andare al lito salvo;</l>
+<l>E che giunto a l'estremo de la vita,</l>
+<l>Pensa di ricovrar la sua salute.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Prego, Signore, che per certo abbiate,</l>
+<l>Che insin che voi non perderete voi,</l>
+<l>Dir non porà di avere <name>Ottavio</name> vinto.</l>
+<l>La Fortuna talor preme i felici,</l>
+<l>Per inalzarli poscia a maggior grado.</l>
+<l>Non vi sta a mente, che dapoi che <name>Mario</name></l>
+<l>Al tempo di <name>Sulpizio</name>, fu da <name>Scilla</name></l>
+<l>Vinto, et egli fuggì senza presidio,</l>
+<l>E dopo duri, e vari casi, preso</l>
+<l>Da' <name>Minturnesi</name>, et al fin dato in guardia</l>
+<l>A <name>Fania</name> sua nemica, onde aspettava</l>
+<l>Di dì in dì, d'or in or morte crudele,</l>
+<l>Egli servò però tanto di <name>Mario</name>,</l>
+<pb n="16"/>
+<l>In quell'estremo caso, che il Francioso,</l>
+<l>Ch'ito era a torgli il capo, con la voce</l>
+<l>Spaventosa, e terribil, di timore</l>
+<l>Empì di modo, ch'ei si diè fuggire,</l>
+<l>E del carcer lasciò la porta aperta,</l>
+<l>Onde se n'uscì <name>Mario</name> incontinente,</l>
+<l>E contra <name>Scilla</name> anche sen venne a <name>Roma</name>,</l>
+<l>E molti, e molti de' nemici uccise:</l>
+<l>E consule al fin fatto, uscì di vita.</l>
+<l>Sprezzato non è mai, chi sé non sprezza,</l>
+<l>Ma chi in cor serba un generoso ardore</l>
+<l>Si acquista pregio anche ne' casi estremi,</l>
+<l>Malgrado che se n'abbia la Fortuna.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Avuto ho del futur io chiaro segno,</l>
+<l>Insino nel principio de la guerra,</l>
+<l>Sognandomi, ch'un fier fulmine acceso</l>
+<l>Mi avea percossa la mia destra mano.</l>
+<l>Ma assai più leggermente si conosce</l>
+<l>La sorte rea, ch'ella schivar si possa.</l>
+<l>Appresso i suoni, che s'udiro, e i canti</l>
+<l>Ieri di notte uscir fuor de la porta,</l>
+<l>Mi fecero conoscer, che il dio <name>Bacco</name>,</l>
+<l>Sotto il favor del qual son visso sempre,</l>
+<l>Mi abbandonava, e <name>Cleopatra</name> istessa</l>
+<l>Nemica mi è. Però più non avendo</l>
+<l>Presidio alcun divin, presidio umano,</l>
+<l>Che debbo io altro bramar, che morir tosto?</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Questa non è, Signor, la prima volta,</l>
+<l>Che dato vi ha crudel Fortuna assalto,</l>
+<l>Ch'avete più di una fiata seco</l>
+<l>Già combattuto, e la vittoria avuta,</l>
+<l>Ella vinta si rende, Signor mio,</l>
+<l>Quando altri contra lei si mostra ardito.</l>
+<l>Io prego, che non vi esca de la mente,</l>
+<l>Che in quel misero tempo ch'<name>Irzio</name>,e<name>Pansa</name>,</l>
+<l>A <name>Modena</name> ebber rotto il vostro campo,</l>
+<l>E in <name>Italia</name> avevate già perduto</l>
+<l>Ogni speme d'aiuto, voi, voi stesso</l>
+<l>Servando invitto contra il suo furore,</l>
+<l>(Superati disagi mille, e mille)</l>
+<l>Passaste l'<name>Alpe</name> valorosamente,</l>
+<l>Pensando aver da <name>Lepido</name> soccorso,</l>
+<l>E mostrato vi s'è esso aspro nemico,</l>
+<l>Voi debole, et afflitto superaste</l>
+<l>Ogni suo sforzo. Onde sentendo <name>Ottavio</name>,</l>
+<l>Ch' avevate il camin vòlto a l'<name>Italia</name>,</l>
+<l>Ebbe a gran grazia di venirvi amico.</l>
+<l>E l'imperio con voi partì del mondo;</l>
+<l>Che s'aveste, com' ora fate, voi</l>
+<l>Posto in oblio, rimanevate morto.</l>
+<l>Signore, insin che questa mano è salva,</l>
+<l>E questo core il suo valor mantiene,</l>
+<l>Come usato è, io fermo creder voglio</l>
+<l>(Faccia quanto può far l'aspra Fortuna)</l>
+<pb n="17"/>
+<l>Che vi sia speme ancor de la vittoria.</l>
+<l>E (quando pur perder bisogni) fate,</l>
+<l>Che chi veduto vi ha pregiato, e grande</l>
+<l>Mentre eravate vivo, in stato eccelso,</l>
+<l>Vi vegga anche pregiato e grande morto,</l>
+<l>In questa indignità de la fortuna.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Non so, non so, come ciò far si possa.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Stringianci insieme a l'ultimo bisogno,</l>
+<l>Signore invitto, e con la spada in mano</l>
+<l>(Facendo valorosamente strazio</l>
+<l>Di chi verrà contra di noi) moriamo</l>
+<l>Da valorosi tal, che se ben morti</l>
+<l>Ne vedrà <name>Ottavio</name>, non ne vegga vinti.</l>
+<l>Facciamo che le piaghe nostre onore</l>
+<l>Versino più, che non faranno sangue.</l>
+<l>Giudico meglio assai, che combattendo,</l>
+<l>In messo a' corpi de' nemici un cada,</l>
+<l>Ch'egli, venendo a se stesso nemico,</l>
+<l>Con la sua propria man se stesso uccida.</l>
+<l>Vergogna a <name>Cassio</name> fu, vergogna a <name>Bruto</name>,</l>
+<l>Che morisser da sé, come moriro.</l>
+<l>Pare a voi, che venisse da gran core</l>
+<l>Quell'atto, et a me par, che da viltade</l>
+<l>Venisse ciò, l'animo lor non dando</l>
+<l>(Versando il sangue de' nemici in terra</l>
+<l>Come versar ben ve 'l poteano entrambi),</l>
+<l>Morir, con l'arme in man, da coraggiosi.</l>
+<l>Però Signor, serviamo questa destra,</l>
+<l>Destra di valor pegno, e di fortezza,</l>
+<l>A far del sangue ostil l'erbe vermiglie.</l></sp>
+<sp><speaker>Servo</speaker> 
+<l>Signor, ben vi consiglia il <name>Capitano</name>,</l>
+<l>E quantunque io sia servo, e molto toglia</l>
+<l>L'infima sorte a la mia parola,</l>
+<l>Pur vi prego ancor io, per quella fede,</l>
+<l>Con cui servito vi ho sempre di core,</l>
+<l>E per quello immenso animo, che sempre</l>
+<l>Bramoso mostro vi ha d'onor, di pregio,</l>
+<l>Che lasciate or questo disio di morte,</l>
+<l>E vi accostiate al suo fedel consiglio.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>In tanto dubbio son di me medesmo,</l>
+<l>Che meglio del morir non so vedere.</l>
+<l>Ma la nutrice uscir di <name>Cleopatra</name></l>
+<l>Veggo, tutta dolente, e tutta mesta,</l>
+<l>E lacrimando, lacerarsi il petto.</l>
+<l>Qualche cosa sinistra ne la corte</l>
+<l>Avenut'è, creduto averò in vano,</l>
+<l>Che mi abbia <name>Cleopatra</name> al fin tradito.</l>
+<l>Però che, se venisse <name>Ottavio</name> a lei,</l>
+<l>Come amico, saria la corte tutta</l>
+<l>In allegrezza: ora attendiamo insieme,</l>
+<l>Che novelle ci apporta questa vecchia.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Dio voglia, che non sia la secure</l>
+<l>Che gli levi dal collo, a un colpo, il capo,</l>
+<l>Togliendogli del core ogni pensiero,</l>
+<pb n="18"/>
+<l>Degno non pur d'imperador, ma d'uomo.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SESTA</hi></head>
+<sp><speaker>Nutrice</speaker> 
+<l>Ahi quanto invidiosa è la Fortuna</l>
+<l>De le allegrezze umane! Quanto fele</l>
+<l>Pone costei ne le dolcezze altrui!</l></sp>
+<sp><speaker>Marco Antonio</speaker>
+<l>Ahi che mal m'indovino.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>O <name>Cleopatra</name>,</l>
+<l>Or dove son le tue virtuti? Or dove</l>
+<l>E' quella altezza, onde n'andavi sopra</l>
+<l>Qualunque altra reina? Ov'è quel fiore</l>
+<l>Di beltà così rara? A un'ora, a un'ora</l>
+<l>Misera me, dolente me, averai</l>
+<l>Il tuo regno perduto, e te con lui.</l>
+<l>O <name>Marco Antonio</name>, come fu crudele</l>
+<l>Quella tua voce! come mai potesti</l>
+<l>Dir, che ti aver colei tradito, a cui</l>
+<l>Eri più a cor, che la sua propria vita?</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Io mi sento uscir fuor del corpo l'alma,</l>
+<l>Io vo' saper, che lamentare è questo,</l>
+<l>Poi che par, che costei di me si doglia.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Oh dolorosa me, quanto infelice,</l>
+<l>Quanto calamitoso questo giorno</l>
+<l>E' stato a questa corte, a questo regno!</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="I">Che vi è nutrice ?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Ahi Signor mio, vi è il fine</l>
+<l>D'ogni nostra allegrezza, e d'ogni bene.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="I">E che?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Io aver non posso, Signor mio,</l>
+<l>Tanto spirto a la voce, ch'io ve 'l narri.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="I">Perché? Fate ch'io il sappia.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Perché omai</l>
+<l>Ci è tolta ogni speranza di salute.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Perché? perché temete <name>Ottavio</name>? Questi</l>
+<l>Sol basta a far che siamo salvi tutti!</l>
+<l>Sono a la porta buon presidi, e prima</l>
+<l>Ch'egli ispugnati gli abbia, in luogo forte</l>
+<l>Ci ridurremo, e non avrà vittoria</l>
+<l>Di noi, ché potrebbe egli esser perdente:</l>
+<l>Salvo il nostro signor siam salvi tutti.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Non bramiam più salvezza, anzi a gran grazia</l>
+<l>Fia a tutti noi la morte, poi che morto</l>
+<l>Ci è quanto ben noi avevamo al mondo.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="I">Che dite voi di morte?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Io dico: Ahi lassa,</l>
+<l>Ch'ogni gioia mi è affanno, e che la vita</l>
+<l>Mi è morte espressa, poscia che mi è tolta</l>
+<l>Chi mi fea l'amar dolce, e il tristo lieto.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="I">E chi?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Signor, colei che la vita era</l>
+<pb n="19"/>
+<l>Di questo impero, et era anche la vostra,</l>
+<l>E la nostra salute. Ohimé, Reina,</l>
+<l>Reina, ohimè, ohimé, ove vi ha condutta</l>
+<l part="I">Rispetto altrui?</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="F">Piangete <name>Cleopatra</name></l>
+<l part="I">A quel ch'io veggo.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Io piango lei Signore,</l>
+<l>Lei piango sol, sol lei, né più mi spero</l>
+<l>Cosa lieta veder, mentre ch'io viva.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>E che non vive <name>Cleopatra</name>? Ahi lasso,</l>
+<l part="I">Non vive Cleopatra?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">No, Signore,</l>
+<l>Che vivere non volle in ira a voi;</l>
+<l>Ma volle la infelice farvi chiaro,</l>
+<l>Col suo morir, che non vi avea tradito.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="I">Ohimé.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Come mai foste, alto Signore,</l>
+<l>Dubbioso sì di lei, che la chiamaste</l>
+<l>Disleale, infedele, e traditrice?</l>
+<l>Ohimé infelice, ahi trista me, che senza</l>
+<l>Il vostro amor viver non ha voluto.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Dunque è solo per me <name>Cleopatra</name> morta?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Per voi, Signor. Tantosto ch'ella udìo,</l>
+<l>Che l'amor vostro avea perduto, un grido</l>
+<l>Grande alzò al cielo, e disse : Ver non fia</l>
+<l>Che in ira a <name>Marco Antonio</name> io resti viva.</l>
+<l>E detto ciò, prese un coltello in mano,</l>
+<l>E disse: "Il sangue mio testimon fia</l>
+<l>De la innocenza mia, de la mia fede</l>
+<l>E questo detto: "Oh misera, oh infelice,</l>
+<l>Oh dolorosa me", si passò il core,</l>
+<l part="I">E cadeo morta.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l part="F">O <name>Cleopatra</name>, adunque</l>
+<l>Viver poss' io, sapendo esser te morta?</l>
+<l>E morta, ohimé, solo per mia cagione?</l>
+<l>Ahi, <name>Cleopatra</name> mia, dove sei gita?</l>
+<l>Ma data morte ti ha, non la tua mano,</l>
+<l>Ma la mia, ahi lasso, e la mia anche a me stesso, </l>
+<l>O <name>Cleopatra</name> mia, darà la morte.</l>
+<l>Ahi fedel servo, ahi<name> Capitan</name> fedele,</l>
+<l>Perché non mi lasciaste a morte gire</l>
+<l>Dianzi, ch'udir avrei schivata questa</l>
+<l>Novella, a me più che la morte amara?</l>
+<l>Veggo ben 'io, ch'un infelice, ohimé</l>
+<l>Vivendo, si conserva a mille angoscie,</l>
+<l>Mostro mi hai dunque <name>Cleopatra</name>, come</l>
+<l>Si dee far fine a le miserie umane.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Signore, vane son queste querele,</l>
+<l>E a voi disconvenevoli, a salvarsi.</l>
+<l>Pensar bisogna, e a ricovrar l'Impero,</l>
+<l>E non pensar di voler darvi morte,</l>
+<l>Perch' una feminuccia si sia uccisa.</l>
+<l>Fuss'ella morta pure, ha già dieci anni,</l>
+<l>Che per lei, voi potete dir d'avere</l>
+<pb n="20"/>
+<l>Perduto il vostro Impero; che vi ha fatta</l>
+<l>Ella, co' modi suoi, guerra maggiore,</l>
+<l>Che non fé mai con le sue forze Ottavio.</l>
+<l>Ricovrate voi dunque, e siavi a grado</l>
+<l>Che la calamità vostra sia morta.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Or taci, e fa', se mi ami, che più mai</l>
+<l>Io non oda da te queste parole.</l>
+<l>Valeva più costei, che tutto il mondo.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Ben avea questa un animo romano</l>
+<l part="I">Tutto in sua forza.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Io me ne maraviglio.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Nutrice, io verrei dentro a veder quella</l>
+<l>Morta, che viva era la vita mia,</l>
+<l>Se non che so, che a quella beata alma</l>
+<l>Grave sarebbe, ch'io vedessi ahi lasso,</l>
+<l>Quel corpo, a cui già dava ella la vita,</l>
+<l>Solo, per colpa mia, di vita privo.</l>
+<l>Però, nutrice, voi l'estremo ufficio</l>
+<l part="I">Farete verso lei.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Non mancheremo,</l>
+<l>Signor, del nostro debito, quantunque</l>
+<l>Miserabil ne sia vederla tale.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Entriamo in casa, et ivi a le mie angoscie</l>
+<l>Con la morte darò dicevol fine.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SETTIMA</hi></head>
+<sp><speaker>Nutrice</speaker> 
+<l>Sì misera veggo or la mia reina,</l>
+<l>E sì intenta la sorte ai danni suoi,</l>
+<l>Ch'io temo molto che mentre mi ha fatto</l>
+<l>Con finti pianti, e con mentite grida,</l>
+<l>Mostrar, ch'ella sia morta, a <name>Marco Antonio</name>,</l>
+<l>Non gli abbia procacciata ella la morte.</l>
+<l>Il che se fia, sé avrà la mia reina</l>
+<l>Uccisa, e <name>Marco Antonio</name>. Ahi questo è duro,</l>
+<l>Quando la sorte al fianco, è a l'uom col peggio</l>
+<l>Scerner poter il meglio. Ir vo' al sepolcro,</l>
+<l>Per dirle questo, acciò che se parralle,</l>
+<l>Faccia sapere a <name>Marco Antonio</name>, ch'ella</l>
+<l>E' viva. Perché lui può, a questo modo,</l>
+<l>Scampare, e lei da l'imminente morte.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA OTTAVA</hi></head>
+<sp><speaker>Cleopatra</speaker> 
+<l>In dubbio son di me medesma, insino</l>
+<l>Che novella non ho da la nutrice,</l>
+<l>Di ch'animo ver me sia <name>Marco Antonio</name>.</l>
+<l>Va tu a trovarla, e di', ch'ella s'affretti,</l>
+<pb n="21"/>
+<l part="I">Che giù l'attendo.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l part="M">Io vado.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Piaccia al Cielo,</l>
+<l>Che tal risposta abbia, dal signor mio,</l>
+<l>Che in questo mar de le miserie gravi,</l>
+<l>Mi sia come un sereno, e chiaro lume,</l>
+<l>Ond' io possa sperar di avere il porto,</l>
+<l>Porto non già così sicuro, ch'io</l>
+<l>Non tema gravi, e perigliose angoscie,</l>
+<l>Ma porto tal, che in queste mortali onde</l>
+<l>Nel mar de' miei dolor, non sia sommerso,</l>
+<l>Con ogni mia felicità, l'amore</l>
+<l part="I">Di<name> Marco Antonio</name>.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l part="F">La reina</l>
+<l part="I">Vi aspetta.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">A lei veniva,</l>
+<l>Senza che mi chiamassi, a lunghi passi.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="I">Or ecco la nutrice.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Io mi credea</l>
+<l>Trovarvi entro al sepolcro, e però i' era</l>
+<l part="I">Per la porta di dietro entrata.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ohimé</l>
+<l>Ch'uscita sono, per veder tornarti.</l>
+<l>Dimmi, cara nutrice, che novella</l>
+<l part="I">Porti da <name>Marco Antonio</name>?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Che mai sdegno</l>
+<l>Non spegne ardente amore. Il signor vostro</l>
+<l>E' più vostro che mai, più che mai vi ama.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="I">E questo è ver?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="M">Ver è, Reina.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Mi hai</l>
+<l part="I">Data la vita.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Se questa novella</l>
+<l>A voi data ha la vita, io temo molto,</l>
+<l>Che la novella de la morte vostra</l>
+<l>A lui non sia cagion di darsi morte,</l>
+<l>Tanto turbato il vidi, et aver tanto</l>
+<l>Sé, inteso morta voi, la vita a noia.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="I">Ahi che mi dici?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Certo io gli avrei</l>
+<l>Scoperto il ver, s'io non avessi avuto</l>
+<l part="I">Timor di errare.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ohimé cara nutrice:</l>
+<l part="I">Ch'aspra novella a questo?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">E' di bisogno,</l>
+<l>(Che il lamentarsi qui nulla rileva)</l>
+<l>Che cerchi a provedergli, co 'l mostrargli</l>
+<l part="I">La vita vostra.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Vien tu eunuco fuori,</l>
+<l>E vanne a <name>Marco Antonio</name>, e digli ch'io</l>
+<l>Son viva, e ch'io mi aveva finta morta,</l>
+<l>Per saper s'era forse ei meco in ira,</l>
+<l>Per volermi morir, s'egli mi odiava,</l>
+<l>Ma, poiché certa son de l'amor suo,</l>
+<pb n="22"/>
+<l>Io me ne voglio rimanere in vita,</l>
+<l>Sol per poterlo amar, perch'egli m'ami.</l>
+<l>Pregalo poi, per lo commune amore,</l>
+<l>Ch'egli a me venga, acciò che o lieta, o mesta</l>
+<l>Che sia la nostra vita, ambi commune</l>
+<l>L'abbiamo, e la compiamo ambiduo insieme.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="I">Io vo, Reina.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Io qui nel mio sepolcro</l>
+<l>Ti aspetto, e voglia Dio, che tu mi porti</l>
+<l>Novella tal, che in parte il duol mi lievi.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Userò ogni mio ingegno, per addurvi</l>
+<l>Cosa, Reina mia, che vi consoli.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA NONA
+</hi></head>
+<sp><speaker>Capitano</speaker> 
+<l>Quant'è mal consigliato uomo, che tutto</l>
+<l>Si ponga in podestà di donna ch'ami,</l>
+<l>E gli si faccia sì soggetto, ch'egli</l>
+<l>A voglia sua mover non sappia un passo!</l>
+<l>Questo gran capitan, poi che si diede</l>
+<l>Tutto in arbitrio a <name>Cleopatra</name>, venne</l>
+<l>Di coraggioso, come un servo vile,</l>
+<l>Tremando, a un guardo sol, di questa donna,</l>
+<l>Come tremar suol il fanciul per verga,</l>
+<l>Et ora, ch'intes' ha, ch'ella si è uccisa,</l>
+<l>(Laqual cosa non cred' io, a dire il vero,</l>
+<l>Che so, quant'ella sia fallace, e scaltra)</l>
+<l>Venuto è in guisa fuor di sè, ch'io stimo,</l>
+<l>Che tener no 'l potrem, che non si uccida.</l>
+<l>Par proprio un toro, che muggendo vada,</l>
+<l>Poi che squarciata vede la giuvenca</l>
+<l>Da fier leone, o ver da tigre irata.</l>
+<l>Conforto più non può, non può ragione,</l>
+<l>Non puote essempio addutto ritornarlo</l>
+<l>In se medesmo sì, che si conosca</l>
+<l>Che quantunque sia morta <name>Cleopatra</name>,</l>
+<l>(Se pure ella mort'è) non è rimaso</l>
+<l>Il miser signor mio dal nodo sciolto,</l>
+<l>Ond'ella lo si avea fatto prigione.</l>
+<l>Anzi con la catena, ond'era preso</l>
+<l>Così morta, com' è, il trarrà a la morte.</l>
+<l>Ben fu crudo l'influsso de la stella</l>
+<l>(Se stella fu, ch'a ciò mai l'inducesse,</l>
+<l>O non fusse <name>Tisifone</name>, o <name>Megera</name>)</l>
+<l>Che in <name>Egitto</name> il condusse a <name>Cleopatra</name>,</l>
+<l>Se viva, e morta gli devea far guerra.</l></sp>
+<pb n="23"/>
+<sp><speaker>CORO</speaker> 
+<l>L'alto, eterno Motore,</l>
+<l>Che far l'uomo dispose</l>
+<l>Sovra ogn'altro animal, saggio, e gentile,</l>
+<l>Tal diede a lui valore,</l>
+<l>Che chiaro appar, che pose</l>
+<l>Nulla di basso in lui, nulla di vile,</l>
+<l>Ma che gli diè un sottile,</l>
+<l>E prudente discorso,</l>
+<l>Ond'egli il bene, e il male,</l>
+<l>In questa vita frale,</l>
+<l>Scorger potesse, e porre un duro morso</l>
+<l>Al desir, che il piegasse</l>
+<l>A non lecite imprese, o ad'opre basse.</l>
+<l>E perchè ei solo avesse</l>
+<l>L'onore, e la mercede</l>
+<l>Di ciò, ch'oprasse virtuosamente,</l>
+<l>Chi liber farlo elesse,</l>
+<l>Per don raro, gli diede</l>
+<l>Tosto che nato fu, il don de la mente</l>
+<l>Acciò che con l'ardente</l>
+<l>Lume de la ragione</l>
+<l>Il suo meglio seguisse,</l>
+<l>E ciò, ch'è reo, fuggisse.</l>
+<l>Ché s'egli fusse, senza elezione,</l>
+<l>A questo, o a quello astretto,</l>
+<l>Non avria biasmo, o loda alcun suo affetto.</l>
+<l>E che post'abbia Dio</l>
+<l>L'uom tutto in suo potere,</l>
+<l>Il mostra il variar de l'opre sue.</l>
+<l>Ché non poria il desio</l>
+<l>D'oprar sì vario avere,</l>
+<l>S'ad un' opra nascesse, o vero a due:</l>
+<l>Ma perchè fatto fue</l>
+<l>A oprar, non per natura,</l>
+<l>Come in sorte è avenuto</l>
+<l>Ad ogni animal brutto,</l>
+<l>Che per natural corso sol procura</l>
+<l>Far quella cosa, o questa,</l>
+<l>Né libero volere ad altro il desta.</l>
+<l>Non legò Dio la voglia</l>
+<l>De l'uom, ma il fé signore,</l>
+<l>Con vera libertà, de l'opre sue.</l>
+<l>E pur ch'egli in sé accoglia</l>
+<l>Il suo liber volere,</l>
+<l>Et il don, che Dio gli ha dato, al ben adopre,</l>
+<l>Fra gli altri egli si scuopre</l>
+<l>Come un lucente sole.</l>
+<l>Ma, se servo ei si face</l>
+<l>Del van desio fallace,</l>
+<l>Resta soggetto, e se poscia sen duole</l>
+<l>N'have il Signor pietade,</l>
+<l>E ricovra al ben far la libertade.</l>
+<l>Ma s'egli volontario</l>
+<l>Stringe fuori di modo</l>
+<pb n="24"/>
+<l>Il laccio, onde il desir pregione il mena</l>
+<l>Et al suo ben contrario,</l>
+<l>Più di servitù il modo</l>
+<l>Brama, che vita libera, e serena,</l>
+<l>Lega di tal catena</l>
+<l>La sua libera voglia,</l>
+<l>Che manca ogni virtute,</l>
+<l>Che gli può dar salute,</l>
+<l>E de la dignità natia si spoglia,</l>
+<l>Onde compagno ha poi</l>
+<l>Grave, e lungo martir, per gli error suoi,</l>
+<l>E per ch'han scelto per lor meglio il peggio,</l>
+<l>Doglia crudele, et atra</l>
+<l>Affligge or <name>Marco Antonio</name>, e <name>Cleopatra</name>.</l></sp>
+</div2>
+</div1>
+<div1 type="atto"><head><hi rend="sc">ATTO SECONDO</hi></head>
+<div2 type="scena"><head><hi rend="sc">SCENA PRIMA</hi></head> 
+<sp><speaker>Eunuco</speaker> 
+<l>Ahi potenza d'Amor, quanto sei grande,</l>
+<l>Poi che colui, che mai non han potuto</l>
+<l>Le cose averse, o gli infortuni gravi</l>
+<l>Indurre a darsi morte, or lo vi ha indutto</l>
+<l>Voce finta di morte di colei</l>
+<l>Cui egli più, che sé, mostrava amare.</l>
+<l>Oh come rimaner vuol la reina</l>
+<l part="I">Stordita a tal novella!</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Par ch'indugi</l>
+<l>Molto a venir l'eunuco; io temo molto,</l>
+<l>Che qualche caso stran non lo trattenga,</l>
+<l>Ond' io n'abbia cagion di maggior doglia.</l></sp>
+<sp><speaker>Nutrice</speaker>
+<l>Io da questo tardar vo' sperar bene.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Oda chi regge il ciel le tue parole.</l>
+<l>Ma veggo la miseria mia sì grande,</l>
+<l>Ch'ogni mal temo, e ben nessuno spero.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Io non so come volterò la lingua</l>
+<l>A darle così dura, e ria novella,</l>
+<l>Voluto ha il mio destin, che quegli io sia,</l>
+<l>Che con spiegarle ciò le passi il core.</l>
+<l part="I">Veggola.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ecco l'eunuco, ecco che porta</l>
+<l>Nel viso aperto il suo dolore interno.</l>
+<l>Del mio male sarò stata presaga.</l>
+<l>Sono stata costretta a venir fuori</l>
+<l>Dal desir, che mi preme di sapere</l>
+<pb n="25"/>
+<l>Che sia di <name>Marco Antonio</name>. Che novella</l>
+<l part="I">Mi apporti tu?</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Reina, io vorrei</l>
+<l>Esser senz'occhi, e senza lingua nato,</l>
+<l>Per non aver veduto, e per non dirvi</l>
+<l>Di <name>Marco Antonio</name>, quel che dir vi debbo.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="I">Ohimé, che stran principio.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Egli, Reina,</l>
+<l part="I">E' poco men che morto.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ahi sorte iniqua</l>
+<l>Sorte crudele, ohimé, spietata sorte,</l>
+<l>Con ogni spezie di dolor pur vuoi</l>
+<l>Farmi la più dolente, ch'oggi viva:</l>
+<l>E per ch'have sì presso, ohimé, la morte?</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Perch'egli con la spada ha sé percosso</l>
+<l>Di sì grave percossa, e tanto sangue</l>
+<l>Uscito gli è fuor de la piaga, ch'egli</l>
+<l>Puote lo spirto a gran fatica avere.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ahi <name>Cleopatra</name>, ahi misera <name>Cleopatra</name>,</l>
+<l>Questo colpo medesmo anche ha te uccisa.</l>
+<l part="I">Fammi sapere il tutto.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Egli sì tosto</l>
+<l>Che da me intese, ch'eravate viva,</l>
+<l>alquanto ricovrossi, e lieto disse:</l>
+<l>Esser più non mi può grave la morte.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ahi lassa, ben fia a me grave la vita,</l>
+<l>Se vita si può dir ch' abbia colei,</l>
+<l>Che ir oda a morte chi era la sua vita.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Poi replicò, Non mi è grave la morte</l>
+<l>Poi che colei, per cui mi son trafisso,</l>
+<l>E' viva, e posso ancor l'ultimo fiato</l>
+<l>Spirar ne le sue braccia. E questo detto</l>
+<l>Levato si è con gran fatica, e vuole</l>
+<l part="I">Essere a voi condutto.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ahi, <name>Cleopatra</name>,</l>
+<l>Mentre dubitato hai di <name>Marco Antonio</name>,</l>
+<l>E col fingerti morta, cercato hai</l>
+<l>Di assicurarti, a lui data hai la morte.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Il vidi, ahi lassa, e se mi aveste detto,</l>
+<l>Ch'allor scoperto io gli avessi il vero,</l>
+<l>S'io il ritrovava a voi, qual prima, amico,</l>
+<l part="I">Ciò non saria svenuto.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Tu di' vero,</l>
+<l>Ma fuggir non si può quel che il ciel vuole.</l>
+<l>Ma molto non andrà, che la vendetta</l>
+<l>Farò in me stessa, del commesso errore.</l>
+<l>Se scioccamente errai, con pensier saggio</l>
+<l>L'error corregerò con le mie mani.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Ecco, Reina, che si fa condurre</l>
+<l>Da' suoi soldati a la presenza vostra.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ahi <name>Marco Antonio</name>, ahi <name>Marco Antonio</name> mio,</l>
+<l>Come si incalza ogn'or più la Fortuna</l>
+<l>Questa miseria n'apportò quel giorno,</l>
+<l>Che col marital nodo ci congiunse,</l>
+<pb n="26"/>
+<l>E il destin fiero a' nostri danni intento.</l>
+<l>Lieve mi fora aver perduto il regno,</l>
+<l>S'io non avessi voi, Signor, perduto,</l>
+<l>Solo sostengo a la mia fragil vita.</l>
+<l>Ohimé, perché non può la mano vostra</l>
+<l>Percuoter me, di sì gagliardo colpo,</l>
+<l>Ché, come viva fai congiunta a voi,</l>
+<l>Congiunta anche con voi restassi morta?</l>
+<l>Ma molto non andrà, che quel, che voi</l>
+<l>Far non potete con la mano vostra,</l>
+<l>Io stessa il compirò, con la mia propria.</l></sp>
+<sp><speaker>CORO.</speaker> 
+<l>Ahi voglia Dio, che questo non avenga,</l>
+<l>Che ciò sarebbe una crudel secure,</l>
+<l>Che a tutte il capo ci torria dal collo.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Reina, io voglio che restiate viva,</l>
+<l>Acciò che, quando pur io esca di vita,</l>
+<l>Io me ne vada almen di ciò contento,</l>
+<l>Che ne la più fedel, ne la più bella</l>
+<l>Donna, ch'ad uomo mai fusse congiunta</l>
+<l>Per matrimonio, si rimanga viva</l>
+<l>Di me memoria. Prego per l'amore,</l>
+<l>Che ci congiunse, e per la ferma fede,</l>
+<l>Che in voi vist'ho, mentre con voi son stato,</l>
+<l>Che sovrastar vi piaccia in questa vita</l>
+<l>Acciò che viva <name>Marco Antonio</name> in voi.</l>
+<l>Questo vi cheggio, per l'ultimo dono,</l>
+<l>Per lo più caro pegno, che possiate</l>
+<l>Darmi, per testimon di quell'amore,</l>
+<l>Che conosciuto ho singolare in voi,</l>
+<l>Mentre Fortuna e il ciel non ci ebbe a sdegno.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ohimé non so, non so come esser possa,</l>
+<l>Ch'essendo voi, Signor, l'anima mia,</l>
+<l>Possa restar, se voi morrete, viva.</l>
+<l>Cleopatra, Signor, viver non vuole,</l>
+<l>Visto morto colui, ch'è la sua vita.</l></sp>
+<sp><speaker>Marco Antonio</speaker> 
+<l>Entriamo, anima mia, ch'ivi averemo</l>
+<l>Agio di dir ciò, che bisogna fia,</l>
+<l>O vivo, o morto, che rimaner debba</l>
+<l>Tratto, che de la piega io mi avrò fuori</l>
+<l>Questa spada, and'io mi ho traffisso il fianco.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Entriam Signor, ch'io vo' morir con voi.</l></sp>
+<sp><speaker>CORO.</speaker> 
+<l>Ohimé, s'è Dio nel ciel, che tenga cura</l>
+<l>Dei regni, degli imperi, e di chi regge</l>
+<l>Le signorie, che son fra noi mortali,</l>
+<l>Pregol, con tutto il cor, che ci riguardi</l>
+<l>Con pietoso occhio, e servi la reina</l>
+<l>Al regno nostro, e servi il regno a lei.</l></sp></div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SECONDA
+</hi></head><pb n="27"/>
+<sp><speaker>Eunuco</speaker> 
+<l>Il pensar d'esser lieto sempre in terra,</l>
+<l>E di passar la vita senza angoscie,</l>
+<l>E' pensiero di tal che non conosca</l>
+<l>Qual la natura sia del viver nostro.</l>
+<l>Il qual se ne sta esposta a la Fortuna,</l>
+<l>E provarla convienci or lieta, or mesta,</l>
+<l>Ch'ella non lascia, che senza il suo fele</l>
+<l>Gustar l'uom possa mai dolcezza alcuna;</l>
+<l>Né gli alti stati, né i superbi regni</l>
+<l>Alcun mortale assicurar si ponno,</l>
+<l>Ch'egli anche non sia segno a' strali suoi.</l>
+<l>Visto ho sovente, in questa vita breve,</l>
+<l>Che quanto più Fortuna al sommo estolle</l>
+<l>Alcun, su il sommo de l'instabil ruota,</l>
+<l>Tanto più indegnamente il fa cadere,</l>
+<l>E ne dà chiaro essempio or la reina</l>
+<l>Nostra d'<name>Egitto</name>, e <name>Marco Antonio</name> a <name>Roma</name>.</l>
+<l>Ahi quanto è ver, che non è alcun beato</l>
+<l>Mentre egli vive, e che il dì estremo è quello,</l>
+<l>Che felice l'uom mostra, o il mostra tristo.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>Ahi povera reina, che pietade</l>
+<l part="I">E' vederla sì afflitta!</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Costei duolsi</l>
+<l>Di quel, ch'io ragionava or ora meco.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>Chi pensato avria mai vederla tanto</l>
+<l>Per <name>Marco Antonio</name> gravemente afflitta,</l>
+<l>Per cui si tenne già tanto felice.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="I">Che piagni?</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l part="F">Io piango la sciagura nostra,</l>
+<l part="I">Misera me.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Qual gran sciagura e questa?</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>Nel trar fuor de la piaga a <name>Marco Antonio</name></l>
+<l>La spada, uscita gli è col sangue l'alma,</l>
+<l part="I">Onde morto è.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Deh fusse egli pur morto</l>
+<l>Il primo dì, ch'ei venne in questo regno,</l>
+<l>Ché involti non saressimo nei mali,</l>
+<l>In ch'ora siamo la reina, e noi.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>O povera reina, ella ben mostra</l>
+<l>Quanto amato abbia <name>Marco Antonio</name> vivo,</l>
+<l>Ora che morto l'ha dinanzi agli occhi,</l>
+<l>Che così dolorosamente sopra</l>
+<l>Gli si è gitata, e con sì smorto viso,</l>
+<l>Che malagevol è conoscer chiaro</l>
+<l>Qual sia il morto di loro, e qual sia il vivo.</l>
+<l>O povera reina, quanto oltraggio</l>
+<l>Fa con le mani a le real chiome,</l>
+<l>Al suo petto reale, al real viso!</l>
+<l>E temo assai, che con l'istessa spada</l>
+<l>Levata che si sia di sopra il corpo</l>
+<l>Del suo morto signor, non si dia morte.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Eccola ch'esce fuor, noi ritirianci,</l>
+<l>Acciò che da sé sola lagrimando</l>
+<l>Ammolisca il gran duol, che la traffigge.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA TERZA
+</hi></head><pb n="28"/>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ahi <name>Cleopatra</name>, ahi misera <name>Cleopatra</name>,</l>
+<l>E' giunto pur quell'infelice giorno </l>
+<l>Che in grazia ti seria trovarti morte,</l>
+<l>Per non aver colui morto veduto,</l>
+<l>Che' era fido sostengo a la tua vita,</l>
+<l>Anzi l'anima sua, la vita istessa.</l>
+<l>Né solamente averlo visto morto,</l>
+<l>Che grave ti saria mai sempre stato,</l>
+<l>Ma morto di tua man, per tua cagione,</l>
+<l>Dir puoi, misera te, di avergli porta</l>
+<l>Misera te, la spada a la sua morte.</l>
+<l>Ohimé dolente, ohimé, ben veggo chiaro,</l>
+<l>Ch'al voltar, che Fortuna fa le spalle</l>
+<l>A color, che mirò con lieto viso,</l>
+<l>Assalto danno lor tutte le angoscie.</l>
+<l>Mentre temuto hai, <name>Cleopatra</name>, l'odio</l>
+<l>Del tuo marito, e ti sei finta morta,</l>
+<l>Egli mostro ha l'amor, che ti portava</l>
+<l>Col vero, e miser fin de la sua vita.</l>
+<l>E, morto lui, tu puoi vivere ancora</l>
+<l part="I"><name>Cleopatra</name> infelice?</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Creder voglio,</l>
+<l>Che queste grida, e questo lagrimare</l>
+<l>Scemerà a la reina in parte il duolo.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l part="I">Anch'io così m'istimo.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">E mirar puoi,</l>
+<l>Morto il tuo <name>Marco Antonio</name>, ancora il sole?</l>
+<l>Questo non fia, non fia questo giamai.</l>
+<l>Tu, <name>Marco Antonio</name> eri la vita mia,</l>
+<l>Mentre vivo eri, e tu la mia morte anco</l>
+<l>Ahi lassa me, sarai, poi che sei morto.</l>
+<l>Et vo' che quella spada, che il camino</l>
+<l>Aperse a l'alma tua, l'apra a la mia,</l>
+<l>Per congiungermi teco. Tu crudele,</l>
+<l>Tu fiera spada, che passasti il fianco</l>
+<l>à mio signore, ora sarai pietosa</l>
+<l>In trappassarmi il core! Il Ciel ben prego</l>
+<l>Che come del commune sangue tinta</l>
+<l>Misera me, sarai, come fra l'ombre.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>Ohimé che veggo? Ohimé, si vuol dar morte</l>
+<l part="I">La reina.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Corriamo ad impedire,</l>
+<l part="I">Che non si passi il core.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Così ancora</l>
+<l>Tanto pietoso il Ciel ci sia, che i corpi</l>
+<l>Nostri sian giunti in un sepolcro insieme.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l part="I">Ahi Reina,</l></sp>
+<pb n="29"/>
+<sp><speaker>Eunuco</speaker> 
+<l part="F">Ahi Reina, a che vi mena</l>
+<l>Troppo dolor, troppo desio di morte?</l>
+<l>Vi prego pur, morendo <name>Marco Antonio</name>,</l>
+<l>(E voi gliel prometteste) che la vita</l>
+<l>Vostra servaste, acciò che si vivesse</l>
+<l>In voi l'anima sua, la sua memoria.</l>
+<l>Però per quell'amor, che gli portaste,</l>
+<l>Per l'ombra sua, per voi, cara Reina,</l>
+<l>Per noi dolenti, e per lo stato vostro,</l>
+<l>Per quella fé, ch'ancor vi tien congiunta</l>
+<l>A l'anima del vostro <name>Marco Antonio</name>,</l>
+<l>Vi prego, a lasciar or questo pensiero,</l>
+<l>Et ad uso miglior servarvi viva.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Viver non posso, morto il signor mio.</l>
+<l>Egli era la mia vita, e senza lui</l>
+<l>Questa vita mi è morte. E mi fia vita</l>
+<l>La morte, poi che giungerammi a lui.</l>
+<l>Però, se voi mi amate, e se fedeli</l>
+<l>Servi mi sete, e se il mio ben vi è caro,</l>
+<l>Lasciate, prego, ohimé, che se ne vada</l>
+<l>Là, ove brama di gir la mia stanca alma.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Non si conviene a una reina tale,</l>
+<l>Qual sete voi, sì miserabil fine.</l>
+<l>E se il saggio discorso avrà il suo luoco,</l>
+<l>Vedrete quanto sconvenevol sia,</l>
+<l>Questo pensier, ch'ora vi sprona a morte.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Differir ben potete il fine mio,</l>
+<l>Ma non già far, ch'egli non abbia effetto,</l>
+<l>Ché, se ben questa spada non sia molle</l>
+<l>Del sangue mio, come volea che fusse,</l>
+<l>L'angoscia grave, e il fier dolore interno,</l>
+<l>Che mi traffigge il cor, con mille punte,</l>
+<l>Caccierà fuor di questo corpo l'alma.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Entrate alta Reina, e ricovrate</l>
+<l>Il core invitto a le terrene tutte,</l>
+<l>Ché, se voi tornerete in voi medesma,</l>
+<l>Vincerete il dolore, e la Fortuna</l>
+<l>Vinta si rimarrà dal senno vostro.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Non può più senno in me, non può consiglio,</l>
+<l>Né posso più non rimaner sommersa</l>
+<l>Nel mortal golfo degli affanni miei.</l></sp>
+<sp><speaker>Eunuco</speaker> 
+<l>Chi volesse apparar di aver pietade</l>
+<l>A le miserie altrui, mirasse questa</l>
+<l>Incredibile angoscia, ch' ora preme</l>
+<l>La mia infelice, e misera reina,</l>
+<l>Ché se duro via più d'ogni diamante</l>
+<l>Avesse o più d'ogn'orso fiero il core,</l>
+<l>Non poria non dolersi ora con lei,</l>
+<l>Ché la sua avanza ogni miseria umana.</l>
+<l>Prima perduto ha la meschina il regno,</l>
+<l>Il quale il più bell'è de l'universo.</l>
+<l>Dopo il regno perduto ella ha il marito,</l>
+<l>Che sperava veder signor di quanto</l>
+<l>Scalda coi raggi il sole, e bagna il mare.</l>
+<pb n="30"/>
+<l>I figliuoli prigioni ha in man di <name>Ottavio</name>,</l>
+<l>Che l'è quel fiero, e quel crudel nemico,</l>
+<l>Che questa guerra vuol, ch'egli le sia.</l>
+<l>E fra queste gran perdite, e sì gravi,</l>
+<l>Si può dir, che perduta ella ha se stessa,</l>
+<l>Ché tanto è il gran dolor, ch'ora l'affligge,</l>
+<l>Che non credo, che mai durar vi possa;</l>
+<l>E se il dolor può non le darà morte,</l>
+<l>Ella la si darà con la sua mano,</l>
+<l>Come ora volea far con questa spada,</l>
+<l>Ché, per non si veder serva d'<name>Ottavio</name>,</l>
+<l>Desterà la sua altiera, e real mente,</l>
+<l>E con l'uscir di vita sottrerassi</l>
+<l>(E non farà altrimente) al servil giogo.</l>
+<l>Ahi quanto son fondate sovra il vento</l>
+<l>Tutte le altezze, e signorie mortali!</l>
+<l>Chi creduto avria mai, che da sì lieto,</l>
+<l>Da sì felice, e da sì eccelso stato</l>
+<l>Dovesse esser caduta in così trista</l>
+<l>Fortuna, e in stato tal la mia reina,</l>
+<l>Che il suo rifugio esser devesse morte.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUARTA
+</hi></head>
+<sp><speaker>Secretario</speaker> 
+<l>Se l'infelicità dei regni umani</l>
+<l>Avesser corpo, e tutte insieme a questi</l>
+<l>Apparesser, che braman sovrastare</l>
+<l>Coi regni, e con gli imperi a tutti gli altri,</l>
+<l>Credo, che porrian lor cotanto orrore,</l>
+<l>Che fuggirian dai regni, e dagli imperi,</l>
+<l>Come da cose a l'uman stuol mortali.</l>
+<l>Ma lasciamo ire i tradimenti, i grandi</l>
+<l>Sospetti di venen, ch'hanno e d'insidie,</l>
+<l>L'inconstanza mortal così travaglia</l>
+<l>Questi, che tengon signoria nel mondo,</l>
+<l>Che, quando non vi fusse altro di reo,</l>
+<l>A fargli miser sempre, ella sol basta,</l>
+<l>Che non son tanto conquassate l'onde,</l>
+<l>Quando il mar Borea impetuoso volve,</l>
+<l>Quanto rivolti son gli imperi, e i regni,</l>
+<l>Da l'assidua inconstanza de le cose.</l>
+<l>Et io veduto ho in questo regno tanta</l>
+<l>Mutazion, tanto aspro mar di doglie,</l>
+<l>Poi che l'ha retto <name>Cleopatra</name>, ch'io</l>
+<l>Non vi ho trovato altro, che angoscia, e affanno.</l>
+<l>E se vi è stata contentezza alcuna,</l>
+<l>L'angoscia stata vi è sotto nascosta,</l>
+<l>Come nascoso è in verde prato l'angue.</l>
+<l>Ora data ella s'era a <name>Marco Antonio</name>,</l>
+<l>Che l'imperio tenea di mezzo il mondo,</l>
+<l>Parendole, che questo esser sostengo</l>
+<pb n="31"/>
+<l>Devesse più di qualunque altro fermo.</l>
+<l>E voluto ha la sorte, che mai tanto</l>
+<l>Non adoprò il poter suo l'inconstanza,</l>
+<l>Quanto adoprato l'ha, poi che ciò avenne.</l>
+<l>Ma di quanti dolori ella ha sofferti,</l>
+<l>E mentre sola ella reggea l'<name>Egitto</name>,</l>
+<l>E mentre moglie è stata a <name>Marco Antonio</name>,</l>
+<l>Non ve n'ha alcun, che comparar si possa</l>
+<l>Al dolor, ch'ora la tormenta, e l'ange,</l>
+<l>Poi che ella ha innanzi <name>Marco Antonio</name> morto,</l>
+<l>E Ottavio se ne vien verso <name>Alessandria</name>.</l>
+<l>Ella commesso mi ha, ch'io trovi Olimpo</l>
+<l>Medico suo fidele, e diligente,</l>
+<l>E gli commetta che sen venga a lei</l>
+<l>Quanto più tosto, perché dia rimedio</l>
+<l>A la gran passion, che il cor le preme;</l>
+<l>Poscia ch'io spii, con ogni diligenza,</l>
+<l>Ciò che fa Ottavio. Ma già il veggo giunto</l>
+<l>Armato qui. Gliene vo' dare aviso,</l>
+<l>Perch'ella non sia accolta sproveduta,</l>
+<l>E poi me n'anderò a trovare Olimpo,</l>
+<l>Poi che qui, ov'io credea, non l'ho trovato.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUINTA</hi></head>
+<sp><speaker>Ottavio</speaker> 
+<l>Poi che ridutto ho <name>Marco Antonio</name> a tale</l>
+<l>Che difesa non ha, non ha rifugio,</l>
+<l>Per uscirmi di man, perché più mai</l>
+<l>Conciti le provincie, e i Romani</l>
+<l>A farmi guerra, e a disturbar la pace,</l>
+<l>La qual tante fiate egli ha già rotta,</l>
+<l>Penso che megliofia torlo dal mondo.</l>
+<l>Ma perché da me sol deliberare</l>
+<l>Cosa non voglio d'importanza tale,</l>
+<l>Essendomi amendue voi que' fedeli,</l>
+<l> cari amici, che mi sete, e vaghi</l>
+<l>Non men del bene mio, ch'io proprio sia,</l>
+<l>Io voglio udir in ciò il giudicio vostro.</l>
+<l part="I">Che parti Agrippa?</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">Parmi, Signor mio,</l>
+<l>Che levar la cagion di aver travaglio</l>
+<l>Ufficio sia d'uomo prudente, e saggio.</l>
+<l>E perciò parmi il parer vostro buono,</l>
+<l>Né senza gran cagion così mi pare.</l>
+<l>Perché quando stat'è d'auttoritade</l>
+<l>Un ne la sua republica, et i cori</l>
+<l>Ha mossi de le genti a le sue voglie,</l>
+<l>Ancor che venga ad infima fortuna,</l>
+<l>Scolpito resta ne le menti loro.</l>
+<l>E se lor si offre occasion di fare</l>
+<pb n="32"/>
+<l>Qualche tumulto, il suo nome sol puote,</l>
+<l>Non che il parlar, non che la sua presenza,</l>
+<l>L'arme porre, in un tratto, a mille in mano.</l>
+<l>Perché i soldati, il popolo, la plebe</l>
+<l>Aman le novitadi, et i tumulti,</l>
+<l>Parendo lor, che, col mutar signore,</l>
+<l>Debbian mutar fortuna. Ma se morti</l>
+<l>Veggon color, che lor dieder cagione</l>
+<l>Di prender l'arme, il simil temon tutti,</l>
+<l>E non avendo chi lor dia favore,</l>
+<l>Non ardiscono più di alzar la testa.</l>
+<l>Onde mi par, che poi ch' avete visto,</l>
+<l>Che cosa alcuna mai non ha potuto</l>
+<l>Vincer la mente del nemico vostro,</l>
+<l>E che, dopo le paci, e le concordie,</l>
+<l>Che con lui tante volte avete fatto,</l>
+<l>Egli rivolto ha sottosopra il mondo,</l>
+<l>E più fier sempre contra voi si è mostro,</l>
+<l>Debbiate pensar anco, che il medesmo</l>
+<l>Farà s'ei vive, e però parmi (e credo</l>
+<l>Che d'un parer sia Mecenate meco)</l>
+<l>Che la quiete, et il riposo vostro</l>
+<l>Sia, che non resti <name>Marco Antonio</name> vivo.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="I">Che parti Mecenate?</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="F">Ancor che saggio</l>
+<l>Agrippa sia, Signore, e a me amico,</l>
+<l>Per le qualità sue, non vo' tacere</l>
+<l>Quel che mi par che il vostro meglio sia,</l>
+<l>Lasciando poscia a voi l'arbitrio intiero</l>
+<l>Di far quel, che terrete essere il meglio,</l>
+<l>E se parravi il mio parer contrario</l>
+<l>A quel, che voi proposto ora ci avete,</l>
+<l>Pregovi che crediate, che non altro,</l>
+<l>Che desio de l'onore, e del ben vostro,</l>
+<l>Ora dir mi farà quanto dirovvi.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Io così credo, Mecenate, e s'io</l>
+<l>Non avessi voluto il parer vostro,</l>
+<l>Chiesto non l'averei. Ma perché il buono</l>
+<l>E il vero ragionando, et adducendo</l>
+<l>Ragioni in mezzo, si conosce aperto,</l>
+<l>Ho voluto il parer d'ambidue voi.</l>
+<l>Però di' pur ciò, che ti pare, e pensa,</l>
+<l>Ché ciò, che tu dirai mi sarà grato.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Io saprei confortare ogni signore,</l>
+<l>Ancor che manifestamente offeso,</l>
+<l>Ch' avesse in suo potere il suo nimico,</l>
+<l>Che non lasciasse, che disdegno, od ira,</l>
+<l>Od appetito di vendetta il fesse</l>
+<l>Bagnarsi nel civil sangue le mani.</l>
+<l>Et, se compiutamente perdonare</l>
+<l>on otesse la pena a chi la merta,</l>
+<l>Cercasse almen di temperarla in parte,</l>
+<l>Per mostrar, che non ira, né disdegno,</l>
+<l>Ma una mite giustizia a ciò l'induce.</l>
+<pb n="33"/>
+<l>E deve esser più mite ne l'ingiurie,</l>
+<l>Che riceve ei, che ne le fatte ad altri.</l>
+<l>Cosa non è più generosa, e degna</l>
+<l>Più di gran prence, che donar perdono</l>
+<l>A chi disposto si è di fargli offesa.</l>
+<l>Ché si sa, che un gran prence, che in sua mano</l>
+<l>Abbia il nemico suo, può dargli morte,</l>
+<l>Et in ciò poco onore egli si acquista;</l>
+<l>Ma quegli è degno ben di eterno nome,</l>
+<l>Che, potendolo uccider, gli perdona,</l>
+<l>E col perdonar mostra al suo nemico</l>
+<l>Quanto egli il vinca, e quanto gli sia sopra,</l>
+<l>E se de la civil corona è degno</l>
+<l>Chi salva un cittadin ne la battaglia,</l>
+<l>Chi tal corona più meritar deve</l>
+<l>Di un re, che servi con la sua clemenza</l>
+<l>Quel cittadin da morte, ch'esso stesso,</l>
+<l>Procacciata si avea la morte, avendo</l>
+<l>La maestà del suo signore offesa?</l>
+<l>Romano è <name>Marco Antonio</name>, e voi romano,</l>
+<l>Però, Signor, poi che questa vittoria</l>
+<l>Esser vi ha fatto imperador del mondo,</l>
+<l>Non potete, con più efficace modo</l>
+<l>Mostrarvi degno di grandezza tale,</l>
+<l>Che perdonar l'offesa a <name>Marco Antonio</name>.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Parriati dunque, che dopo sì gravi,</l>
+<l>E sì crudeli ingiurie ricevute,</l>
+<l>Devessi perdonare a <name>Marco Antonio</name>?</l>
+<l>E' cosa dura, più, che tu non credi,</l>
+<l>Perdonare a colui, che mi s'è mostro,</l>
+<l>Senza rispetto alcun, sempre nemico,</l>
+<l>E mi ha condutto spesse volte a rischio,</l>
+<l>Dopo le paci, e i parentadi fatti,</l>
+<l>Di perder, con l'imperio, anche la vita!</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Questa, Signor, (e vi cheggio licenza,</l>
+<l>Di dir da fedel servo in questa parte</l>
+<l>Quel che vuol la mia fé, ch'io non vi taccia)</l>
+<l>Voce non è del cor vostro, del vostro</l>
+<l>Invitto animo degna. Ché volere</l>
+<l>Uccidere il nemico, per la tema,</l>
+<l>Ch'abbia altri, ch'egli non gli faccia offesa,</l>
+<l>Non conviene al valor, né a la fortezza</l>
+<l>Di magnanimo cor: qual è il cor vostro.</l>
+<l>Se non vi avesse offeso <name>Marco Antonio</name>,</l>
+<l>Avuta non avreste voi materia</l>
+<l>Di mostrar la bontà vostra natia.</l>
+<l>Sarà questa cagion, che si conosca,</l>
+<l>Che clemente non men sete, che forte.</l>
+<l>Anzi, quanto maggiore è la sua colpa,</l>
+<l>Tanto a voi maggior loda è il perdonargli.</l>
+<l>Oltra di questo, io vo' dirvi Signore,</l>
+<l>(Benché so, che il sapete) che se due</l>
+<l>D'ugual potenza fanno insieme guerra,</l>
+<l>Aver ciascun di lor vuol la vittoria,</l>
+<pb n="34"/>
+<l>Ché questo è il fin di tutte le battaglie.</l>
+<l>E se mentre i soldati armati sono,</l>
+<l>E l'ira bolle, e sono in mischia armati</l>
+<l>I capitani lor, con ogni ingegno</l>
+<l>Cercano che 'l nemico o perda, o mora,</l>
+<l>E' cosa convenevole a quel tempo,</l>
+<l>E gli è d'onor la perdita, o la morte</l>
+<l>Del suo nemico. Ma se vincitore</l>
+<l>Uno di lor rimanga, e resti l'altro</l>
+<l>Sì oppresso, e sì d'ogni soccorso privo,</l>
+<l>Che più non abbia and'aver speme alcuna,</l>
+<l>E resti preso a l'aversario in mano,</l>
+<l>Atto non è di generoso core,</l>
+<l>Ma sì bene da barbaro inumano,</l>
+<l>L'usar contra di lui spada, o secure.</l>
+<l>Stato è vostro nemico <name>Marco Antonio</name>,</l>
+<l>Mercè de le civili empie discordie,</l>
+<l>Perché cercava, come voi, di avere</l>
+<l>L'impero in suo poter de l'universo.</l>
+<l>Ora ha la virtù vostra il tutto vinto,</l>
+<l>E lui condutto a così estrema sorte,</l>
+<l>Ch'a qualunque bass' uom può invidia avere.</l>
+<l>E s'è così, come cert'è, che pregio</l>
+<l>Vi può dar la sua morte? Fia creduto,</l>
+<l>Che il vostro generoso invitto core,</l>
+<l>Che non temette unqua il nemico armato,</l>
+<l>Ora il tema condutto a estrema sorte.</l>
+<l>Il che, come già ho detto, molto poco</l>
+<l>Convenevol mi pare a l'onor vostro.</l>
+<l>Lodò <name>Ciro Crisanta</name>, ch'avendo egli</l>
+<l>Nudo ne la battaglia il ferro in mano,</l>
+<l>Per percuoter a morte un cavalliero,</l>
+<l>Che preso avea de la contraria parte,</l>
+<l>Udito che sonar facea a raccolta</l>
+<l>Ciro, e il nemico, il fier colpo ratenne,</l>
+<l>Parendo, che cessando la battaglia,</l>
+<l>Non gli fusse più lecito dar morte</l>
+<l>A chi la spada avea quasi su il collo.</l>
+<l>E se il soldato fu degno di loda,</l>
+<l>Per salvar vivo un cavalier privato,</l>
+<l>Quanta sarà, Signor, la vostra laude,</l>
+<l>Se poi ch'estinta in tutto è questa guerra,</l>
+<l>Per bontà vostra, serverete vivo</l>
+<l>Chi a parte era con voi di tutto il mondo?</l>
+<l>E se rotte altre volte egli ha le paci,</l>
+<l>Fu perch'era possente, et era a parte</l>
+<l>De l'imperio con voi, e sempre gente</l>
+<l>Armate ebbe, e gran re, che il favorirno,</l>
+<l>Quanto poteron più. Ma or si ritrova</l>
+<l>(Come voi nel principio ci diceste)</l>
+<l>Da ognun sì abbandonato, e in stato tale,</l>
+<l>Che pericol non è ch'alzi la testa</l>
+<l>Contra voi, solo imperador del mondo.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Se bene a <name>Marco Antonio </name>in stato umile,</l>
+<pb n="35"/>
+<l>Senza regno, et impero, e abbandonato,</l>
+<l>Da chi il favoria prima, <name>Mecenate</name>,</l>
+<l>I regni non gli son tolti dal core.</l>
+<l>E uomo avezzo a sovrastare a gli altri,</l>
+<l>Ancor che sia depresso, mai non lassa</l>
+<l>Quell'animo real, per sorte aversa.</l>
+<l>Però vo' che crediate, che sì tosto</l>
+<l>Che gli si offrisse occasione, come</l>
+<l>Molte potriano, e molte ancora offrirsi,</l>
+<l>Di por l'impero tutto sottosopra,</l>
+<l>Faria vedere, a manifesta prova,</l>
+<l>Se fusse abietto, o pur s'anche serbasse</l>
+<l>Animo di gran re, d'imperadore.</l>
+<l>Et a schivar, che questo non avenga,</l>
+<l>Altro modo non è, che morte dargli,</l>
+<l>Sian quali esser si voglian le ragioni,</l>
+<l>Che voi avete, <name>Mecenate</name>, addutte.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Uccidendo uno un re, minaccia molti,</l>
+<l>Ché come con timor di ognun dal cielo</l>
+<l>I fulmini discendon, benché pochi</l>
+<l>Offesi sian dal lor furor, così anco</l>
+<l>Non può l'ira d'un re mostrarsi fuore</l>
+<l>Vers'un, che non spaventi tutti gli altri.</l>
+<l>Né cosa è di gran re più indegna, ch'egli</l>
+<l>Cerchi d'esser temuto più, che amato.</l>
+<l>E la vendetta dei principi l'odio</l>
+<l>Di pochi estingue, ma n'infiamma mille</l>
+<l>Contra di lor: il che quanto ad <name>Ottavio</name></l>
+<l>Essere utile possa in questo primo</l>
+<l>Ingresso de l'impero, io vo' lasciarlo</l>
+<l>A la maturità del suo giudicio.</l>
+<l>Io dirò bene, e credo dire il vero,</l>
+<l>Che chi la sua potenza con modestia</l>
+<l>E con pietà ministra, espresso indicio</l>
+<l>Ad ognun dà, che sia d'imperio degno.</l>
+<l>Oltra di questo: se ben similmente</l>
+<l>Avesse, <name>Agrippa</name>, egli ora è tanto afflitto,</l>
+<l>Che i suoi pensier si solveriano in vento.</l>
+<l>Credete voi, che quando quello insano</l>
+<l>Seco deliberò ferire il sole,</l>
+<l>Per copia di saette che scoccasse,</l>
+<l>Fra tante, e tante, che ne mandò al cielo,</l>
+<l>Restasse il sol da alcuna d'esse offeso?</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>No 'l cred' io già, ma ben sciocco mi parve,</l>
+<l>Chi si diede a tentare opra sì vana.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Or questo essempio puo mostrarvi chiaro,</l>
+<l>Quanto si ponno aver color per pazzi,</l>
+<l>Ch'umili, e bassi essendo, a' re possenti</l>
+<l>Cercan di nuocer con le forze loro.</l>
+<l>E quanto poco un re deve stimare</l>
+<l>Impeto tale, essendo la sua altezza</l>
+<l>Tanto sublime, che non può arrivarle</l>
+<l>Impeto d'uom, che sia vile, et abietto,</l>
+<l>Più che potesse il sol quei con gli strali.</l></sp>
+<pb n="36"/>
+<sp><speaker>Agrippa</speaker> 
+<l>Mecenate, io non voglio addurvi essempi</l>
+<l>Contra gli addutti, ancor che poria dirvi,</l>
+<l>Che la zanzara, ch'è animal sì vile,</l>
+<l>Al leone, ch'è il re de l'altre fiere,</l>
+<l>Fa guerra tale, che l'induce spesso,</l>
+<l>Ad ire ad affogarsi in mezzo l'onde.</l>
+<l>I' dirò sol, che poscia che Dio ha data,</l>
+<l>Ai re con la potenza in man la spada,</l>
+<l>Che la deono adoprar contra i nemici.</l>
+<l>E se non usa il re l'arme in tal caso,</l>
+<l>Mi par che non conosca la sua forza,</l>
+<l>E se mal glien' avien poscia, se 'l merta.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Questa <name>Mecenate</name> è ragion, che puote</l>
+<l>Farti veder quel, che in ciò far mi debba.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Signore, se mi lece conferire</l>
+<l>L'umili cose a le sublime, e eccelse,</l>
+<l>Parmi poter mostrar, che la natura</l>
+<l>Istessa insegni ai re d'esser clementi.</l>
+<l>Fra gli animali, che nel mondo sono,</l>
+<l>Non ve n'ha alcuno al guerreggiar più pronto,.</l>
+<l>Che sian le pecchie, e la natura a tutte</l>
+<l>Ha dato l'ago al guerreggiare, e solo</l>
+<l>Il signor fatto ha inerme, perché senza</l>
+<l>Vendetta sia, senz'ira, e con quiete</l>
+<l>Regga la moltitudine, ch'ei regge,</l>
+<l>Il medesmo dee far, chi tiene impero,</l>
+<l>Ché i re con detti de le patrie padri</l>
+<l>Per dar loro a veder, ch'esser benigni</l>
+<l>Deono, e non crudi, e come un padre saggio</l>
+<l>Non vuol veder la morte de' suoi figli,</l>
+<l>Quantunque in parte sia da loro offeso,</l>
+<l>Così non deono i re voler la morte,</l>
+<l>Quantunque in parte sian da loro offesi,</l>
+<l>Di quei, che contra lor si sono armati,</l>
+<l>Per quel, per cui si è <name>Marco Antonio</name> armato.</l>
+<l>E se il re ciò non face, è di bisogno,</l>
+<l>Che quanto temuto è, tant'egli tema.</l>
+<l>E perché <name>Agrippa</name> dice, che la spada</l>
+<l>Dio post'ha in mano a chi è signore in terra,</l>
+<l>Perché l'adopri, dico ch'adoprare</l>
+<l>La de' a diffesa de le gente sue.</l>
+<l>E aver non la de' in man per dar lor morte.</l>
+<l>E chi ciò fa, fa ch'i sudditi a lui</l>
+<l>Lo guardan con quel cor, con quell'affetto,</l>
+<l>Che Dio riguardarebber, se fra loro</l>
+<l>In forma umana, discendesse in terra,</l>
+<l>E per dar fine al mio raggionamento,</l>
+<l>Io vi dico, Signor, ch'esser dee tale</l>
+<l>Un re verso color, che l'hanno offeso,</l>
+<l>Quale egli vuol, che Dio sia verso lui.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Et io dico: Signor, che troppo mite</l>
+<l>Mecenate ha la mente, e che se vivo</l>
+<l><name>Marco Antonio</name> riman, potrete dire</l>
+<l>Di aver a temer sempre, e che inquieto</l>
+<pb n="37"/>
+<l>Basta egli solo a far l'impero tutto.</l>
+<l>E se si adopran l'arme, per avere</l>
+<l>Quiete, e pace, che sciocchezza fora</l>
+<l>(Potendolo levar) servar chi possa</l>
+<l>Mover nove battaglie, e nove risse?</l>
+<l>Però egli è giusto, e ragionevol molto,</l>
+<l>Che <name>Marco Antonio</name> muoia, e che rimanga,</l>
+<l>Per la morte di un solo ognuno in pace.</l>
+<l>Ma chi è costui, che di qua vien, sì in fretta?</l>
+<l>Egli è l'alfier del generale. Udiamo</l>
+<l part="I">Che novella ei ci apporta.</l></sp>
+<sp><speaker>Alfiere</speaker> 
+<l part="F">Il generale</l>
+<l>Saper vi fa, Signor, che tutto il campo</l>
+<l>Si è sollevato, per volere a ruba</l>
+<l>Porre <name>Alessandria</name>, il ch'è contrario a quello,</l>
+<l>Che ordinato avevate, e perché vede,</l>
+<l>Che non vi è modo alcun di schivar questo,</l>
+<l>Se non con la presenza vostra, tosto</l>
+<l>Mandato mi ha, perché, senza dimora,</l>
+<l>Vi piaccia di venir, per impedire</l>
+<l part="I">Disordine sì grave.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Andiamo, e poi</l>
+<l>Che sete di parer fra voi contrario,</l>
+<l>In quel che si dee far di <name>Marco Antonio</name>,</l>
+<l>Ritornerete a ragionare insieme,</l>
+<l>Ché so, che alcun di voi non fia sì intento</l>
+<l>A voler mantenere il suo parere,</l>
+<l>Che non possa più il vero in ambidue.</l>
+<l>E mi riferirete poscia quello,</l>
+<l>Che conchiuso averete, perché noi</l>
+<l>Scegliamo quel, che ci parerà il meglio.</l></sp>
+<sp><speaker>CORO</speaker> 
+<l>Io creder più non vo', che il saper nostro</l>
+<l>Regga le cose umane,</l>
+<l>Perché chiaro mi è mostro,</l>
+<l>Che il muovere del cielo, e de le stelle</l>
+<l>Sia quel, che il mondo aggiri,</l>
+<l>E le nostre virtù faccia esser vane,</l>
+<l>E che pianti, e sospiri</l>
+<l>A l 'uomo apportano elle,</l>
+<l>Se gli sono ribelle</l>
+<l>Quand'è produtto in luce.</l>
+<l>All'or non giova, ch'altri lunge miri,</l>
+<l>Od abbia accorto duce,</l>
+<l>Per ischivare aspre venture, e felle.</l>
+<l>E fermamente credo,</l>
+<l>(Per quanto provo, e vedo)</l>
+<l>Che s'egli nasce sotto stelle amiche,</l>
+<l>Mai non le abbia nemiche,</l>
+<l>Ma sempre con lor giri</l>
+<l>Gli appartien lieta sorte,</l>
+<l>Sì che insino a la morte,</l>
+<pb n="38"/>
+<l>Senza sentir giamai doglie, o martiri,</l>
+<l>Se ne viva contento.</l>
+<l>Felici sol quei son, ch'al nascimento</l>
+<l>Han le stelle benigne,</l>
+<l>Ma vive con tormento</l>
+<l>Chi le have aspre, e maligne,</l>
+<l>Né vi val buon discorso,</l>
+<l>Perché si solve ogni consiglio in vento,</l>
+<l>Ché quel celeste corso,</l>
+<l>A cui sapere uman non pone morso,</l>
+<l>Fa vano, in un momento,</l>
+<l>Tutto quel, ch'a suo bene altri ha discorso;</l>
+<l>Ché se fusse possente</l>
+<l>Antiveder prudente</l>
+<l>Di opporsi a stelle rie,</l>
+<l>In tante parti è corso,</l>
+<l>Tentate ha tante vie</l>
+<l>L'ingegno de la mia cara reina,</l>
+<l>Che con la saggia mente</l>
+<l>Avrebbe a sé, e a l'impero suo soccorso,</l>
+<l>Et ischifata avria questa ruina.</l>
+<l>Ma rivolto ha in niente</l>
+<l>Il tutto il ciel, che morte le destina,</l>
+<l>E la vuol far rapina</l>
+<l>De la romana gente.</l>
+<l>E sol perché destin tal ebbe in fasce,</l>
+<l>Per far chiaro, ed aperto,</l>
+<l>Che in questo ermo diserto,</l>
+<l>Sua ventura ha ciascun dal dì che nasce.</l></sp>
+</div2>
+</div1>
+<div1 type="atto"><head><hi rend="sc">ATTO TERZO</hi></head>
+<div2 type="scena"><head><hi rend="sc">SCENA PRIMA
+</hi></head>
+<sp><speaker>Olimpo</speaker> 
+<l>Poscia che il segretario a la reina,</l>
+<l>Condutto mi ebbe, e ch'io la vidi afflitta</l>
+<l>Più, che mai fusse sconsolata donna,</l>
+<l>Non perché il regno suo perduto avesse,</l>
+<l>Ma perché l'era <name>Marco Antonio</name> morto,</l>
+<l>Io come quei, che ne l'infermitadi</l>
+<l>Del corpo l'ho curata fedelmente,</l>
+<l>Pensai di poterle anche tor dal core,</l>
+<l>Con parole efficaci, quello affanno,</l>
+<l>Che la traffigge con coltello acuto.</l>
+<l>Et l'ho pregata a non voler patire,</l>
+<l>Che mora il regno e lei, con <name>Marco Antonio</name>,</l>
+<l>E che noi tutti andiamo a fil di spada.</l>
+<pb n="38"/>
+<l>E che per questo ella devria ridursi</l>
+<l>In luoco forte, come ve n'ha molti,</l>
+<l>Ove col vincitor ella potesse</l>
+<l>Pigliar qualche partito a sua salute,</l>
+<l>Ma l'ho trovata sì fuor di se stessa,</l>
+<l>Che non pur non ha dato al parlar mio</l>
+<l>Orecchio, come dar ben gli devea,</l>
+<l>Ma chiesto mi ha che le apparecchi un tosco,</l>
+<l>Onde senza dolore ella si muoia.</l>
+<l>E perché ho detto, che servar la vita</l>
+<l>E' del medico ufficio, non di torla,</l>
+<l>E che più tosto ucciderei me stesso,</l>
+<l>Che lei, che sovent'ho tolta a la morte,</l>
+<l>Venuta è in tanta rabbia, che scacciato</l>
+<l>Mi ha da sé, con parole aspre, e crudeli,</l>
+<l>Come se tolto io gli avess'il regno,</l>
+<l>O morte avessi dato a <name>Marco Antonio</name>,</l>
+<l>E se ne sta sì priva di consiglio,</l>
+<l>Ch'ella ha posto in oblio quanto gran danno</l>
+<l>Le apporti questo giorno. Et per seguire</l>
+<l>L'ombra di <name>Marco Antonio</name>, par che brami,</l>
+<l>Che cada al suo cader la terra, e il cielo.</l>
+<l>Veggo uscir la nutrice, ella saprammi</l>
+<l>Dir, se pensier mutato ha la reina.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SECONDA
+</hi></head>
+<sp><speaker>Olimpo</speaker> 
+<l part="I">Che ci è nutrice?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l part="F">Ci è, che la reina</l>
+<l>Vi prega, che vogliate a lei venire,</l>
+<l>E non vi avere a mal, ne avere a sdegno</l>
+<l>Quanto ella detto vi ha, dal dolor vinta.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>So che mutazioni, in picciol tempo,</l>
+<l>Si veggono in un core addolorato.</l>
+<l>Quel che prima aggradia, gli viene in oDio,</l>
+<l>E quel ch'odiava gli vien grato, e caro,</l>
+<l>E però ufficio è d'animo gentile</l>
+<l>Non si pigliare a mal cosa, che dica</l>
+<l>Il suo signor ver lui, massimamente</l>
+<l>Quand'ira o gran dolor l'occupa l'alma,</l>
+<l>E però tanto men mi ho preso a sdegno</l>
+<l>Cosa che detta m'abbia, quanto ho visto,</l>
+<l>Ch'a dirmi ciò grave dolor l'ha indutta.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Mostrate ben, Signor d'esser quel vero</l>
+<l>Servitor, che vi vidi esser mai sempre</l>
+<l>A la reina nostra. Entriamo adunque,</l>
+<l>Che in lei mi par veder scemare il duolo,</l>
+<l part="I">Tosto che vi vedrà.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">Deh voglia Dio,</l>
+<l>Ch'io trovi modo di piegarla tanto,</l>
+<l>Ch'ella dia in parte luoco a la ragione,</l>
+<pb n="40"/>
+<l>E il suo procacci, e insieme il nostro scampo.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA TERZA
+</hi></head>
+<sp><speaker>Mecenate</speaker> 
+<l><name>Agrippa</name>, non bisogna in questo caso,</l>
+<l>Solo considerar, che <name>Marco Antonio</name></l>
+<l>Pres' abbia contra <name>Ottavio</name> in mano l'arme,</l>
+<l>E che perciò paia di pena degno;</l>
+<l>Ma bisogna veder quel, che d'onore</l>
+<l>Esser debba ad <name>Ottavio</name>, et atto a fare,</l>
+<l>Ch'egli mantenga questo grande impero,</l>
+<l>Che nel più bel fiorir degli anni suoi</l>
+<l>Si ha guadagnato con sì chiara gloria,</l>
+<l>Perché un gran regno via più agevolmente</l>
+<l>Perder si vede, ch'egli non si acquista.</l>
+<l>Sarei contento, per dir vero anch'io,</l>
+<l>Che nel grave conflitto de la guerra</l>
+<l>Fusse rimaso <name>Marco Antonio</name> morto,</l>
+<l>Perché ciò senza biasmo esser potea,</l>
+<l>Ma poi che salvo egli è rimaso ancora</l>
+<l>Che far possa di lui quel, che gli piace</l>
+<l><name>Ottavio</name>, io tengo, che non debba mai</l>
+<l>Venire ad atto così sozzo, ch'egli</l>
+<l>Uccider faccia, per temer di lui,</l>
+<l>Un cittadin romano, un suo parente,</l>
+<l>Un che dapoi che <name>Cesare</name> fu morto</l>
+<l>L'imperio gli servò, che saria stato</l>
+<l>E da <name>Brutto</name>, e da <name>Cassio</name>, e dai seguaci</l>
+<l>Occupato talmente, che più mai</l>
+<l>Parte non ve n'avrebbe Ottavio avuta.</l>
+<l>E veggo, come s'io l'avessi inanzi,</l>
+<l>Che s'ei facesse uccider <name>Marco Antonio</name>,</l>
+<l>Impiagherebbe con quel colpo istesso</l>
+<l>A mille, e a mille cittadini il core.</l>
+<l>Et, ove crederebbe, che la morte</l>
+<l>Del suo nemico, assecurar devesse</l>
+<l>L'imperio suo, tutto il porria in scompiglio.</l>
+<l>Si pensò <name>Cassio</name>, e <name>Brutto</name> che tornare</l>
+<l>Devesse a la republica l'impero,</l>
+<l>Morto che fusse <name>Cesare</name>, e il contrario</l>
+<l>Avenne, ch'essi andaro a miser fine,</l>
+<l>E l'imperio è rimano al fine a <name>Ottavio</name>.</l>
+<l>Sì che io stimo, <name>Agrippa</name>, ch'astenersi</l>
+<l>Da uccider <name>Marco Antonio</name> <name>Ottavio</name> debba,</l>
+<l>Per l'onore non men, che per l'impero.</l>
+<l>E credo, che se voi con la prudenza</l>
+<l>Vostra andarete discorrendo il tutto,</l>
+<l>Non sia per dispiacervi il parer mio.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>L'esser contrario a la sentenza vostra,</l>
+<l><name>Mecenate</name>, mi par cosa assai dura.</l>
+<l>E le ragioni dianzi addutte a <name>Ottavio</name>,</l>
+<pb n="41"/>
+<l>E quelle, ch' avete anche ora a me addutte,</l>
+<l>Esser mi potrian far del parer vostro.</l>
+<l>Ma il saper, che inconstante animo sempre</l>
+<l><name>Marco Antonio</name> ebbe, e in ogni cosa sempre</l>
+<l>Piegata ha la sua mente a le discordie,</l>
+<l>E quando la republica era in fiore,</l>
+<l>E poi che morto fu <name>Cesare</name>, e poi</l>
+<l>Che fra <name>Lepido</name>, e <name>Ottavio</name>, e lui diviso</l>
+<l>L'imperio fu del mondo, e dapoi anche</l>
+<l>Che accordo fero egli, e <name>Ottavio</name> insieme,</l>
+<l>Pensar mi fa, ch'ovunque fia costui,</l>
+<l>Esser vi debban controversie, e risse,</l>
+<l>Ond'avenir porian nove battaglie,</l>
+<l>Che por porian (come ad <name>Ottavio</name> dissi)</l>
+<l>L'imperio tutto un'altra volta in dubbio.</l>
+<l>Io fermo sono nel parer di prima.</l>
+<l>E se ben, poi che fu <name>Cesare</name> morto</l>
+<l>Sorser degli altri a guerreggiar, costui</l>
+<l>Ora in stato non è, che la sua morte</l>
+<l part="I">Possa mover tumulto.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="F">E questo a punto</l>
+<l>Può mostrar anche, che non pòn tumulti</l>
+<l>Da costui nascer, poscia che il piè fermo</l>
+<l>Ne l'imperio avrà <name>Ottavio</name>, rimanendo</l>
+<l>Privato <name>Marco Antonio</name> di ciò, ch'uopo</l>
+<l>E' a tentar grande impresa. Ma se pure</l>
+<l>Vi è di tanto timor costui, dal quale</l>
+<l>(Per mio parer) non si dee temer nulla,</l>
+<l>Non lo potrà tenere in <name>Roma</name> <name>Ottavio</name></l>
+<l>(Com'ora Lepido è) così demesso,</l>
+<l>Ch'egli non possa pure alzare un dito,</l>
+<l>Senza il voler di chi terrà l'impero?</l>
+<l>E se bisogno fia, non porà <name>Ottavio</name></l>
+<l>Porlo in custodia tal, ch'egli non possa</l>
+<l>Pur sospirar, non che destar discordie?</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Una prigion perpetua, <name>Mecenate</name>,</l>
+<l>A liber uom, più dura è che la morte,</l>
+<l>E così proveder, altro non fora</l>
+<l>Che dargli morte, e mantenerlo in vita,</l>
+<l>Perché vivendo, egli morisse sempre.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Siane ciò, ch'esser possa, in questa guisa</l>
+<l><name>Ottavio</name> non si tingeria le mani</l>
+<l>Nel civil sangue, dopo la vittoria,</l>
+<l>E via meno spiacevole, e men grave</l>
+<l>Al popolo saria, ch'egli restasse</l>
+<l>Prigion, che morto. Ma chi fia costui,</l>
+<l>Che de la corte vien di Cleopatra,</l>
+<l>Con quella spada sanguinosa in mano,</l>
+<l>Così dolente, e conturbato in vista?</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Egli è un de' capitan di <name>Marco Antonio</name>.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Qualche stran caso ivi sarà avenuto,</l>
+<l>Stiamo a veder ciò, che di novo apporta.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUARTA</hi>
+</head>
+<sp><speaker>Capitano</speaker> 
+<l>Gli avenimenti della guerra sono</l>
+<l>In guisa dubbi, che non puote alcuno</l>
+<l>Aver nulla di certo ne la pugna,</l>
+<l>Ché avengon cose tali, in un momento,</l>
+<l>Che non ponno capire in uman senso.</l>
+<l>Ma, fra le strane cose, che giamai</l>
+<l>Avenissero in guerra, così strane</l>
+<l>Avenute ne sono a <name>Marco Antonio</name>,</l>
+<l>Ch'io credo, che Fortuna se 'l prendesse,</l>
+<l>Nel cominciar di questa aspra battaglia,</l>
+<l>Per aver del suo mal giuoco, e trastullo.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="I">Certo che dice il vero.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">è meglio ch'egli</l>
+<l>Si dolga, ch'a doler ci abbiamo noi.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="I">Sí veramente.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l part="F">E, per mostrar ben questa</l>
+<l>Nemica de' felici avenimenti,</l>
+<l>Qual sia la forza sua fra noi mortali,</l>
+<l>Fatt' ha, che questo capitano eccelso,</l>
+<l>Ch'invitto si mostrò sempre in battaglia,</l>
+<l>Si è dato in guisa in forza a <name>Cleopatra</name>,</l>
+<l>Ch'egli, che fra le lance, e fra le spade</l>
+<l>Sicuro è gito da costei, ch'amava</l>
+<l>Via più che gli occhi suoi, più che la vita</l>
+<l>Dopo la vile, e biasimevol fuga,</l>
+<l>Avuta ha la cagion de la sua morte.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Per quel, ch'intendo, <name>Marco Antonio</name> è morto.</l>
+<l part="I">Me increscerebbe assai.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">è morto certo.</l>
+<l>Meglio è che noi facciam ch'<name>Ottavio</name> il sappia.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Egli è pur meglio ch'intendiamo certa</l>
+<l part="I">La cosa prima.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">Che lamento è questo?</l>
+<l>Ch'importa questa spada, Capitano?</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Di qual sangue è ella tinta, od ove andate?</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Ahi, Signor Mecenate, questa spada,</l>
+<l>Questa tagliente spada aperta ha il fianco</l>
+<l>Al signor nostro, e n'è rimaso estinto.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="I">E perchè questo?</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l part="F">Sol per <name>Cleopatra</name>.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="I">Perchè per <name>Cleopatra</name>?</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l part="F">S'era finta</l>
+<l>Morta essere ella, e per non sovrastare</l>
+<l>Egli a la moglie sua, con questa spada</l>
+<l>Si ha dato morte. E portola ad <name>Ottavio</name>,</l>
+<l>Perch'egli sappia, ch'ha fine la guerra,</l>
+<l>Ch'avea con <name>Marco Antonio</name>, e per avere</l>
+<l>Per me perdono, e per quegli altri insieme,</l>
+<l>Che fedeli son stati al signor nostro.</l>
+<pb n="43"/>
+<l>E se non potrò aver da lui perdono,</l>
+<l>Con questa spada dar mi faccia morte,</l>
+<l>Ché caro avrò a morir, per la mia fede,</l>
+<l>Con quella spada, onde il signor mio è morto.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Io credo, che perdon da <name>Ottavio</name> avrete,</l>
+<l>E che vi loderà de la fé vostra.</l>
+<l>Andiamo, e siate può d'animo buono,</l>
+<l>Che costume è di <name>Ottavio</name> di deporre</l>
+<l part="I">Con l'arme l'odio.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">E noi vi aiuteremo,</l>
+<l>Se bisogno vi fia d'aiuto nostro.</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Non aspetto altro da la bontà vostra.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUINTA
+</hi></head>
+<sp><speaker>Nutrice</speaker> 
+<l>Che sorte, ohimé, che sorte fia la nostra</l>
+<l>In questa così grave aspra miseria?</l>
+<l>Ch'aspettar più possiam se non dolore?</l>
+<l>Ma che dico io dolor? se non tal vita,</l>
+<l>Ch'abbiamo da portare invidia ai morti,</l>
+<l>O ver tal morte, che doler ci debba,</l>
+<l>Che ci troviamo in questo tempo vive.</l>
+<l>Felice ben si può dir <name>Marco Antonio</name>,</l>
+<l>Poi che liber mort'è nel caro seno</l>
+<l>De la sua <name>Cleopatra</name>, e non l'ha vista,</l>
+<l>Com'io temo vederla, al servil giogo,</l>
+<l>In podestà de le romane donne.</l>
+<l>O corte già d'ogni piacer ricetto,</l>
+<l>Come ora sei d'ogni dolore albergo!</l></sp>
+<sp><speaker>Capitano</speaker> 
+<l>Nutrice è ver, che quei, che son felici,</l>
+<l>Fortuna col peggio han sempre a le spalle.</l>
+<l>E ne fa fede la reina nostra,</l>
+<l>Di cui non visse già la più felice,</l>
+<l>E la più trista ora non vede il sole.</l>
+<l>E come noi fummo con lei contente,</l>
+<l>Or siamo essempio di miseria al mondo.</l>
+<l>Né so nutrice, ohimé, più ove debbiamo</l>
+<l>Voltarsi, ohimé, per ritrovar soccorso,</l>
+<l>Sì piena di pericoli, e di doglie</l>
+<l>Veggo, di parte, in parte, or questa corte.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Figliuola il primo dì ne dà l'estremo,</l>
+<l>Ché col nostro destin tutti nasciamo.</l>
+<l>Deh foss'io morta allor, che la reina</l>
+<l>Da <name>Cesar</name> ebbe in podestà l'<name>Egitto</name>,</l>
+<l>Ch'io non potea morir se non contenta,</l>
+<l>Ov'or veggendola essere ove mai</l>
+<l>Non credea di vederla, mi rincresce</l>
+<l part="I">Trovarmi viva.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l part="F">Ohimé, nutrice, ohimé,</l>
+<l>Che ci giovano i pianti, et i sospiri,</l>
+<pb n="44"/>
+<l>Ohimé, poscia che fuor di tanti affanni,</l>
+<l>Né di tanti pericoli possiamo</l>
+<l>Trar la reina, e similmente noi?</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Figliuola mia, poscia che non poss'altro,</l>
+<l>Chiamata meco ti ho fuori di corte,</l>
+<l>Per disacerbar teco il mio fier duolo,</l>
+<l>Che mi sentia crepar il cor nel petto,</l>
+<l>Mentre in presenza er'io de la reina,</l>
+<l>E non ardia mandar fuori un sospiro.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>Torniam nutrice in casa, a quella sorte,</l>
+<l>Che vorrà il cielo, a' nostri danni vòlto,</l>
+<l>Ch'abbia questa reina, e noi con lei.</l></sp>
+<sp><speaker>Nutrice</speaker> 
+<l>Et aspettar la debbiam, figlia, sì grave,</l>
+<l>Che fia appo lei ogni miseria lieve.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SESTA</hi></head>
+<sp><speaker>Mecenate</speaker> 
+<l>Alta virtù, che in nobil alma regni,</l>
+<l>Mostrar conviensi in ogni stato fuori,</l>
+<l>Mille cagioni aveva date, e mille</l>
+<l>Ad <name>Ottavio</name> di odiarlo <name>Marco Antonio</name>,</l>
+<l>Né pur di averlo in odio, ma d'avere</l>
+<l>Cara, sopra ogni cosa, la sua morte.</l>
+<l>E quantunque egli dianzi da lo sdegno,</l>
+<l>E giusto (per ver dir) fusse sospinto</l>
+<l>A voler veder morto <name>Marco Antonio</name>,</l>
+<l>Non dimen, vista ch'ha la spada tinta</l>
+<l>Del suo sangue, et inteso, ch'egli è morto,</l>
+<l>Non ha potuto rattenere il pianto,</l>
+<l>Segno di generoso, e nobil core,</l>
+<l>E d'animo roman verace essempio.</l>
+<l>Or perché vuol, che al gran nome d'<name>Ottavio</name></l>
+<l>Rispondan l'opre, avendo perdonato</l>
+<l>Al capitan, che dianzi venne a lui,</l>
+<l>Mi manda a gli altri capitani, e a tutti</l>
+<l>I soldati, che fur di <name>Marco Antonio</name>,</l>
+<l>Perché lor manifesti, che perdono</l>
+<l>Egli dà a tutti, e che gli accoglie tutti,</l>
+<l>Come fedeli, e singolari amici.</l>
+<l>Ben mostri, <name>Ottavio</name>, che non voglia tua,</l>
+<l>Ma la necessità ti ha indutto a l'arme.</l>
+<l>E, quantunque giustissimo disdegno</l>
+<l>Devuto inacerbir ti avesse l'alma,</l>
+<l>Più in te ha potuto il generoso core,</l>
+<l>Che quante ingiurie ricevesti mai.</l>
+<l>E non men saputo hai vincer te stesso,</l>
+<l>Che vinto abbi il nemico, e a loda, e a onore</l>
+<l>Tanto più questo si è, quanto suol fare</l>
+<l>La vittoria insolente il vincitore.</l>
+<l>Vivi felice, et abbi sempre il Cielo</l>
+<pb n="45"/>
+<l>Secondo a le tue voglie, come degno</l>
+<l>Ti fa d'imperio tal l'animo tuo.</l>
+<l>E poi ch'è morto <name>Marco Antonio</name>, abbia egli</l>
+<l>Seco portato quanto d'infelice</l>
+<l>A l'imperio roman potea avenire.</l>
+<l>Io veggo venire un da <name>Cleopatra</name>.</l>
+<l>Voglio saper chi egli è. Dimmi, chi sei?</l>
+<l>Et ove vai? e che novelle porti?</l></sp>
+<sp><speaker>Servo</speaker> 
+<l>Io sono un sventurato, et infelice</l>
+<l>Servo di <name>Marco Antonio</name>, ch'ad <name>Ottavio
+</name></l>
+<l>Porto le lettre, ch'egli scrisse allora,</l>
+<l>Ch'era per mandar fuor del corpo l'alma,</l>
+<l>Con la tremante mano, e gliele manda</l>
+<l><name>Cleopatra </name>reina de l'<name>Egitto</name>.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="I">E che fa <name>Cleopatra</name>?</l></sp>
+<sp><speaker>Servo</speaker> 
+<l part="F">Chi vedere</l>
+<l>Vuole il dolore in forma umana, miri</l>
+<l>La sua sembianza; i' credo certo, ch'ella</l>
+<l>Se ne morrà di duol, se non le viene</l>
+<l>Cosa da <name>Ottavio</name>, che la tenga in vita,</l>
+<l>Ma veggo sì ogni cosa contra lei,</l>
+<l>Sì minacciarle il ciel, dopo il mal, peggio,</l>
+<l>Che temo molto, anzi non ho speranza</l>
+<l>Di veder contra lei benigno <name>Ottavio</name>.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Va pur, che ti fo certo, che da lui</l>
+<l>Cosa non averai, se non da prence.</l></sp>
+<sp><speaker>Servo</speaker> 
+<l>Non so che possa fare un prence cosa</l>
+<l>Di gran prence più degna, che servare</l>
+<l>Una reina, o un re, ch'egli abbia in forza.</l>
+<l>Se questo egli farà, mostrerà chiaro,</l>
+<l>Ch'abbia a l'impero suo l'animo uguale.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Vanne con sicurezza di trovare</l>
+<l part="I">In <name>Ottavio</name> clemenza.</l></sp>
+<sp><speaker>Servo</speaker> 
+<l part="F">Il voglia Dio.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l>Vorrei così poter disporre <name>Ottavio
+</name></l>
+<l>A perdonare a <name>Cleopatra</name>, come</l>
+<l>Disposto l'ho con le parole mie</l>
+<l>A perdonare a tutti que' soldati,</l>
+<l>Ch'avevan contra lui prese in man l'arme,</l>
+<l>E il farei volentier. Ché la clemenza</l>
+<l>Esser scesa mi par dal cielo in terra,</l>
+<l>Perché l'uomo per lei simil sia a Dio.</l>
+<l>Ma temo, che tentar ciò sarà vano,</l>
+<l>Ché mi stimo, che, tocco da la gloria,</l>
+<l>Vorrà ch'ell'orni il suo trionfo a <name>Roma</name>.</l>
+<l>Ma sia che può, non è costei romana.</l>
+<l>Forse ha disposto il Re de gli alti Dei</l>
+<l>Che in <name>Roma</name> sia costei condutta serva,</l>
+<l>Perché i signor de le barbare genti</l>
+<l>Imparino da lei, quanto a sdegno abbia,</l>
+<l>Che si armi alcun contra il romano impero.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SETTIMA
+</hi></head>
+<pb n="46"/>
+<sp><speaker>Servo di Marco Antonio.</speaker>
+<l>Se a le parole, che da <name>Ottavio</name> ho avute,</l>
+<l>Risponde il cor, non puote <name>Cleopatra
+</name></l>
+<l>Altro aspettar da lui, che onore, e bene,</l>
+<l>Ma temo assai, che sia fra' fiori l'angue,</l>
+<l>E ch'egli attenda a le ricchezze immense,</l>
+<l>Che con lei chiuse ella ha dentro al sepolcro.</l>
+<l>Non credo di poter persuadere</l>
+<l>A <name>Cleopatra</name>, che sia per avere</l>
+<l>Da <name>Ottavio</name> il ben, ch'egli vuol, ch'a suo nome</l>
+<l>Io le prometta. Perch'ella sa quanto</l>
+<l>Sovente, promettendo i re la vita,</l>
+<l>Apparecchian la morte a' lor nemici.</l>
+<l>E come sempre io consiglierei</l>
+<l>Chi chiedesse il mio parer, che mai</l>
+<l>Non fesse offesa ai re possenti, ch'hanno</l>
+<l>Troppo lunghe le mani, così ancora</l>
+<l>Consiglierei che chi gli avesse offesi</l>
+<l>Non si lasciasse indurre a lor lusinghe</l>
+<l>Sì, che non ne temesse la vendetta,</l>
+<l>Ché piaghe tali non si sanan mai</l>
+<l>Se non col sangue de' nemici loro.</l>
+<l>Ma ritrovandosi esser <name>Cleopatra</name></l>
+<l>A tal condutta, che la morte sola</l>
+<l>La può sottrarre a le miserie gravi,</l>
+<l>Errar non puote a fingere di dare</l>
+<l>Fede a' detti di <name>Ottavio</name>, e se benigno</l>
+<l>(Come di volere essere mi ha detto)</l>
+<l>Le si dimostrerà, rimarrà viva.</l>
+<l>E se il contrario fila strada mai</l>
+<l>Chiusa non le sarà di poter darsi</l>
+<l>La morte, per sottrarsi a scorno, e a danni.</l>
+<l>Ché cosa non ha l'uom più in sua balia,</l>
+<l>Quanto è troncare il filo a la sua vita.</l>
+<l>E fa gran senno quei, che disnor teme,</l>
+<l>Più tosto, che di sé spettacol fare,</l>
+<l>Sottrarsi, col morire, a la vergogna,</l>
+<l>E fine imporre a le miserie, ai pianti.</l>
+<l>E quella morte dir si può felice</l>
+<l>Per cui l'uom fortemente esce di pena.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA OTTAVA</hi></head>
+<sp><speaker>Ottavio</speaker> 
+<l>Pòn tanto le ragioni de la patria</l>
+<l>Appresso i veri cittadin ch'ancora,</l>
+<l>Che nemicizia sia nata fra alcuni</l>
+<l>Di loro, e avenga lor notabil danno,</l>
+<l>Non ponno udir del lor nemico il male</l>
+<l>Senza cordoglio. Et ora i' l'ho potuto</l>
+<pb n="47"/>
+<l>In me medesmo, ch'ancor che mi fusse</l>
+<l><name>Marco Antonio</name> il maggior nemico, ch'io</l>
+<l>Avessi mai, non ho potuto udire</l>
+<l>La morte sua, senza mio gran dolore.</l>
+<l>E nel legger le lettre, che portate</l>
+<l>Mi ha il servo suo, potuto ho rattenere</l>
+<l part="I">A pena il pianto.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="F">Signor, non mi è nova</l>
+<l>L'alta vostra bontà, l'alta clemenza,</l>
+<l>Né altro pensato io mi avrei di voi.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="I">Et avrei ciò anch'io pensato.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Le sue lettre</l>
+<l>(Come ambidue potete aver veduto)</l>
+<l>Lo mi han fatto conoscer nel morire</l>
+<l>Molto più saggio, e molto più prudente,</l>
+<l>Che non l'ho visto vivo. Io vo' che quello</l>
+<l>Ch'egli mi ha chiesto, tutto sia essequito</l>
+<l>Non altrimente, ch'ordinato egli abbia,</l>
+<l>Poscia che ne la morte ha mostro avere</l>
+<l part="I">In me tal confidenza.</l></sp>
+<sp><speaker>Mecenate</speaker> 
+<l part="F">Ben mostrate</l>
+<l>Qual voi sareste stato verso lui,</l>
+<l>Mentre viveva, s'egli fusse suto</l>
+<l>Verso voi qual volea, ch'ei fusse, il giusto.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Resta, poi che composte hai, <name>Mecenate</name>,</l>
+<l>Le cose in guisa, co' soldati aversi,</l>
+<l>Che conosciuta han la clemenza nostra,</l>
+<l>Resta, che <name>Cleopatra</name> abbiamo viva,</l>
+<l>Perch'onorar ne possa il mio trionfo,</l>
+<l>E perché quei che mi ha addutte le lettre,</l>
+<l>Sospetto messo mi ha de la sua morte,</l>
+<l>Usato ho verso lui parole tali,</l>
+<l>Che consolar potralla, e potrà darle</l>
+<l>Speranza d'aver sol bene da noi.</l>
+<l>Ma, con tutto ciò, io voglio che tu vada</l>
+<l><name>Agrippa</name> a ritrovarla, e a nome mio</l>
+<l>Che la consoli, e l'empi di speranza</l>
+<l>Tal, che deponga in tutto ogni paura,</l>
+<l>E seco imaginandosi d'avere</l>
+<l>Pace da noi, non cerchi darsi morte.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Anderò, Signor mio, quantunque io pensi,</l>
+<l>Che malagevol fia a persuadere</l>
+<l>A questa donna, più d'ogn'altra scaltra,</l>
+<l>Che non sia per temer ciò, che temere</l>
+<l>Si deve da reina, in simil caso,</l>
+<l>Sapendo l'uso dei trionfi nostri.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Gli afflitti volentier porgon gli oracchi</l>
+<l>A cosa, che lor dia speme di bene.</l>
+<l>Et un saggio parlar spesso dispone</l>
+<l>A far quel l'uom, ch'ei ricusava prima.</l>
+<l>Però, se tu userai la tua prudenza,</l>
+<l>In persuadere il bene a <name>Cleopatra</name>,</l>
+<l>Io son sicuro, che presterà fede</l>
+<l>A' detti tuoi. Pur quando non potessi</l>
+<pb n="48"/>
+<l>Con lusinghe ottener quel, che bramiamo,</l>
+<l>Usa parole acerbe, usa minaccie,</l>
+<l>E di', che se vorrà stata ostinata</l>
+<l>Sì, che voglia morir, ch'ella sia certa</l>
+<l>Ch'andran tutti i suoi figli a fil di spada.</l>
+<l>So che sovente la pietà materna</l>
+<l>A le madri stimar più fa la vita</l>
+<l>De' figli loro, che la vita propria.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Non sarà se non ben, per mio parere,</l>
+<l>Che discorriam su questo fatto insieme,</l>
+<l>Acciò che ritroviam quel miglior modo,</l>
+<l>Che parrà a vostra Altezza, che si debba</l>
+<l>Usare, in far che <name>Cleopatra</name> creda,</l>
+<l>Che non de' altro sperar da voi, che bene.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Poi che così ti pare, <name>Agrippa</name>, entriamo,</l>
+<l>E ne raggionerem tutti e tre insieme.</l></sp>
+<sp><speaker>CORO</speaker> 
+<l>Se la ragione è in noi</l>
+<l>Sì presta, e sì vivace,</l>
+<l>Perché rimane al desir vano in preda?</l>
+<l>Perch'ella, ohimé, non face</l>
+<l>Per nostro bene, e pace,</l>
+<l>Ch'al vivo lume de' bei raggi suoi</l>
+<l>Il cieco desir ceda,</l>
+<l>E non trasporti noi dove le piace?</l>
+<l>Cagione è questa spoglia,</l>
+<l>Ond'abbiam l'alma involta,</l>
+<l>Che la ragion, col suo lume non vegga</l>
+<l>Quanto devria, e ch'occolta</l>
+<l>(Ché non vo' dir sepolta)</l>
+<l>Se ne sta sotto il fral, fin che si scioglia</l>
+<l>Da lui, e sé ella regga,</l>
+<l>Libera in tutto da la parte stolta.</l>
+<l>Ohimé, se questo è vero,</l>
+<l>Se Siam condotti a tale,</l>
+<l>Mentre noi siamo in queste parti oscure,</l>
+<l>Et il nostro mortale</l>
+<l>Sì a la ragion prevale,</l>
+<l>Ch'ella non ha sovra il desire impero,</l>
+<l>Molto meglio era pure,</l>
+<l>Che il divin sotto sé tenesse il frale.</l>
+<l>Se così il Cielo avesse</l>
+<l>Disposto, ahi quanti, ahi quanti</l>
+<l>Affanni sarian tolti fuor del mondo?</l>
+<l>Non si udiriano i pianti,</l>
+<l>Che dolenti fan tanti,</l>
+<l>Che son menati a le lor morti espresse,</l>
+<l>Ma ognun vivria giocondo,</l>
+<l>Né tanto fora il numer de gli erranti,</l>
+<l>Ché vedria l'uom gli inganni,</l>
+<l>Che il senso gli apparecchia,</l>
+<l>Sotto fallaci, e ben mentite larve.</l>
+<pb n="49"/>
+<l>Ma perch'egli s'invecchia</l>
+<l>In questa usanza vecchia,</l>
+<l>E non si avede, che il desio l'inganni,</l>
+<l>Il mal, che ben gli parve,</l>
+<l>Segue, e di udire il ben fugge l'orecchia.</l>
+<l>Né si avede giamai</l>
+<l>Il misero dolente</l>
+<l>Di esser, qual cieco giunto al precipizio,</l>
+<l>Insin ch'egli non sente,</l>
+<l>Che il desio vano mente,</l>
+<l>E solo il mena a gli angosciosi guai,</l>
+<l>Né val poscia ch'indizio</l>
+<l>La ragione gli dia del mal presente,</l>
+<l>E la reina nostro</l>
+<l>In questa afflitta corte</l>
+<l>Ne può dare ad ognun vivace essempio,</l>
+<l>Che per seguir le torte</l>
+<l>Vie, che il desir le ha porte,</l>
+<l>E' giunta a tal, che se ben le dimostra</l>
+<l>La ragione il suo scempio,</l>
+<l>Non può ella più fuggir servitù, o morte.</l>
+<l>Dunque è quegli felice,</l>
+<l>Che ha la ragion per guida,</l>
+<l>E di seguitar lascia il van desire;</l>
+<l>Con scorta così fida</l>
+<l>Non ha cagion di strida,</l>
+<l>Perché non l'assal mai cosa infelice,</l>
+<l>Che gli apporti martire,</l>
+<l>Ch'aspramente il tormenti, o che l'ancida.</l></sp>
+</div2>
+</div1>
+<div1 type="atto"><head><hi rend="sc">ATTO QUARTO</hi>
+</head>
+<div2 type="scena"><head><hi rend="sc">SCENA PRIMA
+</hi></head>
+<sp><speaker>Agrippa</speaker> 
+<l>Non deve un gran signor porsi a tentare</l>
+<l>La inconstante, e volubile Fortuna,</l>
+<l>Perché chi troppo attizza questa serpe,</l>
+<l>Ella si gonfia, e sì di venen s'empie,</l>
+<l>Che insino, che non ha condutto a fine</l>
+<l>Miserabile, e tristo color tutti</l>
+<l>Che la movono a sdegno, et a furore,</l>
+<l>Quando cercan maggior ben di quel, ch'ella</l>
+<l>Ha conceduto lor con larga mano,</l>
+<l>E a tal costoro ella sovente mena,</l>
+<l>Che non perdono sol tutto quel ch'hanno</l>
+<l>Di gemme, di tesor, di signoria,</l>
+<pb n="50"/>
+<l>Ma quanto ebber d'onore a la lor vita,</l>
+<l>Che stimato è il miglior fin fra gli esterni,</l>
+<l>Che per bene operare altri consegua.</l>
+<l>E (per non ragionar di <name>Marco Antonio</name>,</l>
+<l>Ch'è giunto al miser fin ch'inteso abbiamo)</l>
+<l>Ce ne dà chiaro essempio or <name>Cleopatra</name>,</l>
+<l>La qual, mentre contenta de l'<name>Egitto
+</name></l>
+<l>Esser non ha voluto, e prese ha l'arme</l>
+<l>Contra di <name>Ottavio</name>, per venir reina</l>
+<l>Con <name>Marco Antonio</name> suo de l'universo,</l>
+<l>Venuta è serva, e in podestà d'<name>Ottavio</name>.</l>
+<l>Vedo perché non cerchi di sottrarsi</l>
+<l>Al servil giogo con la morte sua,</l>
+<l>Ma s'ella è di quel cor, di quella mente,</l>
+<l>Di ch'esser deve in così estrema sorte,</l>
+<l>Vani i conforti fiano, e le lusinghe,</l>
+<l>E vane quante addur saprò minaccie,</l>
+<l>S'uopo fia forse le minaccie usare,</l>
+<l>Perché non faccia quel, ch'ella far deve.</l>
+<l>Io veggo <name>Olimpo</name>suo, ch'esce di corte</l>
+<l>E mi par tutto conturbato in vista,</l>
+<l>Il veggo ragionar da se medesmo.</l>
+<l>Veder vo' se di qui comprender posso</l>
+<l>Di che ragiona, ché potrei avere</l>
+<l>Cosa da ciò, che mi darebbe lume</l>
+<l>A quel, ch'io debbo far con <name>Cleopatra</name>.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SECONDA
+</hi></head>
+<sp><speaker>Olimpo</speaker> 
+<l>Non so, che si possa uom prometter certo</l>
+<l>Ne lo stato mortal, quando veggiamo</l>
+<l>Che i regni, i quali fra le cose umane,</l>
+<l>Son di tanto momento, et hanno tante</l>
+<l>Fortezze intorno; e così gran presidi</l>
+<l>Son de la sorte sottosopra vòlti.</l>
+<l>E vòlti sì, che i possessori loro</l>
+<l>Vengono a stato così vile, e basso,</l>
+<l>Che la morte han per ultimo refugio.</l>
+<l>E la reina mia ce 'l mostra chiaro,</l>
+<l>Che per non andar serva in man d'<name>Ottavio</name>,</l>
+<l>Disposta si è, che il non mangiar l'uccida.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>E questo è quel, che solo <name>Ottavio</name> teme.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Certo egli è vero, che quanto più in alto</l>
+<l>E' asceso l'uom, tanto maggior dà il tomo.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Io non vo' più tardar Signore <name>Olimpo</name>,</l>
+<l part="I">Che querele son queste?</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">Che querele?</l>
+<l>Quelle, che il destin reo vuol, che spargiamo.</l>
+<l>Parvi che noi non ci debbiam dolere</l>
+<l>Quanto mai si dolesse alcun mortale,</l>
+<l>Sendo le cose nostre a tal ridutte,</l>
+<pb n="51"/>
+<l>Che quanti furon mai sospiri e pianti,</l>
+<l>Non basteriano ad isfogare in parte</l>
+<l>Le gran miserie, e gli aspri affanni nostri?</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Così va la vicenda de le cose.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Ahi quanto è a noi questa vicenda grave!</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Grave sempre fu il gire in forma altrui</l>
+<l>A chi usat'è di sovrastare a gli altri,</l>
+<l>Et a regnar. Ma aver dee molta grazia,</l>
+<l>(Quando il ciel voglia pur, che questo avenga)</l>
+<l>Quell'uomo a Dio, che cade in man di tale</l>
+<l>Che sia tutto pietà, tutto clemenza,</l>
+<l>Dal quale altro sperare egli non possa,</l>
+<l>Che bene, come voi sperar potete</l>
+<l>Dal signor nostro, ancor che siate vinti.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Il potressimo creder, se la prova</l>
+<l>Saper non ne facesse quel, che fanno</l>
+<l>Le vittorie, ne gli animi di quelli,</l>
+<l>Che vincitori sono, e insuperbiti</l>
+<l>Sono de la vittoria, i più benigni</l>
+<l>Divengon crudi, et i più miti fieri.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Questo aviene in color ch'hanno il cor d'orso,</l>
+<l>Ma chi ha, com'Ottavio ha, la mente umana,</l>
+<l>Non sol fiero non vien, ma discorrendo</l>
+<l>Lo stato, in ch'è rimaso il signor vinto,</l>
+<l>Compassione gli ha, veggendo quanto</l>
+<l>Può la Fortuna ne le cose eccelse.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Così esser ben devrebbe, se mirasse</l>
+<l>A questo il vincitor, ch'è manifesto,</l>
+<l>Che il cader, che fa un re, pone l'essempio</l>
+<l>Inanzi a ognun, che tien corona in testa,</l>
+<l>Quanto poca fé serbe la Fortuna</l>
+<l>A quegli, a cui mostra benigno il viso.</l>
+<l>Ma il vincitor non pensa altro, né cura,</l>
+<l>Che dimostrarsi altiero, imaginando</l>
+<l>Di non vederla mai per lui turbata.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Così benigna sempre l'abbia <name>Ottavio</name>,</l>
+<l>Come <name>Alessandria </name>il proverà benigno.</l>
+<l>Che fa, che pensa la reina vostra?</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Ohimé, che può ella far, se non versare</l>
+<l>Da gli occhi un mar di pianto, e imaginarsi</l>
+<l>Come debba finire i giorni suoi?</l>
+<l>Per uscir fuor de le angosciose pene,</l>
+<l>E non esser spettacolo a' Romani</l>
+<l>Se viva andasse al vincitore in mano.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l>Questo non fia. Fate che con lei parli</l>
+<l>E le torrò la tema, dimostrando</l>
+<l>Quanto sperare ella da <name>Ottavio</name> debba.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="I">Io so che sperare deve.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="M">E che?</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">Che presto</l>
+<l>Sia a sopporsi a le leggi, ch'imporalle</l>
+<l part="I">Il vincitore.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">Io non vi vo' già dire,</l>
+<l>Ch'<name>Ottavio </name>da lei voglia accettar leggi,</l>
+<pb n="52"/>
+<l>Che ciò non vuole il giusto. Ma ben tali</l>
+<l>Ella le avrà da lui, che poco avrassi</l>
+<l>A doler, d'esser stata perditrice.</l>
+<l>Fate che con lei parli, e mostrerolle,</l>
+<l>Ch'ella conoscerà, ch'<name>Ottavio</name> è tutto</l>
+<l>Pronto a farle veder, ch'animo tiene</l>
+<l>D'imperatore, e ch'egli sa non meno</l>
+<l>Perdonare a' soggetti, che domare</l>
+<l>Chi contra lui si dà ad alzar le corna.</l>
+<l part="I">Andate, ch'io vi aspetto.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">Io vo, Signore,</l>
+<l>Né mancherà da me, ch'io non procuri,</l>
+<l>Che speri bene, e si conservi in vita,</l>
+<l>Ma temo di tentar tutto ciò in vano.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA TERZA
+</hi></head>
+<sp><speaker>Agrippa</speaker> 
+<l>Eletta avrà la parte <name>Cleopatra</name></l>
+<l>Ch'elegger dee, chi da sublime stato</l>
+<l>Sen cade in basso, e umil, com'è caduta</l>
+<l>Questa infelice, e misera reina,</l>
+<l>Che mi par quell'uom stolto, che disegni</l>
+<l>Viver quando non è, chi egli era dianzi.</l>
+<l>Et ova solea dare ad altri legge</l>
+<l>Egli a l'altrui soggiaccia, e credo certo</l>
+<l>Che sappia <name>Olimpo</name> ben la mente sua</l>
+<l>Et ecco, ch'egli vien da <name>Cleopatra</name>.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUARTA</hi></head>
+<stage>Olimpo, Agrippa.</stage>
+<sp><speaker>Olimpo</speaker> 
+<l>Signor <name>Agrippa</name>, la reina nostra,</l>
+<l>Che chiusa si ritrova entro al sepolcro,</l>
+<l>Consentito non ha, ch'io le ragioni.</l>
+<l>Ma per la cameriera ispor l'ho fatto</l>
+<l>A punto tutto quel che avete detto.</l>
+<l>La risposta è, ch'ell'è sì travagliata,</l>
+<l>Sì piena di dolor, che dar risposta</l>
+<l>Ora non puote, a quel che chiede <name>Ottavio</name>.</l>
+<l>Ma che grazia gli ha ben del buon volere,</l>
+<l>Ch'egli dimostra avere inverso lei.</l>
+<l>E che discorrerà maturamente</l>
+<l>Il tutto, e che saper gli farà quello,</l>
+<l>Che delibererà di sè. Io fare</l>
+<l part="I">Altro non ho potuto.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">Le direte,</l>
+<l>O le farete dir, quando non voglia</l>
+<l>Parlar con noi, ch'a viver si risolva,</l>
+<l>E si rimetta, a la bontà di <name>Ottavio</name>,</l>
+<pb n="53"/>
+<l>Perchè, se disporrà fare altrimente,</l>
+<l>Prima che se ne mora, vedrà il sangue</l>
+<l>Di tutti i figli suoi sparso per terra.</l>
+<l>Tanto sdegno avrà <name>Ottavio</name> che desperi</l>
+<l>e la bontà, de la clemenza sua.</l>
+<l>E a voi tutti non men tocca, che a lei,</l>
+<l>Di usar l'ingegno, acciò ch'ella si viva,</l>
+<l>Perchè, se more, andrà tutta <name>Alessandria</name></l>
+<l>Crudelissimamente a ferro, e a fuoco.</l>
+<l>Ove se viva resta, tutti voi</l>
+<l>Vi vivrete con lei lieti, e contenti.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Io non mancherò, <name>Agrippa</name>, di far quanto</l>
+<l part="I">Si potrà far per me.</l></sp>
+<sp><speaker>Agrippa</speaker> 
+<l part="F">Fate 'l <name>Olimpo</name>,</l>
+<l>Perch'ella può sol lei salvare, e voi.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUINTA</hi></head>
+<sp><speaker>Olimpo</speaker> 
+<l>Chiunque può, senza servire altrui,</l>
+<l>Menar da sé vita onorata, e queta,</l>
+<l>Molto erra, e molto, se dal desio folle</l>
+<l>Di aver favore appo i signori, lascia</l>
+<l>Il suo tranquillo stato; e nel mar entra</l>
+<l>De le corti, e si dà a servir, fra questi</l>
+<l>Ravolgimenti d'onde, a re, a signore,</l>
+<l>Chè ì turbato l'oceano,</l>
+<l>Quando da vari venti egli è commosso,</l>
+<l>Quanto son quei, che ne le corti sono,</l>
+<l>Da gli uomini maligni, e invdiosi,</l>
+<l>Nemici di virtù, che ben sovente</l>
+<l>I miglior luoghi tengon ne le corti,</l>
+<l>E cercan tutta via ch'altri si affoghi</l>
+<l>Ne l'onde, che mosse ha l'orribil vento</l>
+<l>De l'iniquità loro, a de l'invidia.</l>
+<l>E s'alternar pur sai sí poggia, et orza,</l>
+<l>Sí regger col timon la barca, ch'esca</l>
+<l>Salva de l'onde, e de gli acuti scogli,</l>
+<l>Pur che il ciel, per gastigo de l'errore,</l>
+<l>Che commess'hai, ne 'l porti in servitute,</l>
+<l>Over viver potevi in libertade,</l>
+<l>Voglia, che ne l'entrar, che speri in porto,</l>
+<l>Dapoi che gittato hai l'avere, e gli anni,</l>
+<l>Ti assaglia così cruda, aspra tempesta,</l>
+<l>Che il legno spezzi, et ivi ti sommerga.</l>
+<l>E ciò avenuto è a me, ch'ora credea</l>
+<l>Vedere in tremolar l'onda marina,</l>
+<l>Dopo molte tempeste, e giorni in porto.</l>
+<l>O cure vane, o stolti pensier nostri,</l>
+<l>Possiam ben dir, che si ferman su il vento,</l>
+<l>Tutti i disegni, e le speranze umane,</l>
+<l>E che nulla di certo è fra' mortali,</l>
+<pb n="54"/>
+<l>Se non gli affanni, e gli infortuni gravi.</l>
+<l>Io me ne voglio entrar, per non vedere</l>
+<l>Gli apparecchi, che so, che farà <name>Ottavio</name>,</l>
+<l>Per l'eccidio di tutto questo regno,</l>
+<l>Morta che fia, come morrà, <name>Cleopatra</name>.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SESTA</hi></head>
+<sp><speaker>Proculeio</speaker> 
+<l>Poscia ch'a voi, e a me commesso ha <name>Ottavio</name>,</l>
+<l>Che poniamo ogni ingegno, perché venga</l>
+<l>Viva ne le sue mani <name>Cleopatra</name>,</l>
+<l>Ogni studio debbiam porvi, e ogni cura,</l>
+<l>Perché al fin conduciamo questa impresa.</l>
+<l>Io notato ho con diligenza il luoco,</l>
+<l>Onde ne la piramide superba,</l>
+<l>Che fabricata si ha per suo sepolcro,</l>
+<l>A sé condur fe' <name>Marco Antonio</name> suo,</l>
+<l>Luoco molto riposto, e tengo certo,</l>
+<l>Tenendo quella parte ella sicura,</l>
+<l>E perciò non vi avendo altra custodia,</l>
+<l>Che fatto mi verrà di entrarvi, pure</l>
+<l>Che sì la tratteniate ragionando,</l>
+<l>Che non si avegga de l'inganno. E' volpe</l>
+<l>Questa da prender con nascoso laccio.</l>
+<l>Ché s'ella avesse un'ombra di sospetto</l>
+<l>Incontanente accenderebbe il fuoco</l>
+<l>Nel suo sepolcro, e sé con tutto quello</l>
+<l>Tesoro, che vi è dentro, abbrusciarebbe,</l>
+<l>Et vano uscir faria ciò che tentiamo.</l>
+<l>E se non ha voluto udire <name>Agrippa</name></l>
+<l>Udirà voi; che poi che a estrema sorte</l>
+<l>Altri è condutto e non ha alcun riparo,</l>
+<l>S'appliglia al fine a quel, che gli par meglio.</l>
+<l>Fatele dir, ch'a lei vi manda <name>Ottavio</name>,</l>
+<l>Perché abbiate a compor con lei le cose,</l>
+<l>E sperando da ciò qualche compenso</l>
+<l>Ai danni suoi, non negherà parlarvi.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l>Da me non mancherà, ch'io non adopri</l>
+<l>Tutto il poter, tutto l'ingegno mio,</l>
+<l>Perché meniamo questo fatto al fine.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l>Io me n'andrò co' miei compagni, e spero</l>
+<l part="I">Avere in ciò lieto successo.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l part="F">Andate,</l>
+<l>Io tenterò l'udienza su la porta.</l>
+<l>La veggo su la porta del sepolcro,</l>
+<l>Che parla tutta mesta con <name>Olimpo</name>.</l>
+<l>Io vo' fermarmi, che tanto più tempo</l>
+<l>Fia dato a <name>Proculeio</name> di espedire</l>
+<l>Quanto far dee, per compiacere <name>Ottavio</name>.</l>
+<l>E forse poria aver quindi argomento</l>
+<l>(Udendo ciò di che parlano insieme)</l>
+<pb n="55"/>
+<l>Di poter ragionare anch'io con lei.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SETTIMA
+</hi></head>
+<sp><speaker>Cleopatra</speaker> 
+<l>L'aver veduto <name>Olimpo</name>, che tagliare</l>
+<l><name>Ottavio </name>ad <name>Antilo</name> ha fatto la testa,</l>
+<l>Temere anche mi fa, che non avenga</l>
+<l>Simil fortuna a' miei figliuoli, i quali</l>
+<l>Via più cari mi son, che gli occhi miei,</l>
+<l>E tanto il temo più, quanto mi hai detto,</l>
+<l>Che per parte d'<name>Ottavio</name>, lo ti ha <name>Agrippa
+</name></l>
+<l>Pur dianzi detto, con minaccie gravi.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l>Cosa agevole fia che mi dia udienza,</l>
+<l>Poi che in timore ell'è de' figli suoi.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Onde poi che la sorte mia crudele</l>
+<l>I miei figliuoli ha messi in man di <name>Ottavio</name>,</l>
+<l>E me condutta a tal termine, ch'uopo</l>
+<l>Mi è pregare il nemico, io vo' che vadi</l>
+<l>A ritrovare <name>Ottavio</name>, a nome mio,</l>
+<l>E che gli dica, che quando gli piaccia</l>
+<l>Di lasciare i miei figli in libertade</l>
+<l>Contenta son di rimanermi viva</l>
+<l>E coi figli miei star donna privata.</l>
+<l>Usa qui, <name>Olimpo</name>, il senno, e la prudenza</l>
+<l>E l'eloquenza tua che piegar suole</l>
+<l>Ogni feroce core, e il dur far molle.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Reina, cosa non lascerò a fare,</l>
+<l>Che per lo suo signor, servo far debba.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="I">Ma chi è costui, che di là viene?</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">è Gallo,</l>
+<l part="I">Famigliare di <name>Ottavio</name>.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ir non vo' dentro,</l>
+<l>Ché non voglio esser colta a l'improviso.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Anzi io l'aspetterei, poi ch'egli è solo,</l>
+<l>Et io son qui con voi; potremmo udire</l>
+<l>Cosa, che ci darebbe qualche indizio</l>
+<l>De l'animo di <name>Ottavio</name>. E (s'uopo fia)</l>
+<l>Ritornerete nel sepolcro. Et ivi</l>
+<l>A temer non avrete di nemico.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Di nemico? vi ho sol due cameriere,</l>
+<l>Le più fedeli, e più nobili, ch'io</l>
+<l>Abbia avute unqua in corte. Vagli tosto</l>
+<l>Prima ch'egli qui giunga, <name>Olimpo</name> incontro,</l>
+<l>E se ben ti parrà, ch'egli mi parli,</l>
+<l>Fallo venir; io mi starò qui dentro,</l>
+<l>Et uscirò, quando mi chiamerai.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Venite Signor, forse a la reina?</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l>A lei vengo per dirle alcune cose,</l>
+<l>Che a beneficio suo, mi ha imposto <name>Ottavio</name>.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="I">E che cose son queste?</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l part="F">Sol con lei</l>
+<pb n="56"/>
+<l>Ne ho da parlare. Fate <name>Olimpo</name>, adunque</l>
+<l>Ch'ella mi presti udienza, ché dirolle</l>
+<l>Cosa che la farà restar contenta.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Siate contento d'aspettar, sin ch'io</l>
+<l part="I">Vegga s'udienza ella vuoi darvi.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l part="F">Aspetto.</l>
+<l>Credo che <name>Proculeio</name> abbia le scale</l>
+<l>Al sepolcro già poste, e forse è entrato.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Signor, venite. Ella vi attende a l'uscio,</l>
+<l>Ma non vuole, che più le vi accostiate,</l>
+<l part="I">Ch'or io mi sia.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l part="F">Pur che le parle <name>Olimpo</name>,</l>
+<l>O lontano, o vicin, nulla mi curo,</l>
+<l>Altro non le ho a portar io, se non bene.</l>
+<l>Reina, <name>Ottavio</name> mio signor, salute</l>
+<l part="I">Vi manda.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Ohimé, che ben n'avria bisogno.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l>Non pensa altro, Reina, il signor mio,</l>
+<l>Che darvi segno de la sua clemenza.</l></sp>
+<sp><speaker>Cameriera</speaker> 
+<l>Ohimé Reina, ohimè, che nel sepolcro</l>
+<l>Sono i nemici, e sete presa viva,</l>
+<l>Ecco Reina che gli avete al fianco.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ahi traditori, anche quel non avrete,</l>
+<l>Che vi pensate aver, se questa spada</l>
+<l part="I">Non mi vien men.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">Non fate, ohimé Reina.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>A questo modo <name>Ottavio</name> vuoi mandarmi</l>
+<l part="I">Speme di bene?</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">Ahi traditori, ahi rei,</l>
+<l part="I">Lasciate la reina.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">E che credete</l>
+<l>Di fare, <name>Olimpo</name>? farete gran senno</l>
+<l>A starvi queto, e non cercar la morte.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l>Et moiami, non voglio veder serva</l>
+<l part="I">La mia reina.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">Levate la spada</l>
+<l part="I">A questo insano.</l></sp>
+<sp><speaker>Olimpo</speaker> 
+<l part="F">Ahi traditori, io spero</l>
+<l>Che il ciel farà di ciò giusta vendetta.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ahi traditori, ahi scelerati, ahi cani,</l>
+<l>Cani malvaggi, nati a lacerare</l>
+<l>Con insidie gli afflitti acerbamente.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l>Reina il tutto è fatto per ben vostro.</l>
+<l>Temuto ha il signor nostro, che non fusse</l>
+<l>Più possente in vo' il duol, che la ragione.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="I">Ohimé misera, ohimè.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">Sí che vi deste</l>
+<l>Morte con le man vostre, et a lui tolta</l>
+<l>Fusse l'occasion di dimostrarvi</l>
+<l>La sua benignità, la sua clemenza,</l>
+<l>Mandati n'ha, perché noi vi togliamo</l>
+<l part="I">La via di darvi morte.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">O che pietade,</l>
+<l>Ben può mostrar ciò che sperar io debba.</l></sp>
+<pb n="57"/>
+<sp><speaker>Proculeio</speaker> 
+<l>Ne la bontà del mio signor sperare</l>
+<l>Devete, et io lo vi prometto tale,</l>
+<l>Che non vi dolerà a trovarvi vinta.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Ohimé se tale egli esser deve verso</l>
+<l>Questa infelice, e dolorosa, ohimé</l>
+<l>Prima che mi leviate del mio regno,</l>
+<l>Andate al signor vostro, e lui pregate,</l>
+<l>Che s'appo lui pon nulla i giusti preghi,</l>
+<l>Se vuol, ch'io speri aver da lui clemenza,</l>
+<l>Contento sia tanto di grazia farmi,</l>
+<l>Ch'io gli possa parlar; se questo ottengo</l>
+<l part="I">Sicura io mi terrò.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">Non dubitate</l>
+<l>Di non aver da lui ciò che vorrete.</l>
+<l>Andate, <name>Gallo</name>, et entriam noi Reina,</l>
+<l>E state lieta, e sicura, ché sete</l>
+<l>Non tra nemici, ma tra amici vostri.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Attendi, <name>Olimpo</name>, s'a me viene <name>Ottavio</name></l>
+<l>E se forse verrà; tu ratto vieni</l>
+<l>A farmi motto, ch'io vo' girgli incontro.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA OTTAVA
+</hi></head>
+<sp><speaker>Olimpo.</speaker> 
+<l>Ohimé che dura cosa è restar senza</l>
+<l>Presidio, poi ch'è vinto un re, un signore,</l>
+<l>Quantunque egli si metta in luoco forte!</l>
+<l>Che perduto ch'è il tutto, è di mestiero,</l>
+<l>Ch'o per assedio, o per inganni, al fine</l>
+<l>In man (mal grado suo) venga al nemico,</l>
+<l>Et onde temea men, si trova accolto.</l>
+<l>E ne dà essempio or la reina mia.</l>
+<l>Ma creder vo', che s'ella non chiudea</l>
+<l>Nel sepolcro il tesero, <name>Ottavio</name> meno</l>
+<l>Cercato avria di averla ne le mani.</l>
+<l>Io, che presago fui di ciò, gliel dissi,</l>
+<l>Ma fece come i signor spesso fanno,</l>
+<l>Che vogliono, che il lor voler prevaglia</l>
+<l>A tutti gli altri, e se prendon consiglio,</l>
+<l>Sprezzanlo al fine, et a lor modo fanno,</l>
+<l>E spesso, spesso lor n'aviene male.</l>
+<l>Si avea pensato questa afflitta donna</l>
+<l>(Quanto son frali le sperante nostre)</l>
+<l>Con quel tesor redimer sé, e il regno,</l>
+<l>E quel tesoro ha lei perduto, e il regno.</l>
+<l>Veggo venire <name>Ottavio</name>, io voglio andare</l>
+<l>Perché gli venga la meschina incontro,</l>
+<l>Gli è di bisogno ben, che s'usò mai</l>
+<l>La dolce grazia del parlar, la grazia</l>
+<l>De la sua incomparabile bellezza,</l>
+<l>Ora l'adopre, per indurre <name>Ottavio
+</name></l>
+<l>Ad usarle mercé. Ma temo, temo,</l>
+<pb n="58"/>
+<l>Che benché atta a piegar sia ogni dur core,</l>
+<l>Congiurato abbia sì contra sé il cielo,</l>
+<l>Che vinta si rimanga ogni sua dote.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA NONA</hi></head>
+<sp><speaker>Ottavio</speaker> 
+<l>Vorrebbe ogni raggion, ch'al vincitore</l>
+<l>Venisse <name>Cleopatra</name>. Ma perch' io</l>
+<l>Cerco di assicurla più ch'io posso,</l>
+<l>Poi che chieder mi ha fatto, io voglio andare</l>
+<l>A lei, sol per levarle ogni sospetto.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l>Vedete che si è mossa ella anche, e viene</l>
+<l part="I">Verso voi con la guardia.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Andianle incontro.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Signor, poi che felice sorte ha dato</l>
+<l>A voi tal nome, e a me la rea l'ha tolto,</l>
+<l>Vi salvi sempre il Re dei sommi Dei,</l>
+<l>Né vi dia mai caggion, che da lo stato</l>
+<l>Alto, e soblime, ov'ora sete posto,</l>
+<l>(Mercè de la virtù, del valor vostro)</l>
+<l>Porger debbiate altrui supplice preghi,</l>
+<l>Per ritrovarvi in umile, e demesso,</l>
+<l>Come or son io, di reina ch'era</l>
+<l>Al par di qualunque altra, alta, e possente.</l>
+<l>Ma poi che il mio destin pur era fermo,</l>
+<l>Che di reina, io divenissi ancella,</l>
+<l>Per ritrovarmi in podestade altrui,</l>
+<l>Signor nel mondo non si trova, al quale</l>
+<l>Volessi più, ch'a voi, esser soggetta,</l>
+<l>Ché il nome, che di <name>Cesare</name> tenete,</l>
+<l>Da quel <name>Cesar</name>, che vi ebbe per suo figlio,</l>
+<l>E me già fé reina de l'<name>Egitto</name>,</l>
+<l>Di dever ben sperar mi dà cagione,</l>
+<l>Ché veggendolo espresso tutto in voi,</l>
+<l>(Parlo quanto al valore, a la clemenza,</l>
+<l>E a le altre doti d'imperador degne)</l>
+<l>Sì che veder mi par proprio colui,</l>
+<l>Che da le man del mio crudo fratello</l>
+<l>Mi liberò, e mi diè lo scettro in mano,</l>
+<l>Sperar mi fa, che voi, se non per altro,</l>
+<l>Per la memoria almen del padre vostro,</l>
+<l>Mai non consentirete, che colei,</l>
+<l>Ch'amata fu da lui molto, e onorata,</l>
+<l>Sostenga cosa di reina indegna;</l>
+<l>E mostrar vi vorrete degno figlio</l>
+<l>(Cosa ch' anche fia grata a la sant'ombra</l>
+<l>Di quel divino, e onorato spirto)</l>
+<l>Di quel <name>Cesar</name>, di cui tenete il nome,</l>
+<l>Né il nome, sol, ma la potenza tutta,</l>
+<l>Essendo, come ei fu, signor del mondo.</l>
+<l>Né far vi dee ver me d'altro pensiero</l>
+<pb n="59"/>
+<l>L'avermi vista giunta a <name>Marco Antonio</name>,</l>
+<l>Et aver l'arme prese contra voi,</l>
+<l>Ché ciò non fei Signor, per voler mio,</l>
+<l>Né potei altro io far, donna infelice,</l>
+<l>Timida per natura, e poco esperta,</l>
+<l>Sendomi giunto <name>Marco Antonio</name> adosso</l>
+<l>Con tal potenza, e tal numer di gente,</l>
+<l>Qual'allor contra me condur volea.</l>
+<l>Io non era atta a contrastar con lui,</l>
+<l>Né far poteva di non ubidirlo.</l>
+<l>Anzi mi fu mestier di usare ogni arte,</l>
+<l>Per mitigarlo, e per averlo amico,</l>
+<l>Fatto avendomi a sé chieder per dare</l>
+<l>Contra me, come intesi, aspra sentenza,</l>
+<l>Come contra nemica, e l'aspettava</l>
+<l>Così acerba, Signor, sì dura, ch'io</l>
+<l>Non seppi altro che far (quando le forze</l>
+<l>Mie, né il debil ingegno mio erano atti</l>
+<l>Di contrastar con così gran nemico)</l>
+<l>Che far ciò che potei, per dimostrargli</l>
+<l>Ch'io non gli era nemica. Il che avrei fatto</l>
+<l>Verso voi, s'anche voi fuste venuto</l>
+<l>Come egli all'or, per assalir l'<name>Egitto</name>.</l>
+<l>E tanto lieta più mi serei data</l>
+<l>A voi Signor, quanto (come anche ho detto)</l>
+<l>Il gran nome di <name>Cesare</name>, che sempre</l>
+<l>Nel cor scolpito ho avuto, sol poteva</l>
+<l>Darmi speranza d'infinito bene,</l>
+<l>Non che farmivi sempre esser soggetta.</l>
+<l>Quella necessità che mi constrinse</l>
+<l>A darmi al padre vostro, per venire</l>
+<l>Reina de l'<name>Egitto</name>, mi strinse anche</l>
+<l>A <name>Marco Antonio</name> darmi, per restare</l>
+<l>Nel natio regno mio, ch' avuto avea</l>
+<l>Del padre vostro. E quello a ch'uom s'induce</l>
+<l>Per la dura, e crudel necessitade,</l>
+<l>La quale è sì invincibil che non ponno</l>
+<l>Superarla gli dei, col poter loro,</l>
+<l>Pena non merta, ma non perdono appresso</l>
+<l>D'uomo, qual sete voi, mite, e prudente.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Io vo' conceder, che necessitade</l>
+<l>Vi fesse nel principio cosa fare,</l>
+<l>Che fusse contra la volontà vostra.</l>
+<l>Ma poi ch'occasione vi si offerse</l>
+<l>(Per gli partiti, che vi fé Tireo)</l>
+<l>Di cacciarlo da voi, perche no 'l feste ?</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Quella necessità, che fu cagione,</l>
+<l>Ch'ad ubidir mi dessi a <name>Marco Antonio</name>,</l>
+<l>Anche cagione fu poi, che sua moglie</l>
+<l>Divenissi, e mio fessi il suo volere.</l>
+<l>E, poi che moglie sua divenni, fuori</l>
+<l>Era d'ogn'onesta, fuor d'ogni giusto,</l>
+<l>Ch'io non volessi aver con lui communi</l>
+<l>Le allegrezze, i dolori, il bene, il male.</l>
+<pb n="60"/>
+<l>In me non può, Signor, la fé sì poco,</l>
+<l>Né sì poco l'onesto, e il dever mio,</l>
+<l>Ch'io non voglia più tosto ogni supplizio</l>
+<l>Soffrir, ogni gran pena, o che si sappia</l>
+<l>Ch'a <name>Marco Antonio</name> non mancai di fede,</l>
+<l>Che ch'io sia in gioia, et incolpata sia,</l>
+<l>Che rotta abbia la fede al mio marito,</l>
+<l>La qual mantenerei, se gliele dessi,</l>
+<l>Ad un crudele, e capital nemico,</l>
+<l>E credo, che più tosto voi vorreste</l>
+<l>Tale la moglie vostra, ch'ella fusse</l>
+<l>Qual voleva <name>Tireo</name>, ch'io fussi stata.</l>
+<l>Ma se forse, per questo, vi tenete</l>
+<l>Da me, Signor, offeso, i' non ricuso</l>
+<l>Di non soffrir per ciò da voi la morte,</l>
+<l>Via più contenta di morir, perch'io</l>
+<l>Abbia serbata al mio marito fede,</l>
+<l>Ch'io mi vergogni di trovarmi viva,</l>
+<l>Perché tradito io l'abbia. Ben vi prego</l>
+<l>Caro Signor, per questa vincitrice</l>
+<l>Destra, per quello amor, che <name>Cesar</name> primo,</l>
+<l>Da cu'il nome di <name>Cesar</name> voi tenete,</l>
+<l>Mi portò, mentre visse, che vi piaccia</l>
+<l>(Se forse disporrete, ch'io sia uccisa)</l>
+<l>Morta ch'io sia, di far, che nel sepolcro</l>
+<l>Io sia posta, ove ho posto <name>Marco Antonio</name>,</l>
+<l>Acciò che come l'ombre nostre fieno</l>
+<l>Nel regno di <name>Pluton</name> giunte, così anche</l>
+<l>Un sol sepolcro i corpi nostri chiuda.</l>
+<l>Questo prego, Signor; se questo ottengo</l>
+<l>Da la vostra bontà, non vo' dolermi</l>
+<l>Né di rea sorte, né di mal sofferto.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Che pensieri son questi, che vi vanno</l>
+<l>Per l'anima, Reina? Io più tosto</l>
+<l>Perder potrei tutto l'imperio mio,</l>
+<l>Che volessi io mai, che qui morreste.</l>
+<l>Voglio ch' abbiate assai meglio da noi,</l>
+<l>Di quel, che vi pensate, e che godiate,</l>
+<l>In vita lieta, ancor lieta fortuna,</l>
+<l>Sì che lasciate il ragionar di morte,</l>
+<l>E non vi spiaccia di trovarvi in mano</l>
+<l>Di vincitor, ch'abbia la vita vostra</l>
+<l>Più cara che l'impero. E mi parria,</l>
+<l>(E dico il vero) di non aver vinto,</l>
+<l>Se per ria sorte io vi vedessi morta.</l>
+<l>Però volgete, prego, ad altro il core,</l>
+<l>Ch'a penser di finire i giorni vostri.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Poscia, Signor, che speme tal mi date,</l>
+<l>La vita ch'io sprezzava, ora mi è cara,</l>
+<l>Poscia che cara esser la veggo a voi,</l>
+<l>Sul quale ora riposa ogni mio bene,</l>
+<l>E vi cheggio pardon se mai vi offesi.</l>
+<l>Vi prego ben, per questa cortesia,</l>
+<l>Che singolare ora mi avete usata,</l>
+<pb n="61"/>
+<l>Che con la grazia vostra, io possa fare</l>
+<l>Oggi l'essequie a <name>Marco Antonio</name> mio,</l>
+<l>Acciò ch' avendomi a partir d'<name>Egitto</name>,</l>
+<l>E venirmene a <name>Roma</name>, com'io bramo,</l>
+<l>Per onorare <name>Ottavia</name>, e <name>Livia</name> vostra,</l>
+<l>Finisca verso lui l'ultimo ufficio.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Ne son molto contento.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>Io vi ringrazio.</l>
+<l>E prego il Re del Ciel, che lungamente</l>
+<l>Viviate lieto, con la vostra <name>Livia</name>,</l>
+<l>E nel suo sen chiudiate il giorno estremo.</l>
+<l>Commettete a la guardia, che mi è intorno,</l>
+<l>Che questa opera pia non m'impedisca.</l>
+<l>Ma la mi lasci in libertà essequire,</l>
+<l>Come de' dei la religion vuole,</l>
+<l>Che ci hanno i modi de l'essequie dati</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Io son contento. Lascia, <name>Proculeio</name>,</l>
+<l>(Poi che religione tal qui si serva,</l>
+<l>Che non vo' ch'a gli dei noi si opponiamo)</l>
+<l>Che faccia la reina queste essequie,</l>
+<l>In quella libertà, ch'ella mi chiede.</l>
+<l>Vi prego anch'io, che vi viviate lieta,</l>
+<l>E che poniate in noi tutta la speme.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l>La vi pongo, Signor, ché sarei cieca</l>
+<l>E priva d'intelletto, s'altrimente</l>
+<l>Facessi, e farei torto a questa vostra</l>
+<l>Immensa cortesia, ch'ora mi usate.</l>
+<l>A la qual cortesia raccommando anche</l>
+<l>I miei figliuoli, ancor ch'io tengo certo,</l>
+<l>Che non bisogni, essendovi io sì cara,</l>
+<l part="I">Come veggo che sono.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Gli avrò cari</l>
+<l>Come se fusser miei. A Dio, Reina,</l>
+<l part="I">Vivete lieta.</l></sp>
+<sp><speaker>Cleopatra</speaker> 
+<l part="F">Io non farò altrimente.</l></sp>
+<sp><speaker>CORO</speaker> 
+<l>Alma speranza, che dal ciel venisti</l>
+<l>Per confirmare i cori</l>
+<l>Di chi sorte contraria affligga, e attristi,</l>
+<l>Perch'essi non divengan così tristi,</l>
+<l>Così il duol non gli accorri,</l>
+<l>Che de la vita uscir cerchino fuori.</l>
+<l>Ma gli infortuni umani,</l>
+<l>E tutti i casi strani</l>
+<l>Tengan di lor minori.</l>
+<l>Se quel che poter suoli, anche ora puoi,</l>
+<l>E non ti è il valor scemo,</l>
+<l>Che ti face onorar tanto fra noi,</l>
+<l>Deh non ti sia ora grave</l>
+<l>(In questa sorte, in questo stato estremo,</l>
+<pb n="62"/>
+<l>Onde ciascuno pave)</l>
+<l>Soccorrer la reina,</l>
+<l>E poi ch' Ottavio inclina</l>
+<l>Ad esserle cortese,</l>
+<l>Fa che questa meschina,</l>
+<l>A la qual sorte rea dato ha di morso,</l>
+<l>E fatte tante offese,</l>
+<l>Abbia da te soccorso</l>
+<l>Tal, ch'ella dal dolore, e dai martiri</l>
+<l>Al ben volga la mente,</l>
+<l>E faccia tregua tal con i sospiri,</l>
+<l>Che la clemenza miri</l>
+<l>Del nemico possente,</l>
+<l>E lasci quel pensiero,</l>
+<l>Troppo, ohimé, crudo, e fiero</l>
+<l>Ch'avea di darsi morte.</l>
+<l>Se tu speranza spiri</l>
+<l>Malgrado de la sorte,</l>
+<l>La grazia tua nel travagliato petto,</l>
+<l>Volgerà lo intelletto</l>
+<l>A conservarsi in vita.</l>
+<l>Porgile adunque aita</l>
+<l>Sì, che l'alma smarrita</l>
+<l>Ricovri il suo valore,</l>
+<l>Con lo sperare ancor bene, e diletto.</l>
+<l>Così sempre ti onore</l>
+<l>Il mondo tutto, e diati altari, e tempi</l>
+<l>E mirre ti arda, e incensi a tutti i tempi.</l></sp>
+</div2>
+</div1>
+<div1 type="atto"><head><hi rend="sc">ATTO QUINTO</hi></head>
+<div2 type="scena"><head><hi rend="sc">SCENA PRIMA</hi></head>
+<sp><speaker>Olimpo</speaker> 
+<l>Esser costume suol de gli infelici,</l>
+<l>Non creder facilmente, né allegrarsi,</l>
+<l>Per bene, che sia lor da altrui promesso,</l>
+<l>Ma sogliono mai sempre in tal paura</l>
+<l>Restarsi, e in tal sospetto, che, se il bene</l>
+<l>Lor forse vien palese inanzi agli occhi,</l>
+<l>A pena creder pon che bene sia.</l>
+<l>E temendo, che sotto tal mantello</l>
+<l>Non si celi assai peggio di quel, ch'hanno,</l>
+<l>Non ardiscon pigliarlo. E se ciò aviene</l>
+<l>Ne gli uomini sovente, maggiormente</l>
+<l>Nel sesso feminil ciò avenir suole,</l>
+<l>Cui pon timor la sicurezza istessa.</l>
+<l>E nondimeno or la reina mia,</l>
+<pb n="63"/>
+<l>Di cui non fu giamai la più infelice,</l>
+<l>Che si avea scelto, per uscir di pene,</l>
+<l>Per sottrarsi a disnor, darsi la morte,</l>
+<l>A quattro parolette, che le ha dette</l>
+<l><name>Ottavio</name>, con le quali egli le ha data</l>
+<l>Non so che speme, si ha lasciata in guisa</l>
+<l>Tor dal primo pensier, che par ch'ella abbia</l>
+<l>Ricovrato l'impero, e i figli, speri</l>
+<l>Più bene assai, che non temeva male.</l>
+<l>Ma, se condur si lascia a <name>Ottavio</name> a <name>Roma</name>,</l>
+<l>Vedrà, vedrà la misera, che quello,</l>
+<l>Ch'ha di grave sofferto, è stato nulla,</l>
+<l>Appresso quella angoscia, ch'avrà, quando</l>
+<l>Legata fia condutta al <name>Campidoglio</name>,</l>
+<l>Come la vi veggo io sin or condutta.</l>
+<l>A me ne crepa il cor, ma inacerbire</l>
+<l>Non le vo' il petto, col mostrarle quello,</l>
+<l>Ch'avere inanzi a gli occhi ella dovria.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="">SCENA SECONDA</hi></head>
+<sp><speaker>Cleopatra.</speaker> 
+<l>Dunque tu pensi <name>Ottavio</name> ch'io sia priva</l>
+<l>D'ingegno sì, sì di me stessa fuori,</l>
+<l>Ch'io non abbia compreso, a che fin brami</l>
+<l>Ch'io resti viva, e ch'io non vegga chiaro,</l>
+<l>Che le promesse tue, le tue lusinghe</l>
+<l>Son tanti lacci, che mi metti intorno,</l>
+<l>Per menarmi legata al <name>Campidoglio</name>?</l>
+<l>Non mi appannano il lume de la mente</l>
+<l>Queste tue finte, e simulate offerte,</l>
+<l>Che veggo quel, che tu non vuoi mostrarmi.</l>
+<l>Troppo <name>Ottavio</name> si aguzza a quelli il lume,</l>
+<l>Che ne l'abisso son de le miserie.</l>
+<l>Tu vuoi ch'io viva, e cara hai la mia vita,</l>
+<l>E ti parrebbe di non aver vinto,</l>
+<l>Se viva non mi avessi in tua podestà,</l>
+<l>Et io te 'l credo. Non perché tu brami</l>
+<l>(Come hai cercato di persuadermi)</l>
+<l>Di darmi segno de la tua clemenza,</l>
+<l>Ma per menarmi al tuo trionfo a <name>Roma</name>,</l>
+<l>Serva coi lacci, e le catene intorno.</l>
+<l>Credi tu <name>Ottavio</name>, che il tuo viso mostro</l>
+<l>Non mi abbia quel, che tu nel cor chiuso hai?</l>
+<l>Il disio ch'hai, ch'io onori il tuo trionfo,</l>
+<l>E il mal animo tuo non ha patito,</l>
+<l>Non ha patito la tua mente, volta</l>
+<l>Tutta al mio scorno estremo, che mi guardi</l>
+<l>Sol una volta pur, con gli occhi fissi,</l>
+<l>Tenendogli mai sempre a terra vòlti.</l>
+<l>Non hai saputo <name>Ottavio</name> usar gli inganni,</l>
+<l>Che scorti gli ho, contra tua voglia, tutti.</l>
+<pb n="64"/>
+<l>Ma se saputo non hai tu ingannare</l>
+<l>Una donna, che, per destin crudele,</l>
+<l>Era ne le man tue, come legata,</l>
+<l>Vedrai tu, ch'una donna avrà saputo</l>
+<l>(Per torsi a scorno et ad opprobrio grave)</l>
+<l>Ingannar te, mostrando di volere</l>
+<l>Seguirti a <name>Roma</name>, e fare il voler tuo.</l>
+<l>Tu creder hai potuto, che sia uscita</l>
+<l>Sì di sé <name>Cleopatra</name>, sì d'altiera,</l>
+<l>Ch'ella fu sempre, sia venuta vile,</l>
+<l>E lo stato reale, in ch'ella è vissa,</l>
+<l>Abbia sì in oblio posto, ch'ella a Roma</l>
+<l>Debba serva venire in forza altrui?</l>
+<l>Tu mal penetrato hai l'animo mio.</l>
+<l>Bramava io bene di venire a <name>Roma</name>,</l>
+<l>Se <name>Marco Antonio</name> mio restava vivo,</l>
+<l>E vincitor, per far di te, di <name>Ottavia</name>,</l>
+<l>E de la <name>Livia</name> tua quel, che far pensi</l>
+<l>Or tu di <name>Cleopatra</name>. Ma <name>Roma</name> ora</l>
+<l>(Poscia ch'ho al desir mio contrari i fati)</l>
+<l>Non è più per vederla, se tu forse</l>
+<l>Non la vi meni morta. Ché finire</l>
+<l>Sotto il cielo ov'io nacqui, or vo' la vita.</l>
+<l>Morir già <name>Sofonisba</name> in libertade</l>
+<l>Volle più tosto, ch'esser serva, e viva.</l>
+<l>E così anch'io vo' col suo essempio fare.</l>
+<l>Se saputo non ho, con le mie forze</l>
+<l>Difendermi da te, mentre io poteva,</l>
+<l>Se per la mia fragilità vedere</l>
+<l>Non ho saputo quel, che bisognava,</l>
+<l>Che veduto io avessi al maggior uopo,</l>
+<l>Vedrai, ch'essendo giunta, ov'ora sono,</l>
+<l>Cieca non sono stata. E che s'hai vinto</l>
+<l>L'<name>Egitto</name>, non hai vinta <name>Cleopatra</name>.</l>
+<l>Meglio saprò morir, ch'io non son vissa,</l>
+<l>E meglio procurar la libertade</l>
+<l>Saprò con la mia morte, che saputo</l>
+<l>Non mi ho procurar ben con la mia vita.</l>
+<l>Se le delizie mie non mi lasciaro</l>
+<l>Apparar l'arte del ben viver, ora</l>
+<l>Gli affanni insegnato hammi quel, ch'io debbo</l>
+<l>Far per morir reina, entro al mio regno.</l>
+<l>Libera veggo pur (malgrado tuo)</l>
+<l>Ovunque io mi volgo, questo cielo,</l>
+<l>Sotto cui nacque, e vissi, e fui reina,</l>
+<l>Et anche questo ciel <name>Cleopatra</name> vede</l>
+<l>Non coi legami, e le catene intorno,</l>
+<l>Ma in abito real. Questo cielo anche</l>
+<l>Coglierà l'alma mia libera, e sciolta.</l>
+<l>Bene con tutto il cor prego, e riprego</l>
+<l>Le deità d'<name>Egitto</name> (se non sono</l>
+<l>Rimase vinte con il regno mio)</l>
+<l>Ch'oprino tanto, che il mio corpo unito</l>
+<l>Sia a quel di <name>Marco Antonio</name>, e nel lor seno</l>
+<pb n="65"/>
+<l>(Fatte ch'avro l'essequie al mio marito,</l>
+<l>Al mio marito, anzi a la vita mia,</l>
+<l>Ch'or far gli voglio in abito reale)</l>
+<l>Accolgano il mio spirto ultimo in pace.</l>
+<l>A Dio cara mia patria, a Dio, ti lascio</l>
+<l>Populo mio, ti lascio cara sorte,</l>
+<l>In cui mi vissi già tanto felice.</l>
+<l>Pregate tutti a la reina vostra,</l>
+<l>Quant'esser puote più, morte tranquilla,</l>
+<l>Pregate, che i miei figli, che signori</l>
+<l>Esser devean di questo eccelso regno,</l>
+<l>Et ora ne le man sono di <name>Ottavio</name>,</l>
+<l>Facciano miglior fin, ch'or non faccio io.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA TERZA</hi></head>
+<sp><speaker>Gallo</speaker> 
+<l>Dubitar fatto ha <name>Agrippa</name> al mio signore</l>
+<l>Che più, ch'uopo non era, abbia allargata</l>
+<l>La mano a <name>Cleopatra</name>, in aver dato</l>
+<l>A lei licenza, ch'ella possa fare</l>
+<l>In libertà l'essequie a <name>Marco Antonio</name>,</l>
+<l>E per questo or mi manda a <name>Proculeio</name>,</l>
+<l>Perché gli dica, che col dimostrare</l>
+<l>Di darle libertà, le tenga guardia</l>
+<l>Tal, ch'ella di se stessa non disponga</l>
+<l>Come le piace, et altro non avenga,</l>
+<l>Che il far l'essequie al suo morto marito.</l>
+<l>Ma dubito, che tardi egli ha veduto</l>
+<l>Quel, che veder devea sin da principio.</l>
+<l>Veggo uno, ch'esce fuor da <name>Cleopatra</name>,</l>
+<l>Io voglio andar per altra via, perch'egli</l>
+<l>Non mi trattenga a ragionar con lui,</l>
+<l>E mi faccia tardar l'officio mio.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUARTA</hi></head>
+<sp><speaker>Famigliar di Cleopatra</speaker> 
+<l>Si suol dir, che non può l'uomo sapere</l>
+<l>S'egli è felice, od infelice mentre</l>
+<l>Egli vivo è, né se la vita sua</l>
+<l>Sia buona, o rea, perché l'ultimo giorno,</l>
+<l>E' quel, ch'a l'uomo da biasimo, o loda,</l>
+<l>Ma veggo io, ancor che viva <name>Cleopatra</name>,</l>
+<l>Che infelice è via più d'ogn'altra, e trista,</l>
+<l>Perché lo stato, in ch'ella si ritrova,</l>
+<l>Non le promette più, se non dolore,</l>
+<l>E danno grave, e vituperio, e scorno.</l>
+<l>Non so pensar, dà qual animo tocca</l>
+<l>In tanta afflizione, in tanta angoscia,</l>
+<pb n="66"/>
+<l>Come fuori di sé, presa la veste</l>
+<l>Abbia, ch'ell'ebbe il dì, che prese il regno,</l>
+<l>E con lo scettro, e la corona in testa,</l>
+<l>(Come essere devesse anco reina)</l>
+<l>Data si sia all'essequie del marito.</l>
+<l>Ma mi credo io, che ciò avenuto sia,</l>
+<l>Perch'ella non si pensa di cor torre</l>
+<l>D'esser stata reina. Quanto bene</l>
+<l>Sarebbe, che quando da sommo grado</l>
+<l>Cade un signor ad imo, così ancora</l>
+<l>La Fortuna gli desse un cor umile,</l>
+<l>Convenevole al grado, in ch'ella il pone.</l>
+<l>Ma par che questa fiera, non contenta</l>
+<l>Di averlo messo in bene infimo grado,</l>
+<l>Non solo non gli tolga il cor reale,</l>
+<l>Ma di più alto desir l'empia la mente,</l>
+<l>Perché il ricordo d'esser stato tale,</l>
+<l>(Seco dicendo al fin, che son? che fui?)</l>
+<l>Doppia doglia abbia, e se ne dolga a doppio,</l>
+<l>Il che sarà de la reina mia.</l>
+<l>Manda ella per me a <name>Ottavio</name> queste lettre,</l>
+<l>Credo per mantenerlosi più amico.</l>
+<l>Ma so, che sarà van ciò, ch'ella tenta.</l>
+<l>Potrà da <name>Ottavio</name> aver buone parole,</l>
+<l>Ma proverà contrari al detto i fatti.</l>
+<l>Nondimen prego, che le avenga meglio</l>
+<l>Di quel, ch'io temo, ch'avenir la debba.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA QUINTA</hi></head>
+<sp><speaker>Gallo</speaker> 
+<l>Credo che sia sovra ogni stima grave</l>
+<l>Miseria, e sommo affanno il ritrovarsi</l>
+<l>In stato tale a un re, ch'ove soleva</l>
+<l>Avere intorno servitori, e paggi,</l>
+<l>E genti illustri, e sudditi fedeli,</l>
+<l>Si vegga circondato da coloro,</l>
+<l>Che il regno tolto gli han, l'han fatto servo.</l>
+<l>Mi è proprio parso entrare in un'orrore,</l>
+<l>Entrando nel palagio, e ne la corte</l>
+<l>Di <name>Cleopatra</name>, non vi veggendo altri</l>
+<l>Che gente armata, e capitan Romani,</l>
+<l>I quali ha tutti vòlti <name>Proculeio</name></l>
+<l>Là, ov'or si ritrova <name>Cleopatra</name>,</l>
+<l>Perché a l'uscir che farà de la stanza,</l>
+<l>Ove si trova or, con due cameriere</l>
+<l>L'abbia in podestà, e mover più non possa</l>
+<l>(Se non secondo ch'egli vorrà) il piede.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>E tu non sai se <name>Cleopatra</name>sia</l> 
+<l part="I">Morta?</l></sp>
+<sp><speaker>Famigliar di Cleopatra</speaker> 
+<l part="F">Signor, quando mi diè le lettre,</l>
+<l>Mostrommi aver pensier d'ogni altra cosa</l>
+<pb n="67"/>
+<l>(Tanto mi si scoperse in viso lieta)</l>
+<l>Che di morire. E creder io no 'l posso,</l>
+<l part="I">Bench'ella scritto l'abbia.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Veggo <name>Gallo</name></l>
+<l>Che di là viene. Egli mi saprà dire</l>
+<l>La verità. Questi da <name>Cleopatra</name></l>
+<l>Portate lettre mi ha, per le quali ella</l>
+<l>Mi avisa, che si vuol la morte dare,</l>
+<l>E che, giunto non fia l'apportatore</l>
+<l>De le lettre, che manda, ch'ella uscita</l>
+<l>Sarà di vita. E che per ciò mi prega,</l>
+<l>Che sepelir la faccia, nel sepolcro,</l>
+<l>Ove dianzi sepolto ha <name>Marco Antonio</name>.</l>
+<l>Udita n'hai tu forse cosa alcuna,</l>
+<l>Da Proculeio, o d'altri ne la corte?</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l>Nulla, Signor, anzi m'ha detto, ch'ella</l>
+<l>Facea l'ossequie a <name>Marco Antonio</name> lieta,</l>
+<l>Per venir poi con voi contenta a <name>Roma</name>,</l>
+<l>E che, per quanto gli parea, mestiero</l>
+<l>Non vi era di più guardia. Ma dapoi</l>
+<l>Ch'a voi così piacea, gliele porria.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Va' ratto, e intendi a pien tutta la cosa.</l></sp>
+<sp><speaker>Gallo</speaker> 
+<l part="I">Io vado.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Veggo ch'esce Proculeio</l>
+<l>Con un de' sacerdoti de la corte,</l>
+<l>Essi ce ne daran certa novella.</l></sp>
+</div2>
+<div2 type="scena"><head><hi rend="sc">SCENA SESTA</hi></head>
+<sp><speaker>Ottavio</speaker> 
+<l part="I">è forse morta <name>Cleopatra</name>?</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">è morta.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="I">E come?</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l part="F">Io no 'l so dir. Quando mandaste</l>
+<l>Gallo a dir ch'io tenessi maggior cura</l>
+<l>Di lei, che voi non mi avevate imposto,</l>
+<l>Io me n' andai veloce a quella stanza,</l>
+<l>Ove con due donzelle era ridutta,</l>
+<l>Dicendomi, ch'ivi entro volea fare</l>
+<l>L'ultima parte de l'essequie, e insieme</l>
+<l>Come soglion gli Egizi, il sacrificio,</l>
+<l>A le sante ombre del marito suo.</l>
+<l>E questo sacerdote inanzi a l'uscio</l>
+<l>Ne l'abito, ch'or è, lasciato avea,</l>
+<l>Col torchio acceso, e con l'incenso in mano.</l>
+<l>Ma, giunto a quella stanza, ne l'entrare</l>
+<l>Vidi una de le donne sue, che morta</l>
+<l>Le stava a piè del letto, e vidi l'altra</l>
+<l>Che a la reina, che corcata in letto</l>
+<l>Era su un panno d'oro, la corona</l>
+<l>In capo le addattava, e le poneva</l>
+<l>Il suo scettro real ne la man destra.</l>
+<pb n="68"/>
+<l>E le dissi: Così dunque si face?</l>
+<l>Così si fa, - rispose ella - a fuggire</l>
+<l>Servitù, e scorno grave, e immantinente</l>
+<l>Morta cadette. Io tosto al letto andai,</l>
+<l>Et a scuoter mi diedi <name>Cleopatra</name>,</l>
+<l>Et a chiamarla ad alta voce, e nulla</l>
+<l>Sentendo, e rispondendo nulla, vidi</l>
+<l>Ch'ella era morta, e tardi m'avevate</l>
+<l>Mandato ad avertir, ch'io le togliessi</l>
+<l>La libertà, che l'avevate data.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Vero è quel, che si dice, che la donna</l>
+<l>E' de le finzioni il proprio nido,</l>
+<l>E il nido de gli inganni. Chi avria mai</l>
+<l>Al viso lieto, a le promesse, agli atti</l>
+<l>Pensato, che costei chiudesse in core</l>
+<l>Disio di morte? E come si è ella uccisa?</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l>No 'l so, Signore, ella non avea ferro</l>
+<l>(Però che ricercar la volsi tutta)</l>
+<l>Né avea instrumento alcun, che si vedesse,</l>
+<l>Con cui la morte si potesse dare.</l>
+<l>Né ve n'aveano alcun le cameriere,</l>
+<l>Né questi, che le fu compagno sempre</l>
+<l>Mentre ella fé l'essequie a <name>Marco Antonio</name>,</l>
+<l>Ché in questo usato avea gran diligenza,</l>
+<l>Quantunque non avessi alcun sospetto,</l>
+<l>Veggendola lietissima essequire</l>
+<l>Quel che concesso le avevate voi.</l>
+<l>E nondimen, con quanto studio ho usato,</l>
+<l>(Come dett'ho) l'ho ritrovata morta.</l>
+<l>E quindi ho chiaramente conosciuto,</l>
+<l>Che la via di morir non è mai chiusa</l>
+<l>A chi brama la morte. E pur volendo</l>
+<l>Saper di ciò quel più, che si poteva,</l>
+<l>Io venia dimandando al sacerdote</l>
+<l part="I">Come si avesse uccisa.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l part="F">Poscia ch'eri</l>
+<l>Ne l'essequie con lei, et a la porta</l>
+<l>De la stanza ti stavi, ove ora è morta,</l>
+<l part="I">Dimmi tutto il successo.</l></sp>
+<sp><speaker>Sacerdote</speaker> 
+<l part="F">La reina</l>
+<l>Tosto ch'ella impetrò da voi licenza</l>
+<l>Di poter far l'essequie al suo marito,</l>
+<l>Se n'entrò in corte, e si vestì la veste,</l>
+<l>Ch'ella ora ha in dosso, la quale era quella,</l>
+<l>Ch'ebbe quel dì, che fu fatta reina.</l>
+<l>E la corona poi si pose in capo,</l>
+<l>E in man tolse lo scettro, e andò al sepolcro</l>
+<l>In cui di <name>Marco Antonio</name> è chiuso il corpo.</l>
+<l>E gittatasi sopra quello avello,</l>
+<l>Versando un mar di lagrime dagli occhi,</l>
+<l>Cominciò a dir, con dolorosa voce:</l>
+<l>Caro marito mio, quanto mi è stato</l>
+<l>Questo poco di tempo ch'io son vissa,</l>
+<l>Senza te, duro! S'allor fussi morta,</l>
+<pb n="69"/>
+<l>Che tu di vita uscisti, i' era felice,</l>
+<l>Ma il reo destin, che non volea ch'avessi</l>
+<l>Ne la miseria mia nulla di lieto,</l>
+<l>Mi ti fé soprastar, perch'io venissi</l>
+<l>Serva al nemico tuo, perch'io vedessi</l>
+<l>Ch'al tuo cader io caddi, e cadde il regno.</l>
+<l>Ma poi ch'il ciel così ha disposto, ho grazia</l>
+<l>Agli dei de l'<name>Egitto</name>, che mi han dato</l>
+<l>D'ingannar sì il commun nostro nemico,</l>
+<l>Che potute ho, col mio pianto bagnare</l>
+<l>Il tuo sepolcro, e con libera voce</l>
+<l>Chiamare in libertà quel dolce nome,</l>
+<l>Ch'io mi trovo nel cor vivo scolpito.</l>
+<l>Poi dopo questo, (lagrimando insieme</l>
+<l>Le cameriere, et io per la pietade</l>
+<l>Ch' avevamo di lei) con grido orrendo,</l>
+<l>O <name>Marco Antonio</name> - disse - o <name>Marco Antonio</name>,</l>
+<l>Perché, come il sepolcro tuo di pianto</l>
+<l>Bagno, misera me, così non posso</l>
+<l>Spirar ne le tue braccia il fiato estremo?</l>
+<l>E questo detto, si lasciò cadere,</l>
+<l>Come se fusse morta, su il sepolcro,</l>
+<l>E senza dir parola, alquanto stette</l>
+<l>In quella guisa. Poi risorta alquanto,</l>
+<l>Disse : Se mi ama lo spirto tuo sciolto</l>
+<l>Dal corpo, come egli mi amava, quando</l>
+<l>Congiunto vi era, so che egli qui intorno</l>
+<l>Or vola, e ascolta i miei gravi lamenti,</l>
+<l>Et attende, che il mio si giunga a lui.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Mi commovono certo insino a l'alma</l>
+<l part="I">Queste parole.</l></sp>
+<sp><speaker>Sacerdote</speaker> 
+<l part="F">Se le aveste udite</l>
+<l>Com'io le udì, Signor, avreste pianto</l>
+<l>Con esso lei, come ben vi piansi io,</l>
+<l>Non senza gran cagion. Poscia seguitte:</l>
+<l>Però caro marito, per unirmi</l>
+<l>Morta a te, come unita io ti fui viva,</l>
+<l>Io voglio anch'io da questo fragil velo</l>
+<l>Scior l'alma mia, laqual quantunque afflitta</l>
+<l>Gioisce, poi che sente, che venire</l>
+<l>Ella de' ov'è la tua; così al ciel piaccia</l>
+<l>Ch'abbian potuto tanto i preghi miei,</l>
+<l>Appresso a <name>Ottavio</name>, che contento ei sia,</l>
+<l>Che siano i corpi nostri anche congiunti</l>
+<l>In un sepolcro. E poscia, questo detto,</l>
+<l>Si levò dal sepolcro, e andò a la stanza</l>
+<l>Con le donzelle sue, dicendo, ch'era</l>
+<l>Lassa fuori di modo, e che volea</l>
+<l>Prendere alquanto di riposo. E volse</l>
+<l>Ch'io me ne stessi a l'uscio, commettendo,</l>
+<l>Che se non mi chiamava, non avessi</l>
+<l>Ardir di movermi indi; or giunta al letto,</l>
+<l>Lo baciò in ogni parte; e coricossi</l>
+<l>Sopra esso. E raddoppiando il grave pianto,</l>
+<pb n="70"/>
+<l>Disse: Ahi quanto mutata abbiam fortuna</l>
+<l>Tu et io. Io già in te giacqui, non com'ora</l>
+<l>Trista, e dolente, e in altrui man, ma lieta</l>
+<l>à par di quante mai fur liete in terra,</l>
+<l>Reina de l'<name>Egitto</name>; e tu a me fosti</l>
+<l>Dolce riposo, mentre piacque al cielo,</l>
+<l>Or sei dei dolor miei strano ricetto,</l>
+<l>Che come viva già in te giacqui, giunta</l>
+<l>Al mio marito, ora dolente, e sola</l>
+<l>Morta in te giacerò. Ma mi contento</l>
+<l>(Poi che i fati crudeli han ciò disposto)</l>
+<l>Di finir sovra te i miei tristi giorni,</l>
+<l>Poi che finir non gli ho potuti a canto</l>
+<l>Al mio caro signor: de le mie gioie</l>
+<l>Tu fusti testimon, tu anche serai</l>
+<l>Testimon de le mie crudeli angoscie.</l>
+<l>E questo detto, lagrimosa volta</l>
+<l>A le donzelle sue, si fé portare</l>
+<l>Un vasello d'argento. E da la tempia</l>
+<l>Destra si trasse un canoncino d'oro,</l>
+<l>Intorno al quale ella avolgea i capelli,</l>
+<l>E pose 'l dentro al vaso, e a un tempo istesso</l>
+<l>Sul vaso pose il braccio in tutto nudo,</l>
+<l>E tratto il canoncin, toccò la carne,</l>
+<l>E quasi lieta disse: Ecco che viene</l>
+<l>O <name>Marco Antonio</name>, a te la tua <name>Cleopatra</name>,</l>
+<l>Per non si dipartir più da te mai.</l>
+<l>Accolla lieto, come la solevi</l>
+<l>Accor, quando eri seco in questa vita,</l>
+<l>Ch'ella per esser teco, ora abbandona.</l>
+<l>Poi come da soave sonno oppressa,</l>
+<l>Senza più dir parola, o tragger fiato,</l>
+<l>Si rimase sul letto, com'or morta,</l>
+<l>E morte anche con lei le due donzelle,</l>
+<l>Usando il modo, ch'ella aveva usato.</l>
+<l>Questo ho veduto, e udito, e tanto dire</l>
+<l>So del fin reo de la reina nostra.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Ismisurato amore, è stato quello</l>
+<l>Di ambidue questi; anco ch'aspri nemici</l>
+<l>Mi siano stati, e siami grave tanto</l>
+<l>La morte di costei, quanto altra cosa,</l>
+<l>Ch'io potessi aver grave, io non vo' mai</l>
+<l>Discior que' corpi, le anime dei quali</l>
+<l>Congiunte avea così perfetto amore.</l>
+<l>Onde poi che mi ha chiesto, per le lettre</l>
+<l>Che mi ha dianzi mandate <name>Cleopatra</name>,</l>
+<l>Che nel sepolcro, ov'ora è <name>Marco Antonio</name>,</l>
+<l>La faccia sepelire. Io vo' che cura</l>
+<l>Proculeio ti pigli tu di questo,</l>
+<l>E che con quell'onor, con quella pompa,</l>
+<l>Che si conviene ad una tal reina,</l>
+<l>La facci sepelir con <name>Marco Antonio</name>.</l></sp>
+<sp><speaker>Proculeio</speaker> 
+<l>Io farò Signor, quel che m'imponete.</l></sp>
+<sp><speaker>Sacerdote</speaker> 
+<l>Ben segno date d'animo Romano,</l>
+<pb n="71"/>
+<l>Poi ch' anche de l'onor dei gran nemici,</l>
+<l>Dopo la morte loro, avete cura.</l>
+<l>Io prego il ciel, che guiderdon vi dia</l>
+<l>Degno di sì cortese, e nobile atto.</l></sp>
+<sp><speaker>Ottavio</speaker> 
+<l>Spedito ch'avrai questo, <name>Proculeio</name>,</l>
+<l>A l'armata verrai con la tua gente,</l>
+<l>Perché ordinato ch'averemo quanto</l>
+<l>Bisognerà in <name>Egitto</name>, ce n'andiamo</l>
+<l>Finito il travagliare, insieme a <name>Roma</name>.</l></sp>
+<sp><speaker>CORO</speaker> 
+<l>Quanto miseri, ohimé, sono coloro,</l>
+<l>Che perché hanno felice</l>
+<l>La fallace Fortuna a' desir loro,</l>
+<l>Mai provarla non temono infelice,</l>
+<l>E ne' piaceri stan fra gemme, et oro.</l>
+<l>Ché questa ingannatrice</l>
+<l>Tant'è da temer più, quanto più lieta,</l>
+<l>Si mostra, e più quieta.</l>
+<l>Però ch'ella si turba in un momento,</l>
+<l>E di pia, e mansueta,</l>
+<l>Come aspra predatrice,</l>
+<l>Fiera diviene, et empie di tormento</l>
+<l>Chi parea più contento,</l>
+<l>E mostra chiaro, che a lei sola lice</l>
+<l>Le gioie altrui far vane,</l>
+<l>Et abbassar tutte le altezze umane.</l></sp>
+<epigraph><p><hi rend="sc">IL FINE</hi></p></epigraph>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,2571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Saul</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>109 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000716</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Don Garzia ; Saul ; Agide ; Sofonisba ; Bruto primo ; Mirra ; Bruto secondo</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814.</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-10-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marco Fucini e Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2003-10-20T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>AL NOBIL UOMO IL SIGNOR ABATE TOMMASO VALPERGA DI CALUSO</salute></opener>
+<p>Da che la morte mi ha privato dell´incomparabile Francesco Gori a voi ben noto, non mi rimane altro amico del cuore, che voi. Quindi non mi parrebbe avere, per quanto io 'l possa, perfettamente compita questa mia tragedia, di cui forse a torto io singolarmente mi vo compiacendo, se ella in fronte non portasse l´amatissimo vostro nome. La dedico dunque a voi; e tanto più volentieri e di cuore, che voi, dotto in molte altre scienze, da tutti siete conosciuto dottissimo nelle sacre carte, delle quali, per la profonda vostra intelligenza della lingua ebraica, bevete al fonte.</p>
+<p>Il Saulle perciò, più che ogni altra mia tragedia, si aspetta a voi. Che di buon grado siate per accettarlo, mercé l´amicizia nostra, non dubito: che degno di voi lo stimiate, ardentemente desidero.</p>
+<closer>
+<dateline>Trento, 27 Ottobre 1784.</dateline>
+<signed>VITTORIO ALFIERI</signed>
+</closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+<castItem><role>SAUL</role></castItem>
+<castItem><role>GIONATA</role></castItem>
+<castItem><role>MICOL</role></castItem>
+<castItem><role>DAVID</role></castItem>
+<castItem><role>ABNER</role></castItem>
+<castItem><role>ACHIMELECH</role></castItem>
+<castItem><role>Soldati israeliti</role></castItem>
+<castItem><role>Soldati filistei</role></castItem>
+</castList>
+<set><p><emph>Scena, il campo degli Israeliti, in Gelboè</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>DAVID</stage>
+<sp><speaker><emph>David</emph></speaker>
+<l>Qui freno al corso, a cui tua man mi ha spinto,</l>
+<l>onnipossente Iddio, tu vuoi ch´io ponga?</l>
+<l>Io qui starò. — Di Gelboè son questi</l>
+<l>i monti, or campo ad Israèl, che a fronte</l>
+<l>sta dell´empia Filiste. Ah! potessi oggi</l>
+<l>morte aver qui dall´inimico brando!</l>
+<l>Ma, da Saùl deggio aspettarla. Ahi crudo</l>
+<l>sconoscente Saùl! che il campion tuo</l>
+<l>vai perseguendo per caverne e balze,</l>
+<l>senza mai dargli tregua. E David pure</l>
+<l>era già un dì il tuo scudo; in me riposto</l>
+<l>ogni fidanza avevi; ad onor sommo</l>
+<l>tu m´innalzavi; alla tua figlia scelto</l>
+<l>io da te sposo... Ma, ben cento e cento</l>
+<l>nemiche teste, per maligna dote,</l>
+<l>tu mi chiedevi: e doppia messe appunto</l>
+<l>io ten recava... Ma Saùl, ben veggio,</l>
+<l>non è in se stesso, or da gran tempo: in preda</l>
+<l>Iddio lo lascia a un empio spirto: oh cielo!</l>
+<l>miseri noi! che siam, se Iddio ci lascia? —</l>
+<l>Notte, su, tosto, all´almo sole il campo</l>
+<l>cedi; ch´ei sorger testimon debb´oggi</l>
+<l>di generosa impresa. Andrai famoso</l>
+<l>tu, Gelboè, fra le più tarde etadi,</l>
+<l>che diran: David qui se stesso dava</l>
+<l>al fier Saulle. — Esci, Israèl, dai queti</l>
+<l>tuoi padiglioni; escine, o re: v´invito</l>
+<l>oggi a veder, s´io di campal giornata</l>
+<l>so l´arti ancora. Esci, Filiste iniqua;</l>
+<l>esci, e vedrai, se ancor mio brando uccida.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>GIONATA, DAVID</stage>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l>Oh! qual voce mi suona? odo una voce,</l>
+<l part="I">cui del mio cor nota è la via.</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l part="F">Chi viene?...</l>
+<l>Deh, raggiornasse! Io non vorria mostrarmi,</l>
+<l part="I">qual fuggitivo...</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l part="F">Olà. Chi sei? che fai</l>
+<l>dintorno al regio padiglion? favella.</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l>Gionata parmi... Ardir. — Figlio di guerra,</l>
+<l>viva Israèl, son io. Me ben conosce</l>
+<l part="I">il Filisteo.</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l part="F">Che ascolto? Ah! David solo</l>
+<l part="I">così risponder può.</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l part="M">Gionata...</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l part="I">David,... fratello...</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l part="M">Oh gioia!... A te...</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l part="F">Fia vero?...</l>
+<l>tu in Gelboè? Del padre mio non temi?</l>
+<l part="I">Io per te tremo; oimè!...</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l part="F">Che vuoi? La morte</l>
+<l>in battaglia, da presso, mille volte</l>
+<l>vidi, e affrontai: davanti all´ira ingiusta</l>
+<l>del tuo padre gran tempo fuggii poscia:</l>
+<l>ma il temer solo è morte vera al prode.</l>
+<l>Or, più non temo io, no: sta in gran periglio</l>
+<l>col suo popolo il re: fia David quegli,</l>
+<l>che in securtade stia frattanto in selve?</l>
+<l>Ch´io prenda cura del mio viver, mentre</l>
+<l>sopra voi sta degli infedeli il brando?</l>
+<l>A morir vengo; ma fra l´armi, in campo,</l>
+<l>per la patria, da forte; e per l´ingrato</l>
+<l>stesso Saùl, che la mia morte or grida.</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l>Oh di David virtù! D´Iddio lo eletto</l>
+<l>tu certo sei. Dio, che t´inspira al core</l>
+<l>sì sovrumani sensi, al venir scorta</l>
+<l>dietti un angiol del cielo. — Eppur, deh! come</l>
+<l>or presentarti al re? Fra le nemiche</l>
+<l>squadre ei ti crede, o il finge; ei ti dà taccia</l>
+<l part="I">di traditor ribelle.</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l part="F">Ah! ch´ei pur troppo,</l>
+<l>a ricovrar de´ suoi nemici in seno</l>
+<l>ei mi sforzava. Ma, se impugnan essi</l>
+<l>contro lui l´armi, ecco per lui le impugno,</l>
+<l>finché sian vinti. Il guiderdon mio prisco</l>
+<l>men renda ei poscia; odio novello, e morte.</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l>Misero padre! ha chi l´inganna. Il vile</l>
+<l>perfid´Abner, gli sta, mentito amico,</l>
+<l>intorno sempre. Il rio demon, che fero</l>
+<l>gl´invasa il cor, brevi di tregua istanti</l>
+<l>lascia a Saulle almen; ma d´Abner l´arte</l>
+<l>nol lascia mai. Solo ei l´udito, ei solo,</l>
+<l>l´amato egli è: lusingator maligno,</l>
+<l>ogni virtù che la sua poca eccede,</l>
+<l>ei glie la pinge e mal sicura, e incerta.</l>
+<l part="I">Invan tua sposa ed io, col padre...</l>
+</sp>
+<sp><speaker><emph>DAVID</emph></speaker>
+<l part="F">Oh sposa!</l>
+<l>oh dolce nome! ov´è Micol mia fida?</l>
+<l>M´ama ella ancor, mal grado il padre crudo?...</l>
+</sp>
+<sp><speaker><emph>GIONATA</emph></speaker>
+<l part="I">Oh! s´ella t´ama?... è in campo anch´essa...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l part="I">vedrolla? oh gioia! Or, come in campo?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Il padre</l>
+<l>ne avea pietade; al suo dolor lasciarla</l>
+<l>sola ei non volle entro la reggia: e anch´ella</l>
+<l>va pur porgendo a lui qualche sollievo,</l>
+<l>benché ognor mesta. Ah! la magion del pianto</l>
+<l>ella è la nostra, da che tu sei lungi.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Oh sposa amata! A me il tuo dolce aspetto</l>
+<l>torrà il pensier d´ogni passata angoscia;</l>
+<l>torrà il pensier d´ogni futuro danno.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Ah, se vista l´avessi!... Ebbeti appena</l>
+<l>ella perduto, ogni ornamento increbbe</l>
+<l>al suo dolor: sul rabbuffato crine</l>
+<l>cenere stassi; e su la smunta guancia</l>
+<l>pianto e pallore; immensa doglia muta,</l>
+<l>nel cor tremante. Il dì, ben mille volte,</l>
+<l>si atterra al padre; e fra i singhiozzi, dice:</l>
+<l>«Rendimi David mio; tu già mel desti».</l>
+<l>Quindi i panni si squarcia; e in pianto bagna</l>
+<l>la man del padre, che anch´egli ne piange.</l>
+<l>E chi non piange? — Abner, sol egli; e impera,</l>
+<l>che tramortita come ell´è si strappi</l>
+<l part="I">dai piè del padre.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Oh vista! Oh! che mi narri?</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Deh! fosse pur non vero!... Al tuo sparire,</l>
+<l>pace sparì, gloria, e baldanza in armi:</l>
+<l>sepolti sono d´Israello i cori;</l>
+<l>il Filisteo, che già fanciullo apparve</l>
+<l>sotto i vessilli tuoi, fatto è gigante</l>
+<l>agli occhi lor, da che non t´han più duce:</l>
+<l>e minacce soffriamo, e insulti, e scherni,</l>
+<l>chiusi nel vallo, immemori di noi.</l>
+<l>Qual maraviglia? ad Israello a un tempo</l>
+<l>manca il suo brando, ed il suo senno, David.</l>
+<l>Io, che già dietro ai tuoi guerrieri passi</l>
+<l>non senza gloria iva nel campo, or fiacca</l>
+<l>sento al ferir la destra. Or, che in periglio,</l>
+<l>a dura vita, e da me lungi io veggo</l>
+<l>te, David mio, sì spesso; or, più non parmi</l>
+<l>quasi pugnar pel mio signor, pel padre,</l>
+<l>per la sposa, pe´ figli: a me tu caro,</l>
+<l>più assai che regno, e padre, e sposa, e figli...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>M´ami e più che nol merto: ami te Dio</l>
+<l part="I">così...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Dio giusto, e premiator non tardo</l>
+<l>di virtù vera; egli è con te. Tu fosti</l>
+<l>da Samuèl morente in Rama accolto;</l>
+<l>il sacro labro del sovran profeta,</l>
+<l>per cui fu re mio padre, assai gran cose</l>
+<l>colà di te vaticinava: il tuo</l>
+<l>viver m´è sacro, al par che caro. Ah! soli</l>
+<l>per te di corte i rei perigli io temo;</l>
+<l>non quei del campo: ma, dintorno a queste</l>
+<l>regali tende il tradimento alberga</l>
+<l>con morte: e morte, Abner la dà; la invia</l>
+<l>spesso Saulle. Ah! David mio, t´ascondi;</l>
+<l>fintanto almen che di guerriera tromba</l>
+<l>eccheggi il monte. Oggi, a battaglia stimo</l>
+<l part="I">venir fia forza.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Opra di prode vuolsi,</l>
+<l>quasi insidia, celar? Saùl vedrammi</l>
+<l>pria del nemico. Io, da confonder reco,</l>
+<l>da ravveder qual più indurato petto</l>
+<l>mai fosse, io reco: e affrontar pria vo´ l´ira</l>
+<l>del re, poi quella dei nemici brandi. —</l>
+<l>Re, che dirai, s´io, qual tuo servo, piego</l>
+<l>a te la fronte? io di tua figlia sposo,</l>
+<l>che di non mai commessi falli or chieggo</l>
+<l>a te perdono: io difensor tuo prisco,</l>
+<l>ch´or nelle fauci di mortal periglio</l>
+<l>compagno, scudo, vittima, a te m´offro. —</l>
+<l>Il sacro vecchio moribondo in Rama,</l>
+<l>vero è, mi accolse; e parlommi, qual padre:</l>
+<l>e spirò fra mie braccia. Egli già un tempo</l>
+<l>Saulle amava, qual suo proprio figlio:</l>
+<l>ma, qual ne avea mercede? — Il veglio sacro,</l>
+<l>morendo, al re fede m´ingiunse e amore,</l>
+<l>non men che cieca obbedienza a Dio.</l>
+<l>Suoi detti estremi, entro il mio cor scolpiti</l>
+<l>fino alla tomba in salde note io porto.</l>
+<l>«Ahi misero Saùl! se in te non torni,</l>
+<l>sovra il tuo capo altissima ira pende».</l>
+<l>Ciò Samuèl diceami. — Te salvo</l>
+<l>almen vorrei, Gionata mio, te salvo</l>
+<l>dallo sdegno celeste: e il sarai, spero:</l>
+<l>e il sarem tutti; e in un Saùl, che ancora</l>
+<l>può ravvedersi. — Ah! guai, se Iddio dall´etra</l>
+<l>il suo rovente folgore sprigiona!</l>
+<l>Spesso, tu il sai, nell´alta ira tremenda</l>
+<l>ravvolto egli ha coll´innocente il reo.</l>
+<l>Impetuoso, irresistibil turbo,</l>
+<l>sterpa, trabalza al suol, stritola, annulla</l>
+<l>del par la mala infetta pianta, e i fiori,</l>
+<l part="I">ed i pomi, e le foglie.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">— Assai può David</l>
+<l>presso Dio, per Saùl. Te ne´ miei sogni</l>
+<l>ho visto io spesso, e in tal sublime aspetto,</l>
+<l>ch´io mi ti prostro a´ piedi. — Altro non dico;</l>
+<l>né più dei dirmi. Infin ch´io vivo, io giuro</l>
+<l>che a ferir te non scenderà mai brando</l>
+<l>di Saùl, mai. Ma, dalle insidie vili...</l>
+<l>Oh ciel!... come poss´io?... Qui, fra le mense,</l>
+<l>fra le delizie, e l´armonia del canto,</l>
+<l>si bee talor nell´oro infido morte.</l>
+<l part="I">Deh! chi ten guarda?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">D´Israèle il Dio,</l>
+<l>se scampar deggio; e non intera un´oste,</l>
+<l>se soggiacer. — Ma dimmi: or, pria del padre,</l>
+<l>veder poss´io la sposa? Entrar non debbo</l>
+<l part="I">là, fin che albeggi...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">E fra le piume aspetta</l>
+<l>fors´ella il giorno? A pianger di te meco</l>
+<l>viene ella sempre innanzi l´alba; e preghi</l>
+<l>porgiam qui insieme a Dio, per l´egro padre. —</l>
+<l>Ecco; non lungi un non so che biancheggia:</l>
+<l>forse, ch´ella è: scostati alquanto; e l´odi:</l>
+<l>ma, se altri fosse, or non mostrarti, prego.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Così farò.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>MICOL, GIONATA</stage>
+<sp><speaker><emph>MICOL</emph></speaker>
+<l part="F">Notte abborrita, eterna,</l>
+<l>mai non sparisci?... Ma, per me di gioia</l>
+<l>risorge forse apportatore il sole?</l>
+<l>Ahi lassa me! che in tenebre incessanti</l>
+<l>vivo pur sempre! — Oh! fratel mio, più ratto</l>
+<l>di me sorgesti? eppur più travagliato,</l>
+<l>certo, fu il fianco mio, che mai non posa.</l>
+<l>Come posar poss´io fra molli coltri,</l>
+<l>mentre il mio ben sovra la ignuda terra,</l>
+<l>fuggitivo, sbandito, infra covili</l>
+<l>di crude fere, insidiato giace?</l>
+<l>Ahi d´ogni fera più inumano padre!</l>
+<l>Saùl spietato! alla tua figlia togli</l>
+<l>lo sposo, e non la vita? — Odi, fratello;</l>
+<l>qui non rimango io più: se meco vieni,</l>
+<l>bell´opra fai; ma, se non vieni, andronne</l>
+<l>a rintracciarlo io sola: io David voglio</l>
+<l part="I">incontrare, o la morte.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Indugia ancora;</l>
+<l>e il pianto acqueta: il nostro David forse</l>
+<l part="I">in Gelboè verrà...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Che parli? in loco,</l>
+<l part="I">dov´è Saùl, David venirne?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">In loco</l>
+<l>dov´è Gionata e Micol, tratto a forza</l>
+<l>dal suo ben nato cor fia David sempre.</l>
+<l>Nol credi tu, che in lui più assai l´amore</l>
+<l>che il timor possa? E maraviglia avresti,</l>
+<l part="I">s´ei qui venirne ardisse?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh ciel! Per esso</l>
+<l>io tremerei... Ma pure, il sol vederlo</l>
+<l part="I">fariami...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">E s´ei nulla or temesse?... E s´anco</l>
+<l>l´ardir suo strano ei di ragion vestisse? —</l>
+<l>Men terribil Saùl nell´aspra sorte,</l>
+<l>che nella destra, sbaldanzito or stassi</l>
+<l>in diffidenza di sue forze; il sai:</l>
+<l>or, che di David l´invincibil braccio</l>
+<l>la via non gli apre infra le ostili squadre,</l>
+<l>Saùl diffida; ma, superbo, il tace.</l>
+<l>Ciascun di noi nel volto suo ben legge,</l>
+<l>che a lui non siede la vittoria in core.</l>
+<l>Forse in punto ei verrebbe ora il tuo sposo.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Sì, forse è ver: ma lungi egli è;... deh! dove?...</l>
+<l part="I">e in quale stato?... Oimè!...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Più che nol pensi,</l>
+<l part="I">ei ti sta presso.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh cielo!... a che lusinghi?...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>DAVID, MICOL, GIONATA</stage>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Teco è il tuo sposo.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh voce!... Oh vista! Oh gioia!...</l>
+<l>Parlar... non... posso. — Oh maraviglia!... E fia...</l>
+<l part="I">ver, ch´io t´abbraccio?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Oh sposa!... Oh dura assenza!...</l>
+<l>Morte, s´io debbo oggi incontrarti, almeno</l>
+<l>qui sto tra´ miei. Meglio è morir, che trarre</l>
+<l>selvaggia vita in solitudin, dove</l>
+<l>a niun sei caro, e di nessun ti cale.</l>
+<l>Brando assetato di Saùl, ti aspetto;</l>
+<l>percuotimi: qui almen dalla pietosa</l>
+<l>moglie fien chiusi gli occhi miei; composte,</l>
+<l>coperte l´ossa; e di lagrime vere</l>
+<l part="I">da lei bagnate.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh David mio!... Tu capo,</l>
+<l>termine tu d´ogni mia speme; ah! lieto</l>
+<l>il tuo venir mi sia! Dio, che da gravi</l>
+<l>perigli tanti sottraeati, invano</l>
+<l>oggi te qui non riconduce... Oh quale,</l>
+<l>qual mi dà forza il sol tuo aspetto! Io tanto</l>
+<l>per te lontan tremava; or per te quasi</l>
+<l>non tremo... Ma, che veggo? in qual selvaggio</l>
+<l>orrido ammanto a me ti mostra avvolto</l>
+<l>l´alba nascente? o prode mio; tu ignudo</l>
+<l>d´ogni tuo fregio vai? te più non copre</l>
+<l>quella, ch´io già di propria man tessea,</l>
+<l>porpora aurata! In tal squallor, chi mai</l>
+<l>potria del re genero dirti? All´armi</l>
+<l part="I">volgar guerrier sembri, e non altro.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">In campo</l>
+<l>noi stiamo: imbelle reggia or non è questa:</l>
+<l>qui rozzo saio, ed affilato brando,</l>
+<l>son la pompa migliore. Oggi, nel sangue</l>
+<l>de´ Filistei, porpora nuova io voglio</l>
+<l>tinger per me. Tu meco intanto spera</l>
+<l>nel gran Dio d´Israèl, che me sottrarre</l>
+<l>può dall´eccidio, s´io morir non merto.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Ecco, aggiorna del tutto: omai qui troppo</l>
+<l>da indugiar più non parmi. Ancor che forse</l>
+<l>opportuno tu giunga, assai pur vuolsi</l>
+<l>ir cautamente. — Ogni mattina al padre</l>
+<l>venirne appunto in quest´ora sogliamo:</l>
+<l>noi spierem, come il governi e prema</l>
+<l>oggi il suo torbo umore: e a poco a poco</l>
+<l>preparando l´andrem, se lieta è l´aura,</l>
+<l>alla tua vista; e in un torrem, che primo</l>
+<l>null´uomo a lui malignamente narri</l>
+<l>la tua tornata. Appartati frattanto;</l>
+<l>che alcun potria conoscerti, tradirti;</l>
+<l>ed Abner farti anco svenare. Abbassa</l>
+<l>la visiera dell´elmo: infra i sorgenti</l>
+<l>guerrier ti mesci, e inosservato aspetta,</l>
+<l part="I">ch´io per te rieda, o mandi...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Infra i guerrieri,</l>
+<l>come si asconde il mio Davìd? qual occhio</l>
+<l>fuor dell´elmo si slancia a par del suo?</l>
+<l>Brando, chi ´l porta al suo simìl? chi suona</l>
+<l>così nell´armi? Ah! no; meglio ti ascondi,</l>
+<l>dolce mio amor, fin che al tuo fianco io torni.</l>
+<l>Misera me! ti trovo appena, e deggio</l>
+<l>lasciarti già? ma per brev´ora; e quindi</l>
+<l>no, mai più, mai, non lascerotti. Or pure</l>
+<l>vo´ pria vederti in securtà. Deh! mira;</l>
+<l>di questa selva opaca là nel fondo,</l>
+<l>a destra, vedi una capace grotta?</l>
+<l>Divisa io spesso là dal mondo intero,</l>
+<l>te sospiro, te chiamo, di te penso;</l>
+<l>e di lagrime amare i duri sassi</l>
+<l>aspergo: ivi ti cela, infin che il tempo,</l>
+<l part="I">sia di mostrarti.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Io compiacer ti voglio</l>
+<l>in tutto, o sposa. Appien securi andate:</l>
+<l>è senno in me; non opro a caso; io v´amo;</l>
+<l>a voi mi serbo: e solo in Dio confido.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>SAUL, ABNER</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Bell´alba è questa. In sanguinoso ammanto</l>
+<l>oggi non sorge il sole; un dì felice</l>
+<l>prometter parmi. — Oh miei trascorsi tempi!</l>
+<l>Deh! dove sete or voi? Mai non si alzava</l>
+<l>Saùl nel campo da´ tappeti suoi,</l>
+<l>che vincitor la sera ricorcarsi</l>
+<l part="I">certo non fosse.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Ed or, perché diffidi,</l>
+<l>o re? Tu forse non fiaccasti or dianzi</l>
+<l>la filistea baldanza? A questa pugna</l>
+<l>quanto più tardi viensi, Abner tel dice,</l>
+<l>tanto ne avrai più intera, e nobil palma.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Abner, oh! quanto in rimirar le umane</l>
+<l>cose, diverso ha giovinezza il guardo,</l>
+<l>dalla canuta età! Quand´io con fermo</l>
+<l>braccio la salda noderosa antenna,</l>
+<l>ch´or reggo appena, palleggiava; io pure</l>
+<l>mal dubitar sapea... Ma, non ho sola</l>
+<l>perduta omai la giovinezza... Ah! meco</l>
+<l>fosse pur anco la invincibil destra</l>
+<l>d´Iddio possente!... o meco fosse almeno</l>
+<l part="I">David, mio prode!</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">E chi siam noi? Senz´esso</l>
+<l>più non si vince or forse? Ah! non più mai</l>
+<l>snudar vorrei, s´io ciò credessi, il brando,</l>
+<l>che per trafigger me. David, ch´è prima,</l>
+<l>sola cagion d´ogni sventura tua...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Ah! no: deriva ogni sventura mia</l>
+<l>da più terribil fonte... E che? celarmi</l>
+<l>l´orror vorresti del mio stato? Ah! s´io</l>
+<l>padre non fossi, come il son, pur troppo!</l>
+<l>Di cari figli,... or la vittoria, e il regno,</l>
+<l>e la vita vorrei? Precipitoso</l>
+<l>già mi sarei fra gl´inimici ferri</l>
+<l>scagliato io, da gran tempo: avrei già tronca</l>
+<l>così la vita orribile, ch´io vivo.</l>
+<l>Quanti anni or son, che sul mio labro il riso</l>
+<l>non fu visto spuntare? I figli miei,</l>
+<l>ch´amo pur tanto, le più volte all´ira</l>
+<l>muovonmi il cor, se mi accarezzan... Fero,</l>
+<l>impaziente, torbido, adirato</l>
+<l>sempre; a me stesso incresco ognora, e altrui;</l>
+<l>bramo in pace far guerra, in guerra pace:</l>
+<l>entro ogni nappo, ascoso tosco io bevo;</l>
+<l>scorgo un nemico, in ogni amico; i molli</l>
+<l>tappeti assiri, ispidi dumi al fianco</l>
+<l>mi sono; angoscia il breve sonno; i sogni</l>
+<l>terror. Che più? chi ´l crederia? spavento</l>
+<l>m´è la tromba di guerra; alto spavento</l>
+<l>è la tromba a Saùl. Vedi, se è fatta</l>
+<l>vedova omai di suo splendor la casa</l>
+<l>di Saùl; vedi, se omai Dio sta meco.</l>
+<l>E tu, tu stesso, (ah! ben lo sai) talora</l>
+<l>a me, qual sei, caldo verace amico,</l>
+<l>guerrier, congiunto, e forte duce, e usbergo</l>
+<l>di mia gloria tu sembri; e talor, vile</l>
+<l>uom menzogner di corte, invido, astuto</l>
+<l part="I">nemico, traditore...</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Or, che in te stesso</l>
+<l>appien tu sei, Saulle, al tuo pensiero,</l>
+<l>deh, tu richiama ogni passata cosa!</l>
+<l>Ogni tumulto del tuo cor (nol vedi?)</l>
+<l>dalla magion di que´ profeti tanti,</l>
+<l>di Rama egli esce. A te chi ardiva primo</l>
+<l>dir, che diviso eri da Dio? l´audace,</l>
+<l>torbido, accorto, ambizioso vecchio,</l>
+<l>Samuèl sacerdote; a cui fean eco</l>
+<l>le sue ipocrite turbe. A te sul capo</l>
+<l>ei lampeggiar vedea con livid´occhio</l>
+<l>il regal serto, ch´ei credea già suo.</l>
+<l>Già sul bianco suo crin posato quasi</l>
+<l>ei sel tenea; quand´ecco, alto concorde</l>
+<l>voler del popol d´Israello al vento</l>
+<l>spersi ha suoi voti, e un re guerriero ha scelto.</l>
+<l>Questo, sol questo, è il tuo delitto. Ei quindi</l>
+<l>d´appellarti cessò d´Iddio l´eletto,</l>
+<l>tosto ch´esser tu ligio a lui cessasti.</l>
+<l>Da pria ciò solo a te sturbava il senno:</l>
+<l>coll´inspirato suo parlar compieva</l>
+<l>David poi l´opra. In armi egli era prode,</l>
+<l>nol niego io, no; ma servo appieno ei sempre</l>
+<l>di Samuello; e più all´altar, che al campo</l>
+<l>propenso assai: guerrier di braccio egli era,</l>
+<l>ma di cor, sacerdote. Il ver dispoglia</l>
+<l>d´ogni mentito fregio; il ver conosci.</l>
+<l>Io del tuo sangue nasco; ogni tuo lustro</l>
+<l>è d´Abner lustro: ma non può innalzarsi</l>
+<l>David, no mai, s´ei pria Saùl non calca.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>David?... Io l´odio... Ma, la propria figlia</l>
+<l>gli ho pur data in consorte... Ah! tu non sai. —</l>
+<l>La voce stessa, la sovrana voce,</l>
+<l>che giovanetto mi chiamò più notti,</l>
+<l>quand´io, privato, oscuro, e lungi tanto</l>
+<l>stava dal trono e da ogni suo pensiero;</l>
+<l>or, da più notti, quella voce istessa</l>
+<l>fatta è tremenda, e mi respinge, e tuona</l>
+<l>in suon di tempestosa onda mugghiante:</l>
+<l>«Esci Saùl; esci Saulle»... Il sacro</l>
+<l>venerabile aspetto del profeta,</l>
+<l>che in sogno io vidi già, pria ch´ei mi avesse</l>
+<l>manifestato che voleami Dio</l>
+<l>re d´Israèl; quel Samuèle, in sogno,</l>
+<l>ora in tutt´altro aspetto io lo riveggo.</l>
+<l>Io, da profonda cupa orribil valle,</l>
+<l>lui su raggiante monte assiso miro:</l>
+<l>sta genuflesso Davide a´ suoi piedi:</l>
+<l>il santo veglio sul capo gli spande</l>
+<l>l´unguento del Signor; con l´altra mano,</l>
+<l>che lunga lunga ben cento gran cubiti</l>
+<l>fino al mio capo estendesi, ei mi strappa</l>
+<l>la corona dal crine; e al crin di David</l>
+<l>cingerla vuol: ma, il crederesti? David</l>
+<l>pietoso in atto a lui si prostra, e niega</l>
+<l>riceverla; ed accenna, e piange, e grida,</l>
+<l>che a me sul capo ei la riponga... — Oh vista!</l>
+<l>Oh David mio! tu dunque obbediente</l>
+<l>ancor mi sei? genero ancora? e figlio?</l>
+<l>e mio suddito fido? e amico?... Oh rabbia!</l>
+<l>Tormi dal capo la corona mia?</l>
+<l>Tu che tant´osi, iniquo vecchio, trema...</l>
+<l>Chi sei?... Chi n´ebbe anco il pensiero, pera... —</l>
+<l part="I">Ahi lasso me! ch´io già vaneggio!...</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Pera,</l>
+<l>David sol pera: e svaniran con esso,</l>
+<l>sogni, sventure, vision, terrori.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>GIONATA, MICOL, SAUL, ABNER</stage>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Col re sia pace.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">E sia col padre Iddio.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">... Meco è sempre il dolore. — Io men sorgea</l>
+<l>oggi, pria dell´usato, in lieta speme...</l>
+<l>ma, già sparì, qual del deserto nebbia,</l>
+<l>ogni mia speme. — Omai che giova, o figlio,</l>
+<l>protrar la pugna? Il paventar la rotta,</l>
+<l>peggio è che averla; ed abbiasi una volta.</l>
+<l part="I">Oggi si pugni, io ´l voglio.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Oggi si vinca.</l>
+<l>Speme, o padre, ripiglia: in te non scese</l>
+<l>speranza mai con più ragione. Il volto</l>
+<l>deh! rasserena: io la vittoria ho in core.</l>
+<l>Di nemici cadaveri coperto</l>
+<l>fia questo campo; ai predatori alati</l>
+<l part="I">noi lasceremo orribil esca...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">A stanza</l>
+<l>più queta, o padre, entro tua reggia, in breve,</l>
+<l>noi torneremo. Infra tue palme assiso,</l>
+<l>lieto tu allor, tua desolata figlia</l>
+<l>tornare a vita anco vorrai, lo sposo</l>
+<l part="I">rendendole...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">... Ma che? tu mai dal pianto</l>
+<l>non cessi? Or questi i dolci oggetti sono</l>
+<l>che rinverdir denno a Saùl la stanca</l>
+<l>mente appassita? Al mio dolor sollievo</l>
+<l>sei tu così? Figlia del pianto, vanne;</l>
+<l part="I">esci; lasciami, scostati.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Me lassa!...</l>
+<l>Tu non vorresti, o padre, ch´io piangessi?...</l>
+<l>Padre, e chi l´alma in lagrime sepolta</l>
+<l part="I">mi tiene or, se non tu?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Deh! taci; al padre</l>
+<l>increscer vuoi? — Saùl, letizia accogli:</l>
+<l>aura di guerra, e di vittoria, in campo</l>
+<l>sta: con quest´alba uno spirto guerriero,</l>
+<l>che per tutto Israèl de´ spandersi oggi,</l>
+<l>dal ciel discese. Anco in tuo cor, ben tosto,</l>
+<l part="I">verrà certezza di vittoria.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Or, forse</l>
+<l>me tu vorresti di tua stolta gioia</l>
+<l>a parte? me? — Che vincere? che spirto?...</l>
+<l>Piangete tutti. Oggi, la quercia antica,</l>
+<l>dove spandea già rami alteri all´aura,</l>
+<l>innalzerà sue squallide radici.</l>
+<l>Tutto è pianto, e tempesta, e sangue, e morte:</l>
+<l>i vestimenti squarcinsi; le chiome</l>
+<l>di cener vil si aspergano. Sì, questo</l>
+<l>giorno, è finale; a noi l´estremo, è questo.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l>Già più volte vel dissi: in lui l´aspetto</l>
+<l>vostro importuno ognor sue fere angosce</l>
+<l part="I">raddoppia.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">E che? lascierem noi l´amato</l>
+<l part="I">genitor nostro?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Al fianco suo, tu solo</l>
+<l part="I">starti pretendi? e che in tua man?...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Che fia?</l>
+<l>Sdegno sta su la faccia de´ miei figli?</l>
+<l>Chi, chi gli oltraggia? Abner, tu forse? Questi</l>
+<l>son sangue mio; nol sai?... Taci: rimembra...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Ah! sì; noi siam tuo sangue; e per te tutto</l>
+<l part="I">il nostro sangue a dar siam presti...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">O padre,</l>
+<l>ascolto io forse i miei privati affetti,</l>
+<l>quand´io lo sposo a te richieggo? Il prode</l>
+<l>tuo difensore, d´Israèl la forza,</l>
+<l>l´alto terror de´ Filistei ti chieggo.</l>
+<l>Nell´ore tue fantastiche di noia,</l>
+<l>ne´ tuoi funesti pensieri di morte,</l>
+<l>David fors´ei non ti porgea sollievo</l>
+<l>col celeste suo canto? or di´: non era</l>
+<l>ei, quasi raggio alle tenèbre tue?</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Ed io; tu il sai, se un brando al fianco io cinga;</l>
+<l>ma; ov´è il mio brando, se i sonanti passi</l>
+<l>del guerrier dei guerrier norma non danno</l>
+<l>ai passi miei? Si parleria di pugna,</l>
+<l>se David qui? vinta saria la guerra.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Oh scorsa etade!... Oh di vittoria lieti</l>
+<l>miei gloriosi giorni!... Ecco, schierati</l>
+<l>mi si appresentan gli alti miei trionfi.</l>
+<l>Dal campo io riedo, d´onorata polve</l>
+<l>cosperso tutto, e di sudor sanguigno:</l>
+<l>infra l´estinto orgoglio, ecco, io passeggio;</l>
+<l>e al Signor laudi... Al Signor, io?... Che parlo?... —</l>
+<l>Ferro ha gli orecchi alla mia voce Iddio;</l>
+<l>muto è il mio labro... Ov´è mia gloria? dove,</l>
+<l>dov´è de´ miei nemici estinti il sangue?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="I">Tutto avresti in Davìd.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ma, non è teco</l>
+<l>quel David, no: dal tuo cospetto in bando</l>
+<l>tu il cacciavi, tu spento lo volevi...</l>
+<l>David, tuo figlio; l´opra tua più bella;</l>
+<l>docil, modesto, più che lampo ratto</l>
+<l>nell´obbedirti; ed in amarti caldo,</l>
+<l>più che i propri tuoi figli. Ah! padre, lascia...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Il pianto (oimè!) su gli occhi stammi? al pianto</l>
+<l>inusitato, or chi mi sforza?... Asciutto</l>
+<l part="I">lasciate il ciglio mio.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Meglio sarebbe</l>
+<l>ritrarti, o re, nel padiglione. In breve</l>
+<l>presta a pugnar la tua schierata possa</l>
+<l>io mostrerotti. Or vieni; e te convinci,</l>
+<l part="I">che nulla è in David...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>DAVID, SAUL, ABNER, GIONATA, MICOL</stage>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">La innocenza tranne.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="I">Che veggio?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="M">Oh ciel!</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="M">Che festi?</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="M">Audace...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Ah! padre...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">Padre, ei m´è sposo; e tu mel desti.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Oh vista!</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Saùl, mio re; tu questo capo chiedi;</l>
+<l>già da gran tempo il cerchi; ecco, io tel reco;</l>
+<l part="I">troncalo, è tuo.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Che ascolto?... Oh David,... David!</l>
+<l>Un Iddio parla in te: qui mi t´adduce</l>
+<l part="I">oggi un Iddio...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Sì, re; quei, ch´è sol Dio;</l>
+<l>quei, che già in Ela me timido ancora</l>
+<l>inesperto garzon spingeva a fronte</l>
+<l>di quel superbo gigantesco orgoglio</l>
+<l>del fier Goliatte tutto aspro di ferro:</l>
+<l>quel Dio, che poi su l´armi tue tremende</l>
+<l>a vittoria vittoria accumulava:</l>
+<l>e che, in sue mire imperscrutabil sempre,</l>
+<l>dell´oscuro mio braccio a lucid´opre</l>
+<l>valer si volle: or sì, quel Dio mi adduce</l>
+<l>a te, con la vittoria. Or, qual più vuoi,</l>
+<l>guerriero, o duce, se son io da tanto,</l>
+<l>abbimi. A terra pria cada il nemico:</l>
+<l>sfumino al soffio aquilonar le nubi,</l>
+<l>che al soglio tuo si ammassano dintorno:</l>
+<l>men pagherai poscia, o Saùl, con morte.</l>
+<l>Né un passo allora, né un pensier costarti</l>
+<l>il mio morir dovrà. Tu, re, dirai:</l>
+<l>David sia spento: e ucciderammi tosto</l>
+<l>Abner. — Non brando io cingerò né scudo;</l>
+<l>nella reggia del mio pieno signore</l>
+<l>a me disdice ogni arme, ove non sia</l>
+<l>pazienza, umiltade, amor, preghiere,</l>
+<l>ed innocenza. Io deggio, se il vuol Dio,</l>
+<l>perir qual figlio tuo, non qual nemico.</l>
+<l>Anco il figliuol di quel primiero padre</l>
+<l>del popol nostro, in sul gran monte il sangue</l>
+<l>era presto a donar; né un motto, o un cenno</l>
+<l>fea, che non fosse obbedienza: in alto</l>
+<l>già l´una man pendea per trucidarlo,</l>
+<l>mentre ei del padre l´altra man baciava. —</l>
+<l>Diemmi l´esser Saùl; Saùl mel toglie:</l>
+<l>per lui s´udia il mio nome, ei lo disperde:</l>
+<l part="I">ei mi fea grande, ei mi fa nulla.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Oh! quale</l>
+<l>dagli occhi antichi miei caligin folta</l>
+<l>quel dir mi squarcia! Oh qual nel cor mi suona!... —</l>
+<l>David, tu prode parli, e prode fosti;</l>
+<l>ma, di superbia cieco, osasti poscia</l>
+<l>me dispregiar; sovra di me innalzarti;</l>
+<l>furar mie laudi, e ti vestir mia luce.</l>
+<l>E s´anco io re non t´era, in guerrier nuovo,</l>
+<l>spregio conviensi di guerrier canuto?</l>
+<l>Tu, magnanimo in tutto, in ciò non l´eri.</l>
+<l>Di te cantavan d´Israèl le figlie:</l>
+<l>«Davidde, il forte, che i suoi mille abbatte;</l>
+<l>Saùl, suoi cento». Ah! mi offendesti, o David,</l>
+<l>nel più vivo del cor. Che non dicevi?</l>
+<l>«Saùl, ne´ suoi verdi anni, altro che i mille,</l>
+<l>le migliaia abbatteva: egli è il guerriero;</l>
+<l part="I">ei mi creò».</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Ben io ´l dicea; ma questi,</l>
+<l>che del tuo orecchio già tenea le chiavi,</l>
+<l>dicea più forte: «Egli è possente troppo</l>
+<l>David: di tutti in bocca, in cor di molti;</l>
+<l>se non l´uccidi tu, Saùl, chi ´l frena?» —</l>
+<l>Con minor arte, e verità più assai,</l>
+<l>Abner, al re che non dicevi? «Ah David</l>
+<l>troppo è miglior di me; quindi io lo abborro;</l>
+<l>quindi lo invidio, e temo; e spento io ´l voglio».</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l>Fellone; e il dì, che di soppiatto andavi</l>
+<l>co´ tuoi profeti a susurrar consigli;</l>
+<l>quando al tuo re segreti lacci infami</l>
+<l>tendevi; e quando a´ Filistei nel grembo</l>
+<l>ti ricovravi; e fra nemici impuri</l>
+<l>profani dì traendo, ascose a un tempo</l>
+<l>pratiche ognor fra noi serbavi: or questo,</l>
+<l>il dissi io forse? o il festi tu? Da prima,</l>
+<l>chi più di me del signor nostro in core</l>
+<l>ti pose? A farti genero, chi ´l mosse?</l>
+<l part="I">Abner fu solo...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Io fui: Davide in sposo,</l>
+<l>io dal padre l´ottenni; io il volli; io, presa</l>
+<l>di sue virtudi. Egli il sospir mio primo,</l>
+<l>il mio pensier nascoso; ei la mia speme</l>
+<l>era; ei sol, la mia vita. In basso stato</l>
+<l>anco travolto, in povertà ridotto,</l>
+<l>sempre al mio cor giovato avria più David,</l>
+<l>ch´ogni alto re, cui l´oriente adori.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Ma tu, David, negar, combatter puoi</l>
+<l>d´Abner le accuse? Or, di´: non ricovrasti</l>
+<l>tra´ Filistei? nel popol mio d´iniqua</l>
+<l>ribellione i semi non spandesti?</l>
+<l>La vita stessa del tuo re, del tuo</l>
+<l>secondo padre, insidiata forse</l>
+<l part="I">non l´hai più volte?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Ecco; or per me risponda</l>
+<l>questo, già lembo del regal tuo manto.</l>
+<l part="I">Conoscil tu? Prendi; il raffronta.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Dammi.</l>
+<l>Che veggio? è mio; nol niego... Onde l´hai tolto?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Di dosso a te, dal manto tuo, con questo</l>
+<l>mio brando, io stesso, io lo spiccai. — Sovvienti</l>
+<l>d´Engadda? Là, dove tu me proscritto</l>
+<l>barbaramente perseguivi a morte;</l>
+<l>là, trafugato senza alcun compagno</l>
+<l>nella caverna, che dal fonte ha nome,</l>
+<l>io m´era: ivi, tu solo, ogni tuo prode</l>
+<l>lasciato in guardia alla scoscesa porta,</l>
+<l>su molli coltri in placida quiete</l>
+<l>chiudevi al sonno gli occhi... Oh ciel! tu, pieno</l>
+<l>l´alma di sangue e di rancor, dormivi?</l>
+<l>Vedi, se Iddio possente a scherno prende</l>
+<l>disegni umani! ucciderti, a mia posta,</l>
+<l>e me salvar potea, per altra uscita:</l>
+<l>io il potea quel tuo lembo assai tel prova.</l>
+<l>Tu re, tu grande, tu superbo, in mezzo</l>
+<l>a stuol d´armati; eccoti in man del vile</l>
+<l>giovin proscritto... Abner, il prode, ov´era,</l>
+<l>dov´era allor? Così tua vita ei guarda?</l>
+<l>serve al suo re così? Vedi, in cui posto</l>
+<l>hai tua fidanza; e in chi rivolto hai l´ira. —</l>
+<l>Or, sei tu pago? Or l´evidente segno</l>
+<l>non hai, Saùl, del cor, della innocenza,</l>
+<l>e della fede mia? non l´evidente</l>
+<l>segno del poco amor, della maligna</l>
+<l>invida rabbia, e della guardia infida</l>
+<l part="I">di questo Abner?...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Mio figlio, hai vinto;... hai vinto.</l>
+<l part="I">Abner, tu mira; ed ammutisci.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh gioia!</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Oh padre!...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="M">Oh dì felice!</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="M">Oh sposo!...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Il giorno,</l>
+<l>sì, di letizia, e di vittoria, è questo.</l>
+<l>Te duce io voglio oggi alla pugna: il soffra</l>
+<l>Abner; ch´io ´l vo´. Gara fra voi non altra,</l>
+<l>che in più nemici esterminare, insorga.</l>
+<l>Gionata, al fianco al tuo fratel d´amore</l>
+<l>combatterai: mallevador mi è David</l>
+<l>della tua vita; e della sua tu il sei.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Duce Davìd, mallevadore è Iddio.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">Dio mi ti rende: ei salveratti...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Or, basta.</l>
+<l>Nel padiglion, pria della pugna, o figlio,</l>
+<l>vieni un tal poco a ristorarti. Il lungo</l>
+<l>duol dell´assenza la tua sposa amata</l>
+<l>rattempreratti: intanto di sua mano</l>
+<l>ella ti mesca, e ti ministri a mensa.</l>
+<l>Deh! figlia, (il puoi tu sola) ammenda in parte</l>
+<l>del genitor gli involontari errori.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>DAVID, ABNER</stage>
+<sp><speaker><emph>Abner</emph></speaker>
+<l>Eccomi: appena dal convito or sorge</l>
+<l part="I">il re, ch´io vengo a´ cenni tuoi.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Parlarti</l>
+<l part="I">a solo a solo io volli.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Udir vuoi forse</l>
+<l part="I">della prossima pugna?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">E dirti a un tempo,</l>
+<l>che me non servi; ma ch´entrambi al pari</l>
+<l>il popol nostro, il nostro re, l´eccelso</l>
+<l>Dio d´Israèl serviamo. Altro pensiero</l>
+<l part="I">in noi, deh! no, non entri.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Io, pel re nostro,</l>
+<l>del di cui sangue io nasco, in campo il brando</l>
+<l>sanguinoso rotai, già pria che il fischio</l>
+<l part="I">ivi si udisse di tua fionda...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Il sangue</l>
+<l>del re non scorre entro mie vene: a tutti</l>
+<l>noti sono i miei fatti: io non li vanto:</l>
+<l>Abner li sa. — Deh! nell´obblio sepolti</l>
+<l>sian pur da te; sol ti rammenta i tuoi:</l>
+<l>emulo di te stesso, oggi tu imprendi</l>
+<l part="I">a superar solo te stesso.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Il duce</l>
+<l>io mi credea finor: David non v´era:</l>
+<l>tutto ordinar per la vittoria quindi</l>
+<l>osai: s´io duce esser potessi, or l´odi. —</l>
+<l>Incontro a noi, da borea ad austro, giace</l>
+<l>per lungo, in valle, di Filiste il campo.</l>
+<l>Folte macchie ha da tergo; è d´alti rivi</l>
+<l>munito in fronte: all´oriente il chiude</l>
+<l>non alto un poggio, di lieve pendìo</l>
+<l>ver esso, ma di scabro irsuto dorso</l>
+<l>all´opposto salire: un´ampia porta</l>
+<l>s´apre fra´ monti all´occidente, donde</l>
+<l>per vasto piano infino al mar sonante</l>
+<l>senza ostacol si varca. Ivi, se fatto</l>
+<l>ci vien di trarvi i Filistei, fia vinta</l>
+<l>da noi la guerra. è d´uopo a ciò da pria</l>
+<l>finger ritratta. In tripartita schiera</l>
+<l>piegando noi da man manca nel piano,</l>
+<l>giriamo in fronte il destro loro fianco.</l>
+<l>La schiera prima il passo affretta, e pare</l>
+<l>fuggirsene; rimane la seconda</l>
+<l>lenta addietro, in scomposte e rade file,</l>
+<l>certo invito ai nemici. Intanto, scelti</l>
+<l>più prodi de´ nostri, il duro poggio</l>
+<l>soverchiato han dall´oriente, e a tergo</l>
+<l>riescon sovra il rio nemico. In fronte,</l>
+<l>dalle spalle, e dai lati, eccolo, è chiuso;</l>
+<l>eccone fatto aspro macello intero.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Saggio e prode tu al pari. All´ordin tuo,</l>
+<l>nulla cangiare, Abner, si debbe. Io laudo</l>
+<l>virtude ov´è: sarò guerrier, non duce:</l>
+<l>e alla tua pugna il mio venir null´altro</l>
+<l part="I">aggiungerà, che un brando.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Il duce è David:</l>
+<l>di guerra il mastro è David. Chi combatte,</l>
+<l part="I">fuorch´egli, mai?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Chi men dovria mostrarsi</l>
+<l>invidio, ch´Abner, poich´ei val cotanto?</l>
+<l>Ottimo, ovunque io ´l miri, è il tuo disegno.</l>
+<l>Gionata ed io, di qua, verso la tenda</l>
+<l>di Saùl schiereremci; oltre, ver l´orsa,</l>
+<l>Us passerà; Sadòc, con scelti mille,</l>
+<l>salirà il giogo; e tu, coi più, terrai</l>
+<l part="I">della battaglia il corpo.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">A te si aspetta;</l>
+<l part="I">loco è primiero.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">   E te perciò vi pongo. —</l>
+<l>Ascende il sole ancora: il tutto in punto</l>
+<l>terrai tu intanto; ma non s´odan trombe,</l>
+<l>fin che al giorno quattr´ore avanzin sole.</l>
+<l>Spira un ponente impetuoso, il senti;</l>
+<l>il sol negli occhi, e la sospinta polve,</l>
+<l>anco per noi combatteran da sera.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="I">Ben dici.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Or, va´; comanda: e a te con basse</l>
+<l>arti di corte, che ignorar dovresti,</l>
+<l>pregio non tor di capitan, cui merti.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>DAVID</stage>
+<sp><speaker><emph>David</emph></speaker>
+<l>Astuto è l´ordin della pugna, ed alto. —</l>
+<l>Ma, il provveder di capitan, che giova,</l>
+<l>s´ei de´ soldati il cor non ha? Ciò solo</l>
+<l>ad Abner manca; e a me il concede Iddio.</l>
+<l>Oggi si vinca, e al dì novel si lasci</l>
+<l>un´altra volta il re; ch´esser non puote</l>
+<l>per me mai pace al fianco suo... Che dico?</l>
+<l>nuova palma or mi fia nuovo delitto.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>MICOL, DAVID</stage>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Sposo, non sai? Da lieta mensa il padre</l>
+<l>sorgeva appena, Abner ver lui si trasse,</l>
+<l>e un istante parlavagli: io m´inoltro,</l>
+<l>egli esce; il re già quel di pria non trovo.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Ma pur, che disse? in che ti parve?...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Egli era</l>
+<l>dianzi tutto per noi; con noi piangea;</l>
+<l>ci abbracciava a vicenda; e da noi stirpe</l>
+<l>s´iva augurando di novelli prodi,</l>
+<l>quasi alla sua sostegno; ei più che padre</l>
+<l>pareane ai detti: or, più che re mi apparve.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Deh! pria del tempo, non piangere, o sposa:</l>
+<l>Saulle è il re; farà di noi sua voglia.</l>
+<l>Sol ch´ei non perda oggi la pugna; il crudo</l>
+<l>suo pensier contro me doman ripigli;</l>
+<l>ripiglierò mio stato abbietto, e il duro</l>
+<l>bando, e la fuga, e l´affannosa vita.</l>
+<l>Vera e sola mia morte emmi il lasciarti:</l>
+<l>e il dovrò pure... Ahi vana speme! infauste</l>
+<l>nozze per te! Giocondo e regio stato</l>
+<l>altro sposo a te dava; ed io tel tolgo.</l>
+<l>Misero me!... Né d´ampia prole, e lieta,</l>
+<l>padre puoi far me tuo consorte errante,</l>
+<l part="I">e fuggitivo sempre...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ah! no; divisi</l>
+<l>più non saremo: dal tuo sen strapparmi</l>
+<l>niuno ardirà. Non riedo io no, più mai,</l>
+<l>a quella vita orribile, ch´io trassi</l>
+<l>priva di te: m´abbia il sepolcro innanzi.</l>
+<l>In quella reggia del dolore io stava</l>
+<l>sola piangente, i lunghi giorni; e l´ombre</l>
+<l>l´aspetto mi adducean d´orrende larve.</l>
+<l>Or, sopra il capo tuo pender vedea</l>
+<l>del crudo padre il ferro; e udia tue voci</l>
+<l>dolenti, lagrimose, umili, tali</l>
+<l>da trar del petto ogni più atroce sdegno;</l>
+<l>e sì l´acciar pur t´immergeva in core</l>
+<l>il barbaro Saulle: or, tra´ segreti</l>
+<l>avvolgimenti di negra caverna,</l>
+<l>vedeati far di dure selci letto;</l>
+<l>e ad ogni picciol moto il cor balzarti</l>
+<l>tremante; e in altra ricovrarti; e quindi</l>
+<l>in altra ancor; né ritrovar mai loco,</l>
+<l>né quiete, né amici: egro, ansio, stanco...</l>
+<l>da cruda sete travagliato... Oh cielo!...</l>
+<l>Le angosce, i dubbi, il palpitar mio lungo</l>
+<l>poss´io ridir? — Mai più, no, non ti lascio;</l>
+<l part="I">mai più...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Mi strappi il cor: deh! cessa... Al sangue,</l>
+<l>e non al pianto, questo giorno è sacro.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Pur ch´oggi inciampo al tuo pugnar non nasca.</l>
+<l>Per te non temo io la battaglia; hai scudo</l>
+<l>di certa tempra, Iddio: ma temo, ch´oggi</l>
+<l>dal perfid´Abner impedita, o guasta,</l>
+<l part="I">non ti sia la vittoria.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">E che? ti parve</l>
+<l>dubbio il re d´affidarmi oggi l´impresa?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Ciò non udii; ma forte accigliato era,</l>
+<l>e susurrava non so che, in se stesso,</l>
+<l>di sacerdoti traditor; d´ignota</l>
+<l>gente nel campo; di virtù mentita...</l>
+<l>rotte parole, oscure, dolorose,</l>
+<l>tremende, a chi di David è consorte,</l>
+<l part="I">e di Saulle è figlia.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Eccolo: si oda.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Giusto Iddio, deh! soccorri oggi al tuo servo:</l>
+<l>l´empio confondi; il genitor rischiara;</l>
+<l>salva il mio sposo; il popol tuo difendi.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>SAUL, GIONATA, MICOL, DAVID</stage>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Deh! vieni, amato padre; a´ tuoi pensieri</l>
+<l>da´ tregua un poco: or l´aura aperta e pura</l>
+<l>ti fia ristoro; vieni: alquanto siedi</l>
+<l part="I">tra i figli tuoi.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="M">... Che mi si dice?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ah! padre!...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Chi sete voi?... Chi d´aura aperta e pura</l>
+<l>qui favellò?... Questa? è caligin densa;</l>
+<l>tenebre sono; ombra di morte... Oh! mira;</l>
+<l>più mi t´accosta; il vedi? il sol dintorno</l>
+<l>cinto ha di sangue ghirlanda funesta...</l>
+<l>Odi tu canto di sinistri augelli?</l>
+<l>Lugùbre un pianto sull´aere si spande,</l>
+<l>che me percuote, e a lagrimar mi sforza...</l>
+<l part="I">Ma che? Voi pur, voi pur piangete?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">O sommo</l>
+<l>Dio d´Israello, or la tua faccia hai tolta</l>
+<l>dal re Saùl così? lui, già tuo servo,</l>
+<l>lasci or così dell´avversario in mano?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Padre, hai la figlia tua diletta al fianco:</l>
+<l>se lieto sei, lieta è pur ella; e piange,</l>
+<l>se piangi tu... Ma, di che pianger ora?</l>
+<l part="I">gioia tornò.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">David, vuoi dire. Ah!... David...</l>
+<l>deh! perché non mi abbraccia anch´ei co´ figli?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Oh padre!... Addietro or mi tenea temenza</l>
+<l>di non t´esser molesto. Ah! nel mio core</l>
+<l>perché legger non puoi? son sempre io teco.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Tu... di Saulle... ami la casa dunque?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>S´io l´amo? Oh ciel! degli occhi miei pupilla</l>
+<l>Gionata egli è; per te, periglio al mondo</l>
+<l>non conosco, né curo: e la mia sposa,</l>
+<l>dica, se il può, ch´io nol potrei, di quanto,</l>
+<l part="I">di quale amore io l´amo...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Eppur, te stesso</l>
+<l part="I">stimi tu molto...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Io, me stimare?... In campo</l>
+<l>non vil soldato, e tuo genero in corte</l>
+<l>mi tengo; e innanzi a Dio, nulla mi estimo.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Ma, sempre a me d´Iddio tu parli; eppure,</l>
+<l>ben tu il sai, da gran tempo, hammi partito</l>
+<l>da Dio l´astuta ira crudel tremenda</l>
+<l>de´ sacerdoti. Ad oltraggiarmi, il nomi?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>A dargli gloria, io ´l nomo. Ah! perché credi,</l>
+<l>ch´ei più non sia con te? Con chi nol vuole,</l>
+<l>non sta: ma, a chi l´invoca, a chi riposto</l>
+<l>tutto ha se stesso in lui, manca egli mai?</l>
+<l>Ei sul soglio chiamotti; ei vi ti tiene:</l>
+<l>sei suo, se in lui, ma se in lui sol, ti affidi.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Chi dal ciel parla?... Avviluppato in bianca</l>
+<l>stola è costui, che il sacro labro or schiude?</l>
+<l>vediamlo... Eh no: tu sei guerriero, e il brando</l>
+<l>cingi: or t´inoltra; appressati; ch´io veggia,</l>
+<l>se Samuèle o David mi favella. —</l>
+<l>Qual brando è questo? ei non è già lo stesso</l>
+<l part="I">ch´io di mia man ti diedi...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">è questo il brando,</l>
+<l>cui mi acquistò la povera mia fionda.</l>
+<l>Brando, che in Ela a me pendea tagliente</l>
+<l>sul capo; agli occhi orribil lampo io ´l vidi</l>
+<l>balenarmi di morte, in man del fero</l>
+<l>Goliàt gigante: ei lo stringea: ma stavvi</l>
+<l>rappreso pur, non già il mio sangue, il suo.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Non fu quel ferro, come sacra cosa,</l>
+<l>appeso in Nobbe al tabernacol santo?</l>
+<l>Non fu nell´Efod mistico ravvolto,</l>
+<l>e così tolto a ogni profana vista?</l>
+<l>consecrato in eterno al Signor primo?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Vero è; ma...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Dunque, onde l´hai tu? Chi ardiva</l>
+<l part="I">dartelo? chi?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Dirotti. Io fuggitivo,</l>
+<l>inerme in Nob giungea: perché fuggissi,</l>
+<l>tu il sai. Piena ogni via di trista gente,</l>
+<l>io, senza ferro, a ciascun passo stava</l>
+<l>tra le fauci di morte. Umìl la fronte</l>
+<l>prosternai là nel tabernacol, dove</l>
+<l>scende d´Iddio lo spirto: ivi, quest´arme,</l>
+<l>(cui s´uom mortal riadattarsi al fianco</l>
+<l>potea, quell´uno esser potea ben David)</l>
+<l part="I">la chiesi io stesso al sacerdote.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Ed egli?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Diemmela.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Ed era?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="I">Achimelèch.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Fellone.</l>
+<l>Vil traditore... Ov´è l´altare?... oh rabbia!...</l>
+<l>Ahi tutti iniqui! traditori tutti!...</l>
+<l>d´Iddio nemici; a lui ministri, voi?...</l>
+<l>Negr´alme in bianco ammanto... Ov´è la scure?...</l>
+<l>Ov´è l´altar? si atterri... Ov´è l´offerta?</l>
+<l part="I">svenarla io voglio...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="M">Ah padre!</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Oh ciel! che fai?</l>
+<l>ove corri? che parli?... Or, deh! ti placa:</l>
+<l>non havvi altar; non vittima; rispetta</l>
+<l>nei sacerdoti Iddio, che sempre t´ode.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Chi mi rattien?... Chi di seder mi sforza?...</l>
+<l part="I">Chi a me resiste?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="M">Padre...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Ah! tu il soccorri,</l>
+<l>alto Iddio d´Israèle: a te si prostra,</l>
+<l part="I">te ne scongiura il servo tuo.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">La pace</l>
+<l>mi è tolta; il sole, il regno, i figli, l´alma,</l>
+<l>tutto mi è tolto!... Ahi Saùl infelice!</l>
+<l>chi te consola? al brancolar tuo cieco,</l>
+<l>chi è scorta, o appoggio?... I figli tuoi, son muti;</l>
+<l>duri son, crudi... Del vecchio cadente</l>
+<l>sol si brama la morte: altro nel core</l>
+<l>non sta dei figli, che il fatal diadema,</l>
+<l>che il canuto tuo capo intorno cinge.</l>
+<l>Su strappatelo, su: spiccate a un tempo</l>
+<l>da questo omai putrido tronco il capo</l>
+<l>tremolante del padre... Ahi fero stato!</l>
+<l part="I">meglio è la morte. Io voglio morte...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh padre!...</l>
+<l>noi vogliam tutti la tua vita: a morte</l>
+<l>ognun di noi, per te sottrarne, andrebbe...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>— Or, poiché in pianto il suo furor già stemprasi,</l>
+<l>deh! la tua voce, a ricomporlo in calma,</l>
+<l>muovi, o fratello. In dolce oblio l´hai ratto</l>
+<l>già tante volte con celesti carmi.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Ah! sì; tu il vedi, all´alitante petto</l>
+<l>manca il respiro; il già feroce sguardo</l>
+<l>nuota in lagrime: or tempo è di prestargli</l>
+<l part="I">l´opra tua.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Deh! per me, gli parli Iddio. —</l>
+<stage><p><emph>Tutti i seguenti versi lirici si potranno cantare senza gorgheggi da David, s´egli si trova essere ad un tempo cantore ed attore. Altrimenti basterà, per ottenere un certo effetto, che ad ogni stanza preceda una breve musica istromentale adattata al soggetto; e che David poi reciti la stanza con maestria e gravità.</emph></p></stage>
+<l>«O tu, che eterno, onnipossente, immenso,</l>
+<l>siedi sovran d´ogni creata cosa;</l>
+<l>tu, per cui tratto io son dal nulla, e penso,</l>
+<l>e la mia mente a te salir pur osa;</l>
+<l>tu, che se il guardo inchini, apresi il denso</l>
+<l>abisso, e via non serba a te nascosa;</l>
+<l>se il capo accenni, trema lo universo;</l>
+<l>se il braccio innalzi, ogni empio ecco è disperso:</l>
+<l>già su le ratte folgoranti piume</l>
+<l>di Cherubin ben mille un dì scendesti;</l>
+<l>e del tuo caldo irresistibil nume</l>
+<l>il condottiero d´Israello empiesti:</l>
+<l>di perenne facondia a lui tu fiume,</l>
+<l>tu brando, e senno, e scudo a lui ti festi;</l>
+<l>deh! di tua fiamma tanta un raggio solo</l>
+<l>nubi–fendente or manda a noi dal polo.</l>
+<l>Tenebre e pianto siamo...»</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Odo io la voce</l>
+<l>di David?... Trammi di mortal letargo:</l>
+<l>folgor mi mostra di mia verde etade.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>«Chi vien, chi vien, ch´odo e non veggo? Un nembo</l>
+<l>negro di polve rapido veleggia</l>
+<l>dal torbid´euro spinto. —</l>
+<l>Ma già si squarcia; e tutto acciar lampeggia</l>
+<l>dai mille e mille, ch´ei si reca in grembo...</l>
+<l>Ecco, qual torre, cinto</l>
+<l>Saùl la testa d´infuocato lembo.</l>
+<l>Traballa il suolo al calpestìo tonante</l>
+<l>d´armi e destrieri:</l>
+<l>la terra, e l´onda, e il cielo è rimbombante</l>
+<l>d´urli guerrieri.</l>
+<l>Saùl si appressa in sua terribil possa;</l>
+<l>carri, fanti, destrier sossopra ei mesce:</l>
+<l>gelo, in vederlo, scorre a ogni uom per l´ossa;</l>
+<l>lo spavento d´Iddio dagli occhi gli esce.</l>
+<l>Figli di Ammòn, dov´è la ria baldanza?</l>
+<l>dove gli spregi, e l´insultar, che al giusto</l>
+<l>popol di Dio già feste?</l>
+<l>Ecco ora il piano ai vostri corpi angusto;</l>
+<l>ecco, a noi messe sanguinosa avanza</l>
+<l>di vostre tronche teste:</l>
+<l>ecco ove mena in falsi iddii fidanza. —</l>
+<l>Ma, donde ascolto altra guerriera tromba</l>
+<l>mugghiar repente?</l>
+<l>è il brando stesso di Saùl, che intomba</l>
+<l>d´Edom la gente.</l>
+<l>Così Moàb, Soba così sen vanno,</l>
+<l>con l´iniqua Amalèch, disperse in polve:</l>
+<l>Saùl, torrente al rinnovar dell´anno,</l>
+<l>tutto inonda, scompon, schianta, travolve».</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Ben questo è grido de´ miei tempi antichi,</l>
+<l>che dal sepolcro a gloria or mi richiama.</l>
+<l>Vivo, in udirlo, ne´ miei fervidi anni... —</l>
+<l>Che dico?... ahi lasso! a me di guerra il grido</l>
+<l>si addice omai?... L´ozio, l´oblio, la pace,</l>
+<l part="I">chiamano il veglio a sé.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Pace si canti. —</l>
+<l>«Stanco, assetato, in riva</l>
+<l>del fiumicel natìo,</l>
+<l>siede il campion di Dio,</l>
+<l>all´ombra sempre–viva</l>
+<l>del sospirato alloro.</l>
+<l>Sua dolce e cara prole,</l>
+<l>nel porgergli ristoro,</l>
+<l>del suo affanno si duole,</l>
+<l>ma del suo rieder gode;</l>
+<l>e pianger ciascun s´ode</l>
+<l>teneramente,</l>
+<l>soavemente</l>
+<l>sì, che il dir non v´arriva.</l>
+<l>L´una sua figlia slaccia</l>
+<l>l´elmo folgoreggiante;</l>
+<l>e la consorte amante,</l>
+<l>sottentrando, lo abbraccia:</l>
+<l>l´altra, l´augusta fronte</l>
+<l>dal sudor polveroso</l>
+<l>terge, col puro fonte:</l>
+<l>quale, un nembo odoroso</l>
+<l>di fior sovr´esso spande:</l>
+<l>qual, le man venerande</l>
+<l>di pianto bagna:</l>
+<l>e qual si lagna,</l>
+<l>più ch´ella faccia.</l>
+<l>Ma ferve in ben altr´opra</l>
+<l>lo stuol del miglior sesso.</l>
+<l>Finché venga il suo amplesso,</l>
+<l>qui l´un figlio si adopra</l>
+<l>in rifar mondo e terso</l>
+<l>lo insanguinato brando:</l>
+<l>là, d´invidia cosperso,</l>
+<l>dice il secondo: e quando</l>
+<l>palleggerò quest´asta,</l>
+<l>cui mia destra or non basta?</l>
+<l>Lo scudo il terzo,</l>
+<l>con giovin scherzo,</l>
+<l>prova come il ricopra</l>
+<l>Di gioia lagrima</l>
+<l>su l´occhio turgido</l>
+<l>del re si sta:</l>
+<l>ch´ei di sua nobile</l>
+<l>progenie amabile</l>
+<l>è l´alma, e il sa.</l>
+<l>Oh bella la pace!</l>
+<l>Oh grato il soggiorno,</l>
+<l>là dove hai dintorno</l>
+<l>amor sì verace,</l>
+<l>sì candida fé!</l>
+<l>Ma il sol già celasi;</l>
+<l>tace ogni zeffiro;</l>
+<l>e in sonno placido</l>
+<l>sopito è il re». —</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Felice il padre di tal prole! Oh bella</l>
+<l>pace dell´alma!... Entro mie vene un latte</l>
+<l>scorrer mi sento di tutta dolcezza... —</l>
+<l>Ma, che pretendi or tu? Saùl far vile</l>
+<l>infra i domestich´ozi? Il pro´ Saulle</l>
+<l>di guerra or forse arnese inutil giace?</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>«Il re posa, ma i sogni del forte</l>
+<l>con tremende sembianze gli vanno</l>
+<l>presentando i fantasmi di morte.</l>
+<l>Ecco il vinto nemico tiranno,</l>
+<l>di sua man già trafitto in battaglia;</l>
+<l>ombra orribil, che omai non fa danno.</l>
+<l>Ecco un lampo, che tutti abbarbaglia...</l>
+<l>Quel suo brando, che ad uom non perdona,</l>
+<l>e ogni prode al codardo ragguaglia. —</l>
+<l>Tal, non sempre la selva risuona</l>
+<l>del Leone al terribil ruggito,</l>
+<l>ch´egli in calma anco i sensi abbandona;</l>
+<l>né il tacersi dell´antro romito</l>
+<l>all´armento già rende il coraggio;</l>
+<l>né il pastor si sta men sbigottito,</l>
+<l>ch´ei sa, ch´esce a più sangue ed oltraggio.</l>
+<l>Ma il re già già si desta:</l>
+<l>armi, armi, ei grida.</l>
+<l>Guerriero omai qual resta?</l>
+<l>Chi, chi lo sfida?</l>
+<l>Veggio una striscia di terribil fuoco,</l>
+<l>cui forza è loco — dien le ostili squadre.</l>
+<l>Tutte veggio adre — di sangue infedele</l>
+<l>l´armi a Israèle. — Il fero fulmin piomba,</l>
+<l>sasso di fromba — assai men ratto fugge,</l>
+<l>di quel che strugge — il feritor sovrano,</l>
+<l>col ferro in mano. — A inarrivabil volo,</l>
+<l>fin presso al polo — aquila altera ei stende</l>
+<l>le reverende — risuonanti penne,</l>
+<l>cui da Dio tenne, — ad annullar quegli empi,</l>
+<l>che in falsi tempi — han simulacri rei</l>
+<l>fatti lor Dei. — Già da lontano io ´l seguo;</l>
+<l>e il Filisteo perseguo,</l>
+<l>e incalzo, e atterro, e sperdo; e assai ben mostro</l>
+<l>che due spade ha nel campo il popol nostro».</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Chi, chi si vanta? Havvi altra spada in campo,</l>
+<l>che questa mia, ch´io snudo? Empio è, si uccida,</l>
+<l part="I">pera, chi la sprezzò.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">T´arresta: oh cielo!...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="I">Padre! che fai?...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="M">Misero re!</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Deh! fuggi...</l>
+<l>a gran pena il teniam; deh! fuggi, o sposo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>GIONATA, SAUL, MICOL</stage>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">O padre amato,... arrestati...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">T´arresta...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Chi mi rattien? chi ardisce?... Ov´è il mio brando?</l>
+<l part="I">Mi si renda il mio brando...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">... Ah! con noi vieni,</l>
+<l>diletto padre: io non ti lascio ir oltre.</l>
+<l>Vedi, non è co´ figli tuoi persona:</l>
+<l>con noi ritorna alla tua tenda: hai d´uopo</l>
+<l>or di quiete. Ah! vieni: ogni ira cessi;</l>
+<l part="I">stai co´ tuoi figli...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">E gli avrai sempre al fianco...</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>GIONATA, MICOL</stage>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Gionata, dimmi; al padiglion del padre</l>
+<l part="I">può tornare il mio sposo?</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Ah! no: placato</l>
+<l>non è con lui Saùl; benché in se stesso</l>
+<l>sia appien tornato: ma profonda è troppo</l>
+<l>in lui la invidia; e fia il sanarla lungo.</l>
+<l part="I">Torna al tuo sposo, e nol lasciare.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ahi lassa!...</l>
+<l>Chi più di me infelice?... Io l´ho nascosto</l>
+<l>sì ben, ch´uom mai nol troveria: men riedo</l>
+<l part="I">ver esso dunque.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Oh cielo! ecco, sen viene</l>
+<l>turbato il padre: ei mai non trova stanza.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Misera me!... Che gli dirò?... Sottrarmi</l>
+<l part="I">voglio...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>SAUL, MICOL, GIONATA</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Chi fugge al venir mio? Tu, donna?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">Signor...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="M">Davide ov´è?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="M">... Nol so...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Nol sai?</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="I">Padre...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Cercane; va´; qui tosto il traggi.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">Io rintracciarlo?... or,... dove?</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Il re parlotti,</l>
+<l part="I">e obbedito non l´hai?</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>SAUL, GIONATA</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">... Gionata, m´ami?...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Oh padre!... Io t´amo: ma ad un tempo io cara</l>
+<l>tengo la gloria tua: quindi, ai non giusti</l>
+<l>impeti tuoi, qual figlio opporsi il puote,</l>
+<l part="I">io mi oppongo talvolta.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Al padre il braccio</l>
+<l>spesso rattieni tu: ma, quel mio ferro,</l>
+<l>che ad altri in petto immerger non mi lasci,</l>
+<l>nel tuo petto il ritorci. Or serba, serba</l>
+<l>codesto David vivo; in breve ei fia...</l>
+<l>Voce non odi entro il tuo cor, che grida?</l>
+<l>«David fia ´l re.» — David? fia spento innanzi.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>E nel tuo cuore, in più terribil voce,</l>
+<l>Dio non ti grida? «Il mio diletto è David;</l>
+<l>uom del Signore egli è». Tal nol palesa</l>
+<l>ogni atto suo? La fera invida rabbia</l>
+<l>d´Abner, non fassi al suo cospetto muta?</l>
+<l>Tu stesso, allor che in te rientri, al solo</l>
+<l>apparir suo, non vedi i tuoi sospetti</l>
+<l>sparir, qual nebbia del pianeta al raggio?</l>
+<l>E quando in te maligno spirto riede,</l>
+<l>credi tu allor, ch´io tel rattenga, il braccio?</l>
+<l>Dio tel rattiene. Il mal brandito ferro</l>
+<l>gli appunteresti al petto appena, e tosto</l>
+<l>forza ti fora il ritrarlo: cadresti</l>
+<l>tu stesso in pianto a´ piedi suoi; tu padre,</l>
+<l part="I">pentito, sì: ch´empio, nol sei...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Pur troppo,</l>
+<l>vero tu parli. Inesplicabil cosa</l>
+<l>questo David per me. Non pria veduto</l>
+<l>io l´ebbi in Ela, che a´ miei sguardi ei piacque,</l>
+<l>ma al cor non mai. Quando ad amarlo io presso</l>
+<l>quasi sarei, feroce sdegno piomba</l>
+<l>in mezzo, e men divide: il voglio appena</l>
+<l>spento, s´io il veggo, ei mi disarma, e colma</l>
+<l>di maraviglia tanta, ch´io divento</l>
+<l>al suo cospetto un nulla... Ah! questa al certo,</l>
+<l>vendetta è questa della man sovrana.</l>
+<l>Or comincio a conoscerti, o tremenda</l>
+<l>mano... Ma che? donde cagione io cerco?...</l>
+<l>Dio, non l´offesi io mai: vendetta è questa</l>
+<l>de´ sacerdoti. Egli è stromento David</l>
+<l>sacerdotale, iniquo: in Rama ei vide</l>
+<l>Samuèl moribondo: a lui gli estremi</l>
+<l>detti parlava l´implacabil veglio.</l>
+<l>Chi sa, chi sa, se il sacro olio celeste,</l>
+<l>ond´ei mia fronte unse già pria, versato</l>
+<l>non ha il fellon su la nemica testa?</l>
+<l>Forse tu il sai... Parla... Ah! sì, il sai: favella.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Padre, nol so: ma, se pur fosse, io forse</l>
+<l>al par di te di ciò tenermi offeso</l>
+<l>or non dovrei? non ti son figlio io primo?</l>
+<l>Ove tu giaccia co´ tuoi padri, il trono</l>
+<l>non destini tu a me? S´io dunque taccio,</l>
+<l>chi può farne querela? Assai mi avanza</l>
+<l>in coraggio, in virtude, in senno, in tutto,</l>
+<l>David: quant´ei più val, tanto io più l´amo.</l>
+<l>Or, se chi dona e toglie i regni, il desse</l>
+<l>a David mai, prova maggior qual altra</l>
+<l>poss´io bramarne? ei più di me n´è degno:</l>
+<l>e condottier de´ figli suoi lo appella</l>
+<l>ad alte cose Iddio. — Ma intanto, io giuro,</l>
+<l>che a te suddito fido egli era sempre,</l>
+<l>e leal figlio. Or l´avvenir concedi</l>
+<l>a Dio, cui spetta: ed il tuo cor frattanto</l>
+<l>contro Dio, contro il ver, deh! non s´induri.</l>
+<l>Se in Samuèl non favellava un Nume,</l>
+<l>come, con semplice atto, infermo un veglio,</l>
+<l>già del sepolcro a mezzo, oprar potea</l>
+<l>tanto per David mai? Quel misto ignoto</l>
+<l>d´odio e rispetto, che per David senti;</l>
+<l>quel palpitar della battaglia al nome,</l>
+<l>(timor da te non conosciuto in pria)</l>
+<l>donde ti vien, Saulle? Havvi possanza</l>
+<l part="I">d´uom, che a ciò basti?...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Oh! che favelli? figlio</l>
+<l>di Saùl tu? — Nulla a te cal del trono? —</l>
+<l>Ma, il crudel dritto di chi ´l tien, nol sai?</l>
+<l>Spenta mia casa, e da radice svelta</l>
+<l>fia da colui, che usurperà il mio scettro.</l>
+<l>I tuoi fratelli, i figli tuoi, tu stesso...</l>
+<l>non rimarrà della mia stirpe nullo...</l>
+<l>O ria di regno insaziabil sete,</l>
+<l>che non fai tu? Per aver regno, uccide</l>
+<l>il fratello il fratel; la madre i figli;</l>
+<l>la consorte il marito; il figlio il padre...</l>
+<l>Seggio è di sangue, e d´empietade, il trono.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Scudo havvi d´uom contro al celeste brando?</l>
+<l>Non le minacce, i preghi allentar ponno</l>
+<l>l´ira di Dio terribil, che il superbo</l>
+<l>rompe, e su l´umil lieve lieve passa.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>SAUL, GIONATA, ABNER, ACHIMELECH, <emph>soldati</emph></stage>
+<sp><speaker><emph>Abner</emph></speaker>
+<l>Re, s´io ti torno innante, anzi che rivi</l>
+<l>scorran per me dell´inimico sangue,</l>
+<l>alta cagione a ciò mi sforza. Il prode</l>
+<l>Davidde, il forte, in cui vittoria è posta,</l>
+<l>non è chi il trovi. Un´ora manca appena</l>
+<l>alla prefissa pugna: odi, frementi</l>
+<l>d´impaziente ardore, i guerrier l´aure</l>
+<l>empier di strida; e ribombar la terra</l>
+<l>al flagellar della ferrata zampa</l>
+<l>de´ focosi destrieri: urli, nitrìti,</l>
+<l>sfolgoreggiar d´elmi e di brandi, e tuoni</l>
+<l>da metter core in qual più sia codardo;...</l>
+<l>David, chi ´l vede? — ei non si trova. — Or, mira,</l>
+<l>(soccorso in ver del ciel!) mira chi in campo</l>
+<l>in sua vece si sta. Costui, che in molle</l>
+<l>candido lin sacerdotal si avvolge,</l>
+<l>furtivo in campo, ai Beniamìti accanto,</l>
+<l>si appiattava tremante. Eccolo; n´odi</l>
+<l>l´alta cagion, che a tal periglio il guida.</l>
+</sp>
+<sp><speaker><emph>Achimelech</emph></speaker>
+<l>Cagion dirò, s´ira di re nol vieta...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Ira di re? tu dunque, empio, la merti?...</l>
+<l>Ma, chi se´ tu?... Conoscerti ben parmi.</l>
+<l>Del fantastico altero gregge sei</l>
+<l part="I">de´ veggenti di Rama?</l>
+</sp>
+<sp><speaker><emph>Achimelech</emph></speaker>
+<l part="F">Io vesto l´Efod:</l>
+<l>io, dei Leviti primo, ad Aròn santo,</l>
+<l>nel ministero a che il Signor lo elesse,</l>
+<l>dopo lungo ordin d´altri venerandi</l>
+<l>sacerdoti, succedo. All´arca presso,</l>
+<l>in Nobbe, io sto: l´arca del patto sacra,</l>
+<l>stava anch´ella altre volte al campo in mezzo:</l>
+<l>troppo or fia, se vi appare, anco di furto,</l>
+<l>il ministro di Dio: straniera merce</l>
+<l>è il sacerdote, ove Saulle impera:</l>
+<l>pur non l´è, no, dove Israèl combatte;</l>
+<l>se in Dio si vince, come ognor si vinse —.</l>
+<l>Me non conosci tu? qual maraviglia?</l>
+<l>e te stesso conosci? — I passi tuoi</l>
+<l>ritorti hai dal sentier, che al Signor mena;</l>
+<l>ed io là sto, nel tabernacol, dove</l>
+<l>stanza ha il gran Dio; là dove, è già gran tempo,</l>
+<l>più Saùl non si vede. Il nome io porto</l>
+<l part="I">d´Achimelèch.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Un traditor mi suona</l>
+<l>tal nome: or ti ravviso. In punto giungi</l>
+<l>al mio cospetto. Or di´, non sei tu quegli,</l>
+<l>che all´espulso Davidde asilo davi,</l>
+<l>e securtade, e nutrimento, e scampo,</l>
+<l>ed armi? E ancor, qual arme! il sacro brando</l>
+<l>del Filisteo, che appeso in voto a Dio</l>
+<l>stava allo stesso tabernacol, donde</l>
+<l>tu lo spiccavi con profana destra.</l>
+<l>E tu il cingevi al perfido nemico</l>
+<l>del tuo signor, del sol tuo re? — Tu vieni,</l>
+<l>fellone, in campo a´ tradimenti or vieni:</l>
+<l part="I">qual dubbio v´ha?</l>
+</sp>
+<sp><speaker><emph>Achimelech</emph></speaker>
+<l part="F">Certo, a tradirti io vengo;</l>
+<l>poiché vittoria ad implorare io vengo</l>
+<l>all´armi tue da Dio, che a te la niega.</l>
+<l>Son io, sì, son, quei che benigna mano</l>
+<l>a un Davidde prestai. Ma, chi è quel David?</l>
+<l>Della figlia del re non egli è sposo?</l>
+<l>Non il più prode infra i campioni suoi?</l>
+<l>Non il più bello, il più umano, il più giusto</l>
+<l>de´ figli d´Israèl? Non egli in guerra,</l>
+<l>tua forza, e ardire? entro la reggia, in pace,</l>
+<l>non ei, col canto, del tuo cor signore?</l>
+<l>Di donzelle l´amor, del popol gioia,</l>
+<l>dei nemici terror; tale era quegli,</l>
+<l>ch´io scampava. E tu stesso, agli onor primi,</l>
+<l>di´, nol tornavi or dianzi? e nol sceglievi</l>
+<l>a guidar la battaglia? a ricondurti</l>
+<l>vittoria in campo? a disgombrar temenza</l>
+<l>della rotta, che in cor ti ha posta Iddio? —</l>
+<l>Se danni me, te stesso danni a un tempo</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Or, donde in voi, donde pietade? in voi,</l>
+<l>sacerdoti crudeli, empi, assetati</l>
+<l>di sangue sempre. A Samuèl parea</l>
+<l>grave delitto il non aver io spento</l>
+<l>l´Amalechìta re, coll´armi in mano</l>
+<l>preso in battaglia; un alto re, guerriero</l>
+<l>di generosa indole ardita, e largo</l>
+<l>del proprio sangue a pro del popol suo. —</l>
+<l>Misero re! tratto a me innanzi, in duri</l>
+<l>ceppi ei venìa: serbava, ancor che vinto,</l>
+<l>nobil fierezza, che insultar non era,</l>
+<l>né un chieder pur mercé. Reo di coraggio</l>
+<l>parve egli al fero Samuèl: tre volte</l>
+<l>con la sua man sacerdotale il ferro</l>
+<l>nel petto inerme ei gl´immergea. — Son queste,</l>
+<l>queste son, vili, le battaglie vostre.</l>
+<l>Ma, contra il proprio re chi la superba</l>
+<l>fronte innalzar si attenta, in voi sostegno</l>
+<l>trova, e scudo, ed asilo. Ogni altra cura,</l>
+<l>che dell´altare, a cor vi sta. Chi sete,</l>
+<l>chi sete voi? Stirpe malnata, e cruda,</l>
+<l>che dei perigli nostri all´ombra ride;</l>
+<l>che in lino imbelle avvoltolati, ardite</l>
+<l>soverchiar noi sotto l´acciar sudanti:</l>
+<l>noi, che fra il sangue, il terrore, e la morte,</l>
+<l>per le spose, pe´ figli, e per voi stessi,</l>
+<l>meniam penosi orridi giorni ognora.</l>
+<l>Codardi, or voi, men che oziose donne,</l>
+<l>con verga vil, con studiati carmi,</l>
+<l>frenar vorreste e i brandi nostri, e noi?</l>
+</sp>
+<sp><speaker><emph>Achimelech</emph></speaker>
+<l>E tu, che sei? re della terra sei:</l>
+<l>ma, innanzi a Dio, chi re? — Saùl rientra</l>
+<l>in te; non sei, che coronata polve.</l>
+<l>Io, per me nulla son; ma fulmin sono,</l>
+<l>turbo, tempesta io son, se in me Dio scende:</l>
+<l>quel gran Dio, che ti fea; che l´occhio appena</l>
+<l>ti posa su; dov´è Saùl? — Le parti</l>
+<l>d´Agàg mal prendi; e nella via d´empiezza</l>
+<l>mal tu ne segui i passi. A un re perverso</l>
+<l>gastigo v´ha, fuor che il nemico brando?</l>
+<l>E un brando fere, che il Signor nol voglia?</l>
+<l>Le sue vendette Iddio nel marmo scrive;</l>
+<l>e le commette al Filisteo non meno,</l>
+<l>che ad Israèl. — Trema, Saùl: già in alto,</l>
+<l>in negra nube, sovr´ali di fuoco</l>
+<l>veggio librarsi il fero angel di morte:</l>
+<l>già, d´una man disnuda ei la rovente</l>
+<l>spada ultrice; dell´altra, il crin canuto</l>
+<l>ei già ti afferra della iniqua testa:</l>
+<l>trema Saùl. — Ve´ chi a morir ti spinge:</l>
+<l>costui; quest´Abner, di Satàn fratello;</l>
+<l>questi, che il vecchio cor t´apre a´ sospetti;</l>
+<l>che, di sovran guerrier, men che fanciullo</l>
+<l>ti fa. Tu, folle, or di tua casa il vero</l>
+<l>saldo sostegno rimovendo vai.</l>
+<l>Dov´è la casa di Saùl? nell´onda</l>
+<l>fondata ei l´ha; già già crolla; già cade;</l>
+<l part="I">già in cener torna: è nulla già. —</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Profeta</l>
+<l>de´ danni miei, tu pur de´ tuoi nol fosti.</l>
+<l>Visto non hai, pria di venirne in campo,</l>
+<l>che qui morresti: io tel predico; e il faccia</l>
+<l>Abner seguire. — Abner mio fido, or vanne;</l>
+<l>ogni ordin cangia dell´iniquo David;</l>
+<l>che un tradimento ogni ordin suo nasconde.</l>
+<l>Doman si pugni, al sol nascente; il puro</l>
+<l>astro esser de´ mio testimon di guerra.</l>
+<l>Pensier maligno, io ´l veggio, era di David,</l>
+<l>scegliere il sol cadente a dar nell´oste,</l>
+<l>quasi indicando il cadente mio braccio:</l>
+<l>ma, si vedrà. — Rinvigorir mi sento</l>
+<l>da tue minacce ogni guerrier mio spirto;</l>
+<l>son io ´l duce domane; intero il giorno,</l>
+<l>al gran macello ch´io farò, fia poco. —</l>
+<l>Abner, costui dal mio cospetto or tosto</l>
+<l part="I">traggi, e si uccida...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Oh ciel! padre, che fai?</l>
+<l part="I">Padre...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Taci. — Ei si sveni; e il vil suo sangue</l>
+<l part="I">su´ Filistei ricada.</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">è già con esso</l>
+<l part="I">morte...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Ma, è poco a mia vendetta ei solo.</l>
+<l>Manda in Nob l´ira mia, che armenti, e servi,</l>
+<l>madri, case, fanciulli uccida, incenda,</l>
+<l>distrugga, e tutta l´empia stirpe al vento</l>
+<l>disperda. Omai, tuoi sacerdoti a dritto</l>
+<l>dir ben potranno: «Evvi un Saùl». Mia destra,</l>
+<l>da voi sì spesso provocata al sangue,</l>
+<l>non percoteavi mai: quindi sol, quindi,</l>
+<l part="I">lo scherno d´essa.</l>
+</sp>
+<sp><speaker><emph>Achimelech</emph></speaker>
+<l part="F">A me il morir da giusto</l>
+<l>niun re può torre: onde il morir mi fia</l>
+<l>dolce non men, che glorioso. Il vostro,</l>
+<l>già da gran tempo, irrevocabilmente</l>
+<l>Dio l´ha fermato. Abner, e tu, di spada,</l>
+<l>ambo vilmente; e non di ostile spada,</l>
+<l>non in battaglia. — Or vadasi. — D´Iddio</l>
+<l>parlate all´empio ho l´ultime parole,</l>
+<l>e sordo ei fu: compiuto egli è il mio incarco:</l>
+<l part="I">ben ho spesa la vita.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Or via, si tragga</l>
+<l>a morte tosto; a cruda morte, e lunga.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>SAUL, GIONATA</stage>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l>Ahi sconsigliato re! che fai? t´arresta...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Taci; tel dico ancor. — Tu se´ guerriero? —</l>
+<l>Tu di me figlio? d´Israèl tu prode?</l>
+<l>Va´; torna in Nob; là, di costui riempi</l>
+<l>il vuoto seggio: infra i levitichi ozi</l>
+<l>degno di viver tu, non fra´ tumulti</l>
+<l part="I">di guerra; e non fra regie cure...</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Ho spento</l>
+<l>anch´io non pochi de´ nimici in campo,</l>
+<l>al fianco tuo: ma quel che or spandi, è sangue</l>
+<l>sacerdotal, non Filisteo. Tu resti</l>
+<l part="I">solo a tal empia pugna.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">E solo io basto</l>
+<l>a ogni pugna, qual sia. Tu, vile, tardo</l>
+<l>sii pur domani al battagliare: io solo</l>
+<l>Saùl sarò. Che Gionata? che David?</l>
+<l part="I">duce è Saùl.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Combatterotti appresso.</l>
+<l>Deh! morto io possa su gli occhi caderti,</l>
+<l>pria di veder ciò che sovrasta al tuo</l>
+<l part="I">sangue infelice!</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">E che sovrasta? morte?</l>
+<l>Morte in battaglia, ella è di re la morte.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>MICOL, SAUL, GIONATA</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="I">Tu, senza David?...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ritrovar nol posso...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="I">Io ´l troverò.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Lungi è fors´egli; e sfugge</l>
+<l part="I">tuo sdegno...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Ha l´ali, e il giungerà, il mio sdegno.</l>
+<l>Guai, se in battaglia David si appresenta:</l>
+<l>guai, se doman, vinta da me la guerra,</l>
+<l part="I">tu innanzi a me nol traggi.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="M">Oh cielo!</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Ah! padre...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Più non ho figli. — Infra le schiere or corri,</l>
+<l>Gionata tosto. — E tu, ricerca, e trova</l>
+<l part="I">colui.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="M">Deh!... teco...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="M">Invan.</l>
+</sp>
+<sp><speaker><emph>Gionata</emph></speaker>
+<l part="F">Padre, ch´io pugni</l>
+<l part="I">lungi da te?</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Lungi da me voi tutti.</l>
+<l>Voi mi tradite a prova, infidi, tutti.</l>
+<l>Itene, il voglio: itene al fin; lo impongo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VII</head>
+<stage>SAUL</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Sol, con me stesso, io sto. — Di me soltanto,</l>
+<l>(misero re!) di me solo io non tremo.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>DAVID, MICOL</stage>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Esci, o mio sposo; vieni: è già ben oltre</l>
+<l>la notte... Odi tu, come romoreggia</l>
+<l>il campo? all´alba pugnerassi. — Appresso</l>
+<l>al padiglion del padre tutto tace.</l>
+<l>Mira; anco il cielo il tuo fuggir seconda:</l>
+<l>la luna cade, e gli ultimi suoi raggi</l>
+<l>un negro nuvol cela. Andiamo: or niuno</l>
+<l>su noi qui veglia, andiam; per questa china</l>
+<l>scendiamo il monte, e ci accompagni Iddio.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l>Sposa, dell´alma mia parte migliore,</l>
+<l>mentre Israello a battagliar si appresta,</l>
+<l>fia pur ver che a fuggir David si appresta?</l>
+<l>Morte, ch´è in somma? — Io vo´ restar: mi uccida</l>
+<l>Saùl, se il vuol; pur ch´io nemici pria</l>
+<l part="I">in copia uccida.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ah! tu non sai: già il padre</l>
+<l>incominciò a bagnar nel sangue l´ira.</l>
+<l>Achimelèch, qui ritrovato, cadde</l>
+<l part="I">vittima già del furor suo.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Che ascolto?</l>
+<l>Ne´ sacerdoti egli ha rivolto il brando?</l>
+<l part="I">Ahi misero Saùl! ei fia...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ben altro</l>
+<l>udrai. Crudel comando ad Abner dava,</l>
+<l>ei stesso, il re; che, se in battaglia mai</l>
+<l>tu ti mostrassi, in te convertan l´armi</l>
+<l part="I">campion nostri.</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">E Gionata mio fido</l>
+<l part="I">il soffre?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh ciel! che puote? Anch´ei lo sdegno</l>
+<l>provò del padre; e disperato corre</l>
+<l>infra l´armi a morire. Omai, ben vedi,</l>
+<l>qui star non puoi: cedere è forza; andarne</l>
+<l>lungi; e aspettare, o che si cangi il padre,</l>
+<l>o che all´età soggiaccia... Ahi padre crudo!</l>
+<l>Tu stesso, tu, la misera tua figlia</l>
+<l>sforzi a bramare il fatal dì... Ma pure,</l>
+<l>io no, non bramo il morir tuo: felice</l>
+<l>vivi; vivi, se il puoi; bastami solo</l>
+<l>di rimaner per sempre col mio sposo...</l>
+<l part="I">Deh! vieni or dunque; andiamo...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Oh quanto duolmi</l>
+<l>lasciar la pugna! Ignota voce io sento</l>
+<l>gridarmi in cor: «Giunto è il terribil giorno</l>
+<l>ad Israèle, ed al suo re»... Potessi!...</l>
+<l>Ma no: qui sparso di sacri ministri</l>
+<l>fu l´innocente sangue: impuro è il campo,</l>
+<l>contaminato è il suolo; orror ne sente</l>
+<l>Iddio: pugnar non può qui omai più David. —</l>
+<l>Ceder dunque per ora al timor tuo</l>
+<l>emmi mestiero, ed all´amor tuo scaltro. —</l>
+<l>Ma tu, pur cedi al mio... Deh! sol mi lascia...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Ch´io ti lasci? Pel lembo, ecco ti afferro.</l>
+<l part="I">da te mai più, no, non mi stacco...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Ah! m´odi.</l>
+<l>Male agguagliar tuoi tardi passi a´ miei</l>
+<l>potresti: aspri sentier di sterpi e sassi</l>
+<l>convien ch´io calchi con veloci piante,</l>
+<l>a pormi in salvo, poiché il vuoi. Deh! come</l>
+<l>i piè tuoi molli, a strazio inusitato</l>
+<l>regger potranno? Infra deserti sola</l>
+<l>ch´io ti abbandoni mai? Ben vedi; tosto,</l>
+<l>per tua cagion, scoperto io fora: entrambi</l>
+<l>alla temuta ira del re davanti</l>
+<l>tosto or saremmo ricondotti... Oh cielo!</l>
+<l>solo in pensarvi, io fremo... E poniam anco,</l>
+<l>che si fuggisse; al padre egro dolente</l>
+<l>tor ti poss´io? Di guerra infra le angosce,</l>
+<l>fuor di sua reggia ei sta: dolcezza alcuna</l>
+<l>pur gli fa d´uopo al mesto antico. Ah! resta</l>
+<l>al suo pianto, al dolore, al furor suo.</l>
+<l>Tu sola il plachi; e tu lo servi, e il tieni</l>
+<l>tu sola in vita. Ei mi vuol spento; io ´l voglio</l>
+<l>salvo, felice, e vincitor:... ma, tremo</l>
+<l>oggi per lui. — Tu, pria che sposa, figlia</l>
+<l>eri; né amarmi oltre il dover ti lice.</l>
+<l>Pur ch´io scampi; che brami altro per ora?</l>
+<l>Non t´involare al già abbastanza afflitto</l>
+<l>misero padre. Appena giunto in salvo,</l>
+<l>io ten farò volar l´avviso; in breve</l>
+<l>riuniremci, spero. Or, se mi dolga</l>
+<l>di abbandonarti, il pensa... Eppure,... ahi lasso!</l>
+<l part="I">come?...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Ahi me lassa!... e ch´io ti perda ancora?...</l>
+<l>Ai passati travagli, alla vagante</l>
+<l>vita, ai perigli, alle solinghe grotte,</l>
+<l>lasciarti or solo ritornare?... Ah! s´io</l>
+<l>teco almen fossi!... i mali tuoi più lievi</l>
+<l part="I">pur farei,... dividendoli...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">Ten prego,</l>
+<l>pel nostro amor; s´è d´uopo, anco il comando,</l>
+<l>per quanto amante il possa; or non mi dei,</l>
+<l>né puoi seguir, senza mio danno espresso. —</l>
+<l>Ma, se Dio mi vuol salvo, omai non debbo</l>
+<l>indugiar più: l´ora si avanza: alcuno</l>
+<l>potria da questo padiglion spiarne,</l>
+<l>e maligno svelarci. A palmo a palmo</l>
+<l>questi monti conosco; a ogni uom sottrarmi</l>
+<l>son certo. — Or, deh! l´ultimo amplesso or dammi.</l>
+<l>Dio teco resti; e tu, rimani al padre,</l>
+<l>fin che al tuo sposo ti raggiunga il cielo...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>L´ultimo amplesso?... E ch´io non muoia?... Il core</l>
+<l part="I">strappar mi sento...</l>
+</sp>
+<sp><speaker><emph>David</emph></speaker>
+<l part="F">... Ed io?... Ma,... frena... il pianto... —</l>
+<l>Or, l´ali al piè, possente Iddio, m´impenna.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>MICOL</stage>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>... Ei fugge?... oh cielo!... Il seguirò... Ma, quali</l>
+<l>ferree catene paion rattenermi?...</l>
+<l>Seguir nol posso. — Ei mi s´invola!... Appena</l>
+<l>mi reggo,... non ch´io ´l segua... Un´altra volta</l>
+<l>perduto io l´ho!... Chi sa, quando il vedrai?...</l>
+<l>Misera donna! e sposa sei?... fur nozze</l>
+<l>le tue?... — No, no; del crudo padre al fianco</l>
+<l>più non rimango. Io vo´ seguirti, o sposo... —</l>
+<l>Pur, se il seguo, lo uccido; è ver, pur troppo!</l>
+<l>Come nasconder la mia lenta traccia,</l>
+<l>su l´orme sue veloci?... — Ma, dal campo</l>
+<l>qual odo io suon, che d´armi par?... Ben odo...</l>
+<l>ei cresce; e sordamente anco di trombe</l>
+<l>è misto... E un correr di destrieri... Oh cielo!</l>
+<l>Che fia?... La pugna anzi al tornar del giorno,</l>
+<l>non l´intimò Saùl. Chi sa?... I fratelli...</l>
+<l>il mio Gionata... Oimè!... forse in periglio... —</l>
+<l>Ma, pianto, ed urli, e gemiti profondi</l>
+<l>dal padiglion del padre odo inalzarsi?...</l>
+<l>Misero padre!... a lui si corra... Oh vista!</l>
+<l>Ei viene; ei stesso; e in quale aspetto!... Ah! padre...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>SAUL, MICOL</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Ombra adirata, e tremenda, deh! cessa:</l>
+<l>lasciami, deh!... Vedi: a´ tuoi piè mi prostro...</l>
+<l>Ahi! dove fuggo?... — ove mi ascondo? O fera</l>
+<l>ombra terribil, placati... Ma è sorda</l>
+<l>ai miei preghi; e m´incalza?... Apriti, o terra,</l>
+<l>vivo m´inghiotti... Ah! pur che il truce sguardo</l>
+<l>non mi saetti della orribil ombra...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Da chi fuggir? niun ti persegue. O padre,</l>
+<l>me tu non vedi? me più non conosci?</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>O sommo, o santo sacerdote, or vuoi</l>
+<l>ch´io qui mi arresti o Samuèl, già vero</l>
+<l>padre mio, tu l´imponi? ecco, mi atterro</l>
+<l>al tuo sovran comando. A questo capo</l>
+<l>già di tua man tu la corona hai cinta;</l>
+<l>tu il fregiasti; ogni fregio or tu gli spoglia;</l>
+<l>calcalo or tu. Ma,... la infuocata spada</l>
+<l>d´Iddio tremenda, che già già mi veggo</l>
+<l>pender sul ciglio,... o tu che il puoi, la svolgi</l>
+<l>non da me, no, ma da´ miei figli. I figli,</l>
+<l part="I">del mio fallir sono innocenti...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oh stato,</l>
+<l>cui non fu il pari mai! — Dal ver disgiunto,</l>
+<l part="I">padre, è il tuo sguardo: a me ti volgi...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Oh gioia!...</l>
+<l>Pace hai sul volto? O fero veglio, alquanto</l>
+<l>miei preghi accetti? io da´ tuoi piè non sorgo,</l>
+<l>se tu i miei figli alla crudel vendetta</l>
+<l>pria non togli. — Che parli?... Oh voce! «T´era</l>
+<l>David pur figlio; e il perseguisti, e morto</l>
+<l>pur lo volevi». Oh! che mi apponi?... Arresta.</l>
+<l>Sospendi or, deh!... Davidde ov´è? si cerchi:</l>
+<l>ei rieda; a posta sua mi uccida, e regni:</l>
+<l>sol che a´ miei figli usi pietade, ei regni... —</l>
+<l>Ma, inesorabil stai? Di sangue hai l´occhio;</l>
+<l>foco il brando e la man; dalle ampie nari</l>
+<l>torbida fiamma spiri, e in me l´avventi...</l>
+<l>Già tocco m´ha; già m´arde: ahi! dove fuggo?...</l>
+<l part="I">per questa parte io scamperò.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Né fia,</l>
+<l>ch´io rattener ti possa, né ritrarti</l>
+<l part="I">al vero? Ah! m´odi: or sei...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Ma no; che il passo</l>
+<l>di là mi serra un gran fiume di sangue.</l>
+<l>Oh vista atroce! sovra ambe le rive,</l>
+<l>di recenti cadaveri gran fasci</l>
+<l>ammonticati stanno: ah! tutto è morte</l>
+<l>colà: qui dunque io fuggirò... Che veggo?</l>
+<l>Chi sete or voi? — «D´Achimelèch siam figli.</l>
+<l>Achimelèch son io. Muori, Saulle,</l>
+<l>muori». — Quai grida? Ah! lo ravviso: ei gronda</l>
+<l>di fresco sangue, e il mio sangue ei si beve.</l>
+<l>Ma chi da tergo, oh! chi pel crin mi afferra?</l>
+<l>Tu, Samuèl? — Che disse? che in brev´ora</l>
+<l>seco tutti saremo? Io solo, io solo</l>
+<l>teco sarò; ma i figli... — Ove son io? —</l>
+<l>Tutte spariro ad un istante l´ombre.</l>
+<l>Che dissi? Ove son io? Che fo? Chi sei?</l>
+<l>Qual fragor odo? ah! di battaglia parmi:</l>
+<l>pur non aggiorna ancor: sì, di battaglia</l>
+<l>fragore egli è. L´elmo, lo scudo, l´asta,</l>
+<l>tosto or via, mi si rechi: or tosto l´arme,</l>
+<l>l´arme del re. Morir vogl´io, ma in campo.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Padre, che fai? Ti acqueta... Alla tua figlia...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>L´armi vogl´io; che figlia? Or, mi obbedisci.</l>
+<l>L´asta, l´elmo, lo scudo; ecco i miei figli</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">Io non ti lascio, ah! no...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Squillan più forte</l>
+<l>le trombe? Ivi si vada: a me il mio brando</l>
+<l>basta solo. — Tu, scostati, mi lascia;</l>
+<l>obbedisci. Là corro: ivi si alberga</l>
+<l part="I">morte, ch´io cerco.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>SAUL, MICOL, ABNER, <emph>con pochi soldati fuggitivi</emph></stage>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Oh re infelice!... Or dove,</l>
+<l>deh! dove corri? Orribil notte è questa.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="I">Ma, perché la battaglia?...</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Di repente,</l>
+<l>il nemico ci assale: appien sconfitti</l>
+<l part="I">siam noi...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Sconfitti? E tu fellon, tu vivi?</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l>Io? per salvarti vivo. Or or qui forse</l>
+<l>Filiste inonda: il fero impeto primo</l>
+<l>forza è schivare: aggiornerà frattanto.</l>
+<l>Te più all´erta quassù, fra i pochi miei,</l>
+<l part="I">trarrò...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Ch´io viva, ove il mio popol cade?</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l>Deh! vieni... Oimè! cresce il fragor: s´inoltra...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l>Gionata,... e i figli miei,... fuggono anch´essi?</l>
+<l part="I">mi abbandonano?...</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">Oh cielo!... I figli tuoi,...</l>
+<l part="I">no, non fuggiro... Ahi miseri!...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">T´intendo:</l>
+<l part="I">morti or cadono tutti...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Oimè!... I fratelli?...</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="I">Ah! più figli non hai.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">— Ch´altro mi avanza?...</l>
+<l>Tu sola omai, ma non a me, rimani. —</l>
+<l>Io da gran tempo in cor già tutto ho fermo:</l>
+<l>e giunta è l´ora. — Abner, l´estremo è questo</l>
+<l>de´ miei comandi. Or la mia figlia scorgi</l>
+<l part="I">in securtà.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">No, padre; a te dintorno</l>
+<l>mi avvinghierò: contro a donzella il ferro</l>
+<l part="I">non vibrerà il nemico.</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Oh figlia!... Or, taci:</l>
+<l>non far, ch´io pianga. Vinto re non piange.</l>
+<l>Abner, salvala, va´: ma, se pur mai</l>
+<l>ella cadesse infra nemiche mani,</l>
+<l>deh! non dir, no, che di Saulle è figlia;</l>
+<l>tosto di´ lor, ch´ella è di David sposa;</l>
+<l part="I">rispetteranla. Va´; vola...</l>
+</sp>
+<sp><speaker><emph>Abner</emph></speaker>
+<l part="F">S´io nulla</l>
+<l>valgo, fia salva, il giuro; ma ad un tempo</l>
+<l part="I">te pur...</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="F">Deh!... padre... Io non ti vo´, non voglio</l>
+<l part="I">lasciarti...</l>
+</sp>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Io voglio: e ancora il re son io.</l>
+<l>Ma già si appressan l´armi: Abner, deh! vola:</l>
+<l>teco, anco a forza, s´è mestier, la traggi.</l>
+</sp>
+<sp><speaker><emph>Micol</emph></speaker>
+<l part="I">Padre!... e per sempre?...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>SAUL</stage>
+<sp><speaker><emph>Saul</emph></speaker>
+<l part="F">Oh figli miei!... — Fui padre. —</l>
+<l>Eccoti solo, o re; non un ti resta</l>
+<l>dei tanti amici, o servi tuoi. — Sei paga,</l>
+<l>d´inesorabil Dio terribil ira? —</l>
+<l>Ma, tu mi resti, o brando: all´ultim´uopo,</l>
+<l>fido ministro, or vieni. — Ecco già gli urli</l>
+<l>dell´insolente vincitor: sul ciglio</l>
+<l>già lor fiaccole ardenti balenarmi</l>
+<l>veggo, e le spade a mille... — Empia Filiste,</l>
+<l>me troverai, ma almen da re, qui... morto. —</l>
+</sp>
+<stage><emph>Nell´atto ch´ei trafitto su la propria spada, soprarrivano in folla i Filistei vittoriosi con fiaccole incendiarie, e brandi insanguinati. Mentre costoro corrono con alte grida verso Saùl, cade il sipario</emph></stage>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

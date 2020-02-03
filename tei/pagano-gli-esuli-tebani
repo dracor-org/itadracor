@@ -1,0 +1,2836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Gli esuli tebani</title>
+      <author>Francesco Mario Pagano</author>
+    </titleStmt>
+    <extent>107 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit000812</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Teatrali contese</title>
+        <title type="part">tomo</title>
+        <author>Pagano, Francesco Mario</author>
+        <editor id="ed">Granese, Alberto</editor>
+        <publisher>Edisud</publisher>
+        <pubPlace>Salerno</pubPlace>
+        <date>1999</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">italiano</language><language id="lat">latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Salerno</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Salerno</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2005-01-18T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Antonio Elefante</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2005-01-18T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	<text>
+		<front>
+
+			<div1 n="Dedica">
+				<head>
+					<hi rend="Italic">A S. E., il Sign. Cav. D. Gaetano Filangieri,
+	de’ prìncipi d"Arianello, gentiluomo di camera
+        e maggiordomo di stagetimana di S. M., ufiziale nel Real corpo
+	de’ volontari di marina</hi>.</head>
+				<p>
+					<hi rend="Italic">Nel fortunato giorno, nel quale, già volge il dodicesimo anno, io mi
+esposi nell"Università napoletana al pubblico cimento del concorso per la cattedra
+dell"Etica di Aristotile, per la prima volta mi concedette la sorte, in un discorso sul sistema
+morale del gran filosofo stagirita avuto coll"E. V., di ravvisare nel di lei elevato spirito
+que’ rari semi d"ingegno che, fecondati poi col tempo, in tant"ampiezza e sublimità
+germogliarono; e mi apparvero altresì le nobili scintille di non ordinaria virtù,
+che poi, destate ed accresciute, in Italia e fuori con tanta luce e gloria vi manifestarono a
+tutti. Dopo lungo tempo mi si presentò di nuovo l"occasione di rinnovare la conoscenza
+antica e la mia servitù, quando di già il romore del vostro nome immortale avea
+scossa l"Italia e di là delle Alpi erasi ancora udito. Ma’ non prima d"ora
+(ciò che ho sempre sommamente desiderato) ho potuto con un pubblico monumento attestarvi
+la mia profonda venerazione e stima della vostra grande virtù me mi si è al presente
+offerta l"opportunità di fare</hi>.</p>
+				<p>
+					<hi rend="Italic">Tra le penose e moleste cure, tra gli strepiti e romori del foro, ho fatto una pruova
+delle mie deboli forze in una difficile impresa, quale e quanta per l"appunto si è
+una regolare tragedia. Ed avendone una formata, come per saggio, ho ardito di presentarla
+all’augusto ed incorruttibile tribunale de’ dotti, de’ quali le discrete correzioni
+le potranno in una ristampa procurare quel pregio, che ora per sé non ha. Le mie forensi
+occupazioni mi fanno sperare un compatimento umano:</hi>
+										<foreign lang="lat">
+						<quote rend="block">
+						<lg>
+								<l>Haec quoque, quae facio, iudex mirabitur aequus, </l>
+								<l>Scriptaque cum venia, qualiacumque leget. </l>
+						</lg></quote>
+						</foreign>
+									</p>
+				<p>
+					<hi rend="Italic">Or, qualunque ella pur siasi, io ve la presento ed offro per segno e testimonio del
+mio grande ossequio e devozione.</hi>
+				</p>
+				<p>
+					<hi rend="Italic">Ma perché il dono non fosse così picciolo di mole, come é pur di
+valore, alla tragedia aggiunsi la mia orazione latina, anni addietro data alla luce, della
+vittoria moscovita, nell'arcipelago riportata contro l'ottomana potenza, ed altresì
+la lettera, onde col dono di una medaglia mi onorò il signor Domasnev, presidente di
+quella Imperial Accademia di Pietroburgo.</hi>
+				</p>
+				<p>
+					<hi rend="Italic">Or altra cosa a soggiunger non mi rimane. Forse dovrei, secondo il volgar costume di coloro
+che fanno le dediche, intessere il vostro elogio? Ma il vostro solo nome compiutamente lo fa.
+Esso ne desta l"idea dell"entusiasta amico dell"uomo, dell"eloquente e profondo politico, di
+colui finalmente che forma la felicità e la delizia degli amici ed è l"oggetto
+della stima de’ generosi allievi delle Muse; e, se questo a grandi uomini altresì
+conviene, io dirò del mio culto ancora. Onde soverchia sarebbe ogni qualsiasi lode.</hi>
+				</p>
+				<p>
+					<hi rend="Italic">Piacciavi adunque di rimirare non la viltà del dono, ma l"animo di chi vel presenta,
+mentre io ripieno della nobile idea della vostra amicizia (mio inestimabile pregio), mi annunzio
+per sempre</hi>
+				</p>
+				<closer>di V. E. Devotiss. obligatiss. servidore
+<signed>Francesco Mario Pagano
+</signed>
+				</closer>
+			</div1>
+			<castList>
+				<head>Attori</head>
+				<castItem>
+					<role>Pelopida</role>
+					<roleDesc>
+		capo degli esuli
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Carone</role>
+					<roleDesc>
+		principal cittadino di Tebe
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Emonte</role>
+					<roleDesc>
+		amico di Carone e sposo d"Ismene
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Ismene</role>
+					<roleDesc>
+		sorella di Carone
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Aspasia</role>
+					<roleDesc>
+		moglie di Carone
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Leontida</role>
+					<roleDesc>
+		capo dell"oligarchia e tiranno di Tebe
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Servo di Carone</role>
+				</castItem>
+				<castItem>
+					<role>Polinice</role>
+					<roleDesc>
+		figlio di Carone
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Telefo</role>
+					<roleDesc>
+		domestico di Fillia, un de’ congiurati, che non viene nella scena
+	</roleDesc>
+				</castItem>
+				<castItem>
+					<role>Polifonte</role>
+					<roleDesc>
+		capitano della guardia d’ tiranni
+	</roleDesc>
+				</castItem>
+			</castList>
+			<set>
+				<p>
+					<hi rend="italic">La scena è in una gran sala della casa di Carone, nella quale vi
+è un"ara co’ simulacri di Pallade, Bacco, Ercole ed Apollo.</hi>
+				</p>
+			</set>
+		</front>
+		<body>
+			<div1 type="atto">
+				<head>ATTO PRIMO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>EMONTE, CARONE</stage>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Perché mai sì pensoso e sì turbato</l>
+						<l>Tu sei, Carone? in qual tumulto e in quale</l>
+						<l>Aspra procella di pensieri ondeggi?</l>
+						<l>Or fiso al suolo il guardo tieni or volgi</l>
+						<l>Intorno i lumi irrequieti. Grandi</l>
+						<l>Cose mi par che l"agitata mente</l>
+						<l>In sé rivolga e chiuda: ah, se hai tu pruova</l>
+						<l>D"Emonte tuo, della sua fé costante,</l>
+						<l>Fa che a parte ancor sia dell"alta cura</l>
+						<l part="I">Che t"affanna cotanto.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l part="F">O sovr" ogni altro</l>
+						<l>A me caro e diletto, i rari sensi</l>
+						<l>Dell"amistà pi?a e della patria</l>
+						<l>L"acceso amor, che nel tuo petto annida,</l>
+						<l>Degno ti fero già d"esser a parte</l>
+						<l>Del  gran segreto che nel petto io serbo.</l>
+						<l>Ed or che sono all"alta impresa accinto,</l>
+						<l>Compagno a me sarai nel gran cimento.</l>
+						<l>Della virtù tebana invida Sparta</l>
+						<l>Sai, che di più tiranni all"aspro giogo</l>
+						<l>Ci fé piegare il dorso, onde il valore,</l>
+						<l>Che della libertà si nutre all"aura,</l>
+						<l>Nell"emula città vedesse estinto.</l>
+						<l>Quindi il fiero Leontida, e i suoi pochi</l>
+						<l>Fidi compagni, del beozio suolo</l>
+						<l>E della sempre invitta e sacra Tebe</l>
+						<l>Strinsero a lor talento il duro freno.</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>E a che ripeti il nostro antico affanno</l>
+						<l>E cose a me ben note?</l>
+						<l>La ferale memoria acerba ho sempre</l>
+						<l>Scolpita in mente del funesto giorno,</l>
+						<l>Che i più famosi cittadini e saggi,</l>
+						<l>Come sospetti a quel novello impero,</l>
+						<l>Vittime sventurate ed infelici</l>
+						<l>Dell"empia tirannia,  furo svenati</l>
+						<l>O da’ figli divisi e dalle mogli,</l>
+						<l>Afflitti e bisognosi</l>
+						<l>Lungi dal patrio suol n"andaro in bando.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Or ho pi?te alla tua fé commesso</l>
+						<l>Che, stanchi alfin gli Dei che han Tebe in cura</l>
+						<l>Di sopportar sì obbrobrioso oltraggio,</l>
+						<l>Il generoso cor del gran Pelopida</l>
+						<l>Hanno destato a liberar la patria</l>
+						<l>Dalle gravi ed orribili catene</l>
+						<l>Sotto al cui peso misera si duole.</l>
+						<l>Or sappi, Emonte amato,</l>
+						<l>Che fra pochi momenti,</l>
+						<l>Seguìto dagli altri esuli tebani,</l>
+						<l>Pelopida sarà	 tra queste mura;</l>
+						<l>Ed opportuno è il tempo,</l>
+						<l>Perché i tiranni tutti alla vegnente</l>
+						<l>Notte saran del nostro Fillia a mensa.</l>
+						<l>Fra la crapula e ‘l vin facile impresa</l>
+						<l>Sarà  perderli tutti; or tu, che sei</l>
+						<l>Esempio e specchio di gentil valore</l>
+						<l>Alla tebana gioventù, richiama</l>
+						<l>Al cor la tua virtude</l>
+						<l>E all"impresa magnanima il tuo petto</l>
+						<l>Disponi e il braccio porgi al gran disegno.</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Ah! che grato mi sia per sì  bell"opra</l>
+						<l>Spargere il sangue mio.</l>
+						<l>Molte volte, tu il sai, seguir promisi</l>
+						<l>La tua fortuna, sia felice o rea.</l>
+						<l>Ch"oltre il dover di cittadin onesto,</l>
+						<l>A te mi stringe il bel soave nodo</l>
+						<l>Che fra poco alla tua sorella Ismene</l>
+						<l>Mi legherà, se mai destin crudele</l>
+						<l>Non turbi invidioso il mio contento.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Su la mia fé  riposa. Or la tua patria</l>
+						<l>Servi con zelo e Ismene in premio attendi.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>PELOPIDA, CARONE, <hi rend="Italic">gli</hi> ESULI <hi rend="Italic">da cacciatori</hi>
+					</stage>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Amici, ormai siam giunti. O patri Numi!</l>
+						<l>O lari, o tombe antiche,</l>
+						<l>Che de’ padri chiudete il cener santo,</l>
+						<l>O sacre, amate mura della mia</l>
+						<l>Terra nativa, a riveder vi torno</l>
+						<l>Alfin, dopo tanti anni; ché da voi</l>
+						<l>Mi discacciò quell"empia mano istessa,</l>
+						<l>Che del sangue civil vi asperse e tinse.</l>
+						<l>Delle nostre miserie il fine è giunto.</l>
+						<l>Il Ciel seconda il bel disegno. Giove,</l>
+						<l>Di folta neve al suol spargendo un nembo,</l>
+						<l>L"aer fé spesso e denso,</l>
+						<l>Sicché ne tolse al guardo altrui. Celati</l>
+						<l>Qui giunti siamo ed a’ tiranni ignoti.</l>
+						<l>Il favore del Ciel aperto io scorgo.</l>
+						<l>Son tuoi gli auguri, o Giove, e tu, propizio,</l>
+						<l>La giusta impresa al suo bel fin conduci.</l>
+						<l>Ma vien Carone. O mio diletto amico,</l>
+						<l>Gloria di Tebe, alle mie braccia vieni.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Metà dell"alma mia!</l>
+						<l>O Pelopida invitto! Alfin al Cielo</l>
+						<l>Piacque che prima del mio fato estremo</l>
+						<l>Io ti rivegga e la mia man congiunga</l>
+						<l>A questa tua, sostegno e solo appoggio</l>
+						<l>Della cadente patria.</l>
+						<l>Del fato avverso or più non temo l"ira:</l>
+						<l>Già la mia speme è giunta a riva. Io veggio</l>
+						<l>Di servitù la fine, i lacci infranti</l>
+						<l>E veggio ancor del sangue de’ tiranni</l>
+						<l>L"Ismeno correr tinto e gonfio al mare.</l>
+						<l>Ma quanti son gli amici</l>
+						<l>Venuti della patria al pio soccorso?</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Cento nel borgo sono all"armi pronti</l>
+						<l>Oltre costor che vedi or qui, bramosi</l>
+						<l>Per la patria versar tutto il lor sangue.</l>
+						<l>Di cacciatori in abiti mentiti</l>
+						<l>Noi soli ardimmo trapassar per mezzo</l>
+						<l>L"armate schiere de’ tiranni, a’ quali</l>
+						<l>Sospetto e reo timor son sempre al fianco.</l>
+						<l>Ma tu di Tebe i congiurati insieme</l>
+						<l>Hai raccolti, e son pronti alla grand"opra?</l>
+						<l>Fillia che fa? serbò le sue promesse?</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Son tutti accinti e avvampano di zelo</l>
+						<l>Di liberar la patria o di morire.</l>
+						<l>Fillia tutto dispose.</l>
+						<l>Dal dì che un Nume amico</l>
+						<l>La mente t"ispirò romper il giogo</l>
+						<l>Che alla tua patria la cervice altera</l>
+						<l>Fece chinare al suolo,</l>
+						<l>E i fidi amici pur scegliesti a parte</l>
+						<l>Del gran disegno, Fillia chiuse in petto</l>
+						<l>Contro a’ tiranni l"acerbo odio e fiero</l>
+						<l>E fingendo amistà con lor si strinse;</l>
+						<l>Ché, quando è generoso e retto il fine,</l>
+						<l>Il finger è lodato.</l>
+						<l>Non han perciò di Fillia più sospetto,</l>
+						<l>Sicché ei divenne il lor più stretto amico.</l>
+						<l>Col confirmato impero ne’ tiranni</l>
+						<l>Scema il sospetto e in lor fiducia cresce.</l>
+						<l>Quindi costor omai corron sicuri</l>
+						<l>Nella rete fatal, ove gli attende</l>
+						<l>Inevitabil, non temuta morte.</l>
+						<l>Nella casa di Fillia or son raccolti,</l>
+						<l>Ove s"appresta splendido convito</l>
+						<l>Che da gran tempo lor Fillia promise.</l>
+						<l>Quivi speran passar l"intera notte</l>
+						<l>Fra tazze e suoni nel piacer disciolti.</l>
+						<l>Ma la morte fra tazze e suoni ascosa</l>
+						<l>Lancerà loro irreparabil telo.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Fortuna sia propizia al bel pensiero,</l>
+						<l>Ma fa mestier che ben si pesi, pria </l>
+						<l>Che ad effetto si ponga un gran disegno.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Egli è pur vero, amico.</l>
+						<l>E se ogni impresa di maturo esame</l>
+						<l>Ha bisogno, sovra ogni altra al certo</l>
+						<l>È la congiura. Più terribil cosa</l>
+						<l>E di maggior periglio uom non attenta.</l>
+						<l>Io ben tutto disposi.</l>
+						<l>Or fin che non s"avanzi più la notte</l>
+						<l>Quai nuove cose, oh Dei! son queste e quai</l>
+						<l>E nel silenzio amico il mondo covra,</l>
+						<l>Nelle segrete stanze, ove celato</l>
+						<l>E sicuro starai, meco ne vieni.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>ASPASIA,<hi rend="Italic">poi</hi>CARONE</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Quai nuove cose, oh Dei! son queste e quai</l>
+						<l>Tetri presagi immagina la mente?</l>
+						<l>Che avvenne mai? Che mai tentar si pensa?</l>
+						<l>Gli esuli in Tebe fan ritorno, ascosi</l>
+						<l>son da Carone. Elmi, corazze e spade</l>
+						<l>Da molti giorni preparar vid"io.</l>
+						<l>Un gelido timor m"agghiaccia il core.</l>
+						<l>Formo cento pensier, né so qual sia</l>
+						<l>Il celato disegno.</l>
+						<l>Come potrò saper l"ordita impresa?</l>
+						<l>Ecco Carone; di tai nuove cose</l>
+						<l>Si chieda la cagion. O mio consorte,</l>
+						<l>A tempo giungi, ché parlar ti deggio.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Perché affannata ti dimostri, Aspasia?</l>
+						<l>Qual grave affare a favellar ti spinge</l>
+						<l>Con tal premura or meco?</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Un torbido pensier alla mia mente</l>
+						<l>Sospetti orrendi e reo timor dipinge.</l>
+						<l>Deh! se l"antico amor in parte vive,</l>
+						<l>Né spento è tutto nel tuo sen, Carone,</l>
+						<l>Ti prego farmi la cagion palese</l>
+						<l>Onde tornati son gli esuli in Tebe</l>
+						<l>E perché in tua magion li accogli e celi?</l>
+						<l>Deh! qual tetro mistero a me si asconde?</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Qual meraviglia, Aspasia, se agli amici</l>
+						<l>Noi diam ricetto e agl"infelici asilo?</l>
+						<l>Nelle sventure il vero amico appare</l>
+						<l>E chi soccorre i miseri  e solleva</l>
+						<l>Gli oppressi s"assomiglia al sommo Giove.</l>
+						<l>Ma s"egli è ver che m"ami, in petto cela</l>
+						<l>Quanto tu scorgi e vedi. Alto silenzio</l>
+						<l>Ti prego di serbare, ché altrimenti</l>
+						<l>La salute di noi tutti è in periglio.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>ASPASIA,<hi rend="Italic">sola</hi>
+					</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Qual nube (oimè) d"orrore il sen m"ingombra?</l>
+						<l>Qual notte e qual caligine profonda</l>
+						<l>Mi si para d"avanti?</l>
+						<l>Chi teme un certo mal, di quel si duole;</l>
+						<l>Ma chi nel suo timor incerto pende,</l>
+						<l>Tra mille affanni ondeggia.</l>
+						<l>O rei sospetti, o torbidi pensieri,</l>
+						<l>O penosi compagni del mio seno,</l>
+						<l>Il fiero assalto rallentate un poco!</l>
+						<l>È stanco il cor di soffrir se breve</l>
+						<l>Riposo a lui non date.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>ASPASIA, ISMENE</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Più che sorella a me diletta, Ismene,</l>
+						<l>Deh vieni e calma tu questo mio core</l>
+						<l>Agitato da mille rei sospetti.</l>
+						<l>Dimmi, se sai, che fanno entro le stanze</l>
+						<l>Quegl"infelici che a turbar la pace</l>
+						<l part="I">Nostra venuti or sono.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l part="F"> O mia sorella,</l>
+						<l>Ne’ penetrali, ove Caron li ascose,</l>
+						<l>Si stan segreti e chiusi.</l>
+						<l>Spinta d"accesa voglia di sapere</l>
+						<l>Qual gente ella si fosse,</l>
+						<l>Della vicina stanza al vecchio muro,</l>
+						<l>Ov"è non noto altrui spiraglio angusto,</l>
+						<l>Più volte io posi l"occhio:</l>
+						<l>Pelopida conobbi e insiem con esso</l>
+						<l>Altri esuli tebani</l>
+						<l>E vidi ciò che attonita la mente</l>
+						<l>Mi fe’ restar e d"alta tema ingombra.</l>
+						<l>Gli esuli cambian vesti e minacciosi</l>
+						<l>Arman i petti di lorica e al capo</l>
+						<l>Metton gli elmi su i quali all"aura sparse</l>
+						<l>Ondeggian con orror le nere piume.</l>
+						<l>Han nudi i brandi in mano: altri si prova</l>
+						<l>Vibrando in aria colpi, altri al compagno</l>
+						<l>Il fodero nel petto spinge come</l>
+						<l>Farìa col ferro al più crudel nemico.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l part="I">Ah! funesti princìpi!</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l part="F">Se vedessi</l>
+						<l>Come torvo Pelopida all"intorno</l>
+						<l>Sanguigno e furibondo il guardo gira.</l>
+						<l>Quando Marte dal ciel nel tracio suolo</l>
+						<l>Sitibondo di sangue irato scende</l>
+						<l>Non credo avrà così feroce aspetto.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ahimè, ché già m"immagino la cosa.</l>
+						<l>Terribil notte, e qual orror n"arrechi?</l>
+						<l>Che fere stragi e che ruine, o casa</l>
+						<l>Di Carone perduta! o figlio mio!</l>
+					</sp>
+					<sp>
+						<speaker>SERVO</speaker>
+						<l>Signora, or giunge in casa il fier tiranno</l>
+						<l>Leontida. Al padron porto l"avviso.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>O nuovo affanno, ecco scoverto il tutto.</l>
+						<l>Siamo perduti affatto, o Tebe, o Tebe,</l>
+						<l>Di funeste tragedie ognor feconda.</l>
+						<l>Non è placato ancor l"odio de’ Numi?</l>
+						<l>Non bastò pur di Labdaco la prole</l>
+						<l>L"ira a stancar d"inesorabil fato?</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SESTA</hi>
+					</head>
+					<stage>LEONTIDA, CARONE</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Un tradimento io temo. Avrà scoverto</l>
+						<l>La venuta degli esuli il tiranno.</l>
+						<l>Leontida che chiede? Che farò?</l>
+						<l>O Dei di Tebe, protettori e vindici,</l>
+						<l>Consigliatemi voi.</l>
+						<l>Apri, o servo,  le porte.</l>
+						<l>Da’ detti suoi noi prenderem consiglio.</l>
+						<l>Soffri mio core e ricomponi i moti</l>
+						<l>Dell"agitato sangue, ché altre volte</l>
+						<l>In perigli maggiori ti sei trovato.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Grave affare, Carone, a te mi guida.</l>
+						<l>Ciò che giova ad entrambi</l>
+						<l>Vengo a proporti. Amico,</l>
+						<l>Nella tua mano è la mia pace. E pende</l>
+						<l>La tua felicità dal mio potere.</l>
+						<l>Caron, nol crederai, mi vinse amore.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l part="I">Amor nel petto tuo? Che sento!</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l part="F">Amico,</l>
+						<l>Ardo ed avvampo per la bella Ismene.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ismene, mia sorella!</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Sì. De’  sospiri miei questa è l"oggetto.</l>
+						<l>Amico, stringi tu l"amato nodo</l>
+						<l>Dell"imeneo felice e premio eccelso</l>
+						<l>Dal mio gran cor t"aspetta.</l>
+						<l>Risplenderà su la tua fronte ancora</l>
+						<l>Del mio poter un raggio.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Leontida, mi spiace che ‘l servirti</l>
+						<l>In possa mia non è. Di già d"Emonte</l>
+						<l>Ismene è sposa e s" han la fé promessa.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ah,  s"altro non si oppon, poco mi cale</l>
+						<l>Di promesse, di fede e giuramenti.</l>
+						<l>È troppo saggio Emonte e al suo signore</l>
+						<l>La sposa cederà; rival mio farsi</l>
+						<l>È divenir di morte</l>
+						<l>Colpevole. Al padron non si contrasta.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ma la legge di Tebe e delle genti…</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Su i prìncipi poter non han le leggi,</l>
+						<l>Ché, se di quelle sono essi gli autori,</l>
+						<l>All"opre lor non denno esser soggetti.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Pur son soggetti a quell"eterna legge</l>
+						<l>Che scrisse di sua man l"alma natura.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>E questa sol comanda che al più forte</l>
+						<l>L"infermo e debil serva.</l>
+						<l>L"aquila forte e lo sparvier rapace</l>
+						<l>Su gli uccelli minor hanno l"impero.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ma son gli Dei mallevadori e vindici</l>
+						<l>De’ sacri patti e della fé giurata.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Io ti credea più saggio</l>
+						<l>E sprezzator della volgar credenza.</l>
+						<l>Che son questi tuoi Numi? e questi Dei?</l>
+						<l>Idoli vani che creò la mente</l>
+						<l>E poi del parto suo serva si rese.</l>
+						<l>Lasciamo al volgo tal error, ché giova</l>
+						<l>La sua sciocchezza al saggio.</l>
+						<l>D"Ismene il cor disponi</l>
+						<l>All"imeneo beato. Arreca a lei</l>
+						<l>Lieta novella. Inaspettata sorte</l>
+						<l>La colmerà di gioia e di stupore.</l>
+						<l>Dille che meco dell"impero a parte</l>
+						<l>Io la destino e che vedralla in trono</l>
+						<l>Beozia e un dì l"adorerà sovrana.</l>
+						<l>Da Emonte intanto io vado</l>
+						<l>E intimerogli il mio sovran comando.</l>
+						<l>Io tornerò fra poco e voglio, prima</l>
+						<l>Che Febo torni in cielo, esser suo sposo</l>
+						<l>In quella notte istessa. Amor non soffre</l>
+						<l>Indugio e più contrasto il mio volere</l>
+						<l>Ritrova, più s"accende nel desio.</l>
+						<l>Pensa, Carone, alla mercè promessa.</l>
+						<l>La sorte mio compagno ti destina. </l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SETTIMA</hi>
+					</head>
+					<stage>CARONE,<hi rend="Italic">solo</hi>
+					</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Io tradirò la patria? io tuo compagno,</l>
+						<l>Stolto tiranno! e pegno Ismene sia</l>
+						<l>Dell"empia società che mi proponi!</l>
+						<l>Con qual fasto parlò! quai voci orrende</l>
+						<l>Quell"empio disse? O Dei! fremo d"orrore.</l>
+						<l>Ma si trovi Pelopida,</l>
+						<l>Ché fia mestier di provvido consiglio.</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO SECONDO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>ISMENE, CARONE</stage>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Diletto mio german, giammai non fia</l>
+						<l>Ch"io stringa l"empia man del reo tiranno,</l>
+						<l>La mano ancor fumante vivo sangue</l>
+						<l>De’ miei congiunti e de’ miglior tebani</l>
+						<l>Che di vermiglio tinsero le case,</l>
+						<l>I letti maritali, l"are e i tempi,</l>
+						<l>Ove cercaro invano asilo e scampo.</l>
+						<l>Piuttosto sotto i piedi miei l"abisso</l>
+						<l>Or s"apra  e mi divori in un baleno.</l>
+						<l>E tradirò la fé, che al mio diletto,</l>
+						<l>Al fido Emonte mio giurai più volte?</l>
+						<l>No, caro sposo, dal primiero istante</l>
+						<l>Che nel petto provai di amor la fiamma, </l>
+						<l>Fosti del mio pensier l"unica cura.</l>
+						<l>Deh non temer della mia fede, sono</l>
+						<l>Tutti sacrati a te gli affetti miei.</l>
+						<l>E se non può sottrarmi al fiero artiglio</l>
+						<l>Del tiranno crudel altro che morte,</l>
+						<l>Ho ben valore da squarciarmi il petto.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>O sensi di te degni</l>
+						<l>E di quel sangue donde nata sei.</l>
+						<l>Odia il tiranno. Al tuo bel cor conviene</l>
+						<l>Odio sì degno. Ma guidar si dee</l>
+						<l>Con prudenza l"affare.</l>
+						<l>Non s'irriti il superbo.</l>
+						<l>Fiera, tra lacci avvinta, invan minaccia</l>
+						<l>E contra il predator freme di sdegno.</l>
+						<l>Onde convienti con maniere accorte</l>
+						<l>E con dolce sembiante render mite</l>
+						<l>L"animo acerbo del crudel nemico</l>
+						<l>E differir il mal quanto si puote.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Che pro? saremo, alfine, nell"istesso</l>
+						<l>Duro cimento. Il differir che giova?</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Il tempo d"ogni Nume è il più potente.</l>
+						<l>Ei tutto al mondo cangia e nuovo aspetto</l>
+						<l>Qui dà alle cose e non provvisti aiuti</l>
+						<l>E non sperati mai consigli arreca.</l>
+						<l>Il dì venturo ne daran gli Dei</l>
+						<l>Forse diverso e più ridente assai.</l>
+						<l>Leontida s"appressa. Entro ti reca.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>LEONTIDA, CARONE</stage>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Irrequieto a te presto ritorno,</l>
+						<l>Ché più soffrir non può quest" affannato</l>
+						<l>Mio cor l"aspra passion che lo martira.</l>
+						<l>Alla mie nozze impedimento omai</l>
+						<l>Non resta. Emonte non si oppone e cede.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Al tuo poter avrà ceduto ei solo</l>
+						<l>Ed alla forza che ragion opprime.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Se adempio il mio voler, non curo il modo.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Non è il proprio voler norma dell"uomo,</l>
+						<l>Ma la ragione e il giusto.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Dell"amistà, che t"offro, omai ti abusi,</l>
+						<l>Carone; eh poni termine a coteste</l>
+						<l>Ciance di vecchie e fanciullesche fole!</l>
+						<l>Che leggi, che dover stolto rammenti?</l>
+						<l>Vani fantasmi e nomi</l>
+						<l>Son questi, che inventò l"astuta frode</l>
+						<l>Del più potente per tener ne’ lacci</l>
+						<l>Le cieche menti dell"errante volgo.</l>
+						<l>Ma ti comando, non ardir parlare</l>
+						<l>In tal guisa mai più. Ché invan ti pensi</l>
+						<l>Che il nuovo nodo ti varrà di schermo.</l>
+						<l>Tronchiam le ciarle. A me conduci Ismene </l>
+						<l>E in questo punto diverrà mia sposa.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Senza usate pompe ed il solenne</l>
+						<l>Rito e presenza de’ parenti e amici</l>
+						<l>Non saranno d"onor coteste nozze</l>
+						<l>Né a te, né a Ismene. Almen si aspetti il nuovo</l>
+						<l>Giorno e pomposa allor farem la festa.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Pascon le pompe e fregi esterni solo</l>
+						<l>L"alme volgari, ma le sprezza il saggio.</l>
+						<l>Del mio piacere un sol momento or io</l>
+						<l>Non vo’ tardar l"acquisto: ben perduto</l>
+						<l>Giammai non si ristora.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>La mente femminil di pompe è vaga</l>
+						<l>E la più saggia donna ancor si alletta</l>
+						<l>Dell"apparenze. A Ismene almen concedi</l>
+						<l>Questo piacer, che vada a nozze come</l>
+						<l>A tanto sposo e al grado suo conviene.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ismene, che la sorte omai solleva</l>
+						<l>Sullo stato volgar, deve pensare</l>
+						<l>In degna guisa al suo novello stato.</l>
+						<l>Ma non tardare or più. Conduci Ismene</l>
+						<l>Ove l"attende impaziente amante.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>LEONTIDA<hi rend="Italic">solo</hi>
+					</stage>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ah! quanto più sugli altri il mio comando</l>
+						<l>Distendo, tanto sovra me gli affetti</l>
+						<l>Miei spiegan feri il lor crudele impero.</l>
+						<l>Or son pur giunto a tal che, s"altri attenti</l>
+						<l>D"opporsi al mio volere,</l>
+						<l>Ira, vendetta ed odio</l>
+						<l>Scempio fan del mio seno e reo governo.</l>
+						<l>E quando la mia stagee di vendetta</l>
+						<l>Estinta ho già  coll"altrui sangue sparso,</l>
+						<l>Rimorso, pentimento e fera imago</l>
+						<l>Di morte fan provarmi entro del petto</l>
+						<l>Le pene di Cocito e Flegetonte.</l>
+						<l>Ombra funesta del nemico estinto,</l>
+						<l>Di me che brami? lasciami godere</l>
+						<l>Del mio delitto almen tranquillo il frutto;</l>
+						<l>Ma si allontani pur il mio pensiero</l>
+						<l>Dall"imagin funesta che si aggira</l>
+						<l>Nella mia mente accesa.</l>
+						<l>Ismene più non viene. Andiam per lei.</l>
+					</sp>
+					<stage>
+						<p>
+							<hi>Leontida s"inoltra nell"interna stanza.</hi>
+						</p>
+					</stage>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>ISMENE, CARONE</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ove n"andò Leontida? nol veggio.</l>
+						<l>O Dio! che dentro il piede audace ei porta.</l>
+						<l>S"occorra… aspetta, Ismene, qui frattanto.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ahimè! già scovre gli esuli celati!</l>
+						<l>O Ciel! e quanti affanni ci prepari!</l>
+						<l>Ma no. L"empio ritorna, ha lieto il viso;</l>
+						<l>Il mio timor si calma.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>LEONTIDA, ISMENE</stage>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ismene, idolo mio, che solo adoro,</l>
+						<l>Perché fuggi l"amante e ‘l fido sposo?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Sì dolci nomi ancor tempo di usare,</l>
+						<l>Leontida, non è; mentre che sono</l>
+						<l>Promessa altrui, come sarò tua sposa?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>D"ogni legame ti ha disciolto Emonte.</l>
+						<l>Libera alfin tu sei, di te disponi.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>E tanto amor poter scordar sì presto?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Sii certa pure che colui d"Ismene</l>
+						<l>Or più non prende cura.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>E’ l crederò di tal viltà capace?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Presso di te sì poca fede io trovo?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Dunque a tal segno, Emonte,</l>
+						<l>Volubile, incostante, meco fosti!</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ma tu ancor sei irresoluta e incerta? </l>
+						<l>Lascia di quello ormai ogni pensiero;</l>
+						<l>Mentre,  se aspiri alle sue nozze ancora,</l>
+						<l>Un impossibil chiedi.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Come impossibil fia?</l>
+						<l>Da Tebe forse discacciato l"hai?</l>
+						<l>Ah dimmi il ver, rispondi.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Troppo lontan da Tebe si ritrova.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Troppo lontan da Tebe! qual mistero!</l>
+						<l>Rischiara la mia mente: in quale parte</l>
+						<l>L"hai tu sospinto? tra feroci Sciti?</l>
+						<l>O nella Libia infame? in qual contrada?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>In più rimota parte,</l>
+						<l>Onde il ritorno non sarà concesso.</l>
+						<l>Ma tu mi offendi assai, quando ti mostri</l>
+						<l>Sollecita così di un mio rivale,</l>
+						<l>Che per mio scorno e mia vergogna eterna</l>
+						<l>Del tuo core contrasta a me l"impero.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>O Dio di Tebe, invitto Alcide! ahi misera!</l>
+						<l>Qual freddo gel mi agghiaccia. Io tremo; dimmi,</l>
+						<l>Perché il ritorno vien a lui negato?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Questa è la legge che mutar non ponno</l>
+						<l>Gli Dei medesimi, se v"ha Dio nel Cielo.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Qual legge e qual decreto empio rammenti?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>La legge di natura e del destino.</l>
+						<l>Da tenebrosi, oscuri regni mai</l>
+						<l>Non si ritorna qui. M"intendi alfine?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Sì, barbaro, t"intendo. Ah più non vive</l>
+						<l>Emonte. O Dei… io moro.</l>
+					</sp>
+					<stage>
+						<p>
+							<hi>Sviene.</hi>
+						</p>
+					</stage>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Carone, occorri; a tua sorella porgi</l>
+						<l>Aita, ché il dolor suoi sensi offusca.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SESTA</hi>
+					</head>
+					<stage>CARONE, LEONTIDA, ISMENE</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Oimè, sorella! qual pallor di morte</l>
+						<l>Scolora il viso? gelo son le membra!</l>
+						<l>Leontida,  che avvenne?</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Emonte, il mio rivale,  a un cenno mio</l>
+						<l>Cadde trafitto: riportò la pena</l>
+						<l>Di un temerario ardir. Ismene il seppe</l>
+						<l>Ed improvvisa doglia il cor le oppresse.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Emonte più non vive…</l>
+						<l>Ove son io? deh lasciami, crudele,</l>
+						<stage>
+							<p>
+								<hi>credendosi nelle braccia di Leontida.</hi>
+							</p>
+						</stage>
+						<l>O mio fratello, io giaccio…</l>
+						<l part="I">Nelle tue braccia!</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l part="F">Ismene, o Dei! coraggio.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ella rinviene  ed io mi appresto or ora</l>
+						<l>Ad ascoltar le sue querele e’ gridi.</l>
+						<l>Ma sordo al suo lamento, duro scoglio</l>
+						<l>Battuto ognor dall"onde dell"Egeo,</l>
+						<l>Immobile sarò. La donna al pianto,</l>
+						<l>A’ gridi, all"onte ha sempre mai ricorso.</l>
+						<l>Il saggio non sen cura e lascia il freno</l>
+						<l>Al femminil trasporto,</l>
+						<l>Ché,  quando ha disfogato il suo talento,</l>
+						<l>Il turbin cessa e segue pace e calma</l>
+						<l>E grand"oblio di quel passato affanno.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Io vivo ancor! l"aura vitale io spiro!</l>
+						<l>E sovra il capo mio si arresta solo,</l>
+						<l>Barbaro, la tua spada?</l>
+						<l>Perché non versi ancor questo mio sangue?</l>
+						<l>Compisci l"opra e questo sen mi squarcia</l>
+						<l>E svelline quel cor, in cui pur vive</l>
+						<l>L"odiato tuo rivale.</l>
+						<l>Luce del sol, soave agli viventi,</l>
+						<l>A me sempre sarai funesto oggetto:</l>
+						<l>Tu fai mirarmi sì esecrabil mostro.</l>
+						<l>Stige non ha così tremenda imago </l>
+						<l>Che te paregi o te somigli in parte.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Ismene, al tuo trasporto, al tuo dolore</l>
+						<l>Ed al tuo sesso ancor perdono questi</l>
+						<l>Tuoi sconsigliati accenti e soffro l"onte</l>
+						<l>Solo da te, che al letto mio destino.</l>
+						<l>Piangi a talento tuo. Quando poi fine</l>
+						<l>Al pianto avrai tu dato e alla ragione</l>
+						<l>Loco, più saggia al tuo vantaggio allora</l>
+						<l>Abbi pensiero. Addio.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>O Furie, Erinni orribili, voi tutte</l>
+						<l>A me d"intorno stagee. Io veggio, o Dive,</l>
+						<l>L"orrende vostre faci, odo il fischiare</l>
+						<l>Delle ceraste. Abisso, apriti pure,</l>
+						<l>E me sottraggi al mio dolor estremo.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ahi! sventurato amico! qual dolente</l>
+						<l>Ed infelice fin a tuoi begli anni</l>
+						<l>Il fato diè! qual frutto amaro cogli</l>
+						<l>Da tanto amore e da sì bella fede.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ferma, mio sposo, d"Acheronte in riva</l>
+						<l>Ecco ti giungo, la fatale sponda</l>
+						<l>Debbe teco varcar la tua consorte.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>La doglia di ragion l"ha priva. Ismene,</l>
+						<l>Seguimi dentro e calma il tuo trasporto.</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO TERZO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>PELOPIDA, CARONE, CONGIURATI</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Sono i nimici nella rete ordita</l>
+						<l>Caduti ormai: già tutti</l>
+						<l>Seggono a mensa placidi e sicuri.</l>
+						<l>Leontida nel vino</l>
+						<l>E nel piacer sepolto, il fianco porge</l>
+						<l>Ignudo al nostro ferro.</l>
+						<l>L"amico estinto nuovo ardore aggiunge</l>
+						<l>Alla vostra virtù. Che più si aspetta?</l>
+					</sp>
+					<sp>
+						<speaker>CONGIURATI</speaker>
+						<l>Ecco le destre ed ecco i petti pronti</l>
+						<l>Ad affrontar la morte.</l>
+						<l>O morte o libertà tutti cerchiamo.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Pelopida, ti affretta, il tempo vola.</l>
+						<l>I tuoi conforta e alla grand"opra accendi.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Valorosi compagni, se pensato</l>
+						<l>Avessi che mestier era di sprone</l>
+						<l>O di conforto al noto</l>
+						<l>Vostro valor, la grand"impresa al certo</l>
+						<l>Io non avrei tentata. Le parole</l>
+						<l>Non aggiungon ardire all"uom codardo.</l>
+						<l>Qual"è ciascun per abito o natura</l>
+						<l>Tal ei si mostra in ogni dubbia impresa.</l>
+						<l>Sol pensate, compagni, in qual dolente </l>
+						<l>Misero stato questa patria giace.</l>
+						<l>Non regnano, qual pria, le sante leggi,</l>
+						<l>Ma l"arbitrio  e il piacer di poca gente.</l>
+						<l>La vita e’ beni e libertà, le mogli</l>
+						<l>Non son sicure: esposte sono ognora</l>
+						<l>Alla voglia e libidine sfrenata</l>
+						<l>Di un tiranno crudele e senza legge.</l>
+						<l>A chi tolto non fu padre o fratello</l>
+						<l>O figlio dal feroce, empio Leontida?</l>
+						<l>Ne’ beni e nell"onor oltraggio e danno</l>
+						<l>Chi non sofferse da quell"uom superbo?</l>
+						<l>Ovunque il guardo volgi, alte rapine,</l>
+						<l>Violenze a stupri miste e stragi orrende</l>
+						<l>Si offrono al tuo pensier. Qual piazza e strada,</l>
+						<l>Qual sacro tempio o qual palagio in Tebe</l>
+						<l>Tinto non è del sangue cittadino?</l>
+						<l>D"Emonte (ahi! sfortunato ed infelice)</l>
+						<l>Il sangue ancor fumante</l>
+						<l>Chiede vendetta. Ombra dolente e cara,</l>
+						<l>Che a me ti aggiri intorno, avrai vendetta.</l>
+						<l>Anime illustri del tebano suolo,</l>
+						<l>Da me che mai chiedete?</l>
+						<l>Onde desio vi prese</l>
+						<l>Di far ritorno alla tebana terra?</l>
+						<l>Ah sì v"intendo appieno.</l>
+						<l>Voi del vostro furor m"empite il petto.</l>
+						<l>Ed io vi giuro che a’ dolenti regni</l>
+						<l>Di morte ne verranno in questa notte</l>
+						<l>Le pallid"ombre de’ tiranni esangui.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Su, compagni, si adempia il sacro rito,</l>
+						<l>E poi si parta. Il Ciel principio sia</l>
+						<l>D"opra sì giusta e a’ Numi eterni accetta.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>La vittima si rechi all"ara e voi</l>
+						<l>Assistete, o compagni.</l>
+						<l>Al sacro inviolabil giuramento</l>
+						<l>Prepari ognun la mente.</l>
+						<l>O della patria mia</l>
+						<l>Voi tutelari Numi, invitto Alcide,</l>
+						<l>Gran domator de’ mostri e de’ tiranni</l>
+						<l>E tu, potente Bacco, e padre Giove,</l>
+						<l>Volgete il guardo amico</l>
+						<l>Al popol pio di Tebe.</l>
+						<l>Come io di questa vittima nel seno</l>
+						<l>Il ferro immergo e il vivo sangue spargo,</l>
+						<l>Concedete così che de’ tiranni</l>
+						<l>In mezzo al cor si affondi</l>
+						<l>Dalla mia man questa lucente spada.</l>
+						<l>Il ciel balena ed a sinistra tuona.</l>
+						<l>O gran Rettor del fulmine,</l>
+						<l>L"augurio accetto, in mio favor tu sei.</l>
+						<l>Da questa tazza ognuno</l>
+						<l>Della vittima assaggi il sangue e giuri.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Io giurerò primiero.</l>
+						<l>Gran Dei del Cielo, o santa Temi, o Giove,</l>
+						<l>E voi Numi d"Averno,</l>
+						<l>O Erinni, o della notte orrende figlie,</l>
+						<l>Vindici de’ spergiuri,</l>
+						<l>Come il sangue, che bevo, il mio si versi,</l>
+						<l>Se alla promessa io manco.</l>
+						<l>A te, mia patria, o mio gran Nume, il sangue</l>
+						<l>E ‘l viver mio consagro.</l>
+					</sp>
+					<sp>
+						<speaker>CONGIURATI</speaker>
+						<l>Di noi ciascun al giuramento è pronto.</l>
+					</sp>
+					<stage>
+						<p>
+							<hi>Si beve e si giura.</hi>
+						</p>
+					</stage>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>SERVO, TELEFO <hi rend="Italic">e</hi> DETTI</stage>
+					<sp>
+						<speaker>SERVO</speaker>
+						<l>Signor, di Fillia un messo a te richiede</l>
+						<l>Parlar di grave e premuroso affare.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Deh fa che venga. E qual novella mai</l>
+						<l>Potrà recar di nuovo?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>È già palese… qual ruina, o Dei!</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Che mai tu rechi? che vuol dir l"affanno?</l>
+						<l>L"interrotto parlar? dì, su, favella.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>La congiura è scoverta.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>La congiura è scoverta? o grande Alcide!</l>
+						<l>Come? chi fu? chi ne tradì? rispondi.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>A’ tiranni la spia</l>
+						<l>La novella recò che dentro Tebe</l>
+						<l>La voce è sparsa, che venuti sono</l>
+						<l>Al tramontar del sol gli esuli armati.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>E sepper che in mia casa hanno ricetto?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Nulla sepper di ciò.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ed han sospetto alcun della mia fede?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>D"essa, nissun sospetto.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Grazie agli Dei,  respiro. Il male è grande,</l>
+						<l>Ma non sì grave qual recato avevi.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Or qual partito prenderemo intanto?</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ritorni in calma il core.</l>
+						<l>Non mancherà dal Ciel qualche consiglio.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>SERVO <hi rend="Italic">e</hi> DETTI</stage>
+					<sp>
+						<speaker>SERVO</speaker>
+						<l>Signor, batte la porta Polifonte,</l>
+						<l>Il capitan superbo della guardia</l>
+						<l part="I">De’ tiranni di Tebe!</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l part="F">Polifonte?</l>
+						<l>O misera mia patria!</l>
+						<l>Già siam d"armati cinti.</l>
+						<l>Pelopida, a perir tu sei venuto.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Morrò, se pure il Ciel così prescrive;</l>
+						<l>Ma invendicato e solo</l>
+						<l>Io non morrò, se ‘l mio valor non langue.&gt;</l>
+						<l>A Polifonte acuto ferro in petto</l>
+						<l>Or ora immergerò.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Frena il furor che t"agita la mente</l>
+						<l>E ‘l disperato ardir serba all"estremo.</l>
+						<l>Vediam che reca Polifonte. Amici,</l>
+						<l>Ite dentro a celarvi.</l>
+						<l>Tu, servo, fa che Polifonte venga.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>POLIFONTE, CARONE</stage>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Leontida comanda</l>
+						<l>Che senza indugio alcun ora ti porti</l>
+						<l>Di Fillia in casa, ov"è raccolta tutta</l>
+						<l>La signoria di Tebe. Un grave affare</l>
+						<l>Si tratta; né tardar un sol momento.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ti è nota, o Polifonte, la cagione</l>
+						<l>Di tal grave premura?</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>La comune salute</l>
+						<l>In gran periglio è posta.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Forse i nemici alle tebane porte</l>
+						<l>Or sono e dàn l"assalto?</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Anzi i nemici son dentro la terra.</l>
+						<l>In Tebe si congiura: è certo omai</l>
+						<l>Che gli esuli venuti son d"Atene.</l>
+						<l>Ma più arrestarmi qui non debbo. Altrove</l>
+						<l>Grave cura mi chiama; affretta intanto</l>
+						<l>Il passo, né aspettar altra richiesta.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>CARONE <hi rend="Italic">solo</hi>
+					</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Che dubitar di più? La cosa è certa.</l>
+						<l>Sanno che in Tebe gli esuli già sono,</l>
+						<l>Che si congiura; io son chiamato e appunto</l>
+						<l>Per tal affare. È già palese il tutto…</l>
+						<l>In forza lor mi vonno</l>
+						<l>Per trar da bocca mia</l>
+						<l>De’ congiurati il numero e l"asilo…</l>
+						<l>Si vada pur e il lor pensier deluso</l>
+						<l>Sarà. Faccian di me spietato scempio,</l>
+						<l>Purché gli amici miei salvin la vita.</l>
+						<l>Di me si adempia pure</l>
+						<l>L"alto destino e ‘l gran voler di Giove…</l>
+						<l>Ma Polinice mio, diletto figlio,</l>
+						<l>Tu vittima cadrai de’ tuoi begli anni</l>
+						<l>Sull"alba e il genitor ti dà la morte.</l>
+						<l>Aspasia, Ismene, e voi sarete scherno</l>
+						<l>Di Tebe e de’ tiranni.</l>
+						<l>O pensiero! o tormento! Ah no, son padre</l>
+						<l>E sposo e non degg"io</l>
+						<l>Scordar sì sacri nomi.</l>
+						<l>Oimè che dico  e parlo!</l>
+						<l>Ah no, si vada a morte.</l>
+						<l>Perisca il tutto: moglie,</l>
+						<l>Sorella e figlio e quanto ho caro al mondo.</l>
+						<l>La fé sia salva e l"amistà. Gran nume</l>
+						<l>Di un generoso cor, santa amistade,</l>
+						<l>E tu de’ miei pensier più dolce cura,</l>
+						<l>Mia cara patria, il sacrificio accetta.</l>
+						<l>Per te, se tutto io perdo, almen io viva</l>
+						<l>Nella memoria tua: un tal conforto</l>
+						<l>Mi fa dolce sembrar l"estremo fato,</l>
+						<l>Né mi spaventa nel più fiero aspetto</l>
+						<l>E terribil la morte.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SESTA</hi>
+					</head>
+					<stage>ASPASIA, POLINICE</stage>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Madre, perché tu piangi? e qual dolore</l>
+						<l>A sospirar ti muove?</l>
+						<l>Ma tu mi guardi e taci.</l>
+						<l>Deh parla, o Dei! m"affanni con quel pianto.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Figlio, degli occhi miei più caro assai,</l>
+						<l>Lasciami in preda al mio tormento fiero.</l>
+						<l>Ah! tu mi uccidi, o figlio, e pur nol vedi.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>In che ti offesi mai, diletta madre,</l>
+						<l>Qual cenno tuo posi in oblio? che feci?</l>
+						<l>Se mai ti spiacqui, involontario errore</l>
+						<l>Credilo, o genitrice.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Taci, mio figlio, taci, io più non posso.</l>
+						<l>Tu mi laceri il core.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Perché dolente sei?</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ah forse lo saprai con tuo gran danno.</l>
+						<l>Intanto parti e lasciami qui sola.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Ogni tuo cenno è mia sovrana legge.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>O sommi Dei! perché donaste voi</l>
+						<l>A me così leggiadro e nobil figlio,</l>
+						<l>In cui sovra l"età traluce tanto</l>
+						<l>Senno, valor e ogni virtù più rara?</l>
+						<l>Perché più vivo fosse il mio dolore.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SETTIMA</hi>
+					</head>
+					<stage>CARONE, PELOPIDA</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Pelopida, tardar senza sospetto</l>
+						<l>Io più non posso; partirò, ma voi,</l>
+						<l>In questi orti vicini stando ascosi,</l>
+						<l>Attenderete del destin l"avviso.</l>
+						<l>Se al mio morir l"irato ciel consente,</l>
+						<l>Fuggite, e resti a voi l"ardente cura</l>
+						<l>Di vendicar la patria.</l>
+						<l>Felice me! se del mio sangue solo</l>
+						<l>Sarà contento il fato</l>
+						<l>Ed a tal prezzo la mia patria acquisti</l>
+						<l>La libertà perduta.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>O grand"eccelso eroe, in te d"Alcide</l>
+						<l>Il sangue scorre e ben palesi all"opre</l>
+						<l>Che in te l"erculea stirpe ancor germoglia.</l>
+						<l>Ma se tu cadi, o gran tebano, noi</l>
+						<l>Teco morremo e col nemico sangue</l>
+						<l>Vendicherò la tua grand"ombra e Tebe.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Che! Pelopida, tu non ti rammenti</l>
+						<l>Il giuramento e il sacro, orrendo patto?</l>
+						<l>La vita or tua non è, ch"essa è già sacra</l>
+						<l>A Tebe: a lei te devi, a lei tu vivi.</l>
+						<l>Io lo dimando. E Tebe</l>
+						<l>Tel comanda: a miglior tempo ti serba,</l>
+						<l>Ché,  se tu manchi, chi sarà per lei?</l>
+						<l>Tebe è caduta e la sua speme è morta.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Dovrò dunque sicuro il tuo periglio</l>
+						<l>Mirare e comprerò la vita mia</l>
+						<l>Col prezzo del tuo sangue?</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Chiama gli amici fuora. E tutti uniti</l>
+						<l>Ascolterete mie parole estreme.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA OTTAVA</hi>
+					</head>
+					<stage>CARONE, ASPASIA, POLINICE</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>In tempo giungi; l"ultimo congedo</l>
+						<l>Prendi, consorte amata.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>O Dei! che ascolto! che ferali accenti!</l>
+						<l>Qual voce orribil sul mio cuor rimbomba!</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ora convien che in chiare,  aperte note,</l>
+						<l>Aspasia, a te favelli.</l>
+						<l>Conosci dunque il gran disegno e l"empio</l>
+						<l>Destin che a terra sparse ogni mia speme.</l>
+						<l>A liberar la patria era rivolto</l>
+						<l>Ogni nostro pensier. Vicino il lido</l>
+						<l>Già n"appariva. Il Cielo,  alle bell"opre</l>
+						<l>Nemico, suscitò nera procella</l>
+						<l>Che ne sommerge e in mezzo il porto affonda.</l>
+						<l>Scoverta è la congiura; il tutto è noto.</l>
+						<l>Polifonte a chiamar mi venne a nome</l>
+						<l>Del tiranno maggior nostro nemico.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Oimè finito hai di tremar,  mio core.</l>
+						<l>Or più non temi. Il male è certo. O Dei,</l>
+						<l>stagee contenti alfin? che più bramate?</l>
+						<l>O disperata donna! o miei furori!</l>
+						<l>Con ferro acuto chi mi passa il petto?</l>
+						<l>È pietà meco esser crudele e fiero.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Che giova darsi al duol in preda? Il male</l>
+						<l>Acquista forza dall"altrui viltade.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ah! più ragion non ho. L"aspro martire</l>
+						<l>Ha tolto alla mia mente ogni vigore.</l>
+						<l>Tu me qui sola, e il caro unico figlio,</l>
+						<l>Abbandonata lasci e senza aita?</l>
+						<l>In preda al ferro ostile e in preda al fuoco</l>
+						<l>La tua magion, gli Dei Penati, il sacro</l>
+						<l>Letto genial tu lasci? ove l"antico</l>
+						<l>Tuo senno andò? qual Dio te l"ha rapito?</l>
+						<l>Qual Nume avverso nel furor ti spinge?</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA NONA</hi>
+					</head>
+					<stage>PELOPIDA, CONGIURATI, DETTI</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Della patria il destin e ‘l vostro ancora,</l>
+						<l>O del popol di Cadmo invitti eroi,</l>
+						<l>Sulla mia fé s"appoggia, unica base</l>
+						<l>Della comun salute.</l>
+						<l>De’ tormenti il timore, ovver d"impero</l>
+						<l>L"onnipotente stagee,</l>
+						<l>Deve a ragion render mia fé sospetta.</l>
+						<l>Siate sicuri pur: eccovi un pegno,</l>
+						<l>Il maggiore,  che mai può darvi un padre.</l>
+						<l>Polinice mio figlio, unico figlio,</l>
+						<l>Sperato appoggio dell"età cadente,</l>
+						<l>Dò nelle vostre mani, caro pegno.</l>
+						<l>Vi segua pur: se tradirò la fede,</l>
+						<l>Se del mio sangue a pro comune avaro</l>
+						<l>Sarò, versate in lui del sangue mio</l>
+						<l>La parte la più pura e la più cara.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ah, Carone, t"arresta. Con tuoi detti</l>
+						<l>Dal seno il cor ne svelli e grave offesa</l>
+						<l>All"amistà ne rechi.</l>
+						<l>La tua virtù d"ogni sospetto è sgombra.</l>
+						<l>Con la sua madre il figlio tuo rimanga.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>No, venga pur con voi,</l>
+						<l>Almen perché valor e patrio zelo</l>
+						<l>Da tal maestro e in tanta scuola apprenda.</l>
+						<l>Se mai della Repubblica il partito</l>
+						<l>Vittoria avrà, sia dell"onor a parte;</l>
+						<l>E s"è nel Ciel prescritto</l>
+						<l>Che la tebana libertà perisca,</l>
+						<l>La cadente città con sue rovine</l>
+						<l>Il figlio e tutta la mia gente copra.</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Se così brami, il tuo voler s"adempia;</l>
+						<l>Ma il ferro ostil non ferirà sue membra,</l>
+						<l>Se pria nel petto mio non si fa strada.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ahimè! son di me fuora. Adunque il figlio</l>
+						<l>E il padre insieme io perdo e senza figlio</l>
+						<l>E senza il mio consorte sola io resto!</l>
+						<l>Figlio mio, prega il genitor che senta</l>
+						<l>Pietà del mio dolor, che l"ostinato</l>
+						<l>Suo core a prieghi tuoi faccia cortese.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Deh,  madre mia, non t"affannar di questo,</l>
+						<l>Lascia ch"io vada della gloria in traccia.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>O figlio mio, sangue de’ Dei, d"Alcide</l>
+						<l>Nostro progenitor degno germoglio,</l>
+						<l>Prendi forse da me gli ultimi baci.</l>
+						<l>O Dei! serbate a me tal figlio: e’ giunga</l>
+						<l>Carco di gloria nella età matura</l>
+						<l>E a più tranquilli dì serbatel voi.</l>
+						<l>Ma l"indugio si tronchi. Su partite,</l>
+						<l>Ché ad incontrar il mio destin mi affretto.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Dove, crudel, ne vai? Tu me qui sola</l>
+						<l>Pensi lasciare? E dove il figlio mio</l>
+						<l>Senza di me n"andrà? seguir io voglio</l>
+						<l>Entrambi. Il petto mio riparo al figlio</l>
+						<l>Sarà contra del ferro ostile. O parte</l>
+						<l>Delle viscere mie, figlio mio caro,</l>
+						<l>Stringi al tuo petto la tua cara madre.</l>
+						<l>O leggiadro sembiante! o vaghe membra!</l>
+						<l>O bianco eburneo petto, o Dio! squarciato</l>
+						<l>E sanguinoso ti rimiro. Il seno</l>
+						<l>Ti veggio palpitar, l"ampia ferita</l>
+						<l>Versa di sangue un fiume. E a nome chiami</l>
+						<l>Tra singulti interrotti la tua madre.</l>
+						<l>Ah! spietato consorte,  a qual mi serbi</l>
+						<l>Barbaro strazio, a qual crudel tormento?</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Madre non pianger più. Di me gli Dei</l>
+						<l>Avran pietade e cura.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Pelopida,  tronchiam l"inutil pianto,</l>
+						<l>Ché l"affetto materno non ha fine.</l>
+						<l>E un sol momento può cangiar il tutto.</l>
+						<l>Partite: o Polinice,  vanne. E resta,</l>
+						<l>Aspasia, e l"aspro duol saggia raffrena</l>
+					</sp>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l>Addio,  Carone, al fianco ognor ti vegli</l>
+						<l>Un Dio che Tebe e i giorni tuoi difenda.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l part="I">Fermati, figlio, ferma.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l part="F"> O madre, addio.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Non trattenermi… O Ciel… mio figlio… I lumi</l>
+						<stage>
+							<hi>È trattenuta da Carone</hi>
+						</stage>
+						<l>Aggravan d"Acheronte le profonde</l>
+						<l>Caligini. Vacilla il piè, si gela</l>
+						<l>E mi si stringe il core.</l>
+						<stage>
+							<hi>Sviene.</hi>
+						</stage>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Olà,  guidate dentro</l>
+						<l>La padrona e porgete a lei soccorso.</l>
+						<l>Ah! qual ti lascio, o moglie,</l>
+						<l>Addio. Fato crudel,  quando ti plachi!</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO QUARTO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>ASPASIA <hi>poi</hi> TELEFO</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ah fermate, crudeli, non ferite,</l>
+						<l>Arrestate la mano, o il crudo ferro</l>
+						<l>Piuttosto in me volgete.</l>
+						<l>Ah! che non m"ode alcuno.</l>
+						<l>Già cade il ferro alato</l>
+						<l>Sull"innocente capo di mio figlio.</l>
+						<l>Volar già veggio l"asta</l>
+						<l>E aprir al mio Carone il petto e il core.</l>
+						<l>O Polinice mio, sei già tu morto!</l>
+						<l>Il tuo bel viso pallido si rese,</l>
+						<l>Come bel fior che vomere recise.</l>
+						<l>Sul bianco collo il biondeggiante capo</l>
+						<l>Già cade, ahi lassa! e gli omeri percote.</l>
+						<l>Misera madre! sventurata donna!</l>
+						<l>Ah barbari tiranni! ma più fieri</l>
+						<l>E più spietati Dei!</l>
+						<l>Deh che ragiono? ove son io? che dico?</l>
+						<l>Io vaneggio, deliro…</l>
+						<l>Ma viene in fretta Telefo. Ei serena</l>
+						<l>Fronte non ha. Su presto, o Nuncio infausto,</l>
+						<l>Morto è Carone, e Polinice mio?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Salvo è il consorte, e il figlio.</l>
+						<l>Giunse Carone,  da’ tiranni atteso,</l>
+						<l>Nel cor premendo l"affannosa cura.</l>
+						<l>Parea qual uomo che ‘l suo fato estremo</l>
+						<l>Aspetta e fa sembianza che nol curi.</l>
+						<l>Ma ben tosto tornò sereno e lieto,</l>
+						<l>Ché l"affidò quel favellare amico</l>
+						<l>De’ tiranni, che alcun lieve sospetto</l>
+						<l>Non han di lui. Ben seppero che ascosi</l>
+						<l>Gli esuli in Tebe son e la congiura</l>
+						<l>Da lor si trami; ma la casa, in cui</l>
+						<l>Ascosi sono, è loro ignota affatto.</l>
+						<l>Anzi a Carone hanno adossato il peso</l>
+						<l>Di rintracciar la verità del tutto.</l>
+						<l>Il buon Carone e il saggio accorto Fillia</l>
+						<l>Han tentato sgombrar ogni timore</l>
+						<l>Dalla lor cieca mente.</l>
+						<l>Deh qual nemico, lor disse Carone,</l>
+						<l>Con finte nuove amaro tosco mesce</l>
+						<l>Ne’ più lieti momenti della vita?</l>
+						<l>Godete pure, io veglierò per voi.</l>
+						<l>E Fillia aggiunse fede</l>
+						<l>Col suo parlar a’ detti di Carone.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>O lieto Nuncio, inaspettata tregua</l>
+						<l>Tu rechi al cor, in gran procella assorto.</l>
+						<l>Ma come di leggier gli hanno creduto</l>
+						<l>In tanto grave affare?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Quando nell"onde del piacer sommersa</l>
+						<l>È la mente dell"uom, il tutto crede;</l>
+						<l>Ma periglio novello ne sovrasta.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ahimè che più mi apporti di funesto?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Le lettere da Atene son recate</l>
+						<l>In mano di Leontida;</l>
+						<l>E Fillia ebbe novella</l>
+						<l>Che dàn l"avviso dell"ordita impresa.</l>
+						<l>Hanno i tiranni spie per ogni parte</l>
+						<l>Ed in Atene molto più che altrove.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Il tiranno le lesse?</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Non già. Le pose in tasca, e al dì venturo,</l>
+						<l>Disse, rimetto i seri e gravi affari;</l>
+						<l>Benché premura dal corrier si fece</l>
+						<l>Ch"egli leggesse subito que’ fogli,</l>
+						<l>Come prescrisse l"ospite d"Atene</l>
+						<l>Che gli mandò l"avviso.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ah! mi ritorni nell"antico affanno.</l>
+						<l>Temo ch"ognor e’ legga</l>
+						<l>Il mio fatal arresto.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Perché nell"avvenir tu scerner vuoi</l>
+						<l>Sempre i tuoi mali? spera il bene ancora.</l>
+						<l>Chi sempre teme il male, o sempre spera</l>
+						<l>Il ben, del par s"inganna.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Agl"infelici di sperar non resta.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>POLIFONTE, TELEFO</stage>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>O Telefo, la sorte a me ti guida</l>
+						<l>Incontro ed opportuno qui ti trovo.</l>
+						<l>Tu puoi coll"opre agevolar l"affare.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>In che poss"io giovarti?</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Già sai che il mio signor arde e delira</l>
+						<l>Per Ismene, né aver potrà mai pace,</l>
+						<l>Se possessor non diverrà di lei.</l>
+						<l>Quant"ei però l"adora, ella l"aborre,</l>
+						<l>Ché donna non si attiene a ben verace.</l>
+						<l>Or tu, che sei d"Ismene</l>
+						<l>Amico, l"ostinato</l>
+						<l>Suo cor alla ragion sommetti e piega.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Ma se quella l"aborre, perché mai</l>
+						<l>Tu nol consigli a discacciar dal petto</l>
+						<l>L"insano ardor? Che stolto è l"uom che brama</l>
+						<l>A donna unirsi, che il disprezza ed odia.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Al mio signor di giovamento sono</l>
+						<l>Tai nozze. Può l"affinità novella</l>
+						<l>Sulla sua fronte stabilir per sempre</l>
+						<l>Il diadema regale.</l>
+						<l>Grand"è Carone in Tebe e per ricchezze</l>
+						<l>E per favore popolar potente.</l>
+						<l>Ond"io nutrisco quell"ardor che serve</l>
+						<l>Al suo poter, che me fa grande ancora.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Fabro dunque tu sei delle catene,</l>
+						<l>Onde la patria ingrato figlio stringe.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Il suo vantaggio io bramo. Un sol padrone</l>
+						<l>È meglio aver che mille.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>In libera città solo la legge</l>
+						<l>Sovrana impera e tutti son soggetti,</l>
+						<l>Né quivi serve, né comanda alcuno.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Dura è la legge e nulla scerne ed ode,</l>
+						<l>Né per pregar dal suo voler si torce;</l>
+						<l>Ma presso del signor grazia e favore</l>
+						<l>Può ritrovar chi "l chiede.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l>Altrui chi dà favor, cogli altri è ingiusto,</l>
+						<l>Né dritti uguali a ciaschedun dispensa;</l>
+						<l>Onde n"avviene ch"altri abbondi ed altri</l>
+						<l>Ingiuria soffra e in povertà ne gema.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Sono a’ mortali varie sorti fisse</l>
+						<l>Al nascer di ciascun, come la Parca</l>
+						<l>Di ferro o d"oro quelle ognor comparte.</l>
+						<l>Di grandi e di potenti</l>
+						<l>E della plebe per servir sol nata</l>
+						<l>Convien che la città composta sia.</l>
+						<l>Se tu salir in più sovrana parte</l>
+						<l>Brami, d"Ismene al cor gelato ispira</l>
+						<l part="I">Fiamma pel tuo signor.</l>
+					</sp>
+					<sp>
+						<speaker>TELEFO</speaker>
+						<l part="F"> Al mio dovere</l>
+						<l>A tempo adempirò. Ma qui ne viene</l>
+						<l>Ella medesma, tu potrai con lei</l>
+						<l>A pro del tuo padron oprar ogn"arte.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>ISMENE, POLIFONTE</stage>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Qual oggetto funesto? del tiranno</l>
+						<l>E della morte il fier ministro io veggio</l>
+						<l>A rinnovar del cor la mia profonda</l>
+						<l>Ferita; e che ti porti, o Polifonte?</l>
+						<l>Ad insultar al mio dolor estremo</l>
+						<l>Forse tu vieni? appien non è contento</l>
+						<l>Il tiranno in formar l"altrui miseria,</l>
+						<l>Se non prende piacer del mal che fece</l>
+						<l>E non si pasce ognor del pianto amaro</l>
+						<l>Degl"infelici oppressi.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Ismene, e quando al tuo dolor dài freno?</l>
+						<l>Infido consigliero è fero sdegno.</l>
+						<l>A più mite pensier il tuo bel core</l>
+						<l>Alfin dia loco, e meglio il merto stima</l>
+						<l>Di chi ti adora e in sommo pregio tiene,</l>
+						<l>Ed al tuo piè la sua grandezza e ‘l fasto</l>
+						<l>E ‘l suo poter depone.</l>
+						<l>Chi di Tebe è signor, d"esser tuo servo</l>
+						<l>Non si disdegna e schiva.</l>
+						<l>Deh non sprezzar la sorte, ora che t"offre</l>
+						<l>Il crine; ella sdegnata</l>
+						<l>Il piè lontano porterà, se tardi</l>
+						<l>A stringer il suo dono.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Il mio dolor e l"aspra pena mia</l>
+						<l>Non avrà fine e l"odio del tiranno</l>
+						<l>Mi seguirà per anco nella tomba</l>
+						<l>E nel regno dell"ombre e della morte.</l>
+						<l>Né per altro mi piace che gli estinti</l>
+						<l>Abbian oltre l"avello e spirto e senso,</l>
+						<l>Che per nutrir etern"odio nel seno</l>
+						<l>Contra dell"assassin dell"infelice</l>
+						<l>Svenato sposo. Ahi misero mio sposo!</l>
+						<l>Sposo diletto, vittim"innocente</l>
+						<l>Del barbaro furor d"un mostro infame!</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Tergi le belle lagrime e sereno</l>
+						<l>Torni col ciglio il cor. L"umane cose</l>
+						<l>Hanno termine e fin. Soverchio pianto</l>
+						<l>Hai tu finor versato.</l>
+						<l>Condona alfine un amoroso eccesso</l>
+						<l>Al tuo fedel Leontida. Un trasporto</l>
+						<l>D"amor merta perdono; e dal trasporto</l>
+						<l>Estima l"infinito amor, che nutre</l>
+						<l>Per te quel fido amante.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Amor d"ogni odio assai peggior! Deh pera</l>
+						<l>Il dì che piacqui agli occhi suoi. Deh fossi</l>
+						<l>Io stata all"empio il più ferale oggetto.</l>
+						<l>Infelici sembianze! del mio bene</l>
+						<l>Omicide crudeli, oh ree sembianze,</l>
+						<l>Se voi piaceste al perfido tiranno.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Non vidi mai al par di te nell"odio</l>
+						<l>Donna ostinata. Tigre, cui rapita</l>
+						<l>Dal cacciator fu la diletta prole,</l>
+						<l>Tranquill"ancor diviene e la natìa</l>
+						<l>Ferocia ha tregua e posa.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Deh Polifonte, alfin lascia l"impegno</l>
+						<l>Di mitigar l"acerbo mio pensiero.</l>
+						<l>Il mio dolor e l"odio al par saranno</l>
+						<l>Eterni in me. Lor esca eterna e cibo</l>
+						<l>Sarà questo mio petto.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Né ti lusinga lo splendor e ‘l fasto</l>
+						<l>Della sorte superba, a che t"invita?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Anzi m" irrita più, più faci aggiunge</l>
+						<l>All"odio mio, al mio mortal cordoglio.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Né l"ire tu del tuo signor paventi?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>E che deggio temer? Chi si dispone</l>
+						<l>Morte a sprezzar, più nulla al mondo teme.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Deh superba, ti vanta a tuo talento</l>
+						<l>Di questa tua ferocia. Ben favella</l>
+						<l>Tu cambierai fra poco. Il tuo germano</l>
+						<l>Ne pagherà la pena.</l>
+						<l>Il suo sangue vedrai correr in rivi.</l>
+						<l>Allor palese fia se mai sereno</l>
+						<l>Il guardo tuo vedrà Carone estinto</l>
+						<l>E nel sangue del padre il figlio ucciso</l>
+						<l>Nuotar bagnato e immerso.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Come! Carone! che peccò? che fece?</l>
+						<l>Ei fia punito dell"altrui demerto?</l>
+						<l>Non è del tuo signor il crudo ferro</l>
+						<l>Sazio di stragi ancor? senti, t"arresta.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>I sensi tuoi al mio signor riporto.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Polifonte, pietà di un"infelice,</l>
+						<l>Se del mio sposo mi privò la sorte,</l>
+						<l>Del mio germano non mi privi ancora.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Ma tu cangia pensier, deponi il folle</l>
+						<l>Orgoglio e quei feroci alteri spirti,</l>
+						<l>E il tuo Carone alla tebana gente</l>
+						<l>Signoreggiar vedrai.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Dona al dolor un giusto tempo almeno.</l>
+						<l>Poch"ore al pianto ho date. Il tempo porge</l>
+						<l>Maggior conforto che de’ saggi i detti.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Deh leggi questo foglio, egli ti appresta</l>
+						<l>Un conforto miglior che il tempo istesso.</l>
+					</sp>
+					<stage>
+						<hi>Ismene legge il foglio.</hi>
+					</stage>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Oh qual ardir! che pensoexcl che rispondo!</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>E ben risolvi… Ismene.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Leontida contento</l>
+						<l>Sarà: ne venga. Io spero che conceda</l>
+						<l>Qualche tempo al mio duol; e alla ragione,</l>
+						<l>Saggio qual è, pur ceda.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUARTA</hi>
+					</head>
+					<stage>POLIFONTE <hi>solo</hi>
+					</stage>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>O delle donne instabil mente e inferma!</l>
+						<l>Di orgoglio e vanità quanto ricolma</l>
+						<l>Tanto leggiera e frale.</l>
+						<l>Quando si abbassa l"uomo e prega ed ama,</l>
+						<l>Nol curi, anzi lo schivi.</l>
+						<l>Quand"ei ti sprezza, l"ami e, se minaccia,</l>
+						<l>L"adori e al suo piacer tutta t"inchini.</l>
+						<l>Bontà, valor e cortesia non pregi;</l>
+						<l>Il buon non curi ed il malvagio onori.</l>
+						<l>Con te dunque convien che l"uomo adopri</l>
+						<l>Inganno e frode e reo costume ognora,</l>
+						<l>Se di piacerti brama.</l>
+						<l>Ecco costei, che sì feroce prima</l>
+						<l>E a tanti preghi si mostrò sì altera,</l>
+						<l>Ora cangiata in un momento solo,</l>
+						<l>Mansueta e umìle al minacciar divenne.</l>
+						<l>Stolta! vedrai fra poco</l>
+						<l>A che ti adduce tua sciocchezza estrema.</l>
+						<l>Il piè già tieni nell"ordito laccio.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA QUINTA</hi>
+					</head>
+					<stage>ISMENE <hi rend="Italic">sola</hi>
+					</stage>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ombra diletta dell"amato Emonte,</l>
+						<l>Ombra onorata e cara,</l>
+						<l>Non ti sdegnar se ancor io resto in vita</l>
+						<l>E nel soggiorno dell"eterna notte</l>
+						<l>Ancor non scesi per unirmi teco.</l>
+						<l>L"anima mia seguì già l"orme tue.</l>
+						<l>Tu l"hai menata teco;</l>
+						<l>E queste membra muove e solo avviva</l>
+						<l>L"ardor della vendetta. Io spero</l>
+						<l>Ormai placarti coll"infame sangue</l>
+						<l>Del tiranno, cui voglio di mia mano</l>
+						<l>Strappar dal seno il core</l>
+						<l>E trapassarlo con pungente ferro,</l>
+						<l>Per fin che alle ferite vi sia loco.</l>
+						<l>O fido servo, fa che spento sia</l>
+						<stage>
+							<hi rend="Italic">comparisce il servo e spegne il lume</hi>
+						</stage>
+						<l>In queste stanze il lume;</l>
+						<l>Quando verrà Leontida, introdotto</l>
+						<l>Che sia qui dentro. Numi ognor tremendi</l>
+						<l>Della profonda notte, Ecate e Pluto,</l>
+						<l>Non mi negate il vostro gran soccorso,</l>
+						<l>Voi fate che nel core del tiranno</l>
+						<l>Io tinga questo ferro.</l>
+						<l>Creder deggio che voi</l>
+						<l>Spiraste sol la furiosa mente</l>
+						<l>All"impuro ladrone, acciocché paghi</l>
+						<l>Le meritate pene.</l>
+						<l>Spinto dall"ebria ed impudica fiamma,</l>
+						<l>Mi fa saper che tacito fra poco</l>
+						<l>Ei qui sarà per abboccarsi meco.</l>
+						<l>Forse lo stolto crede all"onor mio</l>
+						<l>Recar un"insanabile ferita.</l>
+						<l>Or voi donate nuovo,</l>
+						<l>Insolito valor a questo braccio,</l>
+						<l>Che gli trapassi il seno. Il denso buio</l>
+						<l>Aggio maggior darammi al gran disegno.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SESTA</hi>
+					</head>
+					<stage>EMONTE <hi rend="Italic">indi</hi> ISMENE</stage>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>O tenebrosa notte! o tetro buio!</l>
+						<l>Qual profondo silenzio</l>
+						<l>Che spira orrore ed un feral spavento!</l>
+						<l>Non son pur queste le dilette mura</l>
+						<l>Che sì liete rendea quel caro viso?</l>
+						<l>Ov"è quel loco amato,</l>
+						<l>In cui sì dolce sospirai d"amore?</l>
+						<l>Non trovo più l"amabile soggiorno</l>
+						<l>Della mia bella dea.</l>
+						<l>Non odo o veggo alcun, né so novella</l>
+						<l>De’ congiurati, di Caron, di lei.</l>
+						<l>Che fia di loro, o Cielo!</l>
+						<l>Ella mi crederà per certo estinto;</l>
+						<l>Ché, fuor di Fillia che salvò mia vita,</l>
+						<l>Ognun morto mi crede.</l>
+						<l>Quante lagrime avrà da suoi begli occhi</l>
+						<l>Ella versate ognora?</l>
+						<l>De’ suoi sospiri è questo aer cocente</l>
+						<l>E parmi udire ancor da questi marmi</l>
+						<l>Ripetere le flebili sue voci.</l>
+						<l>Ismene,  dove sei?</l>
+						<l>Di rivederti impaziente ormai…</l>
+						<l>Odo romor… occulterommi in questa</l>
+						<l>Parte per ascoltar qualche novella. </l>
+					</sp>
+					<stage>
+						<hi rend="Italic">Si pone nella parte più rimota dal proscenio.</hi>
+					</stage>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ecco il tiranno, capitò nel laccio.</l>
+						<stage>
+							<hi rend="Italic">Ismene nell"uscire vede Emonte e lo crede Leontida.</hi>
+						</stage>
+						<l>Dal regno degli estinti</l>
+						<stage>
+							<hi>in voce più bassa</hi>
+						</stage>
+						<l>Odimi, o caro sposo;</l>
+						<l>Questa vittima accetta,</l>
+						<l>Che ti offre la fedel misera amante.</l>
+						<l>L"amor fu la cagion della tua morte,</l>
+						<l>Vendicator ne sia l"istesso amore.</l>
+						<l>Numi, guidate il braccio mio… Ma quale</l>
+						<stage>
+							<hi rend="Italic">s"incammina e poi si arresta</hi>
+						</stage>
+						<l>Forza trattiene il piè?… Trema la mano!</l>
+						<l>Sento i miei passi indietro</l>
+						<l>Respinger da poter celato. Fia</l>
+						<l>Tema che adombra il cor. Ah no, si vada</l>
+						<l>E beva il ferro del crudel il sangue.</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Qual cheta voce ascolto</l>
+						<l>E tacito sussurro?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ei vien incontra… O caro…</l>
+						<l part="I">Muori malvagio…</l>
+					</sp>
+					<stage>
+						<hi rend="Italic">Alza per ferir la mano.</hi>
+					</stage>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l part="F">Ismene?</l>
+					</sp>
+					<stage>
+						<hi>Si arresta in quell"atto, sentendo la voce d"Emonte.</hi>
+					</stage>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Emonte? eterni Dei!</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SETTIMA</hi>
+					</head>
+					<stage>CARONE, SERVO <hi rend="Italic">con lume e</hi> DETTI</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Che veggio, Emonte vivo!</l>
+						<l>Ismene in atto di passargli il core!</l>
+						<l>Che strani avvenimenti il Ciel destina!</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Qual fallo mio meritò tant"ira?</l>
+						<l>Che mai ti feci, Ismene?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ah,  caro Emonte mio, perdona questo</l>
+						<l>Involontario error. Tu vivi ancora?</l>
+						<l>Né ti fece svenar l"empio tiranno?</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>A Fillia diè la cura che di vita</l>
+						<l>Mi facesse privar; l"amico finse</l>
+						<l>Eseguito il comando e ‘l fier tiranno</l>
+						<l>Sicuro è di mia morte.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>O Ciel! a qual eccesso il braccio mio</l>
+						<l>Ora portavi? vendicar lo sposo</l>
+						<l>Volendo, io stessa gli squarciava il petto.</l>
+						<l>Ah qual orrore nel pensarci io sento!</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>E qual d"un tanto error fu la cagione?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Leontida,  di vino e d"impudico</l>
+						<l>Amor ardente, mi cercò secreto</l>
+						<l>Abboccamento ed io</l>
+						<l>Qui lo trassi a venir, acciò tra l"ombre</l>
+						<l>Svenar potessi quell"orribil mostro.</l>
+						<l>E fui nel punto (ahi sollevar mi sento</l>
+						<l>Le chiome tutte) di passar il core</l>
+						<l>Al mio diletto sposo.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Oimè! quest"accidente può turbare</l>
+						<l>La nostra impresa. D"affrettar fa d"uopo</l>
+						<l>Pelopida, ché parta in questo istante.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA OTTAVA</hi>
+					</head>
+					<stage>EMONTE, ISMENE</stage>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Ismene,  addio, qui restar non posso.</l>
+						<l>Al gran cimento l"amistà, l"onore</l>
+						<l>E Tebe ancor mi appella.</l>
+						<l>Conservati, ben mio.</l>
+						<l>Ah! se l"estrema volta, o Cielo avverso,</l>
+						<l>Mi concedi mirar quei cari lumi,</l>
+						<l>Onde il bel foco spira, il qual avviva</l>
+						<l>Ed anima il mio core,</l>
+						<l>A suoi begli anni aggiungi</l>
+						<l>Il numero de’ giorni</l>
+						<l>Che toglie a me l"inesorabil Parca.</l>
+						<l>Mia cara Ismene, addio.</l>
+						<l>Io nella tomba porto</l>
+						<l>La bella fiamma mia, onde arsi al mondo.</l>
+						<l>Idolo amato, a te sovvenga pure</l>
+						<l>Talor della mia fede….</l>
+						<l>Ma tu piangi, mia vita, e coi sospiri</l>
+						<l>E con singulti mi rispondi solo?</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ah! caro Emonte… oh Dio!</l>
+						<l>Ahi! tosto che la sorte mi ti rende,</l>
+						<l>Io ti perdo di nuovo.</l>
+						<l>Il Ciel forse per sempre ne divide;</l>
+						<l>Né ti vedran mai più questi occhi miei.</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Ahi! qual assalto fiero, Ismene, or movi</l>
+						<l>A mia virtù, ch"amor si vede a fronte.</l>
+						<l>Tutte di lui le tenerezze e l"armi</l>
+						<l>Tu chiami in campo ad opportar la guerra</l>
+						<l>Alla mia gloria e al mio dover geloso.</l>
+						<l>Io parto. Ismene, addio.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Ah no, ti arresta, o sposo. Incontro a morte</l>
+						<l>Tu porti il piè. Ti ferma.</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Se fosse mai nella fatal bilancia,</l>
+						<l>U‘ son le sorti del mortal librate,</l>
+						<l>Sospesa da una banda la mia morte</l>
+						<l>E dall"opposta eterna immortal vita,</l>
+						<l>Unita al biasmo di lasciar la patria</l>
+						<l>In tal periglio, un sol momento avrei</l>
+						<l>Rossor di bilanciar sul mio destino.</l>
+						<l>Alla mia patria io deggio</l>
+						<l>La vita, che ad usar solo mi diede.</l>
+						<l>Il sangue, che mi scorre nelle vene,</l>
+						<l>Non è suo dono? Spirto,</l>
+						<l>Del viver mio motor non è quest"aura</l>
+						<l>Che della patria da bei colli spira?</l>
+						<l>Gli avi vetusti, donde vita io trassi,</l>
+						<l>Non son di questo suol natìo germoglio?</l>
+						<l>S"aprì la fertil terra</l>
+						<l>E di Cadmo cacciò la fera gente,</l>
+						<l>Che abitò prima le tebane mure.</l>
+						<l>Deh lascia pure, Ismene,</l>
+						<l>Se nel volume del destino è scritto</l>
+						<l>Che alla mia patria io renda il proprio dono.</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>Qual Dio parlò col labro tuo? qual Nume</l>
+						<l>Tutelare di Tebe ne’ tuoi detti</l>
+						<l>Tonò? qual foco e qual ardor io sento</l>
+						<l>Destarmisi nel seno?</l>
+						<l>Ah! potess"io gravar le bionde chiome</l>
+						<l>Con lucido cimiero  e armar il mio</l>
+						<l>Tenero petto di lorica e l"asta</l>
+						<l>Trattar con mano ardita</l>
+						<l>E qual Pentesilea sul Termodonte</l>
+						<l>Di sangue ostile insanguinar il campo.</l>
+						<l>Per la mia patria terra</l>
+						<l>Affronterei la morte</l>
+						<l>E teco avrei comun gloria e periglio.</l>
+						<l>Ma la natura o ‘l reo</l>
+						<l>Costume fu nemico al nostro sesso,</l>
+						<l>Che ne ristrinse tra di anguste mura;</l>
+						<l>E l"ingegno e ‘l valor vi chiuse ancora.</l>
+						<l>Deh vanne tu, dove si rota il brando,</l>
+						<l>Ché ‘l petto mio sarà campo di guerra,</l>
+						<l>Ove sarà più cruda aspra tenzone.</l>
+					</sp>
+					<sp>
+						<speaker>EMONTE</speaker>
+						<l>Son queste voci di tebana donna,</l>
+						<l>Sorella di Carone e sposa mia.</l>
+						<l>Figlia di Giove, Pallade Minerva,</l>
+						<l>O mia gran Dea, proteggi chi cotanto</l>
+						<l>A te somiglia e fa ch"io torni degno</l>
+						<l>Di questa eccelsa e gloriosa donna.</l>
+					</sp>
+				</div2>
+			</div1>
+			<div1 type="atto">
+				<head>ATTO QUINTO</head>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA PRIMA</hi>
+					</head>
+					<stage>CARONE <hi rend="Italic">all'altare</hi>
+					</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Onnipotenti  Dei, che proteggete</l>
+						<l>Il popolo di Cadmo, o de’ tiranni</l>
+						<l>Sterminatori eterni,</l>
+						<l>Figlia di Giove, o Pallade tremenda,</l>
+						<l>Apollo, cui l"argenteo arco risuona</l>
+						<l>Sugli omeri divini, voi drizzate</l>
+						<l>I dardi e l"aste ultrici</l>
+						<l>Contra i tiranni della patria mia;</l>
+						<l>E sotto il tuo gran scudo, invitta Dea,</l>
+						<l>I generosi eroi</l>
+						<l>Della lor patria vindici difendi.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA SECONDA</hi>
+					</head>
+					<stage>ASPASIA, CARONE</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Chi m"arreca o la vita o la mia morte?</l>
+						<l>Né alcun ancor qui viene?</l>
+						<l>Che affanno in aspettar l"incerto evento</l>
+						<l>Del dubbio Marte io provo!</l>
+						<l>Forse il timor del male</l>
+						<l>È più penoso dell"istesso male.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Spera nel Cielo e nel favor de’ Dei.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Le speranze nel Ciel e i caldi prieghi</l>
+						<l>Spesso coll"uom restar nell"onde immersi.</l>
+						<l>Né varco alla speranza apre quel fosco</l>
+						<l>Caliginoso orror ch"intorno al core</l>
+						<l>Stammi, onde presenti ognor mi sono</l>
+						<l>Forme d"orror, immagini di morte.</l>
+						<l>Parmi mirare ognor i tetti antichi</l>
+						<l>E queste mura di sanguigne fasce</l>
+						<l>Aspersi e tinti intorno.</l>
+						<l>Io vidi l"are de’ Penati Numi</l>
+						<l>Tremar co’ santi simulacri tutte,</l>
+						<l>E spumoso sudar e vivo sangue.</l>
+						<l>Deh guarda pur la tremula facella</l>
+						<l>E torbida di questi accesi lumi.</l>
+						<l>Odi l"orrende e spaventose voci</l>
+						<l>Che mandan fuor l"antiche oscure tombe,</l>
+						<l>Ove sepolti son i padri e gli avi</l>
+						<l>Che ne chiaman con loro.</l>
+						<l>Il figlio già riposa entro le braccia</l>
+						<l>Dell"ombre de’ Maggiori. Noi verremo,</l>
+						<l>Ombra del figlio mio,</l>
+						<l>Nell"eterna magion fra pochi istanti.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ah! che ‘l timor nell"animo ti pinge</l>
+						<l>Immagini fallaci di spavento.</l>
+						<l>Qual uomo spera o teme,  tal figura</l>
+						<l>Le cose nella mente;</l>
+						<l>Ma agli occhi suoi perpetuamente annotta</l>
+						<l>E denso velo l"avvenir ricovre.</l>
+						<l>L"invincibil destin ha quel celato</l>
+						<l>In un eterno impenetrabil buio</l>
+						<l>E al misero mortal ognor conteso.</l>
+						<l>Ben il migliore di sperar ne giova.</l>
+						<l>Così,  se accade, è dimezzato il male,</l>
+						<l>Siccome è doppio il bene.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Vani pensieri! inutili conforti!</l>
+						<l>Ma vien qualcuno… o pur m"inganno? è vero.</l>
+						<l>O Polinice! o Numi!</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA TERZA</hi>
+					</head>
+					<stage>POLINICE, ISMENE <hi rend="Italic">e</hi> DETTI</stage>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Liete novelle, o padre mio, ti arreco:</l>
+						<l>Archia è già caduto e i suoi compagni</l>
+						<l>Sono in un mar del proprio sangue immersi.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Grazie vi rendo, o Dei!</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l>O Polinice, che mai fu d"Emonte?</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>È salvo il prode Emonte.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Narra per ordin tutto, o caro figlio.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Nelle casa di Fillia ogni uscio aperto</l>
+						<l>Trovammo e senza servo alcun di guardia,</l>
+						<l>Ché Fillia con accorto modo avea</l>
+						<l>Indi rimossi tutti.</l>
+						<l>I tiranni giacean su i letti stesi</l>
+						<l>E sdraiati, dal vin oppressi e domi,</l>
+						<l>Aspettando le donne e con la mente</l>
+						<l>Anzi tempo il piacere divorando.</l>
+						<l>Quindi primier Pelopida tra quelli</l>
+						<l>Si lanciò, nell"aspetto a Marte uguale.</l>
+						<l>Siccome un pardo, che la fame punge,</l>
+						<l>Vede la cara preda e in un si avventa</l>
+						<l>Su quella sbigottita:</l>
+						<l>E con empito tal la spada al fianco</l>
+						<l>Spinse a Filippo, che passò dal lato</l>
+						<l>Opposto il ferro e giunse l"elsa al corpo.</l>
+						<l>S"alzò quell"infelice e cadde poi</l>
+						<l>Su la mensa di nuovo; e tazze e tutto</l>
+						<l>Andò sossopra e rovesciossi al suolo.</l>
+						<l>Scorreva il vivo sangue in rivi e al vino</l>
+						<l>Misto scorreva ed urla al ciel tremendi</l>
+						<l>Il moribondo tra rotti singulti</l>
+						<l>Mandava, alto fremendo, come  toro</l>
+						<l>Innanzi all"ara, che ferì nel collo</l>
+						<l>Con lieve offesa il timido Ministro,</l>
+						<l>Cade mugghiando al suolo e si rivolge</l>
+						<l>Fra ‘l proprio sangue e minacciar non cessa.</l>
+						<l>Allor di spade lucide e taglienti</l>
+						<l>Un lampegiar fu visto in un baleno.</l>
+						<l>L"orror, la morte con sanguigna face</l>
+						<l>Quivi scorrea d"intorno.</l>
+						<l>Ognun de’ congiurati</l>
+						<l>Ne’ tiranni immergea</l>
+						<l>Ferro di sangue sitibondo e ingordo.</l>
+						<l>Emonte allora, qual leon feroce</l>
+						<l>Che ‘l cacciatore leggiermente offese,</l>
+						<l>Tra quelli si scagliò, facendo strage</l>
+						<l>E gridando: di Tebe alla vendetta</l>
+						<l>Io vi consacro, perfidi tiranni.</l>
+						<l>Ma il crudo Archia terribile ben tosto</l>
+						<l>Cacciò la spada ed a ferir i nostri</l>
+						<l>Lento non fu. Gli amici</l>
+						<l>Di questo, insiem raccolti,</l>
+						<l>Arditi incominciaro a far difesa.</l>
+						<l>Allora il valoroso e forte Emonte</l>
+						<l>Si strinse con Archia in fiera pugna</l>
+						<l>E questi furioso</l>
+						<l>Un rovescio tirò sul nudo capo</l>
+						<l part="I">D"Emonte…</l>
+					</sp>
+					<sp>
+						<speaker>ISMENE</speaker>
+						<l part="M">E l"ha ferito?</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l part="F">Ismene, no,</l>
+						<l>Ché nel mirar l"amico in tal periglio</l>
+						<l>Mi sospinsi da lato a quel crudele</l>
+						<l>E con ambe le mani il braccio tenni.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>O caro figlio, palpito di affanno.</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Di sprigionar tentò l"avvinto braccio,</l>
+						<l>Ma invan tentò, ché l"amistade infuse</l>
+						<l>Insolito vigor alle mie membra.</l>
+						<l>Ei che si vide il braccio così stretto,</l>
+						<l>Ardendo d"ira, il suo pugnal si trasse</l>
+						<l>E con la manca me ferir volea.</l>
+						<l>Ma Pelopida, occorso al maggior uopo,</l>
+						<l>Con un fendente gli troncò la mano</l>
+						<l>Del pugnale. Stringeva ancora il ferro</l>
+						<l>La man, che al suol guizzava, e quegli ancora</l>
+						<l>Di combatter non resta; e il braccio versa</l>
+						<l>(Orribile spettacolo!) di sangue</l>
+						<l>Torrente, e l"empio il Ciel bestemmia e Dio.</l>
+						<l>Pelopida sdegnato alzò la voce:</l>
+						<l>E troppo, disse, al tuo destin contrasti;</l>
+						<l>E in così dire fulminò sul capo</l>
+						<l>Di quel malvagio un sì feroce colpo</l>
+						<l>Che insino al mento lo divise, e cadde</l>
+						<l>Del tiranno di Tebe il grave tronco.</l>
+						<l>Archia al suol caduto, ognun rimase</l>
+						<l>Estinto e questo fin ebbe ciascuno</l>
+						<l>Ch"empio la patria sua serva si rese.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ma del crudel Leontida novella</l>
+						<l>Tu non mi rechi, o figlio?</l>
+					</sp>
+					<sp>
+						<speaker>POLINICE</speaker>
+						<l>Poc"anzi egli di là si era partito.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Il maggiore nemico oimè! ne resta.</l>
+						<l>Se fia salvo Leontida, ogni nostra</l>
+						<l>Fatica al vento è sparsa.</l>
+					</sp>
+				</div2>
+				<div2 type="scena">
+					<head>
+						<hi rend="Italic">SCENA ULTIMA “QUARTA‘</hi>
+					</head>
+					<stage>LEONTIDA <hi rend="Italic">e</hi> DETTI “<hi rend="Italic">poi</hi>  POLIFONTE <hi rend="Italic">e</hi>
+	PELOPIDA“</stage>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ecco il tiranno, su, mio cor,  valore.</l>
+						<l part="I">Cedi sei morto…</l>
+						<stage>
+							<hi rend="Italic">Carone tira il ferro e va sopra Leontida.</hi>
+						</stage>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l part="F">Traditor, ti resta </l>
+						<l>Molto da far per superarmi ancora…</l>
+						<stage>
+							<hi rend="Italic">Leontida si disbriga da Carone e si pone in difesa e battonsi.</hi>
+						</stage>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>O Dei! soccorso… aita…</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Lascia l"inutil ferro… mori, e tardi</l>
+						<l>Impara de‘ tiranni il fin prefisso.</l>
+						<stage>
+							<hi>Carone vince il ferro a Leontida.</hi>
+						</stage>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>I miei compagni ne faran vendetta.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>I tuoi compagni preceder tuoi passi.</l>
+						<l>Ombre gementi attendon il lor duce</l>
+						<l>Nella torbida sponda d"Acheronte.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Ma vi son io. Ti arresta; o Polinice</l>
+						<l>Sugli occhi tuoi  ti sveno.</l>
+						<stage>
+							<hi>Polifonte, che viene, pone uno stile alla gola di Polinice e colla sinistra
+	lo tiene stretto.</hi>
+						</stage>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>O Fato, avverso ognora!</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ah Polifonte, ferma.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<stage>
+							<hi rend="Italic">Aspasia si muove verso Polifonte.</hi>
+						</stage>
+						<l>Se t"accosti, ferisco.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Figlio, misero figlio!</l>
+						<stage>
+							<hi>Aspasia si arresta.</hi>
+						</stage>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Caron, sciogli Leontida</l>
+						<l>O vibro al seno il ferro.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Servo malvagio di un tiranno iniquo,</l>
+						<l>Contra la patria l"armi empio tu movi.</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Il tempo vola. Ferirò, se tardi.</l>
+					</sp>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l>Ah, Carone, pietà del figlio tuo.</l>
+						<l>Figlio, misero figlio…</l>
+						<l>Crudel, arresta il braccio.</l>
+						<l>Ecco il mio petto nudo.</l>
+					</sp>
+					<stage>
+						<hi>Aspasia s"incamina di nuovo verso il figlio e poi si arresta.</hi>
+					</stage>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l>Ferma. O l"uccido. E tu, Caron, risolvi.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Ah figlio! o Polinice!</l>
+						<l>O patria! o sacra fede!</l>
+						<l>Provvidenza del Ciel, o vano nome!</l>
+					</sp>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l part="I">Ecco,  ferisco.</l>
+					</sp>
+					<stage>
+						<hi rend="Italic">Accenna di ferire.</hi>
+					</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l part="F"> No, t"arresta, o Dio!</l>
+						<l>Ah barbaro, crudel, sposo inumano,</l>
+						<l>E tu permetti e vuoi</l>
+						<l>Che sia svenato il caro unico figlio</l>
+						<l>Sugli occhi della madre?</l>
+						<l>Numi, Caron, pietà… Misera madre!</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l>Polifonte, ferisci. Io moro lieto,</l>
+						<l>Facendo anco tremar l"eroe di Tebe.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Viva la patria. Tu ferisci, e mori,</l>
+						<l part="I">Empio tiranno.</l>
+					</sp>
+					<stage>
+						<hi rend="Italic">Carone ferisce Leontida e costui cade.</hi>
+					</stage>
+					<sp>
+						<speaker>ASPASIA</speaker>
+						<l part="M">O Ciel! soccorso</l>
+					</sp>
+					<stage>
+						<hi>Giunge Pelopida,  trattiene colla sinistra il braccio di Polifonte e colla
+	dritta lo ferisce</hi>
+					</stage>
+					<sp>
+						<speaker>PELOPIDA</speaker>
+						<l part="F">Mori.</l>
+					</sp>
+					<stage>
+						<hi>e questi cade.</hi>
+					</stage>
+					<sp>
+						<speaker>POLIFONTE</speaker>
+						<l part="I">Io manco.</l>
+					</sp>
+					<sp>
+						<speaker>LEONTIDA</speaker>
+						<l part="F">Invendicato io moro… empio destino.</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>O Dei pietosi! O figlio mio! Carone!</l>
+					</sp>
+					<sp>
+						<speaker>CARONE</speaker>
+						<l>Stolti mortali! La celeste mano</l>
+						<l>È più vicina, allorché men si vede.</l>
+					</sp>
+					<closer>FINE
+	</closer>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI.2>

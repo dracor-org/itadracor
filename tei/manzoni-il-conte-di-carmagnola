@@ -1,0 +1,3819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il conte di Carmagnola</title>
+      <author>Alessandro Manzoni</author>
+    </titleStmt>
+    <extent>127 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000612</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Prime edizioni e abbozzi : serie seconda</title>
+        <title type="part">Le tragedie secondo i manoscritti e le prime stampe</title>
+        <author>Manzoni, Alessandro</author>
+        <editor id="ed">Sanesi, Ireneo</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>800</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-04-08T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marina Larena</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-04-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<castList>
+<head>PERSONAGGI</head>
+<castGroup>
+<head>PERSONAGGI STORICI.</head>
+<castItem type="role"><role>IL CONTE DI CARMAGNOLA.</role></castItem>
+<castItem type="role"><role>ANTONIETTA VISCONTI</role><roleDesc>sua moglie.</roleDesc></castItem>
+<castItem type="role"><role>UNA LORO FIGLIA,</role><roleDesc>a cui nella tragedia si è attribuito il nome di MATILDE.</roleDesc></castItem>
+<castItem type="role"><role>FRANCESCO FOSCARI Doge di Venezia.</role></castItem>
+<castItem type="role"><role>GIOVAN FRANCESCO GONZAGA.</role><roleDesc>Condottiero al soldo dei Veneziani.</roleDesc></castItem>
+<castItem type="role"><role>PAOLO FRANCESCO ORSINI.</role><roleDesc>Condottiero al soldo dei Veneziani.</roleDesc></castItem>
+<castItem type="role"><role>NICOLÒ DA TOLENTINO.</role><roleDesc>Condottiero al soldo dei Veneziani.</roleDesc></castItem>
+<castItem type="role"><role>CARLO MALATESTI.</role><roleDesc>Condottiero al soldo del Duca di Milano.</roleDesc></castItem>
+<castItem type="role"><role>ANGELO DELLA PERGOLA.</role><roleDesc>Condottiero al soldo del Duca di Milano.</roleDesc></castItem>
+<castItem type="role"><role>GUIDO TORELLO.</role><roleDesc>Condottiero al soldo del Duca di Milano.</roleDesc></castItem>
+<castItem type="role"><role>NICOLÒ PICCININO,</role><roleDesc>a cui nella tragedia si è attribuito il cognome di FORTEBRACCIO. Condottiero al soldo del Duca di Milano.</roleDesc></castItem>
+<castItem type="role"><role>FRANCESCO SFORZA.</role><roleDesc>Condottiero al soldo del Duca di Milano.</roleDesc></castItem>
+<castItem type="role"><role>PERGOLA</role><roleDesc>figlio.</roleDesc></castItem>
+</castGroup>
+<castGroup>
+<head>PERSONAGGI IDEALI.</head>
+<castItem type="role"><role>MARCO,</role><roleDesc>Senatore veneziano.</roleDesc></castItem>
+<castItem type="role"><role>MARINO,</role><roleDesc>uno dei Capi del Consiglio dei Dieci.</roleDesc></castItem>
+<castItem type="role"><role>PRIMO COMMISSARIO</role><roleDesc>veneto nel campo.</roleDesc></castItem>
+<castItem type="role"><role>SECONDO COMMISSARIO.</role></castItem>
+<castItem type="role"><role>UN SOLDATO</role><roleDesc>del Conte.</roleDesc></castItem>
+<castItem type="role"><role>UN SOLDATO</role><roleDesc>prigioniero.</roleDesc></castItem>
+<castItem type="role"><role>SENATORI,</role></castItem>
+<castItem type="role"><role>CONDOTTIERI,</role></castItem>
+<castItem type="role"><role>SOLDATI,</role></castItem>
+<castItem type="role"><role>PRIGIONI,</role></castItem>
+<castItem type="role"><role>GUARDIE.</role></castItem>
+</castGroup></castList></front>
+<body>
+
+<div1 type="atto">
+<head>ATTO I</head>
+
+<div2 type="scena">
+<head>SCENA I </head>
+
+<stage><emph>Sala del Senato, in Venezia.</emph></stage>
+<stage>IL DOGE <emph>e</emph>SENATORI<emph>seduti.</emph></stage>
+
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>È giunto il fin de' lunghi dubbi, è giunto,</l>
+<l>Nobil'uomini, il dì che statuito</l>
+<l>Fu a risolver da voi. Su questa lega</l>
+<l>A cui Firenze con sì caldi preghi</l>
+<l>Incontro il Duca di Milan c'invita,</l>
+<l>Oggi il partito si porrà. Ma pria,</l>
+<l>Se alcuno è qui cui non sia noto ancora</l>
+<l>Che vile opra di tenebre e di sangue</l>
+<l>Sugli occhi nostri fu tentata, in questa</l>
+<l>Stessa Venezia, inviolato asilo</l>
+<l>Di giustizia e di pace, odami: al nostro</l>
+<l>Deliberar rileva assai che alcuno</l>
+<l>Qui non l'ignori. Un fuoruscito al Conte</l>
+<l>Di Carmagnola insidiò la vita</l>
+<l>Fallito è il colpo, e l'assassino è in ceppi.</l>
+<l>Mandato egli era; e quei che a ciò mandollo</l>
+<l>Ei l'ha nomato, ed è — quel Duca istesso</l>
+<l>Di cui qui abbiam gli ambasciatori ancora</l>
+<l>A chieder pace, a cui più nulla preme</l>
+<l>Che la nostra amistà. Tale arra intanto</l>
+<l>Ei ci da della sua. Taccio la vile</l>
+<l>Perfidia della trama, e l'onta aperta</l>
+<l>Che in un nostro soldato a noi vien fatta.</l>
+<l>Due sole cose avverto: egli odia dunque</l>
+<l>Veracemente il Conte, ella è fra loro</l>
+<l>Chiusa ogni via di pace, il sangue ha stretto</l>
+<l>Fra lor d'eterna inimicizia un patto.</l>
+<l>L'odia — e lo teme: ei sa che il può dal trono</l>
+<l>Quella mano sbalzar che in trono il pose,</l>
+<l>E disperando che più a lungo in questa</l>
+<l>Inonorata, improvida, tradita</l>
+<l>Pace restar noi consentiamo, ei sente</l>
+<l>Che sia per noi quest'uom; questo fra i primi</l>
+<l>Guerrier d'Italia il primo, e quel che monta</l>
+<l>Forse ancor più, delle sue forze istrutto</l>
+<l>Come dell'arti sue; questi che il lato</l>
+<l>Saprà tosto trovargli ove più certa</l>
+<l>E più mortal fia la ferita. Ei volle</l>
+<l>Spezzar quest'arme in nostra mano; e noi</l>
+<l>Adoperiamla, e tosto. — Onde possiamo</l>
+<l>Un più fedele e saggio avviso in questo</l>
+<l>Che dal Conte aspettarci? Io l'invitai:</l>
+<l part="I">Piacevi udirlo?</l></lg>
+<stage><emph>(segni di adesione)</emph></stage>
+<lg>
+<l part="F">S'introduca il Conte.</l></lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage>IL CONTE <emph>e detti</emph>.</stage>
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Conte di Carmagnola, oggi la prima</l>
+<l>Occasion s'affaccia in che di voi</l>
+<l>Si valga la Repubblica, e vi mostri</l>
+<l>In che conto vi tiene: in grave affare</l>
+<l>Grave consiglio ci abbisogna. Intanto</l>
+<l>Tutto per bocca mia questo Senato</l>
+<l>Si rallegra con voi da sì nefando</l>
+<l>Periglio uscito; e protestiam che a noi</l>
+<l>Fatta è l'offesa, e che sul vostro capo</l>
+<l>Or più che mai fia steso il nostro scudo,</l>
+<l>Scudo di vigilanza e di vendetta.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Serenissimo Doge, ancor null'altro</l>
+<l>Io per questa ospital terra, che ardisco</l>
+<l>Nomar mia patria, potei far che voti.</l>
+<l>Oh! mi sia dato alfin questa mia vita,</l>
+<l>Pur or sottratta al macchinar dei vili,</l>
+<l>Questa che nulla or fa che giorno a giorno</l>
+<l>Aggiungere in silenzio e che guardarsi</l>
+<l>Tristamente, tirarla in luce ancora</l>
+<l>E spenderla per voi, ma di tal modo,</l>
+<l>Che dir si possa un dì, che in loco indegno</l>
+<l>Vostr'alta cortesia posta non era.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Certo gran cose, ove il bisogno il chiegga,</l>
+<l>Ci promettiam da voi. Per or ci giovi</l>
+<l>Soltanto il vostro senno. In suo soccorso</l>
+<l>Contro il Visconte l'armi nostre implora</l>
+<l>Già da lungo Firenze. Il vostro avviso</l>
+<l>Nella bilancia che teniam librata</l>
+<l part="I">Non farà picciol peso.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">E senno e braccio</l>
+<l>E quanto io sono è cosa vostra: e certo</l>
+<l>Se mai fu caso in cui sperar m'attenti</l>
+<l>Che a voi pur giovi un mio consiglio, è questo.</l>
+<l>E lo darò: ma pria mi sia concesso</l>
+<l>Di me parlarvi in breve, e un cuore aprirvi,</l>
+<l>Un cuor che agogna sol d'esser ben noto.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Dite: a questa adunanza indifferente</l>
+<l>Cosa che a cor vi stia giunger non puote.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Serenissimo Doge, Senatori;</l>
+<l>Io sono al punto in cui non posso a voi</l>
+<l>Esser grato e fedel, s'io non divengo</l>
+<l>Nemico all'uom che mio Signor fu un tempo.</l>
+<l>S'io credessi che ad esso il più sottile</l>
+<l>Vincolo di dover mi leghi ancora,</l>
+<l>L'ombra onorata delle vostre insegne</l>
+<l>Fuggir vorrei, viver nell'ozio oscuro</l>
+<l>Vorrei, prima che romperlo e me stesso</l>
+<l>Far vile agli occhi miei. Dubbio veruno</l>
+<l>Sul partito che scelsi in cor non sento,</l>
+<l>Perch'egli è giusto ed onorato: il solo</l>
+<l>Timor mi pesa del giudizio altrui.</l>
+<l>Oh! beato colui, cui la fortuna</l>
+<l>Così distinte in suo cammin presenta</l>
+<l>Le vie del biasmo e dell'onor, ch'ei puote</l>
+<l>Correr certo del plauso, e non dar mai</l>
+<l>Passo ove trovi a malignar l'intento</l>
+<l>Sguardo del suo nemico. Un altro campo</l>
+<l>Correr degg'io, dove in periglio sono</l>
+<l>Di riportar — forza è pur dirlo — il brutto</l>
+<l>Nome d'ingrato, l'insoffribil nome</l>
+<l>Di traditor. So che dei Grandi è l'uso</l>
+<l>Valersi d'opra ch'essi stiman rea,</l>
+<l>E profondere a quei che l'ha compita</l>
+<l>Premj e disprezzo, il so; ma io non sono</l>
+<l>Nato a questo; e il maggior premio ch'io bramo,</l>
+<l>Il solo, egli è la vostra stima, e quella</l>
+<l>D'ogni cortese; e — arditamente il dico —</l>
+<l>Sento di meritarla. Attesto il vostro</l>
+<l>Sapiente giudicio, o Senatori,</l>
+<l>Che d'ogni obbligo sciolto inverso il Duca</l>
+<l>Mi tengo, e il sono. Se volesse alcuno</l>
+<l>Dei beneficj che fra noi son corsi</l>
+<l>Pareggiar le ragioni, è noto al mondo</l>
+<l>Qual rimarrebbe il debitor dei due. —</l>
+<l>Ma di ciò nulla: io fui fedele al Duca</l>
+<l>Fin ch'io fui seco, e nol lasciai che quando</l>
+<l>Ei mi v'astrinse. Ei mi cacciò del grado</l>
+<l>Col mio sangue acquistato: invan tentai</l>
+<l>Al mio Signor lagnarmi. I miei nemici</l>
+<l>Fatto avean siepe intorno al trono: allora</l>
+<l>M'accorsi alfin che la mia vita anch'essa</l>
+<l>Stava in periglio: — a ciò non gli diei tempo.</l>
+<l>Ché la mia vita io voglio dar, ma in campo,</l>
+<l>Per nobil causa, e con onor, non preso</l>
+<l>Nella rete dei vili. Io lo lasciai</l>
+<l>E a voi chiesi un asilo; e in questo ancora</l>
+<l>Ei mi tese un agguato. Ora a costui</l>
+<l>Più nulla io deggio; di nemico aperto</l>
+<l>Nemico aperto io sono. All'util vostro</l>
+<l>Io servirò, ma franco e in mio proposto</l>
+<l>Deliberato, come quei ch'è certo</l>
+<l part="I">Che giusta cosa imprende.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">E tal vi tiene</l>
+<l>Questo Senato: già fra il Duca e voi</l>
+<l>Ha giudicato irrevocabilmente</l>
+<l>Italia tutta. Egli la vostra fede</l>
+<l>Ha liberata, a voi l'ha resa intatta,</l>
+<l>Qual gliela deste il primo giorno. È nostra</l>
+<l>Or questa fede; e noi saprem tenerne</l>
+<l>Ben altro conto. Or d'essa un primo pegno</l>
+<l>Il vostro schietto consigliar ci sia.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Lieto son'io che un tal consiglio io possa</l>
+<l>Darvi senza esitanza. Io tengo al tutto</l>
+<l>necessaria la guerra, e della guerra —</l>
+<l>Se oltre il presente è mai concesso all'uomo</l>
+<l>Cosa certa veder — certo l'evento;</l>
+<l>Tanto più, quanto fien gl'indugi meno.</l>
+<l>A che partito è il Duca? A mezzo è vinta</l>
+<l>Da lui Firenze; ma ferito e stanco</l>
+<l>Il vincitor: vuoti gli erarj: oppressi</l>
+<l>Dal terror, dai tributi i cittadini</l>
+<l>Pregan dal ciel su l'armi loro istesse</l>
+<l>Le sconfitte e le fughe. Io li conosco,</l>
+<l>E conoscer li deggio: a molti in mente</l>
+<l>Dura il pensier del glorioso, antico</l>
+<l>Viver civile; e tostamente un guardo</l>
+<l>Rivolgon di desio là dove appena</l>
+<l>D'un qualunque avvenir si mostri un raggio,</l>
+<l>Frementi del presente e vergognosi.</l>
+<l>Ei conosce il periglio; indi l'udite</l>
+<l>Mansueto parlarvi; indi vi chiede</l>
+<l>Tempo soltanto da sbranar la preda</l>
+<l>Che già tiensi fra l'ugne, e divorarla.</l>
+<l>Fingiam che glielo diate: ecco mutata</l>
+<l>La faccia delle cose: egli soggioga</l>
+<l>Senza dubbio Firenze; ecco satolle</l>
+<l>Le costui schiere col tesor dei vinti,</l>
+<l>E più folte e anelanti a nuove imprese.</l>
+<l>Qual Prence allor dell'alleanza sua</l>
+<l>Far rifiuto oseria? Beato il primo</l>
+<l>Ch'ei chiamerebbe amico! Egli sicuro</l>
+<l>Consulterebbe e come e quando a voi</l>
+<l>Mover la guerra, a voi rimasti soli.</l>
+<l>L'ira che addoppia l'ardimento al prode</l>
+<l>Che si sente percosso, ei non la trova</l>
+<l>Che nei prosperi casi: impaziente</l>
+<l>D'ogni dimora ove il guadagno è certo;</l>
+<l>Ma nei perigli irresoluto: ai suoi</l>
+<l>Soldati ascoso, del pugnar non vuole</l>
+<l>Fuor che le prede. Ei nella rocca intanto,</l>
+<l>O nelle ville rintanato attende</l>
+<l>A novellar di cacce e di banchetti,</l>
+<l>A interrogar tremando un indovino.</l>
+<l>Ora è il tempo di vincerlo: cogliete</l>
+<l>Questo momento: ardir prudenza or fia.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Conte, su questo fedel vostro avviso</l>
+<l>Tosto il Senato prenderà partito;</l>
+<l>Ma il segua, o no, vi è grato; e vede in esso,</l>
+<l>Non men che il senno, il vostro amor per noi.</l></lg>
+<stage><emph>(parte il Conte)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA III</head>
+
+<stage>IL DOGE <emph>e</emph> SENATORI.</stage>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Dissimil certo da sì nobil voto</l>
+<l>Nessun s'aspetta il mio. Quando il consiglio</l>
+<l>Più generoso è il più sicuro, in forse</l>
+<l>Chi potria rimaner? Porgiam la mano</l>
+<l>Al fratello che implora: un sacro nodo</l>
+<l>Stringe i liberi Stati: hanno comuni</l>
+<l>Fra lor rischi e speranze; e treman tutti</l>
+<l>Dai fondamenti al rovinar d'un solo.</l>
+<l>Provocator dei deboli, nemico</l>
+<l>D'ognun che schiavo non gli sia, la pace</l>
+<l>Con tanta istanza a che ci chiede il Duca?</l>
+<l>Perché il momento della guerra ei vuole</l>
+<l>Sceglierlo, ei solo; e non è questo il suo.</l>
+<l>Il nostro egli è, se non ci falla il senno,</l>
+<l>Né l'animo. — Ei ci vuole ad uno ad uno;</l>
+<l>Andiamgli incontro uniti. Ah! saria questa</l>
+<l>La prima volta che il Leon giacesse</l>
+<l>Al suon delle lusinghe addormentato.</l>
+<l>No; fia tentato invan. — Pongo il partito</l>
+<l>Che si stringa la lega, e che la guerra</l>
+<l>Tosto al Duca s'intimi, e delle nostre</l>
+<l>Genti da terra abbia il comando il Conte.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l>Contro sì giusta e necessaria guerra</l>
+<l>Io non sorgo a parlar; questo sol chieggio,</l>
+<l>Che il buon successo ad accertar si pensi.</l>
+<l>La metà dell'impresa è nella scelta</l>
+<l>Del capitano. Io so che vanta il Conte</l>
+<l>Molti amici fra noi: ma d'una cosa</l>
+<l>Mi rendo certo, che nessun di questi</l>
+<l>L'ama più della patria; e per me, quando</l>
+<l>Di lei si tratti, ogni rispetto è nulla.</l>
+<l>Io dico e duolmi che di fronte io deggia,</l>
+<l>Serenissimo Doge, oppormi a voi —</l>
+<l>Non è il duce costui quale il richiede</l>
+<l>La gravità, l'onor di questo Stato.</l>
+<l>Non cercherò perché lasciasse il Duca. —</l>
+<l>Ei fu l'offeso; e sia pur ver — l'offesa</l>
+<l>È tal che accordo non può darsi; e questo</l>
+<l>Consento: io giuro nelle sue parole.</l>
+<l>Ma queste sue parole importa assai</l>
+<l>Considerarle, perché tutto in esse</l>
+<l>Ei s'è dipinto; — e governar sì ombroso,</l>
+<l>Sì delicato e violento orgoglio,</l>
+<l>O Senatori, non mi par che sia</l>
+<l>Minor pensiero della guerra istessa.</l>
+<l>Finor fu nostra cura il mantenerci</l>
+<l>La riverenza dei soggetti; or altro</l>
+<l>Studio far si dovria, come costui</l>
+<l>Riverir degnamente. — E quando egli abbia</l>
+<l>La man nell'elsa della nostra spada,</l>
+<l>Potrem noi dir d'aver creato un servo</l>
+<l>Dovrà por cura di piacergli ognuno</l>
+<l>Di noi? Se nasce un disparer, fia degno</l>
+<l>Che nell'arti di guerra il voler nostro</l>
+<l>A quel d'un tanto condottier prevalga?</l>
+<l>S'egli erra, e nostra è dell'error la pena —</l>
+<l>Ché invincibil nol credo — io vi domando</l>
+<l>Se fia concesso il farne lagno e dove</l>
+<l>Si riscotan per questo onte e dispregi,</l>
+<l>Che far? Soffrirli? Non v'aggrada, io stimo,</l>
+<l>Questo partito; risentirsi? E dargli</l>
+<l>Occasion che in mezzo all'opra, e nelle</l>
+<l>Più difficili strette ei ci abbandoni</l>
+<l>Sdegnato, e al primo altro Signor che il voglia, —</l>
+<l>Forse al nemico — offra il suo braccio, e sveli</l>
+<l>Quanto di noi pur sa, magnificando</l>
+<l>La nostra sconoscenza, e i suoi gran merti?</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Il Conte un Prence abbandonò; ma quale?</l>
+<l>Un che da lui tenea lo Stato, e a cui</l>
+<l>Quindi ei minor non potea mai stimarsi;</l>
+<l>Un da pochi aggirato, e questi vili;</l>
+<l>Timido e stolto, che non seppe almeno</l>
+<l>Il buon consiglio tor della paura,</l>
+<l>Nasconderla nel core, e starsi all'erta;</l>
+<l>Ma che il colpo accennò pria di scagliarlo:</l>
+<l>Tale è il Signor che inimicossi il Conte.</l>
+<l>Ma lode al ciel, nulla in Venezia io veggio</l>
+<l>Che gli somigli. Se destrier, correndo,</l>
+<l>Scosse una volta un furibondo e stolto</l>
+<l>Fuor dell'arcione, e lo gittò nel fango;</l>
+<l>Non fia per questo che salirlo ancora</l>
+<l>Un cauto e franco cavalier non voglia.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l>Poiché sì certo è di quest'uomo il Doge,</l>
+<l>Più non m'oppongo; e questo a lui sol chieggio:</l>
+<l>Vuolsi egli far mallevador del Conte?</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>A sì preciso interrogar, preciso</l>
+<l>Risponderò: mallevador pel Conte?</l>
+<l>Né per altr'uom che sia, certo, io non entro;</l>
+<l>Dell'opre mie, de' miei consigli il sono:</l>
+<l>Quando sien fidi, ei basta. Ho io proposto</l>
+<l>Che guardia al Conte non si faccia, e a lui</l>
+<l>Si dia l'arbitrio dello Stato in mano</l>
+<l>Ei diritto anderà; tale io diviso.</l>
+<l>Ma s'ei si volge al rio sentier, ci manca</l>
+<l>Occhio che tosto ce ne faccia accorti,</l>
+<l>E braccio che invisibile il raggiunga?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l>Perché i principj di sì bella impresa</l>
+<l>Contristar con sospetti? E far disegni</l>
+<l>Di terrori e di pene, ove null'altro</l>
+<l>Che lodi e grazie può aver luogo? Io taccio</l>
+<l>Che all'util suo sola una via gli è schiusa;</l>
+<l>Lo star con noi. Ma deggio dir qual cosa</l>
+<l>Dee sovra ogni altra far per lui fidanza</l>
+<l>La gloria ond'egli è già coperto, e quella</l>
+<l>A cui pur anco aspira, il generoso</l>
+<l>Il fiero animo suo: che un giorno ci voglia</l>
+<l>Dall'altezza calar de' suoi pensieri,</l>
+<l>E riporsi fra i vili, esser non puote.</l>
+<l>Or, se prudenza il vuol, vegli pur l'occhio;</l>
+<l>Ma dorma il cor nella fiducia. E poi</l>
+<l>Che in così giusta e grave causa, un tanto</l>
+<l>Dono ci manda Iddio; con quella fronte,</l>
+<l>E con quel cor che si riceve un dono,</l>
+<l part="I">Sia da noi ricevuto.</l>
+</lg></sp>
+
+<sp><speaker>MOLTI SENATORI</speaker>
+<lg>
+<l part="F">Ai voti, ai voti!</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l>Si raccolgano i voti — e ognun rammenti</l>
+<l>Quanto rilevi che di qui non esca</l>
+<l>Motto di tal deliberar, né cenno</l>
+<l>Che presumer lo faccia. In questo Stato</l>
+<l>Pochi il segreto hanno tradito, e nullo</l>
+<l>Fu tra quei pochi che impunito andasse.</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA IV</head>
+
+<stage><emph>Casa del Conte.</emph></stage>
+
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Profugo — o condottiero. — O come il vecchio</l>
+<l>Guerrier nell'ozio i giorni trar, vivendo</l>
+<l>Della gloria passata, in atto sempre</l>
+<l>Di render grazie e di pregar, protetto</l>
+<l>Dal braccio altrui che un dì potria stancarsi</l>
+<l>E abbandonarmi — o ritornar sul campo,</l>
+<l>Sentir la vita, salutar di nuovo</l>
+<l>La mia fortuna, delle trombe al suono</l>
+<l>Destarmi, comandar. — Questo è il momento</l>
+<l>Che ne decide. Eh! se Venezia in pace</l>
+<l>Riman, degg'io chiuso e celato ancora</l>
+<l>In questo asilo rimaner, siccome</l>
+<l>L'omicida nel tempio? E chi d'un regno</l>
+<l>Fece il destin, non potrà farsi il suo?</l>
+<l>Non troverò fra tanti Prenci, in questa</l>
+<l>Divisa Italia, un sol che la corona,</l>
+<l>Onde il vil capo di Filippo splende,</l>
+<l>Ardisca invidiar? Che si ricordi,</l>
+<l>Ch'io l'acquistai, che dalle man di dieci</l>
+<l>Tiranni io la strappai, ch'io la riposi</l>
+<l>Su quella fronte, ed or null'altro agogno</l>
+<l>Che ritorla all'ingrato, e farne un dono</l>
+<l>A chi saprà del braccio mio valersi?</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA V</head>
+
+<stage>MARCO<emph>e il</emph>CONTE.</stage>
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>O dolce amico — ebben che nunzio arrechi?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l>La guerra è risoluta, e tu sei duce.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Marco, ad impresa io non m'accinsi mai</l>
+<l>Con maggior cor che a questa: una gran fede</l>
+<l>Poneste in me: ne sarò degno, il giuro. —</l>
+<l>Il giorno è questo che del viver mio</l>
+<l>Ferma il destin; poi che quest'alma terra</l>
+<l>M'ha nel suo glorioso antico grembo</l>
+<l>Accolto, e dato di suo figlio il nome,</l>
+<l>Esserlo io vo' per sempre: e questo brando</l>
+<l>Io consacro per sempre alla difesa</l>
+<l part="I">E alla grandezza sua. —</l>
+</lg></sp>
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Dolce disegno!</l>
+<l>Non soffra il ciel che la fortuna il rompa —</l>
+<l part="I">O tu medesmo.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="M">Io — come?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Al par di tutti</l>
+<l>I generosi, che giovando altrui</l>
+<l>Nocquer sempre a sé stessi, e superate</l>
+<l>Tutte le vie delle più dure imprese,</l>
+<l>Caddero a un passo poi, che facilmente</l>
+<l>L'ultimo de' mortali avria varcato.</l>
+<l>Credi ad un uom che t'ama — i più dei nostri</l>
+<l>Ti sono amici; ma non tutti il sono.</l>
+<l>Di più non dico, né mi lice — e forse</l>
+<l>Troppo già dissi. Ma la mia parola</l>
+<l>Nel fido orecchio dell'amico stia,</l>
+<l>Come nel tempio del mio cor, rinchiusa.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Forse io l'ignoro? E forse ad uno ad uno</l>
+<l part="I">Non so quai sièno i miei nemici?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">E sai</l>
+<l>Chi te gli ha fatti? — In pria l'esser tu tanto</l>
+<l>Maggior di loro, indi lo sprezzo aperto</l>
+<l>Che tu ne festi in ogni incontro. Alcuno</l>
+<l>Non ti nocque finor — ma, chi non puote</l>
+<l>Nuocer col tempo? Tu non pensi ad essi,</l>
+<l>Se non allor che in tuo cammin li trovi;</l>
+<l>Ma pensan essi a te, più che non credi.</l>
+<l>Spregia il grande, ed obblia; ma il vil si gode</l>
+<l>Nell'odio. — Or tu non irritarlo: cerca</l>
+<l>Di spegnerlo; tu il puoi forse. Consiglio</l>
+<l>Di vili arti ch'io stesso a sdegno avrei,</l>
+<l>Io non ti do, né tal da me l'aspetti.</l>
+<l>Ma tra la non curanza, e la servile</l>
+<l>Cautela avvi una via; v'ha una prudenza</l>
+<l>Anco pei cor più nobili e più schivi;</l>
+<l>V'ha un'arte d'acquistar l'alme volgari,</l>
+<l>Senza discender fino ad esse: e questa</l>
+<l>Nel senno tuo, quando tu vuoi, la trovi.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Troppo è il tuo dir verace: il tuo consiglio</l>
+<l>Le mille volte a me medesmo io il diedi;</l>
+<l>E sempre all'uopo ei mi fuggì di mente;</l>
+<l>E sempre appresi a danno mio che dove</l>
+<l>Semina l'ira, il pentimento miete.</l>
+<l>Dura scuola ed inutile! Alfin stanco</l>
+<l>Di far leggi a me stesso, e trasgredirle,</l>
+<l>Tra me fermai, che s'egli è mio destino</l>
+<l>Ch'io sia sempre in tai nodi avviluppato</l>
+<l>Che mestier faccia a disbrigarli appunto</l>
+<l>Quella virtù che più mi manca — s'ella</l>
+<l>È pur virtù —, s'è mio destin che un giorno</l>
+<l>Io sia colto in tai nodi, e vi perisca;</l>
+<l>Meglio è senza riguardi andargli incontro.</l>
+<l>Io ne appello a te stesso: i buoni mai</l>
+<l>Non fur senza nemici, e tu ne hai dunque.</l>
+<l>E giurerei che un sol non è fra loro</l>
+<l>Cui tu degni, non dico accarezzarlo,</l>
+<l>Ma non dargli a veder che lo dispregi.</l>
+<l part="I">Rispondi.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">È ver: se v'ha mortal di cui</l>
+<l>La sorte invidii, è sol colui che nacque</l>
+<l>In luoghi e in tempi ov'uom potesse aperto</l>
+<l>Mostrar l'animo in fronte, e a quelle prove</l>
+<l>Solo trovarsi ove più forza è d'uopo</l>
+<l>Che accorgimento: quindi, ove convenga</l>
+<l>Simular, non ti faccia maraviglia</l>
+<l>Che poco esperto io sia. Pensa per altro</l>
+<l>Quanto più m'è concesso impunemente</l>
+<l>Fallire in ciò che a te; che poche vie</l>
+<l>Al pugnal d'un nemico offre il mio petto;</l>
+<l>Che me contra i privati odj assecura</l>
+<l>La pubblica ragion; ch'io vesto il sajo</l>
+<l>Stesso di quei che han la mia sorte in mano.</l>
+<l>Ma tu stranier, tu condottiero al soldo</l>
+<l>Di togati Signor, tu cui lo Stato</l>
+<l>Dà tante spade per salvarlo, e niuna</l>
+<l>Per salvar te... fa che gli amici tuoi</l>
+<l>Odan sol le tue lodi; e non dar loro</l>
+<l>La trista cura di scolparti. Pensa</l>
+<l>Che felici non son, se tu nol sei.</l>
+<l>Che dirò più? Vuoi che una corda io tocchi</l>
+<l>Che ancor più addentro nel tuo cor risuoni</l>
+<l>Pensa alla moglie tua, pensa alla figlia</l>
+<l>A cui tu se' sola speranza: il cielo</l>
+<l>Diè loro un'alma per sentir la gioja,</l>
+<l>Un'alma che sospira i dì sereni,</l>
+<l>Ma che nulla può far per conquistarli.</l>
+<l>Tu il puoi per esse — e lo vorrai. Non dire</l>
+<l>Che il tuo destin ti porta: allor che il forte</l>
+<l>Ha detto: io voglio, ei sente esser più assai</l>
+<l>Signor di sé che non pensava in prima.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Tu hai ragione. Il ciel si piglia al certo</l>
+<l>Qualche cura di me, poiché m'ha dato</l>
+<l>Un tale amico. Ascolta; il buon successo</l>
+<l>Potrà, spero, placar chi mi disama:</l>
+<l>Tutto in letizia finirà. Tu intanto</l>
+<l>Se cosa odi di me che ti dispiaccia,</l>
+<l>L'indole mia ne incolpa, un improvviso</l>
+<l>Impeto primo, ma non mai l'obblio</l>
+<l part="I">Di tue parole.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Or la mia gioja è intera.</l>
+<l>Va, vinci, e torna — Oh come atteso e caro</l>
+<l>Verrà quel messo che la gloria tua</l>
+<l>Con la salute della patria annunzi!</l>
+</lg></sp>
+
+<trailer><emph>FINE DELL'ATTO PRIMO</emph></trailer></div2></div1>
+
+
+<div1 type="atto">
+<head>ATTO II</head>
+
+<div2 type="scena">
+<head>SCENA I </head>
+
+
+<stage><emph>Parte del campo ducale con tende.</emph></stage>
+<stage>MALATESTI e PERGOLA.</stage>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l>Sì, condottier; come ordinaste, in pronto</l>
+<l>Son le mie bande. A voi commise il Duca</l>
+<l>L'arbitrio della guerra: io v'ho obbedito,</l>
+<l>Ma con dolor: ve ne scongiuro ancora,</l>
+<l part="I">Non diam battaglia.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Anzian d'anni e di fama,</l>
+<l>O Pergola, qui siete: io sento il peso</l>
+<l>Del vostro voto; ma cangiar non posso</l>
+<l>Il mio. Voi lo vedete, il Carmagnola</l>
+<l>Ci provoca ogni dì: quasi ad insulto</l>
+<l>Sulli occhi nostri alfin Maclodio ha stretto:</l>
+<l>E due partiti ci rimangon soli;</l>
+<l>O lui cacciarne — o abbandonar la terra</l>
+<l part="I">Che saria danno e scorno.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">A pochi è dato,</l>
+<l>A pochi egregi il dubitar di nuovo,</l>
+<l>Quando han già detto: ella è così. S'io parlo</l>
+<l>È che tale vi tengo. Italia forse</l>
+<l>Mai da' barbari in poi non vide a fronte</l>
+<l>Due sì possenti eserciti: ma il nostro</l>
+<l>L'ultimo sforzo è di Filippo. In ogni</l>
+<l>Fatto di guerra entra fortuna, e sempre</l>
+<l>Vuol la sua parte: chi nol sa? Ma quando</l>
+<l>Ne va il tutto, o Signore, allor non vuolsi</l>
+<l>Dargliene più che non chiede. E questo</l>
+<l>Esercito con cui tutto possiamo</l>
+<l>Salvar, ma che perduto in una volta</l>
+<l>Mai più rifar non si potria, non dèssi</l>
+<l>Come un dado gittarlo ad occhi chiusi,</l>
+<l>Avventurarlo in un sì picciol campo,</l>
+<l>E in un campo mal noto, e quel ch'è peggio</l>
+<l>Noto al nemico. Ei qui ci trasse: un torto</l>
+<l>Argin divide le due schiere: a destra</l>
+<l>E a sinistra paludi, in esse sparsi</l>
+<l>I suoi drappelli: e noi fuori dei nostri</l>
+<l>Alloggiamenti non teniamo un palmo</l>
+<l>Pur di terren. Credete ad un che l'arti</l>
+<l>Conosce di costui, che ha combattuto</l>
+<l>Al fianco suo: qui v'è un'insidia. Forse</l>
+<l>La miglior via di guerreggiar quest'uomo</l>
+<l>Saria tenerlo a bada, aspettar tempo,</l>
+<l>Tanto che alcun dei duci ai quali è sopra</l>
+<l>Pigliasse a noja il suo superbo impero,</l>
+<l>E il fascio ch'egli or nella mano ha stretto</l>
+<l>Si rallentasse alfin. Pur, se a giornata</l>
+<l>Venir si debbe, non è questo il loco:</l>
+<l>Usciam di qui, scegliamo un campo noi,</l>
+<l>Tiriam quivi il nemico: ivi in un giorno,</l>
+<l>Senza svantaggio almanco, si decida.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l>Due grandi schiere a fronte stanno; e grande</l>
+<l>Fia la battaglia: d'una tale appunto</l>
+<l>Abbisogna Filippo. A questi estremi</l>
+<l>A poco a poco ei venne, e coi consigli</l>
+<l>Ch'or proponete. A trarnelo, fia d'uopo</l>
+<l>Appigliarci agli opposti: il rischio vero</l>
+<l>Sta nell'indugio, e nel mutare il campo</l>
+<l>Rovina certa. Chi sappia dir quanto</l>
+<l>Di nunero e di cor scemato ei fia,</l>
+<l>Pria che si ponga altrove? Ora egli è quale</l>
+<l>Bramar lo puote un capitan; con esso</l>
+<l part="I">Tutto lice tentar.</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+
+<stage>SFORZA FORTEBRACCIO <emph>e detti</emph>.</stage>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Ditelo, o Sforza,</l>
+<l>E Fortebraccio; voi giungete in tempo:</l>
+<l>Ditelo voi, come trovaste il campo?</l>
+<l part="I">Che possiamo sperarne?</l>
+</lg></sp>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">Ogni gran cosa.</l>
+<l>Quando gli ordini udir, quando lor parve</l>
+<l>Che una battaglia si prepari, io vidi</l>
+<l>Un feroce tripudio: alla chiamata</l>
+<l>Esultando venièno, e col sorriso</l>
+<l>Si fean cenno a vicenda. E quando io corsi</l>
+<l>Entro le file, ad ogni schiera un grido</l>
+<l>S'alzava; ognuno in me fissando il guardo</l>
+<l>Parea dicesse: o condottier, v'intendo.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l>E tai son tutti: allor ch'io venni a' miei,</l>
+<l>Tutti mi furo intorno. Un mi dicea:</l>
+<l>Quando udremo le trombe? Altri: noi siamo</l>
+<l>Stanchi d'esser beffati: e tutti in una</l>
+<l>La battaglia chiedean, come già certi</l>
+<l>Dell'ottenerla, e dubbj sol del quando.</l>
+<l>Ebben, compagni, io rispondea, se il senno</l>
+<l>Presto s'udrà, mi date voi parola</l>
+<l>Di vincere con me? Gli elmi levati</l>
+<l>Sull'aste, un grido universal d'assenso</l>
+<l>Fu la parola, ond'io gioisco ancora.</l>
+<l>E a tai soldati ci venia proposto</l>
+<l>D'intimar la ritratta; ed alle mani,</l>
+<l>Che già posate sulle spade aspettano</l>
+<l>L'ordin di sguainarle e di ferire,</l>
+<l>Si comandasse di levar le tende?</l>
+<l>Chi fronte avria di presentarsi ad essi</l>
+<l part="I">Con tal ordine ormai?</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Dal parlar vostro</l>
+<l>Un nuovo modo di milizia imparo;</l>
+<l>Che i soldati comandino, e che i duci</l>
+<l part="I">Obbediscano.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="F">O Pergola, i soldati</l>
+<l>A cui capo son io, fur da quel Braccio</l>
+<l>Disciplinati, che per tutto ancora</l>
+<l>Con maraviglia e con terror si noma;</l>
+<l>E non son usi a sostener gli scherni</l>
+<l part="I">Dell'inimico.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Ed io conduco genti</l>
+<l>Da me, qual ch'io mi sia, disciplinate;</l>
+<l>E sono avvezze ad aspettar la voce</l>
+<l>Del condottiero, ed a fidarsi in lui.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l>Dimentichiamo or noi che numerati</l>
+<l>Sono i momenti, e non ne resta alcuno</l>
+<l part="I">Per le gare private?</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>TORELLO<emph>e detti</emph>.</stage>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">Ebben, Torello,</l>
+<l>Siete mutato di parer? Vedeste</l>
+<l part="I">L'animo ardente de' soldati?</l>
+</lg></sp>
+
+<sp><speaker>TORELLO</speaker>
+<lg>
+<l part="F">Il vidi;</l>
+<l>Udii le grida, del furor, le grida</l>
+<l>Della fiducia e del coraggio; e il viso</l>
+<l>Rivolsi altrove, onde nessun dei prodi</l>
+<l>Vi leggesse il pensier che mal mio grado</l>
+<l>Vi si pingeva: — era il pensier che false</l>
+<l>Son quelle gioie e brevi: era il pensiero</l>
+<l>Del valor che si perde. Io cavalcai</l>
+<l>Lungo tutta la fronte: io tesi il guardo,</l>
+<l>Quanto lunge potei, rividi quelle</l>
+<l>Macchie che sorgon qua e là dal suolo</l>
+<l>Uliginoso che la via fiancheggia:</l>
+<l>Là son gli agguati, il giurerei. Rividi</l>
+<l>Quel doppio cinto di muniti carri,</l>
+<l>Onde assiepato è del nemico il campo.</l>
+<l>Se l'urto primo ei sostener non puote,</l>
+<l>Ha una ritratta ove sfuggirlo e uscirne</l>
+<l>Preparato al secondo. Un nuovo è questo</l>
+<l>Trovato di costui, per torre ai suoi</l>
+<l>Il pensier primo che s'affaccia ai vinti,</l>
+<l>Il pensier della fuga. Ad atterrarlo</l>
+<l>Due colpi è d'uopo: ei con un sol ne atterra.</l>
+<l>Perché — non giova chiuder gli occhi a vero —</l>
+<l>Non son più quelle guerre, in cui pe' figli</l>
+<l>E per le donne e per la patria terra</l>
+<l>E per le leggi che la fan sì cara</l>
+<l>Combatteva il soldato, in cui pensava</l>
+<l>Il capitano a statuirgli un posto,</l>
+<l>Egli a morirvi. A mercenarie genti</l>
+<l>Noi comandiamo, in cui più di leggeri</l>
+<l>Trovi il furor che la costanza: e corrono</l>
+<l>Volonterosi alla vittoria incontro.</l>
+<l>Ma s'ella tarda, se son posti a lungo</l>
+<l>Tra la fuga e la morte, ah! dubbia è troppo</l>
+<l>La scelta di costoro. E questo evento</l>
+<l>Più che tutt'altro antiveder ci è forza. —</l>
+<l>Vil tempo in cui tanto al comando cresce</l>
+<l>Difficoltà, quanto la gloria scema!</l>
+<l>Io lo ripeto, non è questo un camnpo</l>
+<l part="I">Di battaglia per noi.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="M">Dunque?</l>
+</lg></sp>
+
+<sp><speaker>TORELLO</speaker>
+<lg>
+<l part="F">Si muti.</l>
+<l>Non siam pari al nemico; andiamo in luogo</l>
+<l part="I">Dove lo siam.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Così Maclodio a lui</l>
+<l>Lascerem quasi in dono? I valorosi,</l>
+<l>Che vi son chiusi, non potran tenersi</l>
+<l part="I">Più che due giorni.</l>
+</lg></sp>
+
+<sp><speaker>TORELLO</speaker>
+<lg>
+<l part="F">Il so; ma non si tratta</l>
+<l>Né d'un presidio qui, né d'una terra;</l>
+<l part="I">Trattasi dello Stato.</l>
+</lg></sp>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">E di che mai</l>
+<l>Se non di terre si compon lo Stato</l>
+<l>E quelle che indugiando, ad una ad una</l>
+<l>Già lasciammo sfuggir, quante son elle?</l>
+<l>Casal, Bina, Quinzano e... se vi piace</l>
+<l>Noveratele voi, ché in tal pensiero</l>
+<l>Troppo caldo io mi sento. Il nobil manto,</l>
+<l>Che a noi fidato ha il Duca, a brano a brano</l>
+<l>Soffriam così che in nostra man si scemi,</l>
+<l>E che a lui messo omai da noi non giunga</l>
+<l>Che una ritratta non gli annunzi. Intanto</l>
+<l>Superbisce il nemico, e ai nostri indugi</l>
+<l part="I">Sfacciato insulta.</l>
+</lg></sp>
+
+<sp><speaker>TORELLO</speaker>
+<lg>
+<l part="F">E questo è segno, o Sforza,</l>
+<l part="I">Ch'ei brama una battaglia.</l>
+</lg></sp>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">Oh, che puot'egli</l>
+<l>Bramar di più che innanzi a sé cacciarne</l>
+<l part="I">Colla spada nel fodero?</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Che puote</l>
+<l>Bramar di più? Dirovvel'io: che noi</l>
+<l>Tutto arrischiam l'esercito in un campo</l>
+<l>Ov'egli ha preso ogni vantaggio. Or questo</l>
+<l>Poniamo in salvo; ché le terre è lieve</l>
+<l part="I">Ripigliar con gli eserciti.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="F">Con quali?</l>
+<l>Non, per mia fé, con quelli a cui s'insegna</l>
+<l>A diloggiar quando il nemico appare,</l>
+<l>A non mirarlo in faccia, a lasciar soli</l>
+<l>Nelle angosce i compagni; ma con genti</l>
+<l>Quali or le abbiam d'ira e di scorno accese,</l>
+<l>Impazienti di pugnar, con queste</l>
+<l>Si riparan le perdite, e si vince.</l>
+<l>Che dobbiamo aspettar? Brandi arrotati,</l>
+<l part="I">Perché lasciarli irrugginir?</l>
+</lg></sp>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">Torello,</l>
+<l>Voi temete d'agguati? Anch'io dirovvi:</l>
+<l>Non son più quelle guerre, in cui minuti</l>
+<l>Drappelletti movean, coll'occhio teso</l>
+<l>Ogni macchia guatando, ogni rivolta.</l>
+<l>Un'oste intera sopra un'oste intera</l>
+<l>Oggi rovescerassi: un tanto stuolo</l>
+<l>Si vince sì, ma non s'accerchia; ei spazza</l>
+<l>Innanzi a sé gl'intoppi, e fin ch'è unito,</l>
+<l>Dovunque sia, sul suo terreno è sempre.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<stage><emph>(a Pergola e Torello)</emph>.</stage>
+<lg>
+<l part="I">Siete convinti?</l>
+</lg></sp>
+
+<sp><speaker>TORELLO</speaker>
+<lg>
+<l part="M">Sofferite...</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Io il sono.</l>
+<l>Omai vano è più dir. Certo io mi tengo</l>
+<l>Che tutti andrete in operar d'accordo</l>
+<l>Più che non foste in divisar disgiunti.</l>
+<l>Poi che un partito e l'altro ha il suo periglio,</l>
+<l>Scegliamo almen quel che più gloria ha seco.</l>
+<l>Noi darem la battaglia: alla frontiera</l>
+<l>Io mi pongo coi miei; Sforza vien dietro</l>
+<l>E chiude la vanguardia; il mezzo tenga</l>
+<l>Della battaglia Fortebraccio: e il nostro</l>
+<l>Ufficio sia con impeto serrarci</l>
+<l>Addosso il campo del nemico, aprirlo</l>
+<l>E spingerci a Maclodio. Voi, Torello,</l>
+<l>E voi, Pergola, a cui sì dubbia sembra</l>
+<l>Questa giornata, io pongo in vostra mano</l>
+<l>L'assicurarla: voi, discosti alquanto,</l>
+<l>Il retroguardo avrete. O la fortuna,</l>
+<l>Pur come suol, seconda i valorosi,</l>
+<l>E rompiamo il nemico; e voi piombate</l>
+<l>Sopra i dispersi. Ma s'ei dura incontro</l>
+<l>L'impeto nostro, e ci vedete entrati</l>
+<l>Donde uscir soli non possiam; venite</l>
+<l>A noi, reggete i periglianti amici;</l>
+<l>Ché per cosa che accaggia, io vi prometto,</l>
+<l>Retrocedere a voi non ci vedrete.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="I">Non ci vedrete, no.</l>
+</lg></sp>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">Siatene certi.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l>Sia lode al ciel, combatteremo alfine:</l>
+<l>Mai non accadde a capitan, ch'io sappia,</l>
+<l>Per fare il suo mestier contender tanto.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l>O Carmagnola, tu pensasti che oggi</l>
+<l>Il giovenil corruccio alla prudenza</l>
+<l>Prevarrebbe dei vecchi: e ti apponesti.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l>Sì, la prudenza è la virtù dei vecchi:</l>
+<l>Ella cresce cogli anni, e tanto cresce</l>
+<l part="I">Che alfin diventa...</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="M">Ebben, dite.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="F">Paura;</l>
+<l>Poi che volete ad ogni modo udirlo.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="I">Fortebraccio!</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">L'hai detto. Ad un soldato</l>
+<l>Che già più volte avea pugnato e vinto</l>
+<l>Prima che tu vedessi una bandiera,</l>
+<l part="I">Oggi tu il primo hai detto...</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Da quel lato,</l>
+<l>Presso Maclodio è posto il Carmagnola.</l>
+<l>Quegli fra noi che avere oggi pensasse</l>
+<l>Altro nemico che costui, sarebbe</l>
+<l>un traditor: pensatamente il dico.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l>Ritratto il voto che dapprima io diedi;</l>
+<l>E il do per la battaglia: ella fia quale</l>
+<l>Predissi allor; ma non importa. Allora</l>
+<l>Potea schifarsi; or la domando io primo:</l>
+<l part="I">Io son per la battaglia.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Accetto il voto,</l>
+<l>Ma non l'augurio: lo distorni il cielo</l>
+<l part="I">Sul capo del nemico.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">O Fortebraccio,</l>
+<l part="I">Tu m'hai offeso.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="M">Or via...</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="F">Se così credi,</l>
+<l>Sia pur così: perché a te spiaccia, o a quale</l>
+<l>Altro pur sia, non crederai ch'io voglia</l>
+<l>Una parola ritirar che uscita</l>
+<l part="I">Dalle labbra mi sia.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<stage><emph>(in atto di partire)</emph>.</stage>
+<lg>
+<l part="F">Chi resta fido</l>
+<l part="I">A Filippo, mi segua.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Io vi prometto</l>
+<l>Che oggi darem battaglia, e che di noi</l>
+<l>Non mancheravvi alcuno. — O Fortebraccio,</l>
+<l>Non giunger onta ad onta; io ti ripeto,</l>
+<l>Tu m'hai offeso. — Ascolta, io t'offro il modo</l>
+<l>Che tu mi renda l'onor mio, serbando</l>
+<l part="I">Intatto il tuo.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="M">Che vuoi?</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Dammi il tuo posto.</l>
+<l>Ovunque tu combatta, a tutti è noto</l>
+<l>Che tu volesti la battaglia, ed io —</l>
+<l>Io deggio ad ogni modo essere in luogo</l>
+<l>Che l'amico e il nemico aperto veggia</l>
+<l part="I">Ch'io non ho... tu m'intendi.</l>
+</lg></sp>
+
+<sp><speaker>FORTEBRACCIO</speaker>
+<lg>
+<l part="F">Io son contento,</l>
+<l>Piglia quel posto; poi che il brami è tuo.</l>
+<l>O forte, or m'odi: ora m'è dolce il dirti</l>
+<l>Ch'io non t'offesi, no: per la fortuna</l>
+<l>Del Signor nostro tu soverchio temi:</l>
+<l>Questo dir volli. Ma il timor che nasce</l>
+<l>In cor di quei che ama la vita, e l'ama</l>
+<l>Più dell'onor, ma che nel cor del prode</l>
+<l>Muore al primo periglio ch'egli affronta,</l>
+<l>E mai più non risorge, o valoroso,</l>
+<l part="I">Pensavi tu?...</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Nulla pensai: tu parli</l>
+<l part="I">Da generoso qual tu sei.</l></lg>
+<stage><emph>(a Malatesti)</emph>.</stage>
+<lg>
+<l part="F">Signore,</l>
+<l part="I">Voi consentite al cambio?...</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l part="F">Io v'acconsento;</l>
+<l>E son ben lieto di veder tant'ira</l>
+<l part="I">Tutta cader sovra il nemico.</l>
+</lg></sp>
+
+<sp><speaker>TORELLO</speaker>
+<stage><emph>(allo Sforza)</emph>.</stage>
+<lg>
+<l part="F">Io stava</l>
+<l>Col Pergola da prima; ingiusto, io spero,</l>
+<l part="I">Non vi parrà...</l>
+</lg></sp>
+
+<sp><speaker>SFORZA</speaker>
+<lg>
+<l part="F">V'intendo; e con lui state</l>
+<l>Alla vanguardia: ultimi e primi, tutti</l>
+<l>Combatterem; poco m'importa il dove.</l>
+</lg></sp>
+
+<sp><speaker>MALATESTI</speaker>
+<lg>
+<l>Non più ritardi. Iddio sarà coi prodi.</l></lg>
+<stage><emph>(partono)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA IV </head>
+
+<stage><emph>Campo veneziano. Tenda del Conte</emph>.</stage>
+<stage>IL CONTE,<emph>poi un Soldato che sopraggiunge</emph></stage>
+
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l>Signor, l'oste nemica è in movimento:</l>
+<l>La vanguardia è sull'argine, e s'avanza.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">I condottieri dove son?</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">Qui tutti</l>
+<l>Fuor della tenda i principali; e stanno</l>
+<l part="I">Gli ordin vostri aspettando.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Entrino tosto.</l></lg>
+<stage><emph>(parte il soldato)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA V</head>
+
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Eccolo il dì ch'io bramai tanto. — Il giorno</l>
+<l>Ch'ei non mi volle udir, che invan pregai,</l>
+<l>Che ogni adito era chiuso, e che deriso,</l>
+<l>Solo, io partiva, e non sapea per dove,</l>
+<l>Oggi con gioia io lo rammento alfine.</l>
+<l>Ti pentirai, dicea, mi rivedrai,</l>
+<l>Ma condottier de' tuoi nemici, ingrato!</l>
+<l>Io lo dicea; ma allor pareva un sogno,</l>
+<l>Un sogno della rabbia; ed ora è vero.</l>
+<l>Gli sono a fronte: ecco mi balza il core:</l>
+<l>Io sento il dì della battaglia... E s'io...</l>
+<l part="I">No: la vittoria è mia.</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA VI </head>
+
+<stage>IL CONTE, GONZAGA, ORSINI, TOLENTINO, <emph>altri</emph> CONDOTTIERI.</stage>
+
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Compagni, udiste</l>
+<l>La lieta nuova: l'inimico ha fatto</l>
+<l>Ciò ch'io volea; così voi pur farete.</l>
+<l>E il sol che sorge, a ognun di noi, lo giuro,</l>
+<l>Il più bel dì di nostra vita apporta.</l>
+<l>Non è tra voi chi una battaglia aspetti</l>
+<l>Per farsi un nome, il so; ma questa sera</l>
+<l>L'avrem più glorioso; e la parola</l>
+<l>Che al nostro orecchio sonerà più grata,</l>
+<l>Omai fia quella di Maclodio. Orsini,</l>
+<l part="I">Son pronti i tuoi?</l>
+</lg></sp>
+
+<sp><speaker>ORSINI</speaker>
+<lg>
+<l part="M">Sì.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Corri all'imboscate</l>
+<l>Sulla destra dell'argine; raggiungi</l>
+<l>Quei che vi stanno, e prendine il comando.</l>
+<l>E tu a sinistra, o Tolentino. E quindi</l>
+<l>Non vi movete, che non sia lo scontro</l>
+<l>Incominciato; quando ei fia, correte</l>
+<l>Alle spalle al nemico. Udite entrambi.</l>
+<l>Se dell'insidie egli s'avvede, e tenta</l>
+<l>Ritrarsi, appena avrà voltato il dorso,</l>
+<l>Siategli addosso uniti: io son con voi.</l>
+<l>Provochi, o fugga, oggi dev'esser vinto.</l>
+</lg></sp>
+
+<sp><speaker>ORSINI</speaker>
+<lg>
+<l part="I">Ei lo sarà.</l></lg>
+<stage><emph>(parte)</emph>.</stage></sp>
+
+<sp><speaker>TOLENTINO</speaker>
+<lg>
+<l part="F">T'ubbidirem, vedrai.</l></lg>
+<stage><emph>(parte)</emph>.</stage></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<stage><emph>(agli altri).</emph></stage>
+<lg>
+<l>Tu, Gonzaga, al mio fianco. I posti a voi</l>
+<l>Assegnerò sul campo. Andiam, compagni;</l>
+<l>Si resista al prim'urto: Il resto è certo.</l>
+</lg></sp>
+
+<trailer>FINE DELL'ATTO SECONDO</trailer></div2></div1>
+
+
+<div1 type="atto">
+<head>CORO</head>
+<sp>
+<lg>
+<lg type="ottava">
+<l>S'ode a destra uno squillo di tromba;</l>
+<l>A sinistra risponde uno squillo:</l>
+<l>D'ambo i lati calpesto rimbomba</l>
+<l>Da cavalli e da fanti il terren.</l>
+<l>Quinci spunta per l'aria un vessillo;</l>
+<l>Quindi un altro s'avanza spiegato:</l>
+<l>Ecco appare un drappello schierato;</l>
+<l>Ecco un altro che incontro gli vien.</l>
+<l>Già di mezzo sparito è il terreno;</l>
+<l>Già le spade rispingon le spade;</l>
+<l>L'un dell'altro le immerge nel seno;</l>
+<l>Gronda il sangue; raddoppia il ferir.</l>
+<l>— Chi son essi? Alle belle contrade</l>
+<l>Qual ne venne straniero a far guerra</l>
+<l>Qual è quei che ha giurato la terra</l>
+<l>Dove nacque far salva, o morir?</l>
+</lg>
+
+<lg type="ottava">
+<l>— D'una terra son tutti: un linguaggio</l>
+<l>Parlan tutti: fratelli li dice</l>
+<l>Lo straniero: il comune lignaggio</l>
+<l>A ognun d'essi dal volto traspar.</l>
+<l>Questa terra fu a tutti nudrice</l>
+<l>Questa terra di sangue ora intrisa,</l>
+<l>Che natura dall'altre ha divisa,</l>
+<l>E ricinta con l'alpe e col mar.</l>
+</lg>
+
+<lg type="ottava">
+<l>— Ahi! Qual d'essi il sacrilego brando</l>
+<l>Trasse il primo il fratello a ferire?</l>
+<l>Oh terror! Del conflitto esecrando</l>
+<l>La cagione esecranda qual è?</l>
+<l>— Non la sanno: a dar morte, a morire</l>
+<l>Qui senz'ira ognun d'essi è venuto;</l>
+<l>E venduto ad un duce venduto,</l>
+<l>Con lui pugna, e non chiede il perché.</l>
+</lg>
+
+<lg type="ottava">
+<l>— Ahi sventura! Ma spose non hanno,</l>
+<l>Non han madri gli stolti guerrieri?</l>
+<l>Perché tutte i lor cari non vanno</l>
+<l>Dall'ignobile campo a strappar?</l>
+<l>E i vegliardi che ai casti pensieri</l>
+<l>Della tomba già schiudon la mente,</l>
+<l>Ché non tentan la turba furente</l>
+<l>Con prudenti parole placar?</l>
+</lg>
+
+<lg type="ottava">
+<l>— Come assiso talvolta il villano</l>
+<l>Sulla porta del cheto abituro</l>
+<l>Segna il nembo che scende lontano</l>
+<l>Sopra i campi che arati ei non ha;</l>
+<l>Così udresti ciascun che sicuro</l>
+<l>Vede lungi le armate coorti,</l>
+<l>Raccontar le migliaia de' morti,</l>
+<l>E la piéta dell'arse città.</l>
+</lg>
+
+<lg type="ottava">
+<l>Là, pendenti dal labbro materno</l>
+<l>Vedi i figli che imparano intenti</l>
+<l>A distinguer con nomi di scherno</l>
+<l>Quei che andranno ad uccidere un dì;</l>
+<l>Qui le donne alle veglie lucenti</l>
+<l>De' monili far pompa e de' cinti,</l>
+<l>Che alle donne diserte de' vinti</l>
+<l>Il marito o l'amante rapì. —</l>
+</lg>
+
+<lg type="ottava">
+<l>Ahi sventura! sventura! sventura!</l>
+<l>Già la terra è coperta d'uccisi;</l>
+<l>Tutta è sangue la vasta pianura;</l>
+<l>Cresce il grido, raddoppia il furor.</l>
+<l>Ma negli ordini manchi e divisi</l>
+<l>Mal si regge, già cede una schiera;</l>
+<l>Già nel volgo che vincer dispera,</l>
+<l>Della vita rinasce l'amor.</l>
+</lg>
+
+<lg type="ottava">
+<l>Come il grano lanciato dal pieno</l>
+<l>Ventilabro nell'aria si spande;</l>
+<l>Tale intorno per l'ampio terreno</l>
+<l>Si sparpagliano i vinti guerrier.</l>
+<l>Ma improvvise terribili bande</l>
+<l>Ai fuggenti s'affaccian sul calle;</l>
+<l>Ma si senton più presso alle spalle</l>
+<l>Anelare il temuto destrier.</l>
+</lg>
+
+<lg type="ottava">
+<l>Cadon trepidi a piè de' nemici,</l>
+<l>Gettan l'arme, si danno prigioni:</l>
+<l>Il clamor delle turbe vittrici</l>
+<l>Copre i lai del tapino che mor.</l>
+<l>Un corriero è salito in arcioni;</l>
+<l>Prende un foglio, il ripone, s'avvia,</l>
+<l>Sferza, sprona, divora la via</l>
+<l>Ogni villa si desta al rumor.</l>
+</lg>
+
+<lg type="ottava">
+<l>Perché tutti sul pesto cammino</l>
+<l>Dalle case, dai campi accorrete?</l>
+<l>Ognun chiede con ansia al vicino,</l>
+<l>Che gioconda novella recò?</l>
+<l>Donde ei venga, infelici, il sapete,</l>
+<l>E sperate che gioia favelli?</l>
+<l>I fratelli hanno ucciso i fratelli:</l>
+<l>Questa orrenda novella vi do.</l>
+</lg>
+
+<lg type="ottava">
+<l>Odo intorno festevoli gridi;</l>
+<l>S'orna il tempio, e risona del canto;</l>
+<l>Già s'innalzan dai cori omicidi</l>
+<l>Grazie ed inni che abbomina il ciel.</l>
+<l>Giù dal cerchio dell'alpi frattanto</l>
+<l>Lo straniero gli sguardi rivolve;</l>
+<l>Vede i forti che mordon la polve,</l>
+<l>E li conta con gioia crudel.</l>
+</lg>
+
+<lg type="ottava">
+<l>Affrettatevi, empite le schiere,</l>
+<l>Sospendete i trionfi ed i giochi,</l>
+<l>Ritornate alle vostre bandiere:</l>
+<l>Lo straniero discende: egli è qui.</l>
+<l>Vincitor! Siete deboli e pochi?</l>
+<l>Ma per questo a sfidarvi ei discende;</l>
+<l>E voglioso a quei campi v'attende</l>
+<l>Dove il vostro fratello perì.</l>
+</lg>
+
+<lg type="ottava">
+<l>Tu che angusta a' tuoi figli parevi,</l>
+<l>Tu che in pace nutrirli non sai,</l>
+<l>Fatal terra, gli estrani ricevi:</l>
+<l>Tal giudizio comincia per te.</l>
+<l>Un nemico che offeso non hai</l>
+<l>A tue mense insultando s'asside;</l>
+<l>Degli stolti le spoglie divide;</l>
+<l>Toglie il brando di mano a' tuoi re.</l>
+</lg>
+
+<lg type="ottava">
+<l>Stolto anch'esso! Beata fu mai</l>
+<l>Gente alcuna per sangue ed oltraggio?</l>
+<l>Solo al vinto non toccano i guai;</l>
+<l>Torna in pianto dell'empio il gioir.</l>
+<l>Ben talor nel superbo viaggio</l>
+<l>Non l'abbatte l'eterna vendetta;</l>
+<l>Ma lo segna, ma veglia ed aspetta;</l>
+<l>Ma lo coglie all'estremo sospir.</l>
+</lg>
+
+<lg type="ottava">
+<l>Tutti fatti a sembianza d'un Solo,</l>
+<l>Figli tutti d'un solo Riscatto,</l>
+<l>In qual ora, in qual parte del suolo,</l>
+<l>Trascorriamo quest'aura vital</l>
+<l>Siam fratelli; siam stretti ad un patto:</l>
+<l>Maledetto colui che l'infrange,</l>
+<l>Che s'innalza sul fiacco che piange,</l>
+<l>Che contrista uno spirto immortal!</l></lg></lg></sp></div1>
+
+
+<div1 type="atto"><head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+
+<stage><emph>Tenda del Conte</emph>.</stage>
+<stage>IL CONTE <emph>e il</emph> PRIMO COMMISSARIO.</stage>
+
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Siete contenti?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">Udir l'alto trionfo</l>
+<l>Della patria; vederlo; essere i primi</l>
+<l>A salutarla vincitrice; a lei</l>
+<l>Darne l'annunzio; assistere alla fuga</l>
+<l>De' suoi nemici; e mentre al nostro orecchio</l>
+<l>Rimbomba il suon della minaccia ancora,</l>
+<l>Veder la gloria sua fuor del periglio</l>
+<l>Uscir raggiante e più che mai serena,</l>
+<l>Come un sol dalle nubi; è gioia questa</l>
+<l>Forse, o signor, cui la parola arrivi?</l>
+<l>Voi la vedete: essa vi sia misura</l>
+<l>Della riconoscenza; e ben ci tarda</l>
+<l>Di rendervi tai grazie in altro nome</l>
+<l>Che non è il nostro, e del Senato a voi</l>
+<l>Riferir la letizia e il guiderdone.</l>
+<l part="I">Ei sarà pari al merto.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Io già lo tengo.</l>
+<l>Venezia è salva; ho liberata in parte</l>
+<l>Una grande promessa; ho fatto alfine</l>
+<l>Risovvenir di me tal che m'avea</l>
+<l part="I">Dimenticato; ho vinto.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">Ed or si vuole</l>
+<l>Assicurar della vittoria il frutto.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">... Questa è mia cura.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">Or che dal vostro brando</l>
+<l>Sgombra è la via, noi ci aspettiam che tutta</l>
+<l>Voi la farete; né starem fin tanto</l>
+<l>Che non si giunga del nemico al trono.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Quando fia tempo.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">E che? Voi non volete</l>
+<l part="I">Inseguire i fuggenti?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Or non lo voglio.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l>Ma il Senato lo crede... E noi ben certi</l>
+<l>Che pari all'alta occasion, che pari</l>
+<l>Alla vittoria il vostro ardor saria</l>
+<l part="I">Nel proseguirla, abbiamo a lui...</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Vi siete</l>
+<l part="I">Troppo affrettati.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">E che dirà mai quando</l>
+<l part="I">Udrà che ancor siam qui?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Dirà, che il meglio</l>
+<l>È di fidarsi a chi per lui già vinse.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="I">Ma... che pensate far?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Ve l'avrei detto</l>
+<l>Più volentier pochi momenti or sono;</l>
+<l>Pur convien ch'io vel dica. Io non mi voglio</l>
+<l>Allontanar di qui pria ch'espugnate</l>
+<l>Non sian le rocche che ci stan d'intorno.</l>
+<l>Voglio un solo nemico, e quello in faccia.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="I">Or dunque i nostri voti...</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">I vostri voti</l>
+<l>Più arditi son del brando mio, più rapidi</l>
+<l>De' miei cavalli; ... ed io... la prima volta</l>
+<l>È che mi sento dir pur ch'io m'affretti.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="I">Ma pensaste abbastanza?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">E che! Sì nuova</l>
+<l>Dunque mi giunge una vittoria? E parvi</l>
+<l>Che questa gioia mi confonda il core</l>
+<l>Tanto che il primo mio pensier non sia</l>
+<l part="I">Per ciò che resta a far?</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage>IL SECONDO COMMISSARIO <emph>e detti</emph>.</stage>
+
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">Signor, se tosto</l>
+<l>Non correte al riparo, una sfacciata</l>
+<l>Perfidia s'affatica a render vana</l>
+<l>Sì gran vittoria; e già l'ha fatto in parte.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Come?</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">I prigioni escon del campo a torme;</l>
+<l>I condottieri ed i soldati a gara</l>
+<l>Li mandan sciolti, né tenerli puote</l>
+<l part="I">Fuor che un vostro comando.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Un mio comando?</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="I">Esitereste a darlo?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">È questo un uso</l>
+<l>Della guerra, il sapete. È così dolce</l>
+<l>Il perdonar quando si vince! e l'ira</l>
+<l>Presto si cambia in amistà ne' cori</l>
+<l>Che batton sotto il ferro. Ah! non vogliate</l>
+<l>Invidiar sì nobil premio a quelli</l>
+<l>Che hanno per voi posta la vita, ed oggi</l>
+<l>Son generosi, perché ier fur prodi.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l>Sia generoso chi per sé combatte,</l>
+<l>Signor; ma questi — e ad onor l'hanno, io credo —</l>
+<l>Al nostro soldo han combattuto; e nostri</l>
+<l part="I">Sono i prigioni.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">E voi potete adunque</l>
+<l>Creder così: quei che gli han visti a fronte,</l>
+<l>Che assaggiaro i lor colpi, e che a fatica</l>
+<l>Su lor le mani insanguinate han poste,</l>
+<l part="I">Nol crederan sì di leggieri.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">È questa</l>
+<l>Dunque una giostra di piacer? Non vince</l>
+<l>Per conservar, Venezia? E vana al tutto</l>
+<l part="I">Fia la vittoria?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Io già l'udii, di novo</l>
+<l>La devo udir questa parola: amara,</l>
+<l>Importuna mi vien come l'insetto</l>
+<l>Che, scacciato una volta, anco a ronzarmi</l>
+<l>Torna sul volto... La vittoria è vana? —</l>
+<l>Il suol d'estinti ricoperto, sparso</l>
+<l>E scoraggiato il resto: — il più fiorente</l>
+<l>Esercito! — col qual, se unito ancora</l>
+<l>E mio foss'egli, e mio davver, torrei</l>
+<l>A correr tutta Italia; ogni disegno</l>
+<l>Dell'inimico al vento; anche il pensiero</l>
+<l>Dell'offesa a lui tolto; a stento usciti</l>
+<l>Dalle mie mani, e di fuggir contenti</l>
+<l>Quattro tai duci, contro a' quai pur ieri</l>
+<l>Era vanto il resistere; svanito</l>
+<l>Mezzo il terror di quei gran nomi; ai nostri</l>
+<l>Raddoppiato l'ardir che agli altri è scemo;</l>
+<l>Tutta la scelta della guerra in noi;</l>
+<l>Nostre le terre ch'egli han sgombre... è nulla?</l>
+<l>Pensate voi che torneranno al Duca</l>
+<l>Que' prigioni? che l'amino? che a loro</l>
+<l>Caglia di lui più che di voi? ch'egli abbiano</l>
+<l>Combattuto per esso? Han combattuto</l>
+<l>Perché all'uomo che segue una bandiera,</l>
+<l>Grida una voce imperiosa in core:</l>
+<l>Combatti, e vinci. Ei son perdenti; ei sono</l>
+<l>Tornati in libertà; si venderanno, —</l>
+<l>Oh! tale ora è il soldato! — a chi primiero</l>
+<l>Li comprerà... Comprateli, e son vostri.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l>Quando assoldammo chi dovea con essi</l>
+<l>Pugnar, comprarli noi credemmo allora.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l>Signor, Venezia in voi si fida; in voi</l>
+<l>Vede essa un figlio; e quanto all'util suo,</l>
+<l>Alla sua gloria può condur, s'aspetta</l>
+<l part="I">Che si faccia da voi.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Tutto ch'io posso.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l>Ebben, che non potete in questo campo?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Quel che chiedete: un uso antico, un uso</l>
+<l>Caro ai soldati violar non posso.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l>Voi cui nulla resiste, a cui sì pronto</l>
+<l>Tien dietro ogni voler, sì ch'uom non vede</l>
+<l>Se per amore o per timor si pieghi,</l>
+<l>Voi non potreste in questo campo, voi</l>
+<l part="I">Fare una legge, e mantenerla?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Io dissi</l>
+<l>Ch'io non potea: meglio or dirò: nol voglio.</l>
+<l>Non più parole; cogli amici è questo</l>
+<l>Il mio costume antico, ai giusti preghi</l>
+<l>Soddisfar tosto e lietamente, e gli altri</l>
+<l>Apertamente rifiutar. — Soldati!</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="I">Ma... che disegno è il vostro?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Or lo vedrete.</l>
+</lg>
+<stage><emph>(a un soldato che entra)</emph>.</stage>
+<lg>
+<l part="I">Quanti prigion restano ancora?</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">Io credo</l>
+<l part="I">Quattrocento, signor.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Chiamali... chiama</l>
+<l>I più distinti... quei che incontri i primi:</l>
+<l part="I">Vengan qui tosto.</l>
+</lg>
+<stage><emph>(parte il Soldato)</emph>.</stage>
+<lg>
+<l part="F">Io 'l potrei certo... Ov'io</l>
+<l>Dessi un tal cenno, non s'udria nel campo</l>
+<l>Una repulsa... Ma i miei figli, i miei</l>
+<l>Compagni del periglio e della gioia,</l>
+<l>Quei che fidano in me, che un capitano</l>
+<l>Credon seguir sempre a difender pronto</l>
+<l>L'onor della milizia ed il vantaggio,</l>
+<l>Io tradirli così! Farla più serva,</l>
+<l>Più vil, più trista che non è! ... Signori,</l>
+<l>Fidente io son, come i soldati il sono;</l>
+<l>Ma se cosa or da me chiedete a forza,</l>
+<l>Che mi tolga l'amor de' miei compagni,</l>
+<l>Se mi volete separar da quelli,</l>
+<l>E a tal ridurmi ch'io non abbia appoggio</l>
+<l>Altro che il vostro — mio malgrado il dico —</l>
+<l part="I">M'astringerete a dubitar...</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">Che dite!</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA III </head>
+
+<stage>I PRIGIONI,<emph>fra i quali</emph> PERGOLA <emph>figlio, e detti</emph></stage>
+
+<sp><speaker>IL CONTE</speaker>
+<stage><emph> (ai Prigioni)</emph>.</stage>
+<lg>
+<l>O prodi indarno, o sventurati! ... A voi</l>
+<l>Dunque fortuna è più crudel? voi soli</l>
+<l>Siete alla trista prigionia serbati?</l>
+</lg></sp>
+
+<sp><speaker>UN PRIGIONE</speaker>
+<lg>
+<l>Tale, eccelso signor, non era il nostro</l>
+<l>Presentimento: allor che a voi dinanzi</l>
+<l>Fummo chiamati, udir ci parve il messo</l>
+<l>Di nostra libertà. Già tutti l'hanno</l>
+<l>Ricovrata color che agli altri duci,</l>
+<l>Minor di voi, caddero in mano; e noi...</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Voi, di chi siete prigionier?</l>
+</lg></sp>
+
+<sp><speaker>UN PRIGIONE</speaker>
+<lg>
+<l part="F">Noi fummo</l>
+<l>Gli ultimi a render l'armi. In fuga o preso</l>
+<l>Già tutto il resto, ancor per pochi istanti</l>
+<l>Fu sospesa per noi l'empia fortuna</l>
+<l>Della giornata; alfin voi feste il cenno</l>
+<l>D'accerchiarci, o signor, — soli, non vinti,</l>
+<l>Ma reliquie de' vinti, — al drappel vostro...</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Voi siete quelli? Io son contento, amici</l>
+<l>Di rivedervi; e posso ben far fede</l>
+<l>Che pugnaste da prodi: e se tradito</l>
+<l>Tanto valor non era, e pari a voi</l>
+<l>Sortito aveste un condottier, non era</l>
+<l part="I">Piacevol tresca esservi a fronte.</l>
+</lg></sp>
+
+<sp><speaker>UN PRIGIONE</speaker>
+<lg>
+<l part="F">Ed ora</l>
+<l>Ci fia sventura il non aver ceduto</l>
+<l>Che a voi, signore? E quelli a cui toccato</l>
+<l>Men glorioso è il vincitor, l'avranno</l>
+<l>Trovato più cortese? Indarno ai vostri</l>
+<l>La libertà chiedemmo; alcun non osa</l>
+<l>Dispor di noi senza l'assenso vostro;</l>
+<l>Ma cel promiser tutti. Oh! se potete</l>
+<l>Mostrarvi al Conte, ci dicean; non egli</l>
+<l>Certo dei vinti aggraverà la sorte;</l>
+<l>Non fia certo per lui tolta un'antica</l>
+<l>Cortesia della guerra, ... ei che sapria</l>
+<l>Esser piuttosto ad inventarla il primo.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Voi gli udite, o Signori... Ebben, che dite? ...</l>
+<l part="I">Voi, che fareste? ...</l>
+</lg>
+<stage><emph>(ai Prigioni)</emph>.</stage>
+<lg>
+<l part="F">Tolga il ciel che alcuno</l>
+<l>Più altamente di me pensi ch'io stesso. —</l>
+<l>Voi siete sciolti, amici: addio; seguite</l>
+<l>La vostra sorte, e s'ella ancor vi porta</l>
+<l>Sotto una insegna che mi sia nemica...</l>
+<l part="I">Ebben, ci rivedremo.</l>
+</lg>
+<stage><emph>(segni di gioia fra i Prigioni, che partono;</emph></stage>
+<stage><emph> il Conte osserva il Pergola figlio, e lo ferma)</emph>.</stage>
+<lg>
+<l part="F">O giovanetto,</l>
+<l>Tu del volgo non sei; l'abito, e il volto</l>
+<l>Ancor più chiaro il dice; e ti confondi</l>
+<l part="I">Con gli altri, e taci?</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">O capitano, i vinti</l>
+<l part="I">Non han nulla da dir.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Questa fortuna</l>
+<l>Porti così, che ben ti mostri degno</l>
+<l part="I">D'una miglior. Quale è il tuo nome?</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Un nome</l>
+<l>Cui crescer pregio assai difficil fia,</l>
+<l>Che un grande obbligo impone a chi lo porta:</l>
+<l part="I">Pergola è il nome mio.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Che? Tu sei figlio</l>
+<l part="I">Di quel valente?</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="M">Io il son.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Vieni ed abbraccia</l>
+<l>L'antico amico di tuo padre. Io era</l>
+<l>Quale or tu sei, quando il conobbi in prima —</l>
+<l>Tu mi rammenti i lieti giorni, i giorni</l>
+<l>Delle speranze. E tu fa cor. — Fortuna</l>
+<l>Più giocondi principj a me concesse;</l>
+<l>Ma le promesse sue sono pei prodi;</l>
+<l>E tosto o tardi essa le adempie. Il padre</l>
+<l>Per me saluta, o giovinetto, e digli</l>
+<l>Ch'io non tel chiesi, ma che certo io sono</l>
+<l part="I">Ch'ei non volea questa battaglia.</l>
+</lg></sp>
+
+<sp><speaker>PERGOLA</speaker>
+<lg>
+<l part="F">Ah! certo,</l>
+<l>Non la volea; ma fur parole al vento.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Non ti doler: del capitano è l'onta</l>
+<l>Della sconfitta; e sempre ben comincia</l>
+<l>Chi da forte combatte ove fu posto.</l>
+<l part="I">Vien meco;</l>
+</lg>
+<stage><emph>(lo piglia per mano)</emph>.</stage>
+<lg>
+<l part="F">ai duci io vo' mostrarti, io voglio</l>
+<l part="I">Renderti la tua spada.</l>
+</lg>
+<stage><emph> (ai Commissari) </emph>.</stage>
+<lg>
+<l part="F">Addio, Signori;</l>
+<l>Giammai pietoso coi nemici vostri</l>
+<l>Io non sarò, che dopo averli vinti.</l></lg>
+<stage><emph>(partono il Conte e Pergola figlio)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA IV </head>
+
+<stage><emph>I due</emph> COMMISSARI.</stage>
+
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+
+<stage><emph>(dopo qualche silenzio)</emph>.</stage>
+<lg>
+<l>Direte ancor che a presagir perigli</l>
+<l>Troppo facil son io? Che le parole</l>
+<l>De' suoi contrarj, il mio sospetto antico,</l>
+<l>L'odio forse, chi sa? mi fanno ingiusto</l>
+<l>Contra costui? Ch'egli è sdegnoso, ardente,</l>
+<l>Ma leal? che da lui cercar non dèssi</l>
+<l>Ossequj, ma servigi? e quando in grave</l>
+<l>Caso il nostro volere a lui s'intimi,</l>
+<l>Il dubitar ch'egli resista è un sogno?</l>
+<l part="I">Vi basta questo?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">C'è di più. Gli dissi</l>
+<l>Che a noi premea che s'inseguisse il vinto:</l>
+<l part="I">Ei ricusò.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="M">Ma che rispose?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">Ei vuole</l>
+<l>Assicurarsi delle rocche... ei teme...</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l>Cauto ad un tratto è divenuto — e dopo</l>
+<l part="I">Una vittoria.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">La parola a stento</l>
+<l>Gli uscia di bocca: ella parea risposta</l>
+<l>All'indiscreto che t'assedia, e vuole</l>
+<l>Il tuo segreto che per nulla il tocca.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l>Ma — l'ha poi detto il suo segreto? E questo</l>
+<l>Motivo ond'egli accontentar vi volle,</l>
+<l>Vi parve il solo suo motivo — il vero?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l>Nol so, non vi badai, tempo non ebbi</l>
+<l>Che di pensar ch'io mi trovava innanzi</l>
+<l>Un temerario, e ch'io sentia parole</l>
+<l part="I">Inusitate ai pari nostri</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">E s'egli</l>
+<l>Al suo Signore antico, al primo ond'ebbe</l>
+<l>Onor supremi, all'alta creatura</l>
+<l>Della sua spada, più terror che danno</l>
+<l>Volesse far? fargli pensar soltanto</l>
+<l>Quel ch'egli era per lui, quel che gli è contro?</l>
+<l>Tal nemico mostrarglisi, ch'ei brami</l>
+<l>D'averlo amico ancor? S'ei non potesse</l>
+<l>Tutto staccare il suo pensier da un trono</l>
+<l>Ch'egli alzò dalla polve; ov'ebbe il primo</l>
+<l>Grado dopo colui che v'è seduto?</l>
+<l>Se un duca ardente di conquiste, e inetto</l>
+<l>A sopportar d'una corazza in peso,</l>
+<l>Che d'una mano ha d'uopo e d'un consiglio —</l>
+<l>Che al condottier lo chiede, e gli comanda</l>
+<l>Ciò ch'ei medesmo gl'inspirò — più grato</l>
+<l>Signor, più dolce al condottier paresse,</l>
+<l>Che molti, e vigilanti, e più bramosi</l>
+<l>Di conservar che d'acquistar, cui preme</l>
+<l>Sovr'ogni cosa il comandar davvero?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="I">Tutto io m'aspetto da costui.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">Teniamo</l>
+<l>Questo sospetto: il suo contegno, i nostri</l>
+<l>Accorgimenti il faran chiaro in breve,</l>
+<l>O ad altro almen ci guideranno. Ei trama</l>
+<l>Certo. — Colui che trama, e del successo</l>
+<l>Si pasce già, come se il tenga, ardito</l>
+<l>Parla ancor che nol voglia; e quei che sprezza</l>
+<l>In faccia il suo signor, già in cor ne ha scelto</l>
+<l>Un altro, o pensa a diventarlo ei stesso.</l>
+<l>No: da Filippo ei non è sciolto in tutto.</l>
+<l>A quella stirpe onde la sposa egli ebbe</l>
+<l>Non è stranier: troppo gli è caro il nodo</l>
+<l>Che ad essa un dì lo strinse. In quella figlia,</l>
+<l>Che ha tanta parte in suo pensier, non scorre</l>
+<l>Col suo confuso de' Visconti il sangue?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l>Come parlò! Come passò dall'ira</l>
+<l>Al non curar! Con che superba pace</l>
+<l>Disubbidì! Siam noi nel nostro campo?</l>
+<l>Di Venezia i mandati? Eran costoro</l>
+<l>Vinti e prigioni? E più sicuro il guardo</l>
+<l>Portavano di noi! noi testimoni</l>
+<l>Del suo poter! del conto in cui ci tiene,</l>
+<l>Dei nostri acquisti così sparsi al vento,</l>
+<l>Di tal gioja, di tai grazie, di tali</l>
+<l>Abbracciamenti! Oh! ciò durar non puote. —</l>
+<l part="I">Che avviso è il vostro?</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">Avvene due? Soffrire,</l>
+<l>Dissimular, fargli querela ancora</l>
+<l>D'un'offesa che mai creder non puote</l>
+<l>Dimenticata, e insiem la strada aprirgli</l>
+<l>Di ripararla a modo suo, gradire</l>
+<l>Che ch'ei ne faccia, chiedergli soltanto</l>
+<l>Ciò che siam certi d'ottenerne; opporci</l>
+<l>Sol quanto basti a far che vera appaja</l>
+<l>Condiscendenza il resto; a dichiararsi</l>
+<l>Non astringerlo mai... vegliare intanto;</l>
+<l>Scriverne ai Dieci, ed aspettar comandi.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l>Viver così! Che si diria di noi?</l>
+<l>Dell'alto ufficio che ci fu commesso,</l>
+<l>A cui venimmo invidiati, e or tale</l>
+<l part="I">Diviene?...</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">È sempre glorioso il posto</l>
+<l>Dove si serve la sua patria, e dove</l>
+<l>Si giunge ai fini suoi. Soldati e duci</l>
+<l>Tutti sono per lui, l'ammiran tutti,</l>
+<l>Nessun l'invidia; a sommo onor si tiene</l>
+<l>Bene obbedirlo; e in questo sol v'è gara</l>
+<l>Che ad essergli secondo ognuno aspira. —</l>
+<l>Voce sì cara e riverita in prima,</l>
+<l>Che forza avrebbe in lor poscia che udita</l>
+<l>L'hanno in un tanto dì, che forza avrebbe</l>
+<l>Se proferisse mai quella parola,</l>
+<l>Che in core han tutti — la rivolta? Guai!</l>
+<l>Che più? — gli udimmo pur — come de' suoi,</l>
+<l>E nel pensiero de' nemici in cima.</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="I">Ma siamo in tempo? Ei già sospetta.</l>
+</lg></sp>
+
+<sp><speaker>SECONDO COMMISSARIO</speaker>
+<lg>
+<l part="F">Il siamo.</l>
+<l>Essi armati, e sol essi; avvezzi tutti</l>
+<l>A prodigar la vita, a non temere</l>
+<l>in periglio, ad amarlo, e delle imprese</l>
+<l>A non guardar che la speranza, alfine</l>
+<l>Più ch'uomini nel campo: ah! se fanciulli</l>
+<l>Non fosser poi nel resto, ed i sospetti</l>
+<l>Facili a palesar come a deporli;</l>
+<l>Se una parola di lusinga, un atto</l>
+<l>Di sommessa amistà non li volgesse</l>
+<l>A talento di quel che l'usa a tempo;</l>
+<l>A che saremmo? ubbidiria la spada?</l>
+<l part="I">Saremmo ancora i Signor noi?</l>
+</lg></sp>
+
+<sp><speaker>PRIMO COMMISSARIO</speaker>
+<lg>
+<l part="F">Sta bene.</l>
+<l>Riesca, o no, questo partito è il solo.</l>
+</lg></sp>
+
+<trailer>FINE DELL'ATTO TERZO</trailer></div2></div1>
+
+
+<div1 type="atto"><head>ATTO IV</head>
+
+<div2 type="scena">
+<head>SCENA I </head>
+
+<stage><emph>Sala dei Capi del Consiglio dei Dieci, in Venezia.</emph></stage>
+<stage>MARCO <emph>Senatore, e</emph> MARINO <emph>uno dei Capi.</emph></stage>
+
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l>Eccomi al cenno degli eccelsi Capi</l>
+<l part="I">Del Consiglio dei Dieci.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Io parlo in nome</l>
+<l>Di tutti lor. Vi si destina un grave</l>
+<l>Incarco, fuor di qui: se un argomento</l>
+<l>Di confidenza questo fia... la vostra</l>
+<l part="I">Coscienza il diravvi.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Ella mi dice</l>
+<l>Che scarsa al merto ed all'ingegno mio</l>
+<l>Dee la patria concederla, ma intera</l>
+<l part="I">Alla fede ed al cor.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">La patria! È un nome</l>
+<l>Dolce a chi l'ama oltre ogni cosa, e sente</l>
+<l>Di vivere per lei; ma proferirlo</l>
+<l>Senza tremar non dee chi resta amico</l>
+<l part="I">De' suoi nemici.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="M">Ed io...</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Per chi parlaste</l>
+<l>Oggi in Senato? Per la patria? I vostri</l>
+<l>Sdegni, i vostri terrori eran per lei?</l>
+<l>Chi vi rendea sì caldo? Il suo periglio,</l>
+<l>O il periglio di chi? Chi difendeste...</l>
+<l part="I">Voi solo?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Io so davanti a chi mi trovo.</l>
+<l>Sta la mia vita in vostra man, ma il mio</l>
+<l>Voto non già: giudice ei non conosce</l>
+<l>Fuor che il mio cor; né d'altro esser può reo</l>
+<l>Che d'avergli mentito. A darne conto</l>
+<l part="I">Pur disposto son io.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Tutto che puote</l>
+<l>Por la patria in periglio, essere inciampo</l>
+<l>All'alte mire sue, dargli sospetto,</l>
+<l>È in nostra man. Perché ci siate or voi</l>
+<l>Se nol sapete, se mostrar vi giova</l>
+<l>Di non saperlo, uditelo. Per ora</l>
+<l>D'oggi si parli; non vogliam di tutta</l>
+<l>La vostra vita interrogar che un giorno.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l>E che? fors'altro mi si appon? Di nulla</l>
+<l part="I">Temer poss'io; la mia condotta...</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">È nota</l>
+<l>Più a noi che a voi. Dalla memoria vostra</l>
+<l>Forse assai cose ha cancellato il tempo: —</l>
+<l part="I">Il nostro libro non obblia.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Di tutto</l>
+<l part="I">Ragion darò.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Voi la darete quando</l>
+<l>Vi fia chiesta. Non più. — Quando il Senato</l>
+<l>Diede il comando al Carmagnola, a molti</l>
+<l>Era sospetta la sua fede; ad altri</l>
+<l>Certa parea: potea parerlo allora. —</l>
+<l>Ei discioglie i prigioni, insulta i nostri</l>
+<l>Mandati, i nostri pari; ha vinto, e perde</l>
+<l>In perfid'ozio la vittoria. Il velo</l>
+<l>Cade dal ciglio ai più. — Nel suo soccorso</l>
+<l>Troppo fidando il Trevisan s'innoltra</l>
+<l>Nel Po, le navi del nemico affronta;</l>
+<l>Sopraffatto dal numero, richiede</l>
+<l>Al Capitan rinforzo, e non l'ottiene.</l>
+<l>Freme il Senato; poche voci appena</l>
+<l>S'alzano ancor per lui. — Cremona è presa,</l>
+<l>Basta sol ch'ei v'accorra; ei non v'accorre.</l>
+<l>Giunge l'annunzio oggi al Senato. — Alfine</l>
+<l>Più non gli resta difensor che un solo:</l>
+<l>Solo, ma caldo difensor. Per lui</l>
+<l>Innocente è costui, degno di lode</l>
+<l>Più che di scusa; e se vi fu sventura,</l>
+<l>Colpa è soltanto del destino e nostra. —</l>
+<l>Non è giustizia che il persegue: è solo</l>
+<l>Odio privato, è invidia, è basso orgoglio</l>
+<l>Che non perdona al sommo a chi tacendo</l>
+<l>Grida coi fatti: io son maggior di voi. —</l>
+<l>Certo inaudito è un tal linguaggio: i Padri</l>
+<l>Nel lor Senato oggi l'udiro; e muti</l>
+<l>Si volsero a guardar donde tal voce</l>
+<l>Venia, se uno straniero oggi, un nemico</l>
+<l>Premere un seggio nel Senato ardia. —</l>
+<l>Chiarito è il Conte un traditor; si vuole</l>
+<l>Torgli ogni via di nuocere. Ma l'arte</l>
+<l>Tanta e l'audacia è di costui, che reso</l>
+<l>Ei s'è tremendo a' suoi Signori; è forte</l>
+<l>Di quella forza che gli abbiam fidata;</l>
+<l>Egli ha il cor de' soldati; e l'armi nostre,</l>
+<l>Quando voglia, son sue; contro di noi</l>
+<l>Volger le puote, e il vuol. Certo è follia</l>
+<l>Aspettar che lo tenti; ognun risolve</l>
+<l>Ch'ei si prevenga, e tosto. A forza aperta</l>
+<l>È impresa piena di perigli. E noi</l>
+<l>Starem per questo? E il suo maggior delitto</l>
+<l>Sarà cagion perché impunito ei vada?</l>
+<l>Sola una strada alla giustizia è schiusa,</l>
+<l>L'arte con cui l'ingannator s'inganna.</l>
+<l>Ei ci astrinse a tenerla; ebben, si tenga:</l>
+<l>Questo è il voto comun. Che fece allora</l>
+<l>L'amico di costui? Ve ne rammenta?</l>
+<l>Io vel dirò; ché men tranquillo al certo</l>
+<l>Era in quel punto il vostro cor, dell'occhio</l>
+<l>Che imperturbato vi seguia. Perdeste</l>
+<l>Ogni ritegno, oltrepassaste il largo</l>
+<l>Confin che un resto di prudenza avea</l>
+<l>Prescritto al vostro ardor, dimenticaste</l>
+<l>Ciò che promesso v'eravate intero</l>
+<l>Ai men veggenti vi svelaste, a quelli</l>
+<l>Cui parea novo ciò che a noi non l'era.</l>
+<l>Ognuno allor pensò ch'oggi in Senato</l>
+<l>C'era un uom di soverchio, e che bisogna</l>
+<l>Porre il segreto dello Stato in salvo.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l>Signor, tutto a voi lice. Innanzi a voi</l>
+<l>Quel che ora io sia, non so; — però non posso</l>
+<l>Dimenticarmi che patrizio io sono;</l>
+<l>Né a voi tacer che un dubbio tal m'offende.</l>
+<l>Sono un di voi: la causa dello Stato</l>
+<l>È la mia causa; e il suo segreto importa</l>
+<l part="I">A me non men che altrui.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Volete alfine</l>
+<l>Saper chi siete qui? Voi siete un uomo</l>
+<l>Di cui si teme, un che lo Stato guarda</l>
+<l>Come un inciampo alla sua via. Mostrate</l>
+<l>Che nol sarete; il darvene agio ancora</l>
+<l part="I">È gran clemenza.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Io sono amico al Conte:</l>
+<l>Questa è l'accusa mia; nol nego, io il sono:</l>
+<l>E il ciel ringrazio che vigor mi ha dato</l>
+<l>Di confessarlo qui. Ma se nemico</l>
+<l>È della patria: mi si provi, è il mio.</l>
+<l>Che gli si appone? I prigionier disciolti? —</l>
+<l>Non li disciolse il vincitor soldato? —</l>
+<l>Ma invan pregato il condottier non volle</l>
+<l>Frenar questa licenza. — Il potea forse? —</l>
+<l>Ma l'imitò. Non ve lo astrinse un uso,</l>
+<l>Qual ch'ei sia, della guerra? ed al Senato</l>
+<l>Vera non parve questa scusa? E largo</l>
+<l>D'ogni onor poscia non gli fu? — L'ajuto</l>
+<l>Al Trevisan negato? — Era più grave</l>
+<l>Periglio il darlo; era l'impresa ordita</l>
+<l>Ignaro il Conte; ei non fu chiesto in tempo.</l>
+<l>E la sentenza che a sì turpe esiglio</l>
+<l>Il Trevisan dannò, tutta la colpa</l>
+<l>Non rovesciò sovra di lui? — Cremona? —</l>
+<l>Chi di Cremona meditò l'acquisto?</l>
+<l>Chi l'ordin diè che si tentasse? Il Conte.</l>
+<l>Del popol tutto che a romor si leva</l>
+<l>Non può scarso drappel l'inaspettato</l>
+<l>Impeto sostener; ritorna al campo,</l>
+<l>Non scemo pur d'un combattente. Al Duce</l>
+<l>Buon consiglio non parve incontro un novo</l>
+<l>Impensato nemico avventurarsi;</l>
+<l>E abbandonò l'impresa. Ella è, fra tante</l>
+<l>Sì ben compiute, una fallita impresa;</l>
+<l>Ma il tradimento ov'è? — Fiero, oltraggioso</l>
+<l>Da gran tempo, voi dite, è il suo linguaggio;</l>
+<l>Un troppo lungo tollerar macchiato</l>
+<l>Ha l'onor nostro. — Ed un'insidia, il lava?</l>
+<l>E poi che un nodo — un dì sì caro — ormai</l>
+<l>Non può tener Venezia e il Carmagnola,</l>
+<l>Chi ci vieta disciorlo? Un'amistade</l>
+<l>Sì nobilmente stretta, or non potria</l>
+<l>Nobilmente finir? Come! anche in questo</l>
+<l>Un periglio si scorge! Il genio ardito</l>
+<l>Del condottier, la fama sua si teme,</l>
+<l>De' soldati l'amor! Se render piena</l>
+<l>Testimonianza al ver colpa si stima;</l>
+<l>Se a tal trista temenza oppor non lice</l>
+<l>La lealtà del Conte; il senso almeno</l>
+<l>Del nostro onor la scacci. Abbiam di noi</l>
+<l>Un più degno concetto; e non si creda</l>
+<l>Che a tal Venezia giunta sia, che possa</l>
+<l>Porla in periglio un uom. Lasciam codeste</l>
+<l>Cure ai tiranni: ivi il valor si tema</l>
+<l>Ove lo scettro è in una mano, e basta</l>
+<l>A strapparlo un guerrier che dica: io sono</l>
+<l>Più degno di tenerlo, — e a' suoi compagni</l>
+<l>Il persuada. Ei che tentar potria? —</l>
+<l>Al Duca ritornar, dicesi, e seco</l>
+<l>Le schiere trar nel tradimento — Al Duca?</l>
+<l>All'uom che un'onta non perdona mai,</l>
+<l>Né un gran servigio, ritornar colui</l>
+<l>Che gli compose e che gli scosse il trono?</l>
+<l>Chi non poté restargli amico in tempo</l>
+<l>Che pugnava per lui, ridivenirlo</l>
+<l>Dopo averlo sconfitto! Avvicinarsi</l>
+<l>A quella man che in questo asilo istesso</l>
+<l>Comprò un pugnal per trapassargli il petto!</l>
+<l>L'odio solo, o signor, crederlo puote.</l>
+<l>Ah! qual sia la cagion che innanzi a questo</l>
+<l>Temuto seggio fa trovarmi, un'alta</l>
+<l>Grazia mi fia, se fare intender posso</l>
+<l>Anco una volta il ver: qualche lusinga</l>
+<l>Io nutro ancor che non fia forse invano.</l>
+<l>Sì, l'odio cieco, l'odio sol potea</l>
+<l>Far che fosse in Senato un tal sospetto</l>
+<l>Proposto, inteso, tollerato. Ha molti</l>
+<l>Fra noi nemici il Conte: or non ricerco</l>
+<l>Perché lo sièno: — il son. Quando nascoste</l>
+<l>All'ombra della pubblica vendetta,</l>
+<l>Le nimistà private io disvelai;</l>
+<l>Quando chiedea che a provveder s'avesse</l>
+<l>L'util soltanto dello Stato, e il giusto;</l>
+<l>Allora ufficio io non facea d'amico,</l>
+<l>Ma di fedel patrizio. Io già non scuso</l>
+<l>Il mio parlar: quando proporre intesi</l>
+<l>Che sotto il vel di consultarlo ei sia</l>
+<l>Richiamato a Venezia, e gli si faccia</l>
+<l>Onor più dell'usato, e tutto questo</l>
+<l>Per tirarlo nel laccio... allor, nol nego...</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="I">Più non pensaste che all'amico.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Allora,</l>
+<l>Dissimular nol vuo', tutte sentii</l>
+<l>Le potenze dell'alma sollevarsi</l>
+<l>Contro un consiglio... ah fu seguìto! ... un solo</l>
+<l>Pensier non fu; fu della patria mia</l>
+<l>L'onor ch'io vedo vilipeso, il grido</l>
+<l>Dei nemici e dei posteri; fu il primo</l>
+<l>Senso d'orror che un tradimento inspira</l>
+<l>All'uom che dee stornarlo, o starne a parte.</l>
+<l>E se pietà d'un prode a tanti affetti</l>
+<l>Pur si mischiò, dovea, poteva io forse</l>
+<l>Farla tacer? Son reo d'aver creduto</l>
+<l>Che util puote a Venezia esser soltanto</l>
+<l>Ciò che l'onora, e che si può salvarla</l>
+<l part="I">Senza farsi...</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Non più: se tanto udii</l>
+<l>Fu perché ai Capi del Consiglio importa</l>
+<l>Di conoscervi appien. Piacque aspettarvi</l>
+<l>Ai secondi pensier; veder si volle</l>
+<l>Se un più maturo ponderar v'avea</l>
+<l>Tratto a più saggio e più civil consiglio.</l>
+<l>Or, poiché indarno si sperò, credete</l>
+<l>Voi che un decreto del Senato io voglia</l>
+<l>Difender ora innanzi a voi? Si tratta</l>
+<l>La vostra causa qui. Pensate a voi,</l>
+<l>Non alla patria: ad altre, e forti, e pure</l>
+<l>Mani è commessa la sua sorte; e nulla</l>
+<l>A cor le sta che il suo voler vi piaccia,</l>
+<l>Ma che s'adempia, e che non sia sofferto</l>
+<l>Pure il pensier di porvi impedimento.</l>
+<l>A questo vegliam noi. Quindi io non voglio</l>
+<l>Altro da voi che una risposta. Espresso</l>
+<l>Sovra quest'uomo è del Senato il voto;</l>
+<l>Compir si dèe. — Voi, che pensieri avete?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="I">Quale inchiesta, Signor!</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Voi siete a parte</l>
+<l>D'un gran disegno; e in vostro cor bramate</l>
+<l part="I">Che a vòto ei vada — non è ver?</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Che importa</l>
+<l>Ciò ch'io brami, allo Stato? A prova ormai</l>
+<l>Sa che dell'opre mie non è misura</l>
+<l part="I">Il desiderio, ma il dover.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Qual pegno</l>
+<l>Abbiam da voi che lo farete? In nome</l>
+<l>Del Tribunale un ve ne chiedo: e questi,</l>
+<l>Se lo negate, un traditor vi tiene.</l>
+<l>Quel che si serba ai traditor, v'è noto.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="I">Io... Che si vuol da me?</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Riconoscete</l>
+<l>Che patria è questa a cui bastovvi il core</l>
+<l>Di preferire uno stranier. Sui figli</l>
+<l>A stento e tardi essa la mano aggrava;</l>
+<l>E a perderne soltanto ella consente</l>
+<l>Quei che salvar non puote. Ogni error vostro</l>
+<l>È pronta ad obbliar; v'apre ella stessa</l>
+<l part="I">La strada al pentimento.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Al pentimento!</l>
+<l part="I">Ebben, che strada?</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Il Musulman disegna</l>
+<l>D'assalir Tessalonica: voi siete</l>
+<l>Colà mandato. A quale ufficio, quivi</l>
+<l>Noto vi fia: pronta è la nave; ed oggi</l>
+<l part="I">Voi partirete.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="M">Ubbidirò.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Ma un'arra</l>
+<l>Si vuol di vostra fé: giurar dovete</l>
+<l>Per quanto è sacro, che in parole o in cenni</l>
+<l>Nulla per voi traspirerà di quanto</l>
+<l>Oggi s'è fisso. Il giuramento è questo:</l>
+</lg>
+<stage><emph>(gli presenta un foglio)</emph>.</stage>
+<lg>
+<l part="I">Sottoscrivete.</l>
+</lg></sp>
+
+<sp><speaker>MARCO</speaker>
+
+<stage><emph>(legge)</emph>.</stage>
+<lg>
+<l part="F">E che, signor? Non basta? ...</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l>E per ultimo, udite. Il messo è in via</l>
+<l>Che porta al Conte il suo richiamo. Ov'egli</l>
+<l>Pronto ubbidisca, ed in Venezia arrivi,</l>
+<l>Giustizia troverà, forse clemenza.</l>
+<l>Ma se ricusa, se sta in forse, e segno</l>
+<l>Dà di sospetto, un gran segreto udite,</l>
+<l>E serbatelo in voi; l'ordine è dato</l>
+<l>Che dalle nostre man vivo ei non esca.</l>
+<l>Il traditor che dargli un cenno ardisce,</l>
+<l>Quei l'uccide, e si perde. — Io più non odo</l>
+<l part="I">Nulla da voi: scrivete; ovvero...</l>
+</lg>
+<stage><emph>(gli porge il foglio)</emph>.</stage></sp>
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l part="F">Io scrivo. —</l>
+</lg>
+<stage><emph>(piglia il foglio e lo sottoscrive)</emph>.</stage>
+</sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l>Tutto è posto in obblio. La vostra fede</l>
+<l>Ha fatto il più; vinto ha il dover: l'impresa</l>
+<l>Compirsi or dee dalla prudenza; e questa</l>
+<l>Non può mancarvi, sol che in mente abbiate</l>
+<l>Che ormai due vite in vostra man son poste.</l></lg>
+<stage><emph>(parte)</emph>.</stage></sp></div2>
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+
+<sp><speaker>MARCO</speaker>
+<lg>
+<l>Dunque è deciso! ... un vil son io! ... fui posto</l>
+<l>Al cimento; e che feci? ... Io prima d'oggi</l>
+<l>Non conoscea me stesso! ... Oh che segreto</l>
+<l>Oggi ho scoperto! Abbandonar nel laccio</l>
+<l>Un amico io potea! Vedergli al tergo</l>
+<l>L'assassino venir, veder lo stile</l>
+<l>Che su lui scende, e non gridar: ti guarda!</l>
+<l>Io lo potea; l'ho fatto... io più nol devo</l>
+<l>Salvar; chiamato ho in testimonio il cielo</l>
+<l>D'un'infame viltà... la sua sentenza</l>
+<l>Ho sottoscritta... ho la mia parte anch'io</l>
+<l>Nel suo sangue! oh che feci! ... io mi lasciai</l>
+<l>Dunque atterrir? ... La vita? ... Ebben, talvolta</l>
+<l>Senza delitto non si può serbarla:</l>
+<l>Nol sapeva io? Perché promisi adunque?</l>
+<l>Per chi tremai? per me? per me? per questo</l>
+<l>Disonorato capo? ... o per l'amico?</l>
+<l>La mia ripulsa accelerava il colpo,</l>
+<l>Non lo stornava. — O Dio, che tutto scerni,</l>
+<l>Rivelami il mio cor; ch'io veda almeno</l>
+<l>In quale abisso son caduto, s'io</l>
+<l>Fui più stolto, o codardo, o sventurato. —</l>
+<l>O Carmagnola, tu verrai! ... sì certo</l>
+<l>Egli verrà... se anche di queste volpi</l>
+<l>Stesse in sospetto, ei penserà che Marco</l>
+<l>È senator, che anch'io l'invito; e lunge</l>
+<l>Ogni dubbiezza ei caccerà; rimorso</l>
+<l>Avrà d'averla accolta... Io son che il perdo! —</l>
+<l>Ma... di clemenza non parlò quel vile?</l>
+<l>Sì, la clemenza che il potente accorda</l>
+<l>All'uom che ha tratto nell'aguato, a quello</l>
+<l>Ch'egli medesmo accusa, e che gli preme</l>
+<l>Di trovar reo. Clemenza all'innocente!</l>
+<l>Oh! il vil son io che gli credetti, o volli</l>
+<l>Credergli; ei la nomò perché comprese</l>
+<l>Che bastante a corrompermi non era</l>
+<l>Il rio timor che a goccia a goccia ei fea</l>
+<l>Scender sull'alma mia: vide che d'uopo</l>
+<l>M'era un nobil pretesto; e me lo diede.</l>
+<l>Gli astuti! i traditor! Come le parti</l>
+<l>Distribuite hanno fra lor costoro!</l>
+<l>Uno il sorriso, uno il pugnal, quest'altro</l>
+<l>Le minacce... e la mia? ... voller che fosse</l>
+<l>Debolezza ed inganno... ed io l'ho presa!</l>
+<l>Io li spregiava, e son da men di loro!</l>
+<l>Ei non gli sono amici! ... Io non doveva</l>
+<l>Essergli amico: io lo cercai; fui preso</l>
+<l>Dall'alta indole sua, dal suo gran nome.</l>
+<l>Perché dapprima non pensai che incarco</l>
+<l>È l'amistà d'un uom che agli altri è sopra?</l>
+<l>Perché allor correr solo io nol lasciai</l>
+<l>La sua splendida via, s'io non potea</l>
+<l>Seguire i passi suoi? La man gli stesi;</l>
+<l>Il cortese la strinse; ed or ch'ei dorme,</l>
+<l>E il nemico gli è sopra — io la ritiro —</l>
+<l>Ei si desta, e mi cerca — io son fuggito!</l>
+<l>Ei mi dispregia — e muore! Io non sostengo</l>
+<l>Questo pensier... Che feci! ... Ebben, che feci?</l>
+<l>Nulla finora: ho sottoscritto un foglio,</l>
+<l>E nulla più. Se fu delitto il Giuro,</l>
+<l>Non fia virtù l'infrangerlo? Non sono</l>
+<l>Che all'orlo ancor del precipizio; il veggio,</l>
+<l>E ritrarmi poss'io... — Non posso un mezzo</l>
+<l>Trovar? ... Ma s'io l'uccido? — Oh! forse il disse</l>
+<l>Per atterrirmi — E se davvero il disse?</l>
+<l>Oh empj, in quale abbominevol rete</l>
+<l>Stretto m'avete! Un nobile consiglio</l>
+<l>Per me non v'ha; qualunque io scelga, è colpa.</l>
+<l>Oh dubbio atroce! — Io li ringrazio; ei m'hanno</l>
+<l>Statuito un destino; ei m'hanno spinto</l>
+<l>Per una via — vi corro: — almen mi giova</l>
+<l>Ch'io non la scelsi — io nulla scelgo; e tutto</l>
+<l>Ch'io faccio è forza e volontà d'altrui. —</l>
+<l>Terra ov'io nacqui, addio per sempre: io spero</l>
+<l>Che ti morrò lontano, e pria che nulla</l>
+<l>Sappia di te, lo spero: in fra i perigli</l>
+<l>Certo per sua pietade il ciel m'invia. —</l>
+<l>Io non morro per te. Che tu sii grande</l>
+<l>E gloriosa, che m'importa? Anch'io</l>
+<l>Due gran tesori avea, la mia virtude,</l>
+<l>Ed un amico — e tu m'hai tolto entrambi.</l></lg>
+<stage><emph>(parte)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA III</head>
+
+<stage><emph>Tenda del Conte</emph>.</stage>
+<stage>IL CONTE <emph>e</emph> GONZAGA.</stage>
+
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Ebben, che raccogliesti?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Io favellai,</l>
+<l>Come imponesti, ai Commissarj; e chiaro</l>
+<l>Mostrai che tutta delle vinte navi</l>
+<l>Riman la colpa e la vergogna a lui</l>
+<l>Che non le seppe comandar; che infausta</l>
+<l>La giornata gli fu perché la imprese</l>
+<l>Senza di te; che tu da lui chiamato</l>
+<l>Tardi in soccorso, romper non dovevi</l>
+<l>I tuoi disegni per servirgli altrui;</l>
+<l>Che l'armi lor, tanto in tua man felici,</l>
+<l>Sempre il sarian, se questa guerra fosse</l>
+<l>Commessa al senno ed al voler d'un solo.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Che dicon essi?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Si mostrar convinti</l>
+<l>Ai detti miei: dissero in pria, che nulla</l>
+<l>Dissimular volean; che amaro al certo</l>
+<l>Dei perduti navigli era il pensiero,</l>
+<l>E di Cremona la fallita impresa;</l>
+<l>Ma che son lieti di saper che il fallo</l>
+<l>Di te non fu; che di chiunque ei sia,</l>
+<l part="I">Da te l'ammenda aspettano.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Tu il vedi,</l>
+<l>O mio Gonzaga; se dai fede al volgo</l>
+<l>Sommo riguardo, arte profonda è d'uopo</l>
+<l>Con questi uomin di Stato. Io fui con essi</l>
+<l>Quel ch'esser soglio; rigettai l'ingiuste</l>
+<l>Pretese lor, scender li feci alquanto</l>
+<l>Dall'alto seggio ove si pon chi avvezzo</l>
+<l>Non è a vedersi altri che schiavi intorno;</l>
+<l>Io mostrai lor fino a che segno io voglio</l>
+<l>Che altri signor mi sia: d'allora in poi</l>
+<l>Mai non l'hanno passato; io li provai</l>
+<l part="I">Saggi sempre e cortesi.</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">E non pertanto</l>
+<l>Dar consiglio ad alcuno io non vorrei</l>
+<l>Di tener questa via. — Te da gran tempo</l>
+<l>La gloria segue e la fortuna; ad essi</l>
+<l>Util tu sei, tu necessario e caro —</l>
+<l>Terribil forse: — e tu la prova hai vinta;</l>
+<l>Se pur può dirsi che sia vinta ancora.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Che dubbj hai tu?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Tu, che certezza? Io veggio</l>
+<l>Dolci sembianti, e dolci detti ascolto:</l>
+<l>Segni d'amor; ma pur, l'odio che teme</l>
+<l part="I">Altri ne ha forse?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">No: di questo io nulla</l>
+<l>Sono in pensier. Troppo a regnar son usi;</l>
+<l>E san che all'uom da cui s'ottiene il molto</l>
+<l>Chieder non dessi improntamente il meno.</l>
+<l>E poi — mi credi; io li guardai dappresso:</l>
+<l>Questa cupa arte lor, questi intricati</l>
+<l>Avvolgimenti di menzogna, questo</l>
+<l>Finger, tacere, antiveder, di cui</l>
+<l>Tanto li loda e li condanna il mondo,</l>
+<l>È meno assai di quel che al mondo appare.</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l>Se pur non era di lor arte il colmo</l>
+<l part="I">Il parer tali a te.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">No: tu li vedi</l>
+<l>Con l'occhio altrui: quando col tuo li veda,</l>
+<l>Tu cangerai pensiero. Havvene assai</l>
+<l>Di schietti e buoni; havvene tal che un'alta</l>
+<l>Anima chiude, a cui pensier non osa</l>
+<l>Avvicinarsi che gentil non sia:</l>
+<l>Anima dolce e disdegnosa, in cui</l>
+<l>Legger non puoi, che tu non sia compreso</l>
+<l>D'amor, di riverenza, e di desio</l>
+<l>Di somigliarle. — Non temer; non sono</l>
+<l>Di me scontenti; e quando il fosser mai,</l>
+<l part="I">Io lo saprei ben tosto.</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Il Ciel non voglia</l>
+<l part="I">Che tu t'inganni.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">— Altro mi duol — son stanco</l>
+<l>Di questa guerra che condur non posso</l>
+<l>A modo mio. — Quand'io non era ancora</l>
+<l>Più che un soldato di ventura, ascoso</l>
+<l>E perduto tra i mille, ed io sentia</l>
+<l>Che al loco mio non m'avea posto il cielo,</l>
+<l>E dell'oscurità l'aria affannosa</l>
+<l>Respirava fremendo ed il comando</l>
+<l>Sì bello mi parea, ... chi m'avria detto</l>
+<l>Che l'otterrei, che a gloriosi duci,</l>
+<l>E a tanti e così prodi e così fidi</l>
+<l>Soldati io sarei capo; e che felice</l>
+<l part="I">Io non sarei perciò! ...</l>
+</lg>
+<stage><emph>(entra un Soldato)</emph>.</stage>
+<lg>
+<l part="M">Che rechi?</l>
+</lg></sp>
+
+<sp><speaker>SOLDATO</speaker>
+<lg>
+<l part="F">Un foglio</l>
+<l part="I">Di Venezia.</l></lg>
+<stage><emph> (gli porge un foglio e parte)</emph>.</stage></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="M">Veggiam.</l>
+</lg>
+<stage><emph>(legge</emph>).</stage>
+<lg>
+<l part="F">Non tel diss'io?</l>
+<l>Mai non gli ebbi più amici: a loro la pace</l>
+<l>Domanda il Duca, e conferir con meco</l>
+<l part="I">Braman di ciò. Vuoi tu seguirmi?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Io vengo.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Che dì' tu di tal pace?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Ad un soldato</l>
+<l part="I">Tu lo domandi?</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">È ver; — ma questa è guerra? —</l>
+<l>O mia consorte, o figlia mia, fra poco</l>
+<l>Io rivedrovvi, abbraccerò gli amici —</l>
+<l>Questo è contento al certo. — Epur del tutto</l>
+<l>Esser lieto non so — chi potria dirmi</l>
+<l>Se un sì bel campo io rivedrò più mai?</l>
+</lg></sp>
+
+<trailer>FINE DELL'ATTO QUARTO</trailer></div2></div1>
+
+
+<div1 type="atto"><head>ATTO V</head>
+
+<div2 type="scena">
+<head>SCENA I </head>
+
+<stage><emph>Notte. Sala del Consiglio dei Dieci illuminata</emph>.</stage>
+<stage>IL DOGE, <emph>i</emph> DIECI, <emph>e il</emph> CONTE, <emph>seduti</emph>.</stage>
+
+
+<sp><speaker>IL DOGE</speaker>
+
+<stage><emph>(al Conte)</emph>.</stage>
+<lg>
+<l>A questi patti offre la pace il Duca;</l>
+<l>Su ciò chiede il Consiglio il parer vostro.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Signori, un altro io ve ne diedi; e molto</l>
+<l>Promisi allor: vi piacque. Io attenni in parte</l>
+<l>Quel che promesso avea: ma lunge ancora</l>
+<l>Dalle parole è il fatto; ed or non voglio</l>
+<l>Farle obbliar però: sul labbro mio</l>
+<l>Imprevidente militar baldanza</l>
+<l>Non le mettea. Di novo avviso or chiesto,</l>
+<l>Altro non posso che ridirvi il primo.</l>
+<l>Se intera e calda e risoluta guerra</l>
+<l>Far disponete, ah! siete a tempo: è questa</l>
+<l>La miglior scelta ancora. Ei vi abbandona</l>
+<l>Bergamo e Brescia; — e non son vostre? L'armi</l>
+<l>Le han fatte vostre: ei non può tanto soffrirvi</l>
+<l>Quanto sperar di torgli v'e concesso.</l>
+<l>Ma — da un guerrier che vi giurò sua fede,</l>
+<l>Voi non volete altro che il ver — se il modo</l>
+<l>Mutar di questa guerra a voi non piace,</l>
+<l part="I">Accettate gli accordi.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Il parlar vostro</l>
+<l>Accenna assai, ma poco spiega: un chiaro</l>
+<l part="I">Parer vi si domanda.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Uditel dunque.</l>
+<l>Scegliete un duce, e confidate in lui:</l>
+<l>Tutto ei possa tentar; nulla si tenti</l>
+<l>Senza di lui: largo poter gli date;</l>
+<l>Stretto conto ei ne renda. Io non vi chieggio</l>
+<l>Ch'io sia l'eletto: dico sol che molto</l>
+<l>Sperar non lice da chi tal non sia.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l>Non l'eravate voi quando i prigioni</l>
+<l>Sciolti voleste, e il furo? Eppur la guerra</l>
+<l>Più risoluta non si fea per questo,</l>
+<l>Né certa più. Duce e Signor nel campo,</l>
+<l part="I">Forse concesso non l'avreste.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Avrei</l>
+<l>Fatto di più: sotto alle mie bandiere</l>
+<l>Venian quei prodi; e di Filippo il soglio</l>
+<l>Vòto or sarebbe, o sederiavi un altro.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="I">Vasti disegni avete.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">E l'adempirli</l>
+<l>Sta in voi: se ancor nol son, n'è ragion sola</l>
+<l>Che la man che il dovea sciolta non era.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l>A noi si disse altra cagion: che il Duca</l>
+<l>Vi commosse a pietà, che l'odio atroce</l>
+<l>Che già portaste al signor vostro antico</l>
+<l>Sovra i presenti il rovesciaste intero.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Questo vi fu riferto? Ella è sventura</l>
+<l>Di chi regge gli Stati udir con pace</l>
+<l>La impudente menzogna, i turpi sogni</l>
+<l>D'un vil di cui non degneria privato</l>
+<l part="I">Le parole ascoltar.</l>
+</lg></sp>
+
+<sp><speaker>MARINO</speaker>
+<lg>
+<l part="F">Sventura è vostra</l>
+<l>Che a tal riferto il vostro oprar s'accordi,</l>
+<l>Che il rio linguaggio lo confermi, e il vinca.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Il vostro grado io riverisco in voi,</l>
+<l>E questi generosi in mezzo a cui</l>
+<l>V'ha posto il caso: e mi conforta almeno</l>
+<l>Che il non mertato onor di che lor piacque</l>
+<l>Cingere il loro capitan, lo stesso</l>
+<l>Udirvi io qui, mostra ch'essi han di lui</l>
+<l part="I">Altro pensiero.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Uno è il pensier di tutti.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">E qual?</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="M">L'udiste.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">È del Consiglio il voto</l>
+<l part="I">Quello che udii?</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Sì, il crederete al Doge.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="I">Questo dubbio di me? ...</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Già da gran tempo</l>
+<l part="I">Non è più dubbio.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">E m'invitaste a questo?</l>
+<l part="I">E taceste finor?</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Sì, per punirvi</l>
+<l>Del tradimento, e non vi dar pretesti</l>
+<l part="I">Per consumarlo.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Io traditor! Comincio</l>
+<l>A comprendervi alfin: purtroppo altrui</l>
+<l>Creder non volli. — Io traditor! Ma questo</l>
+<l>Titolo infame infino a me non giunge:</l>
+<l>Ei non è mio; chi l'ha mertato il tenga.</l>
+<l>Ditemi stolto: il soffrirò; che il merto:</l>
+<l>Tale è il mio posto qui; ma con null'altro</l>
+<l>Lo cambierei, ch'egli è il più degno ancora. —</l>
+<l>Io guardo, io torno col pensier sul tempo</l>
+<l>Che fui vostro soldato: ella è una via</l>
+<l>Sparsa di fior. Segnate il giorno in cui</l>
+<l>Vi parvi un traditor! Ditemi un giorno</l>
+<l>Che di grazie e di lodi e di promesse</l>
+<l>Colmo non sia! Che più? Qui siedo; e quando</l>
+<l>Io venni a questo che alto onor parea,</l>
+<l>Quando più forte nel mio cor parlava</l>
+<l>Fiducia, amor, riconoscenza, e zelo...</l>
+<l>Fiducia no: pensa a fidarsi forse</l>
+<l>Quei che invitato tra gli amici arriva? —</l>
+<l>Io veniva all'inganno! Ebben, ci caddi;</l>
+<l>Ella è così. — Ma via — poiché gettato</l>
+<l>È il finto volto del sorriso ormai,</l>
+<l>Sia lode al ciel; siamo in un campo almeno</l>
+<l>Che anch'io conosco. — A voi parlare or tocca;</l>
+<l>E difendermi a me: dite, quai sono</l>
+<l part="I">I tradimenti miei?</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Gli udrete or ora</l>
+<l part="I">Dal Collegio segreto.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Io lo ricuso</l>
+<l>Ciò che feci per voi, tutto lo feci</l>
+<l>Alla luce del Sol; renderne conto</l>
+<l>Tra insidiose tenebre non voglio.</l>
+<l>Giudice del guerrier, solo è il guerriero.</l>
+<l>Voglio scolparmi a chi m'intenda; voglio</l>
+<l>Che il mondo ascolti le difese, e veggia...</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="I">Passato è il tempo di voler.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Qui dunque</l>
+<l part="I">Mi si fa forza? Le mie guardie!</l>
+</lg>
+<stage>(alzando la voce fa per uscire).</stage>
+     </sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Sono</l>
+<l part="I">Lunge di qui — Soldati! —</l>
+      </lg>
+<stage>(entrano genti armate).</stage>
+<lg><l part="F">Eccovi ormai</l>
+<l part="I">Le vostre guardie.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="M">Or son tradito!</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Un saggio</l>
+<l>Pensier fu dunque il rimandarle: a torto</l>
+<l>Non si stimò che, in suo tramar sorpreso,</l>
+<l>Farsi ribelle un traditor potria.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Anche un ribelle, sì: come v'aggrada</l>
+<l part="I">Omai potete favellar.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">Sia tratto</l>
+<l part="I">Al tribunal segreto.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Un breve istante</l>
+<l>Udite in pria. Voi risolveste, il vedo,</l>
+<l>La morte mia; ma risolvete insieme</l>
+<l>La vostra infamia eterna. Oltre l'antico</l>
+<l>Confin l'insegna del Leon si spiega</l>
+<l>Su quelle torri, ove all'Europa è noto</l>
+<l>Ch'io la piantai. Qui tacerassi, è vero;</l>
+<l>Ma intorno a voi, dove non giunge il muto</l>
+<l>Terror del vostro impero, ivi librato,</l>
+<l>Ivi in note indelebili fia scritto</l>
+<l>Il benefizio e la mercé. Pensate</l>
+<l>Ai vostri annali, all'avvenir. Fra poco</l>
+<l>Il dì verrà che d'un guerriero ancora</l>
+<l>Uopo vi sia: — chi vorrà farsi il vostro?</l>
+<l>Voi provocate la milizia. Or sono</l>
+<l>In vostra forza, è ver; ma vi sovvenga</l>
+<l>Ch'io non vi nacqui, che tra gente io nacqui</l>
+<l>Belligera, concorde, usa gran tempo</l>
+<l>A guardar come sua questa qualunque</l>
+<l>Gloria d'un suo concittadin: non fia</l>
+<l>Che straniera all'oltraggio ella si tenga.</l>
+<l>Qui v'è un inganno: a ciò vi trasse un qualche</l>
+<l>Vostro nemico e mio: voi non credete</l>
+<l part="I">Ch'io vi tradissi. È tempo ancora.</l>
+</lg></sp>
+
+<sp><speaker>IL DOGE</speaker>
+<lg>
+<l part="F">È tardi.</l>
+<l>Quando il delitto meditaste, e baldo</l>
+<l>Affrontavate chi dovea punirlo,</l>
+<l part="I">Tempo era allor d'antiveggenza.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Indegno.</l>
+<l>Tu forse osasti di pensar che un prode</l>
+<l>Pe' giorni suoi tremava. Ah! tu vedrai</l>
+<l>Come si muor. Va; quando l'ultim'ora</l>
+<l>Ti coglierà sul vil tuo letto, incontro</l>
+<l>Non le starai con quella fronte al certo,</l>
+<l>Che a questa infame, a cui mi traggi, io reco.</l></lg>
+<stage><emph>(parte il Conte fra le genti armate)</emph>.</stage>
+</sp>
+</div2>
+
+
+<div2 type="scena">
+<head>SCENA II</head>
+
+<stage><emph>Casa del Conte</emph>.</stage>
+<stage>ANTONIETTA, <emph>e</emph> MATILDE</stage>
+
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l>Ecco l'aurora; e il padre ancor non giunge.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Ah! tu nol sai per prova: i lieti eventi</l>
+<l>Tardi, aspettati giungono, e non sempre.</l>
+<l>Presta soltanto è la sventura, o figlia:</l>
+<l>Intraveduta appena, ella ci è sopra.</l>
+<l>Ma la notte passò: l'ore penose</l>
+<l>Del desio più non son: tra pochi istanti</l>
+<l>Quella del gaudio suonerà. Non puote</l>
+<l>Ei più tardar; — da questo indugio io prendo</l>
+<l>Un fausto augurio: il consultar sì a lungo</l>
+<l>Tratto non han, che per fermar la pace.</l>
+<l part="I">Ei sarà nostro e per gran tempo.</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="F">O madre,</l>
+<l>Anch'io lo spero. Assai di notti in pianto,</l>
+<l>E di giorni in sospetto abbiam passati.</l>
+<l>È tempo ormai che, ad ogni istante, ad ogni</l>
+<l>Novella, ad ogni susurrar del volgo</l>
+<l>Più non si tremi, e all'alma combattuta</l>
+<l>Quell'orrendo pensier più non ritorni:</l>
+<l>Forse colui che sospirate, or muore.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Oh rio pensier! ma almen per ora è lunge.</l>
+<l>Figlia, ogni gioja col dolor si compra.</l>
+<l>Non ti sovvien quel dì che il tuo gran padre</l>
+<l>Tratto in trionfo, tra i più grandi accolto,</l>
+<l>Portò l'insegne de' nemici al tempio?</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="I">Oh giorno!</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Ognun parea minor di lui;</l>
+<l>L'aria sonava del suo nome; e noi</l>
+<l>Scevre dal volgo, in alto loco intanto</l>
+<l>Contemplavam quell'uno in cui rivolti</l>
+<l>Eran tutti gli sguardi: inebbriato</l>
+<l>Il cor tremava, e ripetea: siam sue,</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="I">Felici istanti!</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Che avevam noi fatto</l>
+<l>Per meritarli? A questa gioia il cielo</l>
+<l>Ci trascelse fra mille. — Il ciel ti scelse,</l>
+<l>Il ciel ti scrisse un sì gran nome in fronte...</l>
+<l>Tal don ti fece, che a chiunque il rechi,</l>
+<l>Ne andrà superbo. A quanta invidia è segno</l>
+<l>La nostra sorte! E noi dobbiam scontarla</l>
+<l part="I">Con queste angosce.</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="F">Ah! son finite... ascolta;</l>
+<l>Odo un batter di remi... ei cresce... ei cessa...</l>
+<l>Si spalancan le porte... ah! certo ei giunge:</l>
+<l>O madre, io vedo un'armatura; è lui.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Chi mai saria s'egli non fosse? ... O sposo..</l>
+</lg>
+<stage><emph>(va verso la scena)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA III </head>
+
+<stage>GONZAGA, <emph>e dette</emph>.</stage>
+
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Gonzaga! ... ov'è il mio sposo? ov'è? ... Ma voi</l>
+<l>Non rispondete? Oh cielo! il vostro aspetto</l>
+<l part="I">Annunzia una sventura.</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Ah che pur troppo</l>
+<l part="I">Annunzia il vero!</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="M">A chi sventura?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">O donne!</l>
+<l>Perché un incarco sì crudel m'è imposto?</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Ah! voi volete esser pietoso, e siete</l>
+<l>Crudel: tremar più non ci fate. In nome</l>
+<l part="I">Di Dio, parlate; ov'è il mio sposo?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Il cielo</l>
+<l>Vi dia la forza d'ascoltarmi. Il Conte...</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="I">Forse è tornato al campo?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Ah! più non torna!</l>
+<l>Egli è in disgrazia de' Signori; è preso.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="I">Egli preso! perché?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Gli danno accusa</l>
+<l part="I">Di tradimento.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="M">Ei traditore?</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="F">Oh padre!</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Or via, seguite: preparate al tutto</l>
+<l part="I">Siam noi: che gli faran?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Dal labbro mio</l>
+<l part="I">Voi non l'udrete.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="M">Ahi l'hanno ucciso!</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Ei vive;</l>
+<l part="I">Ma la sentenza è proferita.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Ei vive?</l>
+<l>Non pianger, figlia, or che d'oprare è il tempo.</l>
+<l>Gonzaga, per pietà, non vi stancate</l>
+<l>Della nostra sventura; il ciel v'affida</l>
+<l>Due derelitte: — Ei v'era amico: — andiamo,</l>
+<l>Siateci scorta ai giudici. Vien meco,</l>
+<l>Poverella innocente: oh! vieni — in terra</l>
+<l>C'è ancor pietà — son sposi e padri anch'essi.</l>
+<l>Mentre scrivean l'empia sentenza, in mente</l>
+<l>Non venne lor ch'egli era sposo e padre. —</l>
+<l>Quando vedran di che dolor cagione</l>
+<l>È una parola di lor bocca uscita,</l>
+<l>Ne fremeranno anch'essi; ah! non potranno</l>
+<l>Non rivocarla: del dolor l'aspetto</l>
+<l>È terribile all'uom. — Forse scusarsi</l>
+<l>Quel prode non degnò, rammentar loro</l>
+<l>Quel che per essi oprò; noi rammentarlo</l>
+<l>Sapremo. Ah! certo ei non pregò; ma noi,</l>
+<l part="I">Noi pregheremo.</l>
+</lg>
+<stage><emph>(in atto di partire).</emph></stage></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="F">Oh ciel, perché non posso</l>
+<l>Lasciarvi almen questa speranza! A preghi</l>
+<l>Loco non v'è; qui i giudici son sordi,</l>
+<l>Implacabili — ignoti: il fulmin piomba,</l>
+<l>La man che il vibra è nelle nubi ascosa.</l>
+<l>Solo un conforto v'è concesso, il tristo</l>
+<l>Conforto di vederlo, ed io vel reco.</l>
+<l>Ma il tempo incalza. Fate cor; tremenda</l>
+<l>È la prova; ma il Dio degl'infelici</l>
+<l part="I">Sarà con voi.</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="M">Non v'è speranza?</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Oh figlia!</l>
+</lg>
+<stage><emph>(partono)</emph>.</stage></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA IV</head>
+
+<stage><emph>Prigione</emph>.</stage>
+
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>A quest'ora il sapranno.— Oh perché almeno</l>
+<l>Lunge da lor non muojo! Orrendo, è vero,</l>
+<l>Lor giungeria l'annunzio; ma varcata</l>
+<l>L'ora solenne del dolor saria; —</l>
+<l>E adesso innanzi ella ci sta: bisogna</l>
+<l>Gustarla a sorsi, e insieme. — O campi aperti!</l>
+<l>O Sol diffuso! o strepito dell'armi!</l>
+<l>O gioja de' perigli! o trombe! o grida</l>
+<l>Dei combattenti! o mio destrier! Fra voi</l>
+<l>Era bello il morir. — Ma — ripugnante</l>
+<l>Vo dunque incontro al mio destin, forzato,</l>
+<l>Siccome un reo, spargendo in sulla via</l>
+<l>Voti impotenti e misere querele? —</l>
+<l>E Marco, anch'ei m'avria tradito! Oh vile</l>
+<l>Sospetto! oh dubbio! oh potess'io deporlo</l>
+<l>Pria di morir! — Ma no — che val di nuovo</l>
+<l>Affacciarsi alla vita, e indietro ancora</l>
+<l>Volgere il guardo ove non lice il passo? —</l>
+<l>E tu, Filippo, ne godrai! — Che importa?</l>
+<l>Io le provai quest'empie gioie anch'io:</l>
+<l>Quel che vagliano or so. — Ma rivederle!</l>
+<l>Ma i lor gemiti udir! l'ultimo addio</l>
+<l>Da quelle voci udir! tra quelle braccia</l>
+<l>Ritrovarmi, e staccarmene per sempre!</l>
+<l>Eccole! O Dio, manda dal ciel sovr'esse</l>
+<l part="I">Un guardo di pietà.</l>
+</lg></sp></div2>
+
+
+<div2 type="scena">
+<head>SCENA V </head>
+
+<stage>ANTONIETTA, MATILDE, GONZAGA, <emph>e il</emph> CONTE.</stage>
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="M">Mio sposo! ...</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="F">Oh padre!</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l>Così ritorni a noi? Questo è il momento</l>
+<l part="I">Bramato tanto? ...</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">O misere, sa il cielo</l>
+<l>Che per voi sole ei m'è tremendo. Avvezzo</l>
+<l>Io son da lungo a contemplar la morte,</l>
+<l>E ad aspettarla. Ah! sol per voi bisogno</l>
+<l>Ho di coraggio; e voi — voi non vorrete</l>
+<l>Tormelo, è vero? Allor che Dio sui boni</l>
+<l>Fa cader la sciagura, ei dona ancora</l>
+<l>Il cor di sostenerla. Ah! pari il vostro</l>
+<l>Alla sciagura or sia. Godiam di questo</l>
+<l>Abbracciamento: è un don del cielo anch'esso.</l>
+<l>Figlia, tu piangi! e tu, consorte! ... Ah! quando</l>
+<l>Ti feci mia, sereni i giorni tuoi</l>
+<l>Scorreano in pace; — io ti chiamai compagna</l>
+<l>Del mio tristo destin: questo pensiero</l>
+<l>Mi avvelena il morir. Deh ch'io non veda</l>
+<l part="I">Quanto per me sei sventurata!</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">O sposo</l>
+<l>De' miei bei dì, tu che li festi; il core</l>
+<l>Vedimi; io muojo di dolor; ma pure</l>
+<l>Bramar non posso di non esser tua.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Sposa, il sapea quel che in te perdo — ed ora</l>
+<l part="I">Non far che troppo il senta.</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="F">Oh gli omicidi!</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>No, mia dolce Matilde; il tristo grido</l>
+<l>Della vendetta e del rancor non sorga</l>
+<l>Dall'innocente animo tuo, non turbi</l>
+<l>Quest'istanti: — son sacri. È grande il torto;</l>
+<l>Ma perdona, e vedrai che in mezzo ai mali</l>
+<l>Un'alta gioia anco riman. — La morte!</l>
+<l>Il più crudel nemico altro non puote</l>
+<l>Che accelerarla. — Oh! gli uomini non hanno</l>
+<l>Inventata la morte: ella saria</l>
+<l>Rabbiosa, insopportabile: — dal cielo</l>
+<l>Ella ne viene; e l'accompagna il cielo</l>
+<l>Con tal conforto, che né dar né torre</l>
+<l>Gli uomini ponno. O sposa, o figlia, udite</l>
+<l>Le mie parole estreme: amare, il vedo,</l>
+<l>Vi piombano sul cor; ma un giorno avrete</l>
+<l>Qualche dolcezza a rammentarle insieme. —</l>
+<l>Tu, sposa, vivi — il dolor vinci, e vivi;</l>
+<l>Questa infelice orba non sia del tutto.</l>
+<l>Fuggi da questa terra, e tosto ai tuoi</l>
+<l>La riconduci — ella è lor sangue — ad essi</l>
+<l>Fosti sì cara un dì: — consorte poi</l>
+<l>Del lor nemico, il fosti men; le crude</l>
+<l>Ire di Stato avversi fean gran tempo</l>
+<l>De' Carmagnola e de' Visconti il nome. —</l>
+<l>Ma tu riedi infelice; il tristo oggetto</l>
+<l>Dell'odio è tolto: — è un gran pacier la morte.</l>
+<l>E tu, tenero fior, tu che fra l'armi</l>
+<l>A rallegrare il mio pensier venivi, —</l>
+<l>Tu chini il capo: — oh! la tempesta rugge</l>
+<l>Sopra di te — tu tremi, ed al singulto</l>
+<l>Più non regge il tuo sen — sento sul petto</l>
+<l>Le tue infocate lagrime cadermi;</l>
+<l>E tergerle non posso: — a me tu sembri</l>
+<l>Chieder pietà, Matilde: ah! nulla il padre</l>
+<l>Può far per te: — ma pei diserti in cielo</l>
+<l>C'è un Padre, il sai. — Confida in esso, e vivi</l>
+<l>A dì tranquilli se non lieti: ei certo</l>
+<l>Te li destina. Ah! perché mai versato</l>
+<l>Tutto il torrente dell'angoscia avria</l>
+<l>Sul tuo mattin, se non serbasse al resto</l>
+<l>Tutta la sua pietà? — Vivi, e consola</l>
+<l>Questa dolente madre. — Oh ch'ella un giorno</l>
+<l>A un degno sposo ti conduca in braccio! —</l>
+<l>Gonzaga, io t'offro questa man che spesso</l>
+<l>Stringesti il dì della battaglia, e quando</l>
+<l>Dubbj eravam di rivederci a sera.</l>
+<l>Vuoi tu stringerla ancora, e la tua fede</l>
+<l>Darmi che scorta e difensor sarai</l>
+<l>Di queste donne, fin che sian rendute</l>
+<l part="I">Ai lor congiunti?</l>
+</lg></sp>
+
+<sp><speaker>GONZAGA</speaker>
+<lg>
+<l part="M">Io tel prometto.</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Or sono</l>
+<l>Contento. E quindi, se tu riedi al campo,</l>
+<l>Saluta i miei fratelli, e dì lor ch'io</l>
+<l>Muojo innocente: testimon tu fosti</l>
+<l>Dell'opre mie, de' miei pensieri, — e il sai.</l>
+<l>Di' lor che il brando io non macchiai con l'onta</l>
+<l>D'un tradimento — io nol macchiai: — son io</l>
+<l>Tradito. — E quando squilleran le trombe,</l>
+<l>Quando l'insegne agiteransi al vento,</l>
+<l>Dona un pensiero al tuo compagno antico.</l>
+<l>E il dì che segue la battaglia, quando</l>
+<l>Sul campo della strage il sacerdote,</l>
+<l>Tra il suon lugubre, alzi le palme, offrendo</l>
+<l>Il sacrifizio per gli estinti al cielo,</l>
+<l>Ricordivi di me, che anch'io credea</l>
+<l part="I">Morir sul campo.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Oh Dio, pietà di noi!</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>Sposa, Matilde, ormai vicina è l'ora;</l>
+<l part="I">Convien lasciarci — addio.</l>
+</lg></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="M">No, padre...</l>
+</lg></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l part="F">Ancora</l>
+<l>Una volta venite a questo seno;</l>
+<l part="I">E per pietà partite.</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Ah no! dovranno</l>
+<l part="I">Staccarci a forza.</l>
+</lg>
+<stage><emph>(si ode uno strepito di armati)</emph>.</stage></sp>
+
+<sp><speaker>MATILDE</speaker>
+<lg>
+<l part="M">Oh qual fragor!</l>
+</lg></sp>
+
+<sp><speaker>ANTONIETTA</speaker>
+<lg>
+<l part="F">Gran Dio!</l>
+</lg>
+<stage><p><emph>(si apre la porta di mezzo, e si affacciano genti armate;</emph></p>
+<p><emph> il capo di esse si avanza verso il Conte: le due donne cadono svenute)</emph>.</p></stage></sp>
+
+<sp><speaker>IL CONTE</speaker>
+<lg>
+<l>O Dio pietoso, tu le involi a questo</l>
+<l>Crudel momento; io ti ringrazio. — Amico,</l>
+<l>Tu le soccorri, a questo infausto loco</l>
+<l>Le togli; e quando rivedran la luce</l>
+<l>Dì lor — che nulla da temer più resta.</l>
+</lg></sp>
+
+<trailer><emph>FINE</emph></trailer>
+</div2></div1>
+</body>
+</text>
+</TEI.2>

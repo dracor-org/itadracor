@@ -1,0 +1,2410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>La congiura de' Pazzi</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>100 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000579</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Oreste ; Rosmunda ; Ottavia ; Timoleone ; Merope ; Maria Stuarda ; La congiura de'Pazzi</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>ALL'AMICO DEL CUORE, FRANCESCO GORI GANDELLINI, CITTADINO SANESE, MORTO.</salute></opener>
+	<p>Ombra diletta e adorata del migliore, del solo verace e caldo amico ch'io avessi, e sia per avere giammai; a te dedico questa tragedia, meno assai mia, che tua; poiché null'altro contiene, che la quintessenza (debolmente forse espressa, ma vera) del tuo forte e sublime pensare. Destinata a te vivo, non osai pur dedicartela, perché a delitto ti potea essere apposto il riceverla. Alla felice ombra tua, che me nel pianto lasciando, di tutti i lievi mondani sdegni si ride, securamente or dunque la intitolo.</p>
+	<closer><dateline>Parigi, a dì 20 Decembre 1787</dateline>
+<signed>VITTORIO ALFIERI</signed>
+</closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+
+<castItem type="role"><role>LORENZO</role></castItem>
+<castItem type="role"><role>GIULIANO</role></castItem>
+<castItem type="role"><role>BIANCA</role></castItem>
+<castItem type="role"><role>GUGLIELMO</role></castItem>
+<castItem type="role"><role>RAIMONDO</role></castItem>
+<castItem type="role"><role>SALVIATI</role></castItem>
+<castItem type="role"><role>Uomini d'arme</role></castItem>
+</castList>
+<set>
+    <p><emph>Scena, il palazzo della signoria in Firenze</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>GUGLIELMO, RAIMONDO</stage>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Soffrire, ognor soffrire? altro consiglio</l>
+<l>darmi, o padre, non sai? Ti sei tu fatto</l>
+<l>schiavo or così, che del medìceo giogo</l>
+<l>non senti il peso, e i gravi oltraggi, e il danno?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Tutto appien sento, o figlio; e assai più sento</l>
+<l>il comun danno, che i privati oltraggi.</l>
+<l>Ma pur, che far degg'io? ridotti a tale</l>
+<l>ha il parteggiare i cittadin di Flora,</l>
+<l>ch'ogni moto il più lieve, a noi funesto,</l>
+<l>fia propizio ai tiranni. Infermo stato,</l>
+<l>cangiar nol puoi (pur troppo è ver!) che in peggio.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Dimmi, deh! dove ora è lo stato? o se havvi,</l>
+<l>come peggior si fa? Viviam noi forse?</l>
+<l>Vivon costor, che di paura pieni,</l>
+<l>e di sospetto, e di viltà, lor giorni</l>
+<l>stentati e infami traggono? Qual danno</l>
+<l>nascere omai ne può? che in vece forse</l>
+<l>del vergognoso inefficace pianto,</l>
+<l>ora il sangue si spanda? E che? tu chiami</l>
+<l>un tal danno il peggior? tu, che gli antichi</l>
+<l>tempi, ben mille volte, a me fanciullo</l>
+<l>con nobil gioia rimembravi, e i nostri</l>
+<l>deplorando, piangevi; al giogo, al pari</l>
+<l>d'ogni uom del volgo, or la cervice inchini?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Tempo già fu, nol niego, ov'io pien d'ira,</l>
+<l>d'insofferenza, e d'alti spirti, avrei</l>
+<l>posto in non cal ricchezze, onori, e vita,</l>
+<l>per abbassar nuovi tiranni insorti</l>
+<l>su la comun rovina: al giovenile</l>
+<l>bollor tutto par lieve; e tale io m'era.</l>
+<l>Ma, il trovar pochi, o mal fedeli amici</l>
+<l>ai gran disegni; e il vie più sempre salda</l>
+<l>d'uno in altr'anno veder radicarsi</l>
+<l>la tirannide fera; e l'esser padre;</l>
+<l>tutto volger mi fea pensiero ad arti,</l>
+<l>men grandi, ma più certe. Io de' tiranni</l>
+<l>stato sarei debol nemico, e invano:</l>
+<l>quindi men fea congiunto. Allor ti diedi</l>
+<l>la lor sorella in sposa. Omai securi</l>
+<l>di libertà più non viveasi all'ombra;</l>
+<l>quindi te volli, e i tuoi venturi figli,</l>
+<l>sotto le audaci spaziose penne</l>
+<l>delle tiranniche ali in salvo porre.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Schermo infame, e mal certo. A me non duole</l>
+<l>Bianca, abbenché sia dei tiranni suora;</l>
+<l>cara la tengo, e i figli ch'ella diemmi,</l>
+<l>benché nipoti dei tiranni, ho cari.</l>
+<l>Non dei fratelli la consorte incolpo;</l>
+<l>te solo incolpo, o padre, di aver misto</l>
+<l>al loro sangue il nostro. Io non ti volli</l>
+<l>disobbedire in ciò: ma, vedi or frutto</l>
+<l>di tal viltà: possanza e onor sperasti</l>
+<l>cor da tal nodo; e infamia e oltraggi e scherno</l>
+<l>ne abbiam noi colto. Il cittadin ci abborre,</l>
+<l>e a dritto il fa; siamo al tiranno affini:</l>
+<l>non ci odian più, ci sprezzano i tiranni;</l>
+<l>e il mertiam noi, che cittadin non fummo.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Sprone ad eccelso oprar, non fren mi avresti,</l>
+<l>in altra terra, o figlio. Or, quanto costi</l>
+<l>al mio non basso cor premer lo sdegno,</l>
+<l>e colorirlo d'amistà mendace,</l>
+<l>tu per te stesso il pensa. È ver, ch'io scorsi</l>
+<l>d'impaziente libertade i semi</l>
+<l>fin dall'infanzia in te: talor, nol niego,</l>
+<l>io men compiacqui; ma più spesso assai</l>
+<l>piansi fra me, nel poi vederti un'alma</l>
+<l>libera ed alta troppo. Indi mi parve,</l>
+<l>che a rattemprare il tuo bollor, non poco</l>
+<l>atta sarebbe la somma dolcezza</l>
+<l>di Bianca: al fin padre tu fosti; e il sei,</l>
+<l>come il son io pur troppo... Ah! così stato</l>
+<l>nol fossi io mai! visto per lei mi avrebbe</l>
+<l>la mia patria morire, o in un con essa.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>E, dove l'esser padre esser fa servo,</l>
+<l part="I">farmi padre tu osavi?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Era per anco</l>
+<l part="I">dubbio allora il servaggio...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Era men dubbia</l>
+<l part="I">la viltà nostra allora...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">È ver; sperai,</l>
+<l>che tardo essendo ogni rimedio e vano</l>
+<l>al comun danno omai, tu fra gli affetti</l>
+<l>di marito e di padre, il viver queto...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Ma, se pur nato da null'altro io fossi,</l>
+<l>marito qui securamente e padre,</l>
+<l>uomo esser può? Non nacqui io certo a queste</l>
+<l>vane insegne d'inutil magistrato,</l>
+<l>che fan parer, chi l'ultim'è, primiero.</l>
+<l>Oggi han perciò forse i tiranni impreso</l>
+<l>di torle a me: tanto più vili insegne,</l>
+<l>che a simulata libertà son manto.</l>
+<l>Fu il vestirmele infamia; e infamia al pari</l>
+<l>lo spogliarmele or fia: mira destino.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Fama ne corre, anch'io l'udii; ma pure</l>
+<l part="I">nol credo io, no...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Perché nol credi? Oltraggi</l>
+<l>non ci fero più gravi? I tolti averi</l>
+<l>più non rammenti, e le mutate leggi,</l>
+<l>sol per ferirne? Ingiuriati fummo</l>
+<l>noi vie più sempre, da che a lor congiunti</l>
+<l part="I">noi vilmente ci femmo.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Odimi, o figlio:</l>
+<l>ed al bianco mio crine, ed alla lunga</l>
+<l>esperienza or credi. Il giusto fiele,</l>
+<l>che serbo forse anch'io nel cor profondo,</l>
+<l>non lo sparger tu invano: ancor ben puossi</l>
+<l>soffrire: e mai non credo abbianti a torre</l>
+<l>donato onor, qual sia. — Ma, se ogni meta</l>
+<l>essi pur varcan, taci: all'opre è tolto</l>
+<l>dalle minacce il loco. Alta vendetta,</l>
+<l>d'alto silenzio è figlia. A te dan norma,</l>
+<l>come odiar si debba, i blandi aspetti</l>
+<l>de' tiranni con noi. Per ora, o figlio,</l>
+<l>io soltanto a soffrir ti esorto e insegno...</l>
+<l>Non sdegnerò, se poi fia d'uopo un giorno,</l>
+<l>da te imparar, come ferir si debba.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>RAIMONDO</stage>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>... Non oso in lui fidarmi... A queste rive</l>
+<l>torni Salviati pria. — De' miei disegni</l>
+<l>nulla il padre penètra: ei non sa, ch'oggi,</l>
+<l>più che placargli, inacerbir mi giova</l>
+<l>questi oppressori. — Ahi padre! a me tu mastro</l>
+<l>or del soffrir ti fai? Se' tu quel desso,</l>
+<l>di cui non ebbe il difensor più ardente</l>
+<l>la patria un dì? Quanto in servir fa dotto</l>
+<l>la gelida vecchiezza! — Ah! se null'altro,</l>
+<l>che tremare, obbedir, soffrir, tacersi,</l>
+<l>col più viver s'impara; acerba morte,</l>
+<l>pria che apparar arte sì infame, io scelgo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>BIANCA, RAIMONDO</stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Sposo, al fin ti ritrovo. Ah! con chi stai,</l>
+<l part="I">s'anco me sfuggi?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Io favellai qui a lungo</l>
+<l>dianzi col padre: ma non ho pur quindi</l>
+<l part="I">tratto sollievo a' mali miei.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Buon padre,</l>
+<l>sovra ogni cosa, egli è: per sé non trema;</l>
+<l>sol pe' suoi figli ei trema. In petto l'ira,</l>
+<l>per noi, raffrena il generoso vecchio:</l>
+<l>non creder, no, spento il valor, né doma</l>
+<l>la sua fierezza in lui: ch'io tel ridica,</l>
+<l part="I">deh! soffri; egli è buon padre.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Oh! dirmi forse</l>
+<l>vuoi tu, ch'io tal non sono? Il sai, se nulla</l>
+<l>valse a frenar mio sdegno, ognor tuoi prieghi</l>
+<l>valsero, o Bianca, a ciò; tuoi soli prieghi,</l>
+<l>l'amor tuo casto, e il tuo materno pianto.</l>
+<l>Dolce compagna io t'estimai, non suora</l>
+<l>de' miei nemici... Ma, ti par fors'oggi,</l>
+<l>ch'io tacer debba ancora? oggi, che tolta,</l>
+<l>senza ragion, stammi per esser questa</l>
+<l>mia popolare dignità? che in bando</l>
+<l>irne dovrem da questo ostel, già sacro</l>
+<l>di libertade pubblica ricetto?</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Possenti sono; a che inasprir co' detti</l>
+<l>chi non risponde, ed opra? Assai può meglio,</l>
+<l>che tue minacce, il tuo tacer placarli.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>E placarli vogl'io?... — Ma, nulla vale</l>
+<l part="I">a placargli oramai...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Nulla? d'un sangue</l>
+<l part="I">non io con loro?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Il so; duolmene; taci;</l>
+<l part="I">nol rimembrare.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">E che? men caro forse</l>
+<l>mi fosti, o sei, perciò? Non sono io presta,</l>
+<l>ove soffrir gl'imperi lor non vogli,</l>
+<l>a seguirti dovunque? o, se l'altera</l>
+<l>alma tua non disdegna aver di pace</l>
+<l>stromento in me, son io per te men presta</l>
+<l>a favellar, pianger, pregare, ed anco</l>
+<l>a far, se il deggio, a' miei fratelli forza?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Per me pregare? e chi pregar? tiranni? —</l>
+<l>tu il pensi, o donna? e ch'io il consenta, speri?</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Possanza hai tu, ricchezze, armi, seguaci,</l>
+<l>onde a lor far tu apertamente fronte?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Pari a lor odio, in petto io l'odio nutro;</l>
+<l part="I">maggior d'assai l'ardire.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Oimè! che parli?</l>
+<l>tenteresti tu forse?... Ah! perder puoi</l>
+<l>e padre, e moglie, e figli, e onore, e vita...</l>
+<l>e che acquistar puoi tu? Lusinga in core</l>
+<l>non accogliere omai: desio verace</l>
+<l>di prisca intera libertà non entra</l>
+<l>in questo popol vile: a me tu il credi.</l>
+<l>Credi a me; nata, ed allevata io in grembo</l>
+<l>di nascente tirannide, i sostegni</l>
+<l>io ne so tutti. A mille a mille i servi</l>
+<l>tu troverai, nel lor parlar feroci,</l>
+<l>vili all'oprar, nulli al periglio; od atti</l>
+<l>solo a tradirti. Io, snaturata e cruda</l>
+<l>tanto non son, che i miei fratelli abborra;</l>
+<l>ma gli ho men cari assai, da che li veggo</l>
+<l>a te sì duri; e i lor superbi modi</l>
+<l>spiaccionmi assai. Se alla funesta scelta</l>
+<l>fra loro e te mi sforzi; a te son moglie,</l>
+<l>per te son madre, oppresso sei; non posso,</l>
+<l>né vacillar degg'io. Ma tu, per ora,</l>
+<l>deh! non risolver nulla: a me la impresa</l>
+<l>di farti almen, se lieto no, securo,</l>
+<l>lasciala a me; ch'io 'l tenti almen. Io forse</l>
+<l>appien non so, come a tiranno debba</l>
+<l>di un cittadino favellar la sposa?</l>
+<l>fors'io non so, fin dove alle non lievi</l>
+<l>ragioni unir non bassi preghi io possa?</l>
+<l>Son madre, e moglie, e suora; in chi ti affidi,</l>
+<l part="I">se in me non fidi?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Oh cielo! il parlar tuo</l>
+<l>mi accora, o donna. Anch'io pace vorrei;</l>
+<l>ma, con infamia, no. Che dir potresti</l>
+<l>per me ai fratelli? ch'io non merto oltraggi?</l>
+<l>Ben essi il san; quindi mi oltraggian essi:</l>
+<l>ch'io non soffro le ingiurie? a che far noto</l>
+<l>ciò che dal sol mio labro saper denno?</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Ah!... Se a loro tu parli,... oimè!...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Che temi?</l>
+<l>Cangiarmi, è vero, io l'alma omai non posso;</l>
+<l>ma so tacer, se il voglio. In mente ho sempre</l>
+<l>te, Bianca amata, e i figli miei: s'io nacqui</l>
+<l>impetuoso, intollerante, audace,</l>
+<l>non perciò mai motto né cenno a caso</l>
+<l part="I">io fo: ti acqueta; anch'io vo' pace.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Eppure</l>
+<l>ti leggo in volto da fera tempesta</l>
+<l>sbattuto il core... Ah! non vegg'io forieri</l>
+<l part="I">di pace in te.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Lieto non son; ma crudi</l>
+<l part="I">disegni in me non sospettare.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Io tremo;</l>
+<l part="I">né so perché...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="M">Perché tu m'ami.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l>e di che amore!... A vera gloria il campo,</l>
+<l>deh, concesso or ti fosse!... Ma, corrotta</l>
+<l>età viviam: gloria è il servir; virtude,</l>
+<l>l'amar se stesso. Or, che vuoi tu? cangiarci</l>
+<l>uom sol non puote; e altr'uom che te, non conti.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="I">Perciò mi rodo, e perciò... taccio.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Or vieni;</l>
+<l>volgiamo altrove il piede: in queste stanze</l>
+<l>porre tal volta il seggio lor son usi</l>
+<l part="I">miei fratelli...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Il so: quest'è il recesso,</l>
+<l>ove l'orecchio a menzognere lodi</l>
+<l>s'apre, ed il core alla pietà si serra.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Vieni or dunque; al velen, ch'ogni tua vena</l>
+<l>infesto scorre, alcun dolce pur mesci.</l>
+<l>Oggi abbracciati i nostri figli ancora</l>
+<l>non hai. Deh! vieni: a te il diranno anch'essi</l>
+<l>con gl'innocenti taciti lor baci,</l>
+<l>meglio ch'io col parlar, che pur sei padre.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Deh, potessi così, com'io rammento</l>
+<l>di padre il nome, oggi obbliar quel d'uomo! —</l>
+<l>Ma, andianne omai. — Se a me sien cari i figli,</l>
+<l>tu il vedrai poscia. — Ah! tu non sai (deh, fia</l>
+<l>che mai nol sappi!) a qual funesta stretta</l>
+<l>traggano i figli un vero padre; e come,</l>
+<l>il troppo amargli a perderli lo tragga.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>GIULIANO, LORENZO</stage>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Fratel, che giova? in me finor credesti:</l>
+<l>a te par forse, che possanza in noi</l>
+<l>scemi o per me? Tu di tener favelli</l>
+<l>uomini a freno: e il son costor? se tali</l>
+<l>fossero, di'; ciò che siam noi, saremmo?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Lorenzo, è ver, benigna stella splende</l>
+<l>finor su noi. Fortuna al crescer nostro</l>
+<l>ebbe gran parte; ma più assai degli avi</l>
+<l>gli alti consigli. Cosmo ebbe lo stato,</l>
+<l>ma sotto aspetto di privato il tenne.</l>
+<l>Non è pur tanto ancor perfetto il giogo,</l>
+<l>che noi tenerlo in principesco aspetto</l>
+<l>possiam securi. Ai più, che son gli stolti,</l>
+<l>di lor perduta libertà le vane</l>
+<l>apparenze lasciamo. Il poter sommo</l>
+<l>più si rafferma, quanto men lo mostri.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Giunti all'apice ancor, Giulian, non siamo:</l>
+<l>tempo è d'ardir, non di pesare. Acchiuse</l>
+<l>già Cosmo in sé la patria tutta, e funne</l>
+<l>gridato padre ad una. O nulla, o poco,</l>
+<l>Pier nostro padre alla tessuta tela</l>
+<l>aggiunse: avverso fato i pochi ed egri</l>
+<l>suoi dì, che al padre ei sopravvisse, tosto</l>
+<l>troncò: poco v'aggiunse, è ver; ma intanto</l>
+<l>ei succedendo a Cosmo, e a Piero noi,</l>
+<l>si ottenne assai nell'avvezzar gli sguardi</l>
+<l>dei cittadini a ereditario dritto.</l>
+<l>Dispersi poscia, affievoliti, o spenti</l>
+<l>nemici ogni dì; sforzati, e avvezzi</l>
+<l>ad obbedir gli amici; or, che omai tutto</l>
+<l>di Cosmo a compier la magnanim'opra</l>
+<l>c'invita, inciampo or ne faria viltade?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Saggi a fin trarla, il dobbiam noi; ma in vista</l>
+<l>moderati ed umani. Ove dolcezza</l>
+<l>basti al bisogno, lentamente dolci;</l>
+<l>e all'uopo ancor, ma parcamente, crudi.</l>
+<l>Fratello, il credi; ad estirpar que' semi</l>
+<l>di libertà, che in cor d'ogni uomo ha posto</l>
+<l>natura, oltre i molti anni, arte e maneggio</l>
+<l>vuolsi adoprar, non poco: il sangue sparso</l>
+<l>non gli estingue, li preme; e assai più feri</l>
+<l part="I">rigermoglian talor dal sangue...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">E il sangue</l>
+<l>di costoro vogl'io? La scure in Roma</l>
+<l>Silla adoprò; ma qui, la verga è troppo:</l>
+<l>a far tremarli, della voce io basto.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Cieca fiducia! Or non sai tu, ch'uom servo</l>
+<l>temer si dee più ch'altro? Inerme Silla</l>
+<l>si fea, né spento era perciò; ma cinti</l>
+<l>di satelliti e d'armi e di sospetto,</l>
+<l>Caio, e Nerone, e Domiziano, e tanti</l>
+<l>altri assoluti imperator di schiavi,</l>
+<l>da lor svenati caddero vilmente. —</l>
+<l>Perché irritar chi già obbedisce? Ottieni</l>
+<l>altrimenti il tuo fine. È ver, del tutto</l>
+<l>liberi mai non fur costor; ma servi</l>
+<l>neppur di un solo. — Intorpidir dei pria</l>
+<l>gli animi loro; il cor snervare affatto;</l>
+<l>ogni dritto pensier svolger con arte;</l>
+<l>spegner virtude (ove pur n'abbia), o farla</l>
+<l>scherno alle genti; i men feroci averti</l>
+<l>tra' famigliari; e i falsamente alteri</l>
+<l>avvilire, onorandoli. Clemenza,</l>
+<l>e patria, e gloria, e leggi, e cittadini</l>
+<l>alto suonar; più d'ogni cosa, uguale</l>
+<l>fingerti a' tuoi minori. — Ecco i gran mezzi,</l>
+<l>onde in ciascun si cangi a poco a poco</l>
+<l>prima il pensar, poi gli usi, indi le leggi;</l>
+<l>il modo poscia di chi regna; e in fine,</l>
+<l>quel che riman solo a cangiarsi, il nome.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Ciò tutto già felicemente in opra</l>
+<l>posero gli avi nostri: alla catena</l>
+<l>se anello manca, or denno esserne il fabro</l>
+<l>dei cittadin le stolte gare istesse.</l>
+<l>Apertamente, in somma, un sol si attenta</l>
+<l>di resisterci, un solo; e temer dessi?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Feroce figlio di mal fido padre,</l>
+<l part="I">da temersi è Raimondo...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Ambo si denno</l>
+<l>schernire, e a ciò mi appresto: è dolce anch'ella</l>
+<l part="I">cotal vendetta...</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="M">E mal sicura.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">In mente,</l>
+<l>tant'è, fermo ho così. Quel giovin fero</l>
+<l>vo' tor di grado; e a suo piacer lasciarlo</l>
+<l>spargere invan sediziosi detti:</l>
+<l>così vedrassi, in che vil conto io 'l tenga.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Nemico offeso, e non ucciso? oh! quale,</l>
+<l>qual di triplice ferro armato petto</l>
+<l>può non tremarne? Ingiuriar debb'egli,</l>
+<l>chi spegner puote? A intorbidar lo stato</l>
+<l>perché così dargli tu stesso, incauto,</l>
+<l>pretesti tanti? instigatore e capo</l>
+<l>farlo così dei mal contenti? E sono</l>
+<l>molti; più assai, che tu non pensi. Aperta</l>
+<l>forza non han? credere il vo': ma il tergo</l>
+<l>dal tradimento, or chi cel guarda? basta</l>
+<l>a ciò il sospetto? a tor quiete ei basta,</l>
+<l part="I">non a dar sicurezza.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Ardir cel guarda:</l>
+<l>ardir, che ai forti è brando, e mente, e scudo.</l>
+<l>Farei, tacendo, a nuove offese invito</l>
+<l>al baldanzoso giovine rubello.</l>
+<l>Ma ingiuriato, e, da chi 'l può, non spento,</l>
+<l>fia ludibrio dei molti a chi il fai capo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>LORENZO, GIULIANO, GUGLIELMO, RAIMONDO</stage>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Sieguimi, o figlio; e ch'io qui sol favelli</l>
+<l>lascia, ten prego. — O voi, (che ancor ben noto</l>
+<l>non m'è qual nome vi si deggia e onore)</l>
+<l>me già implacabil vostro aspro nemico,</l>
+<l>or supplichevol voi mirate in atto.</l>
+<l>Meglio, il so, meglio a mia cadente etade</l>
+<l>liberi detti, e liberissime opre</l>
+<l>si converriano, è ver; né le servili,</l>
+<l>bench'io le adopri, piaccionmi. Ma solo</l>
+<l>non son io del mio sangue; onde, è gran tempo,</l>
+<l>alla fortuna vostra e a ria crudele</l>
+<l>necessità soggiacqui. In voi me poscia,</l>
+<l>la mia vita, il mio aver, l'onore, e i figli,</l>
+<l>tutto affidai; né ad obbedir restìo,</l>
+<l>più ch'altri fui. Ciò che si sparge or dunque,</l>
+<l>creder nol posso; che a oltraggiar Raimondo,</l>
+<l>e in lui me pur d'immeritato oltraggio,</l>
+<l>voi vi apprestiate. Ma, se ciò fia vero,</l>
+<l>chiederne lice a voi ragion pur anco?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Perché al tuo figlio pria ragion non chiedi</l>
+<l part="I">del suo parlar, dell'opre sue?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Non niego</l>
+<l>io di renderla a lui: né più graditi</l>
+<l>testimoni poss'io mai de' miei sensi</l>
+<l part="I">trovar di voi...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Son noti a me i tuoi sensi. —</l>
+<l>Ma, vo' insegnarti, che ad urtar coi forti</l>
+<l>pari vuolsi all'invidia aver l'ardire;</l>
+<l>e, non men pari all'alto ardir, la forza.</l>
+<l part="I">Di'; tal sei tu?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Di nostra stirpe il capo</l>
+<l>finora pur son io; né muover passo</l>
+<l>fia chi s'attenti, ov'io nol muova. Io parlo</l>
+<l>dell'opre. E che? giudici voi già forse</l>
+<l>de' pensieri anco siete? o i vani detti</l>
+<l>son capital delitto? oltre siam tanto? —</l>
+<l>Ma se tal dritto è in voi, perch'uomo impari</l>
+<l>meglio a temer; che siete or voi? vel chieggo.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Che son essi? e tu il chiedi? In suon tremendo</l>
+<l>tacitamente imperiosi e crudi</l>
+<l>non tel dicon lor volti? — Essi son tutto;</l>
+<l part="I">e nulla noi.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="F">Siam delle sacre leggi</l>
+<l>noi l'impavido scudo; a' rei tuoi pari</l>
+<l>fuoco del ciel distruggitor siam noi;</l>
+<l>sole ai buoni benefico ridente.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Tali siam noi da te sprezzare in somma.</l>
+<l>Già un voler nostro il gonfalon ti dava;</l>
+<l>altro nostro voler, più giusto, il toglie.</l>
+<l>D'immeritato onor per noi vestito,</l>
+<l>dimmi, a qual dritto ei ti si diè, chiedesti?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Chi nol sapea? mel dava il timor vostro;</l>
+<l>mel toglie il timor vostro: a voi regale</l>
+<l>norma e Nume, il timore. A voi qual manca</l>
+<l>pregio di re? voi l'arti crude, e i fieri</l>
+<l>vizi, e i raggiri infami, e il public'odio,</l>
+<l>tutto ne avete già. Le generose</l>
+<l>vie degli avi calcate: a piene vele,</l>
+<l>fin che l'aura è seconda, itene, o prodi.</l>
+<l>Non che gli averi, a chi vi spiace tolta</l>
+<l>sia la vita e l'onor: lo sparso sangue</l>
+<l>dritto è sublime al principato, e solo.</l>
+<l>Ardite omai: fatevi pari ai tanti</l>
+<l>tiranni, ond'è la serva Italia infetta...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Figlio, tu il modo eccedi. È ver, che lice,</l>
+<l>finché costor di cittadini il nome</l>
+<l>tratto non s'hanno, a ciascun uomo esporre</l>
+<l part="I">il suo pensier; ma noi...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Tardi sei cauto:</l>
+<l>di frenarlo, in mal punto ora ti avvisi.</l>
+<l>Non ten doler; suoi detti, opra son tua.</l>
+<l>Lascia or ch'ei dica: ognor sta in noi l'udirlo.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Giovine audace, or l'innasprir che giova</l>
+<l>gli animi già non ben disposti? Il meglio</l>
+<l>per te sarà, se tu spontaneo lasci</l>
+<l>il gonfalon, che ad onta nostra invano</l>
+<l part="I">serbar vorresti; il vedi...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Io vil, d'oltraggi</l>
+<l>degno farmi in tal guisa? Odi: queste arti,</l>
+<l>per comandar, ponno adoprarsi forse;</l>
+<l>ma per servir, non mai. S'io ceder debbo,</l>
+<l>ceder voglio alla forza. Onor si acquista</l>
+<l>anco tal volta in soggiacer, se a nulla</l>
+<l>si cede pur, che all'assoluta e cruda</l>
+<l>necessità. — Mi piacque i sensi vostri</l>
+<l>udito aver, come a voi detto i miei.</l>
+<l>Or, nuovi mezzi a violenza nuova</l>
+<l>vedere attendo, e sia che vuole: io 'l giuro;</l>
+<l>esser vo' di tirannide crescente</l>
+<l>vittima sì, ma non stromento io mai.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>LORENZO, GIULIANO, GUGLIELMO</stage>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Va'; se il figlio ti cal, seguilo: ai tempi</l>
+<l>fa' ch'ei meglio si adatti; e a ciò gli giova</l>
+<l>coll'esemplo tuo stesso. Al par di lui</l>
+<l>tu pur ci abborri, e a noi cedesti, e cedi:</l>
+<l>dotto il fa' del tuo senno. Io non pretendo</l>
+<l>amor da voi; mal fingereste; e nulla</l>
+<l>io 'l curo: odiate, ma obbedite; ed anco</l>
+<l>obbedendo, tremate. Or vanne, e narra</l>
+<l>a codesto tuo finto picciol Bruto,</l>
+<l>che il vero Bruto invan con Roma ei cadde.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Incauto è il figlio, il veggio. Eppur di padre</l>
+<l>ognor con lui le sagge parti adopro;</l>
+<l>soffrir gl'insegno; ei non l'impara. Antica</l>
+<l>non è fra noi molto quest'arte ancora:</l>
+<l>degno è di scusa il giovenil fallire;</l>
+<l>si ammenderà. — Ma tu, Giulian, che alquanto</l>
+<l>sei di fortuna e di poter men ebro,</l>
+<l>tu il fratello rattempra: e a lui pur narra,</l>
+<l>che se un Bruto non fea riviver Roma,</l>
+<l>pria di Roma e di Bruto altri pur cadde.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>LORENZO, GIULIANO</stage>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="I">Odi tu come a noi favellan?...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Odo.</l>
+<l>Favellan molto, indi ognor men li temo.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="I">Tramar può ognun...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="M">Pochi eseguir...</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="F">Quell'uno</l>
+<l part="I">esser potria Raimondo.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Anzi, ch'ei sia</l>
+<l>quell'uno, io spero. Io ne conosco appieno</l>
+<l>l'ardir, le forze, i mezzi: ei tentar puote,</l>
+<l>ma riuscir non mai: ch'altro chiegg'io?</l>
+<l>Da lui ne aspetto ad inoltrarmi il cenno.</l>
+<l>Ei tenti; oprerem noi. Poter ne accresce,</l>
+<l>e largo ci apre alla vendetta il campo,</l>
+<l>ogni ardir de' nemici. In tranquilla onda</l>
+<l>poco innante si va: di nostra altezza</l>
+<l>fia il periglio primier l'ultima meta.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Il voler tutto a un tempo, a un tempo spesso</l>
+<l>fea perder tutto. Ogni periglio è dubbio;</l>
+<l>né mai, chi ha regno, de' suoi schiavi in mente</l>
+<l>lasciar cader pur dee, ch'altri il potrebbe</l>
+<l>assalir mai. L'opinion del volgo</l>
+<l>che il nostro petto invulnerabil crede,</l>
+<l>il nostro petto invulnerabil rende.</l>
+<l>Guai, se alla punta del ribelle acciaro</l>
+<l>la via del core anco tralucer lasci;</l>
+<l>giorno vien poscia, ove ei penètra, e strada</l>
+<l>infino all'elsa fassi. Oggi, deh! credi,</l>
+<l>fratello, a me; deh no, non porre a prova</l>
+<l>né il poter nostro, né l'altrui vendetta.</l>
+<l part="I">A me ti arrendi.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Alla ragion mi soglio</l>
+<l>arrender sempre; e di provartel spero. —</l>
+<l>Ma lagrimosa a noi vien Bianca: oh quanto</l>
+<l>mi è duro udir suoi pianti!... e udirgli è forza.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>BIANCA, LORENZO, GIULIANO</stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>E fia vero, o fratelli? a me pur anco,</l>
+<l>essere a me signori aspri vi piace,</l>
+<l>pria che fratelli? Eppur, sì cara io v'era</l>
+<l>già un dì; sorella ognor vi sono; e voi</l>
+<l>a Raimondo mi deste: ed or voi primi</l>
+<l part="I">l'oltraggiate così?</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Nemica tanto,</l>
+<l>Bianca, or sei tu del sangue tuo, che il dritto</l>
+<l>più non discerni? Hai con Raimondo appreso</l>
+<l>ad abborrirci tanto, che omai noto</l>
+<l>il nostro cor più non ti sia? Null'altro</l>
+<l>far vogliam noi, che prevenir gli effetti</l>
+<l>del suo livore. Ad ovviar più danno,</l>
+<l>benigni assai, più ch'ei nol merta, i mezzi</l>
+<l part="I">da noi si adopran; credilo.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Fratelli,</l>
+<l>cari a me siete; ed ei mi è caro: io tutto</l>
+<l>per la pace farei. Ma, perché darmi</l>
+<l>in moglie a lui, se v'era ei già nemico;</l>
+<l>perché oltraggiarlo, se a lui poi mi deste?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Che alla baldanza sua freno saresti</l>
+<l part="I">sperammo noi...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Ma invan: tale è Raimondo,</l>
+<l>da potersi pria spegner che cangiarlo.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Ma voi, que' modi onde si cangia un core</l>
+<l>libero, invitto, usaste voi mai seco?</l>
+<l>Se il non essere amati a voi pur duole,</l>
+<l part="I">chi vel contende, altri che voi?</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Deh! come</l>
+<l>quel traditore ha in te trasfuso intero</l>
+<l>il suo veleno! Egli da noi ribella</l>
+<l>te nostra suora; or, se opreran suoi detti</l>
+<l part="I">in cor d'altrui, tu il pensa.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">A grado io forse</l>
+<l>il regnar vostro avrei, se un uom vedessi</l>
+<l>dalla feroce oppression di tutti</l>
+<l>esente, un solo; e l'un, Raimondo fosse:</l>
+<l>Raimondo, a cui d'indissolubil nodo</l>
+<l>voi mi allacciaste; in cui già da molti anni</l>
+<l>inseparabil vivo, e ingiurie mille</l>
+<l>seco divido e soffro; a cui d'eterna</l>
+<l>fede e d'amor (misera madre!) io diedi</l>
+<l>cara pur troppo e numerosa prole: —</l>
+<l>Raimondo, a cui tutto a donar son presta.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Torgli il suo ufficio, altro non è che il torgli</l>
+<l>di perder sé, più che di offender noi.</l>
+<l>Anzi, tu prima indurlo ora dovresti</l>
+<l part="I">a rinunziarlo...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Ah! ben mi avveggio or come</l>
+<l>per vie diverse ad un sol fin si corra.</l>
+<l>Vittima fui di vostre mire; io il mezzo</l>
+<l>fui, non di pace, d'indugio a vendetta.</l>
+<l>Oh! ben sapeste in un la possa e l'alma</l>
+<l>assumer voi di re. Fra i pari vostri,</l>
+<l>ogni vincol di sangue è tolto a giuoco...</l>
+<l>Ahi lassa me, ch'or me n'avveggo io tardi!</l>
+<l>Perché nol seppi (oimè!) pria d'esser madre?...</l>
+<l>Ma in somma il sono; e sposa, e amante io sono...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Biasmar non posso il tuo dolor;... ma udirlo</l>
+<l>più non possiamo. — Ove il dover ci appella,</l>
+<l>fratello, andianne. — E tu, che in cor tiranni</l>
+<l>reputi noi, non ciò che a lui vien tolto,</l>
+<l>mira ciò ch'ei, nulla mertando, or serba.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>BIANCA</stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>... Ecco i doni di principe; il non torre. —</l>
+<l>Presso a costor vano è il mio pianto: usbergo</l>
+<l>han di adamante al core. Al piè si rieda</l>
+<l>di Raimondo infelice: ei non si sdegna</l>
+<l>almen del pianger mio. Chi sa? più lieve</l>
+<l>forse da lui... Che forse? esser può dubbio?</l>
+<l>Sagrificar pe' figli suoi se stesso</l>
+<l>ogni padre vedrem, pria ch'un sol prence</l>
+<l>sagrificar, non che di suora al pianto,</l>
+<l>di tutti al pianto una sua scarsa voglia.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>RAIMONDO, SALVIATI</stage>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Eccomi: è questo il dì prefisso: io riedo;</l>
+<l>e meco vien quant'io promisi. In armi</l>
+<l>già d'Etruria al confin gente si appressa;</l>
+<l>re Fernando l'assolda, il roman Sisto</l>
+<l>la benedice; a più inoltrarsi, aspetta</l>
+<l>da noi di sangue il cenno. Or dimmi, hai presta</l>
+<l>fra queste mura ogni promessa cosa?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Presto il mio braccio è da gran tempo: ed altri</l>
+<l>ne ho presti, assai: ma, chi ferir, né dove,</l>
+<l>come, o quando, non san; né saper denno.</l>
+<l>Manca a tant'opra il più: l'antico padre,</l>
+<l>Guglielmo, quei che avvalorar l'impresa</l>
+<l>sol può, la ignora: alla vendetta chiuso</l>
+<l>tiene ei l'orecchio; e ancor parlar l'udresti</l>
+<l>di sofferenza. Il mio pensier gli è noto;</l>
+<l>che mal lo ascondo; altro ei non sa: non volli</l>
+<l>della congiura a lui rivelar nulla,</l>
+<l part="I">se tu pria non giungevi.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">Oh! che mi narri?</l>
+<l>nulla Guglielmo sa? Ciò ch'ei pur debbe</l>
+<l>compiere al nuovo sol, ti par ch'ei l'abbia</l>
+<l part="I">ad ignorare, al sol cadente?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">E pensi,</l>
+<l>che un tanto arcano avventurar si deggia?</l>
+<l>che ad uom, (nato feroce, è ver) ma fatto</l>
+<l>debol per gli anni, ad accordar pur s'abbia</l>
+<l>una notte ai pensieri? Oltre a poche ore</l>
+<l>bollor non dura entro alle vuote vene;</l>
+<l>tosto riede prudenza; indi incertezza,</l>
+<l>e lo indugiare, e il vacillare, e il trarre</l>
+<l>gli altri in temenza; e fra i timori e i dubbi</l>
+<l>l'impresa, il tempo si consuma, e l'ira,</l>
+<l>per poi restar con ria vergogna oppressi.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Ma che? non odia ei pur l'orribil giogo?</l>
+<l>non entra a parte dei comuni oltraggi?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Egli odia assai, ma assai più teme; indi erra</l>
+<l>infra sdegno e temenza incerto sempre.</l>
+<l>Or l'ira ei preme, e miglior sorte ei prega,</l>
+<l>e attende, e spera; or, da funesto lampo</l>
+<l>all'alma sua smarrita il ver traluce,</l>
+<l>e il fero incarco de' suoi lacci ei sente;</l>
+<l>ma scuoterlo non osa. Assai pur mosso</l>
+<l>l'ebbe or dianzi l'oltraggio ultimo, ch'io</l>
+<l>volli a ogni costo procacciarmi. Ottenga</l>
+<l>altri l'inutil gonfalon, che tolto</l>
+<l>a me vien oggi. A mel ritorre, io stesso,</l>
+<l>con molti oltraggi replicati, ho spinto</l>
+<l>i tiranni. Suonarne alte querele</l>
+<l>pur fea; dolor della cercata offesa</l>
+<l>grave fingendo. — Or, tempi, e luoghi mira,</l>
+<l>ove a virtù mescer lo inganno è forza! —</l>
+<l>Già, con quest'arti, al mio volere alquanto</l>
+<l>piegai tacitamente il cor del padre.</l>
+<l>Tu giungi al fin: tu il pontificio sdegno,</l>
+<l>del re la possa, e i concertati mezzi,</l>
+<l>tutto esporrai. Qui lo aspettiam; ch'io soglio</l>
+<l part="I">qui favellargli.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">E dei tiranni stanza</l>
+<l part="I">anco talvolta non è questa?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Omai</l>
+<l>starvi securo puoi: già pria di terza</l>
+<l>han mal compiuto qui lor pubblic'opra.</l>
+<l>Del dì l'avanzo, essi in bagordi e in sozza</l>
+<l>gioia il trarran, mentre piangiam noi volgo.</l>
+<l>Perciò venire io qui ti feci; e il padre</l>
+<l>pur v'invitai. Stupore avrà da pria</l>
+<l>nel vederti: l'ardir, la rabbia poscia,</l>
+<l>e l'immutabil fero alto proposto,</l>
+<l>o di dar morte o di morir, ch'è in noi;</l>
+<l>io ciò tutto dirogli: a me si aspetta</l>
+<l>d'infiammarlo. Ma intanto, egli oda a un punto,</l>
+<l>che può farsi, e che fatta è la congiura.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Ben ti avvisi: più t'odo, e più ti stimo</l>
+<l>degno stromento a libertà. Tu nato</l>
+<l>sei difensor, come oppressor son essi.</l>
+<l>Fia di gran peso a indur Guglielmo il sacro</l>
+<l>voler di Roma: in cor senil possenti</l>
+<l>que' pensier primi, che col latte ei bevve,</l>
+<l>son vie più sempre. Ognor dagli avi nostri</l>
+<l>Roma creduta, a suo piacer nefande</l>
+<l>nomò le imprese a lei dannose; e sante,</l>
+<l>quai che si fosser, l'utili. Ci giovi,</l>
+<l>se saggi siam, l'antico error: poich'oggi,</l>
+<l>non com'ei suole, il successor di Piero</l>
+<l>dei tiranni è nemico, oggi ne vaglia,</l>
+<l>pria d'ogni altr'arme, il successor di Piero.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Duolmi, e il dico a te sol; non poco duolmi,</l>
+<l>mezzo usar vile a generosa impresa:</l>
+<l>la via sgombrar di libertà, col nome</l>
+<l>di Roma, or stanza del più rio servaggio:</l>
+<l>eppur, colpa non mia, de' tempi colpa!</l>
+<l>Duolmi altresì, che alla comun vendetta</l>
+<l>far velo io deggio di private offese.</l>
+<l>Di basso sdegno il volgo crederammi</l>
+<l>acceso; ed anco, invidioso forse</l>
+<l>del poter dei tiranni. — O ciel, tu il sai...</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Nulla il braccio ti arresti; in breve poscia</l>
+<l>dalle nostr'opre tratto fia d'inganno</l>
+<l part="I">il volgo stolto.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Ah! mi spaventa, ed empie</l>
+<l>di fera doglia or l'avvenire! Al giogo</l>
+<l>han fatto il callo: il natural lor dritto</l>
+<l>posto in oblio, non san d'esser fra ceppi;</l>
+<l>non che bramar di uscirne. Ai servi pare</l>
+<l>da natura il servir; più forza è d'uopo,</l>
+<l part="I">più che a stringergli, a sciorli.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">Indi più degna</l>
+<l>fia l'impresa di te. Liberi spirti</l>
+<l>tornare in Grecia a libertade, o in Roma,</l>
+<l>laudevol era, e non difficil opra:</l>
+<l>ma vili morti schiavi, a vita a un tempo</l>
+<l>e a libertà tornar, ben fia codesto,</l>
+<l part="I">ben altro ardire.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">È vero: anco il tentarlo,</l>
+<l>fama promette. Ah! così fossi io certo,</l>
+<l>come del braccio e del cor mio, del core</l>
+<l>de' cittadini miei! ma, il sol tiranno</l>
+<l>s'odia, e non la tirannide, dai servi.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>GUGLIELMO, SALVIATI, RAIMONDO</stage>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Tu qui, Salviati? Io ti credea sul Tebro</l>
+<l part="I">tuttor mercando onori.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">Al suol natìo</l>
+<l part="I">cura maggior mi torna.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">E tu mal giungi</l>
+<l>in suol, cui meglio è l'obliar. Qual folle</l>
+<l>pensiero a noi ti guida? In salvo, lunge</l>
+<l>dai tiranni ti stavi, e al carcer torni?</l>
+<l>Or, qual estranea mai lontana terra</l>
+<l>(e selvaggia ed inospita pur sia)</l>
+<l>increscer puote, a chi la propria vede</l>
+<l>schiava di crude ed assolute voglie?</l>
+<l>Ti sia esemplo il mio figlio, se omai dessi</l>
+<l>da medìcei signori attender altro,</l>
+<l>che oltraggi e scorni. Invano, invan ti veste</l>
+<l>Roma del sacro ministero: il solo</l>
+<l>lor supremo volere è omai qui sacro.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Padre, e il sai tu, s'egli or qui venga armato</l>
+<l>di sofferenza, o di men vile usbergo?</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Vengo di fera e d'implacabil ira</l>
+<l>aspro ministro: apportator di certa</l>
+<l>vendetta intera, ancor che tarda, io vengo.</l>
+<l>Dall'infame letargo, in cui sepolti</l>
+<l>tutti giacete, o neghittosi schiavi,</l>
+<l>spero destarvi, or che con me, col mio</l>
+<l>furor, di Sisto il furor santo io reco.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Arme inutile appieno: in noi non manca</l>
+<l>il furor no; forza ne manca; e forza</l>
+<l part="I">or ci abbisogna, o sofferenza.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">E forza</l>
+<l>or abbiam noi, quanta più mai se n'ebbe.</l>
+<l>Io parole non reco. — Odi, che esporti</l>
+<l>mi tocca in brevi e forti detti il tutto.</l>
+<l>V'ha chi m'impon di ritornarti in mente,</l>
+<l>ove tu possa rimembrarla ancora,</l>
+<l>la tua prisca fierezza e i tempi antichi:</l>
+<l>ove no; mi fia d'uopo addurti innanzi</l>
+<l>l'altrui presente e in un la tua viltade.</l>
+<l>S'entro alle vene tue sangue hai che basti</l>
+<l>contr'essa, da noi lungi or non son l'armi:</l>
+<l>già d'Etruria alle porte ondeggia al vento</l>
+<l>roman vessillo; e, assai più saldo aiuto,</l>
+<l>di Ferdinando la regal bandiera,</l>
+<l>cui le migliaia di affilati brandi</l>
+<l>sieguon di pugna impazienti, e presti</l>
+<l>a imprender tutto a un lieve sol tuo cenno.</l>
+<l>Ormai sta in te degli oppressor la vita,</l>
+<l>il tuo onor, quel del figlio, e di noi tutti</l>
+<l>la libertà. Ciò che ottener dal brando,</l>
+<l>ciò che viltà toglier ti puote; i dubbi,</l>
+<l>le speranze, i timori, e l'onte, e i danni,</l>
+<l part="I">tutto ben libra; e al fin risolvi.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Oh! quali</l>
+<l>cose a me narri? Or fé poss'io prestarti?</l>
+<l>Chi tanto ottenne a nostro pro? Finora</l>
+<l>larghi soltanto di promesse vuote,</l>
+<l>lenti amici ne fur Fernando e Sisto:</l>
+<l part="I">or chi li muove? chi?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Tu il chiedi? Hai posto</l>
+<l>dunque in oblio tu già, che al Tebro, e al lito</l>
+<l>di Partenope fui? ch'io v'ebbi stanza</l>
+<l>ben sette lune, e sette? Ove poss'io</l>
+<l>portare il piè, che sdegno e rabbia sempre</l>
+<l>meco non venga? Infra qual gente io trarre</l>
+<l>posso i miei dì, ch'io non le infonda in petto</l>
+<l>l'ira mia tutta; e in un di me, de' miei</l>
+<l>non le inspiri pietade? Omai, chi sordo</l>
+<l>resta ai lamenti miei? — Per onta nostra,</l>
+<l>tu sol rimani, o padre; ove dovresti</l>
+<l>più d'ogni altro sentir s'ei pesa il giogo:</l>
+<l>tu, che a me padre, al par di me nimico</l>
+<l>sei de' tiranni; e da lor vilipeso</l>
+<l>più assai di me: tu cittadin fra' buoni</l>
+<l>ottimo già; per lo tuo troppo e stolto</l>
+<l>soffrire, omai tu pessimo fra' rei.</l>
+<l>Col tuo vile rifiuto, a noi perenni</l>
+<l>fa' i ceppi, e a te l'infamia; ognun ci scorga</l>
+<l>ben di servir, ma non di viver, degni.</l>
+<l>Finché non sia più tempo, aspetta tempo:</l>
+<l>quei crin canuti a nuove ingiurie serba;</l>
+<l>e di falsa pietà per me, ch'io abborro,</l>
+<l>la obbrobriosa tua temenza adombra.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>... Figlio mio; tal ben sei: di te non meno</l>
+<l>fervido d'ira e giovinezza, io pure</l>
+<l>così tuonai; ma passò tempo; ed ora</l>
+<l>non io son vil, né tu che il dici, il credi;</l>
+<l part="I">ma, più non opro a caso.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Ogni tuo giorno</l>
+<l>tu vivi a caso; e tu non opri a caso?</l>
+<l>Che sei? che siamo? Ogni più dubbia spene</l>
+<l>di vendetta, non fia cosa più certa,</l>
+<l>che il dubbio stato irrequieto, in cui</l>
+<l part="I">viviam tremanti?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Il sai, per me non tremo...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Per me, vuoi dir? d'ogni paterna cura</l>
+<l>per me ti assolvo. Or cittadini entrambi,</l>
+<l>null'altro siamo: e a me più a perder resta,</l>
+<l>più assai che a te. Di mia giornata appena</l>
+<l>giungo al meriggio, e tu se' giunto a sera:</l>
+<l>hai figli, ed io son padre; e numerosa</l>
+<l>prole ho pur troppo, e in quella etade appunto</l>
+<l>atta a nulla per sé, fuorché a pietate</l>
+<l>destar nel core. Altri, ben altri or sono,</l>
+<l>che i tuoi legami, i miei. Dolce consorte,</l>
+<l>parte di me miglior, sempre piangente</l>
+<l>trovomi al fianco: a me più figli intorno</l>
+<l>piangon, veggendo lagrimar la madre,</l>
+<l>e il lor destin non sanno. Il pianger loro</l>
+<l>il cor mi squarcia; e piango anch'io di furto... —</l>
+<l>Ma, d'ogni dolce affetto il cor mi sgombra</l>
+<l>tosto il pensar, che disconviensi a schiavo</l>
+<l>l'amar cose non sue. Non mia la sposa,</l>
+<l>non mia la prole, infin che l'aure io lascio</l>
+<l>spirar di vita a qual ch'ei sia tiranno.</l>
+<l>Legame altro per me non resta al mondo,</l>
+<l>tranne il solenne inesorabil giuro,</l>
+<l>di estirpar la tirannide, e i tiranni.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Due, ne torrai: mancan tiranni a schiavi?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Manca ai liberi il ferro? Insorgan mille,</l>
+<l part="I">mille cadranno; od io cadrò.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Tuo forte</l>
+<l>volere al mio fa forza. Io, non indegno</l>
+<l>d'esserti padre, affiderei non poco</l>
+<l>nel tuo nobile sdegno, ove di nostre,</l>
+<l>non d'armi altrui ti avvalorassi. Io veggio</l>
+<l>non per noi, no, Roma e Fernando armarsi;</l>
+<l>ma de' Medici a danno. In queste mura</l>
+<l>li porrem noi; ma, e chi cacciarli poscia</l>
+<l>di qui potrà? Di libertà non parmi</l>
+<l>nunzia, d'un re la mercenaria gente.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Io ti rispondo a ciò. Del re la fede,</l>
+<l>né di Roma la fede, io non ti adduco:</l>
+<l>darla e sciorla a vicenda, è di chi regna</l>
+<l>solito ufficio. Il lor comun sospetto,</l>
+<l>lor reciproca invidia, e ciò che suolsi</l>
+<l>ragion nomar di stato, oggi ti affidi.</l>
+<l>Signoreggiar ben ne vorriano entrambi;</l>
+<l>ma l'uno all'altro il vieta. In lor non entra</l>
+<l>pietà di noi; né ciò diss'io: ma lunga</l>
+<l>esperienza, ad onta nostra, dotti</l>
+<l>li fea, che il vario popolar governo,</l>
+<l>e l'indiscreto parteggiar, ci fanno</l>
+<l>più fiacchi e lenti e inefficaci all'opre.</l>
+<l>Teme ciascun di lor, che insorga un solo</l>
+<l>tosco signor sulle rovine tosche,</l>
+<l>che all'un di loro a contrastar poi basti,</l>
+<l>s'ei fassi all'altro amico. Eccoti sciolto</l>
+<l>il regio intrico: in lor vantaggio, amici</l>
+<l>si fan di noi. S'altro motor v'avesse,</l>
+<l>dirti oserei giammai, che in re ti affidi?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>E s'altro fosse, al mio furor che in petto</l>
+<l>serrai tanti anni, or credi tu, ch'io il freno</l>
+<l>allenterei sconsideratamente?</l>
+<l>Infiammate parole a te pur dianzi</l>
+<l>non mossi a caso; e a caso non mi udisti</l>
+<l>vie più inasprir co' miei pungenti detti</l>
+<l>contro di me i tiranni. A lungo io tacqui;</l>
+<l>fin che giovò; ma l'imprudente altero</l>
+<l>mio dir, che loro a ingiuriarmi ha spinto,</l>
+<l>prudenza ell'era. Ai vili miei conservi</l>
+<l>addotto invan comuni offese avrei;</l>
+<l>sol le private, infra corrotti schiavi,</l>
+<l>dritto all'offender danno. A mia vendetta</l>
+<l>compagni io trovo, se di me sol parlo;</l>
+<l>se della patria parlo, un sol non trovo:</l>
+<l>quindi, (ahi silenzio obbrobrioso e duro,</l>
+<l>ma necessario pure!) io non mi attento</l>
+<l>nomarla mai. Ma, a te, che non sei volgo,</l>
+<l>poss'io tacerla? Ah! no. — Metà dell'opra</l>
+<l>sta in trucidare i due tiranni: incerta,</l>
+<l>e maggior l'altra, nel rifar possente,</l>
+<l>libera, intera, e di virtù capace</l>
+<l>la oppressa città nostra. Or, ti par questa</l>
+<l>alta congiura? Io ne son capo, io solo;</l>
+<l>n'è parte ei solo; e tu, se il vuoi. Gran mezzi</l>
+<l>abbiam, tu il vedi; e ancor più ardir che mezzi:</l>
+<l>sublime il fin, degno è di noi. Tu, padre,</l>
+<l>di cotant'opra or tu minor saresti?</l>
+<l>Dammi, dammi il tuo assenso; altro non manca.</l>
+<l>Già in alto stan gli ignudi ferri: accenna,</l>
+<l>accenna sol: già nei devoti petti</l>
+<l>piombar li vedi, e a libertà dar via.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>... Grande hai l'animo tu. — Nobil vergogna,</l>
+<l>maraviglia, furor, vendetta, speme,</l>
+<l>tutto hai ridesto in me. Canuto senno,</l>
+<l>viril virtude, giovenil bollore</l>
+<l>e che non hai? Tu a me maestro, e duce,</l>
+<l>e Nume or sei. — L'onor di tanta impresa</l>
+<l>tutto fia tuo; con te divider soli</l>
+<l>ne vo' i perigli. A compierla non manca,</l>
+<l>che il mio nome, tu di'? tu il nome mio</l>
+<l>spendi a tua posta omai: disponi, eleggi,</l>
+<l>togli chi vuoi dai congiurati. Un ferro</l>
+<l>serba al padre, e non più: qual posto io deggia</l>
+<l>tener, qual ferir colpo, il tutto poscia</l>
+<l>m'insegnerai, quando fia presto il tutto.</l>
+<l>In te, nell'ira tua dotta mi affido.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Ma, il punto,... assai, più che nol credi,... è presso.</l>
+<l part="I">Già tu pensier non cangi?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">A te son padre:</l>
+<l part="I">il cangi tu?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Dunque il tuo stile arruota,</l>
+<l>che al nuovo dì... Ma chi mai viene? Oh! Bianca!</l>
+<l>Sfuggiamla, amico. A ordir l'ultime fila</l>
+<l>della gran tela andiamo. A te fra poco,</l>
+<l>io riedo, padre, e il tutto allor saprai.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>GUGLIELMO, BIANCA</stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Raimondo io cerco; ed ei mi sfugge? O padre,</l>
+<l>dimmi, e perché? con chi sen va? — Che veggio?</l>
+<l>tu fuor di te sei quasi? Or, qual t'ingombra</l>
+<l>alto pensiero? oimè! parla: sovrasta</l>
+<l part="I">sventura forse?... A qual di noi?...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Se angoscia</l>
+<l>grave mi siede sul pallido volto,</l>
+<l>qual maraviglia? io tremo, e n'ho l'aspetto:</l>
+<l>e chi non trema? Il mio squallore istesso,</l>
+<l>se intorno miri, in ciascun volto è pinto.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Ma, di tremar qual cagion nuova?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">O figlia,</l>
+<l part="I">nuova non è.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Ma imperturbabil sempre</l>
+<l>io finora ti vidi: or temi? e il dici?...</l>
+<l>E il tuo figliuol, che impetuoso turbo</l>
+<l>di violenti discordanti affetti</l>
+<l>era finor, sembianza or d'uom tranquillo</l>
+<l>vestir gli veggio? Ei mi movea parole</l>
+<l>poc'anzi, tutte pace: ei, per natura,</l>
+<l>d'ogni indugiar nemico, egli dal tempo</l>
+<l>dice aspettar sollievo: ed or mi sfugge</l>
+<l>con uno ignoto? e tu, commosso resti?...</l>
+<l>Ah! sì; pur troppo havvi un arcano:... e il celi,</l>
+<l>a me tu il celi? Il padre mio, lo sposo</l>
+<l>mi deludono a prova? Il ciel, deh! voglia...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Dal pianto or cessa, e dai sospetti: è vano,</l>
+<l>ch'io, paventando, a non temer ti esorti.</l>
+<l>Temi, ma non di noi. — Ben disse il figlio,</l>
+<l>che sol recarne può sollievo il tempo.</l>
+<l>Torna ai figli frattanto: a noi più grata</l>
+<l>cosa non fai, che il custodir tuoi figli,</l>
+<l>e ben amargli, e alla virtù nutrirli. —</l>
+<l>Util consiglio, se da me nol sdegni,</l>
+<l>fia, che tu sempre alto silenzio serbi,</l>
+<l>ove il parlar non giovi... O Bianca, avrai</l>
+<l>tu il cor così di tutti noi: dei crudi</l>
+<l>fratelli, a un tempo, schiverai tu l'ira.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>GIULIANO, <emph>un uomo d'arme</emph></stage>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Olà; qui tosto a me Guglielmo adduci. —</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>GIULIANO</stage>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Riede all'Arno Salviati? Or, perché muove</l>
+<l>costui di Roma? e in queste soglie il piede</l>
+<l>come osa porre? Egli in non cale or dunque</l>
+<l>tiene il nostr'odio, e il poter nostro, e noi? —</l>
+<l>Ma pur, s'ei torna, in lui l'audacia nasce</l>
+<l>certo da forza;... e da accattata forza. —</l>
+<l>Or sì, che ogni arte al prevenir fia d'uopo</l>
+<l>ciò, ch'emendare invan vorriasi. In prima</l>
+<l>Guglielmo udiam, s'ei, per età men forte,</l>
+<l>coglier di detti lusinghieri all'esca</l>
+<l>da me potrassi. Or, che si aggiunge ad essi,</l>
+<l>apportator della romana fraude,</l>
+<l>Salviati, or vuolsi invigilare; or larghe</l>
+<l>parole dar, mezzi acquistando e tempo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>GUGLIELMO, GIULIANO</stage>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Guglielmo, o tu, che esperienza, ed anni,</l>
+<l>e senno hai più che altr'uom; tu, che i presenti</l>
+<l>dritti, e i passati, della patria nostra</l>
+<l>conosci, intendi, e scerni; or deh! mi ascolta. —</l>
+<l>Già, per poter ch'io m'abbia, io non son cieco,</l>
+<l>né dato a iniqua oblivione ho il nome</l>
+<l>di cittadino: io so, quanto sien brevi,</l>
+<l>e dubbi i doni della instabil sorte:</l>
+<l part="I">so...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Qual tu sii, chi 'l sa? Vero è, ti mostri</l>
+<l>più mite assai, che il fratel tuo; ma tanto</l>
+<l>del volgo schiavo è il giudicar corrotto,</l>
+<l>ch'ei men non t'odia, ancor ch'ei men ti tema.</l>
+<l>Forse a popol ben servo è assai più a grado</l>
+<l>chi lo sforza a obbedir, che chi nel prega.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Cauto non è, quale il vorrei, Lorenzo;</l>
+<l>ma, né quanto sel tien, Raimondo è invitto:</l>
+<l>parliam, più umani, noi. — Tu sai, che istrutto</l>
+<l>il cittadin dalla licenza antica,</l>
+<l>e sbigottito, in nostra man depose</l>
+<l>di libertà il soverchio; onde poi fosse</l>
+<l>la miglior parte eternamente intatta...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Quai tessi ad arte parolette accorte,</l>
+<l>di senso vuote? Ha servitù il suo nome.</l>
+<l part="I">Chiama il servir, servaggio.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="F">E la licenza,</l>
+<l>tu libertade appella: io qui non venni</l>
+<l part="I">a disputar tai cose...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">È ver, che sempre</l>
+<l part="I">mal sen contende in detti.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="F">Odimi or dunque,</l>
+<l>pria che co' fatti io il mostri. Alta ira bolle</l>
+<l>nel tuo Raimondo: assai Lorenzo è caldo</l>
+<l>di giovinezza e di possanza: uscirne</l>
+<l>di te, del figlio, e di tua stirpe intera</l>
+<l>può la rovina: ma può uscirne ancora,</l>
+<l>a tradimento, la rovina nostra.</l>
+<l>Non di Lorenzo, qual fratello, io parlo;</l>
+<l>né tu, qual padre, del figliuol favella:</l>
+<l>siam cittadini, e tu il migliore. Or dimmi;</l>
+<l>forte adoprarci in risparmiar tumulti,</l>
+<l>scandali, e sangue, or nol dobbiamo a prova?</l>
+<l>Tu tanto or più, che in vie maggior periglio</l>
+<l>ti stai? — Tu, ch'osi nominar servaggio</l>
+<l>il serbar leggi, il vedi; infra novelli</l>
+<l>torbidi, a voi si puote accrescer carco</l>
+<l>più che scemarsi, assai. Padre ad un tempo</l>
+<l>e cittadin sii tu: piega il tuo figlio</l>
+<l>alquanto; e sol, che a noi minor si dica,</l>
+<l>ne fia pago Lorenzo. Ogni alto danno</l>
+<l>con un tuo detto antivenir t'è dato.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Chi può piegar Raimondo? e degg'io farlo,</l>
+<l part="I">s'anco il potessi?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="F">Or via, tu stesso dimmi:</l>
+<l>se ti trovassi in seggio, e il poter tuo</l>
+<l>tolto a scherno da noi, com'egli ha il nostro,</l>
+<l>vedessi tu; che allor di noi faresti?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Io stimerei di tanto altrui pur sempre</l>
+<l>far maggior scherno in occupar lo stato,</l>
+<l>che ogni scherno a me fatto avrei per lieve.</l>
+<l>Di libertà qual minor parte puossi</l>
+<l>lasciar, che il dire, a chi del far vien tolta?</l>
+<l>Ogni uom parlare a senno suo potrebbe,</l>
+<l>s'io fossi in voi; ma oprar, soltanto al mio.</l>
+<l>Da temersi è chi tace: al sir non nuoce</l>
+<l>dischiuso tosco. — Io schietto ora ti parlo:</l>
+<l>d'audace impresa il mio figliuol non stimo</l>
+<l>capace mai: così il foss'ei! vilmente</l>
+<l>me non udreste or favellar; né visto</l>
+<l>tremar mi avreste, ed obbedire. — Incontro</l>
+<l>a nemici, quai siamo, (è ver pur troppo!)</l>
+<l>arme bastante è il ben usato sprezzo. —</l>
+<l>Ecco, ch'io non tiranno, assai ben, parmi,</l>
+<l>di tirannide a te l'arti, le leggi</l>
+<l>prescrivo, e l'opre, e la ragion sublime.</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Che vuoi tu dirmi? e nol conosco io forse</l>
+<l part="I">al par di te, questo tuo figlio?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">E il temi?</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l>Temuto, io temo. — Il simular fia vano.</l>
+<l>Fra noi si taccia ogni fallace nome;</l>
+<l>non patria omai, non libertà, non leggi:</l>
+<l>dal solo amor di sé, dall'util certo,</l>
+<l>dalla temenza dei futuri danni,</l>
+<l>più vera prenda ognun di noi sua norma.</l>
+<l>Lorenzo in sé tutti rinserra i pregi,</l>
+<l>onde stato novel si accresce e tiene,</l>
+<l>men l'indugio, e il timore: a me natura</l>
+<l>diede altra tempra; e ciò che manca in lui,</l>
+<l>in me soverchio è forse: ma, tremante</l>
+<l>non stai tu più di me? non veggo io sculta</l>
+<l>la tua temenza in tuoi più menomi atti?</l>
+<l>So, che non è più saldo in onda scoglio,</l>
+<l>di quel che sieno in lor proposto immoti</l>
+<l>e Lorenzo e Raimondo: han pari l'alma;</l>
+<l>la forza no: ma pari è il temer nostro.</l>
+<l>Qual io mi adopro or col fratel, ti adopra</l>
+<l>col figlio tu: forse vedremo ancora</l>
+<l>altri tempi. Pochi anni hai tu di vita;</l>
+<l>ma questa (il sai) benché affannosa, e grave,</l>
+<l>pur viver brami; e sopportata l'hai...</l>
+<l part="I">Vuoi tu serbarla? di'.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Timor di padre,</l>
+<l>e timor di tiranno in lance porre,</l>
+<l>altri nol puote che un tiranno e padre.</l>
+<l>Il mio timore, io il sento; il tuo, tu solo</l>
+<l>sentirlo puoi. — Ma, vinca oggi il paterno,</l>
+<l>che più scusabil è. Per quanto io valga,</l>
+<l>mi adoprerò, perché spontaneo esiglio</l>
+<l>scelga Raimondo; e fia il miglior; che in queste</l>
+<l>mura abborrite a nuovi oltraggi io 'l veggo,</l>
+<l>non a vendetta, rimaner; pur troppo!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>LORENZO, GIULIANO, GUGLIELMO</stage>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Giulian, che fai? Spendi in parole il tempo,</l>
+<l part="I">quando altri in opre?...</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="F">Alla evidente forza</l>
+<l>del mio parlare omai costui si arrende:</l>
+<l>duolti la pace, anzi che ferma io l'abbia?</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>Che pace omai? D'ogni discordia il seme,</l>
+<l>d'ogni raggiro il rio motor, Salviati</l>
+<l part="I">giunge...</l>
+</sp>
+<sp><speaker><emph>Giuliano</emph></speaker>
+<l part="M">Il so; ma frattanto...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">E sai, che muove</l>
+<l>ver noi dall'austro armata gente? in vero</l>
+<l>non belligera gente; a cui mostrarci</l>
+<l>noi dovrem pure, e sol mostrarci. Al primo</l>
+<l>folgoreggiar de' nostri scudi, sciolta</l>
+<l>fia lor nebbia palustre. Ardir qual altro</l>
+<l>può Roma aver, fuor che l'altrui temenza?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Signor, ma che? può insospettirti il solo</l>
+<l>ripatriar di un cittadino inerme,</l>
+<l>ch'or dal Tebro ritorna? e a danno vostro</l>
+<l>or si armerebbe Roma, che sì rado</l>
+<l>l'armi, e sì mal, solo a difesa, impugna?</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l>La schiatta infida dei roman pastori</l>
+<l>fea tremar più d'un prode. Il tosco, il ferro</l>
+<l>celan fra gigli e rose. È ver, che nulla</l>
+<l>fia il ferro lor, se antiveduto viene. —</l>
+<l>Voi, di Roma satelliti, qui lascio:</l>
+<l>tramate voi, finch'io ritorni. Andiamo,</l>
+<l>fratello, andiam: ripiglierem noi poscia</l>
+<l>con costoro a trattar; ma pria dispersi,</l>
+<l>o presi, od arsi, o nel vil fango avvolti</l>
+<l>cadan per noi que' pavidi vessilli,</l>
+<l>che all'aura spiegan le mentite chiavi.</l>
+<l>Pria dobbiam noi crollare alquanto il tronco</l>
+<l>putrido annoso, a cui si appoggia fraude;</l>
+<l>poiché del tutto svellerlo si aspetta</l>
+<l>a più rimota etade. — Andiam. — Di gioia</l>
+<l>mi balza il cor nell'impugnarti, o brando,</l>
+<l>contro aperto nemico. A me sol duole,</l>
+<l>che, se a fuggiasca gente il tergo sdegni</l>
+<l>ferir, di sangue or tornerai digiuno.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>GUGLIELMO</stage>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>D'alti sensi è costui; non degno quasi</l>
+<l>d'esser tiranno. Ei regnerà, se ai nostri</l>
+<l>colpi non cade; ei regnerà. — Ma regna,</l>
+<l>regna a tua posta; al rio fratel simìle</l>
+<l>tosto sarai: timido, astuto, crudo:</l>
+<l>quale in somma esser debbe, ed è, chi regna. —</l>
+<l>Or, già si annotta; e a me non torna il figlio;</l>
+<l>né Salviati. — Ma, come udia Lorenzo</l>
+<l>delle romane ancor non mosse schiere?</l>
+<l>Non lieve al certo è la tramata impresa;</l>
+<l>e dubbia è assai: ma pur, l'odio e la rabbia</l>
+<l>e il senno in un del mio figliuol mi affida.</l>
+<l part="I">Di lui si cerchi... Eccolo appunto.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>RAIMONDO, SALVIATI, GUGLIELMO</stage>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Oh! dimmi,</l>
+<l part="I">a che ne siamo?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="M">Al compier, quasi.</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">A noi</l>
+<l>arride il ciel: mai non sperava io tanto.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Presto, più ch'io non l'era, e a più vendetta,</l>
+<l>voi mi trovate. Udite ardir: qui meco</l>
+<l>finor Giuliano a patteggiar togliea</l>
+<l>dell'onta nostra; e vi si aggiunse poscia</l>
+<l>fero Lorenzo, e minaccioso. Io diedi</l>
+<l>parole, or dubbie, or risentite, or finte;</l>
+<l>le più, ravvolte entro a servile scorza,</l>
+<l>grata ai tiranni tanto: ogni delitto</l>
+<l>stiman minor del non temerli. In essi</l>
+<l>di me sospetto generar non volli;</l>
+<l>pien di timor mi credono. — Ma, dimmi;</l>
+<l>come già in parte or traspirò l'arcano</l>
+<l>dell'armi estrane? È ver, che a scherno mostra</l>
+<l>Lorenzo averle, e inefficace frutto</l>
+<l>par riputarle dei maneggi nostri.</l>
+<l>Tal securtà ne giova; e benché accenni</l>
+<l>Giulian ch'ei teme anco i privati sdegni,</l>
+<l>già non cred'ei certa e vicina, e tanta</l>
+<l>la vendetta, quant'è. Ditemi, certa</l>
+<l>fia dunque appien? qual feritor, qual'armi,</l>
+<l part="I">quai mezzi, dove, quando?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Odine il tutto.</l>
+<l>Ma frattanto, stupore a te non rechi</l>
+<l>ciò che or Lorenzo sa. Noi primi, ad arte,</l>
+<l>per divertir lor forze, il grido demmo</l>
+<l>che il nemico venìa. Ma in armi Roma</l>
+<l>suona or nel volgo sola: «A trarre i Toschi</l>
+<l>dal servaggio novel, manda il buon Sisto</l>
+<l>poca sua gente». — Ecco la voce, ond'io</l>
+<l>sperai, che scarsa, ma palese forza</l>
+<l>tiranni aspettando, ogni pensiero</l>
+<l>rivolgerian contr'essa; e ben mi apposi.</l>
+<l>Al nuovo dì corre Lorenzo al campo;</l>
+<l>ma, sorgerà pur troppo a lui quel sole,</l>
+<l>ch'esser gli debbe estremo. Entrambi spenti</l>
+<l>fian domani. All'impresa io pochi ho scelti,</l>
+<l>ma d'ira alti e di core. Alberto, Anselmo,</l>
+<l>Napoleon, Bandìni, e il figliuol tuo.</l>
+<l>Rinato vil, di nostra stirpe ad onta,</l>
+<l>d'esser niegommi del bel numer uno.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="I">Codardo! E s'egli or ci tradisse?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Oh, fosse</l>
+<l>pur ei da tanto! ma, di vizi scevro,</l>
+<l>virtù non ha: più non sen parli. — Anselmo</l>
+<l>preste a ogni cenno tien sue genti d'arme;</l>
+<l>ma il perché, nol sann'essi: a un punto vuolsi</l>
+<l>da noi ferire, ed occupar da lui</l>
+<l>il maggior foro, ed il palagio, e quante</l>
+<l>vie là fan capo; indi appellar la plebe</l>
+<l>a libertà: noi giungeremo intanto...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Ma, in un sol loco, e ad una morte trarli,</l>
+<l>pensastel voi? Guai se l'un colpo all'altro</l>
+<l part="I">tardo succede, anco d'un punto.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">All'alba,</l>
+<l>pria che di queste mura escano in campo,</l>
+<l>al tempio entrambi ad implorare aiuto</l>
+<l>all'armi lor tiranniche ne andranno:</l>
+<l part="I">là fien morti.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Che ascolto? Oimè! nel sacro?...</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l>Nel tempio, sì. Qual più gradita al cielo</l>
+<l>vittima offrir, che il rio tiranno estinto?</l>
+<l>Primo ei forse non è, che a scherno iniquo</l>
+<l>l'uom, le leggi, e natura, e Iddio si prende?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Vero parli; ma pur,... di umano sangue</l>
+<l part="I">contaminar gli altari...</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">Umano sangue</l>
+<l>quel de' tiranni? Essi di sangue umano</l>
+<l>si pascon, essi. E a cotai mostri asilo</l>
+<l>santo v'avrà? l'iniquità secura</l>
+<l>starsi, ove ha seggio la giustizia eterna?</l>
+<l>Non io l'acciaro tratterrei, se avvinti</l>
+<l>fosser del Nume al simulacro entrambi.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Noi scellerati irriverenti mostri,</l>
+<l>ad alta voce griderà la plebe,</l>
+<l>che ciò mira d'altr'occhio. O torne il frutto,</l>
+<l>o rovinar l'impresa or può quest'una</l>
+<l part="I">universale opinion...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Quest'una</l>
+<l>giovarne può: non è soverchio il tempo:</l>
+<l>o doman gli uccidiamo, o non più mai.</l>
+<l>Ciò che rileva, è lo accertare i colpi;</l>
+<l>né loco v'ha più ad accertargli adatto. —</l>
+<l>Del popol pensi? ei dalle nuove cose</l>
+<l>stupor, più ch'ira, tragge. Ordine demmo,</l>
+<l>che al punto stesso, in cui trarremo il ferro,</l>
+<l>di Roma eccheggi entro il gran tempio il nome. —</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Può molto, è ver, fra noi di Roma il nome.</l>
+<l>Ma, qual di voi l'onor del ferir primo</l>
+<l>ottiene? a me qual si riserba incarco?</l>
+<l>Impeto, sdegno, ardir, non bastan soli;</l>
+<l>anzi, può assai, la voglia ardente troppo,</l>
+<l>nuocere a ciò. — Freddo valor feroce,</l>
+<l>man pronta e ferma, imperturbabil volto,</l>
+<l>tacito labbro, e cor nel sangue avvezzo;</l>
+<l>tale esser vuolsi a trucidar tiranni. —</l>
+<l>Inopportuno un moto, un cenno, un guardo,</l>
+<l>anco un pensier, può torre al sir fidanza,</l>
+<l>tempo all'impresa, e al feritor coraggio.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>I primi colpi abbiam noi scelto: il mio</l>
+<l>fia il primo primo: a disbramar lor sete</l>
+<l>men forti verran co' ferri poscia,</l>
+<l>tosto che a terra nel sangue stramazzino,</l>
+<l>pregando vita, i codardi tiranni.</l>
+<l>Padre, udito il segnal, se in armi corri</l>
+<l>dove fia Anselmo, gioverai non poco,</l>
+<l>più che nel tempio assai; da cui scagliarci</l>
+<l>fuori vogliam, vibrato il colpo appena.</l>
+<l>Duolmi, ch'io solo a un tempo trucidarli</l>
+<l>ambi non posso. — Oh! che dicesti, o padre?</l>
+<l>man pronta e ferma? Il ferro pria verranne</l>
+<l>manco doman, che a me la destra e il core.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Teco a gara ferir, che non poss'io?</l>
+<l>Vero è, pur troppo, che per molta etade</l>
+<l>potria tremulo il braccio, il non tremante</l>
+<l>mio cor smentire. — A dileguar mie' dubbi</l>
+<l>raggio del ciel mi sei: ben tu pensasti,</l>
+<l>ben provvedesti a tutto; e invano io parlo.</l>
+<l>Piacemi assai, che a voi soltanto abbiate</l>
+<l>fidato i primi colpi. Oh quanta io porto</l>
+<l>invidia a voi! — Sol dubitai, che in queste</l>
+<l>vittime impure insanguinar tua destra</l>
+<l part="I">sacerdotal tu negheresti...</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="F">Oh quanto</l>
+<l>mal mi conosci! Ecco il mio stile; il vedi?</l>
+<l>sacro è non men, che la mia man che il tratta:</l>
+<l>mel diè il gran Sisto, e il benedisse pria. —</l>
+<l>La mano stessa il pastorale e il brando</l>
+<l>strinse più volte: e, ad annullar tiranni</l>
+<l>o popoli empi, ai sacerdoti santi</l>
+<l>il gran Dio degli eserciti la destra</l>
+<l>terribil sempre, e non fallevol mai,</l>
+<l>armava ei stesso. Appenderassi in voto</l>
+<l>questa, ch'io stringo, arme omicida e santa</l>
+<l>a questi altari un dì. Furor m'incende,</l>
+<l>più assai che umano: e, ancor ch'io nuovo al sangue</l>
+<l>il braccio arrechi, oggi dal ciel fia scorto</l>
+<l>dentro al cor empio, che a trafigger scelsi.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="I">E scelto hai tu?...</l>
+</sp>
+<sp><speaker><emph>Salviati</emph></speaker>
+<l part="M">Lorenzo.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Il più feroce?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Io 'l volli in ciò pur compiacer, bench'io</l>
+<l>prescelto avrei d'uccidere il più forte.</l>
+<l>Ma pur pensai, che al certo il vil Giuliano</l>
+<l>di ascosa maglia il suo timor vestiva;</l>
+<l>onde accettai, come più scabra impresa,</l>
+<l>io di svenarlo. Avrai Lorenzo; avrommi</l>
+<l>io 'l reo Giulian: già il tengo: entro quel petto,</l>
+<l>nido di fraude e tradimento, il ferro</l>
+<l>già tutto ascondo. — A sguainar fia cenno,</l>
+<l>ed al ferire, il sacro punto, in cui,</l>
+<l>tratto dal ciel misteriosamente</l>
+<l>dai susurrati carmi, il figliuol Dio</l>
+<l>fra le sacerdotali dita scende. —</l>
+<l>Or, tutto sai: del sacro bronzo al primo</l>
+<l>squillo uscirai repente; e allora pensa</l>
+<l>ch'ella è perfetta, o che fallita è l'opra.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Tutto farò. — Sciogliamci; omai n'è tempo. —</l>
+<l>Notte, o tu, che la estrema esser ne dei</l>
+<l>di servaggio, o di vita, il corso affretta! —</l>
+<l>Tu intanto, o figlio, assai, ma assai, diffida</l>
+<l>di Bianca: in cor di donna è scaltro amore.</l>
+<l>E tu, bada, o Salviati, che se a vuoto</l>
+<l>cade il colpo tuo primo, è tal Lorenzo,</l>
+<l>da non lasciar, che tu il secondo vibri.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>RAIMONDO, BIANCA</stage>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Or via, che vuoi? Torna a tue stanze, torna:</l>
+<l part="I">lasciami; tosto io riedo.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Ed io non posso</l>
+<l part="I">teco venirne?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="M">No.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">Perché?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Nol puoi.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Di poco amor, me così tratti? O dolci</l>
+<l>passati tempi, ove ne andaste? Al fianco</l>
+<l>non mi sdegnavi allora; né mai passo</l>
+<l>movevi allor, ch'io nol movessi accanto! —</l>
+<l>Perché ti spiaccio? in che ti offendo? Or sfuggi,</l>
+<l>ed or (che è peggio) anco mi scacci. Il suono</l>
+<l>dunque di questa mia voce non giunge,</l>
+<l>più non penètra entro il tuo core? Ahi lassa!...</l>
+<l>pur ti vogl'io seguir, da lungi almeno...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="I">Ma, di che temi? o che supponi?...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Il sai.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>So, che tu m'ami, e ch'io pur t'amo; e t'amo</l>
+<l>più che nol credi, assai. Tel tace il labro;</l>
+<l>ma il cor tel dice, e il volto, e il guardo, e ogni atto</l>
+<l>in me tel dice. Or, s'io ti scaccio o sfuggo,</l>
+<l>il fo, perché d'ogni mio affanno a parte</l>
+<l>men ti vorrei:... qual puoi sollievo darmi?</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Pianger non posso io teco?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Il duol mi addoppia</l>
+<l>vederti in pianto consumar tua vita;</l>
+<l>e in pianto vano. Ogni uomo io sfuggo, il vedi;</l>
+<l part="I">ed a me stesso incresco.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Altro ben veggio;</l>
+<l>pur troppo io veggio, che di me diffidi.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="I">Ogni mio male io non ti narro?...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Ah! tutti</l>
+<l>mali, sì; non i rimedi. In core</l>
+<l>tu covi alto disegno. A me non stimi,</l>
+<l>che a dir tu l'abbi? e tacilo. Ti chieggo</l>
+<l>sol di seguirti; e il nieghi? Io forse posso</l>
+<l>a te giovar; ma nuocerti, non mai.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>... Che vai dicendo?... In cor, nulla rinserro,...</l>
+<l>tranne l'antica al par che inutil rabbia.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Ma pur la lunga e intera notte, questa</l>
+<l>cui non ben fuga ancor l'alba sorgente,</l>
+<l>diversa, oh quanto, da tutt'altre notti</l>
+<l>era per te! Sovra il tuo ciglio il sonno</l>
+<l>né un sol momento scese. Ad ingannarmi</l>
+<l>chiudevi i lumi; ma il frequente e grave</l>
+<l>alitar del tuo petto, i tuoi repressi</l>
+<l>sospiri a forza, ed a vicenda il volto</l>
+<l>tinto or di fuoco, ora di morte;... ah! tutto,</l>
+<l>tutto osservai, che meco amor vegliava:</l>
+<l part="I">e non m'inganno, e invan ti ascondi...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">E invano</l>
+<l>vaneggi tu. — Pieno, e quieto il sonno</l>
+<l>non stese, è ver, sovra il mio capo l'ali;</l>
+<l>ma spesso avviemmi. E chi placide notti</l>
+<l>sotto a' tiranni dorme? Ognor dall'alto</l>
+<l>su le schiave cervici ignudo pende</l>
+<l>da lieve filo un ferro. Altr'uom non dorme</l>
+<l part="I">qui, che lo stolto.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Or, che dirai del tuo</l>
+<l>sorger sì ratto dalle piume? è questa</l>
+<l>forse tua solit'ora? Ancor del tutto</l>
+<l>dense eran l'ombre, e tu già in piè balzavi,</l>
+<l>com'uom, cui stringe inusitata cura.</l>
+<l>È ver me poscia, sospirando, gli occhi</l>
+<l>non ti vedea rivolgere pietosi?</l>
+<l>E ad uno ad un non ti vid'io i tuoi figli,</l>
+<l>sorto appena, abbracciar? che dico? al seno</l>
+<l>ben mille volte stringergli, e di caldi</l>
+<l>baci empiendogli, in atto doloroso</l>
+<l>inondar loro i tenerelli petti</l>
+<l>di un largo fiume di pianto paterno...</l>
+<l>tu, sì feroce già? tu, quel dal ciglio</l>
+<l>asciutto ognora?... E crederò, che cosa</l>
+<l>or d'altissimo affare in cor non serri?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="I">... Io piansi?...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">E il nieghi?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="M">... Io piansi?...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">E pregne ancora</l>
+<l>di pianto hai le pupille. Ah! se nol versi</l>
+<l part="I">in questo sen, dove?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Sul ciglio mio</l>
+<l>lagrima no, non siede:... e, s'io pur piansi,...</l>
+<l>piansi il destin degli infelici figli</l>
+<l>di un oltraggiato padre. Il nascer loro,</l>
+<l>e il viver lor poss'io non pianger sempre? —</l>
+<l>O pargoletti miseri, qual fato</l>
+<l>in questa morte, che nomiam noi vita,</l>
+<l>a voi sovrasta! de' tiranni a un tempo</l>
+<l>schiavi e nipoti, per più infamia, voi...</l>
+<l>Mai non vi abbraccio, ch'io di ciò non pianga...</l>
+<l>Sposa, deh! tu, dell'amor nostro i pegni,</l>
+<l>amali tu; perch'io d'amore gli amo</l>
+<l>diverso troppo dal tuo amore, e omai</l>
+<l>troppo lontan da' miei corrotti tempi.</l>
+<l>Piangi tu pure il lor destino;... e al padre</l>
+<l>fa che non sien simìli, se a te giova,</l>
+<l>più che a virtude, a servitù serbarli.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Oh ciel!... quai detti!... I figli... oimè!... in periglio?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>Ove periglio sorga, a te gli affido.</l>
+<l>S'uopo mai fosse, dei tiranni all'ira</l>
+<l part="I">pensa a sottrarli tu.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Me lassa! Or veggio,</l>
+<l>ora intendo, or son certa. O giorno infausto,</l>
+<l>giunto pur sei; maturo è il gran disegno:</l>
+<l part="I">tu vuoi cangiar lo stato.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">... E s'io il volessi,</l>
+<l>ho in me forza da tanto? Il vorrei forse;</l>
+<l part="I">ma, sogni son d'infermo...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Ah! mal tu fingi:</l>
+<l>uso a mentir meco non è il tuo labro.</l>
+<l>Grand'opra imprendi, il mio terror mel dice;</l>
+<l>e quei, che al volto alternamente in folla</l>
+<l>ti si affaccian tremendi e vari affetti;</l>
+<l>disperato dolor, furor, pietade,</l>
+<l>odio, vendetta, amore. Ah! per quei figli,</l>
+<l>che tu mal grado tuo pur cotanto ami,</l>
+<l>non per me, no; nulla son io; pel tuo</l>
+<l>maggior fanciul, dolce crescente nostra</l>
+<l>comune speme, io ti scongiuro; almeno</l>
+<l>schiudimi in parte il tuo pensier; te scevro</l>
+<l>fa' ch'io sol veggia da mortal periglio</l>
+<l>e in ciò mi acqueto: o, se in periglio vivi,</l>
+<l>lasciami al fianco tuo. Deh! come deggio</l>
+<l>salvar tuoi figli, s'io del tutto ignoro</l>
+<l>qual danno a lor sovrasti? A' piedi tuoi</l>
+<l>prostrata io cado; e me non vedrai sorta,</l>
+<l>finché non parli. Se di me diffidi,</l>
+<l>svenami; se in me credi, ah! perché taci?</l>
+<l>Son moglie a te; null'altro io son: deh! parla.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l>... Donna,... deh! sorgi. Il tuo timor ti pinge</l>
+<l>entro all'accesa fantasia perigli</l>
+<l>per or lontani assai. Sorgi; ritorna,</l>
+<l>e statti ai figli appresso: a lor tra breve</l>
+<l part="I">anch'io verrò: lasciami.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">Ah! no...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Mi lascia;</l>
+<l part="I">io tel comando.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Abbandonarti? Ah! pria</l>
+<l>svenami tu: da me in null'altra guisa</l>
+<l part="I">sciolto ne andrai...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="M">Cessa.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">Deh!...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Cessa; o ch'io...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Ti seguirò.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Me misero! ecco il padre;</l>
+<l part="I">ecco il padre.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>GUGLIELMO, RAIMONDO, BIANCA</stage>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Che fai? v'ha chi t'aspetta</l>
+<l part="I">al tempio; e intanto inutil qui?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">L'udisti?</l>
+<l>al tempio vo; che havvi a temer? deh! resta.</l>
+<l>Padre, trattienla: io volo, e tosto riedo. —</l>
+<l>Bianca, se m'ami, io t'accomando i figli.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>GUGLIELMO, BIANCA</stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Oh parole! Ahi me misera, che a morte</l>
+<l>ei corre! E a me tu di seguirlo vieti?</l>
+<l part="I">crudo...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Arrestati; placati; fra breve</l>
+<l part="I">ei tornerà.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Crudel; così ti prende</l>
+<l>pietà del figlio tuo? Solo tu il lasci</l>
+<l>incontro a morte andarne, e tu sei padre?</l>
+<l>Se tu il puoi, l'abbandona; ma i miei passi</l>
+<l>non rattener; mi lascia, irne vogl'io...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Fora il tuo andare intempestivo, e tardo.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Tardo? oimè! Dunque è ver, ch'ei tenta?... Ah! narra...</l>
+<l>o parla, o andar mi lascia... Ove corre egli?</l>
+<l>A dubbia impresa, il so; ma udir non debbo</l>
+<l>ciò che a sì viva parte di me spetta?</l>
+<l>Ah! voi pur troppo di qual sangue io nasca,</l>
+<l>più di me il rimembrate. Ah! parla: io sono</l>
+<l>fatta or del sangue vostro: i miei fratelli</l>
+<l>non odio, è ver; ma solo amo Raimondo;</l>
+<l>l'amo quant'oltre puossi; e per lui tremo,</l>
+<l>che pria ch'a lor non tolga egli lo stato,</l>
+<l part="I">non tolgan essi a lui la vita.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Or, s'altro</l>
+<l>non temi; e poiché pur tant'oltre sai;</l>
+<l>men dubbia, or sappi, è dell'altrui, sua vita.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Oh ciel! di vita anco in periglio stanno</l>
+<l part="I">i fratelli?...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">I tiranni ognor vi stanno.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Che ascolto? oimè!...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="F">Ti par, che tor lo stato</l>
+<l part="I">altrui si possa, e non la vita?</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Il mio</l>
+<l>consorte or dunque,... a tradimento,... i miei?</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>A tradimento, sì, versar lor sangue</l>
+<l>dobbiam noi pria, che il nostro a tradimento</l>
+<l>si bevan essi: e al duro passo, a forza,</l>
+<l>essi ci han tratti. A te il marito e i figli</l>
+<l>tolti eran, sì, tolti a momenti: ah! d'uopo</l>
+<l>n'era pur prevenir lor crudi sdegni.</l>
+<l>Io stesso, il vedi, a secondar la impresa,</l>
+<l>oggi all'antico fianco il ferro io cingo</l>
+<l part="I">da tanti anni deposto.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Alme feroci!</l>
+<l>cor simulati! io non credea che tale...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l>Figlia, che vuoi? necessità ne sprona.</l>
+<l>Più non è tempo or di ritrarci. Al cielo</l>
+<l>porgi quai voti a te più piace: intanto</l>
+<l>lo uscir di qui non ti si dà: custodi</l>
+<l>hai molt'uomini d'arme. — Or, se pur madre</l>
+<l>più ch'altro sei, torna a' tuoi figli, ah! torna...</l>
+<l>Ma il sacro squillo del bronzo lugùbre</l>
+<l>udir già parmi... ah! non m'inganno. Oh figlio!...</l>
+<l>io corro, io volo a libertade, o a morte.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>BIANCA, <emph>uomini d'arme</emph></stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Odimi... Oh come ei fugge! Ed io qui deggio</l>
+<l>starmi? Deh! per pietà, schiudete il passo:</l>
+<l>questo fia il petto, che colà frapposto</l>
+<l>può il sangue risparmiar... Barbari; in voi</l>
+<l>nulla può la pietà? — Nefande, infami,</l>
+<l>esecrabili nozze! io ben dovea</l>
+<l>antiveder, che sol potean col sangue</l>
+<l>finir questi odi smisurati. Or veggo</l>
+<l>perché tacea Raimondo: in ver, ben festi</l>
+<l>di a me celar sì abbominevol opra:</l>
+<l>d'alta vendetta io ti credea capace;</l>
+<l>non mai di un vile tradimento, mai...</l>
+<l>Ma, qual odo tumulto?... Oh ciel!... quai grida?...</l>
+<l>Par che tremi la terra!... Oh di quale alto</l>
+<l>fremito l'aria rimbomba!... distinto,</l>
+<l>di libertà, di libertade il nome</l>
+<l>suonami...<note resp="aut" place="foot" anchored="yes">Gli uomini d'arme si ritirano.</note> Oimè! già i miei fratelli a morte</l>
+<l part="I">forse... Or chi veggio? Oh ciel! Raimondo?...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>RAIMONDO, BIANCA</stage>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Iniquo,</l>
+<l>che festi? parla. A me, perfido, torni</l>
+<l>col reo pugnal grondante del mio sangue?</l>
+<l>Chi mai ti avrebbe traditor creduto?</l>
+<l>Che miro? oimè! dallo stesso tuo fianco</l>
+<l part="I">spiccia il sangue a gran gorghi?... Ah! sposo...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">... Appena...</l>
+<l>mi reggo... O donna mia,... sostiemmi... Vedi?</l>
+<l>quello, che gronda dal mio ferro, è il sangue</l>
+<l part="I">del tiranno; ma...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">Oimè!...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Questo è mio sangue;...</l>
+<l part="I">io... nel mio fianco...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">Oh! piaga immensa...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Immensa,</l>
+<l>sì; di mia man me la feci io, per troppa</l>
+<l>gran rabbia cieco... Su Giuliano io caddi:</l>
+<l>lo empiei di tante e di tante ferite,</l>
+<l>che d'una... io stesso... il mio fianco... trafissi.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Oh rio furore!... Oh mortal colpo!... Oh quanti</l>
+<l part="I">ne uccidi a un tratto!</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">A te nol dissi, o sposa...</l>
+<l>deh! mel perdona: io dir non tel dovea;</l>
+<l>né udirlo tu, pria che il complessi:... e farlo</l>
+<l>ad ogni costo era pur forza... Duolmi,</l>
+<l>che a compier l'opra ogni mia lena or manca...</l>
+<l>S'ei fu delitto, ad espiarlo io vengo</l>
+<l>agli occhi tuoi, col sangue mio... Ma, sento</l>
+<l>libertade eccheggiar vieppiù dintorno?</l>
+<l part="I">E oprar non posso!...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Oh cielo! E... cadde... anch'egli...</l>
+<l part="I">Lorenzo?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Almeno al feritore io norma</l>
+<l>certa ne diedi... Assai felice io moro,</l>
+<l>se in libertà lascio, e securi,... il padre,...</l>
+<l>la sposa,... i figli,... i cittadini miei...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Me lasci al pianto... Ma, restar vogl'io?</l>
+<l part="I">Dammi il tuo ferro...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">O Bianca... O dolce sposa...</l>
+<l>parte di me;... rimembra, che sei madre...</l>
+<l>Viver tu dei pe' nostri figli; ai nostri</l>
+<l part="I">figli or ti serba,... se mi amasti...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Oh figli!...</l>
+<l part="I">Ma il fragor cresce?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">E più si appressa;... e parmi</l>
+<l>udir le grida variare... Ah! corri</l>
+<l>ai pargoletti, e non lasciarli: ah! vola</l>
+<l>al fianco loro. — Omai,... per me... non resta...</l>
+<l>speme. — Tu il vedi,... che... a momenti... io passo.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>Che mai farò?... Presso a chi star?... Che ascolto?</l>
+<l>«Al traditore, al traditor; si uccida».</l>
+<l part="I">Qual traditore?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Il traditor,... fia... il vinto.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>LORENZO, GUGLIELMO, BIANCA, RAIMONDO, <emph>altri uomini d'arme</emph></stage>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="I">Si uccida.</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="M">Oh vista!</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">O fratel mio, tu vivi?</l>
+<l part="I">Abbi pietà...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Qui ricovrò l'infame;</l>
+<l>infra le braccia di sua donna ei fugge;</l>
+<l part="I">ma invan. Svelgasi a forza...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="F">Il mio consorte!...</l>
+<l part="I">figli miei!...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Tu in ferrei lacci, o padre?...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="I">E tu piagato?</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Oh! che vegg'io? dal fianco</l>
+<l>versi il tuo sangue infido? Or, chi 'l mio braccio</l>
+<l part="I">prevenne?</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Il mio; ma errò: quest'era un colpo</l>
+<l>vibrato al cor del fratel tuo. Ma, ei n'ebbe</l>
+<l part="I">da me molti altri.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Il mio fratello è spento;</l>
+<l>ma vivo io, vivo; e, a uccider me, ben altra</l>
+<l>alma era d'uopo, che un codardo e rio</l>
+<l>sacerdote inesperto. Estinto cadde</l>
+<l>Salviati; e seco estinti gli altri: il padre</l>
+<l>sol ti serbai, perché in veder tua morte,</l>
+<l>pria d'ottener la sua, doppia abbia pena.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l>L'incrudelir che vale? a morte presso</l>
+<l part="I">ei langue...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">E semivivo, anco mi giova...</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Pena ha con sé del fallir suo.</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Che veggio!</l>
+<l>lo abbracci tinto del fraterno sangue?</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Ei m'è consorte;... ei muore...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Or,... di che il preghi? —</l>
+<l>Se a me commessa era tua morte, mira,</l>
+<l part="I">se tu vivresti.<note resp="aut" place="foot" anchored="yes">Si pianta nel cuore lo stile, che aveva nascosto al giunger di Lorenzo.</note></l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">Oh ciel! che fai?...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Non fero</l>
+<l part="I">invano... io... mai.</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="M">Figlio!...</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">M'imìta, o padre.</l>
+<l part="I">Ecco il ferro.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="M">A me il dona...</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Io 'l voglio.<note resp="aut" place="foot" anchored="yes">Strappa il ferro di mano a Guglielmo, che l'aveva raccolto, appena gittatogli da Raimondo.</note> — O ferro,</l>
+<l>trucidator del fratel mio, quant'altre</l>
+<l part="I">morti darai!</l>
+</sp>
+<sp><speaker><emph>Raimondo</emph></speaker>
+<l part="F">Sposa,... per sempre... addio.</l>
+</sp>
+<sp><speaker><emph>Bianca</emph></speaker>
+<l part="I">Ed io vivrò?...</l>
+</sp>
+<sp><speaker><emph>Guglielmo</emph></speaker>
+<l part="M">Terribil vista! — Or tosto,</l>
+<l>fammi svenar: che più m'indugi?</l>
+</sp>
+<sp><speaker><emph>Lorenzo</emph></speaker>
+<l part="F">Al tuo</l>
+<l>supplizio infame or or n'andrai. — Ma intanto,</l>
+<l>si stacchi a forza la dolente donna</l>
+<l>dal collo indegno. Alleviar suo duolo,</l>
+<l>può solo il tempo. — E avverar sol può il tempo</l>
+<l>me non tiranno, e traditor costoro.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Endimione</title>
+      <author>Alessandro Guidi</author>
+    </titleStmt>
+    <extent>64 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000070</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Poesie approvate</title>
+        <author>Guidi, Alessandro</author>
+        <editor id="ed">Maier, Bruno</editor>
+        <publisher>Longo</publisher>
+        <pubPlace>Ravenna</pubPlace>
+        <date>1981</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>600</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>851.5 - POESIA ITALIANA. 1585-1748</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-02-01T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Ilenia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-07-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>ALL'EMINENTISSIMO E REVERENDISSIMO SIGNORE
+CARDINALE ALBANO "ERILO CLEONEO" PASTORE
+ARCADE</salute></opener>
+<lg>
+	<l rend="italic">Io, mercé de le figlie alme di Giove,</l>
+<l rend="italic">non d'armento o di gregge</l>
+<l rend="italic">son ne' campi d'Arcadia umil custode.</l>
+<l rend="italic">Cultor son io de l'altrui bella lode,</l>
+<l rend="italic">che levo in alto co' sonori versi;</l>
+<l rend="italic">ed ho cento destrieri</l>
+<l rend="italic">su la riva d'Alfeo,</l>
+<l rend="italic">tutti d'eterne penne armati il dorso,</l>
+<l rend="italic">che certo varcherian l'immenso corso,</l>
+<l rend="italic">che fan per l'alta mole</l>
+<l rend="italic">i cavalli del sole.</l>
+</lg>
+<lg>
+	<l rend="italic">Forse i pastor de le straniere selve</l>
+<l rend="italic">a mia possanza negheranno fede,</l>
+<l rend="italic">né crederan che l'immortali ninfe</l>
+<l rend="italic">ne le capanne mie tanto sovente</l>
+<l rend="italic">degnassero posare il santo piede.</l>
+<l rend="italic">Ma pur sempre si vede</l>
+<l rend="italic">ch'ove impressero l'orme</l>
+<l rend="italic">ivi virtù non dorme,</l>
+<l rend="italic">ch'or s'apre in fonti di celeste vena</l>
+<l rend="italic">ed or si spande in gloriosi rami</l>
+<l rend="italic">d'inclite piante e le campagne adombra,</l>
+<l rend="italic">ove più d'un eroe si siede a l'ombra.</l>
+</lg>
+<lg>
+	<l rend="italic">Le Muse fur che me fanciullo ancora</l>
+<l rend="italic">guidaro in su la Parma a i bei Giacinti,</l>
+<l rend="italic">che per me poscia avinti</l>
+<l rend="italic">furo co' fiori d'Elicona insieme.</l>
+<l rend="italic">Il dolce tempo e la mia prima speme</l>
+<l rend="italic">ivi trassi cantando e l'ozio illustre</l>
+<l rend="italic">del mio signor fu dono:</l>
+<l rend="italic">di lui che pien di gloria e di consiglio</l>
+<l rend="italic">regge d'Italia sì feconda parte,</l>
+<l rend="italic">ov'egli sempre accoglie</l>
+<l rend="italic">ogni bel pregio di valore e d'arte.</l>
+</lg>
+<lg>
+	<l rend="italic">In grado a lui seguendo pur le sagge</l>
+<l rend="italic">dive che di mia mente hanno governo,</l>
+<l rend="italic">m'accesi di veder l'onda latina,</l>
+<l rend="italic">e vidi il Tebro e Roma,</l>
+<l rend="italic">che fuor de l'onorata sua ruina,</l>
+<l rend="italic">d'altri diademi e d'altri lauri cinta,</l>
+<l rend="italic">alza l'augusta chioma.</l>
+<l rend="italic">Oh tante volte vinta, e non mai doma,</l>
+<l rend="italic">alma citta di Marte!</l>
+<l rend="italic">Tanto di te si ragionò nel cielo,</l>
+<l rend="italic">che al fin l'eterna cura</l>
+<l rend="italic">mandò per l'alto corso i miglior anni</l>
+<l rend="italic">a le romane mura;</l>
+<l rend="italic">e in guise allor meravigliose e nove</l>
+<l rend="italic">dietti su 'l mondo intero</l>
+<l rend="italic">sembianza e parte del celeste impero.</l>
+</lg>
+<lg>
+	<l rend="italic">Vidi 'l pastor che fu cotanto amaro</l>
+<l rend="italic">al re de l'Asia e a lui d'intorno accolti</l>
+<l rend="italic">sacri purpurei padri, eguali a i regi;</l>
+<l rend="italic">e scintillare in mezzo a i sette colli</l>
+<l rend="italic">anime chiare ed intelletti egregi.</l>
+<l rend="italic">Poi vidi in regia selva</l>
+<l rend="italic">in un bel cerchio uniti</l>
+<l rend="italic">de la mia bella Arcadia almi pastori,</l>
+<l rend="italic">piedi tutti d'un nume altero e grande;</l>
+<l rend="italic">e seco avean per far celesti onori</l>
+<l rend="italic">a ninfe e ad eroi versi e ghirlande;</l>
+</lg>
+<lg>
+	<l rend="italic">Decilo, che fioria di lauro e d'ostro,</l>
+<l rend="italic">per man mi prese e mi condusse a lei,</l>
+<l rend="italic">che giù per lo sentiero degli dei</l>
+<l rend="italic">venne a recare il nome al secol nostro.</l>
+<l rend="italic">Turbò tutti costei</l>
+<l rend="italic">co' l'altero splendor de' geni suoi</l>
+<l rend="italic">antichi e novi eroi;</l>
+<l rend="italic">e tanta fama ottenne,</l>
+<l rend="italic">che Berecintia e Marte e gli altri numi</l>
+<l rend="italic">partian con la gran donna i lor pensieri,</l>
+<l rend="italic">che schiva al fin d'imperi</l>
+<l rend="italic">venne a far bella Italia e bella Roma</l>
+<l rend="italic">con arti eccelse e memorabil prove,</l>
+<l rend="italic">qual farebbe fra noi Pallade o Giove.</l>
+</lg>
+<lg>
+	<l rend="italic">Innanzi a lei s'accese</l>
+<l rend="italic">valor entro mia mente</l>
+<l rend="italic">che da terra a levarmi era possente:</l>
+<l rend="italic">ito sarei su per le nubi a lato</l>
+<l rend="italic">del gran consiglio eterno</l>
+<l rend="italic">sin dentro i nembi a ragionar col Fato.</l>
+<l rend="italic">Ma le belle ferite</l>
+<l rend="italic">onde Cintia si vide</l>
+<l rend="italic">per le selve di Caria or mesta or lieta,</l>
+<l rend="italic">l'alta reina a' versi miei commise;</l>
+<l rend="italic">e in così care guise</l>
+<l rend="italic">il nostro canto accolse,</l>
+<l rend="italic">che nel fulgor l'avvolse</l>
+<l rend="italic">de' suoi celesti ingegni</l>
+<l rend="italic">e di luce real tutto l'asperse;</l>
+<l rend="italic">indi il guardo magnanimo converse</l>
+<l rend="italic">vèr noi sempre giocondo,</l>
+<l rend="italic">e a nostre muse in ogni tempo diede</l>
+<l rend="italic">chiara d'onor mercede.</l>
+</lg>
+<lg>
+	<l rend="italic">Quali cose ridico, o grande Albano,</l>
+<l rend="italic">a te che sì sovente</l>
+<l rend="italic">innanzi a l'alta donna eri presente?</l>
+<l rend="italic">Altre parole entro il mio core io porto</l>
+<l rend="italic">che risonano meco i pregi tuoi,</l>
+<l rend="italic">ed or desio m'accende</l>
+<l rend="italic">di recare al tuo sguardo</l>
+<l rend="italic">quel che in mente mi splende</l>
+<l rend="italic">e dentro il sen mi guardo.</l>
+<l rend="italic">Ho meco i grandi auguri,</l>
+<l rend="italic">onde tanto Cristina</l>
+<l rend="italic">fama di te ne' miei pensieri impresse;</l>
+<l rend="italic">e sono figlie di sue voci stesse</l>
+<l rend="italic">le lodi ch'or ti sorgeranno intorno.</l>
+<l rend="italic">- Certo so ben che al ciel farò ritorno, -</l>
+</lg>
+<lg>
+<l rend="italic">dicea l'augusta donna - e se del Fato</l>
+<l rend="italic">il balenare intendo,</l>
+<l rend="italic">io tosto partirò da queste frali</l>
+<l rend="italic">cose a l'alte immortali,</l>
+<l rend="italic">ove i miei regni e i miei trofei comprendo.</l>
+<l rend="italic">Non verran tutti in cielo</l>
+<l rend="italic">i geni miei, ché la più chiara parte</l>
+<l rend="italic">farà sua sede in lui,</l>
+<l rend="italic">che da' volgari eroi già si diparte.</l>
+<l rend="italic">Stanno su l'ali i gloriosi lustri</l>
+<l rend="italic">che recargli dovranno il fren del mondo;</l>
+<l rend="italic">e già per lui nostro intelletto vede</l>
+<l rend="italic">in compagnia del sole</l>
+<l rend="italic">gir lo splender de la romana fede -.</l>
+</lg>
+<lg>
+	<l rend="italic">Così dicea; ne 'l formidabil giorno,</l>
+<l rend="italic">che a noi poscia la tolse,</l>
+<l rend="italic">fu lento a porsi in su le vie celesti:</l>
+<l rend="italic">rapido venne e sì per tempo sciolse</l>
+<l rend="italic">l'anima eccelsa dal terreno ammanto:</l>
+<l rend="italic">a le sue stelle, a i numi</l>
+<l rend="italic">forse era grave l'aspettarla tanto.</l>
+<l rend="italic">Il ciel non pose mente al nostro affanno,</l>
+<l rend="italic">né al lagrimoso aspetto</l>
+<l rend="italic">del gran publico danno:</l>
+<l rend="italic">allor le nostre muse</l>
+<l rend="italic">spogliàr d'onor le chiome,</l>
+<l rend="italic">lasciàr le care cetre e i lieti manti,</l>
+<l rend="italic">ed eran già tutte converse in pianti,</l>
+<l rend="italic">l'alto spirto real chiamando a nome.</l>
+<l rend="italic">Ma tu, signor, de' chiari geni erede,</l>
+<l rend="italic">asciugasti il lor pianto e a nova speme</l>
+<l rend="italic">tu richiamasti i carmi, ed or ti porto</l>
+<l rend="italic">quei che un tempo ti fur diletti e cari;</l>
+<l rend="italic">e di lor ragionò Bione il saggio,</l>
+<l rend="italic">che di novo intelletto alza la face</l>
+<l rend="italic">per fugar l'ombre e per aprire il vero.</l>
+<l rend="italic">Ei novi raggi col suo canto spande,</l>
+<l rend="italic">di cui si veste di Licori il nome,</l>
+<l rend="italic">che per le selve or e già sacro e grande.</l>
+</lg>
+<lg>
+	<l rend="italic">Oh se verrà che adempia</l>
+<l rend="italic">i grandi auguri il Fato,</l>
+<l rend="italic">come promette tuo valore e zelo</l>
+<l rend="italic">e in ciò s'adopra la gran donna in cielo!</l>
+<l rend="italic">Allor de le felici</l>
+<l rend="italic">tue magnanime cure e sacri affanni</l>
+<l rend="italic">udrai miei versi ragionar con gli anni.</l>
+</lg>
+</div1>
+
+<castList>
+<head>PERSONAGGI</head>
+<castItem><role>AMORE</role></castItem>
+<castItem><role>CINTIA</role></castItem>
+<castItem><role>ENDIMIONE</role></castItem>
+<castItem><role>Coro di pastori</role></castItem>
+<castItem><role>Coro di ninfe</role></castItem>
+</castList>
+</front>
+<body>
+
+<div1 type="atto">
+<head>ATTO I</head>
+
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Felici piagge, avventurosi colli,</l>
+<l>non perché di bei fiori april v'adorna,</l>
+<l>ma perché in voi soggiorna</l>
+<l>in nove forme e in sì leggiadro velo</l>
+<l>Cintia scesa dal cielo.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Ombre solinghe, alti silenzi, oh quanto</l>
+<l>grave sento su 'l cor vostra quiete,</l>
+<l>or che 'l terror de l'universo e 'l grande</l>
+<l>nemico di mia pace in seno avete.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Io per queste sì dolci</l>
+<l>fortunate contrade</l>
+<l>oggi pongo in oblio</l>
+<l>i soggiorni celesti,</l>
+<l>ove de' dardi miei</l>
+<l>tra l'ammirabil prove</l>
+<l>cinto d'ampi trofei,</l>
+<l>regno sovra Saturno e sovra Giove.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Qual piacer mi lusinga</l>
+<l>d'abitar queste selve?</l>
+<l>Amor, già tu non sei</l>
+<l>rozzo arciero di belve,</l>
+<l>ma se pur hai diletto</l>
+<l>d'albergar fra' mortali,</l>
+<l>porta l'arco e la face</l>
+<l>ne' palagi reali.</l>
+<l>Ivi l'aurea faretra</l>
+<l>e 'l tuo valore adopra</l>
+<l>tra cavalieri e regi, e qui tu lascia</l>
+<l>al volgo de' ministri,</l>
+<l>tuoi fratelli minori,</l>
+<l>la cura d'infiammar ninfe e pastori.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Ne la reggia e dentro 'l bosco</l>
+<l>io conosco</l>
+<l>d'esser nume e nume grande:</l>
+<l>gloriosa intorno spande</l>
+<l>la mia face i raggi suoi,</l>
+<l>o se infiamma i nobil cori</l>
+<l>de' pastori,</l>
+<l>o se accende i grandi eroi.</l>
+</lg>
+<lg>
+	<l>E ben, Cintia, vedrai strane venture</l>
+<l>e cose ogn'or meravigliose e nove</l>
+<l>che sol la mia possanza informa e move:</l>
+<l>vedrai gentil pastore,</l>
+<l>caldo di mia virtute,</l>
+<l>gir per queste d'Arcadia alme foreste</l>
+<l>pieno d'un animoso alto desire,</l>
+<l>ed infiammarsi nel leggiadro ardire</l>
+<l>di sospirar per deità celeste.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Fede negar non lice</l>
+<l>al tuo valor possente.</l>
+<l>Anco una dea,</l>
+<l>solo per fero orgoglio e fasto antico</l>
+<l>de le cure d'amor sdegnosa e schiva,</l>
+<l>vedrassi in queste selve</l>
+<l>chinar le voglie al dolce</l>
+<l>amoroso destino;</l>
+<l>e farà suoi costumi</l>
+<l>dar lodi a la mia legge</l>
+<l>e terreno pastore</l>
+<l>portare in mente ed agguagliarlo a i numi.</l>
+<l>Indi accesa di spene</l>
+<l>vèr le luci serene</l>
+<l>volgersi spesso e ragionar con loro</l>
+<l>d'un soave tormento e caro ardore;</l>
+<l>e in tal guisa vedrassi</l>
+<l>che, dovunque io mi volga, io sono Amore.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Se di me tu favelli,</l>
+<l>tendi pur nel mio sen l'arco fatale,</l>
+<l>avventa in questo core i dardi tuoi.</l>
+<l>Già conosco che puoi</l>
+<l>condur quest'alma a l'amoroso affanno,</l>
+<l>ma là, dove sei dio, sarai tiranno.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Io da i fieri trastulli</l>
+<l>e da i rigidi geni al mio diletto</l>
+<l>vo' trarti, o Cintia; accenderotti il petto</l>
+<l>nel bel piacer d'esser amata amante:</l>
+<l>i felici pensier, le dolci cure</l>
+<l>teco sempre saranno,</l>
+<l>ed allora dirai</l>
+<l>s'io son nume o tiranno.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>So che a i popoli tuoi</l>
+<l>pasci la mente d'un piacer gentile,</l>
+<l>che di dolcezza ha vinto</l>
+<l>il nèttare celeste;</l>
+<l>e pur esca sì dolce,</l>
+<l>onde tanto m'alletti,</l>
+<l>è noiosa a mie voglie. In ogni guisa</l>
+<l>tu sarai meco ingiurioso, Amore,</l>
+<l>ch'altro genio mi ferve entro la mente,</l>
+<l>altra cura nel core.</l>
+</lg>
+<lg>
+	<l>Il ruscel, che al mar s'invia,</l>
+<l>come vuole il suo destino,</l>
+<l>non desia</l>
+<l>di fermarsi in suo cammino;</l>
+<l>e se bene ei move i passi</l>
+<l>sol fra' sassi,</l>
+<l>pur invano a far dimora</l>
+<l>il lusinga aprile e Flora.</l>
+</lg>
+<lg>
+	<l>S'altri il guida in chiuso loco</l>
+<l>a vagar tra i fiori e l'erba,</l>
+<l>o se 'l serba</l>
+<l>in bell'urna a scherzi e a gioco,</l>
+<l>par ch'ei dica in suo linguaggio:</l>
+<l>- Grave oltraggio</l>
+<l>fa chi turba il corso mio</l>
+<l>e m'invola al mio desio -.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>I tuoi fati non hanno</l>
+<l>un sol volto, un sol genio e un sol pensiero.</l>
+<l>Per te giungono omai</l>
+<l>l'amorose vicende.</l>
+<l rend="italic">E perché sol fuggisti</l>
+<l rend="italic">e non mai disprezzasti</l>
+<l rend="italic">la mia forza e i miei fasti,</l>
+<l rend="italic">arderai lieta d'un pastor leggiadro,</l>
+<l rend="italic">il più caro a le Grazie e a me più caro</l>
+<l rend="italic">de la stessa mia face.</l>
+<l rend="italic">E in ciò n'avrà dolore, invidia e sdegno</l>
+<l rend="italic">il tuo biondo fratel, già tanto audace</l>
+<l rend="italic">schernitor de' miei vanti,</l>
+<l rend="italic">che rimembrar si de' quale saetta</l>
+<l rend="italic">gli aperse il petto allora</l>
+<l rend="italic">che io feci su 'l Peneo l'aspra vendetta.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Poiché 'l destin che in suo governo tiene</l>
+<l>le somme parti di natura e move</l>
+<l>queste cose mortali a suo talento,</l>
+<l>figlio e ministro è de l'eterno Giove,</l>
+<l>querelarti di lui già non conviene</l>
+<l>in questo universal misero stato.</l>
+<l>Per lui viver n'è dato</l>
+<l>con egual sorte, e i gloriosi eroi</l>
+<l>e i re possenti consolar si ponno:</l>
+<l>ché dentro a le capanne ancora a noi</l>
+<l>i noiosi pensier turbano il sonno.</l>
+</lg>
+<lg>
+	<l>Non son così tranquilli i boschi, e i colli</l>
+<l>non son sì dolci e le città no 'l sanno.</l>
+<l>A le bell'ombre ancora</l>
+<l>in nostra compagnia siede l'affanno.</l>
+<l>Non tante piaghe e danno</l>
+<l>porta il fascino e 'l lupo al nostro gregge,</l>
+<l>come quel che ne regge,</l>
+<l>Amor nostro tiranno.</l>
+<l>Anco 'l cieco sospetto</l>
+<l>nostre potenze aduggia,</l>
+<l>né pon gli stessi dei,</l>
+<l>se vestono fra noi spoglie mortali,</l>
+<l>aver schermo e valore</l>
+<l>incontro a tanti mali.</l>
+<l>Oh troppo dura sorte!</l>
+<l>Oh sempre fermo, incontrastabil Fato,</l>
+<l>stirpe di Giove, ma di Giove irato!</l>
+</lg>
+</sp>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Seguendo un mio desir, che mi diparte</l>
+<l>da tutto 'l mondo e fa il mio guardo schivo</l>
+<l>d'ogni bel poggio e d'ogni ameno loco,</l>
+<l>in solitaria parte</l>
+<l>pien di sospir men vivo</l>
+<l>e penso come Amor m'ha posto in foco.</l>
+<l>In sì misero stato a me cal poco</l>
+<l>se risorger son visti i lieti giorni</l>
+<l>e le bell'aure e i fiori,</l>
+<l>e se co 'l vago aprile or fa ritorno</l>
+<l>la stagion de gli amori.</l>
+<l>Rinovellan le fiamme</l>
+<l>a i lor felici amanti</l>
+<l>co 'l dolce sguardo e ragionar cortese</l>
+<l>le belle ninfe in gentil foco accese.</l>
+<l>D'amorosi pensier tutti son pieni</l>
+<l>i pastorali alberghi, in novi modi</l>
+<l>oggi s'ascoltan favellar le selve.</l>
+<l>Chi loda Amore e 'l mansueto impero,</l>
+<l>chi le belle ferite</l>
+<l>che insino al cor gli vanno,</l>
+<l>chi 'l dolce tempo del suo dolce affanno.</l>
+<l>Io solo ho voce lagrimosa e solo</l>
+<l>me non allegra aprile;</l>
+<l>anzi spiacente e grave</l>
+<l>emmi l'aura soave e 'l bel sereno.</l>
+<l>Di ciò n'ha colpa chi s'è posto in mano</l>
+<l>de la mia vita il freno.</l>
+</lg>
+<lg>
+	<l>Filomena, se tu piagni</l>
+<l>e ti struggi nel dolore,</l>
+<l>d'un tiranno almen ti lagni,</l>
+<l>io mi lagno sol d'Amore.</l>
+</lg>
+<lg>
+	<l>Tortorella, se sospiri,</l>
+<l>fosti un tempo almen felice</l>
+<l>io mi pasco di martiri,</l>
+<l>né 'l mio ben sperar mi lice.</l>
+</lg>
+<lg>
+	<l>Solo per mio tormento</l>
+<l>in me pose natura</l>
+<l>d'amare il bel talento</l>
+<l>Amor l'anime altrui</l>
+<l>nutrisce d'un tranquillo almo diletto,</l>
+<l>e sol dentro al mio petto</l>
+<l>ha volto in rigid'uso il suo costume.</l>
+<l>Invogliossi d'udir pianti e querele,</l>
+<l>e si prese vaghezza</l>
+<l>di trar quest'alma in signoria crudele.</l>
+</lg>
+<lg>
+	<l>Se de' miei penosi ardori</l>
+<l>gli aspri eventi</l>
+<l>incidessi in su gli allori</l>
+<l>qual saria de' lieti amanti,</l>
+<l>che in leggendo i mesti accenti</l>
+<l>non turbasse atti e sembianti,</l>
+<l>non piangesse a' miei tormenti?</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Quante ghirlande intorno</l>
+<l>io vidi a le tue chiome!</l>
+<l>Quanto caro a le selve era 'l tuo nome,</l>
+<l>mentre 'l cor t'accendea</l>
+<l>il pensiero de l'arco e degli strali!</l>
+<l>E se ben tra' mortali e tra' celesti</l>
+<l>è la mia deità grande e possente,</l>
+<l>fortunato garzon, ti fu presente</l>
+<l>in su le belle imprese e sen compiacque.</l>
+<l>Io giocondi movea lampi e sorrisi</l>
+<l>su 'l mirar da' tuoi dardi</l>
+<l>i fier cinghiali ancisi. Or qual destino,</l>
+<l>Endimion, ti spoglia</l>
+<l>d'ogni leggiadra voglia?</l>
+<l>Omai sen vanno in lor balia le forti</l>
+<l>e le timide belve, e tu non curi</l>
+<l>più le bell'arti d'illustrar le selve.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>O dea, che far degg'io?</l>
+<l rend="italic">Così mi sforza Amore,</l>
+<l rend="italic">Amore armato di valore eterno,</l>
+<l rend="italic">che fa, quando a lui piace,</l>
+<l rend="italic">de' poveri pastori</l>
+<l rend="italic">e degli eroi superbi aspro governo.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Non ben comprende il vero,</l>
+<l>Endimion, tua mente: Amor è solo</l>
+<l>sì forte dio su l'oziosa gente.</l>
+</lg>
+<lg>
+<l>Ei non osa e non presume</l>
+<l>sovra 'l cor de' miei seguaci,</l>
+<l>di provar non ha costume</l>
+<l>nel lor petto arme né faci.</l>
+</lg>
+<lg>
+<l>A la severa e gloriosa vita</l>
+<l>de gli studi di Cintia omai ritorna,</l>
+<l>e di novelli onori</l>
+<l>il tuo bel nome adorna.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Lascieranno l'api i fiori,</l>
+<l>il bel canto i dolci augelli,</l>
+<l>l'ombra cara gli arboscelli</l>
+<l>pria che io lasci e non adori</l>
+<l>lo splendor che al cor mi scese.</l>
+<l>È fatale</l>
+<l>l'aureo strale</l>
+<l>onde Amor l'alma mi prese.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Dunque d'amar ti riconsigli e schivi</l>
+<l>di seguire il mio nume?</l>
+<l>Vanne lungi, o profano,</l>
+<l>ché innanzi al mio gran lume</l>
+<l>or di fermarti al guardo tuo non lice.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Andrò con le mie pene ove mi sforza</l>
+<l>il destino infelice.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Fortunato pastor, se tu vedessi</l>
+<l>come accesi si stanno i miei pensieri,</l>
+<l>viva in loro potresti</l>
+<l>ravvisar la pietà ch'ora disperi.</l>
+<l>Vedresti la pietà, tenera cura,</l>
+<l>cangiare in me costume</l>
+<l>e farsi entro il mio core</l>
+<l>crudelissima ancella</l>
+<l>del mio nemico Amore.</l>
+<l>Quanto ho creduto a questi boschi, a queste</l>
+<l>campagne, a questi lidi,</l>
+<l>ch'ora sì provo infidi!</l>
+<l>Erano un tempo albergo</l>
+<l>d'innocenza e di pace;</l>
+<l>ma quando a gli occhi miei</l>
+<l>mostràr tanta beltate,</l>
+<l>allor divenner rei</l>
+<l>d'immensa crudeltate.</l>
+</lg>
+<lg>
+	<l>Son fuggita da le sfere</l>
+<l>per fuggirti, o crudo Amore,</l>
+<l>né mi val seguir le fere,</l>
+<l>né star chiusa in chiuso orrore,</l>
+<l>ché vèr me dispieghi l'ali</l>
+<l>e mi giungi co' tuoi strali.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Non son, come altri crede, un dio feroce,</l>
+<l>ma bensì tra gli dei c'han fede in cielo</l>
+<l>il più possente e 'l più gentile io sono.</l>
+<l>E se 'l folgore e 'l tuono</l>
+<l>tolgo di mano a Giove, e a gli altri numi</l>
+<l>spezzo gli scettri e l'armi</l>
+<l>e lor traggo in mia schiera,</l>
+<l>ciò non avvien perché nel core io chiuda</l>
+<l>o pensiero tiranno o voglia altera,</l>
+<l>ma bensì perché sono a' miei diletti</l>
+<l>o ritrosi o nemici;</l>
+<l>ed io so che gli dei</l>
+<l>senza il piacer d'amar son men felici.</l>
+</lg>
+<lg>
+	<l>Quell'alma che intende</l>
+<l>d'amar la bell'arte,</l>
+<l>dal regno amoroso</l>
+<l>non mai si diparte.</l>
+</lg>
+<lg>
+<l>Sì soavi vicende,</l>
+<l>sì tranquilli riposi</l>
+<l>in suo stato comprende,</l>
+<l>ch'oblia poscia le tempre</l>
+<l>di tutt'altri piacer per amar sempre.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Se per desio de la mia morte vieni</l>
+<l>a far soggiorno in questi boschi, Amore,</l>
+<l>vibra pure i tuoi strali</l>
+<l>più pungenti e mortali, aprimi il seno;</l>
+<l>e se mancan saette a la faretra,</l>
+<l>per fornire il tuo novo aspro pensiero,</l>
+<l>osa l'ultimo eccesso:</l>
+<l>nel misero mio cor vibra te stesso.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Ingrato Endimion, di che ti lagni?</l>
+<l>Io che potea ferirti</l>
+<l>per ninfa alpestre e vile,</l>
+<l>di fiamma alta e gentile</l>
+<l>accesi i tuoi desiri.</l>
+<l rend="italic">Avventuroso amante</l>
+<l rend="italic">per l'emula del sole ardi e sospiri.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l rend="italic">E ben di ciò mi dolgo,</l>
+<l rend="italic">odiando gli occhi miei che troppo osaro,</l>
+<l rend="italic">duci infidi de l'alma,</l>
+<l><hi rend="italic">mirar tant'alto</hi>. Or quel pensier io sgrido,</l>
+<l>che la mente m'impresse</l>
+<l>di sì gran foco e lume,</l>
+<l>e che in umil pastor fece costume</l>
+<l>l'amar cosa celeste:</l>
+<l>pensier tanto infelice,</l>
+<l>che via più disperando è fatto audace,</l>
+<l>e m'incende e mi sface.</l>
+<l>Ei sì feroce nel mio cor s'avanza,</l>
+<l>che violenta l'alma</l>
+<l>a viver di desio fuor di speranza.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>E ti rechi ad oltraggio</l>
+<l>ch'abbia tanto infiammati i desir tuoi</l>
+<l>il valor del mio raggio? Or la tua mente</l>
+<l>in ogni suo pensier s'erge e sfavilla,</l>
+<l>né più ragiona in pastorali accenti,</l>
+<l>ma in note alme e leggiadre.</l>
+<l>Ed è questa d'Amore alta possanza,</l>
+<l>che cotanto dal vile</l>
+<l>imaginar ti leva e ti diparte,</l>
+<l>e sì t'addita l'arte</l>
+<l>di gire in pregio e d'esser caro a i numi.</l>
+<l>E tu vèr lui t'adiri?</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Amore, omai</l>
+<l>cangia pur tuo favore.</l>
+<l>Deggio star con gli dei</l>
+<l>carco sempre di pianto e di dolore?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Dona tregua</l>
+<l>a' tuoi tormenti,</l>
+<l>gli elementi</l>
+<l>regge Amore e insieme adegua;</l>
+<l>lascia Amore alti vestigi</l>
+<l>di prodigi</l>
+<l>dove vive e dove impera.</l>
+<l>Ardi e spera.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Ben tal volta mi lusingo</l>
+<l>e mi fingo</l>
+<l>qualche lampo di speranza;</l>
+<l>ma 'l tormento più s'avanza,</l>
+<l>ché s'avvede de l'inganno,</l>
+<l>ed allor per far l'affanno</l>
+<l>men possente e men severo</l>
+<l>io dispero.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Nulla t'affidi e forse ancor non sai</l>
+<l>che non ponno giamai mentir gli dei.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Ecco Cintia sen viene,</l>
+<l>e lungi da' bei rai partir conviene.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Amor, se giusto sei,</l>
+<l>miei preghi ascolta e mia ragione intendi.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Indarno meco a favellar tu prendi.</l>
+<l rend="italic">Fia mia gloria maggiore</l>
+<l rend="italic">e maggior mio diletto</l>
+<l rend="italic">con quest'arco fatale</l>
+<l rend="italic">domare a Cintia il petto.</l>
+<l rend="italic">Io se te non traessi infra i soggetti</l>
+<l rend="italic">a l'amoroso impero,</l>
+<l rend="italic">nulla più curerei</l>
+<l rend="italic">di tanti vinti numi</l>
+<l rend="italic">le famose vittorie e i gran trofei.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Troppo è tua legge imperiosa e grave.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>È 'l mio giogo soave.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Perché mal grado mio</l>
+<l>vuoi tu ne la mia mente</l>
+<l>trasformare il desio?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Se pure ancora io sono</l>
+<l>quel dio grande e temuto,</l>
+<l>non voglio de' miei doni aver rifiuto.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Quando d'un'alma Amor preso ha l'impero,</l>
+<l>gli usi seguendo de' tiranni e l'arte,</l>
+<l>lascia cotanto la ragione afflitta</l>
+<l>e le virtù sì disarmate e sparte,</l>
+<l>che nulla v'è che racquistare in parte</l>
+<l>possa l'antico stato</l>
+<l>da le man de l'ingrato empio signore.</l>
+<l>In cotal guisa Amore</l>
+<l>suoi feri geni adempie e non temendo</l>
+<l>cosa che turbi mai l'aspro governo,</l>
+<l>fa l'altrui giogo e 'l suo gran regno eterno.</l>
+</lg>
+</sp>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Io son sì stanco di soffrir lo scempio</l>
+<l>che i pensieri d'amor fan del mio core,</l>
+<l>che vo turbando le campagne e i lidi</l>
+<l>co' miei dogliosi stridi;</l>
+<l>e son sì pieno di pietate e d'ira</l>
+<l>su 'l pensar di me stesso,</l>
+<l>che a ciascun passo vo chiamando morte,</l>
+<l>perché sovra d'Amor fatta più forte</l>
+<l>ritor mi voglia a sì feroce affanno,</l>
+<l>e schernire il tiranno.</l>
+<l>Oh se morte vibrasse in questo seno</l>
+<l>qualche funesta sua crudel saetta,</l>
+<l>qual sarebbe di lei</l>
+<l>nova gloria e trionfo e mia vendetta!</l>
+<l>Ma s'ella del mio duol cura non prende</l>
+<l>e di ferir questo mio petto abborre,</l>
+<l>ecco il sonno cortese,</l>
+<l>imagine di lei, che mi soccorre:</l>
+<l rend="italic">quel che da gli occhi miei tanto sbandiro</l>
+<l rend="italic">l'aspre cure d'amor, tranquillo oblio,</l>
+<l rend="italic">sento su 'l mio martire,</l>
+<l>e par che 'l mesto core</l>
+<l>or s'avvezzi a morire.</l>
+</lg>
+<lg>
+<l>Ombre placide, serene</l>
+<l>del soave amico Lete,</l>
+<l>care siete</l>
+<l>al mio duolo, a le mie pene;</l>
+<l>ma più care anco sareste</l>
+<l>se foste del mio fato ombre funeste.</l>
+</lg>
+<lg>
+<l>Ombre rigide di morte,</l>
+<l>voi potreste consolarmi</l>
+<l>e recarmi</l>
+<l>la felice intera sorte.</l>
+<l>V'aspettò l'alma sovente,</l>
+<l>or giace stanca e al suo destin consente.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Qual prenderò consiglio</l>
+<l>or che mi veggio al periglioso varco,</l>
+<l>dove Amor contra me riprende l'arco</l>
+<l>e vuol salir de la mia gloria in cima?</l>
+<l>E certo fia che il suo valor m'opprima,</l>
+<l>ché mie difese contra lui non ponno.</l>
+<l>Egli è quel grande arciero, a cui non cale</l>
+<l>d'alma fornita di diaspro e d'ira.</l>
+<l>In quai pensieri la mia vita gira</l>
+<l>questo crudel che io dico? Egli s'invoglia</l>
+<l>vedermi aperta al fianco</l>
+<l>da' suoi pungenti strali,</l>
+<l>gir sospirando in selva</l>
+<l>per bellezze mortali.</l>
+<l>Ma se per prova intendo</l>
+<l>che si vince fuggendo il crudo Amore,</l>
+<l>oggi farò ritorno</l>
+<l>al celeste soggiorno.</l>
+</lg>
+<lg>
+	<l>Or che queste</l>
+<l>alme foreste</l>
+<l>fa sua reggia il fero dio,</l>
+<l>tutto è pena al guardo mio.</l>
+<l>Orrid'ombra sparge il bosco</l>
+<l>e sol tosco</l>
+<l>versa il fonte e corre il rio.</l>
+<l>Tutto è pena al guardo mio.</l>
+</lg>
+<lg>
+	<l>Parte lungi da me l'aura gentile</l>
+<l>innanzi a gli occhi miei</l>
+<l>si discolora aprile.</l>
+</lg>
+<lg>
+	<l>Orrid'ombra sparge il bosco</l>
+<l>e sol tosco</l>
+<l>versa il fonte e corre il rio.</l>
+<l>Tutto è pena al guardo mio.</l>
+</lg>
+<lg>
+	<l>Sì, sì, fuggir io voglio</l>
+<l>da queste ingrate selve.</l>
+<l>Ma come fuggir posso</l>
+<l>da queste selve ove perdei me stessa?</l>
+<l>Ecco dal sonno avinto</l>
+<l>il leggiadro pastore,</l>
+<l>che le mie voglie co' begli occhi oppresse</l>
+<l>e ruppe il mio rigore.</l>
+<l>Sovra la lor possanza e lor costume</l>
+<l>formàr bello costui cielo e natura,</l>
+<l>sì che qualunque opra gentil si faccia</l>
+<l>sembra un raggio del bel che a lui si fura.</l>
+<l>Ora mi lice d'obliar le sfere</l>
+<l>e i maggior lumi degli eterni dei,</l>
+<l>se posso intorno a sì leggiadre forme</l>
+<l>la vaghezza acquetar de' desir miei.</l>
+<l>Entro la luce del mio sol che dorme</l>
+<l>Amor chiuso si giace.</l>
+<l>Ma pur l'usata face io sento al core:</l>
+<l>da le chiuse pupille</l>
+<l>escon care faville e care offese,</l>
+<l>che nova ne' pensier guerra mi fanno;</l>
+<l>e vinte dal piacer far lor difese</l>
+<l>contra i begli occhi mie virtù non sanno.</l>
+<l>Pastorello, or tu non sai</l>
+<l>che gli dei per te sospirano,</l>
+<l>e infiammar per te si mirano</l>
+<l>l'alte menti a' tuoi bei rai.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l rend="italic">Quando nel costui regno io posi il piede,</l>
+<l rend="italic">tutti i mesti pensier mi furo intorno</l>
+<l rend="italic">e m'empiro di lagrime e d'orrore.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Di che sogna e favella?</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Ben ho cagion d'aver in odio il giorno</l>
+<l>in cui conobbi Amore.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Ah ben vaneggia Endimion, ché solo</l>
+<l>a me così di ragionar conviensi.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Il sanno i monti, il sanno</l>
+<l>le più riposte valli,</l>
+<l>che risposer sovente a la mia doglia.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Tu segui ancora in sì turbati accenti</l>
+<l>i tuoi vani lamenti?</l>
+</lg>
+<lg>
+	<l>Da gli Elisi oh venga almeno</l>
+<l>un bel sogno a consigliarti,</l>
+<l>ed ei prenda a favellarti</l>
+<l>su gli incendi del mio seno.</l>
+</lg>
+<lg>
+	<l>Più non ascolto il suono</l>
+<l>de le dolci parole,</l>
+<l>né si concede ancora</l>
+<l>lo splendor de' bei lumi a i lumi miei.</l>
+<l rend="italic">Pur vagheggiare in tanto</l>
+<l rend="italic">posso le vive rose</l>
+<l rend="italic">de le labbra amorose e ber con gli occhi</l>
+<l rend="italic">l'inefabil dolcezza</l>
+<l rend="italic">di questa bella bocca,</l>
+<l>che se favella o ride</l>
+<l>così soavemente i cori ancide.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Odi la dea ritrosa,</l>
+<l>odi come ragiona</l>
+<l>la famosa d'Amore aspra nemica?</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Il mio troppo desire hammi tradita.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Tu fuggi, o dea, né più ti pregi o vanti</l>
+<l>aver d'invitto ardire il petto cinto:</l>
+<l>il mio valor t'ha vinto.</l>
+<l>Coronatemi di rose,</l>
+<l>circondatemi d'allori,</l>
+<l>ché d'amor Cintia sospira</l>
+<l>e sé mira</l>
+<l>tutta fiamme e tutti ardori.</l>
+</lg>
+<lg>
+	<l>Coronatemi di rose,</l>
+<l>circondatemi d'allori.</l>
+</lg>
+<lg>
+	<l>Endimion, tu giaci</l>
+<l>ancora in grembo al sonno,</l>
+<l>e l'amorose tue belle venture</l>
+<l>te rallegrar non ponno.</l>
+<l>Omai si sciolga sì tenace oblio:</l>
+<l>ascolta il parlar mio,</l>
+<l>tutto pieno di gioia e di salute.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>E chi rompe i silenzi a me sì cari</l>
+<l>e turba la mia pace?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Pastor, ti riconforta,</l>
+<l>ché felici novelle Amor ti porta.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Tu m'involi a i riposi,</l>
+<l>tu mi svegli a i tormenti,</l>
+<l>e poi le tue promesse</l>
+<l>si porteranno i venti.</l>
+</lg>
+<lg>
+	<l>Io non arsi i tempi tuoi,</l>
+<l>non distrussi il tuo bel regno,</l>
+<l>e pur segno</l>
+<l>a i martiri ogn'or mi vuoi.</l>
+<l>Mi lusinghi in novi modi,</l>
+<l>e sì godi</l>
+<l>far eterno il mio dolore.</l>
+<l>Lascia, Amor, d'esser Amore:</l>
+<l>empia è l'arte onde m'affidi;</l>
+<l>lascia di lusingarmi o pur m'uccidi.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Qual uom che sogna e di sua mente è incerto,</l>
+<l>meco favelli e non men dolgo o sdegno,</l>
+<l>ma cortese ne vegno a dirti cose</l>
+<l>strane e gioconde, a tutto il mondo ascose.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>A me sperar non lice</l>
+<l>sorte così felice.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Per questo dardo e per la face eterna</l>
+<l>onde infiammo gli dei, giuro che Cintia</l>
+<l>or sente in mezzo a l'alma</l>
+<l>starle la mia possanza e 'l mio valore.</l>
+<l>Ben si pensava di schernire Amore</l>
+<l>e la grand'opra di quest'arco d'oro</l>
+<l>co 'l porsi in fuga in vèr le stelle eccelse;</l>
+<l>ma non giova fuggir né scioglier l'ali,</l>
+<l>quando colui che fugge</l>
+<l>entro 'l piagato sen porta gli strali.</l>
+<l>E poscia un'alma accesa,</l>
+<l>quanto più si consiglia e più ritenta</l>
+<l>torsi a' lacci d'Amor, più s'incatena.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>È ben sovra gli dei certo felice</l>
+<l>chi sospirar fa Cintia.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Ella mirando</l>
+<l>poc'anzi il tuo bel volto,</l>
+<l>mentre al sonno chiudevi i lumi tuoi,</l>
+<l>incominciò novi sospiri ardenti,</l>
+<l>e quel novo parlar ch'io proprio inspiro</l>
+<l>a l'amorose menti.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Non sono, Amor, non sono</l>
+<l>i poveri pastori</l>
+<l>possenti ad invaghir cose celesti.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Qual da bel velo, Endimion, traluce</l>
+<l>fuor de le tue sembianze</l>
+<l>quanto de' doni suoi</l>
+<l>in te sparse natura e pose il cielo;</l>
+<l>ma senz'opra d'Amore ignudo fregio</l>
+<l>sono le belle giovenili forme:</l>
+<l>ché solo Amore affina</l>
+<l>quanto di bello la natura adombra.</l>
+<l>Io solo t'insegnai gli atti gentili</l>
+<l>e le grate accoglienze e i bei costumi</l>
+<l>soavemente alteri,</l>
+<l>ed a le Grazie, di mia voglia ancelle,</l>
+<l>io governar commisi</l>
+<l>tuoi sospiri e sorrisi</l>
+<l>e tue parole e sguardi,</l>
+<l>che sono al cor di Cintia</l>
+<l>tante facelle e dardi.</l>
+<l rend="italic">E per dirti l'intero alto favore,</l>
+<l rend="italic">io t'ho innalzato oltra mortal costume</l>
+<l>ed ho inchinato a le tue voglie un nume</l>
+<l>tanto fugace e schivo,</l>
+<l>onde sovra i tuoi novi alti trofei</l>
+<l>starà certo pensosa</l>
+<l>la schiera de gli dei.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Amor, tu mi lusinghi</l>
+<l>e godi di schernire il mio tormento.</l>
+<l rend="italic">Come pose in oblio</l>
+<l rend="italic">Cintia il rigido suo fero talento?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Sia pur sdegnosa, altera</l>
+<l>alma di donna o dea,</l>
+<l>ch'è più dolce il piacer d'essere amante</l>
+<l>che quel vano piacer d'esser severa.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>E che sperar degg'io da tanto nume?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Ama, ch'amando non si reca oltraggio.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Io troppo in alto miro</l>
+<l>starsi il fatale oggetto</l>
+<l>onde sempre sospiro.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Avvalora te stesso</l>
+<l>e l'alma pasci d'amoroso ardore,</l>
+<l rend="italic">ch'amor fu sempre alta cagion d'amore.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>È un martìr l'essere amante,</l>
+<l>ed è duro il non amar.</l>
+<l>Son gli egri mortali</l>
+<l>su 'l bivio de' mali:</l>
+<l>qualunque sentiero,</l>
+<l>che calchi il pensiero,</l>
+<l>conduce a penar.</l>
+<l>È un martìr l'essere amante</l>
+<l>ed è duro il non amar.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Svela pure i tuoi tormenti,</l>
+<l>ché al tuo duol darassi fede:</l>
+<l>Cintia ancor languir si vede</l>
+<l>nel rigor di fiamme ardenti.</l>
+</lg>
+<lg>
+	<l>Chi non osa e sempre tace</l>
+<l>lieto farsi mai non speri.</l>
+<l>Chi in amore ha core audace</l>
+<l>poggia in grembo de' piaceri.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Di quest'anima mia stanno al governo</l>
+<l>due possenti nemici, ambo tiranni,</l>
+<l>ambo volti a' miei danni, ambo crudeli.</l>
+<l>Convien ch'io mi quereli</l>
+<l>d'Amore in prima, che feroce sprona</l>
+<l>l'intelletto e 'l desire,</l>
+<l>perché s'armin d'ardire,</l>
+<l>e per troppa alta impresa ei mi ragiona.</l>
+<l>Per me grand'ali impenna,</l>
+<l>ché per lo ciel portarmi egli destina,</l>
+<l>ma veggio sotto i piè l'ampia rovina.</l>
+<l>Quindi 'l Timore ogni mia voglia affrena,</l>
+<l>ed è questi di me l'altro tiranno,</l>
+<l>che mi pasce d'affanno</l>
+<l>e conduce i miei dì di pena in pena.</l>
+<l>Ma pur merta d'aver su 'l piè catena</l>
+<l>chi spezzarla non tenta e soffre e tace.</l>
+<l>Noi farem su per l'alto un volo audace</l>
+<l>e seguiremo Amor dove ne mena,</l>
+<l>seguiremo il destin dove a lui piace;</l>
+<l>e se di Febo il figlio</l>
+<l>e la dedalea prole</l>
+<l>oggi per noi vedrassi</l>
+<l>pareggiar nel consiglio e ne la morte,</l>
+<l rend="italic">dietro sì chiare scorte</l>
+<l rend="italic">fia bel vanto il morire,</l>
+<l rend="italic">e 'l suono dell'età potrà ben dire:</l>
+<l>- Questi vivo giungea sovra le stelle,</l>
+<l>ma non piacque agli dei sì bello ardire -.</l>
+</lg>
+<lg>
+	<l>Io ch'al prato, al monte, al bosco</l>
+<l>vissi povero pastore,</l>
+<l>cangio stato e mi conosco</l>
+<l>pien di novo alto valore.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Dolce forza d'Amor, che 'l tutto movi</l>
+<l>e le cose dissimili e nemiche</l>
+<l>in un voler soavemente leghi,</l>
+<l>tu sol le tempre rigide e feroci</l>
+<l>de l'indomite menti infiammi e sciogli</l>
+<l>e le superbe a tuo talento pieghi.</l>
+<l>Or non fia mai che tua possanza io neghi,</l>
+<l>poiché d'impero e libertà mi spogli</l>
+<l>e degli usati orgogli,</l>
+<l>lasciando mia ragione inerme e vinta;</l>
+<l>la qual temendo tua virtute estinta</l>
+<l>dal tuo sommo valor si riconforta,</l>
+<l>ed è tale 'l piacer ch'ora mi viene</l>
+<l>dal tuo spirto gentile,</l>
+<l>che d'avermi difesa ella si pente</l>
+<l>e 'l collo al giogo tuo lieto consente.</l>
+<l>Solo di te mi dolgo,</l>
+<l>perché tardasti, Amore, a farmi serva</l>
+<l>ed a donarmi la tua bella luce.</l>
+<l>Or veggio ben che tu natura illustri</l>
+<l>e che movi tranquilli almi diletti.</l>
+<l>Quanto è di pellegrino e di gentile</l>
+<l>in su la terra e in ciel tu solo inspiri;</l>
+<l>tu di leggiadre forme</l>
+<l>tutti i pensieri adorni;</l>
+<l>a' tuoi popoli imponi</l>
+<l>soave freno e mansuete leggi;</l>
+<l>e s'albergan tiranni entro i tuoi regni,</l>
+<l>son le dolci speranze e i dolci sdegni.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CORO DI NINFE</speaker>
+<lg>
+<l>Già l'usato</l>
+<l>fier latrato</l>
+<l>non percote più le selve;</l>
+<l>già le belve</l>
+<l>escon fuor de' chiusi chiostri,</l>
+<l>e sicure</l>
+<l>da sventure</l>
+<l>stan dinanzi a gli archi nostri.</l>
+</lg>
+<lg>
+	<l>Tronche han l'ali</l>
+<l>nostri strali,</l>
+<l>or ch'in selva è 'l grande arciero,</l>
+<l>quel sì fiero</l>
+<l>che saetta uomini e dei.</l>
+<l>Non v'è ardire</l>
+<l>di ferire</l>
+<l>or ch'in terra, Amor, tu sei.</l>
+</lg>
+<lg>
+	<l>Ma qual core</l>
+<l>dal valore</l>
+<l>de' tuoi dardi si difende?</l>
+<l>Tutto accende</l>
+<l>tua faretra e Cintia vede</l>
+<l>ch'alta forza</l>
+<l>pur lei sforza</l>
+<l>nel tuo regno a porre il piede.</l>
+</lg>
+<lg>
+	<l>Grave peso</l>
+<l>le s'è reso</l>
+<l>il portar faretra ed arco;</l>
+<l>l'aspro incarco</l>
+<l>già depone e son vedute</l>
+<l>or le fere</l>
+<l>gire a schiere</l>
+<l>a schernir l'armi temute.</l>
+</lg>
+<lg>
+	<l>Or sospira,</l>
+<l>or s'adira,</l>
+<l>ora tace e si consiglia;</l>
+<l>or ripiglia</l>
+<l>la faretra e non la regge:</l>
+<l>sì lei sface</l>
+<l>la tua face</l>
+<l>sotto 'l giogo di tua legge.</l>
+</lg>
+<lg>
+	<l>Lungo orrore</l>
+<l>e dolore</l>
+<l>porta al suol l'asta di Marte;</l>
+<l>torri sparte</l>
+<l>lascia il folgore di Giove;</l>
+<l>ma lo strale</l>
+<l>tuo fatale</l>
+<l>fa su i numi orribil prove.</l>
+</lg>
+</sp>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Amor, che m'infiammasti ed or mi guidi</l>
+<l>a l'alta impresa, il tuo potere adopra</l>
+<l>e me su 'l gran momento aita e reggi;</l>
+<l>tu ne' miei detti ora favella e spiega</l>
+<l>ne' tuoi leggiadri ed animosi modi</l>
+<l>gli ardenti miei desiri,</l>
+<l>sì ch'a la dea non spiaccia</l>
+<l>che quest'anima mia per lei sospiri.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Che ragioni d'Amor? Qual dea rammenti?</l>
+<l>Vorrai mai sempre, Endimion, lontano</l>
+<l>gir dal coro de' nobili pastori,</l>
+<l>e menarne i begli anni</l>
+<l>solitari e pensosi</l>
+<l>per amorosi affanni?</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Da così bella e luminosa parte</l>
+<l>discende il foco mio,</l>
+<l>che spegner no 'l poss'io</l>
+<l>senza oltraggiar gli dei.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>E co 'l favor de' numi</l>
+<l>far tua colpa felice,</l>
+<l>Endimion, presumi?</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Amor m'ha date l'ali</l>
+<l>non per cose mortali, e 'l tuo bel lume</l>
+<l>di raggio in raggio m'avvalora ed erge.</l>
+<l>Io per lui poggio a sì sublime stato,</l>
+<l>che per me stesso non saria giamai</l>
+<l>salito a tal ventura.</l>
+<l>Or tu, cortese dea, prenditi cura</l>
+<l>di quella fiamma che da te discende,</l>
+<l>e a te stessa perdona</l>
+<l>la colpa che t'offende.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>E tanto lice ad ardimento umano?</l>
+<l>Io ben saprei de' miei famosi sdegni</l>
+<l>rinovellar gli esempi,</l>
+<l>e non so qual pietà di te m'assaglia.</l>
+<l>Il rimembrar che de' miei forti studi</l>
+<l>glorioso seguace un tempo fosti,</l>
+<l>forse contempra l'ira</l>
+<l>che l'alta offesa spira.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Amor, che in queste selve alberga e regna,</l>
+<l>- Osa, - mi disse - Endimione, e svela,</l>
+<l>svela le belle fiamme e gli aurei dardi</l>
+<l>a la celeste dea per cui cotanto</l>
+<l>ti discolori ed ardi,</l>
+<l>né disperar conforto al tuo dolore -.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>E tu credi ad Amore,</l>
+<l>che fa suo nobil uso</l>
+<l>l'ornar menzogne in lusinghieri accenti,</l>
+<l>e che d'aure fallaci</l>
+<l>pasce ad ogn'or l'innamorate menti?</l>
+<l>Quanto semplice fosti in dargli fede!</l>
+<l>Pur la colpa innocente a te condona</l>
+<l>l'alta mia deitate,</l>
+<l>da cui mai sempre avrai,</l>
+<l>se non amor, pietate.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Passa l'amata dea sdegnosa, altera</l>
+<l>dinanzi Amor che se la vede e soffre,</l>
+<l>e 'l grand'onor di farla serva oblia;</l>
+<l>e meco poi vano campion si vanta</l>
+<l>d'aver cotanto soggiogata e vinta</l>
+<l>questa bella di lui nemica e mia.</l>
+<l>Or riprender se stesso egli dovria,</l>
+<l>ché non ardisce a lei mostrar la face,</l>
+<l>e me saetta e strugge</l>
+<l>per costei che si fugge,</l>
+<l>sforzandomi ad amar donna celeste,</l>
+<l rend="italic">la qual d'aspro costume ogn'ora veste</l>
+<l rend="italic">per mio fatal tormento ogni pensiero.</l>
+<l>Seguace di quel fero</l>
+<l>trastullo di trattar faretre e strali,</l>
+<l>sdegna le dolci cure, e i bei diletti</l>
+<l>gode sprezzar de la serena vita;</l>
+<l>e spesso si compiace entro le selve</l>
+<l>minacciosa e feroce</l>
+<l>a gli uomini apparir più ch'a le belve;</l>
+<l>pur per l'aspre repulse</l>
+<l>né di lei, né d'Amor punto mi dolgo.</l>
+<l>Abbraccio l'ire e i dardi in petto accolgo,</l>
+<l>ch'uomo nel suo gioir non fu sì lieto,</l>
+<l>come di mia sventura io son contento;</l>
+<l>e la ragion, che vede</l>
+<l>quanto lume e valor da voi mi viene,</l>
+<l>care luci serene,</l>
+<l>a i colpi del bel guardo non provede.</l>
+<l>Arderò fuor di speme,</l>
+<l>né pentirassi l'alma,</l>
+<l>tant'è bello il pensier, bello il desio</l>
+<l>e bello il foco mio,</l>
+<l>che se portar mi lice</l>
+<l>la gloriosa fiamma</l>
+<l>sì chiara a l'altra riva</l>
+<l>per l'elisie contrade</l>
+<l>in fra i felici amanti,</l>
+<l>andrò del mio tormento anco superbo;</l>
+<l>e la memoria del leggiadro ardire,</l>
+<l>che sì portommi a volo</l>
+<l>oltra mortal confine,</l>
+<l>bello farà l'orrore</l>
+<l>anco di mie ruine.</l>
+</lg>
+<lg>
+	<l>A temprar mie fiamme ardenti</l>
+<l>non da me pietà si chiede:</l>
+<l>io non voglio altra mercede</l>
+<l>che goder de' miei tormenti.</l>
+</lg>
+<lg>
+<l>Se penar sempre mi lice,</l>
+<l>non invidio i lieti amanti:</l>
+<l>la bell'arte de' miei pianti</l>
+<l>sola può farmi felice.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Arde Cintia d'amor, né si consiglia</l>
+<l>di palesar le fiamme, anzi le cela</l>
+<l>co' feminili ingegni,</l>
+<l>come amando faria donna mortale;</l>
+<l>ma se io pur sono ancora</l>
+<l>quel fanciullin fatale</l>
+<l>che de' pensieri altrui scherno si prende,</l>
+<l>nulla giovar le ponno i modi e l'arte,</l>
+<l>ond'ella pensa di celare amore.</l>
+<l>Io lascierò che nutra in seno ascose</l>
+<l>le sue fiamme amorose;</l>
+<l>ma da i labri e da i guardi</l>
+<l>farò che d'improviso</l>
+<l>escan lampi e faville,</l>
+<l>ch'ogni legge e divieto</l>
+<l>si prenderanno a gioco,</l>
+<l>e una scintilla sola</l>
+<l>farà celebre il foco.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Tardi conobbi, Amore,</l>
+<l>le tue pure dolcezze e i tuoi bei pregi;</l>
+<l>e ciò per colpa del mio fier destino</l>
+<l>che sin ora velommi il tuo bel raggio.</l>
+<l>Egli a creder mi diede</l>
+<l>che senza grave oltraggio</l>
+<l>d'ogni vera virtute unqua non puoi</l>
+<l>aver soggiorno in noi:</l>
+<l>ond'io cieca seguendo il crudo inganno</l>
+<l>dal fonte de' diletti il camin torsi;</l>
+<l>schernii me stessa e nulla in alto intesi,</l>
+<l>e sì le tue bell'opre</l>
+<l>e 'l tuo gran nume offesi.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Che giova l'esser dio</l>
+<l>e l'esser sì possente,</l>
+<l>quando mirar conviemmi a terra sparso</l>
+<l>l'onor de' regni miei?</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Di che ti lagni, Amor, se nulla ponno</l>
+<l>contra la tua possanza uomini e dei?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Del mio sì grave affanno</l>
+<l>sola cagion tu sei.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Meco tu scherzi, Amore.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Come potresti mai</l>
+<l>drizzar il fero strale entro il bel seno</l>
+<l>del più vago pastor di quelle selve,</l>
+<l>mia gloria e mio diletto,</l>
+<l>e che solo dovea da' tuoi begli occhi</l>
+<l>sentire aprirsi il petto?</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Che pastor? che ferite? e quando rea</l>
+<l>fu la mia deità di colpa atroce?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>È ver che l'arco tese</l>
+<l>Elpinia per ferir fera fugace,</l>
+<l>ma s'udì pria che liberasse il dardo,</l>
+<l>ben tre volte invocar tuo nome e disse:</l>
+<l>- Cintia, tu guida il colpo -; e 'l colpo giunse,</l>
+<l>ahi fierezza, ahi pietate!,</l>
+<l>nel sen d'Endimion, che non lontano</l>
+<l>stava pensoso tra' solinghi orrori</l>
+<l>su l'aspra istoria de' suoi tristi amori.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>In nome de le Furie uscì da l'arco</l>
+<l>l'empia saetta ch'il mio ben trafisse.</l>
+<l>Or dunque giace il bel pastore estinto?</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Estinto no, ma da crudel ferita</l>
+<l>langue piagato a morte.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Ricuso d'esser dea</l>
+<l>e d'esser viva ancor, se mi s'invola</l>
+<l>il vago Endimione:</l>
+<l>ché viver non vorrei</l>
+<l>senza 'l caro splendor de' lumi suoi.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Or cela amor, se puoi.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Ben tu fuggisti, Amor; ma qui me sola</l>
+<l>non lasci nel dolore,</l>
+<l>poiché in mezzo al mio core</l>
+<l>mi sei venuto con pietate insieme.</l>
+<l>Or ciascuno di noi sospira e geme,</l>
+<l>pensando al fier destino</l>
+<l>che con morte s'adopra</l>
+<l>perché tanta beltà si venga meno;</l>
+<l>ma 'l mio biondo fratel c'ha pur virtute</l>
+<l>di dispensar salute,</l>
+<l>omai prenda consiglio</l>
+<l>su 'l terribil periglio, e si compiaccia</l>
+<l>che per valor di sua possente aita</l>
+<l>il bell'emulo suo si serbi in vita.</l>
+</lg>
+<lg>
+	<l>Biondo dio,</l>
+<l>mie voci intendi</l>
+<l>e mi rendi</l>
+<l>l'idol mio.</l>
+<l>Quando poi ritorno in cielo,</l>
+<l>son contenta, o dio di Delo,</l>
+<l>che tu neghi il tuo bel lume</l>
+<l>al mio nume.</l>
+</lg>
+<lg>
+<l>Negami pure il dono</l>
+<l>allor de' raggi tuoi,</l>
+<l>ché se 'l mio ben non more,</l>
+<l>la luce prenderò da gli occhi suoi.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Tratte avessi di man del sommo Giove</l>
+<l>mille saette, Amor, su i nostri alberghi,</l>
+<l>pria che condur tanta beltà celeste</l>
+<l>ne le nostre foreste.</l>
+<l>Vedi come costei</l>
+<l>per aspro foco i nostri dì ne scorge,</l>
+<l>e come tanto porge</l>
+<l>ardimento al desire e nega insieme</l>
+<l>l'ali sciorre a la speme.</l>
+<l>Costei non arde e d'ogni onore i tuoi</l>
+<l>trionfi spoglia; e se pietà pur serba,</l>
+<l>nutre virtù superba</l>
+<l>ch'a te contrasta e nulla giova a noi.</l>
+<l>Or se gloria tu vuoi,</l>
+<l>togli al nostro intelletto</l>
+<l>sì soverchio di luce</l>
+<l>formidabile oggetto;</l>
+<l>e fa' che tua virtute</l>
+<l>tranquilli i nostri cori</l>
+<l>e ch'in foco di gioia e di salute</l>
+<l>ardan ninfe e pastori.</l>
+</lg>
+</sp>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Amor e 'l mio destino,</l>
+<l>che stan dentro i begli occhi di costei,</l>
+<l>mi volgon sempre a lei,</l>
+<l>che mi governa con sì dura legge.</l>
+<l>Con sì soverchio freno ella mi regge,</l>
+<l>e pur riprego ogn'or perché non lasci</l>
+<l>giamai di dominar questa mia vita.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Qual possente virtude in sì brev'ora</l>
+<l>sanò l'aspra ferita?</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>E quando mai si vide</l>
+<l>o per magici carmi o per valore</l>
+<l>di nobil erbe e d'acque</l>
+<l>sanar piaga d'Amore?</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Te pur ferì poc'anzi</l>
+<l>d'Elpinia il fero strale.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Io porto il cor sicuro</l>
+<l>da l'arme di beltà caduca e frale</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Non favello de' dardi,</l>
+<l>ch'Elpinia ha ne' begli occhi.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Né co' suoi dolci sguardi,</l>
+<l>né con la destra armata ella m'offese.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>E pur lo disse Amore.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Se 'l disse Amor, favolleggiare intese.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Empio diletto in ver fingere i mali</l>
+<l>per trar l'alme in affanno:</l>
+<l>ché se ben torna a gioia il fero inganno,</l>
+<l>pur l'acerba memoria</l>
+<l>del creduto periglio</l>
+<l>la mente in parte adombra e turba il ciglio.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Quanta pietà de' miseri mortali</l>
+<l>nutre il cor degli dei!</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Quella pietà che spesso</l>
+<l>ebbi de' tuoi sospiri,</l>
+<l>quella m'aperse il core;</l>
+<l>e dentro ha posto Amore,</l>
+<l>ch'ora mi siede in signoria de l'alma.</l>
+<l>Or questi ambe le chiavi</l>
+<l>tiene de' miei pensieri,</l>
+<l>e ne la mente mia sostien gl'imperi</l>
+<l>or superbi e sdegnosi ed or soavi.</l>
+<l>Per te mi veggio avvinta</l>
+<l>ne gli aurei suoi legami,</l>
+<l>e da lui che più brami</l>
+<l>quando per tuo conforto egli m'ha vinta?</l>
+<l>Ragionò con mia mente</l>
+<l>de' chiari spirti tuoi,</l>
+<l>e per l'arco immortal giurò sovente</l>
+<l>ch'entro terrena spoglia</l>
+<l>non mai tanta abitò parte divina.</l>
+<l>Luce mostrommi che le stelle abbaglia</l>
+<l>e che natura move</l>
+<l>in guise altere e nove</l>
+<l>e con novi intelletti i cieli agguaglia;</l>
+<l>né lo splendor de le leggiadre membra</l>
+<l>a gli occhi miei cosa mortal rimembra.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>O sia forza d'Amore o tua virtute,</l>
+<l>che rinovella in sì celesti tempre</l>
+<l>questo mio spirto e queste umane forme,</l>
+<l>gloria sarà mai sempre</l>
+<l>di chi l'estolle e le dà vita e luce.</l>
+<l>Chi le adorna e produce</l>
+<l>co 'l suo poter s'allegri,</l>
+<l>ché in me scende dal cielo alma dolcezza</l>
+<l>in ascoltar che non a sdegno prendi</l>
+<l>questa mia fiamma e che te stessa accendi</l>
+<l>a la medesma face;</l>
+<l rend="italic">né questa mente ora s'è fatta audace,</l>
+<l rend="italic">ma più s'interna e in sua bassezza è vinta</l>
+<l rend="italic">di meraviglia innanzi al tuo gran nume.</l>
+<l>Nulla di sé presume, anzi paventa</l>
+<l>veder se stessa spenta</l>
+<l>dal formidabil lume.</l>
+<l>Rammenta ben che quando Amor percosse</l>
+<l>lei col divino raggio,</l>
+<l>da terra alto levosse;</l>
+<l>e come aquila suole</l>
+<l>intrepida fissarsi a i rai del sole,</l>
+<l>la tua gran deità vide e sostenne.</l>
+<l>Il gran conoscimento in sé ritenne</l>
+<l>de l'esser tuo celeste,</l>
+<l>onde le nacque speme</l>
+<l>che 'l conoscerti tanto</l>
+<l>esser non le dovea cagion di pianto.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Segui Amor ch'a tanta luce</l>
+<l>ti conduce</l>
+<l>per sì nova alta ventura:</l>
+<l>di bearti ei prende cura;</l>
+<l>né sprezzar d'Amore 'l dono:</l>
+<l>spesso sono</l>
+<l>suoi seguaci accolti in cielo</l>
+<l>nel consorzio de gli dei.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l rend="italic">Pur gli eventi acerbi e rei</l>
+<l rend="italic">io di Semele pavento</l>
+<l rend="italic">dal suo Giove incenerita;</l>
+<l>e ben sento</l>
+<l>che d'Adon l'aspra ferita</l>
+<l>va turbando i pensier miei.</l>
+<l>Raffiguro il bel Giacinto</l>
+<l>di mortal pallor dipinto.</l>
+<l>Veggio Psiche amata amante</l>
+<l>gir sospinta a rischi indegni</l>
+<l>per disdegni.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l rend="italic">Sì funeste memorie</l>
+<l rend="italic">omai lascia in oblio;</l>
+<l rend="italic">altre stelle, altri fati</l>
+<l rend="italic">han le tue sorti in cura: ogni difetto</l>
+<l>del tuo destino adempie il nume mio,</l>
+<l>e i tuoi veri riposi</l>
+<l>ho d'eternar desio.</l>
+<l>Quindi gli assalti de' mortali affanni</l>
+<l>fia che tu prenda a scherno,</l>
+<l rend="italic">e non avran mai gli anni</l>
+<l rend="italic">de' tuoi piacer governo.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Più beato</l>
+<l>io saria de' numi stessi,</l>
+<l>se potessi</l>
+<l>dir altrui qual è 'l mio stato:</l>
+<l>il mio fato</l>
+<l>mai non cangi le sue tempre.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l rend="italic">Amiam sempre</l>
+<l rend="italic">in profonda, amica pace.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Sia d'Amor la bella face</l>
+<l>nostra luce e nostro ardore.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Tutto è pena e tutto è orrore,</l>
+<l>fuor che Amore.</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Che fate qui fra le terrene cose,</l>
+<l>alme del mio bel foco ardenti e chiare?</l>
+<l>Il piacer di là sù nulla vi move?</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Io l'ambrosia immortal non chiedo a Giove</l>
+<l>or che del tuo diletto</l>
+<l>è la mia mente accesa.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>E quest'anima intesa</l>
+<l>al suo divino oggetto,</l>
+<l>fatta è già sì felice,</l>
+<l>che di bramare omai</l>
+<l>o nulla a lei rimane o più non lice.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l rend="italic">Pur se tanto t'infiamma e ti conforta</l>
+<l rend="italic">beltà celeste entro terreno velo,</l>
+<l rend="italic">che sarà dunque a vagheggiarla in cielo?</l>
+<l>A cotanta ventura or te destino,</l>
+<l>né mentirà mia fede.</l>
+<l>Oggi movrai su per le stelle il piede</l>
+<l>ed io per l'alte vie sarò tuo duce.</l>
+<l>Tu mirerai sì come</l>
+<l>splendon gli dei ne la lor propria luce.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Quale nova nel cor gioia mi desta</l>
+<l>il tuo novo parlar, cortese Amore?</l>
+</lg>
+<lg>
+	<l>Folle chi te non serve</l>
+<l>e non ferve</l>
+<l>a' tuoi bei raggi ardenti,</l>
+<l>ché tu puoi</l>
+<l>bear le menti</l>
+<l>e far numi i servi tuoi.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>O sempre caro ed onorato giorno,</l>
+<l>in che di propria mano Amor mi vinse</l>
+<l>e 'l mio destino in sì bel nodo strinse!</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Giunto colà sovra l'eccelse sfere,</l>
+<l>avventuroso Endimion, vedrai</l>
+<l>qual sia d'Amor la providenza e l'arte;</l>
+<l>vedrai come il mio spirto ivi comparte</l>
+<l>ordini e moti e come inspira e volve</l>
+<l>questa grande armonia che 'l mondo regge;</l>
+<l rend="italic">vedrai sotto una dolce eterna legge</l>
+<l rend="italic">in una stessa sede</l>
+<l rend="italic">regnar Gloria ed Amore.</l>
+<l>E in vagheggiar quanto là sù riluce</l>
+<l>per le magion celesti,</l>
+<l>con sorriso e disdegno</l>
+<l>rammenterai quanto qua giù vedesti</l>
+<l>Allor potrà fuor del suo grave oblio</l>
+<l>spaziar l'alta mente in grembo al vero,</l>
+<l>e comprender che quanto alberga e giace</l>
+<l>sotto i raggi del sole</l>
+<l>pieno è di sogni e fole.</l>
+<l>Scorgerai l'ocean, ch'ora ti sembra</l>
+<l>ampio spazio infinito,</l>
+<l>in che picciola foce egli sia chiuso;</l>
+<l>e la terra, che appare immensa mole,</l>
+<l>da l'uno e l'altro polo</l>
+<l>sarà sotto un tuo sguardo un punto solo.</l>
+<l>Allor conoscerai quanto sien nudi</l>
+<l>d'argomento e consiglio</l>
+<l>i miseri mortali;</l>
+<l>e per qual vil cagion l'umane menti</l>
+<l>soffron cotanti affanni,</l>
+<l>quando ciascuno il suo destino invita</l>
+<l>a quella immensa region di luce,</l>
+<l>ove con stabil pace</l>
+<l>in compagnia de gli alti dei si regna</l>
+<l>E pur ciascuno le sue sorti sdegna,</l>
+<l>e vaneggiar si vede</l>
+<l>intorno a i lampi de gli oggetti frali</l>
+<l>e le vere obliar cose immortali.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Voi, dello spirto mio celesti scorte,</l>
+<l>Cintia ed Amor, voi me levate a volo</l>
+<l>fuor de le basse cure e vani affetti;</l>
+<l>e me guidate per le sfere eterne,</l>
+<l>ove sarammi mostra</l>
+<l>nel centro de' suoi rai la gloria vostra.</l>
+</lg>
+</sp>
+<sp><speaker>CINTIA</speaker>
+<lg>
+<l>Tu scorgerai quanto è a' seguaci suoi</l>
+<l>Amor liberalissimo e fedele.</l>
+</lg>
+</sp>
+<sp><speaker>AMORE</speaker>
+<lg>
+<l>Il mio poter si svele</l>
+<l>e splenda fuori di sua nube il Fato.</l>
+<l>Or voi meco poggiate, anime belle,</l>
+<l>a l'immortali sfere.</l>
+</lg>
+</sp>
+<sp><speaker>ENDIMIONE</speaker>
+<lg>
+<l>Le tue promesse, Amor, quanto son vere!</l>
+</lg>
+</sp>
+<p>***</p>
+
+<sp><speaker>CORO</speaker>
+<lg>
+<l>Chi potrà mai dentro i consigli tuoi</l>
+<l>fermar lo sguardo, Amore,</l>
+<l>pien di tanto valore,</l>
+<l>da spiar quel che pensi e quel che vuoi?</l>
+<l>Ben ti mostrasti in queste selve a noi,</l>
+<l>ma dentro a la tua luce</l>
+<l>velasti il tuo pensiero,</l>
+<l>sì che nostro intelletto</l>
+<l>lungi vagò dal vero.</l>
+<l>Allora in noi s'apprese</l>
+<l>quel folle empio costume</l>
+<l>ch'è di garrir mai sempre</l>
+<l>incontr'al tuo gran nume.</l>
+<l>Pur le nostre querele</l>
+<l>non ti recasti in ira:</l>
+<l>solo schernirle, alto signor, volesti</l>
+<l>co' tuoi doni celesti. Or voi, felici</l>
+<l>d'Arcadia alme contrade,</l>
+<l>poiché foste d'Amore un tempo albergo</l>
+<l>e a la mensa di Giove un figlio avete,</l>
+<l>voi ben sperar potete</l>
+<l>altra luce, altri dei ne' vostri boschi.</l>
+<l>Febo vedrete e l'immortali Muse</l>
+<l>sedere insieme fra pastori e ninfe,</l>
+<l>e sotto 'l piè di bei destrieri alati</l>
+<l>in questa terra aprirsi</l>
+<l>aurei fonti beati.</l>
+<l>Madri di cigni e di bell'arti io spero</l>
+<l>mirarvi ancora e i vostri sacri ingegni</l>
+<l>commercio aver co 'l cielo;</l>
+<l>e ciò per opra di quel raggio eterno,</l>
+<l>che qui impresse suo lume e da cui piove</l>
+<l>tanta virtù come dal sen di Giove.</l>
+</lg>
+</sp>
+</div1>
+</body>
+</text>
+</TEI.2>

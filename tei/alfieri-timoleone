@@ -1,0 +1,2244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Timoleone</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>91 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000880</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Oreste ; Rosmunda ; Ottavia ; Timoleone ; Merope ; Maria Stuarda ; La congiura de'Pazzi</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>AL NOBIL UOMO IL SIGNOR PASQUALE DE-PAOLI PROPUGNATOR MAGNANIMO DE' CORSI</salute></opener>
+	<p>Lo scrivere tragedie di libertà nella lingua d'un popolo non libero, forse con ragione parrà una mera stoltezza, a chi altro non vede che le presenti cose. Ma chiunque dalla perpetua vicenda delle passate argomenta le future, così per avventura giudicar non dovrà.</p>
+	<p>Io perciò dedico questa mia tragedia a voi, come a uno di quei pochissimi, che avendo idea ben diritta d'altri tempi, d'altri popoli, e d'altro pensare, sareste quindi stato degno di nascere ed operare in un secolo men molle alquanto del nostro. Ma siccome per voi non è certamente restato che la vostra patria non si ponesse in libertà, non giudicando io (come il volgo suoi fare) gli uomini dalla fortuna, ma bensì dalle opere loro, vi reputo pienamente degno di udire i sensi di Timoleone, come quelli che intenderli appieno potete, e sentirli.</p>
+	<closer><dateline>Parigi, 20 Settembre 1788.</dateline>
+<signed>VITTORIO ALFIERI</signed>
+</closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+<castItem type="role"><role>TIMOLEONE</role></castItem>
+<castItem type="role"><role>TOMOFANE</role></castItem>
+<castItem type="role"><role>DEMARISTA</role></castItem>
+<castItem type="role"><role>ECHILO</role></castItem>
+<castItem type="role"><role>Soldati di Timofane</role></castItem>
+</castList>
+<set><p><emph>Scena, la casa di Timofane in Corinto</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>TIMOFANE, ECHILO</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Echilo, no; se al fianco mio la spada</l>
+<l>tinta di sangue vedi, a usar la forza</l>
+<l>non sono io tratto da superbe voglie:</l>
+<l>ma il ben di tutti a ciò mi spinge, e il lustro</l>
+<l>di Corinto, che in sua possa affida.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Sa il ciel, s'io t'amo! Dai primi anni nostri</l>
+<l>stretti s'eran fra noi tenaci nodi</l>
+<l>d'amistade, a cui poscia altri più santi</l>
+<l>ne aggiungevam, di sangue. A me non sorse</l>
+<l>più lieto dì, che quello ov'io ti diedi</l>
+<l>l'unica amata mia germana in sposa.</l>
+<l>Oltre all'amor, di maraviglia forte</l>
+<l>preso m'hai poi, quando inaudite prove</l>
+<l>del tuo valor contro Pleóne ed Argo</l>
+<l>mirai, pugnando al fianco tuo. — Non puoi,</l>
+<l>né dei tu star privatamente oscuro:</l>
+<l>ma, di Corinto le più illustri teste</l>
+<l>veggio da te troncarsi; e orribil taccia</l>
+<l>tu riportarne di tiranno. Io tale</l>
+<l>non ti estimo finor; ma immensa doglia</l>
+<l part="I">in udir ciò mi accora.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">E duol men grave</l>
+<l>forse, in ciò far, me non accora? Eppure,</l>
+<l>se a raffermar nella città la pace,</l>
+<l>forza è tai mezzi usar, ch'altro poss'io?</l>
+<l>Gli stessi miei concittadini han fermo</l>
+<l>che pendessero ognor sol dal mio cenno</l>
+<l>ben quattro cento brandi. Alcune io mieto</l>
+<l>illustri, è ver, ma scellerate teste:</l>
+<l>teste, che a giusta pubblica vendetta</l>
+<l>eran dovute già; del lor rio seme</l>
+<l>gente assai resta, che gran tempo avvezza</l>
+<l>a vender sé, la sua città, i suoi voti,</l>
+<l>va di me mormorando. Ostacol troppo</l>
+<l>a lor pratiche infide è il poter mio;</l>
+<l>quindi ogni astio, ogni grido, ogni querela.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Confusion, discordia, amor di parte,</l>
+<l>e prepotenza di ottimati, or quasi</l>
+<l>a fin ci han tratti, è vero. Omai qual forma</l>
+<l>di reggimento a noi più giovi, io forse</l>
+<l>mal dir saprei: ma dico, e il dicon tutti;</l>
+<l>che mai soffrir, mai non vogliam tal forma,</l>
+<l>che non sia liberissima. I tuoi mezzi</l>
+<l>a raffermar la interna pace, assai</l>
+<l>più grati avrei, se men costasser sangue.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Per risparmiarne, anco talor sen versa.</l>
+<l>Da infetto corpo le già guaste membra</l>
+<l>s'io non recido, rinsanir pon l'altre?</l>
+<l>De' più corrotti magistrati ho sgombra</l>
+<l>già in parte la città: tempo è, che al fonte</l>
+<l>di tanto mal si vada, e con più senno</l>
+<l>a repubblica inferma or si soccorra</l>
+<l>d'ottime leggi. Se tiranno è detto</l>
+<l>chi le leggi rinnova, io son tiranno;</l>
+<l>ma, se a ragion, chi le conculca tale</l>
+<l>si appella, io tal non sono. Ogni opra mia,</l>
+<l>esecutrice è del voler dei molti:</l>
+<l part="I">dolgonsi i pochi; e che rileva?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">E pochi</l>
+<l>saran, se il fratel tuo, quel senza pari</l>
+<l>giust'uom, Timoleon, fra lor tu conti?</l>
+<l>Più che se stesso ei t'ama; e assai pur biasma</l>
+<l>altamente i tuoi modi. Io creder voglio</l>
+<l>santo il tuo fin; ma, impetuoso troppo</l>
+<l>tu forse, oprare anco a buon fin potresti</l>
+<l>mezzi efficaci troppo: in man recarsi</l>
+<l>il poter sommo, a qual sia l'uso, è cosa,</l>
+<l>credilo a me Timofane, di gravi</l>
+<l>perigli ognora; e il più terribil parmi;</l>
+<l>poter mal far; grande al mal fare invito.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Savio tu parli: ma se ardir bollente</l>
+<l>alle imprese difficili non spinge,</l>
+<l>saviezza al certo non vi spinge. In Sparta</l>
+<l>vedi Licurgo, che sua regia possa</l>
+<l>suddita fare al comun ben volea;</l>
+<l>per annullar la tirannia, non gli era</l>
+<l>da pria mestier farsi tiranno? Ah! sola</l>
+<l>può la forza al ben far l'uom guasto trarre.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>E forza hai tu. Deh, voglia il ciel, che a schietto</l>
+<l>fin virtuoso ognor fra noi l'adopri!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>DEMARISTA, TIMOFANE, ECHILO</stage>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Figlio, del nome tuo Corinto suona</l>
+<l>diversamente tutta. Al cor lusinga</l>
+<l>dolce pur m'è l'esserti madre. Il prode</l>
+<l>già della patria fosti: udir mi duole,</l>
+<l>per altra parte, in te suppor non dritte</l>
+<l>mire private: duolmi che in Corinto,</l>
+<l>anco a torto, abborrire un uom ti possa.</l>
+<l part="I">Ansia, pur troppo, io per te vivo.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">O madre</l>
+<l>men mi ameresti, se tu men temessi.</l>
+<l>Incontro a gloria perigliosa io corro:</l>
+<l>ma tale è pur l'ufficio in noi discorde;</l>
+<l part="I">temer tu donna, e imprender io.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Mi è grata</l>
+<l>questa tua audace militar fierezza;</l>
+<l>né me privata cittadina io tengo;</l>
+<l>me, di due grandi madre, onde sol uno</l>
+<l>più che bastante fora a me far grande</l>
+<l>sovra ogni greca madre. Altro non bramo</l>
+<l>che a te veder Timoleone al fianco</l>
+<l>d'accordo oprar col tuo valor suo senno.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Timoleon forse in suo cor finora</l>
+<l>non dissente da me; ma il passeggero</l>
+<l>odio, che a nuove cose ognor tien dietro,</l>
+<l>niega addossarsi; e me frattanto ei lascia</l>
+<l>solo sudar nel periglioso aringo.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>T'inganni in ciò, già tel diss'io: non lauda</l>
+<l>egli il tuo oprar; se il fesse, avresti meno</l>
+<l part="I">nimici assai.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Ben parli; ed a ciò vengo.</l>
+<l>Timoleone a te minor sol d'anni,</l>
+<l>puoi tu sdegnarlo in ogni impresa tua</l>
+<l>secondo a te? Dolcezza è in lui ben atta</l>
+<l>a temprar tuo bollore. In me già veggo</l>
+<l>bieco volger lo sguardo orbate madri,</l>
+<l>orfani figli, e vedove dolenti;</l>
+<l>in me, cagion del giusto pianger loro.</l>
+<l>Molti han morte da te: se a dritto uccidi,</l>
+<l>perché ten biasma il fratel tuo? se a torto,</l>
+<l>perché il fai tu? Loco a noi dia qui primo,</l>
+<l>non la più forza, la più gran virtude.</l>
+<l>De' figli miei sulle terribili orme</l>
+<l>si pianga, sì, ma dai nemici in campo;</l>
+<l>di gioia esulti il cittadin sui vostri</l>
+<l>amati passi; e benedir me s'oda</l>
+<l part="I">d'esservi madre.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">In campo, ove dà loco</l>
+<l>solo il valore, il loco a noi primiero</l>
+<l>demmo noi stessi: infra oziose mura</l>
+<l>di partita cittade, invidia armata</l>
+<l>di calunnie e di fraudi il loco primo,</l>
+<l>a chi si aspetta, niega. A spegner questo</l>
+<l>mortifer'angue ognor, pur troppo! è forza,</l>
+<l>che breve pianto a più durevol gioia</l>
+<l>preceda; e gloria con incarco mista</l>
+<l>n'abbia chi 'l fa. Mi duol, che il fratel mio,</l>
+<l>più merco io gloria, meno amor mi porti.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Invido vil pensiero in lui?...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Nol credo;</l>
+<l part="I">ma pur...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ma pur, niun'alta impresa a fine</l>
+<l>condur tu puoi, se caldamente ei teco</l>
+<l part="I">senno e man non v'adopra.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Or, chi gliel vieta?</l>
+<l>Mille fiate io nel pregai: ma sempre</l>
+<l>ritroso ei fu. Secondator, nol sdegno;</l>
+<l part="I">ma sturbator, nol soffro.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">E fia, ch'io soffra,</l>
+<l>ch'ei d'un periglio tuo non entri a parte;</l>
+<l>o che palma tu colga ov'ei non sia?</l>
+<l>Echilo a lui, deh, vanne; e a queste case,</l>
+<l>ch'ei più non stima or da gran tempo stanza</l>
+<l>di fratello e di madre, a noi lo traggi.</l>
+<l>Convinceremlo, od egli noi; pur ch'oggi</l>
+<l>solo un pensiero, un fine, un voler solo,</l>
+<l>a Demarista e a' figli suoi, sia norma.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>DEMARISTA, TIMOFANE</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Forse ei verrà a' tuoi preghi; ai replicati</l>
+<l>miei, da gran pezza, è sordo: ei qual nemico</l>
+<l>me sfugge. Udrai, come maligno adombri</l>
+<l>ogni disegno mio d'atri colori.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Timoleon la virtù viva è sempre.</l>
+<l>Già tu non odi in biasmo tuo tal laude:</l>
+<l>madre a figliuol può d'altro figlio farla.</l>
+<l>Ne giovi udir, perch'ei ti sfugga. Ei t'ama;</l>
+<l>e ben tu il sai: col prematuro suo</l>
+<l>senno talora ei ricopria gli eccessi</l>
+<l>de' tuoi bollenti troppo anni primieri;</l>
+<l>ei stesso elegger capitan ti fea</l>
+<l>de' Corinti cavalli: e ben rimembri</l>
+<l>quella fatal giornata, ove il tuo cieco</l>
+<l>valor t'avea tropp'oltre co' tuoi spinto,</l>
+<l>ed intricato fra le argive lance:</l>
+<l>chi ti sottrasse da rovina certa</l>
+<l>quel fatal dì? Con suo periglio grave,</l>
+<l>non serbò forse ei solo, a' tuoi l'onore,</l>
+<l>la vittoria a Corinto, a te la vita?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Madre, ingrato non son; tutto rammento.</l>
+<l>Sì, la mia vita è sua; per lui la serbo:</l>
+<l>amo il fratel quanto la gloria: affronto</l>
+<l>alti perigli io solo; egli goderne</l>
+<l>potrà poi meco il dolce frutto in pace;</l>
+<l>se il pur vorrà. Ma, che dich'io? lo stesso</l>
+<l>ei non è più per me, da assai gran tempo.</l>
+<l>I più mortali miei nemici ei pone</l>
+<l>tra i più diletti suoi. Quel prepotente</l>
+<l>Archida, iniquo giudice, che regge</l>
+<l>a suo arbitrio del tutto or questo avanzo</l>
+<l>di magistrati; ei, che gridando vammi</l>
+<l>di morte degno, in suon d'invidia, e d'ira;</l>
+<l>egli è compagno indivisibil, norma,</l>
+<l>scorta al fratello mio. — Perché la vita</l>
+<l>crudel serbarmi, se m'insidia ei poscia</l>
+<l>più preziosa cosa assai; la fama?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Non creder pure che a malizia, o a caso,</l>
+<l part="I">egli opri. Udiamlo pria.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Madre, lo udremo.</l>
+<l>Deh, non sia questo il dì, che a creder abbi</l>
+<l>me sconoscente, o mal fratello lui!</l>
+<l>Sai, che il poter ch'ei già mi ottenne, or vuole</l>
+<l part="I">tormi ei stesso; e che il dice?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Assai fia meglio,</l>
+<l>ch'ei teco il parta: egual valore è in voi;</l>
+<l>maggior, soffri ch'io 'l dica, è in lui prudenza:</l>
+<l>che non farete, uniti? E qual mai tempra</l>
+<l>di governo, eccellente esser può tanto?</l>
+<l>E qual di me più fortunata madre,</l>
+<l>se d'una gloria, e d'un poter splendenti,</l>
+<l>fratelli, eroi, duci vi veggio, e amici?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Madre, per me non resterà, tel giuro.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>TIMOFANE, ECHILO</stage>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Timoleon giunge a momenti: ai soli</l>
+<l>tuoi preghi, e miei, mal s'arrendea; null'altro</l>
+<l>forza gli fe', che le materne istanze.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Ben so; pieghevol core egli non conta</l>
+<l>fra sue tante virtù: ma, se varranno,</l>
+<l>giunti all'oprar mio dritto, i dritti sensi,</l>
+<l>oggi fia 'l dì, che il suo rigor si arrenda</l>
+<l>a mie ragioni; o il dì mai più non sorge.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Con quel di voi, ch'ultimo ascolto, parmi</l>
+<l>che il ver si alberghi: eppur sol uno è il vero.</l>
+<l>D'amistade e di sangue a te congiunto,</l>
+<l>di riverenza e d'amistade a lui,</l>
+<l>campo vorrei frattanto, ove ad entrambi</l>
+<l>l'immenso affetto mio mostrar potessi.</l>
+<l>Indivisi, deh! siate; e al senno vostro</l>
+<l>me, mie sostanze, il cor, la mente, il brando,</l>
+<l>deh! non vogliate disdegnar ministri.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Ben ti conosco, Echilo mio... Ma veggio</l>
+<l>Timoleon venir: seco mi lascia,</l>
+<l>vo' favellargli a lungo; i sensi suoi</l>
+<l>da solo a sol più m'aprirà fors'egli.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>TIMOLEONE, TIMOFANE</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Fratello, ai fin qui ti riveggo; in questi</l>
+<l>Lari, pur sempre tuoi, benché deserti</l>
+<l>duramente da te. Mi duol, che i cenni</l>
+<l>sol della madre, e non spontanea tua</l>
+<l>voglia, al fratel ti riconducan oggi.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="I">Timofane...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Che sento? or più non chiami</l>
+<l>fratello me? tel rechi forse ad onta?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>D'una patria, d'un sangue, d'una madre,</l>
+<l>Timofane, siam nati: a te fratello,</l>
+<l>finora io 'l son; ma tu, fratel mi nomi.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Ah! qual mi fai non meritata, acerba</l>
+<l>rampogna?... In qual di noi l'ira primiera</l>
+<l>nascea? Che dico; ira fra noi? tu solo</l>
+<l>meco adirato sei. Tu mi sfuggisti;</l>
+<l>tu primo fuor delle materne case</l>
+<l>il piè portasti: a rattenerti io forse</l>
+<l>preghi non adoprai, suppliche e pianto?</l>
+<l>Ma tu, prestavi alle calunnie inique,</l>
+<l>più che a mie voci, orecchio. All'ire tue</l>
+<l>non ira io, no; dolcezza, amor, ragioni</l>
+<l>iva opponendo, invano. — Or vedi, in quanta</l>
+<l>stima ti tengo: a lieta sorte in braccio</l>
+<l>mi abbandonavi tu; quindi in me speme,</l>
+<l>anzi certezza, accolsi, che sostegno</l>
+<l>io t'avrei nell'avversa: intanto andava</l>
+<l>sperando ognor di raddolcirti, e a parte</l>
+<l>pur farti entrar del mio gioioso stato...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Gioioso? Oh! che di' tu? Deh! come ratto,</l>
+<l>da ch'io più non ti vidi, oltre ogni meta</l>
+<l>scorso hai lo stadio insultator di regno!</l>
+<l>Spander sangue ogni dì, gioioso stato?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Ma, tu stesso, i cui giorni eran pur sempre</l>
+<l>di giustizia splendor, lume del vero,</l>
+<l>non m'hai tu dato di giustizia il brando?</l>
+<l>Non mi ottenesti quel poter ch'io tengo,</l>
+<l>de' miei servigi in guiderdon, tu stesso?</l>
+<l>Qual forza è dunque di destin sinistro,</l>
+<l>che ognor nomar tirannico fa il sangue,</l>
+<l>sparso da un sol; giusto nomar quant'altro</l>
+<l part="I">si dividono in molti?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Odi. — Cresciuti</l>
+<l>insieme noi, l'un l'altro appien conosce.</l>
+<l>Ambizion, che di obbedir ti vieta,</l>
+<l>aggiunta in copia a bollentissim'alma,</l>
+<l>che il moderato comandar ti toglie;</l>
+<l>tal fosti, e in casa, ed in Corinto, e in campo.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Mi rimproveri or forse il don, cui piacque</l>
+<l>al tuo saggio valore in campo farmi,</l>
+<l part="I">della vittoria e vita?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Quel mio dono</l>
+<l>era dover, non beneficio; e arrise</l>
+<l>fortuna a me in quel punto. Or, non far ch'io</l>
+<l>pentir men debba. Io mai guerrier più ardente</l>
+<l>di te non vidi; né Corinto un duce</l>
+<l>più valoroso mai di te non ebbe.</l>
+<l>Ma quando poscia a cittadine risse</l>
+<l>fu creduto rimedio, (e d'ogni danno</l>
+<l>era il peggior) l'aver soldati in arme,</l>
+<l>e perpetuo sovr'essi elegger capo;</l>
+<l>se al periglioso onore eri tu scelto,</l>
+<l>se al militar misto il civil comando</l>
+<l>cadeva in te; non m'imputar tal fallo.</l>
+<l>Io nol negai; ch'onta era troppa il farmi</l>
+<l>del mio fratel più diffidente io stesso,</l>
+<l>che d'un concittadino altri nol fosse;</l>
+<l>ma di te, da quel dì, per te tremai,</l>
+<l>e per la patria più: né in cor mi entrava</l>
+<l>invidia, no; sol del tuo lustro io piansi.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Mio lustro? e che? non era il tuo fors'anco?</l>
+<l>non eri a me consiglio, anima, duce,</l>
+<l>se tu il volevi? e s'io l'ardir, tu il senno</l>
+<l>adopravam, di che temevi allora?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Sia che fratello, o a me signor ti estimi,</l>
+<l>mal le lusinghe, ad ogni modo, or meco</l>
+<l>ti stanno. — Oh! che di' tu? sordo non fosti</l>
+<l>a' detti miei, dal fatal dì, che assunto</l>
+<l>eri a novello insolito comando? —</l>
+<l>Cinto di guardie il già privato nostro</l>
+<l>albergo: uscirne con regale pompa</l>
+<l>superbo tu: sovra ogni aspetto sculta</l>
+<l>di timor mista indegnazion: le soglie</l>
+<l>di questo ostel, già non più mio, da infami</l>
+<l>adulator tenersi: al ver sbandito</l>
+<l>chiusa ogni entrata, appresentarsi audaci,</l>
+<l>d'oro e di sangue sitibondi, in folla</l>
+<l>delator empi; e mercenaria gente,</l>
+<l>e satelliti, e pianti, ed armi, e sdegni,</l>
+<l>e silenzio, e terror... Ciò non vidi io?...</l>
+<l>E (pur troppo!) nol veggo? Esser mai questo</l>
+<l>fero apparecchio orribile potea</l>
+<l>il mio corteggio, mai? Ne uscii, che stanza</l>
+<l>di cittadin questa non era; e in core,</l>
+<l>più ch'ira ancor, di te pietà ne trassi,</l>
+<l>e del tuo errore, e del tuo orgoglio stolto.</l>
+<l>Tuoi replicati falli assai gran tempo</l>
+<l>iva scusando io stesso; e grandi, e plebe</l>
+<l>m'udian sovente asseverar, che farti</l>
+<l>non volevi tiranno. Ahi lasso! io vile,</l>
+<l>io per te fatto mentitore, io m'era</l>
+<l>della patria per te traditor quasi;</l>
+<l>ch'io conosceva appien tuo core. Io 'l feci</l>
+<l>per torti, ingrato, di periglio, e torre</l>
+<l>tant'onta a me; non per aprirti strada</l>
+<l>a reo poter, ma per lasciartene una</l>
+<l part="I">al pentimento.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">E ad un tal fine intanto</l>
+<l>scegliesti in vece mia nuovi fratelli</l>
+<l part="I">fra miei più aperti aspri nemici...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Ho scelto</l>
+<l>i pochi amici della patria, in loro.</l>
+<l>Non perch'io t'odio, perch'io lei molt'amo</l>
+<l>son io con quelli; e per sospender forse</l>
+<l>(poiché distor tu non la vuoi) quell'alta</l>
+<l>vendetta giusta, che alla patria oppressa</l>
+<l>negar non può buon cittadino. I primi</l>
+<l>impeti regi in te frenar non volli;</l>
+<l>pur troppo errai: per risparmiarti l'onta,</l>
+<l>che a buon dritto spettavati, lasciai</l>
+<l>spander sangue innocente; a se pur reo,</l>
+<l>fuor d'ogni uso di legge da te sparso.</l>
+<l>Troppo t'amai; troppo a te fui fratello,</l>
+<l>oltre il dover di cittadino. Accolsi</l>
+<l>lusinga in me, che gli odi, il rio sospetto,</l>
+<l>e il vil terror, che a gara squarcian sempre</l>
+<l>il dubbio cor d'ogni uom, che farsi ardisce</l>
+<l>tiranno, a brani lacerando il tuo,</l>
+<l>pena ti foran troppa; e sprone a un tratto</l>
+<l>all'emendarti... Io ciò sperai; lo spero;</l>
+<l>sì, fratello; e tel chieggio; e di verace</l>
+<l>fraterno e in un cittadinesco pianto,</l>
+<l>(inusitata vista) oggi la gota</l>
+<l>rigar mi vedi; e supplichevol voce</l>
+<l>d'uom, che per sé mai non tremò, tu ascolti.</l>
+<l>È sorto al fine il dì; giungesti al punto</l>
+<l>infra tiranno e cittadin, da cui</l>
+<l>o ti è forza arretrarti, o a me fratello</l>
+<l part="I">cessar d'esser, per sempre.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Archida parla,</l>
+<l>in te: pur troppo i sensi suoi ravviso!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>DEMARISTA, TIMOLEONE, TIMOFANE</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Deh! vieni, o madre; tua mercé mi vaglia</l>
+<l>del mio fratello a piegar l'alma alquanto...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Sì, vieni, o madre; e tua mercé mi vaglia</l>
+<l>a racquistarmi un vero mio fratello.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Voi, l'un l'altro v'amate: or perché dunque</l>
+<l part="I">sturbar vostra amistà?...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">La troppo austera</l>
+<l part="I">sua virtù, non de' tempi...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Il desir suo,</l>
+<l>superbo troppo, e in ver de' tempi degno;</l>
+<l>ma indegno appien di chi fratel mi nasce.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Ma che? sua possa, non da lui rapita,</l>
+<l>potria dolerti? infra la plebe vile</l>
+<l>indistinto vorresti, oscuro, nullo</l>
+<l part="I">chi la patria salvò?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Che ascolto! Oh fero</l>
+<l>di regia possa pestilente fiato!</l>
+<l>Come rapido ammorbi ogni uom, che schermo</l>
+<l>non fa d'alti pensieri! Oh come tosto,</l>
+<l>perfida voglia d'impero assoluto,</l>
+<l>entro ogni core alligni! — E il tuo le schiudi,</l>
+<l>madre, tu pur? Tu cittadina, desti</l>
+<l>la vita a noi fratelli e cittadini:</l>
+<l>né vile allora tu estimavi il nome</l>
+<l>di cittadina: in vera patria nati,</l>
+<l>qui ci allattasti, e ci crescesti ad essa:</l>
+<l>e accenti tuoi fra queste mura or odo,</l>
+<l>convenienti al labbro stolto appena</l>
+<l>d'oriental dispotica reina?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Madre, tu il vedi: ei tutto a mal ritorce.</l>
+<l>Odi, fallace sconsigliato zelo,</l>
+<l>come si fa sordo di natura al grido.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Ma, quante volte non ti udiva io stessa</l>
+<l>biasmar questa città? Guasti i costumi,</l>
+<l part="I">i magistrati compri...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Or di': m'udisti</l>
+<l>a magistrati iniqui antepor mai</l>
+<l>compri soldati, ed assoluto sire?</l>
+<l>Per l'onor vostro e mio, supporti, a madre,</l>
+<l>voglio innocente ancora; e te men tristo,</l>
+<l>che impetuoso. A che l'oprar tuo incauto</l>
+<l>trar ti possa, nol vedi? io dunque luce,</l>
+<l>io fiamma or sono alle tenèbre tue.</l>
+<l>N'hai tempo ancora. Alta, sublime ammenda,</l>
+<l>degna di grande cittadin, ti resta;</l>
+<l part="I">generosissim'opra.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">Ed è?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Per certo,</l>
+<l>magnanim'opra fia, s'ella è concetta</l>
+<l>entro al tuo petto generoso. Or, via,</l>
+<l part="I">a lui l'addita.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Il tuo poter, che reo</l>
+<l>tu stesso fai coll'abusarne, intero</l>
+<l part="I">tu spontaneo il rinunzia.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">— A te il rinunzio,</l>
+<l part="I">se il vuoi per te.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Tolto a chi l'hai? favella;</l>
+<l>al tuo fratello, o ai cittadini tuoi?</l>
+<l>Rendi alla patria il suo; né me capace</l>
+<l>creder mai di viltà. S'altri il tenesse,</l>
+<l>privo ne fora ei da gran tempo. Pensa,</l>
+<l part="I">ch'io finor teco aperti mezzi...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Io penso,</l>
+<l>che tormi incarco, che dai più mi è dato,</l>
+<l>solo il possono i più. Forza di legge</l>
+<l>creato m'ha; legge mi sfaccia, io cesso.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>E di leggi tu parli, ove insolente</l>
+<l>stuol mercenario fa di forza dritto?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Vuoi dunque inerme all'ira cieca espormi,</l>
+<l>all'invidia, alla rabbia, alla vendetta</l>
+<l>d'Archida, o d'altri al par di lui maligni,</l>
+<l part="I">cui sol raffrena il lor timore?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Armato</l>
+<l>sii d'innocenza, e non di sgherri; e velo</l>
+<l>del timor d'altri al tua non far. Se iniquo</l>
+<l>non sei, che temi? ove tu il sii, non sola</l>
+<l>d'Archida l'ira, ma il furor di tutti</l>
+<l part="I">temi; — ed il mio.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Che ascolto? Oimè! fra voi</l>
+<l>di discordia si accende esca novella,</l>
+<l part="I">mentr'io vi traggo a pace? Ahi lassa!</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Madre,</l>
+<l>con lui ti lascio. Ei, di tropp'ira caldo,</l>
+<l>meco per or contender mal potria.</l>
+<l>Sia qual si vuole il parer nostro, od uno,</l>
+<l>o diverso, dal cor nulla mai trarmi</l>
+<l>potrà, che a te son io fratello vero.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>DEMARISTA, TIMOLEONE</stage>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Odi miracol nuovo! Ei, che la stessa</l>
+<l>ira fu sempre; ei che più ch'Etna, bolle</l>
+<l>entro il fervido cor; maestro il vedi</l>
+<l>del finger già: della sua rabbia è donno,</l>
+<l>or che incomincia nel sangue a tuffarla.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Figlio, ma in ciò, preoccupata troppo,</l>
+<l part="I">la tua mente t'inganna.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Ah! no: la vista</l>
+<l>preoccupata hai tu; né scorger vuoi</l>
+<l>cosa manifestissima e funesta.</l>
+<l>Madre, da te lontano io vivo; e avermi</l>
+<l>al fianco sempre ti saria mestiero,</l>
+<l>per farti sano il core. A te fui caro...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">E ognora il sei; credilo...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Amar tu dunque</l>
+<l>dei, quanto me, la vera gloria. A gara</l>
+<l>riacquistarla dobbiam noi: gran macchia</l>
+<l>al mio fratel vo' torre: io l'amo, il giuro,</l>
+<l>più di me stesso, e al par di te. Ma intanto,</l>
+<l>tu in lui puoi molto; e il dei risolver prima</l>
+<l>al necessario e in un magnanim'atto...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">A ritornar privato?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">A tornar uomo,</l>
+<l>e cittadino; a torsi il meritato</l>
+<l>odio di tutti; a rintracciar le prische</l>
+<l>orme smarrite di virtù verace;</l>
+<l>a tornarmi fratello ch'io per tale</l>
+<l>già già più nol ravviso. Invan lusinga,</l>
+<l>madre, ti fai: qui verità non entra,</l>
+<l>s'io non la porto. Infra atterriti schiavi</l>
+<l>vivete voi: voi, di Corinto in seno,</l>
+<l>spirate altr'aure: all'inumano vostro</l>
+<l>ardir qui tutto applaude: odi le stragi</l>
+<l>nomar giustizie; i più feroci oltraggi,</l>
+<l>dovuta pena; il prepotente oprare,</l>
+<l>provida cura. Del rio vostro ostello</l>
+<l>uscite; udite il mormorar, le grida,</l>
+<l>le imprecazion di tutti: i cuor ben dentro</l>
+<l>investigate; e nel profondo petto</l>
+<l>vedrete ogni uom l'odio covar, la vostra</l>
+<l>rovina; ognun giurarvi infamia e morte;</l>
+<l>cui più indugia il timor, tanto più cruda,</l>
+<l>atroce, intera, e meritata, debbe</l>
+<l part="I">in voi piombar, su i vostri capi...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Ah figlio!...</l>
+<l part="I">Tremar mi fai...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Tremo per voi sempr'io.</l>
+<l>Di me pietà, di lui, di te, ti prenda.</l>
+<l>A tale io son, ch'ogni sventura vostra</l>
+<l>più mia si fa: ma della patria a un tempo</l>
+<l>ogni offesa a me spetta. Il cor mi sento</l>
+<l>fra tai duo affetti lacerar; son figlio,</l>
+<l>cittadino, fratello: augusti nomi!</l>
+<l>Niun più di me gli apprezza, e i dover tutti</l>
+<l>compierne brama: ah! non vi piaccia a prova</l>
+<l>porre in me qual più possa. Io Greco nasco;</l>
+<l>e, Greca tu, m'intendi. — Al fero punto</l>
+<l>d'esservi aperto, aspro, mortal nemico,</l>
+<l>me vedi presso; or fé prestami dunque,</l>
+<l>finché qual figlio, e qual fratello io parlo.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Oh! qual Dio parla in te?... Farò, ch'ei m'oda,</l>
+<l part="I">il tuo fratello...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Ah! senza indugio, vanne,</l>
+<l>e il persuadi tu. S'ei più non snuda,</l>
+<l>e depon tosto il sanguinoso brando,</l>
+<l>fia in tempo, spero: oggi tu puoi, tu sola,</l>
+<l>comporre in pace i figli tuoi; con essi</l>
+<l>viver di pubblic'aura all'ombra lieta; —</l>
+<l>o disunirli, e perderli per sempre.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>DEMARISTA, ECHILO</stage>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>O madre di Timofane, ben tempo</l>
+<l>è che ti dolga un cotal figlio: al fine</l>
+<l>ignudo ei mostra di tiranno il volto.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Che fu? dov'è, ch'io rintracciar nol posso?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="I">E che? non sai?...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">Non so; narra.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Per mano</l>
+<l>d'infami suoi satelliti, la vita</l>
+<l part="I">ei toglie...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">A chi?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Nel proprio sangue immerso</l>
+<l>Archida giace; la vendetta è aperta;</l>
+<l>nella pubblica via svenato ei spira:</l>
+<l>né gl'iniqui uccisor sen fuggon; stanno</l>
+<l>feroci intorno al semivivo corpo,</l>
+<l>cui si vieta ogni aiuto. Ogni uom che passa,</l>
+<l>fugge atterrito, e pianger osa appena</l>
+<l>sommessamente. Ei muor, quel nobil, giusto,</l>
+<l>umano, e solo cittadin, che desse</l>
+<l>agli avviliti magistrati lustro.</l>
+<l>Timoleon rapir si vede in lui</l>
+<l>l'emulator di sue virtù, l'amico</l>
+<l part="I">intimo, il solo...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Ahi! che mi narri? Oh cielo!</l>
+<l>Or più che pria lontana infra i miei figli</l>
+<l>fia la pace; o in eterno è rotta forse.</l>
+<l part="I">Misera me!... Che mai farò?...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ti volgi</l>
+<l>dov'è il buon dritto, e del poter di madre</l>
+<l>avvalorati. Ammenda al suo delitto</l>
+<l>non so qual v'abbia, che a placar lo sdegno</l>
+<l>del suo fratello, e di Corinto basti:</l>
+<l>ma pur, s'ei cede, e il rio poter si spoglia,</l>
+<l>raggio per lui di speme ancor mi resta.</l>
+<l>Timoleon, fratello gli è; pur troppo</l>
+<l>congiunto e amico a lui son io: d'ingiusti</l>
+<l>taccia ne avrem; pur forse ancor salvarlo...</l>
+<l>Ma, se indurito appieno ha il cor perverso</l>
+<l>nella nuova tirannide di sangue,</l>
+<l part="I">trema per esso tu.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">Che sento?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Io, cieco</l>
+<l>troppo finor su i vizi suoi nascenti,</l>
+<l>fui dall'empie arti sue tenuto a bada.</l>
+<l>Benché tardi, mi avveggo al fin ch'è l'ora,</l>
+<l>ch'io seco cangi opre, linguaggio, e affetti.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Deh! l'udiam pria... Chi sa? forse... Il tuo sdegno</l>
+<l>io già non biasmo;... né sì atroce fatto</l>
+<l>difender oso;... ma ragion pur debbe</l>
+<l>averlo spinto a ciò. Finor suo brando</l>
+<l>nei cittadin più rei cadea soltanto:</l>
+<l>tremendo, è ver; ma sol tremendo a quelli,</l>
+<l>ch'empi, biasmati, ed impuniti stanno,</l>
+<l>perché ogni legge al lor cospetto è muta:</l>
+<l part="I">tal fu finora; il sai...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Donna, se l'odi,</l>
+<l>temo che udrai ragion più scellerata</l>
+<l part="I">che non è il fatto.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">Eccolo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>TIMOFANE, DEMARISTA, ECHILO</stage>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">O figlio;... ahi lassa!...</l>
+<l>che festi, o figlio? A confermarti taccia</l>
+<l>di tiranno, tentare opra potevi</l>
+<l>peggior tu mai? ne freme ogni uom; per sempre</l>
+<l>tolto ti sei del tuo fratel l'amore.</l>
+<l>Ahi lassa me! chi può saper qual fine</l>
+<l>uscir ne debba?... Il tuo verace amico,</l>
+<l>Echilo, anch'ei ne mormora: ne piange</l>
+<l>la tua madre pur anco. Ahi! che pur troppo</l>
+<l>è ver, pur troppo! perigliosi e iniqui</l>
+<l>disegni covi, e feri rischi affronti;</l>
+<l>la benda, ond'era a tuo favor sì cieca,</l>
+<l part="I">mi tagli al fin tu stesso.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Onde l'immenso</l>
+<l>tuo duol? perché? qual te ne torna danno?</l>
+<l>D'amistade, o di sangue Archida forse</l>
+<l>t'era stretto! Ben vedi, or del non tuo</l>
+<l part="I">dolor ti duoli.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">A me qual danno? Quanti</l>
+<l part="I">tornar ten ponno...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">E assai tornar glien denno.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>E lieve danno il pubblic'odio nomi,</l>
+<l>quand'io teco il divido? e il tremar sempre</l>
+<l>una madre per te? d'altro mio figlio</l>
+<l>l'odio acquistar per te? fra voi nemici</l>
+<l part="I">in eterno vedervi?...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">E voi pur odo,</l>
+<l>benché non volgo, giudicar col volgo?</l>
+<l>Tu co' tuoi detti, io colla mano imprendo</l>
+<l>a cangiare il fratello. Archida avria,</l>
+<l>finch'ei spirava aure di vita, in lui</l>
+<l>contro me l'odio e l'ira ognor transfuso:</l>
+<l>la miglior parte ei de' fraterni affetti,</l>
+<l>sì, m'usurpava. Al fin mi parve questo</l>
+<l>sol, fra' suoi tanti, il capital delitto.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Integro troppo, e cittadino, egli era;</l>
+<l>questo è il delitto suo. — Ma tu, pensasti,</l>
+<l>che alla patria non spenta ancor rimane</l>
+<l>Timoleon? ch'Echilo resta?... Ahi folle!...</l>
+<l>Deh! dove corri? Io già t'amava; e quanto,</l>
+<l>il sai: dritt'uomo io son; te tal credea:</l>
+<l>e il fosti, sì, meco da prima; amico</l>
+<l>mi avesti, e t'ebbi... Astretti or sol di sangue</l>
+<l>restiam; deh tu, non sciorre anco tal nodo!</l>
+<l>Uom, che altamente si professa e giura</l>
+<l>aspro nemico di virtù mentita,</l>
+<l part="I">mirami ben, son io.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Di voi men lieve,</l>
+<l>non cangio in odio l'amor mio sì tosto.</l>
+<l>Già v'ebbi, ed hovvi, oltre ogni cosa, cari:</l>
+<l>e a racquistare a me il fratel, l'amico,</l>
+<l>ogni mezzo terrò. Me non offende</l>
+<l>il tuo schietto parlar: ma ancor pur spero</l>
+<l>riguadagnarti, or ch'è l'ostacol tolto.</l>
+<l>Quanto a te, madre, appien già t'ho convinta,</l>
+<l>che nuovo fren vuolsi a Corinto imporre.</l>
+<l>Ch'io non v'abbia a placare a un tempo tutti?...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Offesa io son, pel fratel tuo...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Che ascolto?</l>
+<l>Tu inoffendibil per la patria sei?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Son madre...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="M">Di Timofane.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">D'entrambi...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>No, di Timoleon madre non sei.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Tu l'odi?... Ahi lassa me!...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Lascia, ch'io solo</l>
+<l>primiero affronti del fratel lo sdegno,</l>
+<l>pria che tu l'oda. A te fia duro troppo</l>
+<l>l'ascoltar sue rampogne. Io ti prometto</l>
+<l>di trar costoro al parer mio: niun danno</l>
+<l>è per tornarne a loro: e, suo mal grado,</l>
+<l>vo' che con me Timoleon divida</l>
+<l>il mio poter, che omai securo io tengo.</l>
+<l>Da me, tu per te stessa, non dissenti:</l>
+<l>te non governa amor di patria cieco:</l>
+<l>ami i tuoi figli tu. Per or, mi lascia:</l>
+<l>forse verranne a me il fratello; io il voglio</l>
+<l>convincer prima: a parte poscia in breve</l>
+<l part="I">tu tornerai di nostra gioia.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ah! ch'egli</l>
+<l>si arrenda a te, tanto è possibil, quanto</l>
+<l>ch'io mi t'arrenda... Or, di': s'ei non si piega,</l>
+<l>fermo sei di seguir tua folle impresa?</l>
+<l part="I">Pensaci; parla...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Echilo... Oimè,... ch'io sento</l>
+<l>al cor presagio orribile!... Deh! figlio,</l>
+<l>ten priego; almen non muover passo omai,</l>
+<l part="I">ch'io pria nol sappia.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">A te il prometto: or vanne:</l>
+<l>nulla imprender voglio, senza il tuo assenso:</l>
+<l>vivi secura; io 'l giuro. Ho in me certezza</l>
+<l>d'annunziarti in breve interna pace,</l>
+<l>stabile al par della grandezza esterna.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>TIMOFANE, ECHILO</stage>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Timoleon più maschio alquanto ha il petto:</l>
+<l>nol vincerai, come costei, già vinta</l>
+<l part="I">da sua donnesca ambizione.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">I mezzi</l>
+<l>di vincer tutti, in me stan tutti: il credi.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Or parli al fin; questo è linguaggio all'opre</l>
+<l>concorde appien. T'ho per men vile almeno,</l>
+<l>or che favelli, qual tiranno il debbe.</l>
+<l>Or io, qual debbe un cittadin, favello.</l>
+<l>Espressamente a rinunziarti io venni</l>
+<l>l'amistà tua. Né duole a me, che m'abbi</l>
+<l>deluso tu: se avessi io te deluso</l>
+<l>dorriami assai, ch'uom veritier son io.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Io non rompo così d'amistà santa</l>
+<l>gli alti vincoli antichi. — Echilo, m'odi —</l>
+<l>Mal tuo grado, convincer io ti posso,</l>
+<l>che in me non era ogni virtù mentita,</l>
+<l>e che può unirsi al comandar drittura.</l>
+<l>Se il mio pensier, di voler farmi primo,</l>
+<l>ti tacqui ognor, s'anco il negai, negarlo</l>
+<l>dovev'io a te; tu non mel creder mai.</l>
+<l>Uom lasciò mai sovrana possa? Errasti</l>
+<l>forse tu allor che mi ti festi amico,</l>
+<l>mentre aggiungendo io possa a possa andava:</l>
+<l>ma, non men erri in questo dì, se cessi</l>
+<l>d'esserlo, or quando è il mio poter già tanto.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>D'Archida dunque il sangue a me dovea</l>
+<l>manifestar l'atroce animo tuo,</l>
+<l>cui finor non conobbi? E fia pur vero,</l>
+<l>ch'empio tanto tu sii?... Ma, oh ciel! s'io cesso</l>
+<l>d'esserti amico, a te rimango io pure</l>
+<l>ancor congiunto... Ah! sì; per la diletta</l>
+<l>mia suora, a te non vile; per que' figli</l>
+<l>teneri e cari, ond'ella ti fe' padre;</l>
+<l>ten prego, abbi di lei, di lor pietade,</l>
+<l>poiché di te, di noi, non l'hai. Corinto</l>
+<l>non, qual tel pensi, ancor del tutto è muta:</l>
+<l>breve pur troppo a te la gioia appresti,</l>
+<l>a noi pianto lunghissimo. Deh! m'odi...</l>
+<l>mira, ch'io piango; e per te piango. — Ancora</l>
+<l>reo tant'oltre non sei, che ostacol nullo</l>
+<l>più non ravvisi; né innocente sei,</l>
+<l>da non temerne alcuno. Assai più stragi</l>
+<l>mestier ti fan, pria che davver qui regni;</l>
+<l>e atroce cor, quanto a ciò vuolsi, ah! forse</l>
+<l>non l'hai... Tu il vedi; come ad uom ti parlo;</l>
+<l>che in petto, parmi, ancor favilla alcuna</l>
+<l>d'uman tu serbi. Dal cessar di amarti</l>
+<l>all'abborrirti, è più d'un passo:... e forte</l>
+<l>mi costa il farlo... A ciò, deh! non sforzarmi.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Ottimo sei; non fossi tu ingannato!</l>
+<l>Non t'amo io men per ciò. — Ma, venir veggio</l>
+<l part="I">Timoleone...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>TIMOLEONE, ECHILO, TIMOFANE</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Una parola sola,</l>
+<l>deh! mi concedi, ch'io primier ti dica:</l>
+<l part="I">dirai tu poi...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Tiranno almen non vile</l>
+<l>credeva io te; ma vil, sei quanto ogni altro.</l>
+<l>Ahi, stolto io troppo! havvi tiranno al mondo</l>
+<l>di cor non vile? — All'uccisor sublime</l>
+<l>d'ogni buon cittadino, arreco io stesso</l>
+<l>un dei migliori che rimangan: vive</l>
+<l>Archida in me; delitto inutil festi;</l>
+<l>Corinto intera in me respira; in questa</l>
+<l>forte mia, fera, liberissim'alma.</l>
+<l>Me, me trafiggi; e taci: a dirmi omai</l>
+<l>nulla ti avanza; a uccider me ti avanza.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Or, d'un tiranno i nuovi sensi ascolta. —</l>
+<l>Questa mia vita è dono tua; tu salva,</l>
+<l>fratel, me l'hai; tu la ripiglia: armate</l>
+<l>guardie al fianco non tengo: ecco il mio brando:</l>
+<l>vibralo in me. Mira, ancor nudo il petto</l>
+<l>porto; non vesto ancor timida maglia;</l>
+<l>securo io stommi, al par di te. — Che tardi?</l>
+<l>Ferisci, su. L'odio, che in sen tu nutri</l>
+<l>contro a' tiranni, entra il mio sangue or tutto</l>
+<l>sfogalo tu: se il tuo giust'odio io merto,</l>
+<l>io non ti son fratello. — Il poter mio,</l>
+<l>niun uomo al mondo omai può tormel: solo</l>
+<l>puoi tu la vita, e impunemente, tormi.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>No, non terrai tu la esecrabil possa,</l>
+<l>se non uccidi me. Già tu passeggi</l>
+<l>alto nel sangue; or resterai tu a mezzo?</l>
+<l>Oltre ti spingi: di Corinto al trono</l>
+<l>per questo solo petto mio si sale:</l>
+<l part="I">altra via qui non è.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Già mi vi seggo,</l>
+<l>e illeso stai. La mia città, mie forze,</l>
+<l>tutto conosco: e già tropp'oltre io giunsi,</l>
+<l>per arretrarmi. A me non v'ha qui pari,</l>
+<l>altri che tu. Mi fora infamia espressa</l>
+<l>minor rifarmi de' minori miei;</l>
+<l>ma di te, il posso; e dove il vogli, io 'l voglio.</l>
+<l>Qui libertade popolar risorta</l>
+<l>non si vedrà, mel credi. A te par reo</l>
+<l>il governo d'un sol; ma, se quell'uno</l>
+<l>ottimo fosse, il regger suo nol fora?</l>
+<l>Quell'un, sii tu; de' miei delitti godi;</l>
+<l>Corinto in te quant'io le tolsi acquisti;</l>
+<l>io pregierommi d'esserti secondo.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Tuoi scellerati detti al cor più fera</l>
+<l>punta mi son, che nol saria il coltello,</l>
+<l>con cui tu in libertade Archida hai posto.</l>
+<l>Uccidi tu; ma ad uom che Greco nacque,</l>
+<l>non insegnar tu servitù, né regno.</l>
+<l>Passeggere tirannidi a vicenda</l>
+<l>macchiato, è vero, ogni contrada han quasi</l>
+<l>di questa terra a libertà pur sacra:</l>
+<l>ma il sangue ognor qui si lavò col sangue;</l>
+<l>né acciar mancò vendicator qui mai.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>E venga il ferro traditore; e in petto</l>
+<l>a me pur piombi: ma, finch'io respiro,</l>
+<l>vedrà Corinto e Grecia, esser non sempre</l>
+<l>rea la possa d'un sol: vedrà, che un prence,</l>
+<l>anco per vie di sangue al trono asceso,</l>
+<l>lieto il popol può far di savie leggi;</l>
+<l>securo ogni uom; queto l'interno stato;</l>
+<l>tremendo altrui, per l'eseguir più ratto;</l>
+<l>forte in se stesso, invidiato, grande...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Oh! che insegnar vuoi tu? Dei re gli oltraggi</l>
+<l>nati non sono? e i dolorosi effetti</l>
+<l>non cen mostra ogni dì l'Asia avvilita?</l>
+<l>Pianta è di quel terreno: ivi si alligna;</l>
+<l>ivi fa l'uom men ch'uom; di qui sterpata,</l>
+<l>pari fa i Greci ai Numi. Il popol primo</l>
+<l>siam della terra noi. — Di te, che speri?</l>
+<l>D'esser tu re dai tanti altri diverso? —</l>
+<l>Già sei nemico, e lo sarai più sempre,</l>
+<l>d'ogni uom ch'ottimo sia; d'ogni virtude</l>
+<l>invidioso sprezzator; temuto,</l>
+<l>adulato, abborrito; altrui noioso,</l>
+<l>insoffribile a te; di mercar laude</l>
+<l>avido ognor, ma convinto in te stesso,</l>
+<l>che esecrazion sol merti. In cor, tremante;</l>
+<l>mal securo nel volto; eterna preda</l>
+<l>di sospetto e paura; eterna sete</l>
+<l>di sangue e d'oro, sazietà non mai;</l>
+<l>privo di pace, che ad ogni uom tu togli;</l>
+<l>non d'amistà congiunto, né di sangue</l>
+<l>a persona del mondo; a infami schiavi</l>
+<l>non libero signor; primo di tutti,</l>
+<l>e minor di ciascuno... Ah! trema; trema:</l>
+<l>tal tu sarai: se tal pur già non sei.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Ah! no; più caldi mai, né mai più veri</l>
+<l>forti divini detti in cor mortale</l>
+<l>mai non spirò di libertade il Nume.</l>
+<l>Già del furor, che lui trasporta, ho pieno,</l>
+<l>invaso il petto. E tu, pur reggi, o crudo,</l>
+<l>alla immagine viva, e orribil tanto,</l>
+<l part="I">della empia vita, in cui t'immergi?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">— Ah! forse,</l>
+<l>voi dite il vero. — Ma non v'ha più detti,</l>
+<l>e sien pur forti, che dal mio proposto</l>
+<l>svolger possanmi omai. Buon cittadino</l>
+<l>più non poss'io tornare. A me di vita</l>
+<l>parte or s'è fatta, la immutabil, sola,</l>
+<l>alta mia voglia; di regnar... Fratello,</l>
+<l>tel dissi io già: corregger me sol puoi</l>
+<l part="I">col ferro: invano ogni altro mezzo...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Ed io</l>
+<l>a te il ridico: non avrai mai regno,</l>
+<l part="I">se me tu pria non sveni.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">E me con esso.</l>
+<l>All'amistà, ch'ebbi per te, già sento,</l>
+<l>viva in me sento, ed ardente, ed atroce</l>
+<l>sottentrar nimistà. Mi avrai non meno</l>
+<l>duro, acerbo, implacabile nemico,</l>
+<l>che prode amico vero sviscerato</l>
+<l>mi avesti un dì. Né a te son io, ben pensa,</l>
+<l>com'ei, fratello. — Io, del tiranno in faccia,</l>
+<l>qui intanto a te, Timoleone, io giuro</l>
+<l>fede eterna di sangue. Ogni inaudito</l>
+<l>sforzo far giuro per la patria teco:</l>
+<l>e se fia vana ogni nostr'opra, ad essa</l>
+<l>né un sol momento sapravviver giuro.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Deh! mira, insano; or se cotanto imprende</l>
+<l>chi già ti fu sincero amico, e stretto</l>
+<l>t'è ancor di sangue, che faran tanti altri</l>
+<l part="I">oltraggiati da te?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Basta. — Vi volli</l>
+<l>amici aver; ma non vi curo avversi.</l>
+<l>Della patria campioni generosi,</l>
+<l>adopratevi omai per essa dunque.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>TIMOLEONE, ECHILO</stage>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Ahi sconsigliato, misero fratello!</l>
+<l>te potessi salvar, com'io son certo</l>
+<l part="I">di salvar la mia patria!</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ne' suoi</l>
+<l>mercenari ei si affida; ei sa, che altr'armi</l>
+<l>or da opporre alle sue non ha Corinto.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Con quest'ultimo eccidio, è ver ch'ei sparse</l>
+<l>terrore assai di sé; ma in mille doppi</l>
+<l>l'odio ei si accrebbe; e non è tolto a tutti</l>
+<l>l'anima, il core, e la vendetta. Han chiesto</l>
+<l>già per segreto messo ai Micenèi</l>
+<l>pronto soccorso i cittadini; in parte</l>
+<l>già i suoi stessi satelliti son compri.</l>
+<l>Misero! ei colto ai propri lacci suoi</l>
+<l>sarà, pur troppo!... Ah! se rimedio ancora!...</l>
+<l>Ma tolto ei m'ha l'amico, e, più gran bene,</l>
+<l>la libertà... Ma pure... ei m'è fratello;</l>
+<l>n'ha ancor pietà... Se alcun piegarlo alquanto...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Il potrebbe la madre, ove non guasto</l>
+<l part="I">serbasse il cor: ma troppo...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Udrammi anch'essa</l>
+<l>or per l'ultima volta. Io volo pria</l>
+<l>a supplicar gli amici miei, che solo</l>
+<l>dato gli sia di questo dì l'avanzo,</l>
+<l>tempo a pentirsi; e tosto riedo; e nulla,</l>
+<l>perch'ei si cangi, d'intentato io lascio:</l>
+<l>preghi, terror, pianti, e minacce, e madre. —</l>
+<l>Deh! tu pur vieni; e ritroviam tai mezzi,</l>
+<l>per cui sovra il suo capo si sospenda</l>
+<l>per ora in alto il ferro, e in un non n'abbia</l>
+<l>la patria danno. A lui l'ufficio estremo</l>
+<l>di congiunti e d'amici oggi rendiamo:</l>
+<l>ma, se non giova, cittadin siam noi; —</l>
+<l>piangendo, forza ne sarà mostrarlo.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>DEMARISTA, TIMOLEONE</stage>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Del tuo senno a raccorre lo vengo il frutto.</l>
+<l>Da ch'io più non ti vidi, Archida solo</l>
+<l>svenato cadde: il tuo garrir gran freno</l>
+<l>posto ha finora al tuo superbo figlio:</l>
+<l>or, certamente, rammollito, e affatto</l>
+<l>cangiato il cor tu gli hai: ciò che non fero</l>
+<l>gl'inefficaci detti miei fraterni,</l>
+<l>le universali grida, il comun pianto,</l>
+<l>le rampogne amichevoli, e i rimorsi</l>
+<l>cocenti interni, al fin di madre il fanno</l>
+<l>virtuosi ed assoluti preghi.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>... Figlio, sa il ciel, s'io caldamente all'opra</l>
+<l>mi accingessi; ma scoglio havvi sì fermo</l>
+<l>quanto il cor di Timofane? Del regno</l>
+<l>gustato egli ha; né preghi omai, né pianti,</l>
+<l>né ragion, né possanza havvi, che il cangi.</l>
+<l>Io teco ancor qui favellando stava,</l>
+<l>ch'ei, lasciatine appena, a cruda morte</l>
+<l>Archida por facea. Che valser detti,</l>
+<l>dopo tali opre? Invan parlai; persiste</l>
+<l>Timofane vie più... Deh! tu, che umano</l>
+<l>e saggio sei, cedi per or tu dunque</l>
+<l>a impetuosa irresistibil piena:</l>
+<l part="I">forse poi...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">Donna, a me favelli?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Ahi lassa!...</l>
+<l>E se non cedi, or che fia mai?... Deh! m'odi.</l>
+<l>Vuoi tu vederlo ucciso? o vuoi, che a forza</l>
+<l>feroce insana ambizion lo tragga</l>
+<l>a più orribil misfatto? Or dal tuo stato</l>
+<l>troppo è diverso il suo: sangue già troppo</l>
+<l>versato egli ha, perché securo starsi</l>
+<l>possa, s'ei si fa inerme: alla perduta</l>
+<l>fama è mestier ch'ei del poter soccorra:</l>
+<l>ma te, che usbergo hai la innocenza tua,</l>
+<l>parmi ragion ch'io preghi; e tu, più lieve,</l>
+<l>prestarmi orecchio puoi. S'ei ne s'arrende</l>
+<l>tutto ei perde, possanza, e onore, e vita</l>
+<l>fors'anco: tu, se a me ti arrendi, nulla</l>
+<l part="I">perdi...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Quai sensi infami! E nulla nomi</l>
+<l>la patria? nulla l'onor mio? — Tu sei</l>
+<l>madre a me, tu? — Se da tiranno ei cessa,</l>
+<l>temi pel viver suo? — ma dimmi; e credi</l>
+<l>ch'ei viver possa, ove tiranno ei resti?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Oh ciel!... Vendetta ogni tuo detto spira.</l>
+<l>Crudo al fratel tu sei, mentr'egli è tutto</l>
+<l>amor per te: mentr'egli vuol pur viva</l>
+<l>la patria in te, nel senno tuo, nel giusto</l>
+<l>alto tuo core; e lo splendor ch'ei dielle</l>
+<l>in guerra, or vuol che in pace anco maggiore</l>
+<l part="I">l'abbia da te. Ciò mi giurava...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">E pieghi</l>
+<l>tu l'alma a detti (o sien fallaci, o veri)</l>
+<l>pur sempre rei? Saper dovresti, parmi,</l>
+<l>che un cittadin, non la città son io.</l>
+<l>La patria viva, è nelle sacre leggi;</l>
+<l>negli incorrotti magistrati, ad esse</l>
+<l>sottoposti; nel popolo; nei grandi;</l>
+<l>nella union de' non mai compri voti;</l>
+<l>nella incessante, universal, secura</l>
+<l>libertà vera, che ogni buon fa pari:</l>
+<l>e, più che tutto, è della patria vita</l>
+<l>l'abborrir sempre d'un sol uomo il freno.</l>
+<l>Ciò non sai tu? — Rimane ultimo oltraggio</l>
+<l>a farsi a me da voi; l'osar tenermi,</l>
+<l>o il fingere di credermi sostegno</l>
+<l>alla vostra tirannide. — Tu, donna,</l>
+<l>del figlio al par, d'ambizione iniqua</l>
+<l>rea sei convinta, a manifesti segni.</l>
+<l>Più che a me cittadino, a lui tiranno</l>
+<l>esser madre ti giova: assai m'è chiaro.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>È chiaro a ognun, che al par di te spogliarmi</l>
+<l>l'amor non so del sangue mio; che madre</l>
+<l>pur sempre io son... Fratel così tu fossi!</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Oh! qual madre se' tu? Spartane donne,</l>
+<l>insegnin esse in libera cittade</l>
+<l>ciò ch'esser den le madri. Il tuo, che chiami</l>
+<l>materno amore, effeminato senso</l>
+<l>di cieca donna egli è, che l'onor vero</l>
+<l>ti fa pospor del figlio alla ostinata,</l>
+<l>vile superbia sua. Le madri in Sparta</l>
+<l>mira, dei figli per la patria morti</l>
+<l>allegrarsi; contarne esse le piaghe;</l>
+<l>e lavarle, baciandole, di liete,</l>
+<l>non di dolenti lagrime; e fastosa</l>
+<l>andarne più, qual di più figli è priva:</l>
+<l>donne son quelle, e cittadine, e madri.</l>
+<l>Tu, del tuo figlio alla inflessibil voglia,</l>
+<l>che pur conosci rea, ti arrendi; ed osi</l>
+<l>dirmi e sperar, ch'io mi v'arrenda? Al mio</l>
+<l>più inflessibil voler, ch'esser sai figlio</l>
+<l>di virtù, di', perché non cedi? Il nome</l>
+<l>per lui fai solo risuonar di madre;</l>
+<l part="I">per me, tu il taci?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Acquetati; m'ascolta...</l>
+<l>E che non feci? e che non dissi?... Il sento,</l>
+<l>sta per te la ragion; ma, il sai, per esso</l>
+<l>milita forza, che ragion non ode...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>No, madre, no; poco dicesti, e meno,</l>
+<l>e nulla festi. In cor, di nobil foco</l>
+<l>non ardi tu; di quell'amor bollente</l>
+<l>della patria, che ardir presta ai men forti;</l>
+<l>che a te facondia alta, viril, feroce</l>
+<l>avria spirato pure. Assai, mel credi,</l>
+<l>nel tuo volere e disvoler si affida</l>
+<l>or l'accorto Timofane: ei ben scerne</l>
+<l>quanto è lusinga al femminil tuo petto</l>
+<l>il desio di regnare. In suon di sdegno</l>
+<l>minacciosa tuonar t'udia fors'egli?</l>
+<l part="I">Ti udia?...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Fin dove cimentarsi ardisce</l>
+<l part="I">debil madre, l'osai; ma...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Greca madre,</l>
+<l>debil fu mai, né inerme? Armi possenti,</l>
+<l>più che non merti, hai tu; se non le adopri,</l>
+<l>colpa è di te. Quand'egli ai preghi, al pianto,</l>
+<l>e alle ragioni resistea; tu stessa</l>
+<l>quinci sbandir (ch'ella è tua stanza questa)</l>
+<l>dovevi, tu, lo scellerato infame</l>
+<l>tirannesco corteggio; al figlio torre</l>
+<l>i mezzi tutti di corromper; torgli,</l>
+<l>pria d'ogni cosa, arme peggior del ferro,</l>
+<l>esca primiera ad ogni eccesso, l'oro.</l>
+<l>Sacro estremo voler del tuo consorte,</l>
+<l>e di Corinto legge, arbitra donna</l>
+<l part="I">d'ogni aver nostro or non ti fanno?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Io dirlo,</l>
+<l part="I">è vero, potea;... ma, s'ei...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Farlo, non dirlo:</l>
+<l>e s'ei cotanto era già fatto iniquo</l>
+<l>da contender con te; strappato il crine,</l>
+<l>tu lagrimosa, in vedovile ammanto,</l>
+<l>lacera il volto e il sen, che non uscivi</l>
+<l>di questo ostel contaminato e tristo?</l>
+<l>tuoi nipoti teneri, e non rei</l>
+<l>del tirannico padre, al fianco trarti</l>
+<l>per man dovevi al tuo partirne; e teco</l>
+<l>lor madre trarne addolorata; ai buoni</l>
+<l>spettacol grato di virtude antiqua:</l>
+<l>ed appo me, presso il tuo vero figlio,</l>
+<l>te ricovrar con essi; e fra suoi sgherri</l>
+<l>abbandonare a se stesso il tiranno:</l>
+<l>dell'usurpato suo poter non rea</l>
+<l>altamente gridarti; e orribil taccia</l>
+<l>torti così d'esserne entrata a parte. —</l>
+<l>Ciò fatto hai tu? Retto avrebb'egli a tanto?...</l>
+<l>Certo ei sprezzò, che dispregiar dovea,</l>
+<l>lagrime imbelli, e femminil lamento.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Figlio,... temei... Deh! m'odi...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Udirti ei debbe...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Io paventai farlo più crudo, all'ira</l>
+<l>spingendolo: mi volsi, e ancor mi volgo</l>
+<l>a te, cui danno può maggior tornarne;</l>
+<l part="I">a te...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Tu temi? Or, se il timor t'è guida,</l>
+<l>se il loco in te del patrio amor tien egli;</l>
+<l>sappi, che danno, irreparabil danno,</l>
+<l>a lui sovrasta, e non a me; che solo,</l>
+<l>sol questo dì, se il vuoi salvar, ti avanza.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Che sento?... Oimè!...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Sì; questo dì, cadente</l>
+<l>già ver la notte... Amo il fratel; ma l'amo</l>
+<l>d'amor dal tuo diverso: in cor ne piango,</l>
+<l>bench'io non pianga teco. A te feroce</l>
+<l>io parlo, perché v'amo... Omai non tremo</l>
+<l>più per Corinto;... per voi soli io tremo.</l>
+<l>Mal ne' soldati suoi si affida incauto</l>
+<l>Timofane... Deh! madre, ultimi preghi</l>
+<l>io ti porgo. Se cara hai la sua vita,</l>
+<l>per la sua vita ti prego. Sospesa</l>
+<l>io solo in alto sul suo capo or tengo</l>
+<l>dei cittadin l'ultrice spada: io solo</l>
+<l>or del tiranno ai giorni un giorno aggiungo:</l>
+<l>io, che nel sangue del tiranno il primo</l>
+<l>dovrei bagnarmi, ahi ria vergogna! io 'l serbo.</l>
+<l>Tu del mio dir dunque fa' senno; e credi</l>
+<l>che irati tanto ancor non ha i suoi Numi</l>
+<l>Corinto, no, che annichilar si deggia</l>
+<l>al cospetto d'un solo. — Ecco il tiranno.</l>
+<l>Seco non parlo io più; tutto a lui dissi. —</l>
+<l>Se mal ne avvien, di te poi sola duolti.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>DEMARISTA, TIMOFANE</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="I">Timoleon mi sfugge?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">Ah figlio!...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">E tanto</l>
+<l>ei ti turbò? Tu nol cangiasti dunque?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Oh cielo! al cor suoi detti m'eran morte...</l>
+<l>Trema; un sol dì, questo sol dì, ti avanza...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Ch'io tremi? è tardi; or ch'io l'impresa ho tratta</l>
+<l part="I">a fine omai.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Quanto t'inganni!... Ah! forse,</l>
+<l>senza il fratello tuo, più non saresti...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Mi hai tu sì a vil, che quant'io nego ai preghi,</l>
+<l>speri ottenere or dal terrore? Io parlo</l>
+<l>più aperto ch'egli, assai: non lieve prova</l>
+<l>ti sia il mio dir, che nulla io temo. — Tutte</l>
+<l>so le lor trame; io so, che all'arte indarno</l>
+<l>si appiglian or, nemici imbelli. Anch'essi</l>
+<l>hanno i lor traditori: invan risposta</l>
+<l>aspettan da Micène; invan corrotto</l>
+<l>hanno alcuni de' miei: m'è noto il tutto:</l>
+<l>lor passi, opre, pensier, so tutto appieno.</l>
+<l>A lor non credo io soggiacer; ma, dove</l>
+<l>ciò accada pur, mai non mi arretro io, mai.</l>
+<l>Men biasmo a loro era il mostrarmi aperta</l>
+<l>rabbia; ma volto hanno alla fraude il core?</l>
+<l>Della lor fraude vittime cadranno.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Oimè!... sei tu sì snaturato forse,</l>
+<l part="I">che il fratel tuo?... Crudele!...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Ei mi dà taccia</l>
+<l>di tiranno; ma pur, figlio, e fratello,</l>
+<l>più ch'ei non è, son io. Madre, tuttora</l>
+<l>darei mia vita, per salvar la sua:</l>
+<l>se lui dagli altri miei nemici io scerna,</l>
+<l>pensar puoi quindi. Echilo ed egli, or soli</l>
+<l>salvi ne andranno dalla intera strage,</l>
+<l part="I">che sta per farsi...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Oh ciel! di nuove stragi</l>
+<l>parli tu ancora? Oimè! che fai? T'arresta;</l>
+<l>io tel comando. Ah, che in tuo danno io troppo</l>
+<l>tacqui finora! il condiscender molle</l>
+<l>rea pur mi fa; meco a ragion si accende</l>
+<l part="I">Timoleon di giusto sdegno...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">È fisso</l>
+<l>irrevocabilmente il mio destino:</l>
+<l>o regno, o morte. — Invan t'adiri; invano</l>
+<l>preghi, piangi, minacci. Uscì il comando</l>
+<l>di morte già; pel sol fratello io stommi,</l>
+<l>tremante omai; che il militar furore</l>
+<l>mal può frenarsi. A te, d'entrambi madre,</l>
+<l>si aspetta il far ch'ogni consesso ei sfugga:</l>
+<l>deh! tutto in opra poni, perch'ei venga</l>
+<l>a ricovrar fra noi. Da lui non seppi</l>
+<l>io le sue trame: a lui le mie tu narra,</l>
+<l>sol quanto è d'uopo a porlo in salvo. Io tremo,</l>
+<l>ch'ei non si ostini a voler irne al loco</l>
+<l>convenuto con Echilo: securi</l>
+<l part="I">saran qui solo appieno...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">E s'anco io valgo</l>
+<l>a trarlo qui, misera me! quand'egli</l>
+<l>la strage udrà,... forse,... oh terribil giorno!...</l>
+<l part="I">ei di vendetta allora...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Ei può cangiarsi,</l>
+<l>quando vedrà ch'io risparmiar lo volli:</l>
+<l>ma svenarmi anco puote: e il faccia; ei solo</l>
+<l>il può: questa mia vita ei si ripigli,</l>
+<l>poiché a me la salvava: — ma il mio regno,</l>
+<l>ch'io m'acquistai, ritormi? né il può il cielo,</l>
+<l>s'arso ei non hammi e incenerito pria.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>ECHILO, DEMARISTA, TIMOFANE</stage>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Non ti stupir, se ancor mi vedi: il volto</l>
+<l>di generosa nimistade or vedi:</l>
+<l>e il primo stral ch'io ti saetto, è il dirti</l>
+<l>liberamente, che a momenti piomba</l>
+<l part="I">un mortal colpo entro al tuo seno.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Ah! figlio,</l>
+<l>io non ti lascio... Al fianco tuo... T'arrendi?...</l>
+<l>Deh! credi a quest'uom prode... Oh ciel!... che fai?...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Tutto ho d'acciar contra ogni strale il petto.</l>
+<l part="I">Intrepido vi attendo.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">— Odimi: teco</l>
+<l>non fui più schietto io mai: di cor ti parlo;</l>
+<l>né, per esserti avverso, ho il cor cangiato,</l>
+<l>se non in meglio: ascoltami. — Per quanto</l>
+<l>sii valente, non sei pur altro ch'uno;</l>
+<l>mal ti affidi, se in altri: in mille forme</l>
+<l>cinto di morte stai: di quante spade</l>
+<l>ti vedi intorno in tua difesa ignude,</l>
+<l>ciascuna è quella, che repente puossi</l>
+<l>al tuo petto ritorcere. Deh! credi,</l>
+<l>a me sol credi. O cangia, o uccidi, o trema.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Al mio destin lasciatemi. Trascorso</l>
+<l>non fia 'l dì, che voi tanto a me tremendo</l>
+<l>ite annunziando, che convinti avrovvi</l>
+<l>io meglio assai: né a voi discaro fia</l>
+<l>la pietà, di cui sete a me sì larghi,</l>
+<l>ritrovar più efficace in altri forse.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>ECHILO, DEMARISTA</stage>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Tu il vuoi così? teco ogni ufficio mio</l>
+<l>oltre il dover compiei. —DEMARISTA</l>
+<l>Deh corri, vola;</l>
+<l>Timoleon qui traggi: a lui gran cose</l>
+<l>deggio narrar io stessa. Ogni adunanza,</l>
+<l>deh! fa ch'ei sfugga intanto: ei sta in periglio...</l>
+<l>Veglia sovr'esso... Io palpito... Qui il traggi,</l>
+<l>ad ogni costo, deh! pria che la notte</l>
+<l>scenda; securo ei non sarebbe altrove.</l>
+<l>Va'; d'una madre abbi pietade; un figlio</l>
+<l>salvami; a far l'altro più mite io corro.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>TIMOLEONE</stage>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Qual turbamento! Oh! quale orrendo arcano</l>
+<l>ne' suoi detti s'ammanta?... Oh cielo!... E donde</l>
+<l>nel rio tiranno securtà pur tanta?</l>
+<l>Fors'egli sa nostri disegni? siamo</l>
+<l>traditi or noi dai traditor suoi stessi? —</l>
+<l>Le inique trame di costui sa tutte</l>
+<l>la madre; e più trema per l'altro? Or dunque</l>
+<l>fermato ha in cor di fare ultima strage</l>
+<l>l'empio tiranno!... Ah! se ciò mai!... Si voli;</l>
+<l>salvisi il grande, in cui la patria è salva:</l>
+<l>o in un con lui, periam per essa tutti.</l>
+</sp>
+</div2>
+   </div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>TIMOLEONE, ECHILO</stage>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="I">Perché qui trarmi, or che si annotta?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ah! vieni:</l>
+<l part="I">la madre udrai...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Che udrò, ch'io già nol sappia?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="I">Veder ti vuole, a te gran cose...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Unirti</l>
+<l>forse or con essa ad ingannarmi ardisci?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Io? — Ciò che far m'elessi, or or l'udisti.</l>
+<l part="I">Sol che tu scampi! e salvo or sei.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Che parli?</l>
+<l part="I">Salvo, da che? Ti spiega.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">A me perdona,</l>
+<l part="I">se una cosa ti tacqui...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Ah! forse osasti?...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Non ti sdegnar. Dalla tua madre io dianzi</l>
+<l>sì dubbi accenti udia; timor sì vero</l>
+<l>scorgea per te nel suo cor palpitante;</l>
+<l>sì calde istanze ella men fea, che ad ogni</l>
+<l>costo qui trarti io volli. Ai fidi nostri</l>
+<l>pensai ch'alto periglio sovrastava,</l>
+<l>ma pur tel tacqui; era pur troppo io certo,</l>
+<l>che mai da loro a patto alcun spiccarti</l>
+<l part="I">io non potrei, se a te il dicea.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Che sento?</l>
+<l>A comune periglio osi tu schermo</l>
+<l>farmi d'infame ostello? Ah! mal cominci.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Ammenderò con miglior fin, tel giuro,</l>
+<l>cotal principio: ma, te salvo io volli.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Or, che sai dunque tu?... qual è il periglio?...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Poco di certo io so; ma tutto io temo:</l>
+<l>e mi vi si sforza il baldanzoso volto</l>
+<l>del securo Timofane; e l'aspetto</l>
+<l>tremante della madre irresoluta.</l>
+<l>Que' satelliti suoi, che dal nostr'oro</l>
+<l>compri, promesso avean spiar suoi passi,</l>
+<l>e farne dotti noi, scoperti e uccisi</l>
+<l>sono ad un tempo. In chi fidar, non resta.</l>
+<l>Scoperto è pure il convenuto loco</l>
+<l part="I">dell'adunanza nostra.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">— Oh fatal giorno!...</l>
+<l>Temuto dì! giunto sei tu? — Traditi,</l>
+<l>dubbio non v'ha, noi siamo... Oggi e il coraggio,</l>
+<l>e il patrio amor, tutto addoppiar n'è d'uopo.</l>
+<l>Forza a noi non fu mai d'alma più saldi</l>
+<l>mostrarci, ch'oggi; e, che peggio è, mostrarci</l>
+<l>finti, com'oggi, non fu forza mai.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Tosto volar l'avviso ai nostri io fea,</l>
+<l>ch'era periglio in adunarsi. Duolmi,</l>
+<l>oh ciel! che a messo non sicuro forse</l>
+<l>io l'addossai: ma brevità di tempo,</l>
+<l>ed ansietà di te primier sottrarre,</l>
+<l part="I">m'han fatto incauto.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Ogni uom sottrar tu prima</l>
+<l>di me dovevi. E qual potea ventura</l>
+<l>miglior toccarmi? io colla patria spento</l>
+<l>cadea: qual serbo altro desio, che morte? —</l>
+<l>Misero me!... Perché salvarmi? a quale</l>
+<l part="I">dura vicenda resto?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">In salvo or sei:</l>
+<l>e dobbiam noi salvar la patria. S'oda</l>
+<l part="I">Demarista frattanto.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">— Esperto appieno</l>
+<l>tiranno è già Timofane: ei sa tutte</l>
+<l>troncar le vie; d'ogni alma insignorirsi;</l>
+<l>spiar le menti; ed atterrire altrui</l>
+<l part="I">quanto atterrito egli è.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ma ancor ben tutto</l>
+<l part="I">antiveder non sa.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">Misero!...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Il volle;</l>
+<l>ei stesso il volle: ogni pietà m'ha tolta.</l>
+<l>Oh ciel! chi sa?... forse or gli amici nostri...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Due di lor, de' più prodi, a noi da lungi</l>
+<l>vedea venire: Ortàgora, e Timèo:</l>
+<l part="I">ma fei lor cenno di ritrarsi.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Errasti.</l>
+<l part="I">Che non li vidi anch'io!</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Se a morte viensi,</l>
+<l part="I">bastiam qui noi.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Troppi anco siam, se viensi</l>
+<l>a sforzata vendetta, è ver; ma gli altri</l>
+<l>per lor mezzo avvisar poteansi forse.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Perché nulla tacermi? Uscir fia 'l meglio...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="I">Vien gente, o parmi: odi tu?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">L'odo; e i passi</l>
+<l part="I">di donna son: forse è la madre.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">È dessa.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>DEMARISTA, TIMOLEONE, ECHILO</stage>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Ah figlio!... oh gioia!... Io ti riveggo, o figlio.</l>
+<l>Echilo, oh quanto mi prestasti insigne,</l>
+<l>pietoso ufficio! il mio figliuol riveggo...</l>
+<l part="I">e il debbo a te.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Gioia cotanta, or donde?</l>
+<l>Forse hai tu infranto del tiranno il core?</l>
+<l>La universal nobil sublime gioia</l>
+<l>di libertade pristina mi apporti? —</l>
+<l>Ah, no! che ancor ti veggio in volto sculta</l>
+<l>regal superbia. Or, di che godi? Ahi folle!...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Di rivederti, d'abbracciarti io godo.</l>
+<l>Più non sperava, che i tuoi passi omai</l>
+<l part="I">rivolgeresti alla mia stanza...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Stanza</l>
+<l>d'inganno è questa, e di dolor, non tua;</l>
+<l>o almen, non l'è di chi m'è madre. Or chiesto</l>
+<l>m'hai forse qui, perch'io ten tragga? Vieni;</l>
+<l>m'è assai gran palma il racquistar la madre;</l>
+<l>del racquistar la patria poi, mi sia</l>
+<l part="I">felice augurio.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">... O figlio, ognor persisti</l>
+<l part="I">duro così?...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Donna, persisti ognora</l>
+<l>di così picciol core? Altro hai che dirmi?</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Dir ti vorrei; ma...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Tu non l'osi; il veggio.</l>
+<l>Ma assai più già, che udir non voglio, hai detto,</l>
+<l>col tuo silenzio. E che? tu tremi?... Intendo:</l>
+<l>regina sei: sei di tiranno madre.</l>
+<l>Nulla a me che risponderti rimane.</l>
+<l>D'albergar qui, di qui morir sei degna.</l>
+<l>Uopo non t'era a ciò chiamarmi: il sai</l>
+<l>ch'io non ti son più figlio. — Echilo, vieni;</l>
+<l part="I">d'iniquo loco usciamo.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Ah! no... T'arresta...</l>
+<l part="I">uscir non dei.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Lasciami: uscirne io voglio,</l>
+<l>né in eterno tornarvi. Esiglio, e morte,</l>
+<l>ed onta, e strazi io voglio, anzi che serva</l>
+<l part="I">veder Corinto... Echilo, andiam...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Corinto</l>
+<l part="I">or qui ci vuol; non dei tu uscirne...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Uscirne</l>
+<l part="I">omai non puoi.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">Chi 'l vieta a me?</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>TIMOFANE, DEMARISTA, TIMOLEONE, ECHILO</stage>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Forse io. —</l>
+<l>Forza, qual può fare a fratel fratello,</l>
+<l>io far ti vo'. Lascia, che al sen ti stringa;</l>
+<l>che al fato, ai Numi, ad Echilo, alla madre</l>
+<l part="I">d'averti salvo io renda grazie.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">Hai dunque</l>
+<l>di nuova strage?... Ah! sì: nei torbidi occhi,</l>
+<l>l'uccision recente ti si legge.</l>
+<l>Ahi crudo tu!... — Mal di salvarmi festi.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>In loco omai di securtà stiam tutti;</l>
+<l>dove né a voi nuocer persona al mondo,</l>
+<l part="I">né a me il potete voi.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">— Pensa, deh! pensa,</l>
+<l>se ancor giovarti non possiam noi forse.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Sì; col v'arrender di buon grado, e tosto,</l>
+<l>al mio poter; col dar voi primi agli altri</l>
+<l part="I">di obbedirmi l'esemplo.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">D'obbedirti?</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="I">Noi primi?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Sì: poiché divider meco</l>
+<l>tu nieghi il regno. A voi fors'io cedea,</l>
+<l>se aperti mezzi usato aveste. Io franco</l>
+<l>oprai con voi; la mia schiettezza farvi</l>
+<l part="I">schietti dovea...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">La forza hai tu da prima</l>
+<l>usurpata con fraude: aperti oltraggi</l>
+<l>poscia usar, lieve t'era. Io, per tornarti</l>
+<l>cittadino, adoprar dovea da prima</l>
+<l part="I">teco la forza, e non mai l'arte.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ed io,</l>
+<l>ad alta voce io forse non tel dissi,</l>
+<l>che nemico m'avresti? e che, non cinti</l>
+<l>di satelliti noi, d'ogni possanza</l>
+<l>ancor che ignudi, e soli, a te tremendi</l>
+<l>pur noi saremmo? e che da noi dovresti</l>
+<l>guardarti ognor? — Men generosi fummo,</l>
+<l part="I">o siam, di te?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Dicestelo; e mercede</l>
+<l>ampia or ven torna. Escluder io voi soli</l>
+<l>volli da questa ultima strage, e il siete.</l>
+<l>Confonder più l'ingratitudin vostra</l>
+<l>così mi piacque; e non turbar la gioia</l>
+<l>del mio regno novello. — Omai lusinga</l>
+<l>non entri in voi. Le tenebre di notte,</l>
+<l>che ai vostri rei consessi prestar velo</l>
+<l>solean finor, furo ai vostri empi amici</l>
+<l>l'estreme queste. A lor l'avviso vostro</l>
+<l>non perveniva, no: quel loco stesso</l>
+<l>al tradimento sacro, ove di furto</l>
+<l>si radunano, a tutti a un tempo tomba</l>
+<l part="I">s'è fatto or già.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">Che ascolto?</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="M">Oh ciel!...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Le audaci</l>
+<l>lettere vostre a' Micenèi, son queste;</l>
+<l>ecco; ritornan già: chi le recava,</l>
+<l>è spento anch'ei. Vuoi più? que' due, che intorno</l>
+<l>alle mie soglie ivano errando in arme,</l>
+<l>Ortàgora e Timèo, dovuta morte</l>
+<l>trovaro anch'essi. — Ove più vuoi, lo sguardo</l>
+<l>in giro manda, e obbedienza scorgi,</l>
+<l>sangue, e terror: null'altro. A che più tardi</l>
+<l>ad arrenderti a me? Che puoi tu farmi,</l>
+<l>se arrender non ti vuoi? Ben vi ho convinti,</l>
+<l>che a me nemici rimanete soli;</l>
+<l>che vili altrui, non men che a me, vi ho fatti.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>E soli noi tu riserbare in vita</l>
+<l>mai non dovevi. Io tel ripeto ancora:</l>
+<l>nulla tu festi, se noi non uccidi.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>Mai non sperar di riaverne amici.</l>
+<l>Né lusinga, né tempo il può, né forza...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Né madre il può, qual io la veggio starsi</l>
+<l>tacita, e piena di superbia e d'onta.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l>A vil non n'abbi. In me primier tua scure</l>
+<l>il carnefice volga. Ancor non hai</l>
+<l>gustato il sangue di congiunti: il prova;</l>
+<l>ti aggradirà: — né sangue altro ti resta</l>
+<l>più necessario a spargere, che il mio.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Me pria di tutti svena. Un nuovo oltraggio</l>
+<l>mi fai, nel risparmiarmi. Ogni più sacra</l>
+<l>cosa m'hai tolto: io son per te cosperso</l>
+<l>d'eterna infamia: a che tardar? mi uccidi.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Pena maggior darò per ora ai vostri</l>
+<l>cuori ostinati: il rimirarmi in trono;</l>
+<l part="I">e l'obbedirmi.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">— Hai risoluto dunque</l>
+<l part="I">di non uccider noi?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Di non curarvi</l>
+<l part="I">ho risoluto.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">E regnerai?</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Già regno.</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Misero me!... Tu il vuoi... Ch'io almen nol vegga<note resp="aut" place="foot" anchored="yes">Si copre il volto con il pallio.</note>.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="I">Muori, tiranno, dunque.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">Oh cielo! ah figlio!...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="I">Ah traditore!... Io... moro...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">A me quel ferro:</l>
+<l part="I">la patria è salva.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ah! per la patria vivi.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="I">Guardia, accorrete...<note resp="aut" place="foot" anchored="yes">Accorrono i soldati.</note> Al traditor.</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">No, madre...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="I">Dammi quel ferro; in me...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="M">No, mai...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Soldati,</l>
+<l>scostatevi; l'impongo;... omai più sangue</l>
+<l part="I">versar non dessi.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">Echilo pera...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">In niuno</l>
+<l>si volgan l'armi;... espressamente io 'l vieto...</l>
+<l part="I">itene: il voglio.<note resp="aut" place="foot" anchored="yes">I soldati si ritirano.</note></l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="F">E tu, crudel fratello,</l>
+<l part="I">scellerato... Ma, oh ciel! tu piangi?...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Io volli</l>
+<l>o scettro o morte: ma salvarti a un tempo</l>
+<l>volli, o fratello. A morte almen dovea</l>
+<l>trarmi il tuo braccio, che già un dì scampommi:</l>
+<l part="I">per te il morir m'era men duro...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ei nacque</l>
+<l>a te fratel, non io: soltanto ad esso</l>
+<l>spettava il cenno; il ferro a me spettava.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Barbari!... Voi; ch'ei trucidar non volle..</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l>Deh! non gli far più omai rampogne, o madre.</l>
+<l>Già in lui soverchio è il duolo; un mar di pianto,</l>
+<l>vedi, il ciglio gl'inonda. — Io ti perdono,</l>
+<l>fratello; e a me tu pur perdona... Io moro</l>
+<l>ammirator di tua virtù... Se impreso</l>
+<l>io non avessi a far... la patria... serva,...</l>
+<l>impreso avrei di liberarla:... è questa</l>
+<l>d'ogni gloria... la prima... Eppur, ben veggio,</l>
+<l>non vi ti trasse amor di gloria insano;</l>
+<l>ottimo cuor di cittadin ti trasse</l>
+<l>a svenare il fratello... A te la madre</l>
+<l>io raccomando... In lui, tu madre, un vero</l>
+<l>figliuol ravvisa,... e un uom... più che mortale. —</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l>Ei muore! Ahi lasso me!... Madre, tu m'hai</l>
+<l>qui tratto a forza... O fratel mio, ben tosto</l>
+<l part="I">ti seguirò.</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="M">Deh!...</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l part="M">Figlio!...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="F">A che rimango?</l>
+<l>Ai rimorsi,... alle lagrime... Già in petto</l>
+<l>le agitatrici furie orride sento...</l>
+<l part="I">Pace per me non v'ha più mai...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Deh! m'odi:</l>
+<l>gli aiuti primi all'egra patria almeno</l>
+<l part="I">negar non dei...</l>
+</sp>
+<sp><speaker><emph>Timofane</emph></speaker>
+<l part="F">Tormi d'ogni uomo agli occhi</l>
+<l>deggio; e del sole ognor sfuggir la luce...</l>
+<l>di duol morir, se non di ferro, io deggio.</l>
+</sp>
+<sp><speaker><emph>Demarista</emph></speaker>
+<l>Misera!... Oh ciel!... che fo? Perduto ho un figlio...</l>
+<l part="I">e l'altro a me non resta...</l>
+</sp>
+<sp><speaker><emph>Timoleone</emph></speaker>
+<l part="M">Oh madre!...</l>
+</sp>
+<sp><speaker><emph>Echilo</emph></speaker>
+<l part="F">Ah! vieni,</l>
+<l>togliamci a questa lagrimevol vista. —</l>
+<l>Convincer dei, Timoleone, il mondo,</l>
+<l>che il fratel no, ma che il tiranno hai spento.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

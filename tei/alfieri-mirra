@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Mirra</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>98 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000479</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Don Garzia ; Saul ; Agide ; Sofonisba ; Bruto primo ; Mirra ; Bruto secondo</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814.</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marco Fucini e Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>ALLA NOBIL DONNA LA SIGNORA CONTESSA LUISA STOLBERG D´ALBANIA</salute></opener>
+<lg type="sonetto">
+<lg>
+<l>Vergognando talor che ancor si taccia,</l>
+<l>donna, per me l´almo tuo nome in fronte</l>
+<l>di queste omai già troppe, e a te ben conte</l>
+<l>tragedie, ond´io di folle avrommi taccia;</l>
+</lg><lg>
+<l>	or vo´ qual d´esse meno a te dispiaccia</l>
+<l>di te fregiar: benché di tutte il fonte</l>
+<l>tu sola fossi; e il viver mio non conte,</l>
+<l>se non dal dì che al viver tuo si allaccia.</l>
+</lg><lg>
+<l>	Della figlia di Ciniro infelice</l>
+<l>l´orrendo a un tempo e innocente amore,</l>
+<l>sempre da´ tuoi begli occhi il pianto elìce:</l>
+</lg><lg>
+<l>	provra emmi questa, che al mio dubbio core</l>
+<l>tacitamente imperiosa dice;</l>
+<l>ch´io di <emph rend="sc">MIRRA</emph> consacri a te il dolore.</l>
+</lg>
+</lg>
+<closer><signed rend="sc">VITTORIO ALFIERI</signed></closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+<castItem><role>CINIRO</role></castItem>
+<castItem><role>CECRI</role></castItem>
+<castItem><role>MIRRA</role></castItem>
+<castItem><role>PEREO</role></castItem>
+<castItem><role>EURICLEA</role></castItem>
+<castItem><role>Coro</role></castItem>
+<castItem><role>Sacerdoti</role></castItem>
+<castItem><role>Popolo</role></castItem>
+</castList>
+<set><p><emph>Scena, la Reggia in Cipro</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CECRI, EURICLEA</stage>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Vieni, o fida Euriclèa: sorge ora appena</l>
+<l>l´alba; e sì tosto a me venir non suole</l>
+<l>il mio consorte. Or, della figlia nostra</l>
+<l>misera tanto, a me narrar puoi tutto.</l>
+<l>Già l´afflitto tuo volto, e i mal repressi</l>
+<l part="I">tuoi sospiri, mi annunziano...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">Oh regina!...</l>
+<l>Mirra infelice, strascìna una vita</l>
+<l>peggio assai d´ogni morte. Al re non oso</l>
+<l>pinger suo stato orribile: mal puote</l>
+<l>un padre intender di donzella il pianto;</l>
+<l>tu madre, il puoi. Quindi a te vengo; e prego,</l>
+<l part="I">che udir mi vogli.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">È ver, ch´io da gran tempo</l>
+<l>di sua rara beltà languire il fiore</l>
+<l>veggo: una muta, una ostinata ed alta</l>
+<l>malinconia mortale appanna in lei</l>
+<l>quel sì vivido sguardo: e, piangesse ella!...</l>
+<l>ma, innanzi a me, tacita stassi; e sempre</l>
+<l>pregno ha di pianto, e asciutto sempre ha il ciglio.</l>
+<l>E invan l´abbraccio; e le chieggo, e richieggo,</l>
+<l>invano ognor, che il suo dolor mi sveli:</l>
+<l>niega ella il duol; mentre di giorno in giorno</l>
+<l part="I">io dal dolor strugger la veggio.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">A voi</l>
+<l>ella è di sangue figlia; a me, d´amore;</l>
+<l>ch´io, ben sai, l´educava: ed io men vivo</l>
+<l>in lei soltanto; e il quarto lustro è quasi</l>
+<l>a mezzo già, che al seno mio la stringo</l>
+<l>ogni dì fra mie braccia... Ed or, fia vero,</l>
+<l>che a me, cui tutti i suoi pensier solea,</l>
+<l>tutti affidar fin da bambina, or chiusa</l>
+<l>a me pure si mostri? E s´io le parlo</l>
+<l>del suo dolore, anco a me il niega, e insiste,</l>
+<l>e contra me si adira... Ma pur, meco</l>
+<l>spesso, malgrado suo, prorompe in pianto.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Tanta mestizia, in quel cor giovenile,</l>
+<l>io da prima credea, che figlia fosse</l>
+<l>del dubbio, in cui su la vicina scelta</l>
+<l>d´uno sposo ella stavasi. I più prodi</l>
+<l>d´Asia e di Grecia principi possenti,</l>
+<l>a gara tutti concorreano in Cipro,</l>
+<l>di sua bellezza al grido: e appien per noi</l>
+<l>donna di sé quanto alla scelta ell´era.</l>
+<l>Turbamento non lieve in giovin petto</l>
+<l>dovean recare i vari, e ignoti, e tanti</l>
+<l>affetti. In questo, ella il valor laudava;</l>
+<l>dolci modi, in quello: era di regno</l>
+<l>maggiore l´un; con maestà beltade</l>
+<l>era nell´altro somma: e qual piaceva</l>
+<l>più agli occhi suoi, forse temea che al padre</l>
+<l>piacesse meno. Io, come madre e donna,</l>
+<l>so qual battaglia in cor tenero e nuovo</l>
+<l>di donzelletta timida destarsi</l>
+<l>per tal dubbio dovea. Ma, poiché tolta</l>
+<l>ogni contesa ebbe Perèo, di Epìro</l>
+<l>l´erede; a cui, per nobiltà, possanza,</l>
+<l>valor, beltade, giovinezza, e senno,</l>
+<l>nullo omai si agguagliava; allor che l´alta</l>
+<l>scelta di Mirra a noi pur tanto piacque;</l>
+<l>quando in se stessa compiacersen ella</l>
+<l>lieta dovea; più forte in lei tempesta</l>
+<l>sorger vediamo, e più mortale angoscia</l>
+<l>la travaglia ogni dì?... Squarciar mi sento</l>
+<l>a brani a brani a una tal vista il core.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Deh, scelto pur non avesse ella mai!</l>
+<l>Dal giorno in poi, sempre il suo mal più crebbe:</l>
+<l>e questa notte, ch´ultima precede</l>
+<l>l´alte sue nozze, (oh cielo!) a lei la estrema</l>
+<l>temei non fosse di sua vita. — Io stava</l>
+<l>tacitamente immobil nel mio letto,</l>
+<l>che dal suo non è lungi; e, intenta sempre</l>
+<l>ai moti suoi, pur di dormir fea vista:</l>
+<l>ma, mesi e mesi son, da ch´io la veggo</l>
+<l>in tal martìr, che dal mio fianco antico</l>
+<l>fugge ogni posa. Io del benigno Sonno,</l>
+<l>infra me tacitissima, l´aìta</l>
+<l>per la figlia invocava: ei più non stende</l>
+<l>da molte e molte notti l´ali placide</l>
+<l>sovr´essa. — I suoi sospiri eran da prima</l>
+<l>sepolti quasi; eran pochi; eran rotti:</l>
+<l>poi (non udendomi ella) in sì feroce</l>
+<l>piena crescean, che al fin, contro sua voglia,</l>
+<l>in pianto dirottissimo, in singhiozzi</l>
+<l>si cangiavano, ed anco in alte strida.</l>
+<l>Fra il lagrimar, fuor del suo labro usciva</l>
+<l>una parola sola: «Morte... morte;»</l>
+<l>e in tronchi accenti spesso la ripete.</l>
+<l>Io balzo in piedi; a lei corro, affannosa:</l>
+<l>ella, appena mi vede, a mezzo taglia</l>
+<l>ogni sospiro, ogni parola e pianto;</l>
+<l>e, in sua regal fierezza ricomposta,</l>
+<l>meco addirata quasi, in salda voce</l>
+<l>mi dice: «A che ne vieni? or via, che vuoi?...»</l>
+<l>Io non potea risponderle; io piangeva,</l>
+<l>e l´abbracciava, e ripiangeva... Al fine</l>
+<l>riebbi pur lena, e parole. Oh, come</l>
+<l>io la pregai, la scongiurai, di dirmi</l>
+<l>il suo martìr, che rattenuto in petto,</l>
+<l>me pur con essa uccideria!... Tu madre,</l>
+<l>con più tenero e vivo amor parlarle</l>
+<l>non potevi, per certo. — Ella il sa bene</l>
+<l>s´io l´amo; ed anche, al mio parlar, di nuovo</l>
+<l>gli occhi al pianto schiudeva, e mi abbracciava,</l>
+<l>e con amor mi rispondea. Ma, ferma</l>
+<l>sempre in negar, dicea; ch´ogni donzella,</l>
+<l>per le vicine nozze, alquanto è oppressa</l>
+<l>di passeggera doglia; e a me il comando</l>
+<l>di tacervelo dava. Ma il suo male</l>
+<l>sì radicato è addentro, egli è tant´oltre,</l>
+<l>ch´io tremante a te corro; e te scongiuro</l>
+<l>di far sospender le sue nozze: a morte</l>
+<l>va la donzella, accertati. — Sei madre;</l>
+<l part="I">nulla più dico.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">... Ah!... pel gran pianto,... appena...</l>
+<l>parlar poss´io. — Che mai, ch´esser può mai?...</l>
+<l>Nella sua etade giovanil, non altro</l>
+<l>martìre ha loco, che d´amor martìre.</l>
+<l>Ma, s´ella accesa è di Perèo, da lei</l>
+<l>spontanea scelto, onde il lamento, or ch´ella</l>
+<l>per ottenerlo sta? se in sen racchiude</l>
+<l>altra fiamma, perché scegliea fra tanti</l>
+<l part="I">ella stessa Perèo?</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">... D´amor non nasce</l>
+<l>il disperato dolor suo; tel giuro.</l>
+<l>Da me sempr´era custodita; e il core</l>
+<l>a passion nessuna aprir potea,</l>
+<l>ch´io nol vedessi. E a me lo avria pur detto;</l>
+<l>a me, cui tiene (è ver) negli anni madre,</l>
+<l>mia in amore, sorella. Il volto, e gli atti,</l>
+<l>e i suoi sospiri, e il suo silenzio, ah! tutto</l>
+<l>mel dice assai, ch´ella Perèo non ama.</l>
+<l>Tranquilla almen, se non allegra, ella era</l>
+<l>pria d´aver scelto: e il sai, quanto indugiasse</l>
+<l>a scegliere. Ma pur, null´uomo al certo</l>
+<l>pria di Perèo le piacque: è ver, che parve</l>
+<l>ella il chiedesse, perché elegger uno</l>
+<l>era, o il credea, dovere. Ella non l´ama;</l>
+<l>a me ciò pare: eppur, qual altro amarne</l>
+<l>a paragon del gran Perèo potrebbe?</l>
+<l>D´alto cor la conosco; in petto fiamma,</l>
+<l>ch´alta non fosse, entrare a lei non puote.</l>
+<l>Ciò ben poss´io giurar: l´uom ch´ella amasse,</l>
+<l>di regio sangue ei fora; altro non fora.</l>
+<l>Or, qual ve n´ebbe qui, ch´ella a sua posta</l>
+<l>far non potesse di sua man felice?</l>
+<l>D´amor non è dunque il suo male. Amore,</l>
+<l>benché di pianto e di sospir si pasca,</l>
+<l>pur lascia ei sempre un non so che di speme,</l>
+<l>che in fondo al cor traluce; ma di speme</l>
+<l>raggio nessuno a lei si affaccia: è piaga</l>
+<l>insanabil la sua; pur troppo!... Ah! morte,</l>
+<l>ch´ella ognor chiama, a me deh pria venisse!</l>
+<l>Almen così, struggersi a lento fuoco</l>
+<l part="I">non la vedrei!...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Tu mi disperi... Ah! queste</l>
+<l>nozze non vo´, se a noi pur toglier ponno</l>
+<l>l´unica figlia... Or va´; presso lei torna;</l>
+<l>e non le dir, che favellato m´abbi.</l>
+<l>Colà verrò, tosto che asciutto il ciglio</l>
+<l>io m´abbia, e in calma ricomposto il volto.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Deh! tosto vieni. Io torno a lei; mi tarda</l>
+<l>di rivederla. Oh ciel! chi sa, se mentre</l>
+<l>io così a lungo teco favellava</l>
+<l>chi sa, se nel feroce impeto stesso</l>
+<l>di dolor non ricadde? Oh! qual pietade</l>
+<l>mi fai tu pur, misera madre!... Io volo;</l>
+<l>deh! non tardare; or, quanto indugi meno,</l>
+<l>più ben farai...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Se l´indugiar mi costi,</l>
+<l>pensar tu il puoi: ma in tanto insolit´ora,</l>
+<l>né appellarla vogl´io, né a lei venirne,</l>
+<l>né turbata mostrarmele. Non vuolsi</l>
+<l>in essa incuter né timor, né doglia:</l>
+<l>tanto è pieghevol, timida, e modesta,</l>
+<l>che nessun mezzo è mai benigno troppo,</l>
+<l>con quella nobil indole. Su, vanne;</l>
+<l>e posa in me, come in te sola io poso.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>CECRI</stage>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Ma, che mai fia? già l´anno or volge quasi,</l>
+<l>ch´io con lei mi consumo; e neppur traccia</l>
+<l>della cagion del suo dolor ritrovo! —</l>
+<l>Di nostra sorte i Numi invidi forse,</l>
+<l>torre or ci von sì rara figlia, a entrambi</l>
+<l>i genitor solo conforto e speme?</l>
+<l>Era pur meglio il non darcela, o Numi.</l>
+<l>Venere, o tu, sublime Dea di questa</l>
+<l>a te devota isola sacra, a sdegno</l>
+<l>la sua troppa beltà forse ti muove?</l>
+<l>Forse quindi al par d´essa in fero stato</l>
+<l>me pur riduci? Ah! la mia troppa e stolta</l>
+<l>di madre amante baldanzosa gioia,</l>
+<l>tu vuoi ch´io sconti in lagrime di sangue...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>CINIRO, CECRI</stage>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Non pianger donna. Udito in breve ho il tutto;</l>
+<l>Euriclèa di svelarmelo costrinsi</l>
+<l>Ah! mille volte pria morir vorrei,</l>
+<l>che all´adorata nostra unica figlia</l>
+<l>far forza io mai. Chi pur creduto avrebbe,</l>
+<l>che trarla a tal dovessero le nozze</l>
+<l>chieste da lei? Ma, rompansi. La vita</l>
+<l>nulla mi cal, nulla il mio regno, e nulla</l>
+<l>la gloria mia pur anco, ov´io non vegga</l>
+<l>felice appien la nostra unica prole.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Eppur, volubil mai Mirra non era.</l>
+<l>Vedemmo in lei preceder gli anni il senno;</l>
+<l>saggia ogni brama sua; costante, intensa</l>
+<l>nel prevenir le brame nostre ognora.</l>
+<l>Ben ella il sa, se di sua nobil scelta</l>
+<l>noi ci estimiam beati: ella non puote</l>
+<l part="I">quindi, no mai, pentirsene.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Ma pure,</l>
+<l>s´ella in cor sen pentisse? — Odila, o donna:</l>
+<l>tutti or di madre i molli affetti adopra</l>
+<l>con lei; fa ch´ella al fine il cor ti schiuda,</l>
+<l>sin che n´è tempo. Io t´apro il mio frattanto;</l>
+<l>e dico, e giuro, che il pensier mio primo</l>
+<l>è la mia figlia. È ver, che amico farmi</l>
+<l>d´Epìro il re mi giova: e il giovinetto</l>
+<l>Perèo suo figlio, alla futura spene</l>
+<l>d´alto reame, un altro pregio aggiunge,</l>
+<l>agli occhi miei maggiore. Indole umana,</l>
+<l>e cuor, non men che nobile, pietoso</l>
+<l>ei mostra. Acceso, in oltre, assai lo veggio</l>
+<l>di Mirra. — A far felice la mia figlia,</l>
+<l>scer non potrei più degno sposo io mai;</l>
+<l>certo egli è di sue nozze; in lui, nel padre,</l>
+<l>giusto saria lo sdegno, ove la data</l>
+<l>fé si rompesse; e a noi terribil anco</l>
+<l>esser può l´ira loro: ecco ragioni</l>
+<l>molte, e possenti, d´ogni prence agli occhi;</l>
+<l>ma nulle ai miei. Padre, mi fea natura;</l>
+<l>il caso, re. Ciò che ragion di stato</l>
+<l>chiaman gli altri miei pari, e a cui son usi</l>
+<l>pospor l´affetto natural, non fia</l>
+<l>nel mio paterno seno mai bastante</l>
+<l>contra un solo sospiro della figlia.</l>
+<l>Di sua sola letizia esser poss´io,</l>
+<l>non altrimenti, lieto. Or va´; gliel narra;</l>
+<l>e dille in un, che a me spiacer non tema,</l>
+<l>nel discoprirmi il vero: altro non tema,</l>
+<l>che di far noi con se stessa infelici.</l>
+<l>Frattanto udir vo´ da Perèo, con arte,</l>
+<l>se riamato egli s´estima; e il voglio</l>
+<l>ir preparando a ciò che a me non meno</l>
+<l>dorria, che a lui. Ma pur, se il vuole il fato,</l>
+<l>breve omai resta ad arretrarci l´ora.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Ben parli: io volo a lei. — Nel dolor nostro,</l>
+<l>gran sollievo mi arreca il veder, ch´uno</l>
+<l>voler concorde, e un amor solo, è in noi.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CINIRO, PEREO</stage>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Eccomi a´ cenni tuoi. Lontana molto,</l>
+<l>spero, o re, non è l´ora, in cui chiamarti</l>
+<l part="I">padre amato potrò...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Perèo, m´ascolta. —</l>
+<l>Se te stesso conosci, assai convinto</l>
+<l>esser tu dei, quanta e qual gioia arrechi</l>
+<l>a un padre amante d´unica sua figlia</l>
+<l>genero averti. Infra i rivali illustri,</l>
+<l>che gareggiavan teco, ove uno sposo</l>
+<l>voluto avessi a Mirra io stesso scerre,</l>
+<l>senza pur dubitar, te scelto avria.</l>
+<l>Quindi, eletto da lei, se caro io t´abbia</l>
+<l>doppiamente, tu il pensa. Eri tu il primo</l>
+<l>di tutti in tutto, a senno altrui; ma al mio,</l>
+<l>più che pel sangue e pel paterno regno,</l>
+<l>primo eri, e il sei, per le ben altre doti</l>
+<l>tue veramente, onde maggior saresti</l>
+<l part="I">d´ogni re sempre, anco privato...</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">Ah! padre...</l>
+<l>(già d´appellarti di un tal nome io godo)</l>
+<l>padre, il più grande, anzi il mio pregio solo,</l>
+<l>è di piacerti. I detti tuoi mi attento</l>
+<l>troncar; perdona: ma mie laudi tante,</l>
+<l>pria di mertarle, udir non posso. Al core</l>
+<l>degno sprone sarammi il parlar tuo,</l>
+<l>per farmi io quale or tu mi credi, o brami.</l>
+<l>Sposo a Mirra, e tuo genero, d´ogni alto</l>
+<l>senso dovizia aver degg´io: ne accetto</l>
+<l part="I">da te l´augurio.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Ah! qual tu sei, favelli. —</l>
+<l>E perché tal tu sei, quasi a mio figlio</l>
+<l>io parlarti ardirò. — Di vera fiamma</l>
+<l>ardi, il veggo, per Mirra; e oltraggio grave</l>
+<l>ti farei, dubitandone. Ma,... dimmi;...</l>
+<l>se indiscreto il mio chieder non è troppo,...</l>
+<l part="I">sei parimente riamato?</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">... Io nulla</l>
+<l>celar ti debbo. — Ah! riamarmi, forse</l>
+<l>Mirra il vorrebbe, e par nol possa. In petto</l>
+<l>già n´ebbi io speme; e ancor lo spero; o almeno,</l>
+<l>io men lusingo. Inesplicabil cosa,</l>
+<l>certo, è il contegno, in ch´ella a me si mostra.</l>
+<l>Ciniro, tu, benché sii padre, ancora</l>
+<l>vivi ne´ tuoi verdi anni, e amor rimembri:</l>
+<l>or sappi, ch´ella a me sempre tremante</l>
+<l>viene, ed a stento a me si accosta; in volto</l>
+<l>d´alto pallor si pinge; de´ begli occhi</l>
+<l>dono a me mai non fa; dubbi, interrotti,</l>
+<l>e pochi accenti in mortal gelo involti</l>
+<l>muove; nel suolo le pupille, sempre</l>
+<l>di pianto pregne, affigge; in doglia orrenda</l>
+<l>sepolta è l´alma; illanguidito il fiore</l>
+<l>di sua beltà divina: — ecco il suo stato.</l>
+<l>Pur, di nozze ella parla; ed or diresti,</l>
+<l>ch´ella stessa le brama, or che le abborre</l>
+<l>più assai che morte; or ne assegna ella il giorno,</l>
+<l>or lo allontana. S´io ragion le chieggo</l>
+<l>di sua tristezza, il labro suo la niega;</l>
+<l>ma di dolor pieno, e di morte, il viso</l>
+<l>disperata la mostra. Ella mi accerta,</l>
+<l>e rinnuova ogni dì, che sposo vuolmi;</l>
+<l>ch´ella m´ami, nol dice; alto, sublime,</l>
+<l>finger non sa il suo core. Udirne il vero</l>
+<l>io bramo e temo a un tempo: io ´l pianto affreno;</l>
+<l>ardo, mi struggo, e dir non l´oso. Or voglio</l>
+<l>di sua mal data fede io stesso sciorla;</l>
+<l>or vo´ morir, che perder non la posso;</l>
+<l>né, senza averne il core, io possederla</l>
+<l>vorrei... Me lasso!... ah! non so ben s´io viva,</l>
+<l>o muoia omai. — Così, racchiusi entrambi,</l>
+<l>e di dolor, benché diverso, uguale</l>
+<l>ripieni l´alma, al dì fatal siam giunti,</l>
+<l>che irrevocabil oggi ella pur volle</l>
+<l>all´imenèo prefiggere... Deh! fossi</l>
+<l>vittima almen di dolor tanto io solo!</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Pietà mi fai, quanto la figlia... Il tuo</l>
+<l>franco e caldo parlare un´alma svela</l>
+<l>umana ed alta: io ti credea ben tale;</l>
+<l>quindi men franco non mi udrai parlarti. —</l>
+<l>Per la mia figlia io tremo. Il duol d´amante</l>
+<l>divido io teco; ah! prence, il duol di padre</l>
+<l>meco dividi tu. S´ella infelice</l>
+<l>per mia cagion mai fosse!... È ver, che scelto</l>
+<l>ella t´ha sola; è ver, che niun l´astringe...</l>
+<l>ma, se pur onta, o timor di donzella...</l>
+<l>se Mirra, in somma, a torto or si pentisse?...</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Non più; t´intendo. Ad amator, qual sono,</l>
+<l>appresentar puoi tu l´amato oggetto</l>
+<l>infelice per lui? ch´io me pur stimi</l>
+<l>cagion, benché innocente, de´ suoi danni,</l>
+<l>e ch´io non muoia di dolore? — Ah! Mirra</l>
+<l>di me, del mio destino, omai sentenza</l>
+<l>piena pronunzi: e s´or Perèo le incresce,</l>
+<l>senza temenza il dica: io non pentito</l>
+<l>sarò perciò di amarla. Oh! lieta almeno</l>
+<l>del mio pianger foss´ella!... A me fia dolce</l>
+<l>anco il morir, pur ch´ella sia felice.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Perèo, chi udirti senza pianger puote?...</l>
+<l>Cor, né il più fido, né in più fiamma acceso</l>
+<l>del tuo, non v´ha. Deh! come a me l´apristi,</l>
+<l>così il dischiudi anco alla figlia: udirti,</l>
+<l>e non ti aprire anch´ella il cor, son certo,</l>
+<l>che nol potrà. Non la cred´io pentita;</l>
+<l>(chi il fora, conoscendoti?) ma trarle</l>
+<l>potrai dal petto la cagion tu forse</l>
+<l>del nascosto suo male. — Ecco, ella viene;</l>
+<l>ch´io appellarla già fea. Con lei lasciarti</l>
+<l>voglio; ritegno al favellar d´amanti</l>
+<l>fia sempre un padre. Or, prence, appien le svela</l>
+<l>l´alto tuo cor che ad ogni cor fa forza.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>MIRRA, PEREO</stage>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Ei con Perèo mi lascia?... Oh rio cimento!</l>
+<l part="I">vieppiù il cor mi si squarcia...</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">È sorto, o Mirra,</l>
+<l>quel giorno al fin, quel che per sempre appieno</l>
+<l>far mi dovria felice, ove tu il fossi.</l>
+<l>Di nuzial corona ornata il crine,</l>
+<l>lieto ammanto pomposo, è ver, ti veggo:</l>
+<l>ma il tuo volto, e i tuoi sguardi, e i passi, e ogni atto,</l>
+<l>mestizia è in te. Chi della propria vita</l>
+<l>t´ama più assai, non può mirarti, o Mirra,</l>
+<l>a nodo indissolubile venirne</l>
+<l>in tale aspetto. E questa l´ora, è questa,</l>
+<l>che a te non lice più ingannar te stessa,</l>
+<l>né altrui. Del tuo martìr (qual ch´ella sia)</l>
+<l>o la cagion dei dirmi, o almen dei dirmi,</l>
+<l>che in me non hai fidanza niuna; e ch´io</l>
+<l>mal rispondo a tua scelta, e che pentita</l>
+<l>tu in cor ne sei. Non io di ciò terrommi</l>
+<l>offeso, no; ben di mortal cordoglio</l>
+<l>pieno ne andrò. Ma, che ti cale in somma</l>
+<l>il disperato duol d´uom che niente ami,</l>
+<l>e poco estimi? A me rileva or troppo</l>
+<l>il non farti infelice. — Ardita, e franca</l>
+<l>parlami, dunque. — Ma, tu immobil taci?...</l>
+<l>Disdegno e morte il tuo silenzio spira...</l>
+<l>Chiara è risposta il tuo tacer: mi abborri;</l>
+<l>e dir non l´osi... Or, la tua fé riprendi</l>
+<l>dunque: dagli occhi tuoi per sempre a tormi</l>
+<l>tosto mi appresto, poiché oggetto io sono</l>
+<l>d´orror per te... Ma, s´io pur dianzi l´era,</l>
+<l>come mertai tua scelta? e s´io il divenni</l>
+<l part="I">dopo, deh! dimmi; in che ti spiacqui?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">... Oh prence!...</l>
+<l>L´amor tuo troppo il mio dolor ti pinge</l>
+<l>fero più assai, ch´egli non è. L´accesa</l>
+<l>tua fantasia ti spigne oltre ai confini</l>
+<l>del vero. Io taccio al tuo parlar novello;</l>
+<l>qual maraviglia? inaspettate cose</l>
+<l>odo, e non grate; e, dirò più, non vere:</l>
+<l>che risponder poss´io? — Questo alle nozze</l>
+<l>è il convenuto giorno; io presta vengo</l>
+<l>a compierle; e di me dubita intanto</l>
+<l>il da me scelto sposo? È ver, ch´io forse</l>
+<l>lieta non son, quanto il dovria chi raro</l>
+<l>sposo ottiene, qual sei: ma, spesse volte</l>
+<l>la mestizia è natura; e mal potrebbe</l>
+<l>darne ragion chi in sé l´acchiude: e spesso</l>
+<l>quell´ostinato interrogar d´altrui,</l>
+<l>senza chiarirne il fonte, in noi l´addoppia.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>T´incresco; il veggo a espressi segni. Amarmi,</l>
+<l>io sapea che nol puoi; lusinga stolta</l>
+<l>nell´infermo mio core entrata m´era,</l>
+<l>che tu almen non mi odiassi: in tempo ancora,</l>
+<l>per la tua pace e per la mia, mi avveggio</l>
+<l>ch´io m´ingannava. — In me non sta (pur troppo!)</l>
+<l>il far che tu non m´odi: ma in me solo</l>
+<l>sta, che tu non mi spregi. Omai disciolta,</l>
+<l>libera sei d´ogni promessa fede.</l>
+<l>Contro tua voglia invan l´attieni: astretta,</l>
+<l>non dai parenti, e men da me; da falsa</l>
+<l>vergogna, il sei. Per non incorrer taccia</l>
+<l>di volubil, tu stessa, a te nemica,</l>
+<l>vittima farti del tuo error vorresti:</l>
+<l>e ch´io lo soffra, speri? Ah! no. — Ch´io t´amo,</l>
+<l>e ch´io forse mertavati, tel debbo</l>
+<l part="I">provare or, ricusandoti...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Tu godi</l>
+<l>di vieppiù disperarmi... Ah! come lieta</l>
+<l>poss´io parer, se l´amor tuo non veggo</l>
+<l>mai di me pago, mai? Cagion poss´io</l>
+<l>assegnar di un dolor, che in me supposto</l>
+<l>è in gran parte? e che pur, se in parte è vero,</l>
+<l>origin forse altra non ha, che il nuovo</l>
+<l>stato a cui mi avvicino; e il dover tormi</l>
+<l>dai genitori amati; e il dirmi: «Ah! forse,</l>
+<l>non li vedrai mai più»;... l´andarne a ignoto</l>
+<l>regno; il cangiar di cielo;... e mille e mille</l>
+<l>altri pensier, teneri tutti, e mesti;</l>
+<l>e tutti al certo, più ch´a ogni altro, noti</l>
+<l>all´alto tuo gentile animo umano. —</l>
+<l>Io, data a te spontanea mi sono:</l>
+<l>né men pento; tel giuro. Ove ciò fosse,</l>
+<l>a te il direi: te sovra tutti estimo:</l>
+<l>né asconder cosa a te potrei,... se pria</l>
+<l>non l´ascondessi anco a me stessa. Or prego;</l>
+<l>chi m´ama il più, di questa mia tristezza</l>
+<l>il men mi parli, e svanirà, son certa.</l>
+<l>Dispregierei me stessa, ove pur darmi</l>
+<l>volessi a te, non ti apprezzando: e come</l>
+<l>non apprezzarti?... Ah! dir ciò ch´io non penso,</l>
+<l>nol sa il mio labro: e pur tel dice, e giura,</l>
+<l>ch´esser mai d´altri non vogl´io, che tua.</l>
+<l part="I">Che ti poss´io più dire?</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">... Ah! ciò che dirmi</l>
+<l>potresti, e darmi vita, io non l´ardisco</l>
+<l>chiedere a te. Fatal domanda! il peggio</l>
+<l>fia l´averne certezza. — Or, d´esser mia</l>
+<l>non sdegni adunque? e non ten penti? e nullo</l>
+<l part="I">indugio omai?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">No; questo è il giorno; ed oggi</l>
+<l>sarò tua sposa. — Ma, doman le vele</l>
+<l>daremo ai venti, e lascerem per sempre</l>
+<l part="I">dietro noi queste rive.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">Oh! che favelli?</l>
+<l>Come or sì tosto da te stessa affatto</l>
+<l>discordi? Il patrio suol, gli almi parenti,</l>
+<l>tanto t´incresce abbandonare; e vuoi</l>
+<l part="I">ratta così, per sempre?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Il vo´;... per sempre</l>
+<l>abbandonarli;... e morir... di dolore...</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Che ascolto? Il duol ti ha pur tradita;... e muovi</l>
+<l>sguardi e parole disperate. Ah! giuro,</l>
+<l>ch´io non sarò del tuo morir stromento;</l>
+<l part="I">no, mai; del mio bensì...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Dolore immenso</l>
+<l>mi tragge, è ver... Ma no, nol creder. — Ferma</l>
+<l>sto nel proposto mio. — Mentre ho ben l´alma</l>
+<l>al dolor preparata, assai men crudo</l>
+<l part="I">mi fia il partir: sollievo in te...</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">No, Mirra:</l>
+<l>io la cagione, io ´l son (benché innocente)</l>
+<l>della orribil tempesta, onde agitato,</l>
+<l>lacerato è il tuo core. — Omai vietarti</l>
+<l>sfogo non vo´, col mio importuno aspetto. —</l>
+<l>Mirra, o tu stessa ai genitori tuoi</l>
+<l>mezzo alcun proporrai, che te sottragga</l>
+<l>a sì infausti legami; o udrai da loro</l>
+<l>oggi tu di Perèo l´acerba morte.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>MIRRA</stage>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Deh! non andarne ai genitori... Ah! m´odi...</l>
+<l>Ei mi s´invola... — Oh ciel! che dissi? Ah! tosto</l>
+<l>ad Euriclèa si voli: né un istante,</l>
+<l>io rimaner vo´ sola con me stessa...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>EURICLEA, MIRRA</stage>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Ove sì ratti i passi tuoi rivolgi,</l>
+<l part="I">o mia dolce figliuola?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ove conforto,</l>
+<l>se non in te, ritrovo?... A te venìa...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Io da lungi osservandoti mi stava.</l>
+<l>Mai non ti posso abbandonare, il sai:</l>
+<l>e mel perdoni; spero. Uscir turbato</l>
+<l>quinci ho visto Perèo; te da più grave</l>
+<l>dolore oppressa io trovo: ah! figlia; almeno</l>
+<l>liberamente il tuo pianto abbia sfogo</l>
+<l part="I">entro il mio seno.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ah! sì; cara Euriclèa,</l>
+<l>io posso teco, almeno pianger... Sento</l>
+<l>scoppiarmi il cor dal pianto rattenuto...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>E in tale stato, o figlia, ognor venirne</l>
+<l part="I">all´imenèo persisti?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Il dolor pria</l>
+<l>ucciderammi, spero... Ma no; breve</l>
+<l>fia troppo il tempo;... ucciderammi poscia,</l>
+<l>ed in non molto... Morire, morire,</l>
+<l>null´altro io bramo;... e sol morire, io merto.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>— Mirra, altre furie il giovenil tuo petto</l>
+<l>squarciar non ponno in sì barbara guisa,</l>
+<l part="I">fuor che furie d´amor...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ch´osi tu dirmi?</l>
+<l part="I">qual ria menzogna?...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">Ah! non crucciarti, prego,</l>
+<l>contro di me, no. Già da gran tempo io ´l penso:</l>
+<l>ma, se tanto ti spiace, a te più dirlo</l>
+<l>non mi ardirò. Deh! pur che almen tu meco</l>
+<l>la libertà del piangere conservi!</l>
+<l>Né so ben, s´io mel creda; anzi, alla madre</l>
+<l>io fortemente lo negai pur sempre.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Che sento? oh ciel! ne sospettava forse</l>
+<l part="I">anch´essa?...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">E chi, in veder giovin donzella</l>
+<l>in tanta doglia, la cagion non stima</l>
+<l>esserne amore? Ah! il tuo dolor pur fosse</l>
+<l>d´amor soltanto! alcun rimedio almeno</l>
+<l>vi avrebbe. — In questo crudel dubbio immersa</l>
+<l>già da gran tempo io stando, all´ara un giorno</l>
+<l>io ne venìa della sublime nostra</l>
+<l>Venere diva; e con lagrime, e incensi,</l>
+<l>e caldi preghi, e invaso cor, prostrata</l>
+<l>innanzi al santo simulacro, il nome</l>
+<l part="I">tuo pronunziava...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oimè! Che ardir? che festi?</l>
+<l>Venere?... Oh ciel!... contro di me... Lo sdegno</l>
+<l>della implacabil Dea... Che dico?... Ahi lassa!...</l>
+<l part="I">inorridisco,... tremo...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">È ver, mal feci:</l>
+<l>la Dea sdegnava i voti miei; gl´incensi</l>
+<l>ardeano a stento, e in giù ritorto il fumo</l>
+<l>sovra il canuto mio capo cadeva.</l>
+<l>Vuoi più? gli occhi alla immagine tremanti</l>
+<l>alzar mi attento, e da´ suoi piè mi parve</l>
+<l>con minacciosi sguardi me cacciasse,</l>
+<l>orribilmente di furore accesa,</l>
+<l>la Diva stessa. Con tremuli passi,</l>
+<l>inorridita, esco del tempio... Io sento</l>
+<l>dal terrore arricciarmisi di nuovo,</l>
+<l part="I">in ciò narrar, le chiome.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">E me pur fai</l>
+<l>rabbrividire, inorridir. Che osasti?</l>
+<l>Nullo omai de´ celesti, e men la Diva</l>
+<l>terribil nostra, è da invocar per Mirra.</l>
+<l>Abbandonata io son dai Numi; aperto</l>
+<l>è il mio petto all´Erinni; esse v´han sole</l>
+<l>possanza, e seggio. — Ah! se riman pur l´ombra</l>
+<l>di pietà vera in te, fida Euriclèa,</l>
+<l>tu sola il puoi, trammi d´angoscia: è lento,</l>
+<l>è lento troppo, ancor che immenso, il duolo.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="I">Tremar mi fai... Che mai poss´io?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">... Ti chieggo</l>
+<l>di abbreviar miei mali. A poco, a poco</l>
+<l>strugger tu vedi il mio misero corpo;</l>
+<l>il mio languir miei genitori uccide;</l>
+<l>odiosa a me stessa, altrui dannosa,</l>
+<l>scampar non posso: amor, pietà verace,</l>
+<l>fia ´l procacciarmi morte; a te la chieggio...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Oh cielo!... a me?... Mi manca la parola,...</l>
+<l part="I">la lena,... i sensi...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ah! no; davver non m´ami.</l>
+<l>Di pietade magnanima capace</l>
+<l>il tuo senile petto io mal credea...</l>
+<l>Eppur, tu stessa, né miei teneri anni,</l>
+<l>tu gli alti avvisi a me insegnavi: io spesso</l>
+<l>udia da te, come antepor l´uom debba</l>
+<l>alla infamia la morte. Oimè! che dico?... —</l>
+<l>Ma tu non m´odi?... Immobil,... muta,... appena</l>
+<l>respiri! oh cielo!... Or, che ti dissi? io cieca</l>
+<l>dal dolore,... nol so: deh! mi perdona;</l>
+<l>deh! madre mia seconda, in te ritorna.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>... Oh figlia! oh figlia!... A me la morte chiedi?</l>
+<l part="I">la morte a me?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Non reputarmi ingrata;</l>
+<l>né che il dolor de´ mali miei mi tolga</l>
+<l>di que´ d´altrui pietade. — Estinta in Cipro</l>
+<l>non vuoi vedermi? in breve udrai tu dunque,</l>
+<l>ch´io né pur viva pervenni in Epìro.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Alle orribili nozze andarne invano</l>
+<l>presumi adunque. Ai genitori il tutto</l>
+<l part="I">corro a narrar...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Nol fare, o appien tu perdi</l>
+<l>l´amor mio: deh! nol far; ten prego: in nome</l>
+<l>del tuo amor, ti scongiuro. — A un cor dolente</l>
+<l>sfuggon parole, a cui badar non vuolsi. —</l>
+<l>Bastante sfogo (a cui concesso il pari</l>
+<l>non ho giammai) mi è stato il pianger teco;</l>
+<l>e il parlar di mia doglia: in me già quindi</l>
+<l>addoppiato è il coraggio. — Omai poch´ore</l>
+<l>mancano al nuzial rito solenne:</l>
+<l>statti al mio fianco sempre: andiamo: e intanto,</l>
+<l>nel necessario alto proposto mio</l>
+<l>il vieppiù raffermarmi, a te si aspetta.</l>
+<l>Tu del tuo amor più che materno, e a un tempo</l>
+<l>giovar mi dei del fido tuo consiglio.</l>
+<l>Tu dei far sì, ch´io saldamente afferri</l>
+<l>il partito, che solo orrevol resta.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CINIRO, CECRI</stage>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Dubbio non v´ha; benché non sia per anco</l>
+<l>venuto a noi Perèo, scontento appieno</l>
+<l>fu dei sensi di Mirra. Ella non l´ama;</l>
+<l>certezza io n´ebbi; e andando ella a tai nozze,</l>
+<l>corre (pur troppo!) ad infallibil morte.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Or, per ultima prova, udiam noi stessi</l>
+<l>dal di lei labro il vero. In nome tuo</l>
+<l>ingiunger già le ho fatto, che a te venga.</l>
+<l>Nessun di noi forza vuol farle, in somma:</l>
+<l>quanto l´amiamo, il sa ben ella, a cui</l>
+<l>non siam men cari noi. Ch´ella omai chiuda</l>
+<l>in ciò il suo core a noi, del tutto parmi</l>
+<l>impossibile; a noi, che di noi stessi,</l>
+<l>non che di sé, la femmo arbitra e donna.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Ecco, ella viene: oh! mi par lieta alquanto;</l>
+<l>e più franco il suo passo... Ah! pur tornasse</l>
+<l>qual era! al sol riapparirle in volto</l>
+<l>anco un lampo di gioia, in vita io tosto</l>
+<l part="I">ritornata mi sento.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>MIRRA, CECRI, CINIRO</stage>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Amata figlia,</l>
+<l>deh! vieni a noi; deh! vieni.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh ciel! che veggo?</l>
+<l part="I">anco il padre!...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">T´inoltra, unica nostra</l>
+<l>speranza e vita; inoltrati secura;</l>
+<l>e non temere il mio paterno aspetto,</l>
+<l>più che non temi della madre. A udirti</l>
+<l>siam presti entrambi. Or, del tuo fero stato</l>
+<l>se disvelarne la cagion ti piace,</l>
+<l>vita ci dai; ma, se il tacerla pure</l>
+<l>più ti giova o ti aggrada, anco tacerla,</l>
+<l>figlia, tu puoi; che il tuo piacer fia il nostro.</l>
+<l>Ad eternare il marital tuo nodo</l>
+<l>manca omai sola un´ora; il tien ciascuno</l>
+<l>per certa cosa: ma, se pur tu fossi</l>
+<l>cangiata mai; se t´increscesse al core</l>
+<l>la data fé; se la spontanea tua</l>
+<l>libera scelta or ti spiacesse; ardisci,</l>
+<l>non temer cosa al mondo, a noi la svela.</l>
+<l>Non sei tenuta a nulla; e noi primieri</l>
+<l>te ne sciogliam, noi stessi; e, di te degno,</l>
+<l>generoso ti scioglie anco Perèo.</l>
+<l>Né di leggiera vorrem noi tacciarti:</l>
+<l>anzi, creder ci giova che maturi</l>
+<l>pensier novelli a ciò ti astringan ora.</l>
+<l>Da cagion vile esser non puoi tu mossa;</l>
+<l>l´indole nobil tua, gli alti tuoi sensi,</l>
+<l>e l´amor tuo per noi, ci è noto il tutto:</l>
+<l>di te, del sangue tuo cosa non degna,</l>
+<l>né pur pensarla puoi. Tu dunque appieno</l>
+<l>adempi il voler tuo; purché felice</l>
+<l>tu torni, e ancor di tua letizia lieti</l>
+<l>tuoi genitor tu renda. Or, qual ch´ei sia</l>
+<l>questo presente tuo voler, lo svela,</l>
+<l part="I">come a fratelli, a noi.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Deh! sì: tu il vedi;</l>
+<l>né dal materno labro udisti mai</l>
+<l>più amoroso, più tenero, più mite</l>
+<l part="I">parlar, di questo.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">... Havvi tormento al mondo,</l>
+<l part="I">che al mio si agguagli?...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Ma, che fia? tu parli</l>
+<l part="I">sospirando infra te?</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Lascia, deh! lascia,</l>
+<l>che il tuo cor ci favelli: altro linguaggio</l>
+<l>non adopriam noi teco. — Or via; rispondi.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="I">... Signor...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Tu mal cominci: a te non sono</l>
+<l>signor; padre son io: puoi tu chiamarmi</l>
+<l part="I">con altro nome, o figlia?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">O Mirra, è questo</l>
+<l part="I">l´ultimo sforzo. — Alma, coraggio...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l part="I">Pallor di morte in volto...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="M">A me?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Ma donde,</l>
+<l part="I">donde il tremar? del padre tuo?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Non tremo...</l>
+<l>parmi;... od almen, non tremerò più omai,</l>
+<l>poiché ad udirmi or sì pietosi state. —</l>
+<l>L´unica vostra, e troppo amata figlia</l>
+<l>son io, ben so. Goder d´ogni mia gioia,</l>
+<l>e v´attristar d´ogni mio duol vi veggo;</l>
+<l>ciò stesso il duol mi accresce. Oltre i confini</l>
+<l>del natural dolore il mio trascorre;</l>
+<l>invan lo ascondo; e a voi vorrei pur dirlo,...</l>
+<l>ove il sapessi io stessa. Assai già pria,</l>
+<l>ch´io fra ´l nobile stuol de´ proci illustri</l>
+<l>Perèo scegliessi, in me cogli anni sempre</l>
+<l>la fatal mia tristezza orridi era ita</l>
+<l>ogni dì più crescendo. Irato un Nume,</l>
+<l>implacabile, ignoto, entro al mio petto</l>
+<l>si alberga; e quindi, ogni mia forza è vana</l>
+<l>contro alla forza sua... Credilo, o madre;</l>
+<l>forte, assai forte (ancor ch´io giovin sia)</l>
+<l>ebbi l´animo, e l´ho: ma il debil corpo,</l>
+<l>egro ei soggiace;... e a lenti passi in tomba</l>
+<l>andar mi sento... — Ogni mio poco e rado</l>
+<l>cibo, mi è tosco: ognor mi sfugge il sonno;</l>
+<l>o con fantasmi di morte tremendi,</l>
+<l>più che il vegliar, mi dan martìro i sogni:</l>
+<l>né dì, né notte, io non trovo mai pace,</l>
+<l>né riposo, né loco. Eppur sollievo</l>
+<l>nessuno io bramo; e stimo, e aspetto, e chieggo,</l>
+<l>come rimedio unico mio, la morte.</l>
+<l>Ma, per più mio supplicio, co´ suoi lacci</l>
+<l>viva mi tien natura. Or me compiango,</l>
+<l>or me stessa abborrisco: e pianto, e rabbia,</l>
+<l>e pianto ancora... È la vicenda questa,</l>
+<l>incessante, insoffribile, feroce,</l>
+<l>in cui miei giorni infelici trapasso. —</l>
+<l>Ma che?... voi pur dell´orrendo mio stato</l>
+<l>piangete?... Oh madre amata!... entro il tuo seno</l>
+<l>ch´io, suggendo tue lagrime, conceda</l>
+<l part="I">un breve sfogo anco alle mie?...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Diletta</l>
+<l>figlia, chi può non piangere al tuo pianto?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Squarciare il cor mi sento da´ suoi detti...</l>
+<l part="I">Ma in somma pur, che far si dee?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ma in somma,</l>
+<l>(deh mel credete) in mio pensier non cadde</l>
+<l>mai di attristarvi, né di trarvi a vana</l>
+<l>pietà di me, coll´accennar mie fere</l>
+<l>non narrabili angosce. — Da che ferma,</l>
+<l>Perèo scegliendo, ebbi mia sorte io stessa,</l>
+<l>meno affannosa rimaner mi parve,</l>
+<l>da prima, è vero; ma, quanto poi più il giorno</l>
+<l>del nodo indissolubil si appressava,</l>
+<l>vie più forti le smanie entro al mio cuore</l>
+<l>ridestavansi; a tal, ch´io ben tre volte</l>
+<l>pregarvi osai di allontanarlo. In questi</l>
+<l>indugi io pur mi racquetava alquanto;</l>
+<l>ma, col scemar del tempo, ricrescea</l>
+<l>di mie Furie la rabbia. Oggi son elle,</l>
+<l>con mia somma vergogna e dolor sommo,</l>
+<l>giunte al lor colmo al fin: ma sento anch´oggi,</l>
+<l>che nel mio petto di lor possa han fatto</l>
+<l>l´ultima prova. Oggi a Perèo son io</l>
+<l>sposa, o questo esser demmi il giorno estremo.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Che sento?... Oh figlia!... E alle ferali nozze</l>
+<l part="I">ostinarti tu vuoi?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">No, mai non fia.</l>
+<l>Perèo non ami; e mal tuo grado, indarno,</l>
+<l part="I">vuoi darti a lui...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Deh! non mi torre adesso;</l>
+<l>o dammi tosto a morte... È ver, ch´io, forse,</l>
+<l>quanto egli me, non l´amo;... e ciò, neppure</l>
+<l>io ben mel so... Credi, ch´io assai lo estimo;</l>
+<l>e che null´uomo avrà mia destra al mondo,</l>
+<l>s´egli non l´ha. Caro al mio core, io spero,</l>
+<l>Perèo sarà, quanto il debb´esser; seco</l>
+<l>vivendo io fida e indivisibil sempre,</l>
+<l>egli in me pace, io spero, egli in me gioia</l>
+<l>tornar farà: cara, e felice forse,</l>
+<l>un giorno ancor mi fia la vita. Ah! s´io</l>
+<l>finor non l´amo al par ch´ei merta, è colpa</l>
+<l>non di me, del mio stato; in cui me stessa</l>
+<l>prima abborrisco... Io l´ho pur scelto: ed ora,</l>
+<l>io di nuovo lo scelgo: io bramo, io chieggo</l>
+<l>lui solo. Oltre ogni dire, a voi gradita</l>
+<l>era la scelta mia: si compia or dunque,</l>
+<l>come il voleste, e come io ´l voglio, il tutto.</l>
+<l>Poiché maggior del mio dolore io sono,</l>
+<l>siatel pur voi. Quanto il potrò più lieta,</l>
+<l>vengo in breve alle nozze: e voi, beati</l>
+<l part="I">ve ne terrete un giorno.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Oh rara figlia!</l>
+<l part="I">quanti mai pregi aduni!</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Un po´ mi acqueta</l>
+<l part="I">il tuo parlar; ma tremo...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">In me più forte</l>
+<l>tornar mi sento, in favellarvi. Appieno</l>
+<l>tornar, sì, posso di me stessa io donna,</l>
+<l>(ove il voglian gli Dei) pur che soccorso</l>
+<l part="I">voi men prestiate.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="M">E qual soccorso?</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Ah! parla.</l>
+<l part="I">Tutto faremo.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Addolorarvi ancora</l>
+<l>io deggio. Udite. — Al travagliato petto,</l>
+<l>e alla turbata egra mia mente oppressa,</l>
+<l>alto rimedio or fia, di nuovi oggetti</l>
+<l>la vista; e in ciò il più tosto, il miglior fia.</l>
+<l>L´abbandonarvi (oh ciel!) quanto a me costi,</l>
+<l>dir nol posso; il diranno le mie lagrime,</l>
+<l>quand´io darovvi il terribile addio:</l>
+<l>se il potrò pur, senza cadere,... o madre,</l>
+<l>infra tue braccia estinta... Ma, s´io pure</l>
+<l>lasciar vi posso, il dì verrà, che a questo</l>
+<l>generoso mio sforzo, e vita, e pace,</l>
+<l part="I">e letizia dovrò.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Tu di lasciarci</l>
+<l>parli? e il vuoi tosto; e in un lo temi e il brami?</l>
+<l part="I">Ma qual fia mai?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Lasciarci? e a noi che resta,</l>
+<l>senza di te? Ben di Perèo tu poscia</l>
+<l>irne al padre dovrai; ma intanto pria</l>
+<l>lieta con noi qui lungamente ancora....</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>E s´io qui lieta esser per or non posso,</l>
+<l>vorreste voi qui pria morta vedermi,</l>
+<l>che felice sapermi in stranio lido? —</l>
+<l>Tosto, più o meno, il mio destin mi chiama</l>
+<l>nella reggia d´Epìro: ivi pur debbo</l>
+<l>con Perèo dimorarmi. A voi ritorno</l>
+<l>faremo un dì, quando il paterno scettro</l>
+<l>Perèo terrà. Di molti figli e cari</l>
+<l>me lieta madre rivedrete in Cipro,</l>
+<l>se il concedono i Numi: e, qual più a grado</l>
+<l>a voi sarà tra i figli miei, sostegno</l>
+<l>vel lasceremo ai vostri anni canuti.</l>
+<l>Così a questo bel regno erede avrete</l>
+<l>del sangue vostro; poiché a voi negato</l>
+<l>prole han finor del miglior sesso i Numi.</l>
+<l>Voi primi allor benedirete il giorno,</l>
+<l>che partir mi lasciaste. — Al sol novello,</l>
+<l>deh! concedete, che le vele ai venti</l>
+<l>meco Perèo dispieghi. Io sento in cuore</l>
+<l>certo un presagio funesto, che dove</l>
+<l>il partir mi neghiate, (ahi lassa!) io preda</l>
+<l>in questa reggia infausta oggi rimango</l>
+<l>d´una invincibil sconosciuta possa:</l>
+<l>che a voi per sempre io sto per esser tolta...</l>
+<l>Deh! voi pietosi; o al mio presagio fero</l>
+<l>crediate; o, all´egra fantasia dolente</l>
+<l>cedendo, secondar piacciavi il mio</l>
+<l>errore. La mia vita, il mio destino,</l>
+<l>ed anco (oh cielo! io fremo) il destin vostro;</l>
+<l>dal mio partir, tutto, purtroppo! or pende.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="I">Oh figlia!...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oimè!... Tremar ci fan tuoi detti...</l>
+<l>Ma pur, quanto a te piace, appien si faccia.</l>
+<l>Qual ch´esser possa il mio dolor, pria voglio</l>
+<l>non più vederti, che così vederti. —</l>
+<l>E tu, dolce consorte, in pianto muta</l>
+<l part="I">ti stai?... Consenti al suo desio?</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Morirne</l>
+<l>fossi almen certa, come (ahi trista!) il sono</l>
+<l>di viver sempre in sconsolato pianto!...</l>
+<l>Fosse almen vero un dì l´augurio fausto,</l>
+<l>che dei cari nepoti ella ne accenna!...</l>
+<l>Ma, poich´è tale il suo strano pensiero,</l>
+<l part="I">pur ch´ella viva, seguasi.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">La vita,</l>
+<l>madre, or mi dai per la seconda volta.</l>
+<l>Presta alle nozze io son fra un´ora. Il tempo</l>
+<l>vel proverà, s´io v´ami; ancor che lieta</l>
+<l>io di lasciarvi appaia. — Or mi ritraggo</l>
+<l>a mie stanze, per poco: asciutto affatto</l>
+<l>recar vo´ il ciglio all´ara; e al degno sposo</l>
+<l>venir gradita con serena fronte.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>CINIRO, CECRI</stage>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="I">Miseri noi! misera figlia!</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Eppure,</l>
+<l>di vederla ogni giorno più infelice,</l>
+<l>no, non mi basta il core. Invan l´opporci...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Oh sposo!... io tremo, che ai nostri occhi appena</l>
+<l>toltasi, il fero suo dolor la uccida.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Ai detti, agli atti, ai guardi, anco ai sospiri,</l>
+<l>par che la invasi orribilmente alcuna</l>
+<l part="I">sovrumana possanza.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">... Ah! ben conosco,</l>
+<l>cruda implacabil Venere, le atroci</l>
+<l>tue vendette. Scontare, ecco, a me fai,</l>
+<l>in questa guisa, il mio parlar superbo.</l>
+<l>Ma, la mia figlia era innocente; io sola,</l>
+<l part="I">l´audace io fui; la iniqua, io sola...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l part="I">che osasti mai contro alla Dea?...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Me lassa!...</l>
+<l>Odi il mio fallo, o Ciniro. — In vedermi</l>
+<l>moglie adorata del più amabil sposo,</l>
+<l>del più avvenente infra i mortali, e madre</l>
+<l>per lui d´unica figlia (unica al mondo</l>
+<l>per leggiadria, beltà, modestia, e senno)</l>
+<l>ebra, il confesso, di mia sorte, osava</l>
+<l>negar io sola a Venere gl´incensi.</l>
+<l>Vuoi più? folle, orgogliosa, a insania tanta</l>
+<l>(ahi sconsigliata!) io giunsi, che dal labro</l>
+<l>io sfuggir mi lasciava; che più gente</l>
+<l>tratta è di Grecia e d´Oriente omai</l>
+<l>dalla famosa alta beltà di Mirra,</l>
+<l>che non mai tratta per l´addietro in Cipro</l>
+<l>dal sacro culto della Dea ne fosse.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="I">Oh! che mi narri?...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Ecco, dal giorno in poi,</l>
+<l>Mirra più pace non aver; sua vita,</l>
+<l>e sua beltà, qual debil cera al fuoco,</l>
+<l>lentamente distruggersi; e niun bene</l>
+<l>non v´esser più per noi. Che non fec´io,</l>
+<l>per placar poi la Dea? quanti non porsi</l>
+<l>e preghi, e incensi, e pianti? indarno sempre.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Mal festi, o donna; e fu il tacermel, peggio.</l>
+<l>Padre innocente appieno, io co´ miei voti</l>
+<l>forse acquetar potea l´ira celeste:</l>
+<l>e forse ancor (spero) il potrò. — Ma intanto,</l>
+<l>io pur di Mirra or nel pensier concorro:</l>
+<l>ben forza è torre, e senza indugio nullo,</l>
+<l>da quest´isola sacra il suo cospetto.</l>
+<l>Chi sa? seguirla in altre parti forse</l>
+<l>l´ira non vuol dell´oltraggiato Nume:</l>
+<l>e quindi forse la infelice figlia,</l>
+<l>tal sentendo presagio ignoto in petto,</l>
+<l>tanto il partir desia, tanto ne spera. —</l>
+<l>Ma, vien Perèo: ben venga: ei sol serbarci</l>
+<l part="I">può la figlia, col torcela.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Oh destino!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>CINIRO, PEREO, CECRI</stage>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Tardo, tremante, irresoluto, e pieno</l>
+<l>di mortal duol, voi mi vedete. Un fero</l>
+<l>contrasto è in me: pur, gentilezza, e amore</l>
+<l>vero d´altrui, non di me stesso, han vinto.</l>
+<l>Men costerà la vita. Alto non duolmi,</l>
+<l>che il non poter, con util vostro almeno,</l>
+<l>spenderla omai: ma l´adorata Mirra</l>
+<l>a morte io trarre, ah! no, non voglio. Il nodo</l>
+<l>fatal si rompa; e de´ miei giorni a un tempo</l>
+<l part="I">rompasi il filo.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh figlio!... ancor ti appello</l>
+<l>di tal nome; e il sarai tra breve, io spero.</l>
+<l>Noi, dopo te, noi pure i sensi udimmo</l>
+<l>di Mirra: io seco, qual verace padre,</l>
+<l>tutto adoprai perch´ella appien seguisse</l>
+<l>il suo libero intento: ma, più salda,</l>
+<l>che all´aure scoglio, ella si sta: te solo</l>
+<l>e vuole, e chiede; e teme, che a lei tolto</l>
+<l>sii tu. Cagion del suo dolore addurne</l>
+<l>ella stessa non sa: l´egra salute,</l>
+<l>che l´effetto pria n´era, omai n´è forse</l>
+<l>la cagion sola. Ma il suo duol profondo</l>
+<l>merta, qual ch´egli sia, pietà pur molta;</l>
+<l>né sdegno alcuno in te destar debb´ella,</l>
+<l>più che ne desti in noi. Sollievo dolce</l>
+<l>tu del suo mal sarai: d´ogni sua speme</l>
+<l>l´amor tuo forte, è base. Or, qual vuoi prova</l>
+<l>maggior di questa? al nuovo dì lasciarci</l>
+<l>(noi, che l´amiam pur tanto!) ad ogni costo</l>
+<l>vuole ella stessa; e per ragion ne assegna,</l>
+<l>l´esser più teco, il divenir più tua.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Creder, deh, pure il potess´io! ma appunto</l>
+<l>questo partir sì subito... Oimè! tremo,</l>
+<l>che in suo pensier disegni ella stromento</l>
+<l part="I">della sua morte farmi.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">A te, Perèo,</l>
+<l>noi l´affidiamo: il vuole oggi il destino.</l>
+<l>Pur troppo qui, su gli occhi nostri, morta</l>
+<l>cadria, se ostare al suo voler più a lungo</l>
+<l>cel sofferisse il core. In giovin mente</l>
+<l>grande ha possanza il variar gli oggetti.</l>
+<l>Ogni tristo pensier deponi or dunque;</l>
+<l>e sol ti adopra in lei vieppiù far lieta.</l>
+<l>La tua pristina gioia in volto chiama;</l>
+<l>e, col non mai del suo dolor parlarle,</l>
+<l>vedrai che in lei presso a finir fia ´l duolo.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Creder dunque poss´io, creder davvero</l>
+<l part="I">che non mi abborre Mirra?</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">A me tu il puoi</l>
+<l>creder, deh! sì. Qual ti parlassi io dianzi,</l>
+<l>rimembra; or son dal suo parlar convinto,</l>
+<l>che, lungi d´esser de´ suoi lai cagione,</l>
+<l>suo sol rimedio ella tue nozze estima.</l>
+<l>Dolcezza assai d´uopo è con essa; e a tutto</l>
+<l>piegherassi ella. Vanne; e a lieta pompa</l>
+<l>disponti in breve; e in un (pur troppo!) il tutto,</l>
+<l>per involarci al nuovo sol la figlia,</l>
+<l>anco disponi. Del gran tempio all´ara,</l>
+<l>a Cipro tutta in faccia andar non vuolsi;</l>
+<l>che il troppo lungo rito al partir ratto</l>
+<l>ostacol fora. In questa reggia, gl´inni</l>
+<l part="I">d´Imenèo canteremo.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">A vita appieno</l>
+<l>tornato m´hai. Volo; a momenti io riedo.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>EURICLEA, MIRRA</stage>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Sì; pienamente in calma omai tornata,</l>
+<l>cara Euriclèa, mi vedi; e lieta, quasi,</l>
+<l part="I">del mio certo partire.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">Oimè! fia vero?...</l>
+<l>Sola ne andrai col tuo Perèo?... né trarti</l>
+<l>al fianco vuoi, non una pur di tante</l>
+<l>tue fide ancelle? E me da lor non scerni,</l>
+<l>che neppur me tu vuoi?... Di me che fia,</l>
+<l>se priva io resto della dolce figlia?</l>
+<l>solo in pensarvi, oimè! morir mi sento...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="I">Deh! taci... Un dì ritornerò...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">Deh! il voglia,</l>
+<l>il voglia il cielo! Oh figlia amata!... Ah! tale</l>
+<l>durezza in te, no, non creda: sperato</l>
+<l>avea pur sempre di morirmi al tuo fianco...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>S´io meco alcun di questa reggia trarre</l>
+<l>acconsentir potea, eri tu sola,</l>
+<l>quella ch´io chiesta avrei... Ma, in ciò son salda...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="I">E al nuovo di tu parti?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Al fin certezza</l>
+<l>dai genitor ne ottenni; e scior vedrammi</l>
+<l>da questo lido la nascente aurora.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Deh! ti sia fausto il dì!... Pur ch´io felice</l>
+<l>almen ti sappia!... Ella è ben cruda gioia,</l>
+<l>questa che quasi ora in lasciarci mostri...</l>
+<l>Pur, se a te giova, io piangerò, ma muta</l>
+<l part="I">con la dolente genitrice...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh! quale</l>
+<l>muovi tu assalto al mio mal fermo cuore?...</l>
+<l part="I">perché sforzarmi al pianto?...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">E come il pianto</l>
+<l>celar poss´io?... Quest´è l´ultima volta,</l>
+<l>ch´io ti vedo, e ti abbraccio. D´anni molti</l>
+<l>carca me lasci, e di dolor più assai.</l>
+<l>Al tuo tornar, se pur mai riedi, in tomba</l>
+<l>mi troverai: qualche lagrima, spero,...</l>
+<l>alla memoria... della tua Euriclèa...</l>
+<l part="I">almen darai...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Deh!... per pietà mi lascia;</l>
+<l>o taci almeno. — Io tel comando; taci</l>
+<l>Essere omai per tutti dura io deggio;</l>
+<l>ed a me prima io ´l sono. — È giorno questo</l>
+<l>di gioia e nozze. Or, se tu mai mi amasti,</l>
+<l>aspra ed ultima prova oggi ten chieggo;</l>
+<l>frena il tuo pianto,... e il mio. — Ma, già lo sposo</l>
+<l>venirne io veggio. Ogni dolor sia muto.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>PEREO, MIRRA, EURICLEA</stage>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>D´inaspettata gioia hammi ricolmo,</l>
+<l>Mirra, il tuo genitore: ei stesso, lieto,</l>
+<l>il mio destin, ch´io tremando aspettava,</l>
+<l>annunziommi felice. Ai cenni tuoi</l>
+<l>preste saranno al nuovo albór mie vele,</l>
+<l>poiché tu il vuoi così. Piacemi almeno,</l>
+<l>che vi acconsentan placidi e contenti</l>
+<l>genitori tuoi: per me non altra</l>
+<l>gioia esser può, che di appagar tue brame.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Sì, dolce sposo; ch´io già tal ti appello;</l>
+<l>se cosa io mai ferventemente al mondo</l>
+<l>bramai, di partir teco al nuovo sole</l>
+<l>tutta ardo, e il voglio. Il ritrovarmi io tosto</l>
+<l>sola con te; non più vedermi intorno</l>
+<l>nullo dei tanti oggetti a lungo stati</l>
+<l>testimon del mio pianto, e cagion forse;</l>
+<l>il solcar nuovi mari, e a nuovi regni</l>
+<l>irne approdando; aura novella e pura</l>
+<l>respirare, e tuttor trovarmi al fianco</l>
+<l>pien di gioia e d´amore un tanto sposo;</l>
+<l>tutto, in breve, son certa, appien mi debbe</l>
+<l>quella di pria tornare. Allor sarotti</l>
+<l>meno increscevol, spero. Aver t´è d´uopo</l>
+<l>pietade intanto alcuna del mio stato;</l>
+<l>ma, non fia lunga; accertati. Il mio duolo,</l>
+<l>se tu non mai men parli, in breve svelto</l>
+<l>fia da radice. Deh! non la paterna</l>
+<l>lasciata reggia, e non gli orbati e mesti</l>
+<l>miei genitor; né cosa, in somma, alcuna</l>
+<l>delle già mie, tu mai, né rimembrarmi</l>
+<l>dei, né pur mai nomarmela. Fia questo</l>
+<l>rimedio, il sol, che asciugherà per sempre</l>
+<l>il mio finor perenne orribil pianto.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>Strano, inaudito è il tuo disegno, o Mirra:</l>
+<l>deh! voglia il ciel, ch´ei non t´incresca un giorno! —</l>
+<l>Pur, benché in cor lusinga omai non m´entri</l>
+<l>d´esserti caro, in mio pensier son fermo</l>
+<l>di compier ciecamente ogni tua brama.</l>
+<l>Ove poi voglia il mio fatal destino,</l>
+<l>ch´io mai non merti l´amor tuo, la vita</l>
+<l>che per te sola io serbo (questa vita,</l>
+<l>cui tolta io già di propria man mi avrei,</l>
+<l>s´oggi perderti affatto erami forza)</l>
+<l>questa mia vita per sempre consacro</l>
+<l>al tuo dolore, poiché a ciò mi hai scelto.</l>
+<l>A pianger teco, ove tu il brami; a farti,</l>
+<l>tra giuochi e feste, il tuo cordoglio e il tempo</l>
+<l>ingannar, se a te giova; a porre in opra,</l>
+<l>a prevenir tutti i desiri tuoi;</l>
+<l>a mostrarmiti ognor, qual più mi vogli,</l>
+<l>sposo, amico, fratello, amante, o servo;</l>
+<l>ecco, a quant´io son presto: e in ciò soltanto</l>
+<l>la mia gloria fia posta e l´esser mio.</l>
+<l>Se non potrai me poscia amar tu mai,</l>
+<l>parmi esser certo, che odiarmi almeno</l>
+<l part="I">neppur potrai.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Che parli tu? Deh! meglio</l>
+<l>Mirra e te stesso in un conosci e apprezza.</l>
+<l>Alle tante tue doti amor sì immenso</l>
+<l>v´aggiungi tu, che di ben altro oggetto,</l>
+<l>ch´io nol son, ti fa degno. Amor sue fiamme</l>
+<l>porrammi in cor, tosto che sgombro ei l´abbia</l>
+<l>dal pianto appieno. Indubitabil prova</l>
+<l>abbine, ed ampia, oggi in veder ch´io scelgo</l>
+<l>d´ogni mio mal te sanator pietoso;</l>
+<l>ch´io stimo te, ch´io ad alta voce appello,</l>
+<l>Perèo, te sol liberator mio vero.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l>D´alta gioia or m´infiammi: il tuo bel labro</l>
+<l>tanto mai non mi disse: entro al mio core</l>
+<l>stanno in note di fuoco omai scolpiti</l>
+<l>questi tuoi dolci accenti. — Ecco venirne</l>
+<l>già i sacerdoti, e la festosa turba,</l>
+<l>e i cari nostri genitori. O sposa,</l>
+<l>deh! questo istante a te davver sia fausto,</l>
+<l>come il più bello è a me del viver mio!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage><emph>Sacerdoti</emph>, CORO <emph>di fanciulli, donzelle, e vecchi</emph>; CINIRO, CECRI, <emph>popolo</emph>, MIRRA PEREO, EURICLEA</stage>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Amati figli, augurio lieto io traggo</l>
+<l>dal vedervi precedere a noi tutti,</l>
+<l>al sacro rito. In sul tuo viso è sculta,</l>
+<l>Perèo, la gioia; e della figlia io veggo</l>
+<l>fermo e sereno anco l´aspetto. I Numi</l>
+<l>certo abbiamo propizi. — In copia incensi</l>
+<l>fumino or dunque in su i recati altari;</l>
+<l>e, per far vie più miti a noi gli Dei,</l>
+<l>schiudasi il canto; al ciel rimbombin grati</l>
+<l>devoti inni vostri alti-sonanti.</l>
+</sp>
+<sp><speaker><emph>Coro<note resp="aut" place="foot"><p>Ove il coro non cantasse, precederà ad ogni stanza una breve sinfonia adattata alle parole, che stanno per recitarsi poi.</p></note></emph></speaker>
+<l>«O tu, che noi mortali egri conforte,</l>
+<l>fratel d´Amor, dolce Imenèo, bel Nume;</l>
+<l>deh! fausto scendi; — e del tuo puro lume</l>
+<l>fra i lieti sposi accendi</l>
+<l>fiamma, cui nulla estingua, altro che morte. —</l>
+</sp>
+<sp><speaker><emph>Fanc.</emph></speaker>
+<l>Benigno a noi, lieto Imenèo, deh! vola</l>
+<l>del tuo german su i vanni;</l>
+</sp>
+<sp><speaker><emph>Donz.</emph></speaker>
+<l>e co´ suoi stessi inganni</l>
+<l>a lui tu l´arco, — e la farètra invola:</l>
+</sp>
+<sp><speaker><emph>Vecchi</emph></speaker>
+<l>ma scendi scarco</l>
+<l>di sue lunghe querele e tristi affanni: —</l>
+</sp>
+<sp><speaker><emph>Coro</emph></speaker>
+<l>de´ nodi tuoi, bello Imenèo giocondo,</l>
+<l>stringi la degna coppia unica al mondo».</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="I">Figlia, che fia? tu tremi?... oh cielo!...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Taci:</l>
+<l part="I">deh! taci...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="M">Eppur...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">No, non è ver; non tremo. —</l>
+</sp>
+<sp><speaker><emph>Coro</emph></speaker>
+<l>«O d´Imenèo e d´Amor madre sublime,</l>
+<l>o tra le Dive Diva,</l>
+<l>alla cui possa nulla possa è viva;</l>
+<l>Venere, deh! fausta agli sposi arridi</l>
+<l>dalle olimpiche cime,</l>
+<l>se sacri mai ti fur di Cipro i lidi.</l>
+</sp>
+<sp><speaker><emph>Fanc.</emph></speaker>
+<l>Tutta è tuo don questa beltà sovrana,</l>
+<l>onde Mirra è vestita, e non altera;</l>
+</sp>
+<sp><speaker><emph>Donz.</emph></speaker>
+<l>lasciarci in terra la tua immagin vera</l>
+<l>piacciati, deh! col farla allegra e sana,</l>
+</sp>
+<sp><speaker><emph>Vecchi</emph></speaker>
+<l>e madre in breve di sì nobil prole,</l>
+<l>che il padre, e gli avi, e i regni lor, console. —</l>
+</sp>
+<sp><speaker><emph>Coro</emph></speaker>
+<l>Alma Dea, per l´azzurre aure del cielo,</l>
+<l>coi be´ nitidi cigni al carro aurato,</l>
+<l>raggiante scendi; abbi i duo figli a lato;</l>
+<l>e del bel roseo velo</l>
+<l>gli sposi all´ara tua prostràti ammanta;</l>
+<l>e in due corpi una sola alma traspianta».</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Figlia, deh! sì; della possente nostra</l>
+<l>Diva, tu sempre umìl... Ma che? ti cangi</l>
+<l>tutta d´aspetto?... Oimè! vacilli? e appena</l>
+<l part="I">su i piè tremanti?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ah! per pietà, coi detti</l>
+<l>non cimentar la mia costanza, o madre:</l>
+<l>del sembiante non so;... ma il cor, la mente,</l>
+<l part="I">salda stommi, immutabile.</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">Per essa</l>
+<l part="I">morir mi sento.</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">Oimè! vieppiù turbarsi</l>
+<l>la veggo in volto?... Oh qual tremor mi assale! —</l>
+</sp>
+<sp><speaker><emph>Coro</emph></speaker>
+<l>«La pura Fé, l´eterna alma Concordia,</l>
+<l>abbian lor templo degli sposi in petto;</l>
+<l>e indarno sempre la infernale Aletto,</l>
+<l>con le orribil suore,</l>
+<l>assalto muova di sue negre tede</l>
+<l>al forte intatto core</l>
+<l>dell´alta sposa, che ogni laude eccede:</l>
+<l>e, invan rabbiosa</l>
+<l>se stessa roda la feral Discordia...».</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Che dite voi? già nel mio cor, già tutte</l>
+<l>le Furie ho in me tremende. Eccole; intorno</l>
+<l>col vipereo flagello e l´atre faci</l>
+<l>stan le rabide Erinni: ecco quai merta</l>
+<l part="I">questo imenèo le faci...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh ciel! che ascolto?</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="I">Figlia, oimè! tu vaneggi..</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">Oh infauste nozze!</l>
+<l part="I">Non fia, no mai...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">— Ma che? già taccion gl´inni?...</l>
+<l>Chi al sen mi stringe? Ove son io? Che dissi?</l>
+<l part="I">Son io già sposa? Oimè!...</l>
+</sp>
+<sp><speaker><emph>Pereo</emph></speaker>
+<l part="F">Sposa non sei,</l>
+<l>Mirra; né mai tu di Perèo, tel giuro,</l>
+<l>sposa sarai. Le agitatrici Erinni,</l>
+<l>minori no, ma dalle tue diverse,</l>
+<l>mi squarcian pure il cuore. Al mondo intero</l>
+<l>favola omai mi festi; ed a me stesso</l>
+<l>più insoffribil, che a te: non io per tanto</l>
+<l>farti voglio infelice. Appien tradita,</l>
+<l>mal tuo grado, ti sei: tutto traluce</l>
+<l>invincibile tuo lungo ribrezzo,</l>
+<l>che per me nutri. Oh noi felici entrambi,</l>
+<l>che ti tradisti in tempo! Omai disciolta</l>
+<l>sei dal richiesto ed abborrito giogo.</l>
+<l>Salva, e libera, sei. Per sempre io tolgo</l>
+<l>dagli occhi tuoi quest´odioso aspetto...</l>
+<l>Paga e lieta vo´ farti... Infra brev´ora,</l>
+<l>qual resti scampo a chi te perde, udrai.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>CINIRO, MIRRA, CECRI, EURICLEA, <emph>sacerdoti, coro, popolo</emph></stage>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Contaminato è il rito; ogni solenne</l>
+<l>pompa omai cessi, e taccian gl´inni. Altrove</l>
+<l>itene intanto, o sacerdoti. Io voglio,</l>
+<l>(misero padre!) almen pianger non visto.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>CINIRO, MIRRA, CECRI, EURICLEA</stage>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Mirra più presso a morte assai, che a vita,</l>
+<l>stassi: il vedete, ch´io a stento la reggo?</l>
+<l part="I">Oh figlia!...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Donne, a sé medesma in preda</l>
+<l>costei si lasci, e alle sue furie inique.</l>
+<l>Duro, crudel, mal grado mio, mi ha fatto</l>
+<l>con gl´inauditi modi suoi: pietade</l>
+<l>più non ne sento. Ella, all´altar venirne,</l>
+<l>contra il voler dei genitori quasi,</l>
+<l>ella stessa il voleva: e sol, per trarci</l>
+<l>a tal nostr´onta e sua?... Pietosa troppo,</l>
+<l>delusa madre, lasciala: se pria</l>
+<l>noi severi non fummo, è giunto il giorno</l>
+<l part="I">d´esserlo al fine.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">È ver: Ciniro meco</l>
+<l>inesorabil sia; null´altro io bramo;</l>
+<l>null´altro io voglio. Ei terminar può solo</l>
+<l>d´una infelice sua figlia non degna</l>
+<l>martìr tutti. — Entro al mio petto vibra</l>
+<l>quella che al fianco cingi ultrice spada:</l>
+<l>tu questa vita misera, abborrita,</l>
+<l>davi a me già; tu me la togli: ed ecco</l>
+<l>l´ultimo dono, ond´io ti prego... Ah! pensa;</l>
+<l>che se tu stesso, e di tua propria mano,</l>
+<l>me non uccidi, a morir della mia</l>
+<l part="I">omai mi serbi, ed a null´altro.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh figlia!...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Oh parole!... Oh dolor!... Deh! tu sei padre;</l>
+<l>padre tu sei;... perché innasprirla?... Or forse</l>
+<l>non è abbastanza misera?... Ben vedi,</l>
+<l>mal di se stessa è donna; ad ogni istante</l>
+<l part="I">fuor di se stessa è dal dolore...</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l part="F">O Mirra...</l>
+<l>figlia,... e non m´odi?... Parlar,... pel gran pianto,...</l>
+<l part="I">non posso...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh stato... A sì terribil vista</l>
+<l>non reggo... Ah! sì, padre pur troppo io sono:</l>
+<l>e di tutti il più misero... Mi sforza</l>
+<l>già, più che l´ira, or la pietà. Mi traggo</l>
+<l>a pianger solo altrove. Ah! voi sovr´essa</l>
+<l>vegliate intanto. — In sé tornata, in breve,</l>
+<l>ella udrà poscia favellarle il padre.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>CECRI, MIRRA, EURICLEA</stage>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Ecco, di nuovo ella i sensi ripiglia...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Buona Euriclèa, con lei lasciami sola;</l>
+<l part="I">parlarle voglio.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VII</head>
+<stage>CECRI, MIRRA</stage>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">— Uscito è il padre?... Ei dunque,</l>
+<l>ei di uccidermi niega?... Deh! pietosa</l>
+<l>dammi tu, madre, un ferro; ah! sì; se l´ombra</l>
+<l>pur ti riman per me d´amore, un ferro,</l>
+<l>senza indugiar, dammi tu stessa. Io sono</l>
+<l>in senno appieno; e ciò ch´io dico, e chieggo,</l>
+<l>so quanto importi: al senno mio, deh! credi;</l>
+<l>n´è tempo ancor: ti pentirai, ma indarno,</l>
+<l>del non mi aver d´un ferro oggi soccorsa.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l>Diletta figlia,... oh ciel!... tu, pel dolore,</l>
+<l>certo vaneggi. Alla tua madre mai</l>
+<l>non chiederesti un ferro... — Or, più di nozze</l>
+<l>non si favelli: uno inaudito sforzo</l>
+<l>quasi pur troppo a compierle ti trasse;</l>
+<l>ma, più di te potea natura: i Numi</l>
+<l>io ne ringrazio assai. Tu fra le braccia</l>
+<l>della dolce tua madre starai sempre:</l>
+<l>e se ad eterno pianto ti condanni,</l>
+<l>pianger io teco eternamente voglio,</l>
+<l>né mai, né d´un sol passo, mai lasciarti:</l>
+<l>sarem sol´una; e del dolor tuo stesso,</l>
+<l>poich´ei da te partir non vuolsi, anch´io</l>
+<l>vestirmi vo´. Più suora a te, che madre,</l>
+<l>spero, mi avrai... Ma, oh ciel! che veggio? O figlia,...</l>
+<l>meco adirata sei?... me tu respingi?...</l>
+<l>e di abbracciarmi nieghi? e gl´infuocati</l>
+<l part="I">sguardi?... Oimè! figlia,... anco alla madre?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ah! troppo</l>
+<l>dolor mi accresce anco il vederti: il cuore,</l>
+<l>nell´abbracciarmi tu, vieppiù mi squarci... —</l>
+<l>Ma... oimè!... che dico?... Ahi madre!... Ingrata, iniqua,</l>
+<l>figlia indegna son io, che amor non merto.</l>
+<l>Al mio destino orribile me lascia;...</l>
+<l>o se di me vera pietà tu senti,</l>
+<l part="I">io tel ridico, uccidimi.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Ah! me stessa</l>
+<l>ucciderei, s´io perderti dovessi:</l>
+<l>ahi cruda! e puoi tu dirmi, e replicarmi</l>
+<l>così acerbe parole? — Anzi, vo´ sempre</l>
+<l>d´ora in poi sul tuo viver vegliar io.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Tu vegliare al mio vivere? ch´io deggia,</l>
+<l>ad ogni istante, io rimirarti? innanzi</l>
+<l>agli occhi miei tu sempre? ah! pria sepolti</l>
+<l>voglio in tenebre eterne gli occhi miei:</l>
+<l>con queste man mie stesse, io stessa pria</l>
+<l part="I">me li vo´ sverre, io, dalla fronte...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l>che ascolto?... Oh ciel!... Rabbrividir mi fai.</l>
+<l part="I">Me dunque abborri?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Tu prima, tu sola,</l>
+<l>tu sempiterna cagione funesta</l>
+<l part="I">d´ogni miseria mia...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Che parli?... Oh figlia!...</l>
+<l>Io la cagion?... Ma già il tuo pianto a rivi...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Deh! perdonami; deh!... Non io favello;</l>
+<l>una incognita forza in me favella...</l>
+<l part="I">Madre, ah! troppo tu m´ami; ed io...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Me nomi</l>
+<l part="I">cagion?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Tu, sì; de´ mali miei cagione</l>
+<l>fosti, nel dar vita ad un´empia; e il sei,</l>
+<l>s´or di tormela nieghi; or, ch´io ferventi</l>
+<l>prieghi ten porgo. Ancor n´è tempo; ancora</l>
+<l>sono innocente, quasi... — Ma,... non regge</l>
+<l>a tante furie... il languente... mio... corpo...</l>
+<l part="I">mancano i piè,... mancano... i sensi...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Io voglio</l>
+<l>trarti alle stanze tue. D´alcun ristoro</l>
+<l>d´uopo hai, son certa; dal digiun tuo lungo</l>
+<l>nasce in te il vaneggiare. Ah! vieni; e al tutto</l>
+<l>in me ti affida: io vo´ servirti, io sola.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>CINIRO</stage>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Oh sventurato, oh misero Perèo!</l>
+<l>troppo verace amante!... Ah! s´io più ratto</l>
+<l>al giunger era, il crudo acciaro forse</l>
+<l>tu non vibravi entro al tuo petto. — Oh cielo!</l>
+<l>che dirà l´orbo padre? ei lo attendeva</l>
+<l>sposo, e felice; ed or di propria mano</l>
+<l>estinto, esangue corpo, innanzi agli occhi</l>
+<l>ei recar sel vedrà. — Ma, sono io padre</l>
+<l>men di lui forse addolorato? è vita</l>
+<l>quella, a cui resta, infra sue furie atroci,</l>
+<l>la disperata Mirra? è vita quella,</l>
+<l>a cui l´orrido suo stato noi lascia? —</l>
+<l>Ma, udirla voglio: e già di ferreo usbergo</l>
+<l>armato ho il core. Ella ben merta (e il vede)</l>
+<l>il mio sdegno; ed in prova, al venir lenta</l>
+<l>mostrasi: eppur, dal terzo messo ella ode</l>
+<l>già il paterno comando. — Orribil certo,</l>
+<l>e rilevante arcano havvi nascoso</l>
+<l>in questi suoi travagli. O il vero udirne</l>
+<l>dal di lei labro io voglio, o mai non voglio,</l>
+<l>mai più, vederla al mio cospetto innante...</l>
+<l>Ma, (oh ciel!) se forza di destino, ed ira</l>
+<l>di offesi Numi a un lagrimar perenne</l>
+<l>la condanna innocente, aggiunger deggio</l>
+<l>l´ira d´un padre a sue tante sventure?</l>
+<l>E abbandonata, e disperata, a lunga</l>
+<l>morte lasciarla?... Ah! mi si spezza il core...</l>
+<l>Pure, il mio immenso affetto, in parte almeno,</l>
+<l>ora è mestier, ch´io per la prova estrema,</l>
+<l>le asconda. In suon di sdegno ella finora</l>
+<l>mai non mi udia parlarle: il cor sì saldo,</l>
+<l>no, donzella non ha, che incontro basti</l>
+<l>al non usato minacciar del padre. —</l>
+<l>Eccola al fine. — Oimè! come si avanza</l>
+<l>a tardi passi, e sforzati! Par, ch´ella</l>
+<l>al mio cospetto a morire sen venga</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>CINIRO, MIRRA</stage>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>— Mirra, che nulla tu il mio onor curassi,</l>
+<l>creduto io mai, no, non l´avrei; convinto</l>
+<l>me n´hai (pur troppo!) in questo dì fatale</l>
+<l>a tutti noi: ma, che ai comandi espressi,</l>
+<l>e replicati del tuo padre, or tarda</l>
+<l>all´obbedir tu sii, più nuovo ancora</l>
+<l part="I">questo a me giunge.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">... Del mio viver sei</l>
+<l>signor, tu solo... Io de´ miei gravi,... e tanti</l>
+<l>falli... la pena... a te chiedeva,... io stessa,...</l>
+<l>or dianzi,... qui... — Presente era la madre;...</l>
+<l part="I">deh! perché allor... non mi uccidevi?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">È tempo,</l>
+<l>tempo ormai, sì, di cangiar modi, o Mirra.</l>
+<l>Disperate parole indarno muovi;</l>
+<l>e disperati, e in un tremanti, sguardi</l>
+<l>al suolo affissi indarno. Assai ben chiara</l>
+<l>in mezzo al dolor tuo traluce l´onta;</l>
+<l>rea ti senti tu stessa. Il tuo più grave</l>
+<l>fallo, è il tacer col padre tuo: lo sdegno</l>
+<l>quindi appien tu ne merti; e che in me cessi</l>
+<l>l´immenso amor, che all´unica mia figlia</l>
+<l>io già portai. — Ma che? tu piangi? e tremi?</l>
+<l>e inorridisci?... e taci? — A te fia dunque</l>
+<l>l´ira del padre insopportabil pena?</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="I">Ah!... peggior... d´ogni morte...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Odimi. — Al mondo</l>
+<l>favola hai fatto i genitori tuoi,</l>
+<l>quanto te stessa, coll´infausto fine</l>
+<l>che alle da te volute nozze hai posto.</l>
+<l>Già l´oltraggio tuo crudo i giorni ha tronchi</l>
+<l part="I">del misero Perèo...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Che ascolto? Oh cielo!</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Perèo, sì, muore; e tu lo uccidi. Uscito</l>
+<l>del nostro aspetto appena, alle sue stanze</l>
+<l>solo, e sepolto in un muto dolore,</l>
+<l>ei si ritrae: null´uomo osa seguirlo.</l>
+<l>Io, (lasso me!) tardo pur troppo io giungo...</l>
+<l>Dal proprio acciaro trafitto, ei giacea</l>
+<l>entro un mare di sangue: a me gli sguardi</l>
+<l>pregni di pianto e di morte inalzava;...</l>
+<l>e, fra i singulti estremi, dal suo labro</l>
+<l>usciva ancor di Mirra il nome. — Ingrata...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Deh! più non dirmi... Io sola, io degna sono,</l>
+<l part="I">di morte... E ancor respiro?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Il duolo orrendo</l>
+<l>dell´infelice padre di Perèo,</l>
+<l>io che son padre ed infelice, io solo</l>
+<l>sentir lo posso: io ´l so, quanto esser debba</l>
+<l>lo sdegno in lui, l´odio, il desio di farne</l>
+<l>aspra su noi giusta vendetta. — Io quindi,</l>
+<l>non dal terror dell´armi sue, ma mosso</l>
+<l>dalla pietà del giovinetto estinto,</l>
+<l>voglio, qual de´ padre ingannato e offeso,</l>
+<l>da te sapere (e ad ogni costo io ´l voglio)</l>
+<l>la cagion vera di sì orribil danno. —</l>
+<l>Mirra, invan me l´ascondi: ah! ti tradisce</l>
+<l>ogni tuo menom´atto. — Il parlar rotto;</l>
+<l>lo impallidire, e l´arrossire; il muto</l>
+<l>sospirar grave; il consumarsi a lento</l>
+<l>fuoco il tuo corpo; e il sogguardar tremante;</l>
+<l>e il confonderti incerta; e il vergognarti,</l>
+<l>che mai da te non si scompagna:... ah! tutto,</l>
+<l>sì tutto in te mel dice, e invan tu il nieghi;...</l>
+<l>son figlie in te le furie tue... d´amore.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Io?... d´amor?... Deh! nol credere... T´inganni.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Più il nieghi tu, più ne son io convinto.</l>
+<l>È certo in un son io (pur troppo!) omai,</l>
+<l>ch´esser non puote altro che oscura fiamma,</l>
+<l part="I">quella cui tanto ascondi.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oimè!... che pensi?...</l>
+<l>Non vuoi col brando uccidermi;... e coi detti...</l>
+<l part="I">mi uccidi intanto...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">E dirmi pur non l´osi,</l>
+<l>che amor non senti? E dirmelo, e giurarlo</l>
+<l>anco ardiresti, io ti terria spergiura. —</l>
+<l>Ma, chi mai degno è del tuo cor, se averlo</l>
+<l>non potea pur l´incomparabil, vero,</l>
+<l>caldo amator, Perèo? — Ma, il turbamento</l>
+<l>cotanto è in te;... tale il tremor; sì fera</l>
+<l>la vergogna; e in terribile vicenda,</l>
+<l>ti si scolpiscon sì forte sul volto;</l>
+<l part="I">che indarno il labro negheria...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Vuoi dunque...</l>
+<l>farmi... al tuo aspetto... morir... di vergogna?...</l>
+<l part="I">E tu sei padre?</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">E avvelenar tu i giorni,</l>
+<l>troncarli vuoi, di un genitor che t´ama</l>
+<l>più che se stesso, con l´inutil, crudo,</l>
+<l>ostinato silenzio? — Ancor son padre:</l>
+<l>scaccia il timor; qual ch´ella sia tua fiamma,</l>
+<l>(pur ch´io potessi vederti felice!)</l>
+<l>capace io son d´ogni inaudito sforzo</l>
+<l>per te, se la mi sveli. Ho visto, e veggo</l>
+<l>tuttor, (misera figlia!) il generoso</l>
+<l>contrasto orribil, che ti strazia il core</l>
+<l>infra l´amore, e il dover tuo. Già troppo</l>
+<l>festi, immolando al tuo dover te stessa:</l>
+<l>ma, più di te possente, Amor nol volle.</l>
+<l>La passion puossi escusare; ha forza</l>
+<l>più assai di noi; ma il non svelarla al padre,</l>
+<l>che tel comanda, e ten scongiura, indegna</l>
+<l part="I">d´ogni scusa ti rende.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">— O Morte, Morte,</l>
+<l>cui tanto invoco, al mio dolor tu sorda</l>
+<l part="I">sempre sarai?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Deh! figlia, acqueta alquanto,</l>
+<l>animo acqueta: se non vuoi sdegnato</l>
+<l>contra te più vedermi, io già nol sono</l>
+<l>più quasi omai; purché tu a me favelli.</l>
+<l>Parlami deh! come a fratello. Anch´io</l>
+<l part="I">conobbi amor per prova: il nome.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh cielo!...</l>
+<l>Amo, sì; poiché a dirtelo mi sforzi;</l>
+<l>io disperatamente amo, ed indarno.</l>
+<l>Ma, qual ne sia l´oggetto, né tu mai,</l>
+<l>né persona il saprà: lo ignora ei stesso...</l>
+<l part="I">ed a me quasi io ´l niego.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Ed io saperlo</l>
+<l>e deggio, e voglio. Né a te stessa cruda</l>
+<l>esser tu puoi, che a un tempo assai nol sii</l>
+<l>più ai genitori che ti adoran sola.</l>
+<l>Deh! parla; deh! — Già, di crucciato padre,</l>
+<l>vedi ch´io torno e supplice e piangente:</l>
+<l>morir non puoi, senza pur trarci in tomba. —</l>
+<l>Qual ch´ei sia colui ch´ami, io ´l vo´ far tuo.</l>
+<l>Stolto orgoglio di re strappar non puote</l>
+<l>il vero amor di padre dal mio petto.</l>
+<l>Il tuo amor, la tua destra, il regno mio,</l>
+<l>cangiar ben ponno ogni persona umìle</l>
+<l>in alta e grande: e, ancor che umìl, son certo,</l>
+<l>che indegno al tutto esser non può l´uom ch´ami.</l>
+<l>Te ne scongiuro, parla: io ti vo´ salva,</l>
+<l part="I">ad ogni costo mio.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Salva?... Che pensi?...</l>
+<l>Questo stesso tuo dir mia morte affretta...</l>
+<l>Lascia, deh! lascia, per pietà, ch´io tosto</l>
+<l part="I">da te... per sempre... il piè... ritragga...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">O figlia</l>
+<l>unica amata; oh! che di´ tu? Deh! vieni</l>
+<l>fra le paterne braccia. — Oh cielo! in atto</l>
+<l>di forsennata or mi respingi? Il padre</l>
+<l>dunque abborrisci? e di sì vile fiamma</l>
+<l part="I">ardi, che temi...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Ah! non è vile;... è iniqua</l>
+<l part="I">la mia fiamma; né mai...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Che parli? iniqua,</l>
+<l>ove primiero il genitor tuo stesso</l>
+<l>non la condanna, ella non fia: la svela.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Raccapricciar d´orror vedresti il padre,</l>
+<l part="I">se la sapesse.. Ciniro...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Che ascolto!</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Che dico?... ahi lassa!... non so quel ch´io dica...</l>
+<l>Non provo amor... Non creder, no... Deh! lascia,</l>
+<l>te ne scongiuro per l´ultima volta,</l>
+<l part="I">lasciami il piè ritrarre.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Ingrata: omai</l>
+<l>col disperarmi co´ tuoi modi, e farti</l>
+<l>del mio dolore gioco, omai per sempre</l>
+<l part="I">perduto hai tu l´amor del padre.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh dura,</l>
+<l>fera orribil minaccia!... Or, nel mio estremo</l>
+<l>sospir, che già si appressa,... alle tante altre</l>
+<l>furie mie l´odio crudo aggiungerassi</l>
+<l>del genitor?... Da te morire io lungi?...</l>
+<l>Oh madre mia felice!... almen concesso</l>
+<l>a lei sarà... di morire... al tuo fianco...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Che vuoi tu dirmi?... Oh! qual terribil lampo,</l>
+<l part="I">da questi accenti!... Empia, tu forse?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh cielo!</l>
+<l>che dissi io mai?... Me misera!... Ove sono?</l>
+<l>Ove mi ascondo?... Ove morir? — Ma il brando</l>
+<l part="I">tuo mi varrà...<note resp="aut" place="foot"><p>Rapidissimamente avventatasi al brando del padre, se ne trafigge.</p></note></l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Figlia... Oh! che festi? il ferro...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Ecco,... or... tel rendo... Almen la destra io ratta</l>
+<l part="I">ebbi al par che la lingua.</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">... Io... di spavento,...</l>
+<l>e d´orror pieno, e d´ira,... e di pietade,...</l>
+<l part="I">immobil resto.</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh Ciniro!... Mi vedi...</l>
+<l>presso al morire... Io vendicarti... seppi,...</l>
+<l>e punir me... Tu stesso, a viva forza,</l>
+<l>l´orrido arcano... dal cor... mi strappasti...</l>
+<l>ma, poiché sol colla mia vita... egli esce...</l>
+<l part="I">dal labro mio,... men rea... mi moro...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh giorno!</l>
+<l>Oh delitto!... Oh dolore! — A chi il mio pianto?...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l>Deh! più non pianger;... ch´io nol merto... Ah! sfuggi</l>
+<l>mia vista infame;... e a Cecri... ognor... nascondi...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l>Padre infelice!... E ad ingoiarmi il suolo</l>
+<l>non si spalanca?... Alla morente iniqua</l>
+<l>donna appressarmi io non ardisco;... eppure,</l>
+<l>abbandonar la svenata mia figlia</l>
+<l>non posso...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>CECRI, EURICLEA, CINIRO, MIRRA</stage>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="I">Al suon d´un mortal pianto...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Oh cielo!<note resp="aut" place="foot"><p>Corre incontro a Cecri, e impedendola d´inoltrarsi, le toglie la vista di Mirra morente</p></note></l>
+<l part="I">non t´inoltrar...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="M">Presso alla figlia...</l>
+</sp>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Oh voce!</l>
+</sp>
+<sp><speaker><emph>Euriclea</emph></speaker>
+<l>Ahi vista! nel suo sangue a terra giace</l>
+<l part="I">Mirra?...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="M">La figlia?...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="M">Arretrati...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Svenata!...</l>
+<l part="I">Come? da chi?... Vederla vo´...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Ti arretra...</l>
+<l>Inorridisci... Vieni... Ella... trafitta,</l>
+<l part="I">di propria man, s´è col mio brando...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">E lasci</l>
+<l part="I">così tua figlia?... Ah! la vogl´io...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Più figlia</l>
+<l>non c´è costei. D´infame orrendo amore</l>
+<l part="I">ardeva ella per... Ciniro...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Che ascolto? —</l>
+<l part="I">Oh delitto!...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="F">Deh! vieni: andiam, ten priego,</l>
+<l>a morir d´onta e di dolore altrove.</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="I">Empia... — Oh mia figlia!...</l>
+</sp>
+<sp><speaker><emph>Ciniro</emph></speaker>
+<l part="M">Ah! vieni...</l>
+</sp>
+<sp><speaker><emph>Cecri</emph></speaker>
+<l part="F">Ahi sventurata!...</l>
+<l part="I">né più abbracciarla io mai?...<note resp="aut" place="foot"><p>Viene trascinata fuori da Ciniro.</p></note></l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>MIRRA, EURICLEA</stage>
+<sp><speaker><emph>Mirra</emph></speaker>
+<l part="F">Quand´io... tel... chiesi,...</l>
+<l>darmi... allora,... Euriclèa, dovevi il ferro...</l>
+<l>io moriva... innocente;... empia... ora... muoio...</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Merope</title>
+      <author>Vittorio Alfieri</author>
+    </titleStmt>
+    <extent>106 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001624</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tragedie</title>
+        <title type="part">Oreste ; Rosmunda ; Ottavia ; Timoleone ; Merope ; Maria Stuarda ; La congiura de'Pazzi</title>
+        <author>Alfieri, Vittorio</author>
+        <editor id="ed">Toschi, Luca</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1985</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.6 - Letteratura drammatica italiana. 1748-1814</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 n="Dedica">
+<opener><salute>ALLA NOBIL DONNA LA SIGNORA CONTESSA MONICA TOURNON ALFIERI</salute></opener>
+	<p>Una mia tragedia, che ha per base l´amor materno, spetta a lei, amatissima madre mia. Ella può giudicar veramente, se io ho saputo dipingere quel sublime patetico affetto, ch´ella tante volte ha provato; e principalmente in quel fatal giorno, in cui le fu da morte crudelmente involato altro figlio, fratello mio maggiore. Ancora ho presente agli occhi l´atteggiamento del vero profondo dolore, che in ogni di lei moto traspariva con tanta immensità: e benché io in tenerissima età fossi allora, sempre ho nel core quelle sue parole, che eran poche e semplici, ma vere e terribili: «Chi mi ha tolto il mio figlio? Ah! io l´amava troppo: non lo vedrò mai più!» e tali altre, di cui, per quanto ho saputo, ho sparso la mia <title>Merope</title>. Felice me, se io in parte ho accennato ciò, ch´ella ha sì caldamente sentito, e che io, addolorato del suo dolore, sì vivamente conservato ho nell´anima!</p>
+	<p>Io, benché per fatali mie circostanze passi per lo più i miei giorni lontano da lei, conservo pur sempre per la mia dilettissima madre viva stima, rispetto ed amore infinito; di cui picciolissimo attestato le do, col dedicarle questa mia tragedia; ma grandissimo ne sarà il contraccambio, se ella mi darà segno di averla gradita.</p>
+<closer><dateline>Siena, 27 Agosto 1783</dateline>
+<signed>VITTORIO ALFIERI</signed>
+</closer>
+</div1>
+<castList>
+<head>PERSONAGGI</head>
+<castItem type="role"><role>POLIFONTE</role></castItem>
+<castItem type="role"><role>MEROPE</role></castItem>
+<castItem type="role"><role>EGISTO</role></castItem>
+<castItem type="role"><role>POLIDORO</role></castItem>
+<castItem type="role"><role>Soldati</role></castItem>
+<castItem type="role"><role>Popolo</role></castItem>
+   </castList>
+<set><p><emph>Scena, la Reggia in Messene</emph></p></set>
+</front>
+<body>
+<div1 type="atto">
+<head>ATTO I</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>MEROPE</stage>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Merope, a che pur vivi? Omai più forse</l>
+<l>tu non sei madre. — A che tre lustri in pianto</l>
+<l>ho in questa reggia di dolor trascorsi?</l>
+<l>suddita a che d´un Polifonte infame,</l>
+<l>dove sovr´esso io già regnai? d´un mostro,</l>
+<l>che il mio consorte, e due miei figli, (oh vista!)</l>
+<l>mi trucidò su gli occhi... Uno men resta,</l>
+<l>di sventurate nozze ultimo pegno;</l>
+<l>quel ch´io serbava alla vendetta, e al trono;</l>
+<l>sola speranza mia; sola cagione</l>
+<l>del mio vivere... O figlio, a che mi valse</l>
+<l>l´averti a stento dal crudel macello</l>
+<l>sottratto io stessa?... Ahi giovinetto incauto!</l>
+<l>Ecco or ben l´anno, che il segreto asilo</l>
+<l>ch´ei certo aveva a Polidoro appresso,</l>
+<l>abbandonò... Quell´infelice vecchio,</l>
+<l>che quasi padre gli è, d´Elide muove</l>
+<l>già da sei lune, e tutta Grecia scorre</l>
+<l>di lui cercando: e più di lui non odo,</l>
+<l>né del figliuolo: oh dubbio orrendo!... Io deggio,</l>
+<l>per più martìre, in me tener racchiusa</l>
+<l>sì fera doglia... Uno, in Messene intera,</l>
+<l>non ho che meco pianga: in su la tomba</l>
+<l>del mio Cresfonte ritornar pur sempre</l>
+<l>a lagrimar degg´io... Se non ti sieguo,</l>
+<l>deh! perdona, o consorte: al comun figlio</l>
+<l>vissi finor; s´ei più non è... Ma, viene...</l>
+<l part="I">chi?... Polifonte! Sfuggasi.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>POLIFONTE, MEROPE</stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">T´arresta.</l>
+<l>Perché sfuggirmi? Io gravi cose a dirti...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Io niuna udirne da te voglio....</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">O donna,</l>
+<l>dunque né tempo, né ragion, né modi,</l>
+<l>né preghi miei, nulla bastar può dunque,</l>
+<l>a raddolcir l´ira tua acerba? Il fero</l>
+<l>tuo duol, ch´io tender quasi a fin vedea,</l>
+<l>dimmi, perché da ben un anno or forza</l>
+<l>vie più racquista; e te di te nemica</l>
+<l>cotanto fa? Tu mi abborrisci; e il vuole,</l>
+<l>più che il mio fallo, il mio destin, pur troppo. —</l>
+<l>Tel giuro, io volli al tuo consorte il seggio,</l>
+<l>non mai la vita, torre: ma la foga</l>
+<l>come affrenar de´ vincitor soldati?</l>
+<l>Ebri di sangue, i miei guerrier fin dentro</l>
+<l>a questa reggia il perseguian; né trarlo</l>
+<l>io di lor man vivo potea. Nemico</l>
+<l>gli fui, ma a dritto. Io pur del nobil sangue</l>
+<l>degli Eraclidi nato, a lui lo scettro</l>
+<l>abbandonar non ben potea, soltanto</l>
+<l>perché l´urna gliel dava. — Ma, di madre,</l>
+<l>e di consorte il giusto duol non ode</l>
+<l>ragion, né dritti, ancor che veri. — Io bramo</l>
+<l>sol di saper, donde il tuo antico sdegno</l>
+<l>esca novella or tragge. Ognor più forse</l>
+<l>in raddolcir tua sorte io non m´adopro?</l>
+<l>Qual si può far d´error guerriero ammenda,</l>
+<l part="I">ch´io tutto dì teco non faccia?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Or, vuoi</l>
+<l>ch´io grazie a te renda pur anco espresse,</l>
+<l>del non m´aver tu tolto altro che il regno,</l>
+<l part="I">e il mio consorte, e i figli?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">I figli? In vita</l>
+<l part="I">uno ten resta...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ella è menzogna. Oh fosse</l>
+<l>pur ver così!... Tutto perdei: trafitto</l>
+<l>io ´l vidi pur quell´innocente... Ahi crudo!</l>
+<l>godi tu forse il lagrimevol caso</l>
+<l>udir membrar da me? L´orrenda notte,</l>
+<l>che i satelliti tuoi scorreano in armi</l>
+<l>per questa reggia ove tutto era sangue,</l>
+<l>e grida, e fiamme, e minacciar; col padre</l>
+<l>i figli tutti, e i più valenti amici,</l>
+<l>tutti sossopra non andaro a un tempo?</l>
+<l>Barbaro; e tu, sol per pigliarmi a scherno,</l>
+<l>il pargoletto mio fanciul, che spento</l>
+<l>pria col pugnal fu con tanti altri, e preda</l>
+<l>poscia alle fiamme andonne, in vita salvo</l>
+<l>da me il dicesti? Oh cor feroce! duolti</l>
+<l>di non avere i tuoi spietati sguardi</l>
+<l>pasciuti pur del lagrimoso aspetto</l>
+<l>del picciol corpo esangue? Assai ben gli altri</l>
+<l>cogli occhi tuoi vedesti; con l´iniqua</l>
+<l part="I">tua man palpasti... Ahi scellerato!</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Donna,</l>
+<l>s´io ´l credo in vita, è che il vorrei. Quel primo</l>
+<l>bollor, che seco la vittoria tragge,</l>
+<l>queto era appena, in cor m´increbber molto</l>
+<l>quegli uccisi fanciulli; ai quali io, privo</l>
+<l>di consorte e di prole, avrei col tempo,</l>
+<l>non men che re, potuto anch´esser padre.</l>
+<l>Ben lo vedi tu stessa; a mia vecchiezza</l>
+<l>quale ho sostegno omai? Che giova un regno</l>
+<l>a chi erede non ha?... Pur, poiché il figlio</l>
+<l>spento tu assèvri, e il credo;... almen ti posso,</l>
+<l>se il figlio no, render consorte, e trono...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Che ascolto! Di chi parli?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Di me parlo.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Oh nuovo, inaspettato, orrido oltraggio!</l>
+<l>L´insanguinata destra ad orba madre</l>
+<l>ardisci offrir, tu vil, che orbata l´hai?</l>
+<l>del tuo signore al talamo lo sguardo</l>
+<l>innalzar tu, che lo svenasti? Il ferro,</l>
+<l>quel ferro istesso appresentar mi dei;</l>
+<l>nol temo, il reca... Ma, crudel, tu stimi</l>
+<l>maggior supplizio a me il tuo tristo aspetto:</l>
+<l>quindi ad ogni ora innanzi a me ti veggio;</l>
+<l>quindi, a mi accrescer doglia, osi spiegarmi</l>
+<l part="I">tai sensi rei.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Sfogo di madre afflitta,</l>
+<l>ben giusto egli è. Meco il tuo sdegno appieno</l>
+<l>esala or tu. — Ma, che vuoi dirmi? eterno</l>
+<l>è in te il dolore? alla ragion più loco</l>
+<l>non dai? — Dimmi: e non vivi? Or, già tre lustri</l>
+<l>in pianto vivi, ed in mortale angoscia; —</l>
+<l>pur la sopporti. Ogni più cara cosa</l>
+<l>ti è tolta, dici; e nulla al mondo temi,</l>
+<l>nulla ami, nulla speri: — e in vita resti?</l>
+<l>Dunque, in dar tregua a´ tuoi sospiri, ancora</l>
+<l>senti che un dì per te risorger nuova</l>
+<l>letizia può: dunque cacciata in bando</l>
+<l part="I">non hai per anco ogni speranza.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Io?... Nulla...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Sì, donna, tu: ben fra te stessa pensa;</l>
+<l>vedrai, che forse il riavere... il... regno,</l>
+<l part="I">men trista vita a te potria...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ben veggo;</l>
+<l>padre non fosti mai: tutto tiranno</l>
+<l>tu sei; né vedi altro che regno. I figli,</l>
+<l>e il mio consorte oltre ogni trono amai;...</l>
+<l part="I">e abborro te...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Deh! Merope, mi ascolta. —</l>
+<l>Sceglier compagna al mio destino io debbo.</l>
+<l>Queta ogni cosa, omai Messenia tutta</l>
+<l>mi obbedisce: ma so, che in cor di molti</l>
+<l>viva memoria è di Cresfonte: il volgo</l>
+<l>sempre il signor, che più non ha, vorria.</l>
+<l>Forse anco giusto, mansueto, umano</l>
+<l part="I">nel breve regno ei si mostrò...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Tal era:</l>
+<l part="I">non s´infinse ei, com´altri.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Ed io, vo´ teco</l>
+<l>scendere all´arte forse? e, ciò che mai</l>
+<l>non crederesti, irti or dicendo, ch´io</l>
+<l>per te d´amor mi strugga? — Odimi. Spero</l>
+<l>or col mio dire esserti grato io quanto</l>
+<l>uom, che a te costa sì gran pianto, il possa. —</l>
+<l>Cessò il periglio, e le crudeli voglie</l>
+<l>cessar con esso: ecco il mio stato. Il tuo,</l>
+<l>è mesta vita, inutil pianto, oscura</l>
+<l>sorte: gli amici, se pur n´hai, si stanno</l>
+<l>lungi, o il terror qui muti appien li tiene.</l>
+<l>Tutto è per te qui forza; a ciò, più ch´altri,</l>
+<l>mi hai tu costretto: ma d´un sol tuo motto</l>
+<l>tutto cangiar tu puoi. Parriami oltraggio</l>
+<l>inutil, crudo, e, s´anco il vuoi, fatale</l>
+<l>a me, l´offrire ad altra donna il trono</l>
+<l>di Messene, già tuo. Questa è la sola</l>
+<l>non vile ammenda, che al fallir mio resti.</l>
+<l>Finor buon duce infra continue guerre</l>
+<l>videmi il campo; e dei Messeni il nome,</l>
+<l>per me, terror suona ai nimici: a grado</l>
+<l>mi fora or molto alla città mostrarmi</l>
+<l>ottimo re. Tu dunque ai tempi adatta</l>
+<l>te stessa omai: ben lo puoi far tu vinta,</l>
+<l>s´io vincitor nol sdegno. Orribil vita</l>
+<l>tu in Messene strascini; e mai peggiore</l>
+<l>trarla non puoi: per te far tutto io posso:</l>
+<l>tu in guiderdon, se perdonarmi mostri,</l>
+<l>puoi, tel confesso, or più gradito forse</l>
+<l part="I">far mio giogo ai Messeni.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ai buoni farti</l>
+<l>gradito? e chi il potrebbe? Altrui gradito,</l>
+<l>tu, che a te stesso obbrobrioso sei?</l>
+<l>Troppo il sai tu, quant´è abborrito il tuo</l>
+<l>giogo: né gioia, altra che questa, or tempra</l>
+<l>il mio dolore. — Ov´io me voglia infame</l>
+<l>scherno, me vil, non che ai Messeni, al mondo,</l>
+<l>e a me stessa, ch´è peggio, far per sempre;</l>
+<l>di sposa allor man ti darò. — Se traggi</l>
+<l>in me argomento di soffribil doglia</l>
+<l>dal viver mio; d´error trarti ben tosto</l>
+<l>spero, che poco al mio vivere avanza.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>POLIFONTE</stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>— Accorta invan; sei madre: e verrà giorno</l>
+<l>che tradirai tu del tuo cor l´arcano,</l>
+<l>tu stessa. — Ah sì! quel suo figliuol respira.</l>
+<l>Ch´altro in vita la tiene? Eppur, ch´io ´l credo</l>
+<l>spento, con lei finger mi giova. In piena</l>
+<l>fidanza forse addormentar la madre</l>
+<l>potrò, mentr´io pur sempre intento veglio...</l>
+<l>Ma il vegliar, che mi valse? un sol messaggio</l>
+<l>mai non mi accadde intercettar finora;</l>
+<l>né scoprir mai qual egli s´abbia asilo;</l>
+<l>se lungi ei sia, se presso: onde pensiero</l>
+<l>fermar non posso... Eppur, Merope vidi</l>
+<l>molti anni addietro, se non lieta, involta</l>
+<l>in muto duol, qual di chi cova in petto</l>
+<l>speme che adulta ogni dì più si faccia</l>
+<l>d´alta vendetta Or, quasi l´anno parmi,</l>
+<l>che oppressa più, cangiò contegno; il pianto,</l>
+<l>che in cor premeva, or mal suo grado agli occhi</l>
+<l>corre in copia... Cessato il figlio fosse?...</l>
+<l>Ma in cor tuttor vive ai Messeni il padre:</l>
+<l>né altrimenti poss´io trarnelo in parte,</l>
+<l>che costei meco riponendo in seggio.</l>
+<l>Oh quanta è impresa il mantenerti, o trono!</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO II</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>POLIFONTE, <emph>soldati</emph></stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Guardie, inoltrar solo si lasci il reo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>POLIFONTE, EGISTO</stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Vieni; ti appressa... Oh! giovinetto assai</l>
+<l>tu se´, per uomo di corrucci e sangue.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Pur troppo è ver, contaminato io vengo</l>
+<l>di sangue, e forse, d´innocente sangue:</l>
+<l>mira destino! ed innocente anch´io.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="I">Di qual terra se´ tu?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">D´Elide.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Il nome?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="I">Egisto.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="M">Il padre?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Oscuro, ma non servo.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="I">A che venivi?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Giovenil talento,</l>
+<l part="I">vaghezza mi spingea.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Chiaro mi narra,</l>
+<l>e narra il ver, come tu mai giungessi</l>
+<l>a eccesso tanto. Ove a sperar ti avanzi</l>
+<l>più nulla omai, se ingenuo parli, spera.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>In altra guisa, io nol saprei: menzogna</l>
+<l>del mio libero stato non è l´arte. —</l>
+<l>Io m´era al vecchio genitor di furto</l>
+<l>sottratto, incauto; e già più mesi attorno</l>
+<l>men giva errando per città diverse,</l>
+<l>quando oggi al fin qui m´avviava. Un calle</l>
+<l>stretto e solingo, che ai pedon dà via</l>
+<l>lungo il Pamìso, con veloci piante</l>
+<l>venìa calcando, impaziente molto</l>
+<l>di porre il piè nella città, che mostra</l>
+<l>mi fea da lungi vaga, e in un pomposa,</l>
+<l>d´alti palagi e di superbe torri.</l>
+<l>Quand´ecco, a me di contro altr´uom venirne,</l>
+<l>più frettoloso assai: son d´uom che fugge</l>
+<l>i passi suoi; giovin l´aspetto; gli atti,</l>
+<l>arroganti, assoluti: ei di lontano</l>
+<l>con man mi accenna, ch´io gli sgombri il passo.</l>
+<l>Angustissimo il loco, ad uno appena</l>
+<l>adito dà: sul fiume alto scoscende</l>
+<l>il mal sentier per una parte; l´altra,</l>
+<l>irta d´ispidi dumi, assai fa schivo</l>
+<l>d´accostarvisi l´uomo. Il modo spiacque</l>
+<l>a me, libero nato, uso soltanto</l>
+<l>d´obbedire alle leggi; e a ceder solo</l>
+<l>ai più vecchi di me: m´inoltro io quindi.</l>
+<l>Ei, con voce terribile; «Ritratti,</l>
+<l>o ch´io...» mi grida. Ardo di sdegno allora:</l>
+<l>«Ritratti tu» gli replico. Già presso</l>
+<l>siam giunti: ei caccia un suo pugnal dal fianco,</l>
+<l>e su me corre: io non avea pugnale,</l>
+<l>ma cor; lo aspetto di piè fermo; ei giunge;</l>
+<l>io sottentro, il ricingo, e in men che il dico,</l>
+<l>l´atterro: invan dibattesi; il conficco</l>
+<l>con mie ginocchia al suol: sua destra afferro</l>
+<l>con ambe mani; ei freme indarno, io salda</l>
+<l>glie la rattengo, immota. Quando ei troppo</l>
+<l>debil si scorge al paragone, a finta</l>
+<l>mercede viene; io ´l credo, il lascio; ei tosto</l>
+<l>a tradimento un colpo, qual qui il vedi,</l>
+<l>mi vibra; i panni squarcia; il colpo striscia:</l>
+<l>lieve è il dolor, ma troppa è l´ira: io cieco,</l>
+<l>di man gli strappo il rio pugnal;... trafitto</l>
+<l part="I">nel sangue ei giace.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Assai tu se´ valente,</l>
+<l part="I">se veritiero sei.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Troppo mi dolse,</l>
+<l>sfuggito appena il colpo di man m´era.</l>
+<l>Non uso al sangue, io m´avvilii, temetti;</l>
+<l>che far, non mi sapea: prima il coltello</l>
+<l>lanciai nel fiume; indi pensier mi venne</l>
+<l>pur di lanciarvi il misero; di torre</l>
+<l>ogni indizio così, parvemi; e il feci. —</l>
+<l>Vedi, se avvezzo era a´ delitti; ahi folle!</l>
+<l>Così com´era insanguinato, io corsi,</l>
+<l>senza saper dove mi andassi, al ponte.</l>
+<l>Ivi da´ tuoi, ch´io non fuggia, fui preso;</l>
+<l>e qui m´han tratto. — Io nulla tacqui; il giuro.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Simile assai parmi il tuo dire al vero:</l>
+<l>tu ben mi fai certa pietà; ma il chiede</l>
+<l>giustizia pur, ch´abbi tua pena. Io voglio,</l>
+<l>non a malizia, ascriverti a sventura</l>
+<l>l´aver tu il corpo, semivivo forse,</l>
+<l>sepolto là nei vorticosi gorghi</l>
+<l>di rapid´onda: ma il delitto tuo</l>
+<l>quindi aggravasti, anco tu stesso il vedi:</l>
+<l>che s´uom malvagio era colui, qual dici,</l>
+<l>quali pur troppo attorno van molti altri,</l>
+<l>torbidi figli di civili risse,</l>
+<l>meglio era assai per te. Forse a salvarti</l>
+<l>sol basterebbe or dell´ucciso il nome.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Me misero! s´egli è destin ch´io cada</l>
+<l>vittima qui d´involontario errore,</l>
+<l>che posso io dirti, o re? qual vuoi più pena</l>
+<l>pronto a soffrir son io. Forte m´incresce;</l>
+<l>ma più, se in colpa io mi sentissi. Ignuda</l>
+<l>parla per me la mia sola innocenza:</l>
+<l>avi non vanto, oro non ho; sembiante</l>
+<l>ho di malvagio: e il sono, ah! il son, d´avervi,</l>
+<l>miseri miei genitori cadenti,</l>
+<l>disobbediti, abbandonati, posti</l>
+<l>in angoscia mortale; anco anzi tempo</l>
+<l>tratti forse a morire. — Ah! s´ei respira</l>
+<l>quel mio buon padre; ei, che null´altro diemmi,</l>
+<l>che incorrotti costumi; ei, ch´altro esemplo</l>
+<l>di onesta vita, e vivo specchio m´era;</l>
+<l>or che dirà in udir, ch´io d´omicida</l>
+<l>supplizio ebbi in Messene? Ah! tal pensiero</l>
+<l part="I">m´è più che morte duro.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Odi: convinto</l>
+<l>di sparso sangue, il tuo dar tu dovresti</l>
+<l>immantinente, il sai; ma pur, più mite</l>
+<l>a te mi fa il tuo dir semplice e franco.</l>
+<l>Sospender vo´ per or, finch´io più certi,</l>
+<l>sì dell´ucciso, che di te, ritragga</l>
+<l part="I">indizi, e lumi...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>MEROPE, POLIFONTE, EGISTO</stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Merope?... Che fia?</l>
+<l part="I">Tu vieni a me? Cagion qual mai?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">La nuova,</l>
+<l>che or ora udii, mi guida. È ver, che ucciso,</l>
+<l>fu dianzi un uomo, e che nell´onda ei poscia</l>
+<l part="I">dall´uccisor scagliato?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">È ver, pur troppo:</l>
+<l part="I">e l´uccisor n´era costui...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Che miro?...</l>
+<l>Questi?... Oh qual strana somiglianza io veggo!</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Se del mio regno la quiete interna</l>
+<l>mi prema, il sai: pur, se il rimiri o ascolti,</l>
+<l part="I">quasi innocente il credi.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">È ver; l´aspetto</l>
+<l>di malvagio ei non ha: nobil sembianza...</l>
+<l>ma, oimè! di sangue egli è grondante ancora.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Donna, e chi ´l niega? Questo sangue a prima</l>
+<l>troppo mi danna; ma, se stato io fossi</l>
+<l>dotto in versarlo, anco in mondarmen dotto</l>
+<l>stato sarei: poca onda, e fermo viso,</l>
+<l>nelle tenebre eterne avrian sepolto</l>
+<l>il fallo mio. Ma, credi, assai più dura</l>
+<l>pena, che il re non mi apparecchia, io provo</l>
+<l>nel mio rimorso. Eppur, ch´altro potea?</l>
+<l>Sol, peregrino, ignoto, armi omicide</l>
+<l>non io perciò meco arrecava: il ferro,</l>
+<l>che nel giovin superbo in mia difesa</l>
+<l>fui sforzato adoprar, di man gliel trassi...</l>
+<l>Ah! credi; al sangue non son io cresciuto.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Era l´ucciso un giovinetto?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ei pari</l>
+<l part="I">m´era d´età.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Che sento?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">E par, ch´ei fosse</l>
+<l>non ben dritt´uom, se dice il ver costui.</l>
+<l>Fuggia correndo per romito calle...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Anzi, or sovviemmi, ch´ei da pria celava</l>
+<l part="I">col pallio il volto in parte...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ei s´ascondeva?...</l>
+<l part="I">Fuggia?... — Ma tu, nol conoscervi?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Affatto</l>
+<l>stranier qui sono; ed ei (l´ho sempre innante)</l>
+<l>straniero anco mi parve;... anzi, era, al certo;</l>
+<l>ai panni almen, che d´Elide le fogge</l>
+<l part="I">mostravan più che di Messene.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh cielo!...</l>
+<l part="I">d´Elide?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Sì; pari alle mie; ch´io sono</l>
+<l part="I">pur d´Elide...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Tu sei?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Ma, perché tanto</l>
+<l part="I">bramosa tu, sollecita?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Che parli?...</l>
+<l part="I">io sollecita?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Parmi. — In somma, un vile</l>
+<l>stranier, cui svena altro straniero oscuro...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Chi sa qual fosse?... È ver... Non è ch´io prenda</l>
+<l part="I">pensier di ciò...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Per me, s´io nol dovessi,</l>
+<l>tal reo per certo io non udrei. Tu, scevra</l>
+<l>d´ogni affetto, stupore in ciò non poco</l>
+<l part="I">mi arrechi: or che ti cale?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">In me,... fu... mera</l>
+<l>brama d´udire. — Eppur, men caso assai,</l>
+<l>ch´arte mi par, l´aver così dagli occhi</l>
+<l>d´ogni uom tolto quel corpo: e tu sì mite</l>
+<l>ver l´uccisor, che tanto in sé securo</l>
+<l part="I">stassi... Non so...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Timor m´indusse a trarre</l>
+<l>nell´onda il corpo; arte non fu: securo</l>
+<l>io sto, qual uom conscio a se stesso in core.</l>
+<l>Più che nol pensi, addolorato io stava;</l>
+<l>ma tanto or più, che te dolente io veggio,</l>
+<l part="I">dubbia, e tremante per l´ucciso...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Io dubbia?...</l>
+<l>io tremante?... Nol son... Ma, gl´infelici</l>
+<l>pietade han tosto delle altrui sventure.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Dunque di me pietà ti prenda. Io sono</l>
+<l>misero assai, più che l´ucciso; e il merto</l>
+<l>meno assai. Temerario, ei fu che volle</l>
+<l>senza ragione uccider me. Che valse,</l>
+<l>ch´io il pur vincessi, se in più infame guisa</l>
+<l>io sto per perder la mia vita? E s´anco</l>
+<l>non mi vien tolta, a cor gentil qual puossi</l>
+<l>dar pena mai, che la vergogna agguagli?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Alto cor tu racchiudi in basso stato:</l>
+<l>quasi il tuo dir fa forza... Eppur,... se a luce</l>
+<l part="I">l´ucciso, o il nome almeno...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Or, poiché nuova</l>
+<l>brama d´udir tai cose oggi ti prende;</l>
+<l>poich´io mi avveggio, o Merope, che impone</l>
+<l>freno al tuo favellar l´aspetto mio,</l>
+<l part="I">né so perché...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Freno?... Che dici... Io teco</l>
+<l part="I">il lascio.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">No. Perché da lui più sappi.</l>
+<l>se più v´avesse, io teco il lascio. A farti</l>
+<l>arbitra e donna d´ogni cosa, il sai,</l>
+<l>son presto, e il bramo; il sei tanto più dunque</l>
+<l>d´affar sì lieve. A te costui si aspetta;</l>
+<l>di lui disponi a senno tuo. Sia questo</l>
+<l>l´indizio primo, che da me non sdegni</l>
+<l part="I">ogni mio dono.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">E che?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Di ciò ti prego.</l>
+<l>Principio fosse al tuo regnar quest´atto!</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>MEROPE, EGISTO</stage>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>E men di lui saresti a me pietosa?</l>
+<l>Mia giovinezza per me non ti parla?</l>
+<l>Puro non vedi in sul mio volto il cuore?</l>
+<l>Non entri a parte del mortale affanno,</l>
+<l>in cui miei genitori?... oimè!... Non fosti</l>
+<l part="I">madre anco tu? deh! della mia...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Pur troppo</l>
+<l>io ´l fui,... pur troppo!... ed or, chi sa?... — Respira</l>
+<l>dunque ancor la tua madre?... E il padre tuo</l>
+<l part="I">d´Elide è pure?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ei di Messene è figlio.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Di Messene? che ascolto?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Io da bambino</l>
+<l part="I">dir gliel´udiva.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">È Polidoro il nome</l>
+<l part="I">forse?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Cefiso è il nome.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">E l´età?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Molta.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Oh ciel!... — Ma pure il nome... — E di qual grado,</l>
+<l>di quai parenti era in Messene? il sai?</l>
+<l part="I">nobile?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">No: di pochi campi ei donno,</l>
+<l>cui per diletto coltivar godea</l>
+<l>colle robuste libere sue mani,</l>
+<l>vivea felice, del suo aver contento,</l>
+<l part="I">colla consorte e i figli.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">E di sì dolce</l>
+<l>vita chi ´l trasse; e perché mai sua stanza</l>
+<l part="I">cangiava?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ei spesso a me narrò, che interne</l>
+<l>dissension di questo regno a fuga</l>
+<l>l´avean costretto; e che soverchia possa</l>
+<l>d´alto nemico il perseguia. Qui tutto</l>
+<l>era torbidi e sangue; onde ei tremante</l>
+<l>per la sua prole... Oh quante volte io ´l vidi,</l>
+<l part="I">ciò rammentando, piangere!</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Tu nato</l>
+<l>dunque in Messene sei? Tuo padre seco</l>
+<l part="I">ti trafugava in Elide?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">No: gli altri</l>
+<l>miei maggiori fratelli ei seco trasse,</l>
+<l>cui morte cruda gli furò poi tutti.</l>
+<l>Io sol bevvi le prime aure di vita</l>
+<l>in Elide; a lui figlio ultimo nacqui;</l>
+<l>misero padre! ed ultimo ti resto:</l>
+<l>se pur ti resto! — In cor, già fin dai primi</l>
+<l>giovenili anni miei, desio m´entrava</l>
+<l>di Messene veder, quasi mia culla,</l>
+<l part="I">poiché il padre vi nacque.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh ciel... Che parli?... —</l>
+<l>Giovine egli è, di quella etade appunto...</l>
+<l>e quel contegno,... e quei sembianti... Ei pare,</l>
+<l>eppur non è. — Ma dianzi anco dicevi,</l>
+<l part="I">che l´ucciso era d´Elide.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Mel parve.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Ei s´ascondeva?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Sì.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Di cor?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Superbo.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Di vesti?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Abbiette.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Fuggitivo?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ratto,</l>
+<l>quasi inseguito. e di sospetto pieno</l>
+<l part="I">venìa ver me.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Barbaro, e tu l´hai morto?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="I">Uccider me volea.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ti disse ei nulla</l>
+<l part="I">morendo?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Io stetti un cotal po´ sovr´esso,</l>
+<l>piangendo... Ei fra i singulti era di morte...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Ahi misero!...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">... Sovviemmi... or... sì;... che avrebbe</l>
+<l>ogni ferocia impietosito; in voce</l>
+<l>di pianto, singhiozzando, ei domandava</l>
+<l part="I">la madre sua.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">La madre? E tu fellone,</l>
+<l>perfido, e tu pur l´uccidevi? e il corpo</l>
+<l>ne scagliavi nell´onda? Oimè!... Perduto...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Me misero! che feci? Il mio delitto</l>
+<l>te in alcun modo offende? — Or, tu n´avesti</l>
+<l>balìa dal re, di me disponi; e n´abbi</l>
+<l>alta vendetta. — Oh ciel! come potea</l>
+<l>offender io te, Merope, cui sempre</l>
+<l>nel mio cor venerai? — Sapea dal padre</l>
+<l>le tue dure vicende: al pianger suo</l>
+<l>piansi più volte anch´io: la brama ardente</l>
+<l>di pur vederti anco pungeami. Spesso</l>
+<l>col padre antico io porsi per te voti</l>
+<l>al ciel; con man, ch´era innocente allora,</l>
+<l>spesso per te fiamma di puro incenso</l>
+<l>arsi davanti ai piccioli miei Lari. —</l>
+<l>Ed io ti offesi? Ah! mi punisci: il merto,</l>
+<l>il chieggo, il vo´. — Ma, come mai spettarti</l>
+<l>potea colui, che a truce aspetto univa</l>
+<l>cor malnato?... Ma forse, ei tal non era:</l>
+<l>necessità ´l fea tristo... Oimè! che dissi?</l>
+<l>Se tu il compiangi, egli è innocente; il tristo</l>
+<l>io solo il son; deh! fanne in me vendetta.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>— Ma, qual parlar! qual piangere!... Che fia?</l>
+<l>Mal mio grado ei mi tragge a pianger seco. —</l>
+<l part="I">Di me il tuo padre ti parlava?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Oh quante</l>
+<l>volte di te, del tuo trafitto sposo,</l>
+<l part="I">de´ figli tuoi narrommi!</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh ciel! de´ figli?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Sì; dei tre figli tuoi, svenati tutti</l>
+<l>da rio tiranno, il cui feroce aspetto</l>
+<l>fremer mi fea qui dianzi. Assai più grato</l>
+<l>m´è in te il rigor, qual sia, che in lui pietade.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>— Più non reggo al suo dire. Inchino appena</l>
+<l>l´alma a pietà, che un dubbio orribil tosto</l>
+<l>a furor mi sospinge: appena io lascio</l>
+<l>tacer pietade, ecco, s´io ´l miro, o l´odo,</l>
+<l part="I">a lagrimar son risospinta.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">In core</l>
+<l>quale hai battaglia? Infra te stessa parli?</l>
+<l part="I">Pietà ti fo? che non l´ascolti?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ahi lassa!</l>
+<l>che mai farò? — Né condannar ti posso,</l>
+<l>giovinetto, né assolverti. Rimani</l>
+<l>entro la reggia intanto: io vo´ fra poco</l>
+<l>rivederti. Ben pensa; in te ripensa</l>
+<l>ogni più picciol caso di tua vita:</l>
+<l>e in un rimembra ogni atto, e motto, e segno</l>
+<l>dell´ucciso. Tornarti anco in pensiero</l>
+<l>dei del tuo padre ogni più lieve detto. —</l>
+<l>Ma, sei tu certo che il buon vecchio il nome</l>
+<l part="I">mai non cangiasse? di´.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Certo ne sono.</l>
+<l>Io, balbettando, a dir Cefiso appresi.</l>
+<l>Quando ei poi mi dicea, che di Messene</l>
+<l>fuggito s´era, e m´imponea ch´a ogni uomo</l>
+<l>il tacessi, del nome anco mi avria</l>
+<l>detto il ver, se ciò fosse: era ei ben certo,</l>
+<l>ch´io ´l tacerei pur di mia vita a costo.</l>
+<l>Ch´egli è Messenio a te svelai; ma nulla</l>
+<l part="I">poteva io mai nasconderti?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Deh! basta;</l>
+<l>cessa per ora. — Alle mie stanze è forza</l>
+<l>ch´io mi ritragga a sfogar lungamente</l>
+<l>il rattenuto pianto. — A te la reggia</l>
+<l>sola assegno per carcere. Di nuovo</l>
+<l>udrotti or ora; e il tutto ridirai:</l>
+<l>a parte a parte, a tutto appieno, e a lungo,</l>
+<l>risponderai: ch´io veritier ti trovi...</l>
+<l>ma, tu non hai di mentitor l´aspetto.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>EGISTO</stage>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>...Che mai sarà! Dentro il suo cor qual prova</l>
+<l>martìro al mio parlare? Or, più che tigre,</l>
+<l>mi si avventa adirata: or, più che madre,</l>
+<l>dolce mi parla; e tenera e pietosa</l>
+<l>mi guarda, e piange. A lei qual può mai doglia</l>
+<l>quell´ucciso arrecare? Ov´ella affatto</l>
+<l>orba madre non fosse, e da gran tempo,</l>
+<l>parria che a lei svenato avessi un figlio.</l>
+<l>Ma pur, chi sa?... forse alcun altro avea,</l>
+<l>che caro l´era: o a´ suoi disegni forse</l>
+<l>stava aspettando alcuno; e quei... Ma invano</l>
+<l>io vo dicendo; io nulla so. — Ben vedi,</l>
+<l>Egisto; or vedi, se diceati vero</l>
+<l>il tuo vecchio buon padre: «I grandi mai</l>
+<l>non abbassarti a invidiar; son essi</l>
+<l>più infelici di noi». Vero è, pur troppo:</l>
+<l>né posso omai del mio destin dolermi,</l>
+<l>qual ch´io me l´abbia, ove pur tragger veggo</l>
+<l>sì dolorosa vita da tanto alta</l>
+<l>donna, or deserta. — Ma, già già si annotta:</l>
+<l>poiché l´uscir di qui m´è tolto, il piede</l>
+<l>nel regal tetto inoltrerò: di questo</l>
+<l>sangue mondarmi voglio. Ah! così tormi</l>
+<l>potessi il fallo mio! — Ma, giusto è il cielo;</l>
+<l>e tutto sa: puniscami, s´io il merto.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO III</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>POLIDORO</stage>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Coll´alba io giungo: assai ventura io m´ebbi,</l>
+<l>che non fui visto entrare. — O fera reggia,</l>
+<l>dopo tre lustri, io ti riveggo al fine.</l>
+<l>Pien di terrore io ti lasciava, il giorno</l>
+<l>che fra mie braccia in securtà traeva</l>
+<l>del mio buon re l´unico figlio, il sacro</l>
+<l>avanzo del suo sangue: ma, compreso</l>
+<l>di ben altro terrore or torno... Ah! questo,</l>
+<l>pur troppo è questo di Cresfonte il cinto!</l>
+<l>Questo è il fermaglio suo; sculta d´Alcide</l>
+<l>evvi l´impresa: in man l´ebb´io per anni</l>
+<l>ben sette e sette. Or venti lune appunto</l>
+<l>compiono, al fianco io gliel cingeva, io stesso.</l>
+<l>Ahi sconsigliato giovinetto! udirmi</l>
+<l>tu non volesti; a´ miei canuti avvisi</l>
+<l>sordo... Ecco il frutto!... Oh mal vissuti giorni</l>
+<l>per me! Da un anno io ti perdei; già indarno</l>
+<l>di te vo in traccia da sei lunghi mesi;</l>
+<l>ed or, qui presso alla natal tua terra,</l>
+<l>del fiume in riva, per sentier romito,</l>
+<l>trovo tue spoglie in un lago di sangue?</l>
+<l>Oh me infelice!... Or, che farò?... Ma pria</l>
+<l>veder Merope spero. Ah, voglia il cielo,</l>
+<l>pria che al tiranno, appresentarmi a lei!</l>
+<l>Null´altro io bramo. Omai per me che temo?</l>
+<l>che perder ho, se il mio picciol Cresfonte</l>
+<l>mi è tolto?... Eppur, chi sa?... Fors´io m´inganno...</l>
+<l>Forse... Ma come esser può mai?... La madre</l>
+<l>ne saprà forse... E se nol sa? .. Deh! come</l>
+<l>potrò mai darle io nuova orribil tanto?...</l>
+<l>Come tacerla? Oh ciel!... Ma, alcun qui giunge;</l>
+<l>ascondiamci... Ma no; donna è che viene;...</l>
+<l>e sola viene;... e parmi,... ed è pur dessa...</l>
+<l part="I">Incontriamla.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>MEROPE, POLIDORO</stage>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Regina</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh! Chi m´appella</l>
+<l>qui di tal nome omai?... Chi sei, buon vecchio?...</l>
+<l>Ma che veggio? se´ tu?... non m´inganno io?...</l>
+<l part="I">Polidoro?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Sì...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Parla: il figlio... Arrechi</l>
+<l part="I">a me tu vita,... o morte?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">... Al fin... pur... dunque</l>
+<l>io ti riveggo... Al fine un bacio imprimo</l>
+<l part="I">sulla sacra tua destra.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Il figlio, dimmi...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="I">Oh ciel!... — Parlar qui posso?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Il puoi per ora;</l>
+<l>non v´ha persona; e sola andarne io soglio,</l>
+<l>pria del sole, ogni giorno, a lagrimare</l>
+<l part="I">là, di Cresfonte in su la tomba.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oh tomba</l>
+<l>del miglior re, che fosse mai! Deh, possa</l>
+<l part="I">io là spirar sovr´essa!</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Or via, mi narra...</l>
+<l>tremar mi fai... Perché indugiar? sì mesto</l>
+<l>perché ritorni? i passi suoi spiasti?</l>
+<l>rintracciato non l´hai? Parla: or sei lune</l>
+<l>son, che partisti d´Elide; ed or l´anno,</l>
+<l part="I">che ogni giorno io mi moro.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ahi me infelice!</l>
+<l>pensa qual pianto è il mio... Tu non ne udisti</l>
+<l part="I">mai dunque?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">No... Ma tu?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Trascorsa ho mezza</l>
+<l>Grecia; all´antico fianco lena porse</l>
+<l>l´amor, la speme, il gran desio: Cillene,</l>
+<l>Olimpia, Pilo, Argo, Corinto, Sparta</l>
+<l>io visitai, con altre città molte;</l>
+<l>né indizio pure ebbi di lui: l´ardente</l>
+<l>sua giovinezza, e i generosi spirti,</l>
+<l>chi sa fin dove lo spingeano! — Ah figlio!...</l>
+<l>troppa in te di vedere era la brama,</l>
+<l>d´apprendere, d´andare: o degna prole</l>
+<l>del grande Alcide, il mio tugurio vile</l>
+<l>non ti capea. Benché del tutto ignoto</l>
+<l>fossi a te stesso, ogni tuo senso, ogni atto,</l>
+<l part="I">pur ti svelava...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh quai diversi affetti</l>
+<l>al tuo parlar provo ad un tempo! Ah! dove,</l>
+<l>dove sei, figlio?... E il ver mi narri? ei degno</l>
+<l part="I">crescea degli avi?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Degno? Oh ciel! più ardita</l>
+<l>indole mai, più nobil, più sincera,</l>
+<l>più modesta io non vidi: e di persona</l>
+<l>sì ben formato; e sì robusta tempra;</l>
+<l>e così maschio aspetto; e cor sì umano: —</l>
+<l>e che non era in te? Di mia vecchiezza</l>
+<l>sollievo solo; in te vivea l´antica</l>
+<l>mia consorte; in te solo anch´io viveva:</l>
+<l>ben altro a noi, che figlio... Ah! se tu visto</l>
+<l>fra noi lo avessi!... Quasi in cor sentisse</l>
+<l>gli alti natali suoi, con dolce impero</l>
+<l>ei ci reggeva a voglia sua: ma sempre</l>
+<l>eran sue voglie e generose, e giuste. —</l>
+<l>Ah! mio figliuol, rimembrar non ti posso,</l>
+<l>senza che il pianto dagli occhi trabocchi.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>... E me pur fai tu lagrimare a un tempo</l>
+<l>di gioia e di dolore. Oh cielo!... e quando</l>
+<l>il rivedrò? deh, quando?... O figliuol mio,</l>
+<l>degg´io saper tuoi pregi tanti, or mentre</l>
+<l part="I">saper non posso ove ti aggiri?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oh! quanta,</l>
+<l>qual pena m´era il non poterti mai,</l>
+<l>fuorch´ei vivea, far nulla intender d´esso!</l>
+<l>Ma periglioso era il fidarsi: appena</l>
+<l>il convenuto segno osai mandarti,</l>
+<l>per farti udir ch´ei me lasciato avea,</l>
+<l part="I">e ch´io poscia il cercava.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ahi segno infausto!</l>
+<l>ah, giunto mai tu non mi fossi!... Io pace</l>
+<l>mai più non ebbi da quel dì... Che dico?</l>
+<l>pace?... Ah! non sai... Dubbi e terrori orrendi</l>
+<l>a mille a mille, e false larve, o vere,</l>
+<l>m´agitan sempre. Al sonno io più non chiudo</l>
+<l>palpèbra mai: ma se natura, vinta</l>
+<l>pur da stanchezza, un cotal po´ richiama</l>
+<l>a quiete i miei sensi, orridi sogni</l>
+<l>più mi travaglian, che le lunghe veglie.</l>
+<l>Or lo vegg´io mendico andarsen solo,</l>
+<l>inesperto, in balìa di cieca sorte;</l>
+<l>sotto misere spoglie, a scherno preso</l>
+<l>dai grandi alteri, e di repulse infami</l>
+<l>avvilito... Oimè misera!... Or lo veggio</l>
+<l>di mar fremente infra l´onde mugghianti</l>
+<l>presso a morire; or di servil catena</l>
+<l>carco le mani e i piè; da rei sicari</l>
+<l>ora assalito, e straziato, e ucciso...</l>
+<l>Oh ciel!... mi balza ad ogni istante il core;</l>
+<l>a ogni uomo ignoto, che di ria fortuna</l>
+<l>provato ha stral, penso ch´è il figlio; e tremo</l>
+<l>e il credo, e agghiaccio: e d´un martìr non esco,</l>
+<l>se in un peggior non entro. — Il crederesti?</l>
+<l>Un giovinetto, che del fiume in riva</l>
+<l>ieri in privata rissa ucciso cadde,</l>
+<l>poi fu nell´onda per timor scagliato</l>
+<l>dall´uccisor, turbò miei spirti; e ancora</l>
+<l part="I">li turba. Era straniero...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ucciso?... Ieri?...</l>
+<l part="I">Straniero?... in riva?... Oh ciel!...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ma che! tu tremi?</l>
+<l>Dimmi,... forse il mio dubbio?... Oimè!... tu piangi?...</l>
+<l>impallidisci?... in piè ti reggi appena?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>— Misero me! che far degg´io? che dirle?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Fra te che parli? A me parla. — Che pensi?</l>
+<l>che sai? che temi? Udir vogl´io: deh! trammi</l>
+<l part="I">di dubbio; su...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Parlar non posso;... e voce...</l>
+<l part="I">mi manca,... e lena...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Inorridisco... Ardire</l>
+<l>già più non ho di chiederti... Ma, il voglio;</l>
+<l>sapere il vo´. Che più rimango in vita,</l>
+<l>se madre omai non sono? Or di´; tu il sai,</l>
+<l part="I">l´ucciso...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Io nulla so.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Parla; l´impongo.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="I">... Donna,... conosci... questo... cinto?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh vista!</l>
+<l>di fresco sangue egli è stillante?... Oh cielo!</l>
+<l>è di Cresfonte il cinto... Intendo... Io... manco...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>... In riva al fiume, al raggiornare, or dianzi</l>
+<l>io ´l ritrovava sepolto nel sangue:</l>
+<l>uom fuvvi ucciso; ah! non v´ha dubbio; egli era</l>
+<l part="I">il figlio tuo.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">... Qual morte!... Oh rio destino!...</l>
+<l>Ed io vivo? — Ma tu, così guardasti</l>
+<l>un tanto pegno? Ahi folle! in chi riposi</l>
+<l>mie speranze, mia vita? al di lui fianco</l>
+<l>forse tu starti non dovevi sempre?</l>
+<l>Qual ferro lui potea svenar, che pria</l>
+<l>tua lunga inutil vita non troncasse?</l>
+<l>me servivi così? così l´amavi?... —</l>
+<l>Ma, oimè! tu piangi? e non rispondi? Ah! colpa</l>
+<l>del fato è sol; deh! mi perdona: io sono</l>
+<l part="I">madre... Ah no! più nol son... Morire...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Io merto,</l>
+<l>misero me! tutto il tuo sdegno... Eppure</l>
+<l part="I">sa il ciel, s´io colpa...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ah! mel diceva il core...</l>
+<l>in quella notte orribile, che in braccio</l>
+<l>io tel ponea:... mai più tu nol vedrai...</l>
+<l>Con sue picciole mani ei mi avvinghiava</l>
+<l>sì strettamente il collo; oh ciel! parea</l>
+<l>quasi il sapesse, che per sempre ei m´era</l>
+<l>tolto. — Tre lustri in rio timor vissuti,</l>
+<l>in pianto, in vana speme, ove son iti?</l>
+<l>Di Polifonte l´odioso aspetto,</l>
+<l>da me sofferto; e tanti affanni e tanti;</l>
+<l>perch´io tutto perdessi a un tratto poscia?</l>
+<l>Ed in qual modo!... E agli occhi miei!... Per mano</l>
+<l>d´un vile... Oimè! di sepoltura privo...</l>
+<l>Figlio, deh! figlio, almen tuo corpo esangue</l>
+<l>dato mi fosse! Infra gli amplessi, e il pianto,</l>
+<l>potessi almen... sul tuo corpo morire!...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Ed io,... tre lustri di paterna cura</l>
+<l>vedermi tor così? Misero! io vengo</l>
+<l>a trafiggerti il core... Eppur,... tacerlo</l>
+<l part="I">tel poteva io?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Morire; altro non resta...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>POLIFONTE, MEROPE, POLIDORO</stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Di nuovo pianto, e inusitate strida</l>
+<l>io vengo al suon: che fia? — Chi sei tu, vecchio?</l>
+<l part="I">Che mai recasti?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Or via, vieni, o tiranno,</l>
+<l>di pianto al suon; di pianto, qual già udivi</l>
+<l>in questa reggia stessa, il dì che morte</l>
+<l>seguia tuoi passi. O tu, che il cor ti pasci</l>
+<l>dell´altrui pianto, or godi: al fin del tutto</l>
+<l part="I">orba mi vedi.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Ah! — Rimaneati dunque</l>
+<l part="I">quel figlio, che negavi?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh mal accorto</l>
+<l>tiranno tu! creder potevi spento</l>
+<l>il mio figliuol, poich´io vivea? Qual vita</l>
+<l>traessi, il sai; sempre a vederti astretta...</l>
+<l>Sì; vivo egli era; io tel celava; e in petto</l>
+<l>unica speme io racchiudea, che un giorno</l>
+<l>qui il rivedrei terrore alto degli empi,</l>
+<l>fulmin del ciel, vendicator del padre,</l>
+<l>dei fratelli, di me, del soglio avìto.</l>
+<l>Se ciò non era, un solo istante io mai</l>
+<l>udito avria tuoi detti, a me più crudi,</l>
+<l>quando offri pace ed esecrande nozze,</l>
+<l>che in minacciarmi aspro servaggio, e morte?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Tal dai mercede a chi del trono a parte</l>
+<l>voleati? O donna, io che tiranno m´odo</l>
+<l>nomar da te, men di te crudo io sono.</l>
+<l>Sapeva io, sì, vivo sapea il tuo figlio;</l>
+<l>né m´ingannasti... Ma, per ora io scuso</l>
+<l>il duol tuo giusto: un dì verrà poi forse... —</l>
+<l>Ma, certa sei di tal novella? Ov´era</l>
+<l>questo tuo figlio? e donde vien costui,</l>
+<l>che messaggero?... Oh! non m´è nuovo affatto</l>
+<l part="I">il tuo volto; mi pare...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">A te son noto:</l>
+<l>mirami fiso; del tuo re Cresfonte</l>
+<l>spesso m´hai visto al fianco. Polidoro</l>
+<l>son io: Messene abbandonai, quand´altri</l>
+<l>la serva fronte a usurpator piegava.</l>
+<l>Ravvisami: più bianco è ver ch´io reco</l>
+<l>dagli anni il crine; e più curvato il tergo;</l>
+<l>e tinto in morte dagli stenti e angosce</l>
+<l>il volto: ma pur sono ognor lo stesso.</l>
+<l>ognor nemico a te più fero. Ho salvo</l>
+<l>l´unico figlio del mio re: nudrito,</l>
+<l>educato l´ebb´io; per lui lasciata</l>
+<l>ho la natal mia terra: e le perdute</l>
+<l>ricchezze, e onori, e la per lui perduta</l>
+<l>dolce patria, più a grado eranmi assai</l>
+<l>che ogni alto stato, e l´obbedir tiranno. —</l>
+<l>Ahi lasso me, che con lui non spirava!...</l>
+<l>Se del passato aver vendetta brami,</l>
+<l>di me la prendi: in libertà dolersi</l>
+<l>Merope lascia; e di mia trista vita,</l>
+<l>che spenta è omai, me sciogli. Altro non duolmi,</l>
+<l>che il non poter dar oggi i più verdi anni</l>
+<l>al sangue de´ miei re; ma, tal ch´io l´offro,</l>
+<l>questo mio tremolante capo, il prendi.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Pietà mi fai, non ira: assai ben festi</l>
+<l>d´importi esiglio. A suddito ribelle</l>
+<l>pena non altra io do. Non del sottratto</l>
+<l>fanciul, che pur fu generosa l´opra,</l>
+<l>ma del fin scellerato a che il serbavi,</l>
+<l>colpevol sei. T´era mestier quel giorno,</l>
+<l>ch´io sconfissi in battaglia il signor tuo,</l>
+<l>tormi, quel dì, la vita in campo; o allora</l>
+<l>morir per lui. — Pure il passato io voglio</l>
+<l>or del tutto obbliar... Ma, finta nuova</l>
+<l>non rechi ad arte forse? Or narra, quando,</l>
+<l part="I">dove, come ei morìa..</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Saperlo estinto,</l>
+<l>a te non basta? anco vederlo forse</l>
+<l>vorresti? e il vile tuo tremante core</l>
+<l>rassicurar con tal feroce vista?</l>
+<l>e una madre veder sul morto figlio</l>
+<l>sparger pianto di sangue? Or va´; dal fiume,</l>
+<l>ove onorata no, ma queta tomba</l>
+<l>egli ha, ritrallo, e in Messene strascìnalo;</l>
+<l>strazi, cui dar non gli potesti vivo,</l>
+<l>estinto gli abbia; va´. Quei, che trafitto</l>
+<l part="I">fu dianzi, era il mio figlio.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">E fia ch´io ´l creda?</l>
+<l part="I">eri tu seco? di´. Come?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Pur troppo</l>
+<l>giungeva io tardi! Ah! me con esso ucciso</l>
+<l part="I">avria colui. Più nol vid´io...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Ma come</l>
+<l part="I">il sai tu dunque?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ecco; il suo cinto è questo.</l>
+<l>Spoglia già di Cresfonte; ancor grondante</l>
+<l>è del suo sangue; che in un mar di sangue</l>
+<l>colà il trovai: mira; il ravvisa; il crudo</l>
+<l>tuo sguardo pasci; — Un giovinetto, ignoto,</l>
+<l>stranier, d´Elide... Oh ciel!... così non fosse,</l>
+<l part="I">com´è pur desso!</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Il mio morir tra poco</l>
+<l>fé ten farà. — Ma tu, che qui t´infingi,</l>
+<l>forse tu il festi ivi svenar... Che forse?</l>
+<l>dubbio non v´ha. Coll´uccisor tu dianzi</l>
+<l>tranquillamente favellavi: or donde</l>
+<l>pietade in te, che pur di lui sentivi,</l>
+<l>se di crudel desio figlia non era?</l>
+<l part="I">Ah! sì; tuo messo era colui...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Ti accechi,</l>
+<l>Merope, tanto? Io mai nol vidi; il giuro.</l>
+<l>Se qui celato il tuo figliuol venìa</l>
+<l>solo, fuggiasco, in menzognere vesti,</l>
+<l>come saperlo io mai potea? Colui,</l>
+<l>che il trucidò, come il potea (deh dimmi)</l>
+<l>ravvisar egli mai, se a lui non meno</l>
+<l>era ignoto, che a me? Vuoi più? tu stessa</l>
+<l>dell´uccisor pietade non mostrasti?</l>
+<l>Nol lasciai forse io teco? a piacer tuo</l>
+<l>non l´hai tu stessa interrogato? donna</l>
+<l part="I">del suo destin non ti fec´io?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Se reo</l>
+<l>dunque non sei del colpo, in questa reggia</l>
+<l>sta fra tue man quell´uccisore infame:</l>
+<l>può sol vendetta alcuno istante ancora</l>
+<l>me rattenere in vita. Or fa´, ch´io il vegga</l>
+<l>vittima tosto cader sulla tomba</l>
+<l>dell´inulto Cresfonte; ivi l´infida</l>
+<l>alma spirar fra mille strazi e mille</l>
+<l part="I">fa´ ch´io ´l vegga: ed allora...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Io dare a dritto</l>
+<l>potrei mercede a chi svenava un vile,</l>
+<l>che a tradimento a uccider me veniva:</l>
+<l>ma pur (s´io son qual tu mi tacci, or mira)</l>
+<l>del mio nemico vendicar la morte</l>
+<l>io stesso voglio: e ten prometto intera</l>
+<l part="I">giustizia in breve...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Aspra la voglio, e pronta,</l>
+<l>e inaudita, e terribile: null´altro</l>
+<l>mai ti chiedei: favore ultimo, e primo,</l>
+<l>questo mi fia da te... Ma, vero parli?...</l>
+<l>Non ben mi affido... Sbramar gli occhi miei</l>
+<l>del sangue tutto di quell´uom feroce...</l>
+<l>che dico, gli occhi? io voglio a prova, io stessa,</l>
+<l>ferirlo; immerger mille volte io voglio</l>
+<l>entro quel cor lo stile... Atroce core,</l>
+<l>che udia il mio figlio, in voce moribonda</l>
+<l>di pianto e di pietà, chiamar la madre...</l>
+<l>l´udiva; eppur nell´onde lo scagliava,</l>
+<l>forse ancor semivivo; ancora forse</l>
+<l>tal da potersi trarre dalle orrende</l>
+<l>fauci di lunga morte... Ed egli, or dianzi</l>
+<l>a me il narrava; io l´ascoltava; e quasi</l>
+<l>innocente il credea; quasi pietade,</l>
+<l>più che l´ucciso, l´uccisor mi fea. —</l>
+<l>Pietà? scontarla or or saprò: vendetta</l>
+<l>io ne farò, qual non s´intese mai;</l>
+<l>io stessa, or or: tu il promettesti; dimmi:</l>
+<l part="I">l´atterrai tu?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Qual più ti piace, in breve,</l>
+<l>vendetta qui ne avrai tu stessa. Ah! possa</l>
+<l>così il suo sangue entro il tuo cor far scemo</l>
+<l>l´odio che in sen mi serbi! in lui, deh, tutto</l>
+<l>possa il tuo sdegno saziarsi! Io volo</l>
+<l>a disporre ogni cosa: il giusto pianto</l>
+<l>non vo´ per ora io più sturbarti, o donna:</l>
+<l>ma tosto in parte a rasciugarlo io riedo. —</l>
+<l>Tu, non lasciarla intanto: in te non biasmo</l>
+<l>pietade omai: ma della madre or l´abbi,</l>
+<l>se già ne avesti del figliuol cotanta.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>POLIDORO, MEROPE</stage>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Per or, deh! vieni alle tue stanze; soffri,</l>
+<l>che del tiranno l´oltraggiosa e tarda</l>
+<l>pietà mi valga; che a´ tuoi piedi io spiri,</l>
+<l>teco piangendo, e parlando del figlio...</l>
+<l>ch´io vendicar lo veggia, e poi mi muoia. —</l>
+<l>Vieni; ben senti; dal dolor, dall´ira</l>
+<l>sei travagliata, e in piè ti reggi appena.</l>
+<l>Se alcun sollievo al corpo egro non presti,</l>
+<l>né la vendetta, che pur tanto brami,</l>
+<l part="I">a veder giungerai.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">— Pur ch´io la vegga!</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO IV</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>EGISTO</stage>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Imposto ha il re, ch´io qui l´attenda? È fermo</l>
+<l>dunque il destino mio: qual ch´egli sia.</l>
+<l>intrepido lo aspetto. Emmi sollievo</l>
+<l>solo, il saper ch´io non son reo. Ma, sempre</l>
+<l>(se il viver pur mi vien concesso) amaro</l>
+<l>a ogni modo ei sarammi: ognor su gli occhi</l>
+<l>quell´ucciso mi sta. — S´io in core accolgo</l>
+<l>dolce lusinga di perdono, il cielo</l>
+<l>sa perché omai l´accolgo. O amato padre,</l>
+<l>per te soltanto io viver bramo ancora,</l>
+<l>per rivederti; per tornarti a pace</l>
+<l>ch´io ti tolsi; per chiuderti gli antichi</l>
+<l>occhi morenti: che ai tuoi giorni estremi</l>
+<l>ti avvicini pur troppo!... Ahi figlio ingrato!</l>
+<l>forse affrettasti il suo morir tu stesso!...</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>POLIDORO, EGISTO</stage>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Par che Merope alquanto or si racqueti,</l>
+<l>aspettando il tiranno: a quella tomba</l>
+<l part="I">frattanto andrò...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Qual voce!...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ivi i miei voti...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="I">Oh ciel! fia ver? Quel vecchio...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ivi mi giova</l>
+<l part="I">versare il pianto...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ah! non m´inganno; è il bianco</l>
+<l>suo crin; suoi passi; i panni suoi... Deh, volgi</l>
+<l part="I">ver me, buon vecchio...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Oh! chi mi chiama?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ah padre!</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Che veggio? Oh ciel! tu qui? tu vivo? Ahi dove</l>
+<l>ti trovo io mai! deh! ti nascondi. Io tremo...</l>
+<l part="I">misero te!... Perduto sei.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Deh! lascia,</l>
+<l>ch´io mille volte pria ti stringa al seno.</l>
+<l>Padre, al certo per me portasti il piede</l>
+<l>entro Messene, ove hai nemici tanti;</l>
+<l>osi per me porti a tal rischio... Oh cielo!</l>
+<l>un figlio empio son io; tanto non merto:</l>
+<l part="I">troppo in lasciarti errai.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">... Per lo gran pianto...</l>
+<l>parlar... quasi... non posso... Oimè! t´ascondi...</l>
+<l>fuggi... Tu sei... — Grave periglio è il tuo...</l>
+<l part="I">come in Messene, in questa reggia?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">O padre,</l>
+<l>tu in mal punto mi trovi: entro la reggia</l>
+<l>sto custodito... Ahi! che mi scoppia il core,</l>
+<l>padre, in doverti confessar, ch´io forse</l>
+<l>alla condanna di supplizio infame,</l>
+<l>come omicida, assai sto presso. Andronne</l>
+<l>fors´anco assolto, che innocente a un tempo,</l>
+<l>benché omicida, io sono... Oimè! qual figlio</l>
+<l part="I">in me ritrovi!</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oh inaspettato evento!</l>
+<l>tu forse ucciso hai lo stranier, che in riva?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>L´uccisi io, sì; ma in mia difesa, il giuro.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Oh fatal sorte!... Oh mie cure paterne!</l>
+<l>Deh, dimmi;... osserva, se nessun qui c´ode.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Per quanto io miri, alma non veggo: il passo,</l>
+<l>onde là s´esce della reggia, è ingombro</l>
+<l>di guardie; ma son lungi; udir non ponno. —</l>
+<l>Ma, e che vuoi dirmi, ch´io nol sappia, o padre?</l>
+<l>Ecco, ai piè mi t´atterro: ah! già pria d´ora,</l>
+<l>pentito in core e ripentito, io piansi</l>
+<l>d´averti dato sì mortale angoscia.</l>
+<l>Tutto già so: che non mert´io? Sì dolce</l>
+<l>padre amoroso abbandonare!... Ah! s´io</l>
+<l>teco un dì torno a riveder miei Lari,</l>
+<l>mai più, mai più, né d´un sol passo, io voglio</l>
+<l>scostarmene; tel giuro... Oh ciel! l´amata</l>
+<l>madre, che fa?... piange di me;... ben l´odo;...</l>
+<l part="I">la veggio;... e piango...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oh figlio!... Or non sforzarmi</l>
+<l>a lagrimar... Tempo non è... Vorrei...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Or penso: e s´uom qui ti vedesse? a molti</l>
+<l>noto esser dei;... se ravvisato?... Io tremo</l>
+<l>per te soltanto... A che ti esposi?... Ah; meco</l>
+<l>ritratti or dove questa lunga notte</l>
+<l>in pianto trapassai; ch´io vi t´asconda,</l>
+<l>infino a sera almeno. Ah! se il tiranno</l>
+<l>mai ti scoprisse!... e s´ei sapesse a un tempo,</l>
+<l>ch´io ti son figlio!... Vieni: assai mi resta</l>
+<l>di speme ancora: Polifonte acceso</l>
+<l>non è d´ira soverchia; e a me la stessa</l>
+<l>Merope or dianzi ebbi pietosa molto:</l>
+<l>quindi sperar mi lice ancor perdono</l>
+<l part="I">del mio delitto involontario.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oh cielo!...</l>
+<l>Merope stessa?... a te?... — Breve, ma pieno,</l>
+<l>saria mestier ch´io gli parlassi... Ahi lasso!</l>
+<l>che fo?... che dirgli?... e che tacergli? — Ascondi</l>
+<l part="I">te stesso almeno per brev´ora...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Invano</l>
+<l>il tenterei; cercato io fora; imposto</l>
+<l>m´è l´aspettare. Ma, perché celarmi?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Tu mai non fosti in più mortal periglio;</l>
+<l>né in più mortale angoscia stetti io mai.</l>
+<l>Merope stessa ha il tuo morir giurato:</l>
+<l>e Polifonte or ora infra i suoi fidi,</l>
+<l>qui con Merope viene. Ella vuol darti</l>
+<l>morte; uccisor dell´unico suo figlio</l>
+<l part="I">crede Merope te.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Che feci? Un figlio</l>
+<l>le rimaneva? un figlio? io gliel tolsi? —</l>
+<l>Ah! vieni, o madre sconsolata; in questo</l>
+<l>perfido cor l´ira tua giusta appaga</l>
+<l>Qual morte, e strazio, e infamia a me non dessi?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Ma,... del suo figlio... l´uccisor... non sei.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="I">Dunque?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Nol sei...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Che più? Tal mi crede ella:</l>
+<l>priva è del figlio: al suo dolor sollievo</l>
+<l part="I">fia l´uccidermi; e venga...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ah no!... Del figlio</l>
+<l part="I">priva non è.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ma quel ch´io uccisi... — Io voglio</l>
+<l part="I">a ogni costo vederla; udirla...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ah!... Fuggi...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="I">Né il vo´; né il posso.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">O almen...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ma s´io non sono...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Tu sei... quel figlio, ch´ella estinto piange.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Io? che mi narri? io son?... Non mi sei padre?</l>
+<l part="I">Sangue son io d´Alcide?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oh ciel!... Deh, taci.</l>
+<l>Benché non figlio, a me sei più che figlio.</l>
+<l>Io di qui ti sottrassi; io ti crescea</l>
+<l>sotto il nome d´Egisto; io ti serbava,</l>
+<l>misero me! forse a peggior destino.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Oh a me finora impenetrabil sempre</l>
+<l>profondo arcano! In me non so qual misto,</l>
+<l>incognito, indistinto amor sentiva</l>
+<l>per Merope, in vederla; e in un sentiva</l>
+<l>per Polifonte assai più sdegno e orrore,</l>
+<l>che avessi mai per rio tiranno. Or veggo,</l>
+<l>or rammento, or comprendo. Il nome tuo</l>
+<l part="I">non è Cefiso.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">È Polidoro. Il nome,</l>
+<l>e in un mio stato a te celai: temetti</l>
+<l>la giovenil franchezza tua: ma come,</l>
+<l>chi preveder potea?... Ma, oh cielo! intanto</l>
+<l>l´ora passa, e fra poco... Ah! s´io potessi</l>
+<l part="I">dire a Merope in tempo...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Il ciel, che parve</l>
+<l>presieder solo al viver mio finora;</l>
+<l>ei, che bambino dalla vigil rabbia</l>
+<l>d´assetato tiranno mi sottrasse;</l>
+<l>ei, che a tua vecchia età di cor, d´ardire,</l>
+<l>di forza e lena giovenil soccorse;</l>
+<l>fia ch´or per man della mia madre istessa</l>
+<l>perir mi lasci? — Ed io, prole d´Alcide</l>
+<l>io, se v´ha chi la man d´un brando m´armi,</l>
+<l>forse atterrir mi lascierò da un vile</l>
+<l part="I">tiranno?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Ah giovinetto! altro non vedi</l>
+<l>che il tuo valor; ma il tuo periglio, io il veggo.</l>
+<l>Per lusingar più Merope, e scemarsi</l>
+<l>l´odio di tutti, or Polifonte astuto</l>
+<l>pietade finge del figliuol, che ucciso</l>
+<l>le avria, potendo. Ma, se il crudo in vita</l>
+<l>tornato il vede, in sua feral natura</l>
+<l>di sangue ei torna; e tu sei morto. Ah! lascia;</l>
+<l>ad incontrar Merope volo: io forse</l>
+<l part="I">ancor potrò... Deh! s´io giungessi!...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Io veggio</l>
+<l part="I">venir ver noi soldati...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Oimè! che miro?</l>
+<l>Merope vien con Polifonte... Ahi lasso!...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>E a lor vien dopo un numeroso stuolo...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Che mai farò?... Statti al mio fianco, o figlio;...</l>
+<l>morire almeno in tua difesa io giuro. —</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>POLIFONTE, MEROPE, EGISTO, POLIDORO <emph>popolo, soldati</emph></stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Merope, in mano ecco a te do l´infame</l>
+<l>uccisor del tuo figlio. Avvinto ei sia</l>
+<l>d´aspre catene; e a un sol suo cenno, ei cada.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Ahi scellerato, barbaro, fellone!</l>
+<l>Assassin vile, la tua mano impura</l>
+<l>bagnata hai tu del mio figliuol nel sangue?</l>
+<l>Che mi val tutto il tuo? sola una stilla</l>
+<l>scontar mi può di quello? — Io, che già tanto</l>
+<l>era infelice! e tu, sovra ogni donna,</l>
+<l>sovra ogni madre, misera mi festi. —</l>
+<l>Stringete voi que´ ferrei lacci; orrendi</l>
+<l>strazi inauditi apprestategli: ei spiri</l>
+<l>infra tormenti l´alma. Io vo´ mirarlo</l>
+<l>piangere a calde lagrime: non ch´una,</l>
+<l>mille vo´ dargli io stessa orride morti. —</l>
+<l>Ahi lassa! e ciò ti renderà il tuo figlio?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>A te mi arrendo, o Merope: a una madre</l>
+<l>sì giustamente disperata io cedo</l>
+<l>di spontaneo volere: e, s´anco in ceppi</l>
+<l>costor non mi stringessero, tu sola</l>
+<l>a far di me qual più vuoi strazio basti.</l>
+<l>Giusto è il tuo sdegno... Eppur, sai ch´io non reo.</l>
+<l>e degno or dianzi di pietà, ti parvi.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Io... Di pietà... per te?... — Ma pur, que´ detti</l>
+<l>sovra il mio cor d´ignota forza... — Or via;</l>
+<l>che pietade? che detti? A che più tardo?</l>
+<l>Andiam; su quella tomba strascinatelo:</l>
+<l>l´ombre del padre e dei figliuoli uccisi</l>
+<l>del suo sangue si appaghino;... e la mia;</l>
+<l part="I">ch´io seguirolli in breve.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Un solo istante</l>
+<l>ti piaccia ancor sospendere. — Soldati,</l>
+<l>e voi, Messeni, testimon vi volli</l>
+<l>a questo giusto atto solenne. — A danno</l>
+<l>di me serbava occultamente un figlio</l>
+<l>questa adirata madre: eppur pietade</l>
+<l>io del suo duol sento or non poca; e attesto</l>
+<l>il ciel, che s´ella in generoso modo</l>
+<l>vivo svelato a me l´avesse, io cura</l>
+<l>preso ne avrei, qual d´un mio figlio, forse:</l>
+<l>morto, mia cura è il vendicarlo. — Udiste? —</l>
+<l>Merope or tosto si obbedisca: è poco</l>
+<l>una vittima sola a dolor tanto.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Ah! di Cresfonte all´ombra altra si debbe</l>
+<l part="I">vittima omai.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Che parli? Andiam...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Deh!... Prego;</l>
+<l>indugia alquanto... Io vorrei dirti... Ah! m´odi...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Che parli or tu sommesso? Eri già fido</l>
+<l>tu di Cresfonte; al suo rimasto figlio</l>
+<l>eri custode: or la tua fede forse</l>
+<l>t´incresce? E che? dell´uccisor ti duole?...</l>
+<l>Pietà ne senti?... Osi pregar, che il colpo?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Io?... pietà?... no... Ma, tu sei madre... Arresta...</l>
+<l>Udir più a lungo or da lui stesso dei</l>
+<l part="I">cose assai del tuo figlio.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Costui dunque</l>
+<l part="I">il conoscea?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Che udir? — Che ardisci? E speri</l>
+<l>scemar mio sdegno? Ei non svenommi il figlio?</l>
+<l>non mel dicesti? e nol confessa ei stesso?</l>
+<l>e non mel dice, grondante di sangue,</l>
+<l>questo suo cinto, che tu in man m´hai posto?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Quel cinto è mio, tel giuro. Dal mio fianco</l>
+<l part="I">cadea sfibbiato...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Un altro esser potrebbe</l>
+<l>simile a quello... E quell´ucciso... forse</l>
+<l part="I">non era il figlio tuo...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Qual nuova ascolto</l>
+<l>iniqua fraude!... Ahi rio tiranno! or tutti</l>
+<l>dunque hai corrotti? anche costui, già tanto</l>
+<l>fedele a noi? Quasi a trionfo, in vita</l>
+<l>vuoi l´assassin del mio figliuolo, e fingi</l>
+<l part="I">volerlo spento? e mezzi tali?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">O donna,</l>
+<l>tu pel dolor vaneggi. Or, chi non vede?...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Dunque, se spento il vuoi davver, null´altro</l>
+<l>più mi riman da udire. A fren non tengo</l>
+<l>già più mia rabbia omai: già già mi adira</l>
+<l>contro me stessa ogni indugiar. Che vale</l>
+<l>il più inoltrarci? in queste soglie ovunque</l>
+<l>del par si aggira il trucidato sposo:</l>
+<l>tosto ei si appaghi. — A me quel ferro; io stessa,...</l>
+<l part="I">io sì, svenarlo or di mia mano...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Il petto</l>
+<l part="I">eccoti ignudo. Ahi madre!</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Arresta...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Muori.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="I">Deh! ferma...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="M">Osi tu tanto?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Iniquo... O vista!</l>
+<l>tu piangi, e tremi?... Ed io, ferir nol posso!...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Qual havvi arcano? Or via, vecchio, favella.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="I">Deh! per pietà...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="M">Parla.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Ch´io ´l fera...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">È questi...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Chi mai?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="M">Su, svela...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">È... il figlio mio.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Deh! come?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="I">Costui tuo figlio?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Ei mi fu padre.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ei mente: —</l>
+<l>ma, s´anco il fosse, il mio figliuol mi ha spento.</l>
+<l part="I">Muori.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Ah! ferma... È il tuo figlio.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">O madre...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh cielo!</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="I">Costui?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="M">Sei madre; salvalo.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Il mio figlio!...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Qual tradimento è questo? Olà, soldati...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Io ti son scudo, o figlio... Ah! il cor mel dice;</l>
+<l part="I">son madre ancor...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="M">Soldati...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">A lui non giunge</l>
+<l part="I">ferro, che me pria non trafigga...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">O madre,</l>
+<l part="I">fra mie braccia ti stringo!</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Or, qual menzogna</l>
+<l>ne arrechi tu, testor di fole antico?</l>
+<l>Un infame assassin, ch´esser nol niega,</l>
+<l>sarà suo figlio? e il crederò? Soldati,</l>
+<l part="I">si uccida tosto.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Infame tu... Ma salvo,</l>
+<l part="I">finch´io respiro, è il figlio.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Il ciel ne attesto,</l>
+<l>Cresfonte egli è. Quel cinto, è il suo: sol nacque</l>
+<l>l´error da ciò. Messeni, a voi son noto.</l>
+<l part="I">io spergiuro non sono...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">E niun fra voi</l>
+<l>me ravvisa dal volto? Unico avanzo</l>
+<l>del vostro re son io. Tra voi non havvi</l>
+<l part="I">guerrier de´ suoi?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Mente costui. Si uccida...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Me pria... No, mai...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Deh! mi si sciolga il braccio;</l>
+<l>un brando, un brando a me si porga: ai colpi</l>
+<l part="I">riconoscer farommi.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh detti! Oh vero</l>
+<l>germe d´Alcide! Agli alti sensi, agli atti</l>
+<l>nol ravvisate or tutti? E nol ravvisi</l>
+<l>tu, Polifonte, al tuo terrore? Or trema...</l>
+<l>Ah no! ch´io tremo; io le ginocchia al suolo</l>
+<l>piego... Deh! tu l´alma a pietade inchina.</l>
+<l>Questo mio regno, onde ripormi a parte</l>
+<l>volevi, (o almen pareva) intero il serba;</l>
+<l>sia tuo per sempre. Io, l´usurpato seggio,</l>
+<l>e il trucidato mio consorte, e i figli,</l>
+<l>tutto omai ti perdono: unico al mondo</l>
+<l>questo figlio mi avanza; altro non chieggo;</l>
+<l part="I">deh! tu mel dona; deh!...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Pensa, che hai molti</l>
+<l>nemici ancor nel tuo mal fermo regno;</l>
+<l>che uccider lui, senza tuo rischio grave,</l>
+<l>non puoi. S´io mento, ecco il mio capo. Or dianzi</l>
+<l>a vendicarle il figlio ti accingevi</l>
+<l>con pompa tanta, sperandolo estinto;</l>
+<l part="I">ei vive, e ucciso il vuoi?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">— Costui potrei</l>
+<l>punir, qual ch´ei pur sia, di giusta morte.</l>
+<l>Ma, vie più sempre di Messene agli occhi,</l>
+<l>donna, smentirti io voglio. Ei non t´è figlio;</l>
+<l>che il tuo tu stessa infra le fiamme hai visto</l>
+<l>perire; e udillo di tua bocca spesso</l>
+<l>Messene tutta: ognun qui meco estima</l>
+<l>di sì importante fatto e stolta e vana</l>
+<l>risibil prova, l´asserir d´un vecchio</l>
+<l>solo, ramingo, e da te compro: eppure,</l>
+<l>altre prove aspettandone, supporlo</l>
+<l>io tal vo´ intanto. — Olà, si sciolga. — Illeso</l>
+<l>il rendo a te: quindi piegarti io spero</l>
+<l part="I">alle da me proposte nozze...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Oh rabbia!</l>
+<l>del genitor, che trucidato m´hai,</l>
+<l>contaminar tu il talamo?... Su, fammi</l>
+<l part="I">tosto svenar; minor fia ´l danno...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Ah! figlio,</l>
+<l>non l´irritare omai. Chi sa, qual volge</l>
+<l part="I">crudo pensier?... Deh! Polifonte...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Adrasto,</l>
+<l>co´ più de´ tuoi quest´atrio sgombra; e sole</l>
+<l>restin le usate guardie. Il popol anco</l>
+<l>per or dia loco;... ei tornerà... — Mi udisti... —</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA IV</head>
+<stage>POLIFONTE, MEROPE, POLIDORO, EGISTO, <emph>guardie</emph></stage>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Che mai gli disse?... Io tremo... Oh cielo!</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Donna,</l>
+<l>costui salvar null´altro puote al mondo,</l>
+<l>che tu, col farti mia. S´anco in Messene</l>
+<l>suddito alcuno me rubello io conto,</l>
+<l>son nella reggia appien signore io solo.</l>
+<l>Del tuo figliuol la favola si avveri;</l>
+<l>spento ch´io l´abbia, ogni mio danno poscia</l>
+<l>rivivere nol fa. Brev´ora io lascio</l>
+<l>a´ tuoi pensieri. — Anzi che il sol tramonti,</l>
+<l>o qui, fra i Lari miei, dato hai di sposa</l>
+<l>a me la mano; o qui, su gli occhi tuoi,</l>
+<l part="I">ucciso io stesso avrò costui.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Deh!... m´odi...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Scegli. — Ti lascio. A posta vostra ordite</l>
+<l>vane menzogne; in mio poter vi ho tutti. —</l>
+<l>Guardie, qual di costoro uscir tentasse</l>
+<l>or della reggia, trucidato ei cada.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA V</head>
+<stage>MEROPE, POLIDORO, EGISTO, <emph>guardie nel fondo della scena</emph></stage>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Oh figlio amato!... unico figlio!... Appena</l>
+<l>credere il posso... E uccider io ti volli?</l>
+<l>Io?... Ma nel cor ben mi sentia possente</l>
+<l>un ritegno inspiegabile... Ma quali</l>
+<l>duri patti a me il rendono?... Che dico?</l>
+<l>dolce ogni patto, che il figliuol mi rende.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Misero me! Deh, quanto meglio egli era</l>
+<l>ch´io perissi bambino! O madre, or dove,</l>
+<l part="I">dove ti traggo!...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Odi, o regina: il vuole</l>
+<l>necessità fatale. Il fero colpo</l>
+<l>sospeso è solo or dalla speme iniqua,</l>
+<l>che nel tiranno entrò d´acquistar tempo,</l>
+<l>e non si accrescer l´odio. Ove ottenerti</l>
+<l>sposa ei pur possa, i suoi feroci patti</l>
+<l>ei ti atterrà per ora: ove tu il nieghi,</l>
+<l>come a più corto mezzo, al sangue ei torna.</l>
+<l>Or sì t´è d´uopo, or, se il fu mai, mostrarti</l>
+<l>madre, e non altro. Di te stessa orrendo</l>
+<l>sagrificio tu fai; ma il fai pel figlio...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Che non farei per lui? Qual dubbio?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ah madre!...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Ma, compiuto ch´ei sia, risorgon molte</l>
+<l>speranze allor. Finga il tiranno; io spero</l>
+<l>che il preverremo. I nostri amici antichi</l>
+<l>vivo appena sapran del loro Cresfonte</l>
+<l>l´ultimo figlio, che sottrarlo tosto</l>
+<l>s´ingegneran dal perfido tiranno.</l>
+<l>E se il vedran, che fia! Nulla lor manca,</l>
+<l part="I">che un capo...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Ed io ´l sarò.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Sì figlio... Ardisco</l>
+<l>nomarti ancora dell´usato nome...</l>
+<l>Tu capo a lor sarai: felice io sento</l>
+<l>presagio al core; poiché il ciel sottrarti</l>
+<l>del tiranno al feroce impeto primo</l>
+<l>dianzi volea. Ma intanto, egli è per ora</l>
+<l>forza il finger; tu, madre, al patto infame</l>
+<l>parer venirne di buon grado; il dei:</l>
+<l>tu, prode, umili modi assumer, tali</l>
+<l>da trargli, o almen nell´empio re far scema,</l>
+<l>la diffidenza alquanto; onde con l´armi</l>
+<l>sue sen trionfi: il dei, se i duri lacci</l>
+<l>dalla misera madre per te presi</l>
+<l part="I">romper ti cale.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ah!... d´obbedirti io giuro;</l>
+<l>ma, fin che inerme sto. Guai, se al mio sdegno</l>
+<l>occorre un ferro. Altro più allor non odo,</l>
+<l part="I">che il padre estinto, e il valor mio.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Deh! taci. —</l>
+<l>Donna, concedi, che in tuo nome io tosto</l>
+<l>vada al tiranno; arte è mestier con esso</l>
+<l>non poca, e indugio niuno. Io finger meglio</l>
+<l>saprò di te. Ch´io la tua man prometta,</l>
+<l>deh! mel concedi: in me ti affida; un qualche</l>
+<l>tempo otterrò, se il posso: ove ei persista</l>
+<l>in voler oggi l´empie nozze, io spero</l>
+<l>gran cose in breve dai Messeni. Intanto</l>
+<l>tu il valor troppo, e tu il grave odio ascondi.</l>
+<l>Tutto per te l´amor di madre io sento;</l>
+<l>ma inoltre n´ho di padre il senno, e lunga</l>
+<l part="I">esperienza: in me si creda.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Oh padre!...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Va´ dunque tosto, o mio fedel: disponi</l>
+<l>di me: col figlio io ritrarrommi un poco.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA VI</head>
+<stage>MEROPE, EGISTO</stage>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Ch´io d´abbracciarti almeno, e di baciarti</l>
+<l part="I">mi sazi!...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">O madre, a orribil costo il fai.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="atto">
+<head>ATTO V</head>
+<div2 type="scena">
+<head>SCENA I</head>
+<stage>POLIFONTE, <emph>soldati</emph></stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Cede Merope al fine. — Adrasto, vanne;</l>
+<l>sappia ognun le mie nozze; e or or, per quanto</l>
+<l>di questo regio limitar l´ampiezza</l>
+<l>il soffre, ingresso libero ai migliori</l>
+<l>de´ Messeni concedi. Avviso a un tempo</l>
+<l>fa´ che si rechi a Merope, ch´io, presto</l>
+<l>ad eseguire il suo voler, l´attendo.</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA II</head>
+<stage>POLIFONTE</stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Fortuna a me destra finor, comincia</l>
+<l>a mostrarmisi or dunque in torvo aspetto?</l>
+<l>E fia ver? quel Cresfonte, a mie sagaci</l>
+<l>lunghe ricerche ognor sfuggito, or, quando</l>
+<l>io men mi avviso, innanzi a me si para?</l>
+<l>E quando a morte giustamente io ´l traggo,</l>
+<l>un nodo inestricabile di casi,</l>
+<l>pietà mia stessa e malaccorta, e finta,</l>
+<l>a un tempo il danna, il manifesta, e il salva? —</l>
+<l>Ma, se con arte io cominciai, con arte</l>
+<l>proseguirò; fin che di forza il tempo</l>
+<l>torni. Messene mormora: mostrarmi</l>
+<l>tanto più a lei franco e securo io deggio.</l>
+<l>Merope viene alle abborrite nozze</l>
+<l>sol perch´è madre; e quindi aspetta forse</l>
+<l>la mia rovina poi... Ma, preverrolla.</l>
+<l>Sgradite a me son quanto a lei tai nozze:</l>
+<l>ma più vantaggio, e pria di lei, trarronne.</l>
+<l>Fra securtà di nuziali letti,</l>
+<l>di comun mensa, e di ospitale albergo,</l>
+<l>si apprestan mezzi, ad ogni istante mille,</l>
+<l>di compier ciò, ch´or trar non posso a fine,</l>
+<l>né lasciar poi, senza periglio, a mezzo. —</l>
+</sp>
+</div2>
+<div2 type="scena">
+<head>SCENA III</head>
+<stage>MEROPE, EGISTO, POLIDORO, POLIFONTE, <emph>soldati, popolo, sacerdoti, vittima</emph></stage>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>— Vieni, o regina; che il tuo prisco nome</l>
+<l>ti renda io primo. Al fin tu cedi: oh! lieto</l>
+<l>sia il giorno a noi! Da me festosa pompa,</l>
+<l>per quanto il soffre brevità di tempo,</l>
+<l>apprestata al solenne atto rimiri.</l>
+<l>E grandi, e plebe, e sacerdoti, e Numi,</l>
+<l>testimoni vogl´io, ch´ogni rancore</l>
+<l>spento è tra noi; restituito a ognuno</l>
+<l>suo prisco stato; e che sublime ammenda</l>
+<l>io fo in tal guisa d´ogni antico oltraggio.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>— Ma, quei che stanno a noi dintorno, udito</l>
+<l>forse han da te, che sono io madre ancora?</l>
+<l>E a qual prezzo la vita del mio figlio</l>
+<l part="I">mi vendi?...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Or dianzi, in nome tuo, costui</l>
+<l>altro parlommi. E che? già ti cangiasti? —</l>
+<l>Ma, se pur vuoi de´ tuoi pensieri a parte</l>
+<l>questo augusto consesso, io ´l vo´ de´ miei.</l>
+<l>Ragion di me render non temo. Or m´oda</l>
+<l>Messene dunque. — Io vincitor qui venni:</l>
+<l>io, col mio brando, a questo trono, ov´anco</l>
+<l>gli avi miei m´appellavano, mi seppi</l>
+<l>la via sgombrare. Al vincitor soggiacque</l>
+<l>il vostro re sconfitto. Io, troppo forse</l>
+<l>fero in quel punto, la innocente vita</l>
+<l>tor lasciava a´ suoi figli: atroce frutto,</l>
+<l>ma di vittoria usato frutto. Il regno</l>
+<l>presi, ed il tengo: ma, qual fossi io poscia</l>
+<l>duce, giudice, re, padre a voi tutti,</l>
+<l>voi tutti il dite. Entro mia reggia appieno</l>
+<l>stette Merope stessa indi secura;</l>
+<l>e (libertà sen tragga) anco vi stette</l>
+<l>sempre onorata, qual di re consorte.</l>
+<l>Eppur, ben io sapea, ch´ella un figliuolo</l>
+<l>in mio danno a vendetta empia serbava</l>
+<l>Ecco or colui, ch´ella suo figlio noma;</l>
+<l>eccolo: udite in quale aspetto ei viene.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Eccolo, sì: questi è d´Alcide il sangue,</l>
+<l>a tal ridotto... Ahi traditor! chi ´l trasse</l>
+<l part="I">a così infame stato?</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">O figlio, affrena</l>
+<l part="I">il tuo furor...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Certo, son io che il traggo</l>
+<l>qui in sembianza di perfido assassino;</l>
+<l>io d´innocente sangue l´empia destra</l>
+<l>lordar gli fea. Mirate alto campione,</l>
+<l>eroe novello! Egli è d´Alcide, al certo,</l>
+<l>degno germe costui, ch´or me venìa</l>
+<l>a trucidar di furto: e dotta intanto</l>
+<l>fea nel ferir la mal sua esperta mano,</l>
+<l>con altra infame uccisione: e stava</l>
+<l>travestito, in aguato generoso,</l>
+<l>l´ora aspettando ove al mio petto strada</l>
+<l>far si potesse. Ecco qual venne; e tale</l>
+<l>lo scopre a voi menzogna, od arte, o caso.</l>
+<l>Dovuta pena io dar poteagli; e il posso:</l>
+<l>ma brama troppa è in me di pace: ha chiesto</l>
+<l>Merope a me la vita sua; gliel dono;</l>
+<l>sol ch´ella omai la destra a me non nieghi,</l>
+<l>e al fin taccian fra noi così gli sdegni.</l>
+<l>Né basta ciò: s´egli è sua prole, io ´l voglio</l>
+<l>far del mio regno erede, poiché figli</l>
+<l>altri non ho. — Che far più deggio? — E tanto</l>
+<l>degg´io pur fare? — E voi, Messeni, or dianzi</l>
+<l>usi all´impero di guerrier canuto,</l>
+<l>signor vorreste un giovinetto imberbe,</l>
+<l>cresciuto oscuro, a sé medesmo ignoto;</l>
+<l>che nullo, o tristo saggio ha di sé dato;</l>
+<l>che ignaro appieno d´ogni pubblic´arte?...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Ignaro? io ´l son dell´arti tue; nol sono,</l>
+<l>no, dell´arti d´Alcide: e prova farne</l>
+<l part="I">saprei...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Deh! taci: a che innasprirlo? Il vedi;</l>
+<l>satelliti suoi son troppi: ogni uomo,</l>
+<l part="I">vedi, qui muto è dal terrore.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">— Il vostro</l>
+<l>tacer, Messeni, alto stupore acchiude</l>
+<l>di mia troppa dolcezza. Appien convinti</l>
+<l>havvi il mio dir, ben veggo: anzi, non saggio</l>
+<l>parvi il mio oprare, or che a costoro affido</l>
+<l>me stesso tutto; e di costoro il core</l>
+<l>noto esser demmi. È ver; ma, ad ogni costo</l>
+<l>alta far voglio e memoranda ammenda</l>
+<l>della vittoria mia. — Merope, omai</l>
+<l>da te soltanto io pendo: ebbi il tuo assenso</l>
+<l>pur dianzi già; ritormel forse or vuoi?</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>— L´universal silenzio orrendo annunzia</l>
+<l>chiaro pur troppo il mio destino. — Il figlio,</l>
+<l>col mio morir, dunque or si salvi: io ´l debbo. —</l>
+<l>O di Cresfonte inulta ombra dolente,</l>
+<l>perdona, deh! l´involontario oltraggio:</l>
+<l>per te fui madre; e pel tuo figlio io vengo</l>
+<l>alle nozze di morte. A fero passo</l>
+<l>mi traggi, o figlio... Ma, se in vita resti,</l>
+<l>assai son paga... E fia pur ver, che a forza?...</l>
+<l>O voi, già un dì, sudditi fidi al padre,</l>
+<l part="I">a tal ridotti or ci vedreste?</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Or via...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l>Deh! non sdegnarti: al mio parlar do fine</l>
+<l>in brevi detti. — Odi tu dunque, o figlio,</l>
+<l>gli ultimi miei consigli. Al vincitore</l>
+<l>piega tu omai la invan superba fronte:</l>
+<l>fuor che a servir, nulla insegnarti io posso.</l>
+<l>Soltanto omai, col prevenir sue voglie,</l>
+<l>coll´eseguirle tacito, col farti</l>
+<l>umil quanto più puoi, né mai del padre</l>
+<l>pur rammentando il nome; con quest´arti</l>
+<l>forse il suo cor tu svolgerai dal sangue.</l>
+<l>Chiusa per sempre la tua madre in tomba</l>
+<l>vedrai tra breve: in mente accogli intanto,</l>
+<l>duri a serbar, questi suoi detti estremi.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Misera madre!... Oh rio dolor!... Ma, trarre</l>
+<l>vogl´io tal vita, a sì gran costo? Ah! vita</l>
+<l>non m´è il servir. Tu vivi, o madre; e lascia</l>
+<l>che degno almen dell´alto padre io pera.</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l>Merope, omai questo indugiar soverchio</l>
+<l>m´irrìta. Il regno, e intera pace, e il figlio</l>
+<l>ti rendo a un tempo. A che quel pianto? Or, speri</l>
+<l>forse i miei ribellarmi? Appieno in loro</l>
+<l>securo io vivo: e ognun di lor ben vede,</l>
+<l>ch´io far per te, s´anco il volessi, or nulla</l>
+<l>di più potrei. — Su dunque; in alto penda</l>
+<l>sul collo al tauro la bipenne sacra.</l>
+<l>Ecco la destra mia; Merope, aspetto</l>
+<l>la tua, per cenno d´immolare ai Numi</l>
+<l part="I">la vittima.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">... Che fo?... Misera!... Oh giorno!...</l>
+<l>Oh terribil momento!... La mia destra</l>
+<l>dunque... Ma, oh vista! insanguinato, fero,</l>
+<l>minaccioso Cresfonte ecco interporsi!...</l>
+<l>Ahi!... dove fuggo?... Ove son io?... Pietade,</l>
+<l part="I">Messeni...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Oh rabbia! E soffrirò?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Deh! taci.</l>
+<l>Già già il tiranno l´efferato sguardo</l>
+<l part="I">su te...</l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Non più. Donna, una volta ancora</l>
+<l part="I">te l´offro: ecco mia destra.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Oh ciel!... La mia...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>Muori.<note resp="aut" place="foot" anchored="yes">Strappata di mano al sacerdote la scure, si avventa a Polifonte, e lo atterra d´un colpo.</note> La destra a te dovuta, è questa.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="I">Oh ardir!</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="M">Che veggio?</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="M">Muori.<note resp="aut" place="foot" anchored="yes">Raddoppia il colpo.</note></l>
+</sp>
+<sp><speaker><emph>Polifonte</emph></speaker>
+<l part="F">Oh tradimento!</l>
+<l part="I">Soldati... Io moro...</l>
+</sp>
+<sp><speaker><emph>SOLDATI</emph></speaker>
+<l part="F">È un traditor; si uccida.</l>
+</sp>
+<sp><speaker><emph>POPOLO</emph></speaker>
+<l part="I">Ah! no; si salvi; è il nostro re.<note resp="aut" place="foot" anchored="yes">Il popolo si azzuffa co´soldati.</note></l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Il mio figlio</l>
+<l part="I">egli è, vel giuro; è il vostro re...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Ben altra</l>
+<l>prova darovvi io stesso: e brandi, ed aste,</l>
+<l>sparir farà questa mia sola scure.<note resp="aut" place="foot" anchored="yes">Si slancia fra i combattenti.</note></l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Messeni, ah! difendetelo...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Respiro...</l>
+<l>Ecco già in rotta del fellon gli sgherri...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Deh! riedi, o figlio... Ahi lassa me!...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">Fra il sangue</l>
+<l>io il seguo: avessi il giovenil mio braccio!</l>
+<l>Ma, per lui pur morrò. — Deh! figlio, m´odi:</l>
+<l>riedi: sì addentro or non scagliarti; ah! lascia,</l>
+<l part="I">che per te mora io solo...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Al fin vincemmo</l>
+<l>Madre, ti allegra; in fuga intera andarne</l>
+<l>vedi gli empi soldati: Adrasto giace</l>
+<l>da me svenato; i cittadini in folla</l>
+<l part="I">crescon vie più...</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Messeni; egli è il mio figlio;</l>
+<l>Cresfonte egli è: nol ravvisate al volto,</l>
+<l>alla voce, agli sguardi, alle inaudite</l>
+<l>alte sue prove, ed al mio immenso amore?...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Ed al mio dir con giuramento? O voi,</l>
+<l>deh! vi scongiuro pel mio bianco crine,</l>
+<l>per gli a voi noti integri miei costumi,</l>
+<l>per la memoria di quel gran Cresfonte,</l>
+<l>padre a noi più che re; prestate intera</l>
+<l>fede al mio dire. Io lo sottrassi, io stesso;</l>
+<l part="I">io l´educai...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Messeni, a terra spento</l>
+<l>(vedetel voi?) qui Polifonte giace:</l>
+<l>io ´l trucidai; del padre, dei fratelli,</l>
+<l>della madre, di me, di voi vendetta</l>
+<l>compiuta a un tempo ebbi sol io: se reo</l>
+<l>perciò vi sembro, a voi soli mi arrendo. —</l>
+<l>Ecco; la scure che bastommi a tanto,</l>
+<l>a terra io scaglio: eccomi inerme appieno,</l>
+<l>e in man di voi: se ingiustamente il sangue</l>
+<l>io versai di costoro, il mio si versi.</l>
+</sp>
+<sp><speaker><emph>POPOLO</emph></speaker>
+<l>Oh generoso! Oh bello! È in tutto il padre.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="I">Cresfonte in lui rivive...</l>
+</sp>
+<sp><speaker><emph>POPOLO</emph></speaker>
+<l part="F">Oh lieta speme!</l>
+<l part="I">Re nostro vero...</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l part="F">E degno re. Ch´io primo</l>
+<l>prostrato ai piedi, alto a lui renda omaggio!</l>
+<l part="I">e meco tutti or vi atterrate.</l>
+</sp>
+<sp><speaker><emph>POPOLO</emph></speaker>
+<l part="F">Eterna</l>
+<l>fé ti giuriam noi tutti: al par che prode</l>
+<l>giusto sarai: mentir non può il tuo aspetto.</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l>D´esserlo giuro. Ma, s´io pur nol fossi,</l>
+<l>ch´io pur svenato, come costui, cada.</l>
+</sp>
+<sp><speaker><emph>Polidoro</emph></speaker>
+<l>Deh! che non muoio in questo dì! più lieto</l>
+<l part="I">mai non morrei.</l>
+</sp>
+<sp><speaker><emph>Merope</emph></speaker>
+<l part="F">Vieni al mio seno, o figlio...</l>
+<l>ma oimè!... mi sento... dalla troppa... gioia...</l>
+<l part="I">mancare...</l>
+</sp>
+<sp><speaker><emph>Egisto</emph></speaker>
+<l part="F">Oh madre!... Ella or vien meno quasi,</l>
+<l>per gli eccessivi affetti. Andiam; si tragga</l>
+<l>a più tranquilla stanza. — In breve io riedo,</l>
+<l>Messeni, a darvi di me conto intero. —</l>
+<l>Tu, mio buon padre, sieguimi: deh! m´abbi</l>
+<l>per figlio ognor, più che per re; ten prego.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

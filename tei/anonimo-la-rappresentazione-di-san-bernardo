@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>La rappresentazione di San Bernardo d'uno Signore facea rubare le strade</title>
+    </titleStmt>
+    <extent>33 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000883</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Nuovo corpus di sacre rappresentazioni fiorentine del Quattrocento edite e inedite tratte da manoscritti coevi o ricontrollate su di essi</title>
+        <editor id="ed">Newbigin, Nerida</editor>
+        <publisher>Commissione per i testi di lingua</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date>1983</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.2 - LETTERATURA DRAMMATICA ITALIANA.1375-1492</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-08-23T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marco Fucini e Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-09-17T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<castList>
+<head>Personaggi</head>
+<castItem><role>L'Angelo</role> <roleDesc rend="italic">che annuncia</roleDesc></castItem>
+<castItem><role>Il Signore</role></castItem>
+<castItem><role>Arrigaccio</role> <roleDesc rend="italic">capitano</roleDesc></castItem>
+<castItem><role>Fantaccio</role></castItem>
+<castItem><role>Altri Famigli del Signore</role></castItem>
+<castItem><role>Due Romei</role> <roleDesc rend="italic">che non parlano</roleDesc></castItem>
+<castItem><role>Due Mercatanti</role> <roleDesc rend="italic">che non parlano</roleDesc></castItem>
+<castItem><role>Quattro sonatori</role> <roleDesc rend="italic">che non parlano</roleDesc></castItem>
+<castItem><role>Il Mulattiere</role></castItem>
+<castItem><role>Il Cuciniere</role></castItem>
+<castItem><role>Falserone, il Demonio</role> <roleDesc rend="italic">in persona di un guattero</roleDesc></castItem>
+<castItem><role>San Bernardo</role></castItem>
+<castItem><role>La Vergine Maria</role></castItem>
+<castItem><role>Placito</role> <roleDesc rend="italic">monaco</roleDesc></castItem>
+<castItem><role>Maurizio</role> <roleDesc rend="italic">monaco</roleDesc></castItem>
+<castItem><role>Agabito</role> <roleDesc rend="italic">monaco</roleDesc></castItem>
+<castItem><role>Due Contadini</role></castItem>
+<castItem><role>Un Servo</role></castItem>
+</castList>
+</front>
+<body>
+<div1 n="La rappresentazione di San Bernardo">
+<stage rend="italic">Prima viene un Angelo e dice così:</stage>
+<sp>
+<speaker rend="sc">ANGELO</speaker>
+<lg>
+<l>Laude del Redentor della natura</l>
+<l>e della Madre santa immaculata,</l>
+<l>Vergine sopr'ogni altra umile e pura,</l>
+<l>e noi ubediam sua santa mandata</l>
+<l>avendo de' dimoni gran paura.</l>
+<l>Con lei andremo alla gloria beata</l>
+<l>gustando quel soave e dolce frutto,</l>
+<l>fuggendo del dimonio el suo costrutto.</l>
+</lg>
+<lg>
+<l>E però qualunque anima fervente</l>
+<l>sie a servire el sommo creatore</l>
+<l>Gesù Cristo, padre onnipotente,</l>
+<l>el qual cavò el primo padre d'errore</l>
+<l>(settemila anni era stato innocente,</l>
+<l>e mangiò 'l pan del suo propio sudore</l>
+<l>pel gran peccato che commesso avìa)</l>
+<l>ricomperollo Iddio: fu di Maria.</l>
+</lg>
+<lg>
+<l>No' vogliam far la rappresentazione</l>
+<l>siccome un gran Signor fece rubare</l>
+<l>in sulla strada tutte le persone,</l>
+<l>e come 'l diavol gli&lt;el&gt; facea fare,</l>
+<l>e come San Bernardo po' v'andone,</l>
+<l>e Nostra Donna ve 'l venne a mandare,</l>
+<l>e come gli cavò d'esser sì rio</l>
+<l>e convertigli tutti quanti a Dio.</l>
+</lg>
+<lg>
+<l>E però ognun di voi stia attento</l>
+<l>a veder questa rappresentazione,</l>
+<l>e consideri a quel gran&lt;de&gt; tormento</l>
+<l>del duro inferno pien d'afflizïone,</l>
+<l>e faccia sì che possa esser contento</l>
+<l>in &lt;sommo&gt; cielo con grande affezione,</l>
+<l>ed ognuno comprenda il detto mio.</l>
+<l>Or si cominci col nome di Dio.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene il Signore in sedia e dice così:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>O car fratelli, amici e compagni,</l>
+<l>venuti ad abitar le mie contrade,</l>
+<l>com'uom robusti, arditi, fieri e magni,</l>
+<l>con esercizi di lance e di spade,</l>
+<l>or sia la 'ndustria, co' nostri guadagni,</l>
+<l>sforzar, rubare e vivere alle strade;</l>
+<l>e vie più grato mi sarà colui</l>
+<l>che me' saprà far nostro dell'altrui.</l>
+</lg>
+</sp>
+<stage rend="italic">El Signore fa un Cavaliere, e dice così:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Vedete esser forte el mio paese</l>
+<l>da non dover temer niuna potenza,</l>
+<l>&lt;e&gt; del guadagno vi sarò cortese,</l>
+<l>sì che di ciò mai aren differenza</l>
+<l>C'ingegneren godere all'altrui spese,</l>
+<l>e tu, Arrigaccio, ch'hai bella presenza,</l>
+<l>torra' questo baston nella tuo mano,</l>
+<l>ch'i' ti fo sopr'agli altri capitano.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde Arrigaccio e dice:</stage>
+<sp>
+<speaker rend="sc">ARRIGACCIO</speaker>
+<lg>
+<l>Io ti ringrazio, caro mio Signore,</l>
+<l>e questo accetto, e voi, car mie' fratelli,</l>
+<l>priegovi mi seguiate di buon cuore</l>
+<l>con lance &lt;e spade e&gt; ronconi e coltelli,</l>
+<l>o ogni altr'arme, per far suo onore;</l>
+<l>e qui s'accetta sbanditi e rubelli,</l>
+<l>e tiriam via, sanza star più a bada,</l>
+<l>perché gli è tempo d'andare alla strada.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene Fantaccio con un prigione e dice al Signore:</stage>
+<sp>
+<speaker rend="sc">FANTACCIO</speaker>
+<lg>
+<l>Buona vita, Signore, i' son Fantaccio</l>
+<l>a te mandato con questo prigione</l>
+<l>che mi diè il capitan nostro Arrigaccio;</l>
+<l>ed hol&lt;lo&gt; ben trattato col bastone,</l>
+<l>pur m'ha pregato ch'io non gli dia 'mpaccio</l>
+<l>che mazzate ve&lt;r&gt;ran, con condizione</l>
+<l>che l'arà caro tutta la tuo corte.</l>
+<l>Ascolta or tu le sue parole accorte.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice el Prigione, ch'è mulattiere, così:</stage>
+<sp>
+<speaker rend="sc">MULATTIERE</speaker>
+<lg>
+<l>Car Signor mio, i' mi t'arraccomando</l>
+<l>che ciò ch'avanza a me in questo mondo</l>
+<l>son sei muli con che vettureggiando</l>
+<l>vo, come 'l puo' veder, che nol nascondo.</l>
+<l>Per questo tuo paese valicando</l>
+<l>son preso, con fier atto foribondo,</l>
+<l>toltomi e muli e la roba non mia,</l>
+<l>che gran ricchezza è 'n tal mercatanzia.</l>
+</lg>
+<lg>
+<l>Or quel ch'io al tuo capitano ho detto</l>
+<l>è che se 'l mio mi vuole salvare</l>
+<l>che una cosa da fare v'imprometto</l>
+<l>della qual vi potresti contentare,</l>
+<l>ché passar debba&lt;n&gt; per questo distretto,</l>
+<l>con some di ducati e gioie care,</l>
+<l>duo mercanti, che se vo' gli arete,</l>
+<l>per sempre ricchi chiamarvi potrete.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore e dice così:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Or non temer, prigion, che s'tu farai</l>
+<l>che questi due ci venghin nelle mani,</l>
+<l>non solo e tuo' se' muli tu riarai,</l>
+<l>ma vedra' ben che non saren villani,</l>
+<l>che se guadagnerem, guadagnerai;</l>
+<l>ma guarda pur che 'l vero ci dichiari.</l>
+<l>E voi, brigata, con pace ed amore</l>
+<l>menatel a mangiare con onore.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene un altro con dua Romei e dice:</stage>
+<sp>
+<speaker rend="sc">FAMIGLIO</speaker>
+<lg>
+<l>Signor, costoro alla strada ho trovati.</l>
+<l>Dicon che son romei ch'al perdon vanno.</l>
+<l>Hanno le tasche piene di ducati,</l>
+<l>vanno accattando, e vivon d'altrui affanno.</l>
+<l>E però te gli abbiamo appresentati</l>
+<l>che se t'inganneranno, abbiti 'l danno.</l>
+<l>Or la tuo volontà vogliamo udire,</l>
+<l>perché tu se' Signor da ubbidire.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore a uno Servo e dice così:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Cercate pur s'egli hanno altro nascosto,</l>
+<l>po' fate sì che possino ir leggeri,</l>
+<l>che 'l troppo peso gli fa ir men tosto.</l>
+<l>Fate trattargli come poltronieri,</l>
+<l>che vo' sapete com'io son disposto,</l>
+<l>che mai lor par non vidi volentieri,</l>
+<l>ma sempre gli guatai con vista guercia.</l>
+<l>Fate dar lor del lattovar di quercia.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene Arrigaccio e mena due mercatanti e dice:</stage>
+<sp>
+<speaker rend="sc">ARRIGACCIO</speaker>
+<lg>
+<l>Caro Signore, el nostro mulattiero</l>
+<l>&lt;ci&gt; ha, come ti promisse, ben serviti</l>
+<l>delle &lt;gran&gt; ricche gioie, e ditto 'l vero,</l>
+<l>di che son questi prigion me' guerniti.</l>
+<l>E' sì vuol far che ci aiuti el suo mestiero,</l>
+<l>ed alcun altro a farci ben c'inviti.</l>
+<l>Fa che con roba assai da te si spicchi,</l>
+<l>ch'egli è cagion che noi sian tutti ricchi.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore e dice così:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Rendetegli e suo' muli imprimamente,</l>
+<l>poi gli fate tal parte del tesoro</l>
+<l>che possa viver ricco eternamente,</l>
+<l>andare e star per nostro tenitoro,</l>
+<l>ch'ancor per altre volte ci arà a mente,</l>
+<l>e facendoci ben, pensiàn ristoro.</l>
+<l>Togliete or a costor quel che qui hanno:</l>
+<l>&lt;ed&gt; essi poi la taglia si porranno.</l>
+</lg>
+</sp>
+<stage rend="italic">Fantaccio viene con quattro Sonatori:</stage>
+<sp>
+<speaker rend="sc">FANTACCIO</speaker>
+<lg>
+<l>Send'io, Signore, alla strada fuori</l>
+<l>per quel&lt;lo&gt; che siamo usi di fare,</l>
+<l>mi riscontrai in questi sonatori</l>
+<l>de' quali i' non entendo lor parlare,</l>
+<l>ma qui Agnolino, che corse a' romori,</l>
+<l>dice che son Tedeschi al dimandare,</l>
+<l>che vengon d'Inghilterra, dov'è stata</l>
+<l>alcuna festa, a far lor guadagnata.</l>
+</lg>
+<lg>
+<l>Egli han danaro, gioie e vestimenti,</l>
+<l>sicch'egli aranno sonato per noi.</l>
+<l>E perch'io ho fatto lor certi tormenti</l>
+<l>perché ponghin&lt;o&gt; sù la roba poi,</l>
+<l>i' credo che saran più che contenti</l>
+<l>che la roba tutta rimanghi a noi.</l>
+<l>Partirsi in giuberello ben sfacciati</l>
+<l>con tua licenza saran licenziati.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore e dice così:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Deh compagnoni a me cotanto cari,</l>
+<l>per noi non fassi tanta villania!</l>
+<l>L'usanza antica si è che &lt;a&gt; lor pari</l>
+<l>i Signor fanno onore e cortesia</l>
+<l>Dunche de' mie vestiti e de' danari</l>
+<l>salvato il loro dispongo che sia,</l>
+<l>poi onorati gli lasciate andare,</l>
+<l>ma prima un poco fa&lt;te&gt;gli sonare.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene el Cuciniere col Guattero e dice:</stage>
+<sp>
+<speaker rend="sc">CUCINIERE</speaker>
+<lg>
+<l>Signor, quest'è un pover compagnone</l>
+<l>venutom'alle man del compagnante</l>
+<l>e più dì fa, dentro alla tuo magione</l>
+<l>tenuto l'ho, bisognandomi un fante.</l>
+<l>El nome &lt;suo&gt; chiamato è Falserone.</l>
+<l>Delle faccende, che in cucina ha tante,</l>
+<l>non ebbi mai ignun cotanto dotto</l>
+<l>né più intendente di qualunche cotto.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice il Guattero al Signore:</stage>
+<sp>
+<speaker rend="sc">FALSERONE</speaker>
+<lg>
+<l>Signor, i' son un uom malcapitato,</l>
+<l>ed è buon pezzo ch'io caddi in ruina,</l>
+<l>e nel palazzo tuo sendo arrivato</l>
+<l>mi missi col tuo maestro alla cucina.</l>
+<l>Io non chieggio salario se accettato</l>
+<l>poss'essere da sera e da mattina,</l>
+<l>perché Signor tu se', per quel ch'i' sento,</l>
+<l>ch'ancor ne spero un magno pagamento.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Maestro mio cucinier, costui mi piace.</l>
+<l>Va, tiello teco e fallo ben godere.</l>
+<l>E tu, o Falseron, va pure in pace,</l>
+<l>contenta pure el maestro cuciniere.</l>
+<l>Po' che 'l salario fra me e te tace,</l>
+<l>i' ti farò contento e non temere.</l>
+<l>I' veggo che d'aver l'amor mi prezzi</l>
+<l>più che danar, però fategli vezzi.</l>
+</lg>
+</sp>
+<stage rend="italic">Essendo quivi appresso uno monasterio dove abitava San Bernardo, la Nostra Donna gli apparve e dice:</stage>
+<sp>
+<speaker rend="sc">VERGINE MARIA</speaker>
+<lg>
+<l>Bernardo mio, dal mio Figliuolo amato</l>
+<l>se', e da me con somma maraviglia,</l>
+<l>e questo è solo perché hai meritato</l>
+<l>d'esser de' nostri, e di nostra famiglia,</l>
+<l>però dal buon Gesù ho 'l dimandato</l>
+<l>che sempre mai di ripari consiglia</l>
+<l>l'umana specie acciò che salva sia,</l>
+<l>e però intendi me, Madre Maria.</l>
+</lg>
+<lg>
+<l>Egli è in quella selva ove tu dimori,</l>
+<l>over là dove penitenza fai,</l>
+<l>un Signoretto che con molti errori</l>
+<l>vive nel mondo, e non se ne addiè mai.</l>
+<l>Però i' vo' che tu nulla dimori</l>
+<l>ed a quel Signor presto n'anderai,</l>
+<l>ed a lui conterai, umile e pio,</l>
+<l>la volontà della Madre di Dio.</l>
+</lg>
+<lg>
+<l>E dira'gli ch'egli ha per servidore</l>
+<l>un di color che fu del Ciel cacciato</l>
+<l>per sua superbia e per molesto errore.</l>
+<l>Già è molt'anni è tenuto legato.</l>
+<l>E digli ch'egli 'l tiene in uno errore,</l>
+<l>e fu di Paradiso sbandeggiato,</l>
+<l>né di falli giammai non fia satollo</l>
+<l>infin che gli farà fiaccare el collo.</l>
+</lg>
+<lg>
+<l>Appresso innarra a lui le voglie mie,</l>
+<l>e di' che molto tempo è già passato</l>
+<l>che 'l demon va per le sue follie,</l>
+<l>ma una sola cosa l'ha campato,</l>
+<l>e queste son le tre <title>Avemarie</title></l>
+<l>ch'ogni mattina, com'egli &lt;è&gt; levato,</l>
+<l>divoto dice in terra ginocchione,</l>
+<l>che son cagion della sua salvazione.</l>
+</lg>
+<lg>
+<l>Ancor gli narra suo misera vita</l>
+<l>e digli che non debbe sempre stare</l>
+<l>in questo mondo, ma che la partita</l>
+<l>presto sarà, e che non può mancare,</l>
+<l>e di' ch'a Paradiso Iddio lo 'nvita</l>
+<l>e che si penta se si vuol salvare.</l>
+<l>Quando che no, pel suo gran peccato</l>
+<l>sarà nel fuoco eterno condannato.</l>
+</lg>
+<lg>
+<l>Ed io ti presterò il mio santo aiuto</l>
+<l>che fa salvar ciascuna criatura.</l>
+<l>Come tu 'l vedi confesso e pentuto,</l>
+<l>gli parlerai con tua favella pura</l>
+<l>piacevolmente, com'egli è dovuta,</l>
+<l>e di nïente non aver paura.</l>
+<l>E lui e tutta la sua compagnia</l>
+<l>fa che ne meni teco alla badia.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo a Nostra Donna:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Serenissima stella, alma Maria,</l>
+<l>Madre del Redentor della natura,</l>
+<l>tu benedetta e ringraziata sia,</l>
+<l>Vergine sopr'ogni altra umile e pura,</l>
+<l>di fatto là sarà l'andata mia;</l>
+<l>e quanto la mia vita al mondo dura,</l>
+<l>di servir sempre a te 'l mio core aspetta,</l>
+<l>Madre di Dio, Vergine benedetta.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo a uno monaco:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Abbi, Placito, cura a' monacelli</l>
+<l>ched io ti lascio a guardia infin ch'i' torno,</l>
+<l>e trattera'gli come tuo' fratelli</l>
+<l>con tutta umanità la notte e 'l giorno;</l>
+<l>e voi gli state umìli come agnelli,</l>
+<l>ed ubbiditel sanz'alcun soggiorno</l>
+<l>la notte e 'l dì: così v'ho comandato,</l>
+<l>perché a voi in mie luogo l'ho &lt;la&gt;sciato.</l>
+</lg>
+</sp>
+<stage rend="italic">Placito monaco dice a San Bernardo:</stage>
+<sp>
+<speaker rend="sc">PLACITO</speaker>
+<lg>
+<l>Benigno padre &lt;mio&gt; e eccellente,</l>
+<l>quel che far posso farò da mio lato,</l>
+<l>e benchéd io non sia recipiente,</l>
+<l>el glorïoso Iddio m'arà âtato.</l>
+</lg>
+</sp>
+<stage rend="italic">San Bernardo parla:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Maurizio, Agabito, nïente</l>
+<l>non dimorate, ma presto inviato</l>
+<l>sia ciascun di voi meco a venire</l>
+<l>che vo' per gran bisogno altrove gire.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene Arrigaccio e ha preso due Contadini e dice:</stage>
+<sp>
+<speaker rend="sc">ARRIGACCIO</speaker>
+<lg>
+<l>Signore, egli è passato quattro mesi</l>
+<l>ch'io questi villan ricchi ho appostati.</l>
+<l>Nella lor villa e in casa lor gli ho presi,</l>
+<l>per loro a gran pericol siamo andati.</l>
+<l>Facciam che lor ricchezze sien palesi</l>
+<l>ché so son pinzi di danari ornati,</l>
+<l>e non mi voglion nulla confessare,</l>
+<l>sicché gli è buon di fargli tormentare.</l>
+</lg>
+</sp>
+<stage rend="italic">Dicon e Contadini al Signore:</stage>
+<sp>
+<speaker rend="sc">CONTADINI</speaker>
+<lg>
+<l>Signor, no' sian lavorator di terra</l>
+<l>come dimostran nostre man callose,</l>
+<l>e dì per dì viviamo, e però erra</l>
+<l>chi ci tien ricchi, o di danari o cose;</l>
+<l>né mai tra noi o voi fu rotto guerra,</l>
+<l>per che da queste gente furïose</l>
+<l>esser dovessin presi e maltrattati,</l>
+<l>che come asini ci hanno mazzicati.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice uno de' Contadini al Signore:</stage>
+<sp>
+<speaker rend="sc">CONTADINO</speaker>
+<lg>
+<l>I' ho nascosi cento fiorin d'oro</l>
+<l>presso allo stil che sostiene 'l pagliaio.</l>
+<l>Andate là, che sanza far dimoro</l>
+<l>vi troverete questo centenaio.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice l'altro Contadino:</stage>
+<sp>
+<speaker rend="sc">LTRO CONTADINO</speaker>
+<lg>
+<l>E io sessanta n'ho presso all'alloro</l>
+<l>sotterrati, ch'è presso a quel vivaio.</l>
+<l>Non più fune, per Dio, no' sian tapini,</l>
+<l>e sì vi diàn censessanta fiorini.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Tommi dinanzi costor, Arrigaccio,</l>
+<l>che debbono esser superbi pitoni.</l>
+<l>Governamegli mal sanza più impaccio.</l>
+<l>costoro vogliono altro che bastoni.</l>
+<l>Insegna lor a randellar del laccio</l>
+<l>coll'agli, e tra' lor &lt;i&gt; denti più buoni,</l>
+<l>con tutti que' martori che più vaglia</l>
+<l>da fargli presto e' porsi buona taglia.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene Fantaccio e dice al Signore:</stage>
+<sp>
+<speaker rend="sc">FANTACCIO</speaker>
+<lg>
+<l>O car nostro Signor, buone novelle!</l>
+<l>Arrigaccio ne vien con suo brigate</l>
+<l>e dice che già mai sotto le stelle</l>
+<l>e' non si fe' più ricche guadagnate</l>
+<l>di ricche g&lt;i&gt;oie dignissime e belle,</l>
+<l>del qual par che ti meni un magno abate,</l>
+<l>e dicono che val tanto tesoro</l>
+<l>che non val la metà del tenitoro.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene Arrigaccio con San Bernardo:</stage>
+<sp>
+<speaker rend="sc">ARRIGACCIO</speaker>
+<lg>
+<l>Signore, el venerabil sacerdote</l>
+<l>ch'è qui condotto nella tuo presenza,</l>
+<l>con astute parole e con divote</l>
+<l>ha fatto sì che già gli ho riverenza</l>
+<l>perché mi dice quel che far ti puote,</l>
+<l>e di suo facultà di gran valenza.</l>
+<l>Però, sanza parlar mio o d'altrui,</l>
+<l>intendi quel che dir e' ti vuol lui.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo al Signore:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Come disse Arrigaccio, i' son venuto,</l>
+<l>Signor, per farti ricco, s'tu vorrai,</l>
+<l>ma bisogna che da te sia creduto</l>
+<l>se non che se' al fine de' tuo' guai.</l>
+<l>Io per mia parte ti faccio avveduto,</l>
+<l>e so che gran tesor guadagnerai.</l>
+<l>Or fa intorno tutti i tuoi stare,</l>
+<l>acciò che vegga&lt;n&gt; quel ch'io vo' mostrare.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice el Signore a' compagni:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Compagni miei fedel, venite avanti</l>
+<l>a fare cerchio al Domine dintorno,</l>
+<l>che dice farci ricchi tutti quanti</l>
+<l>e che ma' non aremo il miglior giorno,</l>
+<l>ed io insiem con voi circunstanti,</l>
+<l>se questo sarà vero sanza scorno</l>
+<l>come del suo parlar e' ci ha credenza,</l>
+<l>gli porteremo tutti riverenza.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo al Signore:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Acciò che 'l mio parlar sanza bugie</l>
+<l>possa, Signor, tu e gli altri sentire,</l>
+<l>di quel&lt;lo&gt; ch'i' ti dico el ver mi dìe,</l>
+<l>ch'a parte a parte ti vo' avere a dire.</l>
+<l>Or di' se tu le tre <title>Avemarie</title></l>
+<l>ogni dì &lt;di'&gt;, sanza già mai fallire,</l>
+<l>alla Madre di Dio con divozione,</l>
+<l>che 'nfino a qui è la tuo salvazione.</l>
+</lg>
+<lg>
+<l>Perché t'avviso ch'una volta sola</l>
+<l>che di dire quelle mancate avessi,</l>
+<l>el rio Nimico, che l'anime imbola,</l>
+<l>nello inferno t'avea per tuo processi.</l>
+<l>E vienti sempre intorno alla gola,</l>
+<l>per darti tristi movimenti e spessi,</l>
+<l>ché non dicendo quelle, in suo artiglio</l>
+<l>sì t'arebbe, e sta teco per famiglio.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore a San Bernardo:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>O riverendo Padre, i' ti confesso</l>
+<l>le tre <title>Avemarie</title> sempre avere dette,</l>
+<l>ed ho gran maraviglia che sì spesso</l>
+<l>tu mi di' con parole sì corrette;</l>
+<l>che ma' non fu niun che quel che di' adesso</l>
+<l>dire me le sentisse già costette.</l>
+<l>Per vero il tuo parlare ho 'l testimonio,</l>
+<l>ma dimmi chi è 'l famiglio ch'è 'l dimonio.</l>
+</lg>
+<lg>
+<l>E per presto venire a sperïenza,</l>
+<l>fate venir tutta la mia famiglia,</l>
+<l>sicché si vegga qui retta in presenza</l>
+<l>colui che al mal fare si sottiglia.</l>
+<l>E voi, o Padre pien di riverenza,</l>
+<l>ne mosterrete tanta maraviglia,</l>
+<l>che se questo sarà sì manifesto,</l>
+<l>sì non arem tesor simile a questo.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Signore, questo maledetto astuto</l>
+<l>or al presente ci tiene a disagio,</l>
+<l>e fra costoro non è ancor venuto.</l>
+<l>Fanne cercar, ch'egli è molto malvagio,</l>
+<l>se vuoi vedere il miracol compiuto,</l>
+<l>ch'i' ti so dir ch'egli è in questo palagio,</l>
+<l>per che, sia chi si vuol, fallo venire,</l>
+<l>perch'egli è tale che ti sta a servire.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice Fantaccio al Signore:</stage>
+<sp>
+<speaker rend="sc">FANTACCIO</speaker>
+<lg>
+<l>Noi abbiàn tutto cercô e ricercato,</l>
+<l>fatto de' tua abbiamo un gran tram&lt;b&gt;aso,</l>
+<l>e insino a qui veruno ci è mancato.</l>
+<l>Il guattero del cuoco c'è rimaso</l>
+<l>che quindici anni è teco dimorato,</l>
+<l>e non è uom di simigliante caso.</l>
+<l>Però comanda quello abbiamo a fare,</l>
+<l>e se costui a te dobbiam menare.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Orsù orsù, ed anche costui venga,</l>
+<l>quantuche so ch'egli è buona criatura.</l>
+<l>Non vi curate che 'l fuoco si spenga.</l>
+<l>No' gli fate però troppa paura,</l>
+<l>acciò che del venir non si ritenga,</l>
+<l>ch'egli è persona assai timida e pura;</l>
+<l>e prestamente a lui andate</l>
+<l>e menatelo innanzi al santo Abate.</l>
+</lg>
+</sp>
+<stage rend="italic">Uno Servo dice al Signore:</stage>
+<sp>
+<speaker rend="sc">SERVO</speaker>
+<lg>
+<l>Signore, egli è sì vinto e mal vestito</l>
+<l>dalla paura, e quasi non può ire,</l>
+<l>e dice ch'egli è sì male guernito</l>
+<l>ch'a nessun modo dispon di venire.</l>
+<l>Egli è intento a vo&lt;l&gt;gere uno spito,</l>
+<l>e dice &lt;che&gt; se vuoi nulla sentire</l>
+<l>da lui, che gliel diciam, che niente costa</l>
+<l>sanza la suo presenza far risposta.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice el Signore a' Famigli:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>Menatemelo qui, non più parole,</l>
+<l>se altri non manca se non egli solo,</l>
+<l>che questa è cosa che trovar si vuole.</l>
+<l>Andate immantanente, dir «I' volo»,</l>
+<l>che tante volte dir far non si suole.</l>
+<l>Forse che è colui in cui è il dolo?</l>
+<l>E vedete pure troppo ch'è atteso,</l>
+<l>sforzatelo e menatel qui di peso.</l>
+</lg>
+</sp>
+<stage rend="italic">Viene el Guattero menato quasi per forza e dice al Signore così:</stage>
+<sp>
+<speaker rend="sc">FALSERONE</speaker>
+<lg>
+<l>Signor, questa brigata m'ha diserto,</l>
+<l>e vennono 'n cucina con furia tale,</l>
+<l>trovaron l'uscio quasi mezzo aperto,</l>
+<l>entroron drento, e fec&lt;i&gt;on ogni male.</l>
+<l>El fuoco m'hanno spento, e quest'è certo,</l>
+<l>versoronm'una pentola di sale,</l>
+<l>e rotte tante pentole e scodelle</l>
+<l>che la cucina è guasta sol di quelle.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo così:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Or dimmi, vecchio, che va' tu facendo?</l>
+<l>Palesar ti conviene or la cagione</l>
+<l>dell'ufficio qui ritto &lt;in piè&gt; essendo,</l>
+<l>e perché se' chiamato Falserone.</l>
+<l>&lt;Or&gt;sù, vieni al fatto, discoprendo</l>
+<l>la tua iniqua e ria intenzïone</l>
+<l>e quel che tanto tempo fatto hai,</l>
+<l>e chi tu se', e che cercando vai.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Guattero a San Bernardo:</stage>
+<sp>
+<speaker rend="sc">FALSERONE</speaker>
+<lg>
+<l>I' non so qual&lt;e&gt; sia sì poco accorto</l>
+<l>che non possa comprender di leggero,</l>
+<l>per essere unto, e &lt;i&gt; panni ch'io porto,</l>
+<l>com'io son fatto, e qual è el mio mestiero.</l>
+<l>Quindici anni sì può esser porto</l>
+<l>ch'i' fu' con questo maestro cuciniero</l>
+<l>col quale guadagnar molto credea</l>
+<l>sanza 'l salario, e so perch'io 'l facea.</l>
+</lg>
+<lg>
+<l>Né ha sì bel paese in questo mondo</l>
+<l>che quello, ahi lasso, dove fui creato.</l>
+<l>Ma le mie gente — il vero non nascondo —</l>
+<l>e quel Signor ch'è sì di buono stato</l>
+<l>contrafacemo a lui con grieve pondo.</l>
+<l>Omè miser tapino sventurato,</l>
+<l>che sempre poi sono ito mendicando,</l>
+<l>po' che io ebbi del paese bando!</l>
+</lg>
+<lg>
+<l>Non voler ch'i' rinnuovi le mie doglie,</l>
+<l>e non voler ch'i' dica ch'i' mi sia,</l>
+<l>però che sotto 'l ciel non si raccoglie</l>
+<l>nazion gentile quanto fu la mia.</l>
+<l>Vedi com'unto e sotto triste spoglie</l>
+<l>mi truovo! Omè, non mi dar ricadia!</l>
+<l>Se altro non vuoi da me, lasciam'andare,</l>
+<l>ch'i' non posso tener di lagrimare.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde San Bernardo:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>O Falseron, quel che tu di' è certo,</l>
+<l>e dello esilio tuo so la cagione,</l>
+<l>ma 'l vero che di' è tanto coperto</l>
+<l>che pochi intendon la tuo condizione,</l>
+<l>e però, con parole, chiaro e aperto,</l>
+<l>di' a costoro chi se', e la cag&lt;i&gt;one</l>
+<l>che qui dimori, e non ti far dir piue,</l>
+<l>e comandol per parte di Gesùe.</l>
+</lg>
+<lg>
+<l>E sì per parte della Madre santa,</l>
+<l>immaculata Vergine Maria,</l>
+<l>Donna del cielo, ove <title>Osanna</title> si canta,</l>
+<l>di' sù, di' sù, non voler ricadia,</l>
+<l>(la tuo malvagità è iniqua tanta,</l>
+<l>che del mal fare sempre ne desia)</l>
+<l>però che vuole la divin giustizia</l>
+<l>perché abbiam provata tuo malizia.</l>
+</lg>
+</sp>
+<stage rend="italic">El Guattero dice così:</stage>
+<sp>
+<speaker rend="sc">FALSERONE</speaker>
+<lg>
+<l>Oimè, cimè, &lt;oimè&gt;, di Paradiso</l>
+<l>cacciato fui dall'alto Re superno</l>
+<l>con qual lasciato fui, da Lui diviso,</l>
+<l>e vivo tribulando nello 'nferno.</l>
+<l>Lasso, fatto m'avea un mio avviso</l>
+<l>d'aver questo Signore in mio governo,</l>
+<l>credendo pure averlo in mia balìa.</l>
+<l>Or più non posso, po' che vuol Maria.</l>
+</lg>
+<lg>
+<l>Detto v'ho, dunque, omai di parte in parte</l>
+<l>ciò che tu m'hai, Bernardo, dimandato.</l>
+<l>Po' che più star non posso in questa parte,</l>
+<l>rimanga questo corpo sventurato.</l>
+<l>Rott'ho il timone e l'albero e le sarte,</l>
+<l>perdut'ho il tempo, e nulla ho guadagnato.</l>
+<l>Po' che Maria mi fa cotanta guerra,</l>
+<l>vommene, e lascio questo corpo in terra,</l>
+</lg>
+<lg>
+<l>che fu d'un peccator gran dissoluto</l>
+<l>di vizi, e si morì nel suo peccato</l>
+<l>sanz'esser de' suo' falli mai pentuto,</l>
+<l>per che allo 'nferno è stato condannato.</l>
+<l>Per questo il corpo suo ho posseduto,</l>
+<l>perch'altrimenti non ci sare' 'ntrato</l>
+<l>perché 'l corpo dell'anima salvata</l>
+<l>el dimon non vi può avere entrata.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde el Signore a San Bernardo:</stage>
+<sp>
+<speaker rend="sc">SIGNORE</speaker>
+<lg>
+<l>O Padre santo, <foreign lang="lat">miserere mei</foreign>,</l>
+<l>quest'è maggior tesor ch'i' non credea,</l>
+<l>né mai mi leverò da li tuoi piei</l>
+<l>ché la mia vita scellerata e rea</l>
+<l>fin qui è stata, ed ancor tutt'i miei.</l>
+<l>Convien che penitenza tu ci dea,</l>
+<l>ché in grazia di Dio tu ci conservi,</l>
+<l>e tutti ci ti diam figliuoli e servi.</l>
+</lg>
+<lg>
+<l>Infino a qui, stato e signoria</l>
+<l>tutto rinunzio, sprezzando rifiuto.</l>
+<l>Tuo monaco esser voglio in tua badia,</l>
+<l>e dal volere tuo non mai mi muto,</l>
+<l>e così tutta la mia compagnia</l>
+<l>ti raccomando del tuo santo aiuto</l>
+<l>che in grazia di Dio esser ci faccia,</l>
+<l>e rimettianci tutti in le tuo braccia.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice San Bernardo a tutti:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Acciò che Dio in sua grazia v'accetti,</l>
+<l>il pregherò per voi, e vo' 'l pregate</l>
+<l>che vi perdoni i passati difetti,</l>
+<l>contento ch'a badia tutti veniate,</l>
+<l>e sopra tutti gli alti mie precetti</l>
+<l>e' vo' che sempre far mi promettiate,</l>
+<l>e non lasc&lt;i&gt;ate, vivente, 'gnun die</l>
+<l>di dir le sante tre <title>Avemarie</title>.</l>
+</lg>
+</sp>
+<stage rend="italic">&lt;Ar&gt;rigaccio dice a San Bernardo:</stage>
+<sp>
+<speaker rend="sc">ARRIGACCIO</speaker>
+<lg>
+<l>O santo Abate, in questo tristo impaccio</l>
+<l>son io molt'anni stato inviluppato,</l>
+<l>e son per nom chiamato Arrigaccio,</l>
+<l>ed ho romei e pellegrin rubato,</l>
+<l>che 'l cor n'ho 'n corpo freddo più ch'un ghiaccio,</l>
+<l>che più d'un centinaio n'ho già svenato,</l>
+<l>della qual cosa mi lamento e pento,</l>
+<l>e voglio esser de' tuoi di buon talento.</l>
+</lg>
+<lg>
+<l>E così tutta questa compagnia</l>
+<l>diliberati siam a Dio servire</l>
+<l>e la suo Madre Vergine Maria,</l>
+<l>e così vogliàn vivere e morire.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde San Bernardo:</stage>
+<sp>
+<speaker rend="sc">SAN BERNARDO</speaker>
+<lg>
+<l>Ognun di voi il benvenuto sia,</l>
+<l>ond'io v'avviso che chi vuol fuggire</l>
+<l>dal peccato, le 'mprese sue diserte:</l>
+<l>Gesù l'aspetta colle braccia aperte.</l>
+</lg>
+</sp>
+<stage rend="italic">Dice Maurizio a tutti e Compagni e al Signore:</stage>
+<sp>
+<speaker rend="sc">MAURIZIO</speaker>
+<lg>
+<l>Signori stati a pericol sì gravi,</l>
+<l>venite a' piè della Madre di grazia,</l>
+<l>alla qual Gabrïel cominciò Ave</l>
+<l>per far l'umana specie di ben sazia,</l>
+<l>e la qual fia la santissima nave</l>
+<l>ch'al porto di salute e con audazia</l>
+<l>ci condurrà, perch'ell'è stella e segno</l>
+<l>la cui chi segue acquista 'l Santo Regno.</l>
+</lg>
+<lg>
+<l>E tutti con costui conversati</l>
+<l>ora ridotti nella via perfetta,</l>
+<l>e da gran mali al ben già rivocati,</l>
+<l>per la piatà di questa benedetta</l>
+<l>a rimissione de' vostri peccati</l>
+<l>con santa affezïon degna e accetta,</l>
+<l>e con intenzïon santa e divina,</l>
+<l>direte meco la Salve regina.</l>
+</lg>
+<lg>
+<l>E perché 'l fine della storia fia</l>
+<l>con ordine divoto e ben perfetto,</l>
+<l>dinanzi dalla Vergine Maria,</l>
+<l>con cuor ripien di gaudio e di diletto,</l>
+<l>a reverenza della Madre pia</l>
+<l>a questi giovinetti con effetto,</l>
+<l>stando a udir divoti tutti quanti,</l>
+<l><title lang="lat">Te Deum laudam</title> per ultimo si canti.</l>
+</lg>
+</sp>
+</div1>
+<div1>
+<head>Explicit</head>
+<p lang="grc">telos</p>
+<p rend="italic">Ora tutti quelli c'hanno fatto questa rappresentazione ominciono a cantare <title lang="lat">Te deum laudamus</title> ed è finita.</p>
+</div1>
+</body>
+</text>
+</TEI.2>

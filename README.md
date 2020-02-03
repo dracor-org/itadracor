@@ -1,0 +1,2 @@
+# itadracor
+Italian Drama Corpus

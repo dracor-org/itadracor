@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Opere</title>
           <author>Guarini, Battista</author>
-          <editor id="ed">Guglielminetti, Marziano</editor>
+          <editor xml:id="ed">Guglielminetti, Marziano</editor>
           <publisher>Unione tipografico-editrice torinese</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1971</date>
@@ -54,7 +53,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -64,53 +63,27 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-01-14T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Valeriano Fiori</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2004-02-09T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-01-14T00:00:00.000+02:00</date><name>Valeriano Fiori</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-02-09T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
       <prologue>
         <head>PROLOGO DELL'AUTORE</head>
-        <p>Io son andato meco medesimo, nobilissimi spettatori, molte volte considerando da qual cagione sia proceduto che la commedia greca e latina, siccome quelle che trassero da nobilissimo nascimento la prima origine loro, quanto più crebbero e nell'età s'avanzarono, a tanto maggior grado di riputazione e di finezza salissero, e deposta la loro antica scurrilità e sordidezza, a guisa di serpente che lasci la vecchia scorza, e più gravi e più costumate e più nobili diventassero; laddove, per il contrario, quella dei nostri tempi, la quale (s'io non erro) co 'l secolo passato nacque ad un parto e, sulla stampa delle migliori antiche formata, si può dire che 'l principio e la perfezione dal divino Ariosto in un medesimo tempo avesse, tuttoché, dopo sì gran maestro, non sieno poscia mancati di buoni ingegni che, le vestigia di lui seguendo e secondo le sane regole poetando, si sieno con molta lode loro ingegnati di sostenerla, di abbellirla e alla primiera maestà sua, quanto è stato possibile, ricondurla, nulla di meno la sperienza dimostra che quanto maggior progresso ha ella fatto negli anni, in tanto minore stima è sempre poscia caduta; siccome quella a cui, per esser mancato quel nutrimento che ricever dal pubblico o dalla man del principe già soleva, è stata indegnamente costretta non solo a mendicare quando da questo e <add resp="ed">quando</add> da quel cortese spirito il vitto, ma, quello ch'è molto più miserabile, a divenire ancor vagabonda e pubblica meretrice, dandosi in preda per vilissimo prezzo a tal sorte d'uomini, che, facendone mercanzia, or qua or là portandola, in mille guise l'hanno avvilita; in modo che, dove ella soleva essere modestissima e, quanto lece a donna costumata, piacevole, oggi, senza arte, senza legge e senza decoro, piena sol di sconcerti e di sfrenata licenza, non è lascivia di sorte alcuna che di farne spettacolo <add resp="ed">non</add> si vergogni. Che più? Vestita da giocolare, non sa far altro che ridere; ed èssi inebriata sì fattamente di riso che ridicola è divenuta, ma, chi dritto la mira, lacrimevole. Or quale di cotesta miseria sia la cagione e di cui la colpa stimar si debbia, o di color che compongono o di color che ascoltano le commedie, siccome a me non tocca darne sentenza, essendo qui venuto per far il prologo e non il giudice, così mi pare di poter dir senza scrupolo che, se le sceniche viste son fatte perché si veggano, è molto ragionevole che quali sono i teatri, tali sieno ancora le scene; conciosiaché i poeti s'ingegnino per lo più d'andare, meglio che possono, secondando il vario gusto degli ascoltanti, che le medesime rivoluzioni patisce anch'egli, alle quali, per l'ordinario, le mondane cose soggiacciono. A questo dunque sì ragionevole e importante rispetto, che ha la scena co 'l teatro, gli accademici nostri il dovuto riguardo avendo, siccome quelli che altro oggetto e desiderio non hanno che di piacervi, né altro frutto delle fatiche loro che la grazia vostra procurano, avendo deliberato di trattenervi quest'anno ancora con qualche cosa non indegna affatto di voi, e fra sé stessi considerando la grandezza, il sapere, la nobiltà di coloro che empiono questo teatro (tanti giovani d'elevatissimo ingegno, tanti senatori d'altissimo intendimento, tanti padri di maestà veneranda, tante donne che sono di virtù niente meno che di bellezza meravigliose: nella città di Vinegia, miracolo delle genti, sostegno e gloria d'Italia, in questo unico nido di libertà, in questo del saggiamente reggere e giustamente regnare ammirabile e raro esempio), si sono con gran ragione guardati da non vi porre innanzi una qualche opera dozzinale, un guazzabuglio di cose sordide e vane, una filza di scene mal regolate, un filo senza nervo, che invece di far nodo si rompa, una vivanda o discipita o troppo salata, che verun altro artificio che 'l riso dissoluto e plebeo non abbia, né conosca, né voglia: sì fatta cosa non è cibo de' vostri ingegni; ma una favola ben tessuta e meglio ordinata, fornita di buon costume, di buon decoro, fondata sulla base del verisimile, che 'l sale per condimento adoperi, non per cibo, che annodi con artificio e sciolga con maraviglia, ricca di molti fatti e di non pensati accidenti, e sopra tutto d'una sì varia mutazione e sì subita di fortuna, che 'l bene al male e la speranza al timore vicendevolmente succeda, per modo che 'l poco dianzi felicissimo riputato imantinente divenga misero, e quello stesso misero, quand'era più disperato, si vegga sorgere un'altra volta e felicissimo divenire. Questi sono di voi, e della vostra vista e della vostra presenza e de' vostri pellegrini e rari intelletti, degni spettacoli. Se poi di tutte le annoverate e tanto lodevoli e sì pregiate condizioni la nostra <title>Idropica</title> (che tale è il nome della commedia) dotata sia, sì come nostra cura è stata di procurarlo, così sarà la vostra di farne retto giudizio. Né vi curiate di sapere l'autore: bastivi che sia vostro più che l'opera non è sua; e bastivi che altre volte, e in altro tono e per altro soggetto, l'avete su questi pulpiti udito e anche, la vostra buona mercé, lodato. Ma s'egli allotta vi condusse in Levante, ora voi non avete a varcar né mari né monti. Mirate con quale agevolezza, al calar d'una tenda, nella città di Padova v'ha condotti. Riconoscete la città vostra tanto celebre e tanto chiara: quelle, che colà sorgono, son le torri del Santo, famoso per tutto 'l mondo; e quella, che d'altra parte si scuopre, è la Sala mirabile del Palagio. Io giurerei che alcun di voi la propria casa v'addita. Par che vogliate dire: “E che fa ella poscia cotesta <title>Idropica</title>?”; e voi donne massimamente, che di saper i fatti delle altre donne siete sì curiose. Ma perdonatemi: io non vi posso far l'argomento, perché non basto solo a tanta fatica, né il tempo mi servirebbe. Il farlovi alla sfuggita non sarebbe con gusto né mio né vostro: ché, a dirne il vero, non è questo mestiere da strapazzare. Coloro, che dopo me verranno, ve l'anderanno essi facendo comodamente; ed è già tempo ch'essi comincino e ch'io dia luogo. Ma prima di due cose, nobilissimi ascoltatori, vo' supplicarvi: l'una che vi piaccia di gradire con lieto viso e con benigno animo le fatiche degli accademici nostri, anzi pur vostri e devotissimi servitori, che altro non bramano che di servire ai vostri comodi, ai vostri gusti; e voi, bellissime donne, quando la presente commedia cara non vi fosse per altro, sì vi de' ella esser per questo, che il poeta nostro, parziale del vostro sesso, non si è curato, per esaltarvi, di commetter nell'arte comica un gran peccato, rappresentando cosa lontana tanto dal verisimile, che par quasi miracolosa: cioè donne costantissime nell'amare, che per miniere d'oro la loro invitta fede non venderebbono. L'altra è che vogliate prestarci grato silenzio, il quale, ancora che vi si chieggia per grazia, voi nondimeno il dovete dar per giustizia: che se quando la cortina ci separava, ciascun di voi, con ogni libertà discorrendo, favellando e ridendo, ha fatta la sua commedia, e noi tacendo non ve l'abbiamo impedita, è ben dovere che altresì voi, tacendo, ci lasciate fornir la nostra. E 'l dico principalmente a voi, donne, che per natura tacete mal volentieri. Ma se volete sentir diletto del nostro buon lavorio, state chete e lasciateci far a noi; e Dio vi contenti.</p>
+        <p>Io son andato meco medesimo, nobilissimi spettatori, molte volte considerando da qual cagione sia proceduto che la commedia greca e latina, siccome quelle che trassero da nobilissimo nascimento la prima origine loro, quanto più crebbero e nell'età s'avanzarono, a tanto maggior grado di riputazione e di finezza salissero, e deposta la loro antica scurrilità e sordidezza, a guisa di serpente che lasci la vecchia scorza, e più gravi e più costumate e più nobili diventassero; laddove, per il contrario, quella dei nostri tempi, la quale (s'io non erro) co 'l secolo passato nacque ad un parto e, sulla stampa delle migliori antiche formata, si può dire che 'l principio e la perfezione dal divino Ariosto in un medesimo tempo avesse, tuttoché, dopo sì gran maestro, non sieno poscia mancati di buoni ingegni che, le vestigia di lui seguendo e secondo le sane regole poetando, si sieno con molta lode loro ingegnati di sostenerla, di abbellirla e alla primiera maestà sua, quanto è stato possibile, ricondurla, nulla di meno la sperienza dimostra che quanto maggior progresso ha ella fatto negli anni, in tanto minore stima è sempre poscia caduta; siccome quella a cui, per esser mancato quel nutrimento che ricever dal pubblico o dalla man del principe già soleva, è stata indegnamente costretta non solo a mendicare quando da questo e <add resp="#ed">quando</add> da quel cortese spirito il vitto, ma, quello ch'è molto più miserabile, a divenire ancor vagabonda e pubblica meretrice, dandosi in preda per vilissimo prezzo a tal sorte d'uomini, che, facendone mercanzia, or qua or là portandola, in mille guise l'hanno avvilita; in modo che, dove ella soleva essere modestissima e, quanto lece a donna costumata, piacevole, oggi, senza arte, senza legge e senza decoro, piena sol di sconcerti e di sfrenata licenza, non è lascivia di sorte alcuna che di farne spettacolo <add resp="#ed">non</add> si vergogni. Che più? Vestita da giocolare, non sa far altro che ridere; ed èssi inebriata sì fattamente di riso che ridicola è divenuta, ma, chi dritto la mira, lacrimevole. Or quale di cotesta miseria sia la cagione e di cui la colpa stimar si debbia, o di color che compongono o di color che ascoltano le commedie, siccome a me non tocca darne sentenza, essendo qui venuto per far il prologo e non il giudice, così mi pare di poter dir senza scrupolo che, se le sceniche viste son fatte perché si veggano, è molto ragionevole che quali sono i teatri, tali sieno ancora le scene; conciosiaché i poeti s'ingegnino per lo più d'andare, meglio che possono, secondando il vario gusto degli ascoltanti, che le medesime rivoluzioni patisce anch'egli, alle quali, per l'ordinario, le mondane cose soggiacciono. A questo dunque sì ragionevole e importante rispetto, che ha la scena co 'l teatro, gli accademici nostri il dovuto riguardo avendo, siccome quelli che altro oggetto e desiderio non hanno che di piacervi, né altro frutto delle fatiche loro che la grazia vostra procurano, avendo deliberato di trattenervi quest'anno ancora con qualche cosa non indegna affatto di voi, e fra sé stessi considerando la grandezza, il sapere, la nobiltà di coloro che empiono questo teatro (tanti giovani d'elevatissimo ingegno, tanti senatori d'altissimo intendimento, tanti padri di maestà veneranda, tante donne che sono di virtù niente meno che di bellezza meravigliose: nella città di Vinegia, miracolo delle genti, sostegno e gloria d'Italia, in questo unico nido di libertà, in questo del saggiamente reggere e giustamente regnare ammirabile e raro esempio), si sono con gran ragione guardati da non vi porre innanzi una qualche opera dozzinale, un guazzabuglio di cose sordide e vane, una filza di scene mal regolate, un filo senza nervo, che invece di far nodo si rompa, una vivanda o discipita o troppo salata, che verun altro artificio che 'l riso dissoluto e plebeo non abbia, né conosca, né voglia: sì fatta cosa non è cibo de' vostri ingegni; ma una favola ben tessuta e meglio ordinata, fornita di buon costume, di buon decoro, fondata sulla base del verisimile, che 'l sale per condimento adoperi, non per cibo, che annodi con artificio e sciolga con maraviglia, ricca di molti fatti e di non pensati accidenti, e sopra tutto d'una sì varia mutazione e sì subita di fortuna, che 'l bene al male e la speranza al timore vicendevolmente succeda, per modo che 'l poco dianzi felicissimo riputato imantinente divenga misero, e quello stesso misero, quand'era più disperato, si vegga sorgere un'altra volta e felicissimo divenire. Questi sono di voi, e della vostra vista e della vostra presenza e de' vostri pellegrini e rari intelletti, degni spettacoli. Se poi di tutte le annoverate e tanto lodevoli e sì pregiate condizioni la nostra <title>Idropica</title> (che tale è il nome della commedia) dotata sia, sì come nostra cura è stata di procurarlo, così sarà la vostra di farne retto giudizio. Né vi curiate di sapere l'autore: bastivi che sia vostro più che l'opera non è sua; e bastivi che altre volte, e in altro tono e per altro soggetto, l'avete su questi pulpiti udito e anche, la vostra buona mercé, lodato. Ma s'egli allotta vi condusse in Levante, ora voi non avete a varcar né mari né monti. Mirate con quale agevolezza, al calar d'una tenda, nella città di Padova v'ha condotti. Riconoscete la città vostra tanto celebre e tanto chiara: quelle, che colà sorgono, son le torri del Santo, famoso per tutto 'l mondo; e quella, che d'altra parte si scuopre, è la Sala mirabile del Palagio. Io giurerei che alcun di voi la propria casa v'addita. Par che vogliate dire: “E che fa ella poscia cotesta <title>Idropica</title>?”; e voi donne massimamente, che di saper i fatti delle altre donne siete sì curiose. Ma perdonatemi: io non vi posso far l'argomento, perché non basto solo a tanta fatica, né il tempo mi servirebbe. Il farlovi alla sfuggita non sarebbe con gusto né mio né vostro: ché, a dirne il vero, non è questo mestiere da strapazzare. Coloro, che dopo me verranno, ve l'anderanno essi facendo comodamente; ed è già tempo ch'essi comincino e ch'io dia luogo. Ma prima di due cose, nobilissimi ascoltatori, vo' supplicarvi: l'una che vi piaccia di gradire con lieto viso e con benigno animo le fatiche degli accademici nostri, anzi pur vostri e devotissimi servitori, che altro non bramano che di servire ai vostri comodi, ai vostri gusti; e voi, bellissime donne, quando la presente commedia cara non vi fosse per altro, sì vi de' ella esser per questo, che il poeta nostro, parziale del vostro sesso, non si è curato, per esaltarvi, di commetter nell'arte comica un gran peccato, rappresentando cosa lontana tanto dal verisimile, che par quasi miracolosa: cioè donne costantissime nell'amare, che per miniere d'oro la loro invitta fede non venderebbono. L'altra è che vogliate prestarci grato silenzio, il quale, ancora che vi si chieggia per grazia, voi nondimeno il dovete dar per giustizia: che se quando la cortina ci separava, ciascun di voi, con ogni libertà discorrendo, favellando e ridendo, ha fatta la sua commedia, e noi tacendo non ve l'abbiamo impedita, è ben dovere che altresì voi, tacendo, ci lasciate fornir la nostra. E 'l dico principalmente a voi, donne, che per natura tacete mal volentieri. Ma se volete sentir diletto del nostro buon lavorio, state chete e lasciateci far a noi; e Dio vi contenti.</p>
       </prologue>
       <castList>
         <head>PERSONE DELLA FAVOLA</head>
@@ -441,7 +414,7 @@
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
-            <p>Dio voglia che non sia a quello dell'Asino! Ditemi un poco: non è egli, questo dottore, quel forastiero sì profumato che fa il <foreign lang="lat">coram vobis</foreign>, il cortegiano, il poeta, l'innamorato, che stava le ore intere in camera con madonna?</p>
+            <p>Dio voglia che non sia a quello dell'Asino! Ditemi un poco: non è egli, questo dottore, quel forastiero sì profumato che fa il <foreign xml:lang="lat">coram vobis</foreign>, il cortegiano, il poeta, l'innamorato, che stava le ore intere in camera con madonna?</p>
           </sp>
           <sp>
             <speaker>NICA.</speaker>
@@ -477,7 +450,7 @@
           <stage>ZENOBIO, GRILLO</stage>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Sta bene. Oh <foreign lang="lat">admirabile</foreign>!</p>
+            <p>Sta bene. Oh <foreign xml:lang="lat">admirabile</foreign>!</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -485,7 +458,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Che Petrarca? <quote lang="lat">Lenta salix quantum pallenti cedit olivae</quote>.</p>
+            <p>Che Petrarca? <quote xml:lang="lat">Lenta salix quantum pallenti cedit olivae</quote>.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -525,7 +498,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>So che tu fai del grande, io, Grillo, e non ti lasci più vedere, come solevi prima ch'entrassi in casa di quella buona femmina d'Epidauro. <foreign lang="lat">Proficiat</foreign>, i grilli s'imbucano volentieri, eh?</p>
+            <p>So che tu fai del grande, io, Grillo, e non ti lasci più vedere, come solevi prima ch'entrassi in casa di quella buona femmina d'Epidauro. <foreign xml:lang="lat">Proficiat</foreign>, i grilli s'imbucano volentieri, eh?</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -533,7 +506,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Tu solus advena</foreign>? Non sai dunque ch'i' ho la mia libertà vendicata e, quinci non molto lunge, aperto ancora un pubblico gimnasio, anzi pure una socratica stoa, a tutti i giovanetti della città?</p>
+            <p><foreign xml:lang="lat">Tu solus advena</foreign>? Non sai dunque ch'i' ho la mia libertà vendicata e, quinci non molto lunge, aperto ancora un pubblico gimnasio, anzi pure una socratica stoa, a tutti i giovanetti della città?</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -589,7 +562,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Per amica silentia noctis</foreign>. Sta cheto, che è di Virgilio. Ve' quanto importa il sapere! Tacita, per la notte ch'è tacita, intendi tu?</p>
+            <p><foreign xml:lang="lat">Per amica silentia noctis</foreign>. Sta cheto, che è di Virgilio. Ve' quanto importa il sapere! Tacita, per la notte ch'è tacita, intendi tu?</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -597,7 +570,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Bona verba, quaeso</foreign>. A un par mio?</p>
+            <p><foreign xml:lang="lat">Bona verba, quaeso</foreign>. A un par mio?</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -621,7 +594,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Ma <foreign lang="lat">aedepol paenitebit</foreign>: tardi s'accorgerà d'aver perduto un tal uomo. Pochi Zenobi son oggi al mondo, credilo a me. Io fui discepolo di quel famoso Fidenzio, gimnasiarca dell'universo. Per tutto poi, dove ho dato opera all'auree umane lettere, ho lasciato memoria del nome mio; e più d'altrove nell'inclita città di Venezia, dove apersi i tesori della mia grande erudizione. Oh che disciplinata gioventù! Oh che morigerati discepoli! più dei socratici pazienti e più de' pitagorici taciturni. Di quella gentil città non mi sarei partito giammai, se l'amor di Gostanza non mi avesse tirato in qua.</p>
+            <p>Ma <foreign xml:lang="lat">aedepol paenitebit</foreign>: tardi s'accorgerà d'aver perduto un tal uomo. Pochi Zenobi son oggi al mondo, credilo a me. Io fui discepolo di quel famoso Fidenzio, gimnasiarca dell'universo. Per tutto poi, dove ho dato opera all'auree umane lettere, ho lasciato memoria del nome mio; e più d'altrove nell'inclita città di Venezia, dove apersi i tesori della mia grande erudizione. Oh che disciplinata gioventù! Oh che morigerati discepoli! più dei socratici pazienti e più de' pitagorici taciturni. Di quella gentil città non mi sarei partito giammai, se l'amor di Gostanza non mi avesse tirato in qua.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -629,7 +602,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Heu me</foreign>!</p>
+            <p><foreign xml:lang="lat">Heu me</foreign>!</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -637,7 +610,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>La figliuola di Lurco: il quale, per mio maggior lenocinio (<foreign lang="lat">Dij boni</foreign>), è venuto a stare in questa contrada. Guata, Grillo, di grazia, s'ella fosse al balcone.</p>
+            <p>La figliuola di Lurco: il quale, per mio maggior lenocinio (<foreign xml:lang="lat">Dij boni</foreign>), è venuto a stare in questa contrada. Guata, Grillo, di grazia, s'ella fosse al balcone.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -645,7 +618,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>O cara <foreign lang="lat">animula</foreign>!</p>
+            <p>O cara <foreign xml:lang="lat">animula</foreign>!</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -661,7 +634,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Caro Grillo, per amor di costei, la cui <foreign lang="lat">plusquam humana</foreign> e, posso dir, metafisica pulchritudine è sola degna della mia penna, ho pur ora fatto un sonetto che non ha pari. Odilo, Grillo, per vita tua.</p>
+            <p>Caro Grillo, per amor di costei, la cui <foreign xml:lang="lat">plusquam humana</foreign> e, posso dir, metafisica pulchritudine è sola degna della mia penna, ho pur ora fatto un sonetto che non ha pari. Odilo, Grillo, per vita tua.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -677,7 +650,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Tu l'hai detto; con questo mezzo cerca d'immortalarsi, perciocché questo, ch'io ti vo' far sentìre, è il quingentesimo sonetto ch'i' ho fatto in sua lode. Non v'è mai giunto il Petrarca, ve'. E che sonetti! <foreign lang="lat">Dij boni</foreign>, tutti hanno la coda; senza la quale non è sonetto che vaglia.</p>
+            <p>Tu l'hai detto; con questo mezzo cerca d'immortalarsi, perciocché questo, ch'io ti vo' far sentìre, è il quingentesimo sonetto ch'i' ho fatto in sua lode. Non v'è mai giunto il Petrarca, ve'. E che sonetti! <foreign xml:lang="lat">Dij boni</foreign>, tutti hanno la coda; senza la quale non è sonetto che vaglia.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -685,7 +658,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Come bestie? Ah ah ah. <quote lang="lat">Dij immortales! Homini homo quid praestat? Stulto intelligens quid interest?</quote> Un sonetto chiami una bestia. Ah, ah.</p>
+            <p>Come bestie? Ah ah ah. <quote xml:lang="lat">Dij immortales! Homini homo quid praestat? Stulto intelligens quid interest?</quote> Un sonetto chiami una bestia. Ah, ah.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -693,7 +666,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>La coda <foreign lang="lat">metaphorice</foreign>. Ah, ah, ah, tu non intendi questi misteri, Grillo. Quando io dico la coda, io dico perfezione, acciocché tu sappi.</p>
+            <p>La coda <foreign xml:lang="lat">metaphorice</foreign>. Ah, ah, ah, tu non intendi questi misteri, Grillo. Quando io dico la coda, io dico perfezione, acciocché tu sappi.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -733,11 +706,11 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Ah ah ah. Tu se' pur tondo. Dico che tu raziocini: se la coda è l'ultima parte, l'ultima il fine, e 'l fine la perfezione, <foreign lang="lat">ergo</foreign>?</p>
+            <p>Ah ah ah. Tu se' pur tondo. Dico che tu raziocini: se la coda è l'ultima parte, l'ultima il fine, e 'l fine la perfezione, <foreign xml:lang="lat">ergo</foreign>?</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
-            <p><foreign lang="lat">ergo</foreign> siate voi; che vuol dir <foreign lang="lat">ergo</foreign>?</p>
+            <p><foreign xml:lang="lat">ergo</foreign> siate voi; che vuol dir <foreign xml:lang="lat">ergo</foreign>?</p>
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
@@ -2378,7 +2351,7 @@
           </sp>
           <sp>
             <speaker>MOSCHETTA.</speaker>
-            <p>Puuu, <foreign lang="lat">in cimbalis</foreign>. Oh padrone, la lista che testè raccoglieste, ch'io la porti a quel cipriotto.</p>
+            <p>Puuu, <foreign xml:lang="lat">in cimbalis</foreign>. Oh padrone, la lista che testè raccoglieste, ch'io la porti a quel cipriotto.</p>
           </sp>
           <sp>
             <speaker>PISTOFILO.</speaker>
@@ -3245,7 +3218,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Se questa è quanta nuova mi sai tu dare, <foreign lang="lat">frustra</foreign> t'ho ritrovato.</p>
+            <p>Se questa è quanta nuova mi sai tu dare, <foreign xml:lang="lat">frustra</foreign> t'ho ritrovato.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -3309,7 +3282,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><quote lang="lat">Varium et mutabile semper femina</quote>. E questa è la buona nuova che tu mi dai, eh?</p>
+            <p><quote xml:lang="lat">Varium et mutabile semper femina</quote>. E questa è la buona nuova che tu mi dai, eh?</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -3365,7 +3338,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Ohimè, che hai tu fatto, Grillo, che hai tu fatto? <foreign lang="lat">Perii, perii</foreign>; prostituta è la mia dignità.</p>
+            <p>Ohimè, che hai tu fatto, Grillo, che hai tu fatto? <foreign xml:lang="lat">Perii, perii</foreign>; prostituta è la mia dignità.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -3373,7 +3346,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Grillo, a dirti il vero, non vo' più di queste tue buone nuove. Io son chiaro: come, dugento ducati? <foreign lang="lat">Non emo tanti poenitere</foreign> no, no; <foreign lang="lat">nequaquam minime</foreign>, messer no.</p>
+            <p>Grillo, a dirti il vero, non vo' più di queste tue buone nuove. Io son chiaro: come, dugento ducati? <foreign xml:lang="lat">Non emo tanti poenitere</foreign> no, no; <foreign xml:lang="lat">nequaquam minime</foreign>, messer no.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -3405,7 +3378,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Oh, oh, io direi che tu fossi valentuomo <foreign lang="lat">terque quaterque</foreign>.</p>
+            <p>Oh, oh, io direi che tu fossi valentuomo <foreign xml:lang="lat">terque quaterque</foreign>.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -3445,7 +3418,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Optume</foreign>! E so dove avere ogni cosa: da un burattino, che sta nella medesima casa dove sto io. Tu porta il resto, sai, Grillo.</p>
+            <p><foreign xml:lang="lat">Optume</foreign>! E so dove avere ogni cosa: da un burattino, che sta nella medesima casa dove sto io. Tu porta il resto, sai, Grillo.</p>
           </sp>
           <sp>
             <speaker>GRILLO.</speaker>
@@ -3705,7 +3678,7 @@
           </sp>
           <sp>
             <speaker>FLAVIO.</speaker>
-            <p>Perché non sono filosafi, signor no; e non hanno penetrato nelle viscere della potente natura, come ho fatt'io. Dice il grande Ippocarso, nel terzo dei <emph>Raffianismi</emph> questa bella sentenza: “<foreign lang="lat">Quod sapor nurat</foreign>”.</p>
+            <p>Perché non sono filosafi, signor no; e non hanno penetrato nelle viscere della potente natura, come ho fatt'io. Dice il grande Ippocarso, nel terzo dei <emph>Raffianismi</emph> questa bella sentenza: “<foreign xml:lang="lat">Quod sapor nurat</foreign>”.</p>
           </sp>
           <sp>
             <speaker>PATRIZIO.</speaker>
@@ -3713,7 +3686,7 @@
           </sp>
           <sp>
             <speaker>FLAVIO.</speaker>
-            <p>Parla, signore sì; e vuol dire che quello che le sa buono, le gusta; e che 'l buono non è cattivo. <foreign lang="lat">Videlicet</foreign>, che, s'ella gusta del dolce, il dolce concedere le si de'.</p>
+            <p>Parla, signore sì; e vuol dire che quello che le sa buono, le gusta; e che 'l buono non è cattivo. <foreign xml:lang="lat">Videlicet</foreign>, che, s'ella gusta del dolce, il dolce concedere le si de'.</p>
           </sp>
           <sp>
             <speaker>PATRIZIO.</speaker>
@@ -3781,7 +3754,7 @@
           <stage>ZENOBIO travestito</stage>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>L'inesplebile desiderio ch'è in me, di trovarmi con la mia dolce Gostanza, mi fa ora sì impaziente che, secondo l'ordine del mio Grillo, non ho potuto più lungamente aspettare, temendo non qualche impedimento si fraponga, come si dice, <quote lang="lat">inter os et offam</quote>. E poi non vedea l'ora di levarmi di scuola, essendo travestito di questo modo; però che dice Nasone: “<quote lang="lat">Non bene conveniunt, nec in una sede morantur, maiestas et amor</quote>”. Talché, avendo nella catedra magistrale deposta la mia toga virile, quanto prima sono uscito di casa, tanto più ch'io portava pericolo d'esser veduto d'alcuno de' miei scolari: i quali ancora ch'io abbia licenziati, ne resta però sempre alcuno qui d'intorno, per bisogno che hanno essi di me e io di loro. Deh, Grillo mio, perché vai tu cotanto procrastinando? Saresti tu mai pentito di farmi questo servigio? O tu, Gostanza, avresti forse sotto qualche altra forma fatto venire a te Pistofilo? Ah traditora, tu mi hai pur ingannato! Ma sarai tu ora, <foreign lang="lat">me Hercule</foreign>, la ingannata: ché, credendo di ricevere il tuo Pistofilo, riceverai Zenobio, che sotto questi candidi panni, quasi novello Giove sotto le piume d'un bianchissimo cigno, sen vien a te, sua Leda. Augurio da te non già meritato, poiché, per un levissimo ragazzotto, lasci colui che altro dì e notte non pensa che di farti co' suoi versi immortale. Intanto a te mi volgo, o Dea de' teneri amori: se de' pur meritar il suo premio l'avere già tante volte con versi elegantissimi la tua deità celebrata e con dottissima elucubrazione, nel mio famoso suggesto, condotto fuor del troiano incendio e delle pugne latine il tuo grande Enea, vieni, benigno nume, e per le fiamme amorose siemi tu ancora previa. Scendi tu ne' miei lombi, e questo tuo tirone all'insueta palestra rendi così robusto, che possa avere plenissima vittoria della spergiura e rubellante nemica sua. Ch'io ti prometto, <quote lang="lat">o hominum Divumque voluptas</quote>, di consecrarti una votiva tabella di cento venustissimi endecasillabi. Né ti sdegnare, o Diva, che per l'addietro io t'abbia disprezzata e la tua dolce cura postabita, abusando l'ignito stimolo del tuo figlio, il quale non ebbe mai potere di penetrare ne' miei precordi; perché fu sempre instituto de' più eccellenti e chiari professori della tanto oggidì celebrata Ciclopedia di sempre postergare le tue lascivie.</p>
+            <p>L'inesplebile desiderio ch'è in me, di trovarmi con la mia dolce Gostanza, mi fa ora sì impaziente che, secondo l'ordine del mio Grillo, non ho potuto più lungamente aspettare, temendo non qualche impedimento si fraponga, come si dice, <quote xml:lang="lat">inter os et offam</quote>. E poi non vedea l'ora di levarmi di scuola, essendo travestito di questo modo; però che dice Nasone: “<quote xml:lang="lat">Non bene conveniunt, nec in una sede morantur, maiestas et amor</quote>”. Talché, avendo nella catedra magistrale deposta la mia toga virile, quanto prima sono uscito di casa, tanto più ch'io portava pericolo d'esser veduto d'alcuno de' miei scolari: i quali ancora ch'io abbia licenziati, ne resta però sempre alcuno qui d'intorno, per bisogno che hanno essi di me e io di loro. Deh, Grillo mio, perché vai tu cotanto procrastinando? Saresti tu mai pentito di farmi questo servigio? O tu, Gostanza, avresti forse sotto qualche altra forma fatto venire a te Pistofilo? Ah traditora, tu mi hai pur ingannato! Ma sarai tu ora, <foreign xml:lang="lat">me Hercule</foreign>, la ingannata: ché, credendo di ricevere il tuo Pistofilo, riceverai Zenobio, che sotto questi candidi panni, quasi novello Giove sotto le piume d'un bianchissimo cigno, sen vien a te, sua Leda. Augurio da te non già meritato, poiché, per un levissimo ragazzotto, lasci colui che altro dì e notte non pensa che di farti co' suoi versi immortale. Intanto a te mi volgo, o Dea de' teneri amori: se de' pur meritar il suo premio l'avere già tante volte con versi elegantissimi la tua deità celebrata e con dottissima elucubrazione, nel mio famoso suggesto, condotto fuor del troiano incendio e delle pugne latine il tuo grande Enea, vieni, benigno nume, e per le fiamme amorose siemi tu ancora previa. Scendi tu ne' miei lombi, e questo tuo tirone all'insueta palestra rendi così robusto, che possa avere plenissima vittoria della spergiura e rubellante nemica sua. Ch'io ti prometto, <quote xml:lang="lat">o hominum Divumque voluptas</quote>, di consecrarti una votiva tabella di cento venustissimi endecasillabi. Né ti sdegnare, o Diva, che per l'addietro io t'abbia disprezzata e la tua dolce cura postabita, abusando l'ignito stimolo del tuo figlio, il quale non ebbe mai potere di penetrare ne' miei precordi; perché fu sempre instituto de' più eccellenti e chiari professori della tanto oggidì celebrata Ciclopedia di sempre postergare le tue lascivie.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -3881,7 +3854,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">I prae, sequar</foreign>: che essendo in questi panni, non ho ora a tenere il mio grado, e però va pur innanzi.</p>
+            <p><foreign xml:lang="lat">I prae, sequar</foreign>: che essendo in questi panni, non ho ora a tenere il mio grado, e però va pur innanzi.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -4352,7 +4325,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Oh infelice Tantalo; oh <foreign lang="lat">cornu sine copia</foreign>! oh <foreign lang="lat">copia sine cornu</foreign>! </p>
+            <p>Oh infelice Tantalo; oh <foreign xml:lang="lat">cornu sine copia</foreign>! oh <foreign xml:lang="lat">copia sine cornu</foreign>! </p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4360,7 +4333,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>O Lurco, <foreign lang="lat">vox faucibus haeret</foreign>. </p>
+            <p>O Lurco, <foreign xml:lang="lat">vox faucibus haeret</foreign>. </p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4376,7 +4349,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>(<foreign lang="lat">Deus bene vertat</foreign>). Sono quelle medesime ch'io ti diedi testé, addio.</p>
+            <p>(<foreign xml:lang="lat">Deus bene vertat</foreign>). Sono quelle medesime ch'io ti diedi testé, addio.</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4392,7 +4365,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>(<foreign lang="lat">Perii</foreign>). Come ottone? È quell'oro medesimo che testé ti mostrai: riconoscilo al moccichino, sì certo.</p>
+            <p>(<foreign xml:lang="lat">Perii</foreign>). Come ottone? È quell'oro medesimo che testé ti mostrai: riconoscilo al moccichino, sì certo.</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4400,7 +4373,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>(<foreign lang="lat">Salva res est</foreign>). Per Giove, ch'Edipo sei, non Lurco.</p>
+            <p>(<foreign xml:lang="lat">Salva res est</foreign>). Per Giove, ch'Edipo sei, non Lurco.</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4440,7 +4413,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Ehu, ehu</foreign>.</p>
+            <p><foreign xml:lang="lat">Ehu, ehu</foreign>.</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4456,7 +4429,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Nec mihi, nec tibi</foreign>. </p>
+            <p><foreign xml:lang="lat">Nec mihi, nec tibi</foreign>. </p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4480,7 +4453,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>A un par mio, Lurco? <foreign lang="lat">Ah scelus indignum</foreign>!</p>
+            <p>A un par mio, Lurco? <foreign xml:lang="lat">Ah scelus indignum</foreign>!</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4488,7 +4461,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Ah Lurco, <foreign lang="lat">miserere, miserere</foreign>, che sono stato ingannato anch'io.</p>
+            <p>Ah Lurco, <foreign xml:lang="lat">miserere, miserere</foreign>, che sono stato ingannato anch'io.</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -4556,7 +4529,7 @@
           </sp>
           <sp>
             <speaker>BERNARDO.</speaker>
-            <p>Abbracciola poi, e le chiedo com'ella sta, ed essa appena che mi risponda, e sì confusamente ancora che non la 'ntesi. Pareva che non sapesse formar parola. Io torno a domandarla: <add resp="ed">se</add> si è pur ancora sposata, e perché è così sola e di malavoglia, e dove è Nica; ed ella ad ogni cosa mi risponde sì freddamente, che ho potuto a gran fatica trarne cosa di certo. Quanto mi meraviglio che Nica sia fuor di casa! Dalla quale, senza alcun dubbio, avrei potuto rinvenir di ciò la certezza. Tu va, Radicchio, alla dogana, e libera le robe.</p>
+            <p>Abbracciola poi, e le chiedo com'ella sta, ed essa appena che mi risponda, e sì confusamente ancora che non la 'ntesi. Pareva che non sapesse formar parola. Io torno a domandarla: <add resp="#ed">se</add> si è pur ancora sposata, e perché è così sola e di malavoglia, e dove è Nica; ed ella ad ogni cosa mi risponde sì freddamente, che ho potuto a gran fatica trarne cosa di certo. Quanto mi meraviglio che Nica sia fuor di casa! Dalla quale, senza alcun dubbio, avrei potuto rinvenir di ciò la certezza. Tu va, Radicchio, alla dogana, e libera le robe.</p>
           </sp>
           <sp>
             <speaker>RADICCHIO.</speaker>
@@ -5371,7 +5344,7 @@
           </sp>
           <sp>
             <speaker>NOTAIO.</speaker>
-            <p>Ora essendo venuto il tempo d'aprir questo testamento, per l'autorità concedutami dalla testatrice e dall'età della giovane, della quale ho fede appresso di me, io l'apro ad istanza qui di Lurco, crede in parte, com'ella disse, della suddetta Maddalena sua moglie. <foreign lang="lat">Invocato prius Altissimi nomine</foreign>. Perciocché, <foreign lang="lat">humanum est peccare, diabolicum perseverare, angelicum emendare...</foreign> Strano principio di testamento.</p>
+            <p>Ora essendo venuto il tempo d'aprir questo testamento, per l'autorità concedutami dalla testatrice e dall'età della giovane, della quale ho fede appresso di me, io l'apro ad istanza qui di Lurco, crede in parte, com'ella disse, della suddetta Maddalena sua moglie. <foreign xml:lang="lat">Invocato prius Altissimi nomine</foreign>. Perciocché, <foreign xml:lang="lat">humanum est peccare, diabolicum perseverare, angelicum emendare...</foreign> Strano principio di testamento.</p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -6123,11 +6096,11 @@
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
-            <p>Signori, <foreign lang="lat">ecce</foreign>.</p>
+            <p>Signori, <foreign xml:lang="lat">ecce</foreign>.</p>
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Non vi maravigliate, gentiluomini, di vedere un par mio in questi panni: perciocché <quote lang="lat">omnia vincit Amor</quote>. Ricordatevi che una femmina fece filare quel domator de' mostri terribile.</p>
+            <p>Non vi maravigliate, gentiluomini, di vedere un par mio in questi panni: perciocché <quote xml:lang="lat">omnia vincit Amor</quote>. Ricordatevi che una femmina fece filare quel domator de' mostri terribile.</p>
           </sp>
           <sp>
             <speaker>BERNARDO.</speaker>
@@ -6143,7 +6116,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>O <foreign lang="lat">manus vere aurea, quam ego reverenter et merito te deosculor! Tibi vero, undequaque praestantissime vir patritie, ex patritia vere genite gente, quamquam ingenioli mei vires...</foreign></p>
+            <p>O <foreign xml:lang="lat">manus vere aurea, quam ego reverenter et merito te deosculor! Tibi vero, undequaque praestantissime vir patritie, ex patritia vere genite gente, quamquam ingenioli mei vires...</foreign></p>
           </sp>
           <sp>
             <speaker>BERNARDO.</speaker>
@@ -6151,7 +6124,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p><foreign lang="lat">Quamquam</foreign> (dico) <foreign lang="lat">ingenioli mei vires...</foreign></p>
+            <p><foreign xml:lang="lat">Quamquam</foreign> (dico) <foreign xml:lang="lat">ingenioli mei vires...</foreign></p>
           </sp>
           <sp>
             <speaker>PATRIZIO.</speaker>
@@ -6159,7 +6132,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Deh, signore, lasciatemi fare il debito mio. <foreign lang="lat">Quamquam ingenioli mei vires...</foreign></p>
+            <p>Deh, signore, lasciatemi fare il debito mio. <foreign xml:lang="lat">Quamquam ingenioli mei vires...</foreign></p>
           </sp>
           <sp>
             <speaker>LURCO.</speaker>
@@ -6183,7 +6156,7 @@
           </sp>
           <sp>
             <speaker>ZENOBIO.</speaker>
-            <p>Poiché così vi piace, farollo elegantissimo. <foreign lang="lat">Valete</foreign>.</p>
+            <p>Poiché così vi piace, farollo elegantissimo. <foreign xml:lang="lat">Valete</foreign>.</p>
           </sp>
           <sp>
             <speaker>PATRIZIO.</speaker>
@@ -6209,4 +6182,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

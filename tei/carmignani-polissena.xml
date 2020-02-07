@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +52,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -63,49 +62,21 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="codice">Italiano</language>
-        <language id="lat">Latino</language>
-        <language id="fre">Francese</language>
+        <language ident="codice">Italiano</language>
+        <language ident="lat">Latino</language>
+        <language ident="fre">Francese</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2000-02-28T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Patricia Frosini</name>
-          <name>CIBIT - Pisa</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>2000-02-28T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Patricia Frosini</name>
-          <name>CIBIT-Pisa</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-01-30T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML</item>
-      </change>
-      <change>
-        <date>2003-03-11T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2000-02-28T00:00:00.000+02:00</date><name>Patricia Frosini</name><name>CIBIT - Pisa</name>Digitalizzazione</change>
+      <change><date>2000-02-28T00:00:00.000+02:00</date><name>Patricia Frosini</name><name>CIBIT-Pisa</name>Correzione linguistica</change>
+      <change><date>2003-01-30T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Codifica XML</change>
+      <change><date>2003-03-11T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -115,7 +86,7 @@
         <head>ALL'AMICIZIA </head>
         <lg>
           <l>
-            <foreign lang="lat"><emph>O et praesidium , et
+            <foreign xml:lang="lat"><emph>O et praesidium , et
 	 dulce</emph> decus <emph>meus!
 	 <abbr>Hor.</abbr> <abbr>Od.</abbr>
 	 <num>I</num> <abbr>Lib.</abbr> <num>I</num></emph></foreign>
@@ -205,7 +176,7 @@ che per essere scioccamente amoroso
 di una, di cui egli deve certo conoscere
 il cuore inclinato ad amare altri,
 e ne adduca una ragione</emph>
-<foreign lang="lat">L'amour rend tout permis;
+<foreign xml:lang="lat">L'amour rend tout permis;
 Un venerable amant ne connoit point damis
 </foreign><emph>Gl'</emph> amori <emph>d'un vecchio Generale assassinato
 vilmente da un rival furibondo;
@@ -290,7 +261,7 @@ celebri Scrittori.
 A fronte di questo io devo produrmi
 al gran giorno, e all'aria di pedanteria,
 con cui mi presento si può dedurre
-quale possa essere il mio coraggio.</emph> <foreign lang="lat">Spes
+quale possa essere il mio coraggio.</emph> <foreign xml:lang="lat">Spes
 est animi nostra timore minor. </foreign><emph>La Tragedia,
 che io offro agl'occhi del Pubblico
 è stata da me composta nell'età</emph> precisamente,
@@ -316,7 +287,7 @@ che se stesso; e il proprio sentimento
 vuol dirlo con libertà, e senza ritegno
 nessuno. Egli non conosce in una produzione,
 che il merito, o il demerito di
-essa, e ben disse l'ingegnoso</emph> <foreign lang="fre">Boileau
+essa, e ben disse l'ingegnoso</emph> <foreign xml:lang="fre">Boileau
 Un Auteur a genoux dans une
 humble Préface
 Au Lecteur, qu'il ennuye a beau
@@ -381,7 +352,7 @@ Non è a questa sorte di Critici,
 che io presento la mia Tragedia,
 ma bensì ai Lettori illuminati, imparziali,
 e sinceri, poiché </emph></p>
-        <lg lang="fre">
+        <lg xml:lang="fre">
           <l>Les Muses filles du Ciel</l>
           <l>Sont des Soeurs sans jalousie </l>
           <l>Elles vivent d'ambrosie, </l>
@@ -577,7 +548,7 @@ estinte le faci in lontano</stage>
           </sp>
           <sp>
             <speaker>PIRRO</speaker>
-            <l> Infallibile dunque esser tu credi <note><foreign lang="lat"><emph>Cet organe des Dieux est il donc infallible? Un ministére saint les attache aux autels: Ils approchement des Dieux, mais ils sont des mortels</emph>. <abbr>Oedip.</abbr> Tra<abbr>g.</abbr> </foreign></note></l>
+            <l> Infallibile dunque esser tu credi <note><foreign xml:lang="lat"><emph>Cet organe des Dieux est il donc infallible? Un ministére saint les attache aux autels: Ils approchement des Dieux, mais ils sont des mortels</emph>. <abbr>Oedip.</abbr> Tra<abbr>g.</abbr> </foreign></note></l>
             <l>Quest'organo del Cielo? Un sacro rito </l>
             <l>È ver lo stringe all'Are, e il fa simile </l>
             <l>Quasi agli Dei, ma egl'è mortale alfine. </l>
@@ -667,7 +638,7 @@ estinte le faci in lontano</stage>
             <l>Al desìo di vendetta, incendio, e morte </l>
             <l>Portai dovunque, e il fulmine di Giove </l>
             <l>Brillar parea sulla fatal mia detra. </l>
-            <l>Giunto alla Reggia, ove più vivo, e spesso <note><foreign lang="lat"><emph>Protinus ad sedes Priami … </emph>. <abbr>Virg.</abbr><abbr>En.</abbr><num>II</num>. </foreign></note></l>
+            <l>Giunto alla Reggia, ove più vivo, e spesso <note><foreign xml:lang="lat"><emph>Protinus ad sedes Priami … </emph>. <abbr>Virg.</abbr><abbr>En.</abbr><num>II</num>. </foreign></note></l>
             <l>Crescea l'assalto, io di mia mano infranta </l>
             <l>Con bipenne letal la maggior porta </l>
             <l>Tutta al Greco furor la strada apersi </l>
@@ -4255,7 +4226,7 @@ Brama far sazio il furor suo nel sangue. </l>
             <l>L'aure negava onde portarci in Asia </l>
             <l>A voti nostri il Dio dell'acque avverso, </l>
             <l>E la Dea delle Selve, e il fier Nettuno </l>
-            <l>Sola saziò d'Ifigenia la morte. <note><foreign lang="lat"><emph>Sanguine placatis ventos, et virgine caesa, sanguine quaerendi reditus … </emph>. <abbr>Virg.</abbr><abbr>En.</abbr><abbr>lib.</abbr><num>2</num>. </foreign></note></l>
+            <l>Sola saziò d'Ifigenia la morte. <note><foreign xml:lang="lat"><emph>Sanguine placatis ventos, et virgine caesa, sanguine quaerendi reditus … </emph>. <abbr>Virg.</abbr><abbr>En.</abbr><abbr>lib.</abbr><num>2</num>. </foreign></note></l>
             <l>D'una Vergine il sangue a noi pur debbe </l>
             <l>Al patrio suol pronto implorar ritorno. </l>
             <l>Giove istesso è, che parla; E non potremo </l>
@@ -4390,4 +4361,4 @@ Fine della Tragedia.</stage>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

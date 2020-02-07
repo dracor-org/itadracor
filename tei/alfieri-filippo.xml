@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Tragedie</title>
           <title type="part">Filippo ; Polinice ; Antigone ; Virginia ; Agamennone</title>
           <author>Alfieri, Vittorio</author>
-          <editor id="ed">Toschi, Luca</editor>
+          <editor xml:id="ed">Toschi, Luca</editor>
           <publisher>Sansoni</publisher>
           <pubPlace>Firenze</pubPlace>
           <date>1985</date>
@@ -55,7 +54,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -65,45 +64,19 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
+        <language ident="ita"/>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-07-13T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-07-21T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-07-13T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-07-21T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -573,7 +546,7 @@
             <speaker>
               <emph>Carlo</emph>
             </speaker>
-            <l part="I">Più non mi udrai? mai più?...<note resp="aut" place="foot" anchored="yes">volendola seguire, ella glie lo vieta.</note></l>
+            <l part="I">Più non mi udrai? mai più?...<note resp="#aut" place="foot" anchored="true">volendola seguire, ella glie lo vieta.</note></l>
           </sp>
         </div2>
         <div2 type="scena">
@@ -3362,7 +3335,7 @@
             <l>riman, che morte: ma il velen deh! scegli;</l>
             <l>men dolorosa fia... D´amor infausto</l>
             <l>quest´è il consiglio estremo: in te raccogli</l>
-            <l>tutto il coraggio tuo: — mirami...<note resp="aut" place="foot" anchored="yes">Si ferisce.</note> Io moro...</l>
+            <l>tutto il coraggio tuo: — mirami...<note resp="#aut" place="foot" anchored="true">Si ferisce.</note> Io moro...</l>
             <l>Segui il mio esempio. — Il fatal nappo afferra...</l>
             <l part="I">non indugiare...</l>
           </sp>
@@ -3403,7 +3376,7 @@
             </speaker>
             <l>Viverti al fianco?... io sopportar tua vista?...</l>
             <l>Non fia mai, no... Morir vogl´io... Supplisca</l>
-            <l part="I">al tolto nappo<note resp="aut" place="foot" anchored="yes">Rapidissimamente avventatasi al pugnale di Filippo, se ne trafigge.</note>... il tuo pugnal...</l>
+            <l part="I">al tolto nappo<note resp="#aut" place="foot" anchored="true">Rapidissimamente avventatasi al pugnale di Filippo, se ne trafigge.</note>... il tuo pugnal...</l>
           </sp>
           <sp>
             <speaker>
@@ -3445,4 +3418,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

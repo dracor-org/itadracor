@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,7 +51,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -62,48 +61,20 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2003-06-10T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Camilla Ghedini</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>2003-06-10T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Camilla Ghedini</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Codifica XML - Correzione e codifica sulla base del protocollo CIBIT</item>
-      </change>
-      <change>
-        <date>2003-06-14T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Valentina Gritti</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale
-(Sono state controllate la trascrizione e le codifiche, correggendone gli errori)</item>
-      </change>
-      <change>
-        <date>2003-06-22T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2003-06-10T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>2003-06-10T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Codifica XML - Correzione e codifica sulla base del protocollo CIBIT</change>
+      <change><date>2003-06-14T00:00:00.000+02:00</date><name>Valentina Gritti</name><name>CIBIT - Ferrara</name>Codifica XML - Codifica manuale
+(Sono state controllate la trascrizione e le codifiche, correggendone gli errori)</change>
+      <change><date>2003-06-22T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -155,7 +126,7 @@ DA FERRARA</hi>
           <l>Et promiser di star al suo giuditio,</l>
           <l>Come gia stetter ne la valle <name>Idea</name></l>
           <l>A la sententia del pastor Troiano</l>
-          <l>Le <num value="3">tre</num> più belle Dee, c'havesse 'l Cielo:</l>
+          <l>Le <num value="#3">tre</num> più belle Dee, c'havesse 'l Cielo:</l>
           <l>Et aprendo ambedue le sue ragioni</l>
           <l>Inanzi a gli occhi del poeta, <name>Pale</name></l>
           <l>Molte ne disse a suo favor, che lungo</l>
@@ -861,7 +832,7 @@ DA FERRARA</hi>
             <speaker>Fauno</speaker>
             <l part="F">Anzi verranle,</l>
             <l>Che vo, ch' ella lor dica, che noi tutti</l>
-            <l>Insino a un'hora, o <num value="2">due</num> siam per partirci</l>
+            <l>Insino a un'hora, o <num value="#2">due</num> siam per partirci</l>
             <l>Di queste selve, et gir fin' in <name>Ispagna</name>.</l>
           </sp>
           <sp>
@@ -1046,7 +1017,7 @@ DA FERRARA</hi>
             <speaker>Fauno</speaker>
             <l>Ponianci insieme a l'ombra di quel faggio,</l>
             <l>Et diam principio al lagrimevol canto:</l>
-            <l>Voi <num value="4">quattro</num> rimarrete di cantare,</l>
+            <l>Voi <num value="#4">quattro</num> rimarrete di cantare,</l>
           </sp>
           <sp>
             <speaker>CHORO</speaker>
@@ -1248,7 +1219,7 @@ DA FERRARA</hi>
             <l>Od un corso, od un <name>Gorro</name>, o una vernaccia,</l>
             <l>Et, ch'io ne beva a voglia mia, mi sento</l>
             <l>Cosi desta al piacer, desta a la gioia</l>
-            <l>Ch'albora opra farei per <num value="10">dieci</num> donne,</l>
+            <l>Ch'albora opra farei per <num value="#10">dieci</num> donne,</l>
             <l>A quello, che tu di, che 'l vino atterra</l>
             <l>L'altrui virginita, i' ti rispondo,</l>
             <l>Che non si dee verginita apprezzare.</l>
@@ -1538,7 +1509,7 @@ DA FERRARA</hi>
             <speaker>Egle</speaker>
             <l>Non è da apperecchiare a alcuno insidie,</l>
             <l>Se non quand' ei si pensa esser sicuro,</l>
-            <l>Et che sia ver, non potero in <num value="10">dieci</num> anni</l>
+            <l>Et che sia ver, non potero in <num value="#10">dieci</num> anni</l>
             <l>Con ogni ingegno lor, con ogni forza</l>
             <l>Vincere i Greci <name>Troia</name>, e 'n quella notte,</l>
             <l>Che finsero la pace, et il partirsi,</l>
@@ -1580,7 +1551,7 @@ DA FERRARA</hi>
           <sp>
             <speaker>Satiro</speaker>
             <l>Al venir fuor de la spelonca usata,</l>
-            <l>Veduto ho sovra un pin <num value="2">due</num> tortorelle,</l>
+            <l>Veduto ho sovra un pin <num value="#2">due</num> tortorelle,</l>
             <l>Che dolce mormorio faceano insieme,</l>
             <l>Et ecco, in un' instante uno grifagno</l>
             <l>Falcon scese dal ciel, ch' ambo l'uccise,</l>
@@ -1636,8 +1607,8 @@ DA FERRARA</hi>
           </sp>
           <sp>
             <speaker>Satiro</speaker>
-            <l>Mi tengono tra <num value="2">due</num> speme, e timore,</l>
-            <l>Et, se vince un di <num value="2">due</num>, vince la tema,</l>
+            <l>Mi tengono tra <num value="#2">due</num> speme, e timore,</l>
+            <l>Et, se vince un di <num value="#2">due</num>, vince la tema,</l>
             <l>Tal ch'io non sento in ramo mover foglia,</l>
             <l>Che timor non m'aggiunga, com'io fossi</l>
             <l>Una lepre, o un coniglio, sola puoi</l>
@@ -1856,7 +1827,7 @@ DA FERRARA</hi>
             <speaker>Pane</speaker>
             <l>Che giova a me l' esser d' <name>Arcadia</name> Dio?</l>
             <l>Et l'haver sotto me tutti i pastori?</l>
-            <l>Et che mi pascam <num value="1000">mille</num> greggie i prati,</l>
+            <l>Et che mi pascam <num value="#1000">mille</num> greggie i prati,</l>
             <l>Poi ch' io non ho me stesso? et quella cruda,</l>
             <l>Che tratto m' ha di me col dolce sguardo,</l>
             <l>Sen' va soperba de gli affanni miei,</l>
@@ -2060,7 +2031,7 @@ DA FERRARA</hi>
             <speaker>Pane</speaker>
             <l><name>Siringa</name>, tu non sai, chi tu disprezzi,</l>
             <l>Io non sono un pastor di queste selve,</l>
-            <l>C'habbia una greggia, o <num value="2">due</num> d'altri in custodia,</l>
+            <l>C'habbia una greggia, o <num value="#2">due</num> d'altri in custodia,</l>
             <l>Tutto questo paese è in poter mio,</l>
             <l>Et quante greggie pascon questi prati,</l>
             <l>Son tutti di costui, c'hai cosi a vile:</l>
@@ -2074,7 +2045,7 @@ DA FERRARA</hi>
             <l>Io a le mie non ho numer, ben so dirti,</l>
             <l>Che sempre quindi havrai latte in gran copia,</l>
             <l>Et gran copia d'agnelli, et di capretti,</l>
-            <l>Et vedrai por <num value="1000">mille</num> caldaie al fuoco,</l>
+            <l>Et vedrai por <num value="#1000">mille</num> caldaie al fuoco,</l>
             <l>Da stringer latte, per formare il cascio,</l>
             <l>Il qual non men fia tuo, ch'egli fia mio,</l>
             <l><name>Siringa</name>, tu non sai, chi tu disprezzi,</l>
@@ -2083,7 +2054,7 @@ DA FERRARA</hi>
             <l>Che tu n'havrai da me tante ogni giorno,</l>
             <l>Quante in un'anno tu non trovi errando,</l>
             <l>Et piu ti dico, che piu giorni sono,</l>
-            <l><num value="2">Due</num> cavrioli i' tolsi di un covile,</l>
+            <l><num value="#2">Due</num> cavrioli i' tolsi di un covile,</l>
             <l>Piu molli, che la piuma, et via piu bianchi,</l>
             <l>Che le nevi, che vedi in su quest'alpe,</l>
             <l>Io li ti serbo, et son gia si lascivi,</l>
@@ -2108,7 +2079,7 @@ DA FERRARA</hi>
             <l>Non son Laido anch' io, tal, qual io sono,</l>
             <l>Anzi non è ne 'nl ciel, ne 'n terra cosa,</l>
             <l>Di cui l'imago in me non sia scolpita,</l>
-            <l>Queste <num value="2">due</num> corna, che mi vedi in capo,</l>
+            <l>Queste <num value="#2">due</num> corna, che mi vedi in capo,</l>
             <l>Et che forse ti spiaccion, mostran chiaro</l>
             <l>Le corna de la Luna, e i rai del sole,</l>
             <l>E 'l color, c'ho nel viso, il cielo ardente,</l>
@@ -2158,8 +2129,8 @@ DA FERRARA</hi>
             <l>Sapessi il frutto cor de l' eta tua,</l>
             <l>Ne pensar, ch' io ti dica cio, perch'io</l>
             <l>Non habbia una, che m'ami, in queste selve,</l>
-            <l><num value="1000">Mille</num> nimphe mi chieggion per amante,</l>
-            <l>Et <num value="1000">mille</num> son da me per te sprezzate.</l>
+            <l><num value="#1000">Mille</num> nimphe mi chieggion per amante,</l>
+            <l>Et <num value="#1000">mille</num> son da me per te sprezzate.</l>
           </sp>
           <sp>
             <speaker>Siringa</speaker>
@@ -2556,8 +2527,8 @@ DA FERRARA</hi>
           <sp>
             <speaker>Nimphe</speaker>
             <l>Ell' è stata felice, ma di molto</l>
-            <l>Pericol, se 'l cengial, che que <num value="2">due</num> cani</l>
-            <l>Uccise, et arse a que <num value="3">tre</num> altri il pelo,</l>
+            <l>Pericol, se 'l cengial, che que <num value="#2">due</num> cani</l>
+            <l>Uccise, et arse a que <num value="#3">tre</num> altri il pelo,</l>
             <l>Ci cogliea con un dente, vedevamo,</l>
             <l>Che pericolo in se tengano i boschi.</l>
           </sp>
@@ -2771,7 +2742,7 @@ DA FERRARA</hi>
           <sp>
             <speaker>Sileno</speaker>
             <l>Tu mi farai uscir del corpo l'alma</l>
-            <l>Con questo tuo tardar, <num value="3">tre</num> fiaschi ho asciutti</l>
+            <l>Con questo tuo tardar, <num value="#3">tre</num> fiaschi ho asciutti</l>
             <l>Insino al fondo, poi che ti partisti,</l>
             <l>Et dormito un gran sonno, et risvegliato,</l>
             <l>Beendo tuttavia, guardato ho a torno</l>
@@ -3932,4 +3903,4 @@ DA FERRARA</hi>
       </div1>
     </back>
   </text>
-</TEI.2>
+</TEI>

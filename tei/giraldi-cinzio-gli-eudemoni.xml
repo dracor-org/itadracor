@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Canti popolari di Ferrara Cento e Pontelagoscuro</title>
-          <editor id="ed">Ferraro, Giuseppe</editor>
+          <editor xml:id="ed">Ferraro, Giuseppe</editor>
           <publisher>Domenico Taddei e Figli</publisher>
           <pubPlace>Ferrara</pubPlace>
           <date>1877</date>
@@ -53,7 +52,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -63,48 +62,22 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
-        <language id="lat">Latino</language>
-        <language id="fre">Francese</language>
-        <language id="eng">Inglese</language>
+        <language ident="ita">Italiano</language>
+        <language ident="lat">Latino</language>
+        <language ident="fre">Francese</language>
+        <language ident="eng">Inglese</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-07-07T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Daniele Silvi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2004-07-15T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-07-07T00:00:00.000+02:00</date><name>Daniele Silvi</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-07-15T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -4038,4 +4011,4 @@ MDXLIII</p>
       </div1>
     </back>
   </text>
-</TEI.2>
+</TEI>

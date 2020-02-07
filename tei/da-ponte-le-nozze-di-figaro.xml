@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Tutti i libretti di Mozart</title>
-          <editor id="ed">Beghelli, Marco</editor>
+          <editor xml:id="ed">Beghelli, Marco</editor>
           <publisher>Garzanti</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1990</date>
@@ -56,10 +55,10 @@
         <p>Alcuni versi sono fra parentesi tonde per indicare che si tratta di versi sussurrati.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -69,49 +68,23 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">italiano</language>
-        <language id="fre">francese</language>
+        <language ident="ita">italiano</language>
+        <language ident="fre">francese</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>782.12 - LIBRETTI D'OPERA</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-05-26T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Daniele Silvi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML</item>
-      </change>
-      <change>
-        <date>2003-06-07T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-05-26T00:00:00.000+02:00</date><name>Daniele Silvi</name><name>BIBIT</name>Codifica XML</change>
+      <change><date>2003-06-07T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -128,7 +101,7 @@
         </castItem>
         <castItem type="role">
           <role>SUSANNA</role>
-          <roleDesc>promessa sposa di <add resp="ed">Figaro</add> soprano</roleDesc>
+          <roleDesc>promessa sposa di <add resp="#ed">Figaro</add> soprano</roleDesc>
         </castItem>
         <castItem type="role">
           <role>FIGARO</role>
@@ -156,7 +129,7 @@
         </castItem>
         <castItem type="role">
           <role>BARBARINA</role>
-          <roleDesc>figlia di <add resp="ed">Antonio</add> soprano</roleDesc>
+          <roleDesc>figlia di <add resp="#ed">Antonio</add> soprano</roleDesc>
         </castItem>
         <castItem type="role">
           <role>ANTONIO</role>
@@ -211,7 +184,7 @@
           <sp>
             <speaker>SUSANNA, FIGARO</speaker>
             <l>Ah il mattino alle nozze vicino</l>
-            <l>Quanto è dolce al mio <add resp="ed">tuo</add> tenero sposo</l>
+            <l>Quanto è dolce al mio <add resp="#ed">tuo</add> tenero sposo</l>
             <l>Questo bel cappellino vezzoso</l>
             <l>Che Susanna ella stessa si fe’.</l>
           </sp>
@@ -536,7 +509,7 @@
           <sp>
             <speaker>MARCELLINA</speaker>
             <l>Ma da Figaro alfine</l>
-            <l>Non può meglio sperarsi: <foreign lang="fre">argent fait tout</foreign>.</l>
+            <l>Non può meglio sperarsi: <foreign xml:lang="fre">argent fait tout</foreign>.</l>
           </sp>
           <sp>
             <speaker>SUSANNA</speaker>
@@ -2174,7 +2147,7 @@ Figaro con bianca veste in mano. Coro di contadine e contadini vestiti di bianco
           </sp>
           <sp>
             <speaker>CONTE, CONTESSA </speaker>
-            <l>Consorte mia <add resp="ed">mio</add> giudizio,</l>
+            <l>Consorte mia <add resp="#ed">mio</add> giudizio,</l>
             <l>Uno scandalo, un disordine</l>
             <l>Schiviam, per carità.</l>
           </sp>
@@ -2552,7 +2525,7 @@ Figaro con bianca veste in mano. Coro di contadine e contadini vestiti di bianco
         <div2 type="scena">
           <head>SCENA VIII</head>
           <stage>
-            <add resp="ed">Susanna, la Contessa e poi il Conte.</add>
+            <add resp="#ed">Susanna, la Contessa e poi il Conte.</add>
           </stage>
           <sp>
             <speaker>CONTESSA</speaker>
@@ -2638,7 +2611,7 @@ il disordine di spirito</stage>
           <sp>
             <speaker>CONTE, SUSANNA </speaker>
             <l>Confuso, pentito,</l>
-            <l>Son <add resp="ed">È</add> troppo punito:</l>
+            <l>Son <add resp="#ed">È</add> troppo punito:</l>
             <l>Abbiate pietà.</l>
           </sp>
           <sp>
@@ -2719,7 +2692,7 @@ il disordine di spirito</stage>
           <sp>
             <speaker>CONTE, CONTESSA, SUSANNA</speaker>
             <l>Da questo momento</l>
-            <l>Quest’alma a conoscervi <add resp="ed">conoscermi, conoscerla</add></l>
+            <l>Quest’alma a conoscervi <add resp="#ed">conoscermi, conoscerla</add></l>
             <l>Apprender potrà.</l>
           </sp>
         </div2>
@@ -2873,7 +2846,7 @@ il disordine di spirito</stage>
             <speaker>CONTESSA, FIGARO, SUSANNA</speaker>
             <stage>al Conte</stage>
             <l>Deh signor nol contrastate:</l>
-            <l>Consolate i miei <add resp="ed">lor</add> desir.</l>
+            <l>Consolate i miei <add resp="#ed">lor</add> desir.</l>
           </sp>
           <sp>
             <speaker>CONTE</speaker>
@@ -3193,7 +3166,7 @@ il disordine di spirito</stage>
           </sp>
           <sp>
             <speaker>CONTESSA, FIGARO, SUSANNA</speaker>
-            <l>Lascialo <add resp="ed">Lasciami</add> e parti…</l>
+            <l>Lascialo <add resp="#ed">Lasciami</add> e parti…</l>
           </sp>
           <sp>
             <speaker>ANTONIO</speaker>
@@ -3376,12 +3349,12 @@ il disordine di spirito</stage>
             <l>Che bel colpo, che bel caso!</l>
             <l>È cresciuto a tutti il naso,</l>
             <l>Qualche Nume a noi propizio</l>
-            <l>Qui li <add resp="ed">ci</add> ha fatti capitar.</l>
+            <l>Qui li <add resp="#ed">ci</add> ha fatti capitar.</l>
           </sp>
           <sp>
             <speaker>CONTESSA, FIGARO, SUSANNA</speaker>
-            <l>Son confusa <add resp="ed">confuso</add> son stordita <add resp="ed">stordito</add>,</l>
-            <l>Disperata <add resp="ed">Disperato</add>, sbalordita <add resp="ed">sbalordito</add>.</l>
+            <l>Son confusa <add resp="#ed">confuso</add> son stordita <add resp="#ed">stordito</add>,</l>
+            <l>Disperata <add resp="#ed">Disperato</add>, sbalordita <add resp="#ed">sbalordito</add>.</l>
             <l>Certo, un diavol dell’inferno</l>
             <l>Qui li ha fatti capitar.</l>
           </sp>
@@ -3916,8 +3889,8 @@ il disordine di spirito</stage>
           </sp>
           <sp>
             <speaker>CONTE, CURZIO</speaker>
-            <l>Fremo <add resp="ed">Freme</add>, smanio <add resp="ed">smania</add> dal furore:</l>
-            <l>Il destino me la <add resp="ed">gliela</add> fa.</l>
+            <l>Fremo <add resp="#ed">Freme</add>, smanio <add resp="#ed">smania</add> dal furore:</l>
+            <l>Il destino me la <add resp="#ed">gliela</add> fa.</l>
           </sp>
           <sp>
             <speaker>SUSANNA</speaker>
@@ -5691,4 +5664,4 @@ il disordine di spirito</stage>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

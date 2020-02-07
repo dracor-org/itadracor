@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Tragedie</title>
           <title type="part">Don Garzia ; Saul ; Agide ; Sofonisba ; Bruto primo ; Mirra ; Bruto secondo</title>
           <author>Alfieri, Vittorio</author>
-          <editor id="ed">Toschi, Luca</editor>
+          <editor xml:id="ed">Toschi, Luca</editor>
           <publisher>Sansoni</publisher>
           <pubPlace>Firenze</pubPlace>
           <date>1985</date>
@@ -55,10 +54,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -68,48 +67,22 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
+        <language ident="ita"/>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.6 - Letteratura drammatica italiana. 1748-1814</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-06-26T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Sonia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-07-01T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-06-26T00:00:00.000+02:00</date><name>Sonia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-07-01T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -3246,7 +3219,7 @@
             <speaker>
               <emph>Eleonora</emph>
             </speaker>
-            <l part="F">Il figlio?... Oh colpo...<note resp="aut" place="foot" anchored="yes"><p>Cade tramortita.</p></note></l>
+            <l part="F">Il figlio?... Oh colpo...<note resp="#aut" place="foot" anchored="true"><p>Cade tramortita.</p></note></l>
           </sp>
           <sp>
             <speaker>
@@ -3278,4 +3251,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Tutte le opere</title>
           <author>Machiavelli, Niccolo</author>
-          <editor id="ed">Martelli, Mario</editor>
+          <editor xml:id="ed">Martelli, Mario</editor>
           <publisher>Sansoni</publisher>
           <pubPlace>Firenze</pubPlace>
           <date>[1971]</date>
@@ -54,10 +53,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -67,49 +66,23 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>858.3 - MISCELLANEA ITALIANA. 1492-1542</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-07-22T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Francesco Longo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML</item>
-      </change>
-      <change>
-        <date>2003-08-31T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-07-22T00:00:00.000+02:00</date><name>Francesco Longo</name><name>BIBIT</name>Codifica XML</change>
+      <change><date>2003-08-31T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -552,7 +525,7 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <stage>LIGURIO, CALLIMACO</stage>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>solo</emph></add></stage>. Io non credo che sia nel mondo el più sciocco uomo di costui; e quanto la fortuna lo ha favorito! Lui ricco, lui bella donna, savia, costumata, ed atta a governare un regno. E parmi che rare volte si verifichi quel proverbio ne' matrimoni, che dice: «Dio fa gli uomini, e' s'appaiono»; perché spesso si vede uno uomo ben qualificato sortire una bestia, e, per avverso, una prudente donna avere un pazzo. Ma della pazzia di costui se ne cava questo bene, che Callimaco ha che sperare. —Ma eccolo. <stage><add resp="ed"><emph>A Callimaco</emph></add></stage>. Che vai tu appostando Callimaco?</p>
+            <p><stage><add resp="#ed"><emph>solo</emph></add></stage>. Io non credo che sia nel mondo el più sciocco uomo di costui; e quanto la fortuna lo ha favorito! Lui ricco, lui bella donna, savia, costumata, ed atta a governare un regno. E parmi che rare volte si verifichi quel proverbio ne' matrimoni, che dice: «Dio fa gli uomini, e' s'appaiono»; perché spesso si vede uno uomo ben qualificato sortire una bestia, e, per avverso, una prudente donna avere un pazzo. Ma della pazzia di costui se ne cava questo bene, che Callimaco ha che sperare. —Ma eccolo. <stage><add resp="#ed"><emph>A Callimaco</emph></add></stage>. Che vai tu appostando Callimaco?</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -710,21 +683,21 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           </sp>
           <sp>
             <speaker>SI.</speaker>
-            <p><stage><add resp="ed"><emph>affacciandosi alla porta</emph></add></stage>. Chi è?</p>
+            <p><stage><add resp="#ed"><emph>affacciandosi alla porta</emph></add></stage>. Chi è?</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>a Siro</emph></add></stage>. Èvi Callimaco?</p>
+            <p><stage><add resp="#ed"><emph>a Siro</emph></add></stage>. Èvi Callimaco?</p>
           </sp>
           <sp>
             <speaker>SI.</speaker>
             <p>
- Sì, è. <stage><add resp="ed"><emph>Rientra in casa</emph></add>.</stage>
+ Sì, è. <stage><add resp="#ed"><emph>Rientra in casa</emph></add>.</stage>
 </p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>a Ligurio</emph></add></stage>. Che non di' tu maestro Callimaco?</p>
+            <p><stage><add resp="#ed"><emph>a Ligurio</emph></add></stage>. Che non di' tu maestro Callimaco?</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
@@ -748,22 +721,22 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <sp>
             <speaker>NI.</speaker>
             <p>
-              <foreign lang="lat">Bona dies, domine magister.</foreign>
+              <foreign xml:lang="lat">Bona dies, domine magister.</foreign>
             </p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
             <p>
-              <foreign lang="lat">Et vobis bona, domine doctor.</foreign>
+              <foreign xml:lang="lat">Et vobis bona, domine doctor.</foreign>
             </p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>piano, a Nicia</emph></add></stage>. Che vi pare?</p>
+            <p><stage><add resp="#ed"><emph>piano, a Nicia</emph></add></stage>. Che vi pare?</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>piano, a Ligurio</emph></add></stage>. Bene, alle guagnele!</p>
+            <p><stage><add resp="#ed"><emph>piano, a Ligurio</emph></add></stage>. Bene, alle guagnele!</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
@@ -788,17 +761,17 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <sp>
             <speaker>NI.</speaker>
             <p>
- Gran mercé; e, quando voi avessi bisogno dell'arte mia, io vi servirei volentieri. Ma torniamo <foreign lang="lat">ad rem nostram</foreign>. Avete voi pensato che bagno fussi buono a disporre la donna mia ad impregnare? Che io so che qui Ligurio vi ha detto quel che vi s'abbi detto.</p>
+ Gran mercé; e, quando voi avessi bisogno dell'arte mia, io vi servirei volentieri. Ma torniamo <foreign xml:lang="lat">ad rem nostram</foreign>. Avete voi pensato che bagno fussi buono a disporre la donna mia ad impregnare? Che io so che qui Ligurio vi ha detto quel che vi s'abbi detto.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
             <p>
- Egli è la verità; ma, a volere adempiere el desiderio vostro, è necessario sapere la cagione della sterilità della donna vostra, perché le possono essere più cagione: <foreign lang="lat">nam cause sterilitatis sunt: aut in semine, aut in matrice, aut in instrumentis seminariis, aut in virga, aut in causa extrinseca.</foreign>
+ Egli è la verità; ma, a volere adempiere el desiderio vostro, è necessario sapere la cagione della sterilità della donna vostra, perché le possono essere più cagione: <foreign xml:lang="lat">nam cause sterilitatis sunt: aut in semine, aut in matrice, aut in instrumentis seminariis, aut in virga, aut in causa extrinseca.</foreign>
 </p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>a parte</emph></add></stage>. Costui è il più degno uomo che si possa trovare!</p>
+            <p><stage><add resp="#ed"><emph>a parte</emph></add></stage>. Costui è il più degno uomo che si possa trovare!</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -823,7 +796,7 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <sp>
             <speaker>LIG.</speaker>
             <p>
- Sì, sarà! Io vo' rispondere io: Callimaco è tanto respettivo, che è troppo. <add resp="ed"><emph>A Callimaco</emph></add>. Non m'avete voi detto di sapere ordinare certe pozione che indubitatamente fanno ingravidare!</p>
+ Sì, sarà! Io vo' rispondere io: Callimaco è tanto respettivo, che è troppo. <add resp="#ed"><emph>A Callimaco</emph></add>. Non m'avete voi detto di sapere ordinare certe pozione che indubitatamente fanno ingravidare!</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -837,7 +810,7 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>a Callimaco</emph></add></stage>. Io credo che bisogni che voi veggiate el segno.</p>
+            <p><stage><add resp="#ed"><emph>a Callimaco</emph></add></stage>. Io credo che bisogni che voi veggiate el segno.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -846,16 +819,16 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>piano, a Callimaco</emph></add></stage>. Chiama Siro, che vadia con el dottore a casa per esso, e torni qui; e noi l'aspetteremo in casa.</p>
+            <p><stage><add resp="#ed"><emph>piano, a Callimaco</emph></add></stage>. Chiama Siro, che vadia con el dottore a casa per esso, e torni qui; e noi l'aspetteremo in casa.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>ad alta voce, verso l'interno della casa</emph></add></stage>. Siro! <stage><add resp="ed"><emph>A Siro, che esce di casa</emph></add></stage>. Va' con lui. <stage><add resp="ed"><emph>A messer Nicia</emph></add></stage>. E, se vi pare, messere, tornate qui subito, e pensereno a qualche cosa di buono.</p>
+            <p><stage><add resp="#ed"><emph>ad alta voce, verso l'interno della casa</emph></add></stage>. Siro! <stage><add resp="#ed"><emph>A Siro, che esce di casa</emph></add></stage>. Va' con lui. <stage><add resp="#ed"><emph>A messer Nicia</emph></add></stage>. E, se vi pare, messere, tornate qui subito, e pensereno a qualche cosa di buono.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
             <p>
- Come, se mi pare? Io tornerò qui in uno stante, che ho più fede in voi che gli Ungheri nelle spade. <stage><add resp="ed"><emph>Callimaco e Ligurio rientrano in casa</emph></add></stage>.</p>
+ Come, se mi pare? Io tornerò qui in uno stante, che ho più fede in voi che gli Ungheri nelle spade. <stage><add resp="#ed"><emph>Callimaco e Ligurio rientrano in casa</emph></add></stage>.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -936,7 +909,7 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <stage>MESSER NICIA, SIRO</stage>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>verso l'interno, rivolgendosi a Lucrezia</emph></add></stage>. Io ho fatto d'ogni cosa a tuo modo: di questo vo' io che tu facci a mio. Se io credevo non avere figliuoli io arei preso più tosto per moglie una contadina che te. <stage><add resp="ed"><emph>A Siro, porgendogli l'orinale</emph></add></stage>. To' costì, Siro; viemmi drieto. Quanta fatica ho io durata a fare che questa mia mona sciocca mi dia questo segno! E non è dire che la non abbi caro di fare figliuoli, che la ne ha più pensiero di me; ma, come io le vo' far fare nulla, egli è una storia.</p>
+            <p><stage><add resp="#ed"><emph>verso l'interno, rivolgendosi a Lucrezia</emph></add></stage>. Io ho fatto d'ogni cosa a tuo modo: di questo vo' io che tu facci a mio. Se io credevo non avere figliuoli io arei preso più tosto per moglie una contadina che te. <stage><add resp="#ed"><emph>A Siro, porgendogli l'orinale</emph></add></stage>. To' costì, Siro; viemmi drieto. Quanta fatica ho io durata a fare che questa mia mona sciocca mi dia questo segno! E non è dire che la non abbi caro di fare figliuoli, che la ne ha più pensiero di me; ma, come io le vo' far fare nulla, egli è una storia.</p>
           </sp>
           <sp>
             <speaker>SI.</speaker>
@@ -959,11 +932,11 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <stage>LIGURIO, CALLIMACO, MESSER NICIA</stage>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>piano, a Callimaco</emph></add></stage>. El dottore fia facile a persuadere: la difficultà fia la donna, ed a questo non ci mancherà modi.</p>
+            <p><stage><add resp="#ed"><emph>piano, a Callimaco</emph></add></stage>. El dottore fia facile a persuadere: la difficultà fia la donna, ed a questo non ci mancherà modi.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>a messer Nicia</emph></add></stage>. Avete voi el segno?</p>
+            <p><stage><add resp="#ed"><emph>a messer Nicia</emph></add></stage>. Avete voi el segno?</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -972,7 +945,7 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>a Siro</emph></add></stage>. Dàllo qua. <stage><add resp="ed"><emph>Dopo aver osservato il segno</emph></add></stage>. Oh! questo segno mostra debilità di rene.</p>
+            <p><stage><add resp="#ed"><emph>a Siro</emph></add></stage>. Dàllo qua. <stage><add resp="#ed"><emph>Dopo aver osservato il segno</emph></add></stage>. Oh! questo segno mostra debilità di rene.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -982,11 +955,11 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <sp>
             <speaker>CAL.</speaker>
             <p>
- Non ve ne maravigliate. <foreign lang="lat">Nam mulieris urine sunt semper maioris grossitiei et albedinis, et minoris pulchritudinis quam virorum. Huius autem, inter cetera, causa est amplitudo canalium, mixtio eorum que ex matrice exeunt cum urinis</foreign>.</p>
+ Non ve ne maravigliate. <foreign xml:lang="lat">Nam mulieris urine sunt semper maioris grossitiei et albedinis, et minoris pulchritudinis quam virorum. Huius autem, inter cetera, causa est amplitudo canalium, mixtio eorum que ex matrice exeunt cum urinis</foreign>.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>a parte</emph></add></stage>. Oh! uh! potta di san Puccio! Costui mi raffinisce in tralle mani; guarda come ragiona bene di queste cose!</p>
+            <p><stage><add resp="#ed"><emph>a parte</emph></add></stage>. Oh! uh! potta di san Puccio! Costui mi raffinisce in tralle mani; guarda come ragiona bene di queste cose!</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -1185,27 +1158,27 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <sp>
             <speaker>LIG.</speaker>
             <p>
- Ed io so che la madre è della opinione nostra. Orsù! avanziam tempo, che si fa sera. <stage><add resp="ed"><emph>Piano, a Callimaco</emph></add></stage>. Vatti, Callimaco, a spasso, e fa' che alle ventitré ore noi ti ritroviamo in casa con la pozione ad ordine. Noi n'andreno a casa la madre, el dottore ed io, a disporla, perché è mia nota. Poi ne andreno al frate, e vi raguagliereno di quello che noi areno fatto.</p>
+ Ed io so che la madre è della opinione nostra. Orsù! avanziam tempo, che si fa sera. <stage><add resp="#ed"><emph>Piano, a Callimaco</emph></add></stage>. Vatti, Callimaco, a spasso, e fa' che alle ventitré ore noi ti ritroviamo in casa con la pozione ad ordine. Noi n'andreno a casa la madre, el dottore ed io, a disporla, perché è mia nota. Poi ne andreno al frate, e vi raguagliereno di quello che noi areno fatto.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>piano a Ligurio</emph></add></stage>. Deh! non mi lasciar solo.</p>
+            <p><stage><add resp="#ed"><emph>piano a Ligurio</emph></add></stage>. Deh! non mi lasciar solo.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>stesso gioco, a Callimaco</emph></add></stage>. Tu mi par' cotto.</p>
+            <p><stage><add resp="#ed"><emph>stesso gioco, a Callimaco</emph></add></stage>. Tu mi par' cotto.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>stesso gioco</emph></add></stage>. Dove vuoi tu ch'io vadia ora?</p>
+            <p><stage><add resp="#ed"><emph>stesso gioco</emph></add></stage>. Dove vuoi tu ch'io vadia ora?</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>stesso gioco</emph></add></stage>. Di là, di qua, per questa via, per quell'altra: egli è sì grande Firenze!</p>
+            <p><stage><add resp="#ed"><emph>stesso gioco</emph></add></stage>. Di là, di qua, per questa via, per quell'altra: egli è sì grande Firenze!</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>stesso gioco</emph></add></stage>. Io son morto.</p>
+            <p><stage><add resp="#ed"><emph>stesso gioco</emph></add></stage>. Io son morto.</p>
           </sp>
         </div2>
         <div2 type="canzone">
@@ -1303,7 +1276,7 @@ Guardate e' non v'inganni: questi pappatori non sogliono avere molta fede.</p>
           <sp>
             <speaker>LIG.</speaker>
             <p>
- Questi frati sono trincati, astuti; ed è ragionevole, perché e' sanno e peccati nostri, e loro, e chi non è pratico con essi potrebbe ingannarsi e non li sapere condurre a suo proposito. Pertanto io non vorrei che voi nel parlare guastassi ogni cosa, perché un vostro pari, che sta tuttodì nello studio, s'intende di que' libri, e delle cose del mondo non sa ragionare. <stage><add resp="ed"><emph>A parte</emph></add></stage>. Costui è sì sciocco, che io ho paura non guasti ogni cosa.</p>
+ Questi frati sono trincati, astuti; ed è ragionevole, perché e' sanno e peccati nostri, e loro, e chi non è pratico con essi potrebbe ingannarsi e non li sapere condurre a suo proposito. Pertanto io non vorrei che voi nel parlare guastassi ogni cosa, perché un vostro pari, che sta tuttodì nello studio, s'intende di que' libri, e delle cose del mondo non sa ragionare. <stage><add resp="#ed"><emph>A parte</emph></add></stage>. Costui è sì sciocco, che io ho paura non guasti ogni cosa.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -1413,7 +1386,7 @@ Madonna sì.</p>
           <stage>FRA' TIMOTEO, LIGURIO, MESSER NICIA</stage>
           <sp>
             <speaker>FRATE.</speaker>
-            <p><stage><add resp="ed"><emph>solo</emph></add></stage>. Le più caritative persone che sieno sono le donne, e le più fastidiose. Chi le scaccia, fugge e fastidii e l'utile; chi le intrattiene, ha l'utile ed e fastidii insieme. Ed è 'l vero che non è el mele sanza le mosche. <stage><add resp="ed"><emph>A Ligurio e a Nicia</emph></add></stage>. Che andate voi facendo, uomini da bene? Non riconosco io messer Nicia?</p>
+            <p><stage><add resp="#ed"><emph>solo</emph></add></stage>. Le più caritative persone che sieno sono le donne, e le più fastidiose. Chi le scaccia, fugge e fastidii e l'utile; chi le intrattiene, ha l'utile ed e fastidii insieme. Ed è 'l vero che non è el mele sanza le mosche. <stage><add resp="#ed"><emph>A Ligurio e a Nicia</emph></add></stage>. Che andate voi facendo, uomini da bene? Non riconosco io messer Nicia?</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
@@ -1461,7 +1434,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>piano, a Nicia</emph></add></stage>. Tacete, in malora, e' non fien molti! <stage><add resp="ed"><emph>Rivolgendosi ancora al Frate</emph></add></stage>. Non vi maravigliate padre, di cosa che dica, che non ode, e pargli qualche volta udire, e non risponde a proposito.</p>
+            <p><stage><add resp="#ed"><emph>piano, a Nicia</emph></add></stage>. Tacete, in malora, e' non fien molti! <stage><add resp="#ed"><emph>Rivolgendosi ancora al Frate</emph></add></stage>. Non vi maravigliate padre, di cosa che dica, che non ode, e pargli qualche volta udire, e non risponde a proposito.</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
@@ -1505,11 +1478,11 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>a parte</emph></add></stage>. Che chiacchiera!</p>
+            <p><stage><add resp="#ed"><emph>a parte</emph></add></stage>. Che chiacchiera!</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>piano a Nicia</emph></add></stage>. State cheto! <stage><add resp="ed"><emph>Rivolgendosi ancora al Frate</emph></add></stage>. E daragli per le vostre mani; e voi solo e la badessa ci potete rimediare.</p>
+            <p><stage><add resp="#ed"><emph>piano a Nicia</emph></add></stage>. State cheto! <stage><add resp="#ed"><emph>Rivolgendosi ancora al Frate</emph></add></stage>. E daragli per le vostre mani; e voi solo e la badessa ci potete rimediare.</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
@@ -1541,7 +1514,7 @@ Madonna sì.</p>
           <stage>FRA' TIMOTEO, MESSER NICIA</stage>
           <sp>
             <speaker>FRATE.</speaker>
-            <p><stage><add resp="ed"><emph>alzando la voce</emph></add></stage>. Questa fanciulla, che tempo ha?</p>
+            <p><stage><add resp="#ed"><emph>alzando la voce</emph></add></stage>. Questa fanciulla, che tempo ha?</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -1565,7 +1538,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
-            <p> E' mi pare essere nel gagno. Io ho a fare con uno pazzo e con un sordo: l'un si fugge, l'altro non ode. <stage><add resp="ed"><emph>soppesando la borsa con i danari</emph></add></stage>. Ma se questi non sono quarteruoli, io ne farò meglio di loro! Ecco Ligurio, che torna in qua.</p>
+            <p> E' mi pare essere nel gagno. Io ho a fare con uno pazzo e con un sordo: l'un si fugge, l'altro non ode. <stage><add resp="#ed"><emph>soppesando la borsa con i danari</emph></add></stage>. Ma se questi non sono quarteruoli, io ne farò meglio di loro! Ecco Ligurio, che torna in qua.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -1573,7 +1546,7 @@ Madonna sì.</p>
           <stage>LIGURIO, FRA' TIMOTEO, MESSER NICIA</stage>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>piano, a messer Nicia</emph></add></stage>. State cheto, messere. <stage><add resp="ed"><emph>Al Frate</emph></add></stage>. Oh! io ho la gran nuova, padre.</p>
+            <p><stage><add resp="#ed"><emph>piano, a messer Nicia</emph></add></stage>. State cheto, messere. <stage><add resp="#ed"><emph>Al Frate</emph></add></stage>. Oh! io ho la gran nuova, padre.</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
@@ -1585,7 +1558,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
-            <p><stage><add resp="ed"><emph>a parte</emph></add></stage>. Bene! questa limosina andrà alla Grascia.</p>
+            <p><stage><add resp="#ed"><emph>a parte</emph></add></stage>. Bene! questa limosina andrà alla Grascia.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
@@ -1613,11 +1586,11 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p> Io ve lo vo' dire in chiesa, da me e voi, ed el dottore fia contento d'aspettare qui e prestarmi dua parole. <stage><add resp="ed"><emph>A Nicia, alzando la voce</emph></add></stage>. Aspettate qui; noi torniamo ora.</p>
+            <p> Io ve lo vo' dire in chiesa, da me e voi, ed el dottore fia contento d'aspettare qui e prestarmi dua parole. <stage><add resp="#ed"><emph>A Nicia, alzando la voce</emph></add></stage>. Aspettate qui; noi torniamo ora.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p><stage><add resp="ed"><emph>a parte</emph></add></stage>.Come disse la botta a l' erpice!</p>
+            <p><stage><add resp="#ed"><emph>a parte</emph></add></stage>.Come disse la botta a l' erpice!</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
@@ -1637,11 +1610,11 @@ Madonna sì.</p>
           <stage>FRA' TIMOTEO, LIGURIO, MESSER NICIA</stage>
           <sp>
             <speaker>FRATE.</speaker>
-            <p><stage><add resp="ed"><emph>a Ligurio</emph></add>.</stage>Fate che le donne venghino. Io so quello ch'i' ho a fare; e, se l'autorità mia varrà, noi concluderemo questo parentado questa sera.</p>
+            <p><stage><add resp="#ed"><emph>a Ligurio</emph></add>.</stage>Fate che le donne venghino. Io so quello ch'i' ho a fare; e, se l'autorità mia varrà, noi concluderemo questo parentado questa sera.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>a Nicia, parlando ad alta voce</emph></add></stage>. Messer Nicia, fra' Timoteo è per fare ogni cosa. Bisogna vedere che le donne venghino.</p>
+            <p><stage><add resp="#ed"><emph>a Nicia, parlando ad alta voce</emph></add></stage>. Messer Nicia, fra' Timoteo è per fare ogni cosa. Bisogna vedere che le donne venghino.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -1649,7 +1622,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>come sopra</emph></add></stage>. Maschio.</p>
+            <p><stage><add resp="#ed"><emph>come sopra</emph></add></stage>. Maschio.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -1741,7 +1714,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>SOS.</speaker>
-            <p> Ella farà ciò che voi volete. Io la voglio mettere stasera al letto io. <stage><add resp="ed"><emph>A Lucrezia</emph></add></stage>. Di che hai tu paura, moccicona? E' ci è cinquanta donne, in questa terra, che ne alzerebbono le mani al cielo.</p>
+            <p> Ella farà ciò che voi volete. Io la voglio mettere stasera al letto io. <stage><add resp="#ed"><emph>A Lucrezia</emph></add></stage>. Di che hai tu paura, moccicona? E' ci è cinquanta donne, in questa terra, che ne alzerebbono le mani al cielo.</p>
           </sp>
           <sp>
             <speaker>LU.</speaker>
@@ -1852,11 +1825,11 @@ Madonna sì.</p>
           <stage>LIGURIO, CALLIMACO</stage>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>solo</emph></add></stage>. Io non desiderai mai più tanto di trovare Callimaco, e non penai mai più tanto a trovarlo. Se io li portassi triste nuove, io l'arei riscontro al primo. Io sono stato a casa, in Piazza, in Mercato, al Pancone delli Spini, alla Loggia de' Tornaquinci, e non l'ho trovato. Questi innamorati hanno l'ariento vivo sotto e piedi, e non si possono fermare.</p>
+            <p><stage><add resp="#ed"><emph>solo</emph></add></stage>. Io non desiderai mai più tanto di trovare Callimaco, e non penai mai più tanto a trovarlo. Se io li portassi triste nuove, io l'arei riscontro al primo. Io sono stato a casa, in Piazza, in Mercato, al Pancone delli Spini, alla Loggia de' Tornaquinci, e non l'ho trovato. Questi innamorati hanno l'ariento vivo sotto e piedi, e non si possono fermare.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>a parte</emph></add></stage>. Che sto io ch'io non lo chiamo? E' mi par pure allegro! <stage><add resp="ed"><emph>A Ligurio</emph></add></stage>. Oh, Ligurio! Ligurio!</p>
+            <p><stage><add resp="#ed"><emph>a parte</emph></add></stage>. Che sto io ch'io non lo chiamo? E' mi par pure allegro! <stage><add resp="#ed"><emph>A Ligurio</emph></add></stage>. Oh, Ligurio! Ligurio!</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
@@ -1948,7 +1921,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>rivolgendosi al pubblico</emph></add></stage>. Che gente è questa? Ora per l'alegrezza, ora pel dolore, costui vuole morire in ogni modo. <stage><add resp="ed"><emph>A Callimaco</emph></add></stage>. Hai tu ad ordine la pozione?</p>
+            <p><stage><add resp="#ed"><emph>rivolgendosi al pubblico</emph></add></stage>. Che gente è questa? Ora per l'alegrezza, ora pel dolore, costui vuole morire in ogni modo. <stage><add resp="#ed"><emph>A Callimaco</emph></add></stage>. Hai tu ad ordine la pozione?</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -2148,7 +2121,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>SI.</speaker>
-            <p> Sarà fatto. <stage><add resp="ed"><emph>Siro parte</emph></add></stage>.</p>
+            <p> Sarà fatto. <stage><add resp="#ed"><emph>Siro parte</emph></add></stage>.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -2156,7 +2129,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>SI.</speaker>
-            <p><stage><add resp="ed"><emph>rientrando</emph></add></stage>. Eccolo.</p>
+            <p><stage><add resp="#ed"><emph>rientrando</emph></add></stage>. Eccolo.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -2164,7 +2137,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>SI.</speaker>
-            <p> Io vo. <stage><add resp="ed"><emph>Si avvia</emph></add></stage>.</p>
+            <p> Io vo. <stage><add resp="#ed"><emph>Si avvia</emph></add></stage>.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -2384,7 +2357,7 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
-            <p> Dàlla qua... <stage><add resp="ed"><emph>Dopo essersela messa in bocca</emph></add></stage>. Ca, pu, ca, co, che, cu, cu, spu... Che ti venga la seccaggine, pezzo di manigoldo!</p>
+            <p> Dàlla qua... <stage><add resp="#ed"><emph>Dopo essersela messa in bocca</emph></add></stage>. Ca, pu, ca, co, che, cu, cu, spu... Che ti venga la seccaggine, pezzo di manigoldo!</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
@@ -2472,13 +2445,13 @@ Madonna sì.</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
-            <p><stage><add resp="ed"><emph>cantando</emph></add></stage>.
+            <p><stage><add resp="#ed"><emph>cantando</emph></add></stage>.
 Venir vi possa el diavolo allo letto,
 Dapoi ch'io non vi posso venir io!</p>
           </sp>
           <sp>
             <speaker>LIG.</speaker>
-            <p><stage><add resp="ed"><emph>afferrando Callimaco</emph></add></stage>. Sta' forte. Da' qua questo liuto!</p>
+            <p><stage><add resp="#ed"><emph>afferrando Callimaco</emph></add></stage>. Sta' forte. Da' qua questo liuto!</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -2774,7 +2747,7 @@ Dapoi ch'io non vi posso venir io!</p>
           <stage>FRA' TIMOTEO, MESSER NICIA, LUCREZIA, CALLIMACO, LIGURIO, SOSTRATA</stage>
           <sp>
             <speaker>FRATE.</speaker>
-            <p><stage><add resp="ed"><emph>solo</emph></add></stage>. Io vengo fuora, perché Callimaco e Ligurio m'hanno detto che el dottore e le donne vengono alla chiesa. Eccole.</p>
+            <p><stage><add resp="#ed"><emph>solo</emph></add></stage>. Io vengo fuora, perché Callimaco e Ligurio m'hanno detto che el dottore e le donne vengono alla chiesa. Eccole.</p>
           </sp>
           <sp>
             <speaker>NI.</speaker>
@@ -2806,7 +2779,7 @@ Dapoi ch'io non vi posso venir io!</p>
           </sp>
           <sp>
             <speaker>FRATE.</speaker>
-            <p><stage><add resp="ed"><emph>a Callimaco e a Ligurio</emph></add></stage>. Venite!</p>
+            <p><stage><add resp="#ed"><emph>a Callimaco e a Ligurio</emph></add></stage>. Venite!</p>
           </sp>
           <sp>
             <speaker>CAL.</speaker>
@@ -2892,4 +2865,4 @@ Dapoi ch'io non vi posso venir io!</p>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Teatrali contese</title>
           <title type="part">tomo</title>
           <author>Pagano, Francesco Mario</author>
-          <editor id="ed">Granese, Alberto</editor>
+          <editor xml:id="ed">Granese, Alberto</editor>
           <publisher>Edisud</publisher>
           <pubPlace>Salerno</pubPlace>
           <date>1999</date>
@@ -55,7 +54,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -65,46 +64,20 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">italiano</language>
-        <language id="lat">latino</language>
+        <language ident="ita">italiano</language>
+        <language ident="lat">latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Salerno</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Salerno</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2005-01-18T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Antonio Elefante</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2005-01-18T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Salerno</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Salerno</name>Correzione linguistica</change>
+      <change><date>2005-01-18T00:00:00.000+02:00</date><name>Antonio Elefante</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2005-01-18T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -134,7 +107,7 @@ una regolare tragedia. Ed avendone una formata, come per saggio, ho ardito di pr
 all’augusto ed incorruttibile tribunale de’ dotti, de’ quali le discrete correzioni
 le potranno in una ristampa procurare quel pregio, che ora per sé non ha. Le mie forensi
 occupazioni mi fanno sperare un compatimento umano:</hi>
-          <foreign lang="lat">
+          <foreign xml:lang="lat">
             <quote rend="block">
               <lg>
                 <l>Haec quoque, quae facio, iudex mirabitur aequus, </l>
@@ -2839,4 +2812,4 @@ per sempre</hi>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

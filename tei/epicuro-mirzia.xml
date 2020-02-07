@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>I drammi e le poesie italiane e latine ; aggiuntovi L'amore prigioniero di Mario Di Leo</title>
           <author>Epicuro, Marc'Antonio</author>
-          <editor id="ed">Parente, Alfredo</editor>
+          <editor xml:id="ed">Parente, Alfredo</editor>
           <publisher>Gius. Laterza e Figli</publisher>
           <pubPlace>Bari</pubPlace>
           <date>1942</date>
@@ -54,10 +53,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -70,45 +69,19 @@
         <language>Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>858 - Scritti miscellanei italiani</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Roma</name>
-        </respStmt>
-        <item>Digitalizzazione - OCR</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Roma</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-04-24T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Alessia Scacchi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-05-05T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Roma</name>Digitalizzazione - OCR</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Roma</name>Correzione linguistica</change>
+      <change><date>2003-04-24T00:00:00.000+02:00</date><name>Alessia Scacchi</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-05-05T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -2360,10 +2333,10 @@ fugge.</emph>)</stage>
               <l> Febo, per tua memoria un verde alloro</l>
               <l> in mezzo al mio giardin piantar prometto, </l>
               <l> ove fia inciso: 
-<q direct="unspecified">"Questi gli stral d'oro</q></l>
+<q>"Questi gli stral d'oro</q></l>
             </lg>
             <lg type="terzina">
-              <l><q direct="unspecified">son ch'al più alto pastor punser il petto"</q>,</l>
+              <l><q>son ch'al più alto pastor punser il petto"</q>,</l>
               <l> s'oggi udirò, se da colei ch'adoro</l>
               <l> avrà la pena mia felic'effetto, </l>
             </lg>
@@ -3870,4 +3843,4 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
       </div1>
     </back>
   </text>
-</TEI.2>
+</TEI>

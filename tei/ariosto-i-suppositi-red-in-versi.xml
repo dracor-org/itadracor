@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 PUBLIC "-//BIBIT//DTD BibIt L1 TEI Document Type//EN" "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
           <title>Tutte le opere di Ludovico Ariosto</title>
           <title type="part">v.</title>
           <author>Ariosto, Ludovico</author>
-          <editor id="ed">Casella, Angela</editor>
+          <editor xml:id="ed">Casella, Angela</editor>
           <publisher>Mondadori</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1974</date>
@@ -54,7 +53,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -64,45 +63,19 @@
         <date/>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2007-06-08T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Novadata systems</name>
-        </respStmt>
-        <item>Digitalizzazione - OCR</item>
-      </change>
-      <change>
-        <date>2007-09-15T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2007-10-18T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2007-11-16T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2007-06-08T00:00:00.000+02:00</date><name>Novadata systems</name>Digitalizzazione - OCR</change>
+      <change><date>2007-09-15T00:00:00.000+02:00</date><name>BIBIT</name>Correzione linguistica</change>
+      <change><date>2007-10-18T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2007-11-16T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -648,9 +621,9 @@ Polinesta</roleDesc>
           <sp>
             <speaker>CLEANDRO:</speaker>
             <l part="F">Ben ciance. Onde abbiàn quel notabile</l>
-            <l>Verso e così morale: <foreign lang="lat">Opes dat sanctio</foreign>
+            <l>Verso e così morale: <foreign xml:lang="lat">Opes dat sanctio</foreign>
                   </l>
-            <l part="I"><foreign lang="lat">Iustiniana</foreign>.</l>
+            <l part="I"><foreign xml:lang="lat">Iustiniana</foreign>.</l>
           </sp>
           <sp>
             <speaker>PASIFILO:</speaker>
@@ -659,9 +632,9 @@ Polinesta</roleDesc>
           <sp>
             <speaker>CLEANDRO:</speaker>
             <l part="F">
-              <foreign lang="lat">Ex aliis</foreign>
+              <foreign xml:lang="lat">Ex aliis</foreign>
             </l>
-            <l part="I"><foreign lang="lat">Paleas</foreign>...</l>
+            <l part="I"><foreign xml:lang="lat">Paleas</foreign>...</l>
           </sp>
           <sp>
             <speaker>PASIFILO:</speaker>
@@ -669,9 +642,9 @@ Polinesta</roleDesc>
           </sp>
           <sp>
             <speaker>CLEANDRO:</speaker>
-            <l part="F">...<foreign lang="lat">ex istis collige</foreign>
+            <l part="F">...<foreign xml:lang="lat">ex istis collige</foreign>
                   </l>
-            <l part="I"><foreign lang="lat">Grana</foreign>.</l>
+            <l part="I"><foreign xml:lang="lat">Grana</foreign>.</l>
           </sp>
           <sp>
             <speaker>PASIFILO:</speaker>
@@ -764,7 +737,7 @@ Polinesta</roleDesc>
             <speaker>CLEANDRO:</speaker>
             <l part="F">Può Erostrato</l>
             <l>Far dunque tale offerta? E entrare in obligo</l>
-            <l>Alcuno, <foreign lang="lat">cum sit filius familias</foreign>?</l>
+            <l>Alcuno, <foreign xml:lang="lat">cum sit filius familias</foreign>?</l>
           </sp>
           <sp>
             <speaker>PASIFILO:</speaker>
@@ -776,7 +749,7 @@ Polinesta</roleDesc>
             <speaker>CLEANDRO:</speaker>
             <l>Or va'. S'io aspetto mai da te, Pasifilo</l>
             <l>Piacere alcuno, va', truova mio suocero,</l>
-            <l><foreign lang="lat">Idest quem spero</foreign>; e digli, se non bastano</l>
+            <l><foreign xml:lang="lat">Idest quem spero</foreign>; e digli, se non bastano</l>
             <l>Gli duo mila ducati, io vi vo' aggiungere</l>
             <l>Altri mille, e quel più che saprà chiedere</l>
             <l>Egli a bocca: io non voglio del suo un picciolo,</l>
@@ -1716,7 +1689,7 @@ Polinesta</roleDesc>
           <sp>
             <speaker>EROSTRATO:</speaker>
             <l>Sareste svaligiati, et altre ingiurie</l>
-            <l>E scorni avreste, che a <foreign lang="lat">furore populi</foreign>
+            <l>E scorni avreste, che a <foreign xml:lang="lat">furore populi</foreign>
                   </l>
             <l>Vi cacciarian come ribaldi sùbito.</l>
           </sp>
@@ -4187,10 +4160,10 @@ Polinesta</roleDesc>
             <l>Tanto martello ha, che crepa. Ma abbilo</l>
             <l>Quanto si vuole: il cuor gli crepi e l'anima.</l>
             <l>Pur ch'io ceni con lui, c'ho da curarmene?</l>
-            <l>Ma non è questo che viene in qua, <foreign lang="lat">dominus</foreign>
+            <l>Ma non è questo che viene in qua, <foreign xml:lang="lat">dominus</foreign>
                   </l>
-            <l><foreign lang="lat">Cleandrus? bene veniat</foreign>. Noi porremoli</l>
-            <l>Il cimier de le corna <foreign lang="lat">omnino in capite</foreign>.</l>
+            <l><foreign xml:lang="lat">Cleandrus? bene veniat</foreign>. Noi porremoli</l>
+            <l>Il cimier de le corna <foreign xml:lang="lat">omnino in capite</foreign>.</l>
             <l>Polinesta per moglie avrà; che Erostrato,</l>
             <l>Per quel che detto gli ho, de le buone opere</l>
             <l>Di lei, non ha d'averla desiderio.</l>
@@ -5052,4 +5025,4 @@ Polinesta</roleDesc>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

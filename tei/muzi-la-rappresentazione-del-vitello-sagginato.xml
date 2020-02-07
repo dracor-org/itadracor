@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Nuovo corpus di sacre rappresentazioni fiorentine del Quattrocento edite e inedite tratte da manoscritti coevi o ricontrollate su di essi</title>
-          <editor id="ed">Newbigin, Nerida</editor>
+          <editor xml:id="ed">Newbigin, Nerida</editor>
           <publisher>Commissione per i testi di lingua</publisher>
           <pubPlace>Bologna</pubPlace>
           <date>1983</date>
@@ -53,10 +52,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -66,49 +65,23 @@
         <date>400</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
-        <language id="lat">Latino</language>
+        <language ident="ita">Italiano</language>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.2 - LETTERATURA DRAMMATICA ITALIANA. 1375-1492</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-09-28T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2004-10-27T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-09-28T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-10-27T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -162,12 +135,12 @@ Padre</hi></role>
         <head>La rappresentazione del vitello sagginato</head>
         <stage>
           <p>QUI SI COMINCIA L'ANNUNZIAZIONE DEL VANGELO DEL FIGLIUOLO
-PRODIGO E QUANDO TORNÒ AL PADRE. OGNI PAROLA <add resp="ed">SA</add>RÀ
+PRODIGO E QUANDO TORNÒ AL PADRE. OGNI PAROLA <add resp="#ed">SA</add>RÀ
 SCRITTO QUI DA PIÈ, E LE PAROLE DISSE IL FIGLIUOLO MAGGIORE, E 'L MINORE
 FIGLIUOLO FU QUELLO CHE SI PARTÌ DAL PADRE.</p>
           <p>FATTA QUESTA TRASLAZIONE DEL VANGELO DEL VITELLO SAGGINATO PER
 PIERO DI MARIANO BORSAIO FIORENTINO</p>
-          <p><hi rend="italic">Incomincia l'annu<add resp="ed">n</add>ziazione della festa e comincia
+          <p><hi rend="italic">Incomincia l'annu<add resp="#ed">n</add>ziazione della festa e comincia
 per uno Angelo vestito de bianco. Parla in questa forma</hi>:</p>
         </stage>
         <sp>
@@ -175,7 +148,7 @@ per uno Angelo vestito de bianco. Parla in questa forma</hi>:</p>
           <lg>
             <l>A laude sia del Padre onnipotente</l>
             <l>e della Madre Vergine Maria.</l>
-            <l>Io v'annu<add resp="ed">n</add>zio a voi, tutta gente</l>
+            <l>Io v'annu<add resp="#ed">n</add>zio a voi, tutta gente</l>
             <l>che siate qui, in questa Compagnia,</l>
             <l>come si farà ora al presente</l>
             <l>rappresentazion che divota fia.</l>
@@ -255,7 +228,7 @@ andò ratto pe' lui e rapacificollo, e menollo in casa e fece festa co' loro. E 
 fece il Figliuol Maggiore al Minore, e come egli abbracciò e baciollo teneramente. Sicché
 piacciavi di stare con divozione a udire e 'ntendere questa rappresentazione acciò che faccia
 qualche utile all'anime nostre. E così piaccia a Dio che sia, acciò che noi riceviamo quel bene che
-non viene mai meno. <foreign lang="lat">Per infinita Secula seculorum. Amen</foreign>. El
+non viene mai meno. <foreign xml:lang="lat">Per infinita Secula seculorum. Amen</foreign>. El
 Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice così</hi>:</stage>
         <sp>
           <speaker>FIGLIUOLO MINORE</speaker>
@@ -266,7 +239,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
             <l>e in lungo paese io ne vo' gire</l>
             <l>a far buon tempo, festa, canto e giuoco,</l>
             <l>e prestamente i''mi vorrei partire.</l>
-            <l><add resp="ed">Or</add> datemi la mia sostanza e parte,</l>
+            <l><add resp="#ed">Or</add> datemi la mia sostanza e parte,</l>
             <l>quel che mi tocca, e far non voglio altr'arte.</l>
           </lg>
         </sp>
@@ -404,7 +377,7 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Libero Albìtro dà i danari, e 'l Figliuolo non li lascia contare, anzi to' le
-mon<add resp="ed">e</add>te, non son conte, e fa vista di darli coll'arme. Libero Albìtro dice
+mon<add resp="#ed">e</add>te, non son conte, e fa vista di darli coll'arme. Libero Albìtro dice
 così quando ha dati e danari</hi>:</stage>
         <sp>
           <speaker>LIBERO ALBÌTRO</speaker>
@@ -519,7 +492,7 @@ forma</hi>:</stage>
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Caro arei di sapere chi voi siate</l>
-            <l>e di sapere il vostro <add resp="ed">bel</add> costume.</l>
+            <l>e di sapere il vostro <add resp="#ed">bel</add> costume.</l>
             <l>Acciò che quando chiamo rispondiate,</l>
             <l>vorrei sapere come avete nome,</l>
             <l>e intender se insieme voi v'amate,</l>
@@ -550,7 +523,7 @@ sé</hi>:</stage>
             <l>Io sì v'accetto, cari compagnoni,</l>
             <l>andianne tosto ch'io ho molti danari.</l>
             <l>El mangiar nostro fia uccellaggioni,</l>
-            <l>lepri e salvaggiumi molti <add resp="ed">e</add> vari;</l>
+            <l>lepri e salvaggiumi molti <add resp="#ed">e</add> vari;</l>
             <l>appiccherenci spesso a' buon capponi.</l>
             <l>Sia a dispetto di tutti li avari.</l>
             <l>E chi rimane si faccia con Dio</l>
@@ -572,22 +545,22 @@ Maggiore Figliuolo. Dice così</hi>:</stage>
             <l>e sempre mai siemi ubbidiente.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Figliuolo <add resp="ed">Maggiore</add> risponde al
+        <stage><hi rend="italic">Il Figliuolo <add resp="#ed">Maggiore</add> risponde al
 Padre</hi>:</stage>
         <sp>
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>padre mio, di voi m'incresce assai</l>
             <l>e della passione che avete avuta.</l>
-            <l>Del mio fratel date<add resp="ed">vi</add> pace omai</l>
-            <l><add resp="ed">che</add> io farò ogni cosa dovuta,</l>
+            <l>Del mio fratel date<add resp="#ed">vi</add> pace omai</l>
+            <l><add resp="#ed">che</add> io farò ogni cosa dovuta,</l>
             <l>e da voi non mi partirò giammai.</l>
             <l>Deh, fate fine alla cosa ch'è suta.</l>
             <l>Dite quello ch'io faccia, e lo faroe,</l>
             <l>e sempre mai sì vi ubbidiroe.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Padre dice al Figliuolo <add resp="ed">Maggiore</add></hi>:</stage>
+        <stage><hi rend="italic">Il Padre dice al Figliuolo <add resp="#ed">Maggiore</add></hi>:</stage>
         <sp>
           <speaker>PADRE</speaker>
           <lg>
@@ -601,7 +574,7 @@ Padre</hi>:</stage>
             <l>tu mel dirai, li metterò in prigione.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Figliuolo <add resp="ed">Maggiore</add> risponde al
+        <stage><hi rend="italic">Il Figliuolo <add resp="#ed">Maggiore</add> risponde al
 Padre</hi>:</stage>
         <sp>
           <speaker>FIGLIUOLO MAGGIORE</speaker>
@@ -636,7 +609,7 @@ Padre</hi>:</stage>
             <l>e gli altri libri tie'gli pur con teco.</l>
             <l>A far ragione i' sarò sempre intero</l>
             <l>con misericordia al nostro amico.</l>
-            <l>Se la chiedera<add resp="ed">n</add> sanza ingannare,</l>
+            <l>Se la chiedera<add resp="#ed">n</add> sanza ingannare,</l>
             <l>el debito lor farò cancellare.</l>
           </lg>
         </sp>
@@ -736,7 +709,7 @@ così</hi>:</stage>
           </lg>
           <lg>
             <l>Ispeso ho il mie tempo in mal fare</l>
-            <l>e arrivai in <add resp="ed">un</add> lungo paese</l>
+            <l>e arrivai in <add resp="#ed">un</add> lungo paese</l>
             <l>dov'io attesi molto a lussuriare</l>
             <l>e fatto sì ho molte male spese.</l>
             <l>Venni in bisogno e non mi pote' âtare.</l>
@@ -752,7 +725,7 @@ così</hi>:</stage>
             <l>Mandommi in villa perché v'era ghiande.</l>
             <l>Di quelle mondature m'era avaro,</l>
             <l>e non me ne potevo tôr la fame.</l>
-            <l>Guardavo i porci e stavo in su<add resp="ed">l</add> letame.</l>
+            <l>Guardavo i porci e stavo in su<add resp="#ed">l</add> letame.</l>
           </lg>
           <lg>
             <l>Tornando in me, dissi queste parole:</l>
@@ -765,7 +738,7 @@ così</hi>:</stage>
             <l>chiamandomene dolente e pentuto.</l>
           </lg>
           <lg>
-            <l>«Al padre mio dirò con gran<add resp="ed">de</add> pianto</l>
+            <l>«Al padre mio dirò con gran<add resp="#ed">de</add> pianto</l>
             <l>del più minimo servo ched e' tiene</l>
             <l>così faccia di me, se gli par tanto,</l>
             <l>ché degno sono di patir gran pene.»</l>
@@ -814,7 +787,7 @@ festa. El Padre fa loro buon viso e dice così</hi>:</stage>
             <l>acciò possiate goder con esso noi.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Rispondono li 'nvitati e uno per tutti <add resp="ed">dice</add></hi>:</stage>
+        <stage><hi rend="italic">Rispondono li 'nvitati e uno per tutti <add resp="#ed">dice</add></hi>:</stage>
         <sp>
           <speaker>INVITATI</speaker>
           <lg>
@@ -839,7 +812,7 @@ ambasciata</hi>:</stage>
             <l>Fa che sien qui con lor suoni al presente</l>
             <l>che si rallegrin tutti e nostri cori</l>
             <l>con balli e canti e allegramente,</l>
-            <l><add resp="ed">e</add> perché abbiam maggior consolazione,</l>
+            <l><add resp="#ed">e</add> perché abbiam maggior consolazione,</l>
             <l>trovate che si facci colazione.</l>
           </lg>
         </sp>
@@ -859,7 +832,7 @@ menati</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">E Sonatori suonano e fanno festa. In questo tempo el Figliuolo Maggiore
-torna di villa e vada fuori uno de' Servi del Padre e in questo modo <add resp="ed">el Figliuolo
+torna di villa e vada fuori uno de' Servi del Padre e in questo modo <add resp="#ed">el Figliuolo
 Maggiore</add> li dice</hi>:</stage>
         <sp>
           <speaker>FIGLIUOLO MAGGIORE</speaker>
@@ -867,7 +840,7 @@ Maggiore</add> li dice</hi>:</stage>
             <l>Deh dimmi, servo, che vuoi dir tal cosa</l>
             <l>ch'i' sento in casa gran romor di suoni,</l>
             <l>onde mi pare sì maravigliosa?</l>
-            <l>Deh dimmi che vuol dir, <add resp="ed">e</add> le cagioni</l>
+            <l>Deh dimmi che vuol dir, <add resp="#ed">e</add> le cagioni</l>
             <l>di questa festa cotanto amorosa,</l>
             <l>ch'elle mi paion fuor delle stagioni.</l>
             <l>Deh dimmi che novella è stata questa</l>
@@ -908,7 +881,7 @@ Maggiore</add> li dice</hi>:</stage>
           <lg>
             <l>Un'ambasciata v'ho a fare, Sire,</l>
             <l>ch'elli è di fuori il tuo figliuol maggiore</l>
-            <l>e dentro <add resp="ed">e'</add> non vuole già venire</l>
+            <l>e dentro <add resp="#ed">e'</add> non vuole già venire</l>
             <l>perché di nozze elli ha avuto sentore</l>
             <l>e hammi domandato che vuol dire.</l>
             <l>Io li ho narrato e dettoli il tenore:</l>
@@ -955,7 +928,7 @@ incontro al Figliuolo e così li dice</hi>:</stage>
             <l>e da quello non volerti partire.</l>
             <l>E acciocché tu vada allegramente,</l>
             <l>prego che tu non facci il tuo disire.</l>
-            <l><add resp="ed">El</add> tuo fratello era prima morto:</l>
+            <l><add resp="#ed">El</add> tuo fratello era prima morto:</l>
             <l>è or risuscitato e giunto a porto.</l>
           </lg>
         </sp>
@@ -982,7 +955,7 @@ incontro al Figliuolo e così li dice</hi>:</stage>
             <l>Sì ti rallegra, venut'è di fuora,</l>
             <l>sì gli dirai: — I' vo' che sia iguale</l>
             <l>a me, e ciò ch'i' ho tu' è ancora. —</l>
-            <l><add resp="ed">E</add> mostragli la faccia tua reale,</l>
+            <l><add resp="#ed">E</add> mostragli la faccia tua reale,</l>
             <l>e sì lo abbraccia e bacial con amore,</l>
             <l>e rallegrati con tutto il tuo core.</l>
           </lg>
@@ -1031,7 +1004,7 @@ festa</hi>:</stage>
             <l>e chi si esalta sarà umiliato.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Finita la nu<add resp="ed">n</add>ziazione della festa</hi>.</stage>
+        <stage><hi rend="italic">Finita la nu<add resp="#ed">n</add>ziazione della festa</hi>.</stage>
         <stage><hi rend="italic">Questa stanza si è del ringraziamento, che apparisce l'Angelo che ha
 annunziata la festa e dà licenza a tutti e dice così</hi>:</stage>
         <sp>
@@ -1127,4 +1100,4 @@ lauda che dice così</hi>:</stage>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

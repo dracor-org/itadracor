@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Teatrali contese</title>
           <title type="part">tomo</title>
           <author>Pagano, Francesco Mario</author>
-          <editor id="ed">Granese, Alberto</editor>
+          <editor xml:id="ed">Granese, Alberto</editor>
           <publisher>Edisud</publisher>
           <pubPlace>Salerno</pubPlace>
           <date>1999</date>
@@ -55,7 +54,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -65,47 +64,21 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">italiano</language>
-        <language id="lat">latino</language>
-        <language id="fr">francese</language>
+        <language ident="ita">italiano</language>
+        <language ident="lat">latino</language>
+        <language ident="fr">francese</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Salerno</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Salerno</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2005-01-18T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Antonio Elefante</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2005-01-18T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Salerno</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Salerno</name>Correzione linguistica</change>
+      <change><date>2005-01-18T00:00:00.000+02:00</date><name>Antonio Elefante</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2005-01-18T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -113,7 +86,7 @@
       <div1 n="Dedica">
         <epigraph>
           <q>
-            <foreign lang="lat">
+            <foreign xml:lang="lat">
               <emph>Pausanias lacedaemonius, magnus homo
 sed varius in omni genere vitae fuit:
 nam ut virtutibus eluxit, sic vitiis est obrutus.
@@ -3279,9 +3252,9 @@ di ritoccarli e di portarli a quel punto che la sola rappresentazione decente po
 indicare.</p>
         <p>Spesso una parola di meno o di più, o qua piuttosto che là collocata, è
 capace di produrre un effetto prodigioso. Ne sono un’evidente dimostrazione il
-<emph><foreign lang="fr">Qu'il mourût</foreign></emph> di Pier Corneille
-nell’<title>Orazio</title>; il <emph><foreign lang="fr">Vous changez de visage</foreign></emph>
-! di Racine nel <title>Mitridate</title>; il <emph><foreign lang="fr">Vous pleurez</foreign></emph>
+<emph><foreign xml:lang="fr">Qu'il mourût</foreign></emph> di Pier Corneille
+nell’<title>Orazio</title>; il <emph><foreign xml:lang="fr">Vous changez de visage</foreign></emph>
+! di Racine nel <title>Mitridate</title>; il <emph><foreign xml:lang="fr">Vous pleurez</foreign></emph>
 ! di Voltaire nella <title>Zaira</title>. Se ben si risguarda, l’incantesimo della scena di
 Fedra, obbligata a manifestare la sua incestuosa passione, è dovuto in gran parte al
 collocamento artificioso di certe parole più in un luogo che in un altro. Che ne
@@ -3492,4 +3465,4 @@ scopo il teatro e la scuola.</p>
       </div1>
     </back>
   </text>
-</TEI.2>
+</TEI>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Tutti i libretti di Mozart</title>
-          <editor id="ed">Beghelli, Marco</editor>
+          <editor xml:id="ed">Beghelli, Marco</editor>
           <publisher>Garzanti</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1990</date>
@@ -56,10 +55,10 @@
         <p>Alcuni versi sono fra parentesi tonde per indicare che si tratta di versi sussurrati.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -69,50 +68,24 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">italiano</language>
-        <language id="lat">latino</language>
-        <language id="fre">francese</language>
+        <language ident="ita">italiano</language>
+        <language ident="lat">latino</language>
+        <language ident="fre">francese</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>782.12 - LIBRETTI D'OPERA</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-05-20T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Daniele Silvi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML</item>
-      </change>
-      <change>
-        <date>2003-06-07T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-05-20T00:00:00.000+02:00</date><name>Daniele Silvi</name><name>BIBIT</name>Codifica XML</change>
+      <change><date>2003-06-07T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -731,7 +704,7 @@
           <sp>
             <speaker>ALFONSO</speaker>
             <stage>sottovoce ai due amanti</stage>
-            <l>Saldo, amico: <foreign lang="lat">finem lauda.</foreign></l>
+            <l>Saldo, amico: <foreign xml:lang="lat">finem lauda.</foreign></l>
           </sp>
           <sp>
             <speaker>FIORDILIGI, DORABELLA, FERRANDO, GUGLIELMO, ALFONSO</speaker>
@@ -1415,7 +1388,7 @@
           <sp>
             <speaker>ALFONSO, FERRANDO, GUGLIELMO </speaker>
             <l>Or la cosa è appien decisa:</l>
-            <l>Se costei non li <add resp="ed">ci</add> ravvisa</l>
+            <l>Se costei non li <add resp="#ed">ci</add> ravvisa</l>
             <l>Non c’è più nessun timor.</l>
           </sp>
           <sp>
@@ -2160,7 +2133,7 @@
             <l>Despina in maschera!</l>
             <l>Che trista pelle!</l>
           </sp>
-          <sp lang="lat">
+          <sp xml:lang="lat">
             <speaker>DESPINA</speaker>
             <l>(Salvete, amabiles</l>
             <l>Bonae puellae!)</l>
@@ -2408,7 +2381,7 @@
           </sp>
           <sp>
             <speaker>DESPINA</speaker>
-            <l>Trattar l’amore <foreign lang="fre">en bagattelle</foreign>:</l>
+            <l>Trattar l’amore <foreign xml:lang="fre">en bagattelle</foreign>:</l>
             <l>Le occasioni belle</l>
             <l>Non negliger giammai, cangiar a tempo,</l>
             <l>A tempo esser costanti;</l>
@@ -2914,7 +2887,7 @@
             <stage>da sé</stage>
             <l>Non otterrà nientissimo.</l>
             <stage>
-              <add resp="ed">a Guglielmo</add>
+              <add resp="#ed">a Guglielmo</add>
             </stage>
             <l>Saranno rimasugli</l>
             <l>Del velen che beveste.</l>
@@ -3746,7 +3719,7 @@
           <sp>
             <speaker>DESPINA</speaker>
             <stage>da sé</stage>
-            <l>Comanda in <foreign lang="fre">abrégé</foreign>, Donna Arroganza!</l>
+            <l>Comanda in <foreign xml:lang="fre">abrégé</foreign>, Donna Arroganza!</l>
             <stage>parte</stage>
           </sp>
           <sp>
@@ -3842,7 +3815,7 @@
           </sp>
           <sp>
             <speaker>FIORDILIGI, FERRANDO </speaker>
-            <l>Ah che omai la mia <add resp="ed">sua</add> costanza,</l>
+            <l>Ah che omai la mia <add resp="#ed">sua</add> costanza,</l>
             <l>A quei sguardi, a quel che dice,</l>
             <l>Incomincia a vacillar.</l>
           </sp>
@@ -4182,7 +4155,7 @@
             <l>Miei signori, tutto è fatto:</l>
             <l>Col contratto nuziale</l>
             <l>Il notaio è sulle scale,</l>
-            <l>E, <foreign lang="lat">isso facto</foreign>, qui verrà.</l>
+            <l>E, <foreign xml:lang="lat">isso facto</foreign>, qui verrà.</l>
           </sp>
           <sp>
             <speaker>FIORDILIGI, DORABELLA, FERRANDO, GUGLIELMO </speaker>
@@ -4195,7 +4168,7 @@
           <sp>
             <speaker>DESPINA</speaker>
             <stage>
-              <add resp="ed">con voce nasale</add>
+              <add resp="#ed">con voce nasale</add>
             </stage>
             <l>Augurandovi ogni bene,</l>
             <l>Il notaio Beccavivi</l>
@@ -4205,7 +4178,7 @@
             <l>Colle regole ordinarie</l>
             <l>Nelle forme giudiziarie,</l>
             <l>Pria tossendo, poi sedendo,</l>
-            <l><foreign lang="lat">Clara voce</foreign> leggerà.</l>
+            <l><foreign xml:lang="lat">Clara voce</foreign> leggerà.</l>
           </sp>
           <sp>
             <speaker>FIORDILIGI, DORABELLA, FERRANDO, GUGLIELMO, ALFONSO</speaker>
@@ -4281,7 +4254,7 @@
           </sp>
           <sp>
             <speaker>FERRANDO, GUGLIELMO, DESPINA, ALFONSO</speaker>
-            <l>Ma se ci <add resp="ed">li</add> veggono?</l>
+            <l>Ma se ci <add resp="#ed">li</add> veggono?</l>
           </sp>
           <sp>
             <speaker>FIORDILIGI, DORABELLA</speaker>
@@ -4289,7 +4262,7 @@
           </sp>
           <sp>
             <speaker>FERRANDO, GUGLIELMO, DESPINA, ALFONSO</speaker>
-            <l>Ma se ci <add resp="ed">li</add> incontrano?</l>
+            <l>Ma se ci <add resp="#ed">li</add> incontrano?</l>
           </sp>
           <stage>Fiordiligi e Dorabella conducono li due amanti in una camera. Don Alfonso conduce Despina in un’altra. Gli amanti escono non veduti e partono.</stage>
           <sp>
@@ -4551,4 +4524,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

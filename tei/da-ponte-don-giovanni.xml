@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Tutti i libretti di Mozart</title>
-          <editor id="ed">Beghelli, Marco</editor>
+          <editor xml:id="ed">Beghelli, Marco</editor>
           <publisher>Garzanti</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1990</date>
@@ -56,10 +55,10 @@
         <p>Alcuni versi sono fra parentesi tonde per indicare che si tratta di versi sussurrati.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -69,48 +68,22 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">italiano</language>
+        <language ident="ita">italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>782.12 - LIBRETTI D'OPERA</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-05-19T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Daniele Silvi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-06-03T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-05-19T00:00:00.000+02:00</date><name>Daniele Silvi</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-06-03T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -833,9 +806,9 @@
           </sp>
           <sp>
             <speaker>ZERLINA, MASETTO</speaker>
-            <l>Vieni, vieni, carino <add resp="ed">carina</add> e godiamo,</l>
+            <l>Vieni, vieni, carino <add resp="#ed">carina</add> e godiamo,</l>
             <l>E cantiamo e balliamo e saltiamo;</l>
-            <l>Vieni, vieni, carino <add resp="ed">carina</add> e godiamo,</l>
+            <l>Vieni, vieni, carino <add resp="#ed">carina</add> e godiamo,</l>
             <l>Che piacer, che piacer che sarà!</l>
           </sp>
           <sp>
@@ -2287,14 +2260,14 @@
           </sp>
           <sp>
             <speaker>DON GIOVANNI, LEPORELLO</speaker>
-            <l>È confusa la mia <add resp="ed">sua</add> testa,</l>
-            <l>Non so <add resp="ed">sa</add> più quel ch'io mi <add resp="ed">ei si</add> faccia,</l>
+            <l>È confusa la mia <add resp="#ed">sua</add> testa,</l>
+            <l>Non so <add resp="#ed">sa</add> più quel ch'io mi <add resp="#ed">ei si</add> faccia,</l>
             <l>E un'orribile tempesta</l>
-            <l>Minacciando, oh Dio! mi <add resp="ed">lo</add> va.</l>
-            <l>Ma non manca in me <add resp="ed">lui</add> coraggio,</l>
-            <l>Non mi <add resp="ed">si</add> perdo <add resp="ed">perde</add> o mi <add resp="ed">si</add> confondo <add resp="ed">confonde</add>.</l>
+            <l>Minacciando, oh Dio! mi <add resp="#ed">lo</add> va.</l>
+            <l>Ma non manca in me <add resp="#ed">lui</add> coraggio,</l>
+            <l>Non mi <add resp="#ed">si</add> perdo <add resp="#ed">perde</add> o mi <add resp="#ed">si</add> confondo <add resp="#ed">confonde</add>.</l>
             <l>Se cadesse ancora il mondo</l>
-            <l>Nulla mai temer mi <add resp="ed">lo</add> fa.</l>
+            <l>Nulla mai temer mi <add resp="#ed">lo</add> fa.</l>
           </sp>
         </div2>
       </div1>
@@ -3038,7 +3011,7 @@
           <sp>
             <speaker>ELVIRA, LEPORELLO</speaker>
             <l>Una porta là vegg'io.</l>
-            <l>Cheta <add resp="ed">Cheto</add> cheta <add resp="ed">cheto</add> io vo' partir.</l>
+            <l>Cheta <add resp="#ed">Cheto</add> cheta <add resp="#ed">cheto</add> io vo' partir.</l>
           </sp>
           <stage>nel sortire incontrano Zerlina e Masetto</stage>
         </div2>
@@ -3091,7 +3064,7 @@
             <speaker>ANNA, ZERLINA, ELVIRA, OTTAVIO, MASETTO</speaker>
             <l>Dei! Leporello!</l>
             <l>Che inganno è questo!</l>
-            <l>Stupida <add resp="ed">Stupido</add> resto:</l>
+            <l>Stupida <add resp="#ed">Stupido</add> resto:</l>
             <l>Che mai sarà!</l>
           </sp>
           <sp>
@@ -4182,7 +4155,7 @@
           </sp>
           <sp>
             <speaker>ZERLINA, MASETTO</speaker>
-            <l>Noi, Masetto <add resp="ed">Zerlina</add>, a casa andiamo,</l>
+            <l>Noi, Masetto <add resp="#ed">Zerlina</add>, a casa andiamo,</l>
             <l>A cenar in compagnia.</l>
           </sp>
           <sp>
@@ -4208,4 +4181,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

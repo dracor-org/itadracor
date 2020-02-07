@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,9 +26,9 @@
           <title>Opere</title>
           <title type="part">Poesie e tragedie</title>
           <author>Foscolo, Ugo</author>
-          <editor id="ed">Gavazzeni, Franco</editor>
-          <editor id="ed2">Lombardi, Maria Maddalena</editor>
-          <editor id="ed3">Longoni, Franco</editor>
+          <editor xml:id="ed">Gavazzeni, Franco</editor>
+          <editor xml:id="ed2">Lombardi, Maria Maddalena</editor>
+          <editor xml:id="ed3">Longoni, Franco</editor>
           <publisher>Einaudi - Gallimard</publisher>
           <pubPlace>Torino</pubPlace>
           <date>[1994]</date>
@@ -57,10 +56,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -70,49 +69,23 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>851.6 - Poesia italiana. Periodo del rinnovamento, 1748-1814</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Pavia</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Pavia</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-11-21T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marta Zanazzi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2003-12-01T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Correzione linguistica</change>
+      <change><date>2003-11-21T00:00:00.000+02:00</date><name>Marta Zanazzi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2003-12-01T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -130,7 +103,7 @@
       </div1>
       <div1 n="Epigrafe">
         <l>
-          <foreign lang="lat" rend="sc">hoc tibi, nec tanto careat mihi nomine charta</foreign>
+          <foreign xml:lang="lat" rend="sc">hoc tibi, nec tanto careat mihi nomine charta</foreign>
         </l>
         <bibl>
           <author><emph rend="sc">tibul</emph>.</author>
@@ -2475,4 +2448,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

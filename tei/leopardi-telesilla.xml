@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Tutte le opere</title>
           <author>Leopardi, Giacomo</author>
-          <editor id="ed">Felici, Lucio</editor>
+          <editor xml:id="ed">Felici, Lucio</editor>
           <publisher>Lexis Progetti Editoriali</publisher>
           <pubPlace>Roma</pubPlace>
           <date>1998</date>
@@ -55,10 +54,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -68,48 +67,22 @@
         <date>800</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>858.7 - MISCELLANEA ITALIANA. 1814-1859</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LEXIS</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LEXIS</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-05-17T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Chiodi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2004-05-27T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LEXIS</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LEXIS</name>Correzione linguistica</change>
+      <change><date>2004-05-17T00:00:00.000+02:00</date><name>Elena Chiodi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2004-05-27T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1303,4 +1276,4 @@ Danaino. Molte volte io son tornato di maggior periglio e più lunga dimora ec. 
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

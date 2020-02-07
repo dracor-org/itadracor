@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 PUBLIC "-//BIBIT//DTD BibIt L1 TEI Document Type//EN" "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Tutte le opere di Ludovico Ariosto</title>
           <title type="part">v.</title>
           <author>Ariosto, Ludovico</author>
-          <editor id="ed">Ronchi, Gabriella</editor>
+          <editor xml:id="ed">Ronchi, Gabriella</editor>
           <publisher>Mondadori</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1974</date>
@@ -56,7 +55,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -66,45 +65,19 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2007-06-08T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Novadata systems</name>
-        </respStmt>
-        <item>Digitalizzazione - OCR</item>
-      </change>
-      <change>
-        <date>2007-10-01T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2007-11-14T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2007-11-16T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2007-06-08T00:00:00.000+02:00</date><name>Novadata systems</name>Digitalizzazione - OCR</change>
+      <change><date>2007-10-01T00:00:00.000+02:00</date><name>BIBIT</name>Correzione linguistica</change>
+      <change><date>2007-11-14T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2007-11-16T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1929,7 +1902,7 @@
           </sp>
           <sp>
             <speaker>NIBBIO:</speaker>
-            <l>(<foreign lang="lat">Cuius figurae</foreign>? ben si può dir: <foreign lang="lat">simplicis</foreign>.)</l>
+            <l>(<foreign xml:lang="lat">Cuius figurae</foreign>? ben si può dir: <foreign xml:lang="lat">simplicis</foreign>.)</l>
           </sp>
           <sp>
             <speaker>ASTROLOGO:</speaker>
@@ -2683,8 +2656,8 @@
             <l part="F">Vuo' veder, prima che a crescere</l>
             <l>Più cominci la spesa, se sanabile</l>
             <l>È questo male o no; che conoscendolo</l>
-            <l>Senza rimedio pur (<foreign lang="lat">quod praesupponere</foreign></l>
-            <l><foreign lang="lat">Nolo</foreign>), più onor a me, e a voi più utile</l>
+            <l>Senza rimedio pur (<foreign xml:lang="lat">quod praesupponere</foreign></l>
+            <l><foreign xml:lang="lat">Nolo</foreign>), più onor a me, e a voi più utile</l>
             <l>Saria, se chiaro vel facessi intendere.</l>
           </sp>
           <sp>
@@ -4971,4 +4944,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

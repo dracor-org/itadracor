@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Commedie dei comici dell'arte</title>
-          <editor id="ed">Falavolti, Laura</editor>
+          <editor xml:id="ed">Falavolti, Laura</editor>
           <publisher>UTET</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1982</date>
@@ -53,10 +52,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -66,56 +65,30 @@
         <date>600</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.5 - LETTERATURA DRAMMATICA ITALIANA. 1585-1748</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Siena</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Siena</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-07-29T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marta Zanazzi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Siena</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Siena</name>Correzione linguistica</change>
+      <change><date>2003-07-29T00:00:00.000+02:00</date><name>Marta Zanazzi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
       <div1 type="dedica">
         <head rend="sc">
-          <add resp="ed">AL DUCA SANNESIO</add>
+          <add resp="#ed">AL DUCA SANNESIO</add>
         </head>
         <opener>
           <salute>Illustrissimo ed eccellentissimo signore,</salute>
@@ -172,7 +145,7 @@ umilissimo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">dottor</emph>.</speaker>
-            <p><foreign lang="lat">Amicitiam frangere potest dici frangere amicitiam et</foreign> amicus non est amicus, si amicitia non durat.</p>
+            <p><foreign xml:lang="lat">Amicitiam frangere potest dici frangere amicitiam et</foreign> amicus non est amicus, si amicitia non durat.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">pantalone</emph>.</speaker>
@@ -213,7 +186,7 @@ umilissimo servitore
           <stage>
             <hi rend="sc">virginio, celia</hi>
             <hi rend="italic">con una serva</hi>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">dottore</hi>
               <hi rend="italic">e</hi>
               <hi rend="sc">pantalone</hi>
@@ -937,7 +910,7 @@ umilissimo servitore
           <head rend="italic">SCENA XV</head>
           <stage>
             <hi rend="sc">flaminia, cinzio, virginio</hi>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">fritellino</hi>
             </add>
           </stage>
@@ -1087,7 +1060,7 @@ umilissimo servitore
             <hi rend="italic">e</hi>
             <hi rend="sc">capitano</hi>
             <hi rend="italic">in disparte</hi>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">cinzio</hi>
             </add>
           </stage>
@@ -1117,7 +1090,7 @@ umilissimo servitore
             <hi rend="sc">flaminia, fritellino, cinzio</hi>
             <hi rend="italic">e</hi>
             <hi rend="sc">capitano</hi>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">celia</hi>
               <hi rend="italic">e</hi>
               <hi rend="sc">virginio</hi>
@@ -1881,7 +1854,7 @@ umilissimo servitore
         <div2 type="scena">
           <head rend="italic">SCENA XVI</head>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="italic">Tutti i personaggi della precedente, più</hi>
               <hi rend="sc">cinzio</hi>
             </add>
@@ -2451,7 +2424,7 @@ umilissimo servitore
         <div2 type="scena">
           <head rend="italic">SCENA XI</head>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="italic">Personaggi della precedente, più</hi>
               <hi rend="sc">pantalone</hi>
             </add>
@@ -2748,7 +2721,7 @@ umilissimo servitore
         <div2 type="scena">
           <head rend="italic">SCENA XVI</head>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="italic">Personaggi della precedente, più</hi>
               <hi rend="sc">flaminia</hi>
             </add>
@@ -2931,7 +2904,7 @@ umilissimo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">cinzio</emph>.</speaker>
-            <p><foreign lang="lat">Et est</foreign>. Si può vedere?</p>
+            <p><foreign xml:lang="lat">Et est</foreign>. Si può vedere?</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">pantalone</emph>.</speaker>
@@ -3157,7 +3130,7 @@ umilissimo servitore
         <div2 type="scena">
           <head rend="italic">SCENA XXVI</head>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="italic">Personaggi della precedente, più</hi>
               <hi rend="sc">bagattino</hi>
               <hi rend="italic">e</hi>
@@ -3192,4 +3165,4 @@ umilissimo servitore
       <pb n="748"/>
     </body>
   </text>
-</TEI.2>
+</TEI>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 PUBLIC "-//BIBIT//DTD BibIt L1 TEI Document Type//EN" "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +54,7 @@
         <p>Nella trascrizione si sono conservate le grafie, mentre si è modernizzata l'interpunzione.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -65,47 +64,19 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2001-09-01T00:00:00.000+01:00</date>
-        <respStmt>
-          <name>Camilla Ghedini</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>2001-09-01T00:00:00.000+01:00</date>
-        <respStmt>
-          <name>Camilla Ghedini</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2001-10-14T00:00:00.000+01:00</date>
-        <respStmt>
-          <name>Valentina Gritti</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Codifica XML - Sono state controllate la trascrizione e le codifiche, correggendone gli errori.</item>
-      </change>
-      <change>
-        <date>2003-06-03T00:00:00.000+01:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2001-09-01T00:00:00.000+01:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>2001-09-01T00:00:00.000+01:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2001-10-14T00:00:00.000+01:00</date><name>Valentina Gritti</name><name>CIBIT - Ferrara</name>Codifica XML - Sono state controllate la trascrizione e le codifiche, correggendone gli errori.</change>
+      <change><date>2003-06-03T00:00:00.000+01:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -306,7 +277,7 @@
             <l>Pianti sospiri e domandar mercede</l>
             <l>Mostrommi l'ombra d'una breve notte</l>
             <l>All'hora quel ch'el lungo corso e 'l lume</l>
-            <l>Di <num value="1000">mille</num> giorni non m'havea mostrato</l>
+            <l>Di <num value="#1000">mille</num> giorni non m'havea mostrato</l>
             <l>Ripresi all'hor me stessa e la mia cieca</l>
             <l>Simplicitate e dissi sospirando</l>
             <l>Eccoti <name>Cintia</name> il corno eccoti l'Arco</l>
@@ -361,7 +332,7 @@
           </sp>
           <sp>
             <speaker>SILVIA</speaker>
-            <l part="F">Odio il suo Amo<add resp="ed">re</add>
+            <l part="F">Odio il suo Amo<add resp="#ed">re</add>
                   </l>
             <l>Ch'odia la mia honestade, et amai lui</l>
             <l>Mentre ei volse di me quel ch'io volea</l>
@@ -405,7 +376,7 @@
             <l>E gli huomini e le donne? e non t'accorgi</l>
             <l>Come tutte le cose</l>
             <l>Hor sono inamorate</l>
-            <l>D'un amor pien di gioia e di s<add resp="ed">.....</add>
+            <l>D'un amor pien di gioia e di s<add resp="#ed">.....</add>
                   </l>
             <l>Mira la quel colombo</l>
             <l>Che con dolce sussurro lusingando</l>
@@ -656,7 +627,7 @@
             <l>e di <name>Montan</name> richissimo di armenti</l>
             <l><name>Silvia</name> honor de le selve ardor de l'arme? </l>
             <l>Di questa parlo. ah lasso vissi à questa</l>
-            <l>Così unito alcun tempo che fra <num value="2">due</num>
+            <l>Così unito alcun tempo che fra <num value="#2">due</num>
                   </l>
             <l>Tortorelle più fida compagnia</l>
             <l>Non sarà mai ne fue</l>
@@ -734,8 +705,8 @@
             <l>D'appressare alla sua questa mia bocca</l>
             <l>È fatto (non so come) astuto, e scaltro</l>
             <l>Più del usato guarda quanto Amore</l>
-            <l>Aguzza l'intelletto <add resp="ed">mi so</add>venne</l>
-            <l>D'un inganno .gen<add resp="ed">tile</add> co'l qual io</l>
+            <l>Aguzza l'intelletto <add resp="#ed">mi so</add>venne</l>
+            <l>D'un inganno .gen<add resp="#ed">tile</add> co'l qual io</l>
             <l>Recar potessi à fine il mio talento</l>
             <l>Che fingendo che un' ape havesse morso</l>
             <l>il mio labro di sotto incominciai</l>
@@ -758,10 +729,10 @@
             <l>Se ben gli ardenti baci</l>
             <l>Che spingeva il desire à inhumidirsi</l>
             <l>Rafrenò la temenza</l>
-            <l><add resp="ed">E la </add> vergogna e felli</l>
-            <l>Più <add resp="ed">le</add>nti e meno audaci</l>
+            <l><add resp="#ed">E la </add> vergogna e felli</l>
+            <l>Più <add resp="#ed">le</add>nti e meno audaci</l>
             <l>Ma mentre al cuor scendea</l>
-            <l>Q<add resp="ed">uella</add> dolcezza mista</l>
+            <l>Q<add resp="#ed">uella</add> dolcezza mista</l>
             <l>D'un secreto veleno</l>
             <l>Tal diletto n'havea</l>
             <l>Che fingendo ch'anchor non mi passasse</l>
@@ -784,7 +755,7 @@
             <l>Ne hebbi altra risposta che un silentio</l>
             <l>Un silentio turbato e pien di dure</l>
             <l>Minaccie. Indi si tolse e più non volle</l>
-            <l>Ne vedermi ne udirmi e gia <num value="3">tre</num> volte</l>
+            <l>Ne vedermi ne udirmi e gia <num value="#3">tre</num> volte</l>
             <l>Ha il nudo mietitor tronche le spiche</l>
             <l>Et altre tante il verno ha scosso i boschi</l>
             <l>di loro verdi chiome et ogni cosa</l>
@@ -792,7 +763,7 @@
             <l>Mi resta sol che per placarla io moia</l>
             <l>E morrò volontier purch'io sia certo</l>
             <l>Ch'ella ò se ne compiaccia ò se ne doglia</l>
-            <l>Ne so di tai <num value="2">due</num> cose qual più brami</l>
+            <l>Ne so di tai <num value="#2">due</num> cose qual più brami</l>
             <l>Ben fora la pietà premio maggiore</l>
             <l>A la mia fede, e maggior ricompensa</l>
             <l>A la mia morte ma bramar non deggio</l>
@@ -868,7 +839,7 @@
             <l>Prendosi à gabbo e fanno brutti scherzi</l>
             <l>Di noi rustici incauti. Però figlio</l>
             <l>Va su l'aviso e non t'appressar troppo</l>
-            <l>Ora sian drappi colorati <add resp="ed">e</add> d'oro</l>
+            <l>Ora sian drappi colorati <add resp="#ed">e</add> d'oro</l>
             <l>E penacchi e divise e foggie nove</l>
             <l>Ma sopra tutto guarda che mal fatto</l>
             <l>O giovenil vaghezza non ti meni</l>
@@ -883,7 +854,7 @@
             <l>Sporte son piene di vesiche bugie</l>
             <l>Quivi le mura son fatte con arte</l>
             <l>Che parlano e rispondono à i parlanti</l>
-            <l>Ne già <add resp="ed">ri</add> rispondon la parola mozza</l>
+            <l>Ne già <add resp="#ed">ri</add> rispondon la parola mozza</l>
             <l>Come <name>Echo</name> suole ne le nostre selve</l>
             <l>Ma la replican tutta intiera intiera</l>
             <l>Con giunta anco di quel ch'altri non disse</l>
@@ -891,7 +862,7 @@
             <l>Le scranne le lettiere le cortine</l>
             <l>E gli arnesi di camera e di sala</l>
             <l>Han tutti lingua voce e gridan sempre</l>
-            <l>Quivi le ciancie in forma di bambi<add resp="ed">sc</add>e</l>
+            <l>Quivi le ciancie in forma di bambi<add resp="#ed">sc</add>e</l>
             <l>Vanno trescando e s'un Muto v'entrasse</l>
             <l>Un muto cianciarebbe à suo dispetto</l>
             <l>Ma questo è il minor mal che ti potesse</l>
@@ -907,9 +878,9 @@
             <l>Di sirene celesti e n'uscian suoni</l>
             <l>Soavi e chiari e tant'altro diletto</l>
             <l>Ch'attonito godendo et amirando</l>
-            <l>Mi <add resp="ed">fermai</add> buona <add resp="ed">pezza era</add> su l'uscio</l>
+            <l>Mi <add resp="#ed">fermai</add> buona <add resp="#ed">pezza era</add> su l'uscio</l>
             <l>Quasi per guardia de le cose belle</l>
-            <l>Huom d'aspetto magnanimo e ro<add resp="ed">busto</add>
+            <l>Huom d'aspetto magnanimo e ro<add resp="#ed">busto</add>
                   </l>
             <l>Di cui per quanto intesi in dubio stassi</l>
             <l>S'egli sia miglior duce ò cavagliero</l>
@@ -929,15 +900,15 @@
             <l>Deitade e cantai guerre et Herroi</l>
             <l>Sdegnando pastoral ruvido carme</l>
             <l>E se ben poi com'altrui piacque feci</l>
-            <l>Ritorno à queste selve io pur rite<add resp="ed">nni</add>
+            <l>Ritorno à queste selve io pur rite<add resp="#ed">nni</add>
                   </l>
-            <l>Parte di quello spirto. Ne già suo<add resp="ed">na</add>
+            <l>Parte di quello spirto. Ne già suo<add resp="#ed">na</add>
                   </l>
-            <l>La mia sampogna humil come sol<add resp="ed">eva</add>
+            <l>La mia sampogna humil come sol<add resp="#ed">eva</add>
                   </l>
             <l>Ma di voce più altera e più sonora</l>
             <l>Emula de le trombe empir le selve</l>
-            <l>Udimmi <name>Mopso</name> poscia e <add resp="ed">co</add>n maligno</l>
+            <l>Udimmi <name>Mopso</name> poscia e <add resp="#ed">co</add>n maligno</l>
             <l>Guardo mirando affascinommi ond'io</l>
             <l>Roco divenni e poi gran tempo tacqui</l>
             <l>Quando i Pastor credean ch'io fossi stato</l>
@@ -976,7 +947,7 @@
             <l>Ma sol perchè quel vano</l>
             <l>Nome senza soggetto</l>
             <l>Quel che dal vulgo insano</l>
-            <l><add resp="ed">Onor</add> poscia fu detto</l>
+            <l><add resp="#ed">Onor</add> poscia fu detto</l>
             <l>Che di nostra natura il feo tiranno</l>
             <l>Non meschiava il suo affanno</l>
             <l>Fra le liete dolcezze</l>
@@ -1048,7 +1019,7 @@
             <l>E pur fa tanto grandi e si mortali</l>
             <l>E cosi immedicabili le piaghe</l>
             <l>Ohime che tutte piaga e tutte sangue</l>
-            <l>Son le viscere mie e <num value="1000">mille</num> spiedi</l>
+            <l>Son le viscere mie e <num value="#1000">mille</num> spiedi</l>
             <gap extent="1 verso"/>
             <l>Ha negli occhi di <name>Silvia</name> empia e crudele</l>
             <l>Più che le selve, ò come a te confessi</l>
@@ -1191,10 +1162,10 @@
           <sp>
             <speaker>TIRSI</speaker>
             <l part="F">E perchè? Tu non sei</l>
-            <l>Atta à tener <num value="1000">mille</num> fanciulle à scuola? </l>
+            <l>Atta à tener <num value="#1000">mille</num> fanciulle à scuola? </l>
             <l>Benchè per dirti il ver non han bisogno</l>
             <l>Di maestro: Maestro è la natura</l>
-            <l><add resp="ed">Ma la ma</add>dre e la balia anco v'han parte</l>
+            <l><add resp="#ed">Ma la ma</add>dre e la balia anco v'han parte</l>
           </sp>
           <sp>
             <speaker>DAFNE</speaker>
@@ -1228,7 +1199,7 @@
             <l>Intanto io più ridea del suo rossore</l>
             <l>Ella più s'arrossia del riso mio</l>
             <l>Ma perchè avolta una parte de crini</l>
-            <l>E l'altra havea sparsa una ò <num value="2">due</num> volte</l>
+            <l>E l'altra havea sparsa una ò <num value="#2">due</num> volte</l>
             <l>Con gli occhi al lago consiglier ricorse</l>
             <l>E si mirò quasi di furto pure</l>
             <l>Temendo ch'io nel suo guatar guatassi</l>
@@ -1349,7 +1320,7 @@
             <l>Ma non vogliamo noi parlare alquanto</l>
             <l>Di te medesmo? horsù <name>Tirsi</name> non vuoi</l>
             <l>Tu inamorarti? Sei giovane ancora</l>
-            <l>Ne passi di <num value="4">quatro</num> anni il quinto lustro.</l>
+            <l>Ne passi di <num value="#4">quatro</num> anni il quinto lustro.</l>
             <l>Se ben soviemmi quando eri Fanciullo</l>
             <l>Vuoi viver neghittoso senza gioia? </l>
             <l>Che solo amando huom sa che sia diletto.</l>
@@ -1388,7 +1359,7 @@
             <speaker>TIRSI</speaker>
             <l>Periglioso è cercar quel che trovato</l>
             <l>Trastulla si ma più tormenta assai</l>
-            <l>Non ritrovato all'hor vedr<add resp="ed">ass</add>i Amante</l>
+            <l>Non ritrovato all'hor vedr<add resp="#ed">ass</add>i Amante</l>
             <l><name>Tirsi</name> mai più ch'<name>Amor</name> nel regno suo</l>
             <l>Non havrà più ne pianti ne sospiri</l>
             <l>Abastanza ho già pianto e sospirato</l>
@@ -1805,7 +1776,7 @@
           <sp>
             <stage>TIRSI CHORO</stage>
             <l>O crudeltade estrema ò ingrato core</l>
-            <l>Ò donna ingrata: ò <num value="3">tre</num> fiate e <num value="4">quatro</num>
+            <l>Ò donna ingrata: ò <num value="#3">tre</num> fiate e <num value="#4">quatro</num>
                   </l>
             <l>Ingratissimo sesso: e tu Natura</l>
             <l>Negligente maestra perchè solo</l>
@@ -1814,7 +1785,7 @@
             <l>Di mansueto e di cortese e tutte</l>
             <l>L'altre parti obliasti? ahi miserello</l>
             <l>Forse ha se stesso ucciso ei non appare</l>
-            <l>Io l'ho cerco e ricerco homai <num value="3">tre</num> hore</l>
+            <l>Io l'ho cerco e ricerco homai <num value="#3">tre</num> hore</l>
             <l>Nel luogo ov'io lasciailo e ne contorni</l>
             <l>Ne trovo lui ne orma de suoi passi</l>
             <l>Ahi che s'è certo ucciso io vo novella</l>
@@ -1849,7 +1820,7 @@
           </sp>
           <sp>
             <speaker>CHORO</speaker>
-            <l><num value="2">Duo</num> potenti nemici insieme aggiunti</l>
+            <l><num value="#2">Duo</num> potenti nemici insieme aggiunti</l>
             <l>Che far non ponno? ma parla più chiaro</l>
           </sp>
           <sp>
@@ -1888,7 +1859,7 @@
             <l>Ecco miriamo à un arbore legato</l>
             <l>La giovinetta ignuda come nacque:</l>
             <l>Et à legarla fune era il suo crine</l>
-            <l>Il suo crine medesmo in <num value="1000">mille</num> nodi</l>
+            <l>Il suo crine medesmo in <num value="#1000">mille</num> nodi</l>
             <l>A la pianta era avolto e'l suo bel cinto</l>
             <l>Che del sen virginal fu pria custode</l>
             <l>Di quello stupro era ministro et ambe</l>
@@ -1902,7 +1873,7 @@
             <l>Ella quanto potea facea scherno</l>
             <l>Ma che potuto havrebbe à lungo andar? </l>
             <l><name>Aminta</name> con un dardo che tena</l>
-            <l>Ne la man destra al satiro aventoss<add resp="ed">e</add>
+            <l>Ne la man destra al satiro aventoss<add resp="#ed">e</add>
                   </l>
             <l>Come un leone et io fra tanto pieno</l>
             <l>M'havea di sassi il grembo onde fuggissi</l>
@@ -1924,7 +1895,7 @@
           </sp>
           <sp>
             <speaker>CHORO</speaker>
-            <l>Parole d'<add resp="ed">amm</add>ollire un cor di sasso</l>
+            <l>Parole d'<add resp="#ed">amm</add>ollire un cor di sasso</l>
             <l part="I">Ma che rispose all'hor.</l>
           </sp>
           <sp>
@@ -2176,7 +2147,7 @@
             <l>Quivi il dardo di <name>Silvia</name> in terra scorsi</l>
             <l>Ne molto indi lontano un bianco velo</l>
             <l>Ch'io stessa le ravolsi al crine: e mentre</l>
-            <l>Mi guardo intorno vidi <num value="7">sette</num> lupi</l>
+            <l>Mi guardo intorno vidi <num value="#7">sette</num> lupi</l>
             <l>Che leccavan di terra al quanto sangue</l>
             <l>Sparso intorno à cert'ossa affatto nude</l>
             <l>E fu mia sorte ch'io non fui veduta</l>
@@ -2234,7 +2205,7 @@
           <sp>
             <speaker>AMINTA</speaker>
             <l>Ohime che vuoi ch'attenda? </l>
-            <l>Ohime ch'ho troppo atteso <add resp="ed">e</add> troppo inteso</l>
+            <l>Ohime ch'ho troppo atteso <add resp="#ed">e</add> troppo inteso</l>
           </sp>
           <sp>
             <speaker>NIRINA</speaker>
@@ -2532,7 +2503,7 @@
           <sp>
             <speaker>DAFNE</speaker>
             <l>Questo è pianto d'Amor che troppo abbonda</l>
-            <l>Tu taci? ami<add resp="ed">ti</add> tu <name>Silvia</name>? ami: ma invano</l>
+            <l>Tu taci? ami<add resp="#ed">ti</add> tu <name>Silvia</name>? ami: ma invano</l>
             <l>O potenza d'Amor giusto castigo</l>
             <l>Mandi sovra costei misero <name>Aminta</name>
                   </l>
@@ -2941,7 +2912,7 @@
             <l><name>Montano</name> di lei padre et à condurlo</l>
             <l>Colà dov'essi stanno. E solo il suo</l>
             <l>Volere e quel che manca e che prolunga</l>
-            <l>Il concorde voler d'ambo <num value="2">due</num> loro</l>
+            <l>Il concorde voler d'ambo <num value="#2">due</num> loro</l>
           </sp>
           <sp>
             <speaker>CHORO</speaker>
@@ -3089,4 +3060,4 @@
       <trailer>IL FINE.</trailer>
     </body>
   </text>
-</TEI.2>
+</TEI>

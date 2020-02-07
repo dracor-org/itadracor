@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +23,7 @@
       <sourceDesc>
         <bibl>
           <title>Nuovo corpus di sacre rappresentazioni fiorentine del Quattrocento edite e inedite tratte da manoscritti coevi o ricontrollate su di essi</title>
-          <editor id="ed">Newbigin, Nerida</editor>
+          <editor xml:id="ed">Newbigin, Nerida</editor>
           <publisher>Commissione per i testi di lingua</publisher>
           <pubPlace>Bologna</pubPlace>
           <date>1983</date>
@@ -52,10 +51,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -65,48 +64,22 @@
         <date>400</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.2 - LETTERATURA DRAMMATICA ITALIANA. 1375-1492</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-09-27T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2004-09-30T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-09-27T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-09-30T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -288,7 +261,7 @@ E DICE COSÌ:</stage>
             <l>che somma mente alla natura ha data;</l>
             <l>per che venir omai vuolsi a cimento,</l>
             <l>che gli sie la materia annunzïata,</l>
-            <l>e adorare<add resp="ed">n</add> il nostro Imperadore</l>
+            <l>e adorare<add resp="#ed">n</add> il nostro Imperadore</l>
             <l>come di cielo e terra ver signore.</l>
           </lg>
         </sp>
@@ -301,7 +274,7 @@ detto</hi>:</stage>
             <l>debbe più rettamente giudicare.</l>
             <l>Le parti che tu di', i' te l'ammetto,</l>
             <l>né con ragion si posson dinegare.</l>
-            <l>Ottimo <add resp="ed">è</add> dunque venire all'effetto</l>
+            <l>Ottimo <add resp="#ed">è</add> dunque venire all'effetto</l>
             <l>e questa cosa a capo omai cavare,</l>
             <l>ch'e fatti grandi vuol gli animi franchi.</l>
             <l>Diciàngliel, dunque, acciò che nulla manchi.</l>
@@ -564,7 +537,7 @@ dice</hi>:</stage>
           <lg>
             <l>O magnanimo Imperio e giusto Sire,</l>
             <l>timon d'ogni sapere e cortesia</l>
-            <l>Iddio ti salvi in vita alta<add resp="ed">e</add> tranquilla</l>
+            <l>Iddio ti salvi in vita alta<add resp="#ed">e</add> tranquilla</l>
             <l>Ecco ch'a te tornata è la Sibilla:</l>
           </lg>
         </sp>
@@ -662,7 +635,7 @@ aperto</hi>:</stage>
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>I' veggo un cerchio sì maraviglioso</l>
-            <l>che ma' più bel no<add resp="ed">n</add> vidde creatura,</l>
+            <l>che ma' più bel no<add resp="#ed">n</add> vidde creatura,</l>
             <l>fermo nel cielo, e d'or sì luminoso</l>
             <l>che la mie vista nulla non vi dura.</l>
           </lg>
@@ -700,7 +673,7 @@ aperto</hi>:</stage>
             <l>Quattordici anni il tempo mi consente</l>
             <l>ch'ella mi mostri, e 'n ciò non posso errare.</l>
             <l>I' guardo fisso e di mirar non mollo,</l>
-            <l>e veggiol<add resp="ed">e</add> ora un bambolino in collo.</l>
+            <l>e veggiol<add resp="#ed">e</add> ora un bambolino in collo.</l>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo Imperadore</hi>:</stage>
@@ -747,7 +720,7 @@ aperto</hi>:</stage>
         <sp>
           <speaker>IMPERATORE</speaker>
           <lg>
-            <l><add resp="ed">O</add> vergine prudente e benedetta,</l>
+            <l><add resp="#ed">O</add> vergine prudente e benedetta,</l>
             <l>mille merzé che m'hai alluminato</l>
             <l>di questa pura verità perfetta,</l>
             <l>e di chi merta d'esser onorato;</l>
@@ -779,7 +752,7 @@ lui parlano così dicendo</hi>:</stage>
             <l>Quel vivo e vero Iddio immaculato</l>
             <l>che creò e cieli e terra e la natura</l>
             <l>sanza fine debbe esser adorato,</l>
-            <l>che sempre vive e<add resp="ed">e</add>ternalmente dura.</l>
+            <l>che sempre vive e<add resp="#ed">e</add>ternalmente dura.</l>
             <l>I' son mortale e son per morir nato,</l>
             <l>e debbo coricarmi in sepultura.</l>
             <l>Se 'l mondo si riposa in somma pace,</l>
@@ -871,7 +844,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           <lg>
             <l>Salviti Iddio, che se' nostro Signore,</l>
             <l>Figliuol d'Iddio nominato Gesue.</l>
-            <l>No' veggiam pur che di te fa<add resp="ed">n</add> onore</l>
+            <l>No' veggiam pur che di te fa<add resp="#ed">n</add> onore</l>
             <l>un asinello bello e un bel bue.</l>
           </lg>
         </sp>
@@ -1019,4 +992,4 @@ Cristo</hi>.</p>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

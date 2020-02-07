@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,8 +25,8 @@
         <bibl>
           <title>Teatro del Quattrocento</title>
           <title type="part">Le corti padane</title>
-          <editor id="ed">Tissoni Benvenuti, Antonia</editor>
-          <editor id="ed2">Mussini Sacchi, Maria Pia</editor>
+          <editor xml:id="ed">Tissoni Benvenuti, Antonia</editor>
+          <editor xml:id="ed2">Mussini Sacchi, Maria Pia</editor>
           <publisher>UTET</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1983</date>
@@ -55,10 +54,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -68,49 +67,23 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
-        <language id="lat">Latino</language>
+        <language ident="ita">Italiano</language>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>792.0945 - Teatro italiano</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-08-30T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marco Fucini e Sonia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2004-09-17T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-08-30T00:00:00.000+02:00</date><name>Marco Fucini e Sonia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-09-17T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -623,29 +596,29 @@
         <stage>Finite queste parolle l'uscio par che si serra per sé e <hi rend="sc">PSICHE</hi> rimane sarata in camera, dove si lava, cena e va a dormire e da uno altro canto le due magior sorelle ritrovandosi in casa del mesto patre fano gli soi lamenti cantando la subseguente ode.</stage>
         <sp>
           <speaker>Le due <hi rend="sc">SORELLE</hi> de <hi rend="sc">PSICHE</hi>.</speaker>
-          <l>Patre almo, caro<space dim="horizontal" extent="20 mm"/>e tu, pia genetrice</l>
-          <l>ch'in pianto amaro<space dim="horizontal" extent="20 mm"/>per la morta Psiche</l>
-          <l>tanto infelice,<space dim="horizontal" extent="20 mm"/>miseri vivete</l>
+          <l>Patre almo, caro<space dim="horizontal" quantity="20 mm"/>e tu, pia genetrice</l>
+          <l>ch'in pianto amaro<space dim="horizontal" quantity="20 mm"/>per la morta Psiche</l>
+          <l>tanto infelice,<space dim="horizontal" quantity="20 mm"/>miseri vivete</l>
           <l>più non piangete;</l>
-          <l>lassate el pianto<space dim="horizontal" extent="20 mm"/>a noi due poverelle</l>
-          <l>qual meste tanto<space dim="horizontal" extent="20 mm"/>quanto altre sorelle</l>
-          <l>biasman le stelle<space dim="horizontal" extent="20 mm"/>qual ne son sì iniche,</l>
+          <l>lassate el pianto<space dim="horizontal" quantity="20 mm"/>a noi due poverelle</l>
+          <l>qual meste tanto<space dim="horizontal" quantity="20 mm"/>quanto altre sorelle</l>
+          <l>biasman le stelle<space dim="horizontal" quantity="20 mm"/>qual ne son sì iniche,</l>
           <l>empie e nemiche.</l>
-          <l>Or che faremo<space dim="horizontal" extent="20 mm"/>in questa amara vita,</l>
-          <l>qual trovaremo<space dim="horizontal" extent="20 mm"/>al dolor nostro aita,</l>
-          <l>poi c'ha finita<space dim="horizontal" extent="20 mm"/>la sua sorte umana</l>
+          <l>Or che faremo<space dim="horizontal" quantity="20 mm"/>in questa amara vita,</l>
+          <l>qual trovaremo<space dim="horizontal" quantity="20 mm"/>al dolor nostro aita,</l>
+          <l>poi c'ha finita<space dim="horizontal" quantity="20 mm"/>la sua sorte umana</l>
           <l>nostra germana?</l>
-          <l>Ahi crudo Fatto<space dim="horizontal" extent="20 mm"/>et improbo destino,</l>
-          <l>che n'hai rubato<space dim="horizontal" extent="20 mm"/>el suo viso divino</l>
-          <l>nel bel camino<space dim="horizontal" extent="20 mm"/>de soi giorni gai!</l>
+          <l>Ahi crudo Fatto<space dim="horizontal" quantity="20 mm"/>et improbo destino,</l>
+          <l>che n'hai rubato<space dim="horizontal" quantity="20 mm"/>el suo viso divino</l>
+          <l>nel bel camino<space dim="horizontal" quantity="20 mm"/>de soi giorni gai!</l>
           <l>Or di': che n'hai ?</l>
-          <l>Altri guadagni<space dim="horizontal" extent="20 mm"/>già tu non facesti</l>
-          <l>se non ch'in lagni<space dim="horizontal" extent="20 mm"/>lacrimosi, infesti,</l>
-          <l>tu lassi i mesti<space dim="horizontal" extent="20 mm"/>soi parenti e amici</l>
+          <l>Altri guadagni<space dim="horizontal" quantity="20 mm"/>già tu non facesti</l>
+          <l>se non ch'in lagni<space dim="horizontal" quantity="20 mm"/>lacrimosi, infesti,</l>
+          <l>tu lassi i mesti<space dim="horizontal" quantity="20 mm"/>soi parenti e amici</l>
           <l>tanto infelici.</l>
-          <l>Rapidi fiumi<space dim="horizontal" extent="20 mm"/>che dal cuor venete,</l>
-          <l>e fuor dai lumi<space dim="horizontal" extent="20 mm"/>cum furor corrette,</l>
-          <l>orsù, piovete<space dim="horizontal" extent="20 mm"/>sopra del terreno,</l>
+          <l>Rapidi fiumi<space dim="horizontal" quantity="20 mm"/>che dal cuor venete,</l>
+          <l>e fuor dai lumi<space dim="horizontal" quantity="20 mm"/>cum furor corrette,</l>
+          <l>orsù, piovete<space dim="horizontal" quantity="20 mm"/>sopra del terreno,</l>
           <l>cavette el freno.</l>
         </sp>
         <stage>Finita questa oda la camera del patre ove sone queste due SORELLE si serra et CUPIDO in quello instante essendo in letto cum la sua PSICHE parla cum lei stando però sempre la camera serrata e dicegli cossì:</stage>
@@ -758,29 +731,29 @@
           <speaker>
             <hi rend="sc">Le SORELLE.</hi>
           </speaker>
-          <l>Triste, meschine,<space dim="horizontal" extent="20 mm"/>ohimè de noi che fia?</l>
-          <l>Qual peregrine<space dim="horizontal" extent="20 mm"/>se n'andian per via</l>
-          <l>cum fantasia<space dim="horizontal" extent="20 mm"/>et intimo dolore</l>
+          <l>Triste, meschine,<space dim="horizontal" quantity="20 mm"/>ohimè de noi che fia?</l>
+          <l>Qual peregrine<space dim="horizontal" quantity="20 mm"/>se n'andian per via</l>
+          <l>cum fantasia<space dim="horizontal" quantity="20 mm"/>et intimo dolore</l>
           <l>intorno al cuore.</l>
-          <l>Qual donne fùro<space dim="horizontal" extent="20 mm"/>di noi più afflitte,</l>
-          <l>che in pianto oscuro<space dim="horizontal" extent="20 mm"/>e da dolor traffitte</l>
-          <l>portiamo scrite<space dim="horizontal" extent="20 mm"/>ne le facie smorte</l>
+          <l>Qual donne fùro<space dim="horizontal" quantity="20 mm"/>di noi più afflitte,</l>
+          <l>che in pianto oscuro<space dim="horizontal" quantity="20 mm"/>e da dolor traffitte</l>
+          <l>portiamo scrite<space dim="horizontal" quantity="20 mm"/>ne le facie smorte</l>
           <l>nostra ria sorte?</l>
-          <l>Ahi, morte dira<space dim="horizontal" extent="20 mm"/>e piena d'ogni male,</l>
-          <l>contra noi tira<space dim="horizontal" extent="20 mm"/>l'arco tuo mortale,</l>
-          <l>e col tuo strale<space dim="horizontal" extent="20 mm"/>danne aspre ferite</l>
+          <l>Ahi, morte dira<space dim="horizontal" quantity="20 mm"/>e piena d'ogni male,</l>
+          <l>contra noi tira<space dim="horizontal" quantity="20 mm"/>l'arco tuo mortale,</l>
+          <l>e col tuo strale<space dim="horizontal" quantity="20 mm"/>danne aspre ferite</l>
           <l>a nostre vite,</l>
-          <l>poi che abatesti<space dim="horizontal" extent="20 mm"/>ne l'acerba giostra</l>
-          <l>e che occidesti<space dim="horizontal" extent="20 mm"/>la sorella nostra,</l>
-          <l>qual fe' tal mostra<space dim="horizontal" extent="20 mm"/>cum sue virtù magne,</l>
+          <l>poi che abatesti<space dim="horizontal" quantity="20 mm"/>ne l'acerba giostra</l>
+          <l>e che occidesti<space dim="horizontal" quantity="20 mm"/>la sorella nostra,</l>
+          <l>qual fe' tal mostra<space dim="horizontal" quantity="20 mm"/>cum sue virtù magne,</l>
           <l>ch'ognun la piagne.</l>
-          <l>Psiche, sorella,<space dim="horizontal" extent="20 mm"/>dove sei? Che fai?</l>
-          <l>Tua facia bella<space dim="horizontal" extent="20 mm"/>quando vedren mai?</l>
-          <l>Se patian guai<space dim="horizontal" extent="20 mm"/>degli tal casi rei,</l>
+          <l>Psiche, sorella,<space dim="horizontal" quantity="20 mm"/>dove sei? Che fai?</l>
+          <l>Tua facia bella<space dim="horizontal" quantity="20 mm"/>quando vedren mai?</l>
+          <l>Se patian guai<space dim="horizontal" quantity="20 mm"/>degli tal casi rei,</l>
           <l>pensar lo dèi.</l>
-          <l>Odi le voci<space dim="horizontal" extent="20 mm"/>e le querelle insane</l>
-          <l>e i pianti attroci<space dim="horizontal" extent="20 mm"/>de le tue germane,</l>
-          <l>ch'in queste strane<space dim="horizontal" extent="20 mm"/>et aspre centrate</l>
+          <l>Odi le voci<space dim="horizontal" quantity="20 mm"/>e le querelle insane</l>
+          <l>e i pianti attroci<space dim="horizontal" quantity="20 mm"/>de le tue germane,</l>
+          <l>ch'in queste strane<space dim="horizontal" quantity="20 mm"/>et aspre centrate</l>
           <l>stan sconsolate!</l>
         </sp>
         <stage><hi rend="sc">PSICHE</hi> esce del pallazo et udendo i queruli ululati e dolente voci de le sorelle sue dice:</stage>
@@ -1029,16 +1002,16 @@
           </speaker>
           <l>Ohimè, che non troviano</l>
           <l>collei ch'abiamo persa,</l>
-          <l>qual per sua sorte adversa<space dim="horizontal" extent="20 mm"/>forse è morta.</l>
+          <l>qual per sua sorte adversa<space dim="horizontal" quantity="20 mm"/>forse è morta.</l>
           <l>Qual fia che ne conforta?</l>
           <l>Che ne darà soccorso,</l>
-          <l>poi che del caso occorso<space dim="horizontal" extent="20 mm"/>abian tal doglia?</l>
+          <l>poi che del caso occorso<space dim="horizontal" quantity="20 mm"/>abian tal doglia?</l>
           <l>Se sian de mala voglia</l>
           <l>ai volti nostri afflitti</l>
-          <l>cum chiari soprascripti<space dim="horizontal" extent="20 mm"/>el demostriamo,</l>
+          <l>cum chiari soprascripti<space dim="horizontal" quantity="20 mm"/>el demostriamo,</l>
           <l>che Psiche noi cerchiamo</l>
           <l>cum gran singulti e pianto,</l>
-          <l>e lei in alcun canto<space dim="horizontal" extent="20 mm"/>non troviano.</l>
+          <l>e lei in alcun canto<space dim="horizontal" quantity="20 mm"/>non troviano.</l>
         </sp>
         <stage><hi rend="sc">PSICHE</hi> essendo in letto col marito ode la sua voce che gli dice queste parolle:</stage>
         <sp>
@@ -1083,12 +1056,12 @@
           <l>ché, amando ogni tuo ben, amo anco el mio.</l>
           <stage>Essendo partito <hi rend="sc">CUPIDO</hi>, al solito modo <hi rend="sc">PSICHE</hi> apre l'uscio de la camera e dice lei sola così:</stage>
           <l>Quanto gaudio sento io</l>
-          <l>di questo figliol mio<space dim="horizontal" extent="20 mm"/>ch'in ventre ho ascoso.</l>
-          <l>Se sto col cuor gioioso,<space dim="horizontal" extent="20 mm"/>i' n'ho ragione,</l>
-          <l>ché questo mio garzone<space dim="horizontal" extent="20 mm"/>fia divino.</l>
-          <l>Se 'l mio cor è indovino,<space dim="horizontal" extent="20 mm"/>esser de' apunto</l>
-          <l>el sesto meiso giunto<space dim="horizontal" extent="20 mm"/>ch'io rimasi</l>
-          <l>gravida, e quasi<space dim="horizontal" extent="20 mm"/>io non sento el pondo</l>
+          <l>di questo figliol mio<space dim="horizontal" quantity="20 mm"/>ch'in ventre ho ascoso.</l>
+          <l>Se sto col cuor gioioso,<space dim="horizontal" quantity="20 mm"/>i' n'ho ragione,</l>
+          <l>ché questo mio garzone<space dim="horizontal" quantity="20 mm"/>fia divino.</l>
+          <l>Se 'l mio cor è indovino,<space dim="horizontal" quantity="20 mm"/>esser de' apunto</l>
+          <l>el sesto meiso giunto<space dim="horizontal" quantity="20 mm"/>ch'io rimasi</l>
+          <l>gravida, e quasi<space dim="horizontal" quantity="20 mm"/>io non sento el pondo</l>
           <l>ch'ho nel mio corpo tumido e fecundo.</l>
         </sp>
         <stage><hi rend="sc">LE DUE SORELLE</hi> andando al scoglio ove fu lassata <hi rend="sc">PSICHE</hi> dicono per strada fra loro:</stage>
@@ -1510,20 +1483,20 @@
             <hi rend="sc">LA PRIMA SORELLA.</hi>
           </speaker>
           <l>Io credo ormai che Psiche</l>
-          <l>se affanni et affatiche<space dim="horizontal" extent="20 mm"/>in far l'impresa:</l>
-          <l>noi l'abiàn tanto accesa<space dim="horizontal" extent="20 mm"/>in far quest'opra</l>
-          <l>che forza fia che scopra<space dim="horizontal" extent="20 mm"/>el volto ascoso</l>
-          <l>del suo non visto sposo,<space dim="horizontal" extent="20 mm"/>e a questa volta</l>
-          <l>la rimarà disciolta<space dim="horizontal" extent="20 mm"/>del suo amore,</l>
-          <l>ché ben me dice el cuore<space dim="horizontal" extent="20 mm"/>ch'egli accorto</l>
+          <l>se affanni et affatiche<space dim="horizontal" quantity="20 mm"/>in far l'impresa:</l>
+          <l>noi l'abiàn tanto accesa<space dim="horizontal" quantity="20 mm"/>in far quest'opra</l>
+          <l>che forza fia che scopra<space dim="horizontal" quantity="20 mm"/>el volto ascoso</l>
+          <l>del suo non visto sposo,<space dim="horizontal" quantity="20 mm"/>e a questa volta</l>
+          <l>la rimarà disciolta<space dim="horizontal" quantity="20 mm"/>del suo amore,</l>
+          <l>ché ben me dice el cuore<space dim="horizontal" quantity="20 mm"/>ch'egli accorto</l>
           <l>risveglierassi e non fia da lei morto.</l>
           <l>Se costui morto fia,</l>
-          <l>questo el mio cuor desia,<space dim="horizontal" extent="20 mm"/>e se fia scampo,</l>
-          <l>di doglia aver gran vampo<space dim="horizontal" extent="20 mm"/>già non voglio,</l>
-          <l>ché sol m'atristo e doglio<space dim="horizontal" extent="20 mm"/>di sua sorte</l>
-          <l>sì bona, e non di morte<space dim="horizontal" extent="20 mm"/>sua son vaga:</l>
-          <l>me basta che m'impaga<space dim="horizontal" extent="20 mm"/>de 'sta trista</l>
-          <l>e che poi la conquista<space dim="horizontal" extent="20 mm"/>e facia tanto</l>
+          <l>questo el mio cuor desia,<space dim="horizontal" quantity="20 mm"/>e se fia scampo,</l>
+          <l>di doglia aver gran vampo<space dim="horizontal" quantity="20 mm"/>già non voglio,</l>
+          <l>ché sol m'atristo e doglio<space dim="horizontal" quantity="20 mm"/>di sua sorte</l>
+          <l>sì bona, e non di morte<space dim="horizontal" quantity="20 mm"/>sua son vaga:</l>
+          <l>me basta che m'impaga<space dim="horizontal" quantity="20 mm"/>de 'sta trista</l>
+          <l>e che poi la conquista<space dim="horizontal" quantity="20 mm"/>e facia tanto</l>
           <l>che lei sprezzata se consumi in pianto.</l>
         </sp>
         <stage>Finito el secundo atto el <hi rend="sc">CORO</hi> canta questa canzoneta.</stage>
@@ -1533,36 +1506,36 @@
           </speaker>
           <l>Che cerchi far, o Psiche,</l>
           <l>con questo tuo coltello?</l>
-          <l>Voler occider quello<space dim="horizontal" extent="20 mm"/>che sì t'ama?</l>
+          <l>Voler occider quello<space dim="horizontal" quantity="20 mm"/>che sì t'ama?</l>
           <l>Ohimè, che la tua trama</l>
           <l>è vana e a te dannosa:</l>
-          <l>ma sei da tua bramosa<space dim="horizontal" extent="20 mm"/>voglia indutta.</l>
+          <l>ma sei da tua bramosa<space dim="horizontal" quantity="20 mm"/>voglia indutta.</l>
           <l>Collor che t'han condutta</l>
           <l>a questa iniquitate,</l>
-          <l>saranno castigate<space dim="horizontal" extent="20 mm"/>del suo errore.</l>
+          <l>saranno castigate<space dim="horizontal" quantity="20 mm"/>del suo errore.</l>
           <l>Non vede tu che è Amore</l>
           <l>collui che occider vòi?</l>
-          <l>Se vedi i volti soi,<space dim="horizontal" extent="20 mm"/>serai pentita.</l>
+          <l>Se vedi i volti soi,<space dim="horizontal" quantity="20 mm"/>serai pentita.</l>
           <l>Tal gli darai ferita</l>
           <l>cum l'olio ardente ch'hai,</l>
-          <l>che tosto restarai<space dim="horizontal" extent="20 mm"/>da lui disgiunta.</l>
+          <l>che tosto restarai<space dim="horizontal" quantity="20 mm"/>da lui disgiunta.</l>
           <l>Ohimè, che sarai punta</l>
           <l>d'uno aureo suo strale,</l>
-          <l>tal che del tuo gran male<space dim="horizontal" extent="20 mm"/>farai pianti.</l>
+          <l>tal che del tuo gran male<space dim="horizontal" quantity="20 mm"/>farai pianti.</l>
           <l>Deh, levati davanti,</l>
           <l>non prender la lucerna,</l>
-          <l>che per tua doglia eterna<space dim="horizontal" extent="20 mm"/>serà presa!</l>
+          <l>che per tua doglia eterna<space dim="horizontal" quantity="20 mm"/>serà presa!</l>
           <l>Lassa la vana impresa,</l>
           <l>ché cerchi el tuo gran danno,</l>
-          <l>ch'Amor, per più tuo affanno,<space dim="horizontal" extent="20 mm"/>è per lassarti.</l>
+          <l>ch'Amor, per più tuo affanno,<space dim="horizontal" quantity="20 mm"/>è per lassarti.</l>
           <l>Dal bon precetto parti</l>
           <l>che 'l bel fanciul ti dede,</l>
-          <l>e rotta gli hai la fede,<space dim="horizontal" extent="20 mm"/>o ingrata Psiche!</l>
+          <l>e rotta gli hai la fede,<space dim="horizontal" quantity="20 mm"/>o ingrata Psiche!</l>
         </sp>
       </div1>
       <div1>
         <head>
-          <foreign lang="lat">TERTIUS ACTUS</foreign>
+          <foreign xml:lang="lat">TERTIUS ACTUS</foreign>
         </head>
         <stage>Costoro se ascondano e <hi rend="sc">PSICHE</hi> essendo col marito suo in letto, nel dormir che lui fa ella si leva pian piano et apre l'uscio et dice:</stage>
         <sp>
@@ -1570,24 +1543,24 @@
             <hi rend="sc">PSICHE.</hi>
           </speaker>
           <l>Ohimè, che gli è pur giunto</l>
-          <l>el desiato punto,<space dim="horizontal" extent="20 mm"/>e mie man ponno</l>
-          <l>in questo primo sonno<space dim="horizontal" extent="20 mm"/>far l'officio</l>
-          <l>e dar mortal suplizio<space dim="horizontal" extent="20 mm"/>col mio ferro</l>
-          <l>a questo, il qual se afferro<space dim="horizontal" extent="20 mm"/>ben nel collo</l>
-          <l>io gli darò tal crollo,<space dim="horizontal" extent="20 mm"/>che la vita</l>
-          <l>tosto farà partita<space dim="horizontal" extent="20 mm"/>dal suo petto.</l>
-          <l>Pian pian me ne vo al letto,<space dim="horizontal" extent="20 mm"/>e il ferro prendo</l>
-          <l>così crudele e orrendo,<space dim="horizontal" extent="20 mm"/>e la lucerna,</l>
-          <l>aciò che ben discerna<space dim="horizontal" extent="20 mm"/>quel ch'ho a fare.</l>
-          <l>A lui mi vo acostare,<space dim="horizontal" extent="20 mm"/>poi ch'ho el lume.</l>
-          <l>Ohimè ch'egli ha le piume!<space dim="horizontal" extent="20 mm"/>Ohimè che belli</l>
-          <l>et aurati capelli!<space dim="horizontal" extent="20 mm"/>Ahi che bel viso!</l>
-          <l>Quanto più el guardo fiso,<space dim="horizontal" extent="20 mm"/>più me fido</l>
-          <l>de dir che sia Cupido,<space dim="horizontal" extent="20 mm"/>perché ha l'ali:</l>
-          <l>questi sono i soi strali<space dim="horizontal" extent="20 mm"/>acuti in punta.</l>
-          <l>Ohimè, che mi son punta,<space dim="horizontal" extent="20 mm"/>e' mi escie el sangue!</l>
-          <l>Ohimè, che 'l cuor mi langue,<space dim="horizontal" extent="20 mm"/>ohimè, ch'io moio!</l>
-          <l>Di man el fer rasoio,<space dim="horizontal" extent="20 mm"/>ohimè, mi cade:</l>
+          <l>el desiato punto,<space dim="horizontal" quantity="20 mm"/>e mie man ponno</l>
+          <l>in questo primo sonno<space dim="horizontal" quantity="20 mm"/>far l'officio</l>
+          <l>e dar mortal suplizio<space dim="horizontal" quantity="20 mm"/>col mio ferro</l>
+          <l>a questo, il qual se afferro<space dim="horizontal" quantity="20 mm"/>ben nel collo</l>
+          <l>io gli darò tal crollo,<space dim="horizontal" quantity="20 mm"/>che la vita</l>
+          <l>tosto farà partita<space dim="horizontal" quantity="20 mm"/>dal suo petto.</l>
+          <l>Pian pian me ne vo al letto,<space dim="horizontal" quantity="20 mm"/>e il ferro prendo</l>
+          <l>così crudele e orrendo,<space dim="horizontal" quantity="20 mm"/>e la lucerna,</l>
+          <l>aciò che ben discerna<space dim="horizontal" quantity="20 mm"/>quel ch'ho a fare.</l>
+          <l>A lui mi vo acostare,<space dim="horizontal" quantity="20 mm"/>poi ch'ho el lume.</l>
+          <l>Ohimè ch'egli ha le piume!<space dim="horizontal" quantity="20 mm"/>Ohimè che belli</l>
+          <l>et aurati capelli!<space dim="horizontal" quantity="20 mm"/>Ahi che bel viso!</l>
+          <l>Quanto più el guardo fiso,<space dim="horizontal" quantity="20 mm"/>più me fido</l>
+          <l>de dir che sia Cupido,<space dim="horizontal" quantity="20 mm"/>perché ha l'ali:</l>
+          <l>questi sono i soi strali<space dim="horizontal" quantity="20 mm"/>acuti in punta.</l>
+          <l>Ohimè, che mi son punta,<space dim="horizontal" quantity="20 mm"/>e' mi escie el sangue!</l>
+          <l>Ohimè, che 'l cuor mi langue,<space dim="horizontal" quantity="20 mm"/>ohimè, ch'io moio!</l>
+          <l>Di man el fer rasoio,<space dim="horizontal" quantity="20 mm"/>ohimè, mi cade:</l>
           <l>così stupisco per sua gran beltade!</l>
         </sp>
         <stage><hi rend="sc">PSICHE</hi> basiando <hi rend="sc">CUPIDO</hi> che dormiva e piegando nel basar la lucerna ch'era accesa e piena d'olio bollente, una gocia calda gli cade su la spalla di esso <hi rend="sc">CUPIDO</hi>, quale scotando lo sveglia e dice cum gran crido:</stage>
@@ -1698,25 +1671,25 @@
             <hi rend="sc">PSICHE</hi>
           </speaker>
           <l>Dove cercar più degio</l>
-          <l>collui che col cor vegio<space dim="horizontal" extent="20 mm"/>e non coi lumi,</l>
-          <l>per cui conven consumi<space dim="horizontal" extent="20 mm"/>e che m'affligi?</l>
-          <l>Io seguo i soi vestigii<space dim="horizontal" extent="20 mm"/>e pur no 'l trovo.</l>
-          <l>Ohimè, che a l'alma provo<space dim="horizontal" extent="20 mm"/>un mal sì extremo</l>
-          <l>ch'in fiame occulte i' tremo,<space dim="horizontal" extent="20 mm"/>agacio et ardo</l>
-          <l>per quel occulto dardo<space dim="horizontal" extent="20 mm"/>che mi punse</l>
-          <l>quando da me se sgiunse<space dim="horizontal" extent="20 mm"/>el bel Cupido.</l>
-          <l>Ohimè ch'io piango e crido,<space dim="horizontal" extent="20 mm"/>e mie man mordo</l>
-          <l>sempre che me ricordo<space dim="horizontal" extent="20 mm"/>del mio errore</l>
-          <l>che veder volse Amore<space dim="horizontal" extent="20 mm"/>al suo despetto.</l>
-          <l>Ma questo fu deffetto<space dim="horizontal" extent="20 mm"/>de le due</l>
-          <l>sorelle, che cum sue<space dim="horizontal" extent="20 mm"/>parolle accorte</l>
-          <l>a questa extrema sorte<space dim="horizontal" extent="20 mm"/>m'han condutta.</l>
-          <l>Ma nel mio cuor ho instrutta<space dim="horizontal" extent="20 mm"/>una vendetta</l>
-          <l>e prima ch'io mi metta<space dim="horizontal" extent="20 mm"/> 'andar più longi</l>
-          <l>forza è che me congiongi<space dim="horizontal" extent="20 mm"/>cum costoro.</l>
-          <l>Io vegio una di loro<space dim="horizontal" extent="20 mm"/>star in strada:</l>
-          <l>da lei conven che vada<space dim="horizontal" extent="20 mm"/>cum bei modi</l>
-          <l>acciò l'inganni e frodi,<space dim="horizontal" extent="20 mm"/>e ch'io gli dica</l>
+          <l>collui che col cor vegio<space dim="horizontal" quantity="20 mm"/>e non coi lumi,</l>
+          <l>per cui conven consumi<space dim="horizontal" quantity="20 mm"/>e che m'affligi?</l>
+          <l>Io seguo i soi vestigii<space dim="horizontal" quantity="20 mm"/>e pur no 'l trovo.</l>
+          <l>Ohimè, che a l'alma provo<space dim="horizontal" quantity="20 mm"/>un mal sì extremo</l>
+          <l>ch'in fiame occulte i' tremo,<space dim="horizontal" quantity="20 mm"/>agacio et ardo</l>
+          <l>per quel occulto dardo<space dim="horizontal" quantity="20 mm"/>che mi punse</l>
+          <l>quando da me se sgiunse<space dim="horizontal" quantity="20 mm"/>el bel Cupido.</l>
+          <l>Ohimè ch'io piango e crido,<space dim="horizontal" quantity="20 mm"/>e mie man mordo</l>
+          <l>sempre che me ricordo<space dim="horizontal" quantity="20 mm"/>del mio errore</l>
+          <l>che veder volse Amore<space dim="horizontal" quantity="20 mm"/>al suo despetto.</l>
+          <l>Ma questo fu deffetto<space dim="horizontal" quantity="20 mm"/>de le due</l>
+          <l>sorelle, che cum sue<space dim="horizontal" quantity="20 mm"/>parolle accorte</l>
+          <l>a questa extrema sorte<space dim="horizontal" quantity="20 mm"/>m'han condutta.</l>
+          <l>Ma nel mio cuor ho instrutta<space dim="horizontal" quantity="20 mm"/>una vendetta</l>
+          <l>e prima ch'io mi metta<space dim="horizontal" quantity="20 mm"/> 'andar più longi</l>
+          <l>forza è che me congiongi<space dim="horizontal" quantity="20 mm"/>cum costoro.</l>
+          <l>Io vegio una di loro<space dim="horizontal" quantity="20 mm"/>star in strada:</l>
+          <l>da lei conven che vada<space dim="horizontal" quantity="20 mm"/>cum bei modi</l>
+          <l>acciò l'inganni e frodi,<space dim="horizontal" quantity="20 mm"/>e ch'io gli dica</l>
           <l>ch'Amor la vòl per sua fida amica.</l>
         </sp>
         <stage><hi rend="sc">PSICHE</hi> giunta da la <hi rend="sc">SORELLA</hi> magiore gli dice:</stage>
@@ -1794,12 +1767,12 @@
             <hi rend="sc">LA SORELLA</hi>
           </speaker>
           <l>Marito mio diletto,</l>
-          <l>ogi m'è stato detto<space dim="horizontal" extent="20 mm"/>et acertato</l>
-          <l>che 'l patre mio è passato<space dim="horizontal" extent="20 mm"/>de 'sta vita,</l>
-          <l>dil che tuta stordita<space dim="horizontal" extent="20 mm"/>son rimasa.</l>
-          <l>Cum tua licenzia a casa<space dim="horizontal" extent="20 mm"/>sua vo' andare</l>
-          <l>et ivi sospirare<space dim="horizontal" extent="20 mm"/>e lamentarmi</l>
-          <l>che 'l debito ben parmi<space dim="horizontal" extent="20 mm"/>a far tai pianti,</l>
+          <l>ogi m'è stato detto<space dim="horizontal" quantity="20 mm"/>et acertato</l>
+          <l>che 'l patre mio è passato<space dim="horizontal" quantity="20 mm"/>de 'sta vita,</l>
+          <l>dil che tuta stordita<space dim="horizontal" quantity="20 mm"/>son rimasa.</l>
+          <l>Cum tua licenzia a casa<space dim="horizontal" quantity="20 mm"/>sua vo' andare</l>
+          <l>et ivi sospirare<space dim="horizontal" quantity="20 mm"/>e lamentarmi</l>
+          <l>che 'l debito ben parmi<space dim="horizontal" quantity="20 mm"/>a far tai pianti,</l>
           <l>quando sarò da mia matre avanti.</l>
         </sp>
         <sp>
@@ -1807,12 +1780,12 @@
             <hi rend="sc">EL MARITO.</hi>
           </speaker>
           <l>Dulcissima mia moglie,</l>
-          <l>io sento al cuor gran doglie<space dim="horizontal" extent="20 mm"/>per tal caso:</l>
-          <l>in tuto or son rimaso<space dim="horizontal" extent="20 mm"/>senza lume.</l>
-          <l>Ma poi ch'egli è costume<space dim="horizontal" extent="20 mm"/>ch'ognuom more,</l>
+          <l>io sento al cuor gran doglie<space dim="horizontal" quantity="20 mm"/>per tal caso:</l>
+          <l>in tuto or son rimaso<space dim="horizontal" quantity="20 mm"/>senza lume.</l>
+          <l>Ma poi ch'egli è costume<space dim="horizontal" quantity="20 mm"/>ch'ognuom more,</l>
           <l>io portarò el dolore meglio in pace.</l>
-          <l>Deh, fa come ti piace,<space dim="horizontal" extent="20 mm"/>ma ti exorto</l>
-          <l>quando tu arai pianto el morto<space dim="horizontal" extent="20 mm"/>che tu torni,</l>
+          <l>Deh, fa come ti piace,<space dim="horizontal" quantity="20 mm"/>ma ti exorto</l>
+          <l>quando tu arai pianto el morto<space dim="horizontal" quantity="20 mm"/>che tu torni,</l>
           <l>e cum tua matre troppo non sogiorni.</l>
         </sp>
         <stage>La magior <hi rend="sc">SORELLA</hi> dice per camino così:</stage>
@@ -1821,20 +1794,20 @@
             <hi rend="sc">LA SORELLA</hi>
           </speaker>
           <l>Io me ne vado in fretta</l>
-          <l>da Amore che m'aspetta<space dim="horizontal" extent="20 mm"/>cum desio,</l>
-          <l>e spero altra esser io<space dim="horizontal" extent="20 mm"/>cum lui che quella</l>
-          <l>mia simplice sorella,<space dim="horizontal" extent="20 mm"/>che l'ha perso,</l>
-          <l>per non andargli a verso,<space dim="horizontal" extent="20 mm"/>e godrò l'oro,</l>
-          <l>le gemme e lo tesoro,<space dim="horizontal" extent="20 mm"/>e quelle veste</l>
-          <l>de fino auro conteste,<space dim="horizontal" extent="20 mm"/>e sue richeze,</l>
+          <l>da Amore che m'aspetta<space dim="horizontal" quantity="20 mm"/>cum desio,</l>
+          <l>e spero altra esser io<space dim="horizontal" quantity="20 mm"/>cum lui che quella</l>
+          <l>mia simplice sorella,<space dim="horizontal" quantity="20 mm"/>che l'ha perso,</l>
+          <l>per non andargli a verso,<space dim="horizontal" quantity="20 mm"/>e godrò l'oro,</l>
+          <l>le gemme e lo tesoro,<space dim="horizontal" quantity="20 mm"/>e quelle veste</l>
+          <l>de fino auro conteste,<space dim="horizontal" quantity="20 mm"/>e sue richeze,</l>
           <l>et egli goderà le mie belleze.</l>
           <l>Poi che son gionta al scoglio</l>
-          <l>precipitarmi voglio<space dim="horizontal" extent="20 mm"/>al modo usato,</l>
-          <l>aciò che col suo fiato<space dim="horizontal" extent="20 mm"/>el dolce vento</l>
-          <l>me porti a salvamento.<space dim="horizontal" extent="20 mm"/>Amor, per moglie</l>
-          <l>fa' che me accetti e toglie,<space dim="horizontal" extent="20 mm"/>e tu suave</l>
-          <l>Zefir non ti grave<space dim="horizontal" extent="20 mm"/>in puoco d'ora</l>
-          <l>portar me, tua signora,<space dim="horizontal" extent="20 mm"/>sopra el tergo</l>
+          <l>precipitarmi voglio<space dim="horizontal" quantity="20 mm"/>al modo usato,</l>
+          <l>aciò che col suo fiato<space dim="horizontal" quantity="20 mm"/>el dolce vento</l>
+          <l>me porti a salvamento.<space dim="horizontal" quantity="20 mm"/>Amor, per moglie</l>
+          <l>fa' che me accetti e toglie,<space dim="horizontal" quantity="20 mm"/>e tu suave</l>
+          <l>Zefir non ti grave<space dim="horizontal" quantity="20 mm"/>in puoco d'ora</l>
+          <l>portar me, tua signora,<space dim="horizontal" quantity="20 mm"/>sopra el tergo</l>
           <l>al rico, adorno, degno et aureo albergo.</l>
         </sp>
         <stage>Costei precipitandosi giù dal scoglio cum opinione che <hi rend="sc">ZEFIRO</hi> al modo usato la racogli e porti al albergo d'<hi rend="sc">AMORE</hi>, non lo trovando ruina giù al basso e si rompe el collo.</stage>
@@ -1843,36 +1816,36 @@
             <hi rend="sc">PSICHE.</hi>
           </speaker>
           <l>La magior mia sorella</l>
-          <l>se parte, e d'esser quella<space dim="horizontal" extent="20 mm"/>se persuade</l>
-          <l>che cum la sua beltate<space dim="horizontal" extent="20 mm"/>degia avere</l>
-          <l>Cupido, e de giacere<space dim="horizontal" extent="20 mm"/>seco in letto:</l>
-          <l>ma vano fia el diletto<space dim="horizontal" extent="20 mm"/>ch'aver spera,</l>
-          <l>perché conven che pera,<space dim="horizontal" extent="20 mm"/>giù dal sasso</l>
-          <l>cadendo cum fracasso,<space dim="horizontal" extent="20 mm"/>ché lei, usa</l>
+          <l>se parte, e d'esser quella<space dim="horizontal" quantity="20 mm"/>se persuade</l>
+          <l>che cum la sua beltate<space dim="horizontal" quantity="20 mm"/>degia avere</l>
+          <l>Cupido, e de giacere<space dim="horizontal" quantity="20 mm"/>seco in letto:</l>
+          <l>ma vano fia el diletto<space dim="horizontal" quantity="20 mm"/>ch'aver spera,</l>
+          <l>perché conven che pera,<space dim="horizontal" quantity="20 mm"/>giù dal sasso</l>
+          <l>cadendo cum fracasso,<space dim="horizontal" quantity="20 mm"/>ché lei, usa</l>
           <l>d'andar cum Zefir, restarà delusa.</l>
           <l>Su l'uscio i' vegio l'altra</l>
-          <l>che cum sua trama scaltra<space dim="horizontal" extent="20 mm"/>m'ha tradita:</l>
-          <l>ma vo' che la sua vita<space dim="horizontal" extent="20 mm"/>duri puoco,</l>
-          <l>ché accenderla d'un fuoco<space dim="horizontal" extent="20 mm"/>intenso voglio</l>
-          <l>e rimandarla al scoglio,<space dim="horizontal" extent="20 mm"/>ove è consueta</l>
-          <l>cum aura dolce e queta<space dim="horizontal" extent="20 mm"/>esser racolta;</l>
-          <l>e come ceca e stolta<space dim="horizontal" extent="20 mm"/>convien vada</l>
+          <l>che cum sua trama scaltra<space dim="horizontal" quantity="20 mm"/>m'ha tradita:</l>
+          <l>ma vo' che la sua vita<space dim="horizontal" quantity="20 mm"/>duri puoco,</l>
+          <l>ché accenderla d'un fuoco<space dim="horizontal" quantity="20 mm"/>intenso voglio</l>
+          <l>e rimandarla al scoglio,<space dim="horizontal" quantity="20 mm"/>ove è consueta</l>
+          <l>cum aura dolce e queta<space dim="horizontal" quantity="20 mm"/>esser racolta;</l>
+          <l>e come ceca e stolta<space dim="horizontal" quantity="20 mm"/>convien vada</l>
           <l>drieto a quell'altra, e che giù al basso cada.</l>
           <l>Sorella, Idio te salvi!</l>
-          <l>Per monti alpestri e calli<space dim="horizontal" extent="20 mm"/>da te veni</l>
-          <l>e nel venir sosteni<space dim="horizontal" extent="20 mm"/>gran fatiche.</l>
-          <l>Io, tua germana Psiche,<space dim="horizontal" extent="20 mm"/>veder volsi</l>
-          <l>quel che per sposo tolsi,<space dim="horizontal" extent="20 mm"/>et era Amore:</l>
-          <l>del lume col splendore<space dim="horizontal" extent="20 mm"/>chiaro el scorsi.</l>
-          <l>Alora ben m'accorsi<space dim="horizontal" extent="20 mm"/>aver fallito,</l>
+          <l>Per monti alpestri e calli<space dim="horizontal" quantity="20 mm"/>da te veni</l>
+          <l>e nel venir sosteni<space dim="horizontal" quantity="20 mm"/>gran fatiche.</l>
+          <l>Io, tua germana Psiche,<space dim="horizontal" quantity="20 mm"/>veder volsi</l>
+          <l>quel che per sposo tolsi,<space dim="horizontal" quantity="20 mm"/>et era Amore:</l>
+          <l>del lume col splendore<space dim="horizontal" quantity="20 mm"/>chiaro el scorsi.</l>
+          <l>Alora ben m'accorsi<space dim="horizontal" quantity="20 mm"/>aver fallito,</l>
           <l>dil che biasmo l'ingordo mio appetito.</l>
           <l>Cum la lucerna accesa</l>
-          <l>io, d'Amor forte preisa,<space dim="horizontal" extent="20 mm"/>el riguardai;</l>
-          <l>aviene che 'l scottai<space dim="horizontal" extent="20 mm"/>cum l'olio caldo</l>
-          <l>che mal io tenni saldo<space dim="horizontal" extent="20 mm"/>in la lucerna.</l>
-          <l>Alor pien d'ira interna,<space dim="horizontal" extent="20 mm"/>ohimè, mi disse</l>
-          <l>tosto da lui partisse<space dim="horizontal" extent="20 mm"/>per tal atto</l>
-          <l>e che volea contratto<space dim="horizontal" extent="20 mm"/>poi far teco,</l>
+          <l>io, d'Amor forte preisa,<space dim="horizontal" quantity="20 mm"/>el riguardai;</l>
+          <l>aviene che 'l scottai<space dim="horizontal" quantity="20 mm"/>cum l'olio caldo</l>
+          <l>che mal io tenni saldo<space dim="horizontal" quantity="20 mm"/>in la lucerna.</l>
+          <l>Alor pien d'ira interna,<space dim="horizontal" quantity="20 mm"/>ohimè, mi disse</l>
+          <l>tosto da lui partisse<space dim="horizontal" quantity="20 mm"/>per tal atto</l>
+          <l>e che volea contratto<space dim="horizontal" quantity="20 mm"/>poi far teco,</l>
           <l>e che giacesti come sposa seco.</l>
         </sp>
         <sp>
@@ -1880,12 +1853,12 @@
             <hi rend="sc">LA SECONDA SORELLA.</hi>
           </speaker>
           <l>Questa è pur gran novella</l>
-          <l>qual sento, o mia sorella,<space dim="horizontal" extent="20 mm"/>che si' stata</l>
-          <l>d'Amor abandonata.<space dim="horizontal" extent="20 mm"/>Pria convienti</l>
-          <l>cum toi modi prudenti<space dim="horizontal" extent="20 mm"/>aver pacienzia.</l>
-          <l>Io vo' cum tua licenzia<space dim="horizontal" extent="20 mm"/>intrar qui in casa.</l>
-          <l>Se vidua sei rimasa,<space dim="horizontal" extent="20 mm"/>i'n'ho dolore:</l>
-          <l>non star qui mesta fuore,<space dim="horizontal" extent="20 mm"/>orsù vien meco,</l>
+          <l>qual sento, o mia sorella,<space dim="horizontal" quantity="20 mm"/>che si' stata</l>
+          <l>d'Amor abandonata.<space dim="horizontal" quantity="20 mm"/>Pria convienti</l>
+          <l>cum toi modi prudenti<space dim="horizontal" quantity="20 mm"/>aver pacienzia.</l>
+          <l>Io vo' cum tua licenzia<space dim="horizontal" quantity="20 mm"/>intrar qui in casa.</l>
+          <l>Se vidua sei rimasa,<space dim="horizontal" quantity="20 mm"/>i'n'ho dolore:</l>
+          <l>non star qui mesta fuore,<space dim="horizontal" quantity="20 mm"/>orsù vien meco,</l>
           <l>che star dispongo insino a morte teco.</l>
         </sp>
         <sp>
@@ -1893,12 +1866,12 @@
             <hi rend="sc">PSICHE.</hi>
           </speaker>
           <l>Sorella, i' me dispongo</l>
-          <l>de far camin più longo:<space dim="horizontal" extent="20 mm"/>or sta cum Dio,</l>
-          <l>e fa che tu in oblio<space dim="horizontal" extent="20 mm"/>mai non mi mande,</l>
-          <l>ancor che in altre bande<space dim="horizontal" extent="20 mm"/>me ne vadi.</l>
-          <l>Ahimè che d'alti gradi<space dim="horizontal" extent="20 mm"/>giuso al basso</l>
-          <l>cum ruinoso passo<space dim="horizontal" extent="20 mm"/>or son qui giunta:</l>
-          <l>cagion ne fu la punta<space dim="horizontal" extent="20 mm"/>del fer strale</l>
+          <l>de far camin più longo:<space dim="horizontal" quantity="20 mm"/>or sta cum Dio,</l>
+          <l>e fa che tu in oblio<space dim="horizontal" quantity="20 mm"/>mai non mi mande,</l>
+          <l>ancor che in altre bande<space dim="horizontal" quantity="20 mm"/>me ne vadi.</l>
+          <l>Ahimè che d'alti gradi<space dim="horizontal" quantity="20 mm"/>giuso al basso</l>
+          <l>cum ruinoso passo<space dim="horizontal" quantity="20 mm"/>or son qui giunta:</l>
+          <l>cagion ne fu la punta<space dim="horizontal" quantity="20 mm"/>del fer strale</l>
           <l>di quel che via vola cum sue forte ale.</l>
         </sp>
         <stage>Essendo partita <hi rend="sc">PSICHE</hi>, la seconda <hi rend="sc">SORELLA</hi>, andando al scoglio, dice sola:</stage>
@@ -1907,12 +1880,12 @@
             <hi rend="sc">LA SECONDA SORELLA</hi>
           </speaker>
           <l>Gabato ho pur costei</l>
-          <l>cum falsi sermon mei;<space dim="horizontal" extent="20 mm"/>e perché ho inteso</l>
-          <l>ch'Amor è di me acceso,<space dim="horizontal" extent="20 mm"/>da lui vado,</l>
-          <l>e ben mi persuado<space dim="horizontal" extent="20 mm"/>de confarmi</l>
-          <l>al voler suo; ch'amarmi<space dim="horizontal" extent="20 mm"/>gli fia forza.</l>
-          <l>Zefir, portami a l'orza<space dim="horizontal" extent="20 mm"/>col tuo vento</l>
-          <l>al bel logiamento<space dim="horizontal" extent="20 mm"/>ove è Cupido,</l>
+          <l>cum falsi sermon mei;<space dim="horizontal" quantity="20 mm"/>e perché ho inteso</l>
+          <l>ch'Amor è di me acceso,<space dim="horizontal" quantity="20 mm"/>da lui vado,</l>
+          <l>e ben mi persuado<space dim="horizontal" quantity="20 mm"/>de confarmi</l>
+          <l>al voler suo; ch'amarmi<space dim="horizontal" quantity="20 mm"/>gli fia forza.</l>
+          <l>Zefir, portami a l'orza<space dim="horizontal" quantity="20 mm"/>col tuo vento</l>
+          <l>al bel logiamento<space dim="horizontal" quantity="20 mm"/>ove è Cupido,</l>
           <l>che questa notte fia mio sposo fido.</l>
         </sp>
         <stage>Giongendo costei al scoglio e credendosi esser raccolta da <hi rend="sc">ZEFIRO</hi> se getta giù dal scoglio e cadendo se occide. <hi rend="sc">VENERE</hi> compare e parla lei sola.</stage>
@@ -2239,7 +2212,7 @@
       </div1>
       <div1>
         <head>
-          <add resp="ed">ATTO QUARTO</add>
+          <add resp="#ed">ATTO QUARTO</add>
         </head>
         <stage><hi rend="sc">MERCURIO</hi> scorrendo tuto el mondo cum alta voce {dice} per camino:</stage>
         <sp>
@@ -2386,12 +2359,12 @@
             <hi rend="sc">CUPIDO.</hi>
           </speaker>
           <l>Ahi lasso, i' sto qui chiuso</l>
-          <l>e la mia matre accuso<space dim="horizontal" extent="20 mm"/>de sevizia,</l>
-          <l>che cum sotil malizia<space dim="horizontal" extent="20 mm"/>e osteri modi</l>
-          <l>me tien molti custodi<space dim="horizontal" extent="20 mm"/>sempre a canto,</l>
-          <l>e vòl ch'io stia qui tanto<space dim="horizontal" extent="20 mm"/>che sia sano.</l>
-          <l>Ma certo mi par strano<space dim="horizontal" extent="20 mm"/>star qui privo</l>
-          <l>del viso adorno e divo<space dim="horizontal" extent="20 mm"/>di collei</l>
+          <l>e la mia matre accuso<space dim="horizontal" quantity="20 mm"/>de sevizia,</l>
+          <l>che cum sotil malizia<space dim="horizontal" quantity="20 mm"/>e osteri modi</l>
+          <l>me tien molti custodi<space dim="horizontal" quantity="20 mm"/>sempre a canto,</l>
+          <l>e vòl ch'io stia qui tanto<space dim="horizontal" quantity="20 mm"/>che sia sano.</l>
+          <l>Ma certo mi par strano<space dim="horizontal" quantity="20 mm"/>star qui privo</l>
+          <l>del viso adorno e divo<space dim="horizontal" quantity="20 mm"/>di collei</l>
           <l>qual ha in sue forze tutti i spirti mei.</l>
         </sp>
         <stage><hi rend="sc">VENERE</hi> ritorna dove è <hi rend="sc">PSICHE</hi> e gli dice:</stage>
@@ -2495,12 +2468,12 @@
           <l>Madonna, obedirovi e portarolla.</l>
           <stage><hi rend="sc">PSICHE</hi> andando verso el sasso dice lei sola per camino così:</stage>
           <l>Io me ne vado al monte</l>
-          <l>per tore di quel fonte<space dim="horizontal" extent="20 mm"/>le negre unde.</l>
-          <l>Ahi come son profonde<space dim="horizontal" extent="20 mm"/>queste valli,</l>
-          <l>ahi come sono i calli<space dim="horizontal" extent="20 mm"/>angusti e stretti!</l>
-          <l>Io vegio in quei ricetti<space dim="horizontal" extent="20 mm"/>un fer serpente,</l>
-          <l>qual par che mi spavente:<space dim="horizontal" extent="20 mm"/>ahi, trista sorte!</l>
-          <l>Se campo ogi da morte,<space dim="horizontal" extent="20 mm"/>i' son beata,</l>
+          <l>per tore di quel fonte<space dim="horizontal" quantity="20 mm"/>le negre unde.</l>
+          <l>Ahi come son profonde<space dim="horizontal" quantity="20 mm"/>queste valli,</l>
+          <l>ahi come sono i calli<space dim="horizontal" quantity="20 mm"/>angusti e stretti!</l>
+          <l>Io vegio in quei ricetti<space dim="horizontal" quantity="20 mm"/>un fer serpente,</l>
+          <l>qual par che mi spavente:<space dim="horizontal" quantity="20 mm"/>ahi, trista sorte!</l>
+          <l>Se campo ogi da morte,<space dim="horizontal" quantity="20 mm"/>i' son beata,</l>
           <l>ma far dispongo la via cominciata.</l>
         </sp>
         <stage>Una VOCE ch'è ne l'acqua di quel luoco dice:</stage>
@@ -2796,33 +2769,33 @@
             <hi rend="sc">PSICHE.</hi>
           </speaker>
           <l>Del scuro inferno torno</l>
-          <l>e già non fei sogiorno<space dim="horizontal" extent="20 mm"/>per camino.</l>
-          <l>Andai, dedi un quatrino<space dim="horizontal" extent="20 mm"/>al portinaro</l>
-          <l>Caronte vechio avaro,<space dim="horizontal" extent="20 mm"/>qual passommi;</l>
-          <l>un morto poi pregomi<space dim="horizontal" extent="20 mm"/>l'accetasse</l>
-          <l>in barca, e lo tirasse<space dim="horizontal" extent="20 mm"/>fuor de l'acque.</l>
-          <l>D'averlo non mi piacque<space dim="horizontal" extent="20 mm"/>in compagnia</l>
-          <l>e la destra mia<space dim="horizontal" extent="20 mm"/>già non li porsi.</l>
-          <l>Passato el fiume, corsi<space dim="horizontal" extent="20 mm"/>al mio viagio,</l>
-          <l>trovai poi nel passagio<space dim="horizontal" extent="20 mm"/>uno asinello</l>
-          <l>e l'asinar cum quello,<space dim="horizontal" extent="20 mm"/>che mi chiese</l>
-          <l>aiuto. Non l'intese,<space dim="horizontal" extent="20 mm"/>anci partendo</l>
-          <l>io me n'andai correndo<space dim="horizontal" extent="20 mm"/>e le testrice</l>
-          <l>proterve inganatrice<space dim="horizontal" extent="20 mm"/>disprezai;</l>
-          <l>a Cerbaro placai<space dim="horizontal" extent="20 mm"/>l'intensa rabia</l>
-          <l>cacciandoli in le labia<space dim="horizontal" extent="20 mm"/>la suppa unta.</l>
-          <l>Essendo nel fin giunta<space dim="horizontal" extent="20 mm"/>da la diva</l>
-          <l>io fui de mangiar schiva<space dim="horizontal" extent="20 mm"/>el suo beato</l>
-          <l>cibo, e ho poi mangiato<space dim="horizontal" extent="20 mm"/>del pan solo</l>
-          <l>sprezando el segio, e al sòlo<space dim="horizontal" extent="20 mm"/>stando asisa.</l>
-          <l>Da gran rubor conquisa<space dim="horizontal" extent="20 mm"/>et inclinata</l>
-          <l>io feci l'imbassata<space dim="horizontal" extent="20 mm"/>e 'l busciol mio</l>
-          <l>empi', serollo et io<space dim="horizontal" extent="20 mm"/>tornando indietro</l>
-          <l>per quello regno tetro<space dim="horizontal" extent="20 mm"/>son venuta</l>
-          <l>al mondo, et or che tuta<space dim="horizontal" extent="20 mm"/>me ritrovo</l>
-          <l>perché, stolta, non provo<space dim="horizontal" extent="20 mm"/>quivi in strada,</l>
-          <l>pria che più avanti vada,<space dim="horizontal" extent="20 mm"/>de guardare</l>
-          <l>nel busciolo, e pigliare<space dim="horizontal" extent="20 mm"/>del belletto</l>
+          <l>e già non fei sogiorno<space dim="horizontal" quantity="20 mm"/>per camino.</l>
+          <l>Andai, dedi un quatrino<space dim="horizontal" quantity="20 mm"/>al portinaro</l>
+          <l>Caronte vechio avaro,<space dim="horizontal" quantity="20 mm"/>qual passommi;</l>
+          <l>un morto poi pregomi<space dim="horizontal" quantity="20 mm"/>l'accetasse</l>
+          <l>in barca, e lo tirasse<space dim="horizontal" quantity="20 mm"/>fuor de l'acque.</l>
+          <l>D'averlo non mi piacque<space dim="horizontal" quantity="20 mm"/>in compagnia</l>
+          <l>e la destra mia<space dim="horizontal" quantity="20 mm"/>già non li porsi.</l>
+          <l>Passato el fiume, corsi<space dim="horizontal" quantity="20 mm"/>al mio viagio,</l>
+          <l>trovai poi nel passagio<space dim="horizontal" quantity="20 mm"/>uno asinello</l>
+          <l>e l'asinar cum quello,<space dim="horizontal" quantity="20 mm"/>che mi chiese</l>
+          <l>aiuto. Non l'intese,<space dim="horizontal" quantity="20 mm"/>anci partendo</l>
+          <l>io me n'andai correndo<space dim="horizontal" quantity="20 mm"/>e le testrice</l>
+          <l>proterve inganatrice<space dim="horizontal" quantity="20 mm"/>disprezai;</l>
+          <l>a Cerbaro placai<space dim="horizontal" quantity="20 mm"/>l'intensa rabia</l>
+          <l>cacciandoli in le labia<space dim="horizontal" quantity="20 mm"/>la suppa unta.</l>
+          <l>Essendo nel fin giunta<space dim="horizontal" quantity="20 mm"/>da la diva</l>
+          <l>io fui de mangiar schiva<space dim="horizontal" quantity="20 mm"/>el suo beato</l>
+          <l>cibo, e ho poi mangiato<space dim="horizontal" quantity="20 mm"/>del pan solo</l>
+          <l>sprezando el segio, e al sòlo<space dim="horizontal" quantity="20 mm"/>stando asisa.</l>
+          <l>Da gran rubor conquisa<space dim="horizontal" quantity="20 mm"/>et inclinata</l>
+          <l>io feci l'imbassata<space dim="horizontal" quantity="20 mm"/>e 'l busciol mio</l>
+          <l>empi', serollo et io<space dim="horizontal" quantity="20 mm"/>tornando indietro</l>
+          <l>per quello regno tetro<space dim="horizontal" quantity="20 mm"/>son venuta</l>
+          <l>al mondo, et or che tuta<space dim="horizontal" quantity="20 mm"/>me ritrovo</l>
+          <l>perché, stolta, non provo<space dim="horizontal" quantity="20 mm"/>quivi in strada,</l>
+          <l>pria che più avanti vada,<space dim="horizontal" quantity="20 mm"/>de guardare</l>
+          <l>nel busciolo, e pigliare<space dim="horizontal" quantity="20 mm"/>del belletto</l>
           <l>aciò che ad Amor piacia il bel mio aspetto?</l>
         </sp>
         <stage><hi rend="sc">PSICHE</hi> aprendo el busciolo cade in terra come morta e <hi rend="sc">CUPIDO</hi> essendo guarito et uscendo per una fenestra sopragionge ove è costei, e reponendo nel busciolo el sonno infernale e poi serrandolo, cum la punta d'una sua saetta la percuote e sveglia e dicegli:</stage>
@@ -2884,34 +2857,34 @@
           <speaker>
             <hi rend="sc">CORO</hi>
           </speaker>
-          <l>Giove che intende<space dim="horizontal" extent="20 mm"/>quel che vòl Amore</l>
-          <l>e che comprende<space dim="horizontal" extent="20 mm"/>el suo molesto ardore,</l>
-          <l>presta favore<space dim="horizontal" extent="20 mm"/>al misero garzone</l>
+          <l>Giove che intende<space dim="horizontal" quantity="20 mm"/>quel che vòl Amore</l>
+          <l>e che comprende<space dim="horizontal" quantity="20 mm"/>el suo molesto ardore,</l>
+          <l>presta favore<space dim="horizontal" quantity="20 mm"/>al misero garzone</l>
           <l>che ha passione.</l>
-          <l>Vinto da' preghi<space dim="horizontal" extent="20 mm"/>del fanciul Cupido</l>
-          <l>par che se pieghi<space dim="horizontal" extent="20 mm"/>ad exaudir el grido</l>
-          <l>che cum gran strido<space dim="horizontal" extent="20 mm"/>e cum dogliosi pianti</l>
+          <l>Vinto da' preghi<space dim="horizontal" quantity="20 mm"/>del fanciul Cupido</l>
+          <l>par che se pieghi<space dim="horizontal" quantity="20 mm"/>ad exaudir el grido</l>
+          <l>che cum gran strido<space dim="horizontal" quantity="20 mm"/>e cum dogliosi pianti</l>
           <l>gli fa davanti.</l>
-          <l>Fa far consiglio<space dim="horizontal" extent="20 mm"/>in quella patria amena</l>
-          <l>e fa che 'l figlio<space dim="horizontal" extent="20 mm"/>Psiche in celo mena,</l>
-          <l>qual cum serena<space dim="horizontal" extent="20 mm"/>et amorosa fronte</l>
+          <l>Fa far consiglio<space dim="horizontal" quantity="20 mm"/>in quella patria amena</l>
+          <l>e fa che 'l figlio<space dim="horizontal" quantity="20 mm"/>Psiche in celo mena,</l>
+          <l>qual cum serena<space dim="horizontal" quantity="20 mm"/>et amorosa fronte</l>
           <l>par che rafronte.</l>
-          <l>Per compiacere<space dim="horizontal" extent="20 mm"/>a quello che dimanda</l>
-          <l>dà a Psiche a bere<space dim="horizontal" extent="20 mm"/>de quella bevanda</l>
-          <l>qual par che pranda<space dim="horizontal" extent="20 mm"/>el bel colegio</l>
+          <l>Per compiacere<space dim="horizontal" quantity="20 mm"/>a quello che dimanda</l>
+          <l>dà a Psiche a bere<space dim="horizontal" quantity="20 mm"/>de quella bevanda</l>
+          <l>qual par che pranda<space dim="horizontal" quantity="20 mm"/>el bel colegio</l>
           <l>del ciel egregio.</l>
-          <l>Poi va Mercurio<space dim="horizontal" extent="20 mm"/>da le due sorelle:</l>
-          <l>cum fausto augurio<space dim="horizontal" extent="20 mm"/>dà la vita ad elle</l>
-          <l>e tosto quelle<space dim="horizontal" extent="20 mm"/>rende a' soi mariti</l>
+          <l>Poi va Mercurio<space dim="horizontal" quantity="20 mm"/>da le due sorelle:</l>
+          <l>cum fausto augurio<space dim="horizontal" quantity="20 mm"/>dà la vita ad elle</l>
+          <l>e tosto quelle<space dim="horizontal" quantity="20 mm"/>rende a' soi mariti</l>
           <l>mesti e smariti.</l>
-          <l>Per lo felice<space dim="horizontal" extent="20 mm"/>matrimonio santo</l>
-          <l>Apollo dice<space dim="horizontal" extent="20 mm"/>cum sua cetra un canto,</l>
-          <l>tal ch'ogni canto<space dim="horizontal" extent="20 mm"/>pieno fia de riso</l>
+          <l>Per lo felice<space dim="horizontal" quantity="20 mm"/>matrimonio santo</l>
+          <l>Apollo dice<space dim="horizontal" quantity="20 mm"/>cum sua cetra un canto,</l>
+          <l>tal ch'ogni canto<space dim="horizontal" quantity="20 mm"/>pieno fia de riso</l>
           <l>in Paradiso. Amen.</l>
         </sp>
       </div1>
       <div1>
-        <head lang="lat">QUINTUS ACTUS</head>
+        <head xml:lang="lat">QUINTUS ACTUS</head>
         <stage><hi rend="sc">CUPIDO</hi> essendo andato in ciel da <hi rend="sc">GIOVE</hi> gli dice così:</stage>
         <sp>
           <speaker>
@@ -3034,29 +3007,29 @@
             <hi rend="sc">GIOVE</hi>
           </speaker>
           <l>O voi conscriti dei,</l>
-          <l>qual per fratelli mei<space dim="horizontal" extent="20 mm"/>sempre mai tenni,</l>
-          <l>la causa per ch'io veni<space dim="horizontal" extent="20 mm"/>qui a parlarvi</l>
-          <l>per noto el mio cuor farvi,<space dim="horizontal" extent="20 mm"/>la saprete.</l>
-          <l>Io so che conosete<space dim="horizontal" extent="20 mm"/>tuti quanti</l>
-          <l>questo garzon che avanti<space dim="horizontal" extent="20 mm"/>qui se vede,</l>
-          <l>il qual cum cura e fede<space dim="horizontal" extent="20 mm"/>m'ho educato</l>
-          <l>e quanto m'ho forzato<space dim="horizontal" extent="20 mm"/>a freno porre</l>
-          <l>ai vizii dove corre<space dim="horizontal" extent="20 mm"/>a tuta briglia.</l>
-          <l>Costui ama una figlia<space dim="horizontal" extent="20 mm"/>oltra misura,</l>
-          <l>e per collei par che ura<space dim="horizontal" extent="20 mm"/>e gran mal pate,</l>
-          <l>e de virginitate<space dim="horizontal" extent="20 mm"/>l'ha privata:</l>
-          <l>faciàn che gli sia data,<space dim="horizontal" extent="20 mm"/>e che la godi,</l>
-          <l>per che cum questi nodi<space dim="horizontal" extent="20 mm"/>el ligaremo,</l>
-          <l>i e poi gli extinguaremo<space dim="horizontal" extent="20 mm"/>la gran furia</l>
-          <l>de la turpe luxuria<space dim="horizontal" extent="20 mm"/>dove è involto.</l>
-          <l>Tu, Vener, fa' bon volto<space dim="horizontal" extent="20 mm"/>e sta contenta,</l>
-          <l>che par ch'io vegia e senta<space dim="horizontal" extent="20 mm"/>che ti dole</l>
-          <l>de queste mie parolle,<space dim="horizontal" extent="20 mm"/>stando in dubio</l>
-          <l>d'esto mortal connubio:<space dim="horizontal" extent="20 mm"/>ma vo' fare</l>
-          <l>che fian le noze pare,<space dim="horizontal" extent="20 mm"/>congrue e iuste,</l>
-          <l>perché voglio che guste<space dim="horizontal" extent="20 mm"/>el suco dolce</l>
-          <l>d'ambrosia, che 'l cel folce<space dim="horizontal" extent="20 mm"/>di dolzeza,</l>
-          <l>e che tanto s'appreza<space dim="horizontal" extent="20 mm"/>qui fra noi,</l>
+          <l>qual per fratelli mei<space dim="horizontal" quantity="20 mm"/>sempre mai tenni,</l>
+          <l>la causa per ch'io veni<space dim="horizontal" quantity="20 mm"/>qui a parlarvi</l>
+          <l>per noto el mio cuor farvi,<space dim="horizontal" quantity="20 mm"/>la saprete.</l>
+          <l>Io so che conosete<space dim="horizontal" quantity="20 mm"/>tuti quanti</l>
+          <l>questo garzon che avanti<space dim="horizontal" quantity="20 mm"/>qui se vede,</l>
+          <l>il qual cum cura e fede<space dim="horizontal" quantity="20 mm"/>m'ho educato</l>
+          <l>e quanto m'ho forzato<space dim="horizontal" quantity="20 mm"/>a freno porre</l>
+          <l>ai vizii dove corre<space dim="horizontal" quantity="20 mm"/>a tuta briglia.</l>
+          <l>Costui ama una figlia<space dim="horizontal" quantity="20 mm"/>oltra misura,</l>
+          <l>e per collei par che ura<space dim="horizontal" quantity="20 mm"/>e gran mal pate,</l>
+          <l>e de virginitate<space dim="horizontal" quantity="20 mm"/>l'ha privata:</l>
+          <l>faciàn che gli sia data,<space dim="horizontal" quantity="20 mm"/>e che la godi,</l>
+          <l>per che cum questi nodi<space dim="horizontal" quantity="20 mm"/>el ligaremo,</l>
+          <l>i e poi gli extinguaremo<space dim="horizontal" quantity="20 mm"/>la gran furia</l>
+          <l>de la turpe luxuria<space dim="horizontal" quantity="20 mm"/>dove è involto.</l>
+          <l>Tu, Vener, fa' bon volto<space dim="horizontal" quantity="20 mm"/>e sta contenta,</l>
+          <l>che par ch'io vegia e senta<space dim="horizontal" quantity="20 mm"/>che ti dole</l>
+          <l>de queste mie parolle,<space dim="horizontal" quantity="20 mm"/>stando in dubio</l>
+          <l>d'esto mortal connubio:<space dim="horizontal" quantity="20 mm"/>ma vo' fare</l>
+          <l>che fian le noze pare,<space dim="horizontal" quantity="20 mm"/>congrue e iuste,</l>
+          <l>perché voglio che guste<space dim="horizontal" quantity="20 mm"/>el suco dolce</l>
+          <l>d'ambrosia, che 'l cel folce<space dim="horizontal" quantity="20 mm"/>di dolzeza,</l>
+          <l>e che tanto s'appreza<space dim="horizontal" quantity="20 mm"/>qui fra noi,</l>
           <l>e fa immortal chi beve i liquor soi.</l>
         </sp>
         <stage><hi rend="sc">VENERE</hi> responde a GIOVE:</stage>
@@ -3065,12 +3038,12 @@
             <hi rend="sc">VENERE.</hi>
           </speaker>
           <l>Patre, non so negarti,</l>
-          <l>né resistenzia farti<space dim="horizontal" extent="20 mm"/>a quel che vòi.</l>
-          <l>Tu comandar me pòi,<space dim="horizontal" extent="20 mm"/>come è ragione,</l>
-          <l>e fai conclusione<space dim="horizontal" extent="20 mm"/>ch'io me piglia</l>
-          <l>Psiche per nura e figlia,<space dim="horizontal" extent="20 mm"/>et io la toglio.</l>
-          <l>Ma questo in grazia voglio,<space dim="horizontal" extent="20 mm"/>che a le due</l>
-          <l>magior sorelle sue<space dim="horizontal" extent="20 mm"/>la vita rendi,</l>
+          <l>né resistenzia farti<space dim="horizontal" quantity="20 mm"/>a quel che vòi.</l>
+          <l>Tu comandar me pòi,<space dim="horizontal" quantity="20 mm"/>come è ragione,</l>
+          <l>e fai conclusione<space dim="horizontal" quantity="20 mm"/>ch'io me piglia</l>
+          <l>Psiche per nura e figlia,<space dim="horizontal" quantity="20 mm"/>et io la toglio.</l>
+          <l>Ma questo in grazia voglio,<space dim="horizontal" quantity="20 mm"/>che a le due</l>
+          <l>magior sorelle sue<space dim="horizontal" quantity="20 mm"/>la vita rendi,</l>
           <l>e che Mercurio a questo far descendi.</l>
         </sp>
         <stage><hi rend="sc">GIOVE</hi> a <hi rend="sc">MERCURIO</hi>.</stage>
@@ -3093,23 +3066,23 @@
           <l>e tosto exequirò ciò che dimandi.</l>
           <stage><hi rend="sc">MERCURIO</hi> partendosi dal cel dice per camino:</stage>
           <l>Mercurio è 'l nome mio,</l>
-          <l>e perché d'ogni dio<space dim="horizontal" extent="20 mm"/>son fido nunzio</l>
-          <l>in ogni parte anunzio<space dim="horizontal" extent="20 mm"/>i soi mandati.</l>
-          <l>Mei pedi sono allati,<space dim="horizontal" extent="20 mm"/>e l'ale ho in testa;</l>
-          <l>io revoco cum questa<space dim="horizontal" extent="20 mm"/>verga mia</l>
-          <l>ogni anima che sia<space dim="horizontal" extent="20 mm"/>del corpo uscita,</l>
-          <l>poi rendogli la vita,<space dim="horizontal" extent="20 mm"/>se mi piace.</l>
-          <l>In questo petto giace<space dim="horizontal" extent="20 mm"/>ogni eloquenzia,</l>
-          <l>meco fan residenzia<space dim="horizontal" extent="20 mm"/>i mercadanti,</l>
-          <l>i latri coi furfanti<space dim="horizontal" extent="20 mm"/>e aritmetici,</l>
-          <l>cosmografi, dialetici<space dim="horizontal" extent="20 mm"/>e sofisti,</l>
-          <l>giometri e archimisti<space dim="horizontal" extent="20 mm"/>e giocatori.</l>
-          <l>Se cum benigni cuori<space dim="horizontal" extent="20 mm"/>giunto sono</l>
-          <l>io son benigno e bono,<space dim="horizontal" extent="20 mm"/>e se cum mali</l>
-          <l>gli effetti mei son tali,<space dim="horizontal" extent="20 mm"/>e son nocivo.</l>
-          <l>Cum queste virtù vivo;<space dim="horizontal" extent="20 mm"/>or cum 'sta verga,</l>
-          <l>in cui gran virtù alberga,<space dim="horizontal" extent="20 mm"/>render voglio</l>
-          <l>a quelle che dal scoglio<space dim="horizontal" extent="20 mm"/>son cadute</l>
+          <l>e perché d'ogni dio<space dim="horizontal" quantity="20 mm"/>son fido nunzio</l>
+          <l>in ogni parte anunzio<space dim="horizontal" quantity="20 mm"/>i soi mandati.</l>
+          <l>Mei pedi sono allati,<space dim="horizontal" quantity="20 mm"/>e l'ale ho in testa;</l>
+          <l>io revoco cum questa<space dim="horizontal" quantity="20 mm"/>verga mia</l>
+          <l>ogni anima che sia<space dim="horizontal" quantity="20 mm"/>del corpo uscita,</l>
+          <l>poi rendogli la vita,<space dim="horizontal" quantity="20 mm"/>se mi piace.</l>
+          <l>In questo petto giace<space dim="horizontal" quantity="20 mm"/>ogni eloquenzia,</l>
+          <l>meco fan residenzia<space dim="horizontal" quantity="20 mm"/>i mercadanti,</l>
+          <l>i latri coi furfanti<space dim="horizontal" quantity="20 mm"/>e aritmetici,</l>
+          <l>cosmografi, dialetici<space dim="horizontal" quantity="20 mm"/>e sofisti,</l>
+          <l>giometri e archimisti<space dim="horizontal" quantity="20 mm"/>e giocatori.</l>
+          <l>Se cum benigni cuori<space dim="horizontal" quantity="20 mm"/>giunto sono</l>
+          <l>io son benigno e bono,<space dim="horizontal" quantity="20 mm"/>e se cum mali</l>
+          <l>gli effetti mei son tali,<space dim="horizontal" quantity="20 mm"/>e son nocivo.</l>
+          <l>Cum queste virtù vivo;<space dim="horizontal" quantity="20 mm"/>or cum 'sta verga,</l>
+          <l>in cui gran virtù alberga,<space dim="horizontal" quantity="20 mm"/>render voglio</l>
+          <l>a quelle che dal scoglio<space dim="horizontal" quantity="20 mm"/>son cadute</l>
           <l>la persa vita e pristina salute.</l>
           <stage><hi rend="sc">MERCURIO</hi> giunto dove sono le <hi rend="sc">DUE SORELLE</hi> morte percuotendole col caduceo dice:</stage>
           <l>Anime afflite, che disperse errando</l>
@@ -3119,28 +3092,28 @@
           <l>ché per parte di dei io ve 'l comando,</l>
           <l>quai del mal vostro avuto hano pietate.</l>
           <l>Le vostre adversitate or son finite:</l>
-          <l>— <foreign lang="lat">Surgite, mortui</foreign>, e drieto a me venite —.</l>
+          <l>— <foreign xml:lang="lat">Surgite, mortui</foreign>, e drieto a me venite —.</l>
         </sp>
         <stage>Le due <hi rend="sc">SORELLE</hi> saltano in pede e dicano questa oda:</stage>
         <sp>
           <speaker>
             <hi rend="sc">LE DUE SORELLE</hi>
           </speaker>
-          <l>Siano noi quelle<space dim="horizontal" extent="20 mm"/>ch'eravamo avanti,</l>
-          <l>quelle sorelle<space dim="horizontal" extent="20 mm"/>piene d'error tanti,</l>
-          <l>che cum l'erranti<space dim="horizontal" extent="20 mm"/>nostre anime brute</l>
+          <l>Siano noi quelle<space dim="horizontal" quantity="20 mm"/>ch'eravamo avanti,</l>
+          <l>quelle sorelle<space dim="horizontal" quantity="20 mm"/>piene d'error tanti,</l>
+          <l>che cum l'erranti<space dim="horizontal" quantity="20 mm"/>nostre anime brute</l>
           <l>qui sian redutte.</l>
-          <l>O caso strano<space dim="horizontal" extent="20 mm"/>cum felice sorte:</l>
-          <l>quelle noi siano<space dim="horizontal" extent="20 mm"/>ch'eravamo morte,</l>
-          <l>che per vie torte<space dim="horizontal" extent="20 mm"/>ruinando d'alto</l>
+          <l>O caso strano<space dim="horizontal" quantity="20 mm"/>cum felice sorte:</l>
+          <l>quelle noi siano<space dim="horizontal" quantity="20 mm"/>ch'eravamo morte,</l>
+          <l>che per vie torte<space dim="horizontal" quantity="20 mm"/>ruinando d'alto</l>
           <l>cademmo al smalto.</l>
-          <l>La nostra falsa<space dim="horizontal" extent="20 mm"/>e maladetta invidia</l>
-          <l>già non c'è valsa,<space dim="horizontal" extent="20 mm"/>né la gran perfidia</l>
-          <l>piena d'insidia,<space dim="horizontal" extent="20 mm"/>ché del nostro errore</l>
+          <l>La nostra falsa<space dim="horizontal" quantity="20 mm"/>e maladetta invidia</l>
+          <l>già non c'è valsa,<space dim="horizontal" quantity="20 mm"/>né la gran perfidia</l>
+          <l>piena d'insidia,<space dim="horizontal" quantity="20 mm"/>ché del nostro errore</l>
           <l>n'è duon amore.</l>
-          <l>Tu, dio che sei<space dim="horizontal" extent="20 mm"/>qui da noi venuto,</l>
-          <l>messo di' dei<space dim="horizontal" extent="20 mm"/>ch'han così voluto,</l>
-          <l>te de l'aiuto<space dim="horizontal" extent="20 mm"/>che prestato n'hai</l>
+          <l>Tu, dio che sei<space dim="horizontal" quantity="20 mm"/>qui da noi venuto,</l>
+          <l>messo di' dei<space dim="horizontal" quantity="20 mm"/>ch'han così voluto,</l>
+          <l>te de l'aiuto<space dim="horizontal" quantity="20 mm"/>che prestato n'hai</l>
           <l>laudiamo asai.</l>
         </sp>
         <stage>Queste due <hi rend="sc">SORELLE</hi> ponendosi in camino cum <hi rend="sc">MERCURIO</hi> se ascondano e in questo tempo <hi rend="sc">COSMO</hi> patre loro esce di casa sua e cum li doi so generi e dice:</stage>
@@ -3149,12 +3122,12 @@
             <hi rend="sc">COSMO.</hi>
           </speaker>
           <l>Vivo son io, non morto</l>
-          <l>e certo ebbe gran torto,<space dim="horizontal" extent="20 mm"/>o gener mio,</l>
-          <l>chi t'ha referto ch'io<space dim="horizontal" extent="20 mm"/>fusse defunto;</l>
-          <l>ma ben ho 'l cuor componto<space dim="horizontal" extent="20 mm"/>de gran doglie,</l>
-          <l>vegendo vostre moglie<space dim="horizontal" extent="20 mm"/>esser perdute</l>
-          <l>che qua non son venute;<space dim="horizontal" extent="20 mm"/>e certo i' temo</l>
-          <l>ch'in qualche caso extremo<space dim="horizontal" extent="20 mm"/>non sian giunte,</l>
+          <l>e certo ebbe gran torto,<space dim="horizontal" quantity="20 mm"/>o gener mio,</l>
+          <l>chi t'ha referto ch'io<space dim="horizontal" quantity="20 mm"/>fusse defunto;</l>
+          <l>ma ben ho 'l cuor componto<space dim="horizontal" quantity="20 mm"/>de gran doglie,</l>
+          <l>vegendo vostre moglie<space dim="horizontal" quantity="20 mm"/>esser perdute</l>
+          <l>che qua non son venute;<space dim="horizontal" quantity="20 mm"/>e certo i' temo</l>
+          <l>ch'in qualche caso extremo<space dim="horizontal" quantity="20 mm"/>non sian giunte,</l>
           <l>o forse ch'ambedue non sian defunte.</l>
         </sp>
         <sp>
@@ -3162,12 +3135,12 @@
             <hi rend="sc">EL PRIMO GENERO.</hi>
           </speaker>
           <l>Questo è pur caso strano</l>
-          <l>che perse aver debiano<space dim="horizontal" extent="20 mm"/>nostre moglie.</l>
-          <l>Se noi patiàn doglie<space dim="horizontal" extent="20 mm"/>e afanni rei,</l>
-          <l>pensarlo, o socer, dèi,<space dim="horizontal" extent="20 mm"/>ché disonore</l>
-          <l>e dano a tute l'ore,<space dim="horizontal" extent="20 mm"/>ohimè, ne fia.</l>
-          <l>O sorte accerba e ria,<space dim="horizontal" extent="20 mm"/>o crudel fato,</l>
-          <l>a che infelice stato<space dim="horizontal" extent="20 mm"/>siàn condotti,</l>
+          <l>che perse aver debiano<space dim="horizontal" quantity="20 mm"/>nostre moglie.</l>
+          <l>Se noi patiàn doglie<space dim="horizontal" quantity="20 mm"/>e afanni rei,</l>
+          <l>pensarlo, o socer, dèi,<space dim="horizontal" quantity="20 mm"/>ché disonore</l>
+          <l>e dano a tute l'ore,<space dim="horizontal" quantity="20 mm"/>ohimè, ne fia.</l>
+          <l>O sorte accerba e ria,<space dim="horizontal" quantity="20 mm"/>o crudel fato,</l>
+          <l>a che infelice stato<space dim="horizontal" quantity="20 mm"/>siàn condotti,</l>
           <l>tal che mai non aremo gli ochi asciuti.</l>
         </sp>
         <sp>
@@ -3175,21 +3148,21 @@
             <hi rend="sc">COSMO.</hi>
           </speaker>
           <l>Chi è quella giovenetta</l>
-          <l>qual vene così in freta<space dim="horizontal" extent="20 mm"/>al parer mio?</l>
-          <l>Se bene comprendo io,<space dim="horizontal" extent="20 mm"/>questa è collei</l>
-          <l>ch'ha fatto i giorni mei<space dim="horizontal" extent="20 mm"/>sì tenebrosi</l>
-          <l>e i spirti mei dogliosi.<space dim="horizontal" extent="20 mm"/>Questa è quella</l>
-          <l>Psiche, mia figlia bella:<space dim="horizontal" extent="20 mm"/>Psiche, dico,</l>
-          <l>a cui fu ognun sì amico,<space dim="horizontal" extent="20 mm"/>che già al scoglio</l>
+          <l>qual vene così in freta<space dim="horizontal" quantity="20 mm"/>al parer mio?</l>
+          <l>Se bene comprendo io,<space dim="horizontal" quantity="20 mm"/>questa è collei</l>
+          <l>ch'ha fatto i giorni mei<space dim="horizontal" quantity="20 mm"/>sì tenebrosi</l>
+          <l>e i spirti mei dogliosi.<space dim="horizontal" quantity="20 mm"/>Questa è quella</l>
+          <l>Psiche, mia figlia bella:<space dim="horizontal" quantity="20 mm"/>Psiche, dico,</l>
+          <l>a cui fu ognun sì amico,<space dim="horizontal" quantity="20 mm"/>che già al scoglio</l>
           <l>lassai cum tante lacrime e cordoglio.</l>
           <stage><hi rend="sc">COSMO</hi> vedendo <hi rend="sc">PSICHE</hi> arivata dicegli:</stage>
           <l>Dileta e cara figlia,</l>
-          <l>che gaudio e maraviglia<space dim="horizontal" extent="20 mm"/>ho del tuo advento,</l>
-          <l>da po' che a salvamento<space dim="horizontal" extent="20 mm"/>giunta sei.</l>
-          <l>E come t'hanno i dei<space dim="horizontal" extent="20 mm"/>da me guidata?</l>
-          <l>Tu sei la ben tornata,<space dim="horizontal" extent="20 mm"/>e tuti i guai</l>
-          <l>che a l'alma datto m'hai,<space dim="horizontal" extent="20 mm"/>or son risolti</l>
-          <l>in gaudi e piacer molti,<space dim="horizontal" extent="20 mm"/>poi ti vegio.</l>
+          <l>che gaudio e maraviglia<space dim="horizontal" quantity="20 mm"/>ho del tuo advento,</l>
+          <l>da po' che a salvamento<space dim="horizontal" quantity="20 mm"/>giunta sei.</l>
+          <l>E come t'hanno i dei<space dim="horizontal" quantity="20 mm"/>da me guidata?</l>
+          <l>Tu sei la ben tornata,<space dim="horizontal" quantity="20 mm"/>e tuti i guai</l>
+          <l>che a l'alma datto m'hai,<space dim="horizontal" quantity="20 mm"/>or son risolti</l>
+          <l>in gaudi e piacer molti,<space dim="horizontal" quantity="20 mm"/>poi ti vegio.</l>
           <l>Ma dimi i casi toi, che in grazia chiegio.</l>
         </sp>
         <sp>
@@ -3282,12 +3255,12 @@
             <hi rend="sc">PRIMO MARITO</hi>
           </speaker>
           <l>Fratel, che faren noi,</l>
-          <l>da po' ch'entrambi doi<space dim="horizontal" extent="20 mm"/>abiamo perse</l>
-          <l>per sorte e stelle adverse<space dim="horizontal" extent="20 mm"/>nostre moglie?</l>
-          <l>Se abiàn nei petti doglie<space dim="horizontal" extent="20 mm"/>e fer tormenti</l>
-          <l>e se faciàn lamenti<space dim="horizontal" extent="20 mm"/>n'abiàn causa,</l>
-          <l>ché la vita c'è clausa<space dim="horizontal" extent="20 mm"/>de letizia.</l>
-          <l>Ma lor cum sua malizia<space dim="horizontal" extent="20 mm"/>e gran peccato</l>
+          <l>da po' ch'entrambi doi<space dim="horizontal" quantity="20 mm"/>abiamo perse</l>
+          <l>per sorte e stelle adverse<space dim="horizontal" quantity="20 mm"/>nostre moglie?</l>
+          <l>Se abiàn nei petti doglie<space dim="horizontal" quantity="20 mm"/>e fer tormenti</l>
+          <l>e se faciàn lamenti<space dim="horizontal" quantity="20 mm"/>n'abiàn causa,</l>
+          <l>ché la vita c'è clausa<space dim="horizontal" quantity="20 mm"/>de letizia.</l>
+          <l>Ma lor cum sua malizia<space dim="horizontal" quantity="20 mm"/>e gran peccato</l>
           <l>questo infortunio se hanno comprato.</l>
         </sp>
         <sp>
@@ -3295,12 +3268,12 @@
             <hi rend="sc">L'ALTRO MARITO.</hi>
           </speaker>
           <l>Stordito i' son rimaso,</l>
-          <l>pensando al miser caso<space dim="horizontal" extent="20 mm"/>de nostre moglie:</l>
-          <l>ma Giove spesso accoglie<space dim="horizontal" extent="20 mm"/>le persone</l>
-          <l>e gli dà punizione<space dim="horizontal" extent="20 mm"/>a lor condigne.</l>
-          <l>Se fureno maligne<space dim="horizontal" extent="20 mm"/>e gran nemiche</l>
-          <l>a te, sorella, o Psiche,<space dim="horizontal" extent="20 mm"/>or fùr punite;</l>
-          <l>se fusser state unite<space dim="horizontal" extent="20 mm"/>con noi viri</l>
+          <l>pensando al miser caso<space dim="horizontal" quantity="20 mm"/>de nostre moglie:</l>
+          <l>ma Giove spesso accoglie<space dim="horizontal" quantity="20 mm"/>le persone</l>
+          <l>e gli dà punizione<space dim="horizontal" quantity="20 mm"/>a lor condigne.</l>
+          <l>Se fureno maligne<space dim="horizontal" quantity="20 mm"/>e gran nemiche</l>
+          <l>a te, sorella, o Psiche,<space dim="horizontal" quantity="20 mm"/>or fùr punite;</l>
+          <l>se fusser state unite<space dim="horizontal" quantity="20 mm"/>con noi viri</l>
           <l>patito non arebber tai martiri.</l>
         </sp>
         <stage>In questo tempo ariva <hi rend="sc">MERCURIO</hi> cum le due magior <hi rend="sc">SORELLE</hi> suscitate, e <hi rend="sc">COSMO</hi> vedendole dice:</stage>
@@ -3309,12 +3282,12 @@
             <hi rend="sc">COSMO.</hi>
           </speaker>
           <l>Mirate, voi, mirate:</l>
-          <l>quelle son le mi' nate,<space dim="horizontal" extent="20 mm"/>se non erro.</l>
-          <l>Ahi quanto gaudio serro<space dim="horizontal" extent="20 mm"/>nel mio petto!</l>
-          <l>Quel che m'è stato detto<space dim="horizontal" extent="20 mm"/>non è vero,</l>
-          <l>che Morte col suo fero<space dim="horizontal" extent="20 mm"/>accuto dardo</l>
-          <l>abbi lor morte: i' guardo<space dim="horizontal" extent="20 mm"/>ancora a quello</l>
-          <l>ch'ha in capo un bel capello<space dim="horizontal" extent="20 mm"/>cum due penne,</l>
+          <l>quelle son le mi' nate,<space dim="horizontal" quantity="20 mm"/>se non erro.</l>
+          <l>Ahi quanto gaudio serro<space dim="horizontal" quantity="20 mm"/>nel mio petto!</l>
+          <l>Quel che m'è stato detto<space dim="horizontal" quantity="20 mm"/>non è vero,</l>
+          <l>che Morte col suo fero<space dim="horizontal" quantity="20 mm"/>accuto dardo</l>
+          <l>abbi lor morte: i' guardo<space dim="horizontal" quantity="20 mm"/>ancora a quello</l>
+          <l>ch'ha in capo un bel capello<space dim="horizontal" quantity="20 mm"/>cum due penne,</l>
           <l>e par che de venir da noi accenne.</l>
         </sp>
         <stage><hi rend="sc">MERCURIO</hi> giunto cum le due <hi rend="sc">SORELLE</hi> dice a <hi rend="sc">PSICHE</hi>:</stage>
@@ -3404,12 +3377,12 @@
             <hi rend="sc">COSMO</hi>
           </speaker>
           <l>Psiche da noi se absenta</l>
-          <l>e vasene contenta<space dim="horizontal" extent="20 mm"/>al cel Empirio,</l>
-          <l>e d'ogni suo martirio<space dim="horizontal" extent="20 mm"/>e oltragio aùto</l>
-          <l>andando in luoco tuto<space dim="horizontal" extent="20 mm"/>fia sanata</l>
-          <l>e poi fia maritata<space dim="horizontal" extent="20 mm"/>ad Amor divo</l>
-          <l>ch'aùto non ha a schivo<space dim="horizontal" extent="20 mm"/>sua beltate.</l>
-          <l>Voi, mie figliole, andate<space dim="horizontal" extent="20 mm"/>ai cari chiostri</l>
+          <l>e vasene contenta<space dim="horizontal" quantity="20 mm"/>al cel Empirio,</l>
+          <l>e d'ogni suo martirio<space dim="horizontal" quantity="20 mm"/>e oltragio aùto</l>
+          <l>andando in luoco tuto<space dim="horizontal" quantity="20 mm"/>fia sanata</l>
+          <l>e poi fia maritata<space dim="horizontal" quantity="20 mm"/>ad Amor divo</l>
+          <l>ch'aùto non ha a schivo<space dim="horizontal" quantity="20 mm"/>sua beltate.</l>
+          <l>Voi, mie figliole, andate<space dim="horizontal" quantity="20 mm"/>ai cari chiostri</l>
           <l>de vostre patrie coi mariti vostri.</l>
         </sp>
         <sp>
@@ -3417,12 +3390,12 @@
             <hi rend="sc">LA PRIMA SORELLA.</hi>
           </speaker>
           <l>Cum tua licenzia, o patre,</l>
-          <l>e tu, longeva matre,<space dim="horizontal" extent="20 mm"/>se n'andremo</l>
-          <l>e in cuor noi vi aremo<space dim="horizontal" extent="20 mm"/>insino a morte;</l>
-          <l>a noi rincrescie forte,<space dim="horizontal" extent="20 mm"/>duole, e pesa</l>
-          <l>de la maligna offesa<space dim="horizontal" extent="20 mm"/>e fata ingiuria</l>
-          <l>a Psiche, ma la furia<space dim="horizontal" extent="20 mm"/>del livore</l>
-          <l>n'ha spinte a tal errore.<space dim="horizontal" extent="20 mm"/>Orsù, valete,</l>
+          <l>e tu, longeva matre,<space dim="horizontal" quantity="20 mm"/>se n'andremo</l>
+          <l>e in cuor noi vi aremo<space dim="horizontal" quantity="20 mm"/>insino a morte;</l>
+          <l>a noi rincrescie forte,<space dim="horizontal" quantity="20 mm"/>duole, e pesa</l>
+          <l>de la maligna offesa<space dim="horizontal" quantity="20 mm"/>e fata ingiuria</l>
+          <l>a Psiche, ma la furia<space dim="horizontal" quantity="20 mm"/>del livore</l>
+          <l>n'ha spinte a tal errore.<space dim="horizontal" quantity="20 mm"/>Orsù, valete,</l>
           <l>che ai nostri alberghi noi torniamo liete.</l>
         </sp>
         <stage><hi rend="sc">MERCURIO</hi> essendo giunto da <hi rend="sc">GIOVE</hi> cum <hi rend="sc">PSICHE</hi> dice così:</stage>
@@ -3585,4 +3558,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

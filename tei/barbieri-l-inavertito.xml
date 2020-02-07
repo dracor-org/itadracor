@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Commedie dei comici dell'arte</title>
-          <editor id="ed">Falavolti, Laura</editor>
+          <editor xml:id="ed">Falavolti, Laura</editor>
           <publisher>UTET</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1982</date>
@@ -53,10 +52,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -66,49 +65,23 @@
         <date>600</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.5 - LETTERATURA DRAMMATICA ITALIANA. 1585-1748</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Siena</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Siena</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-07-29T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marta Zanazzi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2003-08-31T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Siena</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Siena</name>Correzione linguistica</change>
+      <change><date>2003-07-29T00:00:00.000+02:00</date><name>Marta Zanazzi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2003-08-31T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -982,7 +955,7 @@
         </div2>
         <div2 type="scena">
           <head rend="italic">SCENA SECONDA</head>
-          <stage><hi rend="sc">fulvio, mezzettino</hi>, <hi rend="italic">e</hi><hi rend="sc">celia</hi><add resp="ed"><hi rend="sc">beltrame</hi></add></stage>
+          <stage><hi rend="sc">fulvio, mezzettino</hi>, <hi rend="italic">e</hi><hi rend="sc">celia</hi><add resp="#ed"><hi rend="sc">beltrame</hi></add></stage>
           <sp>
             <speaker><emph rend="sc">fulvio</emph>.</speaker>
             <p>Non oso di passare per questa strada, per non disturbare le invenzioni di Scappino. Ma che veggìo, messer Beltrame e la mia Celia?</p>
@@ -1477,7 +1450,7 @@
         </div2>
         <div2 type="scena">
           <head rend="italic">SCENA SESTA</head>
-          <stage><hi rend="sc">cinzio</hi>, <hi rend="italic">e</hi><hi rend="sc">scappino</hi><add resp="ed"><hi rend="italic">in disparte</hi></add></stage>
+          <stage><hi rend="sc">cinzio</hi>, <hi rend="italic">e</hi><hi rend="sc">scappino</hi><add resp="#ed"><hi rend="italic">in disparte</hi></add></stage>
           <sp>
             <speaker><emph rend="sc">cinzio</emph>.</speaker>
             <p>Io non vorrei, ch'in tanto che s'affortiscono le lettere, e che se ne fa la lista, ch'il signor Fulvio trattasse di quanto gli ha detto al suo servitore, perché senz'altro s'accorgierebbe de' miei andamenti, e potrebbe imparare la schiava avanti di me. Io l'ho quasi posto in sospetto, e quello Scappino è tanto trincato, che mi fa dubitare. O s'io avessi un servitore, come è quello! Beato me, le mie cose andarebbero assai meglio. Però faccia quello che vuole Scappino, e Fulvio. Io la procurarò col danaro, ch'io aspetto, e prima del denaro con un poco di caparra.</p>
@@ -1872,7 +1845,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">cinzio</emph>.</speaker>
-            <p>È, dico, rimedio <add resp="ed">che il</add> figliuolo stia ne' suoi termini.</p>
+            <p>È, dico, rimedio <add resp="#ed">che il</add> figliuolo stia ne' suoi termini.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scappino</emph>.</speaker>
@@ -3053,7 +3026,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Lasciate la cura a me. «<foreign lang="lat">De mandato Magnae Curiae Vicariae</foreign>» ...</p>
+            <p>Lasciate la cura a me. «<foreign xml:lang="lat">De mandato Magnae Curiae Vicariae</foreign>» ...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3069,7 +3042,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Fermatevi. «<foreign lang="lat">Ad instantiam domini Fulvi de Bisognosis</foreign>»...</p>
+            <p>Fermatevi. «<foreign xml:lang="lat">Ad instantiam domini Fulvi de Bisognosis</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3077,7 +3050,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Piano, piano, ch'il signor Pantalone non vi fa torto, né dice che abbiate fatto instanza al signor Fulvio. «<foreign lang="lat">Sequestretur omne per illud, quod reperitur penes domino Mezzettino</foreign>»...</p>
+            <p>Piano, piano, ch'il signor Pantalone non vi fa torto, né dice che abbiate fatto instanza al signor Fulvio. «<foreign xml:lang="lat">Sequestretur omne per illud, quod reperitur penes domino Mezzettino</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3085,7 +3058,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Tacete, in buon'ora, ché non parla né di rapire, né di rubbare! «<foreign lang="lat">Uti bona pertinenza al dominum Cinthium Fidentium</foreign>»...</p>
+            <p>Tacete, in buon'ora, ché non parla né di rapire, né di rubbare! «<foreign xml:lang="lat">Uti bona pertinenza al dominum Cinthium Fidentium</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3093,7 +3066,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Se voi non avete pazienza, non la finiremo mai! Non intendete e però tacete! «<foreign lang="lat">Scolarem Beneventanum videlicet aurum, et argentum</foreign>»...</p>
+            <p>Se voi non avete pazienza, non la finiremo mai! Non intendete e però tacete! «<foreign xml:lang="lat">Scolarem Beneventanum videlicet aurum, et argentum</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3101,7 +3074,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>In buon'ora! «<foreign lang="lat">Et in specie</foreign>»...</p>
+            <p>In buon'ora! «<foreign xml:lang="lat">Et in specie</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3109,7 +3082,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Non parla di vostre spezie. Achetatevi, dico! «<foreign lang="lat">Mancipiam unam captivam</foreign>»...</p>
+            <p>Non parla di vostre spezie. Achetatevi, dico! «<foreign xml:lang="lat">Mancipiam unam captivam</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3117,7 +3090,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>O siete impaziente! «<foreign lang="lat">Cum declaratione, quod ipse non possit amplius eam retinere, neque possidere</foreign>»...</p>
+            <p>O siete impaziente! «<foreign xml:lang="lat">Cum declaratione, quod ipse non possit amplius eam retinere, neque possidere</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3125,7 +3098,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>O pazzo, non dice che non possiate sedere, dice che non possi possedere, «<foreign lang="lat">neque in pedibus</foreign>»...</p>
+            <p>O pazzo, non dice che non possiate sedere, dice che non possi possedere, «<foreign xml:lang="lat">neque in pedibus</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3133,11 +3106,11 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Voi mi volete far perdere la pazienza! Fermatevi, in buon'ora, ché starete sentato, in piedi, come vorrete voi. «<foreign lang="lat">Ut<pb n="449"/> dicitur alienum constituere, et quod fieret in contrarium fiat frustra</foreign>».</p>
+            <p>Voi mi volete far perdere la pazienza! Fermatevi, in buon'ora, ché starete sentato, in piedi, come vorrete voi. «<foreign xml:lang="lat">Ut<pb n="449"/> dicitur alienum constituere, et quod fieret in contrarium fiat frustra</foreign>».</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
-            <p>O questa sì, ch'io l'ho intesa, e non me la imbrogliarete. <foreign lang="lat" rend="italic">Contrarium frustra</foreign> vuol dire che mi frusteranno per le contrade.</p>
+            <p>O questa sì, ch'io l'ho intesa, e non me la imbrogliarete. <foreign xml:lang="lat" rend="italic">Contrarium frustra</foreign> vuol dire che mi frusteranno per le contrade.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
@@ -3149,7 +3122,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>O se v'intendeste tanto di mangiare, non occorrebbono maestre da torte, o musiche da macaroni! Datevi pace, e abbiate pazienza ch'io legga il tutto. «<foreign lang="lat">Et haec sub pena ontiarium auri centum</foreign>»...</p>
+            <p>O se v'intendeste tanto di mangiare, non occorrebbono maestre da torte, o musiche da macaroni! Datevi pace, e abbiate pazienza ch'io legga il tutto. «<foreign xml:lang="lat">Et haec sub pena ontiarium auri centum</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3157,7 +3130,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>A proposito, le onze d'oro sono un valor di moneta, e credo che sia cinque ducati d'oro un'onzia. «<foreign lang="lat">Regio Fisco applicandarum</foreign>»...</p>
+            <p>A proposito, le onze d'oro sono un valor di moneta, e credo che sia cinque ducati d'oro un'onzia. «<foreign xml:lang="lat">Regio Fisco applicandarum</foreign>»...</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3173,7 +3146,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p><foreign lang="lat" rend="italic">Applicandarum</foreign>, dice, e non <foreign lang="lat" rend="italic">apicandarum</foreign>: da applicarsi al fisco, da dare alla Corte, intendete? «<foreign lang="lat">Registrum per publicum Notariorum Mosettinus Calera</foreign>».</p>
+            <p><foreign xml:lang="lat" rend="italic">Applicandarum</foreign>, dice, e non <foreign xml:lang="lat" rend="italic">apicandarum</foreign>: da applicarsi al fisco, da dare alla Corte, intendete? «<foreign xml:lang="lat">Registrum per publicum Notariorum Mosettinus Calera</foreign>».</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3181,7 +3154,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">beltrame</emph>.</speaker>
-            <p>Maidesì, voi diventarete pazzo tra la vostra interpretazione e la vostra paura. <foreign lang="lat" rend="italic">Mozzettinus</foreign> vuol dir Moisè in diminutive, come Battista Battestino, Carlo Carlino, e Calera è una casata spagnuola.</p>
+            <p>Maidesì, voi diventarete pazzo tra la vostra interpretazione e la vostra paura. <foreign xml:lang="lat" rend="italic">Mozzettinus</foreign> vuol dir Moisè in diminutive, come Battista Battestino, Carlo Carlino, e Calera è una casata spagnuola.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">mezzettino</emph>.</speaker>
@@ -3379,7 +3352,7 @@
         </div2>
         <div2 type="scena">
           <head rend="italic">SCENA SESTA</head>
-          <stage><hi rend="sc">spacca, scappino, cinzio, celia</hi>, <hi rend="italic">alla finestra, e</hi><hi rend="sc">beltrame <add resp="ed">pantalone</add></hi></stage>
+          <stage><hi rend="sc">spacca, scappino, cinzio, celia</hi>, <hi rend="italic">alla finestra, e</hi><hi rend="sc">beltrame <add resp="#ed">pantalone</add></hi></stage>
           <sp>
             <speaker><emph rend="sc">pantalone</emph>.</speaker>
             <p>Amico, vi ringrazio del cortese officio che avete fatto, col porvi di mezo a questi giovani.</p>
@@ -6240,7 +6213,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">scappino</emph>.</speaker>
-            <p>Intendendo però che vostra signorìa l'avesse poi pagata, e niuna cosa è riuscita. Ora il sionor Capitano ha riscossa la giovane con pensiero di pigliarla per moglie, poi ch'è arrivata un'altra sorella, già moglie in promissione dal sudetto signor Capitano; ond'egli, perciò, cede la prima a vostro figliuolo e si piglia quest'altra, di novo ritrovata e prima a lui destinata. Ora altro non resta se non che vostra signorìa dia il <foreign lang="lat" rend="italic">placet</foreign> di questo parentado, se non, voi perderete Ful<pb n="509"/>vio; o se l'avrete, l'avrete pazzo. Che il parentado sia lecito, ve ne farà fede il signor Capitano. E poi il signor Fulvio non ha gusto di pigliar la signora Lavinia, a tal che darete gusto a questa giovane, stabilirete il cervello a vostro figliuolo e farete ch'io m'acquieterò e potrei forsi doventar galant'uomo.</p>
+            <p>Intendendo però che vostra signorìa l'avesse poi pagata, e niuna cosa è riuscita. Ora il sionor Capitano ha riscossa la giovane con pensiero di pigliarla per moglie, poi ch'è arrivata un'altra sorella, già moglie in promissione dal sudetto signor Capitano; ond'egli, perciò, cede la prima a vostro figliuolo e si piglia quest'altra, di novo ritrovata e prima a lui destinata. Ora altro non resta se non che vostra signorìa dia il <foreign xml:lang="lat" rend="italic">placet</foreign> di questo parentado, se non, voi perderete Ful<pb n="509"/>vio; o se l'avrete, l'avrete pazzo. Che il parentado sia lecito, ve ne farà fede il signor Capitano. E poi il signor Fulvio non ha gusto di pigliar la signora Lavinia, a tal che darete gusto a questa giovane, stabilirete il cervello a vostro figliuolo e farete ch'io m'acquieterò e potrei forsi doventar galant'uomo.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">pantalone</emph>.</speaker>
@@ -6550,4 +6523,4 @@
       <pb n="513"/>
     </body>
   </text>
-</TEI.2>
+</TEI>

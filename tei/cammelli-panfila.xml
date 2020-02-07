@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,8 +25,8 @@
         <bibl>
           <title>Teatro del Quattrocento</title>
           <title type="part">Le corti padane</title>
-          <editor id="ed">Tissoni Benvenuti, Antonia</editor>
-          <editor id="ed2">Mussini Sacchi, Maria Pia</editor>
+          <editor xml:id="ed">Tissoni Benvenuti, Antonia</editor>
+          <editor xml:id="ed2">Mussini Sacchi, Maria Pia</editor>
           <publisher>UTET</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1983</date>
@@ -55,10 +54,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -68,50 +67,22 @@
         <date>400</date>
       </creation>
       <langUsage>
-        <language id="codice">Italiano</language>
+        <language ident="codice">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>792.0945 - Teatro italiano</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2003-05-30T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Caterina Grata</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>2003-05-30T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Caterina Grata</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-06-15T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Valentina Gritti</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Codifica XML - Sono state controllate le codifiche, correggendone gli errori.</item>
-      </change>
-      <change>
-        <date>2003-06-22T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2003-05-30T00:00:00.000+02:00</date><name>Caterina Grata</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>2003-05-30T00:00:00.000+02:00</date><name>Caterina Grata</name><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2003-06-15T00:00:00.000+02:00</date><name>Valentina Gritti</name><name>CIBIT - Ferrara</name>Codifica XML - Sono state controllate le codifiche, correggendone gli errori.</change>
+      <change><date>2003-06-22T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -2192,4 +2163,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

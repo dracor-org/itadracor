@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Teatro del Cinquecento</title>
           <title type="part">La tragedia</title>
-          <editor id="ed">Cremante, Renzo</editor>
+          <editor xml:id="ed">Cremante, Renzo</editor>
           <publisher>R. Ricciardi</publisher>
           <pubPlace>Milano [ecc.]</pubPlace>
           <date>1988</date>
@@ -54,10 +53,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -67,48 +66,22 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
+        <language ident="ita"/>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.05120804 - LETTERATURA DRAMMATICA ITALIANA. TRAGEDIA. RACCOLTE. 1542-1585</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-01-26T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marina Larena</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2004-02-09T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-01-26T00:00:00.000+02:00</date><name>Marina Larena</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-02-09T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -238,7 +211,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <stage>PLUTONE e la GELOSIA</stage>
         <sp>
           <speaker>
-            <add resp="ed">PLUT.</add>
+            <add resp="#ed">PLUT.</add>
           </speaker>
           <lg type="non definito">
             <l>Io, se ben mi dimostro a gli occhi vostri</l>
@@ -427,7 +400,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         </castItem>
         <castItem type="role">
           <role>
-            <add resp="ed">SOLDATI di Erode</add>
+            <add resp="#ed">SOLDATI di Erode</add>
           </role>
         </castItem>
         <castItem type="role">
@@ -450,7 +423,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>MARIANNA <emph>Reina</emph>, BERENICE <emph>Nudrice</emph></stage>
           <sp>
             <speaker>
-              <add resp="ed">MAR.</add>
+              <add resp="#ed">MAR.</add>
             </speaker>
             <lg type="non definito">
               <l>O fiere, sanguinose, empie sorelle,</l>
@@ -797,7 +770,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>SOEMO, MARIANNA</stage>
           <sp>
             <speaker>
-              <add resp="ed">SOE.</add>
+              <add resp="#ed">SOE.</add>
             </speaker>
             <lg type="non definito">
               <l>Voi sapete, Reina, ch'io mi posi</l>
@@ -1150,7 +1123,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>ERODE, SOLOME</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>Certo non è fra noi, sorella, stato</l>
@@ -1253,7 +1226,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>COPPIERE, ERODE</stage>
           <sp>
             <speaker>
-              <add resp="ed">COP.</add>
+              <add resp="#ed">COP.</add>
             </speaker>
             <lg type="non definito">
               <l>Ecco, o Re giusto, che, da voi chiamato,</l>
@@ -1615,7 +1588,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>MARIANNA, ERODE, COPPIERE</stage>
           <sp>
             <speaker>
-              <add resp="ed">MAR.</add>
+              <add resp="#ed">MAR.</add>
             </speaker>
             <lg type="non definito">
               <l>L'avervi udito favellar irato</l>
@@ -2033,7 +2006,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>ERODE, BENIAMINO Eunuco</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>Tu sai, Beniamin, che da' prim'anni</l>
@@ -2338,7 +2311,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>ALESSANDRA, MARIANNA, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">ALES.</add>
+              <add resp="#ed">ALES.</add>
             </speaker>
             <lg type="non definito">
               <l>Cara figliuola mia, mentre ch'io vado</l>
@@ -2459,7 +2432,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>ERODE, MARIANNA, CONSIGLIERE</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>Marianna, la tua malvagia mente,</l>
@@ -2719,7 +2692,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>SOEMO, ERODE, CONSIGLIERE</stage>
           <sp>
             <speaker>
-              <add resp="ed">SOE.</add>
+              <add resp="#ed">SOE.</add>
             </speaker>
             <lg type="non definito">
               <l>Colui, benigno Re, da cui discende</l>
@@ -3046,7 +3019,7 @@ SOE.</speaker>
           <stage>ERODE, CONSIGLIERE</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>Se l'uom che, indotto da malvagia mente,</l>
@@ -3236,7 +3209,7 @@ SOE.</speaker>
           <stage>NUNZIO, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">NUN.</add>
+              <add resp="#ed">NUN.</add>
             </speaker>
             <lg type="non definito">
               <l>Deh, perché non ho io misero l'ali</l>
@@ -3339,7 +3312,7 @@ SOE.</speaker>
           <stage>ERODE, NUNZIO, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>È la sentenza mia stata eseguita?</l>
@@ -3548,7 +3521,7 @@ SOE.</speaker>
           <stage>ERODE, MARIANNA, NUNZIO</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>Due grandi errori ho nel ritorno mio,</l>
@@ -3784,10 +3757,10 @@ SOE.</speaker>
           </sp>
         </div2>
         <div2 type="scena">
-          <stage>BERENICE, ERODE, ALESSANDRO, ARISTOBOLO <emph>figliuoli d'Erode</emph>, CORO, <add resp="ed">SOLDATI <emph>di Erode</emph></add></stage>
+          <stage>BERENICE, ERODE, ALESSANDRO, ARISTOBOLO <emph>figliuoli d'Erode</emph>, CORO, <add resp="#ed">SOLDATI <emph>di Erode</emph></add></stage>
           <sp>
             <speaker>
-              <add resp="ed">BER.</add>
+              <add resp="#ed">BER.</add>
             </speaker>
             <lg type="non definito">
               <l>Benigno Re, vi prego, se pregarvi</l>
@@ -4090,7 +4063,7 @@ SOE.</speaker>
           <stage>CONSIGLIERE, ERODE</stage>
           <sp>
             <speaker>
-              <add resp="ed">CONS.</add>
+              <add resp="#ed">CONS.</add>
             </speaker>
             <lg type="non definito">
               <l>Re, mio Signor, i buon consigli denno</l>
@@ -4279,7 +4252,7 @@ SOE.</speaker>
                 <l>Con i crudeli et empi,</l>
                 <l>Non sol ne va l'iniquo Erode a paro,</l>
                 <l>
-                  <add resp="ed">............ aro</add>
+                  <add resp="#ed">............ aro</add>
                 </l>
                 <l>Ma ciascun dietro lassa,</l>
                 <l>E di molto gran spazio innanzi passa.</l>
@@ -4324,7 +4297,7 @@ SOE.</speaker>
           <stage>BERENICE, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">BER.</add>
+              <add resp="#ed">BER.</add>
             </speaker>
             <lg type="non definito">
               <l>Sconsolate donzelle,</l>
@@ -4401,7 +4374,7 @@ SOE.</speaker>
           </sp>
           <sp>
             <speaker>
-              <add resp="ed">BER.</add>
+              <add resp="#ed">BER.</add>
             </speaker>
             <lg type="non definito">
               <l>Ma non sarà giamai</l>
@@ -4429,7 +4402,7 @@ SOE.</speaker>
           </sp>
           <sp>
             <speaker>
-              <add resp="ed">COR</add>
+              <add resp="#ed">COR</add>
             </speaker>
             <lg type="non definito">
               <l>Ma ecco a punto, dolorosa vecchia,</l>
@@ -4440,10 +4413,10 @@ SOE.</speaker>
           </sp>
         </div2>
         <div2 type="scena">
-          <stage>ERODE, MESSO,<add resp="ed">BERENICE</add>, CORO</stage>
+          <stage>ERODE, MESSO,<add resp="#ed">BERENICE</add>, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">ER.</add>
+              <add resp="#ed">ER.</add>
             </speaker>
             <lg type="non definito">
               <l>Oh, come facilmente i pensier nostri</l>
@@ -4567,7 +4540,7 @@ SOE.</speaker>
           <stage>NUNZIO, ERODE, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">NUN.</add>
+              <add resp="#ed">NUN.</add>
             </speaker>
             <lg type="non definito">
               <l>Signor, s'apportator di ree novelle</l>
@@ -4748,7 +4721,7 @@ SOE.</speaker>
           </sp>
           <sp>
             <speaker>
-              <add resp="ed">NUN.</add>
+              <add resp="#ed">NUN.</add>
             </speaker>
             <lg type="non definito">
               <l>Dopo queste parole arditamente</l>
@@ -4976,4 +4949,4 @@ SOE.</speaker>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

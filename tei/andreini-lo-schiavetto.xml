@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Commedie dei comici dell'arte</title>
-          <editor id="ed">Falavolti, Laura</editor>
+          <editor xml:id="ed">Falavolti, Laura</editor>
           <publisher>UTET</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1982</date>
@@ -56,10 +55,10 @@
         <p>L'autore pone all'inizio del testo una avvertenza per gli attori che eventualmente dovessero rappresentare la sua commedia e alla fine una sezione che comprende suggerimenti per la messa in scena dell'opera con rimandi alle varie sezioni. Tali testi sono stati codificati con div1 type='introduzione' nel front per la sezione iniziale, e per quella finale back con div1 type='glossario', div2 type='sezione', div3 type='parte'.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -69,49 +68,23 @@
         <date>600</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.5 - LETTERATURA DRAMMATICA ITALIANA. 1585-1748</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Siena</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Siena</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-07-29T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marta Zanazzi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2003-08-31T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Siena</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Siena</name>Correzione linguistica</change>
+      <change><date>2003-07-29T00:00:00.000+02:00</date><name>Marta Zanazzi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2003-08-31T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -134,7 +107,7 @@
           <signed>GIOVAN BATTISTA ANDREINI</signed>
         </opener>
         <p>L'avere io molti anni esercitato l'Arte Comica, benché io sia di poco nome, m'ha persuaso a dar alla luce molti di que' suggetti, ch'io composi in varie città recitando; sì per mostrare che in così fatta professione m'affaticai qualche poco, come per far noto, a' molti invidi laceratori, che, quando hanno le comedie de' moderni tempi lacerate, che più per seguitare un pessimo loro costume, che perché meritassero censura, le biasimarono. Ora, da questo, e da altri suggetti miei, ch'io (non mi mancando il tempo) sono per dare alle stampe, conoscer ciascuno potrà che que' comici, che tali favole annodarono e disciolsero, furono gente, che s'affaticarono in conoscer l'arte del comporre, e in sapere quanto più dell'altr'uomo quello sia, che la virtù, che l'onore, seguita.</p>
-        <p>E se a ciò mosso non mi avessero le ragioni sudette, credasi certissimo che la penna avrei deposta allora, quando io composi la <title>Florinda</title> tragedia; overo, per deporla con più lode, quando io composi la <title>Divina Visione</title>, la <title>Tecla</title>, la <title>Maddalena</title>, e l'<title>Adamo</title>. Dunque l'intento mio particolare sarà, scrivendo, di fuggir l'ozio e di ricrearmi come uomo in qualche giovevole passatempo, e trattenere, in certo modo, l'umana fiacchezza con inganno utile e virtuoso; a guisa di accorto medico, che nel vaso di miele asperso fa cara all'infermo per la salute l'amara bevanda. E bene quel grande oratore Cicerone, considerando il giovamento che con dolci ravvolgimenti si tra' dalla comedia, la chiamò <quote><foreign lang="lat" rend="italic">speculum vitae</foreign></quote>,<pb n="59"/> poiché, sì come lo specchio rappresenta ad altrui ogni macchia, che nel volto si porti, onde volendo quella levare, far lo possa; così, fatto specchio la comedia, nella quale lo spettatore miri le macchie sue, possa con agevolezza quelle dalla fronte levarsi. In questo specchio, adunque, di questa comedia mia, detta lo <title>Schiavetto</title>, altri potrà, mirando, scorgere nella brutezza d'Alberto, uomo avarissimo, le macchie dell'avarizia sua propria, se di tal pece sarà macchiato; e in uno considerare che, quello che d'Alberto ei leggerà per ridicolosa favola, di lui per istoria indegna dir si potrebbe nelle pubbliche piazze; poiché la piazza altro non è che il teatro de' fatti mondani, e i recitanti sono quelli che, stracchi de' fatti loro, ad altro non attendono che a recitar de gli altri i casi. Onde, fatto cauto, perciò cerchi di sottrarsi da quelle calunnie, che in figura d'Alberto a sé medesimo vedrà indirizzate, co'l darsi a generosa, a liberale vita. Pur, dallo stesso Alberto, trar si potrà che chi per avarizia tiene gran tempo figlia da marito in casa, o ch'ella da sé di marito si procura, overo che, credendo di maritarla senza dote, la sposa con chi è il maggior fallito del mondo.</p>
+        <p>E se a ciò mosso non mi avessero le ragioni sudette, credasi certissimo che la penna avrei deposta allora, quando io composi la <title>Florinda</title> tragedia; overo, per deporla con più lode, quando io composi la <title>Divina Visione</title>, la <title>Tecla</title>, la <title>Maddalena</title>, e l'<title>Adamo</title>. Dunque l'intento mio particolare sarà, scrivendo, di fuggir l'ozio e di ricrearmi come uomo in qualche giovevole passatempo, e trattenere, in certo modo, l'umana fiacchezza con inganno utile e virtuoso; a guisa di accorto medico, che nel vaso di miele asperso fa cara all'infermo per la salute l'amara bevanda. E bene quel grande oratore Cicerone, considerando il giovamento che con dolci ravvolgimenti si tra' dalla comedia, la chiamò <quote><foreign xml:lang="lat" rend="italic">speculum vitae</foreign></quote>,<pb n="59"/> poiché, sì come lo specchio rappresenta ad altrui ogni macchia, che nel volto si porti, onde volendo quella levare, far lo possa; così, fatto specchio la comedia, nella quale lo spettatore miri le macchie sue, possa con agevolezza quelle dalla fronte levarsi. In questo specchio, adunque, di questa comedia mia, detta lo <title>Schiavetto</title>, altri potrà, mirando, scorgere nella brutezza d'Alberto, uomo avarissimo, le macchie dell'avarizia sua propria, se di tal pece sarà macchiato; e in uno considerare che, quello che d'Alberto ei leggerà per ridicolosa favola, di lui per istoria indegna dir si potrebbe nelle pubbliche piazze; poiché la piazza altro non è che il teatro de' fatti mondani, e i recitanti sono quelli che, stracchi de' fatti loro, ad altro non attendono che a recitar de gli altri i casi. Onde, fatto cauto, perciò cerchi di sottrarsi da quelle calunnie, che in figura d'Alberto a sé medesimo vedrà indirizzate, co'l darsi a generosa, a liberale vita. Pur, dallo stesso Alberto, trar si potrà che chi per avarizia tiene gran tempo figlia da marito in casa, o ch'ella da sé di marito si procura, overo che, credendo di maritarla senza dote, la sposa con chi è il maggior fallito del mondo.</p>
         <p>Da Nottola, lucido come sole, ogni talpa vedrà che male dispensa colui quel dinaro, che senza fatica acquistò; e chi è vago di rapinar l'altrui, spesso a miserabil passo vien condotto. E dalla stessa parte imparerassi a non far capitale più di gente strana, che de' suoi; atteso che, amando quegli più la tua roba, che il tuo utile, in altro non istudia che in far tanto te povero, quanto lui ricco bramasti.</p>
         <p>Da Schiavetto, nel fine Florinda donna, pur vedrassi come giovine che, innamorata, non sa essere moderatrice de gli affetti suoi, pone inoncale l'esser donna; e, per ricordarsi dell'amante, di sé stessa si scorda, si scorda il fior virginale, i parenti, e si supponga a mille rischi e d'onore e di vita; e fatta micidiale quanto amante, cerchi al suo amatore di tôr la vita. E al fin poi, capitando nelle mani dello stesso fratello, chieda in premio la vita. Sì che pure s'alcuna fosse, che, di questo amore ardendo, intenta fosse a qualche fuga, considerar potrà, ne gli eventi miseri di costei, i suoi proprii; onde perciò, saggia moderatrice delle sue passioni, imparerà a discoprire gl'interni amorosi flutti a i congiunti in sangue, accioché, con l'aura benigna de' loro consensi, il tempestoso mare si tranquilli, e 'l tutto in calma felicemente goda, non paventando di que' scogli onde Florinda oggi va incontrando.<pb n="60"/></p>
         <p>Da gli ingressi d'Orazio, che volubile sarà nell'amare e in osservar la fede, altri, che in caso tale si ritrovi, conoscerà quanto disdica ad essere infedele; cosa più dell'infedeltà non v'essendo che macchi l'uomo, e tanto più l'uomo ben nato, cui pria la vita che la parola perder dovrebbe, tanto più con donna fedifrago essendo in fede maritale. E qui non li sarà celato come, per vendicar questa violata fede, s'armin le donne, gli uomini e il Cielo. Anzi imparar dovrassi a stare bene sempre con lo stesso Cielo, l'ora dei morir nostro essendo, nella vita, incerta, come dal creduto avelenamento d'Orazio scorger potrassi.</p>
@@ -208,7 +181,7 @@
           </sp>
           <sp>
             <speaker><emph rend="sc">rampino</emph>.</speaker>
-            <p><foreign lang="lat">Promitto promittis</foreign> sta per inzavagliare, da tutti i fanciulli ho udito dire quando, dalle scuole tornando, si disciplinano con le saccoccie piene di libri senza coperte. In nome di tutti costoro io dico, adunque, che non vogliono passar Pesaro. E di più, ecco, vi danno i fardelli, che tanto addosso gli avete fatto portare, ogni sera volendoli appresso di voi, come se fossero stati groppi di gemme. Eccoli qua, gettateli per terra, o così.</p>
+            <p><foreign xml:lang="lat">Promitto promittis</foreign> sta per inzavagliare, da tutti i fanciulli ho udito dire quando, dalle scuole tornando, si disciplinano con le saccoccie piene di libri senza coperte. In nome di tutti costoro io dico, adunque, che non vogliono passar Pesaro. E di più, ecco, vi danno i fardelli, che tanto addosso gli avete fatto portare, ogni sera volendoli appresso di voi, come se fossero stati groppi di gemme. Eccoli qua, gettateli per terra, o così.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">nottola</emph>.</speaker>
@@ -5826,7 +5799,7 @@
           </stage>
           <sp>
             <speaker><emph rend="sc">grillo</emph>.</speaker>
-            <p>Io m'addimando Grillo, e perciò fuora da questo canto io ficco il capo, e mi rallegro di questi amori, anzi vi<pb n="186"/> prometto che la prima notte del <foreign lang="lat" rend="italic">gaudeamus</foreign>, voglio sotto il capezzale vostro tanto cantare, che giamai il sonno v'entri ne gli occhi, onde meglio possa alla sposa lo sposo dilettare.</p>
+            <p>Io m'addimando Grillo, e perciò fuora da questo canto io ficco il capo, e mi rallegro di questi amori, anzi vi<pb n="186"/> prometto che la prima notte del <foreign xml:lang="lat" rend="italic">gaudeamus</foreign>, voglio sotto il capezzale vostro tanto cantare, che giamai il sonno v'entri ne gli occhi, onde meglio possa alla sposa lo sposo dilettare.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -7263,4 +7236,4 @@
       </div1>
     </back>
   </text>
-</TEI.2>
+</TEI>

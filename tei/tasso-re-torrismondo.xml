@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Teatro</title>
           <author>Tasso, Torquato</author>
-          <editor id="ed">Guglielminetti, Marziano</editor>
+          <editor xml:id="ed">Guglielminetti, Marziano</editor>
           <publisher>Garzanti</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1995</date>
@@ -54,7 +53,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -64,45 +63,19 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
+        <language ident="ita"/>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-04-14T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Tiziana Mancinelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-05-05T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-04-14T00:00:00.000+02:00</date><name>Tiziana Mancinelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-05-05T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -173,12 +146,12 @@ Affez.mo e devot.mo ser.re</salute>
         <head>ATTO PRIMO</head>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA PRIMA]</add>
+            <add resp="#ed">[SCENA PRIMA]</add>
           </head>
           <stage>NUTRICE, ALVIDA</stage>
           <sp>
             <speaker>
-              <add resp="ed">[NUTRICE]</add>
+              <add resp="#ed">[NUTRICE]</add>
             </speaker>
             <lg>
               <l>Deh qual cagione ascosa, alta regina,</l>
@@ -429,7 +402,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SECONDA]</add>
+            <add resp="#ed">[SCENA SECONDA]</add>
           </head>
           <stage>NUTRICE <emph>sola</emph></stage>
           <sp>
@@ -471,12 +444,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA TERZA]</add>
+            <add resp="#ed">[SCENA TERZA]</add>
           </head>
           <stage>TORRISMONDO RE, CONSIGLIERO.</stage>
           <sp>
             <speaker>
-              <add resp="ed">[TORRISMONDO]</add>
+              <add resp="#ed">[TORRISMONDO]</add>
             </speaker>
             <lg>
               <l>Ahi, quando mai la Tana, o 'l Reno, o l'Istro,</l>
@@ -1299,12 +1272,12 @@ Affez.mo e devot.mo ser.re</salute>
         <head>ATTO SECONDO</head>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA PRIMA]</add>
+            <add resp="#ed">[SCENA PRIMA]</add>
           </head>
           <stage>MESSAGGERO, TORRISMONDO, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[MESSAGGERO]</add>
+              <add resp="#ed">[MESSAGGERO]</add>
             </speaker>
             <lg>
               <l>Me di seguire il mio signore aggrada,</l>
@@ -1329,7 +1302,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>O magnanimo re de' Goti illustri,</l>
               <l>de l'inclita Suezia il re possente</l>
@@ -1344,7 +1317,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l part="F">Il mio signor Germondo</l>
               <l>dentro a' confin del vostro regno è giunto,</l>
@@ -1393,7 +1366,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Signor, se con sì ardente e puro affetto</l>
               <l>amate il nostro re, giurar ben posso</l>
@@ -1410,7 +1383,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Ei de le vostre nozze è lieto in modo</l>
               <l>che 'l piacer vostro in lui trasfuso inonda,</l>
@@ -1442,7 +1415,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SECONDA]</add>
+            <add resp="#ed">[SCENA SECONDA]</add>
           </head>
           <stage>TORRISMONDO <emph>solo</emph></stage>
           <sp>
@@ -1487,7 +1460,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA TERZA]</add>
+            <add resp="#ed">[SCENA TERZA]</add>
           </head>
           <stage>ROSMONDA</stage>
           <sp>
@@ -1533,12 +1506,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUARTA]</add>
+            <add resp="#ed">[SCENA QUARTA]</add>
           </head>
           <stage>REGINA MADRE, ROSMONDA.</stage>
           <sp>
             <speaker>
-              <add resp="ed">[REGINA]</add>
+              <add resp="#ed">[REGINA]</add>
             </speaker>
             <lg>
               <l>A te sol forse ancora è, figlia, occulto</l>
@@ -1932,7 +1905,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUINTA]</add>
+            <add resp="#ed">[SCENA QUINTA]</add>
           </head>
           <stage>REGINA MADRE <emph>sola</emph></stage>
           <sp>
@@ -1967,12 +1940,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SESTA]</add>
+            <add resp="#ed">[SCENA SESTA]</add>
           </head>
           <stage>REGINA MADRE, TORRISMONDO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[REGINA]</add>
+              <add resp="#ed">[REGINA]</add>
             </speaker>
             <lg>
               <l>Dopo molte ragioni e molti preghi</l>
@@ -2159,7 +2132,7 @@ Affez.mo e devot.mo ser.re</salute>
         <head>ATTO TERZO</head>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA PRIMA]</add>
+            <add resp="#ed">[SCENA PRIMA]</add>
           </head>
           <stage>CONSIGLIERO</stage>
           <sp>
@@ -2238,7 +2211,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SECONDA]</add>
+            <add resp="#ed">[SCENA SECONDA]</add>
           </head>
           <stage>ROSMONDA <emph>sola</emph></stage>
           <sp>
@@ -2280,12 +2253,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA TERZA]</add>
+            <add resp="#ed">[SCENA TERZA]</add>
           </head>
           <stage>TORRISMONDO, GERMONDO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[TORRISMONDO]</add>
+              <add resp="#ed">[TORRISMONDO]</add>
             </speaker>
             <lg>
               <l>Le nemicizie de' mortali in terra</l>
@@ -2364,12 +2337,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUARTA]</add>
+            <add resp="#ed">[SCENA QUARTA]</add>
           </head>
           <stage>TORRISMONDO <emph>ed</emph> ALVIDA</stage>
           <sp>
             <speaker>
-              <add resp="ed">[TORRISMONDO]</add>
+              <add resp="#ed">[TORRISMONDO]</add>
             </speaker>
             <lg>
               <l>Regina, ad onorar le vostre nozze</l>
@@ -2426,12 +2399,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUINTA]</add>
+            <add resp="#ed">[SCENA QUINTA]</add>
           </head>
           <stage>CAMERIERA, ALVIDA.</stage>
           <sp>
             <speaker>
-              <add resp="ed">[CAMERIERA]</add>
+              <add resp="#ed">[CAMERIERA]</add>
             </speaker>
             <lg>
               <l>Questi doni a voi manda, alta regina,</l>
@@ -2485,12 +2458,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SESTA]</add>
+            <add resp="#ed">[SCENA SESTA]</add>
           </head>
           <stage>ALVIDA, NUTRICE</stage>
           <sp>
             <speaker>
-              <add resp="ed">[ALVIDA]</add>
+              <add resp="#ed">[ALVIDA]</add>
             </speaker>
             <lg>
               <l>Quai doni io veggio? E quai parole ascolto?</l>
@@ -2760,12 +2733,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SETTIMA]</add>
+            <add resp="#ed">[SCENA SETTIMA]</add>
           </head>
           <stage>ALVIDA, REGINA MADRE.</stage>
           <sp>
             <speaker>
-              <add resp="ed">[ALVIDA]</add>
+              <add resp="#ed">[ALVIDA]</add>
             </speaker>
             <lg>
               <l>Son doni di Suezia. Il re Germondo</l>
@@ -2881,12 +2854,12 @@ Affez.mo e devot.mo ser.re</salute>
         <head>ATTO QUARTO</head>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA PRIMA]</add>
+            <add resp="#ed">[SCENA PRIMA]</add>
           </head>
           <stage>CONSIGLIERO, GERMONDO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[CONSIGLIERO]</add>
+              <add resp="#ed">[CONSIGLIERO]</add>
             </speaker>
             <lg>
               <l>Il venir vostro al re de' Goti, al regno,</l>
@@ -3092,7 +3065,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SECONDA]</add>
+            <add resp="#ed">[SCENA SECONDA]</add>
           </head>
           <stage>GERMONDO <emph>solo</emph></stage>
           <sp>
@@ -3147,12 +3120,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA TERZA]</add>
+            <add resp="#ed">[SCENA TERZA]</add>
           </head>
           <stage>ROSMONDA, TORRISMONDO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[ROSMONDA]</add>
+              <add resp="#ed">[ROSMONDA]</add>
             </speaker>
             <lg>
               <l>È semplice parlar quel che discopre</l>
@@ -3633,12 +3606,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUARTA]</add>
+            <add resp="#ed">[SCENA QUARTA]</add>
           </head>
           <stage>TORRISMONDO, INDOVINO, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[TORRISMONDO]</add>
+              <add resp="#ed">[TORRISMONDO]</add>
             </speaker>
             <lg>
               <l>Lasso, quinci fortuna e quindi amore</l>
@@ -3870,12 +3843,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUINTA]</add>
+            <add resp="#ed">[SCENA QUINTA]</add>
           </head>
           <stage>FRONTONE, TORRISMONDO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[FRONTONE]</add>
+              <add resp="#ed">[FRONTONE]</add>
             </speaker>
             <lg>
               <l>Qual fortuna o qual caso or mi richiama</l>
@@ -4077,11 +4050,11 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SESTA]</add>
+            <add resp="#ed">[SCENA SESTA]</add>
           </head>
           <stage>MESSAGGERO, CORO, TORRISMONDO, FRONTONE</stage>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Questa del nostro re matura morte</l>
               <l>affrettar dee, non ritardar le nozze.</l>
@@ -4115,7 +4088,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Siate sempre felice e co' felici,</l>
               <l>o degnissimo re d'alta regina.</l>
@@ -4130,7 +4103,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Non rea novella a questo antico regno,</l>
               <l>a questa alta regina, a queste nozze,</l>
@@ -4144,7 +4117,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l part="F">A la regina io sono il messo.</l>
             </lg>
@@ -4157,7 +4130,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>La Norvegia lo scettro a lei riserba.</l>
             </lg>
@@ -4169,7 +4142,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Non certo; ma 'l sepolcro in sé l'asconde.</l>
             </lg>
@@ -4181,7 +4154,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l part="F">Il vero udisti.</l>
             </lg>
@@ -4194,7 +4167,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Tosto gli antichi corpi il male atterra.</l>
             </lg>
@@ -4209,7 +4182,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>A lei suo corpo, a voi concede il regno.</l>
             </lg>
@@ -4236,7 +4209,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l part="I">Non mi ricordo.</l>
             </lg>
@@ -4256,7 +4229,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Si cangia spesso la fortuna e 'l tempo,</l>
               <l>e spesso altra cagion di nostre colpe</l>
@@ -4273,7 +4246,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>De le cose passate il fato accusa.</l>
               <l>Fu quella colpa sua, ma nostro il merto</l>
@@ -4292,7 +4265,7 @@ Affez.mo e devot.mo ser.re</salute>
             </lg>
           </sp>
           <sp>
-            <speaker>MESSAG<add resp="ed">[GERO]</add></speaker>
+            <speaker>MESSAG<add resp="#ed">[GERO]</add></speaker>
             <lg>
               <l>Diedi la verginella al re dolente</l>
               <l>per la sua morta figlia, e die' conforto</l>
@@ -4313,12 +4286,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SETTIMA]</add>
+            <add resp="#ed">[SCENA SETTIMA]</add>
           </head>
           <stage>GERMONDO, TORRISMONDO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[GERMONDO]</add>
+              <add resp="#ed">[GERMONDO]</add>
             </speaker>
             <lg>
               <l>Altro dunque è fra noi più caro mezzo,</l>
@@ -4466,7 +4439,7 @@ Affez.mo e devot.mo ser.re</salute>
         <head>ATTO QUINTO</head>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA PRIMA]</add>
+            <add resp="#ed">[SCENA PRIMA]</add>
           </head>
           <stage>ALVIDA, NUTRICE</stage>
           <sp>
@@ -4660,7 +4633,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SECONDA]</add>
+            <add resp="#ed">[SCENA SECONDA]</add>
           </head>
           <stage>REGINA</stage>
           <sp>
@@ -4699,7 +4672,7 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA TERZA]</add>
+            <add resp="#ed">[SCENA TERZA]</add>
           </head>
           <stage>ROSMONDA <emph>sola</emph></stage>
           <sp>
@@ -4727,12 +4700,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUARTA]</add>
+            <add resp="#ed">[SCENA QUARTA]</add>
           </head>
           <stage>CAMERIERO, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[CAMERIERO]</add>
+              <add resp="#ed">[CAMERIERO]</add>
             </speaker>
             <lg>
               <l>O Gozia, o d'Aquilone invitto regno,</l>
@@ -4947,12 +4920,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA QUINTA]</add>
+            <add resp="#ed">[SCENA QUINTA]</add>
           </head>
           <stage>GERMONDO, CAMERIERO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[GERMONDO]</add>
+              <add resp="#ed">[GERMONDO]</add>
             </speaker>
             <lg>
               <l>Qual suon dolente il lieto dì perturba?</l>
@@ -5126,12 +5099,12 @@ Affez.mo e devot.mo ser.re</salute>
         </div2>
         <div2 type="scena">
           <head>
-            <add resp="ed">[SCENA SESTA]</add>
+            <add resp="#ed">[SCENA SESTA]</add>
           </head>
           <stage>REGINA, CAMERIERO, GERMONDO, ROSMONDA, CORO</stage>
           <sp>
             <speaker>
-              <add resp="ed">[REGINA]</add>
+              <add resp="#ed">[REGINA]</add>
             </speaker>
             <lg>
               <l>Deh, che si tace a me, che si nasconde?</l>
@@ -5413,4 +5386,4 @@ Affez.mo e devot.mo ser.re</salute>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

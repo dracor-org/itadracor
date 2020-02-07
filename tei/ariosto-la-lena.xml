@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 PUBLIC "-//BIBIT//DTD BibIt L1 TEI Document Type//EN" "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Tutte le opere di Ludovico Ariosto</title>
           <title type="part">v.</title>
           <author>Ariosto, Ludovico</author>
-          <editor id="ed">Ronchi, Gabriella</editor>
+          <editor xml:id="ed">Ronchi, Gabriella</editor>
           <publisher>Mondadori</publisher>
           <pubPlace>Milano</pubPlace>
           <date>1974</date>
@@ -55,7 +54,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -65,45 +64,19 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2007-06-08T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Novadata systems</name>
-        </respStmt>
-        <item>Digitalizzazione - OCR</item>
-      </change>
-      <change>
-        <date>2007-10-01T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2007-11-06T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2007-11-13T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2007-06-08T00:00:00.000+02:00</date><name>Novadata systems</name>Digitalizzazione - OCR</change>
+      <change><date>2007-10-01T00:00:00.000+02:00</date><name>BIBIT</name>Correzione linguistica</change>
+      <change><date>2007-11-06T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2007-11-13T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -813,8 +786,8 @@ DI DUE SCENE</p>
               <l>Li matutini quelli che suonavano;</l>
               <l>Esser dovea l'<title>Ave Maria</title> o la predica;</l>
               <l>O forse i preti iersera troppo aveano</l>
-              <l>Bevuto, e questa <foreign lang="lat">matina erant oculi</foreign></l>
-              <l><foreign lang="lat">Gravati eorum</foreign>. Credo che anco Giulio</l>
+              <l>Bevuto, e questa <foreign xml:lang="lat">matina erant oculi</foreign></l>
+              <l><foreign xml:lang="lat">Gravati eorum</foreign>. Credo che anco Giulio</l>
               <l>Non potrò aver, che la matina è solito</l>
               <l>Di dormir fino a quindici ore o sedici.</l>
               <l>In questo mezzo sarà buono andarmene</l>
@@ -972,7 +945,7 @@ DI DUE SCENE</p>
               <speaker>LENA:</speaker>
               <l part="F">Ch'a principio</l>
               <l>Ch'io venni a abitar qui, non sapea leggere</l>
-              <l>Ne la tavola il <foreign lang="lat">pater</foreign> pur a compito,</l>
+              <l>Ne la tavola il <foreign xml:lang="lat">pater</foreign> pur a compito,</l>
               <l part="I">Né tener l'ago.</l>
             </sp>
             <sp>
@@ -1467,7 +1440,7 @@ DI DUE SCENE</p>
             </sp>
             <sp>
               <speaker>EGANO:</speaker>
-              <l>Di quelle che non far per te, <foreign lang="lat">intelligitur</foreign>.</l>
+              <l>Di quelle che non far per te, <foreign xml:lang="lat">intelligitur</foreign>.</l>
             </sp>
             <sp>
               <speaker>ILARIO:</speaker>
@@ -4390,4 +4363,4 @@ DI DUE SCENE</p>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

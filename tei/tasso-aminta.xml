@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Torquato Tasso e la cultura estense</title>
           <title type="part">v.</title>
-          <editor id="ed">Venturi, Gianni</editor>
+          <editor xml:id="ed">Venturi, Gianni</editor>
           <publisher>L. S. Olschki</publisher>
           <pubPlace>Firenze</pubPlace>
           <date>1999</date>
@@ -54,7 +53,7 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -64,47 +63,19 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>2001-10-15T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Camilla Ghedini</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>2001-10-15T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Camilla Ghedini</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2001-11-15T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Valentina Gritti</name>
-          <name>CIBIT - Ferrara</name>
-        </respStmt>
-        <item>Codifica XML</item>
-      </change>
-      <change>
-        <date>2003-06-03T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>2001-10-15T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>2001-10-15T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2001-11-15T00:00:00.000+02:00</date><name>Valentina Gritti</name><name>CIBIT - Ferrara</name>Codifica XML</change>
+      <change><date>2003-06-03T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -326,7 +297,7 @@
             <l>pianti, sospiri, e domandar mercede.</l>
             <l>Mostrommi l'ombra d'una breve notte</l>
             <l>all'hora quel che 'l lungo corso e 'l lume</l>
-            <l>di <num value="1000">mille</num> giorni non m'havea mostrato;</l>
+            <l>di <num value="#1000">mille</num> giorni non m'havea mostrato;</l>
             <l>Ripresi all'hor me stessa e la mia cieca</l>
             <l>simplicitate, e dissi sospirando:</l>
             <l>"Eccoti, <name>Cintia</name>, il corno, eccoti l'arco,</l>
@@ -533,7 +504,7 @@
             <l>ne le vezzose ninfe e ne' pastori?</l>
             <l>Né già cose scrivea degne di riso,</l>
             <l>se ben cose facea degne di riso.</l>
-            <l>Lo scrisse in <num value="1000">mille</num> piante, e con le piante</l>
+            <l>Lo scrisse in <num value="#1000">mille</num> piante, e con le piante</l>
             <l>crebbero i versi; e così lessi in una:</l>
             <l>Specchi del cor, fallaci infidi lumi,</l>
             <l>ben riconosco in voi gli inganni vostri:</l>
@@ -680,7 +651,7 @@
             <l>e di <name>Montan</name>, richissimo d'armenti,</l>
             <l><name>Silvia</name>, honor de le selve, ardor de l'arme?</l>
             <l>Di questa parlo, ahi lasso; vissi a questa</l>
-            <l>così unito alcun tempo, che fra <num value="2">due</num></l>
+            <l>così unito alcun tempo, che fra <num value="#2">due</num></l>
             <l>tortorelle più fida compagnia</l>
             <l>non sarà mai, né fue.</l>
             <l>Congiunti eran gli alberghi,</l>
@@ -803,7 +774,7 @@
             <l>né hebbi altra risposta che un silentio,</l>
             <l>un silentio turbato e pien di dure</l>
             <l>minaccie. Indi si tolse, e più non volle</l>
-            <l>né vedermi né udirmi. E già <num value="3">tre</num> volte</l>
+            <l>né vedermi né udirmi. E già <num value="#3">tre</num> volte</l>
             <l>ha il nudo metitor tronche le spiche,</l>
             <l>et altretante il verno ha scosso i boschi</l>
             <l>di loro verdi chiome: et ogni cosa</l>
@@ -811,7 +782,7 @@
             <l>Mi resta sol che per placarla io moia</l>
             <l>e morrò volontier, pur ch'io sia certo</l>
             <l>ch'ella o se ne compiaccia, o se ne doglia:</l>
-            <l>né so di tai <num value="2">due</num> cose qual più brami.</l>
+            <l>né so di tai <num value="#2">due</num> cose qual più brami.</l>
             <l>Ben fora la pietà premio maggiore</l>
             <l>a la mia fede, e maggior ricompensa</l>
             <l>a la mia morte; ma bramar non deggio</l>
@@ -1067,7 +1038,7 @@
             <l>e pur fa tanto grandi e sì mortali</l>
             <l>e così immedicabili le piaghe.</l>
             <l>Ohimè, che tutte piaga e tutte sangue</l>
-            <l>son le viscere mie; e <num value="1000">mille</num> spiedi</l>
+            <l>son le viscere mie; e <num value="#1000">mille</num> spiedi</l>
             <l>ha ne gli occhi di <name>Silvia</name> il crudo <name>Amore</name>.</l>
             <l>Crudel <name>Amor</name>, <name>Silvia</name> empia e crudele</l>
             <l>più che le selve! O come a te confassi</l>
@@ -1214,7 +1185,7 @@
           <sp>
             <speaker>TIRSI</speaker>
             <l part="F">E perché? tu non sei</l>
-            <l>atta a tener <num value="1000">mille</num> fanciulle a scuola?</l>
+            <l>atta a tener <num value="#1000">mille</num> fanciulle a scuola?</l>
             <l>Benché, per dirti il ver, non han bisogno</l>
             <l>di maestro: maestro é la natura,</l>
             <l>ma la madre e la balia anco v'han parte.</l>
@@ -1251,7 +1222,7 @@
             <l>In tanto io più ridea del suo rossore,</l>
             <l>ella più s'arrossia del riso mio.</l>
             <l>Ma, perché avolta una parte de' crini</l>
-            <l>e l'altra havea sparsa, una o <num value="2">due</num> volte</l>
+            <l>e l'altra havea sparsa, una o <num value="#2">due</num> volte</l>
             <l>con gli occhi al lago consiglier ricorse,</l>
             <l>e si mirò quasi di furto, pure</l>
             <l>temendo ch'io nel suo guatar guatassi;</l>
@@ -1370,7 +1341,7 @@
             <l>Ma non vogliamo noi parlar alquanto</l>
             <l>di te medesmo? Hor su, <name>Tirsi</name>, non vuoi</l>
             <l>tu inamorarti? sei giovane ancora,</l>
-            <l>né passi di <num value="4">quatro</num> anni il quinto lustro</l>
+            <l>né passi di <num value="#4">quatro</num> anni il quinto lustro</l>
             <l>se ben soviemmi quando eri fanciullo:</l>
             <l>vuoi viver neghittoso senza gioia?</l>
             <l>che solo amando huom sa che sia diletto.</l>
@@ -1851,7 +1822,7 @@
             <l>haver prieghi e parole.</l>
             <l><name>Amor</name>, leggan pur gli altri</l>
             <l>le socratiche carte,</l>
-            <l>ch'io in <num value="2">due</num> belli occhi apprenderò quest'arte;</l>
+            <l>ch'io in <num value="#2">due</num> belli occhi apprenderò quest'arte;</l>
             <l>e perderan le rime</l>
             <l>delle penne più saggie</l>
             <l>appo le mie selvaggie,</l>
@@ -1873,7 +1844,7 @@
           <sp>
             <speaker>TIRSI</speaker>
             <l>O crudeltade estrema, o ingrato core,</l>
-            <l>o donna ingrata, o <num value="3">tre</num> fiate e <num value="4">quatro</num></l>
+            <l>o donna ingrata, o <num value="#3">tre</num> fiate e <num value="#4">quatro</num></l>
             <l>ingratissimo sesso! E tu, Natura,</l>
             <l>negligente maestra, perché solo</l>
             <l>a le donne nel volto e 'n quel di fuori</l>
@@ -1881,7 +1852,7 @@
             <l>di mansueto e di cortese, e tutte</l>
             <l>l'altre parti obliasti? Ahi, miserello,</l>
             <l>forse ha se stesso ucciso; ei non appare;</l>
-            <l>io l'ho cerco e ricerco homai <num value="3">tre</num> hore</l>
+            <l>io l'ho cerco e ricerco homai <num value="#3">tre</num> hore</l>
             <l>nel luogo ov'io lasciailo e ne' contorni:</l>
             <l>né trovo lui né orma de' suoi passi.</l>
             <l>Ahi, che s'è certo ucciso! Io vo' novella</l>
@@ -1920,7 +1891,7 @@
           </sp>
           <sp>
             <speaker>CORO</speaker>
-            <l><num value="2">Duo</num> potenti nemici, insieme aggiunti,</l>
+            <l><num value="#2">Duo</num> potenti nemici, insieme aggiunti,</l>
             <l>che far non ponno? Ma parla più chiaro.</l>
           </sp>
           <sp>
@@ -1959,7 +1930,7 @@
             <l>Ecco miriamo a un arbore legata</l>
             <l>la giovinetta ignuda come nacque,</l>
             <l>et a legarla fune era il suo crine;</l>
-            <l>il suo crine medesmo in <num value="1000">mille</num> nodi</l>
+            <l>il suo crine medesmo in <num value="#1000">mille</num> nodi</l>
             <l>a la pianta era avolto; e 'l suo bel cinto,</l>
             <l>che del sen virginal fu pria custode,</l>
             <l>di quello stupro era ministro, et ambe</l>
@@ -2239,7 +2210,7 @@
             <l>Quivi il dardo di <name>Silvia</name> in terra scorsi,</l>
             <l>né molto indi lontano un bianco velo</l>
             <l>ch'io stessa le ravolsi al crine; e, mentre</l>
-            <l>mi guardo intorno, vidi <num value="7">sette</num> lupi</l>
+            <l>mi guardo intorno, vidi <num value="#7">sette</num> lupi</l>
             <l>che leccavan di terra alquanto sangue</l>
             <l>sparso intorno a cert'ossa affatto nude:</l>
             <l>e fu mia sorte ch'io non fui veduta</l>
@@ -2936,7 +2907,7 @@
             <l>Non sono ire là su: gli umani ingegni</l>
             <l>tu placidi ne rendi, e l'odio interno</l>
             <l>sgombri, signor, da' mansueti cori,</l>
-            <l>sgombri <num value="1000">mille</num> furori;</l>
+            <l>sgombri <num value="#1000">mille</num> furori;</l>
             <l>e quasi fai col tuo valor superno</l>
             <l>de le cose mortali un giro eterno.</l>
           </sp>
@@ -3017,7 +2988,7 @@
             <l><name>Montano</name>, di lei padre, et a condurlo</l>
             <l>colà dov'essi stanno; e solo il suo</l>
             <l>volere è quel che manca, e che prolunga</l>
-            <l>il concorde voler d'ambo <num value="2">due</num> loro.</l>
+            <l>il concorde voler d'ambo <num value="#2">due</num> loro.</l>
           </sp>
           <sp>
             <speaker>CORO</speaker>
@@ -3159,4 +3130,4 @@
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

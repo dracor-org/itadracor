@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +25,7 @@
         <bibl>
           <title>Opere di Torquato Tasso</title>
           <author>Tasso, Torquato</author>
-          <editor id="ed">Sozzi, Bortolo Tommaso</editor>
+          <editor xml:id="ed">Sozzi, Bortolo Tommaso</editor>
           <publisher>Tipografia Editrice Secomandi</publisher>
           <pubPlace>Bergamo</pubPlace>
           <date>1952</date>
@@ -57,10 +56,10 @@
         <p>Rispetto all'originale cartaceo i capoversi sono in minuscolo. Il titolo TRAGEDIA NON FINITA è stato omesso. Alla fine dell'Atto I, scena IV, si trova la parola "Coro", come se dovesse seguire una battuta. La parola Ã è stata codificata come didascalia</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -70,48 +69,22 @@
         <date>500</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
+        <language ident="ita"/>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>851 - POESIA ITALIANA</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Pavia</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Pavia</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-01-11T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marta Zanazzi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2004-02-09T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Correzione linguistica</change>
+      <change><date>2004-01-11T00:00:00.000+02:00</date><name>Marta Zanazzi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2004-02-09T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1513,7 +1486,7 @@
             <l>tutto ciò che di grave è ne la morte,</l>
             <l>e seco muore, e in un medesmo tempo</l>
             <l>vive, e sostenta de la vita i pesi.</l>
-            <l><gap desc="sequenza di punti, lacuna del manoscritto" resp="ed"/>onde conchiudo,</l>
+            <l><gap desc="sequenza di punti, lacuna del manoscritto" resp="#ed"/>onde conchiudo,</l>
             <l>che sia noioso il maritale stato,</l>
             <l>in cui l' essere sterile o feconda,</l>
             <l>l' essere amata od odiosa, apporta</l>
@@ -1565,8 +1538,8 @@
         </div2>
       </div1>
       <trailer>
-        <add resp="ed">non passò più oltre il Poeta</add>
+        <add resp="#ed">non passò più oltre il Poeta</add>
       </trailer>
     </body>
   </text>
-</TEI.2>
+</TEI>

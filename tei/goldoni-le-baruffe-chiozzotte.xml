@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Carlo Goldoni : teatro</title>
           <title type="part">Le baruffe chiozzotte, Una delle ultime sere di Carnovale, Il ventaglio</title>
           <author>Goldoni, Carlo</author>
-          <editor id="ed">Pieri, Marzia</editor>
+          <editor xml:id="ed">Pieri, Marzia</editor>
           <publisher>Einaudi</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1991</date>
@@ -59,10 +58,10 @@
         <p>Quando nell'originale cartaceo nella lista dei personaggi la medesima descrizione era attribuita a più di un personaggio con una parentesi graffa, la descrizione è stata ripetuta per ciascun personaggio cui era stata attribuita.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -72,50 +71,24 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="lat">Latino</language>
-        <language id="fre">Francese</language>
+        <language ident="ita"/>
+        <language ident="lat">Latino</language>
+        <language ident="fre">Francese</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.6 - LETTERATURA DRAMMATICA ITALIANA. 1748-1814</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2004-01-12T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Carla Deiana</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2004-01-26T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2004-01-12T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2004-01-26T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -216,13 +189,13 @@ che la natura, e l'esempio mi hanno consigliato a tentarlo;
 e la riuscita delle prime commedie mi ha autorizzato a
 produrre le altre.</p>
         <p>Questo è quel genere di commedie, che diconsi dai latini
-<foreign lang="lat">Tabernariae</foreign>, e dai francesi <foreign lang="fra">Poissardes</foreign>. De' buoni autori
+<foreign xml:lang="lat">Tabernariae</foreign>, e dai francesi <foreign xml:lang="fra">Poissardes</foreign>. De' buoni autori
 antichi, e moderni ne hanno prodotto con merito, e con
 applauso; e ardisco dire, le mie non sono state men
 fortunate.</p>
-        <p>L'editore delle Opere di <foreign lang="fra">Monsieur Vadé</foreign>, in quattro
+        <p>L'editore delle Opere di <foreign xml:lang="fra">Monsieur Vadé</foreign>, in quattro
 volumi in ottavo, così si spiega nella prefazione, parlando
-dell'autore francese: <foreign lang="fra">Il est créateur du genre Poissard,
+dell'autore francese: <foreign xml:lang="fra">Il est créateur du genre Poissard,
 que de pretendus grands esprits se font un point d'honneur
 de mépriser, mais qui cependant n'est point méprisable. Il
 peint la nature, basse, si l'on veut, mais trèsagréable à
@@ -243,13 +216,13 @@ feignent de blâmer, le genre Poissard, mais tous ont vû avec
 un plaisir singulier etc...</foreign></p>
         <p>E in un altro luogo:</p>
         <p>
-          <foreign lang="fra">Tout ce qui est vrai, a droit de plaire, tout ce qui
+          <foreign xml:lang="fra">Tout ce qui est vrai, a droit de plaire, tout ce qui
 est plaisant, a droit de faire rire etc.</foreign>
         </p>
         <p>Supplico i signori critici ad osservare, che l'autor
 francese suddetto erasi dato a questo genere di
 componimenti, e con questo solo piaceva. Io all'incontro ho
-fatto le mie <title><foreign lang="lat">Tabernarie</foreign></title>, le mie <title><foreign lang="fra">Poissardes</foreign></title> dopo la
+fatto le mie <title><foreign xml:lang="lat">Tabernarie</foreign></title>, le mie <title><foreign xml:lang="fra">Poissardes</foreign></title> dopo la
 <title>Pamela</title>, il <title>Terenzio</title>, il <title>Tasso</title>, le <title>Persiane</title>, e
 tant'altre che potevano soddisfare gli spiriti più seriosi,
 e più delicati. Un'altra ragione potrebbe ancora
@@ -7998,4 +7971,4 @@ Chiozzotte.</p>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

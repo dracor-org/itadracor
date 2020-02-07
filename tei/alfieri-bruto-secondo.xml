@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Tragedie</title>
           <title type="part">Don Garzia ; Saul ; Agide ; Sofonisba ; Bruto primo ; Mirra ; Bruto secondo</title>
           <author>Alfieri, Vittorio</author>
-          <editor id="ed">Toschi, Luca</editor>
+          <editor xml:id="ed">Toschi, Luca</editor>
           <publisher>Sansoni</publisher>
           <pubPlace>Firenze</pubPlace>
           <date>1985</date>
@@ -55,10 +54,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -68,48 +67,22 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.6 - Letteratura drammatica italiana. 1748-1814.</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione - OCR</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-04-22T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-05-05T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione - OCR</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-04-22T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-05-05T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1650,7 +1623,7 @@ che frutti <emph>onore a chi da morte io desto</emph>;</p>
           </sp>
           <sp>
             <speaker>
-              <emph>Bruto<note resp="aut" place="foot" anchored="yes">Legge il foglio</note></emph>
+              <emph>Bruto<note resp="#aut" place="foot" anchored="true">Legge il foglio</note></emph>
             </speaker>
             <l>«Cesare (oh ciel!) stai per combatter forse,</l>
             <l>Pompeo non pure, e i cittadini tuoi,</l>
@@ -2797,7 +2770,7 @@ che frutti <emph>onore a chi da morte io desto</emph>;</p>
             </speaker>
             <l part="F">— Come si debbe</l>
             <l>da cittadini veri, omai noi tutti</l>
-            <l part="I">obbediam dunque al dittatore.<note resp="aut" place="foot" anchored="yes">Bruto snuda, e brandisce il pugnale; i congiurati si avventano a Cesare coi ferri.</note></l>
+            <l part="I">obbediam dunque al dittatore.<note resp="#aut" place="foot" anchored="true">Bruto snuda, e brandisce il pugnale; i congiurati si avventano a Cesare coi ferri.</note></l>
           </sp>
           <sp>
             <speaker>
@@ -2838,7 +2811,7 @@ che frutti <emph>onore a chi da morte io desto</emph>;</p>
           </sp>
           <sp>
             <speaker>
-              <emph>Cesare<note resp="aut" place="foot" anchored="yes">Carco di ferite, trascinandosi fino alla statua di Pompeo, dove, copertosi il volto col manto, egli spira.</note></emph>
+              <emph>Cesare<note resp="#aut" place="foot" anchored="true">Carco di ferite, trascinandosi fino alla statua di Pompeo, dove, copertosi il volto col manto, egli spira.</note></emph>
             </speaker>
             <l part="I">Figlio,... e tu pure?... Io moro...</l>
           </sp>
@@ -3131,7 +3104,7 @@ che frutti <emph>onore a chi da morte io desto</emph>;</p>
               <emph>Bruto</emph>
             </speaker>
             <l part="F">A morte,</l>
-            <l part="I">a morte andiam, o a libertade.<note resp="aut" place="foot" anchored="yes">Si muove Bruto, brandendo ferocemente la spada; il popolo tutto a furore lo segue.</note></l>
+            <l part="I">a morte andiam, o a libertade.<note resp="#aut" place="foot" anchored="true">Si muove Bruto, brandendo ferocemente la spada; il popolo tutto a furore lo segue.</note></l>
           </sp>
           <sp>
             <speaker>
@@ -3144,4 +3117,4 @@ che frutti <emph>onore a chi da morte io desto</emph>;</p>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

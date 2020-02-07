@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +26,7 @@
           <title>Tragedie</title>
           <title type="part">Don Garzia ; Saul ; Agide ; Sofonisba ; Bruto primo ; Mirra ; Bruto secondo</title>
           <author>Alfieri, Vittorio</author>
-          <editor id="ed">Toschi, Luca</editor>
+          <editor xml:id="ed">Toschi, Luca</editor>
           <publisher>Sansoni</publisher>
           <pubPlace>Firenze</pubPlace>
           <date>1985</date>
@@ -55,10 +54,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -68,48 +67,22 @@
         <date>700</date>
       </creation>
       <langUsage>
-        <language id="ita">Italiano</language>
+        <language ident="ita">Italiano</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.6 - Letteratura drammatica italiana. 1748-1814.</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Digitalizzazione - OCR</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>LIZ</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-04-22T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Ilenia Sabelli</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica manuale</item>
-      </change>
-      <change>
-        <date>2003-05-05T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione - OCR</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-04-22T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2003-05-05T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -450,7 +423,7 @@
             <l>io ne scaglio per sempre. Ai re nel petto</l>
             <l>giuro immergerti, o brando, o a me nel petto.</l>
             <l>Primi a seguirmi, o voi, mariti e padri...</l>
-            <l part="I">Ma, qual spettacol veggio!...<note resp="aut" place="foot" anchored="yes">Nel fondo della scena si vede il corpo di Lucrezia portato e seguìto da una gran moltitudine.</note></l>
+            <l part="I">Ma, qual spettacol veggio!...<note resp="#aut" place="foot" anchored="true">Nel fondo della scena si vede il corpo di Lucrezia portato e seguìto da una gran moltitudine.</note></l>
           </sp>
           <sp>
             <speaker>
@@ -3038,7 +3011,7 @@
             <l>di Roma re, popol di Marte, sei.</l>
             <l>Fu da costor la maestà tua lesa;</l>
             <l>severa pena a lor si debbe; e spetta</l>
-            <l part="I">il vendicarti, ai consoli...<note resp="aut" place="foot" anchored="yes">Bruto ammutolisce nel vedere ritornare i littori coi congiurati.</note></l>
+            <l part="I">il vendicarti, ai consoli...<note resp="#aut" place="foot" anchored="true">Bruto ammutolisce nel vedere ritornare i littori coi congiurati.</note></l>
           </sp>
         </div2>
         <div2 type="scena">
@@ -3201,8 +3174,8 @@
             <l>crudel, ma giusto. — Ite, o littori; e avvinti</l>
             <l>sieno i rei tutti alle colonne; e cada</l>
             <l>la mannaia sovr'essi. — Alma di ferro</l>
-            <l>non ho...<note resp="aut" place="foot" anchored="yes">Bruto cade seduto, e rivolge gli occhi dallo spettacolo.</note> Deh! Collatino, è questo il tempo</l>
-            <l>di tua pietà: per me tu il resto adempi.<note resp="aut" place="foot" anchored="yes">Collatino fa disporre in ordine e legare i congiurati ai pali.</note></l>
+            <l>non ho...<note resp="#aut" place="foot" anchored="true">Bruto cade seduto, e rivolge gli occhi dallo spettacolo.</note> Deh! Collatino, è questo il tempo</l>
+            <l>di tua pietà: per me tu il resto adempi.<note resp="#aut" place="foot" anchored="true">Collatino fa disporre in ordine e legare i congiurati ai pali.</note></l>
           </sp>
           <sp>
             <speaker>
@@ -3248,10 +3221,10 @@
               <emph>Bruto</emph>
             </speaker>
             <l part="F">Io sono</l>
-            <l>l'uom più infelice, che sia nato mai.<note resp="aut" place="foot" anchored="yes">Cade il sipario, stando i littori in procinto di ferire i congiurati.</note></l>
+            <l>l'uom più infelice, che sia nato mai.<note resp="#aut" place="foot" anchored="true">Cade il sipario, stando i littori in procinto di ferire i congiurati.</note></l>
           </sp>
         </div2>
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

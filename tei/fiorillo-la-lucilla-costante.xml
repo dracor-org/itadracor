@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +24,7 @@
       <sourceDesc>
         <bibl>
           <title>Commedie dei comici dell'arte</title>
-          <editor id="ed">Falavolti, Laura</editor>
+          <editor xml:id="ed">Falavolti, Laura</editor>
           <publisher>UTET</publisher>
           <pubPlace>Torino</pubPlace>
           <date>1982</date>
@@ -53,10 +52,10 @@
         </hyphenation>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="CDD">
+        <taxonomy xml:id="CDD">
           <bibl>Classificazione Decimale Dewey</bibl>
         </taxonomy>
-        <taxonomy id="CGB">
+        <taxonomy xml:id="CGB">
           <bibl>Classificazione generi BibIt</bibl>
         </taxonomy>
       </classDecl>
@@ -66,49 +65,23 @@
         <date>600</date>
       </creation>
       <langUsage>
-        <language id="ita"/>
-        <language id="spa">Spagnolo</language>
+        <language ident="ita"/>
+        <language ident="spa">Spagnolo</language>
       </langUsage>
       <textClass>
-        <keywords scheme="CDD">
+        <keywords scheme="#CDD">
           <term>852.5 - LETTERATURA DRAMMATICA ITALIANA. 1585-1748</term>
         </keywords>
-        <keywords scheme="CGB">
+        <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT - Siena</name>
-        </respStmt>
-        <item>Digitalizzazione</item>
-      </change>
-      <change>
-        <date>Data sconosciuta anteriore al 2000</date>
-        <respStmt>
-          <name>CIBIT-Siena</name>
-        </respStmt>
-        <item>Correzione linguistica</item>
-      </change>
-      <change>
-        <date>2003-07-29T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Marta Zanazzi</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Codifica XML - Codifica con software</item>
-      </change>
-      <change>
-        <date>2003-08-31T00:00:00.000+02:00</date>
-        <respStmt>
-          <name>Elena Pierazzo</name>
-          <name>BIBIT</name>
-        </respStmt>
-        <item>Validazione</item>
-      </change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Siena</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Siena</name>Correzione linguistica</change>
+      <change><date>2003-07-29T00:00:00.000+02:00</date><name>Marta Zanazzi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2003-08-31T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -646,7 +619,7 @@ umilissimo e perpetuo servitore
           </stage>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Por cierto mucho agradezco mi dichiosa fortuna y muy obligado quedo a la gran maestra natura, pues que me ha criado y formado por servir a quella, que mas que a mi alma quiero, fuerte, gallardo, terible y membrudo y mucho mas que orible, que cosa muy facil me sarìa por ella sufrir qualquier gran golpe de muy contraria fortuna. No espantandome, ni del mucho calor del berano, ni el mucho frio del invierno, ni los trabajos de guerra, pues que poco se me darìa lo estar toda la noche, por ella, desnudo a costado ensima de la dura y humida tierra, de baxo de l'abierto cielo, sin dexar las armas y tener en 'l esquirdo lado mi vitoriosa espada, con la muy reluciente daga en la derecha mano, con el fuerte hielmo en la diamantina cabeça. Y dormiendo despertado estar con este ojo derecho abierto y con el otro serado, dexando de dormir de mi soberbio palacio sobre los colchones y almuadas llenos de limaduras de yerro, limado da las armaduras de los gran capitanes, maestros de campos y generales generalisimos, mis defuntos enemigos. Y por esto, no tengo yo por dificultosa cosa de conquistar la soberana belleza de tan gratiosa dama</foreign>.<pb n="547"/></p>
+            <p><foreign xml:lang="spa">Por cierto mucho agradezco mi dichiosa fortuna y muy obligado quedo a la gran maestra natura, pues que me ha criado y formado por servir a quella, que mas que a mi alma quiero, fuerte, gallardo, terible y membrudo y mucho mas que orible, que cosa muy facil me sarìa por ella sufrir qualquier gran golpe de muy contraria fortuna. No espantandome, ni del mucho calor del berano, ni el mucho frio del invierno, ni los trabajos de guerra, pues que poco se me darìa lo estar toda la noche, por ella, desnudo a costado ensima de la dura y humida tierra, de baxo de l'abierto cielo, sin dexar las armas y tener en 'l esquirdo lado mi vitoriosa espada, con la muy reluciente daga en la derecha mano, con el fuerte hielmo en la diamantina cabeça. Y dormiendo despertado estar con este ojo derecho abierto y con el otro serado, dexando de dormir de mi soberbio palacio sobre los colchones y almuadas llenos de limaduras de yerro, limado da las armaduras de los gran capitanes, maestros de campos y generales generalisimos, mis defuntos enemigos. Y por esto, no tengo yo por dificultosa cosa de conquistar la soberana belleza de tan gratiosa dama</foreign>.<pb n="547"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -655,7 +628,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">O mi señor Alberto, bien venido sea vuestra merced y mantengale el Cielo siempre en mi buena gratia. Que hay de nuebo, señor?</foreign>
+              <foreign xml:lang="spa">O mi señor Alberto, bien venido sea vuestra merced y mantengale el Cielo siempre en mi buena gratia. Que hay de nuebo, señor?</foreign>
             </p>
           </sp>
           <sp>
@@ -664,7 +637,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Nunca jamas se haràn, se yo no me resuelvo un dia de irme a España a tratallas y a concluillas con la majestad del rey mi señor, y despues luego passarme por la buelta de Francia y desde alli con un salto en Alemana</foreign>.</p>
+            <p><foreign xml:lang="spa">Nunca jamas se haràn, se yo no me resuelvo un dia de irme a España a tratallas y a concluillas con la majestad del rey mi señor, y despues luego passarme por la buelta de Francia y desde alli con un salto en Alemana</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -673,7 +646,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo señor no me voy a España por no perder mi gravedad, ni en Francia por no tener pesa d'umbre, ni en Alemana por no ceder al emperador</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo señor no me voy a España por no perder mi gravedad, ni en Francia por no tener pesa d'umbre, ni en Alemana por no ceder al emperador</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -681,7 +654,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Porque el rey catolico no me quiere dar de la alteza, el de Francia no quiere estarme adelante con el sombrero en<pb n="548"/> la mano, y la majestad cesarea no me quiere ceder el mayor lugar</foreign>.</p>
+            <p><foreign xml:lang="spa">Porque el rey catolico no me quiere dar de la alteza, el de Francia no quiere estarme adelante con el sombrero en<pb n="548"/> la mano, y la majestad cesarea no me quiere ceder el mayor lugar</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -689,7 +662,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Sì por cierto, porque, a fe de cavallero, de mas alto linaje y nobleza nacidos fueron mis antepasados, que no fue el gran sultan Soliman Otoman, emperador de Bisanzia; mas del gran Tamurlan; mas del Africano; Maluque, Giraffa, Saltem, Alibaluque Marzoque</foreign>.</p>
+            <p><foreign xml:lang="spa">Sì por cierto, porque, a fe de cavallero, de mas alto linaje y nobleza nacidos fueron mis antepasados, que no fue el gran sultan Soliman Otoman, emperador de Bisanzia; mas del gran Tamurlan; mas del Africano; Maluque, Giraffa, Saltem, Alibaluque Marzoque</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -697,7 +670,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y yo tambièn, con vuestra merced, señor</foreign>.</p>
+            <p><foreign xml:lang="spa">Y yo tambièn, con vuestra merced, señor</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -705,7 +678,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">De fiestas y de alegrias</foreign>.</p>
+            <p><foreign xml:lang="spa">De fiestas y de alegrias</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -713,7 +686,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">De bodas? Que sì, que quiera darme la señora Lucila en matrimonio</foreign>.</p>
+            <p><foreign xml:lang="spa">De bodas? Que sì, que quiera darme la señora Lucila en matrimonio</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -721,7 +694,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo cedo a mi señor Alberto la preminenza como si el fuera mi padre</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo cedo a mi señor Alberto la preminenza como si el fuera mi padre</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -729,7 +702,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Para servirle, me contento. Señor Alberto, el amor grande que a la señora Lucila tengo, hija de vuestra merced, me tiene sojulgado de baxo de su imperio, de manera tal, que deseo que vuestra merced se contente de darmela por esposa, haviendome contentado dejar de concluir matrimonio con la hija del persiano, del Trasilvano, y con la sobrina del gran Baldugian emperador dell'Eteopia, porque ella solo desco y ella quiero por mi señora, cuando però el mi señor Alberto quiera contentarse que un tan gran cavallero le sea yerno y marido de dama tan hermosa</foreign>.</p>
+            <p><foreign xml:lang="spa">Para servirle, me contento. Señor Alberto, el amor grande que a la señora Lucila tengo, hija de vuestra merced, me tiene sojulgado de baxo de su imperio, de manera tal, que deseo que vuestra merced se contente de darmela por esposa, haviendome contentado dejar de concluir matrimonio con la hija del persiano, del Trasilvano, y con la sobrina del gran Baldugian emperador dell'Eteopia, porque ella solo desco y ella quiero por mi señora, cuando però el mi señor Alberto quiera contentarse que un tan gran cavallero le sea yerno y marido de dama tan hermosa</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -739,7 +712,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Señor, por mi parte recivo su buena voluntad y muy gran merced y dichiosa ventura</foreign>.<pb n="550"/></p>
+            <p><foreign xml:lang="spa">Señor, por mi parte recivo su buena voluntad y muy gran merced y dichiosa ventura</foreign>.<pb n="550"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -747,7 +720,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y yo de la misma manera haré con mi hermana, y se lo avisarè, ya que con tan justa medida y razonablemente me ha respondido, en la plaza le estaré a guardando. Beso las manos de vuestra merced, señor, a Dios</foreign>.</p>
+            <p><foreign xml:lang="spa">Y yo de la misma manera haré con mi hermana, y se lo avisarè, ya que con tan justa medida y razonablemente me ha respondido, en la plaza le estaré a guardando. Beso las manos de vuestra merced, señor, a Dios</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -1634,7 +1607,7 @@ umilissimo e perpetuo servitore
           </stage>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Por vida del rey mi señor, que Alberto no serà siguro en cima de los altos montes Perineos de mis poderosas manos; ni sobre la cabeza de Marte, ni tan poco en los brazos de Plutòn! O là, mal nazido, viejo raposo, aquì estàs? Sabes que has de morir de mi profunda estocada, antes que el sol, rodeando con su carro de oro, se vaia al frio settentrion</foreign>.</p>
+            <p><foreign xml:lang="spa">Por vida del rey mi señor, que Alberto no serà siguro en cima de los altos montes Perineos de mis poderosas manos; ni sobre la cabeza de Marte, ni tan poco en los brazos de Plutòn! O là, mal nazido, viejo raposo, aquì estàs? Sabes que has de morir de mi profunda estocada, antes que el sol, rodeando con su carro de oro, se vaia al frio settentrion</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -1646,7 +1619,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Quieres tu tomartela por el? Echa mano a tu espada, vellaco, que te quiero dar a comer a dos grues</foreign>!</p>
+            <p><foreign xml:lang="spa">Quieres tu tomartela por el? Echa mano a tu espada, vellaco, que te quiero dar a comer a dos grues</foreign>!</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -1662,7 +1635,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo no le doy tanto la culpa de esto, quanto que con tan mal termine vino a escluirme, delante de aquellos cavalleros, que la señora Lucila no podìa padezer de verme. Y que soy algun picaròn o algun vellaco? Y como esto, a un cavallero nazido de tan soberano linaje, pues que milliones de verdaderas historias de mi celebran tantos heroicos echos, que allandome eri Flandes, eri el medio de los enemigos exercitos, cerquado de arquebusarias, rodeado de cavalleros a cavallo, a remetido da esquadrones y de emboscadas; sacudido de piezzas de artellarias y bombardas, fulminado de colombrinas y de agudas puntas de espadas, estoques, piquas y alabardas de vallentes soldados, cavos de esquadras, sarjentos, alferez, capitanes, sarjentos majores y generales y generalissimos, y por esto luego huiendo de mi el ocioso espanto y enbrabaciendos en mi la bravezza y estremada fuerza, el animo y valor, con atrebido corazon, ferozidad de leon, crueldad de tigre, furor de cocodrillo, fuerza de brazos, animosidad de corazon, con estocadas, pugnaladas, jacozes, mozicones y con dientes, los gané, los maté y los yze en pedazos, los aniquilé y los profundé de baxo del infernal fuego</foreign>.<pb n="576"/></p>
+            <p><foreign xml:lang="spa">Yo no le doy tanto la culpa de esto, quanto que con tan mal termine vino a escluirme, delante de aquellos cavalleros, que la señora Lucila no podìa padezer de verme. Y que soy algun picaròn o algun vellaco? Y como esto, a un cavallero nazido de tan soberano linaje, pues que milliones de verdaderas historias de mi celebran tantos heroicos echos, que allandome eri Flandes, eri el medio de los enemigos exercitos, cerquado de arquebusarias, rodeado de cavalleros a cavallo, a remetido da esquadrones y de emboscadas; sacudido de piezzas de artellarias y bombardas, fulminado de colombrinas y de agudas puntas de espadas, estoques, piquas y alabardas de vallentes soldados, cavos de esquadras, sarjentos, alferez, capitanes, sarjentos majores y generales y generalissimos, y por esto luego huiendo de mi el ocioso espanto y enbrabaciendos en mi la bravezza y estremada fuerza, el animo y valor, con atrebido corazon, ferozidad de leon, crueldad de tigre, furor de cocodrillo, fuerza de brazos, animosidad de corazon, con estocadas, pugnaladas, jacozes, mozicones y con dientes, los gané, los maté y los yze en pedazos, los aniquilé y los profundé de baxo del infernal fuego</foreign>.<pb n="576"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -1694,7 +1667,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A vellaco, a mi quieres dar la cobierta, y que soy tu</foreign> truhan?</p>
+            <p><foreign xml:lang="spa">A vellaco, a mi quieres dar la cobierta, y que soy tu</foreign> truhan?</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -2863,7 +2836,7 @@ umilissimo e perpetuo servitore
           </stage>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Te he dicho que ascondes aquella lumbre, pues, que quiero estar toda la noche y toda la manaña delante de la puerta de Alberto, solo por dalle veinte y cinque espaldarazos. Esten ascondidos ellos de tràs de a quel rincon</foreign>.</p>
+            <p><foreign xml:lang="spa">Te he dicho que ascondes aquella lumbre, pues, que quiero estar toda la noche y toda la manaña delante de la puerta de Alberto, solo por dalle veinte y cinque espaldarazos. Esten ascondidos ellos de tràs de a quel rincon</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -2871,7 +2844,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Alumbra a cà, este es por vida mia! Dele don Sancho, sierra don Pedro! Toma Alberto vellaco, hijo de puta! Aprende a saber bien trattar con cavalleros</foreign>!</p>
+            <p><foreign xml:lang="spa">Alumbra a cà, este es por vida mia! Dele don Sancho, sierra don Pedro! Toma Alberto vellaco, hijo de puta! Aprende a saber bien trattar con cavalleros</foreign>!</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -2879,7 +2852,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Vamonos cavalleros, que Alberto se ha ido a buscar Acheronte, para passarse al reyno de Plutòn; ya que es muerto</foreign>.<pb n="599"/></p>
+            <p><foreign xml:lang="spa">Vamonos cavalleros, que Alberto se ha ido a buscar Acheronte, para passarse al reyno de Plutòn; ya que es muerto</foreign>.<pb n="599"/></p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -3514,7 +3487,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Señor, si vuestra merced quiere passar con migo donaires, por su vida me lo diga, porque sin pesadumbre pueda sufrir a questas palabras. Como que se ha ido en el abismo, si mi honra, con gloriosa fama con abiertas alas de prudencia y de valor, ya alcanzò volando al quinto cielo y agora hace camarada con el valeroso Marte mi real corespondiente y segunda persona? Y quien ha sido a quel muy gran vellaco, gallina, cobarde, manjadero, que tan enbidioso de mi soberano estado se dexò salir de su pudrida boca tan mentirosas palabras, que le quiero saccar con esta briaresca mano el coraçon del cuerpo y el alma del proprio corazon y la quinta essençia de el alma y luego profundarlo dentro de las negras aguas de Aqueronte?!</foreign>
+              <foreign xml:lang="spa">Señor, si vuestra merced quiere passar con migo donaires, por su vida me lo diga, porque sin pesadumbre pueda sufrir a questas palabras. Como que se ha ido en el abismo, si mi honra, con gloriosa fama con abiertas alas de prudencia y de valor, ya alcanzò volando al quinto cielo y agora hace camarada con el valeroso Marte mi real corespondiente y segunda persona? Y quien ha sido a quel muy gran vellaco, gallina, cobarde, manjadero, que tan enbidioso de mi soberano estado se dexò salir de su pudrida boca tan mentirosas palabras, que le quiero saccar con esta briaresca mano el coraçon del cuerpo y el alma del proprio corazon y la quinta essençia de el alma y luego profundarlo dentro de las negras aguas de Aqueronte?!</foreign>
             </p>
           </sp>
           <sp>
@@ -3523,7 +3496,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No por cierto, pero es muy gran mentira</foreign>.</p>
+            <p><foreign xml:lang="spa">No por cierto, pero es muy gran mentira</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3532,7 +3505,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">La verdad, y como?</foreign>
+              <foreign xml:lang="spa">La verdad, y como?</foreign>
               <pb n="613"/>
             </p>
           </sp>
@@ -3542,8 +3515,8 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O pena, quien me vestiò? Ahi, desdichado de mi, y es possible esto? Agora quiero, si ansi sarà, hazer una mina por de bajo de la casa y hazer saltar todos hasta al cielo de Saturno! Pero mejor serà que da mi criada sepa mas claramente el trattado como ha passado</foreign>.</p>
-            <p><foreign lang="spa">O de casa, o de casa, a quien digo, o là Fioretta passa a cà, vente a bajo con la lumbre</foreign>.</p>
+            <p><foreign xml:lang="spa">O pena, quien me vestiò? Ahi, desdichado de mi, y es possible esto? Agora quiero, si ansi sarà, hazer una mina por de bajo de la casa y hazer saltar todos hasta al cielo de Saturno! Pero mejor serà que da mi criada sepa mas claramente el trattado como ha passado</foreign>.</p>
+            <p><foreign xml:lang="spa">O de casa, o de casa, a quien digo, o là Fioretta passa a cà, vente a bajo con la lumbre</foreign>.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -3555,7 +3528,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ah vellaca, vieja hechizera, alcaguera, celestina, endemoniada! Que es de mi hermana, confiessa la verdad, si no que te haré comer esta daga</foreign>.<pb n="614"/></p>
+            <p><foreign xml:lang="spa">Ah vellaca, vieja hechizera, alcaguera, celestina, endemoniada! Que es de mi hermana, confiessa la verdad, si no que te haré comer esta daga</foreign>.<pb n="614"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fioretta</emph>.</speaker>
@@ -3574,7 +3547,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Mas con tigo, que con ella la tengo, pues que por tu causa la querìa matar</foreign>.</p>
+            <p><foreign xml:lang="spa">Mas con tigo, que con ella la tengo, pues que por tu causa la querìa matar</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -3586,7 +3559,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A donde fuestes esta noche? con tu enamorado, deçid la verdad, si no quieres que te passa esta daga por los lados! Presto, acava, declaramelo</foreign>.</p>
+            <p><foreign xml:lang="spa">A donde fuestes esta noche? con tu enamorado, deçid la verdad, si no quieres que te passa esta daga por los lados! Presto, acava, declaramelo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -3602,7 +3575,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y como señor, quien me lo ha dicho si no el? Cuerpo de quien me pariò</foreign>!</p>
+            <p><foreign xml:lang="spa">Y como señor, quien me lo ha dicho si no el? Cuerpo de quien me pariò</foreign>!</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -3618,7 +3591,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Deteneos vos otras mujeres, dejen que yo baga por todos la venganza. Para que infamarnos desta manera? Echa mano a tu espada, que quiere darte en alma y en cuerpo al profundo rey de las animas dollentes</foreign>.</p>
+            <p><foreign xml:lang="spa">Deteneos vos otras mujeres, dejen que yo baga por todos la venganza. Para que infamarnos desta manera? Echa mano a tu espada, que quiere darte en alma y en cuerpo al profundo rey de las animas dollentes</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3626,7 +3599,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Digalo, que quiere dezir, que todo serà mentira</foreign>.</p>
+            <p><foreign xml:lang="spa">Digalo, que quiere dezir, que todo serà mentira</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3634,7 +3607,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Aunque jamas a ninguno perdoné en todos los dias de mi vida, por la mucha amistad que ha sido entre los dos y porque muestra de tenerme tan grande aficion, le perdono</foreign>.</p>
+            <p><foreign xml:lang="spa">Aunque jamas a ninguno perdoné en todos los dias de mi vida, por la mucha amistad que ha sido entre los dos y porque muestra de tenerme tan grande aficion, le perdono</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fioretta</emph>.</speaker>
@@ -3642,7 +3615,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A que respondes adonde no eres llamada? Mi her mana haviendo entendido la causa de la falta, echa por la culpa de la noche, yo sé que por mi contento ella tan bien serà de mi voluntad</foreign>.</p>
+            <p><foreign xml:lang="spa">A que respondes adonde no eres llamada? Mi her mana haviendo entendido la causa de la falta, echa por la culpa de la noche, yo sé que por mi contento ella tan bien serà de mi voluntad</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -3662,7 +3635,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Estense calladas ellas, y vayanse en casa, que lo de mas serà todo mi quidado</foreign>.</p>
+            <p><foreign xml:lang="spa">Estense calladas ellas, y vayanse en casa, que lo de mas serà todo mi quidado</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -3686,7 +3659,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Bamonos señor, que por el camino nos conçertaremos sobre el negotio</foreign>.<pb n="617"/></p>
+            <p><foreign xml:lang="spa">Bamonos señor, que por el camino nos conçertaremos sobre el negotio</foreign>.<pb n="617"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3694,7 +3667,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No señor, que quiero acompañarle hasta a la suya</foreign>.</p>
+            <p><foreign xml:lang="spa">No señor, que quiero acompañarle hasta a la suya</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3702,7 +3675,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Bamonos por esta callejuela</foreign>.</p>
+            <p><foreign xml:lang="spa">Bamonos por esta callejuela</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3711,7 +3684,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Que hora puede ser señor?</foreign>
+              <foreign xml:lang="spa">Que hora puede ser señor?</foreign>
             </p>
           </sp>
           <sp>
@@ -3720,7 +3693,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo prometo a vuestra merced, que si la luna agora non compareçe, que manaña, antes de las quinze horas, haré que sea salido el sol para su mandado</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo prometo a vuestra merced, que si la luna agora non compareçe, que manaña, antes de las quinze horas, haré que sea salido el sol para su mandado</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3781,7 +3754,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Demasciada merced, da el (señor), yo he recevido</foreign>.</p>
+            <p><foreign xml:lang="spa">Demasciada merced, da el (señor), yo he recevido</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3794,7 +3767,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Da el nombre, a quien digo yo? quien va allà?</foreign>
+              <foreign xml:lang="spa">Da el nombre, a quien digo yo? quien va allà?</foreign>
             </p>
           </sp>
           <sp>
@@ -3811,7 +3784,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Quien eres, decid</foreign>.</p>
+            <p><foreign xml:lang="spa">Quien eres, decid</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3823,7 +3796,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo le cedo, señor. Quien està allà? Valgate, barra bas, respondes</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo le cedo, señor. Quien està allà? Valgate, barra bas, respondes</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3857,7 +3830,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Y quien te ha dado?</foreign>
+              <foreign xml:lang="spa">Y quien te ha dado?</foreign>
             </p>
           </sp>
           <sp>
@@ -3875,7 +3848,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Es este el creado de vuestra merced?</foreign>
+              <foreign xml:lang="spa">Es este el creado de vuestra merced?</foreign>
             </p>
           </sp>
           <sp>
@@ -3904,7 +3877,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Bàlgate la mona Antona! Y todas a quesas desgratias has pasado esta noche?</foreign>.</p>
+            <p><foreign xml:lang="spa">Bàlgate la mona Antona! Y todas a quesas desgratias has pasado esta noche?</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3912,7 +3885,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Querìa yo saber porque estava em mi casa Alberto, que si, que era venido con armas de fuego para matarme y dudoso de ser da ti descubierto, porque no me lo hubiesses dicho, fingiò de ser enamorado de mi hermana. Però yo lo be de saber, a pesar de sus barbas</foreign>.<pb n="622"/></p>
+            <p><foreign xml:lang="spa">Querìa yo saber porque estava em mi casa Alberto, que si, que era venido con armas de fuego para matarme y dudoso de ser da ti descubierto, porque no me lo hubiesses dicho, fingiò de ser enamorado de mi hermana. Però yo lo be de saber, a pesar de sus barbas</foreign>.<pb n="622"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3920,7 +3893,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No tengas duda, dejad esse cuidado a mi valerosa persona</foreign>.</p>
+            <p><foreign xml:lang="spa">No tengas duda, dejad esse cuidado a mi valerosa persona</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3928,7 +3901,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo me contento, señor, bien que no he querido darla al hijo del rey de Suezia, ni al principe de España. Y tengo por siguro que ella se contenterà, mandandoselo yo</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo me contento, señor, bien que no he querido darla al hijo del rey de Suezia, ni al principe de España. Y tengo por siguro que ella se contenterà, mandandoselo yo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -3941,7 +3914,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Yo te la daré para quitarme tan gran cuidado de casa y tu queres tomar mujer, pobre de ti, porque la quieres?</foreign>
+              <foreign xml:lang="spa">Yo te la daré para quitarme tan gran cuidado de casa y tu queres tomar mujer, pobre de ti, porque la quieres?</foreign>
             </p>
           </sp>
           <sp>
@@ -3950,7 +3923,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Bamonos, señor</foreign>.</p>
+            <p><foreign xml:lang="spa">Bamonos, señor</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3959,7 +3932,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Que quieres dezirme?</foreign>
+              <foreign xml:lang="spa">Que quieres dezirme?</foreign>
             </p>
           </sp>
           <sp>
@@ -3978,7 +3951,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Y tu lo has da ellos claramente entendido y lo vistes?</foreign>
+              <foreign xml:lang="spa">Y tu lo has da ellos claramente entendido y lo vistes?</foreign>
             </p>
           </sp>
           <sp>
@@ -3991,7 +3964,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No te partes de aqui, Escaramuza</foreign>.</p>
+            <p><foreign xml:lang="spa">No te partes de aqui, Escaramuza</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -3999,7 +3972,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Señor cuñado, armas, armas, siera, siera, contra Fulgentio, porque Lucilla es mia, que yo la pretendo. Toca aquella puerta de Fulgentio. Dejad que la toque yo</foreign>.</p>
+            <p><foreign xml:lang="spa">Señor cuñado, armas, armas, siera, siera, contra Fulgentio, porque Lucilla es mia, que yo la pretendo. Toca aquella puerta de Fulgentio. Dejad que la toque yo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -4011,7 +3984,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Vengan fuera los de dentro aqui</foreign>.</p>
+            <p><foreign xml:lang="spa">Vengan fuera los de dentro aqui</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -4023,7 +3996,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O cuerpo de Olimpo y de Tifeo</foreign>.</p>
+            <p><foreign xml:lang="spa">O cuerpo de Olimpo y de Tifeo</foreign>.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -4040,7 +4013,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Tòmate esta cuchillada, que Lucilla es mia!</foreign>
+              <foreign xml:lang="spa">Tòmate esta cuchillada, que Lucilla es mia!</foreign>
             </p>
           </sp>
           <sp>
@@ -4072,7 +4045,7 @@ umilissimo e perpetuo servitore
           <head rend="italic">SCENA QUARTA</head>
           <stage><hi rend="sc">lucilla</hi>, <hi rend="italic">di casa di</hi><hi rend="sc">fulgenzio</hi></stage>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">squarcialeone, matamoros, scaramuzza</hi>
             </add>
           </stage>
@@ -4086,7 +4059,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Diga, señor, desta desenfrenada y diabolica cuchil ladora, beve sangre. Vèngase acà, señora Lucila</foreign>.</p>
+            <p><foreign xml:lang="spa">Diga, señor, desta desenfrenada y diabolica cuchil ladora, beve sangre. Vèngase acà, señora Lucila</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">lucilla</emph>.</speaker>
@@ -4094,7 +4067,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O reniego del diabolico rey Maumetan de Bisantia y de la Tracia toda, venga aqui señora. Parecele cosa buena esta? huirse de su padre con Fulgentio y haçer la casta Lucrecia con migo? Con justa raçon ahora quiero vengarme de lo que es de raçon</foreign>.</p>
+            <p><foreign xml:lang="spa">O reniego del diabolico rey Maumetan de Bisantia y de la Tracia toda, venga aqui señora. Parecele cosa buena esta? huirse de su padre con Fulgentio y haçer la casta Lucrecia con migo? Con justa raçon ahora quiero vengarme de lo que es de raçon</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -4106,7 +4079,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ah señora Penelope, muy casta Diana, aboreçer un cavallero y valiente, qual yo soy, para huirse con Fulgentio! Gran falta es esta que ha echo a su padre y a sus parientes</foreign>.</p>
+            <p><foreign xml:lang="spa">Ah señora Penelope, muy casta Diana, aboreçer un cavallero y valiente, qual yo soy, para huirse con Fulgentio! Gran falta es esta que ha echo a su padre y a sus parientes</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">lucilla</emph>.</speaker>
@@ -4114,7 +4087,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No podrà ella allarse escusa alguna para defenderse, yo la quiero dar en poder de su padre, entretanto se podrà estar en mi casa con mi hermana. Toca, Escaramuza, aquella puerta</foreign>.</p>
+            <p><foreign xml:lang="spa">No podrà ella allarse escusa alguna para defenderse, yo la quiero dar en poder de su padre, entretanto se podrà estar en mi casa con mi hermana. Toca, Escaramuza, aquella puerta</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4126,7 +4099,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Quiero llevarsela yo, pues, que ansì cunple a mi honrada persona</foreign>.</p>
+            <p><foreign xml:lang="spa">Quiero llevarsela yo, pues, que ansì cunple a mi honrada persona</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">lucilla</emph>.</speaker>
@@ -4134,7 +4107,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo no lo creo, pero si fuere la verdad, ellos me la pagaran. Toca tu a quella puerta, digo, balgate Satanas</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo no lo creo, pero si fuere la verdad, ellos me la pagaran. Toca tu a quella puerta, digo, balgate Satanas</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4165,7 +4138,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Esto no haré por cierto. Llama acà mi hermana</foreign>.</p>
+            <p><foreign xml:lang="spa">Esto no haré por cierto. Llama acà mi hermana</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fioretta</emph>.</speaker>
@@ -4192,7 +4165,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No quiera ella saver agora ni como, ni porque. Entrese, señora Lucila, en casa con mi hermana, que a hora iré a buscar el señor Alberto y aplacandole yo del sucedido caso, haré que se quede mi esposa; pues que da Escaramuza mi criado hé savido que no han pasado cosa mala con Fulgentio</foreign>.<pb n="627"/></p>
+            <p><foreign xml:lang="spa">No quiera ella saver agora ni como, ni porque. Entrese, señora Lucila, en casa con mi hermana, que a hora iré a buscar el señor Alberto y aplacandole yo del sucedido caso, haré que se quede mi esposa; pues que da Escaramuza mi criado hé savido que no han pasado cosa mala con Fulgentio</foreign>.<pb n="627"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">lucilla</emph>.</speaker>
@@ -4212,7 +4185,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No faltaré de hacer lo que devo, pues naçi cavallero</foreign>.</p>
+            <p><foreign xml:lang="spa">No faltaré de hacer lo que devo, pues naçi cavallero</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -4224,7 +4197,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ea, entre la criada con la señora Lucilla y quedese aqui Clariç, que le tengo de hablar</foreign>.</p>
+            <p><foreign xml:lang="spa">Ea, entre la criada con la señora Lucilla y quedese aqui Clariç, que le tengo de hablar</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fioretta</emph>.</speaker>
@@ -4236,7 +4209,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Toma esta llave de mi posenta y ençierala alli den tro, que no se vaya, que luego yo bolveré. Tened cuidado della</foreign>.</p>
+            <p><foreign xml:lang="spa">Toma esta llave de mi posenta y ençierala alli den tro, que no se vaya, que luego yo bolveré. Tened cuidado della</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -4244,7 +4217,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ea, bamonos, señor capitan. Vayase ella dentro</foreign>.<pb n="628"/></p>
+            <p><foreign xml:lang="spa">Ea, bamonos, señor capitan. Vayase ella dentro</foreign>.<pb n="628"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -4525,7 +4498,7 @@ umilissimo e perpetuo servitore
             <hi rend="sc">matamoros</hi>
           </stage>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">alberto, policinella, volpone, fulgenzio</hi>
             </add>
           </stage>
@@ -4700,7 +4673,7 @@ umilissimo e perpetuo servitore
           </stage>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Pues, que se pensava Fulgentio de ganarla con migo. Yo soy grande amigo de hombres valerosos, y enemigo de cobardes, pero me la pagarà</foreign>.</p>
+            <p><foreign xml:lang="spa">Pues, que se pensava Fulgentio de ganarla con migo. Yo soy grande amigo de hombres valerosos, y enemigo de cobardes, pero me la pagarà</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4708,7 +4681,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Sì que estoy allegre, pues que he dado la fuga a los enemigos y tenida la vittoria de la hermosissima Lucila</foreign>.</p>
+            <p><foreign xml:lang="spa">Sì que estoy allegre, pues que he dado la fuga a los enemigos y tenida la vittoria de la hermosissima Lucila</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4716,7 +4689,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O maldita sca mi mala desventura, desta manera ha suçedido? Y tengo yo de sufrir de estos vellacones un tal agravio? Juro por la grandezza de mi serinissima persona y muy alto linaje, que ellos me lo ha de pagar. Y que tengo tan malamente de perder la muy hermosa Luzila, aquella,<pb n="635"/> que es la resplandeçiente lumbre de mis ojos, la llama de mi coraçon, el ardor y encendio de mi alma, aquella gran lumbre que çentellando saca ya roja los claros rayos del proprio nombre que da resplandor a las estrellas fixas de mi fee y a las errantes de mis pensamientos. No lo quiero çufrir, pues que a elle mas que a mi vida quiero y el agravio ha sido muy grande. Ea, armas, armas, sierra, sierra, agora seran todos muerto de mis poderosas manos</foreign>.</p>
+            <p><foreign xml:lang="spa">O maldita sca mi mala desventura, desta manera ha suçedido? Y tengo yo de sufrir de estos vellacones un tal agravio? Juro por la grandezza de mi serinissima persona y muy alto linaje, que ellos me lo ha de pagar. Y que tengo tan malamente de perder la muy hermosa Luzila, aquella,<pb n="635"/> que es la resplandeçiente lumbre de mis ojos, la llama de mi coraçon, el ardor y encendio de mi alma, aquella gran lumbre que çentellando saca ya roja los claros rayos del proprio nombre que da resplandor a las estrellas fixas de mi fee y a las errantes de mis pensamientos. No lo quiero çufrir, pues que a elle mas que a mi vida quiero y el agravio ha sido muy grande. Ea, armas, armas, sierra, sierra, agora seran todos muerto de mis poderosas manos</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4724,7 +4697,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A picarones, a cabrones, a sucios, salgan todos aqui fuera, que os tengo de matar</foreign>.</p>
+            <p><foreign xml:lang="spa">A picarones, a cabrones, a sucios, salgan todos aqui fuera, que os tengo de matar</foreign>.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -4743,7 +4716,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Baxan aqui todos, que os tengo de matar y quiero haçer notomia de vos otros y de las estrañas cuerdas para mi ghitara</foreign>.</p>
+            <p><foreign xml:lang="spa">Baxan aqui todos, que os tengo de matar y quiero haçer notomia de vos otros y de las estrañas cuerdas para mi ghitara</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -4766,7 +4739,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Venga a baxo, digo, que le haré conoçer mi gran valor</foreign>.</p>
+            <p><foreign xml:lang="spa">Venga a baxo, digo, que le haré conoçer mi gran valor</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4778,7 +4751,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Venga a baxo, digo, gallina mojada</foreign>.</p>
+            <p><foreign xml:lang="spa">Venga a baxo, digo, gallina mojada</foreign>.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -4800,7 +4773,7 @@ umilissimo e perpetuo servitore
             <hi rend="italic">a la finestra</hi>
           </stage>
           <stage>
-            <add resp="ed">
+            <add resp="#ed">
               <hi rend="sc">scaramuzza, matamoros</hi>
             </add>
           </stage>
@@ -4827,7 +4800,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Ahi de puta vellacon, rudo animal costal, lleno de paja podrida! A mi tan malas palabras? a mi esto?</foreign>
+              <foreign xml:lang="spa">Ahi de puta vellacon, rudo animal costal, lleno de paja podrida! A mi tan malas palabras? a mi esto?</foreign>
             </p>
           </sp>
           <sp>
@@ -4836,7 +4809,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A guardame, oygame, no te vas de aquessa ventana</foreign>.</p>
+            <p><foreign xml:lang="spa">A guardame, oygame, no te vas de aquessa ventana</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4845,7 +4818,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Que quieres dezir por esto, cabron?</foreign>
+              <foreign xml:lang="spa">Que quieres dezir por esto, cabron?</foreign>
             </p>
           </sp>
           <sp>
@@ -4889,7 +4862,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Mirad, vellacon, porque te has descubierto por tan temerario y atrebido y que has dicho de querer pelear co migo, yo me contento por no pareçer que yo tenga miedo de ti. Te deafio a pelear co migo al estecado, con espada sola o como quieres</foreign>.</p>
+            <p><foreign xml:lang="spa">Mirad, vellacon, porque te has descubierto por tan temerario y atrebido y que has dicho de querer pelear co migo, yo me contento por no pareçer que yo tenga miedo de ti. Te deafio a pelear co migo al estecado, con espada sola o como quieres</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4901,7 +4874,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Sì que quiero auchillarme con tigo</foreign>.</p>
+            <p><foreign xml:lang="spa">Sì que quiero auchillarme con tigo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4909,7 +4882,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y por que tu eres de tan baxa condicion y yo de tan alto linaje y por esto te hago noble y caballero, y an sì seras mi igual</foreign>.</p>
+            <p><foreign xml:lang="spa">Y por que tu eres de tan baxa condicion y yo de tan alto linaje y por esto te hago noble y caballero, y an sì seras mi igual</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4917,7 +4890,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Callate, digo, que eres un nezio</foreign>.</p>
+            <p><foreign xml:lang="spa">Callate, digo, que eres un nezio</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4933,7 +4906,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Quiero como te he dicho entrar con tigo a la estecada y por esso te doi la noblezza</foreign>.<pb n="640"/></p>
+            <p><foreign xml:lang="spa">Quiero como te he dicho entrar con tigo a la estecada y por esso te doi la noblezza</foreign>.<pb n="640"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4941,7 +4914,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">En camisa</foreign>.</p>
+            <p><foreign xml:lang="spa">En camisa</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4949,7 +4922,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No quiero responder eri tantas tus desconçertadas palabras, pelearemos armados con dos espadas sencillas, sin dagas, ni broquelles</foreign>.</p>
+            <p><foreign xml:lang="spa">No quiero responder eri tantas tus desconçertadas palabras, pelearemos armados con dos espadas sencillas, sin dagas, ni broquelles</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4957,7 +4930,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">El cavallero Biscaino</foreign>.</p>
+            <p><foreign xml:lang="spa">El cavallero Biscaino</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -4965,7 +4938,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Me contento</foreign>.</p>
+            <p><foreign xml:lang="spa">Me contento</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -4982,7 +4955,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo lo hago mas por mi gusto, que por otra cosa. Para poder deçir que con todas suerte de personas me he querido pelear, que no queriendose acuchillar con migo Fulgentio, ni Alberto por ser viejo; y para hazer conoçer a Lucila que yo por su causa pongo mi vida en peligro, quiero hazer esta battalla. Bamonos</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo lo hago mas por mi gusto, que por otra cosa. Para poder deçir que con todas suerte de personas me he querido pelear, que no queriendose acuchillar con migo Fulgentio, ni Alberto por ser viejo; y para hazer conoçer a Lucila que yo por su causa pongo mi vida en peligro, quiero hazer esta battalla. Bamonos</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -5006,7 +4979,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O là Escaramuzza, mirad, que Lucila es venida a bajo, y està (si mal no he oydo) de tras de su puerta. Hablale, que yo estaré aqui de guardia</foreign>.</p>
+            <p><foreign xml:lang="spa">O là Escaramuzza, mirad, que Lucila es venida a bajo, y està (si mal no he oydo) de tras de su puerta. Hablale, que yo estaré aqui de guardia</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -5041,7 +5014,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A ladron, bien me la pagueras</foreign>.</p>
+            <p><foreign xml:lang="spa">A ladron, bien me la pagueras</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -5259,7 +5232,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">fulgenzio</emph>.</speaker>
-            <p><stage>(<emph>qui legge</emph>)</stage> «<foreign lang="spa">Yo, el gran capitan Matamoros ganavanderas, horrible, terrible, increible, tremendo, estupendo, horrendo, animoso, valeroso, espanto de Marte y de la Muerte, sobrino de Belona, nieto de la fortuna, naçido y criado dentro del gran baratro enfernal, entres los diabolicos gritos de Pluton, Mijera, Tesifone y Eletto, notrido y sustentado de sangre humano, arcecavalleraço de Espaa, destruydor de campos enemigos, rompedor de exercitos, deribador de<pb n="647"/> castillos, conquistador de reynos, temor de imperios, vencedor de batallas, pariente del Soffi, señor del Eteopia, tributado dal turquo, dal persiano y dal grandissimo Lucifero, sostancia y bravezza dela guerra y plus ultra, mas allà de todo el mundo, sessenta mil millones de leguas; desafio el noble Policinella a pelear con migo, armado de la manera que a el fuera de gusto, antes que el claro sol se vaia dentro del oceano y todo lo hago por mantenerle que lo que de mi ha dicho es muy gran mentira</foreign>».</p>
+            <p><stage>(<emph>qui legge</emph>)</stage> «<foreign xml:lang="spa">Yo, el gran capitan Matamoros ganavanderas, horrible, terrible, increible, tremendo, estupendo, horrendo, animoso, valeroso, espanto de Marte y de la Muerte, sobrino de Belona, nieto de la fortuna, naçido y criado dentro del gran baratro enfernal, entres los diabolicos gritos de Pluton, Mijera, Tesifone y Eletto, notrido y sustentado de sangre humano, arcecavalleraço de Espaa, destruydor de campos enemigos, rompedor de exercitos, deribador de<pb n="647"/> castillos, conquistador de reynos, temor de imperios, vencedor de batallas, pariente del Soffi, señor del Eteopia, tributado dal turquo, dal persiano y dal grandissimo Lucifero, sostancia y bravezza dela guerra y plus ultra, mas allà de todo el mundo, sessenta mil millones de leguas; desafio el noble Policinella a pelear con migo, armado de la manera que a el fuera de gusto, antes que el claro sol se vaia dentro del oceano y todo lo hago por mantenerle que lo que de mi ha dicho es muy gran mentira</foreign>».</p>
             <p>E ben, signor Policinella, avete ben udito la disfida?</p>
           </sp>
           <sp>
@@ -5340,7 +5313,7 @@ umilissimo e perpetuo servitore
           </stage>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ya enbié mi carte a Policinela, por el criado de vuestra merced, no sé lo que havrà soçedido</foreign>.</p>
+            <p><foreign xml:lang="spa">Ya enbié mi carte a Policinela, por el criado de vuestra merced, no sé lo que havrà soçedido</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5348,7 +5321,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Señor, lo hago por que soy tan deseoso de haçer al mondo conoçer que con qualchiera suerte de hombres he querido venir a battalla, y tanto mas que el fue el primero que me desafiò y serà muy gran verguenza la mia en faltar de açello y estoy mas contento que si hubiera de venir a iornada con el muy valeroso monsiur de Chirichì, verdadero y gran paladino de Françia, pero con todo esto, yo le doy este titolo de cavallero, aun que no lo sea</foreign>.</p>
+            <p><foreign xml:lang="spa">Señor, lo hago por que soy tan deseoso de haçer al mondo conoçer que con qualchiera suerte de hombres he querido venir a battalla, y tanto mas que el fue el primero que me desafiò y serà muy gran verguenza la mia en faltar de açello y estoy mas contento que si hubiera de venir a iornada con el muy valeroso monsiur de Chirichì, verdadero y gran paladino de Françia, pero con todo esto, yo le doy este titolo de cavallero, aun que no lo sea</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5356,7 +5329,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ya està concluydo y me serìa de mucha verguenza el dejarlo de haçer</foreign>.<pb n="650"/></p>
+            <p><foreign xml:lang="spa">Ya està concluydo y me serìa de mucha verguenza el dejarlo de haçer</foreign>.<pb n="650"/></p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -5371,7 +5344,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y no se ha espantado de mi valorosa persona y de mi gran valor? Juro por la fuerza del grande Alcides, que el primero golpe que le tengo de dar en la cabeça y de hazerle saltar los ojos por de dentro de los agujeros de las nariçes. Vete corriendo a mi armero y dile que me tenga a preçevidas las armaduras, y que el estoque sea mas reluciente de los rayos del sol, porque quando alçaré por darle la cuchillada, quiero que el resplandor le quite la vista y lo dexe confundido y fuera de si</foreign>.</p>
+            <p><foreign xml:lang="spa">Y no se ha espantado de mi valorosa persona y de mi gran valor? Juro por la fuerza del grande Alcides, que el primero golpe que le tengo de dar en la cabeça y de hazerle saltar los ojos por de dentro de los agujeros de las nariçes. Vete corriendo a mi armero y dile que me tenga a preçevidas las armaduras, y que el estoque sea mas reluciente de los rayos del sol, porque quando alçaré por darle la cuchillada, quiero que el resplandor le quite la vista y lo dexe confundido y fuera de si</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5384,7 +5357,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Ea, corras, vete en hora mala, que aguardes?</foreign>
+              <foreign xml:lang="spa">Ea, corras, vete en hora mala, que aguardes?</foreign>
             </p>
           </sp>
           <sp>
@@ -5401,7 +5374,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A picaron, a qui estas? Tu cabeça es mia</foreign>.<pb n="651"/></p>
+            <p><foreign xml:lang="spa">A picaron, a qui estas? Tu cabeça es mia</foreign>.<pb n="651"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5414,7 +5387,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">A mi? es carta del emperador?</foreign>
+              <foreign xml:lang="spa">A mi? es carta del emperador?</foreign>
             </p>
           </sp>
           <sp>
@@ -5423,7 +5396,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Detengase señor, que se envainan las espadas</foreign>.</p>
+            <p><foreign xml:lang="spa">Detengase señor, que se envainan las espadas</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5432,7 +5405,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Es papel de España, de Fiandres o de Constantitinopola?</foreign>
+              <foreign xml:lang="spa">Es papel de España, de Fiandres o de Constantitinopola?</foreign>
             </p>
           </sp>
           <sp>
@@ -5445,7 +5418,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Si señor, que yo le he dada la nobleça. Damela cà, che dize, me acontento de escuchiarte, levàntate, no steyas mas arodillado delante de mi</foreign>.</p>
+            <p><foreign xml:lang="spa">Si señor, que yo le he dada la nobleça. Damela cà, che dize, me acontento de escuchiarte, levàntate, no steyas mas arodillado delante de mi</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -5453,7 +5426,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No entiendo esta escritura, que es eri lengua italiana</foreign>.</p>
+            <p><foreign xml:lang="spa">No entiendo esta escritura, que es eri lengua italiana</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -5461,7 +5434,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Pues leed, que te doy licençia, si sabes leer</foreign>.</p>
+            <p><foreign xml:lang="spa">Pues leed, que te doy licençia, si sabes leer</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -5469,7 +5442,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Non importa, me contento, leed</foreign>.</p>
+            <p><foreign xml:lang="spa">Non importa, me contento, leed</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5481,7 +5454,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Desid, presto</foreign>.</p>
+            <p><foreign xml:lang="spa">Desid, presto</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -5489,7 +5462,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O mal naçido, vellaco, y de puta cabron</foreign>.</p>
+            <p><foreign xml:lang="spa">O mal naçido, vellaco, y de puta cabron</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -5497,7 +5470,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No hay mas que dezir. Sé bien lo que tengo de hazer sobre esto</foreign>.</p>
+            <p><foreign xml:lang="spa">No hay mas que dezir. Sé bien lo que tengo de hazer sobre esto</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -5505,7 +5478,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No hablo con tigo, pero vaya, y digale que se procure sepultura, y presto, antes que, despues de haverle muerto, lo profunda dentro del eterno fuego. Bamonos, señor, al armero</foreign>.<pb n="653"/></p>
+            <p><foreign xml:lang="spa">No hablo con tigo, pero vaya, y digale que se procure sepultura, y presto, antes que, despues de haverle muerto, lo profunda dentro del eterno fuego. Bamonos, señor, al armero</foreign>.<pb n="653"/></p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5761,7 +5734,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y es posible que esta valerosa y vitoriosa espada, que fue del fuerte Achiles, que por sentencia del rey Agamenon fue dada al griego Ulis con las otras armaduras, que al cabo de muchos años y guerras suçediò en las balerosas manos del gran Iulio Cesare primero emperador de Romanos y despues de su muerte cayò en poder de Octaviano, de Octaviano a Tiberio, de Tiberio a Cayo Cesare, da Cayo a Claudio, da Claudio a Neron, da Neron a Sergio, da Sergio a Silvio Orton, da Silvio a Vitelio, da Vitelio a Vespasian, da Vespasian a Tito, da Tito a Domician, da Domician a Cuceio, da Cuceio a Troian, da Troian ad Antonio Pio, da Antonio Pio ad Aurelian, da Aurelian a Comodo y Comodo, por antigua memoria, la encerrò en el templo de Giano en Roma. Que despues, al cabo de muchos successiones, vino en<pb n="658"/> poder del grande emperador Carlos Quinto, quando fue encoronado emperador de Romanos en la famosa ciudad de Bolonia, gran madre de studiosos. Carlos Quinto la diò en sacrificio a Marte; Marte la diò alla Muerte, la Muerte a Pluton, Pluton la diò a mi valerosa persona, gran monarca de muy estremada valentia; paraque deviese matar con ella gran parte del Asia, Africa y Europa, como que ansi hasta hora he hecho para la aumentacion del Reyno Ynfernal, por el muy gran tributo que el principe del fuego me da; y que a hora se ha de ensuçiar de la pudrida y negra sangre de un rudo animal, como es aquel que en todas maneras yo lo he de matar</foreign>.</p>
+            <p><foreign xml:lang="spa">Y es posible que esta valerosa y vitoriosa espada, que fue del fuerte Achiles, que por sentencia del rey Agamenon fue dada al griego Ulis con las otras armaduras, que al cabo de muchos años y guerras suçediò en las balerosas manos del gran Iulio Cesare primero emperador de Romanos y despues de su muerte cayò en poder de Octaviano, de Octaviano a Tiberio, de Tiberio a Cayo Cesare, da Cayo a Claudio, da Claudio a Neron, da Neron a Sergio, da Sergio a Silvio Orton, da Silvio a Vitelio, da Vitelio a Vespasian, da Vespasian a Tito, da Tito a Domician, da Domician a Cuceio, da Cuceio a Troian, da Troian ad Antonio Pio, da Antonio Pio ad Aurelian, da Aurelian a Comodo y Comodo, por antigua memoria, la encerrò en el templo de Giano en Roma. Que despues, al cabo de muchos successiones, vino en<pb n="658"/> poder del grande emperador Carlos Quinto, quando fue encoronado emperador de Romanos en la famosa ciudad de Bolonia, gran madre de studiosos. Carlos Quinto la diò en sacrificio a Marte; Marte la diò alla Muerte, la Muerte a Pluton, Pluton la diò a mi valerosa persona, gran monarca de muy estremada valentia; paraque deviese matar con ella gran parte del Asia, Africa y Europa, como que ansi hasta hora he hecho para la aumentacion del Reyno Ynfernal, por el muy gran tributo que el principe del fuego me da; y que a hora se ha de ensuçiar de la pudrida y negra sangre de un rudo animal, como es aquel que en todas maneras yo lo he de matar</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fulgenzio</emph>.</speaker>
@@ -5781,8 +5754,8 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Aunque cierto y claro soy de no poder morir para ser imortal, todavia yo este epitafio haria poner en cima de mi sepoltura, oigame</foreign>:</p>
-            <lg type="nondefinito" lang="spa">
+            <p><foreign xml:lang="spa">Aunque cierto y claro soy de no poder morir para ser imortal, todavia yo este epitafio haria poner en cima de mi sepoltura, oigame</foreign>:</p>
+            <lg type="nondefinito" xml:lang="spa">
               <lg>
                 <l>A qui yace en poca tierra</l>
                 <l>el que toda lo temia</l>
@@ -5808,7 +5781,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Diga el vellaco</foreign>.</p>
+            <p><foreign xml:lang="spa">Diga el vellaco</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -5837,7 +5810,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Me contento, pues que otra escritura no tengo si no la fuerza del braço y el animo del coraçon</foreign>.</p>
+            <p><foreign xml:lang="spa">Me contento, pues que otra escritura no tengo si no la fuerza del braço y el animo del coraçon</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -5845,7 +5818,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Con un soplo lo tengo de embiar a besar los cuernos de la luna</foreign>.</p>
+            <p><foreign xml:lang="spa">Con un soplo lo tengo de embiar a besar los cuernos de la luna</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -5963,7 +5936,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Haga, señor, lo que le fuera de gusto, busque en mi faldriquera</foreign>.</p>
+            <p><foreign xml:lang="spa">Haga, señor, lo que le fuera de gusto, busque en mi faldriquera</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -5971,7 +5944,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O mi desdichosa fortuna ! Muestra señor. Son guantes de España, para dallos a la reyna de Sueçia</foreign>.</p>
+            <p><foreign xml:lang="spa">O mi desdichosa fortuna ! Muestra señor. Son guantes de España, para dallos a la reyna de Sueçia</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -5997,7 +5970,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Armas, armas, sierra, sierra!</foreign>
+              <foreign xml:lang="spa">Armas, armas, sierra, sierra!</foreign>
             </p>
           </sp>
           <sp>
@@ -6010,7 +5983,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Señor capitan Squarcialeon, digale vuestra merced si se ha dicho esta manaña lo que se diçe por toda España de mi valerosa persona</foreign>.</p>
+            <p><foreign xml:lang="spa">Señor capitan Squarcialeon, digale vuestra merced si se ha dicho esta manaña lo que se diçe por toda España de mi valerosa persona</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -6030,8 +6003,8 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Se diçe desta manera</foreign>.</p>
-            <lg type="nondefinito" lang="spa">
+            <p><foreign xml:lang="spa">Se diçe desta manera</foreign>.</p>
+            <lg type="nondefinito" xml:lang="spa">
               <l>Del capitan que ganna las banderas</l>
               <l>guardame Marte y guarde muy de veras.</l>
             </lg>
@@ -6042,7 +6015,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Como? Desid</foreign>.</p>
+            <p><foreign xml:lang="spa">Como? Desid</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6061,7 +6034,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Aqui estoy. Levantate de aquella silla, vellacon</foreign>.</p>
+            <p><foreign xml:lang="spa">Aqui estoy. Levantate de aquella silla, vellacon</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6097,7 +6070,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A bacillero, ladron, tu matar un tan famoso guerre ro? Yo quiero luego con la punta de mi espada arojarte en Yngalterra. Passate a cà</foreign>.</p>
+            <p><foreign xml:lang="spa">A bacillero, ladron, tu matar un tan famoso guerre ro? Yo quiero luego con la punta de mi espada arojarte en Yngalterra. Passate a cà</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6106,7 +6079,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Que patos?</foreign>
+              <foreign xml:lang="spa">Que patos?</foreign>
             </p>
           </sp>
           <sp>
@@ -6115,7 +6088,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo no tengo de buscar tantas neçedades, cadauno dea adonde podrà. Sierra, sierra</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo no tengo de buscar tantas neçedades, cadauno dea adonde podrà. Sierra, sierra</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6167,7 +6140,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Venga, el puerco vestido</foreign>.</p>
+            <p><foreign xml:lang="spa">Venga, el puerco vestido</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6187,7 +6160,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Y tu esta estocada</foreign>.</p>
+            <p><foreign xml:lang="spa">Y tu esta estocada</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fulgenzio</emph>.</speaker>
@@ -6215,7 +6188,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Hay de mi, y que engaño y traycion es esta? Ay que deribado fue en el suelo da un muchacho</foreign>.</p>
+            <p><foreign xml:lang="spa">Hay de mi, y que engaño y traycion es esta? Ay que deribado fue en el suelo da un muchacho</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6251,7 +6224,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo otra cosa no deseava y ne quedo muy contento</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo otra cosa no deseava y ne quedo muy contento</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">policinella</emph>.</speaker>
@@ -6267,7 +6240,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">A qui estoy, me le offereçco por muy grande amigo</foreign>.</p>
+            <p><foreign xml:lang="spa">A qui estoy, me le offereçco por muy grande amigo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -6283,7 +6256,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Yo te perdono, andat, pues que has mostrado ser hombre tan atrebido</foreign>.</p>
+            <p><foreign xml:lang="spa">Yo te perdono, andat, pues que has mostrado ser hombre tan atrebido</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6297,7 +6270,7 @@ umilissimo e perpetuo servitore
           <pb n="668"/>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Otra cosa que un tan grande engaño no podia hazerme derribar de tal manera en el suelo, aunque fueran esidas todas las piezas de artillarias del mundo</foreign>.</p>
+            <p><foreign xml:lang="spa">Otra cosa que un tan grande engaño no podia hazerme derribar de tal manera en el suelo, aunque fueran esidas todas las piezas de artillarias del mundo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fulgenzio</emph>.</speaker>
@@ -6305,7 +6278,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Ha, ha, ha, ha, que me revientan los lados de risa</foreign>.</p>
+            <p><foreign xml:lang="spa">Ha, ha, ha, ha, que me revientan los lados de risa</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -6313,7 +6286,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">De la astutia militar, que yo he usada con todos vos otros señores</foreign>.</p>
+            <p><foreign xml:lang="spa">De la astutia militar, que yo he usada con todos vos otros señores</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -6333,7 +6306,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Lo diré señor. Yo, deseoso de querer perdonar a todos, y no sabiendo la manera que havia de tener de haçerlo con mi reputacion, considerando que Policinela, en ganarme en batalla, me hubiera pedida merced de perdonar a todos, he querido pelearme con el por mi gusto y contento, con deseo de ser amigo de todos, como que agora lo soy. Y si el mochacho no me atava el pie, de mi propria voluntad caydo me hubiera en el suelo, por darmele vençido, como fingì de dolermene, de manera que por tal causa, quiero todos por muy grandes amigos y ansi lo afirmo</foreign>.</p>
+            <p><foreign xml:lang="spa">Lo diré señor. Yo, deseoso de querer perdonar a todos, y no sabiendo la manera que havia de tener de haçerlo con mi reputacion, considerando que Policinela, en ganarme en batalla, me hubiera pedida merced de perdonar a todos, he querido pelearme con el por mi gusto y contento, con deseo de ser amigo de todos, como que agora lo soy. Y si el mochacho no me atava el pie, de mi propria voluntad caydo me hubiera en el suelo, por darmele vençido, como fingì de dolermene, de manera que por tal causa, quiero todos por muy grandes amigos y ansi lo afirmo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6347,7 +6320,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">De muy buena gana, pues que mucho lo deseo</foreign>.</p>
+            <p><foreign xml:lang="spa">De muy buena gana, pues que mucho lo deseo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fulgenzio</emph>.</speaker>
@@ -6359,7 +6332,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Sì por cierto</foreign>.</p>
+            <p><foreign xml:lang="spa">Sì por cierto</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -6383,7 +6356,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No la tomé, señor, yo de su casa, mas bien de casa del signor Fulgentio, por darla a vuestra merced. Pero, agora que me acuerdo, deseo saber que es lo que vino hazer la noche passada en mi casa</foreign>.</p>
+            <p><foreign xml:lang="spa">No la tomé, señor, yo de su casa, mas bien de casa del signor Fulgentio, por darla a vuestra merced. Pero, agora que me acuerdo, deseo saber que es lo que vino hazer la noche passada en mi casa</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6419,7 +6392,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Antes, que yo he de pedir perdono a vuestra merced del agravio que yo en compania de algunos amigos le hiçe la noche passada</foreign>.</p>
+            <p><foreign xml:lang="spa">Antes, que yo he de pedir perdono a vuestra merced del agravio que yo en compania de algunos amigos le hiçe la noche passada</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6427,7 +6400,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Pues balgate el demonio, son cosas estas de reir si no de cargarte de palos</foreign>.</p>
+            <p><foreign xml:lang="spa">Pues balgate el demonio, son cosas estas de reir si no de cargarte de palos</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6475,7 +6448,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Por que la nuestra honrada y larga amistad no sea puesta en olvido, vendremos juntos y despues me haran ellos<pb n="672"/> merced de venir a las nuestras bodas, haviendo concluydo de dar mi hermana al señor capitan Squarcialeon, sustancia de la guerra</foreign>.</p>
+            <p><foreign xml:lang="spa">Por que la nuestra honrada y larga amistad no sea puesta en olvido, vendremos juntos y despues me haran ellos<pb n="672"/> merced de venir a las nuestras bodas, haviendo concluydo de dar mi hermana al señor capitan Squarcialeon, sustancia de la guerra</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">alberto</emph>.</speaker>
@@ -6503,7 +6476,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">El señor capitan me la pediò para Escaramuzza, su criado, no sé si ella se contenterà</foreign>.</p>
+            <p><foreign xml:lang="spa">El señor capitan me la pediò para Escaramuzza, su criado, no sé si ella se contenterà</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">scaramuzza</emph>.</speaker>
@@ -6519,7 +6492,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">O là, que digo, o de casa Floretta, Clariç a fuera</foreign>.</p>
+            <p><foreign xml:lang="spa">O là, que digo, o de casa Floretta, Clariç a fuera</foreign>.</p>
           </sp>
         </div2>
         <div2 type="scena">
@@ -6531,7 +6504,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">El valiente , y vitorioso</foreign>.</p>
+            <p><foreign xml:lang="spa">El valiente , y vitorioso</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6543,7 +6516,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">El bravo, digo</foreign>.</p>
+            <p><foreign xml:lang="spa">El bravo, digo</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">volpone</emph>.</speaker>
@@ -6563,7 +6536,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">No tantas palabras. Has da saber, hermana, que por el obligo grande que tengo al señor capitan Esquarcia Leon, y tambien por sus grandes mericimientos, yo te he casada con el. No me respondas de no, porque me haras enojar y muy de veras</foreign>.</p>
+            <p><foreign xml:lang="spa">No tantas palabras. Has da saber, hermana, que por el obligo grande que tengo al señor capitan Esquarcia Leon, y tambien por sus grandes mericimientos, yo te he casada con el. No me respondas de no, porque me haras enojar y muy de veras</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">clarice</emph>.</speaker>
@@ -6571,7 +6544,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Mucho me huelgo. Dense las manos aqui, delante de todos estos amigos y caballeros</foreign>.</p>
+            <p><foreign xml:lang="spa">Mucho me huelgo. Dense las manos aqui, delante de todos estos amigos y caballeros</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -6600,7 +6573,7 @@ umilissimo e perpetuo servitore
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
             <p>
-              <foreign lang="spa">Pues que ya havemos determinado y concluydo esto, desid Floreta, quieres tu casarte?</foreign>
+              <foreign xml:lang="spa">Pues que ya havemos determinado y concluydo esto, desid Floreta, quieres tu casarte?</foreign>
               <pb n="674"/>
             </p>
           </sp>
@@ -6610,7 +6583,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Quien quieres de los dos: Volpon o el bravo Esca ramuzza? Te doy lizençia, que te tomes quien quieres</foreign>.</p>
+            <p><foreign xml:lang="spa">Quien quieres de los dos: Volpon o el bravo Esca ramuzza? Te doy lizençia, que te tomes quien quieres</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">fioretta</emph>.</speaker>
@@ -6642,7 +6615,7 @@ umilissimo e perpetuo servitore
           </sp>
           <sp>
             <speaker><emph rend="sc">matamoros</emph>.</speaker>
-            <p><foreign lang="spa">Sì ya està hecho</foreign>.</p>
+            <p><foreign xml:lang="spa">Sì ya està hecho</foreign>.</p>
           </sp>
           <sp>
             <speaker><emph rend="sc">squarcialeone</emph>.</speaker>
@@ -6691,4 +6664,4 @@ umilissimo e perpetuo servitore
       </div1>
     </body>
   </text>
-</TEI.2>
+</TEI>

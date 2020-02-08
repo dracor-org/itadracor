@@ -1,959 +1,1279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title>Telesilla</title>
-      <author>Giacomo Leopardi</author>
-    </titleStmt>
-    <extent>50 Kb in UTF-8</extent>
-    <publicationStmt>
-      <publisher>Biblioteca Italiana</publisher>
-      <pubPlace>Roma</pubPlace>
-      <date>2004</date>
-      <idno>bibit000397</idno>
-      <availability>
-        <p>Questa risorsa digitale è liberamente accessibile per uso
-              personale o scientifico. Ogni uso commerciale è vietato</p>
-      </availability>
-      <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q84168936</idno>
-    </publicationStmt>
-    <seriesStmt>
-      <title>Collezione BibIt</title>
-    </seriesStmt>
-    <sourceDesc>
-      <bibl>
-        <title>Tutte le opere</title>
-        <author>Leopardi, Giacomo</author>
-        <editor id="ed">Felici, Lucio</editor>
-        <publisher>Lexis Progetti Editoriali</publisher>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Telesilla</title>
+        <author>Giacomo Leopardi</author>
+      </titleStmt>
+      <extent>50 Kb in UTF-8</extent>
+      <publicationStmt>
+        <publisher>Biblioteca Italiana</publisher>
         <pubPlace>Roma</pubPlace>
-        <date>1998</date>
-        <note>L'edizione elettronica fa riferimento al testo Giacomo Leopardi, Tutte le opere, a cura di W. Binni-E. Ghidetti, I, Firenze, Sansoni 1989.</note>
-      </bibl>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-                  <samplingDecl>
-                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+        <date>2004</date>
+        <idno>bibit000397</idno>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+        </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q84168936</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Collezione BibIt</title>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tutte le opere</title>
+          <author>Leopardi, Giacomo</author>
+          <editor xml:id="ed">Felici, Lucio</editor>
+          <publisher>Lexis Progetti Editoriali</publisher>
+          <pubPlace>Roma</pubPlace>
+          <date>1998</date>
+          <note>L'edizione elettronica fa riferimento al testo Giacomo Leopardi, Tutte le opere, a cura di W. Binni-E. Ghidetti, I, Firenze, Sansoni 1989.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
                       responsabilità dell'autore dell'opera sono stati soppressi nella versione
                       digitale</p>
-                  </samplingDecl>
-                  <editorialDecl>
-                    <correction method="silent" status="medium">
-                      <p>Livello medio: controllo a video con collazione con edizione di
+      </samplingDecl>
+      <editorialDecl>
+        <correction method="silent" status="medium">
+          <p>Livello medio: controllo a video con collazione con edizione di
                       riferimento</p>
-                    </correction>
-                    <quotation form="data" marks="all">
-                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+        </correction>
+        <quotation marks="all">
+          <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
                         sono stati rappresentati sulla versione digitale</p>
-                    </quotation>
-                    <hyphenation eol="none">
-                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+        </quotation>
+        <hyphenation eol="none">
+          <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
                         ricomposte</p>
-                    </hyphenation>
-                  </editorialDecl>
-    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
-  <profileDesc>
-    <creation>
-      <date>800</date>
-    </creation>
-    <langUsage><language id="ita">Italiano</language></langUsage>
-    <textClass>
-      <keywords scheme="CDD">
-        <term>858.7 - MISCELLANEA ITALIANA. 1814-1859</term>
-      </keywords>
-      <keywords scheme="CGB">
-        <term>Letteratura teatrale</term>
-      </keywords>
-    </textClass>
-  </profileDesc>
-  <revisionDesc>
-    <change>
-      <date>Data sconosciuta anteriore al 2000</date>
-      <respStmt>
-        <name>LEXIS</name>
-      </respStmt>
-      <item>Digitalizzazione</item>
-    </change>
-    <change>
-      <date>Data sconosciuta anteriore al 2000</date>
-      <respStmt>
-        <name>LEXIS</name>
-      </respStmt>
-      <item>Correzione linguistica</item>
-    </change>
-    <change>
-      <date>2004-05-17T00:00:00.000+02:00</date>
-      <respStmt>
-        <name>Elena Chiodi</name>
-        <name>BIBIT</name>
-      </respStmt>
-      <item>Codifica XML - Codifica con software</item>
-    </change>
-    <change>
-      <date>2004-05-27T00:00:00.000+02:00</date>
-      <respStmt>
-        <name>Carla Deiana</name>
-        <name>BIBIT</name>
-      </respStmt>
-      <item>Validazione</item>
-    </change>
-  </revisionDesc>
-</teiHeader>
-
-<text>
-<front>
-<castList>
-<head>Personaggi</head>
-
-<castItem><role>Un pastorello</role></castItem>
-<castItem><role>Un altro pastorello</role></castItem>
-<castItem><role>Una pastorella</role></castItem>
-<castItem><role>Danaino</role></castItem>
-<castItem><role>Una donna</role></castItem>
-<castItem><role>Telesilla</role></castItem>
-<castItem><role>Girone</role></castItem>
-<castItem><role>I° cacciatore</role></castItem>
-<castItem><role>II° cacciatore</role></castItem>
-</castList>
-</front>
-<body>
-<div1>
-<head>Parte 1</head>
-
-<sp><speaker>I PASTORE</speaker> <l>Spingiamo il gregge sotto a queste querce:</l>
-<l part="I">Ve' come piove?</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="M">Io no.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Mira d'incontro</l>
-<l part="I">A quelle piante.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Or sento l'acqua in viso.</l>
-<l>Presto al coperto; in là, che vi potreste</l>
-<l>Immollar tutte, e par che l'acqua ingrossi.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l>Oimè ch'ella n'ha colti in un momento.</l>
-<l>Se dura infino a notte, io non so come</l>
-<l>Ricondurrem le pecorelle a casa.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Non temer no, che 'l cielo è chiaro, e questo</l>
-<l part="I">Nuvoletto è legger.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Croscia pur, croscia</l>
-<l>Che 'l gregge avrà più fresca la pastura;</l>
-<l>E ben di piova al prato era bisogno.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Se ponente non s'alza, in poco d'ora</l>
-<l part="I">Torna il sereno.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Ecco già 'l nembo allenta.</l>
-<l part="I">Oh fu pur breve cosa.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Ei non potea</l>
-<l part="I">Fare altrimenti.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Ecco vien fuora il sole,</l>
-<l>E 'l canto de gli uccei si rinnovella:</l>
-<l>Pur sento a strepitar l'acqua nel fosso.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Via fuori a pascolar, che così fresco</l>
-<l>Fil d'erba non provaste assai gran tempo.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Vien qua, veggiam di qui chi prima coglie</l>
-<l part="I">D'un sasso in quel troncon.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Via togli un sasso,</l>
-<l part="I">E traggi.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Io trarrò poscia, e tu davanti.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Io no, se 'l colpo tuo prima non veggio.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="I">Ned io trarrò.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Ned io: tu che sfidasti</l>
-<l part="I">Dei gire innanzi.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Io ti sfidai, ma 'l patto</l>
-<l>È ch'i' non deggia trar se non da poi.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l>Date un sasso, io trarrò, ben ch'io non sappia.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Sta qui, tien questo, e tira. Oh oh, gli è gito</l>
-<l>A ritrovar le stelle, e 'l tronco è in terra.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="I">Io 'l dissi già ch'io non sapeva.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Io, io.</l>
-<l part="I">Guata. Oimè ch'io fallai.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Mel credea bene.</l>
-<l>Or vo che diate mente a questo tratto.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Deh lascia ch'io mi provi un'altra volta</l>
-<l part="I">S'io ci so cor.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Ti proverai dappresso</l>
-<l>Quant'avrai voglia; or è dover ch'io tragga.</l>
-<l part="I">Vedi tu? vedi?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Io saprò fare anch'io:</l>
-<l part="I">Lasciami il loco.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="F">Oimè, guardate indietro.</l>
-<l>Io veggio un cavaliero armato in sella.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Eh pazza, ell'è una pianta. Oimè ch'io temo</l>
-<l part="I">Che dica vero.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Io pure io pur lo scorgo.</l>
-<l part="I">Vien dritto inverso noi.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="M">Fuggiamo.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="F">Oh tristi</l>
-<l part="I">Oh persi noi.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Che fate? oh Dio, mi spiace</l>
-<l>Di queste pecorelle: io non ritrovo</l>
-<l>Che m'aggia a far: bisognerà ch'io fugga.</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <stage>(a cavallo)</stage> <l>Olà quel pastorel, fermati; un motto;</l>
-<l>Ascolta, dove corri? ascolta un poco,</l>
-<l part="I">Non mi fuggir.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Che vuoi? lasciami andare.</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l>Hai tanta fretta? o ch'io ti fo paura?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Forse che non me n'hanno a far quell'armi?</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l>Fa cor, vien qua, non dubitar, non fanno</l>
-<l part="I">Male a nessuno.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Or non vegg'io quell'asta</l>
-<l part="I">Insanguinata?</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l part="F">È sangue d'un nemico,</l>
-<l>Ch'ucciso ho poco lungi. A gl'inimici</l>
-<l>Questa lancia fa danno, a i pastorelli</l>
-<l>Non fa discortesia. Dimmi, non usi</l>
-<l part="I">Pascere in questo colle?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="M">Io sì.</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l part="F">Vedesti</l>
-<l part="I">Passare oggi verun?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="M">Veruno.</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l part="F">Omai</l>
-<l>Dunque avranno a passar di questo loco</l>
-<l>Un guerrier giovanetto ed una donna</l>
-<l>Andando a Maloalto. Abbi fidanza,</l>
-<l>Che l'una è mia consorte e l'altro amico,</l>
-<l>Non ti faranno oltraggio. In nome mio</l>
-<l>Dì lor che Danaino ha ritrovato</l>
-<l>L'un de' nemici, ed hallo ucciso; e l'altro</l>
-<l>È qui da presso, ed ei va per mandarlo</l>
-<l>Col suo compagno, e se gli verrà fatto</l>
-<l>Non avrà più cagion come credea</l>
-<l>Di più dimora, e tornerà domani</l>
-<l part="I">A Maloalto.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Come io gli abbia visti</l>
-<l part="I">Conterò loro il tutto.</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l part="F">Avrollo caro,</l>
-<l>E ti farò quel ben che tu vorrai</l>
-<l>S'accadrà ch'io ti veggia in Maloalto.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="I">Tu dunque se' di Maloalto?</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l part="F">Io sono</l>
-<l>Il signor del castello. Or tieni a mente</l>
-<l part="I">Quel che ti convien dire?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">A motto a motto.</l>
-</sp>
-<sp><speaker>DANAINO</speaker> <l part="I">Bene sta. Dio ti guardi.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="M">È gito?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">È gito.</l>
-<l>T'accosta, non temer, ch'ei non fa male</l>
-<l part="I">A i pastorelli.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Udito abbiam da lungi</l>
-<l>Tutto quanto e' dicea, ch'e' parlav'alto</l>
-<l>Però che anco tu stavi a udir da lungi.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Ben timor m'avea posto al primo tratto,</l>
-<l>Ma poscia ho preso core. Io non credea</l>
-<l>Che i cavalier parlassero a quel modo.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>In ver ch'a le parole ei rassomiglia</l>
-<l>A la gente che d'arme non si veste.</l>
-<l>Pur crudele è ne' fatti. Io non so come</l>
-<l>Uccidon le persone, e recan tanti</l>
-<l>Disastri in ogni loco, e niente manco</l>
-<l>Favellan come fosser de la gente,</l>
-<l>Come noi siam, che non fa danno altrui.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>S'avvien ch'io lo riveggia, io vo' far prova</l>
-<l>Di chiedergli qualcosa. Or guata come</l>
-<l>Tutte le pecorelle son disperse</l>
-<l>Per tema del cavallo e del guerriero.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Pon mente a quelle, io vo da questo lato.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="I">Bada a quella che fugge.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Al tutto vuolsi</l>
-<l part="I">Fiaccare il collo: io pur l'ho giunta.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Oh Dio,</l>
-<l>Quell'agnella s'è fitta entro la macchia.</l>
-<l>Or venganela a trar chi n'avrà modo.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Fa cor, ch'io la riveggio. Ecco vien fuora</l>
-<l>Da per se stessa, e tutte son raccolte.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l>U' u', che cosa è quel che va saltando?</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Un grillo, un grillo. Oh s'io lo ritrovassi,</l>
-<l>Che già pronta ho la gabbia è tanto tempo,</l>
-<l part="I">Nè mai n'ho colto un solo.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Aspetta aspetta,</l>
-<l>Ch'ei sta qui dentro. Cheti, ch'e' non fugga.</l>
-<l>Lasciate far: veggiamo a poco a poco.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="I">Dov'è ch'io nol ritrovo?</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="F">Io non lo veggio.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Forz'è ch'e' sia fuggito, io non so dove.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="I">Mi duol.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Non te ne caglia: agevolmente</l>
-<l>Ne troverem più che non brami. Oh guata:</l>
-<l>Un fungo, e quivi un altro: oh quanti funghi</l>
-<l>Usciti son per tutto appena han vista</l>
-<l>Quella poca di piova. Orsù coglianne,</l>
-<l>Che non ci fuggiran questi da gli occhi</l>
-<l part="I">Sì come il grillo.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Oh quanto è grosso e bianco</l>
-<l part="I">Questo ch'i' ho colto.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Io n'ho ben de' più belli.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="I">Dove son?</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="M">Vedi questo.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Io troveronne</l>
-<l part="I">Un che sia meglio.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="F">Ecco, io ne veggio, appresso</l>
-<l>A quella pianta, un micolin più dietro.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="I">Questa? è una foglia secca.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">E tu che badi?</l>
-<l>Che non vieni a cor funghi, e pieno è il prato.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l>Lasciatemi filar, ch'io non ho voglia</l>
-<l>Di gire al sol, però ch'annera il viso.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l>Dilicata, ei non ha forza nessuna</l>
-<l>Or ch'ei tramonta, e battemi ne gli occhi</l>
-<l>Senza danno. E ben puoi tenerti a l'ombra</l>
-<l part="I">Or ch'è sì lunga.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">Io vo' che tu riceva</l>
-<l>Nel grembial questi funghi, ond'ho già pieno</l>
-<l>Tutto il cappello, e non m'avanza loco.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="I">Versagli pur.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Lascia ch'io versi anch'io</l>
-<l part="I">Questi che ho colti.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="M">Orsù.</l>
-</sp>
-<sp><speaker>DONNA</speaker> <l part="F">Figliuoli miei.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Guata; questi son funghi: abbiamgli colti</l>
-<l>Tutti dopo la piova, e son assai</l>
-<l part="I">Come vedi.</l>
-</sp>
-<sp><speaker>DONNA</speaker> <l part="F">Io n'ho gusto. Io son venuta</l>
-<l>Per richiamarvi a casa, ch'egli è tempo</l>
-<l>Di ricondur la greggia al pecorile.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l>Io voleva aspettar che visto avessi</l>
-<l>Certi che qui vicino a passar hanno</l>
-<l>Andando a Maloalto: ed hollo inteso</l>
-<l>Da un cavalier che qui passava, e detto</l>
-<l>Hammi da ridir loro alcune cose.</l>
-</sp>
-<sp><speaker>DONNA</speaker> <l>Figliuol mio, l'ora è tarda, e già calato</l>
-<l>È 'l sol, nè più coloro oggi, cred'io,</l>
-<l>Saranno per passar di queste parti.</l>
-<l>Non si puote aspettar che faccia scuro</l>
-<l>In questi lochi, ov'è tanto spavento</l>
-<l>De' lupi che discendon su la sera,</l>
-<l>Nè sta sicuro il gregge se non chiuso</l>
-<l part="I">Come il sole è corcato.</l>
-</sp>
-<sp><speaker>I PASTORE</speaker> <l part="F">A me non cale</l>
-<l part="I">Del cavalier gran fatto.</l>
-</sp>
-<sp><speaker>PASTORELLA</speaker> <l part="F">Io questi funghi</l>
-<l part="I">Porterò.</l>
-</sp>
-<sp><speaker>DONNA</speaker> <l part="F">Voi mettetevi la greggia</l>
-<l part="I">Dinanzi.</l>
-</sp>
-<sp><speaker>II PASTORE</speaker> <l part="F">Or via, su, tosto, al pecorile.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Poniamci a riposar sopra quest'erba,</l>
-<l>Ch'ameno è 'l sito, e quinci a Maloalto</l>
-<l part="I">Non è gran tratto.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh come fanno scuro</l>
-<l>Queste piante, se bene anco non debbe</l>
-<l>Esser l'aria sì fosca, e l'orizzonte</l>
-<l>Debb'esser chiaro assai. Qui tutto quanto</l>
-<l>È solitario, e non si scopre il fumo</l>
-<l>Di nessuno abituro, e non si sente</l>
-<l>Altro suon che de' grilli e de le rane.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Fors'hai qualche temenza? Esser non puote</l>
-<l>Ch'altri ti faccia danno infin ch'io viva:</l>
-<l>E sai che non imbelle è questo braccio.</l>
-<l>Oh come oh come avventurato io fora</l>
-<l>Se ti cadessi innanzi esangue e bianco,</l>
-<l>E scoprendoti il petto e le ferite</l>
-<l>Dicessi, mira o Telesilla mia;</l>
-<l>Questo sangue è per te: questo ti diedi</l>
-<l>Questo sol ch'io potea, la vita e 'l sangue.</l>
-<l>Io fremo dal diletto ogni qual volta</l>
-<l part="I">Io mel figuro.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh non dir questo mai,</l>
-<l>Che mi si stringe il cor. Se tu morissi,</l>
-<l part="I">Allora io pur morrei.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Che vuol dir questo?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l>Ch'altro, se non ch'io vo' che tu sia vivo?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Mi vuoi tu soddisfar d'una dimanda?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Che c'è da dimandar?</l>
-</sp>
-<sp><speaker>GIRONE</speaker><l part="F"> Narrami il vero</l>
-<l>O Telesilla mia: forse tu m'ami?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Io t'amo?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">I' sapea ben ch'era un inganno.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Che inganno?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Io mi credea che tu m'amassi,</l>
-<l part="I">Pazzo ch'io fui.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="M">Deh perchè pazzo?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Al tutto</l>
-<l>Pazzo è chi crede quel ch'esser non puote.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Perchè non può? se tu sapessi.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Oh cara,</l>
-<l part="I">M'ami?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Deh taci oh Dio, che non ti senta</l>
-<l>Veruno, e Danain che nol risappia.</l>
-<l>Oimè. che cosa io dissi? io già non dissi</l>
-<l part="I">D'amarti, ch'ei non lice.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">O Telesilla,</l>
-<l>Io lo so bene. Ed io? forse ch'io posso</l>
-<l>Amarti? e Danain forse non m'ama?</l>
-<l>Ed io lui sopra quanto ebbi più caro</l>
-<l>Non amai sempre infin ch'io non ti vidi?</l>
-<l>Ma un'ombra veramente è quell'affetto</l>
-<l>Ch'io gli portava, e ch'io gli porto ancora,</l>
-<l>Appresso al tuo, che più ch'io ci ripenso,</l>
-<l>Più veggio ch'altro mai non proveronne</l>
-<l>Che gli somigli, e ch'ella è cosa nova</l>
-<l>Nè spiegar non si puote. Oh se vedessi</l>
-<l part="I">Questo mio core.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="M">E questo?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">O mia beltade,</l>
-<l>Quant'è che quest'affetto in sen ti nacque?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Gran tempo.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">E non ne desti alcun segnale?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l>Io mi credea d'averne dato assai,</l>
-<l>E temea che palese il tutto fosse,</l>
-<l>Anzi che tu 'l sapessi, e non per questo</l>
-<l part="I">Ti calesse di me.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Questo ti parse</l>
-<l>O poverella? Ed io come sovente</l>
-<l>Immaginando quel ch'era pur vero,</l>
-<l>Dissi, quest'è un inganno del desio.</l>
-<l>Quanti giorni passai molto più lieti</l>
-<l>Ch'io non so dir, credendomi aver visto</l>
-<l>Alcun segno di bene, e quanti neri,</l>
-<l>Stimandomi deluso. E quante notti</l>
-<l>Mi parve in sogno di veder sì chiaro</l>
-<l>Quel ch'io sperava, che in destarmi appena</l>
-<l>Creder potea che nulla io mi trovassi</l>
-<l>Cagion di consolarmi: ed una volta</l>
-<l>Ti vidi che prendendomi per mano</l>
-<l>E mirandomi in volto, mi dicevi,</l>
-<l>Caro Giron; poi misi un gran sospiro</l>
-<l>In isvegliarmi. Or chi saputo avesse</l>
-<l>Questo ch'or tu mi narri. E ben mi duole</l>
-<l>O cara, se provato hai quell'affanno</l>
-<l>Che travagliato m'ha per cagion tua:</l>
-<l>Perch'io so che l'ugual non si ritrova;</l>
-<l>Anzi non veggio pur come tu sia</l>
-<l part="I">Bastata a sopportarlo.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh me dolente:</l>
-<l>Sperimentato io l'ho più fera cosa</l>
-<l>Ch'io non credeva, e penso che tu fossi</l>
-<l>Per lagrimar s'io ti narrassi appunto</l>
-<l>Quel c'ho provato. E ancor che non sovviemmi</l>
-<l>Lieta quant'or mi trovo esser mai stata,</l>
-<l>Il core ho tuttavia così scomposto</l>
-<l>E cruciato ch'io mai non ho speranza</l>
-<l part="I">Di racquetarlo.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">O Telesilla mia,</l>
-<l>S'i' avessi questa mane avuto a scerre</l>
-<l>Intra 'l regno del mondo e l'amor tuo,</l>
-<l>Questo avrei scelto immantinente, e parso</l>
-<l>Mi saria cosa aver ch'io men de l'altra</l>
-<l>Sperar potessi. Ed or ch'io l'ho, non veggio</l>
-<l>Come non che si spegna in me l'angoscia,</l>
-<l>Ma cresca. O Telesilla, o gioia mia,</l>
-<l>Dunqu'è ver che tu m'ami? appena io credo</l>
-<l>Pur dopo tanto spazio esserne chiaro.</l>
-<l>Su via, guardami in volto, oh come tutta</l>
-<l part="I">Se' pallida e sudata.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oimè, non sei</l>
-<l>Tu pur lo stesso? oh che sembiante è questo</l>
-<l>Di spaurito anzi a morir vicino.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Deh chi sperato avria così da presso</l>
-<l>Già mai veder quest'occhi e queste labbra?</l>
-<l part="I">Noi siam qui soli?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="M">Il vedi.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">E certo è lungi</l>
-<l>Danaino, e farà lunga dimora?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Tel disse egli partendo.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">E l'ora è tarda,</l>
-<l>Nè più secreto loco ha ne' dintorni.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l>O mio Girone, io tremo tutta, e 'l fiato</l>
-<l part="I">Mi manca.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Io sudo freddo, e 'l cor mi batte</l>
-<l>Più forte che provato io non ho mai.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l>Deh chi n'ha posti insieme in questo loco</l>
-<l part="I">E in questo tempo?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">In ver che 'l tutto ad arte</l>
-<l>Par fatto, e non a caso, e non darassi</l>
-<l>A noi tal congiuntura un'altra volta</l>
-<l part="I">Fin che vivremo.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh Dio, taci: non pensi</l>
-<l>Che noi bramiamo alfin quel che non lice?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Tu parli ver, ma certo io sono al tutto</l>
-<l part="I">Fuori del senno.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="M">Oh Danain.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Deh come</l>
-<l>Potrò far ch'io t'offenda amico mio,</l>
-<l>Che amato ho infino ad or più che fratello?</l>
-<l>E tu del par m'amasti e m'ami oh quanto,</l>
-<l>Ed or non hai di me verun sospetto,</l>
-<l>E s'io fossi in periglio, e non restasse</l>
-<l>Altra via di salvarmi, a cagion mia</l>
-<l>Daresti volentier l'anima e 'l sangue.</l>
-<l>Io fra tanto son qui per farti scorno</l>
-<l>E tradimento, e ciò perch'a me solo</l>
-<l>Quel ch'altrui non faresti hai confidato.</l>
-<l>Non temer, non sarà, pria mi vo' torre</l>
-<l part="I">Con questa man la vita.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh non foss'egli</l>
-<l part="I">Partito mai.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Deh così fosse; ch'io;</l>
-<l>Mi sento preso e strascinato in modo</l>
-<l>Come se far contrasto io non potessi;</l>
-<l>E parmi che nel cor sempre la spina</l>
-<l>Avrò di questa occasion perduta,</l>
-<l>E che s'io non farò quello ch'io bramo,</l>
-<l>Già mai dal pentimento e dal desio</l>
-<l part="I">Non avrò pace.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oimè, dunqu'or nessuna</l>
-<l>Difficoltà ci vieta il desir nostro?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="I">Ben ch'io cerchi, nessuna.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh tristi noi.</l>
-<l part="I">Ma divulgar mai non potrassi?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">E come?</l>
-<l>Se non ci vede o sente anima viva.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="I">Nè pentiremci poi?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">Non so, ma parmi</l>
-<l>Che quando io l'abbia fatto, acqueterommi.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l>Io tutta abbrividisco, e le ginocchia</l>
-<l>Mi sento sciorre, ed ogni cosa al guardo</l>
-<l>Mi traballa: io son presso a venir manco.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <stage>(levato in piedi)</stage>
-<l>Oh cielo oh cielo, a questa colpa quale</l>
-<l>Necessità ci stringe? e perchè tanto</l>
-<l>Affanno se 'l fuggirla è in nostra mano?</l>
-<l part="I">Certo che noi siam folli.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh mio Girone.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Io nol vo' far già mai; pur quand'io voglia,</l>
-<l part="I">Farollo un'altra volta.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Un'altra volta,</l>
-<l part="I">Non ora.</l>
-</sp>
-<sp><speaker>GIRONE</speaker><l part="F"> Io veggio ben che ci conviene</l>
-<l>Deliberarci adesso, e che già mai</l>
-<l>Non tornerà l'occasion ch'a questa</l>
-<l>S'agguagli. Ma che cosa è quel ch'io penso?</l>
-<l>Telesilla, finor questi pensieri</l>
-<l>E questi detti fur da gioco? o stolti</l>
-<l>Siam fatti in un momento? Io di me stesso</l>
-<l>Mi maraviglio e mi vergogno. In somma</l>
-<l>Io di peccare intendo? io farò scorno</l>
-<l>Al caro amico mio? che cosa è questo</l>
-<l>Deliberar? si scorda in un momento</l>
-<l>La virtù che s'è culta infino ad ora?</l>
-<l>Non parmi ver ch'io l'abbia unqua da senno</l>
-<l>Pensato e detto. O Telesilla, questi</l>
-<l>Disegni son follie, poniam da canto</l>
-<l>Ogni pensier di questi fatti: ad altro</l>
-<l part="I">Volgiamo il favellar.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker><l part="F"> Tu ben ragioni.</l>
-<l>Io sento al petto rallargar la chiusa,</l>
-<l>E la foga del cor s'allenta: io provo</l>
-<l part="I">Alquanto di conforto.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <stage>(assiso)</stage> <l part="F">Io vo' che 'l dove</l>
-<l>E 'l perchè tu mi narri e 'l quando accesa</l>
-<l part="I">Di me ti fosti.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Il giorno ch'io ti vidi</l>
-<l>Nel castel de le Suore al torniamento,</l>
-<l>E festi prove sì stupende, e a tanti</l>
-<l>Perigli ti gittasti. Allor mi prese</l>
-<l>Di te gran maraviglia, e di coraggio</l>
-<l>E di valor sì grande, e un'infinita</l>
-<l>Pietà di que' travagli e di que' rischi,</l>
-<l>A' quali avrei voluto essere io stessa</l>
-<l>Con te; nè mai vivendo altra sì dolce</l>
-<l>Tenerezza sentii come quel giorno,</l>
-<l>Massimamente allor che insanguinato</l>
-<l>D'un gran colpo ti vidi il braccio manco.</l>
-<l>E la sera di poi che ritornasti</l>
-<l>Vittorioso, e che di farti onore</l>
-<l>Ognun si dava affanno, io rimirando</l>
-<l>Ti stetti con vivissimo desio</l>
-<l>Di parlarti e lodarti, e narrar quanta</l>
-<l>Di te misericordia e maraviglia</l>
-<l>M'avessi posta in cor: ma non ti seppi</l>
-<l>Dir se non pochi motti, e rozzi poscia</l>
-<l>Mi parver sopra modo, e tu lor nulla</l>
-<l>Badar m'eri sembrato, onde un immenso</l>
-<l>Dolor sostenni. E da quel dì mi fosti</l>
-<l>Sempre a cor, nè di te la notte o 'l giorno</l>
-<l>Pensier mi venne mai senza travaglio.</l>
-<l>E ancor non m'avvedea che fosse amore;</l>
-<l part="I">Nè me n'avvidi altro che tardi.</l>
-</sp>
-<sp><speaker>GIRONE</speaker><l part="F"> O mia</l>
-<l>Povera Telesilla, or vedi come</l>
-<l>Ne celava il destin quel che sì dolce</l>
-<l>Fora stato a saperlo. Io quanto oprai</l>
-<l>Quel dì, per te l'oprai, nè cosa alcuna</l>
-<l>Ebbi tuttora in mente, altro che quindi</l>
-<l>Aver tu mi dovessi in qualche pregio,</l>
-<l>E que' sudori e que' perigli estremi</l>
-<l>E quel mio sangue ti movesse alquanta</l>
-<l>Compassion di me; tal che s'io fossi</l>
-<l>A la presenza tua caduto e morto,</l>
-<l>Mi fora stato caro, avendo speme</l>
-<l>Che tu dicessi, oh come se n'è ito</l>
-<l>Oggi quel meschinello. E rivolgendo</l>
-<l>Di sotto la visiera ogni momento</l>
-<l>Il guardo a la finestra ove ti stavi,</l>
-<l>Quand'eri attesa a rimirarmi, in tutto,</l>
-<l>Quasi rinnovellata la persona,</l>
-<l>Il travaglio e l'angoscia io mi scordava,</l>
-<l>E crescendo la forza e l'ardimento</l>
-<l>Dicea, forse or colei si maraviglia;</l>
-<l>Qui certo ella dirà, com'egli è prode!</l>
-<l>Chi sa che in riguardarmi un qualche affetto</l>
-<l>Non la tocchi? E due volte o tre ch'io t'ebbi</l>
-<l>Vista batter le mani, io non sapeva</l>
-<l>Nel tornear quel ch'i' facessi, e penso</l>
-<l>Ch'ognun se n'ammirasse. Or quando altrove</l>
-<l>Eri intenta, io diceva, oh scioccherello:</l>
-<l>Per sollazzarsi, e non perchè la sproni</l>
-<l>Il core, ella ti guarda, in quella forma</l>
-<l>Che tutte l'altre fanno, e so ben ch'ella</l>
-<l>Di te pensa così come di tutti</l>
-<l>Questi altri cavalier, che a rimirarli</l>
-<l>Piglia trastullo, e non di te, ma solo</l>
-<l>Del torniamento ha cura e de la festa.</l>
-<l>Ma tu perch'or non senti altro che amore</l>
-<l>Credi che quel che pensi ognun lo pensi,</l>
-<l>E che d'affetto si consumi: e in questa</l>
-<l>Dentro a la folta disperatamente</l>
-<l>Mi gittava, e cercando a più potere</l>
-<l>Che qualche lancia mi passasse il petto,</l>
-<l>Da i plausi de la gente e da le grida</l>
-<l>Eri mossa di novo a riguardarmi.</l>
-<l>Così t'amava e t'amo, ed amerotti</l>
-<l>Sempre fin ch'i' sia morto. Anima mia,</l>
-<l>Quando i' sarò lontano, e fra disagi</l>
-<l>E fra perigli sempiterni, e 'l mio</l>
-<l>Cordoglio struggerammi, avrai tu nullo</l>
-<l part="I">Pensier di questo sfortunato?</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh mai</l>
-<l>Non favellar così. Ma forse in breve</l>
-<l part="I">Se' per lasciarmi?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">È forza, e immantinente</l>
-<l>Come t'ho ricondotta a Maloalto.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker><l part="I"> Oimè, dunque sì tosto?</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l part="F">O cara, al pianto</l>
-<l>Siam prodotti ambedue. Non ci vedremo</l>
-<l>Forse mai più: ben cosa certa è questa</l>
-<l>Che 'l dolor nostro non avrà mai fine,</l>
-<l>E che non troverem di questa sorta</l>
-<l>Un'altra occasion. Parea che 'l fato</l>
-<l>N'avesse qui congiunti a bella posta.</l>
-<l>Certo che mille volte io pentirommi</l>
-<l>Rimaso vòto il mio desire, e molto</l>
-<l>Più caldo, e perch'io volli, e questa cara</l>
-<l>Tua faccia, e questo sen lasciati avendo;</l>
-<l part="I">Questi, dich'io.</l>
-<stage>(Levato in piedi)</stage> <l part="M">Dammi la man.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Girone.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <l>Dammi la mano. O Telesilla, oh quanto</l>
-<l part="I">Se' bella.</l>
-</sp>
-<sp><speaker>TELESILLA</speaker> <l part="F">Oh caro oh caro: io più non veggio.</l></sp>
-</div1>
-<div1>
-<head>Parte 2</head>
-
-<sp><speaker>I CACCIATORE</speaker> <l>Io sento urlare i lupi, e s'io non fallo</l>
-<l>Non denno esser da lungi. Andiam più ratti</l>
-<l>E in più silenzio che si possa. Or bada</l>
-<l>Quanto più sai, che ne l'andar non faccia</l>
-<l>Crosciar le foglie e i rami: io vo' vedere</l>
-<l>Di corgli a l'improvviso in questo scuro:</l>
-<l>Ma tu cheta quel can che non abbai.</l>
-<l>Certo la luna è sotto, e quant'io veggio,</l>
-<l>Poco tempo n'avanza, ed è ben presso</l>
-<l part="I">Al giorno.</l>
-</sp>
-<sp><speaker>II CACCIATORE</speaker> <l part="F">Aspetta un poco: ei non s'arriva</l>
-<l>Da questo colle a discoprire un tratto</l>
-<l>De l'orizzonte. Io vo' cercar di quelle</l>
-<l>Due piante che dan loco infra' due tronchi.</l>
-<l>Stimo che sien colà dove 'l sentiero</l>
-<l>Mette un barlume: io non ho preso abbaglio:</l>
-<l>Già la marina è chiara, e la diana</l>
-<l part="I">È già levata.</l>
-</sp>
-<sp><speaker>I CACCIATORE</speaker> <l part="F">Orsù non ci conviene</l>
-<l>Punto indugiar, che starà poco il sole.</l>
-<l>Prendiam la via che mena al pecorile</l>
-<l>Qui presso, ove dintorno han per costume</l>
-<l>I lupi tutta notte andar vagando,</l>
-<l>E quest'urla ch'io sento anco mi pare</l>
-<l>Che vengan da quel lato e udir mi penso</l>
-<l>A latrar i mastini. Abbi riguardo</l>
-<l>A l'armi che non dien luce nè suono.</l>
-</sp>
-<sp><speaker>GIRONE</speaker> <stage>(dietro alle piante)</stage>
-<l>Chi è? chi sei? che voce è questa? Alcuno</l>
-<l>È passato qui presso, o ch'ingannato</l>
-<l>Io mi son forse in isvegliarmi: io deggio</l>
-<l>Aver dormito. Oh tristo me: che feci?</l>
-<l>Che feci? <stage>(Uscito fuori)</stage> Io tutto quanto inorridisco.</l>
-<l>Dunque fu vero infine? ed io peccai?</l>
-<l>Misero me fu ver? Ma come avvenne,</l>
-<l>Come a tal mi condussi? Oh sventurato</l>
-<l>Ch'io sono; oh fossi stato anzi quel punto</l>
-<l>Schiacciato e stritolato: ogni altro affanno</l>
-<l>È meno assai che 'l nulla a petto a questo.</l>
-<l>Ma perchè 'l feci mai? per un diletto</l>
-<l>Schifoso ch'a pensarne io mi vergogno?</l>
-<l>Un dolor come questo? e mi pareva,</l>
-<l>Stoltissimo ch'io fui, che senza quello</l>
-<l>Non avrei pace, quando or mi ritrovo</l>
-<l>In un'angoscia tal ch'io non provai</l>
-<l>La somigliante: e in mio poter fu posto</l>
-<l>Ch'io la schivassi, e ch'or ne fossi immune.</l>
-</sp>
-</div1>
-<div1>
-<head>ABBOZZO DEL SEGUITO DELLA TELESILLA</head>
-
-	<p>Telesilla uscendo di mezzo alle piante. Oh me lassa oh me lassa. Oh ciel, ma dove È Giron? mi lasciò? Girone. G. Il vedi. T. Abbandonata io mi credeva. G. Insieme Seguiremo il cammin quando ti piace. T. A Maloalto? G. A Maloalto. T. Oh cielo. G. Riman se più t'aggrada, a la ma stanza Ricondurti io voleva, a me conviene Prender tosto altra via. T. Sorgi, ti seguo A Maloalto. Partono. Il primo Pastor. dietro alle piante. Allor quando si desta Il gallo e batte l'ali ec. E quando esce dal nido La rondinella e va per la campagna. (qualche bella idea del mattino come quella del disegno a penna di mio padre, o della favola del cacciatore dai tre cani) Allora anch'io mi desto ec. E vo le pecorelle a trar dal chiuso, E meno per ombrose ed erme vie A pascolar le pecorelle mie. Poi senza canto. Oh che bel cielo è questo, E che bel giorno. Al fresco o pecorelle. Poi un'altra canzone d'altro metro e materia. Danaino ec. come altrove. Telesilla fuggente. Gir
+        </hyphenation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDD">
+          <bibl>Classificazione Decimale Dewey</bibl>
+        </taxonomy>
+        <taxonomy xml:id="CGB">
+          <bibl>Classificazione generi BibIt</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>800</date>
+      </creation>
+      <langUsage>
+        <language ident="ita">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#CDD">
+          <term>858.7 - MISCELLANEA ITALIANA. 1814-1859</term>
+        </keywords>
+        <keywords scheme="#CGB">
+          <term>Letteratura teatrale</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LEXIS</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LEXIS</name>Correzione linguistica</change>
+      <change><date>2004-05-17T00:00:00.000+02:00</date><name>Elena Chiodi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2004-05-27T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>Personaggi</head>
+        <castItem>
+          <role>Un pastorello</role>
+        </castItem>
+        <castItem>
+          <role>Un altro pastorello</role>
+        </castItem>
+        <castItem>
+          <role>Una pastorella</role>
+        </castItem>
+        <castItem>
+          <role>Danaino</role>
+        </castItem>
+        <castItem>
+          <role>Una donna</role>
+        </castItem>
+        <castItem>
+          <role>Telesilla</role>
+        </castItem>
+        <castItem>
+          <role>Girone</role>
+        </castItem>
+        <castItem>
+          <role>I° cacciatore</role>
+        </castItem>
+        <castItem>
+          <role>II° cacciatore</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div1>
+        <head>Parte 1</head>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Spingiamo il gregge sotto a queste querce:</l>
+          <l part="I">Ve' come piove?</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="M">Io no.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Mira d'incontro</l>
+          <l part="I">A quelle piante.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Or sento l'acqua in viso.</l>
+          <l>Presto al coperto; in là, che vi potreste</l>
+          <l>Immollar tutte, e par che l'acqua ingrossi.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l>Oimè ch'ella n'ha colti in un momento.</l>
+          <l>Se dura infino a notte, io non so come</l>
+          <l>Ricondurrem le pecorelle a casa.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Non temer no, che 'l cielo è chiaro, e questo</l>
+          <l part="I">Nuvoletto è legger.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Croscia pur, croscia</l>
+          <l>Che 'l gregge avrà più fresca la pastura;</l>
+          <l>E ben di piova al prato era bisogno.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Se ponente non s'alza, in poco d'ora</l>
+          <l part="I">Torna il sereno.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Ecco già 'l nembo allenta.</l>
+          <l part="I">Oh fu pur breve cosa.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Ei non potea</l>
+          <l part="I">Fare altrimenti.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Ecco vien fuora il sole,</l>
+          <l>E 'l canto de gli uccei si rinnovella:</l>
+          <l>Pur sento a strepitar l'acqua nel fosso.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Via fuori a pascolar, che così fresco</l>
+          <l>Fil d'erba non provaste assai gran tempo.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Vien qua, veggiam di qui chi prima coglie</l>
+          <l part="I">D'un sasso in quel troncon.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Via togli un sasso,</l>
+          <l part="I">E traggi.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Io trarrò poscia, e tu davanti.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Io no, se 'l colpo tuo prima non veggio.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="I">Ned io trarrò.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Ned io: tu che sfidasti</l>
+          <l part="I">Dei gire innanzi.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Io ti sfidai, ma 'l patto</l>
+          <l>È ch'i' non deggia trar se non da poi.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l>Date un sasso, io trarrò, ben ch'io non sappia.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Sta qui, tien questo, e tira. Oh oh, gli è gito</l>
+          <l>A ritrovar le stelle, e 'l tronco è in terra.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="I">Io 'l dissi già ch'io non sapeva.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Io, io.</l>
+          <l part="I">Guata. Oimè ch'io fallai.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Mel credea bene.</l>
+          <l>Or vo che diate mente a questo tratto.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Deh lascia ch'io mi provi un'altra volta</l>
+          <l part="I">S'io ci so cor.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Ti proverai dappresso</l>
+          <l>Quant'avrai voglia; or è dover ch'io tragga.</l>
+          <l part="I">Vedi tu? vedi?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Io saprò fare anch'io:</l>
+          <l part="I">Lasciami il loco.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="F">Oimè, guardate indietro.</l>
+          <l>Io veggio un cavaliero armato in sella.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Eh pazza, ell'è una pianta. Oimè ch'io temo</l>
+          <l part="I">Che dica vero.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Io pure io pur lo scorgo.</l>
+          <l part="I">Vien dritto inverso noi.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="M">Fuggiamo.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="F">Oh tristi</l>
+          <l part="I">Oh persi noi.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Che fate? oh Dio, mi spiace</l>
+          <l>Di queste pecorelle: io non ritrovo</l>
+          <l>Che m'aggia a far: bisognerà ch'io fugga.</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <stage>(a cavallo)</stage>
+          <l>Olà quel pastorel, fermati; un motto;</l>
+          <l>Ascolta, dove corri? ascolta un poco,</l>
+          <l part="I">Non mi fuggir.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Che vuoi? lasciami andare.</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l>Hai tanta fretta? o ch'io ti fo paura?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Forse che non me n'hanno a far quell'armi?</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l>Fa cor, vien qua, non dubitar, non fanno</l>
+          <l part="I">Male a nessuno.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Or non vegg'io quell'asta</l>
+          <l part="I">Insanguinata?</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l part="F">È sangue d'un nemico,</l>
+          <l>Ch'ucciso ho poco lungi. A gl'inimici</l>
+          <l>Questa lancia fa danno, a i pastorelli</l>
+          <l>Non fa discortesia. Dimmi, non usi</l>
+          <l part="I">Pascere in questo colle?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="M">Io sì.</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l part="F">Vedesti</l>
+          <l part="I">Passare oggi verun?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="M">Veruno.</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l part="F">Omai</l>
+          <l>Dunque avranno a passar di questo loco</l>
+          <l>Un guerrier giovanetto ed una donna</l>
+          <l>Andando a Maloalto. Abbi fidanza,</l>
+          <l>Che l'una è mia consorte e l'altro amico,</l>
+          <l>Non ti faranno oltraggio. In nome mio</l>
+          <l>Dì lor che Danaino ha ritrovato</l>
+          <l>L'un de' nemici, ed hallo ucciso; e l'altro</l>
+          <l>È qui da presso, ed ei va per mandarlo</l>
+          <l>Col suo compagno, e se gli verrà fatto</l>
+          <l>Non avrà più cagion come credea</l>
+          <l>Di più dimora, e tornerà domani</l>
+          <l part="I">A Maloalto.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Come io gli abbia visti</l>
+          <l part="I">Conterò loro il tutto.</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l part="F">Avrollo caro,</l>
+          <l>E ti farò quel ben che tu vorrai</l>
+          <l>S'accadrà ch'io ti veggia in Maloalto.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="I">Tu dunque se' di Maloalto?</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l part="F">Io sono</l>
+          <l>Il signor del castello. Or tieni a mente</l>
+          <l part="I">Quel che ti convien dire?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">A motto a motto.</l>
+        </sp>
+        <sp>
+          <speaker>DANAINO</speaker>
+          <l part="I">Bene sta. Dio ti guardi.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="M">È gito?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">È gito.</l>
+          <l>T'accosta, non temer, ch'ei non fa male</l>
+          <l part="I">A i pastorelli.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Udito abbiam da lungi</l>
+          <l>Tutto quanto e' dicea, ch'e' parlav'alto</l>
+          <l>Però che anco tu stavi a udir da lungi.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Ben timor m'avea posto al primo tratto,</l>
+          <l>Ma poscia ho preso core. Io non credea</l>
+          <l>Che i cavalier parlassero a quel modo.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>In ver ch'a le parole ei rassomiglia</l>
+          <l>A la gente che d'arme non si veste.</l>
+          <l>Pur crudele è ne' fatti. Io non so come</l>
+          <l>Uccidon le persone, e recan tanti</l>
+          <l>Disastri in ogni loco, e niente manco</l>
+          <l>Favellan come fosser de la gente,</l>
+          <l>Come noi siam, che non fa danno altrui.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>S'avvien ch'io lo riveggia, io vo' far prova</l>
+          <l>Di chiedergli qualcosa. Or guata come</l>
+          <l>Tutte le pecorelle son disperse</l>
+          <l>Per tema del cavallo e del guerriero.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Pon mente a quelle, io vo da questo lato.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="I">Bada a quella che fugge.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Al tutto vuolsi</l>
+          <l part="I">Fiaccare il collo: io pur l'ho giunta.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Oh Dio,</l>
+          <l>Quell'agnella s'è fitta entro la macchia.</l>
+          <l>Or venganela a trar chi n'avrà modo.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Fa cor, ch'io la riveggio. Ecco vien fuora</l>
+          <l>Da per se stessa, e tutte son raccolte.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l>U' u', che cosa è quel che va saltando?</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Un grillo, un grillo. Oh s'io lo ritrovassi,</l>
+          <l>Che già pronta ho la gabbia è tanto tempo,</l>
+          <l part="I">Nè mai n'ho colto un solo.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Aspetta aspetta,</l>
+          <l>Ch'ei sta qui dentro. Cheti, ch'e' non fugga.</l>
+          <l>Lasciate far: veggiamo a poco a poco.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="I">Dov'è ch'io nol ritrovo?</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="F">Io non lo veggio.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Forz'è ch'e' sia fuggito, io non so dove.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="I">Mi duol.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Non te ne caglia: agevolmente</l>
+          <l>Ne troverem più che non brami. Oh guata:</l>
+          <l>Un fungo, e quivi un altro: oh quanti funghi</l>
+          <l>Usciti son per tutto appena han vista</l>
+          <l>Quella poca di piova. Orsù coglianne,</l>
+          <l>Che non ci fuggiran questi da gli occhi</l>
+          <l part="I">Sì come il grillo.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Oh quanto è grosso e bianco</l>
+          <l part="I">Questo ch'i' ho colto.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Io n'ho ben de' più belli.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="I">Dove son?</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="M">Vedi questo.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Io troveronne</l>
+          <l part="I">Un che sia meglio.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="F">Ecco, io ne veggio, appresso</l>
+          <l>A quella pianta, un micolin più dietro.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="I">Questa? è una foglia secca.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">E tu che badi?</l>
+          <l>Che non vieni a cor funghi, e pieno è il prato.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l>Lasciatemi filar, ch'io non ho voglia</l>
+          <l>Di gire al sol, però ch'annera il viso.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l>Dilicata, ei non ha forza nessuna</l>
+          <l>Or ch'ei tramonta, e battemi ne gli occhi</l>
+          <l>Senza danno. E ben puoi tenerti a l'ombra</l>
+          <l part="I">Or ch'è sì lunga.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">Io vo' che tu riceva</l>
+          <l>Nel grembial questi funghi, ond'ho già pieno</l>
+          <l>Tutto il cappello, e non m'avanza loco.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="I">Versagli pur.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Lascia ch'io versi anch'io</l>
+          <l part="I">Questi che ho colti.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="M">Orsù.</l>
+        </sp>
+        <sp>
+          <speaker>DONNA</speaker>
+          <l part="F">Figliuoli miei.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Guata; questi son funghi: abbiamgli colti</l>
+          <l>Tutti dopo la piova, e son assai</l>
+          <l part="I">Come vedi.</l>
+        </sp>
+        <sp>
+          <speaker>DONNA</speaker>
+          <l part="F">Io n'ho gusto. Io son venuta</l>
+          <l>Per richiamarvi a casa, ch'egli è tempo</l>
+          <l>Di ricondur la greggia al pecorile.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l>Io voleva aspettar che visto avessi</l>
+          <l>Certi che qui vicino a passar hanno</l>
+          <l>Andando a Maloalto: ed hollo inteso</l>
+          <l>Da un cavalier che qui passava, e detto</l>
+          <l>Hammi da ridir loro alcune cose.</l>
+        </sp>
+        <sp>
+          <speaker>DONNA</speaker>
+          <l>Figliuol mio, l'ora è tarda, e già calato</l>
+          <l>È 'l sol, nè più coloro oggi, cred'io,</l>
+          <l>Saranno per passar di queste parti.</l>
+          <l>Non si puote aspettar che faccia scuro</l>
+          <l>In questi lochi, ov'è tanto spavento</l>
+          <l>De' lupi che discendon su la sera,</l>
+          <l>Nè sta sicuro il gregge se non chiuso</l>
+          <l part="I">Come il sole è corcato.</l>
+        </sp>
+        <sp>
+          <speaker>I PASTORE</speaker>
+          <l part="F">A me non cale</l>
+          <l part="I">Del cavalier gran fatto.</l>
+        </sp>
+        <sp>
+          <speaker>PASTORELLA</speaker>
+          <l part="F">Io questi funghi</l>
+          <l part="I">Porterò.</l>
+        </sp>
+        <sp>
+          <speaker>DONNA</speaker>
+          <l part="F">Voi mettetevi la greggia</l>
+          <l part="I">Dinanzi.</l>
+        </sp>
+        <sp>
+          <speaker>II PASTORE</speaker>
+          <l part="F">Or via, su, tosto, al pecorile.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Poniamci a riposar sopra quest'erba,</l>
+          <l>Ch'ameno è 'l sito, e quinci a Maloalto</l>
+          <l part="I">Non è gran tratto.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh come fanno scuro</l>
+          <l>Queste piante, se bene anco non debbe</l>
+          <l>Esser l'aria sì fosca, e l'orizzonte</l>
+          <l>Debb'esser chiaro assai. Qui tutto quanto</l>
+          <l>È solitario, e non si scopre il fumo</l>
+          <l>Di nessuno abituro, e non si sente</l>
+          <l>Altro suon che de' grilli e de le rane.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Fors'hai qualche temenza? Esser non puote</l>
+          <l>Ch'altri ti faccia danno infin ch'io viva:</l>
+          <l>E sai che non imbelle è questo braccio.</l>
+          <l>Oh come oh come avventurato io fora</l>
+          <l>Se ti cadessi innanzi esangue e bianco,</l>
+          <l>E scoprendoti il petto e le ferite</l>
+          <l>Dicessi, mira o Telesilla mia;</l>
+          <l>Questo sangue è per te: questo ti diedi</l>
+          <l>Questo sol ch'io potea, la vita e 'l sangue.</l>
+          <l>Io fremo dal diletto ogni qual volta</l>
+          <l part="I">Io mel figuro.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh non dir questo mai,</l>
+          <l>Che mi si stringe il cor. Se tu morissi,</l>
+          <l part="I">Allora io pur morrei.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Che vuol dir questo?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l>Ch'altro, se non ch'io vo' che tu sia vivo?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Mi vuoi tu soddisfar d'una dimanda?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Che c'è da dimandar?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F"> Narrami il vero</l>
+          <l>O Telesilla mia: forse tu m'ami?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Io t'amo?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">I' sapea ben ch'era un inganno.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Che inganno?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Io mi credea che tu m'amassi,</l>
+          <l part="I">Pazzo ch'io fui.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="M">Deh perchè pazzo?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Al tutto</l>
+          <l>Pazzo è chi crede quel ch'esser non puote.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Perchè non può? se tu sapessi.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Oh cara,</l>
+          <l part="I">M'ami?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Deh taci oh Dio, che non ti senta</l>
+          <l>Veruno, e Danain che nol risappia.</l>
+          <l>Oimè. che cosa io dissi? io già non dissi</l>
+          <l part="I">D'amarti, ch'ei non lice.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">O Telesilla,</l>
+          <l>Io lo so bene. Ed io? forse ch'io posso</l>
+          <l>Amarti? e Danain forse non m'ama?</l>
+          <l>Ed io lui sopra quanto ebbi più caro</l>
+          <l>Non amai sempre infin ch'io non ti vidi?</l>
+          <l>Ma un'ombra veramente è quell'affetto</l>
+          <l>Ch'io gli portava, e ch'io gli porto ancora,</l>
+          <l>Appresso al tuo, che più ch'io ci ripenso,</l>
+          <l>Più veggio ch'altro mai non proveronne</l>
+          <l>Che gli somigli, e ch'ella è cosa nova</l>
+          <l>Nè spiegar non si puote. Oh se vedessi</l>
+          <l part="I">Questo mio core.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="M">E questo?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">O mia beltade,</l>
+          <l>Quant'è che quest'affetto in sen ti nacque?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Gran tempo.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">E non ne desti alcun segnale?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l>Io mi credea d'averne dato assai,</l>
+          <l>E temea che palese il tutto fosse,</l>
+          <l>Anzi che tu 'l sapessi, e non per questo</l>
+          <l part="I">Ti calesse di me.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Questo ti parse</l>
+          <l>O poverella? Ed io come sovente</l>
+          <l>Immaginando quel ch'era pur vero,</l>
+          <l>Dissi, quest'è un inganno del desio.</l>
+          <l>Quanti giorni passai molto più lieti</l>
+          <l>Ch'io non so dir, credendomi aver visto</l>
+          <l>Alcun segno di bene, e quanti neri,</l>
+          <l>Stimandomi deluso. E quante notti</l>
+          <l>Mi parve in sogno di veder sì chiaro</l>
+          <l>Quel ch'io sperava, che in destarmi appena</l>
+          <l>Creder potea che nulla io mi trovassi</l>
+          <l>Cagion di consolarmi: ed una volta</l>
+          <l>Ti vidi che prendendomi per mano</l>
+          <l>E mirandomi in volto, mi dicevi,</l>
+          <l>Caro Giron; poi misi un gran sospiro</l>
+          <l>In isvegliarmi. Or chi saputo avesse</l>
+          <l>Questo ch'or tu mi narri. E ben mi duole</l>
+          <l>O cara, se provato hai quell'affanno</l>
+          <l>Che travagliato m'ha per cagion tua:</l>
+          <l>Perch'io so che l'ugual non si ritrova;</l>
+          <l>Anzi non veggio pur come tu sia</l>
+          <l part="I">Bastata a sopportarlo.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh me dolente:</l>
+          <l>Sperimentato io l'ho più fera cosa</l>
+          <l>Ch'io non credeva, e penso che tu fossi</l>
+          <l>Per lagrimar s'io ti narrassi appunto</l>
+          <l>Quel c'ho provato. E ancor che non sovviemmi</l>
+          <l>Lieta quant'or mi trovo esser mai stata,</l>
+          <l>Il core ho tuttavia così scomposto</l>
+          <l>E cruciato ch'io mai non ho speranza</l>
+          <l part="I">Di racquetarlo.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">O Telesilla mia,</l>
+          <l>S'i' avessi questa mane avuto a scerre</l>
+          <l>Intra 'l regno del mondo e l'amor tuo,</l>
+          <l>Questo avrei scelto immantinente, e parso</l>
+          <l>Mi saria cosa aver ch'io men de l'altra</l>
+          <l>Sperar potessi. Ed or ch'io l'ho, non veggio</l>
+          <l>Come non che si spegna in me l'angoscia,</l>
+          <l>Ma cresca. O Telesilla, o gioia mia,</l>
+          <l>Dunqu'è ver che tu m'ami? appena io credo</l>
+          <l>Pur dopo tanto spazio esserne chiaro.</l>
+          <l>Su via, guardami in volto, oh come tutta</l>
+          <l part="I">Se' pallida e sudata.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oimè, non sei</l>
+          <l>Tu pur lo stesso? oh che sembiante è questo</l>
+          <l>Di spaurito anzi a morir vicino.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Deh chi sperato avria così da presso</l>
+          <l>Già mai veder quest'occhi e queste labbra?</l>
+          <l part="I">Noi siam qui soli?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="M">Il vedi.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">E certo è lungi</l>
+          <l>Danaino, e farà lunga dimora?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Tel disse egli partendo.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">E l'ora è tarda,</l>
+          <l>Nè più secreto loco ha ne' dintorni.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l>O mio Girone, io tremo tutta, e 'l fiato</l>
+          <l part="I">Mi manca.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Io sudo freddo, e 'l cor mi batte</l>
+          <l>Più forte che provato io non ho mai.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l>Deh chi n'ha posti insieme in questo loco</l>
+          <l part="I">E in questo tempo?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">In ver che 'l tutto ad arte</l>
+          <l>Par fatto, e non a caso, e non darassi</l>
+          <l>A noi tal congiuntura un'altra volta</l>
+          <l part="I">Fin che vivremo.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh Dio, taci: non pensi</l>
+          <l>Che noi bramiamo alfin quel che non lice?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Tu parli ver, ma certo io sono al tutto</l>
+          <l part="I">Fuori del senno.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="M">Oh Danain.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Deh come</l>
+          <l>Potrò far ch'io t'offenda amico mio,</l>
+          <l>Che amato ho infino ad or più che fratello?</l>
+          <l>E tu del par m'amasti e m'ami oh quanto,</l>
+          <l>Ed or non hai di me verun sospetto,</l>
+          <l>E s'io fossi in periglio, e non restasse</l>
+          <l>Altra via di salvarmi, a cagion mia</l>
+          <l>Daresti volentier l'anima e 'l sangue.</l>
+          <l>Io fra tanto son qui per farti scorno</l>
+          <l>E tradimento, e ciò perch'a me solo</l>
+          <l>Quel ch'altrui non faresti hai confidato.</l>
+          <l>Non temer, non sarà, pria mi vo' torre</l>
+          <l part="I">Con questa man la vita.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh non foss'egli</l>
+          <l part="I">Partito mai.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Deh così fosse; ch'io;</l>
+          <l>Mi sento preso e strascinato in modo</l>
+          <l>Come se far contrasto io non potessi;</l>
+          <l>E parmi che nel cor sempre la spina</l>
+          <l>Avrò di questa occasion perduta,</l>
+          <l>E che s'io non farò quello ch'io bramo,</l>
+          <l>Già mai dal pentimento e dal desio</l>
+          <l part="I">Non avrò pace.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oimè, dunqu'or nessuna</l>
+          <l>Difficoltà ci vieta il desir nostro?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="I">Ben ch'io cerchi, nessuna.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh tristi noi.</l>
+          <l part="I">Ma divulgar mai non potrassi?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">E come?</l>
+          <l>Se non ci vede o sente anima viva.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I">Nè pentiremci poi?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">Non so, ma parmi</l>
+          <l>Che quando io l'abbia fatto, acqueterommi.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l>Io tutta abbrividisco, e le ginocchia</l>
+          <l>Mi sento sciorre, ed ogni cosa al guardo</l>
+          <l>Mi traballa: io son presso a venir manco.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <stage>(levato in piedi)</stage>
+          <l>Oh cielo oh cielo, a questa colpa quale</l>
+          <l>Necessità ci stringe? e perchè tanto</l>
+          <l>Affanno se 'l fuggirla è in nostra mano?</l>
+          <l part="I">Certo che noi siam folli.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh mio Girone.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Io nol vo' far già mai; pur quand'io voglia,</l>
+          <l part="I">Farollo un'altra volta.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Un'altra volta,</l>
+          <l part="I">Non ora.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F"> Io veggio ben che ci conviene</l>
+          <l>Deliberarci adesso, e che già mai</l>
+          <l>Non tornerà l'occasion ch'a questa</l>
+          <l>S'agguagli. Ma che cosa è quel ch'io penso?</l>
+          <l>Telesilla, finor questi pensieri</l>
+          <l>E questi detti fur da gioco? o stolti</l>
+          <l>Siam fatti in un momento? Io di me stesso</l>
+          <l>Mi maraviglio e mi vergogno. In somma</l>
+          <l>Io di peccare intendo? io farò scorno</l>
+          <l>Al caro amico mio? che cosa è questo</l>
+          <l>Deliberar? si scorda in un momento</l>
+          <l>La virtù che s'è culta infino ad ora?</l>
+          <l>Non parmi ver ch'io l'abbia unqua da senno</l>
+          <l>Pensato e detto. O Telesilla, questi</l>
+          <l>Disegni son follie, poniam da canto</l>
+          <l>Ogni pensier di questi fatti: ad altro</l>
+          <l part="I">Volgiamo il favellar.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F"> Tu ben ragioni.</l>
+          <l>Io sento al petto rallargar la chiusa,</l>
+          <l>E la foga del cor s'allenta: io provo</l>
+          <l part="I">Alquanto di conforto.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <stage>(assiso)</stage>
+          <l part="F">Io vo' che 'l dove</l>
+          <l>E 'l perchè tu mi narri e 'l quando accesa</l>
+          <l part="I">Di me ti fosti.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Il giorno ch'io ti vidi</l>
+          <l>Nel castel de le Suore al torniamento,</l>
+          <l>E festi prove sì stupende, e a tanti</l>
+          <l>Perigli ti gittasti. Allor mi prese</l>
+          <l>Di te gran maraviglia, e di coraggio</l>
+          <l>E di valor sì grande, e un'infinita</l>
+          <l>Pietà di que' travagli e di que' rischi,</l>
+          <l>A' quali avrei voluto essere io stessa</l>
+          <l>Con te; nè mai vivendo altra sì dolce</l>
+          <l>Tenerezza sentii come quel giorno,</l>
+          <l>Massimamente allor che insanguinato</l>
+          <l>D'un gran colpo ti vidi il braccio manco.</l>
+          <l>E la sera di poi che ritornasti</l>
+          <l>Vittorioso, e che di farti onore</l>
+          <l>Ognun si dava affanno, io rimirando</l>
+          <l>Ti stetti con vivissimo desio</l>
+          <l>Di parlarti e lodarti, e narrar quanta</l>
+          <l>Di te misericordia e maraviglia</l>
+          <l>M'avessi posta in cor: ma non ti seppi</l>
+          <l>Dir se non pochi motti, e rozzi poscia</l>
+          <l>Mi parver sopra modo, e tu lor nulla</l>
+          <l>Badar m'eri sembrato, onde un immenso</l>
+          <l>Dolor sostenni. E da quel dì mi fosti</l>
+          <l>Sempre a cor, nè di te la notte o 'l giorno</l>
+          <l>Pensier mi venne mai senza travaglio.</l>
+          <l>E ancor non m'avvedea che fosse amore;</l>
+          <l part="I">Nè me n'avvidi altro che tardi.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F"> O mia</l>
+          <l>Povera Telesilla, or vedi come</l>
+          <l>Ne celava il destin quel che sì dolce</l>
+          <l>Fora stato a saperlo. Io quanto oprai</l>
+          <l>Quel dì, per te l'oprai, nè cosa alcuna</l>
+          <l>Ebbi tuttora in mente, altro che quindi</l>
+          <l>Aver tu mi dovessi in qualche pregio,</l>
+          <l>E que' sudori e que' perigli estremi</l>
+          <l>E quel mio sangue ti movesse alquanta</l>
+          <l>Compassion di me; tal che s'io fossi</l>
+          <l>A la presenza tua caduto e morto,</l>
+          <l>Mi fora stato caro, avendo speme</l>
+          <l>Che tu dicessi, oh come se n'è ito</l>
+          <l>Oggi quel meschinello. E rivolgendo</l>
+          <l>Di sotto la visiera ogni momento</l>
+          <l>Il guardo a la finestra ove ti stavi,</l>
+          <l>Quand'eri attesa a rimirarmi, in tutto,</l>
+          <l>Quasi rinnovellata la persona,</l>
+          <l>Il travaglio e l'angoscia io mi scordava,</l>
+          <l>E crescendo la forza e l'ardimento</l>
+          <l>Dicea, forse or colei si maraviglia;</l>
+          <l>Qui certo ella dirà, com'egli è prode!</l>
+          <l>Chi sa che in riguardarmi un qualche affetto</l>
+          <l>Non la tocchi? E due volte o tre ch'io t'ebbi</l>
+          <l>Vista batter le mani, io non sapeva</l>
+          <l>Nel tornear quel ch'i' facessi, e penso</l>
+          <l>Ch'ognun se n'ammirasse. Or quando altrove</l>
+          <l>Eri intenta, io diceva, oh scioccherello:</l>
+          <l>Per sollazzarsi, e non perchè la sproni</l>
+          <l>Il core, ella ti guarda, in quella forma</l>
+          <l>Che tutte l'altre fanno, e so ben ch'ella</l>
+          <l>Di te pensa così come di tutti</l>
+          <l>Questi altri cavalier, che a rimirarli</l>
+          <l>Piglia trastullo, e non di te, ma solo</l>
+          <l>Del torniamento ha cura e de la festa.</l>
+          <l>Ma tu perch'or non senti altro che amore</l>
+          <l>Credi che quel che pensi ognun lo pensi,</l>
+          <l>E che d'affetto si consumi: e in questa</l>
+          <l>Dentro a la folta disperatamente</l>
+          <l>Mi gittava, e cercando a più potere</l>
+          <l>Che qualche lancia mi passasse il petto,</l>
+          <l>Da i plausi de la gente e da le grida</l>
+          <l>Eri mossa di novo a riguardarmi.</l>
+          <l>Così t'amava e t'amo, ed amerotti</l>
+          <l>Sempre fin ch'i' sia morto. Anima mia,</l>
+          <l>Quando i' sarò lontano, e fra disagi</l>
+          <l>E fra perigli sempiterni, e 'l mio</l>
+          <l>Cordoglio struggerammi, avrai tu nullo</l>
+          <l part="I">Pensier di questo sfortunato?</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh mai</l>
+          <l>Non favellar così. Ma forse in breve</l>
+          <l part="I">Se' per lasciarmi?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">È forza, e immantinente</l>
+          <l>Come t'ho ricondotta a Maloalto.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="I"> Oimè, dunque sì tosto?</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l part="F">O cara, al pianto</l>
+          <l>Siam prodotti ambedue. Non ci vedremo</l>
+          <l>Forse mai più: ben cosa certa è questa</l>
+          <l>Che 'l dolor nostro non avrà mai fine,</l>
+          <l>E che non troverem di questa sorta</l>
+          <l>Un'altra occasion. Parea che 'l fato</l>
+          <l>N'avesse qui congiunti a bella posta.</l>
+          <l>Certo che mille volte io pentirommi</l>
+          <l>Rimaso vòto il mio desire, e molto</l>
+          <l>Più caldo, e perch'io volli, e questa cara</l>
+          <l>Tua faccia, e questo sen lasciati avendo;</l>
+          <l part="I">Questi, dich'io.</l>
+          <stage>(Levato in piedi)</stage>
+          <l part="M">Dammi la man.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Girone.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <l>Dammi la mano. O Telesilla, oh quanto</l>
+          <l part="I">Se' bella.</l>
+        </sp>
+        <sp>
+          <speaker>TELESILLA</speaker>
+          <l part="F">Oh caro oh caro: io più non veggio.</l>
+        </sp>
+      </div1>
+      <div1>
+        <head>Parte 2</head>
+        <sp>
+          <speaker>I CACCIATORE</speaker>
+          <l>Io sento urlare i lupi, e s'io non fallo</l>
+          <l>Non denno esser da lungi. Andiam più ratti</l>
+          <l>E in più silenzio che si possa. Or bada</l>
+          <l>Quanto più sai, che ne l'andar non faccia</l>
+          <l>Crosciar le foglie e i rami: io vo' vedere</l>
+          <l>Di corgli a l'improvviso in questo scuro:</l>
+          <l>Ma tu cheta quel can che non abbai.</l>
+          <l>Certo la luna è sotto, e quant'io veggio,</l>
+          <l>Poco tempo n'avanza, ed è ben presso</l>
+          <l part="I">Al giorno.</l>
+        </sp>
+        <sp>
+          <speaker>II CACCIATORE</speaker>
+          <l part="F">Aspetta un poco: ei non s'arriva</l>
+          <l>Da questo colle a discoprire un tratto</l>
+          <l>De l'orizzonte. Io vo' cercar di quelle</l>
+          <l>Due piante che dan loco infra' due tronchi.</l>
+          <l>Stimo che sien colà dove 'l sentiero</l>
+          <l>Mette un barlume: io non ho preso abbaglio:</l>
+          <l>Già la marina è chiara, e la diana</l>
+          <l part="I">È già levata.</l>
+        </sp>
+        <sp>
+          <speaker>I CACCIATORE</speaker>
+          <l part="F">Orsù non ci conviene</l>
+          <l>Punto indugiar, che starà poco il sole.</l>
+          <l>Prendiam la via che mena al pecorile</l>
+          <l>Qui presso, ove dintorno han per costume</l>
+          <l>I lupi tutta notte andar vagando,</l>
+          <l>E quest'urla ch'io sento anco mi pare</l>
+          <l>Che vengan da quel lato e udir mi penso</l>
+          <l>A latrar i mastini. Abbi riguardo</l>
+          <l>A l'armi che non dien luce nè suono.</l>
+        </sp>
+        <sp>
+          <speaker>GIRONE</speaker>
+          <stage>(dietro alle piante)</stage>
+          <l>Chi è? chi sei? che voce è questa? Alcuno</l>
+          <l>È passato qui presso, o ch'ingannato</l>
+          <l>Io mi son forse in isvegliarmi: io deggio</l>
+          <l>Aver dormito. Oh tristo me: che feci?</l>
+          <l>Che feci? <stage>(Uscito fuori)</stage> Io tutto quanto inorridisco.</l>
+          <l>Dunque fu vero infine? ed io peccai?</l>
+          <l>Misero me fu ver? Ma come avvenne,</l>
+          <l>Come a tal mi condussi? Oh sventurato</l>
+          <l>Ch'io sono; oh fossi stato anzi quel punto</l>
+          <l>Schiacciato e stritolato: ogni altro affanno</l>
+          <l>È meno assai che 'l nulla a petto a questo.</l>
+          <l>Ma perchè 'l feci mai? per un diletto</l>
+          <l>Schifoso ch'a pensarne io mi vergogno?</l>
+          <l>Un dolor come questo? e mi pareva,</l>
+          <l>Stoltissimo ch'io fui, che senza quello</l>
+          <l>Non avrei pace, quando or mi ritrovo</l>
+          <l>In un'angoscia tal ch'io non provai</l>
+          <l>La somigliante: e in mio poter fu posto</l>
+          <l>Ch'io la schivassi, e ch'or ne fossi immune.</l>
+        </sp>
+      </div1>
+      <div1>
+        <head>ABBOZZO DEL SEGUITO DELLA TELESILLA</head>
+        <p>Telesilla uscendo di mezzo alle piante. Oh me lassa oh me lassa. Oh ciel, ma dove È Giron? mi lasciò? Girone. G. Il vedi. T. Abbandonata io mi credeva. G. Insieme Seguiremo il cammin quando ti piace. T. A Maloalto? G. A Maloalto. T. Oh cielo. G. Riman se più t'aggrada, a la ma stanza Ricondurti io voleva, a me conviene Prender tosto altra via. T. Sorgi, ti seguo A Maloalto. Partono. Il primo Pastor. dietro alle piante. Allor quando si desta Il gallo e batte l'ali ec. E quando esce dal nido La rondinella e va per la campagna. (qualche bella idea del mattino come quella del disegno a penna di mio padre, o della favola del cacciatore dai tre cani) Allora anch'io mi desto ec. E vo le pecorelle a trar dal chiuso, E meno per ombrose ed erme vie A pascolar le pecorelle mie. Poi senza canto. Oh che bel cielo è questo, E che bel giorno. Al fresco o pecorelle. Poi un'altra canzone d'altro metro e materia. Danaino ec. come altrove. Telesilla fuggente. Gir
  one. Oh Telesilla, oh Dio, ferma,
 che fuggi? Certo che 'l villanello ha preso abbaglio, E Danaino è lunge. T. Or s'ei l'ha visto Al chiar de l'alba errar fra mezzo il (fra questo) bosco. G. Avrallo tolto in cambio. Or via non darti Cotanto affanno, oh ciel, ripiglia core: A noi fuggir non si conviene. T. Io non posso veder Danaino così tosto. Sai com'è avventato ec. palpito tutta, ed ho la bocca amara come il fiele. Io scerno Un pastorel colà. Forse che darci Potrà qualche novella, ec. O bel pastore, Dimmi ec. Pastor. Sì ec. L'un suo nemico ha spento E va de l'altro in cerca Ch'è qui da presso ecc. Danaino tra le piante ec. come altrove.</p>
-	<p>G. Io mi sento affogar. Cade steso in terra. Pastor. Questo ch'io veggio forse (Forse ch'è) un altro mondo? Io non mi reggo ec. come altrove.</p>
-	<p>Dopo le parole: Dunque fu vero infine ed io peccai? va subito fatta menzione di Danaino ch'è la prima cosa che gli debba venire in mente, e la maggior cagione della grandezza del delitto, cioè la sua grande amicizia con lui.</p>
-	<p>T. Hai tu veduto cavalier nessuno Errar fra questo bosco? P. Un solo, ed era Danaino il signor di Maloalto. Or sete forse voi color che quinci Avevate a passar, l'una sua sposa E l'altro amico? G. Sì che noi siam quelli. T. Non siam. P. Non sete voi? T. Sì bene. Or dimmi, Che ti narrò? P. Che l'uno avea già spento De gl'inimici, e in traccia iva de l'altro Qui ne' dintorni, e riede a Maloalto Come l'ha ritrovato e si confida Oggi di ritrovarlo. T. Odo romore Dentro la selva. D. Ferma, son Danaino ec. T. Giron, quest'è la voce di Danaino. Durante il combattimento T. mostri spavento e desiderio che D. non vinca. Cavaliere. Per Dio lasciami in vita, a un cavalier disdice uccidere un uomo scavalcato e senz'armi. D. A gl'inimici Cortese io non fui mai. C. Ti renda il cielo Quel che tu merti. Non gl'inimici ma gli amici tuoi Te ne paghino. G. a T. Componi il viso, fatti cuore ec.</p>
-	<p>Oh che bel cielo è questo e che bell'<hi rend="italic">alba</hi>. G. Insieme Ripiglierem la via quando ti piace. T. Per dove? G. A Maloalto. T. A Maloalto? G. Ove meglio t'aggrada. A la tua stanza Io volea ricondurti: a me conviene ec.</p>
-	<p>T. Certo ch'ei vincerà che nessuno gli resiste nell'armi fuor di te solo.</p>
-	<p>Io gli ho veduti da lungi non ha molto In su la via che porta a Maloalto Per mezzo de la selva (al bosco, il bosco).</p>
-	<p>Che è questo mentire? Tu sei solito a farlo? perchè dunque ora menti?</p>
-	<p>Ti spiace? Anzi l'ho cara. (E va beniss. e naturalissimamen.).</p>
-	<p>O misero, ei l'uccide. Certo ei soccombe ec. E in tutta la durata del combattim. Telesilla mostri una certa inquietezza come di nascosto e non ben inteso desiderio che Danaino in qualche modo non resti vincitore. Anche al primo sentir la voce di Danaino o accorgersi ch'è lì presso, dia segni di terrore, e così poi al prevedere ch'egli comparisca.</p>
-	<p>Sai com'è fiero e impetuoso nell'ira ec. e avventato.</p>
-	<p>Ha ragione, è vero, ti dirò la verità, ci s'è fatto tardi, e noi abbiamo passata la notte qui. DANAINO. Come mai se Maloalto era sì presso Con un guerrier sì valoroso al fianco? ec. E come dunque avete piuttosto voluto passar la notte in un luogo così solitario com'è questo e così pauroso?</p>
-	<p>Che è questo assicurarmi contro il tuo solito che non menti, e mentire?</p>
-	<p>All'ombra o pecorelle più che potete, che fa caldo.</p>
-	<p>Sonno inquieto di Telesilla con sogni ec.</p>
-	<p>Io lo cercava più ch'io nol provava.</p>
-	<p>E in mio poter fu posto ch'or ne fosse immune oh quanto oh quanto fui pazzo che fora or quel dolore ch'io proverei? e che fu quello che ho provato per l'addietro? un'ombra un gioco. Questo sì ch'è fieriss. travaglio. Oh se mai fatto io non l'avessi! oh come or sarei fortunato. Adunque io punto Non m'inganno? io peccai! Giron, peccasti? Mi pare un sogno. Ahi, ahi, chi l'avria detto? Ch'io dovessi peccar quasi innocente Non fossi stato infin da quando io nacqui? Più ch'io ci penso parmi essere un altro. Oh virtù mia come sei gita. Certo se visto non l'avessi, io mai Creduta non l'avrei così da poco.</p>
-	<p>Sorge il sole ec. Oh come tutto è placido e contento ancor ch'io sono in sì mortal travaglio, e tutto segue l'andare usato ancor ch'io mi ritrovo Così diverso. O sole o ciel sereno o campi o piante Or come a riguardarvi io mi dispero A cagion ch'io solea sempre allegrarmi Di vostra vista. Or non più certo mai. E finito, a tutte altre sventure ho trovato e posso trovar conforto, ma non a questa. Misero me!</p>
-	<p>Non è tristo tutto il mondo? non è finito ogni contento al mondo? ec.</p>
-	<p>Or come mai sete voi qui? ec. ec. Perchè mi parli così? ec. Ma o pastorello, non son questi? ec. Dirotti, ci sorprese la notte e per timore siamo rimasti qui. Or come vi scordaste di far sì poca strada Con un guerrier ec. E non è questo un loco desertiss. sicch'era più da temere il restare che il proseguire?</p>
-	<p>Deh taci, non mi parlare di Danaino. Io non ci posso pensare assolutamente: solo del pensiero io mi spavento. Che cosa ho fatto mai! povero Danaino ec.</p>
-<quote rend="block">
-<lg>
-	<l>È morta Telesilla? e Danaino</l>
-<l>È morto? Danaino? ed io l'uccisi?</l>
-<l>Quel Danaino? Oimè che fatto è questo!</l>
-<l>Io mi sento affogar.</l>
-<l>Danain Telesilla, anch'io m'uccido,</l>
-<l>Io son tutto di ghiaccio, e non mi reggo</l>
-<l>Da lo spavento. Io vo' fuggir, se mai</l>
-<l>Sopraggiungesse alcuno, e discoprisse</l>
-<l>Com'io sì da vicino ho visto il tutto.</l>
-</lg>
-</quote>
-	<p>O bisogna fare che nella seconda parte Girone prima di partire dica di andare (dietro le piante) a rivestir le armi, ovvero bisogna premettere al dramma questo avvertimento.</p>
-	<p>Girone dev'esser vestito di una tonaca militare sopra il nudo con sandali all'eroica, elmo in testa spada al fianco pendente dal collo, e scudo al braccio. Nel principio della seconda parte si dee veder l'elmo la spada e lo scudo per terra, e Girone li ripigli prima di partire.</p>
-	<p>E dopo aver detto a Danaino Difenditi, o, guardati, questi deve soggiungere, non siam pari, hai svantaggio dell'armatura. G. Non monta. D. getta lo scudo. Battaglia e silenzio. D. disarm. e caduto. Io ti chiedo che mi lasci in vita per quell'amor che ci portammo. G. Ucciso Danaino senza rispondere si volga a Telesilla ec.</p>
-	<p>D. Non siam pari in arnese ch'io ti soverchio assai dell'armatura. G. Non conta.</p>
-	<p>T. Oh Dio perchè sì forte M'afferri? oimè tragge la spada ec. G. Guardati. D. Nell'arnese hai disvantaggio: Presso che inerme sei. G. non monta. D. getta lo scudo, e slacciatasi la corazza (se si può slacciare) parimente la getta ec. come sopra. D. Io chieggio La vita in don per quell'antico amore che ci portammo.</p>
-<quote rend="block">
-<lg>
-	<l>O Giron tragge la spada</l>
-<l>Abbi pietate o Danaino aita <stage>(Ahi soccorso)</stage></l>
-<l>Aita o mio Giron. M'uccide. È morta!</l>
-<l>Difenditi ec.</l>
-<l>Oh che bel sole è questo e che bel giorno.</l>
-<l>O mio</l>
-<l>Diletto sposo, lascia ch'io t'abbracci</l>
-<l>Io son tornato di più gran periglio</l>
-<l>Molto sovente, e di maggior dimora</l>
-<l>E tu fatto non m'hai così gran festa.</l>
-<l>Hai tu veduto nessun cavaliero? ec.</l>
-</lg>
-</quote>
-
-	<p>Siete voi coloro che cercava quel cavaliero? Quale? Danaino, il signor di Maloalto ec. siete la sua moglie e l'amico? Sì. Non siamo. Or voi non siete quelli? Sì siamo. Voglio corrergli dietro ec. Deh no. Lascialo andare a cercarlo ec.</p>
-	<p>Io non credeva che la mia virtù fosse sì scarsa. Eccola vinta. Povero Danaino. Chi avrebbe creduto ch'io ti potessi tradire. Credeva che sarei morto per te.</p>
-	<p>Ucciso Danaino Girone contando tutte a un tratto le sue disgrazie, noti quel senso d'affogamento che proviamo in tale occasione ec. e si chiama accoramento ec.</p>
-	<p>Danain credi a me (credimi o Danain) ch'io dico il vero. Il vero? forse ch'io non ti soglio credere? che vuol dire questa nuova favella?</p>
-	<p>Non son questi quelli che tu hai veduto stamane? Il pastorello. Sì li conosco ai vestimenti e all'armi.</p>
-	<p>Io credeva, stoltissimo ch'io fui che mi sarei pentito s'io non l'avessi fatto. Oh non l'avessi fatto mai! come sarei più quieto! Questa sì ch'è inquietezza ec.</p>
-	<p>Mi par d'essere affatto un altro da quel Girone di prima poichè son reo, mi pare un sogno ec.</p>
-</div1>
-<div1>
-<head>PRIMA IDEA DELLA TELESILLA</head>
-
-	<p>Sogni, caro Giron, siam soli? questo non è tempo, ei non saprallo, tremo, sudor freddo e tutta l'ode di Saffo.</p>
-	<p>Bocca amara, consegnare, abbracciamento, Filare, levarsi in piedi, solitudine paurosa (non temete ec. pecore sbrancate ec. cappello rotolato ec. ecco parlo fra me come un pazzo ec. v. l'Alamanni, nella parlata di Girone alla spada e in quella di Danaino irato a Girone e possono servire o per l'ultima scena della 1. parte o per la 2. della seconda, sole ed ombra nella 1. parte, oh che bel dì, è caldo ec. apostrofe alle pecore, canto, è presso al giorno ec. luna tramontata, orsa, marina tra le piante, eosforo, cani ec. cheta quel cane che non abbai che i lupi non se n'accorgano, canto mattutino degli uccelli, sole nascente, come mai tutto è in calma e segue l'usato corso quando io contro il mio ordinario ec. e niente partecipa del mio ec. Girone dietro le piante. Uscito fuori, nella ult. scena della 1. parte porterà la donna per conforto alla colpa la sperata lunga assenza del marito, e ch'egli non potrà saper niente, ovvero nella 2
+        <p>G. Io mi sento affogar. Cade steso in terra. Pastor. Questo ch'io veggio forse (Forse ch'è) un altro mondo? Io non mi reggo ec. come altrove.</p>
+        <p>Dopo le parole: Dunque fu vero infine ed io peccai? va subito fatta menzione di Danaino ch'è la prima cosa che gli debba venire in mente, e la maggior cagione della grandezza del delitto, cioè la sua grande amicizia con lui.</p>
+        <p>T. Hai tu veduto cavalier nessuno Errar fra questo bosco? P. Un solo, ed era Danaino il signor di Maloalto. Or sete forse voi color che quinci Avevate a passar, l'una sua sposa E l'altro amico? G. Sì che noi siam quelli. T. Non siam. P. Non sete voi? T. Sì bene. Or dimmi, Che ti narrò? P. Che l'uno avea già spento De gl'inimici, e in traccia iva de l'altro Qui ne' dintorni, e riede a Maloalto Come l'ha ritrovato e si confida Oggi di ritrovarlo. T. Odo romore Dentro la selva. D. Ferma, son Danaino ec. T. Giron, quest'è la voce di Danaino. Durante il combattimento T. mostri spavento e desiderio che D. non vinca. Cavaliere. Per Dio lasciami in vita, a un cavalier disdice uccidere un uomo scavalcato e senz'armi. D. A gl'inimici Cortese io non fui mai. C. Ti renda il cielo Quel che tu merti. Non gl'inimici ma gli amici tuoi Te ne paghino. G. a T. Componi il viso, fatti cuore ec.</p>
+        <p>Oh che bel cielo è questo e che bell'<hi rend="italic">alba</hi>. G. Insieme Ripiglierem la via quando ti piace. T. Per dove? G. A Maloalto. T. A Maloalto? G. Ove meglio t'aggrada. A la tua stanza Io volea ricondurti: a me conviene ec.</p>
+        <p>T. Certo ch'ei vincerà che nessuno gli resiste nell'armi fuor di te solo.</p>
+        <p>Io gli ho veduti da lungi non ha molto In su la via che porta a Maloalto Per mezzo de la selva (al bosco, il bosco).</p>
+        <p>Che è questo mentire? Tu sei solito a farlo? perchè dunque ora menti?</p>
+        <p>Ti spiace? Anzi l'ho cara. (E va beniss. e naturalissimamen.).</p>
+        <p>O misero, ei l'uccide. Certo ei soccombe ec. E in tutta la durata del combattim. Telesilla mostri una certa inquietezza come di nascosto e non ben inteso desiderio che Danaino in qualche modo non resti vincitore. Anche al primo sentir la voce di Danaino o accorgersi ch'è lì presso, dia segni di terrore, e così poi al prevedere ch'egli comparisca.</p>
+        <p>Sai com'è fiero e impetuoso nell'ira ec. e avventato.</p>
+        <p>Ha ragione, è vero, ti dirò la verità, ci s'è fatto tardi, e noi abbiamo passata la notte qui. DANAINO. Come mai se Maloalto era sì presso Con un guerrier sì valoroso al fianco? ec. E come dunque avete piuttosto voluto passar la notte in un luogo così solitario com'è questo e così pauroso?</p>
+        <p>Che è questo assicurarmi contro il tuo solito che non menti, e mentire?</p>
+        <p>All'ombra o pecorelle più che potete, che fa caldo.</p>
+        <p>Sonno inquieto di Telesilla con sogni ec.</p>
+        <p>Io lo cercava più ch'io nol provava.</p>
+        <p>E in mio poter fu posto ch'or ne fosse immune oh quanto oh quanto fui pazzo che fora or quel dolore ch'io proverei? e che fu quello che ho provato per l'addietro? un'ombra un gioco. Questo sì ch'è fieriss. travaglio. Oh se mai fatto io non l'avessi! oh come or sarei fortunato. Adunque io punto Non m'inganno? io peccai! Giron, peccasti? Mi pare un sogno. Ahi, ahi, chi l'avria detto? Ch'io dovessi peccar quasi innocente Non fossi stato infin da quando io nacqui? Più ch'io ci penso parmi essere un altro. Oh virtù mia come sei gita. Certo se visto non l'avessi, io mai Creduta non l'avrei così da poco.</p>
+        <p>Sorge il sole ec. Oh come tutto è placido e contento ancor ch'io sono in sì mortal travaglio, e tutto segue l'andare usato ancor ch'io mi ritrovo Così diverso. O sole o ciel sereno o campi o piante Or come a riguardarvi io mi dispero A cagion ch'io solea sempre allegrarmi Di vostra vista. Or non più certo mai. E finito, a tutte altre sventure ho trovato e posso trovar conforto, ma non a questa. Misero me!</p>
+        <p>Non è tristo tutto il mondo? non è finito ogni contento al mondo? ec.</p>
+        <p>Or come mai sete voi qui? ec. ec. Perchè mi parli così? ec. Ma o pastorello, non son questi? ec. Dirotti, ci sorprese la notte e per timore siamo rimasti qui. Or come vi scordaste di far sì poca strada Con un guerrier ec. E non è questo un loco desertiss. sicch'era più da temere il restare che il proseguire?</p>
+        <p>Deh taci, non mi parlare di Danaino. Io non ci posso pensare assolutamente: solo del pensiero io mi spavento. Che cosa ho fatto mai! povero Danaino ec.</p>
+        <quote rend="block">
+          <lg>
+            <l>È morta Telesilla? e Danaino</l>
+            <l>È morto? Danaino? ed io l'uccisi?</l>
+            <l>Quel Danaino? Oimè che fatto è questo!</l>
+            <l>Io mi sento affogar.</l>
+            <l>Danain Telesilla, anch'io m'uccido,</l>
+            <l>Io son tutto di ghiaccio, e non mi reggo</l>
+            <l>Da lo spavento. Io vo' fuggir, se mai</l>
+            <l>Sopraggiungesse alcuno, e discoprisse</l>
+            <l>Com'io sì da vicino ho visto il tutto.</l>
+          </lg>
+        </quote>
+        <p>O bisogna fare che nella seconda parte Girone prima di partire dica di andare (dietro le piante) a rivestir le armi, ovvero bisogna premettere al dramma questo avvertimento.</p>
+        <p>Girone dev'esser vestito di una tonaca militare sopra il nudo con sandali all'eroica, elmo in testa spada al fianco pendente dal collo, e scudo al braccio. Nel principio della seconda parte si dee veder l'elmo la spada e lo scudo per terra, e Girone li ripigli prima di partire.</p>
+        <p>E dopo aver detto a Danaino Difenditi, o, guardati, questi deve soggiungere, non siam pari, hai svantaggio dell'armatura. G. Non monta. D. getta lo scudo. Battaglia e silenzio. D. disarm. e caduto. Io ti chiedo che mi lasci in vita per quell'amor che ci portammo. G. Ucciso Danaino senza rispondere si volga a Telesilla ec.</p>
+        <p>D. Non siam pari in arnese ch'io ti soverchio assai dell'armatura. G. Non conta.</p>
+        <p>T. Oh Dio perchè sì forte M'afferri? oimè tragge la spada ec. G. Guardati. D. Nell'arnese hai disvantaggio: Presso che inerme sei. G. non monta. D. getta lo scudo, e slacciatasi la corazza (se si può slacciare) parimente la getta ec. come sopra. D. Io chieggio La vita in don per quell'antico amore che ci portammo.</p>
+        <quote rend="block">
+          <lg>
+            <l>O Giron tragge la spada</l>
+            <l>Abbi pietate o Danaino aita <stage>(Ahi soccorso)</stage></l>
+            <l>Aita o mio Giron. M'uccide. È morta!</l>
+            <l>Difenditi ec.</l>
+            <l>Oh che bel sole è questo e che bel giorno.</l>
+            <l>O mio</l>
+            <l>Diletto sposo, lascia ch'io t'abbracci</l>
+            <l>Io son tornato di più gran periglio</l>
+            <l>Molto sovente, e di maggior dimora</l>
+            <l>E tu fatto non m'hai così gran festa.</l>
+            <l>Hai tu veduto nessun cavaliero? ec.</l>
+          </lg>
+        </quote>
+        <p>Siete voi coloro che cercava quel cavaliero? Quale? Danaino, il signor di Maloalto ec. siete la sua moglie e l'amico? Sì. Non siamo. Or voi non siete quelli? Sì siamo. Voglio corrergli dietro ec. Deh no. Lascialo andare a cercarlo ec.</p>
+        <p>Io non credeva che la mia virtù fosse sì scarsa. Eccola vinta. Povero Danaino. Chi avrebbe creduto ch'io ti potessi tradire. Credeva che sarei morto per te.</p>
+        <p>Ucciso Danaino Girone contando tutte a un tratto le sue disgrazie, noti quel senso d'affogamento che proviamo in tale occasione ec. e si chiama accoramento ec.</p>
+        <p>Danain credi a me (credimi o Danain) ch'io dico il vero. Il vero? forse ch'io non ti soglio credere? che vuol dire questa nuova favella?</p>
+        <p>Non son questi quelli che tu hai veduto stamane? Il pastorello. Sì li conosco ai vestimenti e all'armi.</p>
+        <p>Io credeva, stoltissimo ch'io fui che mi sarei pentito s'io non l'avessi fatto. Oh non l'avessi fatto mai! come sarei più quieto! Questa sì ch'è inquietezza ec.</p>
+        <p>Mi par d'essere affatto un altro da quel Girone di prima poichè son reo, mi pare un sogno ec.</p>
+      </div1>
+      <div1>
+        <head>PRIMA IDEA DELLA TELESILLA</head>
+        <p>Sogni, caro Giron, siam soli? questo non è tempo, ei non saprallo, tremo, sudor freddo e tutta l'ode di Saffo.</p>
+        <p>Bocca amara, consegnare, abbracciamento, Filare, levarsi in piedi, solitudine paurosa (non temete ec. pecore sbrancate ec. cappello rotolato ec. ecco parlo fra me come un pazzo ec. v. l'Alamanni, nella parlata di Girone alla spada e in quella di Danaino irato a Girone e possono servire o per l'ultima scena della 1. parte o per la 2. della seconda, sole ed ombra nella 1. parte, oh che bel dì, è caldo ec. apostrofe alle pecore, canto, è presso al giorno ec. luna tramontata, orsa, marina tra le piante, eosforo, cani ec. cheta quel cane che non abbai che i lupi non se n'accorgano, canto mattutino degli uccelli, sole nascente, come mai tutto è in calma e segue l'usato corso quando io contro il mio ordinario ec. e niente partecipa del mio ec. Girone dietro le piante. Uscito fuori, nella ult. scena della 1. parte porterà la donna per conforto alla colpa la sperata lunga assenza del marito, e ch'egli non potrà saper niente, ovvero nella 2
  . par. ma meglio nella 1. nella
 stessa scena dirà la donna che tutto è solitudine e silenzio e non si sente quivi <hi rend="italic">Altro suon che de' grilli e de le rane</hi> ec. eh via via ma che? ho forse necessità di far questa colpa? e se non la farò non sarò mai quieto e sempre pentito? così mi pare ora ec. Fine della ult. scena 1. par. Girone: <hi rend="italic">Quanto sei bella</hi> ec. La donna: Oh caro oh caro! io più non veggio nulla. vien qua, fa cuore, non facciamo male a nessuno. Eppure io vedo quella lancia insanguinata. Ora ho ucciso un mio nemico. Ai nemici armati facciamo male ma per te non sono quest'armi, senti ec. Or tu non usi Pascer su questo colle? Io sì. Dunque se passeranno dì loro ec. Danaino nell'ultima scena dirà come mai non sieno andati la sera a Maloalto ch'era sì presso <hi rend="italic">Con un guerrier sì valoroso al fianco</hi> ec. Nell'ult. scena la donna. <hi rend="italic">Oh caro, o mio d
  iletto quanto godo</hi> ec.
 Danaino. Molte volte io son tornato di maggior periglio e più lunga dimora ec. e tu non m'hai mostro tanto ec. Questo è stato un nulla ec. Uccisa la moglie senza parlare, Danaino non parlerà più. Nell'ult. sc. 1. part. si noti che quell'opportunità non tornerà forse più Leva quella mano o ch'io la spicco. (Danaino al suo nemico) Maledetto ec. ti sia fatto altrettanto (il nemico a lui). Per la 2. par. sc. 3 v. l'ode d'Orazio sopra Europa. Gir.</p>
-<quote rend="block">
-<lg>
-<l>Io nol vo' far già mai pur s'i' volessi (se vorrollo)</l>
-<l>Nol potrei far com'ora (Nol potrò come adesso) un'altra volta?</l>
-</lg>
-</quote>
-<p>Tel. Cotesto no ec. Dove fuggiamo? che cerchiamo? ec. Ei tornerà subito a Maloalto pur ch'ei vinca: Oh non può far che soccomba (ciò nella scena della loro fuga).</p>
-</div1>
-<div1>
-<head>SUPPLEMENTO ALL'ABBOZZO DELLA TELESILLA</head>
-
-	<p>Si può cominciare col fingere che allora o Poco prima cessi una pioggia o tempesta ec. Nella 3. scena farli cogliere funghi e gareggiare ec., correre a coglierne uno e trovare ch'era una foglia secca, ec. Nella scena della madre e della pastorella si potranno introdur le galline ec.</p>
-</div1>
-<div1>
-<head>PER UN'AVVERTENZA ALLA TELESILLA</head>
-
-	<p>Dirò in secondo luogo com'io non ho creduto che l'attenzione e la curiosità degli spettatori si dovesse conservare con quel miserabile mezzo dei nodi e viluppi intricatissimi in luogo della immagine continua viva ed efficace rappresentazione della natura e delle passioni umane. E ho stimato che la semplicità delle azioni drammatiche allora sia biasimevole quando è tutt'uno coll'uniformità e colla noia. Ma la varietà e l'efficacia non consiste nei laberinti, come debbono credere coloro che non hanno tanto capitale di sentimenti e di affetti da mantener sempre, e rinnovare a ogni tratto la commozione ec.</p>
-	<p>E poichè l'Italia non solamente nella lingua ma eziandio nelle lettere e ne' costumi, è diventata, si può dire, una colonia francese, li voglio pregare che questa volta si contentino d'essere italiani, e amando la dignità, non raccapriccino della natura, e amando l'eleganza, non si spaventino della semplicità ec.</p>
-	<p>Finalmente vorrei che si persuadessero che dal classico al francese ci corre un grandissimo divario, e che se la miglior parte degl'intelletti ha ripugnato alle fole che chiamano romantiche, e sostenuta la sana maniera (le sane dottrine) dello scrivere che chiamano classica, non ha mai pensato che il classico e il francese fossero la stessa cosa; non lo avrebbero creduto gli antichi italiani, non i latini, non i greci. Se bene io per verità comincio a credere che questa gente sia stata la corruttrice delle lettere e belle arti, e la Francia la ristoratrice del gusto corrotto dai greci e dai latini e dagli antichi italiani.</p>
-	<p>Si potrà paragonare la Telesilla alle pastorali Italiane, p.e. al Pastor Fido ec.</p>
-	<p>Dirò primieramente che se vorranno chiamarla tragedia potranno, tanto perchè i poemi secondo me non si definiscono a proporzione della misura, e del numero dei palmi quanto perchè molte tragedie greche sono più brevi di questa, e nessuna è distribuita in atti, come credo che sappiano. Se non vorranno, faranno anche benissimo a non cercar altro, e curarsi meno dei nomi che delle cose.</p>
-	<p>Catastrofe luttuosa ed esposta sulla scena.</p>
-	<p>Rappresentazione di oggetti pastorali e campestri che non sono comici per se stessi, in luogo dei plebei tanto cari agl'inglesi ai tedeschi.</p>
-	<p>Servire ai tempi e ai costumi senza mancare alle regole naturali non arbitrarie.</p>
-	<p>Forza e verità moderna della passione, unita per la prima volta alla semplicità e agli altri pregi antichi.</p>
-	<p>Ma di queste cose discorrerò di proposito altrove e mostrerò che non ignoro o disprezzo nè l'arte nè la natura, e che forse non merito di essere nè scomunicato da' seguaci veri de' classici, nè deriso da' filosofi e indagatori delle alte sorgenti del bello.</p>
-	<p>Perchè poi se stimano che la controversia fra i romant. ec. sia stata se il poeta debba meditare e inventare ec. e se la novità ci voglia in poesia ec. sappiano che questa controversia non è mai stata al mondo fra uomini d'intelletto, non solamente dopo nati i romantici, ma in nessun tempo.</p>
-</div1>
-</body>
-</text>
-</TEI.2>
+        <quote rend="block">
+          <lg>
+            <l>Io nol vo' far già mai pur s'i' volessi (se vorrollo)</l>
+            <l>Nol potrei far com'ora (Nol potrò come adesso) un'altra volta?</l>
+          </lg>
+        </quote>
+        <p>Tel. Cotesto no ec. Dove fuggiamo? che cerchiamo? ec. Ei tornerà subito a Maloalto pur ch'ei vinca: Oh non può far che soccomba (ciò nella scena della loro fuga).</p>
+      </div1>
+      <div1>
+        <head>SUPPLEMENTO ALL'ABBOZZO DELLA TELESILLA</head>
+        <p>Si può cominciare col fingere che allora o Poco prima cessi una pioggia o tempesta ec. Nella 3. scena farli cogliere funghi e gareggiare ec., correre a coglierne uno e trovare ch'era una foglia secca, ec. Nella scena della madre e della pastorella si potranno introdur le galline ec.</p>
+      </div1>
+      <div1>
+        <head>PER UN'AVVERTENZA ALLA TELESILLA</head>
+        <p>Dirò in secondo luogo com'io non ho creduto che l'attenzione e la curiosità degli spettatori si dovesse conservare con quel miserabile mezzo dei nodi e viluppi intricatissimi in luogo della immagine continua viva ed efficace rappresentazione della natura e delle passioni umane. E ho stimato che la semplicità delle azioni drammatiche allora sia biasimevole quando è tutt'uno coll'uniformità e colla noia. Ma la varietà e l'efficacia non consiste nei laberinti, come debbono credere coloro che non hanno tanto capitale di sentimenti e di affetti da mantener sempre, e rinnovare a ogni tratto la commozione ec.</p>
+        <p>E poichè l'Italia non solamente nella lingua ma eziandio nelle lettere e ne' costumi, è diventata, si può dire, una colonia francese, li voglio pregare che questa volta si contentino d'essere italiani, e amando la dignità, non raccapriccino della natura, e amando l'eleganza, non si spaventino della semplicità ec.</p>
+        <p>Finalmente vorrei che si persuadessero che dal classico al francese ci corre un grandissimo divario, e che se la miglior parte degl'intelletti ha ripugnato alle fole che chiamano romantiche, e sostenuta la sana maniera (le sane dottrine) dello scrivere che chiamano classica, non ha mai pensato che il classico e il francese fossero la stessa cosa; non lo avrebbero creduto gli antichi italiani, non i latini, non i greci. Se bene io per verità comincio a credere che questa gente sia stata la corruttrice delle lettere e belle arti, e la Francia la ristoratrice del gusto corrotto dai greci e dai latini e dagli antichi italiani.</p>
+        <p>Si potrà paragonare la Telesilla alle pastorali Italiane, p.e. al Pastor Fido ec.</p>
+        <p>Dirò primieramente che se vorranno chiamarla tragedia potranno, tanto perchè i poemi secondo me non si definiscono a proporzione della misura, e del numero dei palmi quanto perchè molte tragedie greche sono più brevi di questa, e nessuna è distribuita in atti, come credo che sappiano. Se non vorranno, faranno anche benissimo a non cercar altro, e curarsi meno dei nomi che delle cose.</p>
+        <p>Catastrofe luttuosa ed esposta sulla scena.</p>
+        <p>Rappresentazione di oggetti pastorali e campestri che non sono comici per se stessi, in luogo dei plebei tanto cari agl'inglesi ai tedeschi.</p>
+        <p>Servire ai tempi e ai costumi senza mancare alle regole naturali non arbitrarie.</p>
+        <p>Forza e verità moderna della passione, unita per la prima volta alla semplicità e agli altri pregi antichi.</p>
+        <p>Ma di queste cose discorrerò di proposito altrove e mostrerò che non ignoro o disprezzo nè l'arte nè la natura, e che forse non merito di essere nè scomunicato da' seguaci veri de' classici, nè deriso da' filosofi e indagatori delle alte sorgenti del bello.</p>
+        <p>Perchè poi se stimano che la controversia fra i romant. ec. sia stata se il poeta debba meditare e inventare ec. e se la novità ci voglia in poesia ec. sappiano che questa controversia non è mai stata al mondo fra uomini d'intelletto, non solamente dopo nati i romantici, ma in nessun tempo.</p>
+      </div1>
+    </body>
+  </text>
+</TEI>

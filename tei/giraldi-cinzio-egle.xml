@@ -1,113 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
-<TEI.2>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title>Egle</title>
-      <author>Giambattista Giraldi Cinzio</author>
-    </titleStmt>
-    <extent>141 Kb in UTF-8</extent>
-    <publicationStmt>
-      <publisher>Biblioteca Italiana</publisher>
-      <pubPlace>Roma</pubPlace>
-      <date>2004</date>
-      <idno>bibit001234</idno>
-      <availability>
-        <p>Questa risorsa digitale è liberamente accessibile per uso
+    <fileDesc>
+      <titleStmt>
+        <title>Egle</title>
+        <author>Giambattista Giraldi Cinzio</author>
+      </titleStmt>
+      <extent>141 Kb in UTF-8</extent>
+      <publicationStmt>
+        <publisher>Biblioteca Italiana</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>2004</date>
+        <idno>bibit001234</idno>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso
               personale o scientifico. Ogni uso commerciale è vietato</p>
-      </availability>
-      <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q42189263</idno>
-    </publicationStmt>
-    <seriesStmt>
-      <title>Collezione BibIt</title>
-    </seriesStmt>
-    <sourceDesc>
-      <bibl>
-        <title>Teatro del Cinquecento</title>
-        <title type="part">La Tragedia</title>
-        <editor id="ed">Cremante, Renzo</editor>
-        <publisher>R. Ricciardi</publisher>
-        <pubPlace>Milano [ecc.]</pubPlace>
-        <date>1988</date>
-      </bibl>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-                  <samplingDecl>
-                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+        </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q42189263</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Collezione BibIt</title>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Teatro del Cinquecento</title>
+          <title type="part">La Tragedia</title>
+          <editor xml:id="ed">Cremante, Renzo</editor>
+          <publisher>R. Ricciardi</publisher>
+          <pubPlace>Milano [ecc.]</pubPlace>
+          <date>1988</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
                       responsabilità dell'autore dell'opera sono stati soppressi nella versione
                       digitale</p>
-                  </samplingDecl>
-                  <editorialDecl>
-                    <correction method="silent" status="medium">
-                      <p>Livello medio: controllo a video con collazione con edizione di
+      </samplingDecl>
+      <editorialDecl>
+        <correction method="silent" status="medium">
+          <p>Livello medio: controllo a video con collazione con edizione di
                       riferimento</p>
-                    </correction>
-                    <quotation form="data" marks="all">
-                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+        </correction>
+        <quotation marks="all">
+          <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
                         sono stati rappresentati sulla versione digitale</p>
-                    </quotation>
-                    <hyphenation eol="none">
-                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+        </quotation>
+        <hyphenation eol="none">
+          <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
                         ricomposte</p>
-                    </hyphenation>
-                  </editorialDecl>
-    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
-  <profileDesc>
-    <creation>
-      <date>500</date>
-    </creation>
-    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
-    <textClass>
-      <keywords scheme="CDD">
-        <term>852.05120804 - LETTERATURA DRAMMATICA ITALIANA.TRAGEDIA. RACCOLTE. 1542-1585</term>
-      </keywords>
-      <keywords scheme="CGB">
-        <term>Letteratura teatrale</term>
-      </keywords>
-    </textClass>
-  </profileDesc>
-  <revisionDesc>
-    <change>
-      <date>Data sconosciuta anteriore al 2000</date>
-      <respStmt>
-        <name>CIBIT - Ferrara</name>
-      </respStmt>
-      <item>Digitalizzazione</item>
-    </change>
-    <change>
-      <date>Data sconosciuta anteriore al 2000</date>
-      <respStmt>
-        <name>CIBIT - Ferrara</name>
-      </respStmt>
-      <item>Correzione linguistica</item>
-    </change>
-    <change>
-      <date>2004-06-07T00:00:00.000+02:00</date>
-      <respStmt>
-        <name>Barbara Romagnoli</name>
-        <name>BIBIT</name>
-      </respStmt>
-      <item>Codifica XML - Codifica manuale</item>
-    </change>
-    <change>
-      <date>2004-06-07T00:00:00.000+02:00</date>
-      <respStmt>
-        <name>Carla Deiana</name>
-        <name>BIBIT</name>
-      </respStmt>
-      <item>Validazione</item>
-    </change>
-  </revisionDesc>
-</teiHeader>
-
+        </hyphenation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDD">
+          <bibl>Classificazione Decimale Dewey</bibl>
+        </taxonomy>
+        <taxonomy xml:id="CGB">
+          <bibl>Classificazione generi BibIt</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>500</date>
+      </creation>
+      <langUsage>
+        <language ident="ita">Italiano</language>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#CDD">
+          <term>852.05120804 - LETTERATURA DRAMMATICA ITALIANA.TRAGEDIA. RACCOLTE. 1542-1585</term>
+        </keywords>
+        <keywords scheme="#CGB">
+          <term>Letteratura teatrale</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-06-07T00:00:00.000+02:00</date><name>Barbara Romagnoli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-06-07T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
+    </revisionDesc>
+  </teiHeader>
   <text>
-
     <front>
       <div1>
         <head>ILLUSTRISS HERCULI. ESTENSI. II. DUCI. IIII.</head>
-        <lg lang="lat">
+        <lg xml:lang="lat">
           <l>Non quae te tragico perturbet fabula fletu,</l>
           <l>Huc veniet, grandi aut quatiat quae pulpita voce,</l>
           <l>Ardua materies multorum et viribus impar,</l>
@@ -127,7 +109,6 @@
       <div1>
         <head>A DAMONE</head>
         <lg>
-
           <l>Mentre in Arcadia Titiro se 'ngegna</l>
           <l>Di dare a Pane i primi antichi onori,</l>
           <l>Acciò che tra le ninfe e tra i pastori</l>
@@ -145,9 +126,7 @@
         </lg>
       </div1>
       <div1>
-
         <head>AL MAGNIFICO M. BARTOLOMEO CAVALCANTI</head>
-
         <p>Tre cose tra le altre, Magnifico Messer Bartolomeo, sono sovente principale cagione che i
           nuovi componimenti che da sé sono degni di loda appresso qualche tòrto giudicio ricevan
           biasimo. L'una delle quali è l'ignoranza altrui, l'altra il troppo persuadersi di sapere,
@@ -182,13 +161,9 @@
           che membra vogliono essere composte questa e quelle. Coglietela adunque et insieme con lei
           il vostro Giraldi, non meno affezionato alla vostra molta vertù, che merti la benignità e
           la cortesia che sempre amorevolissimamente l'avete mostro. Giovan Battista Giraldi Cinthio</p>
-
       </div1>
       <div1>
-
-
         <head>SATIRA DI M. GIOVAN BATTISTA GIRALDI CINTHIO DA FERRARA</head>
-
         <p> FU RAPPRESENTATA IN CASA DELLO AUTTORE L'ANNO MDXLV UNA VOLTA A' XXIIII Dl FEBRAIO. ET
           UN'ALTRA A' IIII Dl MARZO ALL'ILLUSTRISS. SIGNORE IL S. ERCOLE II. DA ESTI. DUCA IIII. ET
           ALL'ILLUSTRISS. E REVERENDISS. CARDINALE IPPOLITO II. SUO FRATELLO. LA RAPPRESENTÒ M.
@@ -197,17 +172,14 @@
           L'UNIVERSITÀ DELLI SCOLARI DELLE LEGGI. </p>
       </div1>
       <div1>
-
         <head>L'ARGUMENTO</head>
         <p>I Dei silvestri innamorati delle ninfe de' boschi, inteso ch'i Dei del cielo si son dati
           ad amarle, cercano di non le si lasciar tòrre. Perciò colla astuzia d'Egle le conducono in
           ballo co' fanciulli loro, rimanendo essi nascosti. Mentre sono in ballo, si danno a
           volerle rapire. Le ninfe, scoperto lo 'nganno, se ne fuggono al bosco, et ivi sono mutate
           in varie forme, lasciati tutti dolenti i Dei silvestri. </p>
-
         <dateline>La Scena è 'n Arcadia.</dateline>
       </div1>
-
       <castList>
         <head>LE PERSONE CHE PARLANO</head>
         <castItem>
@@ -264,13 +236,11 @@
         <castItem>
           <role> [SATIRI] </role>
         </castItem>
-        <note place="foot" resp="aut">
+        <note place="foot" resp="#aut">
           <hi rend="italic">Il Coro è di Satiri.</hi>
         </note>
       </castList>
-
       <div1>
-
         <head>IL PROLOGO</head>
         <lg>
           <l>Spettatori, parravvi forse strano</l>
@@ -433,17 +403,12 @@
         </lg>
       </div1>
     </front>
-
     <body>
       <div1 type="atto">
         <head>ATTO PRIMO</head>
-
         <div2 type="scena">
           <head>SCENA I</head>
-
-
           <stage>SILVANO<hi rend="italic">solo</hi></stage>
-
           <sp>
             <speaker>SILVANO</speaker>
             <lg>
@@ -528,14 +493,10 @@
               <l>Fin che mi parerà d'uscirne fuori.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
           <head>SCENA II</head>
-
-
           <stage>SATIRO, FAUNO</stage>
-
           <sp>
             <speaker>SATIRO</speaker>
             <lg>
@@ -732,13 +693,9 @@
               <l>Andianli de nascosto ambidue incontro.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
-
           <head>SCENA III</head>
-
-
           <stage>SILENO, EGLE, CROMI, MNASILO</stage>
           <sp>
             <speaker>SILENO</speaker>
@@ -821,14 +778,10 @@
               <l>E 'l duol gli addolcirem che 'l cor gli preme.</l>
             </lg>
           </sp>
-
-
         </div2>
         <div2 type="scena">
           <head>SCENA IIII</head>
-
           <stage>SATIRO, FAUNO, SILENO, EGLE</stage>
-
           <sp>
             <speaker>SATIRO</speaker>
             <l>Dio ti salvi, Silen.</l>
@@ -993,7 +946,6 @@
               <l>E tu bevi, Egle, e andiamo a trovar Bacco.</l>
             </lg>
           </sp>
-
           <stage>CORO</stage>
           <sp>
             <speaker>CORO</speaker>
@@ -1050,10 +1002,7 @@
         <head>ATTO SECONDO</head>
         <div2 type="scena">
           <head>SCENA I</head>
-
-
           <stage>EGLE<hi rend="italic">sola</hi></stage>
-
           <sp>
             <speaker>EGLE</speaker>
             <lg>
@@ -1110,13 +1059,10 @@
               <l>Ch'attendono risposta da Sileno.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
           <head>SCENA II</head>
-
           <stage>FAUNO, SATIRO, EGLE</stage>
-
           <sp>
             <speaker>FAUNO</speaker>
             <lg>
@@ -1444,13 +1390,10 @@
               <l>Gli altri compagni e dar principio al canto.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
           <head>SCENA III</head>
-
           <stage>EGLE <hi rend="italic">sola</hi></stage>
-
           <sp>
             <speaker>EGLE</speaker>
             <lg>
@@ -1478,14 +1421,10 @@
               <l>Se vorrò che riesca questo inganno.</l>
             </lg>
           </sp>
-
-
         </div2>
         <div2 type="scena">
           <head>SCENA IIII</head>
-
           <stage>SATIRO, CORO, FAUNO</stage>
-
           <sp>
             <speaker>SATIRO</speaker>
             <l>Che state a far? Venite fuori omai.</l>
@@ -1571,7 +1510,6 @@
               <l>E diam principio al lagrimevol canto.</l>
             </lg>
           </sp>
-
           <sp>
             <speaker>CORO</speaker>
             <lg>
@@ -1635,18 +1573,13 @@
               <l>De la sua crudeltà seco sospiri.</l>
             </lg>
           </sp>
-
         </div2>
       </div1>
-
       <div1 type="atto">
         <head>ATTO TERZO</head>
         <div2 type="scena">
-
           <head>SCENA I</head>
-
           <stage>OREADI, DRIADI, NAPEE, EGLE, NAIADI</stage>
-
           <sp>
             <speaker>OREADI</speaker>
             <lg>
@@ -2119,14 +2052,10 @@
               <l>Chi la sollecitava al suo disnore.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
-
           <head>SCENA II</head>
-
           <stage>EGLE <hi rend="italic">sola</hi></stage>
-
           <sp>
             <speaker>EGLE</speaker>
             <lg>
@@ -2148,15 +2077,10 @@
               <l>Attender voglio qui ciò ch'egli dice.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
-
           <head>SCENA III</head>
-
-
           <stage>SATIRO, EGLE, FAUNO</stage>
-
           <sp>
             <speaker>SATIRO</speaker>
             <lg>
@@ -2493,20 +2417,13 @@
               <l>Ti darem sempre e sacrifizii e voti.</l>
             </lg>
           </sp>
-
-
         </div2>
       </div1>
-
       <div1 type="atto">
         <head>ATTO QUARTO</head>
         <div2 type="scena">
-
           <head>SCENA I</head>
-
-
           <stage>PANE <hi rend="italic">solo</hi></stage>
-
           <sp>
             <speaker>PANE</speaker>
             <lg>
@@ -2608,11 +2525,8 @@
           </sp>
         </div2>
         <div2 type="scena">
-
           <head>SCENA II</head>
-
           <stage>SIRINGA, PANE</stage>
-
           <sp>
             <speaker>SIRINGA</speaker>
             <lg>
@@ -3026,14 +2940,10 @@
               <l>In questo tuo partir, l'anima e 'l core.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
           <head>SCENA III</head>
-
           <stage>PANE, SILVANO</stage>
-
-
           <sp>
             <speaker>PANE</speaker>
             <lg>
@@ -3321,14 +3231,10 @@
               <l>Poi che Siringa può felice farti.</l>
             </lg>
           </sp>
-
-
         </div2>
         <div2 type="scena">
           <head>SCENA IIII</head>
-
           <stage>AMADRIADI,<hi rend="italic">altre</hi>NINFE, EGLE, SATIRI PICCIOLI, SIRINGA</stage>
-
           <sp>
             <speaker>AMADRIADI</speaker>
             <lg>
@@ -3569,15 +3475,10 @@
               <l>Ninfe, fin che torniamo a rivederci.</l>
             </lg>
           </sp>
-
-
-
         </div2>
         <div2 type="scena">
           <head>SCENA V</head>
-
           <stage>EGLE, SILENO</stage>
-
           <sp>
             <speaker>EGLE</speaker>
             <lg>
@@ -3872,18 +3773,13 @@
               <l>E di sommo gioir l'anime colmi.</l>
             </lg>
           </sp>
-
-
         </div2>
-
       </div1>
       <div1 type="atto">
         <head>ATTO QUINTO</head>
         <div2 type="scena">
           <head>SCENA I</head>
-
           <stage>EGLE, SATIRI</stage>
-
           <sp>
             <speaker>EGLE</speaker>
             <lg>
@@ -3947,14 +3843,10 @@
               <l>Ch'avremo ne le mani il nostro bene.</l>
             </lg>
           </sp>
-
-
         </div2>
         <div2 type="scena">
           <head>SCENA II</head>
-
           <stage>NINFE, EGLE, SATIRI PICCIOLI, SATIRO<hi rend="italic">grande</hi>CORO</stage>
-
           <sp>
             <speaker>NINFE</speaker>
             <lg>
@@ -4179,17 +4071,13 @@
               <l>Come 'l suon chiederà, guiderem tutte.</l>
             </lg>
           </sp>
-          <note place="foot" resp="aut">
+          <note place="foot" resp="#aut">
             <p>QUI S'INCOMINCIA IL BALLO</p>
           </note>
         </div2>
-
-
         <div2 type="scena">
           <head>SCENA III</head>
-
           <stage>SATIRO, CORO, SILENO, PANE, NINFE, [EGLE, SATIRI PICCIOLI]</stage>
-
           <sp>
             <speaker>SATIRO</speaker>
             <l>State a l'ordine, dico.</l>
@@ -4389,14 +4277,10 @@
               <l>Che vincitor sarem di questa guerra.</l>
             </lg>
           </sp>
-
         </div2>
         <div2 type="scena">
           <head>SCENA IIII</head>
-
           <stage>NINFE, CORO, PANE, EGLE, SILENO</stage>
-
-
           <sp>
             <speaker>NINFE</speaker>
             <lg>
@@ -4587,15 +4471,10 @@
               <l>Ma non l'ha consentito il mio destino.</l>
             </lg>
           </sp>
-
-
         </div2>
         <div2 type="scena">
           <head>SCENA V</head>
-
           <stage>SILVANO, PANE</stage>
-
-
           <sp>
             <speaker>SILVANO</speaker>
             <lg>
@@ -4985,9 +4864,7 @@
           <l>Che 'l nome pastorale a' tempi nostri</l>
           <l>Tal fia, qual fu già ne l'età de l'oro.</l>
         </lg>
-
       </div1>
-
     </body>
   </text>
-</TEI.2>
+</TEI>

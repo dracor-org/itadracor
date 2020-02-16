@@ -76,6 +76,31 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <personGrp xml:id="coro">
+            <name>Coro</name>
+          </personGrp>
+          <person xml:id="romolo">
+            <persName>Romolo</persName>
+          </person>
+          <person xml:id="ersilia">
+            <persName>Ersilia</persName>
+          </person>
+          <person xml:id="ostilio">
+            <persName>Ostilio</persName>
+          </person>
+          <person xml:id="valeria">
+            <persName>Valeria</persName>
+          </person>
+          <person xml:id="acronte">
+            <persName>Acronte</persName>
+          </person>
+          <person xml:id="curzio">
+            <persName>Curzio</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Pavia</name>Digitalizzazione</change>
@@ -135,7 +160,7 @@
           <head>SCENA PRIMA</head>
           <stage>Gran piazza di Roma, circondata di pubbliche e private fabbriche in parte non ancor terminate, ed in parte adombrate ancora di qualche albero frapposto. Campidoglio in faccia, selvaggio pur anche ed incolto, con ara ardente innanzi alla celebre annosa quercia consacrata a Giove su la cima del medesimo, donde per doppia spaziosa strada si discende sul piano. L'ara, la quercia, il monte, gli alberi e gli edifici tutti della gran piazza suddetta sono vagamente guarniti di festoni di fiori capricciosamente disposti per solennizzar le nozze de' giovani romani e delle donzelle sabine.</stage>
           <stage>Il basso della scena è tutto ingombrato di guerrieri, di littori e di popolo spettatore; e mentre allo strepito de' festivi stromenti, che accompagnano il seguente coro, vanno scendendo gli sposi per le varie strade del colle, ed intrecciando poi allegra danza sul piano, ROMOLO con ERSILIA per una via, OSTILIO con VALERIA per l'altra, vengono seguitando lentamente la pompa; e non rimane su l'alto che il numeroso stuolo de'sacerdoti intorno all'ara di Giove.</stage>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Sul Tarpeo propizie e liete</l>
@@ -144,7 +169,7 @@
               <l>Protettrice deità.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>PARTE DEL CORO</speaker>
             <lg>
               <l>Tu propaga, o dio dell'armi,</l>
@@ -153,14 +178,14 @@
               <l>Nella prole che verrà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>TUTTO IL CORO</speaker>
             <lg>
               <l>Dall'Olimpo oggi scendete,</l>
               <l>Protettrici deità.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>PARTE DEL CORO</speaker>
             <lg>
               <l>Dea, che provvida e feconda</l>
@@ -169,14 +194,14 @@
               <l>D'amorosa fedeltà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>TUTTO IL CORO</speaker>
             <lg>
               <l>Dall'Olimpo oggi scendete</l>
               <l>Protettrici deità.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>PARTE DEL CORO</speaker>
             <lg>
               <l>Piante eccelse innesti Amore,</l>
@@ -185,7 +210,7 @@
               <l>La comun felicità.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>TUTTO IL CORO</speaker>
             <lg>
               <l>Sul Tarpeo propizie e liete</l>
@@ -194,7 +219,7 @@
               <l>Protettrici deità.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Eccovi al fine, o belle</l>
             <l>De' vostri vincitori</l>
@@ -227,7 +252,7 @@
             <l>Secondate amorose i grandi augùri.</l>
           </sp>
           <stage>(nel tempo della seguente replica del coro partono danzando gli sposi</stage>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Sul Tarpeo propizie e liete</l>
@@ -240,31 +265,31 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>ROMOLO, ERSILIA, VALERIA ed OSTILIO</stage>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>E fra tanti felici, <stage>(ad Ersilia</stage></l>
             <l>Adorabile Ersilia, esser degg'io</l>
             <l part="I">Incerto ancor della mia sorte?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">(Oh Dio!)</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Né muover può l'esempio <stage>(a Valeria</stage></l>
             <l>Del sabino pur or vinto rigore</l>
             <l part="I">Il cor per me d'una romana?</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">(Oh amore!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Parla almen, principessa.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Al sacro rito</l>
             <l>Spettatrice, e non sposa</l>
@@ -273,7 +298,7 @@
             <l>Qual dover mi consiglia;</l>
             <l>Tu sai ch'io son sabina e ch'io son figlia.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>So che pretendo in vano</l>
             <l>D'ottener la tua mano, ove dal grande</l>
@@ -288,25 +313,25 @@
             <l>Se gli affetti veraci</l>
             <l part="I">D'un amante fedel...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Romolo, ah! taci,</l>
             <l>E non perder di tanti</l>
             <l>Generosi riguardi</l>
             <l part="I">Il merito così.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Qual fallo è il mio?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Così liberi accenti</l>
             <l>Le donzelle sabine</l>
             <l>A soffrir non son use, e non s'impara</l>
             <l>Tal linguaggio fra noi che presso all'ara.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Che incanto è la bellezza</l>
             <l>Ornata di virtù! Seconda, amico,</l>
@@ -315,7 +340,7 @@
             <l>Il sospirato messaggier. Gl'istanti</l>
             <l part="I">Son secoli per me.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Di te non meno</l>
             <l>Mal sopporta l'indugio</l>
@@ -324,7 +349,7 @@
             <l>Pretenderia che tu volgessi ad altro</l>
             <l>Men difficile oggetto i tuoi pensieri.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Altro oggetto ch'Ersilia!... ah, non lo speri!</l>
             <lg>
@@ -344,7 +369,7 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>ERSILIA e VALERIA</stage>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Né ti par degno, Ersilia,</l>
             <l>D'amore il nostro eroe?</l>
@@ -352,25 +377,25 @@
             <l>L'attentato impedir, tu vedi come</l>
             <l part="I">Ei lo corregge.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Il veggo.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">E nulla intanto</l>
             <l part="I">Per lui ti dice il cor?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">L'ammiro.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Io chiedo</l>
             <l part="I">Se l'odia o l'ama.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Amica,</l>
             <l>Me stessa io non intendo. Ho mille in seno</l>
@@ -401,7 +426,7 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>VALERIA, poi ACRONTE in abito romano.</stage>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Arde, e nol sa, ma in nobil fuoco almeno,</l>
             <l>La saggia Ersilia. Io sventurata adoro</l>
@@ -409,11 +434,11 @@
             <l>So che m'inganna Acronte, e pure... Oh stelle!</l>
             <l part="I">Traveggo? Ei viene.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="M">(Infausto incontro!)</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">E dove,</l>
             <l>Folle, t'inoltri mai? Mentre congiura</l>
@@ -422,33 +447,33 @@
             <l>Qui con mentite spoglie</l>
             <l part="I">Arrischiarti così?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Rischio non temo,</l>
             <l>Cara, per rivederti.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Ah mentitor! so che la fé di sposo</l>
             <l>Donata a me non curi più; che solo</l>
             <l part="I">D'Ersilia or ardi.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="M">Io!</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Sì. Credi che ignori</l>
             <l>Le tue vane richieste,</l>
             <l>I rifiuti del padre, i tuoi furori?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Ingiusta sei. Ne chiamo</l>
             <l part="I">Tutti del cielo in testimonio...</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Ah! taci;</l>
             <l>Io non voglio arrossir de' tuoi spergiuri.</l>
@@ -457,12 +482,12 @@
             <l>Gradisci il mio consiglio,</l>
             <l>E non farmi tremar nel tuo periglio.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Perché in rischio mi vedi,</l>
             <l>Palpiti tanto, e un traditor mi credi?</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <lg>
               <l>Sì, m'inganni, e pure, oh Dio!</l>
@@ -481,7 +506,7 @@
         <div type="scene">
           <head>SCENA QUINTA</head>
           <stage>ACRONTE, indi CURZIO in abito parimente romano.</stage>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Già un sinistro all'impresa</l>
             <l>Augurio è quest'incontro. Eh, non si scemi</l>
@@ -495,28 +520,28 @@
             <l>Scortar mi dee; ma nol rinvengo. Altrove</l>
             <l part="I">Cerchisi... <stage>(s'incontrano Curzio ed Acronte, e restano qualche istante immobili a guardarsi</stage> Curzio!</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Acronte!</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="I">Sei pur tu?</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Non m'inganno?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="I">Degli Antemnati il prence in Roma?</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">In Roma</l>
             <l part="I">De' Ceninesi il prence?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Io, stanco al fine</l>
             <l>Delle pigre ire vostre,</l>
@@ -537,7 +562,7 @@
             <l>Dell'offesa comun non sia palese,</l>
             <l>Taccia il rancor delle private offese.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Ma sai qual ne sovrasta</l>
             <l>Oggi ingiuria novella? Oggi si denno</l>
@@ -552,20 +577,20 @@
             <l>A liberar da questi</l>
             <l part="I">Imenei m'affrettai. </l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Tardi giungesti.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="I">Come?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Il solenne rito</l>
             <l part="I">Principe, è già compiuto.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Oimè! sarebbe</l>
             <l>Ersilia ancor... No; la conosco: è troppo</l>
@@ -573,46 +598,46 @@
             <l>Tenace, rispettosa,</l>
             <l part="I">Rigida osservatrice.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">E pure è sposa.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Chi l'afferma? Onde il sai?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Tutta io pur or mirai,</l>
             <l>Qui fra il volgo confuso in queste spoglie,</l>
             <l part="I">La pompa nuziale.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Ed era Ersilia...</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Ed era Ersilia anch'essa</l>
             <l>Della romana gioventù feroce</l>
             <l part="I">Fra le spose festive.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Oh colpo atroce! <stage>(si getta a sedere fiero e pensoso</stage></l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Arrestarsi or perché? Tardo è il riparo;</l>
             <l>Pronta sia la vendetta. I tuoi guerrieri</l>
             <l>Corri, vola ad unir. Con me congiura</l>
             <l>Di Roma alla ruina.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>(Ersilia! mia figlia! una sabina!)</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>(Né pur m'ascolta. Ah! quello sdegno insano</l>
             <l>Può tumulti destar, può alla rapina,</l>
@@ -621,11 +646,11 @@
             <l>Prevenirne gli effetti). E ben, poss'io,</l>
             <l part="I">Curzio, saper da te...</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Lasciami solo.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l>Tu il vuoi? ti lascio. (E al mio disegno io volo). <stage>(parte</stage></l>
           </sp>
@@ -655,46 +680,46 @@
           <head>SCENA SETTIMA</head>
           <stage>Appartamenti destinati nella reggia ad Ersilia sul colle Palatino.</stage>
           <stage>ERSILIA ed OSTILIO</stage>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Ma di Romolo, o Ersilia,</l>
             <l>Tutto il merto conosci?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Tutto.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="M">E non l'ami?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">No. Fra noi l'amore</l>
             <l part="I">E' figlio del dovere.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Altra speranza</l>
             <l>Dunque a noi non rimane,</l>
             <l part="I">Che un comando paterno?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">E questa è vana;</l>
             <l part="I">Conosco il genitor.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Se avverso è il padre,</l>
             <l>Se insensibil tu sei, procura almeno</l>
             <l part="I">La nostra pace.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Io! Come?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Il popol brama</l>
             <l>I reali imenei. Quasi in tumulto</l>
@@ -702,85 +727,85 @@
             <l>Te nega a noi, dal tuo consiglio accetti</l>
             <l>Romolo un'altra sposa.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Dal mio consiglio!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="M">Ah sì!</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Qual dritto ho mai...</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Quel che su l'alma sua ti dona amore.</l>
             <l>Chi dispor di quel core</l>
             <l>Ardirebbe sperar, se a te non lice?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Io farmi debitrice</l>
             <l>Della sorte di Roma! Una regina</l>
             <l part="I">Io straniera cercar!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">L'hai pur vicina.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Chi?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="M">Valeria.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Valeria!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Oltraggio il trono</l>
             <l>Dall'illustre Valeria</l>
             <l>Almen non soffrirà, quando non possa</l>
             <l part="I">Adornarsi d'Ersilia.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">E ben, se credi</l>
             <l>Che giovi il voto mio... Ma queste, Ostilio,</l>
             <l>Son stravaganti idee... Valeria è amante.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Lo so. Per sua sventura</l>
             <l>D'Acronte è accesa; e sarebbe opra appunto</l>
             <l>Di sincera amistà franger quel laccio</l>
             <l>Tanto indegno di lei.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Sì... ma...</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Viene a momenti</l>
             <l part="I">Romolo a te.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Romolo!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Sì; proteggi,</l>
             <l part="I">Ersilia, il mio pensier; cerca...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Tu vuoi</l>
             <l>Ch'io deliri con te. Chi mai t'intende?</l>
@@ -789,7 +814,7 @@
             <l>Che sposa io l'offra. O m'ingannasti prima</l>
             <l part="I">O al presente m'inganni!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Ah non t'inganno,</l>
             <l>Né fin or t'ingannai.</l>
@@ -813,7 +838,7 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>ERSILIA, indi CURZIO</stage>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>D'un generoso amante</l>
             <l>Secondar io dovrei... Ma pur di qualche</l>
@@ -824,79 +849,79 @@
             <l>Ond'è che un tal mi regna</l>
             <l part="I">Tumulto in sen?</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Pur ti raggiungo, indegna.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Qual voce, oh Dio! Padre, signor...</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">T'accheta;</l>
             <l part="I">Non profanar quel nome.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Ah padre!</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Abbassa</l>
             <l>Le temerarie ciglia:</l>
             <l>La sposa d'un roman non è mia figlia.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Sposa! Io signor?</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Non aggravar, spergiura,</l>
             <l>Con la menzogna il fallo. Or or con l'altre</l>
             <l>Tue ribelli compagne</l>
             <l part="I">Sposa non fosti all'ara?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Io spettatrice</l>
             <l part="I">Vi fui, non sposa.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="M">E la tua man...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">La mano</l>
             <l>D'Ersilia non si dona</l>
             <l part="I">Senza il cenno paterno.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="M">E sei...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Son io</l>
             <l part="I">Sabina ancor.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="M">Né un trono offerto...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Un trono</l>
             <l part="I">Vile è per me, se a te nol deggio.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">E l'ire</l>
             <l part="I">E le minacce...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Altra minaccia, o padre,</l>
             <l>Non può farmi tremar, che quella sola</l>
@@ -904,14 +929,14 @@
             <l>A me la morte istessa,</l>
             <l>Amato genitor, sarebbe amara.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Ah, dell'anima mia parte più cara,</l>
             <l>Vieni al mio sen. Detesto</l>
             <l>I miei trasporti. Ah, più felice giorno</l>
             <l part="I">Per me fin or... Tu tremi, Ersilia?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Io tremo,</l>
             <l>Padre, per te. Qui Romolo a momenti</l>
@@ -920,28 +945,28 @@
             <l>Chi sa... Partiam, signore; ovunque vuoi,</l>
             <l part="I">Io sieguo i passi tuoi.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">No, figlia; il colpo</l>
             <l>S'avventura in tal guisa. E' della notte</l>
             <l part="I">Necessario il favor.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Ma intanto... Oh Dio!</l>
             <l part="I">Eccolo.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Io parto. Avverti</l>
             <l part="I">Che il tuo timor non mi tradisca.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Ah, dove,</l>
             <l part="I">Tu sicuro potrai...</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">V'è chi seconda</l>
             <l>Fido il disegno mio.</l>
@@ -951,7 +976,7 @@
         <div type="scene">
           <head>SCENA NONA</head>
           <stage>ERSILIA, poi ROMOLO</stage>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Misera me! mancava</l>
             <l>Solo alle angustie mie la più crudele,</l>
@@ -959,15 +984,15 @@
             <l>Come a Romolo offrirmi?... Ah, vien! S'evìti</l>
             <l>Per or la sua presenza.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Fuggi, Ersilia, da me?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">(Numi, assistenza!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Non temer, principessa,</l>
             <l>Ch'io ti parli d'amore: i tuoi rispetto,</l>
@@ -976,11 +1001,11 @@
             <l>Lo confesso, per me; ma il dispiacerti</l>
             <l part="I">Saria maggiore.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">(Oh generoso!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Io credo</l>
             <l>Però che non si chiami</l>
@@ -990,32 +1015,32 @@
             <l>Possessor mi faranno, il più felice</l>
             <l part="I">Io sarò de' viventi.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">(Oimè!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Che al trono</l>
             <l>Tu aggiungerai splendor; che tu di Roma</l>
             <l>La deità sarai; che arbitra sola</l>
             <l part="I">Sempre tu del cor mio...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Signor, permetti</l>
             <l part="I">Ch'io volga i passi altrove.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Ah, dunque io sono</l>
             <l part="I">L'aborrimento tuo?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">(Che pena!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Un fallo</l>
             <l> Se l'amore è per voi, per voi non credo</l>
@@ -1025,7 +1050,7 @@
             <l>Se dal Ciel m'è negata,</l>
             <l>Può ben essermi Ersilia amica e grata.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>(Non so più dove io sia. Non so s'io debba</l>
             <l>O partire o restar. Vorrei scusarmi;</l>
@@ -1033,17 +1058,17 @@
             <l>Che proferir vorrei,</l>
             <l>Si trasforma in sospir fra' labbri miei).</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>E tace Ersilia, e un guardo</l>
             <l>Non volge a me! Ma quando</l>
             <l>T'offesi mai? Ma di che reo son io?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Signor... se credi... (Oh Dio!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Né siegui! Ah, qualche</l>
             <l>Nuovo affanno t'opprime. A questo segno</l>
@@ -1053,55 +1078,55 @@
             <l>Degl'interni tumulti il cor commosso!</l>
             <l part="I">Spiegati, per pietà.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Signor... non posso. <stage>(piange</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <lg>
               <l>Ah, che vuol dir quel pianto?</l>
               <l>L'affanno tuo qual è?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <lg>
               <l>Sento morirmi, e intanto</l>
               <l>Non saprei dir perché.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <lg part="I">
               <l>Reo del tuo duol son io?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <lg part="F">
               <l>Tu... s'io sapessi... Addio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <lg part="I">
               <l part="I">Non mi lasciar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <lg part="M">
               <l part="F">Che giova?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <lg part="F">
               <l>Non mi lasciar così.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ersilia #romolo">
             <speaker>A DUE</speaker>
             <lg>
               <l>Angustia così nuova</l>
@@ -1143,17 +1168,17 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>CURZIO e detta.</stage>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="I">Figlia, Ersilia.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Ah, signor, possiam la nostra</l>
             <l>Partenza anticipar? Teco son io,</l>
             <l part="I">Se vieni ad affrettarmi.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Ad avvertirti</l>
             <l>D'un nuovo tuo periglio</l>
@@ -1168,18 +1193,18 @@
             <l>Le temerarie imprese</l>
             <l part="I">Belle sembrano a lui: guardati.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Ah, dunque</l>
             <l part="I">A che più rimaner? Partasi.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Il tempo</l>
             <l>Ancor non è. Pochi momenti ancora</l>
             <l part="I">Tollera in pace.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">In Roma</l>
             <l>Non v'è pace per me: questo soggiorno</l>
@@ -1188,7 +1213,7 @@
             <l>Fa ch'io m'involi, e fa ch'io possa al fine</l>
             <l>Respirar le tranquille aure sabine.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Oh come, amata figlia,</l>
             <l>Codesta m'innamora</l>
@@ -1254,34 +1279,34 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>ERSILIA, OSTILIO, indi VALERIA</stage>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Or dal Senato</l>
             <l part="I">Torna a' soggiorni suoi.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Sarà permesso</l>
             <l part="I">A me vederlo?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">A te! Perdona; è ingrata</l>
             <l part="I">La tua dubbiezza.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Io voglio</l>
             <l part="I">Seco parlar.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Potrebbe</l>
             <l>Forse Roma sperarti</l>
             <l>Fausta a' suoi voti, e grata</l>
             <l part="I">Romolo all'amor suo?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Non nacque Ersilia</l>
             <l>Per Roma, né per lui. Ma se pur vero,</l>
@@ -1289,21 +1314,21 @@
             <l>Di Romolo il volere, oggi regina</l>
             <l part="I">Sarà la tua Valeria.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="M">Ah! dunque...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F"><stage>(a Valeria che esce)</stage> Amica,</l>
             <l>Se mi secondan gli astri, un regio serto</l>
             <l part="I">Ad apprestarti io vado.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="M">A me?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Sì. Mia</l>
             <l>Di così bel pensiero</l>
@@ -1313,7 +1338,7 @@
             <l>In te propone; io con ragion l'ammiro,</l>
             <l>E ad emularlo ambiziosa aspiro.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Grata io vi son; ma voi</l>
             <l>Disponete di me, quando non posso</l>
@@ -1321,7 +1346,7 @@
             <l>Uno sposo infedele; e in me divenne</l>
             <l part="I">L'amor necessità.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Comun pretesto</l>
             <l>Dell'altrui debolezza. Eh! miglior uso</l>
@@ -1343,7 +1368,7 @@
         <div type="scene">
           <head>SCENA QUINTA</head>
           <stage>OSTILIO e VALERIA</stage>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Io nulla intendo, Ostilio: Ersilia amante</l>
             <l>Di Romolo credei: convinta a prova</l>
@@ -1353,19 +1378,19 @@
             <l>M'adulasti fin ora  amor fingendo:</l>
             <l>Ostilio, lo confesso, io nulla intendo.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Credendo Ersilia amante, io non saprei</l>
             <l>Se t'apponesti al ver. So ben ch'io t'amo</l>
             <l>Quanto amar mai si possa, e so che amarti</l>
             <l part="I">Sempre così vogl'io.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Ma tua regina</l>
             <l part="I">Come dunque mi brami?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">In che s'oppone</l>
             <l>Il trono all'amor mio? L'amor ch'io sento,</l>
@@ -1376,7 +1401,7 @@
             <l>Del tuo real decoro,</l>
             <l>Sempre t'adorerò, come or t'adoro.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Taci, Ostilio, e risparmia</l>
             <l>I rimorsi del mio cor d'esserti ingrata.</l>
@@ -1427,7 +1452,7 @@
           <head>SCENA SETTIMA</head>
           <stage>Gabinetti, viali coperti, ed altri edifici di verdure, tutti imitanti architettura, su la falda del Palatino.</stage>
           <stage>ROMOLO, poi ACRONTE</stage>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>No, d'Ersilia l'affanno</l>
             <l>Non è tutto rigor. Vidi in quel volto,</l>
@@ -1447,60 +1472,60 @@
             <l>Il voto popolar... Ma quale ascolto</l>
             <l part="I">Strepito d'armi! Olà. <stage>(verso la scena</stage></l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">No, questo acciaro</l>
             <l part="I">Non è facil trofeo. <stage>(dentro</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Contro un romano</l>
             <l part="I">I miei custodi!</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="M">Avversi dèi! <stage>(nell'uscir difendendosi gli cade la spada</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Fermate,</l>
             <l>Miei fidi. Ah, non si opprima,</l>
             <l>Chi difesa non ha. Stelle! M'inganno?</l>
             <l part="I">Acronte tu non sei?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="M"><stage>(con alterigia</stage> Lo sono.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">In Roma!</l>
             <l>Ne' miei soggiorni! in finte spoglie! E quale</l>
             <l part="I">E' il tuo disegno?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">A te ragion non rendo</l>
             <l part="I">Dell'opre mie. <stage>(come sopra</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Fuor di stagione, Acronte,</l>
             <l part="I">Ostenti ardir. Pensa ove sei.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Son meco</l>
             <l>Sempre, dovunque io sia.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Ma il valore è follia,</l>
             <l>Prence, nel caso tuo. Parla. Fu il vano</l>
             <l>Amor che hai per Ersilia, o fu l'antico</l>
             <l part="I">Odio per me, che t'acciecò?</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Risparmia</l>
             <l>Romolo, le richieste: io qui non venni</l>
@@ -1512,7 +1537,7 @@
             <l>Dagli avversi al valor fati inclementi,</l>
             <l part="I">E argomento la mia.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Male argomenti.</l>
             <l>Littori, olà; de' Ceninesi al prence</l>
@@ -1520,16 +1545,16 @@
             <l>Delle romane mura oltre il recinto</l>
             <l part="I">Conducetelo illeso.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">A me la spada!</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Sì, prendila; e, se puoi, racquista in campo</l>
             <l part="I">Ciò che in Roma perdesti.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <l part="F">Assai costarti</l>
             <l>L'imprudenza potrebbe. Una vendetta</l>
@@ -1537,14 +1562,14 @@
             <l>Romolo, t'avvedrai</l>
             <l>Che da saggio non è.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Io vendetta! E di che? Folle, ti scuso;</l>
             <l>Amante, ti compiango;</l>
             <l>Nemico, non ti curo; e a frodi avvezzo</l>
             <l>Se insidiator venisti, io ti disprezzo.</l>
           </sp>
-          <sp>
+          <sp who="#acronte">
             <speaker>ACR.</speaker>
             <lg>
               <l>Sprezzami pur per ora,</l>
@@ -1563,29 +1588,29 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>ROMOLO ed ERSILIA</stage>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>(Eccolo. La vittoria</l>
             <l part="I">E' tempo di compir). <stage>(s'incammina e s'arresta</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">(Strano portento</l>
             <l part="I">Quel coraggio è per me).</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">(Numi, qual sorte</l>
             <l>D'incantamento è questo! Appresso a lui di nuovo</l>
             <l part="I">Comincio a palpitar).</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">(Come può mai</l>
             <l>In un'alma albergar tanto valore</l>
             <l part="I">Con sì poca virtù!)</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">(No, non t'arresti</l>
             <l>Questo palpito, Ersilia. In ogni assalto</l>
@@ -1595,48 +1620,48 @@
             <l>Signor, per brevi istanti</l>
             <l part="I">Chiedo che tu m'ascolti.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">E' ver? Non sogno?</l>
             <l>La dolce cura mia,</l>
             <l>L'unico mio pensier, la bella Ersilia</l>
             <l part="I">Viene in traccia di me!</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F"><stage>(seria)</stage> Dunque ascoltarmi,</l>
             <l part="I">Romolo, tu non vuoi?</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F"><stage>(come sopra)</stage> Lo sai,</l>
             <l part="I">Quel linguaggio m'offende.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">A mio dispetto</l>
             <l part="I">Vien su le labbra il cor.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Se vuoi ch'io resti,</l>
             <l>Non far uso di questi</l>
             <l>Teneri accenti, e non dir mai che m'ami.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>(E pur non m'odia). Ubbidirò. Che brami?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Ad implorare io vengo</l>
             <l part="I">Grazie da te.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Tu da me grazie! Ah! dunque</l>
             <l>Ignori ancor che dal felice istante</l>
@@ -1644,39 +1669,39 @@
             <l>Del mio cor, del mio soglio,</l>
             <l>Di tutti... Ah! no; disubbidir non voglio.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>(Costanza, Ersilia. A lui</l>
             <l part="I">Si proponga Valeria).</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">E ben, che chiedi?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Che di mia mano accetti,</l>
             <l part="I">Romolo, un'altra sposa.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M"><stage>(con sorpresa)</stage> Io!</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Sì. L'amica</l>
             <l part="I">Valeria io t'offro.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">A me? <stage>(turbato</stage></l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Valeria è degna</l>
             <l>Il sai, d'essere amata.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>E a questo segno, ingrata, <stage>(con passione di sdegno e di tenerezza</stage></l>
             <l>Insulti all'amor mio! Questa mercede</l>
@@ -1686,11 +1711,11 @@
             <l>Dove impressa tu sei, dove tu sempre,</l>
             <l>Così barbara ancor, sarai regina?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>(Ah, non lasciarmi, austerità sabina!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Offrirmi un'altra sposa! E non bastava</l>
             <l>Per opprimermi, oh dèi! la tua freddezza,</l>
@@ -1699,11 +1724,11 @@
             <l>Eccesso di tormento</l>
             <l part="I">Chi non vive che in te!</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">(Morir mi sento).</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Semplice! ed io pur dianzi</l>
             <l>Dell'amor tuo mi lusingai. Quei detti</l>
@@ -1712,33 +1737,33 @@
             <l>Tutto mi parve un amoroso affanno.</l>
             <l part="I">Che inganno, Ersilia! <stage>(con tenerezza</stage></l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F"><stage>(come sopra)</stage> Ah, non è stato inganno!</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Come! non m'ingannai? <stage>(con sorpresa di piacere</stage></l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">(Numi, che dissi mai!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F"><stage>(con impeto d'affetto)</stage> Bella mia fiamma,</l>
             <l>Dunque è ver, dunque m'ami?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Taci; non trionfar.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Ma come, amante,</l>
             <l part="I">Potesti offrirmi un'altra sposa?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Oh Dio,</l>
             <l>Non trafiggermi più. Se tu vedermi</l>
@@ -1753,7 +1778,7 @@
             <l>Romolo, io ti farei</l>
             <l part="I">Meraviglia e pietà.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Dimmi piuttosto</l>
             <l>Tenerezza ed amor. Chi fra' mortali</l>
@@ -1762,17 +1787,17 @@
             <l>Astro del nuovo impero;</l>
             <l part="I">Ecco Roma felice.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Ah, non è vero!</l>
             <l>E' speranza infedel; mal ti consiglia;</l>
             <l part="I">Tua non sarò.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">Ma perché mai?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Son figlia.</l>
             <lg>
@@ -1792,7 +1817,7 @@
         <div type="scene">
           <head>SCENA NONA</head>
           <stage>ROMOLO, indi OSTILIO</stage>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Ah! non è dubbio il mio trionfo; ho vinto</l>
             <l>L'austero cor d'Ersilia. Il genitore,</l>
@@ -1801,25 +1826,25 @@
             <l>Nulla fia ch'io risparmi</l>
             <l part="I">Per ottener da lui...</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F"><stage>(con premura)</stage> Romolo, all'armi.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Che fu?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Roma è in periglio. Ingrato Acronte</l>
             <l>A' benefici tuoi, libero a pena,</l>
             <l part="I">D'assalirla minaccia.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">E con quai schiere?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Co' Ceninesi suoi. Già in vari agguati</l>
             <l>Pronti gli avea; che ad un suo cenno io vidi</l>
@@ -1828,17 +1853,17 @@
             <l>Balenar mille acciari, e cento e cento</l>
             <l>Improvvise bandiere aprirsi al vento.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Mal preparati il folle</l>
             <l>Sorprenderne sperò. Lo disinganni</l>
             <l part="I">Il suo castigo. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="M">Al fianco tuo... <stage>(volendolo seguire</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">No, resta.</l>
             <l>Roma io confido a te. Veglia in difesa</l>
@@ -1847,11 +1872,11 @@
             <l>Non ancora eseguita insidia ascosa.</l>
             <l part="I">Va, non tardar.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Su la mia fé riposa. <stage>(parte</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Grazie, o nume dell'armi,</l>
             <l>Grazie, o madre d'Amor, del sangue mio</l>
@@ -1881,7 +1906,7 @@
           <head>SCENA PRIMA</head>
           <stage>Sito angusto ed incolto negli orti palatini, ristretto fra scoscesi ed elevati sassi, bagnato da un'acqua cadente, e soltanto illuminato dall'alto, quanto permettono le frondose piante che gli sovrastano.</stage>
           <stage>CURZIO frettoloso, poi ERSILIA</stage>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Dove mai rinvenirla? Il destro istante</l>
             <l>Trascurar non vorrei. M'offre la sorte...</l>
@@ -1889,7 +1914,7 @@
             <l>Rendi grazie agli dèi; partir possiamo:</l>
             <l part="I">Giunse il tempo opportuno.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Ah! tu non sai,</l>
             <l>Che accesa è già del Palatino a tergo</l>
@@ -1899,11 +1924,11 @@
             <l>Tutti d'armi e d'armati; e di Sabina</l>
             <l part="I">Interrotta è ogni via.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="M">Non tutte.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Io stessa,</l>
             <l>Non dubitarne, o genitor, dall'alto</l>
@@ -1911,7 +1936,7 @@
             <l>Già veduto assalirsi; e dal funesto</l>
             <l part="I">Spettacolo fuggendo...</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Appunto all'opra</l>
             <l> Questo, che credi inciampo,</l>
@@ -1925,12 +1950,12 @@
             <l>Siam nell'Etruria amica: e quindi è franco</l>
             <l part="I">Alla patria il ritorno.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Eccomi dunque</l>
             <l part="I">Pronta a seguirti.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">No: questa ti lascio</l>
             <l>Scorta fedel; seco t'invia. Raccolti</l>
@@ -1942,11 +1967,11 @@
             <l>Ne attende poi là dove bagna il fiume</l>
             <l part="I">La porta Carmental.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">(Crudel partenza!)</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Palpiti ancora? Eh, non temer; ti fida,</l>
             <l>Ersilia, a me: tutto io pensai; son tutti</l>
@@ -1970,7 +1995,7 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>ERSILIA, poi VALERIA</stage>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Oh Tebro, oh Roma, oh care sponde, a cui</l>
             <l>I miei primi ho fidati</l>
@@ -1991,41 +2016,41 @@
             <l>Se pur sai le vicende,</l>
             <l>Non lasciar ch'io le ignori.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="I">Il conflitto finì.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Chi vinse?</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Avea</l>
             <l part="I">Romolo già la palma.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Ed ora?</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Ed ora</l>
             <l>Non si sa chi otterrà l'ultime lodi.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Io nulla intendo.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Intenderai, se m'odi.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Parla.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Già della pugna</l>
             <l>Deciso era il destin; già in ogni lato</l>
@@ -2044,11 +2069,11 @@
             <l>Con insano ardimento</l>
             <l>Il vincitore a singolar cimento.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Oh temerario!</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Il nostro eroe, sdegnando</l>
             <l>Ogni vantaggio, ad un girar di ciglio</l>
@@ -2057,11 +2082,11 @@
             <l>Cambiar di volto, al Ceninese ardito</l>
             <l>Si fece incontro ed accettò l'invito.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Ma poi?</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Non so: quando partì dal campo</l>
             <l>Chi mi narrò ciò ch'io t'esposi, ancora</l>
@@ -2071,27 +2096,27 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>OSTILIO e detti.</stage>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Più indistinto non è: Romolo ha vinto.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">Ed è vero?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Il vedrai</l>
             <l>Tu stessa or ora al re de' numi in voto</l>
             <l>Le prime spoglie opime</l>
             <l part="I">Trionfante portar.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Le spoglie! Ah! dunque</l>
             <l part="I">Acronte...</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Acronte a prova</l>
             <l>Mostrò di quanto alla virtude e all'arte</l>
@@ -2108,11 +2133,11 @@
             <l>Corre a lui, lo solleva,</l>
             <l part="I">Gli rende il ferro.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">Oh grande!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">E già volea</l>
             <l>Stringerlo amico al sen, quando s'avvide</l>
@@ -2123,11 +2148,11 @@
             <l>Di quell'ingrato sangue ancor non tinto,</l>
             <l>Gli passa il petto e lo rovescia estinto.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="I">Chi mi soccorre! Io moro. <stage>(s'abbandona sopra un sasso</stage></l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Or di costanza,</l>
             <l>Valeria, è tempo. Un tale affanno... (Oh Dio,</l>
@@ -2152,21 +2177,21 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>VALERIA ed OSTILIO</stage>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Adorata Valeria,</l>
             <l>Soffri ch'io lo confessi, invidio il fato</l>
             <l>Di chi l'omaggio ottiene</l>
             <l part="I">Di lagrime si' belle.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Ostilio, ah parti!</l>
             <l>Un di mia debolezza</l>
             <l>Spettator, qual tu sei,</l>
             <l part="I">Mi fa troppo arrossir.</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Sono i tuoi cenni</l>
             <l>Leggi per me. Ma sappi</l>
@@ -2216,7 +2241,7 @@
           <stage>Luogo spazioso alle radici del colle Palatino già ornato per festeggiare le seguìte nozze con le donzelle sabine; donde per magnifica scala si ascende alla reggia di Romolo situata sul colle suddetto.</stage>
           <stage>La scena è tutta ingombrata di numeroso popolo accorso al ritorno del vincitore. Fra lo strepito de' pubblici applausi si avanza ROMOLO coronato d'alloro, preceduto da' littori, da' prigionieri sabini, dalle spoglie opime del vinto ACRONTE, e seguìto dal trionfante esercito vittorioso.</stage>
           <stage>ROMOLO, indi VALERIA frettolosa.</stage>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Serbate, o numi,</l>
@@ -2231,7 +2256,7 @@
               <l>La terra e il mar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <lg>
               <l>Il tenor de' fati intendi,</l>
@@ -2252,7 +2277,7 @@
               <l>I superbi a debellar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Serbate, o numi,</l>
@@ -2261,38 +2286,38 @@
               <l>Di trionfar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <lg>
               <l>Il tenor de' fati intendi,</l>
               <l>E vincendo, o Roma, apprendi...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l>Al riparo, signor. La tua presenza</l>
             <l>E' necessaria: abbiam nemici in Roma.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Nemici in Roma!</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="M">Sì.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">Dove?</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="F">Là, verso</l>
             <l>La porta Carmental, già tutto è in armi.</l>
             <l>Altri accorre, altri fugge, e si dilata</l>
             <l>A momenti il tumulto.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Seguitemi, o Romani.</l>
           </sp>
@@ -2300,28 +2325,28 @@
         <div type="scene">
           <head>SCENA SETTIMA</head>
           <stage>OSTILIO e detti.</stage>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">E' tutto in calma:</l>
             <l>Risparmia a maggior uopo,</l>
             <l part="I">Romolo, il tuo valor.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Ma qual cagione...</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l>Il crederesti? Ersilia</l>
             <l part="I">V'è chi tentò rapir.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Come dal chiuso</l>
             <l>Recinto cittadin sperar potea</l>
             <l part="I">D'uscir sicuro il rapitor?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Già innanzi</l>
             <l>Delle porte custodi</l>
@@ -2334,15 +2359,15 @@
             <l>Seguace stuol, benché ostinato e fiero,</l>
             <l>Tutto estinto rimase, ei prigioniero.</l>
           </sp>
-          <sp>
+          <sp who="#valeria">
             <speaker>VAL.</speaker>
             <l part="I">Oh ardire!</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">E intanto Ersilia?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Ersilia intanto</l>
             <l>Palpitante e smarrita...</l>
@@ -2351,60 +2376,60 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>ERSILIA e detti.</stage>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l>Ah Romolo, pietà, clemenza, aita! <stage>(vuole inginocchiarsi</stage></l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Principessa, ah, che fai? Sorgi: che temi?</l>
             <l part="I">Qui sicura già sei. <stage>(l'impedisce</stage></l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Salvami il padre</l>
             <l>Da' militari insulti,</l>
             <l part="I">Dall'ira popolare.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">Il padre!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Ah! quello</l>
             <l>Forse che te per man traeva, e ch'io</l>
             <l part="I">Ammirai nella pugna...</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">E' il padre mio.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Di lui che avvenne?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">E' prigionier, ma salvo.</l>
             <l>Serbarti alcuno, onde ritrarre il vero,</l>
             <l>Credei prudente; ed esigea rispetto</l>
             <l part="I">La sua presenza, il suo valor.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Ma dove</l>
             <l>Il prence or si trattiene?</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="I">Fra i custodi il lasciai.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">Deh, venga!</l>
           </sp>
-          <sp>
+          <sp who="#ostilio">
             <speaker>OST.</speaker>
             <l part="F">Ei viene.</l>
           </sp>
@@ -2412,7 +2437,7 @@
         <div type="scene">
           <head>SCENA ULTIMA</head>
           <stage>CURZIO fra le guardie, e detti.</stage>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Principe valoroso, e non avranno</l>
             <l>Mai fin gli sdegni nostri? I nostri ognora</l>
@@ -2423,19 +2448,19 @@
             <l>Torni l'invitto acciar. Libero sei.</l>
             <l>Niuna sopra di te ragion mi resta.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>(Qual mai favella inaspettata è questa!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Non mi rispondi, o prence?</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">(Implacabile è il padre).</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Ah, già che puoi</l>
             <l>Render altri felice,</l>
@@ -2447,26 +2472,26 @@
             <l>Della nostra amistà. Curzio prescriva,</l>
             <l>Curzio l'arbitro sia del mio destino.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>(Perché Romolo, o dèi, non è sabino!)</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">(Ah, tace ognor!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">Tu parla, Ersilia.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Oh Dio!</l>
             <l>Che posso dir? Son figlia;</l>
             <l>Intendo il padre; e l'ubbidir, lo sai,</l>
             <l part="I">E' il mio primo dover.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Dunque decisa</l>
             <l>E' la mia sorte. Il suo tacer si spiega</l>
@@ -2476,27 +2501,27 @@
             <l>Me stesso io vincerò. Va; la tua figlia</l>
             <l>Libero riconduci al suol natio.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="I">A me tu rendi Ersilia!</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="M">A te.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Che intendo!</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>E amante e amato e vincitor la rendo.</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="I">(Oh, virtù più che umana!)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="F">Addio, mia sola,</l>
             <l>Addio, bella mia fiamma. Il Ciel ti serbi</l>
@@ -2504,34 +2529,34 @@
             <l>Del tuo sesso all'onore,</l>
             <l>Al mio rispetto ed all'esempio altrui.</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="I">(Morir mi sento).</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">(E come odiar costui?)</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l>Parla, guardami, o prence,</l>
             <l>Almen pria di partir. Deh, parti amico</l>
             <l>Già che padre non vuoi! L'antico almeno</l>
             <l>Natio rancore in qualche parte estinto...</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l>Ah! figlio, ah! basta: eccoti Ersilia: hai vinto.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">E' sogno!</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="M">E' ver!</l>
           </sp>
-          <sp>
+          <sp who="#curzio">
             <speaker>CUR.</speaker>
             <l part="F">Non ho di sasso al fine</l>
             <l>In petto il cor. V'è chi conoscer possa</l>
@@ -2539,15 +2564,15 @@
             <l>Anch'io l'amo, l'adoro, e al Ciel son grato,</l>
             <l>Che a sì bel dì mi conservò pietoso.</l>
           </sp>
-          <sp>
+          <sp who="#romolo">
             <speaker>ROM.</speaker>
             <l part="I">Oh Roma fortunata!</l>
           </sp>
-          <sp>
+          <sp who="#ersilia">
             <speaker>ERS.</speaker>
             <l part="F">Oh padre! oh sposo!</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Numi, che intenti siete</l>

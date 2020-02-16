@@ -81,6 +81,43 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <personGrp xml:id="ombra">
+            <name>Ombra</name>
+          </personGrp>
+          <person xml:id="eolo">
+            <persName>Eolo</persName>
+          </person>
+          <person xml:id="consigliero">
+            <persName>Consigliero</persName>
+          </person>
+          <person xml:id="cameriera">
+            <persName>Cameriera</persName>
+          </person>
+          <person xml:id="deiopea">
+            <persName>Deiopea</persName>
+          </person>
+          <person xml:id="macareo">
+            <persName>Macareo</persName>
+          </person>
+          <person xml:id="famiglio">
+            <persName>Famiglio</persName>
+          </person>
+          <person xml:id="nutrice">
+            <persName>Nutrice</persName>
+          </person>
+          <person xml:id="canace">
+            <persName>Canace</persName>
+          </person>
+          <person xml:id="coro">
+            <persName>Coro</persName>
+          </person>
+          <person xml:id="ministro">
+            <persName>Ministro</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -140,7 +177,7 @@
       <div>
         <head>Scena 1</head>
         <stage>OMBRA</stage>
-        <sp>
+        <sp who="#ombra">
           <speaker>OMBRA</speaker>
           <l>Uscito dello 'nferno,</l>
           <l>Vegno al vostro cospetto, ombra infelice</l>
@@ -285,7 +322,7 @@
       <div>
         <head>Scena 2</head>
         <stage>EOLO. CONSIGLIERO</stage>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Oggi son diciotto anni</l>
           <l>Che un parto sol della mia Deiopea</l>
@@ -336,7 +373,7 @@
           <l>Di che poco suo danno,</l>
           <l>Nacque la molta mia tranquilla pace.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Iddio grande e pietoso</l>
           <l>È ora Enea, se 'l cielo</l>
@@ -346,25 +383,25 @@
           <l>Il cui tenero cor molte fiate</l>
           <l>D'ira più che d'amor fu visto ardente.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Non s'eguagli a Giunone,</l>
           <l>Suora e sposa di Giove,</l>
           <l>Mio scettro e mia corona,</l>
           <l>Mia somma podestade.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>L'una placa et acqueta,</l>
           <l>L'altra inchina et adora.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Forse piacerò lei, perché io meno ami</l>
           <l>L'uno e l'altro mio figlio?</l>
           <l>O l'un l'altro non ami?</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Lei ringrazia perché ami</l>
           <l>Te la fedel tua sposa,</l>
@@ -374,7 +411,7 @@
           <l>Non son tardi, che l'uno</l>
           <l>Troppo l'altro non ami.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Lunge dalla mia casa</l>
           <l>Cada l'ira di Marte,</l>
@@ -387,12 +424,12 @@
           <l>Scaldano il petto molle e delicato</l>
           <l>Della madre d'Amore.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Voglia Dio che tai motti</l>
           <l>Non tornino in sospiri.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Deh, per grazia, se mi ami,</l>
           <l>Cessi il tuo mormorare e con parole</l>
@@ -461,14 +498,14 @@
           <l>Fa' che i miei preghi giusti</l>
           <l>Non disperdano i venti.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>O lieve e vana gioia</l>
           <l>Se da' venti dipende!</l>
           <l>O fugace allegrezza, o instabil bene,</l>
           <l>Se viene e va co' venti!</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Tu, il cui senno onora</l>
           <l>Questo mio piccol regno</l>
@@ -488,7 +525,7 @@
       <div>
         <head>Scena 3</head>
         <stage>CONSIGLIERO [<hi rend="italic">solo</hi>]</stage>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Questa nuova allegrezza</l>
           <l>Che for d'ogni ragione</l>
@@ -549,7 +586,7 @@
         <head>Scena 4</head>
         <stage>[CORO]</stage>
         <stage>CAMERIERA. DEIOPEA</stage>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Reina Deiopea,</l>
           <l>Vagliami quella fede</l>
@@ -568,7 +605,7 @@
           <l>Che uso è di potere</l>
           <l>Vostro senno e valore.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Ben pòi sicuramente</l>
           <l>Spaziare a tua voglia</l>
@@ -639,13 +676,13 @@
           <l>Che è rimaso nel core</l>
           <l>Mi copre il volto ancor del suo colore.</l>
         </sp>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Faccia Dio, o reina,</l>
           <l>Che ogni vostro travaglio e ogni sospetto</l>
           <l>Sempre sia sogno et ombra.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Come l'ombre presenti</l>
           <l>Vere imagini sono</l>
@@ -663,20 +700,20 @@
           <l>E di molte altre assai</l>
           <l>Che far possiamo e non facciàn giamai.</l>
         </sp>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Dunque sono gran parte</l>
           <l>Senza alcun peso e far che nell'aspetto</l>
           <l>I nostri sogni vani.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Se ciò non fosse, il mio alto sospetto</l>
           <l>Mi recarebbe al core</l>
           <l>Il medesmo dolore</l>
           <l>Che altrui reca il martiro.</l>
         </sp>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Infinito è l'amore</l>
           <l>D'Eolo verso i figliuoli et infinito</l>
@@ -699,7 +736,7 @@
           <l>Voler farvi infelice</l>
           <l>Senza infelicitade.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Saggiamente consigli,</l>
           <l>Come è di tuo costume.</l>
@@ -729,7 +766,7 @@
       <div>
         <head>Scena 5</head>
         <stage>CAMERIERA [<hi rend="italic">sola</hi>]</stage>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Sempre d'allora in qua che prima apersi</l>
           <l>Gli occhi dello 'ntelletto</l>
@@ -773,7 +810,7 @@
       <div>
         <head>Scena 6</head>
         <stage>MACAREO. FAMIGLIO. CAMERIERA</stage>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Oggi non odo o vedo alcuna cosa</l>
           <l>Che lieta sia e mentre in qualche modo</l>
@@ -785,14 +822,14 @@
           <l>Di quali augurii rei</l>
           <l>Pò ragionar costei?</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Se vi è caro il saperlo,</l>
           <l>Signor, fatele motto attraversando</l>
           <l>Questo poco di strada</l>
           <l>Prima che ella sen vada.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Secretaria fedel della reina</l>
           <l>Mia madre e tua signora,</l>
@@ -801,7 +838,7 @@
           <l>Onde in atti e in parole</l>
           <l>Sola teco ti duoli e ti lamenti.</l>
         </sp>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Macareo signor mio,</l>
           <l>Vita della reina,</l>
@@ -835,12 +872,12 @@
           <l>Da lei mandata, e vogliola ubidire,</l>
           <l>S'altro non vuoi udire.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Poco parle aver detto! Or pòi andare</l>
           <l>Ove e quando ti piace.</l>
         </sp>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Rimanetevi in pace.</l>
         </sp>
@@ -848,7 +885,7 @@
       <div>
         <head>Scena 7</head>
         <stage>FAMIGLIO. MACAREO</stage>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Signore, a quel che io scerno nella faccia</l>
           <l>Di vostro stato interno,</l>
@@ -856,7 +893,7 @@
           <l>Alcun sospetto porse</l>
           <l>Vi fa essere in forse.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Questo sogno materno,</l>
           <l>Se come è buon pittore</l>
@@ -917,7 +954,7 @@
       <div>
         <head>Scena 8</head>
         <stage>NUTRICE. MACAREO</stage>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Macareo figliuol mio, or che nel caso</l>
           <l>Di tua sorella e tuo</l>
@@ -942,7 +979,7 @@
           <l>Far tanto mai che in così fatto caso</l>
           <l>Dovesse essere assai.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Nutrice di colei che la natura</l>
           <l>Per sorella mi diede, Amor per moglie,</l>
@@ -964,7 +1001,7 @@
           <l>Paterna incrudelisca</l>
           <l>Nella figlia innocente.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Dunque credi, crudel, che tua sorella</l>
           <l>Ami tanto sé stessa che togliesse</l>
@@ -980,7 +1017,7 @@
       <div>
         <head>Scena 9</head>
         <stage>NUTRICE <hi rend="italic">sola</hi>.</stage>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Sciocchi a mio danno o del ben mio nemici</l>
           <l>Furono veramente</l>
@@ -1040,7 +1077,7 @@
         <head>Scena 10</head>
         <stage>[CORO]</stage>
         <stage>CANACE</stage>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>O Giunone Lucina,</l>
           <l>Dea de' parti, dea</l>
@@ -1087,7 +1124,7 @@
       <div>
         <head>Scena 11</head>
         <stage>NUTRICE. CANACE</stage>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>O figliuola meschina,</l>
           <l>Ora ove ti mena</l>
@@ -1105,7 +1142,7 @@
           <l>Di timore e d'orrore,</l>
           <l>Di vergogna, di danno.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>A quai promesse vane</l>
           <l>Di bugiarda speranza</l>
@@ -1123,7 +1160,7 @@
           <l>Del mio commesso errore</l>
           <l>La propria conscienzia.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Per qual nova cagione</l>
           <l>Così subitamente</l>
@@ -1141,7 +1178,7 @@
           <l>Che io possa altrui coprire</l>
           <l>L'ora del partorire?</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Basta un punto alla pena</l>
           <l>D'ogni lungo peccato.</l>
@@ -1152,7 +1189,7 @@
           <l>Del mio commesso errore</l>
           <l>Con mio doppio dolore.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>O vinta dal dolore,</l>
           <l>Disperata fanciulla,</l>
@@ -1167,7 +1204,7 @@
           <l>D'ogni legge e costume,</l>
           <l>Ti divenisse sposo.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Odio a morte la vita</l>
           <l>Che con ragio sì cruda e sì spiacente</l>
@@ -1178,12 +1215,12 @@
           <l>E mi fa disiare</l>
           <l>Quel che io temo e pavento.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Viva al tuo Macareo</l>
           <l>La vita tua, tua non già, ma sua.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Fa' che questa mia vita</l>
           <l>Possa tanto schermirsi dagli affanni</l>
@@ -1194,19 +1231,19 @@
           <l>Come posso sperare</l>
           <l>Che debba essere altrui dolce o gioiosa?</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>More, se tu non vivi,</l>
           <l>Il figliuolo innocente.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Vivendo, vive un figlio</l>
           <l>Di due fratelli, un mostro, un disonore</l>
           <l>Del secol nostro, un testimonio eterno</l>
           <l>Di scelerato amore.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Poi che viver non vòi</l>
           <l>Alla vita del tuo parto innocente,</l>
@@ -1228,12 +1265,12 @@
           <l>Se a me credevi, avea fatto sicuri</l>
           <l>Te, il fratello e il figlio.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Lasciarai tu, crudele,</l>
           <l>Me sconsolata e sola?</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Crudel, cui soffre il core</l>
           <l>Di far seco perire</l>
@@ -1241,7 +1278,7 @@
           <l>Il figliuolo, il fratello</l>
           <l>E sua fama e suo onore.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Ecco la vita mia</l>
           <l>Combattuta d'amore e da pietade,</l>
@@ -1250,7 +1287,7 @@
           <l>Vinca qual più li piace,</l>
           <l>Se non si pò aver pace.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Vinca speme e ragione i duri assalti</l>
           <l>De gli adversarii tuoi</l>
@@ -1273,7 +1310,7 @@
           <l>Oggi possa avanzare</l>
           <l>Alla disperazione.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Ora ovunque si trovi, o nel profondo</l>
           <l>Del mare o presso al porto,</l>
@@ -1282,19 +1319,19 @@
           <l>Poco posso esser lunge</l>
           <l>Dal fin d'ogni mio affanno.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Di poco core, ancora</l>
           <l>Non ti assicuri? Ancora</l>
           <l>Rifiuti i miei conforti?</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Già non posso a mio senno</l>
           <l>Sperare e disperare:</l>
           <l>Come posso ubidirti?</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Entra, figliuola, e vivi</l>
           <l>Nel tuo secreto albergo,</l>
@@ -1304,7 +1341,7 @@
           <l>Basta alla tua salute</l>
           <l>Che tu voglia ubidirmi.</l>
         </sp>
-        <sp>
+        <sp who="#canace">
           <speaker>CANACE</speaker>
           <l>Entro, da che il comandi:</l>
           <l>Siati ricomandata</l>
@@ -1319,7 +1356,7 @@
       <div>
         <head>Scena 12</head>
         <stage>NUTRICE <hi rend="italic">sola</hi>.</stage>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Qui starò aspettando fin che passi</l>
           <l>Il famiglio che io aspetto.</l>
@@ -1328,7 +1365,7 @@
           <l>L'albergo di Canace.</l>
         </sp>
         <stage>DEIOPEA. NUTRICE</stage>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>O nutrice fedele,</l>
           <l>O accorta nutrice,</l>
@@ -1345,7 +1382,7 @@
           <l>E che fa or nella sua cameretta</l>
           <l>La tua figliola e mia?</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>O reina, signora</l>
           <l>Di ciò che vale e pò la vita mia,</l>
@@ -1364,7 +1401,7 @@
           <l>Del giovine anno. In tanto</l>
           <l>Ella si posa e dorme.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Piacemi questa sua</l>
           <l>Divota gentilezza.</l>
@@ -1380,7 +1417,7 @@
       <div>
         <head>Scena 13</head>
         <stage>NUTRICE <hi rend="italic">sola</hi>.</stage>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Queste secrete imprese, onde dipende</l>
           <l>La salute e l'onore</l>
@@ -1409,7 +1446,7 @@
       <div>
         <head>Scena 14</head>
         <stage>FAMIGLIO. NUTRICE</stage>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Ecco che io vegno presto</l>
           <l>A' tuoi comandamenti,</l>
@@ -1420,7 +1457,7 @@
           <l>D'alcuni fiori, intendo</l>
           <l>Di quel frutto che attendo.</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>Ora intendi di fiori:</l>
           <l>De' quai tu m'empierai</l>
@@ -1428,13 +1465,13 @@
           <l>Quanto più tosto pòi,</l>
           <l>La mi riporterai.</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Di questi fiori vòi</l>
           <l>Che io dica al mio signore</l>
           <l>Quel che tu ne farai?</l>
         </sp>
-        <sp>
+        <sp who="#nutrice">
           <speaker>NUTRICE</speaker>
           <l>De' medesimi fiori</l>
           <l>Nella cesta medesma</l>
@@ -1465,7 +1502,7 @@
       <div>
         <head>Scena 15</head>
         <stage>FAMIGLIO [<hi rend="italic">solo</hi>].</stage>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>O femminil natura,</l>
           <l>Da qual fato di Dio, da qual ventura</l>
@@ -1508,7 +1545,7 @@
         <head>Scena 16</head>
         <stage>[CORO]</stage>
         <stage>FAMIGLIO. CORO</stage>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>O fortuna nemica</l>
           <l>Delle pietose imprese:</l>
@@ -1520,14 +1557,14 @@
           <l>E, che è peggio, la spene</l>
           <l>Di mai più ricovrarlo!</l>
         </sp>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>O dolente principio!</l>
           <l>Che parole son queste? Che novelle</l>
           <l>Di là entro n'apporti?</l>
           <l>Parla: che vòi tu dire?</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>O misera Canace,</l>
           <l>Misero Macareo, o infelice</l>
@@ -1541,7 +1578,7 @@
           <l>Mortali et immortali</l>
           <l>Infelici egualmente.</l>
         </sp>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>Distingui omai, distingui</l>
           <l>Questi confusi mali:</l>
@@ -1551,7 +1588,7 @@
           <l>In ogni suo accidente</l>
           <l>Che la sorte comparte.</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Discoperto ha fortuna ogni secreto</l>
           <l>Dell'amor di Canace:</l>
@@ -1559,19 +1596,19 @@
           <l>E il fanciul pur mo nato ha nelle mani</l>
           <l>Il padre aspro e feroce.</l>
         </sp>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>Parla sì bassamente</l>
           <l>Che non l'oda la gente.</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Poco per la mia lingua</l>
           <l>Potrà il vulgo sapere,</l>
           <l>Che con la propria luce</l>
           <l>Non abbia visto o non sia per vedere.</l>
         </sp>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>L'error corto d'un dito,</l>
           <l>Seminato nel vulgo,</l>
@@ -1581,17 +1618,17 @@
           <l>Ma chi fu l'inumano</l>
           <l>Che palesò così pietoso inganno?</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Il fanciullo medesmo</l>
           <l>Che pur mo nacque.</l>
         </sp>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>O giudizio divino!</l>
           <l>Or ne conta in che modo.</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Dovete avere a mente</l>
           <l>L'ordine che fu posto di celare</l>
@@ -1698,7 +1735,7 @@
           <l>Che ha perduto ogni bene</l>
           <l>E stallo ad aspettare.</l>
         </sp>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>Tosto ritroverai il tuo signore:</l>
           <l>Che alle triste novelle sempremai</l>
@@ -1722,7 +1759,7 @@
       <div>
         <head>Scena 17</head>
         <stage>EOLO. CONSIGLIERO</stage>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Scelerati figliuoli, così come</l>
           <l>Più vi sarebbe onore</l>
@@ -1737,54 +1774,54 @@
           <l>Ove nissun crudele</l>
           <l>Non po' esser crudel tanto che basti.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Io non so caso alcun tanto e sì grave,</l>
           <l>Che la vostra virtude,</l>
           <l>Se ella è vosco al bisogno, in tempo breve</l>
           <l>Nol vi faccia sentir piccolo e leve.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Memorabil vendetta</l>
           <l>Mi torrà dalle spalle</l>
           <l>Questo noioso incarco.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Tolga Iddio che giamai</l>
           <l>Il disio di vendetta</l>
           <l>Sieda in un cor reale et ivi usurpi</l>
           <l>Della giustizia il loco.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>La vendetta in tal caso,</l>
           <l>Quanto men fie pietosa,</l>
           <l>Tanto sarà più giusta.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Non po' esser giustizia</l>
           <l>Nemica di pietade.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Qui sarebbe impietade</l>
           <l>L'aver compassione.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Signor, non vi scordate d'esser dio</l>
           <l>E che, come re siete,</l>
           <l>Così voi siete padre.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Vòi tu che egli sia lecito a' figliuoli</l>
           <l>De' dei l'essere iniqui e scelerati?</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Questo non: ma vorrei</l>
           <l>Che lo sdegno e il disio</l>
@@ -1792,7 +1829,7 @@
           <l>Colpe di noi mortali,</l>
           <l>Non peccati di dei.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>A punir degnamente</l>
           <l>Questi due scelerati</l>
@@ -1801,7 +1838,7 @@
           <l>Essere oggi tal dio che immantenente</l>
           <l>Potessi far che non fosser mai nati.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Sia, se volete, iniquo e scelerato</l>
           <l>L'uno e l'altro parente;</l>
@@ -1809,7 +1846,7 @@
           <l>Punirà il vostro sdegno</l>
           <l>Questo parto innocente?</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Mora per nostro onore</l>
           <l>L'infamia del mio regno,</l>
@@ -1821,7 +1858,7 @@
           <l>Chi nascer non dovea, sì malamente</l>
           <l>Fu generato.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Se la pietà paterna</l>
           <l>In voi non pò soffrir di veder vivi</l>
@@ -1834,24 +1871,24 @@
           <l>Di vederli et udirli,</l>
           <l>Temete di exaudirli.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Pianti, sospiri e dimandar mercede</l>
           <l>Foran le lor ragioni.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Lecito è lor, quando non hanno altre armi,</l>
           <l>Usar pianti e sospiri</l>
           <l>In lor difesa e dimandar mercede.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Non voglio esser traffitto</l>
           <l>Da cotali armi, usate</l>
           <l>A ferir la giustizia.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Se l'arme di pietade</l>
           <l>Temete, or vi pensate</l>
@@ -1859,7 +1896,7 @@
           <l>A' miseri soggetti</l>
           <l>Quelle di crudeltade.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Tosto vedrai come io</l>
           <l>Adopro e fo sentire,</l>
@@ -1899,7 +1936,7 @@
       <div>
         <head>Scena 18</head>
         <stage>DEIOPEA. MINISTRO</stage>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>In vano t'affatichi</l>
           <l>A volermi coprir sotto la vesta</l>
@@ -1915,14 +1952,14 @@
           <l>Spegni la vita mia,</l>
           <l>Morirò disperata.</l>
         </sp>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Reina, io non posso altro che exequire,</l>
           <l>Benché contra mia voglia,</l>
           <l>Il voler di colui</l>
           <l>Cui convegno ubidire.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Se l'auttorità mia</l>
           <l>E le mie forze alcuna cosa ponno,</l>
@@ -1935,37 +1972,37 @@
       <div>
         <head>Scena 19</head>
         <stage>EOLO. DEIOPEA</stage>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Reina, già tu osi</l>
           <l>Cominciare una impresa</l>
           <l>Che contra il mio volere</l>
           <l>Non dèi né pòi finire.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>O signor e consorte,</l>
           <l>O non mi tòr la vita</l>
           <l>De' miei figliuoli, o dammi la mia morte.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Tuoi figli scelerati</l>
           <l>Non son degni di vita,</l>
           <l>Né tu merti la morte.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Signor, degna d'udirmi e saperai</l>
           <l>Che l'error de' tuoi figli</l>
           <l>È mio proprio peccato.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Parte arai della pena,</l>
           <l>Se nella colpa hai parte.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>Altro da te non cheggio</l>
           <l>Salvo che in giusta parte</l>
@@ -2068,7 +2105,7 @@
           <l>Non debbo se io volessi,</l>
           <l>Né vorrei se io potessi.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Reina, abbi pazienza:</l>
           <l>Che avendo la malizia</l>
@@ -2095,7 +2132,7 @@
           <l>Sua fedel consigliera, e quel suo figlio</l>
           <l>Le faran compagnia.</l>
         </sp>
-        <sp>
+        <sp who="#deiopea">
           <speaker>DEIOPEA</speaker>
           <l>O veramente dio</l>
           <l>Di nembi e di procelle,</l>
@@ -2122,20 +2159,20 @@
       <div>
         <head>Scena 20</head>
         <stage>CAMERIERA. EOLO</stage>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Oimè, signora mia,</l>
           <l>Siete voi morta! Aiuto!</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Sostienla, che non caschi.</l>
         </sp>
-        <sp>
+        <sp who="#cameriera">
           <speaker>CAMERIERA</speaker>
           <l>Sola non posso.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Accorri,</l>
           <l>Et aiuta a tenerla:</l>
@@ -2151,7 +2188,7 @@
         <head>Scena 21</head>
         <stage>[CORO]</stage>
         <stage>MACAREO. FAMIGLIO</stage>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Qui non si vede e dentro</l>
           <l>Non si ode pur un segno</l>
@@ -2161,7 +2198,7 @@
           <l>Et ho onde temer, che ciò non sia</l>
           <l>Silenzio e solitudine di morte.</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Signore, al mio partire</l>
           <l>Qui era vostro padre con un volto</l>
@@ -2172,7 +2209,7 @@
           <l>A chi gli fosse avante.</l>
           <l>Dimandatene pur questi suoi venti.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Venti fratei (perché già molti mesi</l>
           <l>Son divenuto un vento</l>
@@ -2186,13 +2223,13 @@
           <l>Disio della mia morte?</l>
           <l>Vive l'anima mia?</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Non è fra tutti loro un sì cortese</l>
           <l>Che sola una parola</l>
           <l>Vi renda per risposta.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Anzi non è fra tutti un sì crudele</l>
           <l>Che non mostri nel viso</l>
@@ -2239,7 +2276,7 @@
       <div>
         <head>Scena 22</head>
         <stage>MINISTRO</stage>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Debbo tuut'oggi andar dentro e di fore,</l>
           <l>Portando e riportando or nelle mani</l>
@@ -2265,7 +2302,7 @@
       <div>
         <head>Scena 23</head>
         <stage>FAMIGLIO. MACAREO. MINISTRO</stage>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Ecco di qua, signore,</l>
           <l>Chi forse vi darà certa novella</l>
@@ -2274,7 +2311,7 @@
           <l>Altro non par che rechi</l>
           <l>Salvo pianto e dolore.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>O tu, se ne' ministri</l>
           <l>Di signor sì crudel pò dimorare</l>
@@ -2282,12 +2319,12 @@
           <l>Per grazia dimmi se io</l>
           <l>Giungo tardi o per tempo.</l>
         </sp>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Tardi all'altrui soccorso</l>
           <l>Giungi, signor, ma alla tua pena a·ttempo.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>O dolce anima mia, tu sei pur ita</l>
           <l>Per mai più non tornare</l>
@@ -2296,7 +2333,7 @@
           <l>Dimmi, ti prego, il modo, il tempo e il loco</l>
           <l>Della sua dipartita.</l>
         </sp>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Ben lo debbo saper, se io fui costretto</l>
           <l>A·ffare una gran parte</l>
@@ -2308,7 +2345,7 @@
           <l>Né pria mi fu dimesso il dipartire,</l>
           <l>Che io la vidi morire.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Dolore, onde io son pieno,</l>
           <l>Pace non vo' da te, ma solamente</l>
@@ -2330,7 +2367,7 @@
           <l>Mi farebbe gustar non che udir cose</l>
           <l>Che mi fosser noiose.</l>
         </sp>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Signor, vostra sorella in sul morire</l>
           <l>Mi comandò, et io</l>
@@ -2413,7 +2450,7 @@
           <l>Finì sua vita et io per la pietade</l>
           <l>Restai morto et exangue.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>O crudel Macareo, ancora vivi?</l>
           <l>Ancora ardito sei di respirare,</l>
@@ -2429,7 +2466,7 @@
           <l>Che tuttavia mi tiene</l>
           <l>Peggio che morto in così lunghe pene?</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Signor, se bene avete</l>
           <l>Le sue parole intese,</l>
@@ -2437,7 +2474,7 @@
           <l>Alla vostra sorella così morta</l>
           <l>Se viverete e vi darete pace.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Come è possibil cosa</l>
           <l>Vivere e darmi pace?</l>
@@ -2450,7 +2487,7 @@
           <l>Dimmi tu: che fu fatto</l>
           <l>Del fanciul pur mo nato?</l>
         </sp>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Non vogliate, signore,</l>
           <l>Pena aggiungere a pena</l>
@@ -2465,7 +2502,7 @@
           <l>Che ove voi siete vivo,</l>
           <l>Certo sareste morto.</l>
         </sp>
-        <sp>
+        <sp who="#macareo">
           <speaker>MACAREO</speaker>
           <l>Che fai tu, Macareo?</l>
           <l>Tempo è non di pensar, ma di morire:</l>
@@ -2490,7 +2527,7 @@
       <div>
         <head>Scena 24</head>
         <stage>MINISTRO [<hi rend="italic">solo</hi>].</stage>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Partito è mormorando,</l>
           <l>Portato dal furore.</l>
@@ -2512,7 +2549,7 @@
       <div>
         <head>Scena 25</head>
         <stage>EOLO. CONSIGLIERO.</stage>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Or conosco, ma tardi, che nel caso</l>
           <l>De' miei figli infelici</l>
@@ -2531,7 +2568,7 @@
           <l>Non abino in memoria</l>
           <l>D'esser nati fratelli?</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Se la vostra prudenzia</l>
           <l>Dianzi, signor, fu vinta dallo sdegno,</l>
@@ -2539,37 +2576,37 @@
           <l>Che 'l dolor non la vinca, onde l'affanno</l>
           <l>Cieda o sia pari al danno.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Se io volessi dolermi</l>
           <l>Tanto, quanto io dovrei,</l>
           <l>Sempre mi dolerei.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Vivendo Macareo,</l>
           <l>Mai non osarei dir che fosse morta</l>
           <l>Ogni vostra allegrezza.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Quel che io so della morte di Canace</l>
           <l>Mi fa essere in dubbio della vita</l>
           <l>Di Macareo.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Come è ciò, signor mio?</l>
           <l>Comandaste ad alcun che l'uccidesse?</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Temo che la novella della morte</l>
           <l>Della suora e del figlio,</l>
           <l>Tosto che l'abbia udita,</l>
           <l>Non gli toglia la vita.</l>
         </sp>
-        <sp>
+        <sp who="#consigliero">
           <speaker>CONSIGLIERO</speaker>
           <l>Fate ogni opra, signor, o che ei non l'oda,</l>
           <l>O che ei l'oda in maniera che più tosto</l>
@@ -2578,7 +2615,7 @@
           <l>Che biasmar la giustizia</l>
           <l>Che diede altrui la morte.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Questo pietoso uffizio</l>
           <l>Si conviene al tuo senno</l>
@@ -2596,7 +2633,7 @@
       <div>
         <head>Scena 26</head>
         <stage>MINISTRO</stage>
-        <sp>
+        <sp who="#ministro">
           <speaker>MINISTRO</speaker>
           <l>Andarò inanzi a lui</l>
           <l>A pregar Macareo che non ridica</l>
@@ -2608,7 +2645,7 @@
       <div>
         <head>Scena 27</head>
         <stage>EOLO</stage>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Misero me, con quanta infamia eterna</l>
           <l>M'ho procurato il danno,</l>
@@ -2635,7 +2672,7 @@
       <div>
         <head>Scena 28</head>
         <stage>FAMIGLIO. EOLO</stage>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Macareo signor mio,</l>
           <l>Signor mio Macareo,</l>
@@ -2644,24 +2681,24 @@
           <l>La vostra casa, il bene e la speranza</l>
           <l>Di tutto 'l vostro regno?</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Chi è costui che piagne lamentando</l>
           <l>Così miseramente?</l>
           <l>Oimè, questo è il famiglio</l>
           <l>Del mio figliuolo, e quella è la sua spada.</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Fui, signore, e non sono; e fu sua spada</l>
           <l>Questa che io porto e suo fu questo sangue.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Figliuol mio, ove sei? Chi mi t'ha tolto?</l>
           <l>Fosse questo il mio sangue!</l>
         </sp>
-        <sp>
+        <sp who="#famiglio">
           <speaker>FAMIGLIO</speaker>
           <l>Re, il mio signor, che già fu vostro figlio,</l>
           <l>Oggi è morto due volte:</l>
@@ -2681,7 +2718,7 @@
           <l>Dal cor questa sua spada,</l>
           <l>Tal la vi recarei.</l>
         </sp>
-        <sp>
+        <sp who="#eolo">
           <speaker>EOLO</speaker>
           <l>Dio volesse, figliuol, che la tua morte</l>
           <l>Mi togliesse la vita,</l>
@@ -2759,7 +2796,7 @@
       <div>
         <head>Scena 29</head>
         <stage>CORO</stage>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <l>Le minaccie superbe</l>
           <l>Di questo dio, che in noi</l>

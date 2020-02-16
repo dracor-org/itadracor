@@ -81,6 +81,55 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="nemesi">
+            <persName>Nemesi</persName>
+          </person>
+          <personGrp xml:id="furie">
+            <name>Furie</name>
+          </personGrp>
+          <person xml:id="ombra_di_selina">
+            <persName>Ombra di Selina</persName>
+          </person>
+          <personGrp xml:id="coro">
+            <name>Coro</name>
+          </personGrp>
+          <person xml:id="orbecche">
+            <persName>Orbecche</persName>
+          </person>
+          <person xml:id="nodrice">
+            <persName>Nodrice</persName>
+          </person>
+          <person xml:id="oronte">
+            <persName>Oronte</persName>
+          </person>
+          <person xml:id="malecche">
+            <persName>Malecche</persName>
+          </person>
+          <person xml:id="sulmone">
+            <persName>Sulmone</persName>
+          </person>
+          <person xml:id="messo">
+            <persName>Messo</persName>
+          </person>
+          <person xml:id="tamule">
+            <persName>Tamule</persName>
+          </person>
+          <person xml:id="allocche">
+            <persName>Allocche</persName>
+          </person>
+          <personGrp xml:id="semicoro">
+            <name>Semicoro</name>
+          </personGrp>
+          <personGrp xml:id="donne">
+            <name>Donne di corte</name>
+          </personGrp>
+          <person xml:id="tragedia">
+            <persName>Tragedia</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>2003-05-27T00:00:00.000+02:00</date><name>Silvia Caglioni</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -117,8 +166,7 @@
         <head>
           <hi rend="sc">L'ARGOMENTO</hi>
         </head>
-        <p>
-          <name>Orbecche</name> figliuola di <name>Sulmone</name> Re di
+        <p><name>Orbecche</name> figliuola di <name>Sulmone</name> Re di
           <name>Persia</name>, essendo fanciulla, fanciullescamente diede
           indizio al padre che <name>Selina</name> sua mogliera e madre di lei
           si giacca col suo primogenito. <name>Sulmone,</name> trovatigli
@@ -156,8 +204,7 @@
         </list>
       </div>
       <div type="prologue">
-        <head>
-          <hi rend="sc">DONNE DI CORTE</hi> d'<name>Orbecche</name>
+        <head><hi rend="sc">DONNE DI CORTE</hi> d'<name>Orbecche</name>
           Il Coro è di Donne di <name>Susa.</name>
         </head>
         <head>
@@ -270,10 +317,9 @@
           <head>
             <hi rend="sc">SCENA I</hi>
           </head>
-          <stage>
-            <hi rend="sc">NEMESI</hi> Dea, <hi rend="sc">FURIE</hi> infernali
+          <stage><hi rend="sc">NEMESI</hi> Dea, <hi rend="sc">FURIE</hi> infernali
           </stage>
-          <sp>
+          <sp who="#nemesi">
             <speaker>
               <hi rend="sc">NEM.</hi>
             </speaker>
@@ -380,7 +426,7 @@
             <l>Ad essequir quello che 'l sommo <name>Giove</name></l>
             <l>A strazio di <name>Sulmon</name> per me ve impone.</l>
           </sp>
-          <sp>
+          <sp who="#furie">
             <speaker>FUR.</speaker>
             <l>Eccone: siam, possente Dea, per fare</l>
             <l>Tutto quel che da te ne sarà imposto.</l>
@@ -393,7 +439,7 @@
             <l>Imponi pur ciò che noi far devemo,</l>
             <l>Che in un momento fia ispedito il tutto.</l>
           </sp>
-          <sp>
+          <sp who="#nemesi">
             <speaker>NEM.</speaker>
             <l>Empiete adunque di furor si grave</l>
             <l>Quest'empia corte ove <name>Sulmon</name> soggiorna </l>
@@ -405,11 +451,11 @@
             <l>E che 'l padre e la figlia, d'ira accesi,</l>
             <l>Non cerchino altro che dolore e morte.</l>
           </sp>
-          <sp>
+          <sp who="#furie">
             <speaker>FUR.</speaker>
             <l>Ecco ch'a pieno ora compimo il tutto.</l>
           </sp>
-          <sp>
+          <sp who="#nemesi">
             <speaker>NEM.</speaker>
             <l>Assai fatt'è; veloci omai tornate</l>
             <l>A le case di <name>Dite</name>, a i regni oscuri,</l>
@@ -426,7 +472,7 @@
             <hi rend="sc">SCENA II</hi>
           </head>
           <stage><hi rend="sc">OMBRA</hi> di <name>Selina</name>, moglie di <name>Sulmone</name></stage>
-          <sp>
+          <sp who="#ombra_di_selina">
             <speaker><hi rend="sc">OMBRA</hi> di <name>Selina</name>,</speaker>
             <l>Uscita i' son da le tartaree rive</l>
             <l>Onde si son partite or le tre Dee</l>
@@ -523,7 +569,7 @@
           <head>
             <hi rend="sc">CORO</hi>
           </head>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CORO</hi>
             </speaker>
@@ -611,18 +657,17 @@
           <head>
             <hi rend="sc">SCENA I</hi>
           </head>
-          <stage>
-            <name><hi rend="sc">ORBECCHE</hi></name> figliuola del Re
+          <stage><name><hi rend="sc">ORBECCHE</hi></name> figliuola del Re
             <name>Sulmone</name>, <hi rend="sc">NODRICE</hi>
           </stage>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
             <l>Ai, quanto brevi sono i piacer nostri!</l>
             <l>Quanto vicin al riso è sempre il pianto! </l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -630,7 +675,7 @@
             <l>Parmi che sia la mia Reina: i' voglio</l>
             <l>Veder s'è dessa e che dolor l'afflige.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -642,14 +687,14 @@
             <l>Se non ombra di bene, ma l'angoscie</l>
             <l>Son più che 'l ver veraci: et io in me il provo.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
             <l>E che cosa è che sì v'afflige e preme,</l>
             <l>Essendo vivo il vostro <name>Oronte</name> e i figli?</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -665,7 +710,7 @@
             <l>Si trovin vivi. è ben morire a tempo</l>
             <l part="I">Un don dato dal cielo.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -675,14 +720,14 @@
             <l>Al vostro ragionare avete fatto!</l>
             <l>Che strano augurio, oimè misera, è questo!</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
             <l>Egli è, Nodrice mia, pur troppo strano</l>
             <l>E infelice son io più d'ogni donna.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -691,7 +736,7 @@
             <l>Ditemi la cagion di sì gran doglia,</l>
             <l>Che forse al vostro mal sarà rimedio.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -733,14 +778,14 @@
             <l>Acciò che 'n questa mia vecchiezza estrema</l>
             <l>Vegga la succession de' miei nepoti.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
             <l>Ben fu troppo improviso questo assalto</l>
             <l>E da devervi tòrre ogni consiglio.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -782,7 +827,7 @@
             <l>Ma poi che tu di lui prima sei giunta,</l>
             <l>Dammi soccorso a l'ultimo bisogno.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -837,7 +882,7 @@
             <l>Non Dea (come s'istima), e 'l suo potere</l>
             <l>Forza non ha, s'altri v'oppon lo 'ngegno.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -847,7 +892,7 @@
             <l>E senza darli del mio affanno indizio,</l>
             <l>Di' che con gran desio l'aspetto in casa.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -862,7 +907,7 @@
           <stage>
             <hi rend="sc">NODRICE, <name>ORONTE</name></hi>
           </stage>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -979,7 +1024,7 @@
             <l>è gran pezza, Signor, che la Reina</l>
             <l>Brama vedervi e ragionar con voi.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -993,7 +1038,7 @@
           <stage>
             <hi rend="sc"><name>ORONTE</name>, <name>ORBECCHE</name></hi>
           </stage>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1005,14 +1050,14 @@
             <l>Senza opporsi al furor: che spesse volte</l>
             <l>Vince l'altrui valor l'aspra tempesta.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
             <l>Non è meno di me misero <name>Oronte,</name></l>
             <l>Se da gli atti si può vedere il core.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1026,14 +1071,14 @@
             <l>Spero nel Re che 'l tutto ordina e regge</l>
             <l>Vincere al fine la fortuna iniqua.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
             <l>Oimè, che sarà questo? sarà forse</l>
             <l>Giunto novo dolore al nostro affanno?</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1043,14 +1088,14 @@
             <l>Sono, ha molt'anni, perch'io la disponga</l>
             <l>Che pigli per marito il Re <name>Selino.</name></l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
             <l>Lo veggio molto tristo: ir gli vo' incontro</l>
             <l>E insieme si dorremo ambo del male.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1064,7 +1109,7 @@
             <l><name>Dio</name> vi dia, anima mia, pace e contento:</l>
             <l>Qual van pensiero a lagrimar vi mena?</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -1078,7 +1123,7 @@
             <l>Onde bisogno fia ch'ora si scuopra</l>
             <l>Quel che ne farà sempre esser dolenti.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1116,7 +1161,7 @@
             <l>Che se noi stessi a desperar si demo,</l>
             <l>Chi ne porgerà aiuto o chi consiglio ?</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -1128,7 +1173,7 @@
             <l>Ch'al mio fratel sia stato e a la mia madre,</l>
             <l>Quai lo spietato insieme a un colpo uccise?</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1140,7 +1185,7 @@
             <l>Deveva il figlio, sì poco prezzasse</l>
             <l>Ch'ei con la propria madre si giacesse.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -1152,7 +1197,7 @@
             <l>Per qual error uccise il suo fratello,</l>
             <l>Ch'avanzava in bontade ogni mortale?</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1208,7 +1253,7 @@
             <l>Che, nata nel tranquil del nostro stato,</l>
             <l part="I">Sì ne minaccia.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -1225,7 +1270,7 @@
             <l>E di ciò che da voi fia fatto, anch'io</l>
             <l>Mi rimarò con voi paga e contenta.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -1233,7 +1278,7 @@
             <l>Datevi intanto voi pace e sperate</l>
             <l>Che ne saranno i Dei anco benigni.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -1242,13 +1287,13 @@
             <l>Pur senza voi non mi lasciate molto,</l>
             <l>O buona che ne sia la nova o rea.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
             <l part="I">Cosi farò: restate in pace.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -1260,7 +1305,7 @@
             <hi rend="sc">SCENA IIII</hi>
           </head>
           <stage><name><hi rend="sc">ORBECCHE</hi></name> sola</stage>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORBECCHE</hi>
             </speaker>
@@ -1374,7 +1419,7 @@
           <head>
             <hi rend="sc">CORO</hi>
           </head>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CORO</hi>
             </speaker>
@@ -1444,7 +1489,7 @@
             <hi rend="sc">SCENA I</hi>
           </head>
           <stage><name><hi rend="sc">MALECCHE</hi></name> solo, consiglieri del Re</stage>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MALECCHE</hi>
             </speaker>
@@ -1543,26 +1588,26 @@
             <hi rend="sc">SCENA II</hi>
           </head>
           <stage><hi rend="sc">SULMONE</hi> Re, <hi rend="sc">MESSO</hi>, <hi rend="sc">MALECCHE</hi></stage>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l part="I">È quel ch'io veggio là <name>Malecche?</name></l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
             <l part="F">È desso.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Vanne a lui e li di' ch'a me ne venga</l>
             <l part="I">Con esso teco di presente.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1577,14 +1622,14 @@
             <l>Il poter ragionare oggi d'<name>Oronte</name></l>
             <l part="I">Mi sarà tolto.</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
             <l part="F">Il Re nostro vi chiede,</l>
             <l part="I">Signor <name>Malecche.</name></l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1592,7 +1637,7 @@
             <l>Dimmi, se forse il sai, che vuol dir ch'egli</l>
             <l>Si mostra sì turbato ne l'aspetto?</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -1603,13 +1648,13 @@
             <l>Lasciar che 'n esso possa ira né sdegno</l>
             <l>O mostrar fuor così palese il core.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL. </hi>
             </speaker>
             <l part="I">Che quel da me la vostra altezza?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL. </hi>
             </speaker>
@@ -1620,14 +1665,14 @@
             <l>Conoscer fede in famigliare alcuno,</l>
             <l>Quand'i medesmi figli lor fan froda.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
             <l>Sarà palese al Re per altra via</l>
             <l>Il tutto: ogni secreto alfin si scuopre.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -1644,14 +1689,14 @@
             <l>Sangue creato insin da' suoi primi anni</l>
             <l part="I">Ne la mia corte s'è nodrito.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
             <l part="F">E questi</l>
             <l part="I">Chi è egli stato?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -1659,14 +1704,14 @@
             <l>Che mi si dimostrava sì fedele;</l>
             <l>E due figliuoli già d'essi son nati.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <name>MAL.</name>
             </speaker>
             <l>Et ond'avete voi saputo questo?</l>
             <l part="I">Da essi forse?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -1698,7 +1743,7 @@
             <l>Sì che bramo d'udir ciò che ti paia </l>
             <l>Ch'io debba far in casi acerba offesa.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1734,7 +1779,7 @@
             <l>Tant'esser dee da più tenuto quello</l>
             <l>Ch'ad atto sì cortese il core inchina.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -1750,7 +1795,7 @@
             <l>E s'io saprò mostrare ad ambo loro</l>
             <l>(Com'a molti ho mostrato) esser Re vero.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1758,7 +1803,7 @@
             <l>O 'l far vendetta de gli oltraggi avuti </l>
             <l>Non mostraro alcun Re.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -1766,7 +1811,7 @@
             <l>Ch'ei s'offra a ognun per manifesto segno</l>
             <l>Ove si drizzi ogni nefanda ingiuria?</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1786,7 +1831,7 @@
             <l>Potrete voi mostrar d'esser Re vero,</l>
             <l>Di questa che vi s'offre ora dinanzi?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -1796,7 +1841,7 @@
             <l>E scerner non sapessi il ver dal falso?</l>
             <l part="I">Tu sei ben fuor di te.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1812,13 +1857,13 @@
             <l>E che m'è via più a core il vostro meglio</l>
             <l>Che 'l proprio mio, non che quel d'alcun altro.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l part="I">Or segui.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1872,14 +1917,14 @@
             <l>Che per così onorata e sì bell'opra</l>
             <l>Non alzi il vostro nome insino al cielo.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Facile è dar ne' casi altrui consiglio,</l>
             <l>Ma se tu fossi me, ciò non diresti.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1899,7 +1944,7 @@
             <l>In cosa tal che voi anco direste</l>
             <l>Ch'io dico il ver.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUI.</hi>
             </speaker>
@@ -1907,7 +1952,7 @@
             <l>Senza sospetto alcun, che mi fia a grado</l>
             <l part="I">Udirti.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -1999,14 +2044,14 @@
             <l>A quest'oltraggio, a questa grave ingiuria</l>
             <l>Che fatt'ha a <name>Oronte</name> la fortuna iniqua.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Che poss'io forse far d'una colomba</l>
             <l>Un'aquila? o d'un toppo un leon fiero?</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2016,14 +2061,14 @@
             <l>Del regno eredi e a questo modo avrete</l>
             <l>Gener ugual al vostro eccelso stato.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Io lo farò ben Re per modo tale</l>
             <l>Che gli dorrà d'avermi unqua veduto.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2043,14 +2088,14 @@
             <l>Eletto<name> Oronte</name> per marito, merta</l>
             <l>Ch'ad ambedue doniate omai perdono.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL. </hi>
             </speaker>
             <l>Tu mi vuoi far, <name>Malecche,</name> uscir del giusto</l>
             <l part="I">Con queste tue parole.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2066,14 +2111,14 @@
             <l>Sovra ambo lor, ma sovra questo vecchio</l>
             <l>Che torria di morir per l'onor vostro.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Deh, se questo mi mostri, creder voglio</l>
             <l>Che si possan nodrir ne l'aria i cervi.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2081,13 +2126,13 @@
             <l>Deppor lo sdegno e dar benigna udienza </l>
             <l>A quel ch'io vi dirò con vera fede.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l part="I">Or segui.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2103,7 +2148,7 @@
             <l>Col suo invitto valor ben mille volte</l>
             <l>Levato ha 'n tutto da l'impero vostro.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -2113,7 +2158,7 @@
             <l>Al popul mio, né via miglior di questa</l>
             <l part="I">Si potea ritrovar.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2153,14 +2198,14 @@
             <l>Già merta questa età canuta e grave</l>
             <l>Pace e riposo, non travaglio o guerra.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Chi volesse sempr'ir dietro a' sospetti,</l>
             <l>Non si conduria a fin mai cosa alcuna.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2202,7 +2247,7 @@
             <l>Ch'altro non può avenir di ciò, se voi</l>
             <l>Date in preda al furor l'animo vostro.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -2214,7 +2259,7 @@
             <l>La ragion non può a l'ira in ciò por freno</l>
             <l>E veggonsi ogni dì di questo essempi.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2264,7 +2309,7 @@
             <l>E 'l mio lungo servir, ch'impetri pace</l>
             <l>A la vostra figliuola, al vostro <name>Oronte.</name></l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -2279,7 +2324,7 @@
             <l>E spezialmente contra <name>Oronte,</name> ch'abbia</l>
             <l>Per nulla avuto farmi ingiuria tale.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2332,7 +2377,7 @@
             <l>Per diversi rispetti, che fia vinto</l>
             <l>Da la gioia il dolor ch'ora sentite.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SEL.</hi>
             </speaker>
@@ -2353,7 +2398,7 @@
             <l>La moglie et egli et ambo i figli insieme,</l>
             <l>Acciò che tutti io li mi goda a un tratto.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2372,13 +2417,13 @@
             <l>E condurolli tutti innanzi a voi,</l>
             <l>Acciò ch'abbiate insieme ugual letizia.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Et io t'aspetterò qui, ma vien tosto.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAI.</hi>
             </speaker>
@@ -2394,7 +2439,7 @@
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage><hi rend="sc">SULMONE</hi>solo</stage>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SULMONE</hi>
             </speaker>
@@ -2488,7 +2533,7 @@
           <stage>
             <hi rend="sc"><name>MALECCHE,</name><name>ORONTE,</name><name>ORBECCHE,</name><name>SULMONE,</name> CORO</hi>
           </stage>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2499,7 +2544,7 @@
             <l>Alta Reina, e tu con lei, <name>Oronte,</name></l>
             <l>Rendete grazie lor di merto tale.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -2522,7 +2567,7 @@
             <l>Prosperin pur i Dei le cose nostre</l>
             <l part="I">Com' incominciat'han.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -2533,7 +2578,7 @@
             <l>In mezzo a l'allegrezza e temo l'amo</l>
             <l>Ascoso sotto l'esca e 'l fel nel dolce.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2548,7 +2593,7 @@
             <l>Che vi raccolga tutti entro le braccia,</l>
             <l>E pianger visto i' l'ho de la dolcezza.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -2560,7 +2605,7 @@
             <l>In cosa tal, da me bramata tanto,</l>
             <l part="I">Non potermi allegrare.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -2570,7 +2615,7 @@
             <l>A divinare il mal! Bene sperate</l>
             <l part="I">E bene vi averrà.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -2580,7 +2625,7 @@
             <l>Sian le vostre speranze e i piacer vostri,</l>
             <l>E ch'i sospetti miei s'abbino i venti.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -2590,7 +2635,7 @@
             <l>De la sua pace, s'ei volesse poi</l>
             <l part="I">Mancar di fé?</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2623,14 +2668,14 @@
             <l>Che si scuopre di fore</l>
             <l>E nel viso dimostra aperto 'l core</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
             <l>è come dite, n'esser può altrimenti:</l>
             <l part="I">Però andiamosi al Re.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
@@ -2641,7 +2686,7 @@
             <l>Che s'avenir mi dee cosa maligna,</l>
             <l>Pria ch'io mi vada al padre, io me ne moia.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2650,14 +2695,14 @@
             <l>Di fare al Re quelle parole ch'io</l>
             <l>Conoscerò opportune in questo caso.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
             <l>Andiàn, <name>Malecche,</name> e voi parlate prima,</l>
             <l>Poi ch'avete insin qui condotto il fatto.</l>
           </sp>
-          <sp>
+          <sp who="#malecche">
             <speaker>
               <hi rend="sc">MAL.</hi>
             </speaker>
@@ -2677,14 +2722,14 @@
             <l>Che quanto detto gli ho per nome vostro,</l>
             <l>Tant'è per attenerli vostra altezza.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
             <l>Non venne ad alcun men mai la mia fede</l>
             <l>Quando ad altrui con fé legata i' l'abbia.</l>
           </sp>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -2714,14 +2759,14 @@
             <l>Che conoscer potrete agevolmente</l>
             <l>Quanta sia la mia fede.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>
               <hi rend="sc">ORB.</hi>
             </speaker>
             <l>Et anch'io, padre,</l>
             <l>Perdono a vostra altezza umile i' cheggio.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -2747,7 +2792,7 @@
             <l>Quanto cari mi sete! Oh quanto bene</l>
             <l>Conosco in voi il mio medesmo aspetto!</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -2761,7 +2806,7 @@
             <l>E così vane sian tutte l'insidie,</l>
             <l>Che 'l tuo dolce gioir nulla t'invidie.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>
               <hi rend="sc">SUL.</hi>
             </speaker>
@@ -2789,7 +2834,7 @@
           <stage>
             <hi rend="sc"><name>ORONTE,</name><name>TAMULE</name>, <name>ALLOCCHE</name></hi>
           </stage>
-          <sp>
+          <sp who="#oronte">
             <speaker>
               <hi rend="sc">ORON.</hi>
             </speaker>
@@ -2892,20 +2937,20 @@
             <l>Venite meco, che n'aspetta in casa</l>
             <l part="I"><name>Tuttatre</name> il nostro Re.</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>
               <hi rend="sc">TAM.</hi>
             </speaker>
             <l part="F">Vengo, Signore.</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>
               <hi rend="sc">AL.</hi>
             </speaker>
             <l>Et io: m'andate innanzi, ch'ambo noi</l>
             <l>Dietro voi si verrem così pian piano.</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>
               <hi rend="sc">TAM.</hi>
             </speaker>
@@ -2918,7 +2963,7 @@
             <hi rend="sc">CORO.</hi>
           </head>
           <stage><hi rend="sc">NODRICE, CORO.</hi> La Nodrice parla</stage>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -2929,7 +2974,7 @@
             <l>Ma chi ne darà i versi o chi le rime</l>
             <l>Atte a spiegare il ben che 'n se tien l'alma?</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -2940,7 +2985,7 @@
             <l>E lodar te, lodando il caro stato,</l>
             <l>Danne tu i versi,<name> Amor,</name> danne le voci.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD. </hi>
             </speaker>
@@ -2951,7 +2996,7 @@
             <l>Saran così gioiosi e così lieti</l>
             <l>Che nol potrà spiegar forza di rime?</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -2962,7 +3007,7 @@
             <l>Cui minacciava il ciel sì amari giorni,</l>
             <l>Che temea viver sempre in duro stato.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -2973,7 +3018,7 @@
             <l>E scacciate sì il duol tutti da l'alma</l>
             <l>Che s'odano sol note e canti lieti.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -2984,7 +3029,7 @@
             <l>(Per mostrar ch'al ciel van le mortai voci),</l>
             <l>Vuol che mai non veggiam men lieti i giorni.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>
               <hi rend="sc">NOD.</hi>
             </speaker>
@@ -3010,7 +3055,7 @@
           <stage>
             <hi rend="sc">MESSO, CORO</hi>
           </stage>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3030,7 +3075,7 @@
             <l>Dunque cosa vist'ho via più crudele</l>
             <l>Che 'n parte alcuna unqua veder si possa.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3039,7 +3084,7 @@
             <l>Col tuo sereno lume e i cori infiammi,</l>
             <l>Fa' che per noi non sian queste querele.</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3055,7 +3100,7 @@
             <l>O secol reo, secol malvaggio e tristo,</l>
             <l>Come dar ci può il sol oggi la luce?</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3064,7 +3109,7 @@
             <l>Sì amaro pianto ? Non tenere ascosa </l>
             <l part="I">A noi la doglia tua.</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3078,7 +3123,7 @@
             <l>Ora pensate voi se può bastarmi</l>
             <l>Questa sol lingua, omai debile e fioca.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3086,7 +3131,7 @@
             <l>Se non a pieno, almeno il me' che puoi:</l>
             <l>Che bramiamo d'udir quello onde piagni.</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3103,14 +3148,14 @@
             <l>Pallido e tristo e la tremante voce</l>
             <l>Lo vi puote mostrar, senza ch'io il dica.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
             <l>Via più d'affanno n'è star sì sospese:</l>
             <l>Però da' omai principio a questa istoria.</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES. </hi>
             </speaker>
@@ -3172,7 +3217,7 @@
             <l>Crudelmente svenollo e così morto</l>
             <l>Lo gettò a' piè del miserello <name>Oronte.</name></l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3183,7 +3228,7 @@
             <l>Medolla o sangue in fibra che non tremi.</l>
             <l>Ma che fe' <name>Oronte</name> al lagrimevol caso?</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3223,14 +3268,14 @@
             <l>Temi almeno li Dei ch'a l'opre buone</l>
             <l>Donano merto et a le triste pena.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
             <l>Non s'ammollì quel duro core alquanto</l>
             <l>A sì calde preghiere, a così giuste?</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3259,7 +3304,7 @@
             <l>E pochi questi due sono a l'oltraggio</l>
             <l>C'hai con la infedeltà tua in me commesso.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3267,7 +3312,7 @@
             <l>Quel del misero padre, essendo privo</l>
             <l part="I">Già d'ogni speme!</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3294,13 +3339,13 @@
             <l>A le parti di <name>Dite,</name> a i regni oscuri,</l>
             <l>Ove forse sarem men che qui tristi.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
             <l>Ma che faceva intanto il Re crudele?</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3333,7 +3378,7 @@
             <l>Percossili ambe due sì acerbamente,</l>
             <l>Ch'a' piedi suoi se ne cadderon morti.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3342,7 +3387,7 @@
             <l>D'uomo, questo crudel? Non fu giamai</l>
             <l>Cosa più strana o più malvagia udita.</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3351,13 +3396,13 @@
             <l>Quel che fine vi par, principio è stato</l>
             <l>A maggior male, a più scelerat'opra.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CO.</speaker>
             <l>Ma ch'esser può dopo la morte peggio?</l>
             <l>Non è ella estrema de le cose orrende?</l>
             <l>Non è ella fin de tutti e mali al mondo ?</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3366,7 +3411,7 @@
             <l>Mostrar la crudeltà via più palese</l>
             <l part="I">Ne' morti corpi.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3374,7 +3419,7 @@
             <l>Ne' morti incrudelir! quanto disdice</l>
             <l>Servar l'ira e 'l furor dopo la morte!</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3389,7 +3434,7 @@
             <l>E 'l capo pose, e d'un zendado nero</l>
             <l>Lo ricoperse e lo si fe' servare.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3402,7 +3447,7 @@
             <l>Ricevuto hanno il meritato onore.</l>
             <l>Ma che fatt'ha de' fanciullini morti?</l>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>
               <hi rend="sc">MES.</hi>
             </speaker>
@@ -3423,7 +3468,7 @@
             <l>A la stanza real fece portarli</l>
             <l>Et ivi posti gli ha, né so a qual fine.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CO.</hi>
             </speaker>
@@ -3440,7 +3485,7 @@
           <head>
             <hi rend="sc">CORO</hi>
           </head>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc">CORO</hi>
             </speaker>
@@ -3546,7 +3591,7 @@
           <stage>
             <hi rend="sc"><name>SULMONE,</name><name>ALLOCCHE</name>, <name>TAMULE</name></hi>
           </stage>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Levata i' m'ho dal viso quella macchia</l>
             <l>Che m'avea impressa Oronte. Egli ha provato</l>
@@ -3558,12 +3603,12 @@
             <l>Che sapran per qual via debbano inviarsi</l>
             <l>Per fuggir casi crudo e fiero intoppo.</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l>Sì bene, invitto Sir, s'avranno senno</l>
             <l part="I">E non fian più che ciechi.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">E se fian ciechi,</l>
             <l>Io bene in guisa gli occhi aprirò loro</l>
@@ -3574,7 +3619,7 @@
             <l>Uomini ch'abbia il mondo e le lor corti</l>
             <l>Verrebbero da men che le capanne.</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>TAM.</speaker>
             <l>E così, alto Sir, è, come voi dite,</l>
             <l>E devonsi mostrare i Re a tal modo</l>
@@ -3584,7 +3629,7 @@
             <l>Che ricevuto ha il traditor d'Oronte,</l>
             <l>E quest'è de l'imperio avere il frutto.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Dicon costor che la violenzia è quella</l>
             <l>Che consuma gli stati e che l'amore</l>
@@ -3612,7 +3657,7 @@
             <l>Del cor d'Oronte, quand'egli si vide</l>
             <l part="I">Colto a la rete?</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l part="F">Parmi ch'ei facesse</l>
             <l>Come color che son senza speranza,</l>
@@ -3634,7 +3679,7 @@
             <l>E ben felice è quattro volte e sei</l>
             <l>Chi de le 'ngiurie far vendetta puote.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>E perché credi tu che, potend'io</l>
             <l>Subito far morire il traditore</l>
@@ -3645,7 +3690,7 @@
             <l>L'avea de la mia corte, et io ho voluto</l>
             <l>Che la fé istessa lo conduca a morte.</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l>Non pensava altrimenti. E per dir vero</l>
             <l>Conosciuto v'ho, Sir, sempre prudente,</l>
@@ -3655,7 +3700,7 @@
             <l>Ond'ora tengo il vostro animo invitto</l>
             <l>Dignissimo di scettro e di corona.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Certo ch'anch'io mi pregio che nel fine</l>
             <l>Quasi de la mia vita abbia mostrato</l>
@@ -3666,7 +3711,7 @@
             <l>Via più d'ogn'altra cosa a un Re conviene,</l>
             <l>Quanto scemato avrei de la mia gloria!</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>TAM.</speaker>
             <l>Che sa di ciò Malecche? Egli è nodrito</l>
             <l>Tra le donne ne gli ozii e voi misura</l>
@@ -3678,7 +3723,7 @@
             <l>Indizii son de gli animi reali:</l>
             <l>E chi far lo si dee, se i Re nol fanno?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Non è altrimenti. Ma lasciàn da parte</l>
             <l>Il ragionar di ciò: vo' che tu vada</l>
@@ -3686,11 +3731,11 @@
             <l>Ove è 'l capo d'Oronte e i figli morti</l>
             <l part="I">E di zendado ner sono coperti.</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l part="F">I' vo, Signor.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Va' tosto e tosto torna.</l>
             <l>E tu, Tamul, vatene a la mia figlia</l>
@@ -3698,49 +3743,49 @@
             <l>Che le voglio far don degno di lei</l>
             <l>E de le nozze e di sì lieto giorno.</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>TAM.</speaker>
             <l>Vorestele mai voi, Signor, offrire</l>
             <l>Que' piati che portati avemo in casa,</l>
             <l>Ov'è 'l capo d'Oronte e i figli morti ?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="I">Cosi vo' far.</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>TAM.</speaker>
             <l part="F">Per Dio, che fate bene,</l>
             <l>Perch'ella del suo error porti la pena,</l>
             <l>E del colpo di c'ha percosso voi</l>
             <l>è degno che ne sia percossa anch'ella.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="I">Or va' e di' che non tardi.</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l part="F">Eccomi, Sire.</l>
             <l>Ove volete ch'io mi ponga i piati?</l>
             <l part="I">Qui forse?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">No, ponli un po' più discosti</l>
             <l part="I">Da questo palco.</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l part="M">Qui?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">	Sì: ma con ch'occhio</l>
             <l>Pensi tu che vedrà la figlia questo</l>
             <l part="I">Dono che far le voglio?</l>
           </sp>
-          <sp>
+          <sp who="#allocche">
             <speaker>AL.</speaker>
             <l part="F">Io tengo certo</l>
             <l>Che via più grave a lei fia la ferita</l>
@@ -3754,16 +3799,16 @@
             <l>Ma veggio che Tamule a noi ne viene</l>
             <l part="I">Senz'essa.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">	E che non vien, Tamule, Orbecche?</l>
           </sp>
-          <sp>
+          <sp who="#tamule">
             <speaker>TAM.</speaker>
             <l>Dice ch'incontinenti a vostra altezza</l>
             <l>Verrà, pel don ch'aver da quella spera.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Or ritiriansi un po' tutti da canto,</l>
             <l>Ch'al suo primo apparir qui non ne scorga.</l>
@@ -3776,17 +3821,17 @@
           <stage>
             <hi rend="sc">NODRICE, <name>ORBECCHE,</name> <name>SULMONE,</name> SEMICORO</hi>
           </stage>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Qual fia quel giorno mai, alta Reina,</l>
             <l>Ch'apporti fine a le querele vostre?</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Nodrice mia, per me quel giorno lieto</l>
             <l>Fia che mi mandarà morte sotterra.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Deh vani sian, Signora, questi augurii</l>
             <l>Che voi fuor di ragione ora vi fate.</l>
@@ -3803,7 +3848,7 @@
             <l>Deh piacciavi che dubbia e inutil tema</l>
             <l>Non turbi certa gioia e ver riposo.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Non sai, Nodrice mia, che quanto lieta</l>
             <l>Si mostra a noi più la fortuna, tanto</l>
@@ -3831,12 +3876,12 @@
             <l>Materia di più acerba e cruda doglia,</l>
             <l>Non mi lascia sperar nulla di bene.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Che sogno è questo? Deh, di grazia fate</l>
             <l>Che lo sappia ancor io, se non v'è grave.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Era questa passata notte corsa</l>
             <l>E già l'<name>Aurora</name> co' bei crini d'oro</l>
@@ -3873,7 +3918,7 @@
             <l>Sì orribil visione e da' miei scaccia</l>
             <l>Così crudele e miserabil caso.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Io tengo che v'abbiate in mezzo 'l core</l>
             <l>Accolta tutta la maninconia</l>
@@ -3898,7 +3943,7 @@
             <l>Come vi state in tristi, lieti i sogni</l>
             <l>Avreste avuto e non, com'ora, mesti.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Par che non sappi che sovente i Dei</l>
             <l>Per monir altri de' lor casi in sogno</l>
@@ -3911,13 +3956,13 @@
             <l>Avesser dato fede, avrian schifato</l>
             <l>O fatto acerbo o abominevol morte.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>La fé, Reina, che dal Re v'è data,</l>
             <l>Esser vi deve com'un chiaro raggio</l>
             <l>Ch'ogni nebbia di duol dal cor vi sgombri.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB. </speaker>
             <l>I' so, Nodrice, per aperta prova</l>
             <l>Che la fede ben sta sempre a la porta</l>
@@ -3930,32 +3975,32 @@
             <l>Del venerabil nome de la fede</l>
             <l>Che da' gran Re sì rado oggi si serba.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Reina mia, lasciam omai da parte</l>
             <l>Il lamentarsi e andiam al vostro padre,</l>
             <l>Che spero che quel don ch'ei far vi vuole</l>
             <l>Vi farà rimaner tutta giuliva.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Odano i Dei le voci tue!</l>
             <l>M'andiamo,</l>
             <l>Ch'egli a l'usato luoco s'è ridutto</l>
             <l part="I">E lì n'aspetta.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l part="F">Fate allegro viso</l>
             <l>Quanto più far potete e via scacciate</l>
             <l>Quanto chiude di tristo il vostro core.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Così farò più che possibil fia.</l>
             <l>Che vuol da me la maestade vostra?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Non voglio se non bene. Andate in casa</l>
             <l>Voi tutti, perch'io voglio esser qui alquanto</l>
@@ -3973,7 +4018,7 @@
             <l>Quant'io di fatto tal resti contento</l>
             <l>E quanto ferma sia la pace nostra.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Padre, i' non cerco aver più espresso segno</l>
             <l>Da la maestà vostra de la pace,</l>
@@ -3985,95 +4030,95 @@
             <l>Che quanto piace a voi, tanto a me piace,</l>
             <l>Accetterollo con benigna fronte.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Così, figliuola mia, vo' che tu faccia.</l>
             <l>Or leva quel zendado et ivi sotto</l>
             <l>Vedrai la mia allegrezza e 'l tuo contento.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Par che tema la mano avicinarsi</l>
             <l>A quel zendado, il core in mezzo il petto</l>
             <l>Mi trema e par ch'io non ardisca alzarlo.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Che tardi, figlia? Leva arditamente,</l>
             <l>Che vedrai quel che t'aprirà qual sia</l>
             <l part="I">Verso di te il mio core.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l part="F">Oimè, ch'è questo?</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Il don, malvagia figlia, che d'avere</l>
             <l>Ha meritato il simolato amore</l>
             <l part="I">Verso di noi.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l part="F">Ai trista me! ai meschina!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="I">E la tua rotta fede.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l part="F">Oimè dolente!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>E 'l poco riguardare il nostro onore.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>O spettacol crudele, o caso acerbo!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Egli tal è, qual meritato l'hai.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Ai, di ch'aspro coltello ora trafissa</l>
             <l>M'avete, oimè!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Di quel di ch'eri degna.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Oimè, pur devevate a' figli almeno</l>
             <l part="I">Usar pietà.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">Pietà non puote dove</l>
             <l>è ingiuria così atroce.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Oimè, più tosto</l>
             <l>Morta foss'io, che veder cosa tale!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Tu vedi quel contento, o scelerata,</l>
             <l>C'hai dato al padre tuo.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Quant' oimè lassa</l>
             <l>Lagrimevol mi s'offre questo dono</l>
             <l>Ond'io credeva esser contenta al mondo!</l>
             <l part="I">Ai padre, ai caro padre!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">Or son tuo padre,</l>
             <l>Ma allor non fui che ti pigliasti questo</l>
@@ -4081,21 +4126,21 @@
             <l>Ora m'è a grado ch'abbi aperti gli occhi</l>
             <l part="I">E mi conosca.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l part="F">Ai spettacol crudele!</l>
             <l>Oimè marito, oimè!</l>
             <l>Oimè figliuoli, oimè!</l>
             <l>Di quant'affanno, oimè, cagion mi sete!</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Quanto ciò è a te dolente, è tanto lieto</l>
             <l>E piacevole a me, figlia proterva;</l>
             <l>E quanto più doler ti veggio, tanto</l>
             <l>Più me n'allegro e più men gode il core.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Spiaccievol più che non m'è mi sarebbe,</l>
             <l>Padre, cosa veder così crudele</l>
@@ -4129,7 +4174,7 @@
             <l>Percotete che l'alma se ne vada</l>
             <l>Et io ne resti qui pallida e essangue.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Far ben lo mi devrei, se sol guardare</l>
             <l>Volessi a l'error tuo, ma più non voglio</l>
@@ -4142,12 +4187,12 @@
             <l>Te voglio, come pria, per cara figlia</l>
             <l>E voglio che tu tenga me per padre.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Non merto questo don, padre: la morte</l>
             <l>Deve emendar l'error che 'n voi commisi.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Viviti pure e sii contenta meco</l>
             <l>Che morti sian chi eran di morir degni,</l>
@@ -4159,14 +4204,14 @@
             <l>Giù que' coltelli et entra meco in casa,</l>
             <l>Ove da me chiar segno avrai di pace.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>S'ora anco il ciel non m'è contrario, guari</l>
             <l>Non andrà, traditor, che la vendetta</l>
             <l>Farò io stessa de l'avuta ingiuria,</l>
             <l>Se non mi vengon men questi coltelli.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l>Ai malvagia, ai crudele, oimè, ch'io moro,</l>
             <l>Oimè, che posto m'ha il coltel nel petto</l>
@@ -4175,7 +4220,7 @@
             <l>Pigliatela, uccidetela, ch'io veggia,</l>
             <l>Pria che del tutto i' moia, la vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#semicoro">
             <speaker>SEM.</speaker>
             <l>Che grido, oimè, che voce è questa orrenda</l>
             <l>Del Re <name>Sulmon?</name> La figlia col coltello</l>
@@ -4185,11 +4230,11 @@
             <l>Ma questo non le basta, anco lo sgozza</l>
             <l part="I">Con un altro coltello.</l>
           </sp>
-          <sp>
+          <sp who="#sulmone">
             <speaker>SUL.</speaker>
             <l part="F">Oimè, pietade!</l>
           </sp>
-          <sp>
+          <sp who="#semicoro">
             <speaker>SEM.</speaker>
             <l>Egli è del tutto morto. Oh quanto sangue</l>
             <l>Versa d'ambo le piaghe! Ma che veggio?</l>
@@ -4252,7 +4297,7 @@
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage><hi rend="sc"><name>ORBECCHE,</name> NODRICE, DONNE DI CORTE</hi> della Reina</stage>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Or godi, traditor, de' tuoi misfatti,</l>
             <l>Godi, via più d'ogni dur <name>Scita</name> crudo</l>
@@ -4338,20 +4383,20 @@
             <l>Oimè, marito, o figli,</l>
             <l>Quant'è grave il dolor che per voi porto!</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>O che pianto, o che grida, o che querele</l>
             <l part="I">Crudeli i' sento!</l>
           </sp>
-          <sp>
+          <sp who="#donne">
             <speaker>DON. DI</speaker>
             <l part="F">Certo che son gravi,</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>COR.</speaker>
             <l>Né lontano molt'è questo lamento.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>O giorno sempre acerbo a gli occhi miei,</l>
             <l>Giorno sovra ogni giorno amaro e oscuro,</l>
@@ -4361,12 +4406,12 @@
             <l>La infelicità istessa; e s'aver puote</l>
             <l>Corpo mortale, ella nel mio si vive.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Certo ch'io n'ho pietà, senza ch'io sappia</l>
             <l>La cagione del male o chi si dolga.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Ma che prolungo più la vita mia?</l>
             <l>Già verso voi finito è ogni mio ufficio,</l>
@@ -4385,12 +4430,12 @@
             <l>Congiungerà con sempiterno nodo.</l>
             <l>Oimè, caro marito, o cari figli!</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Deh di grazia guardiam se noi vediamo</l>
             <l>Chi sparge al ciel così dogliose voci.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l>Ben prego, se non è pietà dal mondo</l>
             <l>Sbandita in tutto, ch'una grazia almeno</l>
@@ -4398,17 +4443,17 @@
             <l>Che così come l'anime congiunte</l>
             <l part="I">Saran ne l'altra vita . . .</l>
           </sp>
-          <sp>
+          <sp who="#donne">
             <speaker>DON. DI</speaker>
             <l part="F">Oimè, Nodrice,</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>COR.</speaker>
             <l>Che la Reina nostra è che si duole!</l>
             <l>Vedila là con un coltello in mano,</l>
             <l>Che par che sé medesma uccider voglia.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Oimè, che 'l traditor del padre avralle</l>
             <l>Rotta la fede e l'averà costretta</l>
@@ -4420,14 +4465,14 @@
             <l>Veggendone a sé gire; e a poter nostro</l>
             <l part="I">Levianla da la morte.</l>
           </sp>
-          <sp>
+          <sp who="#orbecche">
             <speaker>ORB.</speaker>
             <l part="F">Così insieme</l>
             <l>In un medesmo luoco sian riposti</l>
             <l>I corpi nostri in questa vita ch'ora,</l>
             <l>Il petto trafigendomi, abbandono.</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Che cosa è questa, oimè, Reina, e quale</l>
             <l>Empio furor così cieca vi mena</l>
@@ -4466,11 +4511,11 @@
             <l>Vi faria il don de lo spietato padre,</l>
             <l>Che stato vi è cagion di darvi morte.</l>
           </sp>
-          <sp>
+          <sp who="#donne">
             <speaker>DON. DI</speaker>
             <l>Misere noi, ben siam come smarrita</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>COR.</speaker>
             <l>Nave che 'n mar senza governo sia,</l>
             <l>Piene d'ogni dolore</l>
@@ -4484,7 +4529,7 @@
             <l>Ai sorte acerba, ai sorte,</l>
             <l>Com'hai a un colpo sol tutte noi morte!</l>
           </sp>
-          <sp>
+          <sp who="#nodrice">
             <speaker>NOD.</speaker>
             <l>Giusto duol bene a lamentar vi mena,</l>
             <l>Figliuole mie, ch'a voi tolt'ha la morte</l>
@@ -4532,11 +4577,11 @@
             <l>Togliendomi colei ond'io viveva,</l>
             <l>Tolta non m'hai con lei di questa vita?</l>
           </sp>
-          <sp>
+          <sp who="#donne">
             <speaker>DON. DI</speaker>
             <l>E noi che più sperar, lasse, devemo?</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>COR.</speaker>
             <l>Morta ogni nostra spene,</l>
             <l>Sol n'avanzan sospiri, angoscie e pene.</l>
@@ -4549,7 +4594,7 @@
           <head>
             <hi rend="sc">CORO</hi>
           </head>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <l>Ben è vana e fugace</l>
             <l>Questa felicità nostra mortale,</l>
@@ -4575,7 +4620,7 @@
         <head>
           <hi rend="sc">LA TRAGEDIA A CHI LEGGE</hi>
         </head>
-        <sp>
+        <sp who="#tragedia">
           <speaker>
             <hi rend="sc">Tragedia</hi>
           </speaker>

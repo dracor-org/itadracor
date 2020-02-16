@@ -81,6 +81,25 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="amore">
+            <persName>Amore</persName>
+          </person>
+          <person xml:id="cintia">
+            <persName>Cintia</persName>
+          </person>
+          <personGrp xml:id="coro">
+            <name>Coro</name>
+          </personGrp>
+          <person xml:id="endimione">
+            <persName>Endimione</persName>
+          </person>
+          <personGrp xml:id="coro_di_ninfe">
+            <name>Coro di ninfe</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
@@ -297,7 +316,7 @@ ARCADE</salute>
     <body>
       <div type="act">
         <head>ATTO I</head>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Felici piagge, avventurosi colli,</l>
@@ -307,7 +326,7 @@ ARCADE</salute>
             <l>Cintia scesa dal cielo.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Ombre solinghe, alti silenzi, oh quanto</l>
@@ -316,7 +335,7 @@ ARCADE</salute>
             <l>nemico di mia pace in seno avete.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Io per queste sì dolci</l>
@@ -329,7 +348,7 @@ ARCADE</salute>
             <l>regno sovra Saturno e sovra Giove.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Qual piacer mi lusinga</l>
@@ -348,7 +367,7 @@ ARCADE</salute>
             <l>la cura d'infiammar ninfe e pastori.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Ne la reggia e dentro 'l bosco</l>
@@ -372,7 +391,7 @@ ARCADE</salute>
             <l>di sospirar per deità celeste.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Fede negar non lice</l>
@@ -395,7 +414,7 @@ ARCADE</salute>
             <l>che, dovunque io mi volga, io sono Amore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Se di me tu favelli,</l>
@@ -406,7 +425,7 @@ ARCADE</salute>
             <l>ma là, dove sei dio, sarai tiranno.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Io da i fieri trastulli</l>
@@ -419,7 +438,7 @@ ARCADE</salute>
             <l>s'io son nume o tiranno.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>So che a i popoli tuoi</l>
@@ -454,7 +473,7 @@ ARCADE</salute>
             <l>e m'invola al mio desio -.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>I tuoi fati non hanno</l>
@@ -476,7 +495,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <lg>
             <l>Poiché 'l destin che in suo governo tiene</l>
@@ -514,7 +533,7 @@ ARCADE</salute>
       </div>
       <div type="act">
         <head>ATTO II</head>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Seguendo un mio desir, che mi diparte</l>
@@ -581,7 +600,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Quante ghirlande intorno</l>
@@ -603,7 +622,7 @@ ARCADE</salute>
             <l>più le bell'arti d'illustrar le selve.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>O dea, che far degg'io?</l>
@@ -614,7 +633,7 @@ ARCADE</salute>
             <l rend="italic">e degli eroi superbi aspro governo.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Non ben comprende il vero,</l>
@@ -634,7 +653,7 @@ ARCADE</salute>
             <l>il tuo bel nome adorna.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Lascieranno l'api i fiori,</l>
@@ -647,7 +666,7 @@ ARCADE</salute>
             <l>onde Amor l'alma mi prese.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Dunque d'amar ti riconsigli e schivi</l>
@@ -657,7 +676,7 @@ ARCADE</salute>
             <l>or di fermarti al guardo tuo non lice.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Andrò con le mie pene ove mi sforza</l>
@@ -665,7 +684,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Fortunato pastor, se tu vedessi</l>
@@ -697,7 +716,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Non son, come altri crede, un dio feroce,</l>
@@ -729,7 +748,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Se per desio de la mia morte vieni</l>
@@ -742,7 +761,7 @@ ARCADE</salute>
             <l>nel misero mio cor vibra te stesso.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Ingrato Endimion, di che ti lagni?</l>
@@ -754,7 +773,7 @@ ARCADE</salute>
             <l rend="italic">per l'emula del sole ardi e sospiri.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l rend="italic">E ben di ciò mi dolgo,</l>
@@ -773,7 +792,7 @@ ARCADE</salute>
             <l>a viver di desio fuor di speranza.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>E ti rechi ad oltraggio</l>
@@ -790,7 +809,7 @@ ARCADE</salute>
             <l>E tu vèr lui t'adiri?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Amore, omai</l>
@@ -799,7 +818,7 @@ ARCADE</salute>
             <l>carco sempre di pianto e di dolore?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Dona tregua</l>
@@ -812,7 +831,7 @@ ARCADE</salute>
             <l>Ardi e spera.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Ben tal volta mi lusingo</l>
@@ -825,14 +844,14 @@ ARCADE</salute>
             <l>io dispero.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Nulla t'affidi e forse ancor non sai</l>
             <l>che non ponno giamai mentir gli dei.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Ecco Cintia sen viene,</l>
@@ -840,14 +859,14 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Amor, se giusto sei,</l>
             <l>miei preghi ascolta e mia ragione intendi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Indarno meco a favellar tu prendi.</l>
@@ -862,19 +881,19 @@ ARCADE</salute>
             <l rend="italic">le famose vittorie e i gran trofei.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Troppo è tua legge imperiosa e grave.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>È 'l mio giogo soave.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Perché mal grado mio</l>
@@ -882,7 +901,7 @@ ARCADE</salute>
             <l>trasformare il desio?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Se pure ancora io sono</l>
@@ -891,7 +910,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <lg>
             <l>Quando d'un'alma Amor preso ha l'impero,</l>
@@ -910,7 +929,7 @@ ARCADE</salute>
       </div>
       <div type="act">
         <head>ATTO III</head>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Io son sì stanco di soffrir lo scempio</l>
@@ -955,7 +974,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Qual prenderò consiglio</l>
@@ -1029,7 +1048,7 @@ ARCADE</salute>
             <l>l'alte menti a' tuoi bei rai.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l rend="italic">Quando nel costui regno io posi il piede,</l>
@@ -1037,27 +1056,27 @@ ARCADE</salute>
             <l rend="italic">e m'empiro di lagrime e d'orrore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Di che sogna e favella?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Ben ho cagion d'aver in odio il giorno</l>
             <l>in cui conobbi Amore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Ah ben vaneggia Endimion, ché solo</l>
             <l>a me così di ragionar conviensi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Il sanno i monti, il sanno</l>
@@ -1065,7 +1084,7 @@ ARCADE</salute>
             <l>che risposer sovente a la mia doglia.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Tu segui ancora in sì turbati accenti</l>
@@ -1092,7 +1111,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Odi la dea ritrosa,</l>
@@ -1100,13 +1119,13 @@ ARCADE</salute>
             <l>la famosa d'Amore aspra nemica?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Il mio troppo desire hammi tradita.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Tu fuggi, o dea, né più ti pregi o vanti</l>
@@ -1132,21 +1151,21 @@ ARCADE</salute>
             <l>tutto pieno di gioia e di salute.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>E chi rompe i silenzi a me sì cari</l>
             <l>e turba la mia pace?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Pastor, ti riconforta,</l>
             <l>ché felici novelle Amor ti porta.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Tu m'involi a i riposi,</l>
@@ -1167,7 +1186,7 @@ ARCADE</salute>
             <l>lascia di lusingarmi o pur m'uccidi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Qual uom che sogna e di sua mente è incerto,</l>
@@ -1176,14 +1195,14 @@ ARCADE</salute>
             <l>strane e gioconde, a tutto il mondo ascose.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>A me sperar non lice</l>
             <l>sorte così felice.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Per questo dardo e per la face eterna</l>
@@ -1201,14 +1220,14 @@ ARCADE</salute>
             <l>torsi a' lacci d'Amor, più s'incatena.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>È ben sovra gli dei certo felice</l>
             <l>chi sospirar fa Cintia.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Ella mirando</l>
@@ -1219,7 +1238,7 @@ ARCADE</salute>
             <l>a l'amorose menti.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Non sono, Amor, non sono</l>
@@ -1227,7 +1246,7 @@ ARCADE</salute>
             <l>possenti ad invaghir cose celesti.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Qual da bel velo, Endimion, traluce</l>
@@ -1256,7 +1275,7 @@ ARCADE</salute>
             <l>la schiera de gli dei.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Amor, tu mi lusinghi</l>
@@ -1265,7 +1284,7 @@ ARCADE</salute>
             <l rend="italic">Cintia il rigido suo fero talento?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Sia pur sdegnosa, altera</l>
@@ -1274,19 +1293,19 @@ ARCADE</salute>
             <l>che quel vano piacer d'esser severa.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>E che sperar degg'io da tanto nume?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Ama, ch'amando non si reca oltraggio.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Io troppo in alto miro</l>
@@ -1294,7 +1313,7 @@ ARCADE</salute>
             <l>onde sempre sospiro.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Avvalora te stesso</l>
@@ -1302,7 +1321,7 @@ ARCADE</salute>
             <l rend="italic">ch'amor fu sempre alta cagion d'amore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>È un martìr l'essere amante,</l>
@@ -1316,7 +1335,7 @@ ARCADE</salute>
             <l>ed è duro il non amar.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Svela pure i tuoi tormenti,</l>
@@ -1332,7 +1351,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Di quest'anima mia stanno al governo</l>
@@ -1373,7 +1392,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Dolce forza d'Amor, che 'l tutto movi</l>
@@ -1408,7 +1427,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#coro_di_ninfe">
           <speaker>CORO DI NINFE</speaker>
           <lg>
             <l>Già l'usato</l>
@@ -1474,7 +1493,7 @@ ARCADE</salute>
       </div>
       <div type="act">
         <head>ATTO IV</head>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Amor, che m'infiammasti ed or mi guidi</l>
@@ -1487,7 +1506,7 @@ ARCADE</salute>
             <l>che quest'anima mia per lei sospiri.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Che ragioni d'Amor? Qual dea rammenti?</l>
@@ -1498,7 +1517,7 @@ ARCADE</salute>
             <l>per amorosi affanni?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Da così bella e luminosa parte</l>
@@ -1507,7 +1526,7 @@ ARCADE</salute>
             <l>senza oltraggiar gli dei.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>E co 'l favor de' numi</l>
@@ -1515,7 +1534,7 @@ ARCADE</salute>
             <l>Endimion, presumi?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Amor m'ha date l'ali</l>
@@ -1530,7 +1549,7 @@ ARCADE</salute>
             <l>la colpa che t'offende.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>E tanto lice ad ardimento umano?</l>
@@ -1543,7 +1562,7 @@ ARCADE</salute>
             <l>che l'alta offesa spira.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Amor, che in queste selve alberga e regna,</l>
@@ -1554,7 +1573,7 @@ ARCADE</salute>
             <l>né disperar conforto al tuo dolore -.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>E tu credi ad Amore,</l>
@@ -1570,7 +1589,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Passa l'amata dea sdegnosa, altera</l>
@@ -1632,7 +1651,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Arde Cintia d'amor, né si consiglia</l>
@@ -1656,7 +1675,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Tardi conobbi, Amore,</l>
@@ -1674,7 +1693,7 @@ ARCADE</salute>
             <l>e 'l tuo gran nume offesi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Che giova l'esser dio</l>
@@ -1683,27 +1702,27 @@ ARCADE</salute>
             <l>l'onor de' regni miei?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Di che ti lagni, Amor, se nulla ponno</l>
             <l>contra la tua possanza uomini e dei?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Del mio sì grave affanno</l>
             <l>sola cagion tu sei.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Meco tu scherzi, Amore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Come potresti mai</l>
@@ -1714,14 +1733,14 @@ ARCADE</salute>
             <l>sentire aprirsi il petto?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Che pastor? che ferite? e quando rea</l>
             <l>fu la mia deità di colpa atroce?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>È ver che l'arco tese</l>
@@ -1735,7 +1754,7 @@ ARCADE</salute>
             <l>su l'aspra istoria de' suoi tristi amori.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>In nome de le Furie uscì da l'arco</l>
@@ -1743,14 +1762,14 @@ ARCADE</salute>
             <l>Or dunque giace il bel pastore estinto?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Estinto no, ma da crudel ferita</l>
             <l>langue piagato a morte.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Ricuso d'esser dea</l>
@@ -1760,14 +1779,14 @@ ARCADE</salute>
             <l>senza 'l caro splendor de' lumi suoi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Or cela amor, se puoi.</l>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Ben tu fuggisti, Amor; ma qui me sola</l>
@@ -1803,7 +1822,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <lg>
             <l>Tratte avessi di man del sommo Giove</l>
@@ -1832,7 +1851,7 @@ ARCADE</salute>
       </div>
       <div type="act">
         <head>ATTO V</head>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Amor e 'l mio destino,</l>
@@ -1844,14 +1863,14 @@ ARCADE</salute>
             <l>giamai di dominar questa mia vita.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Qual possente virtude in sì brev'ora</l>
             <l>sanò l'aspra ferita?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>E quando mai si vide</l>
@@ -1860,47 +1879,47 @@ ARCADE</salute>
             <l>sanar piaga d'Amore?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Te pur ferì poc'anzi</l>
             <l>d'Elpinia il fero strale.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Io porto il cor sicuro</l>
             <l>da l'arme di beltà caduca e frale</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Non favello de' dardi,</l>
             <l>ch'Elpinia ha ne' begli occhi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Né co' suoi dolci sguardi,</l>
             <l>né con la destra armata ella m'offese.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>E pur lo disse Amore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Se 'l disse Amor, favolleggiare intese.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Empio diletto in ver fingere i mali</l>
@@ -1911,14 +1930,14 @@ ARCADE</salute>
             <l>la mente in parte adombra e turba il ciglio.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Quanta pietà de' miseri mortali</l>
             <l>nutre il cor degli dei!</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Quella pietà che spesso</l>
@@ -1947,7 +1966,7 @@ ARCADE</salute>
             <l>a gli occhi miei cosa mortal rimembra.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>O sia forza d'Amore o tua virtute,</l>
@@ -1980,7 +1999,7 @@ ARCADE</salute>
             <l>esser non le dovea cagion di pianto.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Segui Amor ch'a tanta luce</l>
@@ -1993,7 +2012,7 @@ ARCADE</salute>
             <l>nel consorzio de gli dei.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l rend="italic">Pur gli eventi acerbi e rei</l>
@@ -2009,7 +2028,7 @@ ARCADE</salute>
             <l>per disdegni.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l rend="italic">Sì funeste memorie</l>
@@ -2025,7 +2044,7 @@ ARCADE</salute>
             <l rend="italic">de' tuoi piacer governo.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Più beato</l>
@@ -2036,21 +2055,21 @@ ARCADE</salute>
             <l>mai non cangi le sue tempre.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l rend="italic">Amiam sempre</l>
             <l rend="italic">in profonda, amica pace.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Sia d'Amor la bella face</l>
             <l>nostra luce e nostro ardore.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Tutto è pena e tutto è orrore,</l>
@@ -2058,7 +2077,7 @@ ARCADE</salute>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Che fate qui fra le terrene cose,</l>
@@ -2066,7 +2085,7 @@ ARCADE</salute>
             <l>Il piacer di là sù nulla vi move?</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Io l'ambrosia immortal non chiedo a Giove</l>
@@ -2074,7 +2093,7 @@ ARCADE</salute>
             <l>è la mia mente accesa.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>E quest'anima intesa</l>
@@ -2084,7 +2103,7 @@ ARCADE</salute>
             <l>o nulla a lei rimane o più non lice.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l rend="italic">Pur se tanto t'infiamma e ti conforta</l>
@@ -2098,7 +2117,7 @@ ARCADE</salute>
             <l>splendon gli dei ne la lor propria luce.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Quale nova nel cor gioia mi desta</l>
@@ -2113,7 +2132,7 @@ ARCADE</salute>
             <l>e far numi i servi tuoi.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>O sempre caro ed onorato giorno,</l>
@@ -2121,7 +2140,7 @@ ARCADE</salute>
             <l>e 'l mio destino in sì bel nodo strinse!</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Giunto colà sovra l'eccelse sfere,</l>
@@ -2163,7 +2182,7 @@ ARCADE</salute>
             <l>e le vere obliar cose immortali.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Voi, dello spirto mio celesti scorte,</l>
@@ -2174,14 +2193,14 @@ ARCADE</salute>
             <l>nel centro de' suoi rai la gloria vostra.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#cintia">
           <speaker>CINTIA</speaker>
           <lg>
             <l>Tu scorgerai quanto è a' seguaci suoi</l>
             <l>Amor liberalissimo e fedele.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#amore">
           <speaker>AMORE</speaker>
           <lg>
             <l>Il mio poter si svele</l>
@@ -2190,14 +2209,14 @@ ARCADE</salute>
             <l>a l'immortali sfere.</l>
           </lg>
         </sp>
-        <sp>
+        <sp who="#endimione">
           <speaker>ENDIMIONE</speaker>
           <lg>
             <l>Le tue promesse, Amor, quanto son vere!</l>
           </lg>
         </sp>
         <p>***</p>
-        <sp>
+        <sp who="#coro">
           <speaker>CORO</speaker>
           <lg>
             <l>Chi potrà mai dentro i consigli tuoi</l>

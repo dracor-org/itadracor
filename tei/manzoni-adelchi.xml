@@ -76,6 +76,121 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="vermondo">
+            <persName>Vermondo</persName>
+          </person>
+          <person xml:id="desiderio">
+            <persName>Desiderio</persName>
+          </person>
+          <person xml:id="adelchi">
+            <persName>Adelchi</persName>
+          </person>
+          <person xml:id="ermengarda">
+            <persName>Ermengarda</persName>
+          </person>
+          <person xml:id="anfrido">
+            <persName>Anfrido</persName>
+          </person>
+          <person xml:id="albino">
+            <persName>Albino</persName>
+          </person>
+          <person xml:id="fedeli">
+            <persName>Fedeli longobardi</persName>
+          </person>
+          <person xml:id="indolfo">
+            <persName>Indolfo</persName>
+          </person>
+          <person xml:id="farvaldo">
+            <persName>Farvaldo</persName>
+          </person>
+          <person xml:id="ervigo">
+            <persName>Ervigo</persName>
+          </person>
+          <person xml:id="ildechi">
+            <persName>Ildechi</persName>
+          </person>
+          <person xml:id="svarto">
+            <persName>Svarto</persName>
+          </person>
+          <personGrp xml:id="altri_duchi">
+            <name>Altri duchi</name>
+          </personGrp>
+          <person xml:id="duchi">
+            <persName>Duchi</persName>
+          </person>
+          <person xml:id="pietro">
+            <persName>Pietro</persName>
+          </person>
+          <person xml:id="carlo">
+            <persName>Carlo</persName>
+          </person>
+          <person xml:id="arvino">
+            <persName>Arvino</persName>
+          </person>
+          <person xml:id="martino">
+            <persName>Martino</persName>
+          </person>
+          <person xml:id="scudiere">
+            <persName>Scudiere</persName>
+          </person>
+          <person xml:id="altro_scudiere">
+            <persName>Altro scudiere</persName>
+          </person>
+          <person xml:id="baudo">
+            <persName>Baudo</persName>
+          </person>
+          <person xml:id="soldato">
+            <persName>Soldato</persName>
+          </person>
+          <person xml:id="altro_soldato">
+            <persName>Altro soldato</persName>
+          </person>
+          <personGrp xml:id="molti_soldati">
+            <name>Molti soldati</name>
+          </personGrp>
+          <person xml:id="rutlando">
+            <persName>Rutlando</persName>
+          </person>
+          <person xml:id="conte">
+            <persName>Conte</persName>
+          </person>
+          <person xml:id="altro_conte">
+            <persName>Altro conte</persName>
+          </person>
+          <person xml:id="franco">
+            <persName>Franco</persName>
+          </person>
+          <person xml:id="longobardi">
+            <persName>Longobardi</persName>
+          </person>
+          <person xml:id="giselberto">
+            <persName>Giselberto</persName>
+          </person>
+          <person xml:id="ansberga">
+            <persName>Ansberga</persName>
+          </person>
+          <person xml:id="prima_suora">
+            <persName>Prima suora</persName>
+          </person>
+          <person xml:id="seconda_suora">
+            <persName>Seconda suora</persName>
+          </person>
+          <person xml:id="donzella">
+            <persName>Donzella</persName>
+          </person>
+          <person xml:id="guntigi">
+            <persName>Guntigi</persName>
+          </person>
+          <person xml:id="amri">
+            <persName>Amri</persName>
+          </person>
+          <person xml:id="teudi">
+            <persName>Teudi</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
@@ -152,7 +267,7 @@
           <castItem type="role"><role>SOLDATI</role>,</castItem>
           <castItem type="role"><role>LONGOBARDI</role>:</castItem>
           <castItem type="role"><role>DONZELLE</role>,</castItem>
-          <castItem type="role"><role>SUORE</role> <roleDesc>NEL MONASTERO DI ANSBERGA.</roleDesc>
+          <castItem type="role"><role>SUORE</role><roleDesc>NEL MONASTERO DI ANSBERGA.</roleDesc>
             —
           </castItem>
           <castItem type="role"><role>CONTI FRANCHI</role>,</castItem>
@@ -171,7 +286,7 @@
             <emph>Palazzo reale in Pavia.</emph>
           </stage>
           <stage>DESIDERIO, ADELCHI, VERMONDO.</stage>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l>O mio re Desiderio, e tu del regno</l>
@@ -198,7 +313,7 @@
               <l part="I">L'annunzio ad arrecar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">L'ira del cielo</l>
@@ -218,7 +333,7 @@
               <l part="I">Quando oltraggiasti una innocente.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">O padre;</l>
@@ -232,7 +347,7 @@
               <l>Una voce d'amor che la conforti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Figlio, rimanti. E tu fedel Vermondo,</l>
@@ -256,7 +371,7 @@
         <div type="scene">
           <head>SCENA II </head>
           <stage>DESIDERIO, ADELCHI</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Adelchi;</l>
@@ -272,7 +387,7 @@
               <l part="I">È conforto e vendetta!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Oh prezzo amaro</l>
@@ -284,7 +399,7 @@
               <l part="I">La sventura onorar!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Quando all'oltraggio</l>
@@ -312,7 +427,7 @@
               <l part="I">Contra l'iniquo usurpator.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Ma incerta</l>
@@ -329,7 +444,7 @@
               <l part="I">Per le città rapite.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ebben, ricusi:</l>
@@ -347,7 +462,7 @@
               <l part="I">Sgombro darà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Debellator dei Greci,</l>
@@ -367,7 +482,7 @@
               <l part="I">L'ugna dei Franchi corridor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Che parli</l>
@@ -397,7 +512,7 @@
               <l>Nel mio figliuol, mi colmeria di gioja.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>Deh perché non è qui! Perché non posso</l>
@@ -409,14 +524,14 @@
               <l>Una parola dal tuo labbro uscia!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Questa è voce d'Adelchi. Ebben, quel giorno</l>
               <l part="I">Che tu brami, io l'affretto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">O padre, un altro</l>
@@ -438,7 +553,7 @@
               <l>Deggio dall'uom che mi combatte al fianco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Chi mai regnò senza nemici? il core</l>
@@ -450,7 +565,7 @@
               <l>Fuorché l'ardir? Tu, che proponi al fine?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>Quel, che signor di gente invitta e fida,</l>
@@ -459,7 +574,7 @@
               <l part="I">Siam d'Adriano: ei lo desia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Perire,</l>
@@ -474,13 +589,13 @@
           <head>SCENA III</head>
           <stage><emph>Detti</emph>, VERMONDO <emph>che precede</emph> ERMENGARDA,</stage>
           <stage>DONZELLE <emph>che l'accompagnano</emph>.</stage>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l part="F">O regi; ecco Ermengarda.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">Vieni, o figlia; fa cor.</l>
@@ -489,7 +604,7 @@
               <emph>(Vermondo parte: le donzelle si scostano).</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Sei nelle braccia</l>
@@ -499,7 +614,7 @@
               <l part="I">D'allor che ne partisti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Oh benedetta</l>
@@ -520,21 +635,21 @@
               <l part="I">Hanno così questa reietta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Ah! nostro</l>
               <l part="I">È il tuo dolor, nostro l'oltraggio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">E nostro</l>
               <l part="I">Sarà il pensier della vendetta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">O padre</l>
@@ -549,7 +664,7 @@
               <l part="I">Esser pegno dovea.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Di quell'iniquo</l>
@@ -557,7 +672,7 @@
               <l part="I">Tu l'ameresti ancor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Padre, nel fondo</l>
@@ -582,7 +697,7 @@
               <l part="I">Ivi potrò chiudere i giorni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Al vento</l>
@@ -593,7 +708,7 @@
               <l part="I">Torre ogni gioja.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Oh! non avesse mai</l>
@@ -603,21 +718,21 @@
               <l part="I">Né gli occhi volti sopra me!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Vendetta,</l>
               <l part="I">Quanto lenta verrai!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Trova il mio prego</l>
               <l part="I">Grazia appo te?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Sollecito fu sempre</l>
@@ -632,40 +747,40 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage><emph>Detti</emph>,ANFRIDO.</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Che rechi, Anfrido?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l>Sire, un legato è nella reggia, e chiede</l>
               <l>Gli sia concesso appresentarsi ai regi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">Donde vien? chi l'invia?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">Da Roma ei viene,</l>
               <l part="I">Ma legato è d'un re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Padre, concedi</l>
               <l part="I">Ch'io mi ritragga.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">O donne, alle sue stanze</l>
@@ -675,20 +790,20 @@
             </lg>
             <stage><emph>(Ermengarda parte con le donzelle)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">D'un re dicesti, Anfrido?</l>
               <l part="I">Un legato... di Carlo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">O re, l'hai detto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Che pretende costui? quali parole</l>
@@ -696,7 +811,7 @@
               <l part="I">Che di morte non sia?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">Di gran messaggio</l>
@@ -705,21 +820,21 @@
               <l part="I">Favella in atto di blandir.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Conosco</l>
               <l part="I">L'arti di Carlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Al suo stromento il tempo</l>
               <l part="I">D'esercitarle non si dia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Raguna</l>
@@ -728,21 +843,21 @@
             </lg>
             <stage><emph>(Anfrido parte) </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Il giorno della prova è giunto;</l>
               <l part="I">Figlio, sei tu con me?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Sì dura inchiesta</l>
               <l part="I">Quando, o padre, mertai?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Venuto è il giorno</l>
@@ -750,7 +865,7 @@
               <l part="I">Dì, l'abbiam noi? Che pensi far?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Risponda</l>
@@ -758,14 +873,14 @@
               <l part="I">Attender penso, ed eseguirli.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">E quando</l>
               <l part="I">A' tuoi disegni opposti sieno?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">O padre!</l>
@@ -779,7 +894,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>DESIDERIO, ADELCHI, ALBINO, <emph>Fedeli longobardi</emph>.</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Duchi, e Fedeli; ai vostri re mai sempre</l>
@@ -787,7 +902,7 @@
               <l>Come nel campo. — Ambasciator, che rechi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#albino">
             <speaker>ALBINO</speaker>
             <lg>
               <l>Carlo, il diletto a Dio sire dei Franchi</l>
@@ -797,7 +912,7 @@
               <l>L'uomo illustre Pipin fe' dono a Piero?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Uomini Longobardi! in faccia a tutto</l>
@@ -817,7 +932,7 @@
               <l part="I">Non darne alcuna.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#albino">
             <speaker>ALBINO</speaker>
             <lg>
               <l part="F">E tal risposta è guerra.</l>
@@ -832,7 +947,7 @@
               <l part="I">Star del vostro peccato.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Al tuo re torna</l>
@@ -842,13 +957,13 @@
               <l part="I">Rispondete a costui.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#fedeli">
             <speaker>FEDELI</speaker>
             <lg>
               <l part="M">Guerra!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#albino">
             <speaker>ALBINO</speaker>
             <lg>
               <l part="F">E l'avrete,</l>
@@ -858,7 +973,7 @@
               <l part="I">Già si rimette in via.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Spieghi ogni duca</l>
@@ -874,7 +989,7 @@
               <l part="I">Questo invito riporta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">E digli ancora,</l>
@@ -894,33 +1009,33 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>DUCHI <emph>rimasti</emph>.</stage>
-          <sp>
+          <sp who="#indolfo">
             <speaker>INDOLFO</speaker>
             <lg>
               <l part="I">Guerra, egli ha detto!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#farvaldo">
             <speaker>FARVALDO</speaker>
             <lg>
               <l part="F">In questa guerra è il fato</l>
               <l part="I">Del regno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#indolfo">
             <speaker>INDOLFO</speaker>
             <lg>
               <l part="M">E il nostro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ervigo">
             <speaker>ERVIGO</speaker>
             <lg>
               <l part="F">E inerti ad aspettarlo</l>
               <l part="I">Staremci?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">Amici, di consulte il loco</l>
@@ -932,7 +1047,7 @@
         <div type="scene">
           <head>SCENA VII </head>
           <stage><emph>Casa di Svarto </emph>.</stage>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l>Un messagger dei Franchi! Un qualche evento,</l>
@@ -969,14 +1084,14 @@
         <div type="scene">
           <head>SCENA VIII </head>
           <stage>SVARTO, ILDECHI, <emph>quindi altri che sopraggiungono</emph>.</stage>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">Il ciel ti salvi, o Svarto:</l>
               <l part="I">Nessuno è qui?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Nessun. Quai nuove, o duca?</l>
@@ -986,39 +1101,39 @@
               <l part="I">Del guiderdon per tutti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Io nulla attendo,</l>
               <l part="I">Fuor che da voi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <stage><emph>(a</emph> FARVALDO <emph>che sopraggiunge)</emph>.</stage>
             <lg>
               <l part="F">Farvaldo, alcun ti segue?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#farvaldo">
             <speaker>FARVALDO</speaker>
             <lg>
               <l part="I">Vien sui miei passi Indolfo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="M">Eccolo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#indolfo">
             <speaker>INDOLFO</speaker>
             <lg>
               <l part="F">Amici!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="I">Vila! Ervigo!</l>
@@ -1037,33 +1152,33 @@
               <l part="I">Per chi voleva un altro re?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#indolfo">
             <speaker>INDOLFO</speaker>
             <lg>
               <l part="F">Nessuna</l>
               <l part="I">Pace con lor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#altri_duchi">
             <speaker>ALTRI DUCHI</speaker>
             <lg>
               <l part="M">Nessuna!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">È d'uopo un patto</l>
               <l part="I">Stringer con Carlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#farvaldo">
             <speaker>FARVALDO</speaker>
             <lg>
               <l part="M">Al suo legato...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ervigo">
             <speaker>ERVIGO</speaker>
             <lg>
               <l part="F">È cinto</l>
@@ -1071,7 +1186,7 @@
               <l>Porglisi al fianco; e fu pensier d'Adelchi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l>Vada adunque un di noi; rechi le nostre</l>
@@ -1079,20 +1194,20 @@
               <l part="I">O le rimandi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#indolfo">
             <speaker>INDOLFO</speaker>
             <lg>
               <l part="M">Bene sta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">Chi piglia</l>
               <l part="I">Quest'impresa?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Io v'andrò. Duchi, m'udite.</l>
@@ -1116,14 +1231,14 @@
               <l part="I">Tosto mi sgombrerà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">— Svarto, io da tanto</l>
               <l part="I">Non ti credea.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Necessità lo zelo</l>
@@ -1131,20 +1246,20 @@
               <l part="I">Non è mestier che di prontezza.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">Amici!</l>
               <l part="I">Ch'ei vada?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#duchi">
             <speaker>DUCHI</speaker>
             <lg>
               <l part="M">Ei vada.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">Al dì novello in pronto</l>
@@ -1159,7 +1274,7 @@
           <head>SCENA I</head>
           <stage><emph>Campo dei Franchi in Val di Susa</emph>.</stage>
           <stage>CARLO, PIETRO</stage>
-          <sp>
+          <sp who="#pietro">
             <speaker>PIETRO</speaker>
             <lg>
               <l>Carlo invitto, che udii? Toccato ancora</l>
@@ -1177,7 +1292,7 @@
               <l part="I">Volle un momento, e disperò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Quant'io</l>
@@ -1231,7 +1346,7 @@
               <l part="I">Non se ne parli più.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#pietro">
             <speaker>PIETRO</speaker>
             <lg>
               <l part="F">Re, all'umil servo</l>
@@ -1254,7 +1369,7 @@
               <l>Fia risoluta in fra noi due la lite.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>A che ritenti questa piaga? In vani</l>
@@ -1287,7 +1402,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage><emph>Detti</emph>, ARVINO.</stage>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l part="F">Sire, nel campo</l>
@@ -1295,20 +1410,20 @@
               <l part="I">Chiede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#pietro">
             <speaker>PIETRO</speaker>
             <lg>
               <l part="M">Un Latin?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Donde arrivò? Le Chiuse</l>
               <l part="I">Come varcò?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l part="F">Per calli sconosciuti,</l>
@@ -1316,7 +1431,7 @@
               <l part="I">Grande avviso recar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Fa ch'io gli parli.</l>
@@ -1333,14 +1448,14 @@
           <head>SCENA III</head>
           <stage><emph>Detti</emph>, MARTINO <emph>introdotto da</emph> ARVINO.</stage>
           <stage><emph>(Arvino si ritira)</emph>).</stage>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Tu se' latino, e qui? tu nel mio campo,</l>
               <l part="I">Illeso, inosservato?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="F">Inclita speme</l>
@@ -1351,19 +1466,19 @@
               <l part="I">La via.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">Qual via?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="M">Quella ch'io feci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">E come</l>
@@ -1371,7 +1486,7 @@
               <l part="I">Pensier ti venne?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="F">All'ordin sacro ascritto</l>
@@ -1383,14 +1498,14 @@
               <l part="I">Presenta il pianto e d'Adrian.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Tu vedi</l>
               <l part="I">Il suo legato.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#pietro">
             <speaker>PIETRO</speaker>
             <lg>
               <l part="F">Ch'io la man ti stringa,</l>
@@ -1398,14 +1513,14 @@
               <l part="I">Angel di gioia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="F">Uom peccator son io;</l>
               <l>Ma la gioia è dal cielo, e non fia vana.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Animoso Latin; ciò che veduto,</l>
@@ -1413,7 +1528,7 @@
               <l part="I">Tutto mi narra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="F">Di Leone al cenno,</l>
@@ -1434,14 +1549,14 @@
               <l part="I">Strugger la possa il braccio tuo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Toccasti</l>
               <l part="I">Il campo lor? qual'è? che fan?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="F">Securi</l>
@@ -1464,14 +1579,14 @@
               <l part="I">La via cercarne, e la rinvenni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">E come</l>
               <l>Nota a te fu? come al nemico ascosa?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l>Dio gli accecò, Dio mi guidò. Dal campo</l>
@@ -1566,14 +1681,14 @@
               <l>Dio ringraziai, li benedissi, e scesi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Empio colui, che non vorrà la destra</l>
               <l part="I">Qui riconoscer dell'Eccelso!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#pietro">
             <speaker>PIETRO</speaker>
             <lg>
               <l part="F">E quanto</l>
@@ -1581,7 +1696,7 @@
               <l part="I">A cui l'Eccelso ti destina!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Ed io</l>
@@ -1594,7 +1709,7 @@
               <l part="I">Dar può la via che percorresti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l part="F">Il puote.</l>
@@ -1604,7 +1719,7 @@
               <l part="I">D'inutile portento?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Oggi a riposo</l>
@@ -1614,14 +1729,14 @@
               <l>Che il fior di Francia alla tua scorta affido.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#martino">
             <speaker>MARTINO</speaker>
             <lg>
               <l>Con lor sarò: di mie promesse pegno</l>
               <l part="I">Il mio capo ti fia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Se di quest'alpe</l>
@@ -1639,7 +1754,7 @@
             </lg>
             <stage><emph>(Arvino parte)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <stage>
               <emph>(al legato ed a Martino) </emph>
@@ -1654,7 +1769,7 @@
         </div>
         <div type="scene">
           <head>SCENA IV</head>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Così, Carlo reddiva. Il riso amaro</l>
@@ -1695,7 +1810,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>CARLO, CONTI e VESCOVI.</stage>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <stage><emph>(ai Conti)</emph>.</stage>
             <lg>
@@ -1769,14 +1884,14 @@
             <emph>Campo dei Longobardi. Piazza dinanzi alla tenda di Adelchi.</emph>
           </stage>
           <stage>ADELCHI, ANFRIDO</stage>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <stage><emph>(che sopraggiunge)</emph>.</stage>
             <lg>
               <l part="I">Signor!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Diletto Anfrido; ebben; che fanno</l>
@@ -1784,7 +1899,7 @@
               <l part="I">Le tende al tutto di levar?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">Nessuno</l>
@@ -1801,7 +1916,7 @@
               <l>Ritrarsi agogna, ed il momento agguata.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>E lo potrà, pur troppo! Ei parte, il vile</l>
@@ -1824,7 +1939,7 @@
               <l part="I">Che lunge ei sia dalla mia spada!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">O dolce</l>
@@ -1841,7 +1956,7 @@
               <l part="I">Dovranno or più che mai.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">La gloria? il mio</l>
@@ -1862,14 +1977,14 @@
               <l part="I">Certa ed agevol fia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">Torna agli antichi</l>
               <l part="I">Disegni il re?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Dubbiar ne puoi? Securo</l>
@@ -1906,7 +2021,7 @@
               <l part="I">E balzato dal vento.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">Alto infelice!</l>
@@ -1929,7 +2044,7 @@
           <head>SCENA II</head>
           <stage>ADELCHI, DESIDERIO.</stage>
           <stage><emph>(Anfrido si ritira)</emph>.</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Figlio, a te rege qual son io, m'è tolto</l>
@@ -1949,7 +2064,7 @@
               <l part="I">L'ultima fronda, e la più bella.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">A quale</l>
@@ -1957,7 +2072,7 @@
               <l part="I">Obbediente seguiratti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">E a tanto</l>
@@ -1965,27 +2080,27 @@
               <l part="I">Spinger ti può?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Questa è in mia mano; e intera</l>
               <l part="I">L'avrai, fin ch'io respiro!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Obbediresti</l>
               <l part="I">Biasmando?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="M">Obbedirei.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Gloria e tormento</l>
@@ -1999,38 +2114,38 @@
         <div type="scene">
           <head>SCENA III </head>
           <stage><emph>Detti, uno </emph>SCUDIERO <emph>frettoloso ed atterrito</emph>.</stage>
-          <sp>
+          <sp who="#scudiere">
             <speaker>SCUDIERE</speaker>
             <lg>
               <l part="F">I Franchi! i Franchi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">Che dici insano?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#altro_scudiere">
             <speaker>ALTRO SCUDIERE</speaker>
             <lg>
               <l part="M">I Franchi, o re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Che Franchi?</l>
             </lg>
             <stage><emph>(la scena si affolla di Longobardi fuggitivi. Entra Baudo)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="I">Baudo, che fu?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#baudo">
             <speaker>BAUDO</speaker>
             <lg>
               <l part="F">Morte e sventura! Il campo</l>
@@ -2038,20 +2153,20 @@
               <l part="I">Piombano i Franchi ad assalirci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">I Franchi!</l>
               <l part="I">Per qual via?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#baudo">
             <speaker>BAUDO</speaker>
             <lg>
               <l part="M">Chi lo sa?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Corriamo; ei fia</l>
@@ -2059,20 +2174,20 @@
             </lg>
             <stage><emph>(in atto di partire)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#baudo">
             <speaker>BAUDO</speaker>
             <lg>
               <l part="F">Un'oste intera:</l>
               <l>Gli sbandati siam noi: tutto è perduto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">Tutto è perduto?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Ebben, compagni; i Franchi?</l>
@@ -2090,13 +2205,13 @@
               <l part="I">Anfrido!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="M">O re, son teco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <stage><emph>(avviandosi)</emph>.</stage>
             <lg>
@@ -2107,7 +2222,7 @@
               <emph>(parte seguito da Anfrido, da Baudo e da alcuni longobardi).</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <stage><emph>(ai fuggitivi che attraversano la scena)</emph>.</stage>
             <lg>
@@ -2118,14 +2233,14 @@
             </lg>
             <stage><emph>(sopraggiungono soldati fuggitivi dalla parte opposta a quella donde è partito Adelchi)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l part="F">O re, tu qui? Deh! fuggi.</l>
             </lg>
             <stage><emph>(attraversa la scena)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Infame! al re questo consiglio? E voi,</l>
@@ -2141,7 +2256,7 @@
               <l part="I">Perché fuggite dalle Chiuse?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l part="F">I Franchi</l>
@@ -2150,7 +2265,7 @@
               <l part="I">Son dispersi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Tu menti. Il figliuol mio</l>
@@ -2158,7 +2273,7 @@
               <l part="I">A quei pochi nemici. Indietro!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l part="F">O sire,</l>
@@ -2168,7 +2283,7 @@
               <l part="I">Non li raguna: siam traditi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <stage><emph>(ai fuggitivi che si affollano) </emph>.</stage>
             <lg>
@@ -2177,7 +2292,7 @@
               <l part="I">Restar si può.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l part="F">Sono deserte: i Franchi</l>
@@ -2186,21 +2301,21 @@
               <l part="I">Resta alla fuga; or or fia chiuso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ebbene;</l>
               <l part="I">Moriam qui da guerrier.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#altro_soldato">
             <speaker>ALTRO SOLDATO</speaker>
             <lg>
               <l part="F">Siamo traditi:</l>
               <l part="I">Siam venduti al macello.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#altro_soldato">
             <speaker>ALTRO SOLDATO</speaker>
             <lg>
               <l part="F">In giusta guerra</l>
@@ -2208,19 +2323,19 @@
               <l part="I">Non isgozzati a tradimento.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#altro_soldato">
             <speaker>ALTRO SOLDATO</speaker>
             <lg>
               <l part="F">I Franchi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#molti_soldati">
             <speaker>MOLTI SOLDATI</speaker>
             <lg>
               <l part="I">Fuggiamo!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ebben, correte; anch'io con voi</l>
@@ -2235,7 +2350,7 @@
             <emph>Parte del campo abbandonato dai Longobardi, sotto alle Chiuse. </emph>
           </stage>
           <stage>CARLO<emph>circondato da Conti franchi</emph>, SVARTO.</stage>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Ecco varcate queste Chiuse. A Dio</l>
@@ -2256,14 +2371,14 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage><emph>Detti</emph>, RUTLANDO..</stage>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">E che? Rutlando,</l>
               <l part="I">Tu riedi dal conflitto?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#rutlando">
             <speaker>RUTLANDO</speaker>
             <lg>
               <l part="F">O re, ti chiamo</l>
@@ -2273,14 +2388,14 @@
               <l part="I">Io non l'inseguo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">E non trovasti alcuno</l>
               <l part="I">Che mostrasse la fronte?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#rutlando">
             <speaker>RUTLANDO</speaker>
             <lg>
               <l part="F">Incontro io vidi</l>
@@ -2295,7 +2410,7 @@
               <l part="I">Mosso di Francia non sarei.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">T'accheta,</l>
@@ -2306,7 +2421,7 @@
             </lg>
             <stage><emph>(entra il CONTE spedito da Carlo) </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#conte">
             <speaker>CONTE</speaker>
             <stage><emph>(a Carlo) </emph>.</stage>
             <lg>
@@ -2317,13 +2432,13 @@
               <l>Che da lui ci divide, or or fia sgombro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="I">Esser dovea così.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#conte">
             <speaker>CONTE</speaker>
             <lg>
               <l part="F">Vidi un drappello,</l>
@@ -2331,20 +2446,20 @@
               <l part="I">Venìa correndo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#altro_conte">
             <speaker>ALTRO CONTE</speaker>
             <lg>
               <l part="M">È qui.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Svarto, son quelli</l>
               <l part="I">Che m' annunziasti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="M">Il son. — Compagni!</l>
@@ -2354,20 +2469,20 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage><emph>Detti</emph>, ILDECHI <emph>ed altri Duchi, Giudici e Soldati longobardi</emph>.</stage>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <lg>
               <l part="F">O Svarto!</l>
               <l part="I">Il re!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">Son desso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ildechi">
             <speaker>ILDECHI</speaker>
             <stage><emph>(s'inginocchia e pone le sue mani fra quelle di Carlo)</emph>.</stage>
             <lg>
@@ -2378,27 +2493,27 @@
               <l part="I">A te promesso da gran tempo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Svarto,</l>
               <l part="I">Conte di Susa!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="M">O re, qual grazia? ...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Il nome</l>
               <l part="I">Dimmi di questi a me devoti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Il duca</l>
@@ -2408,7 +2523,7 @@
               <l part="I">Giudici son; questi guerrieri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Alzatevi,</l>
@@ -2436,7 +2551,7 @@
             </lg>
             <stage><emph>(i Longobardi partono) </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <stage><emph>(a Rutlando in disparte) </emph>.</stage>
             <lg>
@@ -2444,13 +2559,13 @@
               <l part="I">Prodi costor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#rutlando">
             <speaker>RUTLANDO</speaker>
             <lg>
               <l part="M">Pur troppo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Errato ha il labbro</l>
@@ -2464,26 +2579,26 @@
         <div type="scene">
           <head>SCENA VII</head>
           <stage><emph>Detti</emph>, ANFRIDO <emph>ferito, portato da due</emph>FRANCHI.</stage>
-          <sp>
+          <sp who="#rutlando">
             <speaker>RUTLANDO</speaker>
             <lg>
               <l part="I">Ecco un nemico. Ove si pugna?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#franco">
             <speaker>FRANCO</speaker>
             <lg>
               <l part="F">Il solo</l>
               <l part="I">Che pugnasse, è costui.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">Solo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#franco">
             <speaker>FRANCO</speaker>
             <lg>
               <l part="F">Gran parte</l>
@@ -2508,7 +2623,7 @@
               <l part="I">Ci arrendemmo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">E ben feste: a chi resiste</l>
@@ -2519,27 +2634,27 @@
               <l part="F">Il riconosci?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="I">Anfrido egli è, scudier d'Adelchi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Anfrido,</l>
               <l part="I">Tu solo andavi contro alor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l part="F">Bisogno</l>
               <l part="I">Fa di compagni per morir?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Rutlando!</l>
@@ -2553,7 +2668,7 @@
               <l>Guerrier restavi e non prigion di Carlo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#anfrido">
             <speaker>ANFRIDO</speaker>
             <lg>
               <l>Io viver tuo guerrier, quand'io potea</l>
@@ -2568,7 +2683,7 @@
               <l>Nessun mortale: un che si muor tel dice.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <stage><emph>(ai Conti) </emph>.</stage>
             <lg>
@@ -2598,7 +2713,7 @@
           <head>SCENA VIII</head>
           <stage><emph>Bosco solitario</emph>.</stage>
           <stage>DESIDERIO, VERMONDO, <emph>altri</emph>LONGOBARDI <emph>fuggiaschi in disordine</emph>.</stage>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l>Siamo in salvo, o mio re: scendi, e su queste</l>
@@ -2610,13 +2725,13 @@
               <l part="I">Cinto non sei che di leali.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">E Adelchi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l>Or or fia qui, lo spero: alla sua traccia</l>
@@ -2625,20 +2740,20 @@
               <l>E a questa posta de' leali il guidi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>O mio Vermondo; il vecchio rege è stanco,</l>
               <l part="I">È stanco — dalla fuga.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l part="F">Ahi traditori!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Vili! Nel fango han trascinato i bianchi</l>
@@ -2652,7 +2767,7 @@
               <l part="I">Che mi farà codesto Carlo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l part="F">O nostro</l>
@@ -2662,7 +2777,7 @@
               <l>Città munite: e Adelchi vive, io spero.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Maladetto quel dì che sopra il monte</l>
@@ -2676,13 +2791,13 @@
               <l>Che una esecranda ora d'infamia ha spento!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#vermondo">
             <speaker>VERMONDO</speaker>
             <lg>
               <l part="I">Il re!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="M">Figlio, sei tu?</l>
@@ -2692,20 +2807,20 @@
         <div type="scene">
           <head>SCENA IX </head>
           <stage><emph>Detti</emph>, ADELCHI.</stage>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Padre, ti trovo!</l>
             </lg>
             <stage><emph>(si abbracciano) </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">S'io t'avessi ascoltato!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Oh! che rammenti?</l>
@@ -2715,7 +2830,7 @@
               <l part="I">Come ti regge?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Oh! per la prima volta</l>
@@ -2724,7 +2839,7 @@
               <l part="I">Per fuggire un nemico.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <stage><emph>(ai Longobardi) </emph>.</stage>
             <lg>
@@ -2732,19 +2847,19 @@
               <l part="I">Il vostro re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#longobardi">
             <speaker>LONGOBARDI</speaker>
             <lg>
               <l part="F">Noi morirem per lui!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#longobardi">
             <speaker>MOLTI LONGOBARDI</speaker>
             <lg>
               <l part="I">Tutti morrem!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Quand'è così, salvargli</l>
@@ -2754,7 +2869,7 @@
               <l part="I">La vostra fede?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#longobardi">
             <speaker>LONGOBARDI</speaker>
             <lg>
               <l part="F">Ai tuoi guerrieri, Adelchi,</l>
@@ -2764,7 +2879,7 @@
               <l part="I">Segno de' fidi è questo omai.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">V'ha dunque</l>
@@ -2783,14 +2898,14 @@
               <l part="I">L'uom che restar debba al tuo fianco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Il duca</l>
               <l part="I">D'Ivrea.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <stage>(<emph>a</emph>GUNTIGI, <emph>che s'avanza</emph>).</stage>
             <lg>
@@ -2798,14 +2913,14 @@
               <l part="I">Il duca di Verona ov'è?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#giselberto">
             <speaker>GISELBERTO</speaker>
             <stage><emph>(si avanza) </emph>.</stage>
             <lg>
               <l part="F">Tra i fidi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>Meco verrai: nosco trarrem Gerberga.</l>
@@ -2837,27 +2952,27 @@
             </lg>
             <stage><emph>(partono gli indicati da Adelchi). </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">O figlio!</l>
               <l>Tu m'hai renduto il mio vigor: partiamo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>Padre, io t'affido a questi prodi: or ora</l>
               <l part="I">Anch'io teco sarò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="M">Che attendi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Anfrido.</l>
@@ -2870,14 +2985,14 @@
               <l part="I">Non partirò, fin ch'ei non giunga.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">E teco</l>
               <l part="I">Aspetterò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="M">Padre...</l>
@@ -2887,26 +3002,26 @@
               <l part="F">Vedesti Anfrido?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l part="I">Re, che mi chiedi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="M">O ciel! favella.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l part="F">Il vidi</l>
               <l part="I">Morto cader.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Giorno d'infamia e d'ira,</l>
@@ -3020,7 +3135,7 @@
           <head>SCENA I</head>
           <stage><emph>Giardino nel monastero di San Salvadore in Brescia</emph>.</stage>
           <stage>ERMENGARDA<emph>sostenuta da due donzelle</emph>, ANSBERGA.</stage>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="I">Qui sotto il tiglio, qui.</l>
@@ -3067,7 +3182,7 @@
               <l>Ineffabile strazio Ei qui mi tenga?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l>Cara infelice, non temer: lontane</l>
@@ -3084,7 +3199,7 @@
               <l part="I">Lungo conflitto...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Io nol vedrò: disciolta</l>
@@ -3112,13 +3227,13 @@
               <l>Di mia gente nemico approssimarsi...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="I">Carlo!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Tu l'hai nomato: e sì gli dica:</l>
@@ -3132,7 +3247,7 @@
               <l part="I">Ch'io gli perdono. — Lo farai?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Le estreme</l>
@@ -3140,7 +3255,7 @@
               <l part="I">Queste tue mi son sacre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Amata! e d'una</l>
@@ -3159,7 +3274,7 @@
               <l part="I">Dee la morte attestarlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Oh! da te lunge</l>
@@ -3172,7 +3287,7 @@
               <l part="I">Cosa l'obblìo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Che mi proponi, Ansberga?</l>
@@ -3185,14 +3300,14 @@
               <l part="I">In fronte all'uom! Ma — d'altri io sono.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Oh mai</l>
               <l part="I">Stata nol fossi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Oh mai! ma quella via,</l>
@@ -3207,13 +3322,13 @@
               <l>Talor dei vivi son più forti assai.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="I">Oh! nol farà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Tu pia, tu poni un freno</l>
@@ -3222,46 +3337,46 @@
               <l>Far che ripari, chi lo fece, il torto?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l>No, sventurata, ei nol farà. — Nol puote.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="I">Come? perché nol puote?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">O mia diletta</l>
               <l part="I">Non chieder oltre; obblia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Parla! alla tomba</l>
               <l part="I">Con questo dubbio non mandarmi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Oh! l'empio</l>
               <l part="I">Il suo delitto consumò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Prosegui!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l>Caccialo al tutto dal tuo cor. Di nuove</l>
@@ -3282,13 +3397,13 @@
               <l>Le dà? Vedete: il suo dolor l'uccide.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#prima_suora">
             <speaker>PRIMA SUORA</speaker>
             <lg>
               <l part="I">Fa core; ella respira.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#seconda_suora">
             <speaker>SECONDA SUORA</speaker>
             <lg>
               <l part="F">O sventurata!</l>
@@ -3296,27 +3411,27 @@
               <l part="I">Soffrir!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#donzella">
             <speaker>DONZELLA</speaker>
             <lg>
               <l part="M">Dolce mia donna!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#prima_suora">
             <speaker>PRIMA SUORA</speaker>
             <lg>
               <l part="F">Ecco le luci</l>
               <l part="I">Apre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="M">Oh che sguardo! Ciel! che fia?</l>
             </lg>
             <stage><emph>(in delirio) </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Cacciate</l>
@@ -3325,7 +3440,7 @@
               <l part="I">Prender la mano al re?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Svegliati! Oh Dio</l>
@@ -3333,7 +3448,7 @@
               <l>Questi fantasmi; il nome santo invoca.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <stage><emph>(in delirio)</emph>.</stage>
             <lg>
@@ -3362,14 +3477,14 @@
               <l part="I">Nelle sue braccia... io muoio! ...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Oh! mi farai</l>
               <l part="I">Teco morir!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <stage><emph>(in delirio) </emph>.</stage>
             <lg>
@@ -3403,14 +3518,14 @@
             </lg>
             <stage><emph>(ricade) </emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Tranquilla</l>
               <l part="I">Ella morìa!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <stage><emph>(in delirio) </emph>.</stage>
             <lg>
@@ -3422,14 +3537,14 @@
             </lg>
             <stage><emph>(ricade in letargo)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">O donna</l>
               <l part="I">Del ciel soccorri a questa afflitta!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#prima_suora">
             <speaker>PRIMA SUORA</speaker>
             <lg>
               <l part="F">Oh! vedi:</l>
@@ -3437,21 +3552,21 @@
               <l part="I">Sotto la man più non trabalza.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">O suora!</l>
               <l part="I">Ermengarda! Ermengarda!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <stage><emph>(riavendosi)</emph>.</stage>
             <lg>
               <l part="F">Oh! chi mi chiama?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l>Guardami; io sono Ansberga: a te d'intorno</l>
@@ -3459,7 +3574,7 @@
               <l part="I">Che per la pace tua pregano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">Il cielo</l>
@@ -3468,7 +3583,7 @@
               <l part="I">Io mi risveglio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ansberga">
             <speaker>ANSBERGA</speaker>
             <lg>
               <l part="F">Misera! travaglio</l>
@@ -3476,7 +3591,7 @@
               <l part="I">Quiete.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ermengarda">
             <speaker>ERMENGARDA</speaker>
             <lg>
               <l part="F">È ver: tutta la lena è spenta.</l>
@@ -3657,20 +3772,20 @@
           <head>SCENA II</head>
           <stage><emph>Notte. Interno d'un battifredo su le mura di Pavia</emph>.</stage>
           <stage>GUNTIGI, AMRI</stage>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="I">Amri, sovvienti di Spoleti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <lg>
               <l part="F">E posso</l>
               <l part="I">Obbliarlo, signor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">D'allor che morto</l>
@@ -3682,7 +3797,7 @@
               <l part="I">Che mi giuravi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <lg>
               <l part="F">Obbedienza e fede</l>
@@ -3690,20 +3805,20 @@
               <l part="I">Ho il giuro mai?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">No; ma l'istante è giunto</l>
               <l part="I">Che tu lo illustri con la prova.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <lg>
               <l part="F">Imponi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l>Tocca quest'armi consacrate, e giura</l>
@@ -3712,7 +3827,7 @@
               <l part="I">Mai dal tuo labbro rivelato.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <stage><emph>(ponendo le mani sull'armi) </emph>.</stage>
             <lg>
@@ -3722,7 +3837,7 @@
               <l part="I">Divenir servo d'un Romano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Ascolta.</l>
@@ -3750,14 +3865,14 @@
               <l part="I">Entra ed avvisa.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <lg>
               <l part="F">Come imponi, io tutto</l>
               <l part="I">Farò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Tu servi a gran disegno, e grande</l>
@@ -3768,7 +3883,7 @@
         </div>
         <div type="scene">
           <head>SCENA III </head>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l>Fedeltà! — Che il tristo amico</l>
@@ -3846,13 +3961,13 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>GUNTIGI, SVARTO <emph>condotto da</emph> AMRI.</stage>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="I">Guntigi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="M">Svarto!</l>
@@ -3863,13 +3978,13 @@
               <l>Non incontrasti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <lg>
               <l part="I">Alcun.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Qui intorno veglia.</l>
@@ -3880,21 +3995,21 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>GUNTIGI, SVARTO.</stage>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l>Guntigi, io vengo, e il capo mio commetto</l>
               <l part="I">Alla tua fede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">E tu n'hai pegno: entrambi</l>
               <l part="I">Un periglio corriamo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">E un premio immenso</l>
@@ -3902,7 +4017,7 @@
               <l part="I">D'un popolo e la tua?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Quando quel Franco</l>
@@ -3921,13 +4036,13 @@
               <l part="I">Carlo nel suo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="M">Dubbiar ne puoi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Ch'io sappia</l>
@@ -3936,7 +4051,7 @@
               <l part="I">Né resta a me che un titol vano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">E giova</l>
@@ -3952,7 +4067,7 @@
               <l part="M">Sei di Pavia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Da questo istante</l>
@@ -3961,7 +4076,7 @@
               <l part="I">Nunziami, o Svarto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Ei vuol Pavia; captivo</l>
@@ -3980,7 +4095,7 @@
               <l part="I">Ei regna, e guerra più non v'è.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Sì, certo:</l>
@@ -3999,7 +4114,7 @@
               <l part="I">Sfuggir non può.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Felice me, che a Carlo</l>
@@ -4013,7 +4128,7 @@
               <l>L'altra già fu, questa vittoria estrema?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l>Stanchi e sfidati i più, sotto il vessillo</l>
@@ -4028,14 +4143,14 @@
               <l part="I">Ormai nulla sperando...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Ebben, prometti;</l>
               <l part="I">Tutti guadagna.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Inutil rischio ei fia.</l>
@@ -4043,7 +4158,7 @@
               <l part="I">Tutto compir si può.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Guntigi, ascolta.</l>
@@ -4055,7 +4170,7 @@
               <l part="I">Di salvati da noi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Fiducia, o Svarto,</l>
@@ -4068,7 +4183,7 @@
               <l>Posto in non cal chi glielo diede in mano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l>Saggio tu parli e schietto. — Odi; per noi</l>
@@ -4085,20 +4200,20 @@
               <l part="I">Saranno miei.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">La tua parola, o Svarto,</l>
               <l part="I">Prendo, e la mia ti fermo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">In vita e in morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="I">Pegno la destra.</l>
@@ -4109,13 +4224,13 @@
               <l part="I">Reca l'omaggio mio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="M">Doman!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <lg>
               <l part="F">Domani.</l>
@@ -4126,21 +4241,21 @@
               <l part="M">È sgombro lo spalto?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amri">
             <speaker>AMRI</speaker>
             <lg>
               <l part="F">È sgombro; e tutto</l>
               <l part="I">Tace d'intorno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#guntigi">
             <speaker>GUNTIGI</speaker>
             <stage><emph>(AD Amri, accennando Svarto)</emph>.</stage>
             <lg>
               <l part="M">Il riconduci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#svarto">
             <speaker>SVARTO</speaker>
             <lg>
               <l part="F">Addio.</l>
@@ -4154,7 +4269,7 @@
           <head>SCENA I</head>
           <stage><emph>Palazzo Reale in Verona</emph>.</stage>
           <stage>ADELCHI, GISELBERTO<emph>duca di Verona</emph>.</stage>
-          <sp>
+          <sp who="#giselberto">
             <speaker>GISELBERTO</speaker>
             <lg>
               <l>Costretto, o re, dell'oste intera io vengo</l>
@@ -4181,7 +4296,7 @@
               <l part="I">Chieggono il fine.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Esci: la mia risposta</l>
@@ -4191,7 +4306,7 @@
         </div>
         <div type="scene">
           <head>SCENA II</head>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Va, vivi, invecchia in pace;</l>
@@ -4280,52 +4395,52 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>ADELCHI, TEUDI</stage>
-          <sp>
+          <sp who="#teudi">
             <speaker>TEUDI</speaker>
             <lg>
               <l part="M">Mio re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Restano amici ancora</l>
               <l part="I">Al re che cade?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#teudi">
             <speaker>TEUDI</speaker>
             <lg>
               <l part="F">Sì: color che amici</l>
               <l part="I">Eran d'Adelchi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">E che partito han preso?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#teudi">
             <speaker>TEUDI</speaker>
             <lg>
               <l part="I">L'aspettano da te.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Dove son essi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#teudi">
             <speaker>TEUDI</speaker>
             <lg>
               <l>Qui nel palazzo tuo, scevri dai tristi</l>
               <l>A cui sol tarda d'esser vinti appieno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>Tristo, o Teudi, il valor disseminato</l>
@@ -4346,7 +4461,7 @@
               <l part="I">Riposo, o Teudi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#teudi">
             <speaker>TEUDI</speaker>
             <lg>
               <l part="F">Oh! la secondi il cielo.</l>
@@ -4358,7 +4473,7 @@
           <head>SCENA IV </head>
           <stage><emph>Tenda nel campo di Carlo sotto Verona</emph>.</stage>
           <stage>CARLO,<emph>un</emph> ARALDO, ARVINO, CONTI.</stage>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Vanne, araldo, in Verona; e al duca, a tutti</l>
@@ -4370,26 +4485,26 @@
             </lg>
             <stage><emph>(l'Araldo parte)</emph>.</stage>
           </sp>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l>Il vinto re chiede parlarti, o sire.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="I">Che vuol?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l part="F">Nol disse; ma pietosa istanza</l>
               <l part="I">Egli ne fea.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">Venga.</l>
@@ -4411,7 +4526,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>CARLO, DESIDERIO.</stage>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>A che vieni, infelice? E che parola</l>
@@ -4435,7 +4550,7 @@
               <l part="I">Dono ha Carlo per te.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Re del mio regno,</l>
@@ -4453,27 +4568,27 @@
               <l>È giudizio di sangue a chi lo sdegna.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="I">Parla.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">In difesa d'Adrian, tu il brando</l>
               <l part="I">Contro di me traesti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">A che mi chiedi</l>
               <l part="I">Quello che sai?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Sappi tu ancor che solo</l>
@@ -4484,13 +4599,13 @@
               <l part="I">Mai sempre oppose: indarno!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">Ebben?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Compiuta</l>
@@ -4504,14 +4619,14 @@
               <l part="I">Più ti domanda Iddio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Tu legge imponi</l>
               <l part="I">Al vincitor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Legge? Oh! ne' detti miei</l>
@@ -4524,13 +4639,13 @@
               <l>Gli smisurati desideri il cielo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="I">Cessa.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ah! m'ascolta: un dì tu ancor potresti</l>
@@ -4555,14 +4670,14 @@
               <l part="I">Che il figliuol mio...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Non più: cosa mi chiedi</l>
               <l>Tu! che da me non otterria Bertrada.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Io ti pregava! io, che per certo a prova</l>
@@ -4573,7 +4688,7 @@
               <l>Calca i prostrati, e sali; a Dio rincresci...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Taci, tu che sei vinto. E che? pur ieri</l>
@@ -4635,7 +4750,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>CARLO, DESIDERIO, ARVINO.</stage>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l>Viva re Carlo! Al cenno tuo, dai valli</l>
@@ -4644,20 +4759,20 @@
               <l>Ognun s'affolla, ed all'omaggio accorre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>Ahi dolente, che ascolto! e che mi resta</l>
               <l part="I">Ad ascoltar!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">Né alcun vi manca?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l part="F">Alcuno.</l>
@@ -4667,40 +4782,40 @@
               <l part="I">Presso al morire.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="M">E son?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l part="F">Tale è presente,</l>
               <l>A cui troppo dorrà, se tutto io dico.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">Nunzio di morte, tu l'hai detto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Adelchi</l>
               <l part="I">Dunque perì?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <stage><emph>(ad Arvino)</emph>.</stage>
             <lg>
               <l part="F">Parla, o crudele, al padre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l>La luce ei vede, ma per poco, offeso</l>
@@ -4708,14 +4823,14 @@
               <l part="I">E te pur anco, o sire.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">E questo ancora</l>
               <l part="I">Mi negherai?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">No, sventurato. — Arvino,</l>
@@ -4727,7 +4842,7 @@
         <div type="scene">
           <head>SCENA VII </head>
           <stage>CARLO, DESIDERIO.</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Oh! come grave</l>
@@ -4750,7 +4865,7 @@
               <l>Innanzi ad uom che in ascoltarli esulta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l>Veglio, t'inganna il tuo dolor. Pensoso,</l>
@@ -4763,7 +4878,7 @@
               <l part="I">La nimistà d'un pio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Dono funesto</l>
@@ -4777,60 +4892,60 @@
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>CARLO, DESIDERIO, ADELCHI <emph>ferito e portato</emph>.</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="I">Ahi, figlio!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">O padre, io ti riveggio! Appressa,</l>
               <l part="I">Tocca la mano del tuo figlio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Orrendo</l>
               <l part="I">M'è il vederti così.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Molti sul campo</l>
               <l part="I">Cadder così per la mia mano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ahi, dunque</l>
               <l>Insanabile, o caro, è questa piaga?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="I">Insanabile.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ahi lasso! ahi guerra atroce!</l>
               <l>Io crudel che la volli; io che t'uccido!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l>Non tu, né questi, ma il Signor d'entrambi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l>O desiato da quest'occhi, oh quanto</l>
@@ -4840,7 +4955,7 @@
               <l part="I">Ora di pace.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Ora per me di pace,</l>
@@ -4848,7 +4963,7 @@
               <l part="I">Te dal dolor qua giù non lasci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Oh fronte</l>
@@ -4856,7 +4971,7 @@
               <l part="I">Che spiravi il terror!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Cessa i lamenti,</l>
@@ -4888,14 +5003,14 @@
               <l part="I">Questi è un uom che morrà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ma ch' io ti perdo,</l>
               <l part="I">Figlio, di ciò chi mi consola?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Il Dio</l>
@@ -4907,7 +5022,7 @@
               <l part="I">Nemico mio...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Con questo nome, Adelchi,</l>
@@ -4916,7 +5031,7 @@
               <l part="I">Credilo, in cor cape di Carlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">E amico</l>
@@ -4941,7 +5056,7 @@
               <l part="I">Che vassallo il tradì.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Porta all'avello</l>
@@ -4950,7 +5065,7 @@
               <l part="I">È parola di Carlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">Il tuo nemico</l>
@@ -4961,7 +5076,7 @@
         <div type="scene">
           <head>SCENA IX</head>
           <stage>ARVINO, CARLO, DESIDERIO, ADELCHI.</stage>
-          <sp>
+          <sp who="#arvino">
             <speaker>ARVINO</speaker>
             <lg>
               <l part="F">Impazienti,</l>
@@ -4969,13 +5084,13 @@
               <l part="I">D'essere ammessi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="M">Carlo!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#carlo">
             <speaker>CARLO</speaker>
             <lg>
               <l part="F">Alcun non osi</l>
@@ -4990,27 +5105,27 @@
         <div type="scene">
           <head>SCENA X</head>
           <stage>DESIDERIO, ADELCHI</stage>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="M">Ahi, mio diletto!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">O padre,</l>
               <l part="I">Fugge la luce da quest'occhi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Adelchi,</l>
               <l part="I">No, non lasciarmi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#adelchi">
             <speaker>ADELCHI</speaker>
             <lg>
               <l part="F">O Re dei re, tradito</l>
@@ -5019,7 +5134,7 @@
               <l part="I">Accogli.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#desiderio">
             <speaker>DESIDERIO</speaker>
             <lg>
               <l part="F">Ei t'ode: oh ciel! tu manchi! Ed io...</l>

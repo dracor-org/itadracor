@@ -74,6 +74,22 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Alfea">
+            <persName>Alfea</persName>
+          </person>
+          <personGrp xml:id="coro">
+            <name>Coro delle ninfe dell'arno</name>
+          </personGrp>
+          <personGrp xml:id="due_ninfe">
+            <name>Due delle ninfe</name>
+          </personGrp>
+          <person xml:id="la_fama">
+            <persName>La Fama</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Pisa</name>Digitalizzazione</change>
@@ -108,7 +124,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
           <p>Era la notte; onde giunto il Carro al cominciare della destra sponda del Nobil Arno; Gareggiando in rompere, e fugar l'ombre, con'una quantità grandissima di torce, che portate da numeroso stuolo di Staffieri anch'essi bizzarramente vestiti, lo accompagnavano, si veddero in un subito ciascheduna delle Rive del Fiume interamente illuminate; allo splendor' delle quali, per maggior ricchezza del Teatro veniva non solo aggiunto il reflesso dell'onde, ma nell'istesso tempo si accrebbe il sereno lampeggiar de gl'occhi d'infinite Dame, che s'affacciarno. Quindi per la medesima riva, con l'ordine suddetto caminando, arrivato alla Piazza della Regia abitazione di S.A.S. Venendo quella onorata dalla presenza delle Serenissime Altezze, e questa illustrata anch'ella da infiniti lumi, e dalla bellezza indicibile d'altre Principali Dame Forestiere, e della Città si fermò il Carro, e con profondo, e maestoso inchino, havendo Alfea reverite le Serenissime Altezze, rivolta quindi alle Ninfe dell'Arno, et a' Cavalieri che le facevano Corona, e doppo alle rive dell'istesso Fiume, precedente una Musicale sinfonia di varij instrumenti toccati dalle Ninfe, al suono ben regolato de' medesimi, sciolse la lingua in questi accenti. </p>
         </div>
         <div type="scene" n="Scena">
-          <sp>
+          <sp who="#Alfea">
             <speaker>
               <hi rend="sc"> ALFEA SOLA</hi>
             </speaker>
@@ -178,7 +194,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Del Gran <hi rend="sc"> FERNANDO</hi> al nome, e di <hi rend="sc"> VITTORIA. </hi> </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc"> CORO DELLE NINFE DELL'ARNO</hi>
             </speaker>
@@ -189,7 +205,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Chi già mai ridir potrà? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#alfea">
             <speaker>
               <hi rend="sc"> ALFEA</hi>
             </speaker>
@@ -206,7 +222,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Fan Corona ampi Tesori. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#due_ninfe">
             <speaker>
               <hi rend="sc"> DUE DELLE NINFE DEL CORO</hi>
             </speaker>
@@ -219,7 +235,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Regio Core, Alma Divina. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc"> IL CORO TUTTO</hi>
             </speaker>
@@ -232,7 +248,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Chi già mai ridir potrà? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#alfea">
             <speaker>
               <hi rend="sc"> ALFEA</hi>
             </speaker>
@@ -249,7 +265,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Di virtù, di senno, è piena. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#due_ninfe">
             <speaker>
               <hi rend="sc"> LE DUE NINFE</hi>
             </speaker>
@@ -262,7 +278,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Regio Core, Alma Divina. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc"> TUTTO IL CORO</hi>
             </speaker>
@@ -275,7 +291,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Chi già mai ridir potrà? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#alfea">
             <speaker>
               <hi rend="sc"> ALFEA</hi>
             </speaker>
@@ -292,7 +308,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Cadan vinti a i Toschi Legni. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#due_ninfe">
             <speaker>
               <hi rend="sc"> LE DUE NINFE</hi>
             </speaker>
@@ -303,7 +319,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Regio Core, Alma Divina. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc"> IL CORO TUTTO </hi>
             </speaker>
@@ -316,7 +332,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l>Chi già mai ridir potrà? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#alfea">
             <speaker>
               <hi rend="sc"> ALFEA</hi>
             </speaker>
@@ -341,7 +357,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
           </sp>
           <stage>Qui le Trombe e i Tamburi fanno piena Sinfonia.</stage>
           <stage>In quello una delle Ninfe levatasi in piedi, et all'Ali apparitele a gl'Omeri et all'aurea Tromba vedutasele nelle mani, scopertasi d'esser la <hi rend="sc"> FAMA, </hi> accennando alle Trombe, et a i Tamburi che si quietino scioglie la voce in questo suono.</stage>
-          <sp>
+          <sp who="#la_fama">
             <speaker>
               <hi rend="sc"> LA FAMA</hi>
             </speaker>
@@ -404,7 +420,7 @@ GRANDUCHESSA DI TOSCANA</hi></p>
               <l> (Se 'l tuo Cenno le scorga) il Mondo intero. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>
               <hi rend="sc"> TUTTO IL CORO </hi>
             </speaker>

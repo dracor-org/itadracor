@@ -80,6 +80,49 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ugo">
+            <persName>Ugo</persName>
+          </person>
+          <person xml:id="guglielmo">
+            <persName>Guglielmo</persName>
+          </person>
+          <person xml:id="giovanni">
+            <persName>Giovanni</persName>
+          </person>
+          <person xml:id="paola">
+            <persName>Paola</persName>
+          </person>
+          <person xml:id="armida">
+            <persName>Armida</persName>
+          </person>
+          <person xml:id="matanno">
+            <persName>Matanno</persName>
+          </person>
+          <person xml:id="anselmo">
+            <persName>Padre Anselmo</persName>
+          </person>
+          <person xml:id="antonio">
+            <persName>Padre Antonio</persName>
+          </person>
+          <person xml:id="maria">
+            <persName>Maria</persName>
+          </person>
+          <person xml:id="contadina">
+            <persName>Contadina</persName>
+          </person>
+          <person xml:id="melosso">
+            <persName>Melosso</persName>
+          </person>
+          <person xml:id="vitelli">
+            <persName>Paolo Vitelli</persName>
+          </person>
+          <person xml:id="malvezzi">
+            <persName>Lucio Malvezzi</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>2000-02-28T00:00:00.000+02:00</date><name>Brunamonti Samuela</name><name>CIBIT-Pisa</name>Digitalizzazione</change>
@@ -104,9 +147,13 @@
         <castItem type="role"><role>UGO</role> (<roleDesc>fidanzato di Paola</roleDesc>)</castItem>
         <castItem type="role"><role>MARIA</role> (<roleDesc>la piccola montanara</roleDesc>)</castItem>
         <castItem type="role">
-          <role><add>CONTADINA</add></role>
+          <role>
+            <add>CONTADINA</add>
+          </role>
         </castItem>
-        <castItem type="role"><role>PADRE ANSELMO</role></castItem>
+        <castItem type="role">
+          <role>PADRE ANSELMO</role>
+        </castItem>
         <castItem type="role"><role>PADRE ANTONIO</role> (<roleDesc>frati vestiti di bianco dell'ordine camaldolese</roleDesc>)</castItem>
         <castItem type="role"><role>PAOLO VITELLI</role> (<roleDesc>di parte nemica, comandante</roleDesc>)</castItem>
         <castItem type="list"><role>MATANNO</role> E <role>MELOSSO</role> ed <roleDesc>altri soldati che non parlano</roleDesc></castItem>
@@ -200,28 +247,28 @@ stava leggendo al suo piccolo uditorio composto dei suoi familiari. Come segue</
           <head>SCENA PRIMA </head>
           <stage>Guglielmo, Paola, Armida e Ugo amico di casa e fidanzato di Paola che entra vestito a guerriero
 foriero di cattive novità; tanto mai addolorato.</stage>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <stage>(entrando)</stage>
             <l>Giungo forse inaspettato? </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Perché, Ugo! E in qual maniera </l>
             <l>In ritardo sei stasera? </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> E in divisa tutto armato! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Ugo, dimmi per favore </l>
             <l>Quale male ci minaccia, </l>
             <l>Che guardando la tua faccia </l>
             <l>Vi si legge un gran dolore. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Eh! Purtroppo, caro amico, </l>
             <l>Un tal disse in gran segreto </l>
@@ -237,15 +284,15 @@ Venni a casa e, come vedi, </l>
             <l>Corsi a te così, Guglielmo, </l>
             <l>Perché meglio tu mi credi. </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Giusto cielo, tutto intesi! </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Son lucchesi o fiorentini? </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Sia chi sia, son malandrini </l>
             <l>Che l'àn presa coi Butesi. </l>
@@ -253,11 +300,11 @@ Venni a casa e, come vedi, </l>
             <l>Ugo, aspetta il mio intervento! </l>
             <l>Cingerò pur io quel brando </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> E così ci vai lasciando? </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Ma ritorno nel momento. </l>
             <stage>(partendo colla moglie mentre il padre gli va dietro da destra)</stage>
@@ -266,14 +313,14 @@ Venni a casa e, come vedi, </l>
         <div type="scene">
           <head>SCENA SECONDA </head>
           <stage>Paola e Ugo</stage>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> E tu Ugo che ne dici? </l>
             <l>Quando soli qui saremo </l>
             <l>Certo è che temeremo </l>
             <l>Un affronto dai nemici. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Stai tranquilla Paola cara, </l>
             <l>Abbi a me fiducia e amore, </l>
@@ -284,7 +331,7 @@ Venni a casa e, come vedi, </l>
             <l>Per quel detto sol che bramo; </l>
             <l>Paola dillo!… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Non pensiamo </l>
             <l>A tai cose che rigetto. </l>
@@ -293,12 +340,12 @@ Venni a casa e, come vedi, </l>
             <l>Meritato guiderdone </l>
             <l>E sposarmi allor potrai. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> E se poi fosse altra cosa! </l>
             <l>Se restassi in guerra ucciso? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Non lo dir, ché in Paradiso </l>
             <l>Sarò sempre la tua sposa. </l>
@@ -310,7 +357,7 @@ Venni a casa e, come vedi, </l>
           <stage>Rientrano sulla scena Guglielmo, il padre Giovanni e Armida, piangendo col
 fazzoletto, che si asciuga gli occhi perché suo marito vuol partire e andare
 a combattere.</stage>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <stage>(vestito del tutto a guerriero rivolto ai suoi)</stage>
             <l>Or conviene far </l>
@@ -319,7 +366,7 @@ a combattere.</stage>
             <l>Ugo andiam, sento rumore, </l>
             <l>Urge la nostra presenza. </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <stage>(andando alla porta chiude il passo a Guglielmo)</stage>
             <l>No, Guglielmo, non partire </l>
@@ -330,7 +377,7 @@ a combattere.</stage>
               <pb n="136"/>
             </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Sgombra il passo, cosa fai? </l>
             <l>Cosa dici? O mio furore! </l>
@@ -338,12 +385,12 @@ a combattere.</stage>
             <l>Prima vittima cadrai. </l>
             <stage>(Paola con Giovanni e Ugo in disparte pensosi)</stage>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Non m'importa, di tua mano </l>
             <l>Preferisco di morire! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Cielo! Armida, inorridire </l>
             <l>Tu mi fai coll'atto insano </l>
@@ -351,19 +398,19 @@ a combattere.</stage>
             <l>Via, desisti </l>
             <stage> (Guglielmo getta Armida da una parte della porta)</stage>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Prima morta! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Bada Armida, mi arrovello. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Non trascendere, fratello! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Va, ti scosta dalla porta! </l>
             <stage> (e finisce di gettarla in disparte)</stage>
@@ -371,11 +418,11 @@ a combattere.</stage>
             <stage>(soffermandosi)</stage>
             <l> Ugo andiam… </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Son teco anch'io, </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Fate còr, miei cari, addio; </l>
             <l>Vo cantando una canzone: </l>
@@ -397,7 +444,7 @@ CON MOTIVO DIVERSO DAL MAGGIO </head>
           <head>SCENA QUARTA </head>
           <pb n="137"/>
           <stage>Giovanni, Paola e Armida</stage>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Donne mie, se preparate </l>
             <l>Già vi siete, andremo fòra </l>
@@ -408,11 +455,11 @@ CON MOTIVO DIVERSO DAL MAGGIO </head>
             <l>Triste a noi! Partiamo, avanti, </l>
             <l>Ché si fugge un tal malanno. </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Dove andremo in tal momento? </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Salirem sul Monte Serra </l>
             <l>Come profughi di guerra, </l>
@@ -420,11 +467,11 @@ CON MOTIVO DIVERSO DAL MAGGIO </head>
             <l>E se della selve nostra </l>
             <l>Abitassimo il metato? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Grazie o padre, ài ben pensato! </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Qual dimor,a a noi ci mostra… </l>
             <l>Ma se poi dobbiam fuggire </l>
@@ -432,7 +479,7 @@ CON MOTIVO DIVERSO DAL MAGGIO </head>
             <l>Ché se ancor qui staremo </l>
             <l>Ci potrebbero aggredire. </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <stage>(guardando dalla porta di fuori a sinistra)</stage>
             <l>Donne andiamo, è scuro il cielo, </l>
@@ -446,7 +493,7 @@ CON MOTIVO DIVERSO DAL MAGGIO </head>
           <pb n="138"/>
           <stage>Matanno aiutante a Paolo Vitelli entra furtivo nella casa di Giovanni
 appena che le <num>3</num> persone sono partite. (Giovanni Paola e Armida partono da destra)</stage>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> Son passato dal verone, </l>
             <l>Rampicando qual capretto </l>
@@ -467,7 +514,7 @@ appena che le <num>3</num> persone sono partite. (Giovanni Paola e Armida parton
           <head>SCENA SESTA </head>
           <stage>Meravigliata Paola ritornando indietro sola a casa perché si era dimenticata
 una cosa sacra; trovando la porta aperta</stage>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(meravigliata)</stage>
             <l>Ciel che vedo, l'uscio è aperto! </l>
@@ -514,26 +561,26 @@ nascosto, e di ciò Paola si spaventa.</stage>
             <l>In mia casa così sola? </l>
             <l>Ciel, fuggiamo!… </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <stage>(trattenendola)</stage>
             <l>Una parola! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Non v'è alcun che mi difende? </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> Leggiadrissima donzella, </l>
             <l>Io, dovendoti parlare, </l>
             <l>Qui furtivo volli entrare. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Sei straniero alla favella. </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> La tua casa a quanto pare </l>
             <l>Ci resulta assai sospetta, </l>
@@ -549,7 +596,7 @@ nascosto, e di ciò Paola si spaventa.</stage>
 Se non mostri i connotati </l>
             <l>Di quei grandi documenti. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Prima i tuoi voglio vedere </l>
             <l>Col medesimo diritto… </l>
@@ -557,7 +604,7 @@ Se non mostri i connotati </l>
             <l>Pure il tuo di possedere. </l>
             <stage>Matanno dà un foglio a Paola che lo legge subito</stage>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Riconosco nei suggelli </l>
             <l>Che tal piano è preparato </l>
@@ -569,7 +616,7 @@ Se non mostri i connotati </l>
           <head>SCENA OTTAVA </head>
           <stage>Ugo che spiava le mosse del nemico Matanno irrompeva da sinistra con due
 soldati arrestandolo.</stage>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <stage>(a spada tratta)</stage>
             <l>Cedi a me l'incartamento, </l>
@@ -585,14 +632,14 @@ soldati arrestandolo.</stage>
             <l>Era tanto che in paese </l>
             <l>Di nascosto ti spiavo. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ugo, grazie! t'invocavo </l>
             <l>Ed il Cielo alfin m'intese. </l>
             <pb n="142"/>
             <stage>tela</stage>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l>Stavo dietro ad ascoltare </l>
             <l>E già tutto quanto intesi; </l>
@@ -603,16 +650,16 @@ soldati arrestandolo.</stage>
             <l>Costui prendere non solo </l>
             <l>Ma con lui di guerra il piano. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Grazie ancora, e dal mio cuore </l>
             <l>Avrai un tempo ricompenza. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Paola addio! Faccio partenza. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Io ritorno al genitore. </l>
           </sp>
@@ -629,13 +676,13 @@ Serra in Buti.</stage>
         <div type="scene">
           <head>SCENA PRIMA </head>
           <stage>Da destra giunge Padre Anselmo e Padre Antonio.</stage>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> O fratel, chi venne mai </l>
             <l>Al convento di sul Serra </l>
             <l>Per sottrarsi dalla guerra? </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Tre persone viste mai: </l>
             <l>Era un padre colla figlia </l>
@@ -643,22 +690,22 @@ Serra in Buti.</stage>
             <l>Che lì presso hanno dimora, </l>
             <l>Colle lacrime alle ciglia. </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Cosa disse il Superiore? </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Mi commise di scrutare </l>
             <l>Sui soldati e domandare </l>
             <l>Se di guerra c'è sentore. </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Che notizie torni a dare </l>
             <l>A quei miseri al convento? </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Non lo dir, che non m'attento </l>
             <l>Di qui oltre seguitare. </l>
@@ -666,7 +713,7 @@ Serra in Buti.</stage>
  Poi che dir, guarda, fratello, </l>
             <l>Su Roncali e Sant'Antone… </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Gesù mio, che confusione! </l>
             <l>Fa che cessi tal flagello! </l>
@@ -679,17 +726,17 @@ Serra in Buti.</stage>
             <l>Meco ond'erami avviato, </l>
             <l>Sulle grotte ritte a cresta. </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Io non so che cosa fare, </l>
             <l>Mi divora l'incertezza. </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Pria Maria, nostra salvezza, </l>
             <l>Vieni meco a scongiurare. </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Sl verrò, ché la preghiera </l>
             <l>Maggiormente è necessaria </l>
@@ -700,7 +747,7 @@ Serra in Buti.</stage>
             <l>Come dissemi una donna, </l>
             <l>Fu nascosta dalla gente? </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Vero è proprio e la proposta </l>
             <l>Fu del nostro superiore, </l>
@@ -712,31 +759,31 @@ Serra in Buti.</stage>
             <l>Si mantiene fresco e bello </l>
             <l>Di soavissime viole. </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> E sai tu per qual ragione </l>
             <l>Si serbò quel simulacro? </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Perché poi divenga sacro </l>
             <l>Di una immenza devozione. </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> E sai tu chi fu l'autore? </l>
             <l>Certo alcuno sarà stato, </l>
             <l>Che scolpiva appassionato </l>
             <l>Tal Madonna con fervore! </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Tal Madonna fu in Roncali </l>
             <l>Sculta in albero di pero </l>
             <l>Con artistico amor vero </l>
             <l>Dai fratelli Panicali. </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Buon per loro, che . lasciata </l>
             <l>Consacrata a somma gloria </l>
@@ -753,35 +800,35 @@ Serra in Buti.</stage>
           <head>SCENA SECONDA </head>
           <pb n="146"/>
           <stage>Entrano nella scena da destra padre Giovanni, Paola e Armida.</stage>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Dal convento ai Caparroni </l>
             <l>Di lì siamo alla Fucella, </l>
             <l>Senza aver qualche novella </l>
             <l>Circa il modo di fazioni. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Buona sorte che il guardiano, </l>
             <l>Uom di Dio, di Provvidenza, </l>
             <l>Mai ci ha fatto restar senza </l>
             <l>Del suo pane quotidiano! </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Sl tal pane abbiam trovato </l>
             <l>Dal Guardiano tutto cuore, </l>
             <l>Servo degno del Signore: </l>
             <l>Ma sarà ricompensato. </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Dite ben, ma non sappiamo </l>
             <l>A Guglielmo come è andata, </l>
             <l>Se la guerra è incominciata </l>
             <l>E che far noi qui dobbiamo! </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <stage>(mentre va intorno ad osservare)</stage>
             <l>Non si fu d'accordo ognuno </l>
@@ -791,11 +838,11 @@ Serra in Buti.</stage>
             <l>Ma che dico? In lontananza </l>
             <l>Gente armata eppur si sferra. </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Vero è pur! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(osservando da ogni parte)</stage>
             <l>Dovunque è guerra </l>
@@ -803,7 +850,7 @@ Serra in Buti.</stage>
             <l><pb n="147"/>
 Fratel caro!… </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Sposo mio, </l>
             <l>Quale orrore ci ripugna! </l>
@@ -813,19 +860,19 @@ Fratel caro!… </l>
             <l>Di Guglielmo la partenza? </l>
             <l>Bella e fiera la presenza! </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Ma lasciommi appassionata: </l>
             <l>Lo ricordo, il viso amato, </l>
             <l>Le fattezze sue leggiadre… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(interrompendo)</stage>
             <l>Cosa vedi, caro padre, </l>
             <l>Che da me ti siei scostato? </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <stage>(chiamando le donne colla mano)</stage>
             <l>Donne, l lungo la valle </l>
@@ -833,31 +880,31 @@ Fratel caro!… </l>
             <l>Di vedere che un guerriero </l>
             <l>Porti un altro sulle spalle? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Sl purtroppo, avanza lento </l>
             <l>E noi qui cosa facciamo? </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Par dei nostri; non temiamo… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Odo ancor qualche lamento. </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Non ti sembra che il ferito </l>
             <l>Sia scortato da due frati? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Forse in via si son trovati </l>
             <l>E così l'avran seguito. </l>
             <pb n="148"/>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <stage>(parlando piano)</stage>
             <l>Che mai intesi! Zitti stiamo! </l>
@@ -870,45 +917,45 @@ Fratel caro!… </l>
           <head>SCENA TERZA </head>
           <stage>Guglielmo sulle spalle di Ugo seguiti dai frati Padre Anselmo e Padre Antonio
 entrano sulla scena dalla parte destra.</stage>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Son vicini, o quali angoscie! </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <stage>(di dentro)</stage>
             <l>Buona gente!… </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Ci ´n chiamate!… </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <stage>(di dentro)</stage>
             <l>Presto qua vi avvicinate, </l>
             <l>Il ferito vi conosce </l>
             <stage>(tutti si avvicinano a Guglielmo)</stage>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Cari miei, correte, io mòro, </l>
             <l>Fortemente son piagato! </l>
             <stage>(Paola cade svenuta)</stage>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> È Guglielmo che  parlato. </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Figlio! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Padre! </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <stage>(abbracciandolo)</stage>
             <l>O mio tesoro!… </l>
@@ -920,7 +967,7 @@ entrano sulla scena dalla parte destra.</stage>
           <stage>Padre Antonio allontana Armida e vedendo Guglielmo morente eseguisce
 prontamente il suo santo ministero.</stage>
           <pb n="149"/>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> A che punto è tal famiglia! </l>
             <l>Il marito in questo stato </l>
@@ -936,49 +983,49 @@ prontamente il suo santo ministero.</stage>
             <l>Questo anello col mio stemma </l>
             <l>Cambierò colla tua gemma. </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <l> Paola è morta? </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <stage>(piangendo)</stage>
             <l>Almeno pare. </l>
             <l>Sommo Cielo, aver perduta </l>
             <l>Donna tale così bella… </l>
           </sp>
-          <sp>
+          <sp who="#anselmo">
             <speaker>P. ANSELMO</speaker>
             <stage>(sentendo il cuore coll'orecchio)</stage>
             <l>È sol priva di favella, </l>
             <l>Il cuor batte, sta svenuta. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Molto preme, o Padre Anselmo, </l>
             <l>Che la giovane rinvenga. </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Paola!… Ahimè!… Fate che venga! </l>
             <l>Padre, e tu? </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Son qui, Guglielmo. </l>
             <stage>Paola rinvenuta sorretta da Ugo e dagli altri viene condotta dal fratello
 morente.</stage>
           </sp>
           <pb n="150"/>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Cosa fu, perché son desta? </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Venir devi dal fratello. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Io raggiungere il drappello </l>
             <l>Devo subito alla lesta. </l>
@@ -988,24 +1035,24 @@ morente.</stage>
             <l>Mi si bagnano le ciglia: </l>
             <l>Addio tutti, io debbo andare. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Fratel mio, Guglielmo amato, </l>
             <l>Qui ti assiste un confessore. </l>
           </sp>
-          <sp>
+          <sp who="#antonio">
             <speaker>P. ANTONIO</speaker>
             <l> Già l'assolsi nel Signore. </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Paola! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> O Cielo, mi ha chiamato! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Io con te voglio sfogarmi, </l>
             <l>Proprio all'ultimo momento: </l>
@@ -1016,18 +1063,18 @@ morente.</stage>
             <l>Il nemico ci ha distrutto? </l>
             <l>Ah! Vendetta! Sl vendetta! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> O fratel, qual gioia feroce </l>
             <l>Balenar ti vedo in viso! </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Paola, in me già ti ravviso, </l>
             <l>grave;i pur anco la mia voce! </l>
           </sp>
           <pb n="151"/>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> No, Guglielmo, in te perdona </l>
             <l>Il nemico in questo stato: </l>
@@ -1038,32 +1085,32 @@ morente.</stage>
             <l>Perché Lui di sulla croce </l>
             <l>Volle a tutti perdonare. </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> Dici bene, e ancor Guglielmo </l>
             <l>Li perdona nel Signore; </l>
             <l>Ma chi prende il mio vigore, </l>
             <l>La mia spada unita all'elmo? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Io li prendo! A giuramento </l>
             <l>Vestirò la tua divisa </l>
             <l>Difendendo sempre Pisa </l>
             <l>In tuo nome… </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <l> O qual contento! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Se non altro per sedare </l>
             <l>L'ingiustizia e la rapina </l>
             <l>E l'emblema fiorentina </l>
             <l>Giunger poscia a calpestare. </l>
           </sp>
-          <sp>
+          <sp who="#guglielmo">
             <speaker>GUGLIELMO</speaker>
             <stage>(con un filo di voce udibile, morente)</stage>
             <l>Del tuo slancio franco, audace </l>
@@ -1072,20 +1119,20 @@ morente.</stage>
             <l>Ti ringrazio e spiro in pace. </l>
             <pb n="152"/>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ciel, Guglielmo se ne mòre, </l>
             <l>Si abbandona sul mio seno! </l>
           </sp>
-          <sp>
+          <sp who="#giovanni">
             <speaker>GIOVANNI</speaker>
             <l> Figlio! … </l>
           </sp>
-          <sp>
+          <sp who="#armida">
             <speaker>ARMIDA</speaker>
             <l> Sposo! Un detto almeno… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Più non parla, è fermo il cuore. </l>
           </sp>
@@ -1103,7 +1150,7 @@ simulacro della Madonna del Rosario di Buti.</stage>
           <head>SCENA PRIMA </head>
           <stage>Maria la piccola montanara <add>con una contadina</add> viene alle grotte a pronunciare
 la sua consueta preghiera. E poi inoltra Paola vestita a guerriera.</stage>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <stage>(rivolta alle grotte)</stage>
             <l>Madonnina mia adorata, </l>
@@ -1111,7 +1158,7 @@ la sua consueta preghiera. E poi inoltra Paola vestita a guerriera.</stage>
             <l>Che periglio triste e rio </l>
             <l>Corre forse in tal giornata. </l>
           </sp>
-          <sp>
+          <sp who="#contadina">
             <speaker>CONTADINA</speaker>
             <l> Colla guerra che sconvolge </l>
             <l>Tutto Buti crudelmente </l>
@@ -1119,13 +1166,13 @@ la sua consueta preghiera. E poi inoltra Paola vestita a guerriera.</stage>
             <l>Che al cuore tuo si rivolge. </l>
             <stage>(colla mano le manda un bacio)</stage>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Ciel, chi giunge alla mia volta, </l>
             <l>Chi s'inoltra in questa via? </l>
             <l>Gran guerriero par che sia. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Tal son io, ma ti conforta. </l>
             <stage>(e rimane sorpresa di Paola, che giunge da sinistra)</stage>
@@ -1143,59 +1190,59 @@ A invocare con dolore </l>
             <l>D'ottener la protezione </l>
             <l>Di Maria del Ciel Regina? </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Sl gran fede, o mio guerriero, </l>
             <l>Pongo in Lei d'amor che brucia, </l>
             <l>Sempr'è in me di gran fiducia </l>
             <l>Che mi calma un gran pensiero. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Che pensiero ti divora </l>
             <l>Nell'etade tua fiorente? </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Per la guerra il babbo è assente </l>
             <l>E la mamma si addolora. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Pria d'andarmene vorreste </l>
             <l>Meco fare un'orazione? </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Si, ma è poco, e l'intenzione </l>
             <l>Appagata non vedreste. </l>
             <l>Di che nome vi chiamate? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Paola son… </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Santa Madonna! </l>
             <l>Cosa dite? Voi, una donna, </l>
             <l>In tal veste? E dove andate? </l>
             <pb n="155"/>
           </sp>
-          <sp>
+          <sp who="#contadina">
             <speaker>CONTADINA</speaker>
             <l> Paola, dunque non temete </l>
             <l>A inoltrarvi in tal mistero? </l>
             <l>Per mia parte un gran guerriero </l>
             <l>Mi parevi, e donna siete. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Temer no, ma sento pena </l>
             <l>Per l'avversa situazione… </l>
             <l>Via, facci. quest'orazione. </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Far dovreste una novena: </l>
             <l>Stando qui con meco unita </l>
@@ -1203,7 +1250,7 @@ A invocare con dolore </l>
             <l>Non mancate, e del favore </l>
             <l>Voi sarete esaudita. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ciel, non posso acconsentire </l>
             <l>chè dimani, a giuramento, </l>
@@ -1214,13 +1261,13 @@ A invocare con dolore </l>
             <l>Tu che sei di grazia piena </l>
             <l>E che sei di qui vicina ? </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Lo prometto, e state certa </l>
             <l>Che per nove dì precisi </l>
             <l>Pregherò come promisi. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Bene, allor prendi un'offerta. </l>
             <stage>(gli da una borsa di denaro)</stage>
@@ -1230,18 +1277,18 @@ Se andò in guerra ancor tuo padre </l>
             <l>Questa borsa almen per ora </l>
             <l>Può servire alla tua madre. </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Dolce è qui con voi lo stare! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Cara, quanto ti vo' bene: </l>
             <l>In gran parte le mie pene </l>
             <l>Fatto mi ài dimenticare. </l>
             <stage>(l'abbraccia e la bacia)</stage>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> La preghiera tua innocente </l>
             <l>Giunger possa al Ciel diretta </l>
@@ -1256,7 +1303,7 @@ Se andò in guerra ancor tuo padre </l>
 grotta adornandola poi con due rami e tralci di rose.
 Paola poco dopo ritorna pian piano non vista dalla bambina, che forse in
 quel momento crede di già Paola lontana. Da destra.</stage>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(rivolta al pubblico)</stage>
             <l>Della gente misteriosa </l>
@@ -1280,7 +1327,7 @@ Nel lavoro tuo giocondo </l>
           <stage>Matanno e Melosso.
 Questi due nemici contrarii alla parte che difende Paola entrano da destra
 andando con cattive idee verso la bambina vegliata già da Paola nascosta.</stage>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <stage>(al suo amico)</stage>
             <l>Una bimba in questo loco </l>
@@ -1289,26 +1336,26 @@ andando con cattive idee verso la bambina vegliata già da Paola nascosta.</stag
             <l>Darla qua, parliamo un poco! </l>
             <stage>(gli strappano di mano la borsetta)</stage>
           </sp>
-          <sp>
+          <sp who="#melosso">
             <speaker>MELOSSO</speaker>
             <l> Chi ti diede tal monete? </l>
             <l>Parla, su, non far la muta! </l>
             <stage>(viene malmenata)</stage>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Madonnina, son perduta: </l>
             <l>Deh, pietà, mi soccorrete! </l>
             <stage>(Paola fa un atto di impazienza)</stage>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> Ti ridno volentieri </l>
             <l>Il denaro, se ci dici </l>
             <l>Se di qui di noi nemici </l>
             <l>Mai passarono guerrieri. </l>
           </sp>
-          <sp>
+          <sp who="#maria">
             <speaker>MARIA</speaker>
             <l> Per non dirvi una bugia </l>
             <l>È passato qui soltanto </l>
@@ -1323,14 +1370,14 @@ andando con cattive idee verso la bambina vegliata già da Paola nascosta.</stag
 luce solo fa per un attimo vedere nella nicchia della grotta l'immagine della
 nostra Madonna, segnale quello perché Paola insorgesse a spada tratta a
 difendere la piccola Maria, la montanara.</stage>
-          <sp>
+          <sp who="#melosso">
             <speaker>MELOSSO</speaker>
             <stage>(minaccioso estraendo la spada)</stage>
             <l>A noi niente dir non vòi? </l>
             <l>E di noi non dirai niente!… </l>
             <l>Tieni, prendi tal fendente! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(scattando colla spada ferisce Melosso)</stage>
             <l>Scellerato, ferma e muoi! </l>
@@ -1354,44 +1401,44 @@ sconosciuta Paola stesa al suolo. Finché Ugo disperdendo tutto e tutti, solo
 rimane, ritto, padrone di quella situazione orrenda.
 Nello svolgersi di questa scena di battaglia, fra lo strepito, i due capi
 drappello Ugo e Matanno inveiscono con le seguenti parole.</stage>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Scellerati Fiorentini! </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> E voi barbari Pisani! </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Vi uccidiamo come cani! </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> Traditori ed assassini! </l>
             <l>State attenti alla bandiera, </l>
             <l>Che al nemico par che ondeggi. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <stage>(a Paola che non conosce)</stage>
             <l>Strappa, strappa… </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> Reggi, reggi, </l>
             <l>Che deciman la mia schiera! </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Il vessillo è già ghermito, </l>
             <l>Quel guerrier lo tenga stretto! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Mi . piagato in mezzo al petto… </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Farò scudo a quel ferito. </l>
             <l>Arrendetevi o vi uccido, </l>
@@ -1404,13 +1451,13 @@ di impossessarsi dei prigionieri.</stage>
             <l>Giù le spade, e farem pace!… </l>
             <l>Resistete… </l>
           </sp>
-          <sp>
+          <sp who="#matanno">
             <speaker>MATANNO</speaker>
             <l> Ci arrendiamo, </l>
             <l>A te l'arme consegnamo, </l>
             <l>Fai di noi cosa ti piace. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Fidi miei, vi impadronite </l>
             <l>Dei supestiti nemici </l>
@@ -1453,29 +1500,29 @@ Con tal segno s`distinto </l>
             <l>Angiol caro, stai contenta </l>
             <l>Che ti vengo a confortare. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ugo aimè! Vieni a salvare </l>
             <l>Un dei tuoi… </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Chi si lamenta? </l>
             <l>Ei vivea, per quanto sento. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ugo, presto, dammi aita!… </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Sto cercando la ferita. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Perdo sangue… </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Un sol momento. </l>
             <l>Non mi sembri in brutto stato </l>
@@ -1487,12 +1534,12 @@ Certo è che dalla morte </l>
             <l>T'ho salvato non volendo, </l>
             <l>T'alza pur, la mano ti prendo. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(alzandosi la visiera calata)</stage>
             <l>Grazie, o Ciel, mi sento forte. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Ma chi siei che la visiera </l>
             <l>Tieni ancor così calata? </l>
@@ -1503,13 +1550,13 @@ Certo è che dalla morte </l>
             <l>Paola, o Ciel! Fammi vedere </l>
             <l>Il tuo dolce portamento! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(si china e prende la bandiera)</stage>
             <l>Il vessillo fiorentino </l>
             <l>Lo strappai colla mia mano. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Tu, gran donna, caso strano! </l>
             <l>Al valore tuo m'inchino. </l>
@@ -1517,7 +1564,7 @@ Certo è che dalla morte </l>
             <l>Come andò che ti sei messa </l>
             <l>Tal divisa? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Una promessa </l>
             <l>A Guglielmo aveo giurata. </l>
@@ -1535,37 +1582,37 @@ Gli promisi che lottavo </l>
             <l>In tantissimi brandelli </l>
             <l>La vo' far, per suo dispetto. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Quale fu la tua opinione </l>
             <l>Quando in lotta mi vedesti? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Io non so come facesti, </l>
             <l>A spacciar tante persone. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Eri tu che mi spronavi </l>
             <l>A lottar così furente, </l>
             <l>Perché t'amo immensamente. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> E lontana mi pensavi. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Sl lontana, che giammai </l>
             <l>Qui con me non ti credevo, </l>
             <l>Paola! O Ciel! Se lo sapevo!… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Cosa avresti fatto mai? </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> A tornare al genitore </l>
             <l>T'avrei certo persuasa: </l>
@@ -1573,13 +1620,13 @@ Gli promisi che lottavo </l>
             <l>Coll'insegna del valore. </l>
             <pb n="164"/>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Dividiamoci e partiamo: </l>
             <l>Fa che stringa con affetto </l>
             <l>La tua mano, o mio diletto. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Cara, addio, ci rivediamo. </l>
           </sp>
@@ -1592,7 +1639,7 @@ Gli promisi che lottavo </l>
         <div type="scene">
           <head>SCENA PRIMA </head>
           <stage>Vitelli e Paola</stage>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <stage>(entrando da sinistra)</stage>
             <l>Mi fu detto che a Verruca </l>
@@ -1630,7 +1677,7 @@ Gli promisi che lottavo </l>
             <l>E perché non ti àn fermata </l>
             <l>Nel valcare la frontiera? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Mio carissimo signore, </l>
             <l>A te innanzi ambasciatrice </l>
@@ -1641,7 +1688,7 @@ Gli promisi che lottavo </l>
             <l>Di levare un tale assedio, </l>
             <l>La tua vita non permane. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Questo assedio io pur potrei </l>
             <l>Di levare nel momento </l>
@@ -1649,55 +1696,55 @@ Gli promisi che lottavo </l>
             <l>Sol per te che bella sei. </l>
             <pb n="165"/>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Siàn nemici, e tal disgrazia </l>
             <l>Si frappone a ciò che brami. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Ma se dici che tu m'ami, </l>
             <l>Chieder pòi qualunque grazia. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Già saprai che ti richiedo </l>
             <l>Cosa grande a te gelosa. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Chiedi a me qualunque cosa, </l>
             <l>Che potendo ti concedo. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Bene, allor da Panicale </l>
             <l>E sull'alto di Solaio </l>
             <l>Dei soldati il paretaio </l>
             <l>Togli fino allo Spedale. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Ciel, che cosa vieni a dire, </l>
             <l>Questa è grande veramente! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> T'amo allora e tanta gente </l>
             <l>Ti potrebbe benedire. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Poca cosa, ricompenza </l>
             <l>Del grandioso mio favore, </l>
             <l>Tu disponi nel tuo cuore… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Allor parto… </l>
             <stage>(Vitelli un po'sopra pensiero e poi risolutissimo)</stage>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Attendi udienza. </l>
             <l>Teco stare io troppo bramo </l>
@@ -1709,7 +1756,7 @@ Gli promisi che lottavo </l>
             <l>E mai più ci sia concesso </l>
             <l>Riveder questi castelli. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> E che cosa dici mai! </l>
             <l>I miei luoghi non mi sento </l>
@@ -1723,39 +1770,39 @@ Gli promisi che lottavo </l>
             <l>Non sia mai, se quel che ho detto </l>
             <l>Non adempi… </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Io tel prometto, </l>
             <l>Anzi andiamo ad eseguire. </l>
             <stage>(Avviandosi tutti e due verso destra, soffermandosi ancora con Paola)</stage>
             <l>Se seguirmi a te non cale… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Bene, andiàn, ti faccio scorta. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Non tradir, perché sei morta </l>
             <l>Se qualcun dei tuoi mi assale. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Basta un cenno alle tue genti </l>
             <l>Per levare un tale assedio. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <stage>(a scatti indietreggiando)</stage>
             <l>Donna… ài vinto… Aimè rimedio </l>
             <l>Più non v'è… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Di che paventi ? </l>
             <pb n="168"/>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Che mai vedo, e come e quando </l>
             <l>Una turba di assediati </l>
@@ -1771,12 +1818,12 @@ Gli promisi che lottavo </l>
             <l>Di fuggire preferisco </l>
             <l>Ma con te, che tanto agogno. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Aspettiam che sia calmata </l>
             <l>La terribile bufera. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Sono i miei senza bandiera: </l>
             <l>Chi la perse, e come è andata? </l>
@@ -1787,13 +1834,13 @@ Gli promisi che lottavo </l>
             <l>Io non c'ero e non mi accorsi; </l>
             <l>Parla su, non esitare. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(ridendo)</stage>
             <l>Io fui quella, che ti pare?, </l>
             <l>Senza avere dei rimorsi. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Cielo, tu? Che vieni a dire! </l>
             <l>Troppo, infami, è ciò che ascolto! </l>
@@ -1808,12 +1855,12 @@ Gli promisi che lottavo </l>
             <l>Di una volta, che non sento? </l>
             <l>Quel livore?… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Io te l'ho spento </l>
             <l>Col mio fiato incantatore! </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Donna, o Cielo, m'ài annientato, </l>
             <l>L'ira più nel cuor mi sento; </l>
@@ -1823,18 +1870,18 @@ Gli promisi che lottavo </l>
             <l>È che non mi corrispondi, </l>
             <l>Qui mi tieni e mi confondi… </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Gastigarti solo intendo. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <stage>(inginocchiato davanti a Paola)</stage>
             <l>Dunque, o donna, a me non vale </l>
             <l>La preghiera, inginocchiarmi? </l>
             <l>Perché tanto affascinarmi? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(levandoli la spada)</stage>
             <l>Io punisco uno sleale; </l>
@@ -1842,11 +1889,11 @@ Gli promisi che lottavo </l>
 E la spada ancor ti toglio </l>
             <l>Che del mal potreste farmi. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Donna, e ancora mi disarmi? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ti vo' mite e senza orgoglio. </l>
             <stage>(Vitelli si rialsa macchinalmente)</stage>
@@ -1867,7 +1914,7 @@ E la spada ancor ti toglio </l>
             <l>Tu peccasti, il Ciel non resse </l>
             <l>E qual donna t'annientai. </l>
           </sp>
-          <sp>
+          <sp who="#vitelli">
             <speaker>VITELLI</speaker>
             <l> Ó perduto la ragione, </l>
             <l>Più non so che cosa fare: </l>
@@ -1875,7 +1922,7 @@ E la spada ancor ti toglio </l>
             <l>Mi condanni a dannazione. </l>
             <pb n="172"/>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ver non sia che disperare </l>
             <l>Tu ti devi al Sommo Bene </l>
@@ -1884,7 +1931,7 @@ E la spada ancor ti toglio </l>
             <stage>Vitelli mortificato e contrito se ne va in fondo allla scena col volto fra le
 mani mentre che Paola s'inginocchia e prega.</stage>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage> (rivolta coll'occhi al Cielo)</stage>
             <l>Riconosco in tal momento, </l>
@@ -1900,18 +1947,18 @@ mani mentre che Paola s'inginocchia e prega.</stage>
         </div>
         <div type="scene">
           <head>SCENA SECONDA </head>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <stage>(entrando da sinistra)</stage>
             <l>Alto là! Che scena è questa, </l>
             <l>Cielo! Paola inginocchiata! </l>
             <l>Piangi forse, o mia adorata? </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> No, pregava!… </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> E sei s`mesta? </l>
             <l>T'alza, amore, che qui appunto </l>
@@ -1923,21 +1970,21 @@ mani mentre che Paola s'inginocchia e prega.</stage>
             <l>Scaltra, audace, la più fina, </l>
             <l>Sarai meglio decorata. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Ugo grazie, so che brami </l>
             <l>Il mio bene, e salvatore </l>
             <l>Già mi sei, che questo cuore </l>
             <l>Non pòi creder quanto t'ami. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Paola, narra! Che sgomento </l>
             <l>Nel saperti solitaria </l>
             <l>Messaggera volontaria </l>
             <l>Ad un uom così cruento! </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Venne a me dunque l'idea, </l>
             <l>Nel trovarmi in triste assedio, </l>
@@ -1960,12 +2007,12 @@ E perciò, da donna astuta, </l>
             <l>Farén s`che l'esponiamo </l>
             <l>Che da tempo noi ci amiamo. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Forse giunge in questo istante. </l>
             <stage>(si odono dei rumori al di fuori a destra e squillo di tromba)</stage>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <stage>(guarda fra le quinte)</stage>
             <l>Cielo, o Dio, che vedo mai, </l>
@@ -1985,7 +2032,7 @@ la motivazione circa l'eroismo compiuto da Paola da Buti, che per il suo
 bel modo di fare fece scomparire l'assedio in cui erano stretti i Pisani e
 dopo di ciò riportarono grande vittoria qui sulla nostra patria
       valle.</stage>
-          <sp>
+          <sp who="#malvezzi">
             <speaker>LUCIO MALVEZZI</speaker>
             <stage>(leggendo un foglio)</stage>
             <l>Della Patria la colonna, </l>
@@ -2015,19 +2062,19 @@ Essa è Paola, e conoscente </l>
             <l>Ricompenso i miei guerreri, </l>
             <l>Premio grande da me avrai. </l>
           </sp>
-          <sp>
+          <sp who="#paola">
             <speaker>PAOLA</speaker>
             <l> Io vorrei, sor comandante, </l>
             <l>Che presente a questo rito </l>
             <l>Il futuro mio marito </l>
             <l>Fosse meco nell'istante. </l>
           </sp>
-          <sp>
+          <sp who="#malvezzi">
             <speaker>MALVEZZI</speaker>
             <l> E chi è il tuo fido amante? </l>
             <l>Spiega tosto questo arcano. </l>
           </sp>
-          <sp>
+          <sp who="#ugo">
             <speaker>UGO</speaker>
             <l> Ugo io son, sor capitano, </l>
             <l>Che per lei sono smaniante. </l>
@@ -2040,7 +2087,7 @@ Essa è Paola, e conoscente </l>
             <l>E per essa abbi. lottato, </l>
             <l>Sono al colmo del contento. </l>
           </sp>
-          <sp>
+          <sp who="#malvezzi">
             <speaker>MALVEZZI</speaker>
             <l> Nella posa tua marziale, </l>
             <l>Nobil donna di valore, </l>

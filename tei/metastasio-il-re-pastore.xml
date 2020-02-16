@@ -76,6 +76,28 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="aminta">
+            <persName>Aminta</persName>
+          </person>
+          <person xml:id="elisa">
+            <persName>Elisa</persName>
+          </person>
+          <person xml:id="agenore">
+            <persName>Agenore</persName>
+          </person>
+          <person xml:id="alessandro">
+            <persName>Alessandro</persName>
+          </person>
+          <person xml:id="tamiri">
+            <persName>Tamiri</persName>
+          </person>
+          <person xml:id="coro">
+            <persName>Coro</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Digitalizzazione</change>
@@ -136,7 +158,7 @@
             Largo, ma rustico ponte sul fiume. Innanzi, tuguri pastorali. Veduta della
             città di Sidone in lontano.</stage>
           <stage>AMINTA, assiso sopra un sasso, cantando al suono delle avene pastorali; indi ELISA</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <lg>
               <l>Intendo, amico rio,</l>
@@ -149,11 +171,11 @@
             <l>Bella Elisa, idol mio,</l>
             <l part="I">Dove?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">A te, caro Aminta. <stage>(lieta e frettolosa</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Oh dèi! non sai</l>
             <l>Che il campo d'Alessandro</l>
@@ -161,38 +183,38 @@
             <l>Quste amene contrade</l>
             <l part="I">Il Macedone armato?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Il so.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ma dunque</l>
             <l>Perché sola t'esponi all'insolente</l>
             <l part="I">Licenza militar?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Rischio non teme,</l>
             <l>Non ode amor consiglio.</l>
             <l>Il non vederti è il mio maggior periglio.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">E per me...</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Deh! m'ascolta. Ho colmo il core</l>
             <l>Di felici speranze, e non ho pace</l>
             <l part="I">Fin che con te non le divido.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Altrove</l>
             <l part="I">Più sicura potrai...</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Ma d'Alessandro</l>
             <l>Fai torto alla virtù. Son della nostra</l>
@@ -202,21 +224,21 @@
             <l>Che sia vendita il dono:</l>
             <l>Ne franse il giogo, e ne ricusa il trono.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Chi sarà dunque il nostro re?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Si crede</l>
             <l>Che, ignoto anche a se stesso, occulto viva</l>
             <l part="I">Il legittimo erede.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">E dove...</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Ah! lascia</l>
             <l>Che Alessandro ne cerchi. Odi. La mia</l>
@@ -226,16 +248,16 @@
             <l>Va l'assenso a implorar dal genitore,</l>
             <l>E l'otterrà: me lo predice il core.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Ah!</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Tu sospiri, Aminta?</l>
             <l>Che vuol dir quel sospiro?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Contro il destin m'adiro,</l>
             <l>Che sì poco mi fece</l>
@@ -246,7 +268,7 @@
             <l>Io non potrò, nella mia sorte umìle,</l>
             <l>Che una povera reggia, un rozzo ovile.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Non lagnarti del Ciel: prodigo assai</l>
             <l>Ti fu de' doni suoi. Se l'ostro e l'oro</l>
@@ -260,12 +282,12 @@
             <l>E mi restò nel core</l>
             <l>Quell'ovil, quella greggia e quel pastore.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Oh mia sola, oh mia vera</l>
             <l part="I">Felicità! quei cari detti...</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Addio.</l>
             <l>Corro alla madre e vengo a te. Fra poco</l>
@@ -289,171 +311,171 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>AMINTA, poi ALESSANDRO ed AGENORE con picciol séguito.</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Perdono, amici dèi: fui troppo ingiusto,</l>
             <l>Lagnandomi di voi. Non splende in cielo</l>
             <l>Dell'astro, che mi guida, astro più bello.</l>
             <l>Se la terra ha un felice, Aminta è quello.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">(Ecco il pastor). <stage>(piano ad Alessandro</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ma fra' contenti oblio</l>
             <l part="I">La mia povera greggia. <stage>(da sé, in atto di
             partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F"><stage>(ad Aminta)</stage> Amico, ascolta.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>(Un guerrier!) Che domandi?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Sol con te ragionar.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Signor, perdona,</l>
             <l>Qualunque sei: d'abbeverar la greggia</l>
             <l part="I">L'ora già passa.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Andrai, ma un breve istante</l>
             <l>Donami sol. (Che signoril sembiante!) <stage>(piano ad Agenore</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">(Da me che mai vorrà?)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Come t'appelli?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Aminta.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">E il padre?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Alceo.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">Vive?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">No; scorse</l>
             <l part="I">Un lustro già ch'io lo perdei.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Che avesti</l>
             <l part="I">Dal paterno retaggio?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Un orto angusto</l>
             <l>Ond'io traggo alimento,</l>
             <l>Poche agnelle, un tugurio e il cor contento.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Vivi in povera sorte.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Assai benigna</l>
             <l>Sembra a me la mia stella:</l>
             <l>Non bramo della mia sorte più bella.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Ma in sì scarsa fortuna...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Assai più scarse</l>
             <l part="I">Son le mie voglie.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Aspro sudor t'appresta</l>
             <l part="I">Cibo volgar.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Ma lo condisce.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ignori</l>
             <l>Le grandezze, gli onori.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>E rivali non temo,</l>
             <l part="I">E rimorsi non ho.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">T'offre un ovile</l>
             <l>Sonni incomodi e duri.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Ma tranquilli e sicuri.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E chi fra queste,</l>
             <l>Che ti fremono intorno, armate squadre,</l>
             <l part="I">Chi assicurar ti può?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Questa, che tanto</l>
             <l>Io lodo, tu disprezzi, e il Ciel protegge,</l>
             <l part="I">Povera, oscura sorte.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F"><stage>(piano ad Alessandro)</stage> Hai dubbi ancora?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>(Quel parlar mi sorprende e m'innamora).</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Se altro non brami, addio.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Senti. I tuoi passi</l>
             <l>Ad Alessandro io guiderò, se vuoi.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">No.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Sedurrebbe</l>
             <l>Ei me dalle mie cure: io qualche istante</l>
@@ -466,12 +488,12 @@
             <l>Ei duce è di guerrieri:</l>
             <l>Picciol campo io coltivo, ei fonda imperi.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Ma può il Ciel di tua sorte</l>
             <l>In un punto cangiar tutto il tenore.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Sì; ma il Cielo fin or mi vuol pastore.</l>
             <lg>
@@ -491,11 +513,11 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>ALESSANDRO ed AGENORE</stage>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Or che dici, Alessandro?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ah! certo asconde</l>
             <l>Quel pastorel lo sconosciuto erede</l>
@@ -530,11 +552,11 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>TAMIRI in abito pastorale ed AGENORE</stage>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Agenore! T'arresta: odi...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Perdona,</l>
             <l>Leggiadra pastorella: io d'Alessandro</l>
@@ -542,102 +564,102 @@
             <l>O m'inganna il desio?)</l>
             <l part="I">Principessa!</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="M">Ah, mio ben!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Sei tu!</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Son io.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Tu qui? tu in questa spoglia?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Io deggio a questa</l>
             <l>Il sol ben che mi resta.</l>
             <l>Ch'è la mia libertà, giacché Alessandro</l>
             <l part="I">Padre e regno m'ha tolto.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Oh, quanto mai</l>
             <l>Ti piansi e ti cercai! Ma dove ascosa</l>
             <l part="I">Ti celasti fin or?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">La bella Elisa</l>
             <l part="I">Fuggitiva m'accolse.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E qual disegno...</l>
             <l> Ah! m'attende Alessandro.</l>
             <l part="I">Addio: ritornerò.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Senti. Alla fuga</l>
             <l>Tu d'aprirmi un cammin, ben mio, procura:</l>
             <l>Altrove almeno io piangerò sicura.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Vuoi seguir, principessa</l>
             <l>Un consiglio più saggio? ad Alessandro</l>
             <l part="I">Meco ne vieni.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">All'uccisor del padre!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Straton se stesso uccise: ei la clemenza</l>
             <l part="I">Del vincitor prevenne.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Io stessa ai lacci</l>
             <l>Offrir la destra! Io delle greche spose</l>
             <l part="I">Andrò gl'insulti a tollerar!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">T'inganni:</l>
             <l>Non conosci Alessandro; ed io non posso</l>
             <l>Per or disingannarti. Addio. Fra poco</l>
             <l part="I">A te verrò. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Guarda: di Elisa i tetti</l>
             <l part="I">Colà...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Già mi son noti. <stage>(come sopra</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="M">Odi.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Che brami?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Come sto nel tuo core?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ah! non lo vedi?</l>
             <l>A' tuoi begli occhi, o principessa, il chiedi.</l>
@@ -681,7 +703,7 @@
         <div type="scene">
           <head>SCENA SESTA</head>
           <stage>ELISA sommamente allegra e frettolosa, poi AMINTA</stage>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Oh lieto giorno! oh me felice! oh caro</l>
             <l>Mio genitor! Ma... Dove andò? Pur dianzi</l>
@@ -699,27 +721,27 @@
             <l>Tranquilla in questa guisa</l>
             <l part="I">Più rimaner. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Dove t'affretti, Elisa?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Ah, tornasti una volta! Andiamo.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">E dove?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Al genitor.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Dunque ei consente...</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Il core</l>
             <l>Non m'ingannò: sarai mio sposo, e prima</l>
@@ -728,7 +750,7 @@
             <l>Superbo, e lieto... Ei tel dirà. Vedrai</l>
             <l part="I">Dall'accoglienze sue... Vieni.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ah! ben mio,</l>
             <l>Lasciami respirar. Pietà d'un core</l>
@@ -740,58 +762,58 @@
           <head>SCENA SETTIMA</head>
           <stage>AGENORE, seguìto da guardie reali e nobili di Sidone, che portano sopra
             bacili d'oro le regie insegne, e detti.</stage>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Dal più fedel vassallo</l>
             <l>Il primo omaggio, eccelso re, ricevi.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Che dice? <stage>(ad Aminta</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">A chi favelli? <stage>(ad Agenore</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">A te, signor.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F"><stage>(con viso sdegnoso)</stage> Lasciami in pace e prendi</l>
             <l>Alcun altro a schernir. Libero io nacqui,</l>
             <l>Se re non sono; e, se non merto omaggi, <stage>(crescendo il risentimento</stage></l>
             <l>Ho un core almen, che non sopporta oltraggi.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Quel generoso sdegno</l>
             <l>Te scopre e me difende. Odimi e soffri</l>
             <l>Che ti sveli a te stesso il zelo mio.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Come! Aminta ei non è? <stage> (ad Agenore</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">No.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">E chi son io?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Tu Abdolonimo sei, l'unico erede</l>
             <l part="I">Del soglio di Sidone.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Io!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Sì. Scacciato</l>
             <l> Dal reo Stratone, il padre tuo bambino</l>
@@ -799,19 +821,19 @@
             <l>Alla mia fé commise</l>
             <l part="I">Te, il segreto e le prove.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">E il vecchio Alceo...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">L'educò sconosciuto.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">E tu fin ora...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Ed io, fin or tacendo, alla paterna</l>
             <l>Legge ubbidii. M'era il parlar vietato,</l>
@@ -819,16 +841,16 @@
             <l>L'assistenza de' numi. Io la cercai</l>
             <l>Nel gran cor d'Alessandro, e la trovai.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Oh giubilo! oh contento!</l>
             <l part="I">Il mio bene è il mio re.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F"><stage>(ad Agenore)</stage> Dunque Alessandro...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>T'attende, e di sua mano</l>
             <l>Vuol coronarti il crin. Le regie spoglie</l>
@@ -840,48 +862,48 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>ELISA allegra, AMINTA attonito.</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Elisa?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Aminta?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">E' sogno?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Ah! no.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Tu credi</l>
             <l part="I">Dunque...</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Sì; ma è strano</l>
             <l>Questo colpo per me, benché improvviso:</l>
             <l>Un cor di re sempre io ti vidi in viso.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Sarà. Vadasi intanto</l>
             <l part="I">Al padre tuo. <stage>(s'incammina</stage></l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F"><stage>(l'arresta)</stage> No; maggior cura i numi</l>
             <l>Ora esigon da te. Va, regna, e poi...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Che! m'affretti a lasciarti?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Ah, se vedessi</l>
             <l>Come sta questo cor! Di gioia esulta;</l>
@@ -890,13 +912,13 @@
             <l>Se non che Aminta è re. Deh! va: potrebbe</l>
             <l part="I">Alessandro sdegnarsi.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Amici dèi,</l>
             <l>Son grato al vostro dono;</l>
             <l>Ma troppo è caro a questo prezzo un trono</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <lg>
               <l>Vanne a regnar, ben mio;</l>
@@ -904,7 +926,7 @@
               <l>Serba, se puoi, quel cor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <lg>
               <l>Se ho da regnar, ben mio,</l>
@@ -912,19 +934,19 @@
               <l>Il fido tuo pastor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <lg part="I">
               <l>Ah, che il mio re tu sei!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <lg part="F">
               <l>Ah, che crudel timor!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aminta #elisa">
             <speaker>A DUE</speaker>
             <lg>
               <l>Voi proteggete, o dèi,</l>
@@ -940,50 +962,50 @@
           <stage>Grande e ricco padiglione d'Alessandro da un lato; ruine inselvatichite di antichi
             edifici dall'altro. Campo de' Greci in lontano. Guardie del medesimo in vari luoghi.</stage>
           <stage>TAMIRI in atto di timore, ELISA conducendola per mano.</stage>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I"> Seguimi. A che t'arresti?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Amica, oh Dio!</l>
             <l>Tremo da capo a piè. Torniam, se m'ami,</l>
             <l part="I">Torniamo al tuo soggiorno.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Io non t'intendo:</l>
             <l>T'affretti impaziente</l>
             <l>Pria d'Agenore in traccia; ed or nol curi,</l>
             <l part="I">Già vicina a trovarlo?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Amor m'ascose</l>
             <l>Da lungi il rischio: or che vi son, comprendo</l>
             <l part="I">La mia temerità.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">La figlia</l>
             <l part="I">Non son io di Stratone?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">E ben?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Le tende</l>
             <l>Non son quelle de' Greci? E se di loro</l>
             <l>Mi scopre alcuno? Ah! per pietà, fuggiamo,</l>
             <l part="I">Cara Elisa.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">E' follia. Chi vuoi che possa</l>
             <l>Scoprirti in queste vesti? E, se potesse</l>
@@ -993,38 +1015,38 @@
             <l>E la sposa e la madre</l>
             <l part="I">Non sai...</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Lo so; ma la sventura mia</l>
             <l>Forse è maggior di sua virtù. Non oso</l>
             <l part="I">Di metterla a cimento. Andiam.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Perdona;</l>
             <l>Puoi tornar sola. Io nulla temo, e voglio</l>
             <l part="I">Cercare Aminta. <stage>(incamminandosi verso il padigilione</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Aspetta: il tuo coraggio</l>
             <l part="I">M'inspira ardir. <stage>(risoluta</stage></l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Dunque mi segui. <stage>(incamminandosi come sopra</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(fa qualche passo e poi s'arresta)</stage> Oh Dio!</l>
             <l>Mille rischi ho presenti.</l>
             <l part="I">No, non ho cor.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Dunque mi lasci? <stage>(le fugge di mano</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Ah! senti.</l>
             <lg>
@@ -1044,101 +1066,101 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>ELISA, poi AGENORE</stage>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Questa del campo greco</l>
             <l>E' la tenda maggior: qui l'idol mio</l>
             <l part="I">Certo ritroverò.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Dove l'affretti,</l>
             <l part="I">Leggiadra ninfa? <stage>(arrestandola</stage></l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Io vado al re. <stage>(vuol passare</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F"><stage>(la ferma)</stage> Perdona:</l>
             <l part="I">Veder nol puoi.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Per qual cagione?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Or siede</l>
             <l>Co' suoi Greci a consiglio.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Co' Greci suoi?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Sì.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Dunque andar poss'io:</l>
             <l part="I">Non è quello il mio re. <stage>(incamminandosi</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F"><stage>(arrestandola)</stage> Ferma: né pure</l>
             <l part="I">Al tuo re lice andar.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Che attenda</l>
             <l part="I">Alessandro or convien.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">L'attenda. Io bramo</l>
             <l part="I">Vederlo sol. <stage>(come sopra</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">No; d'inoltrarti tanto</l>
             <l part="I">Non è permesso a te.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Dunque l'avverti:</l>
             <l part="I">Egli a me venga.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E questo</l>
             <l part="I">Non è permesso a lui.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Permesso almeno</l>
             <l part="I">Mi sarà d'aspettarlo. <stage>(siede</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Amica Elisa,</l>
             <l>Va, credi a me: per ora</l>
             <l>Deh! non turbarci. Io col tuo re fra poco</l>
             <l part="I">Più tosto a te verrò.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">No, non mi fido:</l>
             <l>Tu non pensi a Tamiri</l>
             <l part="I">Ed a me penserai?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">T'inganni. Appunto</l>
             <l>Io voglio ad Alessandro</l>
@@ -1147,53 +1169,53 @@
             <l>Gli opportuni momenti</l>
             <l part="I">Rubar mi puoi.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">T'appagherò. <stage>(s'alza, sincammina, poi si volge)</stage>
               Frattanto</l>
             <l>Non celare ad Aminta</l>
             <l part="I">Le smanie mie.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">No.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F"><stage>(come sopra)</stage> Digli</l>
             <l>Che le sue mi figuro.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Sì.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Da me lungi, oh quanto</l>
             <l>Penerà l'infelice! <stage>(ad Agenore, ma da lontano</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Molto.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">E parla di me? <stage>(da lontano</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Sempre.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F"><stage>(torna ad Agenore)</stage> E che dice?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Ma tu partir non vuoi. Se tutte io deggio</l>
             <l>Ridir le sue querele... <stage>(con impeto</stage></l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Vado: non ti sdegnar. Sei pur crudele!</l>
             <lg>
@@ -1213,7 +1235,7 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>AGENORE ed AMINTA</stage>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Nel gran cor d'Alessandro, o dèi clementi,</l>
             <l>Secondate i miei detti</l>
@@ -1221,50 +1243,50 @@
             <l>La sua virtù, la sua beltà... Ma dove,</l>
             <l part="I">Dove corri, mio re?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">La bella Elisa</l>
             <l>Pur da lungi or mirai: perché s'asconde?</l>
             <l part="I">Dov'è?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Partì.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Senza vedermi? Ingrata!</l>
             <l>Ah! raggiungerla io voglio. <stage>(s'incammina</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Ferma, signor. <stage>(l'arresta</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Non puoi.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Non posso?</l>
             <l part="I">Chi dà legge ad un re?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">La sua grandezza,</l>
             <l>La giustizia, il decoro, il bene altrui,</l>
             <l part="I">La ragione, il dover.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Dunque pastore</l>
             <l>Io fui men servo? e che mi giova il regno?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Se il regno a te non giova,</l>
             <l>Tu giovar devi a lui. Te dona al regno</l>
@@ -1277,19 +1299,19 @@
             <l>Che Aminta è il re, che un suo vassallo io sono.</l>
             <l>Errai per troppo zel: signor, perdono. <stage>(vuole inginocchiarsi</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Che fai? Sorgi. <stage>(lo solleva)</stage> Ah! se m'ami,</l>
             <l>Parlami ognor così. Mi par sì bella,</l>
             <l>Che di sé m'innamora,</l>
             <l>La verità, quando mi sferza ancora.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Ah! te destina il fato</l>
             <l part="I">Veramente a regnar.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ma dimmi, amico:</l>
             <l>Non deggio amar chi m'ama? E' poco Elisa</l>
@@ -1300,44 +1322,44 @@
             <l>Fra gli uomini, fra i numi, in terra, in cielo</l>
             <l part="I">La tenerezza mia?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Nessuno: è giusta;</l>
             <l part="I">Ma pria di tutto...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ah! pria di tutto andiamo,</l>
             <l part="I">Amico, a consolarla, e poi...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">T'arresta.</l>
             <l>Sciolto è il consiglio; escono i duci; a noi</l>
             <l part="I">Viene Alessandro.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Ov'è?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Non riconosci</l>
             <l>I suoi custodi alla real divisa?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Dunque...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Attender convien.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Povera Elisa!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <lg>
               <l>Ogni altro affetto ormai</l>
@@ -1356,15 +1378,15 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>ALESSANDRO e detti.</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Agenore. <stage>(ad Agenore, che parte</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Signor.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Fermati: io deggio</l>
             <l>Poi teco favellar. <stage>(Agenore si ferma</stage>
@@ -1372,7 +1394,7 @@
             <l>Resta il re di Sidone</l>
             <l>Ravvolto ancor fra quelle lane istesse?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Perché ancor non impresse</l>
             <l>Su quella man, che lo solleva al regno,</l>
@@ -1380,7 +1402,7 @@
             <l>Soffri che prima al piede</l>
             <l part="I">Del mio benefattor... <stage>(vuole inginocchiarsi</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">No; dell'amico</l>
             <l>Viene alle braccia, e, di rispetto in vece,</l>
@@ -1390,13 +1412,13 @@
             <l>Sol mi sei debitor. Per mia mercede</l>
             <l part="I">Chiedo la gloria tua.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Qual gloria, oh dèi!</l>
             <l>Io saprò meritar, se fino ad ora</l>
             <l>Una greggia a guidar solo imparai?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Sarai buon re, se buon pastor sarai.</l>
             <l>Ama la nuova greggia,</l>
@@ -1418,14 +1440,14 @@
             <l>Come avesti fra' boschi, in trono avrai.</l>
             <l>Sarai buon re, se buon pastor sarai.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Sì. Ma in un mar mi veggo</l>
             <l>Ignoto e procelloso. Or, se tu parti,</l>
             <l>Chi sarà l'astro mio? da chi consigli</l>
             <l part="I">Prender dovrò?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Già questo dubbio solo</l>
             <l>Mi promette un gran re. Del mar che varchi</l>
@@ -1444,12 +1466,12 @@
             <l>La verità tra le menzogne oppressa,</l>
             <l>E' la grande al re solo opra commessa.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Ma donde un sì gran lume</l>
             <l part="I">Può sperare un pastor?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Dal Ciel, che illustra</l>
             <l>Quei che sceglie a regnar. Nebbie d'affetti</l>
@@ -1457,18 +1479,18 @@
             <l>A turbarti il seren, tutto vedrai.</l>
             <l>Sarai buon re, se buon pastor sarai.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Tanto ardir da quei detti...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Or va... deponi</l>
             <l>Quelle rustiche vesti, altre ne prendi,</l>
             <l>E torna a me. Già di mostrarti è tempo</l>
             <l part="I">A' tuoi fidi vassalli.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ah! fate, o numi,</l>
             <l>Fate che Aminta in trono</l>
@@ -1490,12 +1512,12 @@
         <div type="scene">
           <head>SCENA QUINTA</head>
           <stage>ALESSANDRO ed AGENORE</stage>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>(Or per la mia Tamiri</l>
             <l part="I">E' tempo di parlar).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">La gloria mia</l>
             <l>Me fra lunghi riposi,</l>
@@ -1514,76 +1536,76 @@
             <l>Di me che si dirà? che un'empio io sono,</l>
             <l part="I">Un barbaro, un crudel.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Degna è di scusa,</l>
             <l>Se, figlia d'un tiranno, ella temea...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Questo è il suo fallo: e che temer dovea?</l>
             <l>Se Alessandro punisce</l>
             <l>Le colpe altrui, le altrui virtudi onora.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>L'Asia non vide altri Alessandri ancora.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Quanta gloria m'usurpa! Io lascerei</l>
             <l>Tutti felici. Ah! per lei sola or questa</l>
             <l>Riman del mio valore orma funesta.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">(Coraggio!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Avrei potuto</l>
             <l>Altrui mostrar, se non fuggia Tamiri,</l>
             <l>Ch'io distinguer dal reo so l'innocente.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Non lagnarti. Il potrai.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">Come!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E' presente.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Chi?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Tamiri.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">E mel taci?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Il seppi appena</l>
             <l part="I">Che a te venne; e or volea...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Corri! t'affretta!</l>
             <l part="I">Guidala a me.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Vado e ritorno. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Aspetta. <stage>(pensa</stage></l>
             <l>(Ah! sì: mai più bel nodo <stage>(risoluto da
@@ -1593,11 +1615,11 @@
             <l>Ch'oggi al nuovo sovrano</l>
             <l>Io darò la corona, ella la mano.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">La man!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Sì, amico. Ah! con un sol diadema</l>
             <l>Di due bell'alme io la virtù corono.</l>
@@ -1607,37 +1629,37 @@
             <l>La gloria al nome mio</l>
             <l part="I">Rendo così: tutto assicuro.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">(Oh Dio!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Tu impallidisci e taci!</l>
             <l>Disapprovi il consiglio? E' pur Tamiri...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Degnissima del trono.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E' un tal pensiero...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Degnissimo di te.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Di quale affetto</l>
             <l>Quel tacer dunque è segno e quel pallore?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Di piacer, di rispetto e di stupore.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <lg>
               <l>Se vincendo vi rendo felici,</l>
@@ -1674,7 +1696,7 @@
         <div type="scene">
           <head>SCENA SETTIMA</head>
           <stage>AMINTA in abito reale, e detto.</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Eccomi a te di nuovo; ecco deposte</l>
             <l>Le care spoglie antiche. Avvolto in questi</l>
@@ -1682,32 +1704,32 @@
             <l>Mal noto forse io giungerò. Potessi</l>
             <l part="I">Almeno a lei mostrarmi!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ah! d'altre cure,</l>
             <l>Signore, è tempo. Or che sei re, conviene</l>
             <l>Che a pensar tu incominci in nuova guisa.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Come! E che far dovrei?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Scordati Elisa.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Elisa! E chi l'impone?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Un cenno Augusto</l>
             <l>Di chi può ciò che vuole, e vuole il giusto:</l>
             <l>L'impone il ben d'un regno,</l>
             <l part="I">L'onor d'un trono...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ah! vadan pria del mondo</l>
             <l>Tutti i troni sossopra. Elisa è stato,</l>
@@ -1717,48 +1739,48 @@
             <l>Ma sai come io l'adoro?</l>
             <l part="I">Sai che fece per me? sai come...</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ah! calma</l>
             <l part="I">Quegl'impeti, o mio re.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Scordarmi Elisa!</l>
             <l part="I">Se lo tentassi, io ne morrei.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">T'inganni:</l>
             <l>Di tua virtù non ben conosci ancora</l>
             <l>Tutto il valor. Sentimi solo; e poi...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Che mai, che dir mi puoi?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Che, quando al trono</l>
             <l>Sceglie il Cielo un regnante... <stage>(vede Elisa alla destra)</stage> Ah! viene
               Elisa.</l>
             <l part="I">Fuggiam.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Non lo sperar.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Pietà, signore,</l>
             <l>Di te, di lei. L'ucciderai, se parli</l>
             <l part="I">Pria di saper...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Non parlerò, tel giuro.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>No: déi fuggirla. Andiam: soffri un eccesso</l>
             <l>Dell'ardita mia fé sol questa volta. <stage>(lo prende per mano e il trae
@@ -1768,173 +1790,173 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>TAMIRI dalla sinistra, ELISA dalla destra, e detti.</stage>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Dove, Agenore?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Oh stelle!</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Aminta, ascolta.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Ah, principessa!</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Ah! mio tesoro!</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(ad Agenore )</stage> E tanto</l>
             <l part="I">Attenderti convien?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F"><stage>(ad Aminta)</stage> Tanto bisogna</l>
             <l part="I">Sospirar per vederti?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(ad Agenore )</stage> A me pensasti?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Pensasti a me? <stage>(ad Aminta</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(ad Agenore )</stage> Posso saper qual sia</l>
             <l part="I">Al fin la sorte mia?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Ritrovo ancora</l>
             <l part="I">Il mio pastor nel re? <stage>(ad Aminta</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(ad Agenore )</stage> Ma tu sospiri?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Ma tu non mi rispondi? <stage>(ad Aminta</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Parla. <stage>(ad Agenore</stage>
             </l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Dovrei... Non posso.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Parla. <stage>(ad Aminta</stage></l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">Vorrei... Non so.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="M">Come!</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Che avvenne?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri #elisa">
             <speaker>TAM. ELI.</speaker>
             <l part="I">Ma parlate una volta.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ah! che pur troppo</l>
             <l>Si parlerà. Lasciateci un momento</l>
             <l part="I">Respirar soli in pace.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Udisti, Elisa?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Oh dèi, scacciarne! E tu che dici, Aminta?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Ch'io mi sento morire.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="M">Intendo.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Intendo.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>T'avvilì la mia sorte.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Han quelle spoglie anche il tuo cor cangiato.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Agenore incostante!</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Aminta ingrato!</l>
             <lg part="I">
               <l>Ah, tu non sei più mio!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <lg part="F">
               <l>Ah, l'amor tuo finì!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <lg part="I">
               <l>Come non dirmi, oh Dio!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <lg part="F">
               <l>Non dirmi, oh Dio! così.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <lg part="I">
               <l>Dov'è quel mio pastore?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <lg part="F">
               <l>Quel mio fedel dov'è?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aminta #agenore">
             <speaker>AMIN.ed AGEN.</speaker>
             <lg part="I">
               <l>Ah, mi si agghiaccia il core!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#elisa #tamiri #aminta #agenore">
             <speaker>A QUATTRO.</speaker>
             <lg part="F">
               <l>Ah, che sarà di me!</l>
@@ -1982,60 +2004,60 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>AGENORE e detto.</stage>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E irresoluto ancora</l>
             <l part="I">Ti ritrovo, o mio re?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="M">No.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Decidesti?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="I">Sì.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Come?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Il dover mio</l>
             <l part="I">A compir son disposto.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ad Alessandro</l>
             <l part="I">Dunque d'andar più non ricusi?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">A lui</l>
             <l part="I">Anzi già m'incammino.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Elisa e trono</l>
             <l part="I">Vedi che andar non ponno insieme.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">E' vero.</l>
             <l>Né d'un eroe benefico al disegno</l>
             <l>Oppor si dee chi ne riceve un regno.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Oh fortunato Aminta! oh qual compagna</l>
             <l>Ti destinan le stelle! Amala: è degna</l>
             <l part="I">Degli affetti d'un re.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Comprendo, amico,</l>
             <l>Tutta la mia felicità. Non dirmi</l>
@@ -2067,7 +2089,7 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>ELISA e detto.</stage>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Ma senti,</l>
             <l>Agenore: quai fole</l>
@@ -2081,88 +2103,88 @@
             <l>Che ha dell'affanno altrui</l>
             <l part="I">Sì maligno piacer?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Mia cara Elisa,</l>
             <l part="I">Esci d'error: nessun t'inganna.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">E sei</l>
             <l>Tu sì credulo ancor? tu ancor faresti</l>
             <l part="I">Sì gran torto ad Aminta?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Io non saprei</l>
             <l part="I">Per qual via dubitarne.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">E mi abbandona</l>
             <l>Dunque Aminta così... No, non è vero:</l>
             <l>Ti lasciasti ingannar. Donde apprendesti</l>
             <l part="I">Novella sì gentil?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Da lui.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Da lui!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Sì, dall'istesso Aminta.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="I">Dove?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Qui.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">Quando?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">Or ora.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="M">E disse?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E disse</l>
             <l>Che al voler d'Alessandro</l>
             <l>Non dessi oppor chi ne riceve un regno.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Santi numi del ciel! Come! a Tamiri</l>
             <l part="I">Darà la man?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="M">La mano e il cor.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Che possa</l>
             <l part="I">Così tradirmi Aminta!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ah! cangia, Elisa,</l>
             <l>Cangia ancor tu pensiero,</l>
             <l part="I">Cedi al destin.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F"><stage>(con impeto ma piangendo)</stage> No, non sarà mai vero:</l>
             <l>Non lo speri Alessandro,</l>
@@ -2170,35 +2192,35 @@
             <l>La sua sposa son io:</l>
             <l>Io l'amai da che nacqui; Aminta è mio.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>E' giusto, o bella ninfa,</l>
             <l>Ma inutile il tuo duol. Se saggia sei,</l>
             <l part="I">Credimi, ti consola.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Io consolarmi?</l>
             <l>Ingegnoso consiglio</l>
             <l part="I">Facile ad eseguir!</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">L'eseguirai,</l>
             <l>Se imitar mi vorrai. Puoi consolarti,</l>
             <l>E ne déi dall'esempio esser convinta.</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Io non voglio imitarti;</l>
             <l>Consolarmi io non voglio: io voglio Aminta.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Ma s'ei più tuo non è, con quei trasporti</l>
             <l part="I">Che puoi far?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Che posso far? Ad Alessandro,</l>
             <l>Agli uomini, agli dèi pietà, mercede,</l>
@@ -2226,7 +2248,7 @@
         <div type="scene">
           <head>SCENA QUINTA</head>
           <stage>AGENORE, poi TAMIRI</stage>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Povera ninfa! io ti compiango, e intendo</l>
             <l>Nella mia la tua pena. E pure Elisa</l>
@@ -2236,140 +2258,140 @@
             <l>Convien che fugga; e ritrovar non spero</l>
             <l>Alla mia debolezza altro ricorso. <stage>(in atto di partire)</stage></l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Agenore, t'arresta.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">(O dèi, soccorso!)</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>D'un regno debitrice <stage>(con ironia</stage></l>
             <l>Ad amator sì degno</l>
             <l part="I">Dunque è Tamiri?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Il debitore è il regno.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>Perché sì gran novella <stage>(con ironia)</stage></l>
             <l>Non recarmi tu stesso? Io dal tuo labbro</l>
             <l>Più che da un foglio tuo l'avrei gradita.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Troppo mi parve ardita</l>
             <l part="I">Quest'impresa, o regina.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(con risentimento)</stage> Era men grande</l>
             <l part="I">Che il cedermi ad Aminta.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E' ver; ma forse</l>
             <l>L'idea del dover mio</l>
             <l>In faccia a te... Bella regina, addio.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Sentimi. Dove corri?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">A ricordarmi</l>
             <l>Che sei la mia sovrana.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Sol tua mercé. <stage>(con ironia</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ch'io d'esser teco evìti</l>
             <l part="I">Chiede il rispetto mio.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(con isdegno)</stage> Tanto rispetto</l>
             <l>E' immaturo fin or: sarà più giusto</l>
             <l>Quando al tuo re la mano</l>
             <l>Porger m'avrai veduto.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Io nol vedrò.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(con impeto)</stage> Che! nol vedrai! Ti voglio</l>
             <l part="I">Presente alle mie nozze.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ah! no, perdona:</l>
             <l part="I">Questo è l'ultimo addio.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Senti. Ove vai?</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>Ove il Ciel mi destina.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>E ubbidisci così la tua regina? <stage>(con impeto</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Già senza me...</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">No, senza te sarebbe</l>
             <l part="I">La mia sorte men bella.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">E che pretendi?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>Che mi vegga felice <stage>(con ironia</stage></l>
             <l>Il mio benefattore, e si compiaccia</l>
             <l part="I">Dell'opra sua.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">(Che tirannia!) Deh! cangia,</l>
             <l part="I">Tamiri, per pietà...</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F"><stage>(con impeto)</stage> Prieghi non odo,</l>
             <l>Né scuse accetto: ubbidienza io voglio</l>
             <l>Da un suddito fedele.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l>(Oh Dio!)</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">M'udisti? <stage>(come sopra</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ubbidirò, crudele.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <lg>
               <l>Se tu di me fai dono,</l>
@@ -2411,7 +2433,7 @@
           <stage>Parte dello spazio circondato dal gran portico del celebre tempio di Ercole tirio.</stage>
           <stage>Fra l'armonia strepitosa de' militari stromenti esce ALESSANDRO, preceduto da'
             capitani greci e seguìto da' nobili di Sidone; poi TAMIRI, indi AGENORE</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <lg>
               <l>Voi, che fausti ognor donate</l>
@@ -2429,23 +2451,23 @@
             <l>Perché il re non si vede?</l>
             <l part="I">Dov'è Tamiri?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">E' d'Alessandro al piede.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Sei tu la principessa?</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="I">Son io.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Signor, non dubitarne: è dessa.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>Perdonare a' nemici</l>
             <l>Sanno gli eroi; ma sollevarli al trono</l>
@@ -2453,21 +2475,21 @@
             <l>Signor, non so, che per te sento in petto.</l>
             <l>Vincitor ti rispetto, eroe t'onoro.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>E' gran premio dell'opra</l>
             <l>Render superbo un trono</l>
             <l part="I">Di sì amabil regina.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">Ancor nol sono.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Ma sol manca un istante.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>Odi. Agenore, amante,</l>
             <l>La mia grandezza all'amor suo prepone.</l>
@@ -2477,39 +2499,39 @@
             <l>Quel, che nel caso mio</l>
             <l>Alessandro faria, far voglio anch'io.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">E tu sapesti, amando... <stage>(ad Agenore</stage></l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Odila; e vedi</l>
             <l>Se usurpar dessi al trono</l>
             <l part="I">Un'anima sì bella.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F"><stage>(a Tamiri)</stage> E tu sì grata</l>
             <l part="I">Dunque ti senti a lui...</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l part="F">L'ascolta; e dimmi</l>
             <l>Se merita un castigo</l>
             <l part="I">Tanta virtù.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="F">Ma, principessa, or ora</l>
             <l>Lieta pur mi paresti</l>
             <l>Del nuziale invito.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri">
             <speaker>TAM.</speaker>
             <l>No; ma tu mi credesti</l>
             <l>Più ambiziosa che amante: io t'ho punito.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Dèi, qual virtù! qual fede!</l>
           </sp>
@@ -2517,45 +2539,45 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>ELISA e detti.</stage>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Ah! giustizia, signor, pietà, mercede!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Chi sei? che brami?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Io sono Elisa. Imploro</l>
             <l>D'Alessandro il soccorso</l>
             <l>A pro d'un core ingiustamente oppresso.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Contro chi mai?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Contro Alessandro istesso.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Che ti fece Alessandro?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Egli m'invola</l>
             <l>Ogni mia pace, ogni mio ben; d'affanno</l>
             <l>Ei vuol vedermi estinta.</l>
             <l>D'Aminta io vivo: ei mi rapisce Aminta.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Aminta? E qual ragione</l>
             <l part="I">Hai tu sopra di lui?</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l part="F">Qual! Da bambina</l>
             <l>Ebbi il suo core in dono, e sino ad ora</l>
@@ -2564,7 +2586,7 @@
             <l>Chi ne dispon, s'io non lo cedo; ed io</l>
             <l>La vita cederò, non l'idol mio.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Colui che il cor ti diè, ninfa gentile,</l>
             <l>Era Aminta il pastore: a te giammai</l>
@@ -2575,26 +2597,26 @@
           <head>SCENA ULTIMA</head>
           <stage>AMINTA in abito pastorale, seguìto da pastorelli, che portano sopra due
             bacili le vesti reali, e detti.</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l>Signor, io sono Aminta e son pastore.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Come!</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Le regie spoglie</l>
             <l>Ecco al tuo piè. <stage>(si depongono i bacili a' piedi di
               Alessandro)</stage> Con le mie lane intorno,</l>
             <l>Alla mia greggia, alla mia pace io torno.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">E Tamiri non è...</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Tamiri è degna</l>
             <l>Del cor d'un re; ma non è degna Elisa</l>
@@ -2607,19 +2629,19 @@
             <l>Signor, sia con tua pace,</l>
             <l>Più che un re senza fede, esser mi piace.</l>
           </sp>
-          <sp>
+          <sp who="#agenore">
             <speaker>AGEN.</speaker>
             <l part="I">Che ascolto!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ove son io!</l>
           </sp>
-          <sp>
+          <sp who="#elisa">
             <speaker>ELI.</speaker>
             <l>Agenore, io tel dissi: Aminta è mio.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Oh dèi! Quando felici</l>
             <l>Tutti io render pretendo,</l>
@@ -2633,24 +2655,24 @@
             <l>La mia fortuna impegno;</l>
             <l>Ed a tanta virtù non manca un regno.</l>
           </sp>
-          <sp>
+          <sp who="#tamiri #agenore">
             <speaker>TAM. AGEN.</speaker>
             <l part="I">Oh grande!</l>
           </sp>
-          <sp>
+          <sp who="#aminta #elisa">
             <speaker>AMIN. ELI.</speaker>
             <l part="M">Oh giusto!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ah! vegga al fin Sidone</l>
             <l part="I">Coronato il suo re.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMIN.</speaker>
             <l part="F">Ma in queste spoglie...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>In queste spoglie a caso</l>
             <l>Qui non ti guida il Cielo. Il Ciel predice</l>
@@ -2658,7 +2680,7 @@
             <l>Tutto, per questa via, forse il tenore:</l>
             <l>Bella sorte d'un regno è il re pastore.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Dalla selva e dall'ovile</l>

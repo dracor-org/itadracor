@@ -73,6 +73,67 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="silvano">
+            <persName>Silvano</persName>
+          </person>
+          <person xml:id="satiro">
+            <persName>Satiro</persName>
+          </person>
+          <person xml:id="fauno">
+            <persName>Fauno</persName>
+          </person>
+          <person xml:id="sileno">
+            <persName>Sileno</persName>
+          </person>
+          <person xml:id="egle">
+            <persName>Egle</persName>
+          </person>
+          <person xml:id="choro">
+            <persName>Choro</persName>
+          </person>
+          <person xml:id="oreadi">
+            <persName>Oreadi</persName>
+          </person>
+          <person xml:id="driadi">
+            <persName>Driadi</persName>
+          </person>
+          <person xml:id="napee">
+            <persName>Napee</persName>
+          </person>
+          <person xml:id="naiadi">
+            <persName>Naiadi</persName>
+          </person>
+          <person xml:id="pane">
+            <persName>Pane</persName>
+          </person>
+          <person xml:id="siringa">
+            <persName>Siringa</persName>
+          </person>
+          <person xml:id="amadriadi">
+            <persName>Amadriadi</persName>
+          </person>
+          <person xml:id="nimphe">
+            <persName>Nimphe</persName>
+          </person>
+          <person xml:id="satiri_pioccioli">
+            <persName>Satiri Pioccioli</persName>
+          </person>
+          <person xml:id="satiri_piccioli">
+            <persName>Satiri Piccioli</persName>
+          </person>
+          <person xml:id="satiri">
+            <persName>Satiri</persName>
+          </person>
+          <person xml:id="satiro_grande">
+            <persName>Satiro Grande</persName>
+          </person>
+          <person xml:id="satiro_piccolo">
+            <persName>Satiro Piccolo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>2003-06-10T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -262,7 +323,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena I</hi>
           </head>
           <stage>Silvano solo</stage>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Quando lo stuolo human né l' in<expan>n</expan>ocenza</l>
             <l>Prima vivea, et dava cibo a ogni uno</l>
@@ -350,18 +411,18 @@ DA FERRARA</hi>
             <hi rend="sc">Scena II</hi>
           </head>
           <stage>SATIRO, FAUNO</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Amor, che mai non giunga a fine, amore</l>
             <l>Dir non si dee, ma una continua pena.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>E troppo il ver, ma se vi s'accompagna</l>
             <l>Sospetto, e gelosia, non è piu pena,</l>
             <l>Ma una continua, inevitabil morte.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Troppo tutti il proviam, dopo che <name>Giove</name>,</l>
             <l>Et gli altri dei del ciel venuti sono</l>
@@ -370,16 +431,16 @@ DA FERRARA</hi>
             <l>Ad essi ha fatto ingiuria, che per odio</l>
             <l>Debbano disturbar la pace nostra.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Sai, frate mio, quale ingiuria han da noi</l>
             <l part="I">I dei del ciel?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="M">Non io</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">L'ingiuria è ch'essi</l>
             <l>Veggono la beltà di queste nimphe,</l>
@@ -387,7 +448,7 @@ DA FERRARA</hi>
             <l>Bellezza, che sia in man di pover, sia</l>
             <l>Atta a potersi haver da illustre amante.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Quanto dolore, ohime m'aggionge questo</l>
             <l>Sospetto; et quanto più m'infiamma amore,</l>
@@ -399,7 +460,7 @@ DA FERRARA</hi>
             <l>Se ne fossero tolte da le mani</l>
             <l part="I">Le nostre nimphe</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">Il lamentarsi è vano,</l>
             <l>Quando non ponno le querele aiuto</l>
@@ -412,7 +473,7 @@ DA FERRARA</hi>
             <l>Mentre l'habbiam qui ne le forze nostre,</l>
             <l>E da cercar, che cel godiamo noi.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ahi che più non vi veggio modo alcuno,</l>
             <l>Come già di veder mi parea prima,</l>
@@ -427,7 +488,7 @@ DA FERRARA</hi>
             <l>Qualhor la miro, et sdegnosetta, et schiva</l>
             <l>Mi fugge, et odia, ond'io m' affliggo, e struggo,</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Tal' è verso di me la <name>Naide</name> mia,</l>
             <l>Quale a punto è ver te la tua <name>Napea</name>,</l>
@@ -447,22 +508,22 @@ DA FERRARA</hi>
             <l>Ell' ha nel petto, ch' io non l'ami, et pregi,</l>
             <l>Et non cerchi d'haverla a le mie voglie</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Et che vogliam noi far, per goder qualche</l>
             <l>Frutto de le fatiche di tanti anni?</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Volgio, che 'ntendiam ben prima, s'è vero,</l>
             <l>Ch' i dei celesti sian per farne ingiuria.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Che bisogna cercar, s'elle medesme</l>
             <l>L'han detto ad <name>Egle</name> del <name>Sileno</name> nostro.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Costume è de le nimphe di mostrare</l>
             <l>Essere da Dei maggiori amate, anchora</l>
@@ -474,11 +535,11 @@ DA FERRARA</hi>
             <l>Ch'altri falce non ponga in quella messe;</l>
             <l>Ch'essere accolta dee per nostra mano.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Et come ciò potrem saper?</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">
               <name>Sileno</name>
@@ -496,19 +557,19 @@ DA FERRARA</hi>
             <l>Egli da noi et sacrifiti, et voti,</l>
             <l>Non ci celerà cosa, ch' egli, sappia.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ma dove havrem <name>Sileno</name>? Egli dormire</l>
             <l>Dee pien di vino in qualche grotta, o deve</l>
             <l>Esser col <name>Chromi</name> suo col suo, <name>Mnasilo</name></l>
             <l>In giuoco, e 'n festa, o con la sua dolce <name>Egle</name></l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Eccolo ch' egli vien co suoi compagni</l>
             <l part="I">Apunto fuor del bosco.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ei tutto è festa,</l>
             <l>Ove noi miser siam doglia, è tormento,</l>
@@ -520,7 +581,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena III</hi>
           </head>
           <stage>Sileno, Chromi, Mnasilo, Egle</stage>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l><name>Baccho</name>, se nel nodrirti hebbi gia affanno,</l>
             <l>Tant' hor piacere ho in core</l>
@@ -584,7 +645,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena I</hi>
           </head>
           <stage>EGLE SOLA</stage>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Piu volte, et piu m'ha detto il mio <name>Sileno</name>,</l>
             <l>Narrandomi i principij de le cose,</l>
@@ -644,12 +705,12 @@ DA FERRARA</hi>
             <hi rend="sc">Scena II</hi>
           </head>
           <stage>FAUNO, SATIRO, EGLE</stage>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Pur che la nuova sia buona, il tardare</l>
             <l part="I">Non mi dorrà</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Sia pure o buona, o rea,</l>
             <l>Me ne cal poco, i' seguirò il consiglio</l>
@@ -660,24 +721,24 @@ DA FERRARA</hi>
             <l>Cosa che ti sia cara, biasimato</l>
             <l>Non sarai unqua a porlati in sicuro.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>La tropp' audatia torna spesso indanno.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Et il troppo temer fa perder spesso</l>
             <l>Quel, c'haver si potrebbe, i' voglio audace</l>
             <l>Perder piu tosto, che timido havere.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Io mi ricordo anchor quel, che m'avenne:</l>
             <l>Quand' <name>Hercol</name> mi gittò fuori del letto,</l>
             <l>Io mi sento dolere ancho le spalle,</l>
             <l>Per la grave percossa, ch'alhor diedi</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Già non si conveniva altra mercede</l>
             <l>A la tua gran folia, non fu l'ardire,</l>
@@ -689,31 +750,31 @@ DA FERRARA</hi>
             <l>Tu vedrai ben, che, s'io entro in questa caccia,</l>
             <l>Io non piglierò l'orso per la lepra.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Che parole son queste? aman la pace</l>
             <l part="I">Le selve, et non le liti.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">Non è guerra</l>
             <l><name>Egle</name> tra noi, sol' aspettiam sapere,</l>
             <l>C' habbia inteso <name>Silen</name> nostro da <name>Baccho</name>,</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="I">Non vi è nulla di buono</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">Tu m' hai morto</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Et a me animo hai dato a la mia impresa:</l>
             <l>Narraci che ci manda a dir <name>Sileno</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Vi fa saper, ch'i Dei celesti sono</l>
             <l>Non men, che voi, di queste nimphe accesi,</l>
@@ -721,27 +782,27 @@ DA FERRARA</hi>
             <l>A le cose mortai, voglion dal cielo</l>
             <l>Venirsi ne le selve a goder d' esse.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="I">Ohime</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">io non vo già per ciò dolermi,</l>
             <l>Prima di lor i' me n'andrò a la caccia</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Et ch'essi, per non esser conosciuti,</l>
             <l>Sotto mentita forma a loro verranno.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Et io v' andrò ne la medesma mia.</l>
             <l>Prima che 'l Sol s' asconda, stati, <name>Fauno</name>,</l>
             <l part="I">Tu su rispetti tuoi.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F"><name>Satir</name> sei sciocco,</l>
             <l>Io ti dico, che 'l senno, e 'l buon consiglio</l>
@@ -750,7 +811,7 @@ DA FERRARA</hi>
             <l>In condurlo bisogna usar molt' arte:</l>
             <l>Altrimente ogni cosa andr' in sinistro.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l><name>Fauno</name> non dice mal, <name>Satir</name> sta cheto,</l>
             <l>E 'ascolta un pò quel, che vo dirti anch'io,</l>
@@ -759,12 +820,12 @@ DA FERRARA</hi>
             <l>Che, se palese forza lor vorrete</l>
             <l>Fare, n'andrà tutta la cosa in nulla.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Et perche? non siam noi per far lor forza?</l>
             <l part="I">Tu t' inganni <name>Egle</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">i' non m'inganno, ascolta,</l>
             <l>O che volete ritrovarle in caccia,</l>
@@ -791,20 +852,20 @@ DA FERRARA</hi>
             <l>I lor disiri, et con inganno anchora</l>
             <l>Pensan di queste nimphe hoggi godere.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Che deviam dunque far?</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">prudentemente</l>
             <l part="I">Condur la cosa.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="M">Et come?</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">I' voglio, ch' <name>Egle</name></l>
             <l>(<name>Egle</name> vià piu d'ogni altra nimpha accorta)</l>
@@ -812,13 +873,13 @@ DA FERRARA</hi>
             <l>Ella s'adoprerà con queste nimphe)</l>
             <l>Et le disponga a non ci dar piu affanno.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Il farò volentier, perch'io vorrei</l>
             <l>Vederle nel piacer, nel qual son' io:</l>
             <l>Accio che et elle, et voi foste contenti.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Che non si vuol venir mai a la forza,</l>
             <l>Fin che non s' è tentata ogni altra via,</l>
@@ -829,33 +890,33 @@ DA FERRARA</hi>
             <l>Vo, che con esso lei ella le 'nviti</l>
             <l>Ad una festa, che 'ntendiam di fare.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Tu non ce le corrai.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">Anzi verranle,</l>
             <l>Che vo, ch' ella lor dica, che noi tutti</l>
             <l>Insino a un'hora, o <num value="2">due</num> siam per partirci</l>
             <l>Di queste selve, et gir fin' in <name>Ispagna</name>.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>So, che finger tu vuoi di gir da lunge.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Ben bisogna mostrar, che gran paesi,</l>
             <l>Et varij mari, et varij fiumi, et monti,</l>
             <l>Vogliam cercar, perche conoscan chiaro,</l>
             <l>Che facil non ne fia il tornare a loro.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Hor segui</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F">Io voglio poi, ch'ella le dica,</l>
             <l>Ch' i nostri Satirini, e i picciol Fauni</l>
@@ -869,7 +930,7 @@ DA FERRARA</hi>
             <l>Usciremo del bosco, et farem quello</l>
             <l>A lor, ch' i Roman fero a le Sabine</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l><name>Fauno</name>, molto mi piace il tuo consiglio,</l>
             <l>I' o, tosto che le veggia, con bel modo</l>
@@ -877,13 +938,13 @@ DA FERRARA</hi>
             <l>Et, quando cio non mi soccieda, ogni arte</l>
             <l>Usero poi, perche quest'altro segua</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l><name>Egle</name>, te ne preghiamo, cosi mai</l>
             <l>Non ti manchi da ber vino soave,</l>
             <l>E 'l tuo <name>Silen</name> sovra ogni cosa t'ami.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Io non manchero in cosa, ch' io presuma,</l>
             <l>Ch' a espedir questo fatto esser possa atta,</l>
@@ -910,7 +971,7 @@ DA FERRARA</hi>
             <l>Et cosi appresso loro havro piu fede,</l>
             <l>Et piu agevol mi fia finire il tutto.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Hor vanne, <name>Egle</name> mia dolce, et faccia <name>Baccho</name>;</l>
             <l>Che riesca a buon fin questo disegno:</l>
@@ -923,7 +984,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena III</hi>
           </head>
           <stage>EGLE SOLA</stage>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Aviene di costor quello, ch'aviene</l>
             <l>Del mio <name>Silen</name>, quando a le volte beve</l>
@@ -954,45 +1015,45 @@ DA FERRARA</hi>
             <hi rend="sc">Scena IIII</hi>
           </head>
           <stage>SATIRO, CHORO,  FAUNO</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Che state a fare? venite fuori homai,</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Tu ci hai tutti adunati, et non ci hai detto,</l>
             <l>Perche cagion tu n'hai condotti insieme;</l>
             <l part="I">Che ci hai da dire?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">una bramata cosa</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Non bramiamo altra cosa, che potere</l>
             <l>Godersi de le nimphe, che no' amiamo.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Et d' altro non vi ho da ragionare,</l>
             <l>Et dimostrarvi il modo, onde potremo,</l>
             <l>Tutti a un tratto, dar fine a i nostri affanni.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Ha, ah, ah, ah, ò <name>Baccho</name>, ò <name>Baccho</name>, ah, ah,</l>
             <l>Ò <name>Baccho</name>, òè, ò <name>Baccho</name>, òegrave;,òegrave;,</l>
             <l>Se cio ver' è, quai fian di noi piu lieti?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Siam risoluti, ch' i celesti Dei</l>
             <l>La ci vogliono fare, ad ogni modo,</l>
             <l>Et pe' l consiglio del canuto <name>Fauno</name></l>
             <l>Determinato habbiam di farla a loro.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Et cosi far si deve, ò <name>Baccho</name>, òegrave;,</l>
             <l>Fa, che la cosa ne soccieda, et noi</l>
@@ -1003,7 +1064,7 @@ DA FERRARA</hi>
             <l>Un napo pien di delicato vino,</l>
             <l>Ma narra il modo, che tenir dobbiamo.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Il modo intenderete piu a bell'agio,</l>
             <l>Hor fa mestieri, che cantiamo insieme</l>
@@ -1014,17 +1075,17 @@ DA FERRARA</hi>
             <l>Per fuggir la cagion del nostro male,</l>
             <l>Et non dar noia a lor, ch'amiamo tanto.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Comincia tu che seguiremo tutti.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Ponianci insieme a l'ombra di quel faggio,</l>
             <l>Et diam principio al lagrimevol canto:</l>
             <l>Voi <num value="4">quattro</num> rimarrete di cantare,</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Non arse mai stoppia per fiamma,</l>
             <l>C' habbia bifolco in lei talhor' accesa,</l>
@@ -1096,17 +1157,17 @@ DA FERRARA</hi>
             <hi rend="sc">Scena I</hi>
           </head>
           <stage>Oreadi, Driadi, Napee, Egle, Naiadi</stage>
-          <sp>
+          <sp who="#oreadi">
             <speaker>Oreadi</speaker>
             <l>Gia apparecchiata s' è digire al bosco</l>
             <l><name>Diana</name> per cacciar con l' altre nimphe,</l>
             <l>Andiamo anchora noi a ritrovarla.</l>
           </sp>
-          <sp>
+          <sp who="#driadi">
             <speaker>Driadi</speaker>
             <l part="I">Andian</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l part="F">Andiamo a l'honoranda nostra</l>
             <l>Dea, figlia di <name>Latona</name>, et del gran <name>Giove</name>,</l>
@@ -1114,13 +1175,13 @@ DA FERRARA</hi>
             <l>Di vera castitade, et lume chiaro</l>
             <l>Del ciel, quando il Sol toglie a noi la luce.</l>
           </sp>
-          <sp>
+          <sp who="#driadi">
             <speaker>Driadi</speaker>
             <l>Andiamo a la triforme nostra Dea,</l>
             <l>Non men chiara nel ciel, ch'ella sia in terra,</l>
             <l part="I">O nel regno di <name>Dite</name></l>
           </sp>
-          <sp>
+          <sp who="#oreadi">
             <speaker>Oreadi</speaker>
             <l part="F">Honora <name>Pale</name></l>
             <l>Ogni Pastore, et <name>Cerere</name> i bifolchi,</l>
@@ -1129,14 +1190,14 @@ DA FERRARA</hi>
             <l>Apprezzian castita, quanto la vita,</l>
             <l>Devemo amar con tutto 'l cor <name>Diana</name></l>
           </sp>
-          <sp>
+          <sp who="#driadi">
             <speaker>Driadi</speaker>
             <l>Et come face sacrifitio a <name>Marte</name>,</l>
             <l>Chi segue la battaglia, et a <name>Nettunno</name>,</l>
             <l>Chiunque il tempestoso Oceano varca,</l>
             <l>Cosi a <name>Diana</name> noi deven dar voti</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l>Dunque Dea de le selve, et Dea de boschi,</l>
             <l>In segno de la pura honesta nostra,</l>
@@ -1155,7 +1216,7 @@ DA FERRARA</hi>
             <l>La faccia, o come spira tutta fuoco,</l>
             <l>So, che si vede, ch'ella serve a <name>Baccho</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Gelata non son gia, come voi sete,</l>
             <l>Ne pallida mi face il ber de l'acque,</l>
@@ -1168,7 +1229,7 @@ DA FERRARA</hi>
             <l>E de la vita humana, et senza lui</l>
             <l>Nulla di lieto al mondo esser mai puote</l>
           </sp>
-          <sp>
+          <sp who="#naiadi">
             <speaker>Naiadi</speaker>
             <l>Ubriaca che tu sei, credi di darci</l>
             <l>A veder, che l'error in che tu sei</l>
@@ -1197,7 +1258,7 @@ DA FERRARA</hi>
             <l>Qual' hora habbian tal cose inanzi a gli occhi,</l>
             <l>Di darci a ber si abominevol succo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Io ti dico incontrario di quel, c'hai</l>
             <l>Contra me detto, che non è dolcezza</l>
@@ -1229,18 +1290,18 @@ DA FERRARA</hi>
             <l>L'altrui virginita, i' ti rispondo,</l>
             <l>Che non si dee verginita apprezzare.</l>
           </sp>
-          <sp>
+          <sp who="#naiadi">
             <speaker>Naiadi</speaker>
             <l part="I">Hor va malvaggia, va.</l>
           </sp>
-          <sp>
+          <sp who="#oreadi">
             <speaker>Oreadi</speaker>
             <l part="F">Vanne impudica,</l>
             <l>Va nemica d' honore, oimè, che voce</l>
             <l>Di questa bocca scelerata è uscita?</l>
             <l>Va, va al tuo <name>Bacco</name>, et noi lascia a <name>Diana</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>O poverelle che voi sete, sciocche</l>
             <l>Vi rimarrete, et io saro la saggia,</l>
@@ -1248,7 +1309,7 @@ DA FERRARA</hi>
             <l>Che differentia sia tra l'uno, et l'altro</l>
             <l part="I">Modo di vita</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l part="F">La lascivia tua</l>
             <l>Ti fa parer vertù quello, ch' è vitio,</l>
@@ -1259,7 +1320,7 @@ DA FERRARA</hi>
             <l>Et certe siam, ch'ogni thesoro avanza</l>
             <l>Questa verginita, che custodimo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Et io vi dico ch' è di nessun pregio</l>
             <l>Questa verginita, che si lodate,</l>
@@ -1281,7 +1342,7 @@ DA FERRARA</hi>
             <l>Com'uccisi ella havesse color tutti,</l>
             <l>C'havria pottuti generare in terra.</l>
           </sp>
-          <sp>
+          <sp who="#oreadi">
             <speaker>Oreadi</speaker>
             <l>Sono proprio da te queste parole,</l>
             <l>Che chi avezzo è di star sempre nel fango,</l>
@@ -1289,7 +1350,7 @@ DA FERRARA</hi>
             <l>Pero sta tu col tuo parer con <name>Baccho</name>,</l>
             <l>Noi con <name>Diana</name> rimarem col nostro.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Et che credete voi, che se ne stia,</l>
             <l><name>Diana</name> cosi casta, che non voglia</l>
@@ -1305,7 +1366,7 @@ DA FERRARA</hi>
             <l>Si trastula, con lei, et voi vi state,</l>
             <l>senza piacere alcun, sempre digiune.</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l>Noi gia di giune di piacer non siamo,</l>
             <l>Anzi 'l maggior piacer proviam del mondo,</l>
@@ -1313,7 +1374,7 @@ DA FERRARA</hi>
             <l>Ne creder ti voglian cio, che n'hai detto</l>
             <l part="I">De la nostra <name>Diana</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">di <name>Diana</name></l>
             <l>Credete voi cio, che vi piace, detto</l>
@@ -1323,13 +1384,13 @@ DA FERRARA</hi>
             <l>Dico, che commettete un'error grave:</l>
             <l part="I">Non so, se m' intendete;</l>
           </sp>
-          <sp>
+          <sp who="#driadi">
             <speaker>Driadi</speaker>
             <l part="F">Hor va tra Fauni,</l>
             <l>A la tua vita compagnia conforme;</l>
             <l>Et lascia andar noi a <name>Diana</name> al bosco.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Ben fora il meglio, che veniste a Fauni,</l>
             <l>A Satiri, a <name>Silvan</name>, poi che di lor</l>
@@ -1342,12 +1403,12 @@ DA FERRARA</hi>
             <l>Et potrian trar dal vostro fiore il frutto,</l>
             <l>Del qual voi sete debitrici al mondo</l>
           </sp>
-          <sp>
+          <sp who="#driadi">
             <speaker>Driadi</speaker>
             <l>Che noi amiam quelle bestiacce sozze?</l>
             <l>De quai cosa non ha il mondo piu brutta?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>In lor parte non è da capo a piedi,</l>
             <l>Che non sen possa haver dal ciel l'essempio,</l>
@@ -1371,7 +1432,7 @@ DA FERRARA</hi>
             <l>Pero gran torto havete a non far stima</l>
             <l>Di questi Dei, che voi chiamate sozzi.</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l>Poi che tu vuoi da Dei l'essempio torre,</l>
             <l>Di quanto hanno di sozzo in se costoro,</l>
@@ -1379,7 +1440,7 @@ DA FERRARA</hi>
             <l>Lasciar costoro, e amarci Dei del cielo;</l>
             <l>Che si mostran di noi cosi bramosi?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Udito ho sempre dir, che quello amore,</l>
             <l>Che tra dissimil nasce e amore infido,</l>
@@ -1404,13 +1465,13 @@ DA FERRARA</hi>
             <l>Che potesser gustar tra questi boschi,</l>
             <l>Potrete ben sperar, non temer male.</l>
           </sp>
-          <sp>
+          <sp who="#oreadi">
             <speaker>Oreadi</speaker>
             <l>Hor non ci dar piu noia, esser puo prima</l>
             <l>Ogni impossibil cosa, che nissuna</l>
             <l>Di noi por possa amore a questi mostri.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>I' vi so dir, che non andrete molto,</l>
             <l>Che noia piu non vi daran pe boschi,</l>
@@ -1431,12 +1492,12 @@ DA FERRARA</hi>
             <l>Per non veder restar senza i suoi Dei</l>
             <l>Le selve gia felici de l'Arcadia.</l>
           </sp>
-          <sp>
+          <sp who="#driadi">
             <speaker>Driadi</speaker>
             <l>Vadano pur, che non ne cal di loro,</l>
             <l>Come se non gli havessimo unqua visti.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>I miseri n'andranno, et sono in via,</l>
             <l>Et vi van si lontani, che piu mai</l>
@@ -1446,14 +1507,14 @@ DA FERRARA</hi>
             <l>Et testimon lasciati han questi faggi,</l>
             <l>Del lor amor, de la durezza vostra.</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l>Ben sentiti gli habiamo, et n' è piaciuto,</l>
             <l>Che seccaggine tal da noi si levi:</l>
             <l>Ma sento abbaiar cani, et sonar corni;</l>
             <l>Pero tempo è, che ce n' andiamo al bosco</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Ahi crude piu d' ogni selvaggia fiera,</l>
             <l>Piu d' ogni selce dure, et d' ogni scoglio,</l>
@@ -1470,7 +1531,7 @@ DA FERRARA</hi>
             <l>Et perche, poscia che voi lor sdegnate,</l>
             <l>Essi sdegnano cio, che non è voi.</l>
           </sp>
-          <sp>
+          <sp who="#naiadi">
             <speaker>Naiadi</speaker>
             <l>A questi Satirini, et picciol Fauni</l>
             <l>Non mancherem d'esser cortesi sempre,</l>
@@ -1482,22 +1543,22 @@ DA FERRARA</hi>
             <l>Non siam (come detto hai) crude, et spietate,</l>
             <l>Ma di gram cortesia, di pieta piene.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Fate cosa lodevole, e 'n loro vece</l>
             <l>Di tal bontade i' vi ringratio molto,</l>
             <l>Et so, che scemeram la doglia loro,</l>
             <l>Quando gli narrero nuova si buona.</l>
           </sp>
-          <sp>
+          <sp who="#napee">
             <speaker>Napee</speaker>
             <l part="I">Hor con Dio rimani <name>Egle</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Andate in pace</l>
           </sp>
-          <sp>
+          <sp who="#oreadi">
             <speaker>Oreadi</speaker>
             <l>Uno fermo proposito, che 'n donna</l>
             <l>Sia di servarsi casta, al fine vince,</l>
@@ -1510,7 +1571,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena II</hi>
           </head>
           <stage>EGLE SOLA</stage>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Non è da apperecchiare a alcuno insidie,</l>
             <l>Se non quand' ei si pensa esser sicuro,</l>
@@ -1535,7 +1596,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena III</hi>
           </head>
           <stage>SATIRO, EGLE, FAUNO</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>O che sia il troppo desiderio mio</l>
             <l>D' haver la cosa amata, o pur, ch' Amore</l>
@@ -1548,12 +1609,12 @@ DA FERRARA</hi>
             <l>Mi vengon tuttavia segni maggiori,</l>
             <l>Che l'accrescono piu, che 'l fan piu fermo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Che non puo fare Amor con la sua fiamma,</l>
             <l>Poi che dice costui cose si gravi?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Al venir fuor de la spelonca usata,</l>
             <l>Veduto ho sovra un pin <num value="2">due</num> tortorelle,</l>
@@ -1570,12 +1631,12 @@ DA FERRARA</hi>
             <l>Che d'una quercia ombrosa a lo 'mproviso</l>
             <l>Mi fece tristo augurio ne la selva</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Che pazzia è questa, che gli augelli il mondo</l>
             <l>Tema, se la natia lor voce fanno?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Poco dopo, mi venne incontro un Toro,</l>
             <l>Squallido, magro, con dolente aspetto,</l>
@@ -1590,12 +1651,12 @@ DA FERRARA</hi>
             <l>Poi, se quindi rivolgo il pensier mio</l>
             <l>A l'astuto veder de la vostra <name>Egle</name>,</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Lodato <name>Bacco</name>, ch'anch' io merto lode,</l>
             <l>Et son di qualche pregio in queste selve.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>È a la simplicita di queste nimphe,</l>
             <l>In cosi gran timore ho qualche speme,</l>
@@ -1604,13 +1665,13 @@ DA FERRARA</hi>
             <l>Non verran meno a noi, che per li boschi</l>
             <l>Honoriamo ambo lor con tutto il core,</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Non voglio piu tardar, di che ti dogli?</l>
             <l>Qual passion t'affligge si aspramente,</l>
             <l>Hor che siam per accor le augelle al visco?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Mi tengono tra <num value="2">due</num> speme, e timore,</l>
             <l>Et, se vince un di <num value="2">due</num>, vince la tema,</l>
@@ -1620,13 +1681,13 @@ DA FERRARA</hi>
             <l>Tu assicurar ogni temenza mia,</l>
             <l>Se buona nuova da le nimphe porti</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Venuto son'anch'io, poi che v'ho visti</l>
             <l>Parlare insieme, per saper, se buona</l>
             <l>Nova hai da queste nostre aspre nemiche.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>La nova è, frate mio, che dopo, ch'io</l>
             <l>Non le potei dispor ad amar voi;</l>
@@ -1640,46 +1701,46 @@ DA FERRARA</hi>
             <l>Anchor partiti, e i Satirini vostri</l>
             <l part="I">Pensasser di far festa.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ben pensasti,</l>
             <l>Che gli poteva cio dar chiaro inditio</l>
             <l part="I">Di qualche inganno.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Adunque ov' io deveva</l>
             <l>Lo 'nvito farle, i'cercai di disporle,</l>
             <l>C'havessero pietà de picciol nostri</l>
             <l part="I">Satiri, et Fauni.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Et a qual fine questo?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Il saperai, s'ascolti, esse credendo,</l>
             <l>Che voi ne foste giti, ad una voce</l>
             <l>Dissero di voler per figli accorgli.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Non veggio anchor, che ciò nulla ne giovi,</l>
             <l part="I">O ne dia speme alcuna.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Se sei cieco,</l>
             <l part="I">Che vuoi, ch'io te ne faccia?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Aprimi gli occhi</l>
             <l>Tanto, ch' io veggia quel, che 'nsino ad hora</l>
             <l part="I">Veder non ho saputo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Ite a la caccia</l>
             <l>Si sono insieme, et io nel ritornare,</l>
@@ -1688,19 +1749,19 @@ DA FERRARA</hi>
             <l>Pregar le vo, che gli accolgan per figli,</l>
             <l>Come t'ho detto, che promesso m'hanno.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Non so veder, che quindi avenir altro</l>
             <l>Possa, se non che noi da queste nimphe</l>
             <l>Cacciati siamo, e nvece nostra i figli,</l>
             <l>Ch' a ciò non pensam, siam da loro accolti.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Veggio, misero me, che saran veri</l>
             <l>Gli auguri, di che dianzi i' dicea meco.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Lasciami, se tu vuoi, giungere al fine,</l>
             <l>Ne ti doler pria, che cagion tu n' habbi,</l>
@@ -1709,7 +1770,7 @@ DA FERRARA</hi>
             <l>Et dirle che, trovandosi con loro,</l>
             <l>Men grave gli sarà mancar de padri.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Incomincio a veder ciò, che vuoi fare,</l>
             <l>Et cosi sono d'allegrezza pieno,</l>
@@ -1717,7 +1778,7 @@ DA FERRARA</hi>
             <l>Ah, ah, ah, ah, ah, ah, dolce <name>Egle</name> mia,</l>
             <l>Esser pens' hoggi sol per te felice</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Esse, che piu non temeranno insidie,</l>
             <l>Se gli accorranno, et ne verran con loro</l>
@@ -1732,7 +1793,7 @@ DA FERRARA</hi>
             <l>Hor parti che condotta habbia il mio ingegno</l>
             <l part="I">Ogni cosa a buon fine?</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l part="F"><name>Egle</name> mia dolce,</l>
             <l>Tu ci hai data la preda ne le mani</l>
@@ -1744,21 +1805,21 @@ DA FERRARA</hi>
             <l>Se tu facevi, come havevam detto,</l>
             <l>Se n' andava ogni cosa a la mal' hora.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Saper bisogna usare il luoco, e 'l tempo,</l>
             <l>A chi una cosa vuol condure al fine.</l>
           </sp>
-          <sp>
+          <sp who="#fauno">
             <speaker>Fauno</speaker>
             <l>Ma entriam nel bosco a dar la nova a gli altri.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Entriam, ma vi bisogna star ascosi</l>
             <l>Si, che non diate lor di ciò sospetto.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Come avaro bifolco, poi che 'n terra</l>
             <l>Il gran con piena mano</l>
@@ -1828,7 +1889,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena I</hi>
           </head>
           <stage>PANE  SOLO</stage>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Che giova a me l' esser d' <name>Arcadia</name> Dio?</l>
             <l>Et l'haver sotto me tutti i pastori?</l>
@@ -1930,7 +1991,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena II</hi>
           </head>
           <stage>SIRINGA, PANE</stage>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Io mi maravigliava haver vist'hoggi</l>
             <l>Le selve si quiete, et si sicure,</l>
@@ -1957,12 +2018,12 @@ DA FERRARA</hi>
             <l>Altro paese, et men fiera ventura;</l>
             <l>E 'l camin preso havean verso la spagna.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Che cosa od'io? non ho gia udito dire</l>
             <l>Hoggi di tal partenza ad alcun Fauno</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l><name>Diana</name> si mostrò di ciò assai lieta,</l>
             <l>Come colei, che ben sapea, ch'un lungo</l>
@@ -1974,24 +2035,24 @@ DA FERRARA</hi>
             <l>Andato anchora <name>Pan</name>, che tanto tempo</l>
             <l part="I">Mi ha dato noia.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">intendi, s'hai orecchio,</l>
             <l>A che termine sei de l'amor tuo,</l>
             <l part="I">O miser me, ò 'nfelice</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l part="F">Non perch'io</l>
             <l>Fossi mai per amarlo, ò per mutarmi</l>
             <l>Del mio primo pensier fisso in diamante.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ahi miser me, dov'ho io posto speme?</l>
             <l>Per chi mi consumo io? per chi mi struggo?</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Ma perche non è rocca si munita,</l>
             <l>Che non brami piu tosto haver lontani</l>
@@ -2010,7 +2071,7 @@ DA FERRARA</hi>
             <l>Et cosi minacciando di ferirlo,</l>
             <l>Mal grado suo, il farò lontano starmi.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ai <name>Siringa</name> crudel, <name>Siringa</name> ingrata,</l>
             <l>Che bisogna fuggire? ò che temere?</l>
@@ -2024,7 +2085,7 @@ DA FERRARA</hi>
             <l>Deh muta homai <name>Siringa</name> mia pensiero,</l>
             <l>Et non m'esser cagion di tanto affano.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Io lo ti ho detto, <name>Pane</name>, et tel ridico,</l>
             <l>Che vò servar la mia honesta intatta;</l>
@@ -2032,7 +2093,7 @@ DA FERRARA</hi>
             <l>Divenissero mare, e i mari boschi,</l>
             <l>Ch' io ti lasciassi pur toccarmi il lembo.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l><name>Siringa</name>, tu non sai, chi tu disprezzi,</l>
             <l>Io non sono un pastor di queste selve,</l>
@@ -2066,12 +2127,12 @@ DA FERRARA</hi>
             <l>Che se tu gli vedessi scherzar meco,</l>
             <l>Per haverli, verresti assai piu pia.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Non, se fussero tutti oro, et diamanti,</l>
             <l>Tienliti pur, ch'io non mi curo haverli.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ai poco saggia nimpha, anchor che sii</l>
             <l>Più bianca, che i Ligustri, et piu vermiglia,</l>
@@ -2098,11 +2159,11 @@ DA FERRARA</hi>
             <l>Et un, che quello ha in se, che non ha <name>Giove</name>,</l>
             <l>Quantunque egli dal ciel fulmini, et tuoni.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Vè, che sozzo animal si vuol far bello?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Oltre di cio, ti puon far chiara fede</l>
             <l>Gli arbori, et l'herbe, e i fior di queste selve,</l>
@@ -2115,13 +2176,13 @@ DA FERRARA</hi>
             <l>Che contender potrei col biondo <name>Apollo</name>,</l>
             <l>Con piu felice fin, che non fe <name>Marsia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Io m'llegro con te di virtù tale,</l>
             <l>Ma perciò non farai mutarmi voglia,</l>
             <l>Però non spender piu parole indarno.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l><name>Siringa</name>, se non vuoi di me far stima,</l>
             <l>Io vorrei, che di te cura tenessi,</l>
@@ -2137,12 +2198,12 @@ DA FERRARA</hi>
             <l><num value="1000">Mille</num> nimphe mi chieggion per amante,</l>
             <l>Et <num value="1000">mille</num> son da me per te sprezzate.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Pero non voglio far ingiuria a l'altre,</l>
             <l>Ama, chi t'ama, et non mi dar piu noia.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Deh s'altro non mi vuoi, <name>Siringa</name>, dare</l>
             <l>In refrigerio al men del mio gran fuoco,</l>
@@ -2154,26 +2215,26 @@ DA FERRARA</hi>
             <l>Assai fuggito m'hai, lascia, ch'un giorno</l>
             <l>Con un bascio ristori i danni miei.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Un bascio? donna, che cortese sia</l>
             <l>D'un bascio ad altri, puo donarli il tutto,</l>
             <l>Ch'appresso me più mai non sara casta.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Tu te inganni, <name>Siringa</name>, un bascio è poco,</l>
             <l>Anzi (per meglio dire) è come nulla,</l>
             <l>Deh non lo mi negar, vita mia cara.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Non mi t'accostar, <name>Pane</name> che se questo arco</l>
             <l>Non mi vien men, ne men queste saette,</l>
             <l>Io mi ti farò andar tanto da lunge,</l>
             <l>Che non havrai piu ardir venirmi appresso</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ahi che vuoi far, <name>Siringa</name>, t'hai pur troppo</l>
             <l>Tinte del sangue mio, crudel, le mani,</l>
@@ -2186,13 +2247,13 @@ DA FERRARA</hi>
             <l>A un fido amante, a una pietosa nimpha,</l>
             <l>In pieta muterai la crudeltade.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Non mi ha voluto far la gratia il cielo,</l>
             <l>C'hoggi egli ha fatto a le compagne mie,</l>
             <l>Che co Silvestri Dei tu ti sia gito.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l><name>Siringa</name>, me n'andro pria, che sia sera,</l>
             <l>Ne qui tenuto m'ham le greggie mie,</l>
@@ -2203,7 +2264,7 @@ DA FERRARA</hi>
             <l>Però in questo partir dammi la mano,</l>
             <l>Cara <name>Siringa</name> mia, ch'io la ti tocchi.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Stammi lontan, io ti ho pur ancho detto,</l>
             <l>Se 'n te non vuoi che la pharetra i' scarchi,</l>
@@ -2212,7 +2273,7 @@ DA FERRARA</hi>
             <l>Ponti in camin con i compagni tuoi:</l>
             <l>Et non mi venir più dinanzi a gli occhi.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Benche da te partendo io abbandoni</l>
             <l>Ogni ben, pur, perche mi par minore</l>
@@ -2226,51 +2287,51 @@ DA FERRARA</hi>
             <l>Che tenghi certo, che quanto amar puote</l>
             <l>Un Dio nimpha gentil, tanto io t'ho amato.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Hor non piu, <name>Pan</name>, <name>Diana</name> è qui vicina,</l>
             <l>Ch'io sento il siton de corni, et veggio i cani,</l>
             <l part="I">Me ne voglio ir.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Deh ferma nimpha il passo,</l>
             <l part="I">Non mi ti torre anchor.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l part="F">Lasciami, <name>Pane</name>,</l>
             <l>Se non ti vuoi pentir d'havermi vista.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Deh lascia, ch'io ti tocchi almen la mano.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Lasciami, dico, ch'io non son piu sola,</l>
             <l>Che veggio la mia Dea, veggio le nimphe,</l>
             <l>Et guai a te, se tu mi fai chiamarle.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Non m'esser si crudel, nimpha gentile,</l>
             <l>Habbi pieta del mio angoscioso affanno.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l part="I">Tu mi farai gridar.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Grida a tua voglia.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l><name>Diana</name> aiuto, che mi vuol far forza</l>
             <l part="I">Questo villan di <name>Pane</name></l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Ecco io ti lascio,</l>
             <l><name>Siringa</name> ingrata, ma tu via mi porti</l>
@@ -2284,7 +2345,7 @@ DA FERRARA</hi>
           <stage>
             <stage>PANE, SILVANO</stage>
           </stage>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Maledetta <name>Diana</name>, et le sue nimphe,</l>
             <l>I can, gli strali, gli archi, et le pharetre,</l>
@@ -2327,24 +2388,24 @@ DA FERRARA</hi>
             <l>Od un Faggio, od un'olmo la cagione</l>
             <l>Del tuo dolor, al far vendetta giusta.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Gravi querele son queste, ch'io odo,</l>
             <l>Et mi paion di <name>Pan</name> nostro gran Dio.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ma c'ha voluto dir la mia <name>Siringa</name>,</l>
             <l>Quando m'ha detto, che lontani vanno</l>
             <l>I Satiri, e 'i Silvan da queste selve?</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l><name>Pane</name>, che ci è, che ti lamenti tanto?</l>
             <l>Et sei si maninconico nel giorno,</l>
             <l>Che sono tutti i Dei Silvestri in gioia?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Scacci il duolo, chi vuole, et si rallegri,</l>
             <l>Gioia non è per me tra queste selve,</l>
@@ -2352,13 +2413,13 @@ DA FERRARA</hi>
             <l>Poi che, chi sola mi potria far lieto,</l>
             <l>Quanto piu mesto son, tanto più gode.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Et qual' è la cagion del tuo dolore?</l>
             <l>Non ti gravi di dirlami che forse</l>
             <l>Potrei al tuo languir porger rimedio.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l><name>Silvano</name>, tu non sai quello ch' è noto</l>
             <l>A le piante, a le fiere, a i sassi, a l'herbe?</l>
@@ -2370,7 +2431,7 @@ DA FERRARA</hi>
             <l>Ne per cosa, ch'io faccia, io posso havere</l>
             <l>Speme da lei di ritrovar mai pace.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l><name>Pan</name>, peggio non si puo far ne gli affanni,</l>
             <l>Che pensar non dever' esser mai lieto,</l>
@@ -2378,12 +2439,12 @@ DA FERRARA</hi>
             <l>Di momento in momento? s'hor t'attrista,</l>
             <l>Forse empir ti potrà d'allegrezza ancho.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Il so, ma come che costei si mute,</l>
             <l>Allegrezza per me non n'oscie mai.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Ma dimmi, non è ella quella nimpha,</l>
             <l>Nata in <name>Nonacria</name>, ch' è tanto a <name>Diana</name></l>
@@ -2391,16 +2452,16 @@ DA FERRARA</hi>
             <l>Tra lor l'habito, et l'arco, si potrebbe</l>
             <l>Creder, che fosse ella <name>Diana</name> istessa?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="I">Ell' è quella, <name>Silvan</name></l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Hor l'ho veduta</l>
             <l part="I">Gir con <name>Diana</name></l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">oime, ch'ella mi ha tolto</l>
             <l>Nel suo partire il core, et son rimaso,</l>
@@ -2409,14 +2470,14 @@ DA FERRARA</hi>
             <l>Et tanto è 'l dolor mio, ch' io non vorrei</l>
             <l part="I">Esser piu vivo.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Ben ti stimo sciocco,</l>
             <l>Poi che brami morir per una nimpha,</l>
             <l>De quali n' è tal copia, che se n'have</l>
             <l>Per ogni stran, per ogni incolto bosco.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Pari a lei non sen' ha, <name>Silvano</name> mio,</l>
             <l>Perche è costei tra tutte l'altre nimphe,</l>
@@ -2425,7 +2486,7 @@ DA FERRARA</hi>
             <l>Una cosa, che m'ha parlando detto,</l>
             <l part="I">Et intesa i' non l'ho.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Che cosa è questa?</l>
             <l>Ch'essendosi partiti gli altri Fauni,</l>
@@ -2433,15 +2494,15 @@ DA FERRARA</hi>
             <l>Anch' io con loro, et pur di tal partenza</l>
             <l part="I">Non sapea, ne so nulla.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">et c'hai risposto?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="I">Ch' anch'io mi volea gir.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Ve, come il caso</l>
             <l>Produce il tutto, non potevi meglio</l>
@@ -2450,46 +2511,46 @@ DA FERRARA</hi>
             <l>Io mi maravigliava di vederti</l>
             <l part="I">Cosi maninconioso.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Hora ch' è questo,</l>
             <l part="I">Caro <name>Silvan</name>?</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">La tua allegrezza certa.</l>
             <l>Il tuo certo gioir, quel, che ti puote</l>
             <l>Si lieto far,che piu non sarai mesto.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ai caro il mio <name>Silvan</name>, non mi dir fole,</l>
             <l>Non cercare ammollire il mio dolore,</l>
             <l>Con medicina falsa, perche poi</l>
             <l>Elli ritorneria più, che mai, grande,</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>I' vo, che questa sera di <name>Siringa</name></l>
             <l part="I">Tu goda.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="M">Questa sera?</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Questa sera:</l>
             <l>Com' i Satir godranno, e i Fauni tutti</l>
             <l part="I">De le lor nimphe.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Hor che potria più affanno</l>
             <l>Darmi, ò dolor, se questo aveniss'hoggi?</l>
             <l part="I">Dimmi il vero, <name>Silvan</name></l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Cosi vedere</l>
             <l>Potess' io questa pianta ritornare</l>
@@ -2500,12 +2561,12 @@ DA FERRARA</hi>
             <l>I Satiri, e i Silvan, che per godere</l>
             <l part="I">Le nimphe lor.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Ma ch' è mestier, ch'io faccia?</l>
             <l>Perche mi goda di <name>Siringa</name> anch'io</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Poi che l' hai detto di voler partirti,</l>
             <l>Non dubitar di non haverla in braccio,</l>
@@ -2524,12 +2585,12 @@ DA FERRARA</hi>
             <hi rend="sc">Scena IIII</hi>
           </head>
           <stage>AMADRIADI, ALTRE NIMPHE, EGLE, SATIRI PICCIOLI, SIRINGA</stage>
-          <sp>
+          <sp who="#amadriadi">
             <speaker>Amadriadi</speaker>
             <l>Molti mesi ha, che più felice caccia</l>
             <l>Noi fatto non habbiam di quella d' hoggi.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Ell' è stata felice, ma di molto</l>
             <l>Pericol, se 'l cengial, che que <num value="2">due</num> cani</l>
@@ -2537,7 +2598,7 @@ DA FERRARA</hi>
             <l>Ci cogliea con un dente, vedevamo,</l>
             <l>Che pericolo in se tengano i boschi.</l>
           </sp>
-          <sp>
+          <sp who="#amadriadi">
             <speaker>Amadriadi</speaker>
             <l>Ben dimostro <name>Diana</name>, che suoi colpi</l>
             <l>Venian da man divina, quando l'arco</l>
@@ -2548,7 +2609,7 @@ DA FERRARA</hi>
             <l>Trafisse il suo, ma d'un cosi possente,</l>
             <l>Che subito ei resto di vita privo.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Quanto fu bel veder gli aggiramenti</l>
             <l>Di quella insidiosa astuta volpe,</l>
@@ -2556,7 +2617,7 @@ DA FERRARA</hi>
             <l>Ch'alhora, ch'essi si credean d'haverla</l>
             <l>Tra denti, si tornò ne la sua macchia.</l>
           </sp>
-          <sp>
+          <sp who="#amadriadi">
             <speaker>Amadriadi</speaker>
             <l>Ma, chi havria mai pensato di vedere,</l>
             <l>Che quella gravida <name>Orsa</name>, che trafisse</l>
@@ -2565,7 +2626,7 @@ DA FERRARA</hi>
             <l>Si che l'istessa man, ch'a lei die morte,</l>
             <l>Fosse a figli cagion del nascimento?</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Ciò fu bello a veder, ma via piu bello,</l>
             <l>Che, mentre questa nimpha cogliea il parto,</l>
@@ -2579,11 +2640,11 @@ DA FERRARA</hi>
             <l>Che si viene ver noi fuor de la selva,</l>
             <l part="I">Vo, che qui l'aspettiam.</l>
           </sp>
-          <sp>
+          <sp who="#amadriadi">
             <speaker>Amadriadi</speaker>
             <l part="F">Come ti piace.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Figliuoli miei, bisogna, che sappiate</l>
             <l>Finger cosi, ch'i miser vostri padri</l>
@@ -2594,7 +2655,7 @@ DA FERRARA</hi>
             <l>Io non mancherò punto d'aiutarvi,</l>
             <l>Ovunque io vedrò, che sia bisogno.</l>
           </sp>
-          <sp>
+          <sp who="#satiri_pioccioli">
             <speaker>
               <expan>Satiri pioccioli</expan>
             </speaker>
@@ -2603,17 +2664,17 @@ DA FERRARA</hi>
             <l>Per ottener quel, ch'ottener bramemo,</l>
             <l>Non ne venga pur men di favor <name>Bacco</name></l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Cosi, bisogna, che facciate, andiamo,</l>
             <l>Et mostratevi tutti in viso mesti.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Ti sii la ben venuta, <name>Egle</name>, che buona</l>
             <l>Nova ci apporta la venuta tua?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Nova buona non han piu queste selve:</l>
             <l>Poi ch'i Silvestri Dei se ne son giti,</l>
@@ -2626,7 +2687,7 @@ DA FERRARA</hi>
             <l>Fatevi inanzi, poveri fanciulli,</l>
             <l>Et datevi a la fe di queste nimphe.</l>
           </sp>
-          <sp>
+          <sp who="#satiri_piccioli">
             <speaker>
               <expan>Satiri piccioli</expan>
             </speaker>
@@ -2640,14 +2701,14 @@ DA FERRARA</hi>
             <l>Quai qui rimasi siam, come rimane</l>
             <l>Perduto il suo pastor greggia infelice.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Non vi saremo men, che madri, pie,</l>
             <l>Ben vi preghiamo da costumi nostri</l>
             <l>Non si partire, et por tutta in oblio</l>
             <l>De Satiri maggior l'aspra lascivia.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Non è da dubitar, ch'al viver vostro</l>
             <l>Non s'assomiglin, perche da fanciulli</l>
@@ -2677,17 +2738,17 @@ DA FERRARA</hi>
             <l>Qui ci ritroveremo tutti insieme,</l>
             <l>Forse contenti piu, che non siam' hora.</l>
           </sp>
-          <sp>
+          <sp who="#amadriadi">
             <speaker>Amadriadi</speaker>
             <l>Anzi verrenvi molto volontieri,</l>
             <l>Poi che noi vi possiam venir sicure.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Deh di gratia dimmi, <name>Egle</name>, se d'<name>Arcadia</name></l>
             <l>Partito s' è co gli altri Fauni <name>Pane</name>?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Partito s' è pur troppo lo 'nfelice,</l>
             <l>Et non è per vederlo <name>Arcadia</name> mai,</l>
@@ -2699,13 +2760,13 @@ DA FERRARA</hi>
             <l>Te stessa a sdegno, per haver sdegnato</l>
             <l>Amante si fedel, fuor di ragione.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l>Dolgasi egli di se, che si è voluto</l>
             <l>Por ad amar, chi mai non senti amore,</l>
             <l>Io non lo 'ndussi mai, ch' egli m'amasse.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Estender non mi voglio in dimostrarti</l>
             <l>Quanto meglio saria, ch'amor seguissi,</l>
@@ -2714,12 +2775,12 @@ DA FERRARA</hi>
             <l>Ma tempo verrà ben, che tu te stessa</l>
             <l part="I">Riprenderai.</l>
           </sp>
-          <sp>
+          <sp who="#siringa">
             <speaker>Siringa</speaker>
             <l part="F">I' non son per pentirmi</l>
             <l part="I">Mai de l'honesta mia.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Te n'avedrai,</l>
             <l>Quando il penserai men, restate in pace,</l>
@@ -2731,7 +2792,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena V</hi>
           </head>
           <stage>EGLE, SILENO</stage>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Chi fia, chi dica, che d'ingegno manchi</l>
             <l>Donna, ch' a far si dia una grande impresa,</l>
@@ -2744,7 +2805,7 @@ DA FERRARA</hi>
             <l>Veggio <name>Sileno</name>, i' gli voglio dar nova,</l>
             <l>Ch' i Satir de le nimphe havran vittoria.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Tu mi farai uscir del corpo l'alma</l>
             <l>Con questo tuo tardar, <num value="3">tre</num> fiaschi ho asciutti</l>
@@ -2755,45 +2816,45 @@ DA FERRARA</hi>
             <l>Insino ad hora, gaglioffetta, guai</l>
             <l>A te, se fatto tu m' havessi oltraggio.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Et, se fatto l'havessi ben, che fora?</l>
             <l>Perciò non t'averria nulla di novo,</l>
             <l>Poi c'hai le corna per natura in capo.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Tu mi dileggi ribaldella? dammi</l>
             <l part="I">Un bascio.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="M">Volentieri</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Hor prendi 'l fiasco,</l>
             <l part="I">Et ricreati un poco.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">I' n'ho bisogno,</l>
             <l>Per la durata mia nova fatica,</l>
             <l>In ridur queste nimphe a le mie voglie.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="I">Et c' hai tu fatto?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Lasciami ber prima.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Bevi, che dato i' t' ho per questo il fiasco.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>O che buon vino è questo, i' me ne sento</l>
             <l>Fender la lingua si, che viemi a l'occhio</l>
@@ -2801,24 +2862,24 @@ DA FERRARA</hi>
             <l>Nettare, e ambrosia, i' non cerco ber meglio:</l>
             <l part="I">Et onde l' hai tu avuto?</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Il mio Marone</l>
             <l>Da la mensa di <name>Bacco</name> hoggi l' ha tolto.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>So, ch' ei conosce il buono, i' non mi posso</l>
             <l part="I">Satiar di ber.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Vedi, s' io m' arricordo,</l>
             <l><name>Egle</name>, di te: non ne ho voluto bere,</l>
             <l>Per servarloti, un goccio, anchor ch'havessi</l>
             <l part="I">Una gran sete.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">I' ti farei ingiuria,</l>
             <l>S' io non lasciassi, che tu dessi un bascio</l>
@@ -2826,7 +2887,7 @@ DA FERRARA</hi>
             <l>Accostavi la bocca; che piu dolce</l>
             <l>Basciar questo sarà, che le mie labbra.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Questo non gia, che piu dolce, che manna,</l>
             <l>E questa tua boccuccia, hor lascia, ch'io</l>
@@ -2835,91 +2896,91 @@ DA FERRARA</hi>
             <l>A ragion ben lodato hai questo vino,</l>
             <l>Potta di <name>Bacco</name>, i' non bevi mai meglio.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Bevilo tutto, ch' io non ho piu sete.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Senza che tu mel dica, i' l' ho bevuto;</l>
             <l>Et parmi, ch' io sia fatto un Dio celeste,</l>
             <l part="I">Hor c' hai fatto pe Fauni?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Hanno le nimphe,</l>
             <l>Sotto spetie di fe, i nemici a cerco,</l>
             <l>Et molto non andrà, saran tutte,</l>
             <l>Secondo l' ordin dato, in braccio a Fauni.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Ah, ah, ah, ha, i' lodo il Signor <name>Bacco</name>,</l>
             <l>Che dar non sdegna aiuto a la sua gente,</l>
             <l>Vorrei anch' io poter d' una godere.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Deh vecchiaccio, che sei, non ti par, ch'io</l>
             <l>Sia troppo a le tue forze? Hor cerca, cerca,</l>
             <l><name>Silen</name>, dun' altra, che d' unaltro anch' io</l>
             <l>(Poi ch' io non son per te) vo provedermi.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Non ti adirar (vita mia cara) i' giuoco</l>
             <l part="I">Con te, nol vedi?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Non mi par bel giuoco</l>
             <l>Il minacciarmi di tormi il pan di casa,</l>
             <l>Se' l facesti, insin hor ti fo sapere,</l>
             <l>Ch' io non vorrei morirmi de la fame.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="I">Che dirai pazzarella?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">M' hai intesa,</l>
             <l>Non mi vo veder tor la vittuaglia.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Entriam nel bosco, che farem la pace.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="I">I' non vi vo venir.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="M">Perche?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Non voglio.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Deh vien di gratia, so, che gita al naso</l>
             <l part="I">Ti è subito la colera.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">cagione</l>
             <l>Forse non me n' hai data, se non fosse</l>
             <l>L'amor, col quale io t'amo i' staria un anno,</l>
             <l part="I">Ch' io non verrei, ove tu fossi.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Eh andiamo;</l>
             <l>Car' <name>Egle</name> mia, nel bosco: Eh vien di gratia.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Va, ch' io ti seguo: Non è cosa al mondo,</l>
             <l>Che star piu faccia uno marito al segno,</l>
@@ -2928,7 +2989,7 @@ DA FERRARA</hi>
             <l>Il cibo, che mantien le donne in vita,</l>
             <l>Et chiaro hor visto i' l'ho nel mio <name>Sileno</name></l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Hor, che siam per por fine a nostri affanni,</l>
             <l>Et si mostra cortese</l>
@@ -2986,18 +3047,18 @@ DA FERRARA</hi>
             <hi rend="sc">Scena I</hi>
           </head>
           <stage>EGLE, SATIRI</stage>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Sapete, ove la cosa è gia condotta,</l>
             <l>Atro non resta piu, se non che usiate</l>
             <l>Astutia nel pigliar le fiere in caccia.</l>
           </sp>
-          <sp>
+          <sp who="#satiri">
             <speaker>Satiri</speaker>
             <l>Pericol piu non v' è, poi che ce l'hai</l>
             <l>Con l'arte tua quasi condotte in mano.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Non vo, che vi paia esser si sicuri,</l>
             <l>Che non debbiate haver tema di quello,</l>
@@ -3011,12 +3072,12 @@ DA FERRARA</hi>
             <l>Perche, se s'avedesser de lo 'nganno,</l>
             <l>Tutto quel, che fatto è, sarebbe nulla.</l>
           </sp>
-          <sp>
+          <sp who="#satiri">
             <speaker>Satiri</speaker>
             <l>Da noi non mancherà, che con ingegno</l>
             <l>Non sia provisto a ogni possibil cosa.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Dunque io me n' andrò dritto a trovarle,</l>
             <l>Et cercherò di porle in danza insieme</l>
@@ -3024,7 +3085,7 @@ DA FERRARA</hi>
             <l>State dietro a questi arbori, et il tempo</l>
             <l part="I">Pigliatevi a la preda.</l>
           </sp>
-          <sp>
+          <sp who="#satiri">
             <speaker>Satiri</speaker>
             <l part="F">Vanne, et credi,</l>
             <l>Che l'hora non veggian, che 'l fine aggiunga,</l>
@@ -3035,7 +3096,7 @@ DA FERRARA</hi>
             <l>Sian tutti pronti a la parata preda:</l>
             <l>Ecco i Satirin vengono, et le nimphe,</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>lor s'appresenta, non fia molto,</l>
             <l>C'havremo ne le mani il nostro bene.</l>
@@ -3046,36 +3107,36 @@ DA FERRARA</hi>
             <hi rend="sc">Scena II</hi>
           </head>
           <stage>Nimphe, Egle, Satiri Piccioli, Satiro grande, Choro</stage>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>State sicuri pur d' haver trovato</l>
             <l part="I">Un perpetuo riposo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Et voi d' havere</l>
             <l part="I">L'inciampo ritrovato.</l>
           </sp>
-          <sp>
+          <sp who="#satiri_piccioli">
             <speaker>Satiri piccioli</speaker>
             <l part="F">Certo nulla</l>
             <l>Ci par d' haver perduto, tanto amore</l>
             <l>Ci havete mostro, e tai carezze fatte.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Ogni giorno haverete maggior segno;</l>
             <l>Quanto v'amiam, quanto ne siate cari,</l>
             <l part="I">Ma vedete <name>Egle</name> vostra.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Figli miei,</l>
             <l>Come vi contentate de la vita</l>
             <l>Di queste vostre madri? Se voi sete,</l>
             <l>Contenti, ogni dolor da me è fuggito.</l>
           </sp>
-          <sp>
+          <sp who="#satiri_piccioli">
             <speaker>
               <expan>Satiri piccioli</expan>
             </speaker>
@@ -3086,19 +3147,19 @@ DA FERRARA</hi>
             <l>L'immensa cortesia di queste nimphe,</l>
             <l>C'haver non potevam maggior conforto.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Io non me ne credetti altro giamai,</l>
             <l>Tanto cortesemente i' vidi accorvi.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>Gli a saputo un pò strano il bever l'acqua,</l>
             <l>Ma nel resto si son cosi acquetati,</l>
             <l>Che parso n' è, ch' assai restin contenti</l>
             <l part="I">De la compagnia nostra.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">E de l' etade</l>
             <l>Tenera proprio questo, che di mente</l>
@@ -3111,7 +3172,7 @@ DA FERRARA</hi>
             <l>Molto non andrà, che 'l ber de l'acque</l>
             <l>(Posto il vino in oblio) non gli fia noia.</l>
           </sp>
-          <sp>
+          <sp who="#satiri_piccioli">
             <speaker>
               <expan>Satiri piccioli</expan>
             </speaker>
@@ -3124,7 +3185,7 @@ DA FERRARA</hi>
             <l>Non s' opponesse al voler nostro, noi</l>
             <l>Le chiederemo a far con noi un ballo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Et perche ricusar deono lo 'nvito?</l>
             <l>Quando son famigliari accolti insieme,</l>
@@ -3133,31 +3194,31 @@ DA FERRARA</hi>
             <l>Pero i' non credo, che queste cortesi</l>
             <l>Nimphe si sdegnin di danzar con voi.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="I">Non gia per nostra fe.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Voi fate bene,</l>
             <l>Poi che 'l maggior piacer, ch' esser mai possa,</l>
             <l>Per donna al mondo, voi havete a schivo.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="I">Et qual' è questo?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Amare, et de lo amore</l>
             <l part="I">Goder d'un' huomo, che s' ami.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">Tu sei pure?</l>
             <l part="I"><name>Egle</name>, su le sciocchezze.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Anz' io vi dico,</l>
             <l>Che di ciò non vi vo mover parola,</l>
@@ -3165,64 +3226,64 @@ DA FERRARA</hi>
             <l>Ci possiam por con questi putti in danza,</l>
             <l>Et solazzarsi honestamente insieme.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="I">Facciam, come ti par.</l>
           </sp>
-          <sp>
+          <sp who="#satiro_grande">
             <speaker>Satiro grande</speaker>
             <l part="F">Son quasi al fine</l>
             <l part="I">Le cose?</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="M">Vuoi, che usciamo?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">State cheti</l>
             <l>Non vi scoprite, che non è anchor tempo.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="I">Oime quando fia l'hora?</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">Et come in ballo</l>
             <l>Potrem condurci, non vi essendo alcuno,</l>
             <l part="I">Che tra noi suoni?</l>
           </sp>
-          <sp>
+          <sp who="#satiro_piccolo">
             <speaker>Satiro piccolo</speaker>
             <l part="M">se fosse tra noi</l>
             <l>Fistula alcuna, sonerebbe parte</l>
             <l>Di noi, et parte si daria a danzare.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Ma non sapete voi, se sempre meco</l>
             <l part="I">Porto le fistole io?</l>
           </sp>
-          <sp>
+          <sp who="#satiri_piccioli">
             <speaker>Satiri piccioli</speaker>
             <l part="F">Dalleci adunque,</l>
             <l part="I">Che sonarem.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="M">Tenete.</l>
           </sp>
-          <sp>
+          <sp who="#satiro_grande">
             <speaker>Satiro grande</speaker>
             <l part="F">State in punto,</l>
             <l>Che 'l tempo vien, che se n' entriamo in caccia.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="I">A l'ordine noi siamo.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">A coppia, a coppia</l>
             <l>Noi entreremo in ballo, et le carole,</l>
@@ -3235,11 +3296,11 @@ DA FERRARA</hi>
             <hi rend="sc">Scena III</hi>
           </head>
           <stage>SATIRO, CHORO, SILENO, PANE, NIMPHE</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">State a l'ordine, dico.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">Sian pur troppo</l>
             <l>A l' ordine, non fu mai si tes' arco,</l>
@@ -3248,12 +3309,12 @@ DA FERRARA</hi>
             <l>Che non li diamo dentro; ci sentimo</l>
             <l part="I">Mancar la vita.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Non ' anchora il tempo</l>
             <l part="I">D'uscir, fratelli miei.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">Non veggian l' hora,</l>
             <l>Che possiamo sfogar nostro disio:</l>
@@ -3262,7 +3323,7 @@ DA FERRARA</hi>
             <l>Ò che pie scarno, et rotondetto, et vago</l>
             <l part="I">Sostien quella vittina.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Con che gratia</l>
             <l>Move la mia <name>Napea</name> l'un lato, et l'altro,</l>
@@ -3270,29 +3331,29 @@ DA FERRARA</hi>
             <l>Come si ferma, et (per dir breve) come</l>
             <l>Leggiadramente al suon col pie risponde.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Ma vedi, che a noi vien <name>Sileno</name>, et <name>Pane</name>,</l>
             <l><name>Pan</name> venir dee per la <name>Siringa</name> sua,</l>
             <l>Ma non so, a qual fin qui venga <name>Sileno</name>,</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Che vi è <name>Sileno</name>?</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Son venuto anch' io</l>
             <l part="I">A veder questa festa.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">Deh sta indietro</l>
             <l>Con questo asino tuo ne la mal'hora,</l>
             <l>Che, s'ei ragghiasse, siam tutti disfatti,</l>
             <l part="I">Non odi tu <name>Silen</name>?</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Tu mi vuoi fare</l>
             <l>Uscir si, ch' io sia visto, io quel son stato,</l>
@@ -3300,94 +3361,94 @@ DA FERRARA</hi>
             <l>Cacciar, com' una bestia? i' voglio andare</l>
             <l part="I">Fuor de la selva, va inanzi.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Eh non fare,</l>
             <l part="I">Caro <name>Sileno</name></l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">I' voglio andar, va la;</l>
             <l>Vo, che tutti costor paiano bestie.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="I">Costui è ubriaco.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">A punto, il vin lavora.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Non ci turbar <name>Silen</name>, <name>Silen</name> mio resta,</l>
             <l>Non voler, ch'un tuo sdegno ci disfaccia.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="I">Per amor tuo mi rimarro.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pan</speaker>
             <l part="F">E <name>Siringa</name></l>
             <l part="I">Forse nel ballo.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ella al fin de la danza</l>
             <l>Git' è con l'altre nimphe, et con lor siede.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>La veggio, ai fiera, ai soperbetta, ai schifa,</l>
             <l>Ai nemica d'amore, et di pietade,</l>
             <l>Come mi struggi il cor? come m'ancidi?</l>
             <l part="I">Ma che tardiamo piu?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Lascia, che 'n ballo</l>
             <l>Entri di novo: Ve la tua <name>Siringa</name>,</l>
             <l part="I">Che guida la carola.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Oime che vita?</l>
             <l>Oime che leggiadria? Che movimenti?</l>
             <l>Non tardiam più, ch' io ne moio, ahi lasso,</l>
             <l part="I">Io mi dileguo.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">Tempo è di far segno,</l>
             <l part="I"><name>Satiro</name>, a gli altri.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">Havete udito quello</l>
             <l part="I">Sibillo?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">E nulla fia qualche pastore</l>
             <l>Che chiama la sua greggia, ò chiama i cani,</l>
             <l part="I">Seguiamo il ballo.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">Son quasi rimasa</l>
             <l part="I">Fuori di me.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Tu temi ben di poco:</l>
             <l part="I">Su a la danza, sonate.</l>
           </sp>
-          <sp>
+          <sp who="#satiri_piccioli">
             <speaker>Satiri piccioli</speaker>
             <l part="F">Noi soniamo.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Hora animosamente tutti a un tratto</l>
             <l>Entriam, compagni miei, lieti nel campo,</l>
@@ -3399,98 +3460,98 @@ DA FERRARA</hi>
             <hi rend="sc">Scena IIII</hi>
           </head>
           <stage>Nimphe, Choro, Pane, Egle, Sileno</stage>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l>O poverelle noi nimphe, siam morte,</l>
             <l>O poverelle noi, vedete i Fauni,</l>
             <l>I Satiri, e i Silvani, ò triste noi.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Eh non fuggite, che temete? Siamo</l>
             <l part="I">I vostri amanti.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">Ai <name>Egle</name>, oime malvagia,</l>
             <l part="I">O noi semplici, et sciocche.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Eh non fuggire,</l>
             <l part="I"><name>Siringa</name>, eh non fuggire.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">ò meschinelle</l>
             <l part="I">Che siamo.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">Andate a quel varco un di voi,</l>
             <l>Piglia questa, che vien verso la selva,</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="I">O noi misere, et triste.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">che tardate?</l>
             <l part="I">Correte al bosco.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Su Satir, su Fauni,</l>
             <l>Su valorosamente, ben sarete</l>
             <l>Cosi da poco, che fuggiranno ancho;</l>
             <l part="I">Et ne le man le havrete.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="F">Ahi malvagia <name>Egle</name>,</l>
             <l part="I">Quest' è la fe?</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Dove ne vai <name>Sileno</name>?</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Io vò per dar soccorso a miei compagni,</l>
             <l>Ch' anch' essi m' aiutar, quando io ti tolsi.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>O cho soccorso, mover non ti puoi</l>
             <l part="I">Et gli vuoi dare aiuto?</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Prender voglio</l>
             <l part="I">Questa, che viene in qua.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l part="F">Tosto, non state</l>
             <l>Satiri a bada, su picciol fanciulli,</l>
             <l>Correr non le lasciate, per la mano</l>
             <l>Tenetele, pe panni, et per le gambe.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>A questa, a questa, tutti a dosso a questa.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>Ci fuggiran, non state a bada, al bosco,</l>
             <l>Al bosco tutti, ch'elle al bosco vanno.</l>
           </sp>
-          <sp>
+          <sp who="#nimphe">
             <speaker>Nimphe</speaker>
             <l part="I">Oime dove siam giunte?</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">A dosso a dosso,</l>
             <l>A dosso a questa, piglia, piglia, piglia,</l>
@@ -3499,46 +3560,46 @@ DA FERRARA</hi>
             <l>Oime, et ho fatto nulla, ch' è fuggita,</l>
             <l part="I">Oime.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Tel dissi io ben, sei tu ben atto</l>
             <l>Correr dietro a chi fugge: in tua mal' hora</l>
             <l>Tienti al tuo fiasco, che non fugge, et lascia</l>
             <l part="I">Correr chi vuol.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">S'io lo facea per bene.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l>Havresti fatto meglio haver bevuto,</l>
             <l part="I">Hor levati, se puoi.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Dammi la mano,</l>
             <l part="I">Aiutami.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Vorravvi altro potere,</l>
             <l part="I">Che 'l mio.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l part="F">Dammi la mano, perche anch' io</l>
             <l>Mi sorgerò, son pur risorto alquanto,</l>
             <l>Aiutami, <name>Egle</name>, regger non mi posso,</l>
             <l part="I">Oime.</l>
           </sp>
-          <sp>
+          <sp who="#egle">
             <speaker>Egle</speaker>
             <l part="F">Monta a caval, ve, che allegrezza</l>
             <l>Tu mi vuoi dar sta notte, mentre in gioia</l>
             <l>Gli altri saran; sarai tu su 'l dolerti.</l>
           </sp>
-          <sp>
+          <sp who="#sileno">
             <speaker>Sileno</speaker>
             <l>Non mica, tosto c' haverò bevuto,</l>
             <l>Non haverò più mal, volea potere</l>
@@ -3551,7 +3612,7 @@ DA FERRARA</hi>
             <hi rend="sc">Scena V</hi>
           </head>
           <stage>SILVANO, PANE</stage>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Ogni cosa nel bosco è sotto sopra,</l>
             <l>Chi corre in qua, chi in là prendute han molte</l>
@@ -3583,50 +3644,50 @@ DA FERRARA</hi>
             <l>Da lor soavi fiori il dolce frutto;</l>
             <l>Che nel ciel potria fare invidia a <name>Giove</name></l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Haver nemico il cielo, e immaginarsi</l>
             <l>Poter condurre uno suo effetto al fine,</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Che lamentevol voce è questa, ch' odo</l>
             <l>Uscir del bosco in cosi gran letitia?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>A chi ciò crede, avien quel, ch' è avenuto</l>
             <l>A gli altri hoggi, et a me, miser <name>Pane</name>,</l>
             <l>O <name>Pan</name> tristo, e 'nfelice, ò <name>Pan</name> dolente,</l>
             <l part="I">A che termine sei?</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Egli mi pare</l>
             <l><name>Pane</name>, che si lamenti, et che puo havere</l>
             <l>Egli di tristo, essendo ogniuno in gioia?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>O doloroso <name>Pane</name>, hai pur perduto,</l>
             <l part="I">Quanto di bene havevi.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Che ci è <name>Pane</name>?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Potrai pur poverello a voglia tua</l>
             <l>Gir per le selve, senza haver sospetto</l>
             <l part="I">D' offender la tua Nimpha.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="F">Ch' avenuto</l>
             <l>T' è di dolente, <name>Pan</name>, che si ti dogli?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Oime, <name>Silvano</name>, oime, tra queste selve,</l>
             <l>Selve gia di piacere et di diletto,</l>
@@ -3634,35 +3695,35 @@ DA FERRARA</hi>
             <l>Ov' esser credevam lieti, et felici,</l>
             <l>I piu miseri siam, che fossero unqua.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Tu mi togli la vita, <name>Pan</name>, ch' è questo,</l>
             <l>Che tu mi di? quando pensar piu debbo</l>
             <l>Vedervi lieti, s'hoggi sete tristi?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Avenuta, <name>Silvan</name>, ci è cosa tale,</l>
             <l>Che fin, c'havranno mai fronde le selve,</l>
             <l>Sempre tristi sarem, sempre dolenti.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Deh fa, ch' io sappia, <name>Pan</name>, che cosa è questa.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l><name>Silvano</name>, non voler (se m' ami) udire</l>
             <l>L' infelicita nostra, e 'l nostro affanno?</l>
             <l>Che 'ncredibile angoscia havrai a udirlo.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>I' non posso sentir doglia maggiore</l>
             <l>Di quella, c' hor per voi il cor mi preme,</l>
             <l>Pero non mi tener' hor piu sospeso.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Mentre, <name>Silvan</name>, le nostre care nimphe</l>
             <l>(Ch' io pur lo ti diro, poi che 'l ricerchi)</l>
@@ -3688,12 +3749,12 @@ DA FERRARA</hi>
             <l>Restarò si, che non si videro, altre</l>
             <l>Divenner fior ne la minuta herbetta.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Ai che mi di tu, <name>Pan</name>? che meraviglie</l>
             <l part="I">Son queste, ch' i'odo?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Io non ti mento punto,</l>
             <l>Ne furono alcun' altre in questo tempo,</l>
@@ -3728,12 +3789,12 @@ DA FERRARA</hi>
             <l>È star sasso nel monte, appresso a quella</l>
             <l>Nimpha, che l' havea fatto il cor di pietra.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Non credo, mai che 'n un sol giorno tante</l>
             <l part="I">Mutation fosser vedute.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">A nostro</l>
             <l>Danno servate son le maraviglie,</l>
@@ -3741,23 +3802,23 @@ DA FERRARA</hi>
             <l>Miseri siamo, et io via piu d'ogniuno</l>
             <l>Languisca sempre, et mi tormenti sempre.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Perc'hai tu, <name>Pan</name>, maggior de gli altri doglia?</l>
             <l>Perche strugger ti vuoi tu piu de gli altri?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Perche quant' era la <name>Siringa</name> mia</l>
             <l>D'ogni nimpha piu bella, ancho maggiore</l>
             <l>Era il mio fuoco, ond'io mi doglio tanto,</l>
             <l>Quanto era bella, et quanto io gia l'amai.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Deh dimmi, <name>Pan</name>, che avenut' è di lei</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>O sventurato me, dopo ch' io vidi</l>
             <l>Mutate l' altre nimphe in varie forme,</l>
@@ -3780,35 +3841,35 @@ DA FERRARA</hi>
             <l>Oime la vidi, oime <name>Silvano</name>, oime,</l>
             <l>A pena il posso dir, mutarsi in canna.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Ne lo posso udir' io senza gran doglia,</l>
             <l>Et testimon ten faccia il pianto mio,</l>
             <l>Ma che stormento è questo, che ti pende</l>
             <l part="I">A lato?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">oime, ch' io vo sempre haver questo</l>
             <l>Per la piu cara cosa, ch' al mondo habbia.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l part="I">Et perche: <name>Pan</name></l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Perche di quella canna,</l>
             <l>In che mutata s' è la mia <name>Siringa</name>,</l>
             <l>Composta i' l'ho, per isfogar col suo</l>
             <l>Suon la mia doglia, e'l mio angoscioso affanno.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Et come in cor ti venne di comporre</l>
             <l part="I">Tanti calami in un?</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l part="F">Non fu mutata</l>
             <l>Cosi tosto <name>Siringa</name>, che spirando</l>
@@ -3824,7 +3885,7 @@ DA FERRARA</hi>
             <l>Con la qual risonar farò ogni selva</l>
             <l>Del caro nome suo, del mio dolore.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Felice sei tu, <name>Pan</name>, appresso gli altri,</l>
             <l>Perche con <name>Ega</name> tua antica mogliera</l>
@@ -3832,24 +3893,24 @@ DA FERRARA</hi>
             <l>Ma gli altri poverelli, che non hanno</l>
             <l>Rifugio alcun, si pon ben chiamar tristi.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Ohime, caro <name>Silvan</name>, tanto piu d'<name>Ega</name></l>
             <l>Era bella costei, quanto più belli</l>
             <l>Son gli amaranthi de minori fiori.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Et io ti dico, <name>Pan</name>, ch' è piu bell' <name>Ega</name></l>
             <l>In questa età, che mai non fu <name>Siringa</name></l>
             <l>Nel piu bel fior de suoi piu fioriti anni.</l>
           </sp>
-          <sp>
+          <sp who="#pane">
             <speaker>Pane</speaker>
             <l>Non piu, <name>Silvan</name>, che tu m' accresci doglia,</l>
             <l>Vien meco, entra nel bosco a veder gli altri.</l>
           </sp>
-          <sp>
+          <sp who="#silvano">
             <speaker>Silvano</speaker>
             <l>Entra, ch' anch' io di subito ti seguo,</l>
             <l>Non si dee desiar cosa, che neghi</l>

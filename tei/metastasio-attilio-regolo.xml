@@ -85,6 +85,37 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="licinio">
+            <persName>Licinio</persName>
+          </person>
+          <person xml:id="attilia">
+            <persName>Attilia</persName>
+          </person>
+          <person xml:id="manlio">
+            <persName>Manlio</persName>
+          </person>
+          <person xml:id="barce">
+            <persName>Barce</persName>
+          </person>
+          <person xml:id="publio">
+            <persName>Publio</persName>
+          </person>
+          <person xml:id="amilcare">
+            <persName>Amilcare</persName>
+          </person>
+          <person xml:id="regolo">
+            <persName>Attilio Regolo</persName>
+          </person>
+          <personGrp xml:id="popolo">
+            <name>Popolo</name>
+          </personGrp>
+          <person xml:id="coro">
+            <persName>Coro di Romani</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
@@ -106,19 +137,12 @@
       </prologue>
       <castList>
         <head>INTERLOCUTORI</head>
-        <castItem type="role">
-          <role>REGOLO;</role>
-        </castItem>
+        <castItem type="role"><role>REGOLO</role>;</castItem>
         <castItem type="role"><role>MANLIO</role>, <roleDesc><emph>consolo;</emph></roleDesc></castItem>
         <castItem type="role"><role>ATTILIA</role>, <roleDesc><emph>figliuola di Regolo; </emph></roleDesc></castItem>
         <castItem type="role"><role>PUBLIO</role>, <roleDesc><emph>figliuolo di Regolo; </emph></roleDesc></castItem>
         <castItem type="role"><role>BARCE</role>, <roleDesc><emph>nobile africana, schiava di Publio; </emph></roleDesc></castItem>
-        <castItem type="role">
-          <role>LICINIO, </role>
-          <roleDesc>
-            <emph>tribuno della plebe, amante d'Attilia; </emph>
-          </roleDesc>
-        </castItem>
+        <castItem type="role"><role>LICINIO</role>, <roleDesc><emph>tribuno della plebe, amante d'Attilia; </emph></roleDesc></castItem>
         <castItem type="role"><role>AMILCARE</role>, <roleDesc><emph>ambasciadore di Cartagine, amante di Barce. </emph></roleDesc></castItem>
       </castList>
       <set>
@@ -132,14 +156,14 @@
           <head>SCENA I</head>
           <stage>Atrio nel palazzo suburbano del console Manlio. Spaziosa scala che introduce a' suoi appartamenti.</stage>
           <stage>ATTILIA, LICINIO <emph>dalla scala, littori e popolo.</emph> </stage>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Sei tu, mia bella Attilia? Oh dei! confusa</l>
             <l>fra la plebe e i littori</l>
             <l>di Regolo la figlia</l>
             <l part="I">qui trovar non credei.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Su queste soglie</l>
             <l>ch'esca il console attendo. Io voglio almeno</l>
@@ -150,7 +174,7 @@
             <l>piango in Roma e rammento i casi sui.</l>
             <l>Se taccio anch'io, chi parlerà per lui?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Non dir così; saresti ingiusta. E dove,</l>
             <l>dov'è chi non sospiri</l>
@@ -162,12 +186,12 @@
             <l>degno d'un cor romano</l>
             <l part="I">in me traluce, ei m'inspirò.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Fin ora</l>
             <l part="I">però non veggo...</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">E che potei privato</l>
             <l>fin or per lui? D'ambiziosa cura</l>
@@ -177,7 +201,7 @@
             <l>le istanze mie. Del popol tutto a nome</l>
             <l part="I">tribuno or chiederò...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Serbisi questo</l>
             <l>violento rimedio al caso estremo.</l>
@@ -194,52 +218,52 @@
             <l>di Regolo il riscatto</l>
             <l part="I">il console potria.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Manlio! Ah rammenta</l>
             <l>che del tuo genitore emulo antico</l>
             <l>fu da' prim'anni. In lui fidarsi è vano:</l>
             <l part="I">è Manlio un suo rival.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Manlio è un romano;</l>
             <l>né armar vorrà la nimistà privata</l>
             <l>col pubblico poter. Lascia ch'io parli;</l>
             <l part="I">udiam che dir saprà.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Parlagli almeno,</l>
             <l>parlagli altrove; e non soffrir che mista</l>
             <l part="I">qui fra 'l volgo ti trovi.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Anzi vogl'io</l>
             <l>che appunto in questo stato</l>
             <l>mi vegga, si confonda;</l>
             <l>che in pubblico m'ascolti e mi risponda.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="I">Ei vien.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Parti.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Ah né pure</l>
             <l part="I">d'uno sguardo mi degni.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">In quest'istante</l>
             <l>io son figlia, o Licinio, e non amante.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Tu sei figlia, e lodo anch'io</l>
             <l>il pensier del genitore;</l>
@@ -257,27 +281,27 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>ATTILIA, MANLIO<emph>dalla scala, littori e popolo.</emph> </stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Manlio, per pochi istanti</l>
             <l part="I">t'arresta, e m'odi.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">E questo loco, Attilia,</l>
             <l part="I">parti degno di te?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Non fu sin tanto</l>
             <l>che un padre invitto in libertà vantai;</l>
             <l>per la figlia d'un servo è degno assai.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">A che vieni?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">A che vengo! Ah sino a quando</l>
             <l>con stupor della terra,</l>
@@ -311,7 +335,7 @@
             <l>che i pianti miei, ma senza prò versati?</l>
             <l>Oh padre! Oh Roma! Oh cittadini ingrati!</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Giusto, Attilia, è il tuo duol, ma non è giusta</l>
             <l>l'accusa tua. Di Regolo la sorte</l>
@@ -319,7 +343,7 @@
             <l>qual faccia empio governo</l>
             <l part="I">la barbara Cartago...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Eh che Cartago</l>
             <l>la barbara non è. Cartago opprime</l>
@@ -331,17 +355,17 @@
             <l>perché d'allòr le circondò la chioma.</l>
             <l>La barbara or qual è? Cartago o Roma?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Ma che far si dovrebbe?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Offra il Senato</l>
             <l>per lui cambio o riscatto</l>
             <l part="I">all'africano ambasciador.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Tu parli,</l>
             <l>Attilia, come figlia: a me conviene</l>
@@ -350,33 +374,33 @@
             <l>fa d'uopo esaminar. Chi alle catene</l>
             <l part="I">la destra accostumò...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Donde apprendesti</l>
             <l part="I">così rigidi sensi?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Io n'ho su gli occhi</l>
             <l part="I">i domestici esempi.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Eh dì che al padre</l>
             <l part="I">sempre avverso tu fosti.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">È colpa mia,</l>
             <l>se vincer si lasciò? Se fra' nemici</l>
             <l part="I">rimase prigionier?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Pria d'esser vinto</l>
             <l part="I">ei v'insegnò più volte...</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Attilia, ormai</l>
             <l>il Senato è raccolto: a me non lice</l>
@@ -400,7 +424,7 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>ATTILIA, <emph>poi</emph>  BARCE</stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Nulla dunque mi resta</l>
             <l>da' consoli a sperar. Questo è nemico;</l>
@@ -409,59 +433,59 @@
             <l>da che incerte vicende</l>
             <l>la libertà, la vita tua dipende!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Attilia, Attilia.</l>
             <stage>
               <emph>(con fretta)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Onde l'affanno?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">È giunto</l>
             <l part="I">l'africano orator.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Tanto trasporto</l>
             <l part="I">la novella non merta.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Altra ne reco</l>
             <l part="I">ben più grande.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">E qual è?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Regolo è seco.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Il padre!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="M">Il padre.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Ah, Barce,</l>
             <l part="I">t'ingannasti o m'inganni?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Io nol mirai,</l>
             <l part="I">ma ognun...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Publio...</l>
             <stage>
@@ -472,28 +496,28 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>PUBLIO <emph>e dette.</emph> </stage>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Germana...</l>
             <l part="I">Son fuor di me... Regolo è in Roma.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Oh Dio!</l>
             <l>Che assalto di piacer! Guidami a lui.</l>
             <l part="I">Dov'è? Corriam...</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Non è ancor tempo. Insieme</l>
             <l>con l'orator nemico attende adesso</l>
             <l part="I">che l'ammetta il Senato.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Ove il vedesti?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Sai che questor degg'io</l>
             <l>gli stranieri oratori</l>
@@ -502,11 +526,11 @@
             <l>m'affretto al porto: un africano io credo</l>
             <l>vedermi in faccia, e il genitor mi vedo.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Che disse? che dicesti?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ei su la ripa</l>
             <l>era già, quand'io giunsi, e il Campidoglio,</l>
@@ -524,28 +548,28 @@
             <l>il console io volai. Dov'è? Non veggo</l>
             <l part="I">qui d'intorno i littori...</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Ei di Bellona</l>
             <l part="I">al tempio s'inviò.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Servo ritorna</l>
             <l part="I">dunque Regolo a noi?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Sì; ma di pace</l>
             <l>so che reca proposte: e che da lui</l>
             <l part="I">dipende il suo destin.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Chi sa se Roma</l>
             <l part="I">quelle proposte accetterà.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Se vedi</l>
             <l>come Roma l'accoglie,</l>
@@ -557,7 +581,7 @@
             <l>molle osservai per tenerezza il ciglio!</l>
             <l>Che spettacolo, Attilia, al cor d'un figlio!</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Ah Licinio dov'è? Di lui si cerchi:</l>
             <l>imperfetta saria</l>
@@ -578,39 +602,39 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>PUBLIO <emph>e</emph>  BARCE</stage>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Addio, Barce vezzosa.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Odi. Non sai</l>
             <l>dell'orator cartaginese il nome?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Sì; Amilcare si appella.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">È forse il figlio</l>
             <l part="I">d'Annone?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="M">Appunto.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="M">(Ah l'idol mio!)</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Tu cangi</l>
             <l>color! Perché? Fosse costui cagione</l>
             <l part="I">del tuo rigor con me?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Signor, trovai</l>
             <l>tal pietà di mia sorte</l>
@@ -619,7 +643,7 @@
             <l>sarei, se t'ingannassi: a te sincera</l>
             <l part="I">tutto il cor scoprirò. Sappi...</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">T'accheta:</l>
             <l>mi prevedo funesta</l>
@@ -642,7 +666,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>BARCE <emph>sola.</emph> </stage>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l>Dunque è ver che a momenti</l>
             <l>il mio ben rivedrò? L'unico, il primo,</l>
@@ -669,7 +693,7 @@
           <stage>
             <emph>Seguito d'Africani e popolo fuori del tempio.</emph>
           </stage>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Venga Regolo, e venga</l>
             <l>l'africano orator. Dunque i nemici</l>
@@ -678,7 +702,7 @@
               <emph>(a Publio)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">O de' cattivi almeno</l>
             <l>vogliono il cambio. A Regolo han commesso</l>
@@ -691,23 +715,23 @@
             <l>che a sì barbare pene</l>
             <l part="I">un tanto cittadin...</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">T'accheta: ei viene.</l>
             <stage>
               <emph>(Il console, Publio e tutti i senatori vanno a sedere, e rimane vuoto accanto al console il luogo altre volte occupato da Regolo. Passano Regolo ed Amilcare fra' littori, i quali lasciato ad essi aperto il varco tornano subito a chiudersi. Regolo entrato appena nel tempio s'arresta pensando).</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>(Regolo, a che t'arresti? È forse nuovo</l>
             <l>per te questo soggiorno?)</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>(Penso qual ne partii, qual vi ritorno).</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>Di Cartago il Senato,</l>
             <l>bramoso di depor l'armi temute,</l>
@@ -715,7 +739,7 @@
             <l>E, se Roma desia</l>
             <l>anche pace da lui, pace gl'invia.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Siedi ed esponi.</l>
             <stage>
@@ -727,59 +751,59 @@
             <l part="F">E tu l'antica sede,</l>
             <l part="I">Regolo, vieni ad occupar.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ma questi</l>
             <l part="I">chi sono?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="M">I padri.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">E tu chi sei?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Conosci</l>
             <l>il console sì poco?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>E fra il console e i padri un servo ha loco?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>No; ma Roma si scorda</l>
             <l>il rigor di sue leggi</l>
             <l>per te, cui dee cento conquiste e cento.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Se Roma se ne scorda, io gliel rammento.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>(Più rigida virtù chi vide mai?)</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Né Publio sederà. .</l>
             <stage>
               <emph>(sorge)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Publio, che fai?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Compisco il mio dover: sorger degg'io</l>
             <l part="I">dove il padre non siede.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ah tanto in Roma</l>
             <l>son cambiati i costumi! Il rammentarsi</l>
@@ -787,42 +811,42 @@
             <l>d'un privato dover, pria che tragitto</l>
             <l>in Africa io facessi, era delitto.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Ma...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Siedi, Publio; e ad occupar quel loco</l>
             <l part="I">più degnamente attendi.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Il mio rispetto</l>
             <l>innanzi al padre è naturale istinto.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Il tuo padre morì, quando fu vinto.</l>
             <stage>
               <emph>(Publio siede)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Parla, Amilcare, ormai. .</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Cartago elesse</l>
             <l>Regolo a farvi noto il suo desio.</l>
             <l>Ciò ch'ei dirà, dice Cartago ed io.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Dunque Regolo parli.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <stage>
               <emph>(piano a Regolo)</emph>
@@ -831,24 +855,24 @@
             <l>che, se nulla otterrai,</l>
             <l part="I">giurasti...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Io compirò quanto giurai.</l>
             <stage>
               <emph>(pensa)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>(Di lui si tratta: oh come</l>
             <l part="I">parlar saprà!)</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">(Numi di Roma, ah voi</l>
             <l>inspirate eloquenza a' labbri suoi!)</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>La nemica Cartago,</l>
             <l>a patto che sia suo quant'or possiede,</l>
@@ -858,49 +882,49 @@
             <l>termini un cambio il doloroso esiglio.</l>
             <l>Ricusar l'una e l'altro è il mio consiglio.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">(Come!)</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="M">(Aimè!)</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="M">(Son di sasso).</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Io della pace</l>
             <l>i danni a dimostrar non m'affatico;</l>
             <l>se tanto la desia, teme il nemico.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Ma il cambio?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Il cambio asconde</l>
             <l>frode per voi più perigliosa assai.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Regolo?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Io compirò quanto giurai.</l>
             <stage>
               <emph>(ad Amilcare)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">(Numi! il padre si perde).</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Il cambio offerto</l>
             <l>mille danni ravvolge;</l>
@@ -916,13 +940,13 @@
             <l>del vincitor lo scherno</l>
             <l>soffrir si elesse? Oh vituperio eterno!</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Sia pur dannoso il cambio:</l>
             <l>a compensarne i danni</l>
             <l part="I">basta Regolo sol.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Manlio, t'inganni:</l>
             <l>Regolo è pur mortal. Sento ancor io</l>
@@ -937,25 +961,25 @@
             <l>che ne trionfa in vano,</l>
             <l>che di Regoli abbonda il suol romano.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>(Oh inudita costanza!)</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>(Oh coraggio funesto!)</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>(Che nuovo a me strano linguaggio è questo!)</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>L'util non già dell'opre nostre oggetto,</l>
             <l>ma l'onesto esser dee; né onesto a Roma</l>
             <l>l'esser ingrata a un cittadin saria.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Vuol Roma essermi grata? Ecco la via.</l>
             <l>Questi barbari, o padri,</l>
@@ -973,17 +997,17 @@
             <l>nell'osservar fra' miei respiri estremi</l>
             <l>come al nome di Roma Africa tremi.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>(La maraviglia agghiaccia</l>
             <l part="I">gli sdegni miei).</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">(Nessun risponde? Oh Dio!</l>
             <l part="I">mi trema il cor).</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Domanda</l>
             <l>più maturo consiglio</l>
@@ -997,11 +1021,11 @@
               <emph>(s'alza e seco tutti)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">V'è dubbio ancora?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Sì, Regolo: io non veggo</l>
             <l>se periglio maggiore</l>
@@ -1024,93 +1048,93 @@
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>REGOLO, PUBLIO, AMILCARE; <emph>indi</emph>  ATTILIA, LICINIO <emph>e popolo.</emph> </stage>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>In questa guisa adempie</l>
             <l part="I">Regolo le promesse?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Io vi promisi</l>
             <l part="I">di ritornar; l'eseguirò.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="M">Ma...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <stage>
               <emph>(con impazienza)</emph>
             </stage>
             <l part="F">Padre!</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="I">Signor!</l>
             <stage>
               <emph>(come sopra)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo #licinio">
             <speaker>ATTILIO, LICINIO</speaker>
             <l part="F">Su questa mano...</l>
             <stage>
               <emph>(voglion baciarli la mano)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Scostatevi. Io non sono,</l>
             <l part="I">lode agli dei, libero ancora.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Il cambio</l>
             <l part="I">dunque si ricusò?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Publio, ne guida</l>
             <l>al soggiorno prescritto</l>
             <l part="I">ad Amilcare e a me.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Né tu verrai</l>
             <l>a' patri lari, al tuo ricetto antico?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Non entra in Roma un messaggier nemico.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Questa troppo severa</l>
             <l part="I">legge non è per te.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Saria tiranna,</l>
             <l part="I">se non fosse per tutti.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Io voglio almeno</l>
             <l part="I">seguirti ovunque andrai.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">No; chiede il tempo,</l>
             <l>Attilia, altro pensier che molli affetti</l>
             <l part="I">di figlia e genitor.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Da quel che fosti,</l>
             <l>padre, ah perché così diverso adesso?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>La mia sorte è diversa; io son l'istesso.</l>
             <l>Non perdo la calma</l>
@@ -1129,11 +1153,11 @@
         <div type="scene">
           <head>SCENA IX</head>
           <stage>ATTILIA<emph>sospesa</emph> , AMILCARE <emph>partendo</emph> , BARCE,<emph>che sopraggiunge.</emph> </stage>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Amilcare!</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Ah mia Barce!</l>
             <stage>
@@ -1142,21 +1166,21 @@
             <l>Ah di nuovo io ti perdo! Il cambio offerto</l>
             <l part="I">Regolo dissuade.</l>
           </sp>
-          <sp>
+          <sp who="#barce #regolo">
             <speaker>BARCE, ATTILIO</speaker>
             <l part="M">Oh stelle!</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Addio:</l>
             <l>Publio seguir degg'io. Mia vita, oh quanto,</l>
             <l part="I">quanto ho da dirti!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">E nulla dici intanto.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>Ah! se ancor mia tu sei,</l>
             <l>come trovar sì poco</l>
@@ -1174,12 +1198,12 @@
         <div type="scene">
           <head>SCENA X</head>
           <stage>ATTILIA <emph>e</emph>  BARCE</stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Chi creduto l'avrebbe! Il padre istesso</l>
             <l part="I">congiura a' danni suoi.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Già che il Senato</l>
             <l>non decise fin or, molto ti resta,</l>
@@ -1191,7 +1215,7 @@
             <l>or la fé degli amici, or de' Romani</l>
             <l>giova implorar l'aita in ogni loco.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Tutto farò; ma quel, ch'io spero, è poco.</l>
             <l>Mi parea del parto in seno</l>
@@ -1210,7 +1234,7 @@
         <div type="scene">
           <head>SCENA XI</head>
           <stage>BARCE <emph>sola.</emph> </stage>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l>Che barbaro destino</l>
             <l>sarebbe il mio, se Amilcare dovesse</l>
@@ -1238,41 +1262,41 @@
           <head>SCENA I </head>
           <stage>Logge a vista di Roma nel palazzo suburbano destinato agli ambasciatori cartaginesi. </stage>
           <stage>REGOLO <emph>e</emph>  PUBLIO</stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Publio, tu qui! Si tratta</l>
             <l>della gloria di Roma,</l>
             <l>dell'onor mio, del pubblico riposo,</l>
             <l part="I">e in Senato non sei?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Raccolto ancora,</l>
             <l part="I">signor, non è.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Va, non tardar; sostieni</l>
             <l>fra i padri il voto mio: mostrati degno</l>
             <l part="I">dell'origine tua.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Come! e m'imponi</l>
             <l>che a fabbricar m'adopri</l>
             <l part="I">io stesso il danno tuo?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Non è mio danno</l>
             <l part="I">quel che giova alla patria.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ah di te stesso,</l>
             <l part="I">signore, abbi pietà.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Publio, tu stimi</l>
             <l>dunque un furore il mio? Credi ch'io solo,</l>
@@ -1288,11 +1312,11 @@
             <l>è della patria assicurar la sorte;</l>
             <l>ond'è mio ben la servitù, la morte.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Pur la patria non è...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">La patria è un tutto,</l>
             <l>di cui siam parti. Al cittadino è fallo</l>
@@ -1319,20 +1343,20 @@
             <l>misere ghiande e d'un covil contento,</l>
             <l>viva libero e solo a suo talento.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Adoro i detti tuoi. L'alma convinci,</l>
             <l>ma il cor non persuadi. Ad ubbidirti</l>
             <l>la natura repugna. Al fin son figlio,</l>
             <l part="I">non lo posso obbliar.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Scusa infelice</l>
             <l>per chi nacque romano. Erano padri</l>
             <l part="I">Bruto, Manlio, Virginio...</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">È ver; ma questa</l>
             <l>troppo eroica costanza</l>
@@ -1340,44 +1364,44 @@
             <l>Roma fin or, che a proccurar giungesse</l>
             <l>del genitor lo scempio.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Dunque aspira all'onor del primo esempio.</l>
             <l part="I">Va.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="M">Deh...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Non più. Della mia sorte attendo</l>
             <l part="I">la notizia da te.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Troppo pretendi,</l>
             <l part="I">troppo, o signor.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Mi vuoi straniero, o padre?</l>
             <l>Se stranier, non posporre</l>
             <l>l'util di Roma al mio; se padre, il cenno</l>
             <l part="I">rispetta, e parti.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ah se mirar potessi</l>
             <l>i moti del cor mio, rigido meno</l>
             <l part="I">forse con me saresti.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Or dal tuo core</l>
             <l>prove io vo' di costanza e non d'amore.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Ah, se provar mi vuoi,</l>
             <l>chiedimi, o padre, il sangue;</l>
@@ -1395,34 +1419,34 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>REGOLO, <emph>poi</emph>  MANLIO</stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Il gran punto s'appressa, ed io pavento</l>
             <l>che vacillino i padri. Ah voi di Roma</l>
             <l>deità protettrici, a lor più degni</l>
             <l part="I">sensi inspirate.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">A custodir l'ingresso</l>
             <l>rimangano i littori; e alcun non osi</l>
             <l part="I">qui penetrar.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">(Manlio! A che viene?)</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Ah lascia</l>
             <l part="I">che al sen ti stringa, invitto eroe.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Che tenti!</l>
             <l part="I">Un console...</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Io nol sono</l>
             <l>Regolo, adesso: un uom son io che adora</l>
@@ -1432,7 +1456,7 @@
             <l>l'avverso genio antico,</l>
             <l>chiede l'onor di diventarti amico.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Dell'alme generose</l>
             <l>solito stil. Più le abbattute piante</l>
@@ -1440,7 +1464,7 @@
             <l>così nobile acquisto</l>
             <l part="I">alla mia servitù.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Sì, questa appieno</l>
             <l>qual tu sei mi scoperse; e mai sì grande,</l>
@@ -1453,7 +1477,7 @@
             <l>un eroe, lo confesso,</l>
             <l>Regolo mi parea; ma un nume adesso.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Basta, basta, signor: la più severa</l>
             <l>misurata virtù tentan le lodi</l>
@@ -1461,7 +1485,7 @@
             <l>che d'illustrar con l'amor tuo ti piaccia</l>
             <l part="I">gli ultimi giorni miei.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Gli ultimi giorni!</l>
             <l>Conservarti io pretendo</l>
@@ -1469,7 +1493,7 @@
             <l>in tuo favor l'offerto cambio ammesso,</l>
             <l part="I">tutto in uso porrò.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <stage>
               <emph>          (turbandosi)</emph>
@@ -1484,12 +1508,12 @@
 che accettar non si dee. Se non puoi darmi</l>
             <l>altri pegni d'amor, torna ad odiarmi.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Ma il ricusato cambio</l>
             <l part="I">produrria la tua morte.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">E questo nome</l>
             <l>sì terribil risuona</l>
@@ -1503,13 +1527,13 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>viver più non potei,</l>
             <l>resi almen la mia morte utile a lei.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Oh detti! Oh sensi! Oh fortunato suolo</l>
             <l>che tai figli produci! E chi potrebbe</l>
             <l part="I">non amarti, signor?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Se amar mi vuoi,</l>
             <l>amami da romano. Eccoti i patti</l>
@@ -1523,41 +1547,41 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>sola di Manlio io l'amicizia accetto.</l>
             <l part="I">Che rispondi, signor?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <stage>
               <emph>(pensa prima di rispondere)</emph>
             </stage>
             <l part="F">Sì, lo prometto.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Or de' propizi numi</l>
             <l>in Manlio amico io riconosco un dono.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Ah perché fra que' ceppi anch'io non sono!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Non perdiamo i momenti. Ormai raccolti</l>
             <l>forse saranno i padri. Alla tua fede</l>
             <l>della patria il decoro,</l>
             <l>la mia pace abbandono e l'onor mio.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Addio, gloria del Tebro.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Amico, addio.</l>
             <stage>
               <emph>(abbracciandosi)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Oh qual fiamma di gloria, d'onore</l>
             <l>scorrer sento per tutte le vene,</l>
@@ -1573,12 +1597,12 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA III</head>
           <stage>REGOLO <emph>e</emph> LICINIO</stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>A respirar comincio: i miei disegni</l>
             <l part="I">il fausto Ciel seconda.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(molto lieto)</emph>
@@ -1586,22 +1610,22 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">Al fin ritorno</l>
             <l part="I">con più contento a rivederti.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">E donde</l>
             <l part="I">tanta gioia, o Licinio?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Ho il cor ripieno</l>
             <l>di felici speranze. In fino ad ora</l>
             <l part="I">per te sudai.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">Per me!</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Sì. Mi credesti</l>
             <l>forse ingrato così, ch'io mi scordassi</l>
@@ -1611,48 +1635,48 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>mossi, te condottiero,</l>
             <l>per le strade d'onor: tu mi rendesti...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Al fine, in mio favor, dì, che facesti?</l>
             <stage>
               <emph>(impaziente)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Difesi la tua vita</l>
             <l part="I">e la tua libertà.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <stage>
               <emph>(turbato)</emph>
             </stage>
             <l part="M">Come?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">All'ingresso</l>
             <l>del tempio, ove il Senato or si raccoglie,</l>
             <l>attesi i padri, e ad uno ad un li trassi</l>
             <l part="I">nel desio di salvarti.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">(Oh dei, che sento!)</l>
             <l part="I">E tu...</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Solo io non fui. Non si defraudi</l>
             <l>la lode al merto. Io feci assai, ma fece</l>
             <l part="I">Attilia più di me.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">Chi?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Attilia. In Roma</l>
             <l>figlia non v'è d'un genitor più amante.</l>
@@ -1661,11 +1685,11 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>il dolor col decoro! In quanti modi</l>
             <l>rimproveri mischiò, preghiere e lodi!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="I">E i padri?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">E chi resiste</l>
             <l>agli assalti d'Attilia? Eccola: osserva</l>
@@ -1676,12 +1700,12 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>ATTILIA <emph>e detti.</emph> </stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Amato padre,</l>
             <l part="I">pure una volta...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <stage>
               <emph>(serio e torbido)</emph>
@@ -1690,12 +1714,12 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>ancor venirmi innanzi? Ah non contai</l>
             <l part="I">te fin ad or fra' miei nemici.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Io, padre,</l>
             <l part="I">io tua nemica!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <stage>
               <emph>( come sopra)</emph>
@@ -1703,12 +1727,12 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">E tal non è chi folle</l>
             <l part="I">s'oppone a' miei consigli?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Ah di giovarti</l>
             <l>dunque il desio d'inimicizia è prova?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Che sai tu quel che nuoce o quel che giova?</l>
             <stage>
@@ -1718,12 +1742,12 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>chi a parte ti chiamò? Della mia sorte</l>
             <l part="I">chi ti fé protettrice? Onde...</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Ah signore,</l>
             <l part="I">troppo...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <stage>
               <emph>(come sopra)</emph>
@@ -1733,16 +1757,16 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>pentimento il silenzio. Eterni dei!</l>
             <l part="I">Una figlia!... un roman!</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Perché son figlia...</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Perché roman son io, credei che oppormi</l>
             <l>al tuo fato inumana...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Taci: non è romano</l>
             <stage>
@@ -1766,7 +1790,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA V</head>
           <stage>ATTILIA <emph>e</emph>  LICINIO</stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Ma dì; credi, o Licinio,</l>
             <l>che mai di me nascesse</l>
@@ -1775,7 +1799,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>di tenera pietade il cor trafitto</l>
             <l>saria merito ad altri; è a me delitto.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>No; consolati, Attilia, e non pentirti</l>
             <l>dell'opera pietosa. Altro richiede</l>
@@ -1788,22 +1812,22 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>di crudel, d'inumano</l>
             <l>quella medica man, che lo risana.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Que' rimproveri acerbi</l>
             <l>mi trafiggono il cor: non ho costanza</l>
             <l part="I">per soffrir l'ire sue.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Ma dì: vorresti</l>
             <l>pria d'un tal genitor vederti priva?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Ah questo no: mi sia sdegnato, e viva.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Vivrà. Cessi quel pianto:</l>
             <l>tornatevi di nuovo,</l>
@@ -1827,7 +1851,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>ATTILIA <emph>sola.</emph> </stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Ah che pur troppo è ver! non han misura</l>
             <l>della cieca fortuna</l>
@@ -1855,7 +1879,7 @@ che accettar non si dee. Se non puoi darmi</l>
           <head>SCENA VII</head>
           <stage>Galleria del palazzo medesimo. </stage>
           <stage>REGOLO <emph>solo.</emph> </stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Tu palpiti, o mio cor! Qual nuovo è questo</l>
             <l>moto incognito a te? Sfidasti ardito</l>
@@ -1891,30 +1915,30 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>PUBLIO <emph>e detto.</emph> </stage>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Signor... (Che pena</l>
             <l part="I">per un figlio è mai questa!)</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">E taci?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Oh dei!</l>
             <l part="I">Esser muto vorrei.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">Parla.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ogni offerta</l>
             <l part="I">il Senato ricusa.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ah dunque ha vinto</l>
             <l>il fortunato al fin genio romano!</l>
@@ -1923,44 +1947,44 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>che far su queste arene:</l>
             <l>la grand'opra compii, partir conviene.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Padre infelice!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ed infelice appelli</l>
             <l>chi poté, fin che visse,</l>
             <l part="I">alla patria giovar?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">La patria adoro,</l>
             <l part="I">piango i tuoi lacci.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">È servitù la vita;</l>
             <l>ciascuno ha i lacci suoi. Chi pianger vuole,</l>
             <l>pianger, Publio, dovria</l>
             <l>la sorte di chi nasce, e non la mia.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Di quei barbari, o padre,</l>
             <l>l'empio furor ti priverà di vita.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>E la mia servitù sarà finita.</l>
             <l part="I">Addio. Non mi seguir.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Da me ricusi</l>
             <l part="I">gli ultimi ancor pietosi uffizi?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Io voglio</l>
             <l>altro da te. Mentre a partir m'affretto,</l>
@@ -1995,7 +2019,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA IX</head>
           <stage>PUBLIO, <emph>poi</emph>  ATTILIA <emph>e</emph>  BARCE; <emph>indi</emph>  LICINIO <emph>ed</emph>  AMILCARE, <emph>l'uno dopo l'altro e da diverse parti.</emph> </stage>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Ah sì, Publio, coraggio: il passo è forte,</l>
             <l>ma vincerti convien. Lo chiede il sangue,</l>
@@ -2004,189 +2028,189 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>impeti di natura; or meglio eleggi;</l>
             <l>il padre imìta, e l'error tuo correggi.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Ed è vero, o german?</l>
             <stage>
               <emph>(con ispavento)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <stage>
               <emph>(con ispavento)</emph>
             </stage>
             <l part="F">Publio, ed è vero?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Sì: decise il Senato;</l>
             <l part="I">Regolo partirà.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Come!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Che dici!</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Dunque ognun mi tradì?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="M">Dunque...</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Or non giova...</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Amilcare, pietà.</l>
             <stage>
               <emph>(vedendolo da lontano)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <stage>
               <emph>(come sopra)</emph>
             </stage>
             <l part="F">Licinio, aiuto.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Più speranza non v'è.</l>
             <stage>
               <emph>(a Barce)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(ad Attilia)</emph>
             </stage>
             <l part="F">Tutto è perduto.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Dov'è Regolo? Io voglio</l>
             <l part="I">almen seco partir.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ferma; l'eccesso</l>
             <l part="I">del tuo dolor l'offenderebbe.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">E speri</l>
             <l part="I">impedirmi così?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Spera che Attilia</l>
             <l>torni al fine in se stessa, e si rammenti</l>
             <l>che a lei non è permesso...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Sol che son figlia io mi rammento adesso.</l>
             <l part="I">Lasciami.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="M">Non sperarlo.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Ah parte intanto</l>
             <l part="I">il genitor!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Non dubitar ch'ei parta,</l>
             <l part="I">finché Amilcare è qui.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Chi mi consiglia?</l>
             <l part="I">chi mi soccorre? Amilcare?</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Io mi perdo</l>
             <l part="I">fra l'ira e lo stupor.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Licinio?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Ancora</l>
             <l>dal colpo inaspettato</l>
             <l part="I">respirar non poss'io.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Publio?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ah germana,</l>
             <l>più valor, più costanza. Il fato avverso</l>
             <l>come si soffra il genitor ci addìta.</l>
             <l>Non è degno di lui chi non l'imìta.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>E tu parli così! tu, che dovresti</l>
             <l>i miei trasporti accompagnar gemendo!</l>
             <l part="I">Io non t'intendo, o Publio.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Ed io l'intendo.</l>
             <l>Barce è la fiamma sua: Barce non parte,</l>
             <l>se Regolo non resta; ecco la vera</l>
             <l>cagion del suo coraggio.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>(Questo pensar di me! Stelle, che oltraggio!)</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>Forse, affinché il Senato</l>
             <l>non accettasse il cambio, ei pose in opra</l>
             <l>tutta l'arte e l'ingegno.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Il dubbio in ver d'un africano è degno.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">E pur...</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Taci, e m'ascolta.</l>
             <l>Sai che l'arbitro io sono</l>
             <l part="I">della sorte di Barce?</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Il so. L'ottenne</l>
             <l>già dal Senato in dono</l>
             <l>la madre tua: questa cedendo al fato,</l>
             <l part="I">signor di lei tu rimanesti.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Or odi</l>
             <l>qual uso io fo del mio dominio. Amai</l>
@@ -2197,15 +2221,15 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>ogni pretesto alla calunnia altrui.</l>
             <l>Barce, liberi sei; parti con lui.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Numi! Ed è ver?</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">D'una virtù sì rara...</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Come s'ama fra noi, barbaro, impara.</l>
             <stage>
@@ -2216,14 +2240,14 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA X</head>
           <stage>LICINIO, ATTILIA, BARCE, <emph>ed</emph>  AMILCARE </stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Vedi il crudel come mi lascia!</l>
             <stage>
               <emph>(a Licinio, che non l'ode)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Udisti,</l>
             <l part="I">come Publio parlò?</l>
@@ -2231,61 +2255,61 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(ad Amilcare come sopra)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Tu non rispondi!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l>Tu non m'odi, idol mio!</l>
             <stage>
               <emph>(ad Amilcare)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Addio, Barce; m'attendi.</l>
             <stage>
               <emph>(risoluto incamminandosi per partire)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(come sopra)</emph>
             </stage>
             <l part="F">Attilia, addio.</l>
           </sp>
-          <sp>
+          <sp who="#regolo #barce">
             <speaker>ATTILIO, BARCE</speaker>
             <l part="I">Dove?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(ad Attilia)</emph>
             </stage>
             <l part="F">A salvarti il padre.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Regolo a conservar.</l>
             <stage>
               <emph>(a Licinio)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Ma per qual via?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Ma come?</l>
             <stage>
               <emph>(ad Amilcare)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(ad Attilia)</emph>
@@ -2293,7 +2317,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">A' mali estremi</l>
             <l part="I">Diasi estremo rimedio.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <stage>
               <emph>(a Barce)</emph>
@@ -2301,49 +2325,49 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">Abbia rivali</l>
             <l>nella virtù questo romano orgoglio.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Esser teco vogl'io.</l>
             <stage>
               <emph>(a Licinio)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <stage>
               <emph>(ad Amilcare)</emph>
             </stage>
             <l part="F">Seguirti io voglio.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>No; per te tremerei.</l>
             <stage>
               <emph>(ad Attilia)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">No; rimaner tu dèi.</l>
             <stage>
               <emph>(a Barce)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <stage>
               <emph>(ad Amilcare)</emph>
             </stage>
             <l part="F">Né vuoi spiegarti?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Né vuoi ch'io sappia almen...</l>
             <stage>
               <emph>(a Licinio)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(ad Attilia)</emph>
@@ -2351,14 +2375,14 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">Tutto fra poco</l>
             <l part="I">saprai.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="M">Fidati a me.</l>
             <stage>
               <emph>(a Barce)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Regolo in Roma</l>
             <l>si trattenga, o si mora.</l>
@@ -2366,7 +2390,7 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(parte)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>Faccia pompa d'eroi l'Africa ancora.</l>
             <stage>
@@ -2388,23 +2412,23 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA XI</head>
           <stage>ATTILIA <emph>e</emph>  BARCE</stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Barce!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="M">Attilia!</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Che dici?</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Che possiamo sperar?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Non so. Tumulti</l>
             <l>certo a destar corre Licinio; e questi</l>
@@ -2412,7 +2436,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>alla patria ed a lui, senza che il padre</l>
             <l part="I">perciò si salvi.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Amilcare sorpreso</l>
             <l>dal grand'atto di Publio e punto insieme</l>
@@ -2420,29 +2444,29 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>esser non vuol di lui. Chi sa che tenta</l>
             <l part="I">e a qual rischio s'espone?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Il mio Licinio</l>
             <l part="I">deh ! secondate, o dei!</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">La sposo mio,</l>
             <l part="I">numi, assistete!</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Io non ho fibra in seno,</l>
             <l part="I">che non mi tremi.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Attilia,</l>
             <l>non dobbiamo avvilirci. Al fin più chiaro</l>
             <l>è adesso il ciel di quel che fu; si vede</l>
             <l>pur di speranza un raggio.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Ah Barce, è ver; ma non mi dà coraggio.</l>
             <l>Non è la mia speranza</l>
@@ -2461,7 +2485,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA XII</head>
           <stage>BARCE <emph>sola.</emph> </stage>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l>Rassicurar proccuro</l>
             <l>l'alma d'Attilia oppressa,</l>
@@ -2488,7 +2512,7 @@ che accettar non si dee. Se non puoi darmi</l>
           <head>SCENA I </head>
           <stage>Sala terrena corrispondente a' giardini. </stage>
           <stage>REGOLO, <emph>guardie africane, poi</emph>  MANLIO</stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Ma che si fa? Non seppe</l>
             <l>forse ancor del Senato</l>
@@ -2505,35 +2529,35 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>per te conservo; a te si deve il frutto</l>
             <l part="I">della mia schiavitù.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Sì; ma tu parti;</l>
             <l part="I">sì; ma noi ti perdiam.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Mi perdereste,</l>
             <l part="I">s'io non partissi.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Ah perché mai sì tardi</l>
             <l>incomincio ad amarti! Altri fin ora,</l>
             <l>Regolo, non avesti</l>
             <l>pegni dell'amor mio, se non funesti.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Pretenderne maggiori</l>
             <l>da un vero amico io non potei; ma pure</l>
             <l>se il generoso Manlio altri vuol darne,</l>
             <l part="I">altri ne chiederò.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="M">Parla.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Compìto</l>
             <l>ogni dover di cittadino, al fine</l>
@@ -2551,7 +2575,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>debbano e a' tuoi consigli</l>
             <l>la gloria il padre, e l'assistenza i figli.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l>Sì, tel prometto: i preziosi germi</l>
             <l>custodirò geloso. Avranno un padre,</l>
@@ -2562,7 +2586,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>di bel desio già per natura accese,</l>
             <l>l'istoria udir delle paterne imprese.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Or sì più non mi resta...</l>
           </sp>
@@ -2570,54 +2594,54 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA II</head>
           <stage>PUBLIO <emph>e detti.</emph> </stage>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="I">Manlio! Padre!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Che avvenne?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Roma tutta è in tumulto: il popol freme;</l>
             <l part="I">non si vuol che tu parta.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">E sarà vero</l>
             <l>che un vergognoso cambio</l>
             <l part="I">possa Roma bramar?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">No, cambio o pace</l>
             <l part="I">Roma non vuol; vuol che tu resti.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Io! Come?</l>
             <l part="I">E la promessa? e il giuramento?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ognuno</l>
             <l>grida che fé non dessi</l>
             <l part="I">a perfidi serbar.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Dunque un delitto</l>
             <l>scusa è dell'altro. E chi sarà più reo,</l>
             <l part="I">se l'esempio è discolpa?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Or si raduna</l>
             <l>degli àuguri il collegio: ivi deciso</l>
             <l part="I">il gran dubbio esser deve.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Uopo di questo</l>
             <l>oracolo io non ho. So che promisi;</l>
@@ -2628,12 +2652,12 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>questo è privato affar. Non son qual fui;</l>
             <l>né Roma ha dritto alcun sui servi altrui.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Degli àuguri il decreto</l>
             <l part="I">s'attenda almen.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">No; se l'attendo, approvo</l>
             <l>la loro autorità. Custodi, al porto.</l>
@@ -2645,30 +2669,30 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(a Manlio partendo)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">No, Regolo; se vai</l>
             <l>fra la plebe commossa, a viva forza</l>
             <l>può trattenerti; e tu, se ciò succede,</l>
             <l>tutta Roma fai rea di poca fede.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="I">Dunque mancar degg'io?...</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">No; andrai; ma lascia</l>
             <l>che quest'impeto io vada</l>
             <l>prima a calmar. Ne sederà l'ardore</l>
             <l part="I">la consolare autorità.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Rimango,</l>
             <l part="I">Manlio, su la tua fé: ma...</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Basta; intendo.</l>
             <l>La tua gloria desio,</l>
@@ -2689,7 +2713,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA III</head>
           <stage>REGOLO, PUBLIO</stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>E tanto or costa in Roma,</l>
             <l>tanta or si suda a conservar la fede!</l>
@@ -2700,17 +2724,17 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>di sì gran benefizio</l>
             <l part="I">debitore ad un figlio.</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ah padre amato,</l>
             <l part="I">ubbidirò; ma...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Che? Sospiri! Un segno</l>
             <l>quel sospiro saria d'animo oppresso?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Sì, lo confesso,</l>
             <l>morir mi sento;</l>
@@ -2732,18 +2756,18 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>REGOLO <emph>e</emph> AMILCARE</stage>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Regolo, al fin...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Senza che parli, intendo</l>
             <l>già le querele tue. Non ti sgomenti</l>
             <l>il moto popolar: Regolo in Roma</l>
             <l part="I">vivo non resterà.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Non so di quali</l>
             <l>moti mi vai parlando. Io querelarmi</l>
@@ -2752,41 +2776,41 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>non nascono gli eroi,</l>
             <l>che vi sono alme grandi anche fra noi.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Sia. Non è questo il tempo</l>
             <l>d'inutili contese. I tuoi raccogli,</l>
             <l>t'appresta alla partenza.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">No. Pria m'odi, e rispondi.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">(Oh sofferenza!)</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>È gloria l'esser grato?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>L'esser grato è dover: ma già sì poco</l>
             <l>questo dover s'adempie,</l>
             <l part="I">ch'oggi è gloria il compirlo.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">E se il compirlo</l>
             <l part="I">costasse un gran periglio?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ha il merto allora</l>
             <l part="I">d'un'illustre virtù.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Dunque non puoi</l>
             <l>questo merto negarmi. Odi. Mi rende,</l>
@@ -2796,19 +2820,19 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>vengo il padre a salvargli, e pur m'espongo</l>
             <l part="I">di Cartago al furor.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Tu vuoi salvarmi!</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Io.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">Come?</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">A te lasciando</l>
             <l>agio a fuggir. Questi custodi ad arte</l>
@@ -2817,38 +2841,38 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>che senza te con simulato sdegno</l>
             <l>quindi l'ancore io sciolga.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="I">(Barbaro!)</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">E ben, che dici?</l>
             <l part="I">ti sorprende l'offerta.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">Assai.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">L'avresti</l>
             <l part="I">aspettata da me?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">No.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Pur la sorte</l>
             <l part="I">non ho d'esser roman.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">Si vede.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Andate,</l>
             <l part="I">custodi...</l>
@@ -2856,62 +2880,62 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(agli Africani)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Alcun non parta.</l>
             <stage>
               <emph>(a' medesimi)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Grato io ti sono</l>
             <l part="I">del buon voler; ma verrò teco.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">E sprezzi</l>
             <l part="I">la mia pietà?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">No; ti compiango. Ignori</l>
             <l>che sia virtù. Mostrar virtù pretendi,</l>
             <l>e me, la patria tua, te stesso offendi.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="I">Io!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Sì. Come disponi</l>
             <l>della mia libertà? Servo son io</l>
             <l part="I">di Cartago, o di te?</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Non è tuo peso</l>
             <l part="I">l'esaminar se il benefizio...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">È grande</l>
             <l>il benefizio in ver! Rendermi reo,</l>
             <l part="I">profugo, mentitor...</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l part="F">Ma qui si tratta</l>
             <l>del viver tuo. Sai che supplizi atroci</l>
             <l>Cartago t'apprestò? Sai quale scempio</l>
             <l part="I">là si farà di te?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ma tu conosci,</l>
             <l>Amilcare, i Romani?</l>
@@ -2922,21 +2946,21 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>pur che gloria produca, ogni tormento;</l>
             <l>e la sola viltà qui fa spavento.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>Magnifiche parole,</l>
             <l>belle ad udir; ma inopportuno è meco</l>
             <l>quel fastoso linguaggio. Io so che a tutti</l>
             <l part="I">la vita è cara, e che tu stesso...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Ah troppo</l>
             <l>di mia pazienza abusi. I legni appresta,</l>
             <l>raduna i tuoi seguaci,</l>
             <l>compisci il tuo dover, barbaro, e taci.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>Fa pur l'intrepido,</l>
             <l>m'insulta audace,</l>
@@ -2954,24 +2978,24 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA V</head>
           <stage>REGOLO <emph>e</emph>  ATTILIA</stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>E Publio non ritorna!</l>
             <l>e Manlio... Aimè! Che rechi mai sì lieta,</l>
             <l part="I">sì frettolosa, Attilia?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Il nostro fato</l>
             <l>già dipende da te; già cambio o pace,</l>
             <l>fida a' consigli tuoi,</l>
             <l>Roma non vuol; ma rimaner tu puoi.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="I">Sì, col rossor...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">No; su tal punto il sacro</l>
             <l>Senato pronunciò. L'arbitro sei</l>
@@ -2979,7 +3003,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>né obbligar può se stesso</l>
             <l part="I">chi libero non è».</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Libero è sempre</l>
             <l>chi sa morir. La sua viltà confessa</l>
@@ -2991,16 +3015,16 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>PUBLIO <emph>e detti.</emph> </stage>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">Ma in vano,</l>
             <l part="I">signor, lo speri.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">E chi potrà vietarlo?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l>Tutto il popolo, o padre: è affatto ormai</l>
             <l>incapace di fren. Per impedirti</l>
@@ -3008,11 +3032,11 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>precipitando al porto; e son di Roma</l>
             <l part="I">già l'altre vie deserte.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="M">E Manlio?</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">È il solo</l>
             <l>che ardisca opporsi ancora</l>
@@ -3025,18 +3049,18 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>in tumulto sì fiero</l>
             <l>esecutori il consolare impero.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="I">Attilia, addio: Publio, mi siegui.</l>
             <stage>
               <emph>(in atto di partire)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">E dove?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>A soccorrer l'amico; il suo delitto</l>
             <l>a rinfacciare a Roma; a conservarmi</l>
@@ -3046,14 +3070,14 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(partendo)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Ah padre! ah no! Se tu mi lasci...</l>
             <stage>
               <emph>(piangendo)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <stage>
               <emph>(serio ma con sdegno)</emph>
@@ -3065,25 +3089,25 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>d'un gran trionfo il vanto</l>
             <l>non congiuri con Roma anche il tuo pianto.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">Ah tal pena è per me...</l>
             <stage>
               <emph>(piangendo)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Per te gran pena</l>
             <l>è il perdermi, lo so. Ma tanto costa</l>
             <l part="I">l'onor d'esser romana.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Ogni altri prova</l>
             <l part="I">son pronta...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">E qual? Co' tuoi consigli andrai</l>
             <l>forse fra i padri a regolar di Roma</l>
@@ -3093,11 +3117,11 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>se a soffrir per la patria atta non sei</l>
             <l>senza viltà, dì, che farai per lei?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>È ver. Ma tal costanza...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>È difficil virtù: ma Attilia al fine</l>
             <l part="I">è mia figlia, e l'avrà.</l>
@@ -3105,25 +3129,25 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(partendo)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Sì, quanto io possa,</l>
             <l>gran genitor, t'imiterò. Ma... oh Dio!</l>
             <l>Tu mi lasci sdegnato:</l>
             <l part="I">io perdei l'amor tuo.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">No, figlia; io t'amo,</l>
             <l>io sdegnato non son. Prendine in pegno</l>
             <l>questo amplesso da me. Ma questo amplesso</l>
             <l>costanza, onor, non debolezza inspiri.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Ah sei padre, mi lasci, e non sospiri!</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Io son padre, e nol sarei</l>
             <l>se lasciassi a' figli miei</l>
@@ -3139,7 +3163,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA VII</head>
           <stage>ATTILIA, <emph>poi</emph>  BARCE</stage>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Su, costanza, o mio cor. Deboli affetti,</l>
             <l>sgombrate da quest'alma; inaridite</l>
@@ -3150,26 +3174,26 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>ed Attilia non sia</l>
             <l>il ramo sol di sì gran pianta indegno.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l>Attilia, è dunque ver? Dunque a dispetto</l>
             <l>del popol, del Senato,</l>
             <l>degli àuguri, di noi, del mondo intero</l>
             <l part="I">Regolo vuol partir?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="M">Sì.</l>
             <stage>
               <emph>(con fermezza)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Ma che insano</l>
             <l part="I">furor?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <stage>
               <emph>(come sopra)</emph>
@@ -3177,23 +3201,23 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">Più di rispetto,</l>
             <l part="I">Barce, agli eroi.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Come! del padre approvi</l>
             <l part="I">l'ostinato pensier?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Del padre adoro</l>
             <l part="I">la costante virtù.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">Virtù che a' ceppi,</l>
             <l>che all'ire altrui, che a vergognosa morte</l>
             <l>certamente dovrà...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <stage>
               <emph>(s'intenerisce di nuovo)</emph>
@@ -3202,33 +3226,33 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>quell'ire, quel morir del padre mio</l>
             <l part="I">saran trionfi.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="M">E tu n'esulti?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <stage>
               <emph>(piange)</emph>
             </stage>
             <l part="F">(Oh Dio!)</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="I">Capir non so...</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="F">Non può capir chi nacque</l>
             <l>in barbaro terren per sua sventura</l>
             <l>come al paterno vanto</l>
             <l part="I">goda una figlia.</l>
           </sp>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l part="F">E perché piangi intanto?</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l>Vuol tornar la calma in seno</l>
             <l>quando in lagrime si scioglie</l>
@@ -3244,7 +3268,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>BARCE <emph>sola.</emph> </stage>
-          <sp>
+          <sp who="#barce">
             <speaker>BARCE</speaker>
             <l>Che strane idee questa produce in Roma</l>
             <l>avidità di lode! Invidia i ceppi</l>
@@ -3270,41 +3294,41 @@ che accettar non si dee. Se non puoi darmi</l>
           <head>SCENA IX</head>
           <stage>Portici magnifici su le rive del Tevere. Navi pronte nel fiume per l'imbarco di Regolo. Ponte che conduce alla più vicina di quelle. Popolo numeroso, che impedisce il passaggio delle navi. Africani su le medesime. Littori col console.</stage>
           <stage>MANLIO <emph>e</emph>  LICINIO</stage>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>No, che Regolo parta</l>
             <l part="I">Roma non vuole.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Ed il Senato ed io</l>
             <l part="I">non siam parte di Roma?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Il popol tutto</l>
             <l part="I">è la maggior.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="M">Non la più sana.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Almeno</l>
             <l>la men crudel. Noi conservar vogliamo</l>
             <l>pieni di gratitudine e d'amore</l>
             <l part="I">a Regolo la vita.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">E noi l'onore.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="I">L'onor...</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Basta; io non venni</l>
             <l>a garrir teco. Olà: libero il varco</l>
@@ -3313,32 +3337,32 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(al popolo)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <stage>
               <emph>(al medesimo)</emph>
             </stage>
             <l part="F">Olà: nessun si parta.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="I">Io l'impongo.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="M">Io lo vieto.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Osa Licinio</l>
             <l part="I">al console d'opporsi?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Osa al tribuno</l>
             <l part="I">d'opporsi Manlio?</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Or si vedrà. Littori,</l>
             <l part="I">sgombrate il passo.</l>
@@ -3346,7 +3370,7 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(i littori innalzando le scuri tentano avanzarsi)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">Il passo</l>
             <l part="I">difendete, o Romani.</l>
@@ -3354,23 +3378,23 @@ che accettar non si dee. Se non puoi darmi</l>
               <emph>(al popolo, che si mette in difesa)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="F">Oh dei! Con l'armi</l>
             <l>si resiste al mio cenno? In questa guisa</l>
             <l part="I">la maestà...</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">La maestade in Roma</l>
             <l>nel popolo risiede; e tu l'oltraggi</l>
             <l>contrastando con lui.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="I">Regolo resti.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <stage>
               <emph>(al popolo)</emph>
@@ -3378,15 +3402,15 @@ che accettar non si dee. Se non puoi darmi</l>
             <l part="F">Udite:</l>
             <l>lasciate che l'inganno io manifesti.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="I">Resti Regolo.</l>
           </sp>
-          <sp>
+          <sp who="#manlio">
             <speaker>MANLIO</speaker>
             <l part="M">Ah voi...</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="F">Regolo resti.</l>
           </sp>
@@ -3394,7 +3418,7 @@ che accettar non si dee. Se non puoi darmi</l>
         <div type="scene">
           <head>SCENA ULTIMA</head>
           <stage>REGOLO <emph>e seco tutti.</emph> </stage>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>«Regolo resti!» Ed io l'ascolto! Ed io</l>
             <l>creder deggio a me stesso! Una perfidia</l>
@@ -3407,13 +3431,13 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>«Regolo resti!» Ah per qual colpa e quando</l>
             <l part="I">meritai l'odio vostro?</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="F">È il nostro amore,</l>
             <l>signor, quel che pretende</l>
             <l part="I">franger le tue catene.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">E senza queste</l>
             <l>Regolo che sarà? Queste mi fanno</l>
@@ -3423,24 +3447,24 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>se di queste mi privo,</l>
             <l>che uno schiavo spergiuro e fuggitivo.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>A perfidi giurasti,</l>
             <l part="I">giurasti in ceppi; e gli àuguri...</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Eh lasciamo</l>
             <l>all'Arabo ed al Moro</l>
             <l>questi d'infedeltà pretesti indegni.</l>
             <l>Roma a' mortali a serbar fede insegni.</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l>Ma che sarà di Roma,</l>
             <l part="I">se perde il padre suo?</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Roma rammenti</l>
             <l>che il suo padre è mortal; che al fin vacilla</l>
@@ -3467,34 +3491,34 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>favor da voi domando;</l>
             <l>esorto, cittadin; padre, comando.</l>
           </sp>
-          <sp>
+          <sp who="#attilia">
             <speaker>ATTILIA</speaker>
             <l part="I">(Oh Dio! Ciascun già l'ubbidisce).</l>
           </sp>
-          <sp>
+          <sp who="#publio">
             <speaker>PUBLIO</speaker>
             <l part="F">(Oh Dio!</l>
             <l>ecco ogni destra inerme).</l>
           </sp>
-          <sp>
+          <sp who="#licinio">
             <speaker>LICINIO</speaker>
             <l part="I">Ecco sgombro il sentier.</l>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l part="F">Grazie vi rendo,</l>
             <l>propizi dei: libero è il passo. Ascendi,</l>
             <l>Amilcare, alle navi;</l>
             <l>io sieguo i passi tui.</l>
           </sp>
-          <sp>
+          <sp who="#amilcare">
             <speaker>AMILCARE</speaker>
             <l>(Al fin comincio ad invidiar costui).</l>
             <stage>
               <emph>(sale su la nave)</emph>
             </stage>
           </sp>
-          <sp>
+          <sp who="#regolo">
             <speaker>REGOLO</speaker>
             <l>Romani, addio. Siano i congedi estremi</l>
             <l>degni di noi. Lode agli dei, vi lascio,</l>
@@ -3516,7 +3540,7 @@ che accettar non si dee. Se non puoi darmi</l>
             <l>tutta l'ira del Ciel sul capo mio:</l>
             <l>ma Roma illesa... Ah qui si piange! Addio.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO DI ROMANI</speaker>
             <l>Onor di questa sponda,</l>
             <l>padre di Roma, addio.</l>

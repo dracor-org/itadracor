@@ -75,6 +75,46 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="erasto">
+            <persName>Erasto</persName>
+          </person>
+          <person xml:id="orenio">
+            <persName>Orenio</persName>
+          </person>
+          <person xml:id="carpalio">
+            <persName>Carpalio</persName>
+          </person>
+          <person xml:id="turico">
+            <persName>Turico</persName>
+          </person>
+          <person xml:id="ophelio">
+            <persName>Ophelio</persName>
+          </person>
+          <person xml:id="satiro">
+            <persName>Satiro</persName>
+          </person>
+          <person xml:id="callinome">
+            <persName>Callinome</persName>
+          </person>
+          <person xml:id="melidia">
+            <persName>Melidia</persName>
+          </person>
+          <person xml:id="stellinia">
+            <persName>Stellinia</persName>
+          </person>
+          <person xml:id="sacerdote">
+            <persName>Sacerdote</persName>
+          </person>
+          <personGrp xml:id="choro">
+            <name>Choro</name>
+          </personGrp>
+          <person xml:id="meledia">
+            <persName>Meledia</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>2003-05-15T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT-Ferrara</name>Digitalizzazione - Trascrizione a cura di Elisa Borsari</change>
@@ -327,7 +367,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA I</hi>
           </head>
           <stage>Erasto giovine. Orenio vecchio</stage>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Horrida selva, in cui piangendo spargo</l>
             <l>gli ardenti miei sospir, gli accesi lai,</l>
@@ -352,14 +392,14 @@ Madama Leonora da Este.</salute>
             <l>produr si scorga frutti sì mortali,</l>
             <l>come sei tu, tu che gli amanti attoschi.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Se 'l chiaro giorno a me non è nimico</l>
             <l>contro lo stile suo, questi ch'io veggo</l>
             <l>è l'infelice <name>Erasto</name>, che sua vita</l>
             <l>mena con tristi et angosciosi pianti.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ben so, <name>Vener</name> gentil, se 'l ciel t'havesse</l>
             <l>dato tanto poter quanto al tuo figlio,</l>
@@ -374,14 +414,14 @@ Madama Leonora da Este.</salute>
             <pb n="A7v"/>
             <l>poich'amo e seguo chi mi fugge et odia?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Misera gioventù, poi che 'l disio</l>
             <l>di goder con amaro un poco dolce</l>
             <l>qua e là girando ti trasporta et move,</l>
             <l>qual posta al vento una minuta canna.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ben ti fu contra il ciel, misero <name>Erasto</name>,</l>
             <l>a porti in servitù d'una crudele,</l>
@@ -408,11 +448,11 @@ Madama Leonora da Este.</salute>
             <l>e la gran piaga che mi fece <name>Amore</name>.</l>
             <l>Però chi fu di me mai pi<add>ù</add> infelice?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Tanto è misero l'huom quant'ei si tiene.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ai <name>Callinome</name> ingrata, ai quanti scorni</l>
             <l>per te patisco, poi che la gran fama</l>
@@ -422,12 +462,12 @@ Madama Leonora da Este.</salute>
             <l>e va mancando, qual accesa lampa,</l>
             <l>cui sia negato il nutritivo humore.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Costui non può addolcire un cor di donna</l>
             <l>e faria per pietà movere i sassi.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Chi havea più grassa et più lanosa greggia?</l>
             <l>Chi armento più felice et prosperoso?</l>
@@ -443,7 +483,7 @@ Madama Leonora da Este.</salute>
             <l>che più non entra ne l'usata mandra,</l>
             <l>il mio veng<add>a a</add> veder, né vadi altrove.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Che meraviglia, s' un che di sé cura</l>
             <l>o nulla o poca tien lascia l'agnelle</l>
@@ -456,18 +496,18 @@ Madama Leonora da Este.</salute>
             <l>Et sol questa cagion da <name>Amor</name> deriva.</l>
             <l part="I"><name>Erasto</name>, <name>Erasto</name>.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="F">O 'l mio gentil <name>Orenio</name></l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l><name>Erasto</name>, ov'è la tua prudenza e 'l senno?</l>
             <l>Ov'è 'l tuo bel governo et la gran cura</l>
             <l>c'haver solevi a la tua greggia intorno?</l>
           </sp>
           <pb n="B1r"/>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l><name>Orenio</name> mio gentil, se 'l grand' amore</l>
             <l>che tu portasti in vita a la tua <name>Crinia</name></l>
@@ -476,7 +516,7 @@ Madama Leonora da Este.</salute>
             <l>Sovengati de l'hore che tu in vano</l>
             <l>spendesti, <name>Orenio</name>, et del perduto tempo.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Ti prego, <name>Erasto</name>, per quel dolce nome</l>
             <l>della nimica tua che t' sì ingrata,</l>
@@ -492,7 +532,7 @@ Madama Leonora da Este.</salute>
             <l>in sua memoria (o degno sacrificio)</l>
             <l>si pon veder tutti sanguigni et grassi.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Quant'<name>Orenio</name> son' io di scusa degno,</l>
             <l>seguendo alma immortal degna d'impero,</l>
@@ -502,7 +542,7 @@ Madama Leonora da Este.</salute>
             <l>volte si son raccolte 'n campo spiche)</l>
             <l>nella memoria ancor porti e nel petto?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Tal fu il mio amor verso colei che tanto</l>
             <l>ardendo amai, che tempo, hora o stagione</l>
@@ -518,7 +558,7 @@ Madama Leonora da Este.</salute>
             <l>d'odiar la <name>Crinia</name> mia, c'havea nel core</l>
             <l>sola fede scolpita e amor perfetto.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Se ben dura è la mia, convien, <name>Orenio</name>,</l>
             <l>volendo o no, che questa ingrata segua,</l>
@@ -532,7 +572,7 @@ Madama Leonora da Este.</salute>
             <l>matura, et nobil più de' pomi, e 'l cigno</l>
             <l>di dolce canto al par di lei non vale.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Lasciamo, <name>Erasto</name>, il dolce ragionare</l>
             <l>onde più tosto la nostr'alma langue</l>
@@ -552,7 +592,7 @@ Madama Leonora da Este.</salute>
             <l>Sai ben che non bisogna ove va il culto</l>
             <l>Divin, por cosa maculata e 'mmonda.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l><name>Amor</name>, <name>Amor</name> non vuol ch'io lasci tempo,</l>
             <l>né che 'ntrametta alcun momento d'hora</l>
@@ -564,7 +604,7 @@ Madama Leonora da Este.</salute>
             <l>che mal fa chi <num value="2">duo</num> lepri a un tempo caccia;</l>
             <l>però che mi consigli in simil caso?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Questo intraviene una sol volta a l'anno</l>
             <l>di far tai giochi et celebrar tai voti,</l>
@@ -576,7 +616,7 @@ Madama Leonora da Este.</salute>
             <l>sotto la noce o sotto il fral cupresso,</l>
             <l>che simil ombre tua sciagura merta.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Andiamo, <name>Orenio</name>, et la tua chioma bianca</l>
             <l>sia fida scorta a la mia verde etate.</l>
@@ -588,7 +628,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA II</hi>
           </head>
           <stage>Carpalio giovine</stage>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Quando vedrai, <name>Carpalio</name>, pascer l'api</l>
             <l>in queste parti de l'<name>Arcadia</name> il thimo,</l>
@@ -630,13 +670,13 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage>Turico giovine. Carpalio</stage>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Parmi la voce d'un pastor tra queste</l>
             <l>selve sentir, che 'n lamentevol note</l>
             <l>qualche gran caso sospirando esponga.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Questi è <name>Turico</name>, a l'habito, a la voce.</l>
             <l>Ben venga quel <name>Turico</name> et quel pastore,</l>
@@ -644,7 +684,7 @@ Madama Leonora da Este.</salute>
             <pb n="B4r"/>
             <l>il più felice e aventuroso tempo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Era ben già che la <name>Stellinia</name> mia,</l>
             <l>ove havea posta mia tranquilla pace,</l>
@@ -670,14 +710,14 @@ Madama Leonora da Este.</salute>
             <l>Dove dunque dee l'huom por la sua fede,</l>
             <l>se così poco appresso donna dura?</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Come può star che così bella nimpha,</l>
             <l>come si sa, che t'havea dato il core,</l>
             <l>ad altro amor, ad altro van disio</l>
             <l>habbia rimesse nove penne et ali?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Per questa sacra e 'mmaculata selva,</l>
             <l>ove non pose mai l'empia bipenne</l>
@@ -693,7 +733,7 @@ Madama Leonora da Este.</salute>
             <l>tant'oltraggio m'ha fatto et tanto scorno</l>
             <l>quanto questo pastor' hoggi ti dice.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>S'io credessi, <name>Turico</name>, che la mia</l>
             <l>fosse a la tua di fede tal conforme,</l>
@@ -709,7 +749,7 @@ Madama Leonora da Este.</salute>
             <l>a i segni e al ragionar, mostra d'amarmi</l>
             <l>quanto stender si pon forze di donna.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Deh, se grave non t'è, pastor felice,</l>
             <l>se la dimanda è lecita, et se mai</l>
@@ -720,7 +760,7 @@ Madama Leonora da Este.</salute>
             <l>et che ti sprona in sì sonore note</l>
             <l>in queste selve a ricordar d'<name>Amore</name>?</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l><name>Turico</name>, vero honor di queste selve</l>
             <l>et di pastori alta corona et pregio,</l>
@@ -738,12 +778,12 @@ Madama Leonora da Este.</salute>
             <l>mi preme 'l piede, e a la sublime 'l braccio</l>
             <l>quasi vittorioso in parte stendo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Come star pon questi contrari insieme,</l>
             <l>ch'a un tempo sii infelice e aventuroso?</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Io ti dirò; felice son, che i cieli</l>
             <l>la più leggiadra che di selva in selva,</l>
@@ -756,11 +796,11 @@ Madama Leonora da Este.</salute>
             <l>amar più l'altro. Ond'invido <name>Amor</name> fatto,</l>
             <l>post'ha la spina a questa rosa in mezo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Onde vien et di qual dea è la tua nimpha?</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Questa mia nimpha, anzi del ciel pur dea,</l>
             <l>nacque nel mondo ben di qualche dio,</l>
@@ -771,7 +811,7 @@ Madama Leonora da Este.</salute>
             <l>affetto che con altri occhi non vede,</l>
             <l>né conosce altro ben, ch'ambeduo noi.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Ben, ben conosco e l'uno e l'altro. O bella,</l>
             <l>o bella, so che 'l fiore hai conosciuto.</l>
@@ -779,7 +819,7 @@ Madama Leonora da Este.</salute>
             <l>poich'ella t'ama et parimente <name>Ophelio</name>,</l>
             <l>et essendo, com'è, libera et sciolta?</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Hor odi: il suo fratel tanto si mostra</l>
             <l>a me nimico fuor d'ogni ragione</l>
@@ -794,14 +834,14 @@ Madama Leonora da Este.</salute>
             <l>a questo nostro sì felice amore</l>
             <l>et me rifiuta com'un vil capraro.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Forse 'l fratell', onde ambeduoi sian nati,</l>
             <l>da qualche dio esser discesi al mondo,</l>
             <l>però si sdegna ch'un pastoral seme</l>
             <l>si sparga in questo sì celeste campo.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Ma ecco <name>Ophelio</name> mio, ecco il buon vecchio</l>
             <l>d'ambo e gemelli, che non men si duole</l>
@@ -813,15 +853,15 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA IV</hi>
           </head>
           <stage>Ophelio vecchio. Carpalio. Turico</stage>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>O buon principio: ecco <name>Carpalio</name> mio.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Che vuoi, gentil' <name>Ophelio</name>, che mi nomi?</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>S'<name>Amor</name> hoggi non dà quel lieto fine,</l>
             <l><name>Carpalio</name> figliuol mio, che tu et <name>Melidia</name></l>
@@ -838,21 +878,21 @@ Madama Leonora da Este.</salute>
             <l>starà, tu con <name>Melidia</name> tua potrai</l>
             <l>dar fine al tanto desiato amore.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Ma se fortuna, come suol, nimica</l>
             <l>noi si facesse, discoprendo quello</l>
             <l>che tra noi potria star sempre celato,</l>
             <l>che faremo? Qual fia po 'l pensier nostro?</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Diremo, ch'alcun satiro o alcun fauno,</l>
             <l>o ver, che meglio fia, alcun dio del cielo</l>
             <l>sotto mentita forma l'habbia presa,</l>
             <l>levandole quel fior ch'altri havrà colto.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Merita peggio, poich'è sì malvagio,</l>
             <l>né di rispetto se gli dee haver punto.</l>
@@ -860,19 +900,19 @@ Madama Leonora da Este.</salute>
             <l>Così potessi io fin porr'al mio male</l>
             <l>come al ben tuo principio dar potrai.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Andiamo, andiamo, che ciascun si pone</l>
             <l>in ordine per ire al sacrificio.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l><name>Turico</name>, se ti par ch'io possa aiuto</l>
             <l>porgerti nel tuo amor, comanda pure,</l>
             <l>ch'io son pastor ch'agevolmente servo</l>
             <l>chiunque l'opra mia chiede 'n soccorso.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Di questa offerta i' ti ringratio e anch'io</l>
             <l>mi t'offero per quanto pon patire</l>
@@ -895,75 +935,75 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA V</hi>
           </head>
           <stage>Satiro. Turico</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>O, o, qualche pastor che si querela</l>
             <l>di sua sorte infelice. Altro tra queste</l>
             <l>selve hor non s'ode che d'amor lamenti.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Possibil fia ch'un'altra volta <name>Amore</name></l>
             <l>non potrà intenerir quel duro petto,</l>
             <l>ch'entro il velen d'ogn'aspra serpe inchiude?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Salvo sii, bel pastor.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Satiro a <name>dio</name></l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">così forte d'<name>Amor</name>?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Non tel vuò dire.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Come, che nol vuoi dir?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">No, che tu forse</l>
           </sp>
           <sp>
             <l part="I">me 'l vorresti vietare.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Anzi, vuò darti</l>
             <l part="I">(se n'hai bisogno) qualche aiuto.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Il tuo</l>
             <l>aiuto poco curo, ch'al mio male</l>
             <l part="I">rimedio non havresti.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Dimmel dunque</l>
             <l>per cortesia.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Ti dico che non voglio.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Tel farò dir mal grado tuo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Tu buono</l>
             <l>sarai per farmel dir non volend'io?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>O, in quanta poca riverenza siamo</l>
             <l>noi satir, hor che più non siam tenuti</l>
@@ -971,12 +1011,12 @@ Madama Leonora da Este.</salute>
             <l>né dei né semidei. Dunque ch'io possa</l>
             <l part="I">farloti dir non credi?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Tu, né quanti</l>
             <l>vorran saperlo a forza, il saperanno.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>O incredulo, o malvagio, a questo modo?</l>
             <l>Lascia, che mi dirai più che non voglio.</l>
@@ -1003,52 +1043,52 @@ Madama Leonora da Este.</salute>
             <l>Comincia. Dimmi il nome di colei</l>
             <l part="I">che lamentar ti fa.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F"><name>Stellinia</name> ha nome.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Di qual color si veste?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Di vermiglio.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Ove suol praticare?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Qui d'intorno.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Horsù, sta ben, tu non l'hai detto a un sordo.</l>
             <l part="I">Di qual arbor' ha l'arco?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Egli è di tasso.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Non so che chiederl'altro. Dimmi, è bella?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="I">Bellissima.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="M">É cortese?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">A me no<expan>n</expan> troppo.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Sarà al proposto. Hoggi vuò in ordin porre</l>
             <l>la mia trappola e qui stenderla, e quante</l>
@@ -1067,11 +1107,11 @@ Madama Leonora da Este.</salute>
             <l>che sonnacchioso non la vederebbe.</l>
             <l>Tanto fa, se gli do ben ne la testa.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Oimè. Che vuol dir questo? Ove son' io?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Guardati i piedi, guardati le gambe.</l>
           </sp>
@@ -1081,7 +1121,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA VI</hi>
           </head>
           <stage>Turico solo</stage>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Oimè son morto, oimè che cosa è questa?</l>
             <l>O come son fuori di me, mi sento</l>
@@ -1123,7 +1163,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA I</hi>
           </head>
           <stage>Erasto. Callinome nimpha di Diana</stage>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Havea deliberato hoggi di starmi</l>
             <l>al sacrificio in compagnia d'<name>Orenio</name>,</l>
@@ -1148,7 +1188,7 @@ Madama Leonora da Este.</salute>
             <l>ciò che seco ragiona, e a l'improviso</l>
             <l>discoprirmele poi. Ecco ch'è giunta.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Sciolta da ogni pensier, da ogn'alta cura</l>
             <l>solinga me ne vo di selva in selva,</l>
@@ -1165,13 +1205,13 @@ Madama Leonora da Este.</salute>
             <l>et breve via di salir sopra il cielo,</l>
             <l>ove l'alme beate han posto il seggio?</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Se per esser crudel s'acquista il cielo,</l>
             <l>tu più d'ogn'altra ti puoi dir beata,</l>
             <l part="I">poi che sì cruda sei.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="F">Lodato Dio,</l>
             <pb n="C3v"/>
@@ -1179,11 +1219,11 @@ Madama Leonora da Este.</salute>
             <l>d'<name>Erasto</name> mi dia noia, poi che tutti</l>
             <l>i pastor' hoggi vanno a i sacrifici.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Misero <name>Erasto</name>, a che congiunto sei?</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Però qui posso riposarmi senza</l>
             <l>haver tema di lui. Ma chi veggo io</l>
@@ -1196,7 +1236,7 @@ Madama Leonora da Este.</salute>
             <l>mi si accosti. Egli vien. Ma vuò mostrare</l>
             <l part="I">di non temere.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="F">Io vuò venirti in contra</l>
             <l>perché bramo morir con le tue mani,</l>
@@ -1204,11 +1244,11 @@ Madama Leonora da Este.</salute>
             <l>aventami, che morte mi fia grata</l>
             <l part="I">quando venga da te.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="F">Sta' pur lontano.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Perché cerchi fuggir? Perché paventi?</l>
             <l>Di che vuoi tu temer? Deh, ferma il piede.</l>
@@ -1218,12 +1258,12 @@ Madama Leonora da Este.</salute>
             <l>riverisce et honora, et che ti tiene</l>
             <l>più che la vita sua cara et accetta.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Che mi potrai tu far quando non voglia?</l>
             <l>Horsù di ciò che vuoi, di', che t'ascolto.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Quando fia mai, o dolce mia nimica,</l>
             <l>ch'io venga al fin de le mie pene amare,</l>
@@ -1255,12 +1295,12 @@ Madama Leonora da Este.</salute>
             <l>vienlo a toccar con mano et a chiarirti,</l>
             <l>che troverai via più di quel c'ho detto.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Sei molto ricco, <name>Erasto</name>. Hai tu fors'altro</l>
             <l>da dir? Perché vuò andar' al mio viaggio.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Non t'ho ancor detto com'un capriolo</l>
             <l>ti serbo e <num value="2">duoi</num> capretti di sì fatta</l>
@@ -1275,21 +1315,21 @@ Madama Leonora da Este.</salute>
             <l>in contracambio un ricco vel donarmi,</l>
             <l>ma senz'altro tuoi fiano e li ti dono.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Non me ne curo, <name>Erasto</name>, se ben fila</l>
             <l>d'argento i velli havessero, e le corna</l>
             <l>d'oro. Tienlili pur, o dalli altrui,</l>
             <l>fanne pur ciò che vuoi, poiché son tuoi.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ai, <name>Callinome</name> dura più che un sasso,</l>
             <l>so ben ch'i doni miei sprezzi e non curi.</l>
             <l>Ma dove vai? Dove ne volgi il passo?</l>
             <l>Non ti partir, volgi la fronte alquanto.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>La riverenza ch'a la mia reina</l>
             <l>debitamente porto vuol ch'io serbi</l>
@@ -1298,7 +1338,7 @@ Madama Leonora da Este.</salute>
             <l>Però cerca altra via, cerca altro amore,</l>
             <l>se vuoi disacerbar questi tuo' affanni.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Te, <name>Callinome</name> ingrata, il ciel mi diede</l>
             <l>ch'amassi e non altrui. Né pensar ch'io</l>
@@ -1312,23 +1352,23 @@ Madama Leonora da Este.</salute>
             <l>spargon talhor, perché lor porti amore,</l>
             <l>e lor per te, crudel, fuggo et disprezzo.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Fai male, <name>Erasto</name>, a non seguir chi t'ama.</l>
             <l>Io son brutta appo lor, segui pur quelle.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Anzi più bella, e tra lor sembri quale</l>
             <l>tra le stelle minori il chiaro sole.</l>
             <l>Et ben si vede, poi che come neve</l>
             <l>mi struggo appresso te, né te ne cale.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Perché più non ti sfacci, io me ne vado.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Deh, fammi don nel tuo partir di questa</l>
             <l>sol gratia per li tanti miei dolori</l>
@@ -1361,7 +1401,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA II</hi>
           </head>
           <stage>Satiro solo</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Poich'è sì lieto e sì tranquillo il giorno,</l>
             <l>non può far che le nimphe per li boschi</l>
@@ -1407,7 +1447,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage>Melidia nimpha. Satiro</stage>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Quando, <name>Melidia</name>, havran le tue querele</l>
             <l>qualche tregua o conforto? E quando lieta</l>
@@ -1426,12 +1466,12 @@ Madama Leonora da Este.</salute>
             <l>perché non lievi il fratel mio del mondo</l>
             <l>per salvar <num value="2">duoi</num> così fideli amanti?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Nota, nota che vuol, che 'l fratel muoia</l>
             <l>per darsi in preda a qualche vil pastore.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Deh, perché <name>Amor</name> mi fusti sì benigno?</l>
             <l>Perché mi fusti sì contrario e averso?</l>
@@ -1440,11 +1480,11 @@ Madama Leonora da Este.</salute>
             <l>Ove imparasti sì maligne leggi</l>
             <l>di dar sì lunghi affanni a' tuoi seguaci?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ti seguirò ben' io. Vien pur innanzi.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Non negherai già, <name>Amor</name>, che tu non sappi,</l>
             <l>che sanlo i boschi, le campagne e i fiori,</l>
@@ -1458,17 +1498,17 @@ Madama Leonora da Este.</salute>
             <l>io vuò veder di riposarmi alquanto</l>
             <l>sotto questa robusta et alta quercia.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Vieni un poco più innanzi. Ancora un poco.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Attendendo se 'l mio dolce <name>Carpalio</name>,</l>
             <l>rinovellando le sue antiche piaghe,</l>
             <l>quinci prendesse quest'usato calle.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Senza troppo macchiar questa ho nel pugno.</l>
             <l>Siedi pur, c'hora vengo. Ma vuò prima</l>
@@ -1481,7 +1521,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA IV</hi>
           </head>
           <stage>Ophelio. Melidia. Satiro</stage>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Quando il lasso bifolco il campo pieno</l>
             <l>intorno intorno di verdette biade</l>
@@ -1502,12 +1542,12 @@ Madama Leonora da Este.</salute>
             <l>d'haver' accoppiar questi <num value="2">duo</num>' amanti</l>
             <l>vai prolungando per più nostra pena.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Sei pur venuto, <name>Amore</name>, a buon mercato,</l>
             <l>ch'ognun vuol giocar teco a la civetta.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Le selve, i boschi e le palustri valli,</l>
             <l>quasi mosse a pietà, rispondon meste</l>
@@ -1515,14 +1555,14 @@ Madama Leonora da Este.</salute>
             <l>ripetendo la voce mi risponde</l>
             <l>quante fiate 'n van chiamo <name>Melidia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Qualche gran caso a questo miser vecchio</l>
             <l>è intravenuto, che sì forte cerca</l>
             <l>chiamando il nome mio, me 'n queste selve.</l>
           </sp>
           <pb n="D1r"/>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Se ti rimembra punto, o sacro <name>Apollo</name>,</l>
             <l>l'acuto dardo che ti punse 'l core</l>
@@ -1531,33 +1571,33 @@ Madama Leonora da Este.</salute>
             <l>dammi soccorso in ritrovar <name>Melidia</name>,</l>
             <l>c'homai le membra mie son lasse et stanche.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Povero <name>Apollo</name>, ognun ti dà in su 'l viso,</l>
             <l>col rimembrarti la selvaggia <name>Daphne</name>.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Mi vuò scoprir, né più tenerlo in tempo.</l>
             <l><name>Ophelio</name>, in queste selve (si com'hora</l>
             <l>mi par d'haver' udito) grandemente</l>
             <l>mi vai cercando et di chiamar non cessi.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>T'ho ricercata sì; quanto facesse</l>
             <l>pastor giamai smarrita pecorella.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Alza i piè, vecchio, che tai barbagianni</l>
             <l>prender non vuò con la mia stesa rete.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="I">Eccomi.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Io ne ringratio il nostro <name>Giove</name>,</l>
             <l>qual salva ci mantien l'amata greggia.</l>
@@ -1566,7 +1606,7 @@ Madama Leonora da Este.</salute>
             <l>poic'hor m'ha scorto ove tu fermi il piede.</l>
           </sp>
           <pb n="D1v"/>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Dimmi, <name>Ophelio</name> gentil, padre honorando,</l>
             <l>dico padre d'amor' a me e a <name>Pimonio</name>,</l>
@@ -1574,7 +1614,7 @@ Madama Leonora da Este.</salute>
             <l>che bisogno hai di me, che di trovarmi</l>
             <l>tanto bramoso mi ti sei scoperto?</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Tu sai con quanto amor, con quanto zelo,</l>
             <l>con quanta carità, con quanta fede,</l>
@@ -1596,11 +1636,11 @@ Madama Leonora da Este.</salute>
             <l>pur' il disio c'havea di ritrovarti,</l>
             <l>mi fea parer la via molto più breve</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>per correr più leggier, vecchio ubbriacco.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Certa sempre ne fui, benigno <name>Ophelio</name>,</l>
             <l>che 'l tuo disio di compiacermi tanto</l>
@@ -1614,7 +1654,7 @@ Madama Leonora da Este.</salute>
             <l>felici sì, che non invidi alcuno</l>
             <l>che pasca in questa sì felice <name>Arcadia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Lasciam, <name>Melidia</name>, questi preghi a tempo</l>
             <l>più commodo di questo, et attendiamo</l>
@@ -1642,59 +1682,59 @@ Madama Leonora da Este.</salute>
             <l>ove tu possi il tuo <name>Carpalio</name>, quanto</l>
             <l>per te si può, far più contento et lieto.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Lieto io sarei se ti vedessi morto,</l>
             <l>et lei ne' lacci miei vedessi presa.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="I">Egli dov'è?</l>
           </sp>
           <pb n="D3r"/>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Non è troppo lontano,</l>
             <l>che di nascosto il tuo fratello attende</l>
             <l>fin che si parta per andar' a i giochi.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Costei vuol far morir certo il fratello.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Tu vecchio sei, tu ben conosci et sai</l>
             <l>come tu guidi questi <num value="2">duoi</num> amanti.</l>
             <l>A te lascio il pensier, a te l'affanno</l>
             <l>ch'indi potrebbe a qualche tempo uscire.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>No, no, <name>Melidia</name>, mentre 'l cacciatore</l>
             <l>si vede haver la fera circondata,</l>
             <l>cessar non suol fin che 'n sue man non l'habbia.</l>
             <l>Che chi tempo ha e l'aspetta, al fin lo perde.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Se tu non mi impedivi, anch'io voleva</l>
             <l>quest'ordine tener' a' miei disegni.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l><name>Melidia</name>, andrò correndo a dar la nov<add>a</add></l>
             <l>al tuo <name>Carpalio</name>, com'io t'ho trovata.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Va' pur oltre, ch'anch'io mi pongo in via.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ei parte, ella rimane. O buona nova.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Se con accenti folli,</l>
             <l>ho fatte un tempo risonar le valli</l>
@@ -1709,11 +1749,11 @@ Madama Leonora da Este.</salute>
             <l>che i colli homai potrai, le valli e i fiori</l>
             <l>ritornar lieti ne' lor primi honori.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Finisci tosto, e movi i lenti passi.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>S'io porsi un tempo in vano</l>
             <l>a te, dolce signor, le mie fiscelle</l>
@@ -1728,11 +1768,11 @@ Madama Leonora da Este.</salute>
             <l>sper'h<add>or</add> ch'entrambi ne corremo il frutto.</l>
           </sp>
           <pb n="D4r"/>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>che potria sovraggiungere alcun'altro.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Se la tua sovra human</l>
             <l>sampogna cacciò un tempo oscure note,</l>
@@ -1746,29 +1786,29 @@ Madama Leonora da Este.</salute>
             <l>potrai, dolce <name>Carpalio</name>, con <name>Melidia</name></l>
             <l>star sì ch'ogni pastor ne senta invidia.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Vien pur' innanzi. Il tordo è ne la ragna.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Sian maledetti i cespi. Oimè, ch'a un laccio</l>
             <l part="I">son presa, oimè.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Non dubitar, sta' salda.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Deh, lasciami. Ritorna, <name>Ophelio</name>, <name>Ophelio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Pensa pur che partir quindi non puoi,</l>
             <l>se non mi dai un bascio a bocca a bocca.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Deh, satiro mio bel, non far, ti prego,</l>
             <l>che se 'l sapesse il fratel mio <name>Pimonio</name></l>
@@ -1778,23 +1818,23 @@ Madama Leonora da Este.</salute>
             <l>dirti in secreto, e ti fia tanto a grado</l>
             <l part="I">quanto altra cosa mai.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Di' prima, et poi</l>
             <l>ti lascio, se fia cosa ch'a me tochi.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l><name>Satiro</name> mio cortese, io vuò che sappi</l>
             <l>ch'un certo mio fratello, anzi un serpente,</l>
             <l>sempre 'n guerra mi tiene. Ma di' prima,</l>
             <l>si pon gli huomini ancor pigliar con questa?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Huomini e donne e tutti gli animali.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Sarà al proposto. Io vuò, se tu vorrai,</l>
             <l>pigliar con questa questo mio fratello,</l>
@@ -1815,7 +1855,7 @@ Madama Leonora da Este.</salute>
             <l>ch'io vil son femminella, non ti spiaccia,</l>
             <l>né ti curi accettar questa mia offerta.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Anzi, m'aggrada quanto dir si possa.</l>
             <l>Ma avertisce ch'io vuò, prima che parti</l>
@@ -1823,7 +1863,7 @@ Madama Leonora da Este.</salute>
             <l>che tu mi fai un bascio di quel modo</l>
             <l part="I">che so che saprai darmi.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="F">Egli è 'l dovere.</l>
             <l>Ma perché non vidi io mai simil cosa,</l>
@@ -1833,18 +1873,18 @@ Madama Leonora da Este.</salute>
             <l>per ir' al santo sacrificio e a i giochi,</l>
             <l part="I">però fa tosto et slegami.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ma sappi</l>
             <l>c'huomo alcun non è buon mai di snodare</l>
             <l>questi lacciuo', quando si tiran troppo.</l>
             <l>Ma uopo è alhor che si ricida il nodo.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Fai bene ad avertirmi d'ogni cosa.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Hor vedi et nota ben, guardami bene.</l>
             <pb n="D5v"/>
@@ -1858,18 +1898,18 @@ Madama Leonora da Este.</salute>
             <l>ch'altramente, slegato ch'egli fosse,</l>
             <l part="I">ti potria dar la morte.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="F">Tu ben dici.</l>
             <l>Io non havea avertito a questo punto.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ma se fossi quell'io che lo prendessi?</l>
             <l>Perché par non convenga che tu dii</l>
             <l>morte ad un che ti sia (com' ei) fratello?</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Deh, se tu fossi, com'io sempre sono,</l>
             <l>mal trattata da lui, tu parimente</l>
@@ -1878,26 +1918,26 @@ Madama Leonora da Este.</salute>
             <l>di questo mondo, poi che <num value="1000">mille</num> volte</l>
             <l>per lui convien ch'io morte chiami l'hora.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Fa' dunque tu, pur che tu sappi fare.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Aspetta, io starò ascosa, tu va' innanzi,</l>
             <pb n="D6r"/>
             <l>passa, ch'io tirerò tanto che impari.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Non è fuor di proposto, tira pure.</l>
             <l>Non tirar tanto, non tirar: che fai?</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Così chi inganna altrui vien' ingannato.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ai malvagia, ai rubalda, a questo modo?</l>
             <l>Rispetto non s'ha a' satiri? Tu fuggi?</l>
@@ -1930,7 +1970,7 @@ Madama Leonora da Este.</salute>
             </hi>
           </head>
           <stage>Turico solo</stage>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l><name>Turico</name>, che ti val l'esser sì destro,</l>
             <l>far prove ognhor con la tua stanca vita</l>
@@ -1979,7 +2019,7 @@ Madama Leonora da Este.</salute>
             </hi>
           </head>
           <stage>Callinome. Stellinia nimphe</stage>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Io mi credea c'hoggi le selve e i boschi</l>
             <l>devessi ritrovar senza lamenti</l>
@@ -2004,13 +2044,13 @@ Madama Leonora da Este.</salute>
             <l>che segua un pastorel che lei non curi,</l>
             <l>et ch'ella lui più che se stessa brami.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Che fa qui sì soletta questa nimpha</l>
             <l>cui porta tanto amor' il crudo <name>Erasto</name>,</l>
             <l>Ben che lo fugge più ch'agnella lupo?</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>L'altrhier, porgendo a le mie stanche membra</l>
             <l>dolce riposo sotto ombroso faggio</l>
@@ -2023,11 +2063,11 @@ Madama Leonora da Este.</salute>
             <l>simil' a queste o tai parole usando,</l>
             <l>fea d'ogn'intorno risonar' i boschi.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>A tempo qualche cosa a udir son giunta.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>"Perché vuoi tu lasciar, benigno <name>Erasto</name>,</l>
             <l>d'amar nimpha sì bella com'io sono,</l>
@@ -2040,11 +2080,11 @@ Madama Leonora da Este.</salute>
             <l>et la ruina tua? Tienti pur morto,</l>
             <l>s'avien che la sua dea mai se n'avegga."</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Costei dice di me certo et d'<name>Erasto</name>.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>"Per te, crudel più che selvaggio toro,</l>
             <l>lasciato ho il mio <name>Turico</name>, pastor tale</l>
@@ -2061,13 +2101,13 @@ Madama Leonora da Este.</salute>
             <l>Perché dunque mi fuggi, <name>Erasto</name> altero?</l>
             <l>Perché non degni così bella nimpha?"</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>So che di passo in passo, ad una ad una</l>
             <l>notò le mie parole, hor segui pure.</l>
           </sp>
           <pb n="Elr"/>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>"Perché, lassa,"dicea, "perché rifiuti</l>
             <l>ciò che ti dona chi per te si strugge?</l>
@@ -2099,7 +2139,7 @@ Madama Leonora da Este.</salute>
             <l>E simil' altre parolette usando</l>
             <l>c'havrian mosse a pietà l'onde et i venti.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>S'io non credessi ancor che 'l vago arciero</l>
             <l>t'havesse a trappassar quel duro petto</l>
@@ -2108,13 +2148,13 @@ Madama Leonora da Este.</salute>
             <l>troncherei sì che la natura insieme,</l>
             <l>volendo, non potria porle 'n <num value="1000">mill</num>'anni.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Ma non è questa quella bella nimpha</l>
             <l>che pur hor nominava? Ella è per certo.</l>
             <l>Ecco che verso me vien passo passo.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>S'io potessi levarle quella cinta</l>
             <l>che porta intorno, <name>Amor</name> potria ferirla.</l>
@@ -2125,7 +2165,7 @@ Madama Leonora da Este.</salute>
             <l>Ch'esser non può, ch'essendo bella, <name>Amore</name></l>
             <l>in te non habbia la sua gratia infusa.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Senza ch'altri te 'l dica tu ben sai</l>
             <l>nimpha gentil, che 'n me non ha possanza</l>
@@ -2136,20 +2176,20 @@ Madama Leonora da Este.</salute>
             <l>a cui la di noi cura ingombra il petto</l>
             <l>via più che de l'istessa sua persona.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Ho più volte disio non poco havuto</l>
             <l>d'entrar nel vostro choro, ma una nimpha</l>
             <l>con false paroline il cor mi trasse</l>
             <l>da quella così degna e honesta impresa.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Che cosa potea mai dir la malvagia</l>
             <l>(sia qual si fosse) che potesse un core</l>
             <l>dal suo primo voler trar con parole?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Potria porr'amistà tra il nibbio e 'l corvo,</l>
             <l>tanto sa ben parlar. Deh, nota il modo</l>
@@ -2180,7 +2220,7 @@ Madama Leonora da Este.</salute>
             <pb n="E3r"/>
             <l>onde 'l mel mi si fa fele et veleno.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Quando un si sente 'n qualche error' avinto</l>
             <l>vorria che 'n quel cadesse il mondo tutto.</l>
@@ -2189,18 +2229,18 @@ Madama Leonora da Este.</salute>
             <l>per volger fosse mai da quel che prima</l>
             <l>mi mostrò il cielo in sin da' tener anni.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Deh, se sei nimpha, come mostri, adorna</l>
             <l>di cortesia, deh, non negarmi il primo</l>
             <l>piacer che 'l troppo ardir mio ti chied'hora.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Chiedi ciò che tu vuoi, che se fia cosa</l>
             <l>che si possa per me, non te la nego.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Mostra, ti prego, quella benda ch'opra</l>
             <l>sì forte contra <name>Amor</name> lascivo, s'io</l>
@@ -2214,7 +2254,7 @@ Madama Leonora da Este.</salute>
             <pb n="E3v"/>
             <l>Seguendo vai hor questa fera hor quella.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Quantunque espressamente ci habbia imposto</l>
             <l>l'alta reina nostra che da torno</l>
@@ -2224,35 +2264,35 @@ Madama Leonora da Este.</salute>
             <l>de la mia dea che 'n tuo favor si volga.</l>
             <l>Poi vuò che tu mi renda il mio legame.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Ah, nimpha più cortese che natura,</l>
             <l>non dubitar, farò quanto a te piace.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="I">Slegal tu stessa.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">O membra delicate.</l>
             <l>Eccolo, sii contenta, poic'hai fatto</l>
             <l>il più, di far' il men. Legalo, nimpha,</l>
             <l>che da me non potrei. Tu stringi forte.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Sorella mia lo stringer forte importa,</l>
             <l>che se non fosse stretto, il suo vigor,</l>
             <l>se non del tutto, in parte perderebbe.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Stringe quanto tu vuoi, quanto ti pare,</l>
             <l>che tu ben dei saper come si faccia.</l>
             <l>Hor porge a la tua dea qualche preghiera.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>O alta dea, che i bianchi cervi desti</l>
             <pb n="E4r"/>
@@ -2276,40 +2316,40 @@ Madama Leonora da Este.</salute>
             <l>qui sotto questo faggio,</l>
             <l>ond' ella vuol lasciar <name>Venere</name> e <name>Amore</name>.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Sento pastori assai tra queste frondi</l>
             <l>venir con passo frettoloso et presto,</l>
             <pb n="E4v"/>
             <l>leva, su, non istar più così, nimpha.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="I">Chi son costor?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">É parte di pastori,</l>
             <l>c'hoggi van celebrando intorno intorno</l>
             <l>i giochi che si fanno a <name>Pan Liceo</name>.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Rendemi, nimpha, la mia benda prima</l>
             <l part="I">ch'aggiungano, fa' tosto.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Aspetta, aspetta,</l>
             <l>vuoi che veggan che m'alzi e panni al vento?</l>
             <l>Tantosto passeranno, ecco son giunti.</l>
             <l>Tanto più tempo <name>Amor</name> 'havrà di trarle.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Oimè.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Non dubitar, che non dan noia.</l>
           </sp>
@@ -2319,7 +2359,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage>Sacerdote. Choro</stage>
-          <sp>
+          <sp who="#sacerdote">
             <speaker>Sacerdote</speaker>
             <l>Tu, c'hai le corna risguardanti al cielo,</l>
             <l>fisse ne l'ampia fronte et spaciosa,</l>
@@ -2333,11 +2373,11 @@ Madama Leonora da Este.</salute>
           </sp>
           <pb n="E5r"/>
           <stage>Il Choro risponde in musica.</stage>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>O <name>Pan Liceo</name>, o <name>Pan Liceo</name>.</l>
           </sp>
-          <sp>
+          <sp who="#sacerdote">
             <speaker>Sacerdote</speaker>
             <l>Tu, che come ver re lo scettro tieni</l>
             <l>ne l'una man come celeste dono,</l>
@@ -2349,11 +2389,11 @@ Madama Leonora da Este.</salute>
             <l>mostrane e 'l tuo favore</l>
             <l>tanto grato a ciascuno, o <name>Pan liceo</name>.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>O <name>Pan Liceo</name>, o <name>Pan Liceo</name>.</l>
           </sp>
-          <sp>
+          <sp who="#sacerdote">
             <speaker>Sacerdote</speaker>
             <l>Habbi del gregge et de l'armento cura,</l>
             <l>che va pascendo in queste folte selve,</l>
@@ -2366,7 +2406,7 @@ Madama Leonora da Este.</salute>
             <l>se 'l pregar nostro sale</l>
             <l>in sino a le tue orecchie, o <name>Pan Liceo</name>.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>Choro</speaker>
             <l>O <name>Pan Liceo</name>, o <name>Pan Liceo</name>.</l>
           </sp>
@@ -2376,14 +2416,14 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA IV</hi>
           </head>
           <stage>Callinome. Stellinia</stage>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Deh, dimmi, nimpha mia, perché cagione</l>
             <l>Portano que' pastori quel flagello?</l>
             <l>Se sai tanto mistero et s'io son degna</l>
             <l part="I">di saperlo.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Lo tengono per questo,</l>
             <l>che le donne che son gravide vanno</l>
@@ -2393,45 +2433,45 @@ Madama Leonora da Este.</salute>
             <l>con l'huomo divenire non possa madre,</l>
             <l>subito par che 'l far figliuoli impetri.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Rider tu mi farai. O volentieri</l>
             <l>(se però non ti scommodo) verrei</l>
             <l>a veder tutto il resto di que' giochi,</l>
             <l>che 'ntendo che si veggon belle cose.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Bellissime nel ver. Ma chi ti tiene?</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Dubito che <name>Diana</name> nol risappia.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Deh, che vuoi star d'haver un giorno lieto,</l>
             <l>il qual sì tosto più non vederai,</l>
             <l>per dir che temi che <name>Diana</name> il sappia?</l>
             <l>Andiamo, andiamo, chi vuoi che le 'l dica?</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Gl'invidi del mio ben. Se mi prometti</l>
             <l part="I">di tacer, ne verrò.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Per questo giorno</l>
             <l>tanto solenne ti prometto ch'io</l>
             <l part="I">son per tacer. Andiamo.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="F">Dammi prima</l>
             <l part="I">la cinta mia.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Andiam pur, c'hor te la re<expan>n</expan>do.</l>
             <l>Fatt'ho pur tanto che cagione ancora</l>
@@ -2450,7 +2490,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA I</hi>
           </head>
           <stage>Erasto solo</stage>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ch'oltraggio, <name>Amor</name>, mi puoi tu far maggiore</l>
             <l>che pormi inna<expan>n</expan>zi a gli occhi il fo<expan>n</expan>te chiaro,</l>
@@ -2485,7 +2525,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA II</hi>
           </head>
           <stage>Orenio. Erasto</stage>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Deh, perché non mi diede 'l ciel cent'occhi</l>
             <l>alhor ch'io nacqui, come diede ad <name>Argo</name>?</l>
@@ -2495,12 +2535,12 @@ Madama Leonora da Este.</salute>
             <l>il giovinetto <name>Erasto</name>. Ai sorte iniquia,</l>
             <l>ai maledetto fato, o giorno oscuro.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Misero me, che lamentevol voce</l>
             <l>è quella ch'odo del pastor <name>Orenio</name>?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Deh, <name>Amor</name>, non ti rincresca, se i miei preghi</l>
             <pb n="E7v"/>
@@ -2514,36 +2554,36 @@ Madama Leonora da Este.</salute>
             <l>in pericol di morte ritrovarsi,</l>
             <l>deh, che farai, meschin, di', che farai?</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Udito non m'ha ancor, né ancor m'ha visto.</l>
             <l part="I"><name>Orenio</name>, <name>Orenio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">O caso horre<expan>n</expan>do et strano.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="I"><name>Orenio</name>?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="M">O, tu se' qui.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="F">Più volte, <name>Orenio</name>,</l>
             <l>io t'ho chiamato, ma di quei più sordo</l>
             <l>sei che sogliono star d'intorno al <name>Nilo</name>.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Perdonami il mio <name>Erasto</name>, che 'l gran caso</l>
             <l>ove havea posto ogni mio senso e vista</l>
             <l>è cagion ch'io non veggo et ch'io non sento.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Non altramente che da vento scossa</l>
             <l>foglia leggiera, il cor nel petto trema,</l>
@@ -2553,7 +2593,7 @@ Madama Leonora da Este.</salute>
             <l>può mai fortuna dar' in un sol punto,</l>
             <l>pur che sia salva la nimica mia.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>A punto, <name>Erasto</name>, quella nimpha bella</l>
             <l>che tu speravi pur volger col tempo,</l>
@@ -2562,14 +2602,14 @@ Madama Leonora da Este.</salute>
             <l>tanto propitia non le fosse, ch'oltre</l>
             <l>il giuditio ch'io fo non me 'ngannassi.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Oimè, che cosa, <name>Orenio</name>, da te intendo.</l>
             <l>Dimmi, ti prego, questa gran cagione,</l>
             <l>che più non son per contemplar quel viso,</l>
             <l>viso ch'a un tempo mi da vita et morte.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Benché, <name>Erasto</name>, mi paia duro et aspro</l>
             <l>il raccontarti cosa onde 'l dolore,</l>
@@ -2578,7 +2618,7 @@ Madama Leonora da Este.</salute>
             <l>qualche rimendio, benché spero invano,</l>
             <l>ti farò aperto quel che t'era occulto.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Se gli è mal, o gran <name>Giove</name>, che sia senza</l>
             <l>qualche rimedio, dammi morte prima</l>
@@ -2591,23 +2631,23 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage>Stellinia. Orenio. Erasto</stage>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Ecco il mio <name>Erasto</name>, ecco il mio dolce amante.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l><name>Erasto</name> mio, gentil come figliuolo,</l>
             <l>tu sai c'hoggi <name>Callinome</name> tua nimpha,</l>
             <l>condotta da maligna et fera stella,</l>
             <l>venne a veder' i sacrifici nostri.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Di <name>Callinome</name> è 'l lor ragionamento,</l>
             <l>non può far ch'io non oda qualche cosa.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Io la vidi per certo con <name>Stellinia</name>,</l>
             <l>et mi parea veder' a punto un tauro</l>
@@ -2615,7 +2655,7 @@ Madama Leonora da Este.</salute>
             <l>si senta l'un de' corni, sì smarrita</l>
             <l part="I">si mostrava nel viso.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Dubitava</l>
             <l>di quel che gli è avenuto, che <name>Diana</name></l>
@@ -2629,12 +2669,12 @@ Madama Leonora da Este.</salute>
             <l>sparge tal fiamma, che 'l suo proprio cerchio,</l>
             <l>quantunque freddo, accenderia volendo.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Oimè, ch'io temo che quest'ira et sdegno</l>
             <l>non sia cagion di più che d'una morte.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Questo non so, so ben ch'a questa nimpha,</l>
             <l>per quanto si comprende, incresce assai</l>
@@ -2642,22 +2682,22 @@ Madama Leonora da Este.</salute>
             <l>poiché sovente con parlar sommesso</l>
             <l>par che 'l tuo nome sospirando chiami.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l><name>Amor</name> forse l'ha punta. Ah dunque, <name>Orenio</name>,</l>
             <l>s'usa così verso il tuo <name>Erasto</name>, a darli</l>
             <l>con tanto amar questa sì dolce nova?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Dolce nova ti par ciò ch'io vuò dirti?</l>
             <l>Non dei dunque saper perché ti chiami.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="I">Aspetto che me 'l dichi.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Oimè, <name>Diana</name>,</l>
             <l>non sapendo in qual guisa darle morte</l>
@@ -2675,17 +2715,17 @@ Madama Leonora da Este.</salute>
             <l>A te procuri, e a te la vita serbi</l>
             <l>s'a la vita di lei soccorso porgi.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="I">Oimè, che è quel ch'io odo?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Homai pon fine</l>
             <l>a i sospiri, et con fatti et con parole</l>
             <l>cerca lo scampo suo, purché l'aiuti.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Che vi posso far' io senza tuo aiuto</l>
             <l>et senza tuo consiglio? Che ben sai</l>
@@ -2694,7 +2734,7 @@ Madama Leonora da Este.</salute>
             <l>se cosa sai che 'n tal bisogno possa</l>
             <l part="I">esser di giovamento alcuno.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">É vero</l>
             <l>ch'appo me già tener solea un secreto</l>
@@ -2705,17 +2745,17 @@ Madama Leonora da Este.</salute>
             <pb n="F2r"/>
             <l>che soverrammi dov'i' l'habbia posto.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Fa' pur quanto tu vuoi, che poco aiuto</l>
             <l>dar si può a quel che 'n simil caso è posto.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Non ti rimembra al men ciò che bisogna</l>
             <l part="I">a porlo insieme?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Sì, ma non è cosa</l>
             <l>che si faccia sì tosto come pensi.</l>
@@ -2728,22 +2768,22 @@ Madama Leonora da Este.</salute>
             <l>Ma hora mi sovien dove l'ho posto,</l>
             <l>andia<expan>m</expan>, ch'io l'ho a man salva.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>A<expan>n</expan>diamo, <name>Orenio</name>,</l>
             <l>che del più ardito paio di mie' agnelli</l>
             <l>ti faccio don, se questo ha buon effetto.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Fatt'io la prova ho più di <num value="10">diece</num> volte.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>O, fosti per lo collo a un tronco appeso,</l>
             <l>Isposto a' corvi in solitario bosco.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Andiamo adunque, et non tardiam di gratia,</l>
             <l>che s'io soccorro lei con questo aiuto,</l>
@@ -2751,11 +2791,11 @@ Madama Leonora da Este.</salute>
             <l>ben sarà tigre, od orsa se poi nega</l>
             <l>di volermi accettar per suo compagno.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Con questo patto pria l'astrengeremo.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Fuor di proposto non mi par che sia.</l>
             <l>il ciel ne sia propitio, <name>Amor</name>', e <name>Pane</name>.</l>
@@ -2766,7 +2806,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA IV</hi>
           </head>
           <stage>Stellinia sola</stage>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Misera me, ch'io credea haver la lepre</l>
             <l>al veltro posta in bocca, et ne fia lungi</l>
@@ -2833,31 +2873,31 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA V</hi>
           </head>
           <stage>Carpalio. Turico</stage>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Considerando il mio gran mal, <name>Turico</name>,</l>
             <l>c'ho sofferto sin qui, render s<add>icuro</add></l>
             <l>ti puoi che 'n questo son per porr'ogn'opra</l>
             <l part="I">(che ch'ella sia) per amor tuo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Farai,</l>
             <l>gentil <name>Carpalio</name>, ad huom piacer cui tempo</l>
             <l>punto non leverà di rimembranza.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Se lei, <name>Turico</name>, aggiungo, et che sia sola,</l>
             <l>pensa pur ch'io farò ciò che tra noi</l>
             <l part="I">habbiam deliberato.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Va' pur via,</l>
             <l>ch'io farò al detto fonte ch'è qui appresso.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Non in tempo più commodo di questo</l>
             <l>poteva intravenir, c'hor non si vede</l>
@@ -2866,7 +2906,7 @@ Madama Leonora da Este.</salute>
             <l>di quella nimpha di <name>Diana</name>, astretta</l>
             <l>a porsi al gran contrasto del cinghiale.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>S'ella ne scampa, fia voler del cielo,</l>
             <l>ma non già per sua forza. Ma lasciamo</l>
@@ -2875,16 +2915,16 @@ Madama Leonora da Este.</salute>
             <l>che non troppo lontan quindi esser deve,</l>
             <l part="I">s'a quel pastor creder si dee.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="F">Gli è huomo</l>
             <l>da me fidel provato in ogni conto.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="I">Hor va', che là t'aspetto.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="F">Io vado, io vado.</l>
           </sp>
@@ -2894,7 +2934,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA VI</hi>
           </head>
           <stage>Carpalio solo</stage>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>O <name>Amor</name>, di quante cose sei cagione.</l>
             <l>Vedi come tu privi l'huom d'ingegno,</l>
@@ -2976,7 +3016,7 @@ Madama Leonora da Este.</salute>
             <hi rend="sc">SCENA VII</hi>
           </head>
           <stage>Stellinia. Satiro</stage>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Oimè, ch'è questo? Oimè, chi qui m'ha avinta?</l>
             <l>Chi è stato questo tristo? A questo modo?</l>
@@ -2988,85 +3028,85 @@ Madama Leonora da Este.</salute>
             <l>Deh, perché 'l ciel non manda qui un pastore</l>
             <l>che mi venga aiutar' a l'improviso?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Io sento lamentarsi fortemente,</l>
             <l>et mi par voce feminil. Se cieco</l>
             <l>non son, questa è una nimpha ch'è qui presa.</l>
             <l part="I">O caso strano.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">O satiro malvagio,</l>
             <l>O satiro crudele. Certo è stato</l>
             <l part="I">egli che m'ha qui avinta.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">O bella nimpha,</l>
             <l>chi è stato quel sì tristo et sì perverso</l>
             <l part="I">che qui t'avinse?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Se tu non sei stato,</l>
             <l>imaginar nol mi saprei giamai.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Non dir già questo, nimpha, ch'io non fui,</l>
             <l>et mi vergognerei far tale scherzo.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Se non sei stato tu, slegami adunque.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Slegarti? O, o, non sai ch'io son nimico</l>
             <l>di voi nimphe, che noi satiri tanto</l>
             <l part="I">havete 'n odio.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Slegami, di gratia.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Dammi il tuo nome.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Il mio nome è <name>Stellinia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I"><name>Stellinia</name>?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="M">Sì, <name>Stellinia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">A punto è dessa.</l>
             <l part="I">Dove è il tuo arco?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="M">Eccolo là.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Di tasso.</l>
             <l part="I">É questa.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Che vuoi far, di', del mio arco?</l>
           </sp>
           <pb n="F7r"/>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>O, o, che ne vuò far hora il saprai.</l>
             <l>Hoggi da me non sei per dipartirti,</l>
@@ -3074,31 +3114,31 @@ Madama Leonora da Este.</salute>
             <l>vuò giocar teco a singolar battaglia</l>
             <l>del modo che natura e <name>Amor</name> comanda.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Deh, slegami, et dopo ciò che tu vuoi</l>
             <l part="I">chiedemi, che l'havrai.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ciò, che t'ho detto</l>
             <l part="I">voglio, et non altro.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Io ti farò contento,</l>
             <l>ma slegami, di gratia, che le mani</l>
             <l>tutte son dormentate, né le sento.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Mi prometti di dar ciò che ti chieggio?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="I">Lo ti prometto, dico.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ecco, ti slego,</l>
             <l>ma guarda non fuggir, che ben tu sai</l>
@@ -3107,15 +3147,15 @@ Madama Leonora da Este.</salute>
             <l>donna ch'al mondo o in queste selve sia.</l>
             <l part="I">Sei slegata?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Sì sono, et ti ringratio.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Ogni promessa è debita.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Gli è 'l vero.</l>
             <l>Ma, satiro mio bel, satiro ornato,</l>
@@ -3127,71 +3167,71 @@ Madama Leonora da Este.</salute>
             <l>ardirei discoprirti quel che volle</l>
             <l>che 'n donna fosse la natura ascoso.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Io son contento far ciò che tu vuoi,</l>
             <l>pur che sicuro sia che tu non fugga.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Tien saldo questo lembo de la vesta,</l>
             <l>e tienlo stretto, se tu temi ch'io</l>
             <l>voglia ingannarti. Sei sicuro ancora?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>La vuò tener con ambedue le mani.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="I">Tu mostri di fidarti mal.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Parole.</l>
             <l>Horsù, veniamo al fin, vuoi tu abbendarmi?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="I">Sì voglio.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Horsù, di' pur, che vuoi ch'io faccia?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Corcati in terra ch'appo te mi corco</l>
             <l part="I">hor' hor' anch'io.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="M">Su corcati.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Horsù aspetta,</l>
             <l>oimè mi vuoi fiaccare? Aspetta alqua<expan>n</expan>to.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Non posso più aspettar.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Sei frettoloso,</l>
             <l>aspetta, dico, ch'io vuò prima dire</l>
             <l>certi miei preghi a <name>Venere</name> e a <name>Cupido</name></l>
             <l>perché buon fin nostro desio consegua.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Di' pur ciò che tu vuoi, purché sia breve.</l>
           </sp>
           <pb n="F8r"/>
           <stage>Mentre la nimpha dice le infrascritte parole, lega la sua sopravesta aperta dinanzi a un albero vicino.
 Et poi si parte pian piano.</stage>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l><name>Venere</name> bella, e tu, suo figlio <name>Amore</name>,</l>
             <l>concedete a' <num value="2">duo</num> amanti</l>
@@ -3200,7 +3240,7 @@ Et poi si parte pian piano.</stage>
             <l>(mentre scalda del sol l'ardente raggio)</l>
             <l>godino fresco e sempiterno maggio.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Hai tu finito? Di'? Tu non rispondi.</l>
             <l>O là, sei sorda? Dimmi, hai tu finito?</l>
@@ -3230,7 +3270,7 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA I</hi>
           </head>
           <stage>Satiro solo</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Io credo che costei si sia disfatta</l>
             <l>o che si sia conversa in fior o in fonte.</l>
@@ -3291,7 +3331,7 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA II</hi>
           </head>
           <stage>Stellinia. Satiro</stage>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Io non lo veggo, certo è andato altrove.</l>
             <l>Ah ah, rider conviemmi, questa bestia</l>
@@ -3299,12 +3339,12 @@ Et poi si parte pian piano.</stage>
             <l>che si credea ingannarmi. O gran peccato</l>
             <l part="I">ch'io non lo contentassi.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Vieni, vieni.</l>
             <l>Piglia la vesta, se tu vuoi ch'io rida.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Ma dov'è la mia vesta? Forse questo</l>
             <l>buffal per mio dispregio l'havrà tolta.</l>
@@ -3314,33 +3354,33 @@ Et poi si parte pian piano.</stage>
             <l>Ch'aggiunger non vi possa. O bella prova,</l>
             <l part="I">O bello scherno.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Senti, senti come</l>
             <l part="I">mi vitupera et morde.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">O, che vuol dire</l>
             <l part="I">che quest'albero è aperto?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Oimè, l'aguatto</l>
             <l part="I">discoprirà.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Costui nel salir forse</l>
             <l>qui sopra per lo peso l'ha schiantato</l>
             <l part="I">in <num value="2">due</num> parti.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Ha proposo ella et risciolto,</l>
             <l>più non temo. Su, spacciati e fa' tosto.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Ma non vuò star più qui, che la disgratia</l>
             <l>non rimenasse qui quell'animale,</l>
@@ -3349,11 +3389,11 @@ Et poi si parte pian piano.</stage>
             <l>Oimè son morta, oimè, oimè meschina.</l>
           </sp>
           <pb n="G2v"/>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ecco che 'l tordo è dato ne la pania.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>O satiro malvagio, oimè, di novo</l>
             <l>mi ci ha pur colta. Oimè, questo è un inganno</l>
@@ -3361,46 +3401,46 @@ Et poi si parte pian piano.</stage>
             <l>Oimè, da me non posso, oimè, il mio braccio.</l>
             <l part="I">O me infelice.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Sì tu vi sei giunta?</l>
             <l>A questo modo tu ti pigli gioco</l>
             <l>del fatto mio? Così i satiri inganni?</l>
             <l part="I">Perfida et disleale.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Oim?eschina</l>
             <l>Mi chiamo in colpa, oimè, di ciò c'ho fatto.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Colpa a tua posta.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Eh aiutami, ti prego.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Aiuto non havrai da me, ch'usarmi</l>
             <l part="I">non devevi tal' atto.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Oimè, l'amore</l>
             <l>de la mia castità questo volea.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>L'amor ne i dei maggior dev'esser sempre.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>La fede che già diedi al mio compagno</l>
             <l part="I">questo non richiedea.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">La fede c'hebbi</l>
             <l>inverso te quando ti diedi aiuto</l>
@@ -3413,19 +3453,19 @@ Et poi si parte pian piano.</stage>
             <l>"Metteti un velo a gli occhi." Tristarella,</l>
             <l part="I">sfacciata che tu se'.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Non son per trarre</l>
             <l>più da costui pietà, poic'ha sì in odio</l>
             <l part="I">il sesso feminil.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">L'ho in odio a punto</l>
             <l>che voi donne cagion sete, che l'huomo</l>
             <l>non habbia in questo mondo alcun riposo.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Perché, satiro mio, hai qualche sdegno</l>
             <l>d'altra cagion, sol per sfocarti contra</l>
@@ -3435,35 +3475,35 @@ Et poi si parte pian piano.</stage>
             <l>forse ti roderai, et d'haver detto</l>
             <l>contra noi cosa che sia men che degna.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Favole.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Eh dammi, satiro gentile,</l>
             <l>aiuto, che vedrai ch'a servir donna</l>
             <l>non si può perder mai, anzi s'acquista.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Di' pur ciò che tu vuoi.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="M">Deh, dammi aiuto.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Deh sì, per Dio.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>E se poi non ti faccio</l>
             <l>contento, d'ogni morte fammi rea.</l>
           </sp>
           <pb n="G3v"/>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l>Ma che? Havendo costei ne le mie forze,</l>
             <l>per suo maggior dispregio, per l'inganno</l>
@@ -3471,7 +3511,7 @@ Et poi si parte pian piano.</stage>
             <l>senza riguardo haver' a l'honor suo,</l>
             <l part="I">adempir le mie voglie?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Oimè meschina.</l>
           </sp>
@@ -3481,12 +3521,12 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA III</hi>
           </head>
           <stage>Turico. Satiro. Stellinia</stage>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Oimè, che fa quel satiro malvagio</l>
             <l part="I">qui d'intorno a <name>Stellinia</name>?</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Pensa pure</l>
             <l>che mi vuò contentar senza aiutarti,</l>
@@ -3496,66 +3536,66 @@ Et poi si parte pian piano.</stage>
             <l>con qualche inganno qui mi troverei</l>
             <l>deluso. Non mai più mi fido in donna.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="I">Oimè meschino.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="M">Ai povera <name>Stellinia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="F">Sì tu piangi?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Ai rubaldo, comportarti</l>
             <l part="I">debbo io questo giamai?</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Aiuto, aiuto.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Gli è tempo homai. O là, <name>Silvan</name>, <name>Dametha</name>,</l>
             <l><name>Carpalio</name>, su, pastori, su, correte.</l>
             <l>Oimè, la mia <name>Stellinia</name>, adosso, adosso.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Oimè rotto è 'l disegno.</l>
           </sp>
           <pb n="G4r"/>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Dalli, dalli.</l>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker>Satiro</speaker>
             <l part="I">Tempo non è di star più qui.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Tu fuggi.</l>
             <l>Non dubitar, <name>Stellinia</name>, io son <name>Turico</name>,</l>
             <l>Ch'a tempo e ad hora ti può dar le mani.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>O <name>Turico</name> gentil, gentil <name>Turico</name>,</l>
             <l>deh, se calti di me, dammi soccorso</l>
             <l>ch'ad altro effetto il ciel qui non ti spinse.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Ecco ch'io vuò aiutarti, tu fa poi</l>
             <l>ciò che ti piace: assai mi basta ch'io</l>
             <l>ti mostri l'amor mio tanto più verde</l>
             <l>quanto fu il tuo ver me sempre più secco.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Quando potrò giamai, anima mia,</l>
             <l>conforto mio, di questo sì bel merto</l>
@@ -3563,18 +3603,18 @@ Et poi si parte pian piano.</stage>
             <l>mi concedesser di <num value="1000">mill</num>'anni vita,</l>
             <l>renderti il guiderdon mai non potrei.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>O giorno aventuroso, o giorno lieto,</l>
             <l>tanto più accetto quanto men pensato.</l>
             <l>Ecco la vesta tua, ecco ogni cosa.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Aiutami, <name>Turico</name>, a rivestire,</l>
             <l part="I">ch'io non ho forza.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Che? Ti duole? Lascia</l>
             <pb n="G4v"/>
@@ -3586,7 +3626,7 @@ Et poi si parte pian piano.</stage>
             <l>nol mi negar, poich'ogni tuo scontento</l>
             <l>m'annoia e ogni piacer tuo mi diletta.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l><num value="2">Due</num> volte, anima mia, qui in picciol tempo</l>
             <l>son con <num value="2">due</num> scorni stata avinta et presa.</l>
@@ -3597,7 +3637,7 @@ Et poi si parte pian piano.</stage>
             <l>sol perch'a lui di me copia non feci</l>
             <l>alhor che m'aiutò, legata essendo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>O bella cosa s'io vi fossi stato.</l>
             <l>Ma il tristo ha havuto ardir di farti oltraggi</l>
@@ -3607,11 +3647,11 @@ Et poi si parte pian piano.</stage>
             <l>nel camin ritenuto, i' giungea a tempo.</l>
           </sp>
           <pb n="G5r"/>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Ma chi è questo pastor che 'n qua ne viene?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Quest'è <name>Carpalio</name> mio, pastor cortese,</l>
             <l>qual satio di lodar non sarò mai.</l>
@@ -3622,7 +3662,7 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA IV</hi>
           </head>
           <stage>Carpalio. Turico</stage>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Ho sentito gridar' ad alta voce</l>
             <l>e mi parea <name>Turico</name>. Ma lo veggio</l>
@@ -3634,24 +3674,24 @@ Et poi si parte pian piano.</stage>
             <l>Prospera il ciel conservi questa copia</l>
             <l>et le lor greggie ognhor felici accresca.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Di simil gratia ancor te parimente</l>
             <l>faccia il ciel degno, poiché tu lo merti.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Tra me godo, <name>Turico</name>, sommamente</l>
             <l>sol per tuo amor, poiché sì ben condussi</l>
             <l>la lepre al varco ch'è rimasa presa.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Sopra questo con teco un'altra volta</l>
             <pb n="G5v"/>
             <l>vuò ragionar, un caso, o se sapesti.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Basta, quanto tu vuoi. Ecco <name>Melidia</name>,</l>
             <l>et par sì mesta et sconsolata in viso.</l>
@@ -3664,7 +3704,7 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA V</hi>
           </head>
           <stage>Melidia. Carpalio. Turico. Stellinia</stage>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>O cieco mondo, o pien d'inganni <name>Amore</name>,</l>
             <l>tu m'hai pur presa come pesce a l'hamo.</l>
@@ -3674,11 +3714,11 @@ Et poi si parte pian piano.</stage>
             <l>che mio fratel dar mi potria quand'egli</l>
             <l>sappia la cosa come stia tra noi.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Come senza ragion sospira et geme.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Se ben dirò ch'un satiro selvaggio</l>
             <l>(com'anco quasi inver m'è 'ntravenuto)</l>
@@ -3686,48 +3726,48 @@ Et poi si parte pian piano.</stage>
             <l>come spogliate siamo, altro di buono</l>
             <l>in noi non resta, creder non vorrallo.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="I">O, come teme.</l>
           </sp>
           <pb n="G6r"/>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="F">A posta mi son tolta</l>
             <l>di casa, ch'io non vuò la sua fierezza</l>
             <l>aspettar sola, io vuò cercar <name>Carpalio</name>,</l>
             <l>con cui sicura son per star mai sempre.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="I"><name>Melidia</name>, o là, <name>Melidia</name>.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="F">Chi mi chiama?</l>
             <l>O il mio <name>Carpalio</name>, di mia vita vero</l>
             <l>sostegno, ne le braccia tue mi pongo.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Che vuol dir questo? Di che cosa hai tema?</l>
             <l>Onde procedon queste tue querele?</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>O quanto poco è per durar' il nostro</l>
             <l>dolce piacer' e 'l nostro bel diletto.</l>
             <l>Oimè, ch'io temo del fratel mio crudo</l>
             <l>l'aspre minaccie et la vendetta horrenda.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Non dubitar, conforto mio, non darmi</l>
             <l>questo sì mal contento, te ne prego,</l>
             <l>che sì afflitta vedendoti non lasci</l>
             <l>ch'io prenda alcun piacer del mio conforto.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Quando l'huom pensa haver la rota in mano,</l>
             <l>e a suo bel grado di girarla crede,</l>
@@ -3737,13 +3777,13 @@ Et poi si parte pian piano.</stage>
             <l>Io mi credea <name>Carpalio</name> il più felice</l>
             <l>pastor del mondo, ed hor non mi par desso.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Deh, che farem <name>Carpalio</name>? Oimè, <name>Carpalio</name></l>
             <l>dammi conforto, ch'io mi sento l'alma</l>
             <l>venir' a meno et liquefarsi il core.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Non dubitar, non dubitar, <name>Melidia</name>,</l>
             <l>che se per te bisognerà ch'esponga</l>
@@ -3751,21 +3791,21 @@ Et poi si parte pian piano.</stage>
             <l>pronta sarà. Deh, lascia il porti affanno.</l>
             <l>Lascia questi sospir, questi singulti.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Tutta mi sento alleggerita et scarca</l>
             <l>poi che son ritornata al mio <name>Turico</name>,</l>
             <l>che pria parea che su le spalle havessi</l>
             <l>il mondo, et mi piegasse insino in terra.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Ti veggio, il mio <name>Carpalio</name>, in gran fastidio.</l>
             <l>La cagione non so, la cerco meno,</l>
             <l>ma se per te convien mia vita isporre,</l>
             <l>comandami, che pronto sarò sempre.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Non accade, <name>Turico</name>, io ti ringratio.</l>
             <l>Questa piaga non è cui uopo sia</l>
@@ -3774,7 +3814,7 @@ Et poi si parte pian piano.</stage>
             <l>il tuo fratel, con questo legno il tolgo</l>
             <l>(purché tu vogli) hor hor di questa vita.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Oimè, debbo io del sangue mio medesimo</l>
             <l>(ch'a un tempo nati siamo) divenire</l>
@@ -3784,13 +3824,13 @@ Et poi si parte pian piano.</stage>
             <l>la madre, i suoi fratelli et le sorelle.</l>
             <l>Muoia pur egli, et viviam lieti noi.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Ben fe natura a non dar forze a donna</l>
             <l>che invitta e' inespugnabil saria sempre.</l>
             <l>Ma chi è costui che vien sì lieto in viso?</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Gli è <name>Ophelio</name> nostro, che credea di porne</l>
             <l>in bel giardino e 'n selva oscura siamo.</l>
@@ -3801,7 +3841,7 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA VI</hi>
           </head>
           <stage>Ophelio. Carpalio. Melidia. Turico. Stellinia</stage>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Dove potrò trovar <name>Carpalio</name> mio?</l>
             <l>Dove <name>Melidia</name> da me tanto amata?</l>
@@ -3809,67 +3849,67 @@ Et poi si parte pian piano.</stage>
             <l>questa (come mi credo) grata nova.</l>
           </sp>
           <pb n="G7v"/>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Senti, <name>Melidia</name>, il nostro vecchio <name>Ophelio</name>,</l>
             <l>che noi cercando va con buona nova.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="I">Chiamiamilo.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Non credo che più a tempo</l>
             <l>cosa sì grata ad huom avenir possa.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="I"><name>Ophelio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Io ne ringratio il sommo <name>Giove</name></l>
             <l>c'ha morto un sol per conservarne <num value="2">duoi</num>.</l>
             <l>Benché morto non è, pur come morto</l>
             <l>starà da noi lontan qualch'anno intiero.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="I"><name>Ophelio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="M">Chi mi chiama?</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="F">Il tuo <name>Carpalio</name></l>
             <l>et la <name>Melidia</name> tua, che te più a petto</l>
             <l part="I">han che la vita lor.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F"><name>Carpalio</name> mio,</l>
             <l><name>Melidia</name> mia, che nova, o Dio, che nova</l>
             <l part="I">v'apporto a l'improviso.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">Su, <name>Stellinia</name>,</l>
             <l>andiamo ancora noi a udir tal nova,</l>
             <l>che rallegrar mi possa con <name>Carpalio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l>Non ascoltiam, <name>Turico</name>, e fatti loro.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>E perché no, s'amici siam? Venite.</l>
             <l part="I">Che nova è questa?</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Il tuo fratel, <name>Melidia</name>,</l>
             <l>mentre stava a mirar intento il porco</l>
@@ -3894,43 +3934,43 @@ Et poi si parte pian piano.</stage>
             <l>in questo mezo vi potrete dire</l>
             <l>i più felici giovani del mondo.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Ben v'ha provisto il cielo, c'havevamo</l>
             <l>dat'ordine levarli hoggi la vita.</l>
           </sp>
-          <sp>
+          <sp who="#meledia">
             <speaker>Meledia</speaker>
             <l>Dunque ha da ritornar dopo <num value="9">nov</num>'anni</l>
             <l part="I">huomo com'era prima?</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Sì, purch'egli</l>
             <pb n="G8v"/>
             <l>non gusti, com'ho detto, carne humana,</l>
             <l>mentre lupo starà tra gli altri in schiera.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Oimè, saran pur pochi sol <num value="9">nov</num>'anni.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Non dubitar, ch'egli potria fra tanto</l>
             <l>giunger' al fin de la sua trista vita.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l part="I">Io stupisco del caso.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="F">Et io, <name>Melidia</name>,</l>
             <l>non so se questo sogno o desto senta</l>
             <l part="I">narrarmi.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">O voi felici, o gratia rara.</l>
             <l>Non so per amor vostro ch'io mi voglia,</l>
@@ -3939,22 +3979,22 @@ Et poi si parte pian piano.</stage>
             <l>sentia che 'n <num value="1000">mille</num> pezzi era diviso,</l>
             <l>sì come tra più veltri è un picciol lepre.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l><name>Carpalio</name>, mi rallegro del tuo bene,</l>
             <l>che sì insperatamente ti è avenuto.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Ben possiam dir, <name>Turico</name>, hoggi che 'l cielo</l>
             <l>ci ha rimenati a nova vita al mondo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Senti, senti, <name>Carpalio</name>, ecco qui <name>Erasto</name></l>
             <l part="I">che sospirando viene.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">Ecco 'l crudele</l>
             <l>ch'al fin non vien d'alcun contento suo.</l>
@@ -3966,32 +4006,32 @@ Et poi si parte pian piano.</stage>
             <hi rend="sc">SCENA VII</hi>
           </head>
           <stage>Erasto. Ophelio. Carpalio. Turico</stage>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Che vuoi tu far più in questo mondo, <name>Erasto</name>,</l>
             <l>poich'ogni stella a' tui disegni è contra?</l>
             <l>Che mi puoi far più, <name>Amor</name>? C'hai che tu serbi,</l>
             <l>che sia per darmi maggior duol di questo?</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Ecco, chi lieto in su la rota siede</l>
             <l>in questo mondo et chi nel basso cade.</l>
             <l>Questo pastor' al mio giuditio ha cosa</l>
             <l>che lo tormenta quanto dir si possa.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ai fortuna malvagia, ai fero <name>Amore</name>,</l>
             <l>o <name>Amor</name> malvagio, o instabil dea, o dea</l>
             <l>ch'a un colpo hai tronco ogni disegno mio.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Tu che 'l più vecchio sei, chiamalo, <name>Ophelio</name>,</l>
             <l>e offerisce di noi l'opra, s'è buona.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Gentil pastor, che 'n questi boschi hai preso</l>
             <l>così solingo aspro sentier da <num value="1000">mille</num></l>
@@ -4002,7 +4042,7 @@ Et poi si parte pian piano.</stage>
             <l>dimmi, se dir si può, questa sì horrenda</l>
             <l>cagion che di tal duol ti fa sì pieno.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Saggio pastor, più non convien ch'io dica</l>
             <l>l'alte querele e i gran sospiri e pianti</l>
@@ -4016,12 +4056,12 @@ Et poi si parte pian piano.</stage>
             <l>contra un crudel cinghial postole 'n contro</l>
             <l part="I">da la dea <name>Diana</name>.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l part="F">Anzi sì. sciolla,</l>
             <l>e so ch'ella è rimasa vincitrice.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Però questo è cagion ch'io vuò con questo</l>
             <l>dardo darmi nel cor con le mie mani;</l>
@@ -4038,14 +4078,14 @@ Et poi si parte pian piano.</stage>
             <l>l'he prima havea contro costei</l>
             <l>tutto ha converso in più fervente amore.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Non suol <name>Diana</name> già rimetter l'</l>
             <l>a chi l'e una sol volta; sai</l>
             <l>tu di certo che gratia habbia et pietà</l>
             <l>costei trovata appresso la reina?</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Non lo vuò già affermar, ma ben vuò dirti</l>
             <l>ch'i me n'to alcun inditio,</l>
@@ -4057,26 +4097,26 @@ Et poi si parte pian piano.</stage>
             <l>mi son partito, e ciò ch''a,</l>
             <l>ancor non so, ma temo sia in mio danno.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Ancor non sai, come la cosa passi</l>
             <pb n="H2v"/>
             <l>et già ti tieni più che disperato.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ai, s'essi, s'essi contra</l>
             <l>pormi a <name>Diana</name>, o che farei. O mondo,</l>
             <l>mi sei pur stato sepoltura eterna.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Che vuoi tu far, poi che così a la dea</l>
             <l>piace: ben sai che contra i dei non ponno</l>
             <l>le forze humane, però ti consiglio</l>
             <l>A lasciar questa impresa.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Ai che co<expan>n</expan>siglio?</l>
             <l>Ai maledetto <name>Amor</name> cieco et nefando,</l>
@@ -4084,34 +4124,34 @@ Et poi si parte pian piano.</stage>
             <l>m'stri i lieti fiori et gli arbuscelli,</l>
             <l>ch'e et spine ha poi nel fin'e.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Non por la cosa tanto disperata,</l>
             <l>che forse ancor potresti haver un giorno</l>
             <l>da lei qualche conforto: il ciel sa fare,</l>
             <l>fratello, quando vuol, mirabil cose.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Chi è questo vecchio sì felice al mondo,</l>
             <l>al par di cui vien così bella nimpha?</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Questa è la nimpha mia, questa è colei</l>
             <l>che lo stame a mia vita accorcia et slunga.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Se ti bisogna aiuto o di parole</l>
             <pb n="H3r"/>
             <l>o d' qui per te son preparato.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l> part="I"&gt;E noi tutti altri.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="F">Stiamo qui in disparte</l>
             <l>et ascoltiamo et, come 'o è buono</l>
@@ -4124,20 +4164,20 @@ Et poi si parte pian piano.</stage>
           <head><hi rend="sc">SCENA VIII</hi> et ultima.</head>
           <stage>Callinome. Orenio. Erasto. Turico. Ophelio.
 Stellinia. Carpalio. Melidia</stage>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Non si può inver dir'mente ch'</l>
             <l>fosti accorti et prudenti in darmi quello</l>
             <l>sì degno et salutifero secreto,</l>
             <l part="I">ch'alcun non se n'avide</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Ben più saggia</l>
             <l>fosti tu, nimpha, in dar quel velo in pegno</l>
             <l part="I">al giovinetto <name>Erasto</name>.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="F">Io credea bene,</l>
             <l>che <name>Diana</name> dopo sì gran vittoria</l>
@@ -4147,12 +4187,12 @@ Stellinia. Carpalio. Melidia</stage>
             <pb n="H3v"/>
             <l>pur un sol punto, che mai non perdona.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Che volontà ti venne di venire</l>
             <l part="I">hoggi a que'i sacrifici?</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="F">Causa</l>
             <l>ne fu quella <name>Stellinia</name>, che 'me</l>
@@ -4163,35 +4203,35 @@ Stellinia. Carpalio. Melidia</stage>
             <l>odor de l' e alhor disio mi venne</l>
             <l part="I">stato è cagion.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Deh dimmi, che pensiero</l>
             <l>è ' poi che <name>Diana</name> ti rifiuta?</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>Andiamo tutti insieme e siate meco</l>
             <l>in volgerla, accadendo, che mi tolga</l>
             <l part="I">per suo co<expan>m</expan>pagno.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="F">Oimè, che turba è questa?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="I">Non dubitar.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l part="M">Oimè.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="F">No<expan>n</expan> hai temuto</l>
             <l>un sì forte cinghiale, e temi hor noi?</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l><name>Erasto</name>, vieni innanzi et hor contempla</l>
             <l>quanto tu vuoi la tua leggiadra nimpha.</l>
@@ -4229,7 +4269,7 @@ Stellinia. Carpalio. Melidia</stage>
             <l>simil' parole, ma ben veggio</l>
             <l>che la tua buona volontà nol chiede.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>O, quant' tengo con costui.</l>
             <l>Non le hai pur detto, <name>Orenio</name>, come ricco</l>
@@ -4237,12 +4277,12 @@ Stellinia. Carpalio. Melidia</stage>
             <l>et di greggie et d'i et d'beni,</l>
             <l part="I">ch'reder nol vuol.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l part="F">Si fa tuo conto</l>
             <l>ch'ol dee saper sì ben com'</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Quanto forza d'<name>Amor</name> sia grande et forte</l>
             <l>ne la persona mia fatt'prova,</l>
@@ -4255,13 +4295,13 @@ Stellinia. Carpalio. Melidia</stage>
             <l>Ma tu, <name>Stellinia</name>, principal cagione</l>
             <l part="I">d'osa sei stata.</l>
           </sp>
-          <sp>
+          <sp who="#stellinia">
             <speaker>Stellinia</speaker>
             <l part="F">É stato pure</l>
             <l>lo tuo sprezzar <name>Amor</name> che t'uto</l>
             <l>hoggi mostrar quanto sua forza vaglia.</l>
           </sp>
-          <sp>
+          <sp who="#callinome">
             <speaker>Callinome</speaker>
             <l>Horsù lasciam da parte tai parole.</l>
             <l><name>Erasto</name>, poiché tu fosti cagione</l>
@@ -4269,15 +4309,15 @@ Stellinia. Carpalio. Melidia</stage>
             <l>ti diedi in pegno, ti vuò far contento,</l>
             <l>et in segno di ciò questo è l'o.</l>
           </sp>
-          <sp>
+          <sp who="#ophelio">
             <speaker>Ophelio</speaker>
             <l>Ha perduta la voce d'ezza.</l>
           </sp>
-          <sp>
+          <sp who="#melidia">
             <speaker>Melidia</speaker>
             <l>Tutta mi sento lieta per suo amore.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l>O dilettevol giorno, o giorno ameno.</l>
             <l>Ridono i prati, le campagne e i fiori,</l>
@@ -4292,37 +4332,37 @@ Stellinia. Carpalio. Melidia</stage>
             <pb n="H5v"/>
             <l>ove festa farem con canti e suoni.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>Venite pur voi tutti al mio, che sorte</l>
             <l>a me non men ch6apos,a te stata è propitia</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Anzi, con me venir non vi sdegnate,</l>
             <l>che di sorte miglior' non ciedo.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Horsù, così si faccia. Hoggi noi tutti</l>
             <l>andiamo con <name>Erasto</name>, et con <name>Carpalio</name></l>
             <l>domani, et dopo andremo con <name>Turico</name>.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="I">Così è conchiuso?</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l part="M">E così sia.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="F">E sia.</l>
             <l>O il mio gentil'<name>Orenio</name>, la mia vita</l>
             <l>e ciò ch'e; mio, vuò che sia tuo per sempre.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Deh, poiché qui è <name>Carpalio</name> e 'hio <name>Orenio</name>,</l>
             <l>la mia <name>Stellinia</name> e 'uoso <name>Erasto</name>,</l>
@@ -4330,22 +4370,22 @@ Stellinia. Carpalio. Melidia</stage>
             <l>il primo loco, una canzone in lode</l>
             <l>di sì felice giorno andiam cantando.</l>
           </sp>
-          <sp>
+          <sp who="#erasto">
             <speaker>Erasto</speaker>
             <l part="I">Egli è 'r, cantiamo pur.</l>
           </sp>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l part="F">Cantiamo.</l>
             <l>Ma tu, <name>Turico</name>, c'oposo, dinne</l>
             <l>pria la canzon che vuoi che noi cantiamo.</l>
           </sp>
-          <sp>
+          <sp who="#turico">
             <speaker>Turico</speaker>
             <l>Io son contento, horsù, poiché a voi piace.</l>
           </sp>
           <pb n="H6r"/>
-          <sp>
+          <sp who="#carpalio">
             <speaker>Carpalio</speaker>
             <l>O dei silvestri, s'ui d'o</l>
             <l>è stato a udir le nostre fiamme vive</l>
@@ -4355,7 +4395,7 @@ Stellinia. Carpalio. Melidia</stage>
             <l>danzando in lieto corno,</l>
             <l>si sdegni d'r così bel giorno.</l>
           </sp>
-          <sp>
+          <sp who="#orenio">
             <speaker>Orenio</speaker>
             <l>Andiam, non più, che l'de la notte</l>
             <l>qui non ci sovraggiunga. E voi, madonne,</l>

@@ -77,6 +77,64 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="cleopatra">
+            <persName>Cleopatra</persName>
+          </person>
+          <person xml:id="nutrice">
+            <persName>Nutrice di Cleopatra</persName>
+          </person>
+          <person xml:id="famigliare">
+            <persName>Famigliar di Cleopatra</persName>
+          </person>
+          <person xml:id="marco_antonio">
+            <persName>Marco Antonio</persName>
+          </person>
+          <person xml:id="capitano">
+            <persName>Capitano di Marco Antonio</persName>
+          </person>
+          <person xml:id="servo">
+            <persName>Servo di Marco Antonio</persName>
+          </person>
+          <person xml:id="cameriera">
+            <persName>Cameriera di Cleopatra</persName>
+          </person>
+          <person xml:id="eunuco">
+            <persName>Eunuco di Cleopatra</persName>
+          </person>
+          <person xml:id="coro">
+            <persName>Coro</persName>
+          </person>
+          <person xml:id="secretario">
+            <persName>Segretario di Cleopatra</persName>
+          </person>
+          <person xml:id="ottavio">
+            <persName>Ottavio</persName>
+          </person>
+          <person xml:id="agrippa">
+            <persName>Agrippa</persName>
+          </person>
+          <person xml:id="mecenate">
+            <persName>Mecenate</persName>
+          </person>
+          <person xml:id="alfiere">
+            <persName>Alfier del General di Ottavio</persName>
+          </person>
+          <person xml:id="olimpo">
+            <persName>Olimpo</persName>
+          </person>
+          <person xml:id="proculeio">
+            <persName>Proculeio</persName>
+          </person>
+          <person xml:id="gallo">
+            <persName>Gallo</persName>
+          </person>
+          <person xml:id="sacerdote">
+            <persName>Sacerdote di Cleopatra</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>2003-05-06T00:00:00.000+02:00</date><name>Simona Sansavini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -163,8 +221,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">LE PERSONE CHE PARLANO.</hi>
           </head>
-          <castItem type="role">
-            <role>Cleopatra, Reina.</role>
+          <castItem type="role"><role>Cleopatra</role>, <roleDesc>Reina</roleDesc>.
           </castItem>
           <castItem type="role">
             <role>Ottavio.</role>
@@ -297,14 +354,14 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <hi rend="sc">SCENA PRIMA</hi>
           </head>
           <pb n="7"/>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Lassa, dove più mai debbo piegare</l>
             <l>L'afflitta mente mia? mi trovo tanto</l>
             <l>Da la Fortuna combattuta, ch'io</l>
             <l>Non so a che più sperare in cosa alcuna.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Reina mia, queste mortali cose</l>
             <l>Non rimangono sempre in uno stato,</l>
@@ -317,7 +374,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Avete avuta la Fortuna, lieta</l>
             <l>Vi devete sperar di averla ancora.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Così seconda un lungo tempo sempre</l>
             <l>Avuta l'ho, così felice, ch'io</l>
@@ -325,12 +382,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E quanto mi alzò al sommo de la ruota,</l>
             <l>Tanto mi cacci indegnamente al fondo.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>E che cosa è, ch' ora temer vi faccia,</l>
             <l>Che vi sia sì nimica la Fortuna?</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ohimé, dapoi che <name>Marco Antonio</name>, e <name>Ottavio</name></l>
             <l>Vennero a la battaglia con le navi,</l>
@@ -358,7 +415,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ma prima cacciar vo' del corpo l'alma,</l>
             <l>Ch'a vergogna sì vil condotta io sia.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Che stran pensier vi turba, ohimé, la mente?</l>
             <l>Sete come colui, che in campo viene</l>
@@ -378,7 +435,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Però, senza più affliggervi, vi piaccia</l>
             <l>Voler veder de la battaglia il fine.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Non può quegli sperar lieto successo,</l>
             <l>Che si vede Fortuna ognor contraria,</l>
@@ -395,7 +452,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Spesso è cagion, che quel, che non potero</l>
             <l>Molti soldati fare, il fanno pochi.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Rimaner vi dee pur, Reina, a mente</l>
             <l>Quel, ch'udito da lui più volte avete</l>
@@ -414,17 +471,17 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E s'allor vinse, perche non debbiamo</l>
             <l>Pensar che vincitore ora anche resti?</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>De la perdita, ohimé, mi dier gli Dei</l>
             <l>Cara nutrice, allora indizio espresso</l>
             <l>Ch'egli l'armata contra <name>Ottavio</name> mosse.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>E ch'indizio fu quel, ch'or sì v'affligge?</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Aveano alcune rondinelle il nido</l>
             <l>Per molti giorni fatto in quella nave,</l>
@@ -437,7 +494,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l><name>Nutrice</name> mia, ch'al fin sarà scacciato</l>
             <l>Di questo regno, chi or possiede il regno.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Se i regni si perdessero ogni volta,</l>
             <l>Che fan guerra fra lor gli augei, <name>Reina</name>,</l>
@@ -449,7 +506,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Questo sospetto, e fia gran senno omai</l>
             <l>Ad altro dare il cor, ch'a le querele.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Forza è, ch'al lamentar si dia colei,</l>
             <l>Che non si vede innanzi altro che pianto,</l>
@@ -461,13 +518,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Udrai s' avrò cagion di pianger sempre.</l>
             <l part="I">Vo' che qui l'aspettiam.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Come vi piace.</l>
             <l>E prego Dio, che questo timor vostro</l>
             <l>Abbia tal fin, che ne restiate lieta.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Come esser puote ciò, se congiurate</l>
             <l>Sono contra di me nel ciel le stelle?</l>
@@ -477,7 +534,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SECONDA</hi>
           </head>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l>Miser colui, cui la Fortuna volta</l>
             <l>Le spalle, e gli si mostra aspra nemica,</l>
@@ -510,12 +567,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Molti altri, e molti a le scelerate opre,</l>
             <l>Il che si vede chiaro in questa guerra.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Molto afflitto si mostra questi in atto,</l>
             <l>Né altro aspettar da lui posso ch'affanno.</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l>Col mal officio, ch'ha fatto costui,</l>
             <l>A la ruina nato de l'<name>Egitto</name>,</l>
@@ -538,12 +595,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Contra <name>Alessandria</name><name>Ottavio</name>, e a la reina</l>
             <l>Nostra, e al regno porta ultimo eccidio.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Veggo, nutrice mia, quanto infelice</l>
             <l part="I">Novella apporta questi.</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l part="F">O poverella,</l>
             <l>O poverella <name>Cleopatra</name>, a che ora</l>
@@ -557,21 +614,21 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Allor, misera te, fu la ruina</l>
             <l>De te medesmo, e del tuo regno espressa.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Starai a veder, che <name>Marco Antonio</name> in questa</l>
             <l>Battaglia è stato vinto, e preso, e morto.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="I">Forse che no.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra </speaker>
             <l part="F">Io veggo bene quanto</l>
             <l>Dolente vien costui verso la corte.</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l>Ma vedi com'a un tratto, avrà perduto</l>
             <l>Questa reina <name>Marco Antonio</name> e il regno.</l>
@@ -580,13 +637,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Del suo nemico, si pensò che fusse</l>
             <l>Cleopatra cagion del tradimento.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Io non posso soffrir tanta dimora,</l>
             <l>Andiamo a lui, nutrice. Che novella</l>
             <l part="I">Porti dal campo?</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l part="F">La peggior, Reina,</l>
             <l>Che si possa portare a real donna.</l>
@@ -595,7 +652,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vincitor vien verso la terra armato,</l>
             <l part="I">Per far preda di voi.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ohimé dolente,</l>
             <l>Bene il cor mi dicea, che ciò sarebbe,</l>
@@ -605,36 +662,36 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Meno la sorte buona, ei riman solo.</l>
             <l>Ma, dimmi, è vivo <name>Marco Antonio</name>? o morto?</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l>Egli vivo è ma sciocchezza è che in lui</l>
             <l part="I">Poniate alcuna speme.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ch'è egli forse</l>
             <l part="I">Ne le mani di <name>Ottavio</name>?</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l part="F">Egli è pur salvo.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ma perché in lui non debb'io por più speme,</l>
             <l part="I">S'egli salvo è?</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l part="F">Perché per capitale</l>
             <l part="I">Nemica vi ha.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Per capital nemica</l>
             <l part="I">Mi ha <name>Marco Antonio</name>? che ne sai tu?</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliare</speaker>
             <l part="F">Tosto</l>
             <l>Che si vide tradir da' suoi soldati</l>
@@ -647,12 +704,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Tutta la gente, che mi avevi data,</l>
             <l>Perch' io rimanga del nemico preda.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Che strano guiderdon del vostro amore</l>
             <l part="I">Avete, ohimè, Reina.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Questo a punto</l>
             <l><name>Nutrice</name> è la mercede, che la ria <gap/></l>
@@ -664,7 +721,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           </head>
           <stage>Marco Antonio, Servo, Capitano.</stage>
           <pb n="15"/>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Io non voglio,</l>
             <l>Fedel mio, andar in man d'<name>Ottavio</name> vivo,</l>
@@ -672,7 +729,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l><name>Cassio</name> già me 'l mostrò, me 'l mostrò</l>
             <l><name>Bruto</name>.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Ne vo' che morte anche vi diate, questi</l>
             <l>Non son pensier, Signor, degni di voi.</l>
@@ -681,7 +738,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E che non goda <name>Ottavio</name> di vedere,</l>
             <l>Che noi ci diamo, da noi stessi, morte.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Ahi fedel mio, quanto sarei sciocco ora,</l>
             <l>S'io pensassi poter ricuperare</l>
@@ -695,7 +752,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Et a trastull' esser de la ria Fortuna,</l>
             <l>Che contra me s'è per <name>Ottavio</name> armata.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Signor, sì come non si inalza il saggio</l>
             <l>Per le felicità più che convenga</l>
@@ -713,7 +770,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E che, col valor vostro, anche potreste</l>
             <l>Ottavio indurre a battersi la guancia.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Sciocco colui, che nel fondo del mare</l>
             <l>Si trova nudo, e d'ogni forza privo,</l>
@@ -721,7 +778,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E che giunto a l'estremo de la vita,</l>
             <l>Pensa di ricovrar la sua salute.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Prego, Signore, che per certo abbiate,</l>
             <l>Che insin che voi non perderete voi,</l>
@@ -751,7 +808,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Si acquista pregio anche ne' casi estremi,</l>
             <l>Malgrado che se n'abbia la Fortuna.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Avuto ho del futur io chiaro segno,</l>
             <l>Insino nel principio de la guerra,</l>
@@ -768,7 +825,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Presidio alcun divin, presidio umano,</l>
             <l>Che debbo io altro bramar, che morir tosto?</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Questa non è, Signor, la prima volta,</l>
             <l>Che dato vi ha crudel Fortuna assalto,</l>
@@ -805,11 +862,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vi vegga anche pregiato e grande morto,</l>
             <l>In questa indignità de la fortuna.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Non so, non so, come ciò far si possa.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Stringianci insieme a l'ultimo bisogno,</l>
             <l>Signore invitto, e con la spada in mano</l>
@@ -835,7 +892,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Destra di valor pegno, e di fortezza,</l>
             <l>A far del sangue ostil l'erbe vermiglie.</l>
           </sp>
-          <sp>
+          <sp who="#servo">
             <speaker>Servo</speaker>
             <l>Signor, ben vi consiglia il <name>Capitano</name>,</l>
             <l>E quantunque io sia servo, e molto toglia</l>
@@ -847,7 +904,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che lasciate or questo disio di morte,</l>
             <l>E vi accostiate al suo fedel consiglio.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>In tanto dubbio son di me medesmo,</l>
             <l>Che meglio del morir non so vedere.</l>
@@ -862,7 +919,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>In allegrezza: ora attendiamo insieme,</l>
             <l>Che novelle ci apporta questa vecchia.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Dio voglia, che non sia la secure</l>
             <l>Che gli levi dal collo, a un colpo, il capo,</l>
@@ -875,17 +932,17 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SESTA</hi>
           </head>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Ahi quanto invidiosa è la Fortuna</l>
             <l>De le allegrezze umane! Quanto fele</l>
             <l>Pone costei ne le dolcezze altrui!</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Ahi che mal m'indovino.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>O <name>Cleopatra</name>,</l>
             <l>Or dove son le tue virtuti? Or dove</l>
@@ -899,46 +956,46 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Dir, che ti aver colei tradito, a cui</l>
             <l>Eri più a cor, che la sua propria vita?</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Io mi sento uscir fuor del corpo l'alma,</l>
             <l>Io vo' saper, che lamentare è questo,</l>
             <l>Poi che par, che costei di me si doglia.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Oh dolorosa me, quanto infelice,</l>
             <l>Quanto calamitoso questo giorno</l>
             <l>E' stato a questa corte, a questo regno!</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="I">Che vi è nutrice ?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Ahi Signor mio, vi è il fine</l>
             <l>D'ogni nostra allegrezza, e d'ogni bene.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="I">E che?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Io aver non posso, Signor mio,</l>
             <l>Tanto spirto a la voce, ch'io ve 'l narri.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="I">Perché? Fate ch'io il sappia.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Perché omai</l>
             <l>Ci è tolta ogni speranza di salute.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Perché? perché temete <name>Ottavio</name>? Questi</l>
             <l>Sol basta a far che siamo salvi tutti!</l>
@@ -948,28 +1005,28 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Di noi, ché potrebbe egli esser perdente:</l>
             <l>Salvo il nostro signor siam salvi tutti.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Non bramiam più salvezza, anzi a gran grazia</l>
             <l>Fia a tutti noi la morte, poi che morto</l>
             <l>Ci è quanto ben noi avevamo al mondo.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="I">Che dite voi di morte?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Io dico: Ahi lassa,</l>
             <l>Ch'ogni gioia mi è affanno, e che la vita</l>
             <l>Mi è morte espressa, poscia che mi è tolta</l>
             <l>Chi mi fea l'amar dolce, e il tristo lieto.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="I">E chi?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Signor, colei che la vita era</l>
             <pb n="19"/>
@@ -978,34 +1035,34 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Reina, ohimè, ohimé, ove vi ha condutta</l>
             <l part="I">Rispetto altrui?</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="F">Piangete <name>Cleopatra</name></l>
             <l part="I">A quel ch'io veggo.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Io piango lei Signore,</l>
             <l>Lei piango sol, sol lei, né più mi spero</l>
             <l>Cosa lieta veder, mentre ch'io viva.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>E che non vive <name>Cleopatra</name>? Ahi lasso,</l>
             <l part="I">Non vive Cleopatra?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">No, Signore,</l>
             <l>Che vivere non volle in ira a voi;</l>
             <l>Ma volle la infelice farvi chiaro,</l>
             <l>Col suo morir, che non vi avea tradito.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="I">Ohimé.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Come mai foste, alto Signore,</l>
             <l>Dubbioso sì di lei, che la chiamaste</l>
@@ -1013,11 +1070,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ohimé infelice, ahi trista me, che senza</l>
             <l>Il vostro amor viver non ha voluto.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Dunque è solo per me <name>Cleopatra</name> morta?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Per voi, Signor. Tantosto ch'ella udìo,</l>
             <l>Che l'amor vostro avea perduto, un grido</l>
@@ -1030,7 +1087,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Oh dolorosa me", si passò il core,</l>
             <l part="I">E cadeo morta.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l part="F">O <name>Cleopatra</name>, adunque</l>
             <l>Viver poss' io, sapendo esser te morta?</l>
@@ -1048,7 +1105,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mostro mi hai dunque <name>Cleopatra</name>, come</l>
             <l>Si dee far fine a le miserie umane.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Signore, vane son queste querele,</l>
             <l>E a voi disconvenevoli, a salvarsi.</l>
@@ -1064,22 +1121,22 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ricovrate voi dunque, e siavi a grado</l>
             <l>Che la calamità vostra sia morta.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Or taci, e fa', se mi ami, che più mai</l>
             <l>Io non oda da te queste parole.</l>
             <l>Valeva più costei, che tutto il mondo.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Ben avea questa un animo romano</l>
             <l part="I">Tutto in sua forza.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Io me ne maraviglio.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Nutrice, io verrei dentro a veder quella</l>
             <l>Morta, che viva era la vita mia,</l>
@@ -1090,13 +1147,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Però, nutrice, voi l'estremo ufficio</l>
             <l part="I">Farete verso lei.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Non mancheremo,</l>
             <l>Signor, del nostro debito, quantunque</l>
             <l>Miserabil ne sia vederla tale.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Entriamo in casa, et ivi a le mie angoscie</l>
             <l>Con la morte darò dicevol fine.</l>
@@ -1106,7 +1163,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SETTIMA</hi>
           </head>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Sì misera veggo or la mia reina,</l>
             <l>E sì intenta la sorte ai danni suoi,</l>
@@ -1128,7 +1185,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA OTTAVA</hi>
           </head>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>In dubbio son di me medesma, insino</l>
             <l>Che novella non ho da la nutrice,</l>
@@ -1137,11 +1194,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <pb n="21"/>
             <l part="I">Che giù l'attendo.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l part="M">Io vado.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Piaccia al Cielo,</l>
             <l>Che tal risposta abbia, dal signor mio,</l>
@@ -1155,53 +1212,53 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Con ogni mia felicità, l'amore</l>
             <l part="I">Di<name> Marco Antonio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l part="F">La reina</l>
             <l part="I">Vi aspetta.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">A lei veniva,</l>
             <l>Senza che mi chiamassi, a lunghi passi.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="I">Or ecco la nutrice.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Io mi credea</l>
             <l>Trovarvi entro al sepolcro, e però i' era</l>
             <l part="I">Per la porta di dietro entrata.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ohimé</l>
             <l>Ch'uscita sono, per veder tornarti.</l>
             <l>Dimmi, cara nutrice, che novella</l>
             <l part="I">Porti da <name>Marco Antonio</name>?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Che mai sdegno</l>
             <l>Non spegne ardente amore. Il signor vostro</l>
             <l>E' più vostro che mai, più che mai vi ama.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="I">E questo è ver?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="M">Ver è, Reina.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Mi hai</l>
             <l part="I">Data la vita.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Se questa novella</l>
             <l>A voi data ha la vita, io temo molto,</l>
@@ -1210,29 +1267,29 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Tanto turbato il vidi, et aver tanto</l>
             <l>Sé, inteso morta voi, la vita a noia.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="I">Ahi che mi dici?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Certo io gli avrei</l>
             <l>Scoperto il ver, s'io non avessi avuto</l>
             <l part="I">Timor di errare.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ohimé cara nutrice:</l>
             <l part="I">Ch'aspra novella a questo?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">E' di bisogno,</l>
             <l>(Che il lamentarsi qui nulla rileva)</l>
             <l>Che cerchi a provedergli, co 'l mostrargli</l>
             <l part="I">La vita vostra.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Vien tu eunuco fuori,</l>
             <l>E vanne a <name>Marco Antonio</name>, e digli ch'io</l>
@@ -1248,17 +1305,17 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che sia la nostra vita, ambi commune</l>
             <l>L'abbiamo, e la compiamo ambiduo insieme.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="I">Io vo, Reina.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Io qui nel mio sepolcro</l>
             <l>Ti aspetto, e voglia Dio, che tu mi porti</l>
             <l>Novella tal, che in parte il duol mi lievi.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Userò ogni mio ingegno, per addurvi</l>
             <l>Cosa, Reina mia, che vi consoli.</l>
@@ -1268,7 +1325,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA NONA</hi>
           </head>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Quant'è mal consigliato uomo, che tutto</l>
             <l>Si ponga in podestà di donna ch'ami,</l>
@@ -1303,7 +1360,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Se viva, e morta gli devea far guerra.</l>
           </sp>
           <pb n="23"/>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <l>L'alto, eterno Motore,</l>
             <l>Che far l'uomo dispose</l>
@@ -1385,7 +1442,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA PRIMA</hi>
           </head>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Ahi potenza d'Amor, quanto sei grande,</l>
             <l>Poi che colui, che mai non han potuto</l>
@@ -1396,24 +1453,24 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Oh come rimaner vuol la reina</l>
             <l part="I">Stordita a tal novella!</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Par ch'indugi</l>
             <l>Molto a venir l'eunuco; io temo molto,</l>
             <l>Che qualche caso stran non lo trattenga,</l>
             <l>Ond' io n'abbia cagion di maggior doglia.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Io da questo tardar vo' sperar bene.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Oda chi regge il ciel le tue parole.</l>
             <l>Ma veggo la miseria mia sì grande,</l>
             <l>Ch'ogni mal temo, e ben nessuno spero.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Io non so come volterò la lingua</l>
             <l>A darle così dura, e ria novella,</l>
@@ -1421,7 +1478,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che con spiegarle ciò le passi il core.</l>
             <l part="I">Veggola.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ecco l'eunuco, ecco che porta</l>
             <l>Nel viso aperto il suo dolore interno.</l>
@@ -1432,23 +1489,23 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che sia di <name>Marco Antonio</name>. Che novella</l>
             <l part="I">Mi apporti tu?</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Reina, io vorrei</l>
             <l>Esser senz'occhi, e senza lingua nato,</l>
             <l>Per non aver veduto, e per non dirvi</l>
             <l>Di <name>Marco Antonio</name>, quel che dir vi debbo.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="I">Ohimé, che stran principio.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Egli, Reina,</l>
             <l part="I">E' poco men che morto.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ahi sorte iniqua</l>
             <l>Sorte crudele, ohimé, spietata sorte,</l>
@@ -1456,33 +1513,33 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Farmi la più dolente, ch'oggi viva:</l>
             <l>E per ch'have sì presso, ohimé, la morte?</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Perch'egli con la spada ha sé percosso</l>
             <l>Di sì grave percossa, e tanto sangue</l>
             <l>Uscito gli è fuor de la piaga, ch'egli</l>
             <l>Puote lo spirto a gran fatica avere.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ahi <name>Cleopatra</name>, ahi misera <name>Cleopatra</name>,</l>
             <l>Questo colpo medesmo anche ha te uccisa.</l>
             <l part="I">Fammi sapere il tutto.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Egli sì tosto</l>
             <l>Che da me intese, ch'eravate viva,</l>
             <l>alquanto ricovrossi, e lieto disse:</l>
             <l>Esser più non mi può grave la morte.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ahi lassa, ben fia a me grave la vita,</l>
             <l>Se vita si può dir ch' abbia colei,</l>
             <l>Che ir oda a morte chi era la sua vita.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Poi replicò, Non mi è grave la morte</l>
             <l>Poi che colei, per cui mi son trafisso,</l>
@@ -1491,21 +1548,21 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Levato si è con gran fatica, e vuole</l>
             <l part="I">Essere a voi condutto.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ahi, <name>Cleopatra</name>,</l>
             <l>Mentre dubitato hai di <name>Marco Antonio</name>,</l>
             <l>E col fingerti morta, cercato hai</l>
             <l>Di assicurarti, a lui data hai la morte.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Il vidi, ahi lassa, e se mi aveste detto,</l>
             <l>Ch'allor scoperto io gli avessi il vero,</l>
             <l>S'io il ritrovava a voi, qual prima, amico,</l>
             <l part="I">Ciò non saria svenuto.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Tu di' vero,</l>
             <l>Ma fuggir non si può quel che il ciel vuole.</l>
@@ -1514,12 +1571,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Se scioccamente errai, con pensier saggio</l>
             <l>L'error corregerò con le mie mani.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Ecco, Reina, che si fa condurre</l>
             <l>Da' suoi soldati a la presenza vostra.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ahi <name>Marco Antonio</name>, ahi <name>Marco Antonio</name> mio,</l>
             <l>Come si incalza ogn'or più la Fortuna</l>
@@ -1538,13 +1595,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Far non potete con la mano vostra,</l>
             <l>Io stessa il compirò, con la mia propria.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO.</speaker>
             <l>Ahi voglia Dio, che questo non avenga,</l>
             <l>Che ciò sarebbe una crudel secure,</l>
             <l>Che a tutte il capo ci torria dal collo.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Reina, io voglio che restiate viva,</l>
             <l>Acciò che, quando pur io esca di vita,</l>
@@ -1563,7 +1620,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che conosciuto ho singolare in voi,</l>
             <l>Mentre Fortuna e il ciel non ci ebbe a sdegno.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ohimé non so, non so come esser possa,</l>
             <l>Ch'essendo voi, Signor, l'anima mia,</l>
@@ -1571,7 +1628,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Cleopatra, Signor, viver non vuole,</l>
             <l>Visto morto colui, ch'è la sua vita.</l>
           </sp>
-          <sp>
+          <sp who="#marco_antonio">
             <speaker>Marco Antonio</speaker>
             <l>Entriamo, anima mia, ch'ivi averemo</l>
             <l>Agio di dir ciò, che bisogna fia,</l>
@@ -1579,11 +1636,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Tratto, che de la piega io mi avrò fuori</l>
             <l>Questa spada, and'io mi ho traffisso il fianco.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Entriam Signor, ch'io vo' morir con voi.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO.</speaker>
             <l>Ohimé, s'è Dio nel ciel, che tenga cura</l>
             <l>Dei regni, degli imperi, e di chi regge</l>
@@ -1598,7 +1655,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <hi rend="sc">SCENA SECONDA</hi>
           </head>
           <pb n="27"/>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Il pensar d'esser lieto sempre in terra,</l>
             <l>E di passar la vita senza angoscie,</l>
@@ -1621,49 +1678,49 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mentre egli vive, e che il dì estremo è quello,</l>
             <l>Che felice l'uom mostra, o il mostra tristo.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>Ahi povera reina, che pietade</l>
             <l part="I">E' vederla sì afflitta!</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Costei duolsi</l>
             <l>Di quel, ch'io ragionava or ora meco.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>Chi pensato avria mai vederla tanto</l>
             <l>Per <name>Marco Antonio</name> gravemente afflitta,</l>
             <l>Per cui si tenne già tanto felice.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="I">Che piagni?</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l part="F">Io piango la sciagura nostra,</l>
             <l part="I">Misera me.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Qual gran sciagura e questa?</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>Nel trar fuor de la piaga a <name>Marco Antonio</name></l>
             <l>La spada, uscita gli è col sangue l'alma,</l>
             <l part="I">Onde morto è.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Deh fusse egli pur morto</l>
             <l>Il primo dì, ch'ei venne in questo regno,</l>
             <l>Ché involti non saressimo nei mali,</l>
             <l>In ch'ora siamo la reina, e noi.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>O povera reina, ella ben mostra</l>
             <l>Quanto amato abbia <name>Marco Antonio</name> vivo,</l>
@@ -1679,7 +1736,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Levata che si sia di sopra il corpo</l>
             <l>Del suo morto signor, non si dia morte.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Eccola ch'esce fuor, noi ritirianci,</l>
             <l>Acciò che da sé sola lagrimando</l>
@@ -1691,7 +1748,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <hi rend="sc">SCENA TERZA</hi>
           </head>
           <pb n="28"/>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ahi <name>Cleopatra</name>, ahi misera <name>Cleopatra</name>,</l>
             <l>E' giunto pur quell'infelice giorno </l>
@@ -1715,17 +1772,17 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E, morto lui, tu puoi vivere ancora</l>
             <l part="I"><name>Cleopatra</name> infelice?</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Creder voglio,</l>
             <l>Che queste grida, e questo lagrimare</l>
             <l>Scemerà a la reina in parte il duolo.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l part="I">Anch'io così m'istimo.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">E mirar puoi,</l>
             <l>Morto il tuo <name>Marco Antonio</name>, ancora il sole?</l>
@@ -1742,28 +1799,28 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che come del commune sangue tinta</l>
             <l>Misera me, sarai, come fra l'ombre.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>Ohimé che veggo? Ohimé, si vuol dar morte</l>
             <l part="I">La reina.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Corriamo ad impedire,</l>
             <l part="I">Che non si passi il core.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Così ancora</l>
             <l>Tanto pietoso il Ciel ci sia, che i corpi</l>
             <l>Nostri sian giunti in un sepolcro insieme.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l part="I">Ahi Reina,</l>
           </sp>
           <pb n="29"/>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l part="F">Ahi Reina, a che vi mena</l>
             <l>Troppo dolor, troppo desio di morte?</l>
@@ -1779,7 +1836,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vi prego, a lasciar or questo pensiero,</l>
             <l>Et ad uso miglior servarvi viva.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Viver non posso, morto il signor mio.</l>
             <l>Egli era la mia vita, e senza lui</l>
@@ -1790,7 +1847,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Lasciate, prego, ohimé, che se ne vada</l>
             <l>Là, ove brama di gir la mia stanca alma.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Non si conviene a una reina tale,</l>
             <l>Qual sete voi, sì miserabil fine.</l>
@@ -1798,7 +1855,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vedrete quanto sconvenevol sia,</l>
             <l>Questo pensier, ch'ora vi sprona a morte.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Differir ben potete il fine mio,</l>
             <l>Ma non già far, ch'egli non abbia effetto,</l>
@@ -1808,7 +1865,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che mi traffigge il cor, con mille punte,</l>
             <l>Caccierà fuor di questo corpo l'alma.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Entrate alta Reina, e ricovrate</l>
             <l>Il core invitto a le terrene tutte,</l>
@@ -1816,13 +1873,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vincerete il dolore, e la Fortuna</l>
             <l>Vinta si rimarrà dal senno vostro.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Non può più senno in me, non può consiglio,</l>
             <l>Né posso più non rimaner sommersa</l>
             <l>Nel mortal golfo degli affanni miei.</l>
           </sp>
-          <sp>
+          <sp who="#eunuco">
             <speaker>Eunuco</speaker>
             <l>Chi volesse apparar di aver pietade</l>
             <l>A le miserie altrui, mirasse questa</l>
@@ -1865,7 +1922,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUARTA</hi>
           </head>
-          <sp>
+          <sp who="#secretario">
             <speaker>Secretario</speaker>
             <l>Se l'infelicità dei regni umani</l>
             <l>Avesser corpo, e tutte insieme a questi</l>
@@ -1923,7 +1980,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUINTA</hi>
           </head>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Poi che ridutto ho <name>Marco Antonio</name> a tale</l>
             <l>Che difesa non ha, non ha rifugio,</l>
@@ -1940,7 +1997,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Io voglio udir in ciò il giudicio vostro.</l>
             <l part="I">Che parti Agrippa?</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">Parmi, Signor mio,</l>
             <l>Che levar la cagion di aver travaglio</l>
@@ -1978,11 +2035,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che la quiete, et il riposo vostro</l>
             <l>Sia, che non resti <name>Marco Antonio</name> vivo.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="I">Che parti Mecenate?</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="F">Ancor che saggio</l>
             <l>Agrippa sia, Signore, e a me amico,</l>
@@ -1996,7 +2053,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che desio de l'onore, e del ben vostro,</l>
             <l>Ora dir mi farà quanto dirovvi.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Io così credo, Mecenate, e s'io</l>
             <l>Non avessi voluto il parer vostro,</l>
@@ -2007,7 +2064,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Però di' pur ciò, che ti pare, e pensa,</l>
             <l>Ché ciò, che tu dirai mi sarà grato.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Io saprei confortare ogni signore,</l>
             <l>Ancor che manifestamente offeso,</l>
@@ -2047,7 +2104,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mostrarvi degno di grandezza tale,</l>
             <l>Che perdonar l'offesa a <name>Marco Antonio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Parriati dunque, che dopo sì gravi,</l>
             <l>E sì crudeli ingiurie ricevute,</l>
@@ -2059,7 +2116,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Dopo le paci, e i parentadi fatti,</l>
             <l>Di perder, con l'imperio, anche la vita!</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Questa, Signor, (e vi cheggio licenza,</l>
             <l>Di dir da fedel servo in questa parte</l>
@@ -2136,7 +2193,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che pericol non è ch'alzi la testa</l>
             <l>Contra voi, solo imperador del mondo.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Se bene a <name>Marco Antonio </name>in stato umile,</l>
             <pb n="35"/>
@@ -2158,7 +2215,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Sian quali esser si voglian le ragioni,</l>
             <l>Che voi avete, <name>Mecenate</name>, addutte.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Uccidendo uno un re, minaccia molti,</l>
             <l>Ché come con timor di ognun dal cielo</l>
@@ -2187,12 +2244,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Fra tante, e tante, che ne mandò al cielo,</l>
             <l>Restasse il sol da alcuna d'esse offeso?</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>No 'l cred' io già, ma ben sciocco mi parve,</l>
             <l>Chi si diede a tentare opra sì vana.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Or questo essempio puo mostrarvi chiaro,</l>
             <l>Quanto si ponno aver color per pazzi,</l>
@@ -2205,7 +2262,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Più che potesse il sol quei con gli strali.</l>
           </sp>
           <pb n="36"/>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Mecenate, io non voglio addurvi essempi</l>
             <l>Contra gli addutti, ancor che poria dirvi,</l>
@@ -2220,12 +2277,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mi par che non conosca la sua forza,</l>
             <l>E se mal glien' avien poscia, se 'l merta.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Questa <name>Mecenate</name> è ragion, che puote</l>
             <l>Farti veder quel, che in ciò far mi debba.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Signore, se mi lece conferire</l>
             <l>L'umili cose a le sublime, e eccelse,</l>
@@ -2264,7 +2321,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Un re verso color, che l'hanno offeso,</l>
             <l>Quale egli vuol, che Dio sia verso lui.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Et io dico: Signor, che troppo mite</l>
             <l>Mecenate ha la mente, e che se vivo</l>
@@ -2283,7 +2340,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Egli è l'alfier del generale. Udiamo</l>
             <l part="I">Che novella ei ci apporta.</l>
           </sp>
-          <sp>
+          <sp who="#alfiere">
             <speaker>Alfiere</speaker>
             <l part="F">Il generale</l>
             <l>Saper vi fa, Signor, che tutto il campo</l>
@@ -2296,7 +2353,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vi piaccia di venir, per impedire</l>
             <l part="I">Disordine sì grave.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Andiamo, e poi</l>
             <l>Che sete di parer fra voi contrario,</l>
@@ -2309,7 +2366,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che conchiuso averete, perché noi</l>
             <l>Scegliamo quel, che ci parerà il meglio.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <l>Io creder più non vo', che il saper nostro</l>
             <l>Regga le cose umane,</l>
@@ -2372,7 +2429,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA PRIMA</hi>
           </head>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Poscia che il segretario a la reina,</l>
             <l>Condutto mi ebbe, e ch'io la vidi afflitta</l>
@@ -2418,18 +2475,18 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SECONDA</hi>
           </head>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="I">Che ci è nutrice?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l part="F">Ci è, che la reina</l>
             <l>Vi prega, che vogliate a lei venire,</l>
             <l>E non vi avere a mal, ne avere a sdegno</l>
             <l>Quanto ella detto vi ha, dal dolor vinta.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>So che mutazioni, in picciol tempo,</l>
             <l>Si veggono in un core addolorato.</l>
@@ -2443,7 +2500,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Cosa che detta m'abbia, quanto ho visto,</l>
             <l>Ch'a dirmi ciò grave dolor l'ha indutta.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Mostrate ben, Signor d'esser quel vero</l>
             <l>Servitor, che vi vidi esser mai sempre</l>
@@ -2451,7 +2508,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che in lei mi par veder scemare il duolo,</l>
             <l part="I">Tosto che vi vedrà.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">Deh voglia Dio,</l>
             <l>Ch'io trovi modo di piegarla tanto,</l>
@@ -2464,7 +2521,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA TERZA</hi>
           </head>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l><name>Agrippa</name>, non bisogna in questo caso,</l>
             <l>Solo considerar, che <name>Marco Antonio</name></l>
@@ -2511,7 +2568,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vostra andarete discorrendo il tutto,</l>
             <l>Non sia per dispiacervi il parer mio.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>L'esser contrario a la sentenza vostra,</l>
             <l><name>Mecenate</name>, mi par cosa assai dura.</l>
@@ -2538,7 +2595,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ora in stato non è, che la sua morte</l>
             <l part="I">Possa mover tumulto.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="F">E questo a punto</l>
             <l>Può mostrar anche, che non pòn tumulti</l>
@@ -2556,7 +2613,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Porlo in custodia tal, ch'egli non possa</l>
             <l>Pur sospirar, non che destar discordie?</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Una prigion perpetua, <name>Mecenate</name>,</l>
             <l>A liber uom, più dura è che la morte,</l>
@@ -2564,7 +2621,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che dargli morte, e mantenerlo in vita,</l>
             <l>Perché vivendo, egli morisse sempre.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Siane ciò, ch'esser possa, in questa guisa</l>
             <l><name>Ottavio</name> non si tingeria le mani</l>
@@ -2576,11 +2633,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Con quella spada sanguinosa in mano,</l>
             <l>Così dolente, e conturbato in vista?</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Egli è un de' capitan di <name>Marco Antonio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Qualche stran caso ivi sarà avenuto,</l>
             <l>Stiamo a veder ciò, che di novo apporta.</l>
@@ -2590,7 +2647,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUARTA</hi>
           </head>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Gli avenimenti della guerra sono</l>
             <l>In guisa dubbi, che non puote alcuno</l>
@@ -2604,20 +2661,20 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Nel cominciar di questa aspra battaglia,</l>
             <l>Per aver del suo mal giuoco, e trastullo.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="I">Certo che dice il vero.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">è meglio ch'egli</l>
             <l>Si dolga, ch'a doler ci abbiamo noi.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="I">Sí veramente.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l part="F">E, per mostrar ben questa</l>
             <l>Nemica de' felici avenimenti,</l>
@@ -2631,49 +2688,49 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Dopo la vile, e biasimevol fuga,</l>
             <l>Avuta ha la cagion de la sua morte.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Per quel, ch'intendo, <name>Marco Antonio</name> è morto.</l>
             <l part="I">Me increscerebbe assai.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">è morto certo.</l>
             <l>Meglio è che noi facciam ch'<name>Ottavio</name> il sappia.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Egli è pur meglio ch'intendiamo certa</l>
             <l part="I">La cosa prima.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">Che lamento è questo?</l>
             <l>Ch'importa questa spada, Capitano?</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Di qual sangue è ella tinta, od ove andate?</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Ahi, Signor Mecenate, questa spada,</l>
             <l>Questa tagliente spada aperta ha il fianco</l>
             <l>Al signor nostro, e n'è rimaso estinto.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="I">E perchè questo?</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l part="F">Sol per <name>Cleopatra</name>.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="I">Perchè per <name>Cleopatra</name>?</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l part="F">S'era finta</l>
             <l>Morta essere ella, e per non sovrastare</l>
@@ -2689,7 +2746,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ché caro avrò a morir, per la mia fede,</l>
             <l>Con quella spada, onde il signor mio è morto.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Io credo, che perdon da <name>Ottavio</name> avrete,</l>
             <l>E che vi loderà de la fé vostra.</l>
@@ -2697,12 +2754,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che costume è di <name>Ottavio</name> di deporre</l>
             <l part="I">Con l'arme l'odio.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">E noi vi aiuteremo,</l>
             <l>Se bisogno vi fia d'aiuto nostro.</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Non aspetto altro da la bontà vostra.</l>
           </sp>
@@ -2711,7 +2768,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUINTA</hi>
           </head>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Che sorte, ohimé, che sorte fia la nostra</l>
             <l>In questa così grave aspra miseria?</l>
@@ -2728,7 +2785,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>O corte già d'ogni piacer ricetto,</l>
             <l>Come ora sei d'ogni dolore albergo!</l>
           </sp>
-          <sp>
+          <sp who="#capitano">
             <speaker>Capitano</speaker>
             <l>Nutrice è ver, che quei, che son felici,</l>
             <l>Fortuna col peggio han sempre a le spalle.</l>
@@ -2742,7 +2799,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Sì piena di pericoli, e di doglie</l>
             <l>Veggo, di parte, in parte, or questa corte.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Figliuola il primo dì ne dà l'estremo,</l>
             <l>Ché col nostro destin tutti nasciamo.</l>
@@ -2753,7 +2810,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Non credea di vederla, mi rincresce</l>
             <l part="I">Trovarmi viva.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l part="F">Ohimé, nutrice, ohimé,</l>
             <l>Che ci giovano i pianti, et i sospiri,</l>
@@ -2762,7 +2819,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Né di tanti pericoli possiamo</l>
             <l>Trar la reina, e similmente noi?</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Figliuola mia, poscia che non poss'altro,</l>
             <l>Chiamata meco ti ho fuori di corte,</l>
@@ -2771,13 +2828,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mentre in presenza er'io de la reina,</l>
             <l>E non ardia mandar fuori un sospiro.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>Torniam nutrice in casa, a quella sorte,</l>
             <l>Che vorrà il cielo, a' nostri danni vòlto,</l>
             <l>Ch'abbia questa reina, e noi con lei.</l>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>Nutrice</speaker>
             <l>Et aspettar la debbiam, figlia, sì grave,</l>
             <l>Che fia appo lei ogni miseria lieve.</l>
@@ -2787,7 +2844,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SESTA</hi>
           </head>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Alta virtù, che in nobil alma regni,</l>
             <l>Mostrar conviensi in ogni stato fuori,</l>
@@ -2832,7 +2889,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Voglio saper chi egli è. Dimmi, chi sei?</l>
             <l>Et ove vai? e che novelle porti?</l>
           </sp>
-          <sp>
+          <sp who="#servo">
             <speaker>Servo</speaker>
             <l>Io sono un sventurato, et infelice</l>
             <l>Servo di <name>Marco Antonio</name>, ch'ad <name>Ottavio
@@ -2842,11 +2899,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Con la tremante mano, e gliele manda</l>
             <l><name>Cleopatra </name>reina de l'<name>Egitto</name>.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="I">E che fa <name>Cleopatra</name>?</l>
           </sp>
-          <sp>
+          <sp who="#servo">
             <speaker>Servo</speaker>
             <l part="F">Chi vedere</l>
             <l>Vuole il dolore in forma umana, miri</l>
@@ -2858,12 +2915,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che temo molto, anzi non ho speranza</l>
             <l>Di veder contra lei benigno <name>Ottavio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Va pur, che ti fo certo, che da lui</l>
             <l>Cosa non averai, se non da prence.</l>
           </sp>
-          <sp>
+          <sp who="#servo">
             <speaker>Servo</speaker>
             <l>Non so che possa fare un prence cosa</l>
             <l>Di gran prence più degna, che servare</l>
@@ -2871,16 +2928,16 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Se questo egli farà, mostrerà chiaro,</l>
             <l>Ch'abbia a l'impero suo l'animo uguale.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Vanne con sicurezza di trovare</l>
             <l part="I">In <name>Ottavio</name> clemenza.</l>
           </sp>
-          <sp>
+          <sp who="#servo">
             <speaker>Servo</speaker>
             <l part="F">Il voglia Dio.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l>Vorrei così poter disporre <name>Ottavio
 </name></l>
@@ -2907,7 +2964,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <hi rend="sc">SCENA SETTIMA</hi>
           </head>
           <pb n="46"/>
-          <sp>
+          <sp who="#servo">
             <speaker>Servo di Marco Antonio.</speaker>
             <l>Se a le parole, che da <name>Ottavio</name> ho avute,</l>
             <l>Risponde il cor, non puote <name>Cleopatra
@@ -2955,7 +3012,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA OTTAVA</hi>
           </head>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Pòn tanto le ragioni de la patria</l>
             <l>Appresso i veri cittadin ch'ancora,</l>
@@ -2972,17 +3029,17 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mi ha il servo suo, potuto ho rattenere</l>
             <l part="I">A pena il pianto.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="F">Signor, non mi è nova</l>
             <l>L'alta vostra bontà, l'alta clemenza,</l>
             <l>Né altro pensato io mi avrei di voi.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="I">Et avrei ciò anch'io pensato.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Le sue lettre</l>
             <l>(Come ambidue potete aver veduto)</l>
@@ -2994,14 +3051,14 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Poscia che ne la morte ha mostro avere</l>
             <l part="I">In me tal confidenza.</l>
           </sp>
-          <sp>
+          <sp who="#mecenate">
             <speaker>Mecenate</speaker>
             <l part="F">Ben mostrate</l>
             <l>Qual voi sareste stato verso lui,</l>
             <l>Mentre viveva, s'egli fusse suto</l>
             <l>Verso voi qual volea, ch'ei fusse, il giusto.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Resta, poi che composte hai, <name>Mecenate</name>,</l>
             <l>Le cose in guisa, co' soldati aversi,</l>
@@ -3020,7 +3077,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E seco imaginandosi d'avere</l>
             <l>Pace da noi, non cerchi darsi morte.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Anderò, Signor mio, quantunque io pensi,</l>
             <l>Che malagevol fia a persuadere</l>
@@ -3029,7 +3086,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Si deve da reina, in simil caso,</l>
             <l>Sapendo l'uso dei trionfi nostri.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Gli afflitti volentier porgon gli oracchi</l>
             <l>A cosa, che lor dia speme di bene.</l>
@@ -3049,7 +3106,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>A le madri stimar più fa la vita</l>
             <l>De' figli loro, che la vita propria.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Non sarà se non ben, per mio parere,</l>
             <l>Che discorriam su questo fatto insieme,</l>
@@ -3058,12 +3115,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Usare, in far che <name>Cleopatra</name> creda,</l>
             <l>Che non de' altro sperar da voi, che bene.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Poi che così ti pare, <name>Agrippa</name>, entriamo,</l>
             <l>E ne raggionerem tutti e tre insieme.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <l>Se la ragione è in noi</l>
             <l>Sì presta, e sì vivace,</l>
@@ -3141,7 +3198,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA PRIMA</hi>
           </head>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Non deve un gran signor porsi a tentare</l>
             <l>La inconstante, e volubile Fortuna,</l>
@@ -3189,7 +3246,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SECONDA</hi>
           </head>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Non so, che si possa uom prometter certo</l>
             <l>Ne lo stato mortal, quando veggiamo</l>
@@ -3204,21 +3261,21 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che per non andar serva in man d'<name>Ottavio</name>,</l>
             <l>Disposta si è, che il non mangiar l'uccida.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>E questo è quel, che solo <name>Ottavio</name> teme.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Certo egli è vero, che quanto più in alto</l>
             <l>E' asceso l'uom, tanto maggior dà il tomo.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Io non vo' più tardar Signore <name>Olimpo</name>,</l>
             <l part="I">Che querele son queste?</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">Che querele?</l>
             <l>Quelle, che il destin reo vuol, che spargiamo.</l>
@@ -3230,15 +3287,15 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Non basteriano ad isfogare in parte</l>
             <l>Le gran miserie, e gli aspri affanni nostri?</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Così va la vicenda de le cose.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Ahi quanto è a noi questa vicenda grave!</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Grave sempre fu il gire in forma altrui</l>
             <l>A chi usat'è di sovrastare a gli altri,</l>
@@ -3250,7 +3307,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che bene, come voi sperar potete</l>
             <l>Dal signor nostro, ancor che siate vinti.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Il potressimo creder, se la prova</l>
             <l>Saper non ne facesse quel, che fanno</l>
@@ -3259,7 +3316,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Sono de la vittoria, i più benigni</l>
             <l>Divengon crudi, et i più miti fieri.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Questo aviene in color ch'hanno il cor d'orso,</l>
             <l>Ma chi ha, com'Ottavio ha, la mente umana,</l>
@@ -3268,7 +3325,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Compassione gli ha, veggendo quanto</l>
             <l>Può la Fortuna ne le cose eccelse.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Così esser ben devrebbe, se mirasse</l>
             <l>A questo il vincitor, ch'è manifesto,</l>
@@ -3280,13 +3337,13 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che dimostrarsi altiero, imaginando</l>
             <l>Di non vederla mai per lui turbata.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Così benigna sempre l'abbia <name>Ottavio</name>,</l>
             <l>Come <name>Alessandria </name>il proverà benigno.</l>
             <l>Che fa, che pensa la reina vostra?</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Ohimé, che può ella far, se non versare</l>
             <l>Da gli occhi un mar di pianto, e imaginarsi</l>
@@ -3295,27 +3352,27 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E non esser spettacolo a' Romani</l>
             <l>Se viva andasse al vincitore in mano.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Questo non fia. Fate che con lei parli</l>
             <l>E le torrò la tema, dimostrando</l>
             <l>Quanto sperare ella da <name>Ottavio</name> debba.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="I">Io so che sperare deve.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="M">E che?</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">Che presto</l>
             <l>Sia a sopporsi a le leggi, ch'imporalle</l>
             <l part="I">Il vincitore.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">Io non vi vo' già dire,</l>
             <l>Ch'<name>Ottavio </name>da lei voglia accettar leggi,</l>
@@ -3331,7 +3388,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Chi contra lui si dà ad alzar le corna.</l>
             <l part="I">Andate, ch'io vi aspetto.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">Io vo, Signore,</l>
             <l>Né mancherà da me, ch'io non procuri,</l>
@@ -3343,7 +3400,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA TERZA</hi>
           </head>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l>Eletta avrà la parte <name>Cleopatra</name></l>
             <l>Ch'elegger dee, chi da sublime stato</l>
@@ -3362,7 +3419,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <hi rend="sc">SCENA QUARTA</hi>
           </head>
           <stage>Olimpo, Agrippa.</stage>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Signor <name>Agrippa</name>, la reina nostra,</l>
             <l>Che chiusa si ritrova entro al sepolcro,</l>
@@ -3379,7 +3436,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che delibererà di sè. Io fare</l>
             <l part="I">Altro non ho potuto.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">Le direte,</l>
             <l>O le farete dir, quando non voglia</l>
@@ -3398,12 +3455,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ove se viva resta, tutti voi</l>
             <l>Vi vivrete con lei lieti, e contenti.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Io non mancherò, <name>Agrippa</name>, di far quanto</l>
             <l part="I">Si potrà far per me.</l>
           </sp>
-          <sp>
+          <sp who="#agrippa">
             <speaker>Agrippa</speaker>
             <l part="F">Fate 'l <name>Olimpo</name>,</l>
             <l>Perch'ella può sol lei salvare, e voi.</l>
@@ -3413,7 +3470,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUINTA</hi>
           </head>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Chiunque può, senza servire altrui,</l>
             <l>Menar da sé vita onorata, e queta,</l>
@@ -3460,7 +3517,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SESTA</hi>
           </head>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l>Poscia ch'a voi, e a me commesso ha <name>Ottavio</name>,</l>
             <l>Che poniamo ogni ingegno, perché venga</l>
@@ -3492,18 +3549,18 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E sperando da ciò qualche compenso</l>
             <l>Ai danni suoi, non negherà parlarvi.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Da me non mancherà, ch'io non adopri</l>
             <l>Tutto il poter, tutto l'ingegno mio,</l>
             <l>Perché meniamo questo fatto al fine.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l>Io me n'andrò co' miei compagni, e spero</l>
             <l part="I">Avere in ciò lieto successo.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l part="F">Andate,</l>
             <l>Io tenterò l'udienza su la porta.</l>
@@ -3522,7 +3579,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SETTIMA</hi>
           </head>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>L'aver veduto <name>Olimpo</name>, che tagliare</l>
             <l><name>Ottavio </name>ad <name>Antilo</name> ha fatto la testa,</l>
@@ -3534,12 +3591,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
 </name></l>
             <l>Pur dianzi detto, con minaccie gravi.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Cosa agevole fia che mi dia udienza,</l>
             <l>Poi che in timore ell'è de' figli suoi.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Onde poi che la sorte mia crudele</l>
             <l>I miei figliuoli ha messi in man di <name>Ottavio</name>,</l>
@@ -3554,26 +3611,26 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E l'eloquenza tua che piegar suole</l>
             <l>Ogni feroce core, e il dur far molle.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Reina, cosa non lascerò a fare,</l>
             <l>Che per lo suo signor, servo far debba.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="I">Ma chi è costui, che di là viene?</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">è Gallo,</l>
             <l part="I">Famigliare di <name>Ottavio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ir non vo' dentro,</l>
             <l>Ché non voglio esser colta a l'improviso.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Anzi io l'aspetterei, poi ch'egli è solo,</l>
             <l>Et io son qui con voi; potremmo udire</l>
@@ -3582,7 +3639,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ritornerete nel sepolcro. Et ivi</l>
             <l>A temer non avrete di nemico.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Di nemico? vi ho sol due cameriere,</l>
             <l>Le più fedeli, e più nobili, ch'io</l>
@@ -3592,20 +3649,20 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Fallo venir; io mi starò qui dentro,</l>
             <l>Et uscirò, quando mi chiamerai.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Venite Signor, forse a la reina?</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>A lei vengo per dirle alcune cose,</l>
             <l>Che a beneficio suo, mi ha imposto <name>Ottavio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="I">E che cose son queste?</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l part="F">Sol con lei</l>
             <pb n="56"/>
@@ -3613,24 +3670,24 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ch'ella mi presti udienza, ché dirolle</l>
             <l>Cosa che la farà restar contenta.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Siate contento d'aspettar, sin ch'io</l>
             <l part="I">Vegga s'udienza ella vuoi darvi.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l part="F">Aspetto.</l>
             <l>Credo che <name>Proculeio</name> abbia le scale</l>
             <l>Al sepolcro già poste, e forse è entrato.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Signor, venite. Ella vi attende a l'uscio,</l>
             <l>Ma non vuole, che più le vi accostiate,</l>
             <l part="I">Ch'or io mi sia.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l part="F">Pur che le parle <name>Olimpo</name>,</l>
             <l>O lontano, o vicin, nulla mi curo,</l>
@@ -3638,79 +3695,79 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Reina, <name>Ottavio</name> mio signor, salute</l>
             <l part="I">Vi manda.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Ohimé, che ben n'avria bisogno.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Non pensa altro, Reina, il signor mio,</l>
             <l>Che darvi segno de la sua clemenza.</l>
           </sp>
-          <sp>
+          <sp who="#cameriera">
             <speaker>Cameriera</speaker>
             <l>Ohimé Reina, ohimè, che nel sepolcro</l>
             <l>Sono i nemici, e sete presa viva,</l>
             <l>Ecco Reina che gli avete al fianco.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ahi traditori, anche quel non avrete,</l>
             <l>Che vi pensate aver, se questa spada</l>
             <l part="I">Non mi vien men.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">Non fate, ohimé Reina.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>A questo modo <name>Ottavio</name> vuoi mandarmi</l>
             <l part="I">Speme di bene?</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">Ahi traditori, ahi rei,</l>
             <l part="I">Lasciate la reina.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">E che credete</l>
             <l>Di fare, <name>Olimpo</name>? farete gran senno</l>
             <l>A starvi queto, e non cercar la morte.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Et moiami, non voglio veder serva</l>
             <l part="I">La mia reina.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">Levate la spada</l>
             <l part="I">A questo insano.</l>
           </sp>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l part="F">Ahi traditori, io spero</l>
             <l>Che il ciel farà di ciò giusta vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ahi traditori, ahi scelerati, ahi cani,</l>
             <l>Cani malvaggi, nati a lacerare</l>
             <l>Con insidie gli afflitti acerbamente.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l>Reina il tutto è fatto per ben vostro.</l>
             <l>Temuto ha il signor nostro, che non fusse</l>
             <l>Più possente in vo' il duol, che la ragione.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="I">Ohimé misera, ohimè.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">Sí che vi deste</l>
             <l>Morte con le man vostre, et a lui tolta</l>
@@ -3719,19 +3776,19 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mandati n'ha, perché noi vi togliamo</l>
             <l part="I">La via di darvi morte.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">O che pietade,</l>
             <l>Ben può mostrar ciò che sperar io debba.</l>
           </sp>
           <pb n="57"/>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l>Ne la bontà del mio signor sperare</l>
             <l>Devete, et io lo vi prometto tale,</l>
             <l>Che non vi dolerà a trovarvi vinta.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Ohimé se tale egli esser deve verso</l>
             <l>Questa infelice, e dolorosa, ohimé</l>
@@ -3743,7 +3800,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Ch'io gli possa parlar; se questo ottengo</l>
             <l part="I">Sicura io mi terrò.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">Non dubitate</l>
             <l>Di non aver da lui ciò che vorrete.</l>
@@ -3751,7 +3808,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>E state lieta, e sicura, ché sete</l>
             <l>Non tra nemici, ma tra amici vostri.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Attendi, <name>Olimpo</name>, s'a me viene <name>Ottavio</name></l>
             <l>E se forse verrà; tu ratto vieni</l>
@@ -3762,7 +3819,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA OTTAVA</hi>
           </head>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo.</speaker>
             <l>Ohimé che dura cosa è restar senza</l>
             <l>Presidio, poi ch'è vinto un re, un signore,</l>
@@ -3803,7 +3860,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA NONA</hi>
           </head>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Vorrebbe ogni raggion, ch'al vincitore</l>
             <l>Venisse <name>Cleopatra</name>. Ma perch' io</l>
@@ -3811,16 +3868,16 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Poi che chieder mi ha fatto, io voglio andare</l>
             <l>A lei, sol per levarle ogni sospetto.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Vedete che si è mossa ella anche, e viene</l>
             <l part="I">Verso voi con la guardia.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Andianle incontro.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Signor, poi che felice sorte ha dato</l>
             <l>A voi tal nome, e a me la rea l'ha tolto,</l>
@@ -3901,7 +3958,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Pena non merta, ma non perdono appresso</l>
             <l>D'uomo, qual sete voi, mite, e prudente.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Io vo' conceder, che necessitade</l>
             <l>Vi fesse nel principio cosa fare,</l>
@@ -3910,7 +3967,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>(Per gli partiti, che vi fé Tireo)</l>
             <l>Di cacciarlo da voi, perche no 'l feste ?</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Quella necessità, che fu cagione,</l>
             <l>Ch'ad ubidir mi dessi a <name>Marco Antonio</name>,</l>
@@ -3954,7 +4011,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Da la vostra bontà, non vo' dolermi</l>
             <l>Né di rea sorte, né di mal sofferto.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Che pensieri son questi, che vi vanno</l>
             <l>Per l'anima, Reina? Io più tosto</l>
@@ -3972,7 +4029,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Però volgete, prego, ad altro il core,</l>
             <l>Ch'a penser di finire i giorni vostri.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Poscia, Signor, che speme tal mi date,</l>
             <l>La vita ch'io sprezzava, ora mi è cara,</l>
@@ -3989,11 +4046,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Per onorare <name>Ottavia</name>, e <name>Livia</name> vostra,</l>
             <l>Finisca verso lui l'ultimo ufficio.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Ne son molto contento.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>Io vi ringrazio.</l>
             <l>E prego il Re del Ciel, che lungamente</l>
@@ -4005,7 +4062,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Come de' dei la religion vuole,</l>
             <l>Che ci hanno i modi de l'essequie dati</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Io son contento. Lascia, <name>Proculeio</name>,</l>
             <l>(Poi che religione tal qui si serva,</l>
@@ -4015,7 +4072,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Vi prego anch'io, che vi viviate lieta,</l>
             <l>E che poniate in noi tutta la speme.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l>La vi pongo, Signor, ché sarei cieca</l>
             <l>E priva d'intelletto, s'altrimente</l>
@@ -4026,17 +4083,17 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che non bisogni, essendovi io sì cara,</l>
             <l part="I">Come veggo che sono.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Gli avrò cari</l>
             <l>Come se fusser miei. A Dio, Reina,</l>
             <l part="I">Vivete lieta.</l>
           </sp>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra</speaker>
             <l part="F">Io non farò altrimente.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <l>Alma speranza, che dal ciel venisti</l>
             <l>Per confirmare i cori</l>
@@ -4092,7 +4149,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA PRIMA</hi>
           </head>
-          <sp>
+          <sp who="#olimpo">
             <speaker>Olimpo</speaker>
             <l>Esser costume suol de gli infelici,</l>
             <l>Non creder facilmente, né allegrarsi,</l>
@@ -4133,7 +4190,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi>SCENA SECONDA</hi>
           </head>
-          <sp>
+          <sp who="#cleopatra">
             <speaker>Cleopatra.</speaker>
             <l>Dunque tu pensi <name>Ottavio</name> ch'io sia priva</l>
             <l>D'ingegno sì, sì di me stessa fuori,</l>
@@ -4240,7 +4297,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA TERZA</hi>
           </head>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Dubitar fatto ha <name>Agrippa</name> al mio signore</l>
             <l>Che più, ch'uopo non era, abbia allargata</l>
@@ -4265,7 +4322,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUARTA</hi>
           </head>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliar di Cleopatra</speaker>
             <l>Si suol dir, che non può l'uomo sapere</l>
             <l>S'egli è felice, od infelice mentre</l>
@@ -4313,7 +4370,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA QUINTA</hi>
           </head>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Credo che sia sovra ogni stima grave</l>
             <l>Miseria, e sommo affanno il ritrovarsi</l>
@@ -4333,12 +4390,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>L'abbia in podestà, e mover più non possa</l>
             <l>(Se non secondo ch'egli vorrà) il piede.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>E tu non sai se <name>Cleopatra</name>sia</l>
             <l part="I">Morta?</l>
           </sp>
-          <sp>
+          <sp who="#famigliare">
             <speaker>Famigliar di Cleopatra</speaker>
             <l part="F">Signor, quando mi diè le lettre,</l>
             <l>Mostrommi aver pensier d'ogni altra cosa</l>
@@ -4347,7 +4404,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che di morire. E creder io no 'l posso,</l>
             <l part="I">Bench'ella scritto l'abbia.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Veggo <name>Gallo</name></l>
             <l>Che di là viene. Egli mi saprà dire</l>
@@ -4362,7 +4419,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Udita n'hai tu forse cosa alcuna,</l>
             <l>Da Proculeio, o d'altri ne la corte?</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l>Nulla, Signor, anzi m'ha detto, ch'ella</l>
             <l>Facea l'ossequie a <name>Marco Antonio</name> lieta,</l>
@@ -4371,15 +4428,15 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Non vi era di più guardia. Ma dapoi</l>
             <l>Ch'a voi così piacea, gliele porria.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Va' ratto, e intendi a pien tutta la cosa.</l>
           </sp>
-          <sp>
+          <sp who="#gallo">
             <speaker>Gallo</speaker>
             <l part="I">Io vado.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Veggo ch'esce Proculeio</l>
             <l>Con un de' sacerdoti de la corte,</l>
@@ -4390,19 +4447,19 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
           <head>
             <hi rend="sc">SCENA SESTA</hi>
           </head>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="I">è forse morta <name>Cleopatra</name>?</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">è morta.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="I">E come?</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l part="F">Io no 'l so dir. Quando mandaste</l>
             <l>Gallo a dir ch'io tenessi maggior cura</l>
@@ -4435,7 +4492,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Mandato ad avertir, ch'io le togliessi</l>
             <l>La libertà, che l'avevate data.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Vero è quel, che si dice, che la donna</l>
             <l>E' de le finzioni il proprio nido,</l>
@@ -4444,7 +4501,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Pensato, che costei chiudesse in core</l>
             <l>Disio di morte? E come si è ella uccisa?</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l>No 'l so, Signore, ella non avea ferro</l>
             <l>(Però che ricercar la volsi tutta)</l>
@@ -4466,14 +4523,14 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Io venia dimandando al sacerdote</l>
             <l part="I">Come si avesse uccisa.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l part="F">Poscia ch'eri</l>
             <l>Ne l'essequie con lei, et a la porta</l>
             <l>De la stanza ti stavi, ove ora è morta,</l>
             <l part="I">Dimmi tutto il successo.</l>
           </sp>
-          <sp>
+          <sp who="#sacerdote">
             <speaker>Sacerdote</speaker>
             <l part="F">La reina</l>
             <l>Tosto ch'ella impetrò da voi licenza</l>
@@ -4521,12 +4578,12 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Or vola, e ascolta i miei gravi lamenti,</l>
             <l>Et attende, che il mio si giunga a lui.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Mi commovono certo insino a l'alma</l>
             <l part="I">Queste parole.</l>
           </sp>
-          <sp>
+          <sp who="#sacerdote">
             <speaker>Sacerdote</speaker>
             <l part="F">Se le aveste udite</l>
             <l>Com'io le udì, Signor, avreste pianto</l>
@@ -4590,7 +4647,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Questo ho veduto, e udito, e tanto dire</l>
             <l>So del fin reo de la reina nostra.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Ismisurato amore, è stato quello</l>
             <l>Di ambidue questi; anco ch'aspri nemici</l>
@@ -4608,11 +4665,11 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Che si conviene ad una tal reina,</l>
             <l>La facci sepelir con <name>Marco Antonio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#proculeio">
             <speaker>Proculeio</speaker>
             <l>Io farò Signor, quel che m'imponete.</l>
           </sp>
-          <sp>
+          <sp who="#sacerdote">
             <speaker>Sacerdote</speaker>
             <l>Ben segno date d'animo Romano,</l>
             <pb n="71"/>
@@ -4621,7 +4678,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Io prego il ciel, che guiderdon vi dia</l>
             <l>Degno di sì cortese, e nobile atto.</l>
           </sp>
-          <sp>
+          <sp who="#ottavio">
             <speaker>Ottavio</speaker>
             <l>Spedito ch'avrai questo, <name>Proculeio</name>,</l>
             <l>A l'armata verrai con la tua gente,</l>
@@ -4629,7 +4686,7 @@ La scena è in <name>Alessandria</name> città d'<name>Egitto</name>.</p>
             <l>Bisognerà in <name>Egitto</name>, ce n'andiamo</l>
             <l>Finito il travagliare, insieme a <name>Roma</name>.</l>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <l>Quanto miseri, ohimé, sono coloro,</l>
             <l>Che perché hanno felice</l>

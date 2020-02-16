@@ -79,6 +79,52 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="angelo">
+            <persName>L'Angelo</persName>
+          </person>
+          <person xml:id="altro_angelo">
+            <persName>Un altro Angelo</persName>
+          </person>
+          <person xml:id="reina">
+            <persName>La Reina</persName>
+          </person>
+          <person xml:id="prima_balia">
+            <persName>Prima Balia</persName>
+          </person>
+          <person xml:id="seconda_balia">
+            <persName>Seconda Balia</persName>
+          </person>
+          <person xml:id="terza_balia">
+            <persName>Terza Balia</persName>
+          </person>
+          <person xml:id="donzella">
+            <persName>Una Donzella della Reina</persName>
+          </person>
+          <person xml:id="damigella">
+            <persName>Damigella</persName>
+          </person>
+          <person xml:id="fanciulla">
+            <persName>Una Fanciulla ebrea</persName>
+          </person>
+          <person xml:id="balia_ebrea">
+            <persName>Una Balia ebrea madre della Fanciulla</persName>
+          </person>
+          <person xml:id="faraone">
+            <persName>Faraone</persName>
+          </person>
+          <person xml:id="speranza">
+            <persName>Speranza</persName>
+          </person>
+          <person xml:id="savio">
+            <persName>Savio</persName>
+          </person>
+          <personGrp xml:id="savi">
+            <name>I Savi della corte</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -100,9 +146,7 @@
         <castItem>
           <role>Un altro Angelo</role>
         </castItem>
-        <castItem>
-          <role>La Reina, figlia di Faraone</role>
-        </castItem>
+        <castItem><role>La Reina</role>, <roleDesc>figlia di Faraone</roleDesc></castItem>
         <castItem>
           <role>Moisè bambino</role>
         </castItem>
@@ -124,12 +168,8 @@
         <castItem>
           <role>Una Balia ebrea madre della Fanciulla</role>
         </castItem>
-        <castItem>
-          <role>Faraone, re d'Egitto</role>
-        </castItem>
-        <castItem>
-          <role>Speranza, servo di Faraone</role>
-        </castItem>
+        <castItem><role>Faraone</role>, <roleDesc>re d'Egitto</roleDesc></castItem>
+        <castItem><role>Speranza</role>, <roleDesc>servo di Faraone</roleDesc></castItem>
         <castItem>
           <role>Baroni della corte</role>
         </castItem>
@@ -142,7 +182,7 @@
       <div>
         <head>La rappresentazione di Moisè e Faraone re d’Egitto</head>
         <stage>Parla l'Angelo e chiama Iddio nel principio della festa:</stage>
-        <sp>
+        <sp who="#angelo">
           <speaker>ANGELO</speaker>
           <lg>
             <l>Altissimo Signor, mente increata,</l>
@@ -156,7 +196,7 @@
           </lg>
         </sp>
         <stage>Risponde il Secondo Angelo:</stage>
-        <sp>
+        <sp who="#altro_angelo">
           <speaker>ALTRO ANGELO</speaker>
           <lg>
             <l>Al qual per ogni tempo sempre sia</l>
@@ -170,7 +210,7 @@
           </lg>
         </sp>
         <stage>Questa è la nunziazione della festa:</stage>
-        <sp>
+        <sp who="#angelo #altro_angelo">
           <speaker>ANGELI</speaker>
           <lg>
             <l>Noi vogliàn far la rappresentazione</l>
@@ -194,7 +234,7 @@
           </lg>
         </sp>
         <stage>Comincia la storia e parla la Figlia di Faraone a' servi e valletti:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Oltre sù, cari miei servi e valletti,</l>
@@ -208,7 +248,7 @@
           </lg>
         </sp>
         <stage>Tornono e servi e valletti e recano il Fanciullo Moisè e presentonlo alla Reina e la Reina l'accetta e parla alle sue damigelle e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Questa a me par non piccola ventura</l>
@@ -232,7 +272,7 @@
           </lg>
         </sp>
         <stage>Vengon le Balie e la Reina dice:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Vo' siete, balie mie, le ben venute.</l>
@@ -246,7 +286,7 @@
           </lg>
         </sp>
         <stage>Parla una Balia per tutte e dice così:</stage>
-        <sp>
+        <sp who="#prima_balia">
           <speaker>PRIMA BALIA</speaker>
           <lg>
             <l>Eccelsa degna famosa Reina,</l>
@@ -260,7 +300,7 @@
           </lg>
         </sp>
         <stage>E poi piglia il Fanciullo e 'l Fanciullo non vuole poppare:</stage>
-        <sp>
+        <sp who="#prima_balia">
           <speaker>PRIMA BALIA</speaker>
           <lg>
             <l>Che fortuna o disgrazia oggi mi sia?</l>
@@ -268,7 +308,7 @@
           </lg>
         </sp>
         <stage>Dice l'altra:</stage>
-        <sp>
+        <sp who="#seconda_balia">
           <speaker>SECONDA BALIA</speaker>
           <lg>
             <l>Dallo un po' qua e darogli la mia,</l>
@@ -276,7 +316,7 @@
           </lg>
         </sp>
         <stage>E anche non la vuole, onde essa dice:</stage>
-        <sp>
+        <sp who="#seconda_balia">
           <speaker>SECONDA BALIA</speaker>
           <lg>
             <l>Quest'è per certo una gran ricadia:</l>
@@ -284,7 +324,7 @@
           </lg>
         </sp>
         <stage>E l'altra Balia dice:</stage>
-        <sp>
+        <sp who="#terza_balia">
           <speaker>TERZA BALIA</speaker>
           <lg>
             <l>Poi ch'e' non poppa, e' non ci viverane</l>
@@ -292,7 +332,7 @@
           </lg>
         </sp>
         <stage>E veduto la Reina che 'l Fanciullo non poppa, ella dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Poi che la poppa el fanciul non l'attira,</l>
@@ -306,7 +346,7 @@
           </lg>
         </sp>
         <stage>Parla una Donzella e dice alla Reina:</stage>
-        <sp>
+        <sp who="#donzella">
           <speaker>DONZELLA</speaker>
           <lg>
             <l>Madonna gentilissima Reina,</l>
@@ -320,7 +360,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Questa mi pare un'ottima ragione,</l>
@@ -334,7 +374,7 @@
           </lg>
         </sp>
         <stage>Parla una Donzella:</stage>
-        <sp>
+        <sp who="#donzella">
           <speaker>DONZELLA</speaker>
           <lg>
             <l>Magnifica Reina mia prudente,</l>
@@ -348,7 +388,7 @@
           </lg>
         </sp>
         <stage>Parla la Reina e dice:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Fammela qui venir, che 'l tempo fugge,</l>
@@ -362,7 +402,7 @@
           </lg>
         </sp>
         <stage>Parla la Damigella alla Fanciulla e dice:</stage>
-        <sp>
+        <sp who="#damigella">
           <speaker>DAMIGELLA</speaker>
           <lg>
             <l>O povera fanciulla, avventurata</l>
@@ -376,7 +416,7 @@
           </lg>
         </sp>
         <stage>Parla la Fanciulla alla Reina:</stage>
-        <sp>
+        <sp who="#fanciulla">
           <speaker>FANCIULLA</speaker>
           <lg>
             <l>Altissima e infinita provedenza</l>
@@ -390,7 +430,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina alla Fanciulla:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Cara mia serva, io ho &lt;pur&gt; sentito</l>
@@ -404,7 +444,7 @@
           </lg>
         </sp>
         <stage>Va la Fanciulla e mena la Madre e la Madre dice così:</stage>
-        <sp>
+        <sp who="#balia_ebrea">
           <speaker>BALIA EBREA</speaker>
           <lg>
             <l>Famosissima, degna, alta e felice</l>
@@ -418,7 +458,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina alla Balia:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Cara mia serva, un attivo mie figlio,</l>
@@ -432,7 +472,7 @@
           </lg>
         </sp>
         <stage>Risponde la Balia e dice:</stage>
-        <sp>
+        <sp who="#balia_ebrea">
           <speaker>BALIA EBREA</speaker>
           <lg>
             <l>Fatel venir, che Dio sia benedetto,</l>
@@ -446,7 +486,7 @@
           </lg>
         </sp>
         <stage>E la Reina fa dare il Fanciullo alla Balia ond'egli poppa e la Reina disse così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Da poi che poppa il latte, tal ventura</l>
@@ -460,7 +500,7 @@
           </lg>
         </sp>
         <stage>Risponde la Balia:</stage>
-        <sp>
+        <sp who="#balia_ebrea">
           <speaker>BALIA EBREA</speaker>
           <lg>
             <l>Gentil Reina, fate conto ch'io</l>
@@ -474,7 +514,7 @@
           </lg>
         </sp>
         <stage>Vassene la Balia e portasene il Fanciullo. Ora comincia il Re e dice a' suoi servi così:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Vien qua, Speranza, e va alla mia figlia,</l>
@@ -488,7 +528,7 @@
           </lg>
         </sp>
         <stage>Va il servo per la Reina e dice così:</stage>
-        <sp>
+        <sp who="#speranza">
           <speaker>SERVO</speaker>
           <lg>
             <l>Gentilissima dama la Reina,</l>
@@ -502,7 +542,7 @@
           </lg>
         </sp>
         <stage>Va la Reina dinanzi al Re e il Re parla così:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>E' non bisogna a me da te saluto</l>
@@ -526,7 +566,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina al Re:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Chi può, santa Corona, immaginare</l>
@@ -540,7 +580,7 @@
           </lg>
         </sp>
         <stage>Parla pure la Reina:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Però, santa Corona, inginocchione</l>
@@ -554,7 +594,7 @@
           </lg>
         </sp>
         <stage>Risponde il Re alla Figliuola:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Tu vai pigliando pur con man gli stecchi</l>
@@ -568,7 +608,7 @@
           </lg>
         </sp>
         <stage>Parla la Reina :</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Padre mio, giusto Re, caro Signore,</l>
@@ -582,7 +622,7 @@
           </lg>
         </sp>
         <stage>Risponde il Re:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Dolce figliuola mia, vie maggior fatti</l>
@@ -596,7 +636,7 @@
           </lg>
         </sp>
         <stage>Parla la Reina:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Tante grazie ti renda il Creatore,</l>
@@ -610,7 +650,7 @@
           </lg>
         </sp>
         <stage>Vanne &lt;la&gt; Reina e manda pel Fanciullo e giunge la Balia col Fanciullo e parla:</stage>
-        <sp>
+        <sp who="#balia_ebrea">
           <speaker>BALIA EBREA</speaker>
           <lg>
             <l>Ecco, santa Corona, il bambolino.</l>
@@ -624,7 +664,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina alla Balia:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Io mel veggio negli occhi, né parlare</l>
@@ -638,7 +678,7 @@
           </lg>
         </sp>
         <stage>&lt;Parla il Re:&gt;</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Egregi miei Baroni alti e potenti,</l>
@@ -652,7 +692,7 @@
           </lg>
         </sp>
         <stage>E qui si comincia a sonare e a ballare e quando hanno ballato un poco la Reina venga col Fanciullo e comincia parlare:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Santissima Corona alta e potente,</l>
@@ -666,7 +706,7 @@
           </lg>
         </sp>
         <stage>Risponde il Re:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Carissima figli&lt;uol&gt;a, ogni impromessa</l>
@@ -680,7 +720,7 @@
           </lg>
         </sp>
         <stage>Pigliò il Re il Fanciullo in collo e 'l Fanciullo prese la corona e gitolla in terra e 'l Re disse così:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Tanto sie tu, traditore isconfitto</l>
@@ -694,7 +734,7 @@
           </lg>
         </sp>
         <stage>La Reina abbracciò il Fanciullo e disse:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Santissima Corona, il sentimento</l>
@@ -708,7 +748,7 @@
           </lg>
         </sp>
         <stage>Risponde il Re e dice:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>O figlia maladetta e disleale,</l>
@@ -722,7 +762,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Caro mio padre, ogni piccola cosa</l>
@@ -736,7 +776,7 @@
           </lg>
         </sp>
         <stage>Risponde il Re alla Reina:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Io non posso dal core isviluppare</l>
@@ -750,7 +790,7 @@
           </lg>
         </sp>
         <stage>Risponde la Reina e dice:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Se io nol pruovo, i' voglio esser contenta</l>
@@ -764,7 +804,7 @@
           </lg>
         </sp>
         <stage>Dice il Re a' Savi sua:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Orsù, fate venir tutti i mie' Savi</l>
@@ -778,7 +818,7 @@
           </lg>
         </sp>
         <stage>Giungono i Savi e 'l Re parla e dice:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Con ogni ingegno e regola e dottrina</l>
@@ -792,7 +832,7 @@
           </lg>
         </sp>
         <stage>Risponde un Savio:</stage>
-        <sp>
+        <sp who="#savio">
           <speaker>SAVIO</speaker>
           <lg>
             <l>Venga chi vuol, che noi abbiàn tant'arte</l>
@@ -806,7 +846,7 @@
           </lg>
         </sp>
         <stage>Allora la Figlia si rizza e 'l Re dice così:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l> Difendi oggimai, figliuola mia,</l>
@@ -820,7 +860,7 @@
           </lg>
         </sp>
         <stage>Parla la Reina e dice due stanze:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Nessuno ingegno mai sotto le stelle</l>
@@ -844,7 +884,7 @@
           </lg>
         </sp>
         <stage>Rispondono i Savi:</stage>
-        <sp>
+        <sp who="#savi">
           <speaker>SAVI</speaker>
           <lg>
             <l>Quest'è, madonna, sì vera ragione</l>
@@ -856,7 +896,7 @@
           </lg>
         </sp>
         <stage>Viene un bacino di fiorini e una tegghia di fuoco e pongonle innanzi al Fanciullo &lt;e il Fanciullo&gt; prese il fuoco. &lt;Parlano i Savi&gt;:</stage>
-        <sp>
+        <sp who="#savi">
           <speaker>SAVI</speaker>
           <lg>
             <l>né niun di noi ci può fare parola,</l>
@@ -864,7 +904,7 @@
           </lg>
         </sp>
         <stage>Parla la Reina:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker>REINA</speaker>
           <lg>
             <l>Diletto padre mio giusto e da bene,</l>
@@ -878,7 +918,7 @@
           </lg>
         </sp>
         <stage>Parla uno Savio:</stage>
-        <sp>
+        <sp who="#savio">
           <speaker>SAVIO</speaker>
           <lg>
             <l>Questa giovana donna, alta Reina</l>
@@ -892,7 +932,7 @@
           </lg>
         </sp>
         <stage>Risponde il Re:</stage>
-        <sp>
+        <sp who="#faraone">
           <speaker>FARAONE</speaker>
           <lg>
             <l>Io son contento e vo' che così sia</l>
@@ -906,7 +946,7 @@
           </lg>
         </sp>
         <stage>Finita la storia parla l'Angelo:</stage>
-        <sp>
+        <sp who="#angelo">
           <speaker>ANGELO</speaker>
           <lg>
             <l>Carissimi gentili sapïenti</l>

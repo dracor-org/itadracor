@@ -75,6 +75,31 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="poro">
+            <persName>Poro</persName>
+          </person>
+          <person xml:id="gandarte">
+            <persName>Gandarte</persName>
+          </person>
+          <person xml:id="timagene">
+            <persName>Timagene</persName>
+          </person>
+          <person xml:id="alessandro">
+            <persName>Alessandro</persName>
+          </person>
+          <person xml:id="erissena">
+            <persName>Erissena</persName>
+          </person>
+          <person xml:id="cleofide">
+            <persName>Cleofide</persName>
+          </person>
+          <personGrp xml:id="coro">
+            <name>Coro de' baccanti</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Digitalizzazione</change>
@@ -126,7 +151,7 @@
           <head>SCENA PRIMA</head>
           <stage>Campo di battaglia sulle rive dell'Idaspe. Tende, carri rovesciati, soldati dispersi, armi, insegne ed altri avanzi dell'esercito di Poro disfatto da Alessandro.</stage>
           <stage>Terminata la sinfonia, s'ode strepito d'armi e di stromenti militari. Nell'alzar della tenda veggonsi soldati che fuggono. PORO con ispada nuda, indi GANDARTE</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Fermatevi, codardi! Ah! con la fuga</l>
             <l>Mal si compra una vita. A chi ragiono?</l>
@@ -141,7 +166,7 @@
             <l>L'acquisto di quel core</l>
             <l part="I">Sino all'ultimo dì.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Prendi, signore, <stage>(frettoloso e porgendo il proprio elmo a Poro</stage></l>
             <l>Prendi, e il real tuo serto</l>
@@ -149,23 +174,23 @@
             <l>La schiera ostil. Deh! non tardar. S'inganni</l>
             <l part="I">Il nemico così.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ma il tuo periglio?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>E' periglio privato. In me non perde</l>
             <l>L'India il suo difensor. Porgi, t'affretta:</l>
             <l part="I">Non abbiam che un istante.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ecco, o mio fido, <stage>(si leva il proprio cimiero e lo pone sul capo a Gandarte</stage></l>
             <l>Sul tuo crine il mio serto. Ah, sia presagio</l>
             <l>Di grandezze future.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>E vengano con lui le tue sventure. <stage>(parte</stage></l>
           </sp>
@@ -173,33 +198,33 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>PORO, poi TIMAGENE con ispada nuda e séguito de' Greci, indi ALESSANDRO</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>In vano, empia fortuna,</l>
             <l>Il mio coraggio indebolir tu credi. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Guerrier, t'arresta, e cedi</l>
             <l>Quell'inutile acciaro. E' più sicuro</l>
             <l>Col vincitor pietoso inerme il vinto.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Pria di vincermi, oh quanto</l>
             <l>E di periglio e di  sudor ti resta!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Su, Macedoni, a forza</l>
             <l part="I">L'audace si disarmi.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F"><stage>(volendo difendersi, gli cade la spada)</stage>Ah stelle ingrate!</l>
             <l part="I">Il ferro m'abbandona.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Olà, fermate.</l>
             <l>Abbastanza fin ora</l>
@@ -208,19 +233,19 @@
             <l>Vincitor che ne abusa. <stage>(a Timagene)</stage> I miei seguaci</l>
             <l>Abbian virtude alla fortuna eguale.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="I">Fia legge il tuo voler. <stage>(parte</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">(Questi è il rivale).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Guerrier, dimmi: chi sei?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Nacqui sul Gange;</l>
             <l>Vissi fra l'armi; Asbite ho nome: ancora</l>
@@ -228,12 +253,12 @@
             <l>Amar la gloria è mio costume antico;</l>
             <l>Son di Poro seguace e tuo nemico.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>(Oh ardire! oh fedeltà!) Qual è di Poro</l>
             <l part="I">L'indole, il genio?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">E' degno</l>
             <l>D'un guerriero e d'un re. La tua fortuna</l>
@@ -242,13 +267,13 @@
             <l>Colà su l'are istesse,</l>
             <l>Che il timor de' mortali offre al tuo nome.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>In India eroe sì grande</l>
             <l>E' germoglio straniero. In greca cuna</l>
             <l>D'esser nato il tuo re degno saria.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Credi dunque che sia</l>
             <l>Il ciel di Macedonia</l>
@@ -256,7 +281,7 @@
             <l>La gloria è cara e la virtù s'onora:</l>
             <l>Ha gli Alessandri suoi l'Idaspe ancora.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Valoroso guerriero, al tuo signore</l>
             <l>Libero torna, e digli</l>
@@ -265,13 +290,13 @@
             <l>Poi torni a' regni sui:</l>
             <l>Altra ragion non mi riserbo in lui.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Vinto si chiami! E ambasciador mi vuoi</l>
             <l>Di simili proposte?</l>
             <l>Poco opportuno ambasciador scegliesti.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Ma degno assai. <stage>(a' Greci)</stage> Si lasci</l>
             <l>Libero il varco al prigionier. Ma inerme</l>
@@ -280,7 +305,7 @@
             <l>Che la man d'Alessandro a te presenta;</l>
             <l>E, lei trattando, il donator rammenta. <stage>(Poro prende la spada da Alessandro, al quale una comparsa ne presenta subito un'altra</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <lg>
               <l>Vedrai con tuo periglio</l>
@@ -298,51 +323,51 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>ALESSANDRO, poi TIMAGENE con ERISSENA incatenata, due Indiani e séguito</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Oh ammirabile sempre,</l>
             <l>Anche in fronte a' nemici,</l>
             <l>Carattere d'onor! Quel core audace,</l>
             <l>Perché fido al suo re, minaccia e piace.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Questa, che ad Alessandro</l>
             <l>Prigioniera donzella offre la sorte,</l>
             <l part="I">Germana è a Poro.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">(Oh dèi!</l>
             <l part="I">D'Erissena che fia!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Chi di quei lacci</l>
             <l part="I">L'innocente aggravò?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Questi di Poro</l>
             <l>Sudditi per natura,</l>
             <l>Per genio a te. Fu lor disegno offrirti</l>
             <l part="I">Un mezzo alla vittoria.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Indegni! Il ciglio</l>
             <l>Rasciuga, o principessa. Ad Alessandro</l>
             <l>Persuade rispetto il tuo sembiante.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">(Che dolce favellar!)</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">(Son quasi amante).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Agli empi, o Timagene,</l>
             <l>Si raddoppino i lacci</l>
@@ -350,17 +375,17 @@
             <l>Gl'infidi ed Erissena:</l>
             <l>Questa alla libertà, quelli alla pena. <stage>(due comparse sciolgono Erissena ed incatenano gl'Indiani</stage></l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">Generosa pietà!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Signor, perdona:</l>
             <l>Se Alessandro foss'io, direi che molto</l>
             <l>Giova se resta in servitù costei.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>S'io fossi Timagene anche il direi.</l>
             <lg>
@@ -379,20 +404,20 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>ERISSENA e TIMAGENE</stage>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>(Oh rimprovero acerbo,</l>
             <l part="I">Che irrìta l'odio mio!)</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Questo è Alessandro?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="I">E' questo.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Io mi credea</l>
             <l>Che avessero i nemici</l>
@@ -400,69 +425,69 @@
             <l>Più fiero il cor. Ma sono</l>
             <l part="I">Tutti i Greci così?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">(Semplice!) Appunto.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Quanto invidio la sorte</l>
             <l>Delle greche donzelle! Almen fra loro</l>
             <l part="I">Fossi nata ancor io!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Che aver potresti</l>
             <l>Di più vago, nascendo in altra arena?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Avrebbe un Alessandro anche Erissena.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Se le greche sembianze</l>
             <l>Ti son grate così, l'affetto mio</l>
             <l>Posso offrirti, se vuoi: son greco anch'io.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">Tu greco ancor?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Sotto un istesso cielo</l>
             <l>Spuntò la prima aurora</l>
             <l>A' giorni d'Alessandro, a' giorni miei.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Non è greco Alessandro, o tu nol sei.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Dimmi almen qual ragione</l>
             <l>Sì diverso da me lo renda mai.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Ha in volto un non so che, che tu non hai.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>(Che pena!) Ah! già per lui</l>
             <l>Fra gli amorosi affanni</l>
             <l part="I">Dunque vive Erissena!</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">Io?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="M">Sì.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">T'inganni.</l>
             <lg>
@@ -513,7 +538,7 @@
           <head>SCENA SESTA</head>
           <stage>Recinto di palme e cipressi con picciolo tempio nel mezzo, dedicato a Bacco, nella reggia di Cleofide.</stage>
           <stage>CLEOFIDE con séguito, indi PORO</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Perfidi! qual riparo, <stage>(alle comparse</stage></l>
             <l>Qual rimedio adoprar? Mancando ogni altro,</l>
@@ -529,32 +554,32 @@
             <l>Furie, che in sen sì facilmente aduna,</l>
             <l>Che il valor d'Alessandro e la fortuna.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>(Ecco l'infida!) Io vengo,</l>
             <l>Regina, a te di fortunati eventi</l>
             <l part="I">Felice apportator.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"><stage>(rasserenandosi)</stage> Numi! respiro.</l>
             <l part="I">Che rechi mai?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F"><stage>(come sopra, con ironia)</stage> Per Alessandro al fine</l>
             <l>Si dichiarò la sorte. Esulta: avrai</l>
             <l>Dell'Oriente oppresso <stage>(Cleofide si turba</stage></l>
             <l>A momenti al tuo piè tutti i trofei.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Così m'insulti? Oh dèi! Dunque saranno</l>
             <l>Eterne le dubbiezze</l>
             <l>Del geloso tuo cor? Fidati, o caro,</l>
             <l part="I">Fidati pur di me.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Di te si fida</l>
             <l>Anche Alessandro. E chi può dir qul sia</l>
@@ -564,7 +589,7 @@
             <l>Hai le sue forze indebolite e dome.</l>
             <l>E creder deggio? e ho da fidarmi? e come?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ingrato, hai poche prove</l>
             <l>Della mia fedeltà? Comparve appena</l>
@@ -582,11 +607,11 @@
             <l>De' miei sudditi il sangue, il regno mio;</l>
             <l part="I">E non ti basta? e non mi credi?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F"><stage>(commosso)</stage> (Oh Dio!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Tollerar non posso</l>
             <l>Così barbari oltraggi.</l>
@@ -597,49 +622,49 @@
             <l>Le tue furie una volta</l>
             <l part="I">Finiranno così.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Fermati; ascolta.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Che dir mi puoi?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Che a gran ragion t'offende</l>
             <l part="I">Il geloso amor mio.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Questo è un amore</l>
             <l part="I">Peggior dell'odio.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Io ti prometto, o cara,</l>
             <l>Che mai più di tua fede</l>
             <l part="I">Dubitar non saprò.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Queste promesse</l>
             <l>Mille volte facesti, e mille volte</l>
             <l part="I">Tornasti a vacillar.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Se mai di nuovo</l>
             <l>Io ti credo infedel, per mio tormento</l>
             <l>Altra fiamma t'accenda,</l>
             <l>E vera in te l'infedeltà si renda.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ancor non m'assicuro:</l>
             <l part="I">Giuralo.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">A tutti i nostri dèi lo giuro.</l>
             <lg>
@@ -652,31 +677,31 @@
         <div type="scene">
           <head>SCENA SETTIMA</head>
           <stage>ERISSENA accompagnata da Macedoni, e detti.</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Erissena! Che veggo!</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Come! Tu nella reggia?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Un tradimento</l>
             <l>Mi portò fra' nemici, e un atto illustre</l>
             <l>Del vincitor pietoso a voi mi rende.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Che ti disse Alessandro? <stage>(Poro si turba</stage></l>
             <l part="I">Parlò di me?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F"><stage>(si corregge)</stage> (Ma questa</l>
             <l part="I">E' innocente richiesta).</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">I detti suoi</l>
             <l>Ridirti non saprei: so che mi piacque;</l>
@@ -687,20 +712,20 @@
             <l>Serba la sua bellezza, e l'alma grande</l>
             <l>In ogni sguardo suo tutta si vede.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Cleofide da te questo non chiede. <stage>(con isdegno ad Erissena</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ma giova questo ancora</l>
             <l>Forse a' disegni miei.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>(Ah, non torniamo a dubitar di lei).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Macedoni guerrieri,</l>
             <l>Tornate al vostro re: ditegli quanto</l>
@@ -709,42 +734,42 @@
             <l>Tra le falangi armate</l>
             <l part="I">Cleofide verrà.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Come! Fermate. <stage>(a' Macedoni con impeto</stage></l>
             <l part="I">Tu ad Alessandro? <stage>(a Cleofilde, turbato</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">E che perciò? Non vedo</l>
             <l part="I">Ragion di meraviglia.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F"><stage>(come sopra)</stage> In questa guisa</l>
             <l>Il tuo decoro, il nome tuo si oscura.</l>
             <l part="I">L'India che mai dirà?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Questa è mia cura.</l>
             <l part="I">Partite. <stage>(a' Macedoni che partono</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">(Io smanio).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Ah, non vorrei che fosse</l>
             <l>Il tuo soverchio zelo</l>
             <l>Quel solito timor che t'avvelena.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Lo tolga il Cielo! <stage>(con tranquillità forzata</stage> (Oh giuramento! oh pena!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Siegui a fidarti: in questa guisa impegni</l>
             <l>A maggior fedeltà gli affetti miei.</l>
@@ -766,7 +791,7 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>PORO, ERISSENA, indi GANDARTE</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Dèi, che tormento è questo!</l>
             <l>Va Cleofide al campo, ed io qui resto!</l>
@@ -774,15 +799,15 @@
             <l>Serva di qualche inciampo</l>
             <l part="I">La mia presenza. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="M">Ove, signore?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Al campo.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Ferma! non è ancor tempo. Io non in vano</l>
             <l>Tardai fin or. Questo real diadema</l>
@@ -791,32 +816,32 @@
             <l>Nemico d'Alessandro. Assai da lui</l>
             <l part="I">Noi possiamo sperare.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Or non è questa</l>
             <l>La mia cura maggiore. Al greco duce</l>
             <l part="I">Cleofide s'invia.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Ma che paventi?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">Che figuri perciò?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Mille figuro</l>
             <l>Immagini crudeli</l>
             <l>D'infedeltà, vezzi, lusinghe, sguardi.</l>
             <l part="I">Che posso dir?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">Ma saran finti.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Addio.</l>
             <l>Fingendo s'incomincia. Ah, non sapete</l>
@@ -827,73 +852,73 @@
         <div type="scene">
           <head>SCENA NONA</head>
           <stage>ERISSENA e GANDARTE</stage>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Principessa adorata, allor che intesi</l>
             <l>Te prigioniera, il mio dolor fu estremo:</l>
             <l>Or che sciolta ti vedo,</l>
             <l part="I">Credimi, estremo è il mio piacer.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Lo credo.</l>
             <l>Dimmi: vedesti in su gli opposti lidi</l>
             <l part="I">Dell'Idaspe Alessandro?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Ancor nol vidi.</l>
             <l>E tu provasti mai</l>
             <l part="I">Alcun timor ne' miei perigli?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Assai.</l>
             <l>Se Alessandro una volta</l>
             <l part="I">Giungi a veder...</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">M'è noto. Ah, più di lui</l>
             <l>Or non parliam. Dimmi che m'ami: i pegni</l>
             <l>Rinnova di tua fé; dimmi che anela</l>
             <l>Il tuo bel core all'imeneo promesso.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Eh! non è già l'istesso</l>
             <l>Il vedere Alessandro</l>
             <l>Che udirne ragionar. Qualunque vanto</l>
             <l part="I">Spiegar non può...</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Ma tanto</l>
             <l>Parlar di lui che mai vuol dir? Pavento,</l>
             <l>Cara (sia con la tua pace),</l>
             <l part="I">Che Alessandro ti piaccia.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">E' ver: mi piace.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Dunque, così, tiranna,</l>
             <l part="I">Mi deridi, m'inganni?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">E chi t'inganna?</l>
             <l part="I">San gli dèi ch'io non fingo.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Allor fingevi</l>
             <l>Dunque, o crudel, che del tuo core amante</l>
             <l>Mi giuravi il possesso.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Allora io non fingea: non fingo adesso. <stage>(parte</stage></l>
           </sp>
@@ -933,18 +958,18 @@
           <head>SCENA UNDICESIMA</head>
           <stage>Gran padiglione d'Alessandro vicino all'Idaspe. Vista della reggia di Cleofide su l'altra sponda del fiume.</stage>
           <stage>ALESSANDRO e TIMAGENE, guardie dietro al padiglione.</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Pur troppo, amico, è vero: ama Alessandro;</l>
             <l>E nel suo cor trionfa</l>
             <l part="I">Cleofide già vinta.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Eccola: a lei</l>
             <l part="I">Offri e dimanda amore.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Amor! T'inganni:</l>
             <l>Alessandro sì presto</l>
@@ -956,7 +981,7 @@
           <head>SCENA DODICESIMA</head>
           <stage>Nel tempo d'una breve sinfonia si vedono venire diverse barche pel fiume, dalle quali scendono molti Indiani, portando diversi doni; e dalla principale sbarca CLEOFIDE, che viene incontrata da ALESSANDRO.</stage>
           <stage>CLEOFIDE e detti.</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ciò ch'io t'offro, Alessandro,</l>
             <l>E' quanto di più raro,</l>
@@ -968,7 +993,7 @@
             <l>All'amistà dovuto:</l>
             <l>Se suddita mi brami, ecco un tributo.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Da' sudditi io non chiedo</l>
             <l>Altr'omaggio che fede, e dagli amici</l>
@@ -978,45 +1003,45 @@
             <l>Timagene, alle navi</l>
             <l>Tornino que' tesori. <stage>(Timagene si ritira, dando ordine agl'Indiani che tornino su le navi coi doni</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ah! mel predisse il cor. Questo disprezzo</l>
             <l>Giustifica il mio pianto. <stage>(piange</stage></l>
             <l>L'esserti... odiosa... tanto...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Ma non è ver. Sappi... t'inganni... Oh Dio!</l>
             <l>(M'uscì quasi da' labbri idolo mio).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Signor, rimanti in pace. A me non lice</l>
             <l>Miglior sorte sperar de' doni miei:</l>
             <l>Più di quelli importuna io ti sarei. <stage>(in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>T'arresta. <stage>(arrestandola)</stage> Ah! mal, regina,</l>
             <l>Interpreti il mio cor. Siedi e ragiona.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Ubbidirò.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">(Che amabile sembianza!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">(Mie lusinghe, alla prova). <stage>(siedono</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">(Alma, costanza).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>In faccia ad Alessandro</l>
             <l>Mi perdo, mi confondo; e non so come...</l>
@@ -1025,40 +1050,40 @@
         <div type="scene">
           <head>SCENA TREDICESIMA</head>
           <stage>TIMAGENE e detti.</stage>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Monarca, il duce Asbite</l>
             <l>Chiede a nome di Poro</l>
             <l part="I">Di presentarsi a te.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="M">(Numi!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Fra poco</l>
             <l part="I">Verrà: per or con la regina...</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Appunto</l>
             <l>Inanzi a lei di ragionar desia.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Venga. <stage>(Timagene parte</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">(Poro l'invia!</l>
             <l part="I">Chi è mai costui!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">T'è noto il suo pensiero?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Signor, l'ignoro, e non so dirti il vero.</l>
           </sp>
@@ -1066,15 +1091,15 @@
         <div type="scene">
           <head>SCENA QUATTORDICESIMA</head>
           <stage>PORO e detti.</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">(Eccola: oh gelosia!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="M">(Poro!)</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Perdona,</l>
             <l>Cleofide, s'io vengo</l>
@@ -1082,99 +1107,99 @@
             <l>Più breve io figurai; ma d'Alessandro</l>
             <l>Piacevole è il soggiorno e di te degno.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>(Già di nuovo è geloso! Ardo di sdegno).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Parla, Asbite: che chiede</l>
             <l part="I">Poro da me?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Le offerte tue ricusa,</l>
             <l part="I">Né vinto ancor si chiama.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E ben, di nuovo</l>
             <l part="I">Tenti la sorte sua.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Signor, sospendi</l>
             <l>La tua credenza: Asbite</l>
             <l>Forse non ben comprese</l>
             <l part="I">Di Poro i detti.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">Anzi son questi.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Eh! taci.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">No: lo pretendi in van.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">(Per suo castigo</l>
             <l>Abbia ragion d'ingelosirsi). Il passo,</l>
             <l>Amico o vincitor, qual più ti piace,</l>
             <l part="I">Volgi, signore, alla mia reggia.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">(Ah, infida!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Più dell'Idaspe il varco</l>
             <l>Non ti sarà conteso, e là saprai</l>
             <l>Meglio tutti di Poro i sensi e i miei.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Non fidarti a costei:</l>
             <l>E' avezza ad ingannar. Grato a' tuoi doni,</l>
             <l part="I">Io ti deggio avvertir.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="M">(Che soffro!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Asbite,</l>
             <l part="I">Sei troppo audace.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Io n'ho ragion: conosco</l>
             <l>Cleofide e il mio re. Da lei tradito...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Non udirlo, o signor; nol merta: i primi</l>
             <l>Oltraggi non son questi,</l>
             <l part="I">Ch'io soffro da costui.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">(Perfida!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Accetti,</l>
             <l>Alessandro, l'invito?</l>
             <l>Qual risposta mi rendi?</l>
             <l part="I">Che ho da sperar? Verrai?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Verrò: m'attendi.</l>
           </sp>
@@ -1182,72 +1207,72 @@
         <div type="scene">
           <head>SCENA QUINDICESIMA</head>
           <stage>PORO e CLEOFIDE.</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Lode agli dèi! Son persuaso al fine</l>
             <l part="I">Della tua fedeltà. <stage>(con ironia</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"><stage>(come sopra)</stage> Lode agli dèi!</l>
             <l>Poro di me si fida,</l>
             <l part="I">Più geloso non è.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Dov'è chi dice</l>
             <l>Che un femminil pensiero</l>
             <l part="I">Dell'aura è più leggiero?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Ov'è chi dice</l>
             <l>Che più del mare un sospettoso amante</l>
             <l>E' torbido e incostante?</l>
             <l part="I">Io non lo credo.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ed io</l>
             <l part="I">Nol posso dir.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Mi disinganna assai...</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Mi convince abbastanza...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">La placidezza tua...</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">La tua costanza.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ricordo il giuramento.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>La promessa rammento.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Si conosce...</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Si vede...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Che placido amator!</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Che bella fede!</l>
             <lg>
@@ -1256,7 +1281,7 @@
               <l>Pace mai non abbia il cor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <lg part="M">
               <l>Se mai più sarò geloso,</l>
@@ -1264,40 +1289,40 @@
               <l>Che dell'India è domator.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <lg part="M">
               <l>Infedel! questo è l'amore?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <lg part="M">
               <l>Menzogner! questa è la fede?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#poro #cleofide">
             <speaker>A DUE</speaker>
             <lg part="M">
               <l>Chi non crede al mio dolore,</l>
               <l>Che lo possa un dì provar!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <lg part="M">
               <l>Per chi perdo, o giusti dèi,</l>
               <l>Il riposo de' miei giorni!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <lg part="M">
               <l>A chi mai gli affetti miei,</l>
               <l>Giusti dèi, serbai fin ora!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#poro #cleofide">
             <speaker>A DUE</speaker>
             <lg part="F">
               <l>Ah! si mora e non si torni</l>
@@ -1312,12 +1337,12 @@
           <head>SCENA PRIMA</head>
           <stage>Gabinetti reali.</stage>
           <stage>PORO e GANDARTE</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>E passerà l'Idaspe</l>
             <l>L'aborrito rival senza contesa?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>No, mio re. Per tuo cenno</l>
             <l>Già radunai gran parte</l>
@@ -1329,7 +1354,7 @@
             <l>Dell'esercito greco il ponte angusto</l>
             <l part="I">Ritarderà.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Benché da lui diviso</l>
             <l>L'esercito rimanga, avrà difesa.</l>
@@ -1337,7 +1362,7 @@
             <l>Lo precedono sempre</l>
             <l part="I">Gli argiraspidi suoi.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Fra questi appunto</l>
             <l>Seminò Timagene</l>
@@ -1357,7 +1382,7 @@
             <l>Qua il duce resterà. Compìto questo,</l>
             <l>Al fato e al tuo valor si fidi il resto.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>L'unico ben, ma grande,</l>
             <l>Che riman fra' disastri agl'infelici,</l>
@@ -1370,7 +1395,7 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>ERISSENA e detti.</stage>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Poro, Gandarte, arriva</l>
             <l>Alessandro a momenti. Un greco messo</l>
@@ -1381,26 +1406,26 @@
             <l>De' stranieri metalli; e fra le schiere</l>
             <l>Vidi all'aura ondeggiar mille bandiere.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>E Cleofide intanto</l>
             <l part="I">Che fa?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">Corre a incontrarlo.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ingrata! Amico,</l>
             <l>Vanne, vola e m'attendi</l>
             <l part="I">Al destinato loco.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">E tu non vieni?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Sì; ma prima all'infida</l>
             <l>Voglio recar su gli occhi</l>
@@ -1408,17 +1433,17 @@
             <l>Un'altra volta almeno</l>
             <l>Voglio dirle infedele, e poi son pago.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>E tu pensi a costei? L'onor ti chiama</l>
             <l>A più degni cimenti.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Va, Gandarte; a momenti</l>
             <l>Raggiungo i passi tuoi.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>(Oh amor sempre tiranno, anche agli eroi!) <stage>(parte</stage></l>
           </sp>
@@ -1426,35 +1451,35 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>PORO ed ERISSENA</stage>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Germano, anch'io vorrei trovarmi in campo</l>
             <l part="I">D'Alessandro all'arrivo.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">In van lo brami.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">Perché?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">Non più. Lasciami solo.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">E quale</l>
             <l part="I">Ragione il vieta?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">A una real donzella</l>
             <l>Andar così fra l'armi,</l>
             <l>Come lice a un guerrier, non è permesso.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Misera servitù del nostro sesso! <stage>(parte</stage></l>
           </sp>
@@ -1490,7 +1515,7 @@
           <stage>Campagna sparsa di fabbriche antiche con tende ed alloggiamenti militari preparati da Cleofide per l'esercito greco Ponte sull'Idaspe. Campo numeroso d'Alessandro, disposto in ordinanza di là dal fiume, con elefanti, torri, carri coperti e macchine da guerra.</stage>
           <stage>Nell'apertura della scena s'ode sinfonia di stromenti militari, nel tempo della quale passa il ponte una parte de' soldati greci, ed appresso a loro ALESSANDRO con TIMAGENE: poi sopraggiunge CLEOFIDE ad incontrarlo.</stage>
           <stage>CLEOFIDE, ALESSANDRO, TIMAGENE; indi GANDARTE</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Signor, l'India festiva</l>
             <l>Esulta al tuo passaggio, e lieta tanto</l>
@@ -1500,66 +1525,66 @@
             <l>Di pampini frondosi allegra plebe,</l>
             <l>Su le tigri di Nisa il dio di Tebe.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Siano accenti cortesi, o sian veraci</l>
             <l>Sensi del cor, di tua gentil favella</l>
             <l>Mi compiaccio, o regina; e solo ho pena</l>
             <l>Che fu all'India funesto il brando mio.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Eh vadano in oblio</l>
             <l>Le passate vicende: ormai sicuro</l>
             <l part="I">Puoi riposar su le tue palme. <stage>(si sente di dentro rumore d'armi</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ascolto</l>
             <l part="I">Strepito d'armi.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Oh stelle!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="I">Timagene, che fu?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Poro si vede</l>
             <l>Fra non pochi seguaci</l>
             <l part="I">Apparir minaccioso.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">(Ah, troppo veri</l>
             <l part="I">Voi foste, o miei timori!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E ben, regina,</l>
             <l>Io posso ormai sicuro</l>
             <l part="I">Su le palme posar?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Se colpa mia,</l>
             <l part="I">Signor...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Di questa colpa</l>
             <l>Si pentirà chi, disperato e folle,</l>
             <l>Tante volte irritò gli sdegni miei. <stage>(Alessandro snuda la spada, e seco Timagene, e vanno verso il ponte</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>L'amato ben voi difendete, o dèi.</l>
           </sp>
           <stage>(Entrata Cleofide, si vedono uscir con impeto gl'Indiani da' lati della scena vicino al fiume. Questi assalgono i Macedoni. Poro assale Alessandro. Gandarte con pochi seguaci corre sul mezzo del ponte ad impedire il passo all'esercito greco. E intanto che segue la zuffa nel piano, alcuni guastatori vanno diroccando il suddetto ponte. Disviati i combattenti fra le scene, si vede vacillare e poi cadere parte del ponte. Quei Macedoni che combattevano su l'altra sponda si ritirano intimoriti dalla caduta; e Gandarte rimane con alcuni de' suoi compagni in cima alle ruine.</stage>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Seguitemi, o compagni: unico scampo</l>
             <l>E' quello ch'io v'addito. <stage>(getta la spada ed il cimiero nel fiume</stage> Ah secondate,</l>
@@ -1571,19 +1596,19 @@
         <div type="scene">
           <head>SCENA SESTA</head>
           <stage>CLEOFIDE dalla destra, preceduta da PORO senza spada.</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ma per pietà, ben mio,</l>
             <l>Non più sospetti. Io t'amo;</l>
             <l>Non amo altro che te: penso a salvarti,</l>
             <l part="I">Quando soffro Alessandro.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Oh Dio! vorrei</l>
             <l part="I">Prestarti fé.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"> Ma per prestarmi fede</l>
             <l>Quai pegni vuoi da me? T'adoro ingrato;</l>
@@ -1597,38 +1622,38 @@
             <l>Vindice e testimonio il Ciel ne sia.</l>
             <l>Poro, dammi la destra; ecco la mia.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Oh destra! oh sposa! oh me felice! Io fui</l>
             <l>Un ingiusto fin or: perdono, o cara. <stage>(inginocchiandosi</stage></l>
             <l>Qualunque fallo antico...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Aimè! Sorgi, mia vita; ecco il nemico. <stage>(spaventata</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Dove?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="M">Colà.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Quest'altra via... Ma quindi</l>
             <l>Pur s'appressan guerrieri. Agl'infelici</l>
             <l>Son pur brevi i contenti!</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Sposo, ah, non v'è più scampo. A tergo il fiume;</l>
             <l>Alessandro ci arresta</l>
             <l>In quella parte, e Timagene in questa.</l>
             <l part="I">Eccoci prigioniri.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Oh dèi! Vedrassi</l>
             <l>La consorte di Poro</l>
@@ -1638,12 +1663,12 @@
             <l>Qual talamo novello... Ah, ch'io mi sento</l>
             <l part="I">Mille furie nel sen.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Poro, è perduta</l>
             <l>Per noi dunque ogni speme?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>No; ci resta una via: si mora insieme. <stage>(Poro snuda uno stile, ed alza il braccio in atto di ferirla</stage></l>
           </sp>
@@ -1651,35 +1676,35 @@
         <div type="scene">
           <head>SCENA SETTIMA</head>
           <stage>ALESSANDRO che, uscendo alle spalle di PORO, lo trattiene e lo disarma; soldati greci, e detti.</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Crudel, t'arresta.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="M">(Aita, o stelle!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F"><stage>(a Poro</stage> E donde</l>
             <l>Tanto ardimento e tanta</l>
             <l part="I">Temerità!</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Signor, la morte mia</l>
             <l part="I">Di Poro è cenno.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">Io sono...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Egli è di Poro</l>
             <l>Fedele esecutor. (Taci, ben mio). <stage>(piano a Poro</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>No, più tempo, o regina,</l>
             <l>Di ritegni or non è. Sappi, Alessandro,</l>
@@ -1690,33 +1715,33 @@
         <div type="scene">
           <head>SCENA OTTAVA</head>
           <stage>TIMAGENE e detti.</stage>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Le greche schiere,</l>
             <l>Signor, vieni a sedar. Chiede ciascuno</l>
             <l>Di Cleofide il sangue: ognun la crede</l>
             <l part="I">Rea dell'insidia.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ella è innocente: ignota</l>
             <l>Le fu la trama. Il primo autor son io:</l>
             <l>Tutto l'onor del gran disegno è mio.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">(Aimè!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Barbaro, e credi</l>
             <l part="I">Pregio l'infedeltà?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Signor, s'io mai...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Abbastanza palese</l>
             <l>Per l'insulto d'Asbite</l>
@@ -1734,32 +1759,32 @@
         <div type="scene">
           <head>SCENA NONA</head>
           <stage>CLEOFIDE, PORO e TIMAGENE con guardie.</stage>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Macedoni, alla reggia</l>
             <l>Cleofidi si scorga; e intanto Asbite</l>
             <l part="I">Meco rimanga.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">(In libertà potessi,</l>
             <l>Senza scoprirlo, almen dargli un addio).</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>(Potessi all'idol mio</l>
             <l part="I">Libero favellar).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">De' casi miei,</l>
             <l part="I">Timagene, hai pietà?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Più che non credi.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ah! se Poro mai vedi,</l>
             <l>Digli dunque per me che non si scordi,</l>
@@ -1783,22 +1808,22 @@
         <div type="scene">
           <head>SCENA DECIMA</head>
           <stage>PORO e TIMAGENE</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">(Tenerezze ingegnose!)</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Amico Asbite,</l>
             <l part="I">Siam pur soli una volta.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">E con qual fronte</l>
             <l>Mi chiami amico? Al mio signor prometti</l>
             <l>Sedur parte de' Greci, e poi l'inganni!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Non l'ingannai. Sedotti</l>
             <l>Gli argiraspidi avea: ma non so dirti</l>
@@ -1808,33 +1833,33 @@
             <l>Ultima quella schiera,</l>
             <l>Che doveva al passaggio esser primiera.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Dubito di tua fè.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Qualunque prova</l>
             <l>Dimandane, e l'avrai. Va; la mia cura</l>
             <l>Prigionier non t'arresta.</l>
             <l>Libero sei: la prima prova è questa.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Ma come ad Alessandro...</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Ad Alessandro</l>
             <l>Creder farò che, disperato, a morte</l>
             <l part="I">Volontaria corresti.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">E di vendetta</l>
             <l part="I">Più speranza non v'è?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Sì: già inviai</l>
             <l>Un mio foglio al tuo re. Da quello istrutto,</l>
@@ -1843,36 +1868,36 @@
             <l>A svenar l'oppressore agio ed aita</l>
             <l part="I">Avrà da me.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ma questo foglio a Poro</l>
             <l part="I">Non pervenne fin or.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">No! Come il sai?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Più non cercar; Poro non l'ebbe: io posso</l>
             <l part="I">Asserirlo per lui.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">M'avesse mai</l>
             <l>Tradito il messaggier! Tremo. Ah, t'affretta,</l>
             <l>Asbite, a Poro: ah, s'ei non vien, ruina</l>
             <l>Tutto il disegno mio.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Poro verrà: non dubitarne.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Addio. <stage>(parte</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Ricomincio a sperar. Da' lacci sciolto,</l>
             <l>L'impeto già de' miei furori ascolto.</l>
@@ -1896,7 +1921,7 @@
           <head>SCENA UNDICESIMA</head>
           <stage>Appartamenti nella reggia di Cleofide.</stage>
           <stage>CLEOFIDE e GANDARTE</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>E' ver, tentò svenarmi,</l>
             <l>Ma per soverchio amor. Ma già che il Cielo</l>
@@ -1906,17 +1931,17 @@
             <l>Nessun rimane in libertà per noi.</l>
             <l part="I">Ei vien: parti.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F"> Non sia</l>
             <l part="I">Mai ver ch'io t'abbandoni.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Ah, dal suo ciglio</l>
             <l part="I">Celati per pietà.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Numi, consiglio. <stage>(si nasconde</stage></l>
           </sp>
@@ -1924,7 +1949,7 @@
         <div type="scene">
           <head>SCENA DODICESIMA</head>
           <stage>ALESSANDRO e detti.</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Per salvarti, o regina,</l>
             <l>Tentai frenar, ma in vano,</l>
@@ -1937,51 +1962,51 @@
             <l>Ogni schiera orgogliosa</l>
             <l>Una parte di me: sarai mia sposa.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Io sposa d'Alessandro? <stage>(sorpresa</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>E qual altro riparo,</l>
             <l>Quando un campo ribelle</l>
             <l part="I">Una vittima chiede?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="M">Eccola. <stage>(si palesa</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">(Oh stelle!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Chi sei?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="M">Poro son io.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Come fra questi</l>
             <l>Custoditi soggiorni</l>
             <l part="I">Giungesti a penetrar?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Per via nascosa,</l>
             <l>Che il passaggio assicura</l>
             <l>Dalle sponde del fiume a queste mura.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>E ben, che vuoi? Domandi</l>
             <l>Pietà, perdono? O ad insultar ritorni</l>
             <l part="I">L'infelice regina?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">A che mi vai</l>
             <l>Rimproverando un disperato cenno,</l>
@@ -1998,19 +2023,19 @@
             <l>Le insidie, i tradimenti:</l>
             <l>Son Cleofide e Asbite ambo innocenti.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>(Oh coraggio! oh fortezza!)</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>(Oh fede che innamora!)</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>(Il mio re si difenda, e poi si mora).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>(E fia ver che mi vinca</l>
             <l>Un barbaro in virtù? No). Poro, ascolta:</l>
@@ -2019,11 +2044,11 @@
             <l>Che fra noi ti condusse,</l>
             <l>Allo sdegno de' Greci anche t'involi.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>E Cleofide intanto...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Cleofide è mia preda:</l>
             <l>Ritenerla potrei, potrei salvarla</l>
@@ -2033,15 +2058,15 @@
             <l>La tua grandezza e l'amor tuo comprendo;</l>
             <l>Onde a te (non so dirlo), a te la rendo.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Oh clemenza!</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="M">Oh pietà!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">D'Asbite io volo</l>
             <l>A disciogliere i lacci. Andate, amici;</l>
@@ -2067,69 +2092,69 @@
         <div type="scene">
           <head>SCENA TREDICESIMA</head>
           <stage>CLEOFIDE, GANDARTE; poi ERISSENA</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Chi sperava, o Gandarte,</l>
             <l>Tanta felicità fra tanti affanni?</l>
             <l>Quanto dobbiamo a' tuoi pietosi inganni!</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Di vassallo e d'amico</l>
             <l>Ho compiuto il dover. Ma... Chi s'appressa?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Sarà forse lo sposo.</l>
             <l part="I">Ah, no: giunge Erissena.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Oh, come asperso</l>
             <l part="I">Ha di lagrime il volto!</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Eh! Non è tempo</l>
             <l>Di pianto, o principessa. Andremo altrove</l>
             <l>A respirar con Poro aure felici.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">Ah, che Poro morì.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="M">Come?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Che dici?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Mi ha tradita Alessandro!</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Ei di se stesso</l>
             <l part="I">Fu l'uccisor.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Quando? Perché? Finisci</l>
             <l part="I">Di trafiggermi il cor. <stage>(con affanno e fretta</stage></l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Sai che rimase,</l>
             <l>Creduto Asbite, a Timagene in cura...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">E ben?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Cinto da' Greci,</l>
             <l>Lungo il fiume alle tende</l>
@@ -2139,25 +2164,25 @@
             <l>Fra lor la via s'aperse</l>
             <l>Si lanciò nell'Idaspe e si sommerse.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Privo di te, servo de' Greci, in odio  <stage>(a Cleofide</stage></l>
             <l part="I">Ebbe Poro la vita.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"><stage>(piangendo)</stage> I suoi furori</l>
             <l>Mi predicean qualche funesto eccesso.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="I">Ma donde il sai?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Da Timagene istesso.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Che mi giovò su l'are</l>
             <l>Tante vittime offrirvi, ingiusti dèi?</l>
@@ -2167,7 +2192,7 @@
             <l>Tutti gli umani eventi, <stage>(con passione disperata</stage></l>
             <l>Vi usurpate il poter, numi impotenti!</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Ah, che dici, o regina! Un mal privato</l>
             <l>spesso è pubblico bene;</l>
@@ -2175,7 +2200,7 @@
             <l>Fuggi; torna in te stessa;</l>
             <l part="I">Pensa a salvarti.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"><stage>(come sopra)</stage> A che fuggir? Qual danno</l>
             <l>Mi resta da temer? Lo sposo, il regno,</l>
@@ -2201,7 +2226,7 @@
         <div type="scene">
           <head>SCENA QUATTORDICESIMA</head>
           <stage>ERISSENA e GANDARTE</stage>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Adorata Erissena,</l>
             <l>Fra perdite sì grandi, ah, non si conti</l>
@@ -2209,7 +2234,7 @@
             <l>In più sicura parte:</l>
             <l>Tuo sposo e difensor sarà Gandarte.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Vanne solo: io sarei</l>
             <l>D'impaccio al tuo fuggir. La mia salvezza</l>
@@ -2217,7 +2242,7 @@
             <l>Esser utile all'India. Anzi tu devi</l>
             <l>A favor degli oppressi usar la spada.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>E dove senza te speri ch'io vada?</l>
             <lg>
@@ -2263,7 +2288,7 @@
           <head>SCENA PRIMA</head>
           <stage>Portici de' giardini reali.</stage>
           <stage>CLEOFIDE ed ERISSENA</stage>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ma lasciami, Erissena, <stage>(con noia</stage></l>
             <l>Respirar sola in pace. I passi miei</l>
@@ -2276,49 +2301,49 @@
             <l>Di vittima e di rogo or mi consola.</l>
             <l>Se altro non vuoi saper, lasciami sola.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Che bella fedeltà! Ma con qual fronte</l>
             <l part="I">Al tempio andrai?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">V'andrò come conviene</l>
             <l part="I">A una sposa reale.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">E Poro?</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">E Poro</l>
             <l>Fin colà negli Elisi</l>
             <l part="I">Sarà pago di me.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Ma l'Asia tutta...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Tutta mia approverà.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Sì, veramente</l>
             <l part="I">Dell'Asia in te le spose avranno...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Avranno</l>
             <l>Dell'Asia in me le spose esempio e guida.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Arrossisco per te: spergiura! infida!</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Alle ingiurie, Erissena,</l>
             <l>Non trascorrer sì presto. Io ti vorrei</l>
@@ -2347,24 +2372,24 @@
         <div type="scene">
           <head>SCENA SECONDA</head>
           <stage>ERISSENA, poi TIMAGENE</stage>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>E ostentar con tal fasto</l>
             <l part="I">Si può l'infedeltà!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F"><stage>(cercando per la scena, senza veder Erissena</stage> Poro non vedo.</l>
             <l part="I">Questa è pur l'ora, il loco è questo.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F"><stage>(senza veder Timagene</stage> E poi</l>
             <l>Ci lagneremo noi</l>
             <l>Se non credon gli amanti</l>
             <l>Alle nostre querele, a' nostri pianti!</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Se il mio foglio ei non ebbe,</l>
             <l>Asbite almen dovrebbe... <stage>(vede Erissena)</stage> Oh Ciel! chi mai</l>
@@ -2376,33 +2401,33 @@
         <div type="scene">
           <head>SCENA TERZA</head>
           <stage>ALESSANDRO e detti.</stage>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F"><stage>(a Timagene)</stage> Ove t'affretti?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="I">Signor... vado...: attendea...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">Che mai?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">L'istante</l>
             <l part="I">Di teco ragionar.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">Parla.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Vorrei...</l>
             <l part="I">(Stelle, ove son! Non trovo i detti).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Intendo:</l>
             <l>Solo mi vuoi. Bella Erissena, e dove</l>
@@ -2412,7 +2437,7 @@
             <l>Ch'ella sarà mia sposa</l>
             <l>Prima che questo sol compisca il giro.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Il so pur troppo; e il tuo bel core ammiro. <stage>(con dispetto, e parte</stage></l>
           </sp>
@@ -2420,12 +2445,12 @@
         <div type="scene">
           <head>SCENA QUARTA</head>
           <stage>ALESSANDRO e TIMAGENE</stage>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>(Dèi: che m'avvenne mai! Gelar mi sento;</l>
             <l part="I">Mi trema il cor).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F"><stage>(tutto senza sdegno)</stage> Siam soli:</l>
             <l>Ecco l'ora, ecco il loco, ecco Alessandro.</l>
@@ -2436,29 +2461,29 @@
             <l>All'onor di svenarmi</l>
             <l part="I">Non può sola aspirar?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Come! Io... svenarti?</l>
             <l>Ah! qual è quell'infame,</l>
             <l>Che ha questo in te nero sospetto impresso?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Vedilo. <stage>(gli dà il foglio da lui scritto a Poro</stage></l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="M">(Oh numi!) <stage>(abbattuto)</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E' Timagene istesso.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="I">Perfido messaggier!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Come! Si lagna</l>
             <l>Della perfidia altrui</l>
@@ -2466,36 +2491,36 @@
             <l>D'esiger l'altrui fede</l>
             <l part="I">Qual diritto ha un traditore?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">E pur, se vuoi</l>
             <l part="I">Ascoltar le mie scuse...</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ah taci: aggravi</l>
             <l>Così la colpa tua. Reo, che convinto</l>
             <l>Va mendicando scusa,</l>
             <l>Sol del suo cor la pertinacia accusa.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>E' ver. Nel passo, a cui ridotto io sono, <stage>(disperato</stage></l>
             <l>Più difesa o perdono</l>
             <l>E' follia di sperar: tutto il tuo sdegno</l>
             <l>A vendicarti affretta.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>Alessandro vendetta! E sazio ancora</l>
             <l part="I">D'offendermi non sei?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Dovuto è questo</l>
             <l part="I">Mio sangue a te.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Ma che mi giova il sangue</l>
             <l>D'un traditore? Ah, se mi vuoi superbo</l>
@@ -2505,14 +2530,14 @@
             <l>Più pago di me stesso,</l>
             <l>Che Poro debellato e Dario oppresso.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Oh delitto! oh perdono!</l>
             <l>Oh clemenza maggior de' falli miei! <stage>(inginocchiandosi con impeto e piangendo</stage></l>
             <l>Ma che resta agli dèi,</l>
             <l part="I">Se fa tanto un mortal?</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Sorgi! In quel pianto</l>
             <l>Già l'amico vegg'io. Sì bel rimorso</l>
@@ -2535,7 +2560,7 @@
         <div type="scene">
           <head>SCENA QUINTA</head>
           <stage>TIMAGENE indi PORO</stage>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>Oh rimorso! oh rossore! E non m'ascondo,</l>
             <l>Misero! a' rai del dì? Con qual coraggio</l>
@@ -2543,51 +2568,51 @@
             <l>Se reo di questo eccesso,</l>
             <l>Orribile son io tanto a me stesso?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>(Qui Timagene, e solo!) Amico, il Cielo</l>
             <l part="I">Pur salvo a te mi guida.</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Ah, fuggi, Asbite,</l>
             <l part="I">Fuggi da me.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Qui d'Alessandro il sangue</l>
             <l part="I">Non dobbiamo versar?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Prima si versi</l>
             <l part="I">Quello di Timagene.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">E la promessa?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l>La promessa d'un fallo</l>
             <l part="I">Non obbliga a compirlo.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Infido! Ah dunque</l>
             <l>Tu più quel Timagene</l>
             <l part="I">Di poc'anzi non sei?</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">No, quello in seno</l>
             <l>Avea perfida l'alma, il cor rubello.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Ed or...</l>
           </sp>
-          <sp>
+          <sp who="#timagene">
             <speaker>TIMAG.</speaker>
             <l part="F">Lode agli dèi, non è più quello.</l>
             <lg>
@@ -2606,7 +2631,7 @@
         <div type="scene">
           <head>SCENA SESTA</head>
           <stage>PORO, poi GANDARTE, indi ERISSENA</stage>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Ecco spezzato il solo</l>
             <l>Debolissimo filo a cui s'attenne</l>
@@ -2615,32 +2640,32 @@
             <l>Di fortuna a soffrir gli scherni e l'ire?</l>
             <l>Ah! finisca una volta il mio martìre. <stage>(in atto di snudar la spada</stage></l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="I">Ferma! Sei tu, mio re? <stage>(trattenendolo)</stage></l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Sei tu, germano?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Pur troppo io son.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">La principessa estinto</l>
             <l>Ti dicea nell'Idaspe.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>L'asserì Timagene.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">E v'ingannò.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Ma quell'incerto sguardo,</l>
             <l>Quella pallida fronte,</l>
@@ -2648,23 +2673,23 @@
             <l>Che a un disperato affanno</l>
             <l>Il mio re s'abbandona, e non m'inganno.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>E qual empio potrebbe</l>
             <l>Consigliarmi la vita in questo stato?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Ah no, germano amato,</l>
             <l part="I">Non dir così; mi fai morir.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Non sia</l>
             <l>Di tua virtù maggiore</l>
             <l part="I">La tirannia degli astri.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Hai molti al fine</l>
             <l>Compagni al duol; né de' traditi amanti</l>
@@ -2672,95 +2697,95 @@
             <l>Cleofide è la prima,</l>
             <l part="I">Né l'ultima sarà.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M"><stage>(sorpreso)</stage> Che?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F"> Non dolerti.</l>
             <l>Molto acquista chi perde</l>
             <l>Una donna infedel. Lascia che sposa</l>
             <l part="I">L'abbia pure Alessandro.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F"><stage>(sorpreso)</stage> Abbia Alessandro</l>
             <l part="I">Chi?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">L'ignori? Cleofide.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">E obbligarla</l>
             <l part="I">Chi a tal nodo potrà?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">Nessun. Di tutte</l>
             <l>Le sue lusinghe armata,</l>
             <l part="I">Ella stessa il richiese.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">Ella!</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">E l'ottenne;</l>
             <l>E i felici consorti andran contenti...</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Dove? <stage>(impaziente</stage></l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">Al tempio maggior.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">Quando?</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="F">A momenti.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Perfida! in van lo speri. <stage>(furioso in atto di partire</stage></l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F"><stage>(trattenendolo</stage> Ove t'affretti?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Al tempio! <stage>(risoluto</stage></l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="M">Ah, no!</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">T'arresta!</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Lasciatemi!<stage> (volendosi liberar da loro</stage></l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Ti perdi!</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">Corri a morir!</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Lasciatemi, importuni! <stage>(si libera con impeto</stage></l>
             <l>Or non vedo perigli,</l>
@@ -2769,15 +2794,15 @@
             <l>Tutti i numi del ciel, tutto l'inferno</l>
             <l>Non basterebbe a trattenermi ormai.</l>
           </sp>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l part="I">E che tentar pretendi?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">E che farai?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <lg>
               <l>Trafiggerò quel core,</l>
@@ -2796,12 +2821,12 @@
         <div type="scene">
           <head>SCENA SETTIMA</head>
           <stage>ERISSENA e GANDARTE</stage>
-          <sp>
+          <sp who="#erissena">
             <speaker>ERISS.</speaker>
             <l>Seguilo almen, Gandarte;</l>
             <l part="I">Assistilo, se m'ami.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Addio, mia vita.</l>
             <l>Non mi porre in oblio,</l>
@@ -2847,29 +2872,29 @@
           <head>SCENA NONA</head>
           <stage>Parte interna del gran tempio di Bacco magnificamente illuminato e rivestito di ricchissimi tappeti, dietro de' quali al destro lato, vicinissimo all'orchestra, andranno a suo tempo a ricoverarsi Poro e Gandarte, in modo che rimangano celati a tutti i personaggi, ma scoperti a tutti gli spettatori. Vasto e ornato, ma basso rogo nel mezzo, che poi s'accende ad un cenno di Cleofide. Due grandissime porte in prospetto, che si spalancano all'arrivo d'Alessandro, e scoprono parte della reggia e della città illuminata in lontananza.</stage>
           <stage>PORO uscendo impetuoso, e GANDARTE seguitandolo da lontano.</stage>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Signor, fermati; ascolta!</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Tu qui! Chiusi del tempio e custoditi</l>
             <l part="I">Son pur gli ingressi. Onde venisti?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Io venni</l>
             <l>Su l'orme tue per la segreta via</l>
             <l part="I">Che conduce alla reggia.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">A secondarmi</l>
             <l>Giungi opportun. Presso alle chiuse porte,</l>
             <l>Che s'aprono attendiam: la coppia rea</l>
             <l part="I">Inaspettati assalirem.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">T'accieca</l>
             <l>L'ira, o mio re. Di conseguir che speri?</l>
@@ -2878,22 +2903,22 @@
             <l>La tua morte assicuri:</l>
             <l part="I">Perdi la tua vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Ogni difesa</l>
             <l part="I">L'ira mia preverrà.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Signor, quest'ira,</l>
             <l>Deh per ora sospendi:</l>
             <l>Salvati, fuggi, e miglior tempo attendi.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Non più. T'accheta: ho risoluto.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F"><stage>(inginocchiandosi)</stage> Oh Dio,</l>
             <l>Pietà di noi. Fuggi, mio re: conserva</l>
@@ -2901,11 +2926,11 @@
             <l>Del cor la miglior parte,</l>
             <l>All'India il difensor, tutto a Gandarte.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">Indarno...</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Aimè! del tempio </l>
             <l>Si scuotono le porte. Odi il tumulto</l>
@@ -2913,27 +2938,27 @@
             <l>Per te mi trema in seno:</l>
             <l part="I">Fuggi.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">Non l'otterrai. <stage>(risoluto</stage></l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Célati almeno.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>A render certo il colpo,</l>
             <l part="I">Util saria; ma dove?</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Offron que' marmi</l>
             <l>A te comodo asilo</l>
             <l>Fra la porpora e l'òr che li circonda.</l>
             <l>Vieni, e sicuro sei.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Reggete questa man, vindici dèi! <stage>(snuda la spada e va a nascondersi con Gandarte</stage></l>
           </sp>
@@ -2941,7 +2966,7 @@
         <div type="scene">
           <head>SCENA ULTIMA</head>
           <stage>Preceduti dal coro de' baccanti, ch'entrano cantando e danzando nel tempio, e seguìti da guardie, popolo e sacerdoti con faci accese alla mano, s'avanzano CLEOFIDE alla destra del rogo, ALESSANDRO, ERISSENA e TIMAGENE alla sinistra; e detti celati.</stage>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Dagli astri discendi,</l>
@@ -2956,43 +2981,43 @@
               <l>Di sacro rossor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Nell'odorata pira</l>
             <l>Si dèstino le fiamme. <stage>(i sacerdoti accendono il rogo</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">(Perfida!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E' dolce sorte unire insieme</l>
             <l part="I">E la gloria e l'amor.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">(Più fren non soffre</l>
             <l part="I">Già 'l mio furor).</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Vieni, o regina. Un nodo</l>
             <l>Leghi le destre e i cori. <stage>(accostandosele, in atto di darle la mano</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ferma: è tempo di morte e non d'amori.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Numi!</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="M">(Che ascolto!) <stage>(Poro resta immobile nell'attitudine di scagliarsi</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F">Io fui</l>
             <l>Consorte a Poro: ei più non vive e deggio</l>
@@ -3002,28 +3027,28 @@
             <l>Temei la tua pietà. Questo è il momento,</l>
             <l>In cui si adempia il sacrifizio a pieno. <stage>(in atto di andare verso il rogo</stage></l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Ah! nol deggio soffrir. <stage>(volendo arrestarla</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"><stage>(impugnando uno stile</stage> Ferma, o mi sveno.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">(Oh amore!)</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="M">(Oh fedeltà!)</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Non esser tanto</l>
             <l>Di te stessa nemica.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Il nome d'impudica,</l>
             <l>Vivendo, acquisterei. Passa alle fiamme</l>
@@ -3032,48 +3057,48 @@
             <l>Dell'India tutta; ed ogni età lontana</l>
             <l part="I">Questa legge osservò.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Legge inumana,</l>
             <l>Che bisogno ha di freno,</l>
             <l part="I">Che distrugger saprò. <stage>(vuole appressarsi a Cleofide</stage></l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="F"><stage>(in atto di ferirsi)</stage> Ferma, o mi sveno.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l>(Risolvermi non oso).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l>Ombra del caro sposo,</l>
             <l>Ecco della mia fé le prove estreme. <stage>(volendo gettarsi nelle fiamme</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l>Aspettami, cor mio: morremo insieme. <stage>(scoprendosi</stage></l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>(Aimè! Poro si perde).</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Dèi! traveggo? Sei tu?</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">No, non travedi:</l>
             <l>Il tuo Poro son io.</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l>Chi usurpa il nome mio? <stage>(scoprendosi</stage></l>
             <l part="I">Non crederlo, Alessandro: io son...</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Tu sei</l>
             <l>Il mio caro Gandarte; e non è tempo</l>
@@ -3082,42 +3107,42 @@
             <l>Con la man d'Erissena,</l>
             <l>Con parte del mio regno, esserti grato.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="I">Son fuor di me. Come! Tu sei... <stage>(a Poro</stage></l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Son io</l>
             <l part="I">Il tuo nemico.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">E di venire ardisci?...</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="I">A morir con la sposa.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F"><stage>(a Cleofide</stage> E tu non vuoi?...</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Viver senza di lui.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="M">Gandarte?...</l>
           </sp>
-          <sp>
+          <sp who="#gandarte">
             <speaker>GAND.</speaker>
             <l part="F">Espone</l>
             <l>Come è dover, la vita</l>
             <l part="I">Per quella del suo re.</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Dunque germoglia</l>
             <l>Tanta virtù nell'India? Ed io dovrei</l>
@@ -3131,28 +3156,28 @@
             <l>Su la feconda parte,</l>
             <l>Ch'oltre il Gange io domai, regni Gandarte.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide #gandarte">
             <speaker>CLEOF. e GAND.</speaker>
             <l part="I">O Alessandro!</l>
           </sp>
-          <sp>
+          <sp who="#erissena #timagene">
             <speaker>ERISS. e TIMAG.</speaker>
             <l part="M">O signor!</l>
           </sp>
-          <sp>
+          <sp who="#alessandro">
             <speaker>ALESS.</speaker>
             <l part="F">Tacete. Omaggi</l>
             <l>Altri non vuo' da voi che l'odio estinto.</l>
           </sp>
-          <sp>
+          <sp who="#cleofide">
             <speaker>CLEOF.</speaker>
             <l part="I">Or trionfi, Alessandro.</l>
           </sp>
-          <sp>
+          <sp who="#poro">
             <speaker>PORO</speaker>
             <l part="F">Or Poro è vinto.</l>
           </sp>
-          <sp>
+          <sp who="#poro #cleofide #erissena #gandarte #timagene">
             <speaker>TUTTI, fuor che ALESSANDRO</speaker>
             <lg>
               <l>Serva ad eroe sì grande,</l>

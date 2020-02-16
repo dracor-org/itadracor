@@ -82,6 +82,52 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="caio">
+            <persName>Caio Gracco</persName>
+          </person>
+          <person xml:id="fulvio">
+            <persName>M. Fulvio</persName>
+          </person>
+          <person xml:id="cornelia">
+            <persName>Cornelia</persName>
+          </person>
+          <person xml:id="licinia">
+            <persName>Licinia</persName>
+          </person>
+          <person xml:id="druso">
+            <persName>Livio Druso</persName>
+          </person>
+          <person xml:id="opimio">
+            <persName>L. Opimio</persName>
+          </person>
+          <personGrp xml:id="popolo">
+            <name>Popolo</name>
+          </personGrp>
+          <person xml:id="uno_del_popolo">
+            <persName>Uno del popolo</persName>
+          </person>
+          <person xml:id="cittadino_1">
+            <persName>Primo cittadino</persName>
+          </person>
+          <person xml:id="cittadino_2">
+            <persName>Secondo cittadino</persName>
+          </person>
+          <person xml:id="cittadino_3">
+            <persName>Terzo cittadino</persName>
+          </person>
+          <person xml:id="cittadino_4">
+            <persName>[Un cittadino (atto terzo, scena II)]</persName>
+          </person>
+          <person xml:id="vecchio">
+            <persName>Un vecchio del popolo</persName>
+          </person>
+          <personGrp xml:id="senatori">
+            <name>Senatori</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
@@ -134,7 +180,7 @@
         <div type="scene">
           <head>SCENA I</head>
           <stage>CAIO solo.</stage>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Eccoti, Caio, in Roma. Io qui non visto</l>
             <l>entrai protetto dalla notte amica.</l>
@@ -165,7 +211,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>FULVIO con uno schiavo, e DETTO.</stage>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Sgombra,</l>
             <l>servo fedele, ogni timor. Compiemmo</l>
@@ -183,33 +229,33 @@
             <l>tenebroso spiando i passi altrui?</l>
             <l part="I">Non t'avanzar: chi sei? parla.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">La voce</l>
             <l part="I">non è questa di Fulvio?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Che pretendi</l>
             <l>tu da Fulvio? Che ardir s'è questo tuo</l>
             <l>d'interrogar fra l'ombre un cittadino</l>
             <l part="I">che non ti cerca?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Ah! tu sei desso. Oh Fulvio!</l>
             <l part="I">Abbracciami. Son Caio.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F"> Oh ciel! Tu Caio?</l>
             <l part="I">Tu?. . .</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Sì, taci; son io.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Oh me felice!</l>
             <l>Oh sospirato amico! E qual propizio</l>
@@ -217,7 +263,7 @@
             <l>sul lido ti credea. Come ne vieni?</l>
             <l part="I">Come dunque ritorni?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Io là spedito</l>
             <l>fui di Cartago a rialzar le mura.</l>
@@ -238,7 +284,7 @@
             <l>qual folgore qui giungo. Or, quale abbiamo</l>
             <l part="I">stato di cose?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Periglioso e tristo.</l>
             <l>L'altero Opimio, il tuo crudel nemico,</l>
@@ -252,21 +298,21 @@
             <l>tribunato le leggi; e il dì che viene,</l>
             <l>a quest'opra d'infamia è già prefisso.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Ma i tribuni che fan?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Fanno mercato</l>
             <l>de' lor sacri doveri. A prezzo han messa</l>
             <l>lor potestade, e i senator l'han compra.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Oh infami!</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">E Druso, il capo della mandra</l>
             <l>tribunizia, il codardo e molle Druso,</l>
@@ -279,7 +325,7 @@
             <l>e forse pur della tua vita, il nero</l>
             <l part="I">orribile contratto.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Alto contratto,</l>
             <l>degno di tali mercatanti! Oh Roma!</l>
@@ -291,20 +337,20 @@
             <l>ch'altro adesso se' tu che una temuta</l>
             <l>illustre tana di ladroni? Io fremo.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l>Freme ogni vero cittadin. Ma questo</l>
             <l>di dolor non è tempo e di sospiri;</l>
             <l part="I">tempo è di fatti.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F"> E li farem. Ma pria</l>
             <l>le nostre forze esaminiam. Rispondi:</l>
             <l>quanti amici, se amici ha la sventura,</l>
             <l part="I">nella fede restâr?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Pochi, ma forti.</l>
             <l>L'intrepido Carbon, già tuo collega</l>
@@ -334,7 +380,7 @@
             <l>questo nume terreno, e dagli altari</l>
             <l part="I">gittato nella polve.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E che per questo?</l>
             <l>Nell'ire sue l'avversa sorte a Gracco</l>
@@ -346,7 +392,7 @@
             <l>un dio ne fece. Ma perché tra' nostri</l>
             <l part="I">Fannio non conti?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Fannio? Il vile è fatto</l>
             <l>tuo nemico mortal. Pose in obblio</l>
@@ -356,7 +402,7 @@
             <l>E tel predissi allor che tu nel core</l>
             <l>d'un ingrato locavi il benefizio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Sì, nel cor d'un patrizio. Ah! ch'io non sempre</l>
             <l>fui nella scelta degli amici uom saggio.</l>
@@ -368,7 +414,7 @@
             <l>parlami vero, è tutta in lei già morta</l>
             <l part="I">la memoria di Caio?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Aura che passa,</l>
             <l>ed or da questo or da quel lato spira,</l>
@@ -391,7 +437,7 @@
             <l>langue ogni spirto; trepida, abbattuta</l>
             <l>geme la plebe; ti desìa, ma tace.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Io parlar la farò. Lion che dorme</l>
             <l>è la plebe romana, e la mia voce</l>
@@ -417,37 +463,37 @@
             <l>patria, e l'immago d'un fratel che grida,</l>
             <l>son dieci anni, vendetta, e ancor non l'ebbe.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="I">Già l'ebbe.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">E quale?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="M">Lo saprai.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Ti spiega.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="I">Senti. . . (Incauto, che fo?)</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Perché t'arresti?</l>
             <l part="I">perché non parli?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Scusa. Ha qualche volta</l>
             <l part="I">i suoi segreti l'amistà.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">No, mai</l>
             <l>la verace amistà. Ma, sia qualunque,</l>
@@ -456,38 +502,38 @@
             <l>quale osserva contegno in tanto affare</l>
             <l>il mio congiunto Emilian? Che dice?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l>Emilian?. . . Perdona, ogni tuo detto</l>
             <l>è una domanda; e della madre ancora,</l>
             <l>e della sposa, o Caio, e del tuo figlio</l>
             <l part="I">nulla inchiedesti?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">I pensier primi a Roma:</l>
             <l>darò i secondi a mia famiglia. Or dunque,</l>
             <l>d'Emiliano che sperar? Marito</l>
             <l part="I">di mia sorella. . .</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Nol chiamar marito,</l>
             <l part="I">ma tiranno.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Lo so che la meschina</l>
             <l part="I">di tal consorte non è lieta.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">E il puote</l>
             <l>esser mai donna che plebea si stringe</l>
             <l>a marito patrizio? Egli l'abborre,</l>
             <l part="I">e te del pari abborre.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Ed io. . . non l'amo.</l>
             <l>Ma non t'ascondo il ver: l'alta sua fama,</l>
@@ -498,16 +544,16 @@
             <l>tutto in lui mi conturba; e duro intoppo,</l>
             <l>s'egli n'è contra, alla vittoria avremo.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l>E noi vittoria avrem, s'altro non temi:</l>
             <l part="I">ti rassicura.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">. . . Io non t'intendo.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">In breve</l>
             <l>m'intenderai. Ma noi spendiam qui indarno</l>
@@ -516,29 +562,29 @@
             <l>di tua venuta. A confortarli io corro</l>
             <l part="I">di tanto annunzio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Férmati.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">A qual fine?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">A farmi chiaro il tuo parlar.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">T'accheta.</l>
             <l>Romor di passi ascolto, e venir sembra</l>
             <l part="I">dalle tue soglie.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Oh ciel! che fia?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">T'accheta.</l>
           </sp>
@@ -546,78 +592,78 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>CORNELIA, LICINIA col figlio per mano, il liberto FILOCRATE, e DETTI</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Frena il pianto, Licinia, e non tradire</l>
             <l>co' tuoi lamenti i nostri passi. Andiamo</l>
             <l>tacitamente, o figlia. - E tu ci scorta,</l>
             <l part="I">Filocrate.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Qual voce! Udisti? Ah! questa,</l>
             <l part="I">questa è mia madre.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="M">Avviciniamci.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Gente</l>
             <l>s'appressa. - State: io vado innanzi, io sola</l>
             <l part="I">esploratrice.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Il cor mi balza.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Olà,</l>
             <l part="I">cittadini, chi siete?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Oh madre mia!</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="I">Di chi madre?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Di Gracco. Sì, son io;</l>
             <l>non sospettar, son Caio; riconosci</l>
             <l part="I">del tuo figlio la voce.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Ah tu sei desso!</l>
             <l>Il cor ti vede. Oh caro figlio! E come?. . .</l>
             <l part="I">Quando?. . .</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Tutto saprai. Ma la consorte,</l>
             <l>Licinia mia, dov'è? Tu la nomavi</l>
             <l part="I">pur or: dov'è?</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Fra le tue braccia. Il suono</l>
             <l>di tua voce su l'anima mi corse,</l>
             <l part="I">e il cor sentì la tua presenza.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Oh gioia!</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="I">E questo il vedi? Lo ravvisi?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Il figlio?</l>
             <l>Possenti numi! il figlio mio? Nell'ora</l>
@@ -629,18 +675,18 @@
             <l>per quest'ombre a vagar? Chi vi persegue?</l>
             <l part="I">Chi vi caccia?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">. . . Filocrate, rientra,</l>
             <l>e teco adduci quel fanciul. - Chi è questi</l>
             <l part="I">che t'accompagna? <stage>(Piano a CAIO.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Un mio fidato amico,</l>
             <l part="I">e udir può tutto.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Dirò dunque aperto</l>
             <l>di tua famiglia il duro stato, e quali</l>
@@ -674,14 +720,14 @@
             <l>tu sei, cangiato è il mio consiglio, e l'alma</l>
             <l part="I">più non mi trema.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E di tremar ti vieto.</l>
             <l>Fra poco il sole ed il tuo figlio in Roma</l>
             <l>mostreranno la fronte, e cangerassi</l>
             <l>degli uomini la faccia e delle cose.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Lo spero io ben; ma se lontan mi fosti</l>
             <l>di lagrime cagion, presente adesso</l>
@@ -695,7 +741,7 @@
             <l>deh! custodisci per pietà la vita</l>
             <l part="I">del tuo figlio e la mia.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Ti riconforta,</l>
             <l>consorte amata; e sulla certa speme</l>
@@ -705,20 +751,20 @@
             <l>di mia famiglia protettor pietoso?</l>
             <l part="I">questo patrizio non perverso?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Il figlio</l>
             <l part="I">d'Emilio, il tuo cognato.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Un mio nemico?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Non è tal chi comparte un beneficio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Ei m'è nemico; e atroce offesa io stimo</l>
             <l>il beneficio di nemica mano.</l>
@@ -727,28 +773,28 @@
             <l>egli è l'idol de' grandi, il più superbo</l>
             <l>dispregiatore della plebe, e basta.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="I">Tu oltraggi la virtù.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Non è virtude,</l>
             <l>ov'anco amor del popolo non sia.</l>
             <l part="I">Cessa: m'irrita il tuo parlar.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">La prima</l>
             <l>volta s'è questa che al mio figlio è grave</l>
             <l>la mia favella. Al tuo dolor perdono</l>
             <l part="I">l'irriverente tua risposta.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Oh madre!</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l>Più tacermi non so. - Donna, tu prendi</l>
             <l>sconsigliata difesa, e sul tuo labbro</l>
@@ -762,17 +808,17 @@
             <l>Oh Cornelia! tu sei famoso seme</l>
             <l>di questa schiatta, e tu la plebe adori?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="I">Caio, chi è questo temerario?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Appella</l>
             <l>qual più ti piace il ragionar mio franco;</l>
             <l part="I">Marco Fulvio son io.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Sei Fulvio, ed osi</l>
             <l>voce alzar me presente? E ancor non sai</l>
@@ -787,32 +833,32 @@
             <l>Che di comune hai tu con un siffatto</l>
             <l part="I">malvagio? Un Gracco con un Fulvio!</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Oh rabbia!</l>
             <l part="I">Quale oltraggio?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="M">Qual merti.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">E chi ti diede</l>
             <l part="I">su me tal dritto?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">I tuoi costumi, e forse</l>
             <l part="I">i tuoi misfatti.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">I miei misfatti, o donna,</l>
             <l>son due: l'odio a' superbi, e immenso, ardente</l>
             <l part="I">amor di libertà.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Di libertade</l>
             <l>che parli tu, e con chi? Non hai pudore,</l>
@@ -838,13 +884,13 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>CAIO e FULVIO</stage>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Udisti? E mi degg'io</l>
             <l>soffrir sì atroce favellar? Daresti</l>
             <l part="I">tu fede al detto di costei?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Rispetta</l>
             <l>mia madre, e pensa a ben scolparti; intendi?</l>
@@ -867,7 +913,7 @@
         <div type="scene">
           <head>SCENA I</head>
           <stage>OPIMIO e DRUSO</stage>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Il primo raggio appena al Palatino</l>
             <l>illumina le cime, e già pel Foro</l>
@@ -882,46 +928,46 @@
             <l>inoperoso? e il dirò pur, se lice,</l>
             <l>dimentico d'altrui e di sé stesso?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="I">Tribuno, hai pronti i tuoi colleghi?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Tutti</l>
             <l part="I">da te pendiamo.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Riposar poss'io</l>
             <l part="I">su la lor fede?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="M">Ella t'è sacra.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">I capi</l>
             <l part="I">del popolo son nostri?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Il ricevuto</l>
             <l>oro, e la speme di maggior mercede</l>
             <l part="I">te n'assicura.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">E le tribù son tutte</l>
             <l>alla calma disposte ed al rispetto?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Tutte. La plebe non fu mai, mel credi,</l>
             <l>più docile, più saggia e mansueta.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>È la plebe romana una tal belva,</l>
             <l>che, come manco il pensi, apre gli artigli,</l>
@@ -931,12 +977,12 @@
             <l>per tornar poscia ad adorarti estinto. -</l>
             <l part="I">Di me che pensa questa belva?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Muta</l>
             <l part="I">t'osserva, e trema.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Il suo tremar m'è caro</l>
             <l>più d'assai che l'amarmi. Ma, di plebe</l>
@@ -948,20 +994,20 @@
             <l>E non invoca, non rimembra intanto</l>
             <l part="I">il suo Gracco ella più?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Ben lo rimembra;</l>
             <l>ma come sogno lusinghier fuggito.</l>
             <l>Rotto è il fascino al fine, in che l'avvolse</l>
             <l part="I">quel periglioso forsennato.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">E credi</l>
             <l>che indifferente ne vedrà soppressi</l>
             <l part="I">i plebisciti?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Il lor funesto effetto,</l>
             <l>le discordie vo' dir, che amare e tante</l>
@@ -974,47 +1020,47 @@
             <l>e tutte cancellarle opra ti fia</l>
             <l>agevole del par che gloriosa.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="I">Più dura, amico, che non pensi.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">E quali</l>
             <l>ostacoli figuri? Onnipossente</l>
             <l>è il tuo partito, disperato e nullo</l>
             <l>quello di Gracco: egli è lontano, e temi?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>Io mai non temo. - Ma senti e stupisci:</l>
             <l part="I">Gracco è in Roma.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Oh! che dici? In Roma Gracco?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="I">In Roma.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="M">E come, se in Cartago?. . .</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">In Roma,</l>
             <l>ti dico; e Fulvio già ne porse avviso</l>
             <l>a Pomponio, a Licinio, e a quanti v'hanno</l>
             <l part="I">suoi parteggianti.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">E non potrìa qualcuno</l>
             <l part="I">ingannarti?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Ingannar me non ardisce</l>
             <l>nessun. Per tutto orecchie ed occhi e mani</l>
@@ -1028,13 +1074,13 @@
             <l>vittime a questa rediviva e cara</l>
             <l part="I">popolar deità.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">La maraviglia</l>
             <l>il pensier mi confonde e le parole.</l>
             <l part="I">Qual dio nemico lo condusse?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Un dio</l>
             <l>che lo persegue; il dio che spinse a morte</l>
@@ -1045,12 +1091,12 @@
             <l>Vedrai. . . Ma prima vo' parlargli. Io venni</l>
             <l>espressamente a questo, e qui l'attendo.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Console, bada: temerario e fiero</l>
             <l part="I">e bollente è quel cor.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Ma generoso,</l>
             <l>ma leal. Sua virtù mi fa sicuro</l>
@@ -1062,14 +1108,14 @@
             <l>di starsi in calma, e nulla osar. Non chieggo</l>
             <l part="I">da voi, tribuni, che prudenza.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Io volo.</l>
           </sp>
         </div>
         <div type="scene">
           <head>SCENA II</head>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <stage>solo.</stage>
             <l>Io mi dolea che lungi ei fosse; ed ecco</l>
@@ -1089,12 +1135,12 @@
             <l>fervid'onda di plebe, ed orgoglioso</l>
             <l>fra gli applausi avanzarsi il mio nemico.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <stage>dentro la scena.</stage>
             <l part="I">Viva Gracco.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Tripudia, esulta, sfógati,</l>
             <l>stolida plebe, generata in seno</l>
@@ -1108,11 +1154,11 @@
           <sp>
             <l part="F">Viva Gracco. Onore a Gracco.</l>
           </sp>
-          <sp>
+          <sp who="#uno_del_popolo">
             <speaker>UNO DEL POPOLO</speaker>
             <l part="I">Morte ai patrizi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">A nessun morte, amati</l>
             <l>miei fratelli; a nessuno. Io qui non miro</l>
@@ -1129,16 +1175,16 @@
             <l>Fia quello il tempo di spiegar la vostra</l>
             <l part="I">alta, tremenda maestà.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Ben parla:</l>
             <l part="I">Gracco è un nobile cor.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">Del giusto amico.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l>Vero sangue plebeo. Gracco, disponi</l>
             <l part="I">di nostre vite. <stage>(Il popolo si ritira.)</stage></l>
@@ -1147,42 +1193,42 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>OPIMIO e GRACCO</stage>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">A che mi guardi, e in atto</l>
             <l>di stupor ti soffermi? Non ravvisi</l>
             <l part="I">Lucio Opimio?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Son tali i tuoi sembianti,</l>
             <l>che si fan tosto ravvisar. Ma, dove</l>
             <l>nol potesse lo sguardo, il cor che freme</l>
             <l>alla tua vista, mi dirìa chi sei.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>Ti dirà dunque ch'io son tuo nemico,</l>
             <l>e securo abbastanza il cor mi sento</l>
             <l>per affermarlo, e non temerti. - Or dunque</l>
             <l>che tutto mi conosci, odi e rispondi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Vuoi tu tradirmi innanzi tempo?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Il forte</l>
             <l part="I">non sa tradire; ed io son forte.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E iniquo:</l>
             <l>e tal tu sendo, ascoltator ti cerca</l>
             <l part="I">più rispettoso.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Se consiglio prendi</l>
             <l>dall'odio, va; se tuttavolta caro,</l>
@@ -1190,28 +1236,28 @@
             <l>l'alto interesse, férmati. Qui trassi</l>
             <l part="I">a parlarti di lei.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Dell'interesse</l>
             <l part="I">sol della patria?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="M">Di ciò sol.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">T'ascolto.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="I">Giurami calma, attenzion.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">La giuro.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>Tra noi tu vedi in due Roma divisa:</l>
             <l>tu libera la brami, ed io la bramo.</l>
@@ -1253,13 +1299,13 @@
             <l>alme tutte di fango, e vitupéro</l>
             <l part="I">del gran nome romano.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E Opimio ardisce</l>
             <l>con questi vili pareggiar me Gracco?</l>
             <l part="I">Me?. . .</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Tu manchi d'onor, se manchi a' tuoi</l>
             <l>giuramenti. Tu devi, e lo pretendo,</l>
@@ -1283,11 +1329,11 @@
             <l>tu che tutto sconvolgi, e che fors'anco</l>
             <l>terribile saresti, ov'io non fossi?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Hai tu finito?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Non ancor, sta cheto;</l>
             <l>non rompere i miei detti. Ad isfogarti</l>
@@ -1321,12 +1367,12 @@
             <l>E che dico di questi? Il tuo fratello</l>
             <l part="I">perché giacque?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Perché de' giusti è fatto</l>
             <l part="I">carnefice il senato.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Punitore</l>
             <l>delle colpe è il senato. E nondimeno</l>
@@ -1354,7 +1400,7 @@
             <l>Or che aperto conosci il mio pensiero,</l>
             <l>fa ch'io del pari il tuo conosca; e parla.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Orator del senato, e de' superbi</l>
             <l>ricchi malvagi, che si noman grandi,</l>
@@ -1383,57 +1429,57 @@
             <l>la tirannìa ne freme; e ciò m'avvisa</l>
             <l>che giuste fûro e necessarie e sante.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="I">Altra risposta non mi dai?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">La sola</l>
             <l part="I">di te degna.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">E non curi il mio consiglio?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Consiglio di nemico è tradimento.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>Or ben, se sprezzi le parole, avrai</l>
             <l part="I">fatti.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Sì, quelli del crudel Nasica,</l>
             <l>dell'assassino del fratello mio.</l>
             <l part="I">Ben tu se' degno d'imitarlo.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Io taccio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">E tacendo parlasti.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Innanzi a Roma</l>
             <l part="I">più chiaro in breve parlerò.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E più chiare</l>
             <l part="I">n'avrai risposte.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="M">Le udirem.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Lo spero.</l>
           </sp>
@@ -1441,7 +1487,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>DRUSO e DETTI</stage>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Console, . . . io vengo apportator di nuova</l>
             <l>che porrà tutto in pianto. . . Al rio racconto</l>
@@ -1449,11 +1495,11 @@
             <l>un illustre congiunto, e Roma il primo</l>
             <l>de' cittadini. Emiliano è spento.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="I">Oimè! che narri?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Verità funesta.</l>
             <l>Osserva che frequente d'ogni parte</l>
@@ -1465,15 +1511,15 @@
             <l>per tutto dirti, chi bisbiglia voce</l>
             <l part="I">di violenta morte.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Oh ciel! che ascolto?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Quale orrendo sospetto? <stage>(Tra sé.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Ecco Cornelia.</l>
             <l>Il turbato suo volto assai ne dice</l>
@@ -1483,40 +1529,40 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>CORNELIA e DETTI</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Figlio,</l>
             <l>un doloroso annunzio. Il tuo cognato</l>
             <l part="I">più non respira.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Oh madre!. . .</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">A che mi traggi</l>
             <l>in disparte? Che hai, figlio? tu tremi?</l>
             <l part="I">che t'avvenne? che hai?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Druso racconta</l>
             <l>cosa che fammi inorridir. Va, corri,</l>
             <l>vedi, osserva, t'informa. Il cor mi strazia</l>
             <l part="I">un sospetto crudel.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Parla, ti spiega. . .</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Qui nol posso. Deh! vola, e dall'estinto</l>
             <l>non ti partir fin ch'io non giungo. E tosto</l>
             <l part="I">ti seguirò.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="M">Mi trema il cor.</l>
           </sp>
@@ -1524,23 +1570,23 @@
         <div type="scene">
           <head>SCENA VII</head>
           <stage>OPIMIO, DRUSO e CAIO</stage>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Notasti?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="I">Notai.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="M">Vedesti quel pallor?</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Lo vidi.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>Quel pallor, quella smania, quel sommesso</l>
             <l>favellarsi in disparte, m'assicura</l>
@@ -1550,7 +1596,7 @@
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>CAIO, poi FULVIO</stage>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Ho l'inferno nel cor. Di Fulvio i detti</l>
             <l>mi ricorrono tutti alla memoria,</l>
@@ -1559,18 +1605,18 @@
             <l>giace in braccio di morte assassinato:</l>
             <l part="I">chi l'uccise?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="M">A me il chiedi?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">A te, che in guisa</l>
             <l>ragionavi di lui da farmi or certo</l>
             <l>che tu medesmo l'assassin ne sei.</l>
             <l part="I">Parla dunque, fellon; parla.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Se tanto</l>
             <l>al cor t'è grave la costui caduta,</l>
@@ -1579,11 +1625,11 @@
             <l>al generoso ardir che un oppressore</l>
             <l>tolse alla patria, un avversario a lui.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Dunque tu l'uccidesti.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">A che mi tenti,</l>
             <l>ingrato amico? L'onor tuo periglia;</l>
@@ -1598,12 +1644,12 @@
             <l>e mi chiami assassin? Va, tel ripeto,</l>
             <l>o tu non sei più Gracco, o tu deliri.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Or ti conosco, barbaro! E tu servi</l>
             <l part="I">alla mia causa co' delitti?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">E quelli</l>
             <l>del superbo ch'io spensi e tu compiangi,</l>
@@ -1649,7 +1695,7 @@
             <l>tuo pur anco il delitto. Amico, e cieco,</l>
             <l part="I">io non fei che obbedirti.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Amico mio</l>
             <l>tu, scellerato? Di ribaldi io mai</l>
@@ -1664,79 +1710,79 @@
             <l>che il tuo vil capo troncherà. Tu festi</l>
             <l>orribil onta al mio nome, e tu trema.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l>Caio, fine agli oltraggi; io tel consiglio:</l>
             <l>fine agli oltraggi. Iniquo o giusto sia,</l>
             <l>raccogli il frutto del mio colpo, e taci,</l>
             <l part="I">non sforzarmi a dir oltre.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E che diresti?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="I">Quel che taccio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Che? Forse altri delitti?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="I">Nol so.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Nol sai? Gelo d'orror, ned oso</l>
             <l part="I">più interrogarti.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="M">E n'hai ragion.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Che dici?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="I">Nulla.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Quel detto il cor mi serra. Oh quale</l>
             <l>nel pensier mi balena orrido lampo!</l>
             <l part="I">Hai tu complici?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="M">Sì.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Quali?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Insensato,</l>
             <l part="I">non dimandarlo.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Vo' saperlo.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Bada,</l>
             <l part="I">ti pentirai.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Non più: lo voglio.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Il vuoi?</l>
             <l part="I">Chiedilo. . . a tua sorella.</l>
@@ -1767,7 +1813,7 @@
         <div type="scene">
           <head>SCENA I</head>
           <stage>CORNELIA, LICINIA e CAIO</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Figlio, calma il furor; torna in te stesso,</l>
             <l>mio caro figlio, per pietà. Rispetta</l>
@@ -1777,17 +1823,17 @@
             <l>da queste braccia; guardami, crudele;</l>
             <l part="I">io son che prego.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Ah madre!. . .</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Deh! sì fiero</l>
             <l>non rispondere, o figlio; supplicarti</l>
             <l>io no, non voglio per la rea sorella. . .</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Non mi nomar quel mostro. Una tal furia</l>
             <l>non m'è sorella. Perché m'hai di pugno</l>
@@ -1795,7 +1841,7 @@
             <l>nelle perfide vene? Oh! tu lo caccia</l>
             <l>per pietà nelle mie, e qui m'uccidi.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Deh! considera meglio. Il suo delitto</l>
             <l>non è palese: il suo pentir, l'orrore</l>
@@ -1827,17 +1873,17 @@
             <l>il tuo destin, non ismentir te stesso,</l>
             <l part="I">né me tua madre.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="M">Oh me infelice!</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Intendo</l>
             <l>il tuo gemito, o figlia; ma disdice</l>
             <l>alla moglie di Gracco, a una Romana.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Se romana virtù pianto non soffre,</l>
             <l>se mi comanda soffocar natura,</l>
@@ -1849,12 +1895,12 @@
             <l>questo dell'alma mia parte più cara;</l>
             <l>poss'io vederlo e non disfarmi in pianto?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Vuoi che Cornelia una viltà consigli?</l>
             <l part="I">Vuoi tu ch'ella?. . .</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Sia madre: altro non chieggo.</l>
             <l>Qual più sublime, qual più santo nome</l>
@@ -1886,7 +1932,7 @@
             <l>di rendermi pietose il divorato</l>
             <l part="I">tuo cadavere!</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Oh tu! su le cui labbra</l>
             <l>colsi il primo d'amor bacio divino,</l>
@@ -1900,11 +1946,11 @@
             <l>dal dolor. . . Ma che pro? Sul nome mio</l>
             <l>piombò l'infamia, ed io la vita abborro.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="I">Me misera!</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Fa cor, Licinia, e prendi</l>
             <l>convenienti al tempo alma e pensieri.</l>
@@ -1930,7 +1976,7 @@
             <l>entrar delitti, orribili delitti. . .</l>
             <l part="I">e invendicati.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Oh figlio! e perché tenti</l>
             <l>con memorie sì crude il mio coraggio?</l>
@@ -1949,65 +1995,65 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>Un banditore s'avanza con un decreto alla mano; lo appende ad una colonna, e il popolo vi accorre avidamente per leggerlo. Un CITTADINO, dopo d'averlo osservato, si accosta a CAIO sepolto nel dolore, lo scuote pel manto, e dice:</stage>
-          <sp>
+          <sp who="#cittadino_4">
             <l part="F">Gracco,</l>
             <l>Gracco, un decreto del senato; il vedi?</l>
             <l part="I">T'accosta e leggi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <stage>(s'accosta e legge)</stage>
             <l part="F">«Il console provvegga</l>
             <l>che non riceva detrimento alcuno</l>
             <l part="I">la repubblica.«</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_4">
             <speaker>LO STESSO CITTADINO</speaker>
             <l part="F">Guàrdati, infelice:</l>
             <l>quel decreto è fatale alla tua vita.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="I">Ahi che sento!</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Lo veggo, e ti ringrazio,</l>
             <l>cortese cittadin. Tu, se non erro,</l>
             <l part="I">tu sei Quintilio.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_4">
             <speaker>Il CITTADINO</speaker>
             <stage>(stringendogli la mano)</stage>
             <l part="F">E amico tuo: coraggio. <stage>(Si ritira.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Volgiti, figlio: al popol tutto in mezzo</l>
             <l>fiero s'avanza a questa volta Opimio.</l>
             <l>Svégliati: il tempo d'aver core è giunto.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Va: non temer.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="M">La man mi porgi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Prendi;</l>
             <l part="I">senti se trema.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">No, non trema: è quella</l>
             <l>del mio figlio; e mi dice che tu sai,</l>
             <l>pria che tradirne l'onor tuo, morire.</l>
             <l part="I">Son tranquilla.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Licinia. . . addio. . . m'abbraccia.</l>
             <l>Se questo amplesso. . . se il destin. . . Soccorri</l>
@@ -2025,17 +2071,17 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>OPIMIO preceduto dai littori, e seguìto dai senatori; DRUSO, e gli altri tribuni; FULVIO confuso tra il popolo che accorre da tutte le parti, e CAIO</stage>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Romani,</l>
             <l>la salute del popolo è in periglio.</l>
             <l part="I">Chieggo parlarvi.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="M">Parla.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <stage>(sulla tribuna)</stage>
             <l part="F">Le divine</l>
@@ -2062,16 +2108,16 @@
             <l>o degli empi la man troncò uno stame</l>
             <l part="I">sì prezioso.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Console, tu lungi</l>
             <l>vai dal proposto tuo: torna al suggetto.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="I">Al suggetto, al suggetto.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Io ben mi veggo</l>
             <l>che il sol ricordo dell'estinto eroe</l>
@@ -2096,31 +2142,31 @@
             <l>tiranno de' suffragi, indi assoluto</l>
             <l part="I">della patria tiranno!</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <stage>(lanciandosi alla tribuna)</stage>
             <l part="F">A me tiranno!</l>
             <l>Mentitor, scendi, ch'io risponda, scendi.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>È mia, Romani, la tribuna; io chieggo</l>
             <l part="I">libertà di parole.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Il giusto ci chiede:</l>
             <l part="I">libertà di parole.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Egli mentisce. . .</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="I">Libertà di parole.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="F">Ti slontana,</l>
             <l>forsennato, obbedisci. Il popol solo</l>
@@ -2128,18 +2174,18 @@
             <l>liberissime. Taci: nel suo nome</l>
             <l part="I">io tel comando.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Oh rabbia!</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <stage>piano a CAIO</stage>
             <l part="F">Incauto, affrena</l>
             <l>l'intempestivo tuo furor. Ti perdi</l>
             <l part="I">se interrompi: nol vedi?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">A te di nuovo</l>
             <l>mi volgo, o Gracco. - Seduttor te chiamo</l>
@@ -2189,11 +2235,11 @@
             <l>Chi?. . . Non vo' dirlo. Il vostro cor fremente</l>
             <l>per cotanti delitti assai vel dice.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Non più, Romani; vo' parlare.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Io tutto</l>
             <l>ancor non dissi, e qui ditollo, e Roma</l>
@@ -2242,37 +2288,37 @@
             <l>il popolo seduce, e fin dai lidi</l>
             <l>d'Africa viene a lacerarti il petto. . .</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Assai dicesti: or me, Romani, udite.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Popolo, non udirlo: egli è provato</l>
             <l part="I">seduttor; non l'udir.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>PARTE DEL POPOLO</speaker>
             <l part="F">Gracco s'ascolti.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>ALTRA PARTE DEL POPOLO</speaker>
             <l part="I">No; Gracco è seduttor.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>I PRIMI</speaker>
             <l part="F">Gracco s'ascolti.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>I SECONDI</speaker>
             <l part="I">Gracco al Tarpeo.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Deh! per gli Dei, m'udite,</l>
             <l part="I">poi m'uccidete.</l>
           </sp>
-          <sp>
+          <sp who="#vecchio">
             <speaker>UN VECCHIO DEL POPOLO</speaker>
             <l part="F">Udiam, fratelli, udiamo.</l>
             <l>Quetatevi, sentite. Opra sarìa</l>
@@ -2280,7 +2326,7 @@
             <l>pria d'ascoltarlo. Alfin gli è Gracco, il nostro</l>
             <l part="I">benefattor.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">E fosse anco nemico,</l>
             <l>udirsi ei debbe, ed ammutir chiunque</l>
@@ -2289,7 +2335,7 @@
             <l>io non venduto a qualsisia partito.</l>
             <l part="I">Monta securo, e ti difendi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <stage>(su la tribuna)</stage>
             <l part="F">È questa</l>
@@ -2328,14 +2374,14 @@
             <l>tormento eterno, anch'io tiranno. - Oh plebe,</l>
             <l part="I">qual ria mercede a chi ti serve!</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">Gracco,</l>
             <l>fa cor: la plebe non è ingrata, il giuro.</l>
             <l>Niun t'estima tiranno: arditamente</l>
             <l part="I">di' tua ragione, e non tremar.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Tremare</l>
             <l>soli qui denno gli oppressor. Son io</l>
@@ -2349,21 +2395,21 @@
             <l>il popol feci. Fu delitto ei questo?</l>
             <l>Plebe, rispondi: è questo un mio delitto?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="I">No; qui tutti siam re.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">Nel popol tutta</l>
             <l part="I">sta la possanza.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Esecutor di nostra</l>
             <l part="I">mente il senato, e nulla più.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Nemico</l>
             <l>è dunque vostro chi di vostra intera</l>
@@ -2387,14 +2433,14 @@
             <l>dell'alma Roma e de' suoi santi numi,</l>
             <l>nome acquisti di colpa e sei punita?</l>
           </sp>
-          <sp>
+          <sp who="#vecchio">
             <speaker>IL VECCHIO</speaker>
             <stage>(sotto voce al più vicino.)</stage>
             <l>Vero è, pur troppo, il suo parlar. Mostrarsi</l>
             <l>di virtù caldo è gran periglio. Un dio</l>
             <l part="I">sul suo labbro ragiona.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Io per supremo</l>
             <l>degli Dei beneficio in grembo nato</l>
@@ -2406,23 +2452,23 @@
             <l>di questa madre, nomerete or voi</l>
             <l>l'italiana libertà delitto?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l>No, Itali siam tutti, un popol solo,</l>
             <l part="I">una sola famiglia.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="F">Italiani</l>
             <l part="I">tutti, e fratelli.</l>
           </sp>
-          <sp>
+          <sp who="#vecchio">
             <speaker>IL VECCHIO</speaker>
             <l part="F">Oh dolci grida! oh sensi</l>
             <l>altissimi, divini! Per la gioia</l>
             <l part="I">mi sgorga il pianto.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Alfine odo sublimi</l>
             <l>romane voci, e lagrime vegg'io</l>
@@ -2492,13 +2538,13 @@
             <l>chi possiede di voi un foco, un'ara,</l>
             <l part="I">una vil pietra sepolcral?</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <stage>con altissimo grido.</stage>
             <l part="F">Nessuno,</l>
             <l part="I">nessuno.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E per chi dunque andate a morte?</l>
             <l>Per chi son quelle larghe cicatrici</l>
@@ -2508,31 +2554,31 @@
             <l>m'intenerisce, e ad un medesmo tempo</l>
             <l>a fremer d'ira e a lagrimar mi sforza.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l>Misero Caio! Ei piange, e per noi piange.</l>
             <l part="I">Oh magnanimo cor!</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">Costerà caro</l>
             <l part="I">ai patrizi quel pianto.</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">E caro ei costi.</l>
             <l>Che si tarda, compagni? Ecco il momento. . .</l>
             <l part="I">Mano al pugnal; seguitemi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Romani. . .</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l>Silenzio; ei torna a ragionar; silenzio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Fratelli, udiste i miei delitti. Or voi</l>
             <l>puniteli, ferite. Io v'abbandono</l>
@@ -2548,37 +2594,37 @@
             <l>cercar la spoglia lacerata. Oh patria!</l>
             <l part="I">Felice me, se il mio morir. . .</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">No; vivi:</l>
             <l part="I">muora Opimio. <stage>(I congiurati ripetono con furore le ultime parole.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Littori, alto levate</l>
             <l>le mannaie, e, chiunque osa, ferite.</l>
           </sp>
           <stage>Il capo de' littori ANTILIO con la scure in alto, e gridando: «Addietro», si avanza contro il popolo alla testa de' suoi compagni.</stage>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l>Vile ministro di più vil tiranno,</l>
             <l part="I">muori dunque tu primo. <stage>(ANTILIO cade trafitto da molti pugnali)</stage></l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <stage>(precipitandosi dalla tribuna)</stage>
             <l part="F">Ahi! che faceste?</l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <stage>(ai congiurati)</stage>
             <l>Coraggiosi avanzate: Opimio muora.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="I">Muora Opimio.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <stage>(frapponendosi)</stage>
             <l part="F">Fermate, o me con esso</l>
@@ -2592,11 +2638,11 @@
             <l>del furor che v'acceca, e gli assassini</l>
             <l>del mio fratello ad imitar vi mena.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="I">Vogliam vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E noi l'avrem. - M'ascolta,</l>
             <l>console, ed alza l'atterrito viso.</l>
@@ -2616,7 +2662,7 @@
             <l>queti, e lasciate a' suoi rimorsi in preda</l>
             <l part="I">questo superbo. <stage>(Parte, e il popolo si ritira modestamente)</stage></l>
           </sp>
-          <sp>
+          <sp who="#fulvio">
             <speaker>FULVIO</speaker>
             <l part="F">Oh vil clemenza! oh stolta</l>
             <l>virtù! Per Gracco Opimio vivo!. . . Io sento</l>
@@ -2627,31 +2673,31 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>OPIMIO, DRUSO, SENATORI e LITTORI</stage>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>A che pur taci, e torvo guardi e fremi?</l>
             <l>Tu meditavi la sua morte, ed egli</l>
             <l>ti fa don della vita. Dopo tanto</l>
             <l part="I">benefizio a che pensi?</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Alla vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l part="I">E vuoi che Gracco?. . .</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Muoia. - Odi, Rabirio.</l>
           </sp>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Quale e quanto è nel cor, comincio or tutto</l>
             <l part="I">a conoscere Opimio.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <stage>(a Rabirio, che subito parte)</stage>
             <l part="F">Il mio comando</l>
@@ -2667,7 +2713,7 @@
         <div type="scene">
           <head>SCENA I</head>
           <stage>CORNELIA e CAIO</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Faccian gli Dei che non ti penta, o figlio,</l>
             <l>di tua troppa virtù. Se generosi</l>
@@ -2678,7 +2724,7 @@
             <l>mai perdonarti non saprà lo scorno</l>
             <l part="I">di doverti la vita.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E nol perdoni;</l>
             <l>non pentirommi del mio don per questo.</l>
@@ -2688,7 +2734,7 @@
             <l>altro ve n'era, e tu lo sai, più degno</l>
             <l part="I">d'esser versato.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Tu, crudel, rinnovi</l>
             <l>memoria d'ira e di dolor che tutto</l>
@@ -2704,12 +2750,12 @@
             <l>colpo si tenta. Se costui. . . Che veggio?</l>
             <l part="I">Cinto il Foro d'armati?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Anzi di sgherri.</l>
             <l part="I">La schiera è questa de' Cretensi.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Oh cielo!</l>
             <l>De' Cretensi la schiera! Ed a qual fine?</l>
@@ -2717,12 +2763,12 @@
             <l>senza sangue e terror. Figlio, in tuo danno</l>
             <l part="I">son quelle lance; il cor mel dice.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">E a tanto</l>
             <l part="I">spinge quel vile la perfidia?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Ed altro</l>
             <l>speri tu da un tiranno?. . . Ma che vale</l>
@@ -2739,7 +2785,7 @@
             <l>di tua clemenza, e vendicato torna,</l>
             <l part="I">o non tornar più mai.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Madre, lo veggo;</l>
             <l>il tradimento mi circonda, usate</l>
@@ -2748,20 +2794,20 @@
             <l>senza sangue civile; ed io di sangue</l>
             <l part="I">non ho sete; e lo sai.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Di guasto sangue</l>
             <l>Roma ha colme le vene, e sta nel trarlo</l>
             <l part="I">la sua salute.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Traggalo la scure,</l>
             <l>non la man del tuo figlio. Anche de' rei</l>
             <l>il sangue è sacro, né versarlo debbe</l>
             <l part="I">che il ferro della legge.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">E che ragioni</l>
             <l>tu di leggi, infelice, ove la sola</l>
@@ -2778,14 +2824,14 @@
             <l>il debole percuote, e col potente</l>
             <l part="I">patteggia.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Madre, se mi sproni ad opra</l>
             <l>di sangue, tu m'oltraggi. Io non son nato</l>
             <l>ai delitti, né queste eran le imprese</l>
             <l part="I">a che tu m'educavi.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">E chi ti chiede</l>
             <l>delitti? Armarsi, cospirar, dar morte</l>
@@ -2794,11 +2840,11 @@
             <l>e trepidanti lor mannaie? Hai forse</l>
             <l part="I">temenza di morir?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Donna. . .</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Che dissi?</l>
             <l>Io t'offesi; perdona. Amor materno,</l>
@@ -2812,40 +2858,40 @@
             <l>non mi dir per che mezzo, ma provvedi</l>
             <l part="I">al tuo periglio, all'onor tuo.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Su questo</l>
             <l>statti sicura. . . So che far. . . Tra poco</l>
             <l>o vivo o spento intenderai ch'io sono</l>
             <l part="I">di te degno.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Ed inerme ad espor corri</l>
             <l part="I">tra' nemici la vita?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Ho l'arme al petto</l>
             <l part="I">dell'innocenza; e basta.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Tra' pugnali</l>
             <l>vai de' vili ottimati, e bastar credi</l>
             <l part="I">d'innocenza lo scudo?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Io tel ridico;</l>
             <l part="I">io non vo' sangue cittadin.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Tu vuoi</l>
             <l part="I">dunque tua morte?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Intatta fama io voglio.</l>
             <l>O fera o mite che mi sia fortuna,</l>
@@ -2868,7 +2914,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>LICINIA e DETTI</stage>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Morir? crudele! Ed in obblio ponesti</l>
             <l>ch'altri pure in te vive? E questa vita,</l>
@@ -2877,12 +2923,12 @@
             <l>che sui tuoi giorni han dritto, e moriranno</l>
             <l part="I">se tu muori?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Licinia, e tu pur vieni</l>
             <l part="I">a lacerarmi?</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">A ricordarti io vengo</l>
             <l>che tu sei padre, che tu sei marito,</l>
@@ -2909,12 +2955,12 @@
             <l>d'odio patrizio. In cotanta ruina</l>
             <l part="I">che ti resta, infelice?</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Il mio coraggio,</l>
             <l part="I">la mia ragion, la plebe.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">E in chi t'affidi,</l>
             <l>sconsigliato, in chi speri? Infausti e brevi</l>
@@ -2931,7 +2977,7 @@
             <l>pietà della cadente tua famiglia,</l>
             <l>e al cor ti scenda di natura il grido.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l>Deh! Licinia, t'accheta; e di mia fama</l>
             <l>non voler che tramonti oggi la luce,</l>
@@ -2948,34 +2994,34 @@
             <l>che in tua pace mi parta, e alla chiamata</l>
             <l part="I">della patria obbedisca. - Addio.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">No, resta.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">Lasciami.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="M">No, crudel!</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Lasciami.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">O resta,</l>
             <l>cuor di tigre, o m'uccidi: oltre non passi,</l>
             <l>no, se prima non calchi questo corpo</l>
             <l part="I">atterrato a' tuoi piedi.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="M">Oh padre!. . .</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Io vinsi,</l>
             <l>numi pietosi! Intenerito e fiso</l>
@@ -2988,7 +3034,7 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>PRIMO CITTADINO e DETTI</stage>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Caio, sul capo</l>
             <l>gran disastro ti pende. L'Aventino</l>
@@ -3002,45 +3048,45 @@
             <l>Il popolo bisbiglia, e l'uno all'altro</l>
             <l>la susurra all'orecchio, e già la crede.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="I">E già la crede?. . .</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Né ciò sol, ma giura</l>
             <l>dell'ucciso vendetta. Io che pur anco</l>
             <l part="I">innocente ti reputo. . .</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">La plebe</l>
             <l part="I">già mi crede assassino?. . . <stage>(Parte rapidamente
 come fuori di sé.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Ah! ferma, ah! senti,</l>
             <l part="I">barbaro; ferma. . .</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Dove corri, o figlia?. . .</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="I">Lasciami, madre.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">No, lo tenti invano.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Madre crudel!. . . Me misera!. . . Più mai</l>
             <l part="I">nol rivedrò, mai più!</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">. . . Gracco è innocente.</l>
             <l part="I">Ben feci.</l>
@@ -3049,7 +3095,7 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>CORNELIA e LICINIA</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Ah! riedi nel tuo senno, o figlia;</l>
             <l>e per soverchia doglia, ove non sono,</l>
@@ -3057,35 +3103,35 @@ come fuori di sé.)</stage></l>
             <l>più ch'io non l'amo, il figlio mio? Tranquilla</l>
             <l>nondimen tu mi vedi, ed io son madre.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="I"> . . Nol rivedrò più mai!</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Più saldo petto,</l>
             <l>e più romano pianto m'aspettava</l>
             <l part="I">io dalla nuora di Cornelia.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Ei corre</l>
             <l>a certa morte, e tu mi fai delitto</l>
             <l part="I">del piangere?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Egli corre ove l'appella</l>
             <l part="I">voce sacra d'onor.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Ma quando innanzi</l>
             <l>brutto di sangue, piagato, sbranato</l>
             <l>tel vedrai tratto nella polve, allora</l>
             <l part="I">che farai?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Ciò che feci il dì che cadde</l>
             <l>il suo fratello. Adotterò contenta</l>
@@ -3094,7 +3140,7 @@ come fuori di sé.)</stage></l>
             <l>della fedel posterità. Tu imita</l>
             <l part="I">la mia costanza, e datti pace.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Io pace?</l>
             <l>Più non l'attendo che da morte. Il rogo</l>
@@ -3135,7 +3181,7 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>OPIMIO, SENATORI che portano il feretro d'Emiliano, LITTORI e POPOLO</stage>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Qui posate</l>
             <l>quell'incarco feral. - Popolo, amici,</l>
@@ -3190,47 +3236,47 @@ come fuori di sé.)</stage></l>
             <l>non sappiate, no, mai che vi fe' privi</l>
             <l part="I">del vostro padre un assassinio.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Parla:</l>
             <l part="I">vogliam saperlo.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">No, Romani: io deggio</l>
             <l>tacer: vi prego, non forzate il labbro</l>
             <l part="I">a nomar gli uccisori.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>CITTADINO</speaker>
             <l part="F">Il nome, il nome</l>
             <l part="I">degli assassini.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Deh! calmate il vostro</l>
             <l>sdegno, fratelli. A che nomarvi i rei,</l>
             <l>se di tanto misfatto ancor le prove</l>
             <l part="I">non conoscete?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">Ebben, le prove: udiamo,</l>
             <l part="I">vediam le prove.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Le volete? Io dunque</l>
             <l>alzerò la gramaglia che nasconde</l>
             <l>quella fronte onorata. Avvicinatevi,</l>
             <l part="I">fatemi cerchio e contemplate.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="F">Oh rio</l>
             <l part="I">spettacolo! <stage>(Retrocedendo inorridito.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Mirate per l'asceso</l>
             <l>sangue alla faccia tutte della fronte</l>
@@ -3272,28 +3318,28 @@ come fuori di sé.)</stage></l>
             <l>Oh Romani! oh non possa il vostro sguardo,</l>
             <l>siccome il mio, veder chiaro il delitto!</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l>Egli è chiaro, evidente, e ne vogliamo</l>
             <l part="I">tutti vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#popolo">
             <speaker>POPOLO</speaker>
             <l part="M">Sì, vendetta.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">E voi,</l>
             <l>la vorrete voi, quando vi fia noto</l>
             <l>chi commise il misfatto? Io non vi dissi</l>
             <l part="I">de' rei pur anco il nome.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">E tu li noma;</l>
             <l part="I">di' chi sono, e vedrai.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">E non vel dice</l>
             <l>chiaro abbastanza la lor colpa istessa?</l>
@@ -3304,22 +3350,22 @@ come fuori di sé.)</stage></l>
             <l>Da domestica man dunque partito</l>
             <l part="I">mi sembra il colpo.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="M">Ei dice il vero.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">Opimio</l>
             <l>ben parla: il colpo non potea partire</l>
             <l part="I">che da mano domestica.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Tacete,</l>
             <l part="I">ascoltiam.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Fra' suoi cari è forza dunque</l>
             <l>il reo cercar. Ma su qual capo? Egli era</l>
@@ -3328,11 +3374,11 @@ come fuori di sé.)</stage></l>
             <l>col proprio sangue il suo signor. Chi dunque,</l>
             <l part="I">chi l'abborrìa?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="M">La moglie.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">A questo nome</l>
             <l>veggo, o Quiriti, le sembianze vostre</l>
@@ -3348,19 +3394,19 @@ come fuori di sé.)</stage></l>
             <l>muto è fatto ogni labbro. - Io non ardisco</l>
             <l part="I">dunque dir oltre, e taccio anch'io.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">No, parla;</l>
             <l>libero parla, non ne far l'oltraggio</l>
             <l>di pensar che tra noi tema nessuno</l>
             <l part="I">la verità: noi la vogliam.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2 #cittadino_3">
             <speaker>SECONDO e TERZO CITTADINO</speaker>
             <l part="F">Sì, tutti:</l>
             <l part="I">la verità, la verità.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Ditolla.</l>
             <l>Ma consentite una dimanda sola:</l>
@@ -3368,24 +3414,24 @@ come fuori di sé.)</stage></l>
             <l>de' cittadini, che opinate voi</l>
             <l part="I">dei costumi di Fulvio?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">Egli è un infame.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l>E nimico di Scipio, ed io l'intesi</l>
             <l>io qui ier l'altro con atroci detti</l>
             <l part="I">minacciarne la vita.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">E tutto questo</l>
             <l>anch'io l'affermo, ché presente io v'era;</l>
             <l>e quanto affermo, sosterrollo a fronte</l>
             <l part="I">di quel vile, e di tutti.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Or dunque udite.</l>
             <l>Questo indegno Romano (io parlo cose</l>
@@ -3399,12 +3445,12 @@ come fuori di sé.)</stage></l>
             <l>E oimè! che Fulvio a minacciar sì cara</l>
             <l part="I">e nobil vita non fu sol.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Chi altri?</l>
             <l>Tutto rivela: io qui per tutti il chieggo.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l>Voi lo chiedete, e a me il chiedete? E quelli</l>
             <l>non siete voi che un giorno in questo Foro</l>
@@ -3430,46 +3476,46 @@ come fuori di sé.)</stage></l>
             <l>poss'io non dire?. . . Ma che dir, se caro,</l>
             <l>se protetto, adorato è l'assassino?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l>Postumio, udisti? Non ti par che dritto</l>
             <l part="I">il console ragioni?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Oh! Gracco è reo;</l>
             <l part="I">più non v'ha dubbio.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">Non v'ha dubbio, è reo.</l>
             <l part="I">Che far dobbiam?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">Di Fulvio arder le case,</l>
             <l>e nel mezzo gittarlo delle fiamme</l>
             <l part="I">scannato.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="M">E Gracco?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="M">Abbandonarlo.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">E vuoi</l>
             <l part="I">che il misero perisca?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">E ben, perisca.</l>
             <l part="I">Vegga il senato che siam giusti.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Osserva,</l>
             <l>Fabio, quei volti. Il mio parlar gli ha tutti</l>
@@ -3480,7 +3526,7 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA VII</head>
           <stage>DRUSO e DETTI</stage>
-          <sp>
+          <sp who="#druso">
             <speaker>DRUSO</speaker>
             <l>Console, accorri: orribil zuffa è sorta</l>
             <l>fra soldati e plebei sull'Aventino.</l>
@@ -3523,7 +3569,7 @@ come fuori di sé.)</stage></l>
             <l>strascinarsi spirante e sanguinoso</l>
             <l part="I">da man pietose sostenuto.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Oh vista</l>
             <l>che dalle fiere ancor trarrebbe il pianto!</l>
@@ -3548,12 +3594,12 @@ come fuori di sé.)</stage></l>
             <l>tutti la man su quest'esangue, e tutti</l>
             <l part="I">giuriam di vendicarlo.</l>
           </sp>
-          <sp>
+          <sp who="#senatori">
             <speaker>I SENATORI</speaker>
             <stage>(stendendo la mano sul cadavere.)</stage>
             <l part="M">Il giuro.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Or parte</l>
             <l>di voi prenda la via speditamente</l>
@@ -3592,7 +3638,7 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA II</head>
           <stage>LICINIA e il VECCHIO dell'atto terzo, riconducente il giovinetto suo figlio dal tumulto dell'Aventino.</stage>
-          <sp>
+          <sp who="#vecchio">
             <speaker>IL VECCHIO</speaker>
             <l part="F">Ah figlio, amato figlio!</l>
             <l>Non resistere, vieni. Alle tremanti</l>
@@ -3606,14 +3652,14 @@ come fuori di sé.)</stage></l>
             <l>non può di Gracco la virtù suprema;</l>
             <l part="I">e tu, insensato, lo pretendi?</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">. . . Io tremo</l>
             <l>tutta. . . dal capo alle piante. . . Vorrei</l>
             <l>interrogarli, . . . e la voce mi spira</l>
             <l part="I">su le labbra.</l>
           </sp>
-          <sp>
+          <sp who="#vecchio">
             <speaker>IL VECCHIO</speaker>
             <l part="F">Non più, vieni, sostegno</l>
             <l>unico e caro di mia stanca vita;</l>
@@ -3641,11 +3687,11 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>CORNELIA e DETTA</stage>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Ah! madre, dov'è Caio? È salvo? è vivo?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <stage>traversa la scena senza rispondere.</stage>
             <l>Non mi risponde. L'affrettato passo,</l>
@@ -3658,7 +3704,7 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA V</head>
           <stage>LICINIA e CORNELIA che rientra col pargoletto di Caio in braccio, seguìta dal liberto FILOCRATE</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Andiam, mi segui,</l>
             <l>servo fedel. . . Che miro? Il duolo oppresse</l>
@@ -3669,12 +3715,12 @@ come fuori di sé.)</stage></l>
             <l>all'amor tuo l'affido. - Alzati, figlia;</l>
             <l>apri alla speme il cor: Caio ancor vive.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Vive Caio? e dov'è? perché nol veggo?</l>
             <l part="I">perché teco non è? deh! parla.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">. . .Oh! figlia,</l>
             <l>che dir poss'io che ti conforti e insieme</l>
@@ -3690,12 +3736,12 @@ come fuori di sé.)</stage></l>
             <l>e scorrendo van Roma, e percotendo</l>
             <l part="I">le più libere fronti.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">E che vuoi dire?</l>
             <l part="I">Dunque Caio?. . .</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">M'ascolta, e coraggiosa</l>
             <l>all' avversa fortuna il cor prepara. -</l>
@@ -3731,13 +3777,13 @@ come fuori di sé.)</stage></l>
             <l>in lontananza vidi. . . oh Dio! che vidi!. . .</l>
             <l part="I">e che racconto io mai?</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Madre, finisci</l>
             <l>di straziarmi; prosegui. E che vedesti,</l>
             <l part="I">di', che vedesti?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Oh figlia!. . . aste, bipenni,</l>
             <l>e snudati pugnali, e senatori</l>
@@ -3749,7 +3795,7 @@ come fuori di sé.)</stage></l>
             <l>del tuo consorte, ma più alto, credi,</l>
             <l>il suo coraggio; e vi son numi in cielo.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Sì, ma non giusti. Ed in quai numi, o madre,</l>
             <l>aver più speme? In quelli al cui cospetto</l>
@@ -3779,7 +3825,7 @@ come fuori di sé.)</stage></l>
             <l>di tiranni e d'ingrati, e me sovr'essi,</l>
             <l>me seppellite nelle sue ruine.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="I">Mi sbrana il cor.</l>
           </sp>
@@ -3787,17 +3833,17 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>PRIMO CITTADINO che accorre spaventato, e DETTE</stage>
-          <sp>
+          <sp who="#cittadino_1">
             <speaker>PRIMO CITTADINO</speaker>
             <l part="F">Donna, che fai? La morte</l>
             <l>sul tuo figlio già pende: a prezzo è messa</l>
             <l part="I">la sua testa; nol sai? <stage>(Via subito.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="F">Cielo, che intesi!</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Che disse? Il capo del mio figlio a prezzo</l>
             <l>qual d'infame ladron? Roma crudele,</l>
@@ -3811,22 +3857,22 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA VII</head>
           <stage>SECONDO CITTADINO fuggendo egli pure atterrito, e DETTE</stage>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l part="F">Il piè fermate, o donne,</l>
             <l>non innoltrate; ché per tutto è strage</l>
             <l part="I">e morte inevitabile.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">E il mio figlio?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_2">
             <speaker>SECONDO CITTADINO</speaker>
             <l>Misera madre! tu non hai più figlio. <stage>(Via subito.)</stage></l>
           </sp>
           <stage>LICINIA rimane stupida per dolore.</stage>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l>Perché torno a tremar? Perché le chiome</l>
             <l>sento agitarsi sulla fronte, . . . e freddo</l>
@@ -3837,28 +3883,28 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>TERZO CITTADINO e DETTE</stage>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">Ti conforta,</l>
             <l part="I">eccelsa donna; è salvo il figlio. . .</l>
           </sp>
-          <sp>
+          <sp who="#licinia #cornelia">
             <speaker>LICINIA e CORNELIA</speaker>
             <l part="F">Oh gioia!. . .</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l part="I">Salvo il mio sposo?. . .</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Il figlio mio! deh, narra. . .</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <l>Narra: il cor torna, per udirti, in vita.</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l>Da' Cretensi inseguìto, e dimandando</l>
             <l>a tutti un ferro per morir da forte,</l>
@@ -3877,24 +3923,24 @@ come fuori di sé.)</stage></l>
             <l>torse le piante, e ricovrossi al bosco</l>
             <l part="I">consecrato alle Furie.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">. . .E che racconti</l>
             <l>tu de' Gracchi alla madre? Una vil fuga</l>
             <l part="I">posto ha in salvo il mio figlio?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">A sgherri infami</l>
             <l>dovea dar egli con più vil partito</l>
             <l part="I">così nobile vita?</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">E non avevi</l>
             <l part="I">tu dunque un ferro?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">Pe' nemici il ferro;</l>
             <l>per gli amici il mio sangue: e questo, o donna,</l>
@@ -3908,13 +3954,13 @@ come fuori di sé.)</stage></l>
             <l>resiston soli i generosi petti</l>
             <l part="I">di Pomponio e Licinio.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">E vile il resto,</l>
             <l>sempre vile la plebe, e sempre ingrata</l>
             <l part="I">abbandona il mio figlio?</l>
           </sp>
-          <sp>
+          <sp who="#cittadino_3">
             <speaker>TERZO CITTADINO</speaker>
             <l part="F">I numi, o donna,</l>
             <l>lo tradîr, non la plebe; e ne fan prova</l>
@@ -3928,7 +3974,7 @@ come fuori di sé.)</stage></l>
             <l>il popolo atterrito. Ah! certo arriva</l>
             <l part="I">il console crudel: fuggi.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">Io fuggire?</l>
             <l part="I">Ad incontrarlo io corro.</l>
@@ -3937,18 +3983,18 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA IX</head>
           <stage>CAIO, accorrendo precipitoso, e DETTI</stage>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Un ferro, o madre,</l>
             <l>un ferro per pietà. Non abbia il vanto</l>
             <l part="I">di mia morte quel vile.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <l part="F">A quel tiranno,</l>
             <l part="I">questo vanto? - No, mai.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">Deh! madre, un ferro:</l>
             <l>tu l'hai, porgilo: all'onta mi sottraggi</l>
@@ -3958,42 +4004,42 @@ come fuori di sé.)</stage></l>
         <div type="scene">
           <head>SCENA ULTIMA</head>
           <stage>OPIMIO con seguito di Patrizi, d'armati, e DETTI</stage>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Eccolo: in lui</l>
             <l part="I">abbassate quell'armi.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <stage>(lanciandosi tra CAIO e i soldati)</stage>
             <l part="F">I vostri colpi,</l>
             <l>pria che al suo petto passeran per questo.</l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <stage>(facendo lo stesso)</stage>
             <l part="I">E per questo, crudeli.</l>
           </sp>
-          <sp>
+          <sp who="#opimio">
             <speaker>OPIMIO</speaker>
             <l part="F">Allontanate,</l>
             <l>soldati, a forza quelle donne; il reo</l>
             <l>percotete. Il suo capo alla salute</l>
             <l part="I">pubblica è caro. Percotete.</l>
           </sp>
-          <sp>
+          <sp who="#cornelia">
             <speaker>CORNELIA</speaker>
             <stage>(con una mano avvolgendosi il capo nel manto e con l'altra porgendo rapidamente al figlio il pugnale)</stage>
             <l part="F">Ah figlio,</l>
             <l part="I">prendi, e muori onorato.</l>
           </sp>
-          <sp>
+          <sp who="#caio">
             <speaker>CAIO</speaker>
             <l part="F">In questo dono</l>
             <l>ti riconosco, o madre. In questo colpo</l>
             <l part="I">riconosci tu il figlio. <stage>(Si uccide.)</stage></l>
           </sp>
-          <sp>
+          <sp who="#licinia">
             <speaker>LICINIA</speaker>
             <stage>(gettando un grido acutissimo e cadendo tramortita)</stage>
             <l part="F">Oh dio!. . . mi moro.</l>

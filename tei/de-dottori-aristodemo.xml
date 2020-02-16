@@ -74,6 +74,46 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="aristodemo">
+            <persName>Aristodemo</persName>
+          </person>
+          <person xml:id="amfia">
+            <persName>Amfia</persName>
+          </person>
+          <person xml:id="policare">
+            <persName>Policare</persName>
+          </person>
+          <person xml:id="merope">
+            <persName>Merope</persName>
+          </person>
+          <person xml:id="tisi">
+            <persName>Tisi</persName>
+          </person>
+          <person xml:id="messo">
+            <persName>Messo</persName>
+          </person>
+          <person xml:id="nutrice">
+            <persName>Nutrice</persName>
+          </person>
+          <person xml:id="soldato">
+            <persName>Soldato</persName>
+          </person>
+          <personGrp xml:id="coro">
+            <name>Coro</name>
+          </personGrp>
+          <person xml:id="ofioneo">
+            <persName>Ofioneo</persName>
+          </person>
+          <person xml:id="licisco">
+            <persName>Licisco</persName>
+          </person>
+          <person xml:id="erasitea">
+            <persName>Erasitea</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
@@ -101,15 +141,11 @@
         <castItem type="role">
           <role>NUTRICE</role>
         </castItem>
-        <castItem type="role">
-          <role>OFIONEO, sacerdote</role>
-        </castItem>
+        <castItem type="role"><role>OFIONEO</role>, <roleDesc>sacerdote</roleDesc></castItem>
         <castItem type="role">
           <role>LICISCO</role>
         </castItem>
-        <castItem type="role">
-          <role>ERASITEA, sacerdotessa</role>
-        </castItem>
+        <castItem type="role"><role>ERASITEA</role>, <roleDesc>sacerdotessa</roleDesc></castItem>
         <castItem type="role">
           <role>TISI</role>
         </castItem>
@@ -123,7 +159,7 @@
           <role>CORO mobile di cittadini messenii</role>
         </castItem>
         <castItem type="role">
-          <role>CORO stabile di donne messenie. </role>
+          <role>CORO stabile di donne messenie.</role>
         </castItem>
       </castList>
       <set>
@@ -136,7 +172,7 @@
         <div type="scene">
           <head>SCENA I </head>
           <stage>ARISTODEMO, AMFIA.</stage>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Tanto piangesti tu, tanto io pregai,</l>
@@ -148,7 +184,7 @@
               <l>e, s'a noi tocca, di Messenia al regno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Lagrime avventurose,</l>
@@ -163,7 +199,7 @@
               <l>Merope mia vi tesserà corone?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Ma sia privato il sacrifizio, Amfia;</l>
@@ -177,14 +213,14 @@
               <l>dell'oppresso mestissimo Licisco,</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Così farò né perché meco esulti,</l>
               <l>resto di pianger con Licisco il caso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>È generosa questa,</l>
@@ -194,14 +230,14 @@
               <l>il sangue degli Epitidi all'altare.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Ma che fia, s'egli niega</l>
               <l>d'esser padre d'Arena?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                      Uopo è di prova</l>
@@ -215,27 +251,27 @@
               <l>men fede che pietà trova in Itome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Pur se frode non fosse?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                      Aristodemo</l>
               <l>daria la propria.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                         Oimé, signor, d'Arena,</l>
               <l>non di Merope nostra, uscito è 'l nome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Dunque è vittima Arena; e invan Licisco</l>
@@ -243,7 +279,7 @@
               <l>ed inganna la terra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Per lo tuo genio grande, e per le sacre</l>
@@ -254,28 +290,28 @@
               <l>Merope al sacerdote.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>E tu non creder più ch'altri ch'Arena</l>
               <l>sia la vittima eletta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                È degno certo</l>
               <l>il timor di perdono in donna e madre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Ma non soverchio in donna illustre, e moglie</l>
               <l>d'Aristodemo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                        È così fiero il moto</l>
@@ -290,7 +326,7 @@
               <l>di rimettersi in calma.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                     A te sen viene</l>
@@ -304,7 +340,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>POLICARE, AMFIA.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>O giorno per me candido e sereno,</l>
@@ -330,7 +366,7 @@
               <l>rispetto di fortuna?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Policare, diverso</l>
@@ -341,7 +377,7 @@
               <l>della noia il contento.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Non mi cape nel seno</l>
@@ -367,7 +403,7 @@
               <l>spuma sul margo e quasi il margo affonda.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Necessaria altrettanto</l>
@@ -380,7 +416,7 @@
               <l>ne bea mal nota o peregrina fede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Qual reliquia di tema</l>
@@ -388,7 +424,7 @@
               <l>Arena al sacrificio?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                  O che sien queste</l>
@@ -410,7 +446,7 @@
               <l>io parlo di Licisco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>O generosa Amfia, non osa ancora</l>
@@ -431,7 +467,7 @@
               <l>che ministra di lui ne trasse il nome?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Oh quanto di conforto,</l>
@@ -448,32 +484,32 @@
               <l>fatto dal suo pericolo e più caro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Candida Giuno, vieni!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Vieni e tu, Citerea!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                Merope torni</l>
               <l>dal rogo mesto alle felici tede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Merope torni dal sepolcro al letto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>E se Arena in sua vece</l>
@@ -483,7 +519,7 @@
               <l>la stirpe degli Epitidi in Itome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Io stessa della patria, e di noi degne</l>
@@ -513,7 +549,7 @@
               <l>sì che le purghi in un sol punto Arena.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Pace resti alla Grecia, a voi lo scettro</l>
@@ -529,7 +565,7 @@
               <l>Merope fortunata ogni fortuna.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Quella, di cui si parla, ecco sen viene.</l>
@@ -542,7 +578,7 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>POLICARE, MEROPE.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>E doveasi con tanto</l>
@@ -556,7 +592,7 @@
               <l>dall'arbitrio superbo di Fortuna?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Policare, s'io vivo,</l>
@@ -568,7 +604,7 @@
               <l>la vita, quanto è tua.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                 Se non fu sordo</l>
@@ -592,7 +628,7 @@
               <l>d'una fiamma dolcissima m'ingombra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Forse che sembra lume</l>
@@ -607,7 +643,7 @@
               <l>il suo lume col dì.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                             Fu sempre lume</l>
@@ -615,7 +651,7 @@
               <l>i' n'arsi, e n'arderò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>                                  Ma non potrebbe</l>
@@ -623,19 +659,19 @@
               <l>foco nel sen. Dunque la fiamma è pari.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Dunque la nutra un sempre fido amore.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>E con quella del rogo alfin s'unisca.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>E 'l cener nostro una sol'urna accolga.</l>
@@ -643,13 +679,13 @@
               <l>e taciturno il venerabil Tisi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Resta, io ti lascio a lui.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                     Parti, io l'incontro.</l>
@@ -663,7 +699,7 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>POLICARE, TISI.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Saggio Tisi, che porti, e donde vieni?</l>
@@ -672,7 +708,7 @@
               <l>tacitamente ne discorri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                      È certo</l>
@@ -696,7 +732,7 @@
               <l>ha, prima di morir, lasciato erede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Ma se il fato d'Arena è il fin de' mali,</l>
@@ -705,7 +741,7 @@
               <l>di lagrime dovute; e poi si speri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Certo non ha mai più veduto Itome</l>
@@ -716,14 +752,14 @@
               <l>ma in sé non ha prodigio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                          Ultimo forse</l>
               <l>ei sarà de' flagelli.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                Ultima pena</l>
@@ -736,7 +772,7 @@
               <l>e compri dalle Furie ignobil pace.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>I suo' segreti il Fato</l>
@@ -748,7 +784,7 @@
               <l>che i propri tempii folgorando abbatte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Può ben esser occulta</l>
@@ -921,7 +957,7 @@
               <l>lassù di Giove ad aspetarne il fine.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Gran cose ascolto. Io, quando ardì Panormo</l>
@@ -934,7 +970,7 @@
               <l>del nostro mal fu de' garzoni il fallo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Spesso un misfatto prospero e felice</l>
@@ -946,27 +982,27 @@
               <l>delitto, del commesso assai maggiore.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Ma di Licisco?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                          O trovar deve il padre</l>
               <l>d'Arena, o consegnarla.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                         E se trovasse</l>
               <l>il genitor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                 Ritorna</l>
@@ -978,14 +1014,14 @@
               <l>se vanno esenti le bambine.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                              O santi</l>
               <l>numi del ciel, no 'l consentite!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                                  Alfine</l>
@@ -996,7 +1032,7 @@
               <l>ed attonito vien?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                            Messo è di corte.</l>
@@ -1006,7 +1042,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>MESSO, POLICARE, TISI.</stage>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>I tutelari patrii numi e Giove</l>
@@ -1019,7 +1055,7 @@
               <l>di titoli e di regno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                O tu, che mostri</l>
@@ -1028,31 +1064,31 @@
               <l>Nunzio di che?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>                         D'insoliti accidenti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Eletto è 'l re?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>                      Non anco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                          E chi succede?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>Aristodemo ha tutto</l>
@@ -1062,44 +1098,44 @@
               <l>ch'alla Messenia il re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                      Fu scelta Arena.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>Scelta, ma non presente.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                        Oh Dio! Licisco?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>Fuggito è seco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                          Oh stravaganza!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                                      I' temo</l>
               <l>qualche sciagura orribile.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>                                          Licisco,</l>
@@ -1114,13 +1150,13 @@
               <l>nell'esequie del re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                Tradita è Itome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#messo">
             <speaker>MESSO</speaker>
             <lg>
               <l>Pur fu chi sospettò, chi lo riferse;</l>
@@ -1130,7 +1166,7 @@
               <l>il suo delitto e 'l comun danno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                                   O crudo</l>
@@ -1144,7 +1180,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>NUTRICE, MEROPE.</stage>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Figlia e signora, è vero:</l>
@@ -1172,7 +1208,7 @@
               <l>di lieto cor l'alta ventura incontri?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Nulla osservi, o Nutrice,</l>
@@ -1193,7 +1229,7 @@
               <l>moderarmi d'Arena.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Ma non merta una vita</l>
@@ -1202,7 +1238,7 @@
               <l>e più severo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>                      Il dono</l>
@@ -1216,7 +1252,7 @@
               <l>maggior dell'altre alle tenarie vie.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Figlia, termina il fasto</l>
@@ -1224,7 +1260,7 @@
               <l>a insuperbir fra i morti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>                                        Il merto ha premi</l>
@@ -1234,7 +1270,7 @@
               <l>grande anco un'ombra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                      Ombra quantunque grande</l>
@@ -1250,7 +1286,7 @@
               <l>di seno alcun de' tuo' riguardi alteri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Generoso è Policare, e non chiede</l>
@@ -1258,7 +1294,7 @@
               <l>prove dell'amor mio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                    Par che tu abusi</l>
@@ -1269,7 +1305,7 @@
               <l>e 'l piacer della vita?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>                                    Io non ricuso</l>
@@ -1280,7 +1316,7 @@
               <l>e men lieta, e men avida, l'incontro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Il passato timor non t'assicura.</l>
@@ -1291,7 +1327,7 @@
               <l>a te lo sposo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>                       A me lo sposo. Or questa</l>
@@ -1308,21 +1344,21 @@
               <l>in cui tutta apparia, quant'è, la morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>E in questo solo acquisto</l>
               <l>bella t'apparirà, com'è, la vita.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Di Policare sono,</l>
               <l>a lui vivrò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                    Vivrai, nobile dono</l>
@@ -1334,7 +1370,7 @@
         <div type="scene">
           <head>SCENA VII</head>
           <stage>ARISTODEMO, SOLDATO.</stage>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>O troppo nel donar facili dèi,</l>
@@ -1363,7 +1399,7 @@
               <l>e natura comanda?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l>                                 È già in procinto</l>
@@ -1374,7 +1410,7 @@
               <l>qualor tu 'l chieda.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                Ite, allentate i freni,</l>
@@ -1392,7 +1428,7 @@
               <l>spargete incensi e cominciate il canto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Mentre salgono al ciel fumi odorati,</l>
@@ -1479,7 +1515,7 @@
         <div type="scene">
           <head>SCENA I </head>
           <stage>AMFIA, NUTRICE.</stage>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Nulla più di speranza</l>
@@ -1490,21 +1526,21 @@
               <l>cura d'alcun di lor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                Febo non mente:</l>
               <l>indarno ella fuggì.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                               Pur fugge, e resta</l>
               <l>Merope mia di nuovo esposta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                                  Il Cielo</l>
@@ -1512,76 +1548,76 @@
               <l>è la vittima eletta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                             E chi del Cielo</l>
               <l>gli arcani intende e può saper le vie?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Parlò in Delfo abbastanza.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                           Io non l'intendo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Febo s'espresse ben.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                    Non disse Arena.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Disse un'eletta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                          Epitida v'aggiunse.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Di che temi o gran donna?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                              Dell'incerte</l>
               <l>vie di fortuna e dell'ingegno umano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>La tema è figlia del tu' amor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                                 La tema</l>
               <l>nel dubbio è un infelice augure muto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Ma spesso vano. Or quai prodigi osservi?</l>
@@ -1595,7 +1631,7 @@
               <l>e la sposa a Policare; e tu temi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Voce notturna, vocal marmo o tronco</l>
@@ -1639,7 +1675,7 @@
               <l>cagione ho di temer.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                  Non te lo niego;</l>
@@ -1647,14 +1683,14 @@
               <l>da geloso timor troppo osservate.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Pur attonito stava il sacerdote,</l>
               <l>e le temeva.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                      Spesse volte al caso</l>
@@ -1670,7 +1706,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>AMFIA, SOLDATO, NUTRICE, TISI in disparte.</stage>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Ferma i passi, o guerrier, narrami quanto</l>
@@ -1678,7 +1714,7 @@
               <l>nel seguitar Licisco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l>                                   O donna eccelsa,</l>
@@ -1732,14 +1768,14 @@
               <l>torniam dolenti ad avvisarne Itome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Ecco certi i prodigi,</l>
               <l>ecco i segni veraci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                Ah dèi, che sento?</l>
@@ -1749,7 +1785,7 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>TISI</stage>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Non sol fuggita, ma perduta è dunque</l>
@@ -1801,7 +1837,7 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>ARISTODEMO, AMFIA <emph>in disparte</emph>.</stage>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Hai vinto, Sparta, hai vinto:</l>
@@ -1852,7 +1888,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>AMFIA, ARISTODEMO, TISI <emph>in fine</emph>. </stage>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Fra i Messenii io pur sono</l>
@@ -1881,7 +1917,7 @@
               <l>gli dèi saranno e soddisfatto Averno?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Donna, né a te s'aspetta</l>
@@ -1900,7 +1936,7 @@
               <l>volar eterno alle venture etadi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>E pur è ver! Determinato è questo</l>
@@ -1923,7 +1959,7 @@
               <l>moglie e madre dolente?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                         Ad altro tempo</l>
@@ -1935,7 +1971,7 @@
               <l>di duello scettro a che m'acclama Itome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Vorran questa i Messenii</l>
@@ -1957,7 +1993,7 @@
               <l>al padre ambizioso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                  Io non pretendo</l>
@@ -1967,55 +2003,55 @@
               <l>più che la figlia mia la patria e 'l nome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Gran parte sono della patria i figli.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>E dansi per la patria.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Dansi lecitamente.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Non è lecito sol, ma degno il caso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Il caso ha scelto Arena.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Ed il caso l'ha tolta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Chi chiede il sacrifizio, il caso o Febo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Certo, il delfico nume.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Or a lui s'obbedisca e torni il nome</l>
@@ -2024,7 +2060,7 @@
               <l>di ritentarla.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                      Invidiata è questa</l>
@@ -2038,7 +2074,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>TISI, ARISTODEMO, AMFIA.</stage>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Non basta all'avid'Orco</l>
@@ -2050,13 +2086,13 @@
               <l>poco goder la crudeltà d'Averno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>E chi l'afferma?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                             Ofioneo. Di Febo</l>
@@ -2064,7 +2100,7 @@
               <l>la delfica risposta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                              Egli ci forma</l>
@@ -2072,14 +2108,14 @@
               <l>perché non si ritorna?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Tanto commercio non abbiam col cielo,</l>
               <l>ch'a voglia nostra ei parli.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>O Tisi, o sempre</l>
@@ -2088,7 +2124,7 @@
               <l>misere mie speranze.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                   Amfia, mi duole</l>
@@ -2097,7 +2133,7 @@
               <l>richiesto parlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                          O misera! E mi serba</l>
@@ -2118,7 +2154,7 @@
               <l>dal padre suo, preparerò la via.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Necessità di Fato,</l>
@@ -2147,7 +2183,7 @@
         <div type="scene">
           <head>SCENA VII</head>
           <stage>AMFIA, TISI.</stage>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>Udite strana legge,</l>
@@ -2166,21 +2202,21 @@
               <l>ma non la morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Non è virtù temer la vita, Amfia,</l>
               <l>ma l'ostare ai gran mali.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                         È lieve il duolo</l>
               <l>capace di consiglio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                  I proprii casi,</l>
@@ -2192,7 +2228,7 @@
               <l>dall'atteso prepara.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                 Ov'è Fortuna?</l>
@@ -2200,7 +2236,7 @@
               <l>ei condanna la figlia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                    E la Fortuna,</l>
@@ -2209,7 +2245,7 @@
               <l>sulla vittima il colpo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                    Ah, moribonde</l>
@@ -2219,7 +2255,7 @@
               <l>della madre ho disposto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Furiosa ella parte. Oh qual feroce</l>
@@ -2230,7 +2266,7 @@
               <l>cura o pietà della Messenia almeno!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>O sapienza eterna di natura,</l>
@@ -2319,7 +2355,7 @@
         <div type="scene">
           <head>SCENA I </head>
           <stage>ARISTODEMO, CORO <emph>de' Messenii</emph>.</stage>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Poiché del sangue nostro Averno ha sete,</l>
@@ -2350,7 +2386,7 @@
               <l>la cupidigia dell'ingordo Abisso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>O d'Alcide e d'Epito inclita prole,</l>
@@ -2363,7 +2399,7 @@
               <l>sempre del merto tuo minor mercede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>S'avvisi Ofioneo, s'erga l'altare,</l>
@@ -2373,7 +2409,7 @@
               <l>imputato a fiacchezza.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>È sublime vittoria e gloriosa</l>
@@ -2387,7 +2423,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>POLICARE, CORO <emph>de' Messenii</emph>.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Poiché fuggì l'usurpator Licisco</l>
@@ -2413,32 +2449,32 @@
               <l>si ricovrò tra le spartane genti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Un padre generoso offre la figlia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Cleone o Dami?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                           Aristodemo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                                 Oh Dio!</l>
               <l>Chi divolga l'offerta?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                      Il padre appunto,</l>
@@ -2447,7 +2483,7 @@
               <l>di sacrifizio tal degno apparato.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Scota Nettun la terra,</l>
@@ -2460,7 +2496,7 @@
               <l>sacrificar si deve ostia sì grande.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Ei da sé stesso</l>
@@ -2469,7 +2505,7 @@
               <l>Segni d'affanno immenso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Merope è sola forse</l>
@@ -2478,7 +2514,7 @@
               <l>condannata è dal padre?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Ella è sol atta al sacrifizio, a cui</l>
@@ -2490,70 +2526,70 @@
               <l>né contamina il don con bassi affetti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>E lo permette Amfia?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                     Perch'è costretta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>E l'approva Messenia?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                      Altra non resta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>E non si cerca Arena?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                     Ella è fuggita.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Non si toglie al nemico?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                         Ah, di salute</l>
               <l>trattasi qui, non di ruina.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                         In lei</l>
               <l>la salute consiste.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                               E per lei forse</l>
               <l>perirebbesi indarno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                 Or vanne, e trova</l>
@@ -2562,14 +2598,14 @@
               <l>Non perirà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                      Giovane audace, frena</l>
               <l>l'impeto del dolor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                 Prima quel colpo</l>
@@ -2607,7 +2643,7 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>MEROPE, POLICARE.</stage>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Policare, vicino</l>
@@ -2640,7 +2676,7 @@
               <l>deh, per pietà la madre mia consola.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Ch'io viva? Io ti dia tomba? Io così vile,</l>
@@ -2699,7 +2735,7 @@
               <l>certa solo del danno?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>S'io non ti salvo, perdo</l>
@@ -2735,7 +2771,7 @@
               <l>a ragion non ti piace.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Vuoi ch'io viva, e m'uccidi</l>
@@ -2759,7 +2795,7 @@
               <l>misere mie speranze.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Questa perdita è indegna</l>
@@ -2769,7 +2805,7 @@
               <l>A che dunque seguir quel che men prezzi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Io volentier confesso</l>
@@ -2788,7 +2824,7 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>SOLDATO, MEROPE, POLICARE, NUTRICE <emph>in fine</emph>.</stage>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l>Merope, Aristodemo a sé ti chiama</l>
@@ -2796,7 +2832,7 @@
               <l>da conferir alti pensieri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>                                        Il padre</l>
@@ -2824,7 +2860,7 @@
               <l>io parto, addio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                          Dove n'andrai, crudele,</l>
@@ -2838,7 +2874,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>NUTRICE, POLICARE.</stage>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Pigri, e imbelli siam noi, se posta in uso</l>
@@ -2880,7 +2916,7 @@
               <l>degna di lei, degna di te prepara.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Se non ricusa d'incontrar la morte,</l>
@@ -2890,7 +2926,7 @@
               <l>quanto sarìa Policare infelice!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Della sua lingua è men feroce il core.</l>
@@ -2905,35 +2941,35 @@
               <l>se cessi, è morte certa.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                      Ecco, o nutrice,</l>
               <l>un rischio non minor: l'offender lei.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Vie più l'offendi</l>
               <l>a lasciarla perir.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                           Che più si tarda?</l>
               <l>Chi nulla può sperar, nulla disperi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Nulla più, no: ma se ben dritto io miro,</l>
               <l>forza giovar non può. S'usi l'inganno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>S'usi purché si salvi, e poi mi tocchi</l>
@@ -2942,7 +2978,7 @@
               <l>d'Etna giacer perché Tifeo respiri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Non sarà sì colpevol la frode.</l>
@@ -2954,7 +2990,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>OFIONEO.</stage>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Oh come sferza i rapidi destrieri</l>
@@ -3006,7 +3042,7 @@
               <l>onorandone il corso illustra il fine.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Sotto al selvoso Tenaro una rupe</l>
@@ -3083,7 +3119,7 @@
         <div type="scene">
           <head>SCENA I </head>
           <stage>POLICARE, ARISTODEMO.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Mio re, ché re fra poco</l>
@@ -3092,7 +3128,7 @@
               <l>che 'l re comanda agli altri, al re la legge.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Custode è della legge</l>
@@ -3100,7 +3136,7 @@
               <l>da lei partirsi mai.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                               Tal è di grande</l>
@@ -3110,13 +3146,13 @@
               <l>e quale un re nell'altrui mogli?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                                  Segui.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Poco ho da dir. Né Aristodemo padre,</l>
@@ -3126,7 +3162,7 @@
               <l>non me la tolga il re.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                   Che fia mai questo?</l>
@@ -3143,7 +3179,7 @@
               <l>a mostrarsi virtù.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                             Signor, tu dammi</l>
@@ -3162,7 +3198,7 @@
               <l>della Messenia: Aristodemo è salvo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Salvisi pur la patria. E tu, garzone,</l>
@@ -3186,7 +3222,7 @@
               <l>onorati vestigi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                           Il sangue diedi</l>
@@ -3196,73 +3232,73 @@
               <l>se manca il padre. A' dèi, se 'l re non m'ode.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Han già risposto i dèi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                      Non sono intesi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Ciò niega Ofioneo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                 Tutto non vede.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Sol può Dio preveder.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                    L'uomo provegga.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Ben dicesti. Io proveggo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                           Inutilmente.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Salvandosi la patria?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                    Tu la perdi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Augure infausto, taci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                    Aristodemo,</l>
@@ -3275,7 +3311,7 @@
               <l>e 'l fin dell'opra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                             Assai</l>
@@ -3285,7 +3321,7 @@
               <l>per irritar gli dèi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                             Più chiaro dunque</l>
@@ -3298,7 +3334,7 @@
               <l>è la Messenia, io la rinunzio e taccio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Che senti, Aristodemo? A questi colpi</l>
@@ -3311,7 +3347,7 @@
               <l>fingerà vanamente?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Attonito ei riman, qual chi di serpe</l>
@@ -3319,7 +3355,7 @@
               <l>pallido incontra inaspettato assalto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Ma deluder mi giova arte con arte.</l>
@@ -3328,7 +3364,7 @@
               <l>trova indegni pretesti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                    Io non t'ascondo</l>
@@ -3338,7 +3374,7 @@
               <l>un delitto del padre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Con un altro delitto</l>
@@ -3351,7 +3387,7 @@
               <l>di donatore, offeso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Signor, se grave è l'amorosa colpa,</l>
@@ -3364,7 +3400,7 @@
               <l>non anco a' numi inferni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>A preghiere d'Amfia</l>
@@ -3398,7 +3434,7 @@
               <l>Policare e Licisco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Tolga il ciel, che 'l mio amor nobile e giusto,</l>
@@ -3428,7 +3464,7 @@
               <l>sforza le stelle.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                           O te la serbi il fato,</l>
@@ -3444,7 +3480,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>POLICARE.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Bella dea, che mi reggi,</l>
@@ -3488,7 +3524,7 @@
           <head>SCENA III</head>
           <stage>OFIONEO, MEROPE.</stage>
           <stage>CORO <emph>de' sacerdoti che non parla</emph>.</stage>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Ministri, il bruno manto</l>
@@ -3520,7 +3556,7 @@
               <l>lascialo in pace.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Padre, due giorni sono</l>
@@ -3547,7 +3583,7 @@
               <l>ogni pensier depongo, e muoro in pace.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Figlia, questo è un affetto</l>
@@ -3564,7 +3600,7 @@
               <l>dell'amor tuo, che perderia morendo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#merope">
             <speaker>MEROPE</speaker>
             <lg>
               <l>Se Policare vive, omai consacra</l>
@@ -3582,7 +3618,7 @@
               <l>in sì nobil acquisto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Parlando in questa guisa,</l>
@@ -3622,7 +3658,7 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>OFIONEO, CORO.</stage>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>O tu nella cui mente il sacro ardore</l>
@@ -3633,7 +3669,7 @@
               <l>sotto l'ire del Ciel? Merope è tolta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Cessi la tema infausta. Ostia sincera</l>
@@ -3645,7 +3681,7 @@
               <l>Merope or com'è tolta?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Tolta già molto tempo ed incapace</l>
@@ -3655,7 +3691,7 @@
               <l>vicina ad esser madre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Gran cose, o dèi! Chi violò la figlia</l>
@@ -3668,7 +3704,7 @@
               <l>che violenza è questa?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Policare la sposa a lui promessa</l>
@@ -3677,13 +3713,13 @@
               <l>la nutrice ed Amfia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Aristodemo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                      Egli stimò la figlia</l>
@@ -3694,14 +3730,14 @@
               <l>la figlia indietro inutilmente offerta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Ed al giovane amante</l>
               <l>deve il padre prestar subita fede?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Amfia tutto conferma; e corre fama,</l>
@@ -3720,7 +3756,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>POLICARE, AMFIA.</stage>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Sin qua molto s'è fatto. Erra la fama</l>
@@ -3735,7 +3771,7 @@
               <l>corrisponde il successo!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                                        Or tu mi narra</l>
@@ -3743,7 +3779,7 @@
               <l>ch'ogni momento è prezioso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>                                                 Il tutto</l>
@@ -3757,7 +3793,7 @@
               <l>a cangiar volto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#amfia">
             <speaker>AMFIA</speaker>
             <lg>
               <l>                           A noi</l>
@@ -3798,7 +3834,7 @@
               <l>l'ingannerò. Torni pur mia: non temo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#policare">
             <speaker>POLICARE</speaker>
             <lg>
               <l>Cresce la notte, e con la notte il grande</l>
@@ -3813,7 +3849,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <l>ARISTODEMO.</l>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Così comincia il regno. Ecco la prima</l>
@@ -3880,7 +3916,7 @@
               <l>Che approvino, che fuggano: sia fatto!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Pera chi prima</l>
@@ -3939,7 +3975,7 @@
               <l>tolto è l'uffizio all'ozioso aratro!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#saffici">
             <speaker>SAFFICI</speaker>
             <lg>
               <l>E se non placa — i dèi d'abisso Itome,</l>
@@ -3979,7 +4015,7 @@
         <div type="scene">
           <head>SCENA I </head>
           <stage>NUTRICE, TISI.</stage>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Qual procelloso turbine mi porta</l>
@@ -3997,7 +4033,7 @@
               <l>efferato ed inospito paese?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>A ragion ti lamenti,</l>
@@ -4008,7 +4044,7 @@
               <l>narra come seguì l'eccesso grande.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Se raccolgo gli spiriti, se 'l corpo</l>
@@ -4054,7 +4090,7 @@
               <l>per non vederlo; e giacque.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>A che non guida un cieco</l>
@@ -4062,7 +4098,7 @@
               <l>d'onor tiranno!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Ciò non bastò al crudele.</l>
@@ -4091,7 +4127,7 @@
               <l>l'infelice cagion della sua colpa.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Ma chi dannò Policare alla morte</l>
@@ -4107,7 +4143,7 @@
               <l>l'abborriscan li dèi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>                                 Prima abborrito</l>
@@ -4133,7 +4169,7 @@
               <l>ad impedir che non s'uccida Amfia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Aristodemo concitò la plebe</l>
@@ -4161,7 +4197,7 @@
               <l>che tanto amò, lasciar le membra in terra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#nutrice">
             <speaker>NUTRICE</speaker>
             <lg>
               <l>Egli morir volea,</l>
@@ -4181,7 +4217,7 @@
               <l>rapito a noi cade sommerso il giorno?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Teme a ragion. Ché sfortunata fede</l>
@@ -4201,7 +4237,7 @@
         <div type="scene">
           <head>SCENA II</head>
           <stage>TISI, CORO</stage>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>O di che strani, o di che fieri eventi</l>
@@ -4211,7 +4247,7 @@
               <l>Che di Messenia?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                              Aristodemo adduce</l>
@@ -4224,13 +4260,13 @@
               <l>così la patria.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                        A ciò consente Itome?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Approva, e spera. Ofioneo sol resta,</l>
@@ -4242,7 +4278,7 @@
               <l>il nuovo re ricuperar poi deve.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Tuoni il ciel da sinistra, e pe' sereni</l>
@@ -4252,14 +4288,14 @@
               <l>che non sia lieto e non consenta il cielo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Così voglian li dèi: ma viene appunto</l>
               <l>Aristodemo. — Io qui l'attendo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>                                                      Io parto.</l>
@@ -4271,7 +4307,7 @@
         <div type="scene">
           <head>SCENA III</head>
           <stage>ARISTODEMO, CORO.</stage>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Chi mi vuol, terra o inferno?</l>
@@ -4318,7 +4354,7 @@
               <l>Messenii, l'indovin?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                    Sul giogo ei siede,</l>
@@ -4335,7 +4371,7 @@
         <div type="scene">
           <head>SCENA IV</head>
           <stage>LICISCO, ARISTODEMO, CORO, ERASITEA <emph>in fine</emph></stage>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>Licisco io son, quell'empio</l>
@@ -4347,7 +4383,7 @@
               <l>né son padre ad Arena.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Qual nostro Dio, qual tuo furor ti guida</l>
@@ -4366,7 +4402,7 @@
               <l>giustamente morrai.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>In cupo centro in tenebrosa stanza,</l>
@@ -4375,7 +4411,7 @@
               <l>Tu ne fosti l'autor.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                               L'autor più tosto</l>
@@ -4383,7 +4419,7 @@
               <l>e quasi tu della ruina.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>col favor degli dèi vittima impropria,</l>
@@ -4392,7 +4428,7 @@
               <l>un delitto alla patria.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>In fallo? Or chi commise</l>
@@ -4402,14 +4438,14 @@
               <l>E come ascosa fu?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>                                Di me non nacque:</l>
               <l>ier fu tolta da' tuoi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                                  Favole inette,</l>
@@ -4419,7 +4455,7 @@
               <l>del violento esacerbato volgo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Trovi la figlia prima</l>
@@ -4428,7 +4464,7 @@
               <l>oggi Messenia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>                          È ben ragion che torni</l>
@@ -4459,7 +4495,7 @@
               <l>gli sconsolati miei sterili giorni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Io t'ho pietà, bella innocente, e molto</l>
@@ -4467,7 +4503,7 @@
               <l>dove si frangerà?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>                             Rendasi il corpo</l>
@@ -4476,7 +4512,7 @@
               <l>dunque non è paterno?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>                                       Io rivelarti</l>
@@ -4487,13 +4523,13 @@
               <l>sacerdotessa illustre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Chiamisi. O Dio! che scoprirà Licisco?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#licisco">
             <speaker>LICISCO</speaker>
             <lg>
               <l>Messenii, chi di voi non si rammenta</l>
@@ -4609,7 +4645,7 @@
         <div type="scene">
           <head>SCENA V</head>
           <stage>ERASITEA, ARISTODEMO, CORO, OFIONEO <emph>in fine</emph>.</stage>
-          <sp>
+          <sp who="#erasitea">
             <speaker>ERASITEA</speaker>
             <lg>
               <l>Vengo, Licisco, vengo</l>
@@ -4643,13 +4679,13 @@
               <l>ambe per la tua mano, ambe tue figlie.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Che sento, oimé! Già temo. Ah rimembranza</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erasitea">
             <speaker>ERASITEA</speaker>
             <lg>
               <l>Se ti rammenta più, signor, de' nostri</l>
@@ -4709,14 +4745,14 @@
               <l>io prima il capo mio stendo alla scure.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>O che gravi accidenti! O di natura</l>
               <l>col rigor del destin pugna infelice!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Donna, parti, e mi lascia</l>
@@ -4725,7 +4761,7 @@
               <l>Almen giungesse Ofioneo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>                                             Non lunge</l>
@@ -4736,7 +4772,7 @@
         <div type="scene">
           <head>SCENA VI</head>
           <stage>OFIONEO, ARISTODEMO, CORO.</stage>
-          <sp>
+          <sp who="#ofioneo">
             <speaker>OFIONEO</speaker>
             <lg>
               <l>Io tutto intesi. Aristodemo, il cielo</l>
@@ -4778,7 +4814,7 @@
               <l>dallo spietato sovversor fatale.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Or sì, lecito è il pianto, or sì, è dovuto.</l>
@@ -4793,7 +4829,7 @@
         <div type="scene">
           <head>SCENA VII</head>
           <stage>ARISTODEMO.</stage>
-          <sp>
+          <sp who="#aristodemo">
             <speaker>ARISTODEMO</speaker>
             <lg>
               <l>Rapitemi all'orrenda</l>
@@ -4827,7 +4863,7 @@
               <l>contagiosa fortuna io vi disgravo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Tolga il Ciel, che quest'altro</l>
@@ -4841,7 +4877,7 @@
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>TISI, CORO, SOLDATO</stage>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>O con qual di natura</l>
@@ -4870,7 +4906,7 @@
               <l>o dalla sorte o dalla voglia altrui.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Dolce cosa agli afflitti</l>
@@ -4883,7 +4919,7 @@
               <l>invita a lamentarsi oggi Fortuna.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l>Morte a morte s'aggiunge, e lutto a lutto.</l>
@@ -4900,14 +4936,14 @@
               <l>fu Aristodemo!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#coro">
             <speaker>CORO</speaker>
             <lg>
               <l>Narra ciò che vedesti. Io già m'appongo</l>
               <l>al ver. S'uccise Aristodemo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#soldato">
             <speaker>SOLDATO</speaker>
             <lg>
               <l>                                              O dèi!</l>
@@ -4934,7 +4970,7 @@
               <l>quello spazio funesto ingombri tutto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tisi">
             <speaker>TISI</speaker>
             <lg>
               <l>Ah, spettacolo indegno! In questa guisa</l>

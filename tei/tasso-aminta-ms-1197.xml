@@ -76,6 +76,43 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="amore">
+            <persName>Amore</persName>
+          </person>
+          <person xml:id="dafne">
+            <persName>Dafne</persName>
+          </person>
+          <person xml:id="silvia">
+            <persName>Silvia</persName>
+          </person>
+          <person xml:id="aminta">
+            <persName>Aminta</persName>
+          </person>
+          <person xml:id="tirsi">
+            <persName>Tirsi</persName>
+          </person>
+          <personGrp xml:id="choro">
+            <name>Choro de Pastori</name>
+          </personGrp>
+          <person xml:id="satiro">
+            <persName>Satiro</persName>
+          </person>
+          <person xml:id="nirina">
+            <persName>Nirina</persName>
+          </person>
+          <person xml:id="nuntio">
+            <persName>Nuntio</persName>
+          </person>
+          <person xml:id="ergasto">
+            <persName>Ergasto</persName>
+          </person>
+          <person xml:id="elpino">
+            <persName>Elpino</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>2001-10-07T00:00:00.000+01:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -114,7 +151,7 @@ TORQUATO TASSO</head>
       <div type="prologue" n="Prologo">
         <head>PROLOGO</head>
         <stage>AMORE IN HABITO PASTORALE</stage>
-        <sp>
+        <sp who="#amore">
           <speaker>Amore</speaker>
           <l>Chi crederia; che sotto humane forme,</l>
           <l>e sotto queste pastorali spoglie</l>
@@ -218,7 +255,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena prima</head>
           <stage>DAFNE et SILVIA, Ninfe.</stage>
-          <sp>
+          <sp who="#dafne">
             <speaker>[DAFNE]</speaker>
             <l>Vorrai dunque pur, <name>Silvia</name>,</l>
             <l>da i piaceri di <name>Venere</name> lontana </l>
@@ -229,7 +266,7 @@ TORQUATO TASSO</head>
             <l>cangia, prego, consiglio,</l>
             <l>pazzarella; che sei.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Altri segua i diletti de l'amore,</l>
             <l>se pur v'è ne l'amor alcun diletto:</l>
@@ -240,7 +277,7 @@ TORQUATO TASSO</head>
             <l>saette à la faretra, o fere al bosco,</l>
             <l>non temo, ch'a me manchino diporti.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Insipidi diporti veramente,</l>
             <l>et insipida vita: e, s'à te piace,</l>
@@ -267,7 +304,7 @@ TORQUATO TASSO</head>
             <l>pazzarella che sei:</l>
             <l>che'l pentirsi da sezzo nulla giova.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Quando io dirò pentita sospirando</l>
             <l>queste parole; c'hor tu fingi, et orni</l>
@@ -276,7 +313,7 @@ TORQUATO TASSO</head>
             <l>Da gl'agni, e'l veltro le timide lepri,</l>
             <l>amarà l'orso il mare, e 'l Delfin l'alpe.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Conosco la ritrosa fanciullesca:</l>
             <l>qual tu sei, tal io fui: così portava</l>
@@ -334,7 +371,7 @@ TORQUATO TASSO</head>
             <l>il vedrai fatto altrui? fatto felice </l>
             <l>denne l'altrui braccia, e te scherni rido?</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Faccia <name>Aminta</name> di sé et de' suoi amori</l>
             <l>quel; ch'a lui piace: a me nulla ne cale:</l>
@@ -342,51 +379,51 @@ TORQUATO TASSO</head>
             <l>Ma esser non può mio s'io lui non voglio,</l>
             <l>né, s'ancho egli mio fusse, io sarei sua.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Onde nasce il tuo odio?</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">Dal suo amore.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Piacevol padre di figlio crudele:</l>
             <l>Ma quando mai da i mansueti agnelli</l>
             <l>nacquer le tigri? ò i bei cigni da i corbi?</l>
             <l>0 m' inganni ò te stessa.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="I">Odio il suo amore</l>
             <l part="F">ch'odia la mia honestate, et amai lui,</l>
             <l>mentre ei volse di me quel; ch'io voleva.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Tu volevi il tuo peggio. Egli à te brama</l>
             <l>quel; ch'à te brama.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="I">O' taci, o parla,</l>
             <l part="F">se d'altro vuoi risposta.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Hor guata modi:</l>
             <l part="F">guata, che dispettosa giovinetta.</l>
             <l>Hor rispondimi almen: s'altri t'amasse,</l>
             <l>gradiresti il suo amore in questa guisa?</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>In questa guisa gradirei ciascuno</l>
             <l>insidiator di mia virginitate;</l>
             <l>che tu domandi Amante, et io nimico.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Stimi dunque nimico</l>
             <l>il monton de l'agnella?</l>
@@ -434,13 +471,13 @@ TORQUATO TASSO</head>
             <l>Cangia, cangia consiglio</l>
             <l>pazzarella; che sei.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Horsù, quando i sospiri</l>
             <l>udirò de le piante,</l>
             <l>io son contenta allhor d'essere amante.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Tu prendi à gabbo i miei fidi consigli,</l>
             <l>e burli mie ragioni? O' in amore</l>
@@ -480,12 +517,12 @@ TORQUATO TASSO</head>
             <l>Segui, segui tuo stile,</l>
             <l>ostinata; che sei.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Ma che fe' allhor <name>Licori</name> e che rispose</l>
             <l>a queste cose?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Tu de' fatti propri</l>
             <l>nulla ti curi, e vuoi saper gl' altrui?</l>
@@ -498,11 +535,11 @@ TORQUATO TASSO</head>
             <l>se stimasse veraci come belli</l>
             <l>quegli occhi, e lor prestasse intiera fede.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>E perché lor non crede?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Hor tu non sai ciò che <name>Tirsi</name> ne scrisse?</l>
             <l>allhor ch'ardendo forsennato egli errò per le foreste,</l>
@@ -516,7 +553,7 @@ TORQUATO TASSO</head>
             <l>ben riconosco in voi gl' inganni vostri:</l>
             <l>ma che pro', se schivarli Amor mi toglie?</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Io quì trapasso il tempo ragionando,</l>
             <l>ene mi sovien c'hoggi è il dì prescritto</l>
@@ -527,7 +564,7 @@ TORQUATO TASSO</head>
             <l>seguendo in caccia una Damma veloce</l>
             <l>ch'alfin giunsi, et uccisi.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Aspettarotti,</l>
             <l part="F">e forse anch'io mi bagnarò nel fonte.</l>
@@ -542,7 +579,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena seconda</head>
           <stage>Aminta, Tirsi, pastori</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Ho visto al pianto mio</l>
             <l>risponder per pietate i sassi, e l'onde,</l>
@@ -557,13 +594,13 @@ TORQUATO TASSO</head>
             <l>a chi non la negaro</l>
             <l>le cose inanimate.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Pasce l'agna l'herbette, il lupo l'agne:</l>
             <l>ma il crudo Amor di lacrime si pasce,</l>
             <l>né se ne mostra mai satollo.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="I">Ahi lasso,</l>
             <l part="F">ch'Amor satollo è del mio pianto homai,</l>
@@ -571,33 +608,33 @@ TORQUATO TASSO</head>
             <l>voglio, ch'egli, e quest'empia il sangue mio</l>
             <l>bevan con gli occhi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ahi <name>Aminta</name>, ahi <name>Aminta</name>,</l>
             <l>che parli? ò che vaneggi? Hor ti conforta,</l>
             <l>un'ch'altra trovarai, se ti disprezza</l>
             <l part="I">questa crudele.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Oimè, come posso io </l>
             <l>altri trovar, se me trovar non posso?</l>
             <l>Se perduto ho me stesso, quale acquisto</l>
             <l part="I">farò mai che mi piaccia?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">O' miserello,</l>
             <l>non disperar, che acquistarai costei.</l>
             <l>La lunga etate insegna a l'huom di porre</l>
             <l>freno a' leoni et à le Tigri hircane.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Ma il misero non puote à la sua morte</l>
             <l>indugio sostener di lungo tempo.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Sarà corto l'indugio: in breve spatio</l>
             <l>s'adira, e 'n breve spatio poi si placa</l>
@@ -613,7 +650,7 @@ TORQUATO TASSO</head>
             <l>studio de le Muse ch'à me siopra</l>
             <l>Ciò; ch'à gli altri si cela.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Io son contento.</l>
             <l><name>Tirsi</name>, a te dir ciò che le selve e i monti</l>
@@ -636,12 +673,12 @@ TORQUATO TASSO</head>
             <l>dicendo: O' pur qui fusse, e fusse mio.</l>
             <l part="I">Hor odi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Segui pur, ch'io t'ascolto,</l>
             <l>e forse à miglior fin, che tu non pensi.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Essend' io fanciulletto, sì ch' à pena</l>
             <l>giunger potea con la man pargoletta</l>
@@ -685,11 +722,11 @@ TORQUATO TASSO</head>
             <l part="I">Ben me n'accorsi al fine: et in qual modo,</l>
             <l part="F">hora m'ascolta, e nota.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>E' da notare.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>A' l'ombra d'un bel faggio <name>Silvia</name> e <name>Filli</name>
                   </l>
@@ -795,31 +832,31 @@ TORQUATO TASSO</head>
             <l>cosa; che turb' il bel lume sereno</l>
             <l>a' gli occhi chiari, e affanni quel bel petto.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>E' possibil però che, s'ella un giorno</l>
             <l>udisse tai parole, non t'amasse?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>No'l sò, ne 'l credo: ma fugge i miei detti</l>
             <l part="I">come l'aspe l'incanto.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Horsù confida</l>
             <l>ch'a me dà il cor di far, ch'ella t'ascolte.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>0 nulla impetrarai, ò se tu impetri,</l>
             <l>ch'io parli, io nulla impetrarò parlando.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="I">Perché disperi sì.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Giusta cagione</l>
             <l>ho del mio disperar, che il saggio <name>Mopso</name>
@@ -828,7 +865,7 @@ TORQUATO TASSO</head>
             <l><name>Mopso</name>, ch'intende il parlar de gl' augelli</l>
             <l>e la virtù de l'herbe, e de le fonti.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>E di qual <name>Mopso</name> intendi? di quel <name>Mopso</name>;</l>
             <l>c'ha ne la lingua melate parole,</l>
@@ -843,12 +880,12 @@ TORQUATO TASSO</head>
             <l>mi giova di sperar felice fine</l>
             <l part="I">a' l'amor tuo.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Se sai cosa per prova;</l>
             <l>che conforti mia speme, non tacerla.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Dirolla volontieri. Allhor che prima</l>
             <l>mia sorte mi condusse in queste selve,</l>
@@ -939,18 +976,18 @@ TORQUATO TASSO</head>
             <l>e déi bene sperar, sol perché ei vuole</l>
             <l part="I">che nulla speri.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Piacemi d'udire</l>
             <l>quanto mi narri. A' te dunque rimetto</l>
             <l part="I">la cura di mia vita.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Io n'havrò cura,</l>
             <l>Tu lasciati trovar quì fra mezz'hora</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>O bella Età de l'oro,</l>
             <l>non già perché di latte</l>
@@ -1028,7 +1065,7 @@ TORQUATO TASSO</head>
         <head>Atto secondo</head>
         <div type="scene">
           <head>Scena prima</head>
-          <sp>
+          <sp who="#satiro">
             <speaker>SATIRO SOLO.</speaker>
             <l>Picciola è l'ape, e fà co'l picciol morso</l>
             <l>pur gravi, e pur moleste le ferite:</l>
@@ -1132,7 +1169,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena seconda</head>
           <stage>DAFNE NINFA, TIRSI PASTORE,</stage>
-          <sp>
+          <sp who="#dafne">
             <speaker>[DAFNE]</speaker>
             <l>Com'io t'ho detto <name>Tirsi</name>, io m'era accorta,</l>
             <l>ch'<name>Aminta</name> amava <name>Silvia</name>: E <name>Dio</name> sà quanti</l>
@@ -1147,7 +1184,7 @@ TORQUATO TASSO</head>
             <l>a rmidendo, e piacendo uccida altrui,</l>
             <l>e l'uccida, e non sappia di ferire.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>E quale è cosi semplice fanciulla;</l>
             <l>ch'uscita da le fascie, non apprenda</l>
@@ -1156,12 +1193,12 @@ TORQUATO TASSO</head>
             <l>qual arme fera, e qual dia morte e quale</l>
             <l part="I">sane, e ritorne in vita?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Chi è il maestro</l>
             <l part="I">di cotant'arte?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Tu fingi, e mi tenti</l>
             <l>quel; ch'insegna à gli uccelli il canto, e 'l volo:</l>
@@ -1169,19 +1206,19 @@ TORQUATO TASSO</head>
             <l>al toro usar il corno, et al pavone</l>
             <l>spiegar la pompa de l'occhiute penne</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Com'ha nome il gran mastro?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F"><name>Dafne</name> ha nome.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Lingua bugiarda.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">E perché? Tu non sei</l>
             <l>atta à tener <num value="1000">mille</num> fanciulle à scuola?</l>
@@ -1189,7 +1226,7 @@ TORQUATO TASSO</head>
             <l>di maestro. Maestro è la Natura:</l>
             <l>ma la madre, e la balia ancho v'han parte.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Insomma tu sei goffo, e'nsieme tristo.</l>
             <l>Hora per dirti il ver, non mi risolvo,</l>
@@ -1229,12 +1266,12 @@ TORQUATO TASSO</head>
             <l>perché bella si vide, anchor che incolta.</l>
             <l part="I">Io me ne avidi, e tacqui.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Tu mi narri</l>
             <l>quel; ch'io credeva appunto: Hor non m'apposi?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Ben t'apponesti: ma pur odo dire</l>
             <l>che non erano pria le pastorelle,</l>
@@ -1242,7 +1279,7 @@ TORQUATO TASSO</head>
             <l>fui in mia fanciullezza: Il mondo invecchia,</l>
             <l part="I">e invecchiato intristisce.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Forse allhora</l>
             <l>non usavan sì spesso i cittadini</l>
@@ -1254,15 +1291,15 @@ TORQUATO TASSO</head>
             <l><name>Silvia</name> contenta sia, che le ragioni</l>
             <l><name>Aminta</name> solo, ò almeno in tua presenza?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Non sò <name>Silvia</name> è ritrosa fuor di modo.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>E costui rispettoso fuor di modo.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>E' spacciato un amante rispettoso.</l>
             <l>consiglial pur, che faccia altro mestiero:</l>
@@ -1279,7 +1316,7 @@ TORQUATO TASSO</head>
             <l>non parlo in rime: Tu sai ch'io saprei</l>
             <l>renderti poi per versi altro che versi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Non hai cagion di sospettar, ch'io dica</l>
             <l>cosa giamai; che sia contra tuo grado:</l>
@@ -1288,7 +1325,7 @@ TORQUATO TASSO</head>
             <l>che tu m'aiti ad aiutar <name>Aminta</name>:</l>
             <l part="I">miserel, che si muore.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">O' che gentile</l>
             <l>scongiuro ha ritrovato questo sciocco,</l>
@@ -1296,13 +1333,13 @@ TORQUATO TASSO</head>
             <l>il ben passato, e la presente noia:</l>
             <l part="I">Ma che vuoi tu, ch'io faccia?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">A' te nò manca</l>
             <l>né saper, né consiglio: basta sol, che</l>
             <l part="I">ti disponga à volere.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Hor sù dirotti.</l>
             <l>debbiamo in breve andare <name>Silvia</name>, et io</l>
@@ -1312,30 +1349,30 @@ TORQUATO TASSO</head>
             <l>le Ninfe cacciatrici: Ivi sò certo,</l>
             <l>che tuffarà le belle membra ignude.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="I">Ma che perciò?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Ma che perciò? Da poco</l>
             <l>intenditor. S'hai senno tanto basti.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Intendo; ma non sò, s'egli havrà tanto</l>
             <l part="I">d'ardir.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">S'ei non l'avrà, stiasi, et aspetti,</l>
             <l part="I">ch'altri lui cerchi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Egli è ben tal, che 'l merta.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Ma non vogliamo noi parlar alquanto</l>
             <l>di te medesmo? Hor sù <name>Tirsi</name> non vuoi</l>
@@ -1345,37 +1382,37 @@ TORQUATO TASSO</head>
             <l>vuoi viver neghitoso, e senza gioia?</l>
             <l>che sol amando un sà, che sia diletto.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>I diletti di <name>Venere</name> non lassa</l>
             <l>l'huom; che schiva l'<name>Amor</name>: ma coglie, e gusta</l>
             <l>le dolcezze d'<name>Amor</name> senza l'amaro.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Insipido è quel dolce; che condito</l>
             <l>non è d'alquanto amaro, e tosto satia.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>E' meglio satiarsi, ch'esser sempre</l>
             <l>famelico nel cibo, e dopo 'l cibo:</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Ma non, se 'l cibo si possiede, e piace,</l>
             <l>e gustato à gustar sempre rinvoglia.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ma chi possiede sì quel; che Le piace</l>
             <l>che l'habbia sempre pronto à la sua fame?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Ma chi ritrova il ben, s'egli no'l cerca?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Periglioso è cercar quel; che trovato,</l>
             <l>trastulla sì: ma più tormenta assai</l>
@@ -1385,51 +1422,51 @@ TORQUATO TASSO</head>
             <l>A' bastanza ho già pianto, e sospirato:</l>
             <l part="I">Faccia altri la sua parte.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Ma non hai</l>
             <l part="I">già goduto à bastanza.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Né desio</l>
             <l>goder, se così caro egli si compera.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Sarà forza l'amar, se non fia voglia.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ma non si può sforzar chi stà lontano.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">E chi lunge è d'Amor</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Chi teme e fugge.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>E che giova fuggir da lui; c'ha l'ali?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l><name>Amor</name> nascente ha corto l'ali: à pena</l>
             <l>può sù tenerle, e non le spiega à volo.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Pur non s'accorge l'huom, quand'egli nasce,</l>
             <l>e quando huom se n'accorge, è grande, e vola.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Non, s'altra volta nascer non 'l ha visto.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Vedrem, <name>Tirsi</name>, s'avrai la fuga e gli occhi</l>
             <l>come tu dici. Io ti protesto, per=</l>
@@ -1438,32 +1475,32 @@ TORQUATO TASSO</head>
             <l>non moverei per aiutarti un passo,</l>
             <l>un dito, un detto, una palpebra sola.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Crudel, ti darà il cor vedermi morto?</l>
             <l>Se vuoi pur ch'ami, ama tu me, facciamo</l>
             <l part="I">l'amor d'accordo.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Tu mi scherni, e forse</l>
             <l>non merti amante così fatta. Ahi quanti</l>
             <l>n'inganna il viso colorito, e liscio.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Non burlo io, no: Ma tu con tal pretesto</l>
             <l>non accetti il mio amor, pur com' è uso</l>
             <l>di tutte quante; ma se non mi vuoi,</l>
             <l part="I">viverò senz' amor.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Contento vivi</l>
             <l>più che mai fussi, ò <name>Tirsi</name>, e 'n otio vivi,</l>
             <l>e ne l'otio l'<name>Amor</name> sempre germoglia.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>O' <name>Dafne</name>: à me quest'otii ha fatto <name>Dio</name>,</l>
             <l>colui; che <name>Dio</name> qui può stimarsi; a cui</l>
@@ -1496,12 +1533,12 @@ TORQUATO TASSO</head>
             <l>e che mutando i fiumi letto, e corso,</l>
             <l>il <name>Perso</name> bea la <name>Sonna</name>, il <name>Gallo</name> il <name>Tigre</name>.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>O' tu vai alto: Horsù, discendi un poco</l>
             <l part="I">al proposito nostro.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Il punto è questo,</l>
             <l>che tu in andando al fonte con colei,</l>
@@ -1510,12 +1547,12 @@ TORQUATO TASSO</head>
             <l>Né forse men sarà difficil cura</l>
             <l part="I">la mia di questa tua: Hor vanne.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Io vado:</l>
             <l>ma il proposito nostro altro intendeva.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Se ben raviso di lontan la faccia,</l>
             <l><name>Aminta</name> è quel; che di là spunta: è desso.</l>
@@ -1524,7 +1561,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena terza</head>
           <stage>Aminta, et Tirsi Pastori.</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>[AMINTA]</speaker>
             <l>Vorrò veder ciò che <name>Tirsi</name> avrà fatto:</l>
             <l>e s'havrà fatto nulla,</l>
@@ -1538,53 +1575,53 @@ TORQUATO TASSO</head>
             <l>la piaga del mio petto,</l>
             <l>colpo de la mia mano.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Nuove <name>Aminta</name>, t'annuntio di conforto:</l>
             <l>lascia homai questo tanto lamentarti.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Oimè che di'? che porti?</l>
             <l>O' la vita, ò la morte?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Porto salute, e vita, s'ardirai</l>
             <l>di farti loro incontro: ma fa luogo</l>
             <l>d'esser un huom <name>Aminta</name>, e un huom ardito.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Qual ardir mi bisogna, e 'ncontra a cui?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Se la tua donna fusse in mezo un bosco;</l>
             <l>che cinto intorno d'altissime rupi</l>
             <l>desse albergo à le Tigri et a' Leoni,</l>
             <l part="I">v'andresti tu?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">V'andrei securo, e baldo,</l>
             <l part="I">più che di festa villanella al ballo.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Et s'ella fusse tra ladroni, et arme,</l>
             <l part="I">v'andresti tu?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">V'andrei più lieto, e pronto</l>
             <l>che l'assetato Cervo à la Fontana. </l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Bisogna à maggior uopo ardir più grande.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Andrò per mezo i rapidi torrenti,</l>
             <l>quando la neve si discioglie, e gonfi</l>
@@ -1593,46 +1630,46 @@ TORQUATO TASSO</head>
             <l>s'esser può Inferno; ov'è cosa sì bella.</l>
             <l part="I">Hor sù scoprimi il tutto.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="M">Odi.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Di' tosto.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l><name>Silvia</name> attende à una fonte ignuda, e sola.</l>
             <l part="I">Ardirai tu d'andarvi?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Oh che mi dici?</l>
             <l part="I"><name>Silvia</name> m'attende ignuda, e sola?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Sola,</l>
             <l>se non quanto v'è <name>Dafne</name>; ch'è per noi.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Ignuda ella m'aspetta?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ignuda: ma.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Oimè che ma? Tu taci, Tu m'occidi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ma non sa giàche tu v'habbi d'andare.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Dura conclusion; che tutto attosca</l>
             <l>le dolcezze passate. Hor con qual arte</l>
@@ -1641,20 +1678,20 @@ TORQUATO TASSO</head>
             <l>che io infelice sia,</l>
             <l>ch'à crescer vieni la miseria mia?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>S'à mio senno farai, sarai felice.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="I">E che consigli?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Che tu prenda quello;</l>
             <l>che la fortuna amica t'apresenta.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Tolga <name>Iddio</name> che mai faccia</l>
             <l>cosa; che le dispiaccia.</l>
@@ -1664,43 +1701,43 @@ TORQUATO TASSO</head>
             <l>Non sarà dunque ver, che, in quanto io posso,</l>
             <l part="I">non cerchi compiacerle.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Hor mi rispondi.</l>
             <l>se fusse in tuo poter di non amarla,</l>
             <l>lasciaresti d'amarla per piacerle?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Né questo mi consente Amor; ch'io dica,</l>
             <l>né che imagini pur d'haver già mai</l>
             <l>a' lasciar il suo amor, bench'io potessi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Dunque tu l' amaresti à suo dispetto,</l>
             <l>quando potessi far di non amarla.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>A' suo dispetto nò: ma l'amarei.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="I">Dunque fuor di sua voglia.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Sì per certo.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Perché dunque non osi oltre sua voglia,</l>
             <l>prenderne quel; che se ben grave in prima,</l>
             <l>al fin, al fin le sarà caro, e dolce,</l>
             <l part="I">c' habbi tu preso?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Ahi <name>Tirsi</name>, Amor risponda</l>
             <l>per me, che quanto in mezo al cor mi parla,</l>
@@ -1709,26 +1746,26 @@ TORQUATO TASSO</head>
             <l>a' me lega la lingua,</l>
             <l>quel; che mi lega il core.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Dunque andar non vogliamo?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Andar voglio io,</l>
             <l part="I">ma non dove tu stimi.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="M">E dove?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">A morte,</l>
             <l>s'altro in mio pro' non hai fatto, che quanto</l>
             <l part="I">hora mi narri.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="I">E questo ti par poco?</l>
             <l>Credi dunque tu scioccho, che mai <name>Dafne</name>
@@ -1745,12 +1782,12 @@ TORQUATO TASSO</head>
             <l>né sua mercede, a te folle, ch'importa</l>
             <l part="I">più l'un modo, che l'altro?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">E chi m'accerta,</l>
             <l part="I">che 'l suo desir sia tale?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">O mentecatto,</l>
             <l>Ecco tu chiedi pur quella certezza;</l>
@@ -1764,24 +1801,24 @@ TORQUATO TASSO</head>
             <l>questa perdita tua; che fia cagione</l>
             <l part="I">di vittoria maggiore. Andiamo.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Aspetta.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Che Aspetta? non sai tu, che'l tempo fugge?</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Deh, pensiam pria, se ciò dee farsi, e come.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Per strada pensarem ciò; che vi resta:</l>
             <l>ma nulla fa, chi troppe cose pensa.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO DE PASTORI.</speaker>
             <l>
               <gap/>
@@ -1794,7 +1831,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena prima</head>
           <stage>TIRSI, et CHORO de' Pastori.</stage>
-          <sp>
+          <sp who="#tirsi">
             <speaker>[TIRSI]</speaker>
             <l>O crudeltade estrema: ò ingrato core:</l>
             <l>o donna ingrata: o <num value="3">tre</num> fiate, ò <num value="4">quattro</num>
@@ -1814,52 +1851,52 @@ TORQUATO TASSO</head>
             <l>Amici, havete visto <name>Aminta</name>? o' inteso</l>
             <l part="I">forse di lui novella?</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">Tu mi pari</l>
             <l>così turbato! Qual cagion t'affanna?</l>
             <l>Ond'è questo sudore, e questo ansare?</l>
             <l>Hacci nulla di mal? Fa che 'l sappiamo.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Temo del mal d'<name>Aminta</name>. Havete 'l visto?</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Noi visto non l'habbiam da poi che teco</l>
             <l>buona pezza partì ma che ne temi?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ch'egli non s'habbia ucciso di sua mano.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="I">Ucciso di sua mano?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Odio, et Amore.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l><num value="2">Due</num> potenti nimici insieme aggiunti,</l>
             <l>che far non ponno! Ma parla più chiaro.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>L'amar troppo una Ninfa, e l'esser troppo</l>
             <l part="I">odiato da lei.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">Deh, narra il tutto.</l>
             <l>Questo è luoco di passo, e forse in tanto</l>
             <l>alcun verrà che di lui nuova arrechi.</l>
             <l>forse arrivar potrebbe egli medesimo.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Dirollo volontier, che non è giusto,</l>
             <l>che tanta ingratitudine, e sì strana</l>
@@ -1916,12 +1953,12 @@ TORQUATO TASSO</head>
             <l>né questa gratia; che fortuna vuole</l>
             <l>conceder loro, tuo mal grado sia.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Parole d'ammollire un cor di sasso:</l>
             <l part="I">Ma che rispose allhor?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Nulla rispose:</l>
             <l>ma disdegnosa, e vergognosa à terra</l>
@@ -1944,12 +1981,12 @@ TORQUATO TASSO</head>
             <l>Pastor, non mi toccar, son di <name>Diana</name>,</l>
             <l>per me stessa saprò sciogliermi i piedi.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Hor tant'orgoglio regna in cor di Ninfa</l>
             <l>Ahi d'opra gratiosa ingrato merto!</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Ei si trasse in disparte riverente,</l>
             <l>non alzando pur gli occhi per mirarla,</l>
@@ -1964,22 +2001,22 @@ TORQUATO TASSO</head>
             <l>e pur nulla cagion havea di tema,</l>
             <l>che l'era noto il rispetto d'<name>Aminta</name>.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="I">Perché dunque fuggissi?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">A' la sua fuga</l>
             <l>volse l'obligo haver, non à l'altrui</l>
             <l part="I">modesto amore.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">Et in questo anco è ingrata.</l>
             <l>Ma che fe' il miserello allhor? Che disse?</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>No'l sòche pien di mal talento io corsi</l>
             <l>per arrivarla, e ritenerla: e 'nvano,</l>
@@ -1989,21 +2026,21 @@ TORQUATO TASSO</head>
             <l>Sò ch'egli era disposto di morire,</l>
             <l part="I">prima che ciò avenisse.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">É uso, et arte</l>
             <l>di ciascun; ch'ama, minacciarsi morte:</l>
             <l>ma rare volte poi segue l'effetto.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l><name>Dio</name> faccia, che ei non sia fra questi rari.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="I">Non sarà nò.</l>
           </sp>
-          <sp>
+          <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">Io voglio irmene à l'antro</l>
             <l>del saggio <name>Elpino</name>: ivi, s'è vivo, forse</l>
@@ -2018,7 +2055,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena seconda</head>
           <stage>AMINTA PASTORE: DAFNE, ET NIRINA NINFE</stage>
-          <sp>
+          <sp who="#aminta">
             <speaker>[AMINTA]</speaker>
             <l part="F">Dispietata pietate</l>
             <l>fu la tua veramente, ò <name>Dafne</name>, allhora</l>
@@ -2030,14 +2067,14 @@ TORQUATO TASSO</head>
             <l>ragionamenti in vano? Di che temi?</l>
             <l>ch'io non m'uccida? Temi del mio bene.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Non disperar <name>Aminta</name>,</l>
             <l>che, s'io ben lei conosco,</l>
             <l>sola vergogna fù, non crudeltate,</l>
             <l>quella; che mosse <name>Silvia</name> à fuggir via.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Oimè, che mia salute</l>
             <l>sarebbe il disperare,</l>
@@ -2047,7 +2084,7 @@ TORQUATO TASSO</head>
             <l>sol perch'io viva. E qual' è maggior male</l>
             <l>de la vita d'un misero, com'io?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Vivi misero, vivi</l>
             <l>ne la miseria tua, e questo stato</l>
@@ -2056,14 +2093,14 @@ TORQUATO TASSO</head>
             <l>se vivendo, e sperando ti mantieni,</l>
             <l>quel; che vedesti ne la bella ignuda.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Non pareva ad Amore, à mia Fortuna,</l>
             <l>ch'à pien misero io fussi, s'ancho à pieno</l>
             <l>non m'era dimostrato</l>
             <l>quel; che m'era negato.</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>Dunque a me pur conviene esser sinistra</l>
             <l>còrnice d'amarissima novella?</l>
@@ -2072,60 +2109,60 @@ TORQUATO TASSO</head>
             <l>de l'unica tua <name>Silvia</name> il duro caso?</l>
             <l>Padre vecchio, orbo padre: ai, non più padre.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Odo una mesta voce.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Io odo il nome</l>
             <l>di <name>Silvia</name>; che l' orecchie e 'l cor mi fere:</l>
             <l part="I">ma chi è che la noma?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Ella è <name>Nirina</name>,</l>
             <l>ninfa gentil; che tanto à <name>Cinthia</name> è cara;</l>
             <l>c'ha sì begli occhi, e così belle mani;</l>
             <l>e modi sì avenenti, e gratiosi.</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>E' pur meglio che 'l sappia, e che procuri</l>
             <l>di ritrovar le reliquie infelici,</l>
             <l>se nulla ve ne resta. Ai <name>Silvia</name>: ai dura</l>
             <l part="I">tua sorte.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="I">Oimèche fia? Costei che dice?</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l part="I">O <name>Dafne</name>.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Che parli tra te stessa? e perché nomi</l>
             <l part="I">tu <name>Silvia</name>, e poi sospiri?</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l part="F">Ai, ch'à ragione</l>
             <l part="I">sospiro l'aspro caso.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Ai, di qual caso</l>
             <l>può ragionar costei? Io sento, io sento</l>
             <l>che mi s'agghiaccia il core, e mi si chiude</l>
             <l part="I">lo spirto. Éviva?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Narra qual aspro caso è quel; che dici.</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>O <name>Dio</name>, perché sono io</l>
             <l>la Messaggiera? pur convien narrarlo.</l>
@@ -2144,12 +2181,12 @@ TORQUATO TASSO</head>
             <l>a' sommo il capo: ei si rinselva, et ella,</l>
             <l>vibrando un dardo, dentro il bosco il segue.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>O dolente principio: oimè, qual fine</l>
             <l part="I">già mi s'annuntia?</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l part="F">Io con un'altro dardo</l>
             <l>seguo lor traccia: Ma lontana assai,</l>
@@ -2169,22 +2206,22 @@ TORQUATO TASSO</head>
             <l>indietro ritornaimi. E questo è quanto</l>
             <l>posso dirvi di <name>Silvia</name>: Et ecco 'l velo.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Poco pàrti haver detto? O' velo, ò sangue:</l>
             <l part="I">O <name>Silvia</name> tu sei morta?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">O' miserello,</l>
             <l>tramortito è d'affanno, et forse morto:</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>Egli rispira pure. Questo fia</l>
             <l>un breve svenimento: Ecco, riviene.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Dolor; che sì mi crucci,</l>
             <l>che non m'uccidi homai? Tu sei pur lento.</l>
@@ -2210,21 +2247,21 @@ TORQUATO TASSO</head>
             <l>ben soffrirà, ch'io moia,</l>
             <l>e tu soffrir lo dei.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Aspetta à la tua morte,</l>
             <l>sin che 'l ver meglio intenda.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Oimè, che vuoi, ch'attenda?</l>
             <l>Oimè, c'ho troppo atteso, e troppo inteso.</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>O fuss 'io stata muta.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Ninfa, dammi ti prego</l>
             <l>quel velo; ch'è di lei</l>
@@ -2237,13 +2274,13 @@ TORQUATO TASSO</head>
             <l>ch'è ben picciol martire,</l>
             <l>s' ha bisogno d'aiuto, al mio morire.</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>Debb'io darlo: o negarlo?</l>
             <l>La cagion; per ché 'l chiedi</l>
             <l>fà, ch'io debba negarlo.</l>
           </sp>
-          <sp>
+          <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l>Crudel, sì picciol dono</l>
             <l>mi neghi al punto estremo?</l>
@@ -2252,12 +2289,12 @@ TORQUATO TASSO</head>
             <l>a' te si resti. E voi restate anchora,</l>
             <l>ch'io vò per non tornare.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l><name>Aminta</name>, aspetta, ascolta.</l>
             <l>Oimè, con quanta furia egli si parte.</l>
           </sp>
-          <sp>
+          <sp who="#nirina">
             <speaker>NIRINA</speaker>
             <l>Egli và sì veloce,</l>
             <l>che fia vano il seguirlo; ond'è pur meglio,</l>
@@ -2265,7 +2302,7 @@ TORQUATO TASSO</head>
             <l>ch'io taccia, e nulla conti</l>
             <l>al misero <name>Montano</name>.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO DE PASTORI.</speaker>
             <l>
               <gap/>
@@ -2278,7 +2315,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena prima</head>
           <stage>DAFNE, ET SILVIA NINFE, ET CHORO DE PASTORI.</stage>
-          <sp>
+          <sp who="#dafne">
             <speaker>[DAFNE]</speaker>
             <l>Ne porti il vento con la rea novella;</l>
             <l>che s'era di te sparta, ogni tuo male,</l>
@@ -2288,18 +2325,18 @@ TORQUATO TASSO</head>
             <l>m'havea <name>Nirina</name> il tuo caso dipinto.</l>
             <l>Ahi stata fusse muta: od altri sordo.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Certo il rischio fù grande, et ella havea</l>
             <l>giusta cagion di sospettarmi morta.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Ma non havea giusta cagion di dirlo.</l>
             <l>Hor narra tu qual fusse il rischio, e come</l>
             <l part="I">tu lo fugisti.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">Io seguitando un Lupo</l>
             <l>mi rinselvai nel più profondo bosco,</l>
@@ -2340,65 +2377,65 @@ TORQUATO TASSO</head>
             <l>tutta turbata, e mi stupii, vedendo</l>
             <l part="I">stupirti al mio apparire.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Oimè, tu vivi,</l>
             <l part="I">altri non già</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">Che dici? Ti rincresce</l>
             <l>forse, ch'io viva sia? M'odii tu tanto?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Mi piace di tua vita: ma mi duole</l>
             <l part="I">de l'altrui morte.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">E di qual morte intendi?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">De la morte d'<name>Aminta</name>.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">Ai,com' è morto?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Il come non sò dir, né so dir ancho,</l>
             <l>s'è ver l'Effetto: ma per certo il credo.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Che è ciò che mi dici? Et à che rechi</l>
             <l part="I">la cagion di sua morte? </l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">A' la tua morte.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="I">Io non t'intendo.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">La dura novella</l>
             <l>de la tua morte, ch'egli udì, e credette,</l>
             <l>havrà porto al meschino il laccio, o 'l ferro</l>
             <l>od altra cosa tal; che l'havrà ucciso.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Vano il sospetto in te de la sua morte</l>
             <l>sarà, come fù van de la mia morte,</l>
             <l>ch'ognuno à suo poter salva la vita.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>O' <name>Silvia</name>, <name>Silvia</name>, tu non sai, né credi,</l>
             <l>quanto il foco d'Amor possa in un petto,</l>
@@ -2425,11 +2462,11 @@ TORQUATO TASSO</head>
             <l>e mostrò quella strada al ferro audace;</l>
             <l>che correr poi dovea liberamente.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="I">Oh che mi narri.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Il vidi poscia allhora</l>
             <l>ch'intese l'amarissima novella</l>
@@ -2438,34 +2475,34 @@ TORQUATO TASSO</head>
             <l>per uccider se stesso: e s'havrà ucciso</l>
             <l part="I">veramente.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">E ciò per fermo tieni?</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Io non v 'ho dubio.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">Oimè, tu no'l seguisti</l>
             <l>per impedirlo? Oimè, cerchianlo, andiamo,</l>
             <l>che poi ch'egli moria per la mia morte,</l>
             <l>deè per la vita mia restar in vita.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Io'l seguii ben: ma correa sì veloce,</l>
             <l>che mi sparì tosto dinanzi, e 'ndarno</l>
             <l>poi m'aggirai per le sue orme. Hor dove</l>
             <l>vuoi tu cercar, se non n'hai traccia alcuna?</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Egli morà, se no'l troviamo, ai lassa,</l>
             <l>e sarà l'homicida ei di se stesso.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Crudel, forse t'incresce, che ti tolga</l>
             <l>la gloria di quest' atto? Esser tu dunque</l>
@@ -2475,7 +2512,7 @@ TORQUATO TASSO</head>
             <l>che comunque egli moia, per te muore,</l>
             <l>e tu sei; che l'occidi.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Oimè, che tu m'accori: e quel cordoglio;</l>
             <l>ch'io sento del suo caso, inacerbisce</l>
@@ -2485,7 +2522,7 @@ TORQUATO TASSO</head>
             <l>ma fu troppo severa, e rigorosa.</l>
             <l part="I">Hor me n' accorgo, e pento.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">Oh, quel: ch'io odo.</l>
             <l>Tu sei pietosa tu? tu senti al core</l>
@@ -2493,16 +2530,16 @@ TORQUATO TASSO</head>
             <l>tu piangi tu superba? O' maraviglia.</l>
             <l>Che pianto è questo tuo? pianto d'Amore?</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Pianto d'amor non già: ma di pietate.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>La pietà Messaggiera è de l'Amore,</l>
             <l part="I">come 'l Lampo del Tuono.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">Anzi sovente,</l>
             <l>quand' egli vuol ne' petti virginelli</l>
@@ -2512,7 +2549,7 @@ TORQUATO TASSO</head>
             <l>e sua nuntia pietate: e con tai larve</l>
             <l>le semplici ingannando è dentro accolto.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Questo è pianto d'Amor, che troppo abonda.</l>
             <l>Tu taci. Ami tu Silvia? ami: ma in vano.</l>
@@ -2532,19 +2569,19 @@ TORQUATO TASSO</head>
             <l>desti quel prezo tu; ch'ella richiese,</l>
             <l>e l'amor suo co 'l tuo morir comprasti.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Caro prezo à chi 'l diede, à chi il riceve</l>
             <l part="I">prezo inutile, e'nfame.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">O' potess 'io</l>
             <l>con l'amor mio comprar la vita sua,</l>
             <l>anzi pur con la mia vita la sua</l>
             <l part="I">s'egli è pur morto.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="F">O' tardi saggia, e tardi</l>
             <l>pietosa, quand'in ciò nulla rilieva!</l>
@@ -2553,40 +2590,40 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena seconda</head>
           <stage>ERGASTO PASTORE, CHORO, SILVIA E DAFNE NINFE.</stage>
-          <sp>
+          <sp who="#nuntio">
             <speaker>[NUNTIO]</speaker>
             <l>Io ho sì pieno il petto di pietate</l>
             <l>e sì pieno d'horror, ch'io non rimiro,</l>
             <l>né odo alcuna cosa, ov'io mi volga,</l>
             <l>la qual non mi spaventi, e non m'affanni.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Hor che porta costui;</l>
             <l>ch'è sì turbato in vista, ed in favella?</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l>Porto l'aspra novella</l>
             <l part="I">de la morte d'<name>Aminta</name>.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">Oimèche dice?</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l>Il più nobil Pastor di queste selve;</l>
             <l>che fù così gentil, così leggiadro,</l>
             <l>così caro à le Ninfe, Et à le Muse:</l>
             <l>et è morto fanciullo, ai di che morte.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Contane prego, il tutto; accioche teco</l>
             <l>pianger potiam la sua sciagura, e nostra.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Oimè, che non ardisco</l>
             <l>appressarmi ad udire</l>
@@ -2604,19 +2641,19 @@ TORQUATO TASSO</head>
             <l>come devuta cosa. Hor tu di lui</l>
             <l>non mi sia dunque scarso.</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l>Ninfa, io ti credo bene,</l>
             <l>ch'io sentii quel meschino in sù la morte</l>
             <l>finir la vita sua</l>
             <l>co 'l chiamar il tuo nome.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Hor incomincia homai</l>
             <l>questa dolente historia.</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l>Io era à mezo il colle; ove havea teso</l>
             <l>certe mie reti, quando assai vicino</l>
@@ -2679,21 +2716,21 @@ TORQUATO TASSO</head>
             <l part="I">precipitossi d'alto</l>
             <l part="F">co 'l capo in giuso: et io restai di ghiaccio.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l part="I">Misero <name>Aminta</name>.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="M">Oimè!</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">Perché non l'impedisti?</l>
             <l>Forse ti fu ritegno à ritenerlo</l>
             <l>il fatto giuramento?</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l>Questo nò, che sprezzando i giuramenti,</l>
             <l>vani forse in tal caso:</l>
@@ -2705,23 +2742,23 @@ TORQUATO TASSO</head>
             <l>che s'era tutto abandonato, in mano</l>
             <l part="I">spezzata mi rimase.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">E che divenne</l>
             <l part="I">de l'infelice corpo?</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l part="F">Io non sò dire,</l>
             <l>ch'era sì pien d'horrore, et di pietate,</l>
             <l>che non mi diede 'l cor di rimirarvi,</l>
             <l part="I">per non vederlo in pezzi.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">O strano caso.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Oimè, ben son di sasso,</l>
             <l>poi che questa novella non m'occide.</l>
@@ -2755,12 +2792,12 @@ TORQUATO TASSO</head>
             <l>sarò per opra tua</l>
             <l>sua compagna a l'Inferno.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Consolati meschina,</l>
             <l>che questo è di fortuna, e non tua colpa.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Pastor, di che piangete?</l>
             <l>Se piangete il mio affanno,</l>
@@ -2790,13 +2827,13 @@ TORQUATO TASSO</head>
             <l>ch'io sò certo, ch'ei m'ama,</l>
             <l>come mostrò morendo.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Son contenta aiutarti in questo officio:</l>
             <l>ma tu già non pensare</l>
             <l>d'haver poscia à morire.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l>Sin quì vissi à me stessa,</l>
             <l>à la mia feritate: hor quel; ch'avanza,</l>
@@ -2811,27 +2848,27 @@ TORQUATO TASSO</head>
             <l>ci conduce à la valle; ove 'l dirupo</l>
             <l part="I">và à terminar?</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l part="F">Questa vi conduce,</l>
             <l>e quinci poco spatio ella è lontana.</l>
           </sp>
-          <sp>
+          <sp who="#dafne">
             <speaker>DAFNE</speaker>
             <l>Andiam, che verrò teco, e guiderotti,</l>
             <l part="I">che ben ramento il luoco.</l>
           </sp>
-          <sp>
+          <sp who="#silvia">
             <speaker>SILVIA</speaker>
             <l part="F">A' <name>Dio</name> Pastori,</l>
             <l>piaggie à <name>Dio</name>: à <name>Dio</name> selve: Fiumi, à <name>Dio</name>.</l>
           </sp>
-          <sp>
+          <sp who="#ergasto">
             <speaker>ERGASTO</speaker>
             <l>Costei parla di modo, che dimostra</l>
             <l>d'esser disposta à l'ultima partita.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO DE PASTORI</speaker>
             <l>
               <gap/>
@@ -2844,7 +2881,7 @@ TORQUATO TASSO</head>
         <div type="scene">
           <head>Scena prima</head>
           <stage>ELPINO PASTORE, ET CHORO DE' PASTORI.</stage>
-          <sp>
+          <sp who="#elpino">
             <speaker>[ELPINO]</speaker>
             <l>Veramente la legge; con che Amore</l>
             <l>il suo imperio governa eternamente</l>
@@ -2866,7 +2903,7 @@ TORQUATO TASSO</head>
             <l>sani le piaghe mie con pietà vera;</l>
             <l>che con finta pietate al cor mi fece.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Quel; che quì viene, è il saggio <name>Elpino</name>, e parla</l>
             <l>così d'<name>Aminta</name>, com'ei vivo fusse,</l>
@@ -2884,19 +2921,19 @@ TORQUATO TASSO</head>
             <l>de l'infelice <name>Aminta</name>? e un simil fine</l>
             <l part="I">sortir vorresti?</l>
           </sp>
-          <sp>
+          <sp who="#elpino">
             <speaker>ELPINO</speaker>
             <l part="F">Amici state allegri,</l>
             <l>che falso è quel rumor; ch' a voi pervenne</l>
             <l part="I">de la sua morte.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l part="F">Oh, che ci narri, ò quanto</l>
             <l>ci racconsoli. E non è dunque vero</l>
             <l part="I">ch'ei si precipitasse?</l>
           </sp>
-          <sp>
+          <sp who="#elpino">
             <speaker>ELPINO</speaker>
             <l part="F">Anzi  verissimo:</l>
             <l>ma fu felice il precipitio: e sotto</l>
@@ -2911,7 +2948,7 @@ TORQUATO TASSO</head>
             <l>volere, e quel; che manca, e che prolunga</l>
             <l>il concorde voler d'ambedue loro.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Pari l'Età, la gentilezza è pari,</l>
             <l>e concorde il desio: e 'l buon <name>Montano</name>
@@ -2924,7 +2961,7 @@ TORQUATO TASSO</head>
                   </l>
             <l part="I">habbia salvato.</l>
           </sp>
-          <sp>
+          <sp who="#elpino">
             <speaker>ELPINO</speaker>
             <l part="F">Io son contento, udite,</l>
             <l>udite quel; che con questi occhi ho visto.</l>
@@ -2978,12 +3015,12 @@ TORQUATO TASSO</head>
             <l>lasciò cadersi su'l giacente petto,</l>
             <l>e giunse viso à viso, e bocca à bocca.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Hor non ritenne adunque la vergogna</l>
             <l>lei; ch'è tanto severa, e schiva tanto?</l>
           </sp>
-          <sp>
+          <sp who="#elpino">
             <speaker>ELPINO</speaker>
             <l>La vergogna ritien debila Amore:</l>
             <l>ma debil freno è di potente Amore.</l>
@@ -3007,12 +3044,12 @@ TORQUATO TASSO</head>
             <l>Chi è servo d'Amor, per sé lo stimi:</l>
             <l>Ma non si può stimar, non che ridire.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l><name>Aminta</name> è sano si, ch'egli sia fuori</l>
             <l part="I">del rischio de la vita?</l>
           </sp>
-          <sp>
+          <sp who="#elpino">
             <speaker>ELPINO</speaker>
             <l part="F"><name>Aminta</name> è sano,</l>
             <l>se non ch'alquanto ha pur graffiato il viso,</l>
@@ -3025,7 +3062,7 @@ TORQUATO TASSO</head>
             <l>ma restate con <name>Dio</name>, ch'io vo seguire</l>
             <l>il mio viaggio, e ritrovar <name>Montano</name>.</l>
           </sp>
-          <sp>
+          <sp who="#choro">
             <speaker>CHORO</speaker>
             <l>Non so se 'l molto amaro</l>
             <l>che provato ha costui servendo, amando,</l>

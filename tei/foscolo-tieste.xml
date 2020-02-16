@@ -75,6 +75,22 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="erope">
+            <persName>Erope</persName>
+          </person>
+          <person xml:id="ippodamia">
+            <persName>Ippodamia</persName>
+          </person>
+          <person xml:id="tieste">
+            <persName>Tieste</persName>
+          </person>
+          <person xml:id="atreo">
+            <persName>Atreo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione - OCR</change>
@@ -87,24 +103,21 @@
     <front>
       <castList>
         <head>PERSONAGGI</head>
-        <castItem type="role">
-          <role>ATREO, <emph>re d'Argo</emph>; </role>
+        <castItem type="role"><role>ATREO</role>,
+          <roleDesc><emph>re d'Argo</emph></roleDesc>;
         </castItem>
-        <castItem type="role">
-          <role>TIESTE, <emph>suo fratello</emph>;</role>
+        <castItem type="role"><role>TIESTE</role>,
+          <roleDesc><emph>suo fratello</emph></roleDesc>;
         </castItem>
-        <castItem type="role">
-          <role>IPPODAMIA, <emph>loro madre</emph>; </role>
+        <castItem type="role"><role>IPPODAMIA</role>,
+          <roleDesc><emph>loro madre</emph></roleDesc>;
         </castItem>
-        <castItem type="role">
-          <role>EROPE; </role>
+        <castItem type="role"><role>EROPE</role>;</castItem>
+        <castItem type="role"><role>UN FANCIULLETTO</role>,
+          <roleDesc><emph>figlio di Erope e Tieste, che non parla</emph></roleDesc>;
         </castItem>
-        <castItem type="role">
-          <role>UN FANCIULLETTO, <emph>figlio di Erope e Tieste, che non
-parla</emph>; </role>
-        </castItem>
-        <castItem type="role">
-          <role>GUARDIE, <emph>che non parlano</emph>. </role>
+        <castItem type="role"><role>GUARDIE</role>,
+          <roleDesc><emph>che non parlano</emph></roleDesc>.
         </castItem>
       </castList>
       <set>
@@ -117,7 +130,7 @@ parla</emph>; </role>
         <div type="scene">
           <head>SCENA I</head>
           <stage>EROPE <hi rend="italic">con un fanciulletto a mano</hi>.</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>D'empi rimorsi oggetto, infausto, caro</l>
@@ -147,7 +160,7 @@ parla</emph>; </role>
         <div type="scene">
           <head>SCENA II</head>
           <stage>IPPODAMIA, <hi rend="italic">e detti</hi>.</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Incauta! e a' suoi custodi il fanciulletto</l>
@@ -158,7 +171,7 @@ parla</emph>; </role>
               <l>contaminata ahi! troppo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>A me dal seno</l>
@@ -181,7 +194,7 @@ parla</emph>; </role>
             </lg>
           </sp>
           <stage rend="italic">(impugnando un ferro per uccidere il fanciulletto)</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(trattenedola)</stage>
             <lg>
@@ -194,7 +207,7 @@ parla</emph>; </role>
               <l>ancor l'ira del Ciel?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Sangue mi grida</l>
@@ -208,7 +221,7 @@ parla</emph>; </role>
               <l>e il Ciel sazio non fia, s'io pria non pero.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Qual da' tuoi detti feroce traluce</l>
@@ -221,7 +234,7 @@ parla</emph>; </role>
               <l>tue prime fiamme?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ahi! di lusinga questi,</l>
@@ -243,7 +256,7 @@ parla</emph>; </role>
               <l>qui...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Istoria triste a che rinnovi? Solo</l>
@@ -254,13 +267,13 @@ parla</emph>; </role>
               <l>sottentrò al suo delitto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Al suo!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Delitto</l>
@@ -268,7 +281,7 @@ parla</emph>; </role>
               <l>a colpa?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Al suo delitto! Error comune</l>
@@ -278,14 +291,14 @@ parla</emph>; </role>
               <l>il supplizio a cui corro, e 'l Ciel lo vuole.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Ma il figlio tuo? ma un innocente? Oh numi!</l>
               <l>Qual è il delitto suo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Di colpa è questo</l>
@@ -303,7 +316,7 @@ parla</emph>; </role>
               <l>ti schiusi; per morir...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>A che tant'ira?</l>
@@ -312,7 +325,7 @@ parla</emph>; </role>
               <l>ti spiri eccesso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ippodamia, nell'alma</l>
@@ -336,14 +349,14 @@ parla</emph>; </role>
               <l>ombra amata...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Che di'? come! tu l'ami</l>
               <l>ancor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Io l'amo?... Io lui?... No: quando amai,</l>
@@ -363,7 +376,7 @@ parla</emph>; </role>
               <l>fra gli attentati ondeggio e fra i rimorsi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Quanta mi fai pietà! Pur tu dovresti</l>
@@ -376,7 +389,7 @@ parla</emph>; </role>
               <l>a' sospetti ed affanni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Odiami; degna</l>
@@ -399,7 +412,7 @@ parla</emph>; </role>
               <l>nella gemente stanza rimbombar.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>D'accesa fantasia, figlia, son vote</l>
@@ -408,7 +421,7 @@ parla</emph>; </role>
               <l>Sta in te, le scaccia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Oh! mal t'apponi. E come</l>
@@ -422,14 +435,14 @@ parla</emph>; </role>
               <l>all'inteso presagio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E che? d'Atreo</l>
               <l>qual mai tema n'hai più?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Non è ancor caldo</l>
@@ -441,7 +454,7 @@ parla</emph>; </role>
               <l>il suo cor?... tutto, tutto?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>I tuoi timori</l>
@@ -449,7 +462,7 @@ parla</emph>; </role>
               <l>altri oggimai pensier...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>E quai pensieri,</l>
@@ -464,7 +477,7 @@ parla</emph>; </role>
               <l>altro non ha pensier.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Madre gli sono,</l>
@@ -478,14 +491,14 @@ parla</emph>; </role>
               <l>fama, che di Tieste...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>E dove mai</l>
               <l>non s'udì il mio delitto?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Or statti, e m'odi.</l>
@@ -500,14 +513,14 @@ parla</emph>; </role>
               <l>contro Tieste, e contro noi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Pen parli.</l>
               <l>Ma tu, qual io, sei madre?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Oh che di' mai?</l>
@@ -528,7 +541,7 @@ parla</emph>; </role>
               <l>tutta la cura a me ne lascia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>— Or prendi.</l>
@@ -543,7 +556,7 @@ parla</emph>; </role>
             </lg>
           </sp>
           <stage rend="italic">(s'abbandona disperata sopra il fanciulletto)</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Scena di lutto! Oh! figlia, Erope, al fine</l>
@@ -551,14 +564,14 @@ parla</emph>; </role>
               <l>tal si de' a' sventurati.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>I cenni e 'l fato</l>
               <l>sono di morte, e morte voglio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Indarno</l>
@@ -577,7 +590,7 @@ parla</emph>; </role>
               <l>rendratti forse dopo dolor tanto. —</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Sì, l'abbandono a te: </l>
@@ -595,7 +608,7 @@ parla</emph>; </role>
         <div type="scene">
           <head>SCENA III</head>
           <stage>IPPODAMIA, <hi rend="italic">il Fanciulletto</hi></stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E a' numi eterni</l>
@@ -620,7 +633,7 @@ parla</emph>; </role>
         <head>ATTO II</head>
         <div type="scene">
           <head>SCENA I</head>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Quest'è l'empia magion: io la riveggo</l>
@@ -635,58 +648,58 @@ parla</emph>; </role>
         <div type="scene">
           <head>SCENA II</head>
           <stage>IPPODAMIA, <hi rend="italic">e detto</hi>.</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>O madre, madre...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Oh!... Tieste!... se' tu?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Che fai? di'? vive</l>
               <l>Erope?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Erope? lassa!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Basta: intesi.</l>
               <l>Erope è morta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>No!...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Vive?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Sì, vive;</l>
               <l>e...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Oh gioia! oh mio timor falso! — Nol credo:</l>
@@ -694,26 +707,26 @@ parla</emph>; </role>
               <l>madre, ten prego... Non temer...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Tel dissi:</l>
               <l>Erope vive.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>... Ma morrà... deh! prima...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Vaneggi, figlio, tu?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Ma tu mel celi:</l>
@@ -721,20 +734,20 @@ parla</emph>; </role>
               <l>dannolla a morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Chi tel disse?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Argivo</l>
               <l>uom mel disse a Micene.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E falsa nuova</l>
@@ -742,21 +755,21 @@ parla</emph>; </role>
               <l>ciò nemmen sel pensò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Pure giurommi. —</l>
               <l>Ma non perciò del mio venir mi pento.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E qual folle pensier pasci... Tieste?...</l>
               <l>come osasti venir?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Erope mia</l>
@@ -778,7 +791,7 @@ parla</emph>; </role>
               <l>vivendo in pianto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>In Delfo! O figliuol mio!</l>
@@ -786,7 +799,7 @@ parla</emph>; </role>
               <l>il re insidie di morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>E men'avvidi,</l>
@@ -803,7 +816,7 @@ parla</emph>; </role>
               <l>a liberare, od a morir.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Mal festi:</l>
@@ -816,7 +829,7 @@ parla</emph>; </role>
               <l>d'Erope e di te stesso.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Invan scongiuri:</l>
@@ -831,7 +844,7 @@ parla</emph>; </role>
               <l>cessar d'amare i sventurati.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E il chiedi?</l>
@@ -851,7 +864,7 @@ parla</emph>; </role>
               <l>ed i fati ti portano.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Tel dissi:</l>
@@ -866,13 +879,13 @@ parla</emph>; </role>
               <l>vedrò che m'ami, e che sei madre in vero.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> (Numi! che m'inspirate?)</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>I tuoi ritardi</l>
@@ -880,7 +893,7 @@ parla</emph>; </role>
               <l>m'addita, e vien con Erope.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>O mio figlio!</l>
@@ -900,7 +913,7 @@ parla</emph>; </role>
               <l>Vanne... Se n'esci, sei perduto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Madre,</l>
@@ -911,7 +924,7 @@ parla</emph>; </role>
         </div>
         <div type="scene">
           <head>SCENA III</head>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Che sarà mai?</l>
@@ -931,7 +944,7 @@ parla</emph>; </role>
           <head>SCENA IV</head>
           <stage>ATREO <hi rend="italic">seguito da una Guardia che resta nel fondo, e
 detta</hi>.</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Figlio, qual nube d'oscuri pensieri</l>
@@ -941,7 +954,7 @@ detta</hi>.</stage>
               <l>deh! una volta rallegra.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Alte cagioni</l>
@@ -952,7 +965,7 @@ detta</hi>.</stage>
               <l>vacillerammi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Infausto è il regno; e infausto</l>
@@ -967,7 +980,7 @@ detta</hi>.</stage>
               <l>uopo, Atreo, non avresti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>E di qual mai</l>
@@ -975,20 +988,20 @@ detta</hi>.</stage>
               <l>fatta è la nostra. Or ciò sol pensa, e taci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Tuo sdegno è giusto; e del suo error Tieste</l>
               <l>la pena sconta...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Errore!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Alma bollente,</l>
@@ -999,7 +1012,7 @@ detta</hi>.</stage>
               <l>delitto forse?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Spaventoso, orrendo,</l>
@@ -1007,7 +1020,7 @@ detta</hi>.</stage>
               <l>che mitigar possa giammai?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Ben alta</l>
@@ -1019,7 +1032,7 @@ detta</hi>.</stage>
               <l>di sua man li troncò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Ben ciò rammento</l>
@@ -1038,7 +1051,7 @@ detta</hi>.</stage>
               <l>d'Erope fida.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Ah! mal conosci il core</l>
@@ -1054,7 +1067,7 @@ detta</hi>.</stage>
               <l>ond'essere infelice.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>E come vuoi,</l>
@@ -1066,7 +1079,7 @@ detta</hi>.</stage>
               <l>Tant'io non soffro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E tanto Erope mesta</l>
@@ -1074,7 +1087,7 @@ detta</hi>.</stage>
               <l>Atreo, ti chiede: il suo misero figlio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>E del fanciullo a te ragione, o madre,</l>
@@ -1090,7 +1103,7 @@ detta</hi>.</stage>
               <l>i voleri d'Atreo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Più consigliata</l>
@@ -1099,13 +1112,13 @@ detta</hi>.</stage>
               <l>fra le sventure contemplare un figlio!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Se altrui lo celo, ella sel perde?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Nulla</l>
@@ -1114,7 +1127,7 @@ detta</hi>.</stage>
               <l>«Il figlio!»</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Guardia, Erope a me. </l>
@@ -1126,7 +1139,7 @@ detta</hi>.</stage>
               <l>ove non basti, i miei comandi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Inulte</l>
@@ -1140,7 +1153,7 @@ detta</hi>.</stage>
               <l>l'orror.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>A sue querele altre più tristi</l>
@@ -1152,7 +1165,7 @@ detta</hi>.</stage>
           <head>SCENA V</head>
           <stage>EROPE, <hi rend="italic">preceduta dalla Guardia che resta nel
 fondo</hi>, ATREO, IPPODAMIA.</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <stage rend="italic">(ad Erope)</stage>
             <lg>
@@ -1162,7 +1175,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>Atreo t'infonda: e tu m'abborri?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Abborro</l>
@@ -1174,7 +1187,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>al tuo cospetto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>E sì crudel sarommi,</l>
@@ -1185,7 +1198,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>ho colpe ed alma.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Io ti recai di colpa</l>
@@ -1198,7 +1211,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>me sola.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Audaci nuovi detti ascolto,</l>
@@ -1219,7 +1232,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>pensiero a ciò?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>il chiedi? A ciò m'indusse</l>
@@ -1227,7 +1240,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>e mia discolpa è questa.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>A vera e dritta</l>
@@ -1248,7 +1261,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>ragion di stato a imbelle affetto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Pera</l>
@@ -1256,7 +1269,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>intender io.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(ad Atreo)</stage>
             <lg>
@@ -1265,7 +1278,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>alla madre il fanciullo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Mal tu libri</l>
@@ -1281,7 +1294,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>tranne quelle d'obbrobrio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Il figlio, il figlio,</l>
@@ -1289,7 +1302,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>Che altro debbo aspettar?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Perduto e infranto</l>
@@ -1299,7 +1312,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>seguirti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (parte, seguito dalla guardia)</stage>
             <lg>
@@ -1308,7 +1321,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>mi promettevi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Il forte è saggio! Andianne.</l>
@@ -1324,13 +1337,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
           <stage rend="italic">Notte.</stage>
           <stage>La sala è illuminata da alcune lampade.</stage>
           <stage>EROPE, IPPODAMIA.</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ove mi traggi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Or tutto tace: amiche</l>
@@ -1338,13 +1351,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>vien...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Qual mistero!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Alta è la notte; alcuno</l>
@@ -1352,13 +1365,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>vien meco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>E dove?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Ove pietà comune</l>
@@ -1369,7 +1382,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>compir dei tu.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Qual opra mi s'addice</l>
@@ -1378,13 +1391,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>ultima.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>E stringe il tempo: affretta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>È arcano</l>
@@ -1392,7 +1405,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>io non ti sieguo; no.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Dunque l'intendi,</l>
@@ -1400,14 +1413,14 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>meglio il saprai tu stessa.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ippodamia,</l>
               <l>libera parla, o mi ritraggo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Ahi pena!</l>
@@ -1416,63 +1429,63 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>Tu di figlio che mormori!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Del figlio,</l>
               <l>che più non veggo, i' parlo. Amor di madre!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>E del mio figlio nulla di' tu? nulla?</l>
               <l>Fingasi Atreo, chè mal meco s'infinge.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Placati... il duol troppo ti pinge Atreo</l>
               <l>perfido... forse...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Tu da me il rapisti,</l>
               <l>e da te voglio il figlio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Altre feroci</l>
               <l>cure tu pasci?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Io no: col figliuol mio</l>
               <l>feroce? Ah! il fui! donna spietata!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Cessa...</l>
               <l>Tieste... Oh stato!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>— E se spietato Atreo</l>
               <l>sarà più teco, o figlio?...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Omai tant'ira</l>
@@ -1480,7 +1493,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>di Tieste l'ardore.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> E chi mi nomi?</l>
@@ -1490,13 +1503,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>gli affetti che sopir tento.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Se in Argo?...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Oh ciel! Tieste! E dov'è mai? Che il veggia;</l>
@@ -1507,19 +1520,19 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>parli; ti spiega.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Sì, Tieste è in Argo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>O ciel! dove m'ascondo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Ah! se può almeno</l>
@@ -1527,13 +1540,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>questo luogo abbandoni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> È qui!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> S'asconde</l>
@@ -1546,14 +1559,14 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>periglio, e qual su lui!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Ch'altro n'attende</l>
               <l>più che morte? moriam.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Figlia, deh! cedi,</l>
@@ -1569,7 +1582,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>credi, non v'ha riparo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Io? — No... ricuso</l>
@@ -1578,7 +1591,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>voli subito d'Argo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> O tu crudele!</l>
@@ -1586,21 +1599,21 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>e da te il chieggio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Del mio cor non basta</l>
               <l>lo strazio, o numi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Io... sì, dirogli... Oh dio! </l>
             </lg>
           </sp>
           <stage rend="italic">(parte)</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Io rivedrollo? ei partirà? — Deh! fugga.</l>
@@ -1613,21 +1626,21 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
         <div type="scene">
           <head>SCENA II</head>
           <stage>IPPODAMIA <hi rend="italic">seguita da</hi> TIESTE, EROPE.</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Qual vista! Erope mia! La veggo;</l>
               <l>al fin la veggo... Erope.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Incauto, fuggi</l>
               <l>lungi da me.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Dunque perigli e morte</l>
@@ -1635,7 +1648,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>guiderdone ottener!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> E ben, Tieste,</l>
@@ -1644,7 +1657,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>guiderdone a te dar che la mia vita.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Io sì morte ti venni a dar, ma morte</l>
@@ -1671,7 +1684,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>quel duol che tu sol mi cagioni?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Eh, dimmi,</l>
@@ -1679,7 +1692,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>tuo amor non merto? — Sventurato io sono.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Nol merti; no: ma sol le tue sventure</l>
@@ -1688,7 +1701,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>al disperato furor tuo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Tieste,</l>
@@ -1700,7 +1713,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>più di te lo son io.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Crudel! non venni</l>
@@ -1712,7 +1725,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>in pace almeno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> In pace!... Or tu tel vedi.</l>
@@ -1722,26 +1735,26 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>me alla difesa di quel figlio...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Figlio! —</l>
               <l>Come? figlio! di chi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Tuo figlio e mio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Numi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Non ti stupir. Dall'atra notte</l>
@@ -1752,13 +1765,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>succhiar bambin d'un'odiata madre.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Ed il feroce Atreo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Sì; ei veglia ancora</l>
@@ -1766,7 +1779,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>poi di temer.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Ippodamia, scordasti</l>
@@ -1779,7 +1792,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>le mie vendette».</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Alta minaccia in fatto!</l>
@@ -1789,7 +1802,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>quant'han possanza in uom!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Troppo t'avvolge</l>
@@ -1797,13 +1810,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>tu i suoi pensier.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> (Troppo li veggo!)</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Omai</l>
@@ -1811,7 +1824,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>fuggi, e ne godi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Cessa al fin tue amare</l>
@@ -1819,7 +1832,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>i giuramenti... m'ami?... ti rimembra?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ciò per te non rileva: or vatti; ad altro</l>
@@ -1827,14 +1840,14 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>io più, nè tu per me.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Come! non sei</l>
               <l>omai quella di pria?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Debile e vile</l>
@@ -1845,13 +1858,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic">(in atto di partire)</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Fermati... il figlio...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Il figlio? Atreo sel tien: lo disserrai,</l>
@@ -1898,7 +1911,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>per tua troppa pietà! Ma invan ten penti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Il figlio mio sì, il figlio a me nel seno</l>
@@ -1922,7 +1935,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>indi mi svena; eccoti il petto, il ferro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Tu il vuoi, mel porgi; </l>
@@ -1942,7 +1955,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>Ma a che venisti mai? fuggiti, va.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>O infernale voragine, spalancati;</l>
@@ -1951,20 +1964,20 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>orma senza di voi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (accostando il ferro al petto)</stage>
             <lg>
               <l> Vanne, o m'uccido.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Ti diedi io il ferro... ma... me sol...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Che stai?</l>
@@ -1972,13 +1985,13 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic">(come sopra)</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Sì, vo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Trattienti; or no, chè incauto</l>
@@ -1987,51 +2000,51 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>e ratto più, e con men rischio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> E il ferro?...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>A sant'opra io lo serbo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Esule, inerme</l>
               <l>fuggirò dunque?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> E fuggi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Il giuro. —</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic">(dandogli il ferro)</stage>
             <lg>
               <l> Or l'abbi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>T'ascondi intanto in quell'asilo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> ... Addio. </l>
@@ -2042,19 +2055,19 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
         <div type="scene">
           <head>SCENA III</head>
           <stage>AROPE, IPPODAMIA.</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ei fugge!...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Ahi tutto è pianto!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> A me non altro</l>
@@ -2064,7 +2077,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>l'adori ancor?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(osservando)</stage>
             <lg>
@@ -2072,14 +2085,14 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>svelato è tutto... va.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> T'adopra... esplora. </l>
             </lg>
           </sp>
           <stage rend="italic">(parte)</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Terrore solo innanzi stammi, e lutto.</l>
@@ -2090,14 +2103,14 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>ATREO, IPPODAMIA</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Qual cura or qui ti mena, in queste</l>
               <l>ore tarde di notte?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> A pianger venni...</l>
@@ -2105,7 +2118,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>credo. — Ma tu? pur vegli.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Il re non dorme;</l>
@@ -2113,7 +2126,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>suon di pianto qui trassemi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Gemea</l>
@@ -2121,14 +2134,14 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>gemer di madre s'interdice.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>E sempre</l>
               <l>dunque in dolor vedrotti?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Orbata madre</l>
@@ -2136,21 +2149,21 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>a te il temprare il mio dolor, che il puoi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Tieste vive, io tel ripeto: e forse</l>
               <l>il sai tu pure.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Io?... No... tu mel dicesti:</l>
               <l>ed io te spero veritier.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> T'affida! —</l>
@@ -2158,7 +2171,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>che dal tuo duolo ti ristori calma.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(parte)</stage>
           </sp>
@@ -2166,7 +2179,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
         <div type="scene">
           <head>SCENA V</head>
           <stage>ATREO, <hi rend="italic">poi una Guardia</hi>.</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Vive, non dubitarne; e all'odio mio</l>
@@ -2207,7 +2220,7 @@ fondo</hi>, ATREO, IPPODAMIA.</stage>
           <stage rend="italic">Notte.</stage>
           <stage rend="italic">La sala è appena illuminata da un lontano
 chiarore.</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>O Tieste... Tieste... ove mi lasci?</l>
@@ -2229,35 +2242,35 @@ chiarore.</stage>
         <div type="scene">
           <head>SCENA II</head>
           <stage>TIESTE, <hi rend="italic">e detta</hi>.</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (inoltrandosi lentamente)</stage>
             <lg>
               <l>O notte!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> (Parmi? O voce</l>
               <l>suona d'intorno?)</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> O notte! io ti consacro</l>
               <l>fraterno sangue.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> (Forsennato! Il passo</l>
               <l>qui gli fia tolto).</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Tremo? E pende intanto</l>
@@ -2269,27 +2282,27 @@ chiarore.</stage>
               <l>vendicator, liberator, ferisci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Qui sol ferisci.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> O! chi se' tu? Qual voce!...</l>
               <l>Erope?...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Iniquo!</l>
             </lg>
           </sp>
           <stage rend="italic"> (accostandosi a Tieste)</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Or tu t'arretra: inciampo</l>
@@ -2297,14 +2310,14 @@ chiarore.</stage>
               <l>nè altro ci salva, che il delitto. Vanne.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ferma: dove precipiti? Quel ferro</l>
               <l>a me, Tieste, a me.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> L'avrai... fumante. —</l>
@@ -2313,14 +2326,14 @@ chiarore.</stage>
               <l>quella, ch'ei vuol, morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Fraterna morte!</l>
               <l>Morte di re!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Quest'è notte di pianto,</l>
@@ -2338,14 +2351,14 @@ chiarore.</stage>
               <l>scesero, e nulla intesi io più.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Sospetto</l>
               <l>lieve ti tragge al fratricidio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Oh donna!</l>
@@ -2359,7 +2372,7 @@ chiarore.</stage>
               <l>di te. — Di te che fia?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Non sarò mai,</l>
@@ -2367,13 +2380,13 @@ chiarore.</stage>
               <l>complice mai.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Il reo son io.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Che! rea</l>
@@ -2384,7 +2397,7 @@ chiarore.</stage>
               <l>per trucidarti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Trucidarmi? M'arma</l>
@@ -2394,21 +2407,21 @@ chiarore.</stage>
               <l>si prostreran.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Nutri tua speme ad agio:</l>
               <l>ma a fin per me non giungerà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Dicesti?</l>
               <l>Ora mi lascia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> E quel che promettesti,</l>
@@ -2417,7 +2430,7 @@ chiarore.</stage>
               <l>creder io mai dovea?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> D'abbandonarle</l>
@@ -2427,7 +2440,7 @@ chiarore.</stage>
               <l>mi sciolga al fine, ove tu sgombri.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Ah! fuggi:</l>
@@ -2436,7 +2449,7 @@ chiarore.</stage>
               <l>purchè libero tu.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Nè conoscesti</l>
@@ -2446,7 +2459,7 @@ chiarore.</stage>
               <l>se te perder dovrò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> T'affidi or tanto,</l>
@@ -2460,14 +2473,14 @@ chiarore.</stage>
               <l>porger può mai? non già Tieste.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Or quella</l>
               <l>non se' tu che giurasti amore e morte?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Iniquo! amore a te! Non mai! non altro</l>
@@ -2485,20 +2498,20 @@ chiarore.</stage>
               <l>e in mezzo al cor tutto mel pianta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> ... Taci.</l>
               <l>Non vedi tu?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Vaneggi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> — Ubbidirotti;</l>
@@ -2506,7 +2519,7 @@ chiarore.</stage>
               <l>Tu fremi?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> — Il braccio reggi</l>
@@ -2519,7 +2532,7 @@ chiarore.</stage>
               <l>ma va; ch'io non ti vegga.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Ombra... gigante</l>
@@ -2530,13 +2543,13 @@ chiarore.</stage>
               <l>pel braccio — Vengo, vengo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Oh!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Vengo, vengo:</l>
@@ -2548,20 +2561,20 @@ chiarore.</stage>
               <l>lascia, seguir. — Tu, tu, vil, mi trattieni.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Quai precipizi!... ove corri? Deh!...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> A tutto:</l>
               <l>sia che si vuole; scostati; ho risolto. —</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Oh Dio! — Giacchè non vuoi da me tu udire</l>
@@ -2575,7 +2588,7 @@ chiarore.</stage>
               <l>o mi trafiggi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Sì. — Che fo? — T'ascolto,</l>
@@ -2588,21 +2601,21 @@ chiarore.</stage>
           <head>SCENA III</head>
           <stage>ATREO <hi rend="italic">di dentro, che poi esce preceduto da Guardie con
 faci</hi>.</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Quai grida! </l>
             </lg>
           </sp>
           <stage rend="italic"> (esce)</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (avventandosi contro Atreo)</stage>
             <lg>
               <l> Mori.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Empi! — Non io;</l>
@@ -2620,13 +2633,13 @@ faci</hi>.</stage>
               <l>e tal t'appresti? — Ma fallito è 'l colpo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Son rea; tu il di'.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Stolidamente rei</l>
@@ -2635,7 +2648,7 @@ faci</hi>.</stage>
               <l>ch'Atreo deluder basti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> E chi può forse</l>
@@ -2654,7 +2667,7 @@ faci</hi>.</stage>
               <l>il mio proposto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Or vedi eroe! ti vanta</l>
@@ -2671,7 +2684,7 @@ faci</hi>.</stage>
               <l>non io Tieste insomma.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Rapitore</l>
@@ -2693,7 +2706,7 @@ faci</hi>.</stage>
               <l>Or è l'istante.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Giovanile etade</l>
@@ -2716,7 +2729,7 @@ faci</hi>.</stage>
               <l>a me, e possanza per regnar mi porse.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Capo Cleonte in Calcide sorgea</l>
@@ -2728,7 +2741,7 @@ faci</hi>.</stage>
               <l>non fui tiranno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (ad Atreo)</stage>
             <lg>
@@ -2739,7 +2752,7 @@ faci</hi>.</stage>
               <l>crudo! a' tuoi piedi spirasse trafitto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Superbo ei troppo, a me volea rimpetto</l>
@@ -2756,7 +2769,7 @@ faci</hi>.</stage>
               <l>nol desiassi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> E i tuoi sicari in Delfo,</l>
@@ -2767,7 +2780,7 @@ faci</hi>.</stage>
               <l>con dotti inganni altri, che Atreo?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> S'addice</l>
@@ -2780,7 +2793,7 @@ faci</hi>.</stage>
               <l>onde macchiar mio nome.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> O come l'arti</l>
@@ -2794,7 +2807,7 @@ faci</hi>.</stage>
               <l>chè tiranno sei vero.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (ad Atreo)</stage>
             <lg>
@@ -2810,7 +2823,7 @@ faci</hi>.</stage>
               <l>su noi, ten priego.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Sì, morrà, felloni;</l>
@@ -2830,7 +2843,7 @@ faci</hi>.</stage>
         <div type="scene">
           <head>SCENA IV</head>
           <stage rend="italic">IPPODAMIA, e detti.</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Oimè! che avvenne? </l>
@@ -2841,13 +2854,13 @@ faci</hi>.</stage>
               <l>Emneo. — Miei figli...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Madre!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <stage rend="italic"> (alla Guardia)</stage>
             <lg>
@@ -2855,19 +2868,19 @@ faci</hi>.</stage>
               <l>non l'ubbidisci?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> O madre, il figlio...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Numi!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Atreo, morte.</l>
@@ -2878,7 +2891,7 @@ faci</hi>.</stage>
         <div type="scene">
           <head>SCENA V</head>
           <stage>ATREO, IPPODAMIA, Guardie nel fondo.</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Al nuovo dì tremenda</l>
@@ -2886,14 +2899,14 @@ faci</hi>.</stage>
               <l>poichè assecura il viver mio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Qual volgi</l>
               <l>cura feroce?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>No; lieve: di morte</l>
@@ -2902,26 +2915,26 @@ faci</hi>.</stage>
               <l>Di tal... quest'è dritto di re: varrommi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Tieste?...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Ei regicida.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Oh ciel!... vorresti...</l>
               <l>punir delitti con maggior delitto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Altro ve n'ha del suo maggior? — Sì... forse...</l>
@@ -2929,13 +2942,13 @@ faci</hi>.</stage>
               <l>anzi il castigo, ed il furor d'un sire.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Deh! ti scorda quell'onta.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Onta è di sangue,</l>
@@ -2947,7 +2960,7 @@ faci</hi>.</stage>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>IPPODAMIA</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Figlio...</l>
@@ -2972,7 +2985,7 @@ faci</hi>.</stage>
           <head>SCENA I </head>
           <stage rend="italic">Giorno.</stage>
           <stage>ATREO, <hi rend="italic">e una Guardia</hi>.</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Udisti? Ov'ei s'arrenda, a un cenno, tutto</l>
@@ -2994,17 +3007,17 @@ faci</hi>.</stage>
         <div type="scene">
           <head>SCENA II</head>
           <stage>IPPODAMIA, ATREO.</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(in atto di gettarsi a' piedi di Atreo)</stage>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>E perchè, madre? Sorgi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>L'ultime voci di tua madre intendi:</l>
@@ -3014,7 +3027,7 @@ faci</hi>.</stage>
               <l>a' piedi tuoi prima spirar: decidi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Parole parli di furor, di cieca</l>
@@ -3028,14 +3041,14 @@ faci</hi>.</stage>
               <l>è della legge il dritto.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> E chi t'astringe,</l>
               <l>chi il tuo poter ti toglie!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Altri, che Atreo,</l>
@@ -3049,7 +3062,7 @@ faci</hi>.</stage>
               <l>rigor del cielo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Così molti e grandi</l>
@@ -3073,7 +3086,7 @@ faci</hi>.</stage>
               <l>contenta all'ara degl'Iddii sdegnati.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Madre, a che vuoi tu trarmi? io di tuo sangue</l>
@@ -3081,7 +3094,7 @@ faci</hi>.</stage>
               <l>forse in me vedi l'esecrabil alma?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Rimbrotta sì d'un'infelice madre</l>
@@ -3090,14 +3103,14 @@ faci</hi>.</stage>
               <l>l'amo; figli mi siete...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Egli tuo figlio!</l>
               <l>Ei che tramò di pur rapirten'uno?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Vedi tu questo mio braccio tremante?</l>
@@ -3106,7 +3119,7 @@ faci</hi>.</stage>
               <l>nè egli fia spento anzi di me.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Tieste</l>
@@ -3117,7 +3130,7 @@ faci</hi>.</stage>
               <l>fin che il fratello vive.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Alta, inumana</l>
@@ -3129,13 +3142,13 @@ faci</hi>.</stage>
             </lg>
           </sp>
           <stage rend="italic">(in atto di partire)</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Or dove corri?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Ad abbracciar morendo</l>
@@ -3153,7 +3166,7 @@ faci</hi>.</stage>
               <l>perdere io voglio l'estremo sospiro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>A pietà tu mi sforzi: a tue materne</l>
@@ -3172,7 +3185,7 @@ faci</hi>.</stage>
               <l>forse... perdono.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> Bada, Atreo, che fero</l>
@@ -3182,7 +3195,7 @@ faci</hi>.</stage>
               <l>Quindi io di te più temo...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Generoso</l>
@@ -3194,7 +3207,7 @@ faci</hi>.</stage>
           <head>SCENA III</head>
           <stage>EROPE, TIESTE, <hi rend="italic">accompagnati dalla Guardia che resta
 nel fondo</hi>, ATREO, IPPODAMIA.</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic">(ad Atreo)</stage>
             <lg>
@@ -3204,7 +3217,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>questi odiosi istanti.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> O tu, superbo</l>
@@ -3213,7 +3226,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic">(la Guardia s'avanza)</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(alla Guardia)</stage>
             <lg>
@@ -3226,20 +3239,20 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>qui per me solo giungerà a ferirlo.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Madre, t'arretra; me morir sol lascia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(ad Atreo)</stage>
             <lg>
               <l>Così perdoni?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Perdonar misfatti,</l>
@@ -3261,13 +3274,13 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>e per te scegli morte.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> E per me?...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Vita</l>
@@ -3277,20 +3290,20 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>E tu, giuri?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Ti giuro odio, tremendo</l>
               <l>oltre l'Averno alto furor ti giuro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Or tu li giura, ed io li compio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> O figli!</l>
@@ -3306,7 +3319,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>contaminati da men colpe.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Cessa:</l>
@@ -3319,7 +3332,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>in libertà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Regno tu brami? Or vola</l>
@@ -3332,7 +3345,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>sarieno d'onta e di ruina forse.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Io re non nacqui; e a questi patti il regno</l>
@@ -3356,7 +3369,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>a te gradito ecco mia vita.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Indarno</l>
@@ -3381,7 +3394,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>a' tuoi tormenti, ove di più tu n'abbia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Tuo figlio! ei crescerà tutto rigonfio</l>
@@ -3391,7 +3404,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>forse smentir suo infame nascimento?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Tiranno inesorabile! placato</l>
@@ -3411,7 +3424,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>non preverrammi da te spento.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Donna,</l>
@@ -3419,7 +3432,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>segnaro Atreo? — Non se' di re tu madre?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>Io di re moglie e di re figlia e madre</l>
@@ -3436,14 +3449,14 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>l'estremo... a me non sia.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (abbracciando Ippodamia)</stage>
             <lg>
               <l> Madre...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l> E un sol mezzo,</l>
@@ -3452,7 +3465,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>placati...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <stage rend="italic"> (sollevandola)</stage>
             <lg>
@@ -3466,7 +3479,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>è a me più dura.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Madre, Erope, figlio,</l>
@@ -3478,13 +3491,13 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic"> (ad Atreo)</stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Perdono?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> A me fien gravi</l>
@@ -3494,7 +3507,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>non avrà pace mai: credi...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Mendaci</l>
@@ -3503,7 +3516,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>empio tu meco.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Qual con me se' stato,</l>
@@ -3516,14 +3529,14 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>perdonami.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Ad un tratto or se' pentito</l>
               <l>veracemente!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> E che a te dir poss'io,</l>
@@ -3531,7 +3544,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>vendetta, Atreo, col non svenarmi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic">(ad Atreo)</stage>
             <lg>
@@ -3540,7 +3553,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>pentito egli è.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Fratel, ti cedo io tutto:</l>
@@ -3551,7 +3564,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>deh ti sia pegno.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Cupamente finto</l>
@@ -3578,14 +3591,14 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic">(s'abbracciano)</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (dopo un breve silenzio)</stage>
             <lg>
               <l> Fratello! —</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <lg>
               <l>O miei figliuoli! Io pace vidi! Or meno</l>
@@ -3596,14 +3609,14 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>trista è perfin la gioia!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> O mio fratello!</l>
               <l>O madre! Erope! figlio!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (ad Atreo)</stage>
             <lg>
@@ -3611,7 +3624,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>tu generoso ora mi schiudi.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Un sacro</l>
@@ -3619,13 +3632,13 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>nostri amistà.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Mio figlio!</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <stage rend="italic"> (alla Guardia)</stage>
             <lg>
@@ -3638,13 +3651,13 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic"> (a Tieste)</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Ov'è mio figlio?</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Il figliuol tuo verratti.</l>
@@ -3657,7 +3670,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
             </lg>
           </sp>
           <stage rend="italic"> (la Guardia porge la tazza a Tieste, e parte)</stage>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Bersaglio</l>
@@ -3670,13 +3683,13 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>amistà giuro.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l> Il figlio mio...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (accostando la tazza alle labbra)</stage>
             <lg>
@@ -3684,7 +3697,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>Sangue!... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l> Felloni! è questo il figliuol vostro:</l>
@@ -3694,7 +3707,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
               <l>del misfatto godete.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Un brando, un ferro. </l>
@@ -3705,7 +3718,7 @@ nel fondo</hi>, ATREO, IPPODAMIA.</stage>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>ATREO, EROPE, IPPODAMIA</stage>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic"> (corre, e poi s'arresta, guardando dal lato ov'è partito
 Tieste)</stage>
@@ -3720,11 +3733,11 @@ Tieste)</stage>
           <head>SCENA V</head>
           <stage>ATREO, EROPE, TIESTE <hi rend="italic">di dentro che poi esce seguito
 da</hi> IPPODAMIA <hi rend="italic">e da Guardie</hi>.</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (guata stupida il sangue)</stage>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (di dentro)</stage>
             <lg>
@@ -3738,11 +3751,11 @@ dalle Guardie)</stage>
             </lg>
           </sp>
           <stage rend="italic"> (si ferisce)</stage>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <stage rend="italic"> (guata ancora stupida il sangue)</stage>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <stage rend="italic"> (sostenuto da Ippodamia)</stage>
             <lg>
@@ -3751,20 +3764,20 @@ dalle Guardie)</stage>
               <l>vista d'orror!... Ch'io morendo... nol veggia...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#erope">
             <speaker>EROPE</speaker>
             <lg>
               <l>Figlio! </l>
             </lg>
             <stage rend="italic"> (cade tramortita)</stage>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l> Erope... madre...</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ippodamia">
             <speaker>IPPODAMIA</speaker>
             <stage rend="italic"> (sostenendo sempre Tieste)</stage>
             <lg>
@@ -3772,14 +3785,14 @@ dalle Guardie)</stage>
               <l>Ti seguirò.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#tieste">
             <speaker>TIESTE</speaker>
             <lg>
               <l>Vendetta!... </l>
             </lg>
           </sp>
           <stage rend="italic"> (spira fra le braccia d'Ippodamia) </stage>
-          <sp>
+          <sp who="#atreo">
             <speaker>ATREO</speaker>
             <lg>
               <l>Vendicarvi</l>

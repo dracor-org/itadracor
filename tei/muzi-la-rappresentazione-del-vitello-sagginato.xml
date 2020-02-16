@@ -81,6 +81,40 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="angelo">
+            <persName>L'Angelo</persName>
+          </person>
+          <person xml:id="figliuolo_minore">
+            <persName>Il Figliuolo Minore</persName>
+          </person>
+          <person xml:id="padre">
+            <persName>Il Padre</persName>
+          </person>
+          <person xml:id="libero_albitro">
+            <persName>Libero Albìtro</persName>
+          </person>
+          <personGrp xml:id="peccati">
+            <name>Sette Peccati Mortali</name>
+          </personGrp>
+          <person xml:id="superbia">
+            <persName>Superbia</persName>
+          </person>
+          <person xml:id="figliuolo_maggiore">
+            <persName>Il Figliuolo Maggiore</persName>
+          </person>
+          <personGrp xml:id="invitati">
+            <name>Gli Invitati alla festa</name>
+          </personGrp>
+          <person xml:id="allegrezza">
+            <persName>Allegrezza</persName>
+          </person>
+          <person xml:id="servo">
+            <persName>Un servo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -94,18 +128,22 @@
       <castList>
         <head>Personaggi</head>
         <castItem>
-          <role>L'Angelo <hi rend="italic">che annuncia</hi></role>
+          <role>L'Angelo</role>
+          <roleDesc>
+            <hi rend="italic">che annuncia</hi>
+          </roleDesc>
         </castItem>
         <castItem>
-          <role>Il Figliuolo Minore <hi rend="italic">che fu quello che si parti dal
-Padre</hi></role>
+          <role>Il Figliuolo Minore</role>
+          <roleDesc>
+            <hi rend="italic">che fu quello che si parti dal Padre</hi>
+          </roleDesc>
         </castItem>
         <castItem>
           <role>Il Padre</role>
         </castItem>
-        <castItem>
-          <role>Libero Albìtro, <hi rend="italic">cassiere</hi></role>
-        </castItem>
+        <castItem><role>Libero Albìtro</role>,
+          <roleDesc><hi rend="italic">cassiere</hi></roleDesc></castItem>
         <castItem>
           <role>I Sette Peccati Mortali</role>
         </castItem>
@@ -113,13 +151,22 @@ Padre</hi></role>
           <role>Il Figliuolo Maggiore</role>
         </castItem>
         <castItem>
-          <role>Un Garzone <hi rend="italic">che non parla</hi></role>
+          <role>Un Garzone</role>
+          <roleDesc>
+            <hi rend="italic">che non parla</hi>
+          </roleDesc>
         </castItem>
         <castItem>
-          <role>Speranza <hi rend="italic">Virtù in servizio del Padre</hi></role>
+          <role>Speranza</role>
+          <roleDesc>
+            <hi rend="italic">Virtù in servizio del Padre</hi>
+          </roleDesc>
         </castItem>
         <castItem>
-          <role>Provedenza <hi rend="italic">Virtù in servizio del Padre</hi></role>
+          <role>Provedenza</role>
+          <roleDesc>
+            <hi rend="italic">Virtù in servizio del Padre</hi>
+          </roleDesc>
         </castItem>
         <castItem>
           <role>Allegrezza</role>
@@ -148,7 +195,7 @@ PIERO DI MARIANO BORSAIO FIORENTINO</p>
           <p><hi rend="italic">Incomincia l'annu<add resp="#ed">n</add>ziazione della festa e comincia
 per uno Angelo vestito de bianco. Parla in questa forma</hi>:</p>
         </stage>
-        <sp>
+        <sp who="#angelo">
           <speaker>ANGELO</speaker>
           <lg>
             <l>A laude sia del Padre onnipotente</l>
@@ -235,7 +282,7 @@ piacciavi di stare con divozione a udire e 'ntendere questa rappresentazione acc
 qualche utile all'anime nostre. E così piaccia a Dio che sia, acciò che noi riceviamo quel bene che
 non viene mai meno. <foreign xml:lang="lat">Per infinita Secula seculorum. Amen</foreign>. El
 Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice così</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>O padre mio, ascoltatemi un poco</l>
@@ -249,7 +296,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre risponde</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>O figliuol mio, ch'è questo che m'hai detto?</l>
@@ -263,7 +310,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo risponde</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Padre, detto io v'ho il mio pensiero:</l>
@@ -277,7 +324,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre al Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Figliuolo mio, non mi dar tal risposta!</l>
@@ -291,7 +338,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo parla al Padre</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Voi potrete ben dire, o padre mio:</l>
@@ -305,7 +352,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre risponde al Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>O figliuol mio, tu sai cline pel passato</l>
@@ -319,7 +366,7 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo risponde al Padre e getta la borsa</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>O padre mio, egli è pure usanza</l>
@@ -332,9 +379,8 @@ Figliuolo Minore si leva ritto dal lato del Padre e domanda la parte, e dice cos
             <l>ch'io mi sento tutto consumare.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">El Padre si rizza e va contro al Figliuolo adiratamente e diceli
-così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">El Padre si rizza e va contro al Figliuolo adiratamente e diceli così</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Or veggio bene che se' ostinato</l>
@@ -348,7 +394,7 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo risponde al Padre</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>El parlar vostro niente stimo o curo.</l>
@@ -362,7 +408,7 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre dice al Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Figliuol mio, tu se' in libertade</l>
@@ -374,17 +420,15 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Volgesi il Padre al Cassiere e dice</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Libero Albìtro, cassier mio leale,</l>
             <l>dà diecimila fiorini al sensale.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Libero Albìtro dà i danari, e 'l Figliuolo non li lascia contare, anzi to' le
-mon<add resp="#ed">e</add>te, non son conte, e fa vista di darli coll'arme. Libero Albìtro dice
-così quando ha dati e danari</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Libero Albìtro dà i danari, e 'l Figliuolo non li lascia contare, anzi to' le mon<add resp="#ed">e</add>te, non son conte, e fa vista di darli coll'arme. Libero Albìtro dice così quando ha dati e danari</hi>:</stage>
+        <sp who="#libero_albitro">
           <speaker>LIBERO ALBÌTRO</speaker>
           <lg>
             <l>Diecimila fiorini ch'io li ho dato</l>
@@ -398,7 +442,7 @@ così quando ha dati e danari</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo risponde a Libero Albìtro e dice così</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Al tuo mal dire io non vo' guardare,</l>
@@ -412,7 +456,7 @@ così quando ha dati e danari</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde Libero Albìtro</hi>:</stage>
-        <sp>
+        <sp who="#libero_albitro">
           <speaker>LIBERO ALBÌTRO</speaker>
           <lg>
             <l>Libero Albìtro son, cassier leale,</l>
@@ -426,7 +470,7 @@ così quando ha dati e danari</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Dice il Padre al Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Tu sì vorresti in questa tua partenza</l>
@@ -450,7 +494,7 @@ così quando ha dati e danari</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo parla al Padre</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Io me ne vo, padre, allegramente.</l>
@@ -464,7 +508,7 @@ così quando ha dati e danari</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo si parte dal Padre e dice così</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Io ho una borsa piena di fiorini:</l>
@@ -477,9 +521,8 @@ così quando ha dati e danari</hi>:</stage>
             <l>falcon e sparvier, e andremo uccellando.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Rispondono al Figliuolo e Sette Peccati Mortali in questa
-forma</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Rispondono al Figliuolo e Sette Peccati Mortali in questa forma</hi>:</stage>
+        <sp who="#peccati">
           <speaker>SETTE PECCATI MORTALI</speaker>
           <lg>
             <l>Siàn sette compagnon che veren teco:</l>
@@ -493,7 +536,7 @@ forma</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo domanda chi ellino sieno</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Caro arei di sapere chi voi siate</l>
@@ -506,9 +549,8 @@ forma</hi>:</stage>
             <l>a far buon tempo, sempre rispondiàno.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Risponde la Superbia per tutti e Peccati e a uno a uno li nomina e tirali a
-sé</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Risponde la Superbia per tutti e Peccati e a uno a uno li nomina e tirali a sé</hi>:</stage>
+        <sp who="#superbia">
           <speaker>SUPERBIA</speaker>
           <lg>
             <l>Io sono el capitan della brigata:</l>
@@ -522,7 +564,7 @@ sé</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde il Figliuolo e dice</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Io sì v'accetto, cari compagnoni,</l>
@@ -535,9 +577,8 @@ sé</hi>:</stage>
             <l>che adempiere il desiderio mio.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Figliuolo si parte. El Padre della famiglia dice in questa forma al suo
-Maggiore Figliuolo. Dice così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Il Figliuolo si parte. El Padre della famiglia dice in questa forma al suo Maggiore Figliuolo. Dice così</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Tu hai veduto el tuo minor fratello:</l>
@@ -550,9 +591,8 @@ Maggiore Figliuolo. Dice così</hi>:</stage>
             <l>e sempre mai siemi ubbidiente.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Figliuolo <add resp="#ed">Maggiore</add> risponde al
-Padre</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Il Figliuolo <add resp="#ed">Maggiore</add> risponde al Padre</hi>:</stage>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>padre mio, di voi m'incresce assai</l>
@@ -566,7 +606,7 @@ Padre</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre dice al Figliuolo <add resp="#ed">Maggiore</add></hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Tu sai ch'abbiam dimolte possessioni</l>
@@ -579,9 +619,8 @@ Padre</hi>:</stage>
             <l>tu mel dirai, li metterò in prigione.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Figliuolo <add resp="#ed">Maggiore</add> risponde al
-Padre</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Il Figliuolo <add resp="#ed">Maggiore</add> risponde al Padre</hi>:</stage>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>Ubbidir voglio il tuo comandamento</l>
@@ -605,7 +644,7 @@ Padre</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">El Padre parla a Libero Albìtro</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Libero Albìtro, dàgli el libro nero</l>
@@ -618,11 +657,8 @@ Padre</hi>:</stage>
             <l>el debito lor farò cancellare.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Libero Albìtro gli dà el libro e 'l garzone, e poi el Figliuolo chiede licenza
-al Padre ed elli liela dà, e va in villa e sta un tempo. E 'n questo mezzo il Figliuolo Minore torna e
-chiede misericordia al Padre e così dice. Ritorna a lui tutti e panni stracciati, vestito di taccolino e
-tutto piloso</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Libero Albìtro gli dà el libro e 'l garzone, e poi el Figliuolo chiede licenza al Padre ed elli liela dà, e va in villa e sta un tempo. E 'n questo mezzo il Figliuolo Minore torna e chiede misericordia al Padre e così dice. Ritorna a lui tutti e panni stracciati, vestito di taccolino e tutto piloso</hi>:</stage>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Ritorno a te, o dolce padre mio,</l>
@@ -635,9 +671,8 @@ tutto piloso</hi>:</stage>
             <l>e trattami come tuo servidore.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Padre risponde al Figliuolo e vagli incontro e abbraccialo e dice
-così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Il Padre risponde al Figliuolo e vagli incontro e abbraccialo e dice così</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>O figliuol mio, tu sia el ben venuto!</l>
@@ -651,7 +686,7 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre chiama una Virtù e dice</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Vien qua, Speranza, se' mio servidore.</l>
@@ -665,7 +700,7 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre si rivolge al Figliuolo e dice</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Vien qua, figliuolo mio, ch'i' ti perdono</l>
@@ -688,9 +723,8 @@ così</hi>:</stage>
             <l>Quando tornasti tu parevi un matto.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">El Figliuolo parla al Padre e diceli tutti i suoi casi e comincia
-così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">El Figliuolo parla al Padre e diceli tutti i suoi casi e comincia così</hi>:</stage>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>O padre mio, era di mio pensiero</l>
@@ -764,7 +798,7 @@ così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre chiama una Virtù e così le comanda</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Vien qua, Provedenza, ch'io vo' far festa</l>
@@ -777,9 +811,8 @@ così</hi>:</stage>
             <l>e facciam nozze che sien di piacere.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">La Providenza va e 'nvita tutti quelli che le fu imposto ed elli vengono alla
-festa. El Padre fa loro buon viso e dice così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">La Providenza va e 'nvita tutti quelli che le fu imposto ed elli vengono alla festa. El Padre fa loro buon viso e dice così</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Voi siat'e ben venuti tutti quanti</l>
@@ -793,7 +826,7 @@ festa. El Padre fa loro buon viso e dice così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono li 'nvitati e uno per tutti <add resp="#ed">dice</add></hi>:</stage>
-        <sp>
+        <sp who="#invitati">
           <speaker>INVITATI</speaker>
           <lg>
             <l>Quando sentimo la vostra imbasciata,</l>
@@ -806,9 +839,8 @@ festa. El Padre fa loro buon viso e dice così</hi>:</stage>
             <l>se fia chi suoni, e anche balleremo.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">El Padre chiama una Virtù chiamata Allegrezza e impolle questa
-ambasciata</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">El Padre chiama una Virtù chiamata Allegrezza e impolle questa ambasciata</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Vien qua, Allegrezza, va pe' sonatori</l>
@@ -821,9 +853,8 @@ ambasciata</hi>:</stage>
             <l>trovate che si facci colazione.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Allegrezza va e truova i Sonatori, e poi dice così quando li ha
-menati</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Allegrezza va e truova i Sonatori, e poi dice così quando li ha menati</hi>:</stage>
+        <sp who="#allegrezza">
           <speaker>ALLEGREZZA</speaker>
           <lg>
             <l>Io ho fatto quello che mi dicesti</l>
@@ -836,10 +867,8 @@ menati</hi>:</stage>
             <l>dite lor che comincino a sonare.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">E Sonatori suonano e fanno festa. In questo tempo el Figliuolo Maggiore
-torna di villa e vada fuori uno de' Servi del Padre e in questo modo <add resp="#ed">el Figliuolo
-Maggiore</add> li dice</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">E Sonatori suonano e fanno festa. In questo tempo el Figliuolo Maggiore torna di villa e vada fuori uno de' Servi del Padre e in questo modo <add resp="#ed">el Figliuolo Maggiore</add> li dice</hi>:</stage>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>Deh dimmi, servo, che vuoi dir tal cosa</l>
@@ -853,7 +882,7 @@ Maggiore</add> li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">El Servo dice così al Maggior Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#servo">
           <speaker>SERVO</speaker>
           <lg>
             <l>È ch'è tornato il tuo minor fratello,</l>
@@ -867,7 +896,7 @@ Maggiore</add> li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde il Maggior Figliuolo adirato al Servo</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>Sicché e' fa festa ch'elli è ritornato?</l>
@@ -881,7 +910,7 @@ Maggiore</add> li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Servo dice al Padre così</hi>:</stage>
-        <sp>
+        <sp who="#servo">
           <speaker>SERVO</speaker>
           <lg>
             <l>Un'ambasciata v'ho a fare, Sire,</l>
@@ -894,9 +923,8 @@ Maggiore</add> li dice</hi>:</stage>
             <l>o prestamente voi per lui andare.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Il Padre, sentendo l'ambasciata del Servo suo, esce fuori di casa e fassi
-incontro al Figliuolo e così li dice</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Il Padre, sentendo l'ambasciata del Servo suo, esce fuori di casa e fassi incontro al Figliuolo e così li dice</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Che imbasciata m'hai mandato a dire,</l>
@@ -910,7 +938,7 @@ incontro al Figliuolo e così li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde al Padre il Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>In questa casa io non voglio entrare</l>
@@ -924,7 +952,7 @@ incontro al Figliuolo e così li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre risponde al Figliuolo</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Tu mi se' stato sempre reverente</l>
@@ -938,7 +966,7 @@ incontro al Figliuolo e così li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Figliuolo risponde al Padre</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>Padre, far voglio ciò che voi volete,</l>
@@ -952,7 +980,7 @@ incontro al Figliuolo e così li dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Il Padre lo mena seco in casa e dice così</hi>:</stage>
-        <sp>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Or viene in casa meco in buona ora</l>
@@ -965,9 +993,8 @@ incontro al Figliuolo e così li dice</hi>:</stage>
             <l>e rallegrati con tutto il tuo core.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">El Maggior Fratello poi c'ha sentita la volontà del Padre, fa festa al suo
-Minor Fratello e poi dice così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">El Maggior Fratello poi c'ha sentita la volontà del Padre, fa festa al suo Minor Fratello e poi dice così</hi>:</stage>
+        <sp who="#figliuolo_maggiore">
           <speaker>FIGLIUOLO MAGGIORE</speaker>
           <lg>
             <l>O fratel mio, tu sia il ben tornato!</l>
@@ -981,7 +1008,7 @@ Minor Fratello e poi dice così</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde el Fratello Minore al Maggiore</hi>:</stage>
-        <sp>
+        <sp who="#figliuolo_minore">
           <speaker>FIGLIUOLO MINORE</speaker>
           <lg>
             <l>Io mi son rallegrato di buon core</l>
@@ -994,9 +1021,8 @@ Minor Fratello e poi dice così</hi>:</stage>
             <l>ringrazio Iddio e voi da chi l'ho auto.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Rivoltasi il Padre e dice così a' figliuoli e a li altri che stanno a vedere la
-festa</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Rivoltasi il Padre e dice così a' figliuoli e a li altri che stanno a vedere la festa</hi>:</stage>
+        <sp who="#padre">
           <speaker>PADRE</speaker>
           <lg>
             <l>Parar si vuol, figliuol mie', dal Signore,</l>
@@ -1010,9 +1036,8 @@ festa</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Finita la nu<add resp="#ed">n</add>ziazione della festa</hi>.</stage>
-        <stage><hi rend="italic">Questa stanza si è del ringraziamento, che apparisce l'Angelo che ha
-annunziata la festa e dà licenza a tutti e dice così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Questa stanza si è del ringraziamento, che apparisce l'Angelo che ha annunziata la festa e dà licenza a tutti e dice così</hi>:</stage>
+        <sp who="#angelo">
           <speaker>ANGELO</speaker>
           <lg>
             <l>Padre e fratelli che avete qui stanza,</l>
@@ -1025,9 +1050,8 @@ annunziata la festa e dà licenza a tutti e dice così</hi>:</stage>
             <l>e vi ristoreremo quest'altr'anno.</l>
           </lg>
         </sp>
-        <stage><hi rend="italic">Dipoi detto questo, ognuno si rizza e fanno un ballo e cantano una
-lauda che dice così</hi>:</stage>
-        <sp>
+        <stage><hi rend="italic">Dipoi detto questo, ognuno si rizza e fanno un ballo e cantano una lauda che dice così</hi>:</stage>
+        <sp who="#tutti i personaggi">
           <speaker>TUTTI I PERSONAGGI</speaker>
           <lg>
             <l rend="italic">Deh sappiatevi guardare</l>

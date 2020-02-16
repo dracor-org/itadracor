@@ -81,6 +81,31 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="venalia">
+            <persName>Venalia</persName>
+          </person>
+          <person xml:id="filerio">
+            <persName>Filerio</persName>
+          </person>
+          <person xml:id="ottimio">
+            <persName>Ottimio</persName>
+          </person>
+          <person xml:id="antiniana">
+            <persName>Antiniana</persName>
+          </person>
+          <person xml:id="diana">
+            <persName>Diana</persName>
+          </person>
+          <person xml:id="mirzia">
+            <persName>Mirzia</persName>
+          </person>
+          <person xml:id="trebazio">
+            <persName>Trebazio</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT-Roma</name>Digitalizzazione - OCR</change>
@@ -93,27 +118,13 @@
     <front>
       <castList>
         <head> INTERLOCUTORI</head>
-        <castItem type="role">
-          <role>Trebazio, pastore</role>
-        </castItem>
-        <castItem type="role">
-          <role>Filerio, pastore</role>
-        </castItem>
-        <castItem type="role">
-          <role>Ottimio, pastore</role>
-        </castItem>
-        <castItem type="role">
-          <role>Mirzia, ninfa</role>
-        </castItem>
-        <castItem type="role">
-          <role>Antiniana, ninfa</role>
-        </castItem>
-        <castItem type="role">
-          <role>Venalia, ninfa</role>
-        </castItem>
-        <castItem type="role">
-          <role>Diana, dea</role>
-        </castItem>
+        <castItem type="role"><role>Trebazio</role>, <roleDesc>pastore</roleDesc></castItem>
+        <castItem type="role"><role>Filerio</role>, <roleDesc>pastore</roleDesc></castItem>
+        <castItem type="role"><role>Ottimio</role>, <roleDesc>pastore</roleDesc></castItem>
+        <castItem type="role"><role>Mirzia</role>, <roleDesc>ninfa</roleDesc></castItem>
+        <castItem type="role"><role>Antiniana</role>, <roleDesc>ninfa</roleDesc></castItem>
+        <castItem type="role"><role>Venalia</role>, <roleDesc>ninfa</roleDesc></castItem>
+        <castItem type="role"><role>Diana</role>, <roleDesc>dea</roleDesc></castItem>
         <castItem type="role">
           <role>Un Satiro</role>
         </castItem>
@@ -224,7 +235,7 @@
         <div>
           <head>SCENA II</head>
           <stage>Venalia, Filerio</stage>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l>Oh fortunato incontro, oh felice ora, </l>
@@ -232,20 +243,20 @@
               <l part="I"> il mio bel sole. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg>
               <l part="F">Ed io la bella aurora. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg>
               <l>Tanta gioia ho nel cor, ch'a pena creggio</l>
               <l part="I"> quel che con gli occhi scorgo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg>
               <l part="F">Ed io, mia diva, </l>
@@ -257,7 +268,7 @@
               <l> posiamci all'ombra in questa verde riva. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l> Or ben desti, pastor, non poca traccia</l>
@@ -270,7 +281,7 @@
               <l> tutti ne' tuoi servigi opri e dispensi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>Quanti bei rivi questi poggi adorni</l>
@@ -281,13 +292,13 @@
               <l part="I">Ahi fortuna crudel! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg>
               <l part="F">A che sospiri? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg>
               <l>Deh, non cercar, Venalia mia, ti priego, </l>
@@ -298,14 +309,14 @@
               <l part="I"> potrei noiarti. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg>
               <l part="F">Or che d'altro farei</l>
               <l> se a sí vil grazia il tuo voler non piego? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>D'amorosi pensier son, Ninfa, i miei</l>
@@ -313,7 +324,7 @@
               <l> che senza lingua inteso esser vorrei. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l>Cosa fuor di ragion par ch'oggi senta, </l>
@@ -326,7 +337,7 @@
               <l> se 'l ciel sempre ti fia benigno e lieto. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l> Il nome non dirò; ma l'auree chiome</l>
@@ -339,7 +350,7 @@
               <l> vedrai, Ninfa, mirando questo fonte. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l> Come possibil fia che sotto l'onde</l>
@@ -351,25 +362,25 @@
               <l part="I">qual già dicesti? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg>
               <l part="F">Chiaro ivi si vede. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg>
               <l part="I">Quella è l'imagin mia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg>
               <l part="F">Quell'è mia amante! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l>Questa è dunque, pastor, la casta fede</l>
@@ -409,7 +420,7 @@
           <head>SCENA IV</head>
           <div type="part">
             <stage>OTTIMIO, e FILERIO</stage>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <stage>(<emph>fra se</emph>)</stage>
               <lg type="terzina">
@@ -429,7 +440,7 @@
                 <l> or languido ti veggio e melanconico. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l>Ottimio, da qui 'nanzi in queste grottole</l>
@@ -442,7 +453,7 @@
                 <l> tal che a morir, non che a languir m'inaspera. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l>Di meraviglia e di pietà compungemi</l>
@@ -460,7 +471,7 @@
                 <l> tu far mai non dovresti altro che ridere. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l>Che giova a me l'esser d'infinitissimo</l>
@@ -478,7 +489,7 @@
                 <l> il più infelice in tutto il grembo esperio. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l> Più cresce il duol quanto più occolto covasi; </l>
@@ -543,7 +554,7 @@
             </lg>
           </div>
           <div type="part">
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l>Ahi lasso! qual piacer potrò, qual gioco</l>
@@ -561,7 +572,7 @@
                 <l> e mille volte al dì rinasce e muore! </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l>Ciascun ne la stagion di primavera</l>
@@ -574,7 +585,7 @@
                 <l> che l'alt'ira del ciel lieto soffrei. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l>Capre? Che capre! fosser tutte prede</l>
@@ -582,7 +593,7 @@
                 <l> d'amore è quel ch'ogni altro duol eccede. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l> In ciò non sei già tu primo, né solo, </l>
@@ -604,19 +615,19 @@
                 <l part="I"> del nido di colombi? </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg>
                 <l part="F">Ov'è? nol veggio. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg>
                 <l>Tra que' due rami sta; né ancor lo scorgi? </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l>Più cari assai d'un gran tesor gli appreggio</l>
@@ -624,14 +635,14 @@
                 <l> senza più dimorar salir vi deggio. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg>
                 <l>Pan faccia sol che non t'affanni invano. </l>
                 <l> Sagli, ch'io ti terrò sopra le spalle. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg>
                 <l>Sostienmi il piè con l'una e l'altra mano. </l>
@@ -639,7 +650,7 @@
                 <l> e già gli prendo. Ohimè, Ottimio, aita! </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg>
                 <l>Tu lunge rimbombar fai questa valle</l>
@@ -650,7 +661,7 @@
                 <l> Mira che fronte pallida e smarrita! </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l> Non vedesti cader quei tre fieri angui</l>
@@ -658,7 +669,7 @@
                 <l> che tutti i membri miei son fatti essangui. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l> Se pur non t'hanno in qualche parte offeso</l>
@@ -666,7 +677,7 @@
                 <l> soglion portar, com'ho più volte inteso. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l> Ma di nuovo a salirvi io mi dispono</l>
@@ -684,7 +695,7 @@
                 <l> stiamci fra queste frondi a ragionare. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l> Vo' piú tosto salir su l'altro olmetto, </l>
@@ -702,7 +713,7 @@
                 <l> Serena, Pausilippo e Mergellino. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg type="terzina">
                 <l>Ed io Vesuvio scorgo, 'Orio a Cremano, </l>
@@ -710,7 +721,7 @@
                 <l> l'Aretusa gentil del mar Sicano. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg type="terzina">
                 <l>Taci, che più parlar non ci è concesso; </l>
@@ -718,14 +729,14 @@
                 <l> e in questo fonte suol posarsi spesso. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#filerio">
               <speaker>Filerio</speaker>
               <lg>
                 <l>Non ti mover d'un punto, acciò non faccia</l>
                 <l part="I"> di noi quel che d'Atteon. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#ottimio">
               <speaker>Ottimio</speaker>
               <lg>
                 <l part="F">Ecco mi celo</l>
@@ -738,7 +749,7 @@
           <head>SCENA V</head>
           <div type="part">
             <stage>ANTINIANA e DIANA con MIRZIA e con VENALIA, e detti.</stage>
-            <sp>
+            <sp who="#antiniana">
               <speaker>Antiniana</speaker>
               <lg type="terzina">
                 <l>Sacra nostra Dïana, ora che in cielo</l>
@@ -746,7 +757,7 @@
                 <l> fermiamci sotto a quest'ombroso velo. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#diana">
               <speaker>Diana</speaker>
               <lg type="terzina">
                 <l>Ben si conosce tua debil natura, </l>
@@ -754,7 +765,7 @@
                 <l> poco ha di freddo e men di caldo cura. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#antiniana">
               <speaker>Antiniana</speaker>
               <lg type="terzina">
                 <l>Già questo ancor farei, ch'allor più lice, </l>
@@ -767,7 +778,7 @@
                 <l> soffrir cacciando sí fatiche estreme. </l>
               </lg>
             </sp>
-            <sp>
+            <sp who="#diana">
               <speaker>Diana</speaker>
               <lg type="terzina">
                 <l>Non vo' dunque scortese dimostrarmi</l>
@@ -830,7 +841,7 @@
         <div type="scene">
           <head>SCENA I</head>
           <stage>DIANA, MIRZIA, ANTINIANA e VENALIA.</stage>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina">
               <l>Come vi è parso, o ninfe, il sonno ameno? </l>
@@ -838,7 +849,7 @@
               <l> il caro Febo ha già ristretto il freno. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina">
               <l>Fra quanti travagliosi, alti pensieri</l>
@@ -846,7 +857,7 @@
               <l> che membrandoli ancor mi paion veri. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina">
               <l>Ed io tutta gioisco, che disciolta</l>
@@ -854,7 +865,7 @@
               <l> che in gravi affanni mi tenea sepolta. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l>Come oggi il cielo eguali ne dispone! </l>
@@ -862,7 +873,7 @@
               <l> cos'aspre, strane e fuor d'ogni ragione. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina">
               <l>Avrei molto a piacer tai sogni udire. </l>
@@ -870,7 +881,7 @@
               <l> comincia, Mirzia, il tuo primo a scoprire. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina">
               <l>Pareami star fra certi alpestri monti, </l>
@@ -883,7 +894,7 @@
               <l> non fùr mai d'accostarsi a quello audaci. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina">
               <l>Ed io, smarrita da l'amata schiera, </l>
@@ -891,7 +902,7 @@
               <l> vedea con mesta e lagrimosa ciera. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina">
               <l>Io temo forsi che la mia favella</l>
@@ -899,13 +910,13 @@
               <l> ché tutto il sogno mio sol tratta d'ella. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina" part="I">
               <l part="I">Di' pur ciò che ti piace. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina" part="F">
               <l part="F">Mi parea, </l>
@@ -913,7 +924,7 @@
               <l> dell'amor vostro follemente ardea. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina">
               <l>Agli affannati spirti, a lasso core</l>
@@ -931,14 +942,14 @@
               <l> vogliate insieme refrigerio darve. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina" part="I">
               <l>Giochiamo a trar con l'arco in qualche loco, </l>
               <l> per veder chi di noi meglio s'adopra. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="terzina" part="F">
               <l>Un continuo essercizio aggrada poco. </l>
@@ -949,7 +960,7 @@
               <l> nostro nemico Amor più ingegno adopra? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina">
               <l>Egli è lodato e ben saggio pensiero; </l>
@@ -960,7 +971,7 @@
               <l>E pria Venalia a ciò la lingua sciolga. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker>Venalia</speaker>
             <lg type="ottava">
               <l>Crudo, iniquo, malvagio, empio tiranno, </l>
@@ -973,7 +984,7 @@
               <l> quanto sarebbe senza morte il mondo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="ottava">
               <l>Venenoso, spietato e rigid'angue, </l>
@@ -986,7 +997,7 @@
               <l> se 'l suo contrario tanto mal n'adduce? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="ottava">
               <l>Fetida, ingorda, orrenda e brutta arpia, </l>
@@ -999,7 +1010,7 @@
               <l> sol di vita ne spoglia, e tu d'onore... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina">
               <l>Tutte arrivate ad egual segno siete, </l>
@@ -1022,7 +1033,7 @@
               <l> qualch'altro nuovo gioco e dilettoso. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina">
               <l>Or un me ne sovvien, ch'imaginarsi</l>
@@ -1044,14 +1055,14 @@
               <l part="I">Vuoi tu legarti pria? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina" part="M">
               <l part="F">Quando a Diana</l>
               <l part="I"> non dispiaccia, il farò. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker>Diana</speaker>
             <lg type="terzina" part="F">
               <l part="F">Contenta sono</l>
@@ -1060,27 +1071,27 @@
               <l> se non è cosa disonesta e vana. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina" part="I">
               <l>No, no; chi ha quivi un velo? Il mio fia buono? </l>
               <l part="I"><stage>(<emph>Mirzia benda Antiniana.</emph>)</stage> Vedici? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina" part="M">
               <l part="I">Nulla veggio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina" part="M">
               <l part="F">Or n'ascondiamo. </l>
               <l part="I"> Vieni a tua posta. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina" part="F">
               <l part="F">Quivi ho inteso il suono, </l>
@@ -1098,26 +1109,26 @@
             </lg>
             <stage>(<emph>Qui la ninfa si scopre il velo.</emph>)</stage>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina" part="I">
               <l part="I">Perché ti scopri? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina" part="M">
               <l part="F">E voi fuggite intorno? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg type="terzina" part="M">
               <l>Di ciò non ti turbar, ché promettemo</l>
               <l part="I"> fermarci a un luogo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina" part="F">
               <l part="F">Ecco a coprirmi torno. </l>
@@ -1129,13 +1140,13 @@ coperta.</emph>)</stage>
         <div type="scene">
           <head>SCENA II</head>
           <stage>FILERIO, OTTIMIO e ANTINIANA.</stage>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina" part="I">
               <l>Partite sono, o sozio, che faremo? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina" part="F">
               <l>Scendiamo giù pian pian, ch'ella è velata</l>
@@ -1143,7 +1154,7 @@ coperta.</emph>)</stage>
             </lg>
             <stage>(<emph>Discendon i pastori da gli arbori.</emph>)</stage>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker>Antiniana</speaker>
             <lg type="terzina">
               <l>Voi pur fuggite, ed io sempre ingannata</l>
@@ -1159,26 +1170,26 @@ coperta.</emph>)</stage>
         <div type="scene">
           <head>SCENA III</head>
           <stage>FILERIO e OTTIMIO.</stage>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina" part="M">
               <l part="F">Oh, bel piacere! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina" part="M">
               <l part="I">Anzi noia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina" part="I">
               <l part="I">Ti duol forse che sia</l>
               <l> ella scampata fuor del tuo potere? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina">
               <l>Poco di ciò mi cale, e ben saria</l>
@@ -1187,13 +1198,13 @@ coperta.</emph>)</stage>
             </lg>
             <stage>(<emph>Trebasio nel tugurio dice.</emph>)</stage>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina" part="I">
               <l part="I">Sonno fugace! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina" part="F">
               <l part="F">Or un'afflitta e debile</l>
@@ -1201,7 +1212,7 @@ coperta.</emph>)</stage>
               <l> dimostra fuor nel suon doglioso e flebile. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Fugace sonno, ch'in sì breve spazio</l>
@@ -1234,7 +1245,7 @@ coperta.</emph>)</stage>
               <l> poi che sol morte il nome tuo predicemi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>Or non tardiamo più girlo a soccorrere, </l>
@@ -1246,7 +1257,7 @@ coperta.</emph>)</stage>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>TREBAZIO e detti</stage>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>Credo che, nati in un medesmo sidere, </l>
@@ -1274,32 +1285,32 @@ coperta.</emph>)</stage>
               <l> che vicino al morir talor mi spingono. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina" part="I">
               <l part="I">Dunque Amor segui? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina" part="M">
               <l part="M">Amore! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina" part="M">
               <l part="F">E questo sozio? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina" part="F">
               <l>Anch'egli Amor, ma non sì strano ed aspero; </l>
               <l> novellamente è intrato in tal negozio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Ancorch'assai mi sia grave ed essaspero</l>
@@ -1312,7 +1323,7 @@ coperta.</emph>)</stage>
               <l> che ritrovar non posso a chi l'assimili... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <stage>(<emph>interrompendo</emph>)</stage>
             <lg type="terzina">
@@ -1321,7 +1332,7 @@ coperta.</emph>)</stage>
               <l> ma quel di Efialte, di Flegia e di Tizio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina">
               <l>E benché Amor novellamente adoperi</l>
@@ -1329,7 +1340,7 @@ coperta.</emph>)</stage>
               <l> che voi d'affanni maggior nembo coperi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Che abbiate gran dolor per certo credovi</l>
@@ -1337,7 +1348,7 @@ coperta.</emph>)</stage>
               <l> la ninfa mia, tanto di pena eccedovi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>Di beltà, lasso, non parlar, ché a quella, </l>
@@ -1345,7 +1356,7 @@ coperta.</emph>)</stage>
               <l> non men che a Febo cede ogni altra stella. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina">
               <l>Deh, s'esprimer potessi con parole</l>
@@ -1353,7 +1364,7 @@ coperta.</emph>)</stage>
               <l> so che farei parlando oltraggio al sole. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Ben giudica ciascun quel che desia, </l>
@@ -1366,7 +1377,7 @@ coperta.</emph>)</stage>
               <l> tra le finte bellezze e tra le vere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>So che la mia non è folle credenza, </l>
@@ -1431,7 +1442,7 @@ coperta.</emph>)</stage>
               <l> per unica beltade è al mondo solo! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Deh, per Dio, non vogliate ch'io rinovi</l>
@@ -1531,7 +1542,7 @@ coperta.</emph>)</stage>
               <l> stanco di raccontar, non sazio ancora. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg>
               <l>Lasso, ché a palesar l'eterno bene</l>
@@ -1556,7 +1567,7 @@ coperta.</emph>)</stage>
               <l> che sol se stessa e null'altra simiglia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Ognun la mente e 'l suo desire appaga, </l>
@@ -1574,13 +1585,13 @@ coperta.</emph>)</stage>
               <l> ch'a più dritto giudizio alcun s'inchine. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina" part="I">
               <l part="I">Contento son. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker>Ottimio</speaker>
             <lg type="terzina" part="F">
               <l part="F">Ed io; ma acciò sia tolta</l>
@@ -1588,7 +1599,7 @@ coperta.</emph>)</stage>
               <l> che cotal cosa qui resti sepolta. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>Questa medesim'ombra assale e preme</l>
@@ -1596,7 +1607,7 @@ coperta.</emph>)</stage>
               <l> ch'ognuno il biasmo di sua ninfa teme. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Ben sarei sciocco se i secreti tuoi</l>
@@ -1604,7 +1615,7 @@ coperta.</emph>)</stage>
               <l> che tu di colpo egual gravar mi puoi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l>Ed io voglio esser primo a farvi aperto</l>
@@ -1627,7 +1638,7 @@ coperta.</emph>)</stage>
               <l> e la più cruda che nel mondo sia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker>Trebazio</speaker>
             <lg type="terzina">
               <l>Colei per cui tante io lagrime sparsi, </l>
@@ -1640,7 +1651,7 @@ coperta.</emph>)</stage>
               <l> che per dar morte ad un che tanto l'ama. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Tra basse cose il vostro foco giacque, </l>
@@ -1651,7 +1662,7 @@ coperta.</emph>)</stage>
               <l part="I"> Diana amo io! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F">Diana?!... Ahi, troppo sciocchi</l>
@@ -1669,7 +1680,7 @@ coperta.</emph>)</stage>
               <l> pastor di te l'Esperia non avea. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Per Pan oggi vi giuro che al mio petto</l>
@@ -1677,7 +1688,7 @@ coperta.</emph>)</stage>
               <l> questo fu il primo e fra l'ultimo affetto. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Ora conosco ben chiaro e palese</l>
@@ -1700,20 +1711,20 @@ coperta.</emph>)</stage>
               <l> ivi lasciollo presso alla fontana. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="I">
               <l> Mirzia qui dunque fu? Lasso, che intendo! </l>
               <l part="I"> E dove er'io? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="M">
               <l part="M">Tu stesso il sai! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F">Ben veggio</l>
@@ -1725,13 +1736,13 @@ coperta.</emph>)</stage>
               <l> senza potermi aitar cader mi veggio! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="M">
               <l part="I"> Ma ecco il vel. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F">O vel, che la tranquilla</l>
@@ -1754,7 +1765,7 @@ coperta.</emph>)</stage>
               <l> onde adempissi in parte i miei desii! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Esser potria, dopoi ch'ella avvedrasse</l>
@@ -1762,14 +1773,14 @@ coperta.</emph>)</stage>
               <l> di nuovo qui bramoso il piè spronasse. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="I">
               <l> Ma che vi par, ch'io debba ivi lasciarlo, </l>
               <l part="I"> o pur meco tenerlo? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="F">
               <l part="F">A me parrebbe</l>
@@ -1781,13 +1792,13 @@ coperta.</emph>)</stage>
               <l> prigion nelle tue man si troverebbe. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="M">
               <l part="I"> Questo ben lodo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F">E questo lodo anch'io; </l>
@@ -1800,7 +1811,7 @@ coperta.</emph>)</stage>
               <l><stage>(<emph>ad Ottimio</emph>)</stage> A te mi volgo e teco mi consiglio.</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Parmi che qui d'intorno or n'ascondiamo, </l>
@@ -1813,7 +1824,7 @@ coperta.</emph>)</stage>
               <l> quel ch'in palese non farebbon mai. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Così facciamo, o ben composto inganno, </l>
@@ -1821,7 +1832,7 @@ coperta.</emph>)</stage>
               <l> a buon principio meglior fin daranno. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Ben dimostran li dèi di te gran cura. </l>
@@ -1829,7 +1840,7 @@ coperta.</emph>)</stage>
               <l> che più oltre passar non s'assecura? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> O lieto, avventuroso mio destino, </l>
@@ -1841,7 +1852,7 @@ coperta.</emph>)</stage>
         <div type="scene">
           <head>SCENA V</head>
           <stage>MIRZIA e detti.</stage>
-          <sp>
+          <sp who="#mirzia">
             <speaker>Mirzia</speaker>
             <lg part="I">
               <l> Andar ormai potrò senza spavento</l>
@@ -1872,7 +1883,7 @@ coperta.</emph>)</stage>
 che pastor è questo! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg part="F">
               <l part="F">O vaga aurora, </l>
@@ -1889,7 +1900,7 @@ che pastor è questo! </l>
               <l> qual tuo piacer, tuo onor, tua gloria sia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Pastor la tua favella ogni noiosa</l>
@@ -1902,7 +1913,7 @@ che pastor è questo! </l>
               <l> mentre discendo giù quinci ti leva. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> E perché questo ninfa? per potermi</l>
@@ -1910,7 +1921,7 @@ che pastor è questo! </l>
               <l> contra chi non t'offende usare schermi? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Fuor di ragion, pastor, vêr me ti sdegni, </l>
@@ -1928,7 +1939,7 @@ che pastor è questo! </l>
               <l> e da un amante fra lieve ottenere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Or mi discosterò, ninfa, da banda, </l>
@@ -1941,7 +1952,7 @@ che pastor è questo! </l>
               <l> e che sotto umiltà non trovi orgoglio? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Amore e fedeltà sempre amendoi</l>
@@ -1949,7 +1960,7 @@ che pastor è questo! </l>
               <l> se privo sei di fé, come amar puoi? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> La fé non sopra in non aver timore</l>
@@ -1967,27 +1978,27 @@ che pastor è questo! </l>
               <l> che non ha il mondo il più fedele amante. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina" part="I">
               <l> Come dunque farò che si rimova</l>
               <l part="I"> il tuo sospetto e 'l mio? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F">Già saper déi</l>
               <l> che ad ogni cosa alfin modo si trova. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina" part="I">
               <l part="I"> E qual fia questo? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F">Se contenta sei, </l>
@@ -1995,7 +2006,7 @@ che pastor è questo! </l>
               <l> e così tu secura ed io sarei. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Or tua ragione e te stesso riprendi, </l>
@@ -2013,7 +2024,7 @@ che pastor è questo! </l>
               <l> non men già cortesia che amor dimora. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Or pongo il tuo voler, ninfa, in effetto, </l>
@@ -2026,21 +2037,21 @@ che pastor è questo! </l>
               <l> quando il ritorno mio grato ti fia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina" part="I">
               <l><stage>(<emph>scende col velo</emph>)</stage> Pastore a tuo piacer ritorna
 omai. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l> Lingua non paventar, mostrati audace, </l>
               <l> in discoprir del cor la fiamma e i guai. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Ma se vuoi meco aver tranquilla pace, </l>
@@ -2048,7 +2059,7 @@ omai. </l>
               <l> cortesemente dir quel che ti piace. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Per Pan ti giuro e per quel vivo raggio</l>
@@ -2078,7 +2089,7 @@ omai. </l>
               <l> tosto m'assale il cor mortal tormento. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg>
               <l> Per lume naturale è desïata</l>
@@ -2093,7 +2104,7 @@ omai. </l>
               <l> s'odïata da te cerco io fuggirti. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg>
               <l> Ninfa, dai vaghi e chiari raggi tuoi, </l>
@@ -2118,7 +2129,7 @@ omai. </l>
               <l> Anzi più lei che mille vite appregio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg>
               <l> Ambi saremmo di sciocchezza eguali</l>
@@ -2133,7 +2144,7 @@ omai. </l>
               <l> e chi vive, tra' morti non s'ascrive. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg>
               <l> L'alma meco non è, ché in te soggiorna</l>
@@ -2158,7 +2169,7 @@ omai. </l>
               <l> Tu il mio splendor, tu la mia vita sei. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg>
               <l> Pastor, per farti la mia mente piana, </l>
@@ -2173,7 +2184,7 @@ omai. </l>
               <l> ché amore e castità stan male insieme. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg>
               <l> Dunque fia il mio sperar di frutto indegno? </l>
@@ -2188,7 +2199,7 @@ omai. </l>
               <l> se non in tutto in parte le mie pene. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Contenta son ch'oggi da me riceva</l>
@@ -2196,7 +2207,7 @@ omai. </l>
               <l> per amor mio prima una volta beva. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Questo non sol, ma per tuo amor a schivo</l>
@@ -2208,7 +2219,7 @@ omai. </l>
               <l part="I"> bevrò per compiacerti... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina" part="F">
               <l part="F">Or vo' che lave</l>
@@ -2218,7 +2229,7 @@ omai. </l>
             <stage>(<emph>Qui la ninfa butta il pastore nel fonte e poi
 fugge.</emph>)</stage>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg>
               <l> O d'ogni nostro ben tenace freno, </l>
@@ -2243,7 +2254,7 @@ fugge.</emph>)</stage>
               <l> posso dall'amor suo l'alma dividere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Col dolor non si suol, car mio Trebazio, </l>
@@ -2256,7 +2267,7 @@ fugge.</emph>)</stage>
               <l> con che possa il tuo mal quetare e frangere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Or più mi avvolgi in tormentoso tedio, </l>
@@ -2264,7 +2275,7 @@ fugge.</emph>)</stage>
               <l> fuor che a schivare un amoroso assedio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Qui presso v'è d'Apollo il sacro oracolo, </l>
@@ -2272,7 +2283,7 @@ fugge.</emph>)</stage>
               <l> potrà mai forza d'amoroso giacolo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> In van cerco d'altrui mia sorte intendere, </l>
@@ -2280,7 +2291,7 @@ fugge.</emph>)</stage>
               <l> mi fia ben chiaro 'l mio destin comprendere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Anz'io mi sento da desio sollicito</l>
@@ -2293,7 +2304,7 @@ fugge.</emph>)</stage>
               <l> che le nostre pazzie finisca e termine. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Per me non resti; ma non ben agevole</l>
@@ -2315,7 +2326,7 @@ fugge.</emph>)</stage>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>UNA SIBILLA e detti.</stage>
-          <sp>
+          <sp who="#filerio">
             <speaker>Filerio</speaker>
             <lg type="terzina">
               <l> Febo, che per le selve errante armento, </l>
@@ -2332,7 +2343,7 @@ fugge.</emph>)</stage>
               <l> or raggio di pietà ti scaldi il core. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Febo, per tua memoria un verde alloro</l>
@@ -2350,7 +2361,7 @@ fugge.</emph>)</stage>
               <l> menar convienmi in sempiterni affanni. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Febo, il più bello e 'l più feroce tauro</l>
@@ -2368,7 +2379,7 @@ fugge.</emph>)</stage>
             </lg>
             <stage>(<emph>Qui si fa rumor nel tempio.</emph>)</stage>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Che terribil rumor, che suono orrendo, </l>
@@ -2376,7 +2387,7 @@ fugge.</emph>)</stage>
               <l> è quel ch'uscir dal sacro tempio intendo! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Or qui più dimorar non mi confido, </l>
@@ -2384,7 +2395,7 @@ fugge.</emph>)</stage>
               <l> e manda fuor sì tempestoso grido. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Questa, cari compagni, è la Sibilla, </l>
@@ -2407,7 +2418,7 @@ fugge.</emph>)</stage>
               <l> quel che seguendo aggiungere non puoi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Già di partirsi egli è ben tempo omai, </l>
@@ -2415,7 +2426,7 @@ fugge.</emph>)</stage>
               <l> di ben futuri e di futuri guai. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Questo a Filerio dir ben si concede; </l>
@@ -2428,7 +2439,7 @@ fugge.</emph>)</stage>
               <l> uom cosa mai ch'egli adempir non voglia? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Deh, quant'ebbi di te più dura ed empia</l>
@@ -2441,7 +2452,7 @@ fugge.</emph>)</stage>
               <l> per uscir fuor de l'amorose pene. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Forse non drittamente le divine</l>
@@ -2454,7 +2465,7 @@ fugge.</emph>)</stage>
               <l> umano ingegno contra 'l ciel disponere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Col tuo parlar via più mia pena inforzasi, </l>
@@ -2482,7 +2493,7 @@ fugge.</emph>)</stage>
               <l> unitamente le potrem conducere. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Io voglio che le greggi mie qui pascano, </l>
@@ -2490,21 +2501,21 @@ fugge.</emph>)</stage>
               <l> per fin che i raggi matutin rinascano. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="I">
               <l> Quanto più sto più di dolor m'infurio. </l>
               <l part="I"> Compagni, a Pan vi lascio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="M">
               <l part="F"> Ed io pur vogliomi</l>
               <l part="I"> teco partir. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l part="F"> Sia con felice augurio. </l>
@@ -2513,7 +2524,7 @@ fugge.</emph>)</stage>
         </div>
         <div type="scene">
           <head>SCENA VII</head>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l>Amor, non ho ragion se di te dogliomi, </l>
@@ -2550,7 +2561,7 @@ fugge.</emph>)</stage>
         <div type="scene">
           <head>SCENA VIII</head>
           <stage>MIRZIA E TREBAZIO.</stage>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> S'io avessi il cor più duro d'un diamante, </l>
@@ -2569,7 +2580,7 @@ fugge.</emph>)</stage>
               <l> or del commesso error perdon ti chieggio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Rigido serpe venenoso e rio, </l>
@@ -2577,7 +2588,7 @@ fugge.</emph>)</stage>
               <l> ch'io non son più d'Amor, son fatto mio! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Come fu il tuo pensier di fragil vetro! </l>
@@ -2590,7 +2601,7 @@ fugge.</emph>)</stage>
               <l> desio, tu sola hai del mio cor le chiavi? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Al vento spargi, ninfa, ogni parola. </l>
@@ -2603,7 +2614,7 @@ fugge.</emph>)</stage>
               <l> scoprirti la sua fé pura e sincera! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio </speaker>
             <lg type="terzina">
               <l>Poi che ti veggio a star pur quivi intenta, </l>
@@ -2615,7 +2626,7 @@ fugge.</emph>)</stage>
         <div type="scene">
           <head>SCENA IX</head>
           <stage>MIRZIA sola.</stage>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l>Amoroso disio, colmo di sciocchi</l>
@@ -2747,7 +2758,7 @@ fugge.</emph>)</stage>
         <div type="scene">
           <head>SCENA II</head>
           <stage>OTTIMIO e detto.</stage>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <stage>(<emph>avanzandosi</emph>)</stage>
             <lg type="terzina">
@@ -2781,7 +2792,7 @@ fugge.</emph>)</stage>
               <l> convien che quest'afflitta spoglia lasce. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> Che gran sospir, che suon colmi d'affanni</l>
@@ -2800,7 +2811,7 @@ fugge.</emph>)</stage>
               <l> del petto un Etna fai, degli occhi un Gange? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Satiro, per dio Pan, lasciami un poco, </l>
@@ -2808,7 +2819,7 @@ fugge.</emph>)</stage>
               <l> con pianti il ghiaccio e con sospiri il foco. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> Alza almen gli occhi ed al mio giusto priego</l>
@@ -2821,7 +2832,7 @@ fugge.</emph>)</stage>
               <l> trovarai forsi onde l'acqueti e fuggi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Anzi parlando avvien che più l'aggreve, </l>
@@ -2829,7 +2840,7 @@ fugge.</emph>)</stage>
               <l> ogni rimedio per tristezza è lieve. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> O donne, o crudel peste, o nostra guerra, </l>
@@ -2837,7 +2848,7 @@ fugge.</emph>)</stage>
               <l> né in ciel pioggia saria, né male in terra. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Al tuo parlar via più di doglia abbondo, </l>
@@ -2845,7 +2856,7 @@ fugge.</emph>)</stage>
               <l> di leggiadro, di bello e di giocondo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> A ciò risposta nulla chieggio, poi</l>
@@ -2853,7 +2864,7 @@ fugge.</emph>)</stage>
               <l> chiar si conosce nei sembianti tuoi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Chi la beltà di colei ch'amo vede</l>
@@ -2871,13 +2882,13 @@ fugge.</emph>)</stage>
               <l> ché non può il mio desir giungere a riva. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina" part="I">
               <l> E perché nudre il cor fiamma sì audace? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="F">
               <l> Deh, non far che 'l mio duol più rinovelle: </l>
@@ -2890,7 +2901,7 @@ fugge.</emph>)</stage>
               <l> far tigri intorno vaghe danze e belle. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> Ahi infelice, ahi duro caso! come</l>
@@ -2898,7 +2909,7 @@ fugge.</emph>)</stage>
               <l> a nominar della sua amante il nome! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Questo ch'è quivi, è lupo o pur pastore? </l>
@@ -2910,13 +2921,13 @@ fugge.</emph>)</stage>
               <l> pecore?... paion ninfe e non son fiere... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina" part="F">
               <l> Sciocco d'amanti universal disio! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Vo' in questo freddo e duro sasso bere... </l>
@@ -2928,13 +2939,13 @@ fugge.</emph>)</stage>
               <l> aria, sta ferma... or di volare imparo... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina" part="F">
               <l> O d'amorose insanie duro speglio! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina">
               <l> Deh, torniamo a lottar, sozio mio caro, </l>
@@ -2942,34 +2953,34 @@ fugge.</emph>)</stage>
               <l> ché a questa scossa mal puoi far riparo. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina" part="I">
               <l> Ahi dispietata, ahi miserabil sorte, </l>
               <l part="I"> con l'arbor lotta!... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="F">
               <l part="F"> Oh, buona presa è questa; </l>
               <l> or sugli omeri pur fia che ti porte. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina" part="I">
               <l> Pastor, ormai dal vaneggiar ti resta... </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="F">
               <l> Il sol è in Tauro e co' suoi raggi intensi</l>
               <l> par che di nuove erbette il mar rivesta. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> Dico che acqueti i travagliati sensi... </l>
@@ -2988,7 +2999,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> versar da gli occhi amare e fervid'onde. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="F">
               <l> Ahi lasso, ahi miser, ché se ben mi accorgo, </l>
@@ -3008,7 +3019,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> Non miri, ohimè, che d'ogni intorn'ondeggio? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina" part="F">
               <l> Strani accidenti di pazzesca vita</l>
@@ -3018,7 +3029,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> che la sua forma un'altra forma invita. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <lg type="terzina" part="F">
               <l> Lasso, che sento dirti?... Ora sovvienmi</l>
@@ -3071,7 +3082,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> che fai ne l'acqua conservar l'ardore! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg>
               <l> O infelice e più d'ogn'altro misero, </l>
@@ -3092,7 +3103,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
         <div type="scene">
           <head>SCENA III</head>
           <stage>TREBAZIO e detti.</stage>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <stage>(<emph>rientrando</emph>)</stage>
             <lg type="terzina">
@@ -3111,7 +3122,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> né i rai m'offenderan se tutto offuscoli. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Ahi crudo, empio pastor, sempre al mio essizio</l>
@@ -3119,7 +3130,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> ma cerchi in morte ancor darmi supplizio! </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> O sacro Pan, che voce ho, lasso, udita, </l>
@@ -3132,7 +3143,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> e da piogge e da grandini ti schivi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Mirzia son io, che con ardente zelo</l>
@@ -3145,7 +3156,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> ch'or più che mai languendo mi distempre. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Mirzia dunque sei tu che in questa scorza</l>
@@ -3153,7 +3164,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> qual rio destino a ragionar ti sforza? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Io ti dirò: sì mi compunse il forte</l>
@@ -3166,7 +3177,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> di lei, con l'alma in questo tronco ascosa. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Dunque cagion io fui di tanta doglia? </l>
@@ -3179,7 +3190,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> viver in me quel primo almo desio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Ben potresti, pastor, gli aspri miei guai</l>
@@ -3197,7 +3208,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> ne' già mutati miei primi sembianti. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> In ciò non vo' che punto or si soggiorni; </l>
@@ -3226,7 +3237,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> render le membra sue vaghe e leggiadre. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> Eccomi al tuo volere apparecchiato: </l>
@@ -3234,7 +3245,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> se per destin qui sempre a star gli è dato. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Forsi migliore e più gioioso fine</l>
@@ -3245,7 +3256,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> Pregoti dunque ch'or la lingua spieghi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="ottava">
               <l> Venere bella, se il tuo fiero Marte</l>
@@ -3258,7 +3269,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> non men bella pietà ch'alta bellezza. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="ottava">
               <l> Venere bella, onde ogni ben deriva, </l>
@@ -3271,7 +3282,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> Citerea, Citerea sonar d'intorno. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="ottava">
               <l> Diva madre d'Amor, d'un bel cipresso</l>
@@ -3284,7 +3295,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> in estremi piacer da estremi pianti. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="ottava">
               <l> Diva del terzo ciel, madre d'Amore, </l>
@@ -3322,7 +3333,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> Vener e del figliuol i numi altissimi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina">
               <l> Vaga ciprigna dea, che a tanta grazia</l>
@@ -3345,7 +3356,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> e le napee con le vezzose driadi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#satiro">
             <speaker> Satiro</speaker>
             <lg type="terzina">
               <l> Ma acciò che i fati al buon principio donino</l>
@@ -3360,20 +3371,20 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
         <div type="scene">
           <head>SCENA IV</head>
           <stage>FILERIO, TREBAZIO, MIRZIA e VENALIA.</stage>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="I">
               <l> O come son quest'alme amiche e liete! </l>
               <l> Mirzia, questo è il mio caro e dolce sozio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#mirzia">
             <speaker> Mirzia</speaker>
             <lg type="terzina" part="F">
               <l> Salutatelo pur come solete. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Vener ti doni pace, requie ed ozio, </l>
@@ -3381,7 +3392,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> di non sprezzar d'amor l'alto negozio. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> E te soccorra Pan con grazie ognora, </l>
@@ -3389,7 +3400,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> Trebazio mio, poi c'hai la bella aurora. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Quest'è 'l mio sol, questa è mia vita propria, </l>
@@ -3397,7 +3408,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> fuor degli affanni e di sì lunga inopia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> Ahimè, quand'avran fin tanti miei guai? </l>
@@ -3405,7 +3416,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> quest'è quel ben che tanto desïai? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> Lascia operare al cieco e alato duce, </l>
@@ -3413,7 +3424,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> che dopo il triste tempo il buon riluce. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker> Venalia</speaker>
             <lg type="terzina">
               <l> O quanto fui ne le amorose trame</l>
@@ -3426,7 +3437,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> che dimostrava amor puro e sincero. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina">
               <l> O Filerio, Filerio, il ciel, dopoi</l>
@@ -3439,7 +3450,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> che il cieco Amor ti voglia oggi aiutare. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker> Venalia</speaker>
             <lg type="terzina">
               <l> Io ardo, agghiaccio, e sol tu, crudo Arciero, </l>
@@ -3462,7 +3473,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> ch'ei mi ama, sentirà cangiato stile. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina">
               <l> O ciel, benigno mi ti mostri certo, </l>
@@ -3474,25 +3485,25 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l part="I"> Trebazio, che ti par? </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="M">
               <l part="F"> Andiamci tutti. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="F">
               <l> Pan ti guardi da stenti, pena e doglia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker> Venalia</speaker>
             <lg type="terzina" part="I">
               <l> E te levi di affanni e inesti lutti. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#filerio">
             <speaker> Filerio</speaker>
             <lg type="terzina" part="F">
               <l> Ninfa, cangia pensier, che gli occhi, ahi lasso, </l>
@@ -3504,7 +3515,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> là giù nel regno tenebroso e basso. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#venalia">
             <speaker> Venalia</speaker>
             <lg type="terzina">
               <l> Sappi, pastor, ch'io sol son qui per dirti</l>
@@ -3516,7 +3527,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> caccia il timor, nè aver dubbiosa spene. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#trebazio">
             <speaker> Trebazio</speaker>
             <lg type="terzina" part="F">
               <l> Or toccatevi un poco palma a palma, </l>
@@ -3539,7 +3550,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
         <div type="scene">
           <head>SCENA V</head>
           <stage>ANTINIANA e DIANA.</stage>
-          <sp>
+          <sp who="#antiniana">
             <speaker> Antiniana</speaker>
             <lg>
               <l> Sacra Dïana, pregoti che quivi</l>
@@ -3548,13 +3559,13 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> ristorerem le forze già perdute. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker> Diana</speaker>
             <lg>
               <l> Contenta son, pònti ne i verdi rivi. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker> Antiniana</speaker>
             <lg type="terzina">
               <l> Venalia e Mirzia prim'anci venute</l>
@@ -3562,7 +3573,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> andran le care lor sozie perdute. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker> Diana</speaker>
             <lg type="terzina">
               <l> Meglio dunque sarà che rinfrescando</l>
@@ -3570,7 +3581,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> veniam pian pian le forze racquistando. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker> Antiniana</speaker>
             <lg type="terzina">
               <l> Non mi ricordo a piè di questo monte</l>
@@ -3578,7 +3589,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> che a tua divinità tutte sian pronte. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker> Diana</speaker>
             <lg type="terzina">
               <l> Antinïana, mai da noi deserto</l>
@@ -3596,7 +3607,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> se ti ricordi, fonte cristallino. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker> Antiniana</speaker>
             <lg>
               <l> Acque non mai sì dolci e delicate</l>
@@ -3611,7 +3622,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l> da troppo amor s'abbi passato il petto</l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#diana">
             <speaker> Diana</speaker>
             <lg type="terzina">
               <l> Acqua, se la natura o pur creata</l>
@@ -3643,7 +3654,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
               <l part="I"> è nostra compagnia. </l>
             </lg>
           </sp>
-          <sp>
+          <sp who="#antiniana">
             <speaker> Antiniana</speaker>
             <lg type="terzina" part="F">
               <l part="F"> Andiamo, o Diva, </l>
@@ -3654,7 +3665,7 @@ fonte.</emph>)</stage> Donne crudel, quest'è pur colpa vostra!... </l>
         <div type="scene">
           <head>SCENA VI</head>
           <stage>OTTIMIO ritornato nella prima forma.</stage>
-          <sp>
+          <sp who="#ottimio">
             <speaker> Ottimio</speaker>
             <stage>(<emph>ritornato nella prima forma</emph>)</stage>
             <lg type="terzina">

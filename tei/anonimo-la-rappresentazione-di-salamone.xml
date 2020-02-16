@@ -79,6 +79,31 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="angelo">
+            <persName>L'Angelo che annuncia</persName>
+          </person>
+          <person xml:id="dio">
+            <persName>Dio che gli appare in sogno</persName>
+          </person>
+          <person xml:id="salamone">
+            <persName>Salamone</persName>
+          </person>
+          <person xml:id="cognata_buona">
+            <persName>La Donna buona</persName>
+          </person>
+          <person xml:id="cognata_trista">
+            <persName>La Donna trista</persName>
+          </person>
+          <person xml:id="messo">
+            <persName>Il Messo del Re</persName>
+          </person>
+          <person xml:id="angelo_che_licenzia">
+            <persName>L'Angelo che licenzia il popolo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -123,7 +148,7 @@
     <body>
       <div n="La rappresentazione di Salamone">
         <stage rend="italic">Uno Angelo annunzia la festa:</stage>
-        <sp>
+        <sp who="#angelo">
           <speaker rend="sc">ANGELO</speaker>
           <lg>
             <l>Al nome sia del vero ed uno Dio,</l>
@@ -167,7 +192,7 @@
           </lg>
         </sp>
         <stage rend="italic">Nel principio, tutti e vestiti di Salamone, giunti al palco, si fermino giù al basso e faccino coro, e faccino reverenza a Salamone passando pel mezzo di loro per andare a fare il sacrificio; e fatto Salamone il sacrificio e tornato in sedia, tutti gli altri vadino a sedere. Salamone va in sul monte e fa sacrificio a Dio con mille agnelli e incenso sopra l'altare; e dipoi s'addormenta e Dio gli parla in sogno e dice così:</stage>
-        <sp>
+        <sp who="#dio">
           <speaker rend="sc">DIO</speaker>
           <lg>
             <l>O Salamon, questa tua grande offerta</l>
@@ -181,7 +206,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone ginocchioni dice:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>O sommo eterno bene, o solo Dio,</l>
@@ -195,7 +220,7 @@
           </lg>
         </sp>
         <stage rend="italic">Detto questo si raddormenta, e Dio in sogno gli risponde:</stage>
-        <sp>
+        <sp who="#dio">
           <speaker rend="sc">DIO</speaker>
           <lg>
             <l>El tuo parlare è di tanta eccellenza</l>
@@ -209,7 +234,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone si desta, e di nuovo ginocchioni ringrazia Dio:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Nessuna lingua mai potrebbe esprimere</l>
@@ -223,7 +248,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Cognata Buona vedendo el fanciullo morto, non essendo il suo figliuolo dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>O femmina malvagia e maladetta,</l>
@@ -237,7 +262,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Cognata Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Deh, vanne via con la mala ventura</l>
@@ -251,7 +276,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>O falsa, e' non bisogna argumentare</l>
@@ -265,7 +290,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Tu menti come falsa e ria bugiarda</l>
@@ -279,7 +304,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice alla Trista:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>S'io credessi per darti riavere</l>
@@ -293,7 +318,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Trista:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Piccola stima fa de' gracchiar tuoi</l>
@@ -307,7 +332,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Malizia mai con tanta falsitade</l>
@@ -321,7 +346,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Trista:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>La vita n'andrà a te, che falsamente</l>
@@ -335,7 +360,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Poi che minacce, lusinghe e consiglio</l>
@@ -349,7 +374,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Deh, va pur tosto, che tu sarai morta,</l>
@@ -357,7 +382,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Io vo in luogo dove sarà scorta</l>
@@ -365,7 +390,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>La tua malizia molto mi conforta,</l>
@@ -373,21 +398,21 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Sì tu, ribalda, sarai tormentata!</l>
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde alla Buona:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Ribalda sei, come io, ma più sfacciata.</l>
           </lg>
         </sp>
         <stage rend="italic">La Buona va a Salamone, e inginocchioni gli dice piangendo:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>O sacra Maestà, santa Corona,</l>
@@ -401,7 +426,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone risponde alla Donna Buona:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Donna, sta suso, e così ritta in piede</l>
@@ -415,7 +440,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Donna Buona a Salamone:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Giusto Signor, non si dubita o teme</l>
@@ -479,7 +504,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone risponde alla Donna Buona e dice:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Donna, tu puoi star certa e ben sicura</l>
@@ -493,7 +518,7 @@
           </lg>
         </sp>
         <stage rend="italic">El Messo va con due famigli alla Donna Trista e dice:</stage>
-        <sp>
+        <sp who="#messo">
           <speaker rend="sc">MESSO</speaker>
           <lg>
             <l>Donna, el nostro Re a te mi manda</l>
@@ -507,7 +532,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Trista risponde al Messo:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Io sono all'ubbidire apparecchiata,</l>
@@ -521,7 +546,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Trista col Messo giunge a Salamone e ginocchioni gli dice:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Potente e sommo Re, io son venuta</l>
@@ -535,7 +560,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone gli risponde:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Donna sta sù, che insin qui l'ubbidire</l>
@@ -549,7 +574,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Buona dice a Salamone:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Maestà sacra, sì come io t'ho detto,</l>
@@ -573,7 +598,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone dice alla Donna Trista:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Tu intendi, donna, quel che costei dice,</l>
@@ -587,7 +612,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Se quel che è morto fussi el mio figliuolo,</l>
@@ -601,7 +626,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Buona dice alla Trista:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Per cotesta medesima ragione,</l>
@@ -615,7 +640,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde alla Buona:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Io non arei già mai questo creduto</l>
@@ -629,7 +654,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona dice:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Tu sai che 'l mio figliuolo era maggiore</l>
@@ -643,7 +668,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Io posso far verace sacramento</l>
@@ -657,7 +682,7 @@
           </lg>
         </sp>
         <stage rend="italic">Dice la Buona:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Tacer non posso, né tacerò mai</l>
@@ -671,7 +696,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone dice a tutta due:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Qualunque sia di voi non vuole il morto</l>
@@ -715,7 +740,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Trista risponde a Salamone:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>Quanto la morte del figliuol mi duole</l>
@@ -729,7 +754,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona risponde alla Trista:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>O maladetta femmina crudele,</l>
@@ -737,7 +762,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista risponde:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>E' non è tuo, ma tu piena di fiele</l>
@@ -745,7 +770,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona s'inginocchia e con le mani in alto a Dio dice così:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>O Dio, soccorso di ciascun fedele,</l>
@@ -753,21 +778,21 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista dice alla Buona:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>La ipocrisia non ti varrà nïente!</l>
           </lg>
         </sp>
         <stage rend="italic">La Buona risponde:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Ben sei ribalda, e trista, e fraudolente.</l>
           </lg>
         </sp>
         <stage rend="italic">Salamone dice al Giustiziere:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Va, maestro Giustizier, piglia lo infante</l>
@@ -781,7 +806,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona si gitta inginocchione e dice a Salamone quando il Giustiziere vuol fare l'offizio suo:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>O sacro Re, o giusto, o buon Signore,</l>
@@ -805,7 +830,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Trista dice alla Buona:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>La sentenza del Re è sì perfetta</l>
@@ -819,7 +844,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Buona risponde:</stage>
-        <sp>
+        <sp who="#cognata_buona">
           <speaker rend="sc">COGNATA BUONA</speaker>
           <lg>
             <l>Io dico ch'egli è tuo, e ch'io ti dono</l>
@@ -833,7 +858,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone dice al Giustiziere:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Rifascia presto el figliuol, Giustiziere.</l>
@@ -847,7 +872,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone dice alla Donna Trista:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>E tu, malvagia e ria, che fusti ardita</l>
@@ -861,7 +886,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Trista s'inginocchia dinanzi a Salamone e dice:</stage>
-        <sp>
+        <sp who="#cognata_trista">
           <speaker rend="sc">COGNATA TRISTA</speaker>
           <lg>
             <l>O misera dolente sventurata,</l>
@@ -875,7 +900,7 @@
           </lg>
         </sp>
         <stage rend="italic">Salamone dice a' suoi comandatori:</stage>
-        <sp>
+        <sp who="#salamone">
           <speaker rend="sc">SALAMONE</speaker>
           <lg>
             <l>Fatemi presto questa incarcerare</l>
@@ -889,7 +914,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Donna Buona s'inginocchia, e ringrazia Salamone e partesi. L'Angelo licenzia:</stage>
-        <sp>
+        <sp who="#angelo_che_licenzia">
           <speaker rend="sc">ANGELO CHE LICENZIA</speaker>
           <lg>
             <l>Signor, che state ad udire e vedere</l>

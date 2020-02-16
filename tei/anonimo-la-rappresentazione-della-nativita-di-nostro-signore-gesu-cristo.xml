@@ -79,6 +79,58 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="angelo_annunciatore">
+            <persName>L'Angelo che annuncia la festa</persName>
+          </person>
+          <person xml:id="imperatore">
+            <persName>L'Imperatore Ottaviano Augusto Cesare</persName>
+          </person>
+          <person xml:id="maestro">
+            <persName>Un Maestro de murare</persName>
+          </person>
+          <person xml:id="sacerdote">
+            <persName>Un Sacerdote</persName>
+          </person>
+          <person xml:id="popolano">
+            <persName>Un Popolano</persName>
+          </person>
+          <personGrp xml:id="sacerdoti">
+            <name>Sacerdoti</name>
+          </personGrp>
+          <person xml:id="porfirio">
+            <persName>Porfirio</persName>
+          </person>
+          <person xml:id="sibilla">
+            <persName>La Sibilla</persName>
+          </person>
+          <personGrp xml:id="banditori">
+            <name>I Banditori</name>
+          </personGrp>
+          <personGrp xml:id="savi">
+            <name>Savi</name>
+          </personGrp>
+          <person xml:id="primo_pastore">
+            <persName>Primo Pastore</persName>
+          </person>
+          <person xml:id="secondo_pastore">
+            <persName>Secondo Pastore</persName>
+          </person>
+          <person xml:id="giuseppe">
+            <persName>Giuseppe</persName>
+          </person>
+          <person xml:id="maria">
+            <persName>La Vergine Maria</persName>
+          </person>
+          <personGrp xml:id="araldi">
+            <name>Gli Araldi</name>
+          </personGrp>
+          <person xml:id="angelo_che_licenzia">
+            <persName>Un Angelo che licenzia il popolo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -115,9 +167,7 @@
         <castItem>
           <role>Un Popolano</role>
         </castItem>
-        <castItem>
-          <role>Porfirio, <hi rend="italic">un barone</hi></role>
-        </castItem>
+        <castItem><role>Porfirio</role>, <roleDesc><hi rend="italic">un barone</hi></roleDesc></castItem>
         <castItem>
           <role>La Sibilla</role>
         </castItem>
@@ -149,7 +199,7 @@
         <stage>QUESTA È LA RAPPRESENTAZIONE DELLA NATIVITÀ DEL NOSTRO SIGNORE
 GESÙ CRISTO, E IN PRIMA VIENE UNO ANGELO ED ANNUNZIA LA FESTA AL POPOLO
 E DICE COSÌ:</stage>
-        <sp>
+        <sp who="#angelo_annunciatore">
           <speaker>ANGELO ANNUNCIATORE</speaker>
           <lg>
             <l>Al nome sia del sommo Redentore,</l>
@@ -193,7 +243,7 @@ E DICE COSÌ:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla lo 'Mperadore a' Maestri</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Quanto potrà questo tempio durare</l>
@@ -203,7 +253,7 @@ E DICE COSÌ:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde un Maestro de murare allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#maestro">
           <speaker>MAESTRO</speaker>
           <lg>
             <l>Di questo non bisogna ragionare,</l>
@@ -213,7 +263,7 @@ E DICE COSÌ:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore a' Maestri</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Maestri miei, dunque non cadrà mai</l>
@@ -227,7 +277,7 @@ E DICE COSÌ:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla un Sacerdote al popolo, fatto il sacrificio</hi>:</stage>
-        <sp>
+        <sp who="#sacerdote">
           <speaker>SACERDOTE</speaker>
           <lg>
             <l>Che altra deità si può stimare</l>
@@ -272,7 +322,7 @@ E DICE COSÌ:</stage>
         </sp>
         <stage><hi rend="italic">Parla uno Popolano al Sacerdote, confermando il suo
 detto</hi>:</stage>
-        <sp>
+        <sp who="#popolano">
           <speaker>POPOLANO</speaker>
           <lg>
             <l>Qualunque uomo saggio e d'intelletto</l>
@@ -286,7 +336,7 @@ detto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla uno Sacerdote allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sacerdote">
           <speaker>SACERDOTE</speaker>
           <lg>
             <l>O santo Imperador, nobilitato</l>
@@ -300,7 +350,7 @@ detto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore al Sacerdote ed al popolo</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>I' non so che partito in ciò pigliarmi,</l>
@@ -314,7 +364,7 @@ detto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono i Sacerdoti allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sacerdoti">
           <speaker>SACERDOTI</speaker>
           <lg>
             <l>Noi siàn contenti, e tre giorni stareno,</l>
@@ -329,7 +379,7 @@ detto</hi>:</stage>
         </sp>
         <stage><hi rend="italic">Partiti i Sacerdoti e Dottori, lo 'Mperadore dice infra sé medesimo
 così</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Come esser può ch'io sia adorato,</l>
@@ -350,7 +400,7 @@ così</hi>:</stage>
         </sp>
         <stage><hi rend="italic">Lo 'Mperadore chiama un Barone e manda per la Sibilla e
 dice</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Muovi Porfirio e fa che prestamente</l>
@@ -358,7 +408,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde Porfirio</hi>:</stage>
-        <sp>
+        <sp who="#porfirio">
           <speaker>PORFIRIO</speaker>
           <lg>
             <l>Fatt'è, Signor, ecco ch'i' entro in via,</l>
@@ -366,7 +416,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla Porfirio alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#porfirio">
           <speaker>PORFIRIO</speaker>
           <lg>
             <l>Vergine pura, onesta e benedetta,</l>
@@ -376,7 +426,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla a Porfirio</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Ciò ch'io far possa forte mi diletta,</l>
@@ -386,7 +436,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>O degno e magno Imperador sereno,</l>
@@ -396,7 +446,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Tu sia la ben venuta, ed or sareno</l>
@@ -406,7 +456,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Se tu vuogli in segreto consigliarti</l>
@@ -416,7 +466,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Io son contento e sol per contentarti</l>
@@ -426,7 +476,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Sono in segreto luogo e lo 'Mperadore parla alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>El mondo tutto cerca d'adorarmi,</l>
@@ -440,7 +490,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Quest'è gran cosa solo a 'mmaginarla,</l>
@@ -454,7 +504,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Chiama lo 'Mperadore e Banditori</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Passin qua con prestezza i banditori.</l>
@@ -464,7 +514,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono i Banditori allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#banditori">
           <speaker>BANDITORI</speaker>
           <lg>
             <l>Per tutta Roma farem pubblicare</l>
@@ -473,7 +523,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">I Banditori bandiscono al popolo</hi>:</stage>
-        <sp>
+        <sp who="#banditori">
           <speaker>BANDITORI</speaker>
           <lg>
             <l>Fa metter bando 'spresso e comandare</l>
@@ -487,7 +537,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parlano i Banditori allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#banditori">
           <speaker>BANDITORI</speaker>
           <lg>
             <l>Per tutta Roma siàno iti sonando,</l>
@@ -497,7 +547,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Dice lo 'Mperadore a' Savi suo'</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Or oltre sù, seguite il mio comando,</l>
@@ -507,7 +557,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono i Savi allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#savi">
           <speaker>SAVI</speaker>
           <lg>
             <l>Fatt'è, Signore , e prestamente andreno</l>
@@ -517,7 +567,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parlano i Savi alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#savi">
           <speaker>SAVI</speaker>
           <lg>
             <l>L'eccelso illustre Imperador sereno</l>
@@ -527,7 +577,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla a' Savi</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Andiàn ch'i' son contenta di venire,</l>
@@ -537,7 +587,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Giugne la Sibilla allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>O magnanimo Imperio e giusto Sire,</l>
@@ -547,7 +597,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Tanto m'è grato il tuo ritornamento</l>
@@ -557,7 +607,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Lodiamo Iddio e poi di buon talento</l>
@@ -573,7 +623,7 @@ dice</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Andiàn che tal disio in me raccogli</l>
@@ -582,7 +632,7 @@ dice</hi>:</stage>
         </sp>
         <stage><hi rend="italic">Parla lo 'Mperadore alla Sibilla quando sono giunti in luogo arioso e
 aperto</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Vedi quant'aria c'è, pura e serena?</l>
@@ -590,7 +640,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Or fa com'io, ve' ch'i' sono scalzata</l>
@@ -600,7 +650,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>I' veggo l'aria bella, pura e grata,</l>
@@ -608,7 +658,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Di poi che l'aria è cosi graziosa,</l>
@@ -616,7 +666,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Io veggo l'aria bella e dilicata,</l>
@@ -626,7 +676,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Or pon la pianta ritta tua scalzata</l>
@@ -636,7 +686,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>I' veggo un cerchio sì maraviglioso</l>
@@ -646,7 +696,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Guardal pur bene e infin ch'i' non ti poso.</l>
@@ -654,7 +704,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Nel cerchio d'or prima non era nulla,</l>
@@ -662,7 +712,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Che fanciulla è, per Dio, polla ben mente</l>
@@ -670,7 +720,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>In abito ed in vista ell'è lucente,</l>
@@ -682,7 +732,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Che bambino è? Come ti par formato?</l>
@@ -690,7 +740,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>D'una corona d'oro il veggio ornato</l>
@@ -698,7 +748,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde la Sibilla allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Or guardal ben, ched io te l'ho mostrato:</l>
@@ -708,7 +758,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla pure la Sibilla allo 'Mperadore</hi>:</stage>
-        <sp>
+        <sp who="#sibilla">
           <speaker>SIBILLA</speaker>
           <lg>
             <l>Però, o Imperadore, è tempo omai</l>
@@ -722,7 +772,7 @@ aperto</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore alla Sibilla</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l><add resp="#ed">O</add> vergine prudente e benedetta,</l>
@@ -737,7 +787,7 @@ aperto</hi>:</stage>
         </sp>
         <stage><hi rend="italic">Partita la Sibilla, ritornano i Sacerdoti ed il popolo allo Imperadore ed a
 lui parlano così dicendo</hi>:</stage>
-        <sp>
+        <sp who="#sacerdoti">
           <speaker>SACERDOTI</speaker>
           <lg>
             <l>Temp'è, sereno grande Imperadore,</l>
@@ -751,7 +801,7 @@ lui parlano così dicendo</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore a' Sacerdoti ed al popolo</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Quel vivo e vero Iddio immaculato</l>
@@ -771,7 +821,7 @@ lui parlano così dicendo</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono i Savi allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#savi">
           <speaker>SAVI</speaker>
           <lg>
             <l>No' siàn contenti poi ch'a te non pare,</l>
@@ -782,7 +832,7 @@ lui parlano così dicendo</hi>:</stage>
         </sp>
         <stage><hi rend="italic">E parlato i Savi allo Imperadore, di subito roina il tempio e la Natività del
 Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi>:</stage>
-        <sp>
+        <sp who="#angelo_annunciatore">
           <speaker>ANGELO</speaker>
           <lg>
             <l>Gloria sia in cielo al sempiterno Iddio,</l>
@@ -806,7 +856,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Parlano i Pastori tra loro e 'l primo dice</hi>:</stage>
-        <sp>
+        <sp who="#primo_pastore">
           <speaker>PRIMO PASTORE</speaker>
           <lg>
             <l>Chi è costui che ci manda a cittade?</l>
@@ -814,7 +864,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Parla l'altro Pastore</hi>:</stage>
-        <sp>
+        <sp who="#secondo_pastore">
           <speaker>SECONDO PASTORE</speaker>
           <lg>
             <l>S'egli è nata la santa Maestade,</l>
@@ -822,7 +872,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde l'altro</hi>:</stage>
-        <sp>
+        <sp who="#primo_pastore">
           <speaker>PRIMO PASTORE</speaker>
           <lg>
             <l>Chi fia di noi che sappi queste strade</l>
@@ -830,21 +880,21 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde l'altro</hi>:</stage>
-        <sp>
+        <sp who="#secondo_pastore">
           <speaker>SECONDO PASTORE</speaker>
           <lg>
             <l>Meo del Giambarda la saprà di fatto.</l>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde l'altro</hi>:</stage>
-        <sp>
+        <sp who="#primo_pastore">
           <speaker>PRIMO PASTORE</speaker>
           <lg>
             <l>To' due caciuoli, ognun ne venga ratto.</l>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla uno Pastore a Gesù</hi>:</stage>
-        <sp>
+        <sp who="#primo_pastore">
           <speaker>PRIMO PASTORE</speaker>
           <lg>
             <l>Salviti Iddio, che se' nostro Signore,</l>
@@ -854,7 +904,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Parla uno Pastore alla Vergine Maria</hi>:</stage>
-        <sp>
+        <sp who="#primo_pastore">
           <speaker>PRIMO PASTORE</speaker>
           <lg>
             <l>O santa Madre, panni di colore</l>
@@ -864,7 +914,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Parla l'altro Pastore a Gesù</hi>:</stage>
-        <sp>
+        <sp who="#secondo_pastore">
           <speaker>SECONDO PASTORE</speaker>
           <lg>
             <l>Die ti salvi, Signor di tutto il mondo,</l>
@@ -878,7 +928,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde Giuseppe a' Pastori</hi>:</stage>
-        <sp>
+        <sp who="#giuseppe">
           <speaker>GIUSEPPE</speaker>
           <lg>
             <l>Vo' siate, pastor giusti, e ben venuti</l>
@@ -892,7 +942,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
           </lg>
         </sp>
         <stage><hi rend="italic">Parla la Vergine Maria a' Pastori</hi>:</stage>
-        <sp>
+        <sp who="#maria">
           <speaker>MARIA</speaker>
           <lg>
             <l>Buoni pastor, venuti dalle gregge</l>
@@ -907,7 +957,7 @@ Nostro Signore apparisce, e di poi va l'Angelo a' Pastori e parla loro così</hi
         </sp>
         <stage><hi rend="italic">Parla lo 'Mperadore fra sé medesimo quando vede caduto il tempio e dice,
 quando vede esser fornito il misterio della Natività interamente</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Per certo, poi che 'l tempio è ruinato,</l>
@@ -917,7 +967,7 @@ quando vede esser fornito il misterio della Natività interamente</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Manda lo 'Mperadore pe' Savi e dice così</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>O voi ch'avete sempre mai studiato</l>
@@ -927,7 +977,7 @@ quando vede esser fornito il misterio della Natività interamente</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono i Savi allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#savi">
           <speaker>SAVI</speaker>
           <lg>
             <l>O santo Imperador, chi 'l 'dificoe</l>
@@ -941,7 +991,7 @@ quando vede esser fornito il misterio della Natività interamente</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Risponde lo 'Mperadore a' Savi</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>Or son io chiaro che lo Spirito Santo</l>
@@ -955,7 +1005,7 @@ quando vede esser fornito il misterio della Natività interamente</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla lo 'Mperadore agli Araldi</hi>:</stage>
-        <sp>
+        <sp who="#imperatore">
           <speaker>IMPERATORE</speaker>
           <lg>
             <l>E però festa grande oggi facciamo</l>
@@ -968,14 +1018,14 @@ quando vede esser fornito il misterio della Natività interamente</hi>:</stage>
           </lg>
         </sp>
         <stage><hi rend="italic">Rispondono gli Araldi allo Imperadore</hi>:</stage>
-        <sp>
+        <sp who="#araldi">
           <speaker>ARALDI</speaker>
           <lg>
             <l>Egli è fatto, sereno Imperadore.</l>
           </lg>
         </sp>
         <stage><hi rend="italic">Parla un Angelo licenziando il popolo</hi>:</stage>
-        <sp>
+        <sp who="#angelo_che_licenzia">
           <speaker>ANGELO CHE LICENZIA</speaker>
           <lg>
             <l>O voi, egregi e saggi cittadini,</l>

@@ -85,6 +85,25 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="guido">
+            <persName>Guido</persName>
+          </person>
+          <person xml:id="corrado">
+            <persName>Corrado</persName>
+          </person>
+          <person xml:id="ricciarda">
+            <persName>Ricciarda</persName>
+          </person>
+          <person xml:id="guelfo">
+            <persName>Guelfo</persName>
+          </person>
+          <person xml:id="averardo">
+            <persName>Averardo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Digitalizzazione</change>
@@ -148,11 +167,11 @@
         <div type="scene">
           <head rend="italic">SCENA PRIMA</head>
           <stage rend="sc">Guido, Corrado</stage>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Fuggi! – Il mio duol col tuo periglio accresci.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>Che dirò al signor mio, che lagrimando</l>
             <l>Jer m'imponea di non tornarmi al campo</l>
@@ -164,7 +183,7 @@
             <l>Il figliuol suo – Me misero! m'avanza</l>
             <l part="I">Poco omai della notte.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Se del padre</l>
             <l>Quando a forza dal suo petto mi svelsi</l>
@@ -177,16 +196,16 @@
             <l>La mia – dal dì che la serbò Ricciarda,</l>
             <l part="I">A lei tutta io la deggio.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="F">E che tu speri?</l>
             <l>Che Guelfo ignori che in sua reggia vivi?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Non so – ma Guelfo, ahi! di Ricciarda è padre.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>Fremi dunque in nomarlo, e vedi sempre</l>
             <l>Non di tuo padre il reo fratello in Guelfo</l>
@@ -210,7 +229,7 @@
             <l>E pria l'amante tua misera donna,</l>
             <l>Teco strascini a orribili sciagure.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Perché Guelfo conosco,io mai Ricciarda</l>
             <l>Non lascerò. S'oggi ei trionfa in guerra,</l>
@@ -221,11 +240,11 @@
             <l>Con lentissime angosce e sotto il ferro</l>
             <l>Sconterà allor d'avermi amato e salvo.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="I">Ei fia sconfitto.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">E allor più temo – allora</l>
             <l>Pria di sua man darà Salerno al foco</l>
@@ -233,13 +252,13 @@
             <l>Gli saran le rovine; e in quelle fiamme</l>
             <l>Per torla a me seppellirà la figlia.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>Tardar l'assalto potrem noi; spianarti</l>
             <l>Più vie che intanto al campo d'Averardo</l>
             <l part="I">Guidino teco la tua donna.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">È speme</l>
             <l>Unica; – e vana! e s'io la nutro, temo</l>
@@ -254,11 +273,11 @@
             <l>Indarno io prego? E tu mi guardi, e gemi;</l>
             <l>E mi sforzi ai rimorsi e al pianto e all'ira.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>Dunque per sempre il padre tuo ti perde?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Te perde a un tempo; e di pietoso amico</l>
             <l>Mal tu le parti con mio padre adempi.</l>
@@ -280,7 +299,7 @@
             <l>Non ch'uom mortale mai, né Iddio potrebbe</l>
             <l>Far ch'io mi parta, o snudi in guerra il brando.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>Abbi il mio pianto, o Guido; altro non posso:</l>
             <l>Ti fia dannoso or il mio sangue. Addio. –</l>
@@ -289,7 +308,7 @@
             <l>Piglierà al certo, e ov'ei non giunga in tempo,</l>
             <l>Sappia da me dove cercarti estinto.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Se pur fuggir salvo potrai!... ma vieni –</l>
             <l>Quinci ti fia cauto il partir: trapassa</l>
@@ -300,14 +319,14 @@
             <l>Te il ciel guidi, o Corrado. Al padre narra,</l>
             <l>Che ingrato io son – ma e più infelice. Addio.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>Non sia questo l'amplesso ultimo nostro!</l>
           </sp>
         </div>
         <div type="scene">
           <head rend="italic">SCENA SECONDA</head>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Ultimo! – almen perir dovessi io solo!</l>
             <l>Non tremerei così vilmente. – O Guido,</l>
@@ -339,28 +358,28 @@
         <div type="scene">
           <head rend="italic">SCENA TERZA</head>
           <stage rend="sc">Guido, Ricciarda</stage>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Guido! – Qui sei... pur ti ritrovo!</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Ahi come</l>
             <l>Anzi ora qui? – Misero me! ti miro</l>
             <l part="I">Pallida, incerta, ed anelante.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">O Guido! –</l>
             <l>Io ti credea da me diviso... e spento.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Che spento io cada, per te sola il temo;</l>
             <l>Ma ch'io mi parta, o donna mia, potevi</l>
             <l part="I">Crederlo tu?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Te a preghi miei pietoso</l>
             <l>Spero e che alfin ti partirai; ma dianzi</l>
@@ -378,17 +397,17 @@
             <l>Ad accertarmi se cadesti illeso</l>
             <l part="I">O a raccorti morente.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Altri in quel luogo</l>
             <l>Perì, se il cielo nol serbò pietoso</l>
             <l part="I">Al padre mio!</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Qui teco altri era?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Occulto</l>
             <l>Venne Corrado a ricondurmi al campo.</l>
@@ -396,7 +415,7 @@
             <l>Silenzio, e poscia irati detti e pianto;</l>
             <l>E avrà, se è spento, eterno pianto – e vano!</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Misera! ch'io dagli occhi miei ti perda</l>
             <l>M'è sì amaro pensier, che appena il vince</l>
@@ -407,13 +426,13 @@
             <l>Di mille insidie che ti stanno intorno,</l>
             <l part="I">Per dirti addio, per non più mai...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Deh il versa</l>
             <l>Sovra il mio petto sempre, e meno amaro</l>
             <l part="I">Ti fia quel pianto.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Da te lunge il pianto,</l>
             <l>Che or parlando mal freno, da te lunge</l>
@@ -423,7 +442,7 @@
             <l>Dal padre mio – sull'ossa ahi!... della mia</l>
             <l part="I">Madre trafitto.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">A piangermi, né un'ora</l>
             <l>Ti lascerebbe. A me crudele il temi?</l>
@@ -442,7 +461,7 @@
             <l>Il rio decreto, ov'ei talor rammenti</l>
             <l part="I">Ch'è padre.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">E spesso, e con pietà il rammenta.</l>
             <l>Quanto amar può chi sé medesmo ha in odio,</l>
@@ -468,11 +487,11 @@
             <l>Di me, nol niego; ma di tutti, e molto</l>
             <l>Di sé medesmo ei trema: ed io... son rea</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="I">D'amarmi?...</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">No, rea non mi tenni io mai</l>
             <l>D'amarti: e innanzi che a te invano il padre</l>
@@ -491,7 +510,7 @@
             <l>Se rea... – e per farmi del tuo core indegna</l>
             <l part="I">Forse.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Tu mai, tu del mio core indegna?</l>
             <l>Tu che a virtù mi sei sprone ed esempio?</l>
@@ -504,7 +523,7 @@
             <l>Quel ch'io più bramo; e mille volte il labbro</l>
             <l>Apro, e in silenzio doloroso il chiudo.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Ben io lo intendo: e oserò dirlo io prima –</l>
             <l>Dì e notte tiemmi e lusinghiero e forte</l>
@@ -528,21 +547,21 @@
             <l>Ma più di me tu d'ora in ora stai</l>
             <l part="I">Sotto la scure –... Intendi?... ei vien!...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">D'armati</l>
             <l part="I">Son passi...</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Ei vien! salvati.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">E fuggir sempre?</l>
             <l>Ahi vita indegna! – assai men grave è morte.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>O Guido mio! pietà di me ti vinca...</l>
             <l>A sera, e avrai l'ultimo addio, qui riedo;</l>
@@ -552,43 +571,43 @@
         <div type="scene">
           <head rend="italic">SCENA QUARTA</head>
           <stage rend="sc">Ricciarda, Guelfo, Uomini d'arme</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="M">Tu qui?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">– Signor...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Smarrita – esangue –</l>
             <l>Tu qui! – Che il padre ti chiedea, sapevi?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Dianzi Ruggier me l'imponea... ma quando...</l>
             <l part="I">Né dove... incerto m'era.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E a me più incerto</l>
             <l>Se tu in mia reggia stavi; altri ti vide</l>
             <l part="I">Dianzi avviarti fuggitiva.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">E parte,</l>
             <l>Questa dov'io men venni, è della tua</l>
             <l part="I">Reggia...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E la miglior parte. – E per me dunque</l>
             <l>Qui sì ratta venivi? ma tu cerchi,</l>
             <l>Parmi anzi tempo, tra gli avelli il padre.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Cerco la madre mia, se pure intende</l>
             <l>Il mio lungo dolor che a uom vivente,</l>
@@ -604,7 +623,7 @@
             <l>Vita non hai, né tu l'avrai, pur troppo!</l>
             <l>Viver degg'io sol per morir tua figlia.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Qui dunque, innanzi di tua madre all'urna,</l>
             <l>Ti fia men grave fra non molto udirmi –</l>
@@ -612,11 +631,11 @@
             <l>Quel traditor, che qui notturno errava.</l>
             <l part="I">Tu il sai?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Rumor men venne...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E se nel viso</l>
             <l>Ben ti discerno, di pietà confusa</l>
@@ -624,11 +643,11 @@
             <l>E sai che ignoto dileguossi e illeso? –</l>
             <l part="I">Ne sarai lieta.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Io? – d'uom ignoto...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Agli altri:</l>
             <l>A me, no – E teco io lieto son ch'ei viva.</l>
@@ -639,7 +658,7 @@
             <l>Ebber ratte le piante e tardi i brandi,</l>
             <l part="I">Opra la scure.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Deh padre! – Soverchio</l>
             <l>Terror a disperata ira può indurli;</l>
@@ -650,7 +669,7 @@
             <l>I cenni tuoi di che ribrezzo umano</l>
             <l part="I">Impallidisce.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Vil genìa, che vende</l>
             <l>Il braccio e il cor, m'atterrirà? – Ruggiero</l>
@@ -658,12 +677,12 @@
             <l>Sovra quel sangue molto oro dispensa –</l>
             <l part="I">Or vien, Ricciarda.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">O che oltre modo ei finge,</l>
             <l part="I">O troppo io spero, il crede in salvo...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Or vieni?</l>
           </sp>
@@ -674,7 +693,7 @@
         <div type="scene">
           <head rend="italic">SCENA PRIMA</head>
           <stage rend="sc">Guelfo, Ricciarda, Uomini d'arme</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Uberto, co' Normanni esci oltre i ponti:</l>
             <l>E all'orator del mio nemico intima</l>
@@ -685,7 +704,7 @@
         <div type="scene">
           <head rend="italic">SCENA SECONDA</head>
           <stage rend="sc">Guelfo, Ricciarda</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Qui dianzi, e a gran fatica io volli</l>
             <l>Dissimulando divorarmi l'ira</l>
@@ -699,19 +718,19 @@
             <l>Né udirlo io vo', se non perché tu meco</l>
             <l part="I">Piena risposta gli darai.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Che posso</l>
             <l part="I">Dir, signor mio, che tu nol voglia?</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E dirlo</l>
             <l>Non sol dèi tu; ma qui – su le sacre ossa</l>
             <l>Di tua madre giurarlo. Ove tu il nieghi,</l>
             <l>Saprò ch'io posso giustamente odiarti.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>E a me il giusto odio tuo, misera, manca</l>
             <l>A veder piena la sciagura mia!...</l>
@@ -719,7 +738,7 @@
             <l>Trovi conforto nel veder ch'io merto</l>
             <l part="I">La tua pietà.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Assai men duro assai</l>
             <l>Sarebbe il viver mio, s'io non t'amassi;</l>
@@ -750,7 +769,7 @@
             <l>Un solo scampo hai tu; ma s'oggi il perdi,</l>
             <l part="I">Meco uscir dèi d'ogni speranza.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Ah tolta</l>
             <l>M'è da che teco sei crudel. Ma pena</l>
@@ -777,7 +796,7 @@
             <l>Obliando l'offese, e alla comune</l>
             <l part="I">Pace fors'io...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Ma e pensi tu, che nozze</l>
             <l>E Amore acquetin gli odi? Amor diè sempre</l>
@@ -815,7 +834,7 @@
             <l>Ma innanzi all'orator, sovra queste ossa</l>
             <l>Rinunzia a Guido, e l'odio mio gli giura.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>L'odio tuo? Qui? dove sovente a Guido</l>
             <l>Amor giurai? – Tu allor m'udivi, o Madre!</l>
@@ -836,7 +855,7 @@
             <l>Pietà dal cielo, e che distor ti possa</l>
             <l part="I">Dal morir disperato?</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E tu pur sempre</l>
             <l>Mi fai forza alle lagrime?... Chi sei</l>
@@ -852,18 +871,18 @@
         <div type="scene">
           <head rend="italic">SCENA TERZA</head>
           <stage rend="sc">Guelfo, Averardo, Corrado, Uomini d'arme</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Com'io intenda d'udirti, abbi argomento</l>
             <l part="I">Dal loco ov'io t'accolgo.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">I monumenti,</l>
             <l>Signor, io veggo de'tuoi padri; e gioja</l>
             <l part="I">Essi n'avran se col fratel...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Non ebbi</l>
             <l>Fratelli io mai. So che scendea Tancredi,</l>
@@ -886,7 +905,7 @@
             <l>S'egli nel sangue si richiama offeso,</l>
             <l part="I">Io nella fama?</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Assai ragion di pace</l>
             <l>Stan nelle accuse tue. Esul fuggiva</l>
@@ -901,26 +920,26 @@
             <l>Cadder – ma in campo, ed han sepolcro e fama.</l>
             <l>Vinse; e ancor regni: ecco ragion di pace.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Ragion di guerra è il dirlo – Astuto meco</l>
             <l part="I">Parli, ed ardito.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Ardito; e più il vorrebbe</l>
             <l>Forse Averardo; astuto no, se m'odi.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="I">Ma e tu chi sei che parli?</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Io son Corrado;</l>
             <l part="I">Guerrier d'Arrigo un dì.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Ben io ti vidi</l>
             <l>Tosto all'aspetto il ghibellino core.</l>
@@ -939,7 +958,7 @@
             <l>Casa Averardo?... ed io l'avrei... pur anche...</l>
             <l>Come nell'alma, conosciuto in volto.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Allor che Guido occultamente il core</l>
             <l>Pose in vergin regale, e ne fu amato</l>
@@ -956,7 +975,7 @@
             <l>Che oltre molte cagioni oggi il costringe</l>
             <l>Anche l'amor per l'infelice Italia.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Amor d'Italia? A basso intento è velo</l>
             <l>Spesso: e tale oggimai s'è fatta Italia,</l>
@@ -966,7 +985,7 @@
             <l>Sterminar potess'io, tutti i suoi mille</l>
             <l>Vili signori, e più la vil sua plebe.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Inerme freme, e sembra vile Italia</l>
             <l>Da che i signori suoi vietano il brando</l>
@@ -1009,7 +1028,7 @@
             <l>Fia la rovina; e degli antichi al nome</l>
             <l>L'età future aggiugneranno il nostro.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Se grande Italia un tempo era, nol cerco.</l>
             <l>Qual è la vedo, e la dispregio. Io patria</l>
@@ -1026,7 +1045,7 @@
             <l>Se ragioni di pace altre non rechi,</l>
             <l part="I">Ti parti.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Se né patria omai né fama</l>
             <l>Ti tocca il cor, di te medesmo almeno</l>
@@ -1036,14 +1055,14 @@
             <l>Al signor mio devote, alla vittoria</l>
             <l part="I">Anelanti e alla preda.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Antica è l'arte,</l>
             <l>Atta sol ne' codardi, onde il nemico</l>
             <l>Vuol atterrire altrui di quel terrore</l>
             <l part="I">Ch'ei per sé prova –</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Sì;... teme Averardo</l>
             <l>Pel figlio suo unico omai, che amore</l>
@@ -1053,20 +1072,20 @@
             <l>Che tu a forza nol tragga un dì a macchiarsi</l>
             <l part="I">Del sangue tuo.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Io il bramo... ov'io del suo</l>
             <l>Nol possa. Ah mai, se non se morto, e d'altra</l>
             <l>Man non vorrà ch'io vegga alfin chi egli era</l>
             <l>Quel mio fratel! – E quali patti or m'offre?</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Che tu Salerno e le Castella e il mare:</l>
             <l>Esso Avellino e Benevento regga;</l>
             <l part="I">E Guido in moglie abbia Ricciarda.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Accolti</l>
             <l>Denno esser dunque da Ricciarda i patti</l>
@@ -1079,11 +1098,11 @@
         <div type="scene">
           <head rend="italic">SCENA QUARTA</head>
           <stage rend="sc">Averardo, Corrado</stage>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="I">Corrado!... e il figlio mio?...</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="F">Cauto qui riedi;</l>
             <l>Da me saprà che in grave rischio stai.</l>
@@ -1095,11 +1114,11 @@
         <div type="scene">
           <head rend="italic">SCENA PRIMA</head>
           <stage rend="sc">Corrado, Guido</stage>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="I">Deh vien!</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">... A che?... sol per mostrarmi al padre</l>
             <l>Ingrato appieno? – Eccovi soli; inermi;</l>
@@ -1110,18 +1129,18 @@
             <l>Speme alfin torvi di mia vita. Or fatto</l>
             <l>Vile davver son io... Lascia ch'io rieda...</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l>E che dir deggio?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Oh ciel!... – Ma vedi queste</l>
             <l>Imbelli mie lagrime vane?... al padre</l>
             <l>Dì che celarle a tutti deggio, e a lui</l>
             <l part="I">Più che ad altr'uomo... lasciami...</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="F">Deh Guido!</l>
             <l>Anche il vederti al padre tuo contendi?</l>
@@ -1133,12 +1152,12 @@
             <l>Or destro il tempo a favellarti e il luogo:</l>
             <l part="I">Qui Guelfo ingiunse ch'ei l'attenda...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Vedi...</l>
             <l part="I">Fuggir nol posso... ei vien.</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="F">Starò da lunge</l>
             <l>Vigile intorno del tiranno ai passi.</l>
@@ -1147,21 +1166,21 @@
         <div type="scene">
           <head rend="italic">SCENA SECONDA</head>
           <stage rend="sc">Guido, Averardo</stage>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="I">... Signor...</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Oh figlio mio! – Tu piangi? – e tremi? –</l>
             <l>Dimmi tu pur, se impallidir vedesti</l>
             <l>Mai, se non oggi, di tuo padre il volto?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>A pianger tu... forza mi fai; tu solo.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Né gemi tu per l'onor nostro? Il nome</l>
             <l>Mentir degg'io; venir furtivo e umile</l>
@@ -1172,13 +1191,13 @@
             <l>Da vincitore io dar potrei perdono,</l>
             <l part="I">Il chieggo; e a chi!... – Sangue vuol Guelfo.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Il nostro</l>
             <l>Incerto e poco è a dissetarlo: ei pronto</l>
             <l>Tien della figlia l'innocente sangue.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Dono è di lei se ancor son padre; e il paga</l>
             <l>D'acerbissime lagrime. né mai</l>
@@ -1195,16 +1214,16 @@
             <l>Il tiranno vedrai, che dal timore</l>
             <l>Proprio e dal nostro il suo furor desume.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Quindi il furor fia disperato – Ahi certo,</l>
             <l>Ricciarda mia, certo il tuo scempio or veggio.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>E teco il mio – se patria io non avessi.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Signor, deh corri a vendicar quel figlio,</l>
             <l>Che non moriva ingrato; abbatti l'empio;</l>
@@ -1217,13 +1236,13 @@
             <l>Posta io l'avea nella vittoria sola</l>
             <l part="I">Di Guelfo.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">O mio misero figlio!... Al pianto,</l>
             <l>Più che all'ira mi sforzi. E sì funesto</l>
             <l part="I">Amor t'acceca?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Amor, io solo il sento;</l>
             <l>Sol io mi so quanto da lunge ei scerna</l>
@@ -1243,7 +1262,7 @@
             <l>T'armi e t'arrischi, onde ti sia men grave</l>
             <l part="I">Se oggi tu il perdi.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Tutto perder bramo,</l>
             <l>Anzi che te; ma tutto perdo io teco</l>
@@ -1251,7 +1270,7 @@
             <l>Finché ogni umano ajuto or la deserta</l>
             <l part="I">Vergine teme o sdegna.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Morir meco,</l>
             <l>Null'altro può, né vuol Ricciarda: e questo</l>
@@ -1269,7 +1288,7 @@
             <l>Veggo lo spettro di Ricciarda; e l'odo</l>
             <l>Parlar, e dirmi – Il padre mio m'ha uccisa.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Empio il conosco; non però il presumo</l>
             <l>Sì disumano. O Guido mio! non vive</l>
@@ -1279,7 +1298,7 @@
             <l>Terror t'illude per l'amata donna;</l>
             <l part="I">Terror men vano è il mio...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Né tu mi salvi –</l>
             <l>Or mi costringi a seguitar tuoi passi,</l>
@@ -1299,22 +1318,22 @@
         <div type="scene">
           <head rend="italic">SCENA TERZA</head>
           <stage rend="sc">Averardo, Guido, Corrado</stage>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="F">Lontano</l>
             <l>Guelfo non è forse da noi: le guardie</l>
             <l part="I">In armi vidi.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Addio... se sconosciuto</l>
             <l>Pur anche io resto, rivedrai tuo padre.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="I">A morte resti... o ciel!...</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">A prova estrema</l>
             <l>Venni, e starmi degg'io fino all'estremo. –</l>
@@ -1325,16 +1344,16 @@
             <l>Priego per te rivolgerò, che padre</l>
             <l part="I">Non sia tu mai.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Me misero! Il tuo prego</l>
             <l>Cadrà su colei ch'esser dovea tua nuora!</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="I">Deh! t'invola.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Purché tu viva;... ah ch'io</l>
             <l>Più mai non tocchi la tua destra, o padre;</l>
@@ -1345,13 +1364,13 @@
         <div type="scene">
           <head rend="italic">SCENA QUARTA</head>
           <stage rend="sc">Averardo, Corrado</stage>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">E tu – tu pur, Corrado,</l>
             <l>Tu, più che figlio, sovrumano amico</l>
             <l part="I">Perir vorrai?</l>
           </sp>
-          <sp>
+          <sp who="#corrado">
             <speaker>CORRADO</speaker>
             <l part="F">Or pel tuo figlio solo</l>
             <l>Tremar dèi tu; ma per la patria io tremo,</l>
@@ -1362,14 +1381,14 @@
         <div type="scene">
           <head rend="italic">SCENA QUINTA</head>
           <stage rend="sc">Averardo, Corrado, Guelfo, Ricciarda, Uomini d'arme</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Costei,</l>
             <l>Di sé donna oggimai, darà alle offerte</l>
             <l>D'Averardo risposta alta, assoluta;</l>
             <l part="I">Né forse a grado mio.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Ma qual l'attende</l>
             <l>Guelfo dalla sua figlia; e il tuo signore</l>
@@ -1382,11 +1401,11 @@
             <l>Il mio signor m'impose oggi ch'io giuri...</l>
             <l part="I">D'obbliar Guido...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="M">Odiarlo.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Io né ciò posso</l>
             <l>Che non è in mia balia; ma se il potesi,</l>
@@ -1420,14 +1439,14 @@
             <l>E dove teco m'accorrai, tel giuro,</l>
             <l part="I">Infelice, e innocente.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Il primo è santo;</l>
             <l>Dell'altro voto io ti sciorrò. Straniero</l>
             <l>Sposo, e lontana sepoltura avrai.</l>
             <l part="I">Esci.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Non morrò d'altri – Ad Averardo</l>
             <l>Dite che il suo figlio consoli... e il salvi.</l>
@@ -1436,26 +1455,26 @@
         <div type="scene">
           <head rend="italic">SCENA SESTA</head>
           <stage rend="sc">Guelfo, Averardo, Corrado, Uomini d'arme</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>T'è assai risposto. Or quanto udisti, apporta.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="I">E guerra insiem?</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E tal che poscia il piano</l>
             <l>Sotterrar possa tutti i vostri, o i miei.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Da capitano il prence mio guerreggia</l>
             <l>Sino al trionfo; né alla strage anela,</l>
             <l part="I">Né morte incauto affronta.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E a me si cela</l>
             <l>E mi manda i più arditi. Or dunque godi</l>
@@ -1469,27 +1488,27 @@
             <l>Tutto il mio sdegno – e tal... ch'io t'abborriva</l>
             <l part="I">Com'io ti vidi.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Non abborro io mai;</l>
             <l>Bensì dispregio. Or tu rompi a tua posta</l>
             <l part="I">La fede.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E della tua chi m'assecura?</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="I">Inermi siam.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Ma non di fraudi. Guido,</l>
             <l>Ch'altri non fu di voi, non venne ei forse</l>
             <l part="I">Qui di soppiatto?</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Se ciò fu, la tregua</l>
             <l>Fu pattuita poscia. A giusta pena</l>
@@ -1498,7 +1517,7 @@
             <l>A te il lor duce chiederan che ostaggio</l>
             <l part="I">Lasciasti a noi.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Se chi t'invia, qui fosse,</l>
             <l>Non sol gli umani sdegni, e le altrui vite</l>
@@ -1513,18 +1532,18 @@
             <l>Mi seguan gli altri su le rocche, e al mare.</l>
             <l>Inevitabil pugna oggi v'appresto</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l>Del dì gran parte è corsa; e fin all'alba</l>
             <l part="I">Già fermata è la tregua.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Io la disdico.</l>
             <l>La notte a voi farà il mio ferro e il foco</l>
             <l part="I">Orrendo più.</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">Te preverremo: e troppa</l>
             <l>Sarà la notte alla empia strage e al lutto.</l>
@@ -1536,7 +1555,7 @@
         <div type="scene">
           <head rend="italic">SCENA PRIMA</head>
           <stage rend="sc">Ricciarda</stage>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Torgli il pugnal degg'io. – Né omai può salvo</l>
             <l>Fuggir per or; né oggi vorrìa lasciarmi.</l>
@@ -1556,11 +1575,11 @@
         <div type="scene">
           <head rend="italic">SCENA SECONDA</head>
           <stage rend="sc">Guido, Ricciarda</stage>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="I">Langue il dì appena, e già qui stai?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Men lieve</l>
             <l>È il mio periglio, or che con molti Guelfo</l>
@@ -1569,23 +1588,23 @@
             <l>I detti estremi deggio dirti; e amaro,</l>
             <l>Amaro più ch'io non credea... l'addio.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Ti scorre intorno il gel di morte – Ah ch'io</l>
             <l>Trafitto almen sia teco or dal novello</l>
             <l part="I">Stral che t'uccide.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Il sei, Guido – Ti ho fatto</l>
             <l>Irrevocabilmente oggi infelice.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Deh parla!... E che farmi infelice or teco</l>
             <l part="I">Può, ch'io nol sappia?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">A te il celai finora –</l>
             <l>Sin da quel dì che tuo fratel perìa,</l>
@@ -1599,11 +1618,11 @@
             <l>Ira e pietà l'assale, e a giurarti odio</l>
             <l part="I">Traeami...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="M">E tu?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Spergiura esser non posso –</l>
             <l>Ma né spietata figlia. Oh se vedessi,</l>
@@ -1617,37 +1636,37 @@
             <l>Dinanzi a due de' tuoi guerrier, giurai...</l>
             <l>D'amarti sì... ma <emph>di non viver tua</emph>.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>O Averardo, che cor quando l'udisti</l>
             <l part="I">Che cor fu il tuo!</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Tuo padre!</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">E vide allora</l>
             <l>Nel mio seno e nel tuo lento piantarsi</l>
             <l>Il sol pugnale ch'io temea di Guelfo.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Né farsi noto a me potea, né guida</l>
             <l part="I">Io farmi a lui; ch'ei per te venne.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">E il vidi!</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Se fosti sordo al generoso padre,</l>
             <l>Me non udrai. Colpevol di tua morte</l>
             <l part="I">Il padre mio teco farai.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Ricciarda</l>
             <l>Pur ti lusinghi? Ancor certa non sei</l>
@@ -1670,7 +1689,7 @@
             <l>Non troncherò: ma vile, e al mondo occulta,</l>
             <l part="I">Reggerò mia vita.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">S'io corressi</l>
             <l>D'altr'uomo in braccio, e tollerarlo, o Guido</l>
@@ -1696,7 +1715,7 @@
             <l>Mi segua... – Un loco evvi di pace, ov'io</l>
             <l part="I">Preceder forse ti dovrò.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Ma il varco</l>
             <l>Il tengo io primo; e dietro guardo sempre</l>
@@ -1704,7 +1723,7 @@
             <l>D'udir sonar la tua ora suprema</l>
             <l part="I">Per mostrarti la via.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Tu il puoi: né un punto,</l>
             <l>A calcar l'orme del tuo sangue, un punto</l>
@@ -1721,7 +1740,7 @@
             <l>T'aspetterà... Deh Guido! a te per ora</l>
             <l part="I">Bastin le mie lagrime estreme.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Estreme</l>
             <l>Non fien per te, se non quando tu al cielo,</l>
@@ -1729,11 +1748,11 @@
             <l>Di virtù prove, tornerai. – Ma inulte</l>
             <l>Pur non saranno. Non morrai tu inulta.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Guido, dammi quel ferro.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Anche la fama,</l>
             <l>A non mertarmi l'ira tua, darei;</l>
@@ -1744,28 +1763,28 @@
             <l>E la memoria dell'amata donna;</l>
             <l part="I">A me non già.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Dammi quel ferro, Guido.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>A te il serbava, se per te il chiedevi;</l>
             <l>Or a me il serbo, allor che disperata</l>
             <l part="I">Sia la tua vita.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Ma, se vedi armata</l>
             <l part="I">Su me la man?...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Basta a più morti un ferro.–</l>
             <l>Ma tu volevi a me celarlo. Morte</l>
             <l>Certa, imminente – e dal padre paventi.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Temo il suo cor turbato e il mio che indurmi</l>
             <l>Non può che d'altri io sia – ma l'amor tuo</l>
@@ -1778,17 +1797,17 @@
             <l>E d'esecrare ogni pietà che avesse</l>
             <l part="I">Della sua figlia.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="M">Abbi il pugnale.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Oh stato!...</l>
             <l>Inerme stai se il lasci; e fra non molto</l>
             <l>Ferverà orrenda la notturna pugna.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Occulto assai qui sto. La pugna e l'alba</l>
             <l>Chiara faran nostra vittoria appieno.</l>
@@ -1796,21 +1815,21 @@
             <l>Che lungamente in cor mi parla, certo</l>
             <l>Son di tua morte. Utile è a Guelfo il ferro.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Ohimè! – Deh Guido il tieni.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Ma funesto</l>
             <l>In mia mano gli fia; né a te più ascondo</l>
             <l part="I">Ciò che a ragion sospetti.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Oh ciel!</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Più caro</l>
             <l>Un brando avrò, se ad Averardo infauste</l>
@@ -1818,14 +1837,14 @@
             <l>Purché tu viva, o mia Ricciarda, Guelfo</l>
             <l>Trionfi e regni, e seco t'abbia ei sempre.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>M'avrà Dio sol. Doman, s'oggi non pero,</l>
             <l>Fuggirò all'ara. Il tempio e il vel di Cristo</l>
             <l>Mi torrà agli occhi umani. – O Guido, allora</l>
             <l>Altro rival tu non avrai che Dio.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Meno infelice, poiché alfin non chiudi</l>
             <l>Tutte le vie di tua salute, or sono –</l>
@@ -1833,17 +1852,17 @@
             <l>Che a Guelfo mai il suo pugnal non rieda.</l>
             <l part="I">Tremando il tolgo dal mio fianco.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">... Ahi rio</l>
             <l>Dubbio!... Ma, se a te il lascio, a te ed al padre</l>
             <l>Funesta e iniqua io mi sarei... – Mel porgi.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Fuggi; e ratto il nascondi; io tremo... Addio.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Ti rivedrò pria che tu parta o Guido;</l>
             <l part="I">Ti rivedrò.</l>
@@ -1851,7 +1870,7 @@
         </div>
         <div type="scene">
           <head rend="italic">SCENA TERZA</head>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">... Né ancor fosca è la sera;</l>
             <l>Me per la reggia ognun vedrìa col ferro...</l>
@@ -1862,7 +1881,7 @@
         <div type="scene">
           <head rend="italic">SCENA QUARTA</head>
           <stage rend="sc">Ricciarda, Guelfo, Uomini d'arme</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Qui rintracciarti io dovrò sempre?... Un'arma</l>
             <l>Di man ti cade! – O! ti conosco atroce</l>
@@ -1873,7 +1892,7 @@
           <stage>
             <emph>Silenzio</emph>
           </stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Empia donna, t'accosta. – Al furor mio,</l>
             <l>Vedi, sottentra alfine orrida calma:</l>
@@ -1882,11 +1901,11 @@
             <l>Non ti credea di questo ferro armata.–</l>
             <l part="I">Conoscil tu?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">... Di Guido... era.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Snudato</l>
             <l>L'hai tu per anche?... Or mira – Tu nol vedi,</l>
@@ -1910,11 +1929,11 @@
             <l>D'un nemico n'armai, per saper sempre</l>
             <l>Che impugna il ferro di quel sangue intriso.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">O madre mia!</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Arretrati. Con mani</l>
             <l>Empie tu quella sepoltura abbracci –</l>
@@ -1923,11 +1942,11 @@
             <l>Destrier li vidi valicare il ponte.</l>
             <l part="I">Rispondi.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Io il tolsi.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Dove? Come? Quando?</l>
             <l>A chi? – Perfida taci? – Ecco la notte;</l>
@@ -1935,11 +1954,11 @@
             <l>Me dal pugnar. Ma vincitore, o vinto,</l>
             <l>Tornerò a darti libertà sol io.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Dal ciel l'aspetto, ed innocente.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Ardita</l>
             <l>Ti se' fatta ad un tratto? In te più l' onta</l>
@@ -1949,7 +1968,7 @@
             <l>Mi rivedrai: tu invan, perfida, allora</l>
             <l part="I">Eluderai le mie domande.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Stava</l>
             <l>Nella tua casa il ferro. A disviarlo</l>
@@ -1962,7 +1981,7 @@
             <l>Né con quel ferro, me dall'infelice</l>
             <l part="I">Mia vita sciogli...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Il mio periglio cresce</l>
             <l>Quanto più tardo la vendetta mia...</l>
@@ -1996,7 +2015,7 @@
           <head rend="italic">SCENA PRIMA</head>
           <stage>Notte</stage>
           <stage rend="sc">Ricciarda, Uomini d'arme</stage>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Più la comune che la mia sventura</l>
             <l>Pianger dèi tu. Del cor discreto, umano</l>
@@ -2017,7 +2036,7 @@
         <div type="scene">
           <head rend="italic">SCENA SECONDA</head>
           <stage rend="sc">Guelfo, Ricciarda, Uomini d'arme, Guerrieri</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Tempo a regnar m'avanza sol ch'io possa</l>
             <l>Morir senz'esser domo. – Ite voi dunque,</l>
@@ -2031,28 +2050,28 @@
         <div type="scene">
           <head rend="italic">SCENA TERZA</head>
           <stage rend="sc">Guelfo, Ricciarda</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Or m'odi –</l>
             <l>Dicesti tu, che sovra me pendeva</l>
             <l part="I">Il ferro?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Il dissi.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E tel die' Guido. Ad altri</l>
             <l>Concesso ei non avria sì caro arnese.</l>
             <l>E sol d'oggi l'avesti? – Donna, al padre</l>
             <l part="I">E al ciel tu parli dal sepolcro.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">D'oggi.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Chi fuggì all'alba un brando avea: se questo</l>
             <l>Pensatamente ei ti recava, iniqua</l>
@@ -2067,17 +2086,17 @@
             <l>Pende da un detto il viver tuo. Rispondi:</l>
             <l part="I">Dov'è?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Qui il vidi: ma non seppi io dove</l>
             <l part="I">S'andasse.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Parla – Breve tempo a' detti,</l>
             <l>E alla tranquilla mia ragione avanza.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Qui, ove ti parlo i detti estremi, il vidi.</l>
             <l>E ch'io, signor, non menta, abbine prova</l>
@@ -2085,23 +2104,23 @@
             <l>Mel chiederesti. Né del suo furore</l>
             <l part="I">Vo' farmi rea, né di sua morte...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">O il sangue</l>
             <l>Oggi darammi, o un sempiterno pianto.</l>
             <l>Vinto non son se ho la vendetta in pugno.</l>
             <l part="I">Ei quindi, o tu non dèi più viver.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Io.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Colpevol sei, se per lui mori, indegna!</l>
             <l>Colpevol più, che mel sottraggi – Or mori...</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Sangue versi innocente! – a me quel ferro...</l>
             <l>L'immergerò dentro il mio petto io sola...</l>
@@ -2116,12 +2135,12 @@
             <l>Mai da più dì, mi die' il ferro a non trarlo</l>
             <l>Se mi vedeva in quest'orribil punto...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Ahi nuova orrida angoscia!... ei parricida</l>
             <l>Può ancor vedermi, e non potrò svenarlo!</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>A me dunque quel ferro. Eccomi presso</l>
             <l>A mia madre per sempre: in pugno l'elsa</l>
@@ -2133,7 +2152,7 @@
             <l>Il verso io stessa, onde a te innanzi il padre</l>
             <l part="I">Del mio sangue non grondi.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">In Dio tu fidi?</l>
             <l>In Dio che solo a vendicarsi regna?</l>
@@ -2162,11 +2181,11 @@
             <l>A terra, a terra, fatal daga... O figlia...</l>
             <l>Trammi a morir... io più viver... non deggio.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Vien meco, vien...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Profugo prence, trova</l>
             <l>Certa una tomba mai? Potente io fui,</l>
@@ -2175,25 +2194,25 @@
             <l>Arde già... Infida una città toscana</l>
             <l>L'empiea di vele; e i miei navigli incende</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Apre il suo grembo agl'infelici Iddio.</l>
             <l>Padre, deh! vien... Te fuggir regalmente,</l>
             <l>Solo a salvar la figlia tua, vedranno:</l>
             <l>Avran pietà di noi prostrati all'ara.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>L'abbian di te; d'essi non l'ebbi io mai.</l>
             <l>Obbrobrio obbrobrio mi sarà lo scettro</l>
             <l>Se nol porto sotterra! – O donna, fuggi:</l>
             <l>Sto co' miei padri che non fur mai vili.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Ch'io mai ti lasci?</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Io del legnaggio mio</l>
             <l>Unico resto, e al nuovo sol fia spento!</l>
@@ -2202,12 +2221,12 @@
             <l>Anche dal mio cadavere il tuo pianto</l>
             <l>M'involerà?... Non m'ha già tolto i figli?</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Ohimè! deh torci da quell'arma il guardo...</l>
             <l>Non m'ode, ahi lassa! e più truce la mira!</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>... Torna a me dunque, o dono orrido! – Rabbia</l>
             <l>Ti mise in cor d'un mio figliuolo. Rabbia</l>
@@ -2218,7 +2237,7 @@
           <stage>
             <emph>Silenzio.</emph>
           </stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Dov'è colui?... su le reliquie sieda</l>
             <l>Anche de'morti, io nel trarrò. – Codardo,</l>
@@ -2229,14 +2248,14 @@
         <div type="scene">
           <head rend="italic">SCENA QUARTA</head>
           <stage><emph>Ricciarda sola, abbracciando silenziosa il sepolcro di sua madre, mentre Guelfo si precipita verso le volte sotterranee</emph>.</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker><emph>La voce di</emph> GUELFO</speaker>
             <stage>(<emph>lontana</emph>)</stage>
             <l part="F">La tua</l>
             <l part="I">Donna per te morrà.</l>
           </sp>
           <stage><emph>Silenzio</emph>.</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker><emph>La voce di</emph> GUELFO</speaker>
             <stage>(<emph>ravvicinandosi</emph>)</stage>
             <l part="M">Esci, codardo!</l>
@@ -2246,19 +2265,19 @@
         <div type="scene">
           <head rend="italic">SCENA QUINTA</head>
           <stage rend="sc">Guelfo, Ricciarda</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Ma vieni tu; perfida tu, dèi farmi</l>
             <l>Scorta a trovarlo, a scoperchiar quell'arche,</l>
             <l>A sovvertir le ceneri, e dall'ossa</l>
             <l part="I">Dissotterrarlo...</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Statti... oh ciel!... Col mio</l>
             <l part="I">Spirto sol lascio la tua man.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Codardo!</l>
             <l>Codardo! intendi, o la tua donna è morta.</l>
@@ -2269,17 +2288,17 @@
         <div type="scene">
           <head rend="italic">SCENA SESTA</head>
           <stage rend="sc">Guelfo, Ricciarda, Guido</stage>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">T'odo.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Non ti sciorrai fuor di mie braccia, o padre...</l>
             <l>Morta dattorno ti starò più avvinta. –</l>
             <l part="I">Tu Guido, fuggi... deh!...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Costei nud'ombra</l>
             <l>Ti seguirà, se fuggi. – Non far passo;</l>
@@ -2287,7 +2306,7 @@
             <l>Non ripigli il tuo ferro, il riavrai</l>
             <l>Caldo nel petto dell'amata donna.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>A ripigliarlo accorsi, e puro ancora</l>
             <l>Del sangue suo; non già che in te presuma</l>
@@ -2308,21 +2327,21 @@
             <l>Al mar, tua degna tomba. – Ecco mie leggi.</l>
             <l>Seguo or le tue. Immobil taccio, e aspetto.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Trapasseran per questo petto i colpi,</l>
             <l part="I">O forsennati...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="M">Svolgiti...</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Mio Dio!</l>
             <l>Mi togli... ch'io l'empia strage... non vegga.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Non le minacce tue, ma il costei pianto</l>
             <l>Fammi perplesso; e ancor per poco – Ahi d'altro</l>
@@ -2338,7 +2357,7 @@
             <l>E se per altra via giunger non posso</l>
             <l>Sino al tuo core, il piagherò per questa.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l>Donna, se a lui basta il mio sangue, or lui</l>
             <l>D'orribil colpa, e me d'orribil vita</l>
@@ -2346,27 +2365,27 @@
             <l part="I">Guelfo...</l>
           </sp>
           <stage><emph>All'avvicinarsi di Guido, Guelfo si avventa e lo ferisce, e Ricciarda torna ad afferrargli il braccio</emph>.</stage>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="M">Ahi! – non più...</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Fu scarso il colpo; il sangue</l>
             <l>Mi sgorga a pena, e non dal core: or vedi,</l>
             <l part="I">So più morir, che tu ferire.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Or Guido,</l>
             <l part="I">Sì m'ami tu?... T'arretra!...</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">E ancor l'hai salvo!...</l>
             <l>D'armi e di faci ecco la reggia è piena...</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Guido siam salvi! Arretrati – mio padre</l>
             <l part="I">Non ferirà la figlia sua.</l>
@@ -2375,28 +2394,28 @@
         <div type="scene">
           <head rend="italic">SCENA ULTIMA</head>
           <stage><emph rend="sc">Guelfo, Ricciarda, Guido, Averardo, Corrado. Guerrieri</emph><emph>e</emph><emph rend="sc">Uomini d'arme</emph><emph>con fiaccole</emph>.</stage>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Nessuno</l>
             <l>S'accosti a Guelfo; o svenerà Ricciarda.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Mio fratel chi è di voi? – Mostrisi omai</l>
             <l part="I">Col trucidarmi.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="F">Lasciami, o Averardo,</l>
             <l>Il padre, a me, che t'ho serbato il figlio.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l>Tu se' Averardo! Tu? Securo stavi</l>
             <l>Fra' carnefici miei! – Tu sciagurata,</l>
             <l part="I">Già il conoscevi?</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">In me, Guelfo, in me piena</l>
             <l>Farai vendetta; in me che il merto, e insieme</l>
@@ -2405,14 +2424,14 @@
             <l>Immolerai tu per salvarmi, o Padre?</l>
             <l part="I">Mi lascia...</l>
           </sp>
-          <sp>
+          <sp who="#averardo">
             <speaker>AVERARDO</speaker>
             <l part="F">E meco andrai sotto quel ferro. –</l>
             <l>Odimi, o Guelfo. Al sangue tuo perdona;</l>
             <l>Perdona; ed abbi e vita e regno e pace;</l>
             <l part="I">E m'odia.</l>
           </sp>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Odiarti, e la ignominia e il lutto</l>
             <l>Tollerar sempre di vederti vivo? –</l>
@@ -2428,23 +2447,23 @@
             <l>Ma certa omai, darà questa ferita.</l>
           </sp>
           <stage><emph>Trafiggendo la figlia</emph>.</stage>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l part="I">Accogli, o madre!... la tua figlia.</l>
           </sp>
-          <sp>
+          <sp who="#guido">
             <speaker>GUIDO</speaker>
             <l part="F">Crudo</l>
             <l>Più del tuo padre il mio, mi toglie a forza</l>
             <l>Di venir teco. Addio, ma per breve ora.</l>
           </sp>
-          <sp>
+          <sp who="#ricciarda">
             <speaker>RICCIARDA</speaker>
             <l>Vivi... ch'io possa rivederti. Tua</l>
             <l part="I">Moro – Perdona... al padre... mio.</l>
           </sp>
           <stage><emph>Spira</emph>.</stage>
-          <sp>
+          <sp who="#guelfo">
             <speaker>GUELFO</speaker>
             <l part="F">Ti sieguo.</l>
           </sp>

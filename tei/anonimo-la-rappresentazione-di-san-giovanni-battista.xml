@@ -80,6 +80,61 @@
           <term>Letteratura teatrale</term>
         </keywords>
       </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="angelo">
+            <persName>Un Angelo che annuncia</persName>
+          </person>
+          <person xml:id="san_giovanni">
+            <persName>San Giovanni Battista</persName>
+          </person>
+          <personGrp xml:id="scribi">
+            <name>Gli Scribi del Re Erode</name>
+          </personGrp>
+          <person xml:id="gesù">
+            <persName>Gesù Cristo</persName>
+          </person>
+          <person xml:id="spirito_santo">
+            <persName>Lo Spirito Santo</persName>
+          </person>
+          <person xml:id="re_erode">
+            <persName>Il Re Erode</persName>
+          </person>
+          <person xml:id="reina">
+            <persName>La Reina</persName>
+          </person>
+          <person xml:id="vassallo">
+            <persName>Il Vassallo del Re</persName>
+          </person>
+          <person xml:id="araldo">
+            <persName>L'Araldo del Re</persName>
+          </person>
+          <person xml:id="signore">
+            <persName>Signore</persName>
+          </person>
+          <person xml:id="altro_signore">
+            <persName>Altro Signore</persName>
+          </person>
+          <person xml:id="fanciulla">
+            <persName>La Fanciulla</persName>
+          </person>
+          <person xml:id="barone">
+            <persName>Barone</persName>
+          </person>
+          <person xml:id="altro_barone">
+            <persName>Altro Barone</persName>
+          </person>
+          <person xml:id="siniscalco">
+            <persName>Il Siniscalco</persName>
+          </person>
+          <person xml:id="manigoldo">
+            <persName>Il Manigoldo</persName>
+          </person>
+          <person xml:id="adamo">
+            <persName>Adamo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
     <revisionDesc>
       <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
@@ -138,8 +193,7 @@
         <castItem>
           <role>Il Manigoldo</role>
         </castItem>
-        <castItem>
-          <role>Adamo e i Santi Padri del Limbo</role>
+        <castItem><role>Adamo</role> e i <role>Santi Padri del Limbo</role>
         </castItem>
       </castList>
     </front>
@@ -149,7 +203,7 @@
       </div>
       <div n="La rappresentazione di San Giovanni Battista quando fu decollato">
         <stage rend="italic">In prima viene uno Angelo e annuncia dicendo le infrascritte stanze:</stage>
-        <sp>
+        <sp who="#angelo">
           <speaker rend="sc">ANGELO</speaker>
           <lg>
             <l>A voi, sapïenti cittadini,</l>
@@ -223,7 +277,7 @@
           </lg>
         </sp>
         <stage rend="italic">Viene San Giovanni e dice così:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>O gente umana, fonte d'eccellenza,</l>
@@ -257,7 +311,7 @@
           </lg>
         </sp>
         <stage rend="italic">Ora battezza tutti i discepoli ed ha a dire questa stanza. E quando sono battezzati, verranno gli Scribi del Re a San Giovanni e dimandano chi egli è:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Battezzo in acqua a questa nuova legge</l>
@@ -271,7 +325,7 @@
           </lg>
         </sp>
         <stage rend="italic">Vengono gli Scribi a San Giovanni, cioè due bellissimi barbassori e dicono così a San Giovanni:</stage>
-        <sp>
+        <sp who="#scribi">
           <speaker rend="sc">SCRIBI</speaker>
           <lg>
             <l>Qual si sia la cagion del tuo venire,</l>
@@ -285,7 +339,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni agli Scribi e dice così:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Cristo non son, che innanzi a me è nato</l>
@@ -296,14 +350,14 @@
           </lg>
         </sp>
         <stage rend="italic">Rispondo&lt;no&gt; gli Scribi e dicono con furia a San Giovanni:</stage>
-        <sp>
+        <sp who="#scribi">
           <speaker rend="sc">SCRIBI</speaker>
           <lg>
             <l>Perché dunque battezzi, o per qual via?</l>
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Battezzo in acqua ed in Cristo mi fido</l>
@@ -311,7 +365,7 @@
           </lg>
         </sp>
         <stage rend="italic">Hae a parire Gesù e Dio Padre in sul monte e hae a venire Gesù con quattro angeli, due innanzi e due a drieto, e hae a venire tanto adagio tanto che San Giovanni dica questa istanza innanzi che giunga a Lui:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Volgete, gente umana, lo 'ntelletto</l>
@@ -325,7 +379,7 @@
           </lg>
         </sp>
         <stage rend="italic">Parla ancora San Giovanni e volgesi agli Scribi e mostra loro Gesù e dice:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Ecco l'Agnel di Dio immaculato,</l>
@@ -349,7 +403,7 @@
           </lg>
         </sp>
         <stage rend="italic">Giugne Gesù tra loro e tutti si gettono bocconi. Gesù sì dice:</stage>
-        <sp>
+        <sp who="#gesù">
           <speaker rend="sc">GESÙ</speaker>
           <lg>
             <l>La pace mia, che in eterno meno</l>
@@ -373,7 +427,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni a Gesù:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Omè, omè, benigno Signor mio,</l>
@@ -383,7 +437,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde Gesù a San Giovanni:</stage>
-        <sp>
+        <sp who="#gesù">
           <speaker rend="sc">GESÙ</speaker>
           <lg>
             <l>Taci, che questo piace al Padre mio,</l>
@@ -391,7 +445,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni a Gesù:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Oltre, poiché a lui piace, andianne all'acque.</l>
@@ -399,7 +453,7 @@
           </lg>
         </sp>
         <stage rend="italic">Hae a venire una colomba cioè lo Spirito Santo ed hae a essere una boce nascosa che dica per quella colomba e hae a dire questa istanza che dice così:</stage>
-        <sp>
+        <sp who="#spirito_santo">
           <speaker rend="sc">SPIRITO SANTO</speaker>
           <lg>
             <l>Ecco che quest'è el mio Figliuol diletto</l>
@@ -413,7 +467,7 @@
           </lg>
         </sp>
         <stage rend="italic">Vassene Gesù in sul monte e San Giovanni ripiglia la sua predica e dice sette stanze che dicono così:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>— Apparecchiate la via al Signore,</l>
@@ -487,7 +541,7 @@
           </lg>
         </sp>
         <stage rend="italic">Ora &lt;il Re&gt; ha venire nel diserto ed ha a giungere innanzi che questa stanza qui di sopra sia fornita, e San Giovanni gli ha a dire queste tre stanze che sono qui da piè:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>O sempiterno ed infinito e pio,</l>
@@ -521,7 +575,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Re a San Giovanni:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>O profeta di Dio alluminato,</l>
@@ -531,7 +585,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni così:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Ah folle Re, non mel tener celato!</l>
@@ -541,7 +595,7 @@
           </lg>
         </sp>
         <stage rend="italic">Ritorna il Re a casa e vassene di tratto alla Femmina e sì le dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Omè dolente a me, isventurato!</l>
@@ -555,7 +609,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Femmina tutta turbata, quasi in atto di piangere, e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker rend="sc">REINA</speaker>
           <lg>
             <l>Omè, misera a me, o tapinella,</l>
@@ -569,7 +623,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Re e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Taci, donna, non dir cota' parole,</l>
@@ -579,7 +633,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Femmina e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker rend="sc">REINA</speaker>
           <lg>
             <l>Ahi franco Re, sa' tu che far si vuole?</l>
@@ -599,7 +653,7 @@
           </lg>
         </sp>
         <stage rend="italic">Parla il Re e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Taci, donna, non dir, raffrena omai</l>
@@ -613,7 +667,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Femmina e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker rend="sc">REINA</speaker>
           <lg>
             <l>La cagion c'è se te la metti in testa,</l>
@@ -635,7 +689,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Re subitamente e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Fia fatto, donna, eccoti, 'l &lt;tu&gt;o talento.</l>
@@ -643,7 +697,7 @@
           </lg>
         </sp>
         <stage rend="italic">E dette queste parole, il Re ne va in sedia e chiama il Vassallo e 'l Vassallo va e inginocchiasi e 'l Re dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Muovi, Vassallo, e vattene al diserto,</l>
@@ -657,7 +711,7 @@
           </lg>
         </sp>
         <stage rend="italic">Muovesi el Vassallo e va e a San Giovanni e dice così a San Giovanni:</stage>
-        <sp>
+        <sp who="#vassallo">
           <speaker rend="sc">VASSALLO</speaker>
           <lg>
             <l>O buon Giovanni, a Dio servo fedele,</l>
@@ -671,7 +725,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni al Vassallo e dice quattro versi e poi il Re si leva di sedia e vassene dov'è la Femmina e ivi aspetta San Giovanni. Dice San Giovanni:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Laudato sia l'eterno e sommo Iddio,</l>
@@ -681,7 +735,7 @@
           </lg>
         </sp>
         <stage rend="italic">Giugne San Giovanni al Re e dice così:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Eccomi, Re, a tutto il tuo disio.</l>
@@ -689,7 +743,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Re presto e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Ah Giovanni, Giovanni, il tuo rigoglio</l>
@@ -703,7 +757,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni al Re:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Io dico, Re, se vuoi fuggire il lutto</l>
@@ -713,7 +767,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Femmina che è quivi presente e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker rend="sc">REINA</speaker>
           <lg>
             <l>O sapïente Re e magno Signore,</l>
@@ -727,7 +781,7 @@
           </lg>
         </sp>
         <stage rend="italic">Parla il Re con gran superbia e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Oltre, franchi scudier, pigliate questo</l>
@@ -741,7 +795,7 @@
           </lg>
         </sp>
         <stage rend="italic">Fu preso e messo in prigione e il Re se ne va in sedia allegro e dice a' Baron così. Ora ha dire il Re all'Araldo che vada a invitare la baronia:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Fatti qua presto, o cavaliere Araldo,</l>
@@ -755,7 +809,7 @@
           </lg>
         </sp>
         <stage rend="italic">Partesi l'Araldo e va annunziare e dice:</stage>
-        <sp>
+        <sp who="#araldo">
           <speaker rend="sc">ARALDO</speaker>
           <lg>
             <l>Magnifico Signore, in veritate</l>
@@ -769,7 +823,7 @@
           </lg>
         </sp>
         <stage rend="italic">Partesi l'Araldo, e vassene il Signore colla sua gente e dice così:</stage>
-        <sp>
+        <sp who="#signore">
           <speaker rend="sc">SIGNORE</speaker>
           <lg>
             <l>Po' ch'a lui piace, i' son molto contento</l>
@@ -779,7 +833,7 @@
           </lg>
         </sp>
         <stage rend="italic">Giungono al Re e dicon così:</stage>
-        <sp>
+        <sp who="#signore">
           <speaker rend="sc">SIGNORE</speaker>
           <lg>
             <l>Eccoti, Re, che t'è in piacimento</l>
@@ -789,7 +843,7 @@
           </lg>
         </sp>
         <stage rend="italic">Giungono tutti e Signori e Baroni e 'l Re dice loro così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Venerabili miei Regi e Signori</l>
@@ -823,7 +877,7 @@
           </lg>
         </sp>
         <stage rend="italic">Vannone tutti a tavola e mangiano e quando hanno mezzo mangiato e la Reina manda la Fanciulla a ballare ed ella va e balla una danza poi fa lo inchino al Re suo padre e quivi si rizza uno di quegli Signori e dice così al Re:</stage>
-        <sp>
+        <sp who="#altro_signore">
           <speaker rend="sc">ALTRO SIGNORE</speaker>
           <lg>
             <l>O glorïosa Maestà regale,</l>
@@ -837,7 +891,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Re e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Cara la vita mia, Signor, mi tegno</l>
@@ -851,7 +905,7 @@
           </lg>
         </sp>
         <stage rend="italic">Partesi la Fanciulla dalla tavola e vassene alla Madre e dice così:</stage>
-        <sp>
+        <sp who="#fanciulla">
           <speaker rend="sc">FANCIULLA</speaker>
           <lg>
             <l>Diletta madre mia, i' sono stata</l>
@@ -865,7 +919,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Madre alla Figlia e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker rend="sc">REINA</speaker>
           <lg>
             <l>Va, dolce figlia mia, al Re tuo padre.</l>
@@ -879,7 +933,7 @@
           </lg>
         </sp>
         <stage rend="italic">Or si parte la Fanciulla dalla Madre e va al Re e dice così:</stage>
-        <sp>
+        <sp who="#fanciulla">
           <speaker rend="sc">FANCIULLA</speaker>
           <lg>
             <l>O degnitosi, egregi Signor cari,</l>
@@ -893,7 +947,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponda il Re e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Omè, omè, figliuola, maledetta</l>
@@ -917,7 +971,7 @@
           </lg>
         </sp>
         <stage rend="italic">A queste parole la Fanciulla fa vista di piangere, ed un Barone si rizza su e dice così:</stage>
-        <sp>
+        <sp who="#barone">
           <speaker rend="sc">BARONE</speaker>
           <lg>
             <l>O sapïente e vera Monarchia,</l>
@@ -931,7 +985,7 @@
           </lg>
         </sp>
         <stage rend="italic">Ancora sta pertinace il Re e un altro Barone si rizza sù e dice così:</stage>
-        <sp>
+        <sp who="#altro_barone">
           <speaker rend="sc">ALTRO BARONE</speaker>
           <lg>
             <l>Oltre sù, Signore, deh, questo giorno</l>
@@ -945,7 +999,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Re e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Io vorre' nanzi che 'l mio regno fosse</l>
@@ -969,7 +1023,7 @@
           </lg>
         </sp>
         <stage rend="italic">Fassi innanzi il Siniscalco e chiama tutta la sua gente e dice così:</stage>
-        <sp>
+        <sp who="#siniscalco">
           <speaker rend="sc">SINISCALCO</speaker>
           <lg>
             <l>Oltre sù, con prestezza, nonne state,</l>
@@ -983,7 +1037,7 @@
           </lg>
         </sp>
         <stage rend="italic">Hanno a 'ndare alla prigione ma hanno a 'spettare che Gesù si parta da San Giovanni e poi hanno a correre là. Dice Gesù a San Giovanni:</stage>
-        <sp>
+        <sp who="#gesù">
           <speaker rend="sc">GESÙ</speaker>
           <lg>
             <l>O buon Giovanni, il fin di questa vita</l>
@@ -1027,7 +1081,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>O Verbo eterno, o Gesù benedetto,</l>
@@ -1041,7 +1095,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde Gesù a San Giovanni:</stage>
-        <sp>
+        <sp who="#gesù">
           <speaker rend="sc">GESÙ</speaker>
           <lg>
             <l>Istà forte, Giovanni, che gran frutto</l>
@@ -1051,7 +1105,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Pon mente al viso mio lieto e asciutto:</l>
@@ -1061,7 +1115,7 @@
           </lg>
         </sp>
         <stage rend="italic">Viene il Manigoldo alla prigione e dice così a San Giovanni:</stage>
-        <sp>
+        <sp who="#manigoldo">
           <speaker rend="sc">MANIGOLDO</speaker>
           <lg>
             <l>Vien qua Giovanni, e tien la mente desta.</l>
@@ -1071,7 +1125,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Laudato Iddio ad ogni sua richiesta.</l>
@@ -1081,7 +1135,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde il Manigoldo e dice:</stage>
-        <sp>
+        <sp who="#manigoldo">
           <speaker rend="sc">MANIGOLDO</speaker>
           <lg>
             <l>Perdonami per Dio, Giovanni buono,</l>
@@ -1091,7 +1145,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde San Giovanni:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Fa francamente, che baleno o tuono</l>
@@ -1101,7 +1155,7 @@
           </lg>
         </sp>
         <stage rend="italic">San Giovanni chinò el capo e fugli tagliato e il Siniscalco aspetta col bacino e drento vi messe la testa, e dipartissi l'Anima dal corpo e andonne al Limbo e disse così a' Santi Padri che sono nel Limbo:</stage>
-        <sp>
+        <sp who="#san_giovanni">
           <speaker rend="sc">SAN GIOVANNI</speaker>
           <lg>
             <l>Celeste gaudio e letizia infinita</l>
@@ -1115,7 +1169,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde Adamo e dice così:</stage>
-        <sp>
+        <sp who="#adamo">
           <speaker rend="sc">ADAMO</speaker>
           <lg>
             <l>Quel vero Iddio Figliuol di Dio, che nato</l>
@@ -1129,7 +1183,7 @@
           </lg>
         </sp>
         <stage rend="italic">Il Siniscalco porta la testa in mensa e dice così:</stage>
-        <sp>
+        <sp who="#siniscalco">
           <speaker rend="sc">SINISCALCO</speaker>
           <lg>
             <l>Ecco, magno Signor, la chiesta testa</l>
@@ -1138,7 +1192,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde subito il Re e dice così:</stage>
-        <sp>
+        <sp who="#re_erode">
           <speaker rend="sc">RE ERODE</speaker>
           <lg>
             <l>Cattiva, dolorosa figlia ria,</l>
@@ -1149,7 +1203,7 @@
           </lg>
         </sp>
         <stage rend="italic">La Fanciulla prese la testa e portolla alla Madre e dice così alla Madre:</stage>
-        <sp>
+        <sp who="#fanciulla">
           <speaker rend="sc">FANCIULLA</speaker>
           <lg>
             <l>Ecco, diletta madre, del Battista</l>
@@ -1159,7 +1213,7 @@
           </lg>
         </sp>
         <stage rend="italic">Risponde la Madre e dice così:</stage>
-        <sp>
+        <sp who="#reina">
           <speaker rend="sc">REINA</speaker>
           <lg>
             <l>Mostra qua, dolce figlïuola. Vista!...</l>
@@ -1169,7 +1223,7 @@
           </lg>
         </sp>
         <stage rend="italic">Dette queste parole, hassi a fare ruinare la Reina e fare uno scoppio che s'accordi l'uno coll'altro e la terra s'apre ed inghiottisce la Reina. Dipoi dice l'Angelo questa stanza e licenzia ognuno:</stage>
-        <sp>
+        <sp who="#angelo">
           <speaker rend="sc">ANGELO</speaker>
           <lg>
             <l>O voi ch'avete la festa veduta</l>

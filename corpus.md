@@ -1,0 +1,1 @@
+Derived from [Biblioteca italiana](http://www.bibliotecaitaliana.it/), maintained by Frank Fischer and Carsten Milling. Features 139 Italian plays from the 15th to the 20th century. For a corpus description and a list of enhancements please see the [README on GitHub](https://github.com/dracor-org/itadracor).

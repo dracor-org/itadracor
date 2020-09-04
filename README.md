@@ -35,3 +35,6 @@ ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carst
 
 ### 24.–27.02.2020
 * Fix some speaker IDs and dissolve ```#tutti```/```#tutte```.
+
+### 04.09.2020
+* Add years for first print, premiere and creation date (entire corpus).

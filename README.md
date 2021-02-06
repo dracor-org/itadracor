@@ -38,3 +38,6 @@ ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carst
 
 ### 04.09.2020
 * Add years for first print, premiere and creation date (entire corpus).
+
+### 06.02.2021
+* Recode author details (using ```<forename>```, ```<surname>```, etc.).

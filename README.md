@@ -11,7 +11,7 @@ Actually, 171 items are categorised as "Letteratura teatrale" in Biblioteca Ital
 
 The ```<availability>``` information given in each file reads: "Questa risorsa digitale è liberamente accessibile per uso personale o scientifico." ("This digital resource is freely accessible for personal or scientific use.")
 
-ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carsten Milling. – Thanks go to Fabio Ciotti for helpful advice.
+ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carsten Milling. – Thanks go to [Michael Sonkin](https://twitter.com/Migabaj) for additional character annotations (gender, relations, Wikidata IDs) and to Fabio Ciotti for helpful advice.
 
 ## Changelog
 ### 03.02.2020
@@ -41,3 +41,9 @@ ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carst
 
 ### 06.02.2021
 * Recode author details (using ```<forename>```, ```<surname>```, etc.).
+
+### 18.03.2021
+* Fix some errors in speaker IDs ([commit](https://github.com/dracor-org/itadracor/commit/f61867b47a17ac4ed200a8e5ee72886fe275ca4e)).
+
+### 20.03.2021
+* Add gender information for all characters.

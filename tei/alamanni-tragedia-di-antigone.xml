@@ -91,36 +91,42 @@
       </textClass>
       <particDesc>
         <listPerson>
-          <person xml:id="antigone" sex="FEMALE">
+          <person xml:id="antigone" sex="FEMALE" ana="http://www.wikidata.org/entity/Q131351">
             <persName>Antigone</persName>
           </person>
-          <person xml:id="ismene" sex="FEMALE">
+          <person xml:id="ismene" sex="FEMALE" ana="http://www.wikidata.org/entity/Q753902">
             <persName>Ismene</persName>
           </person>
           <personGrp xml:id="coro" sex="MALE">
             <name>Coro</name>
           </personGrp>
-          <person xml:id="creonte" sex="MALE">
+          <person xml:id="creonte" sex="MALE" ana="http://www.wikidata.org/entity/Q732066">
             <persName>Creonte</persName>
           </person>
           <person xml:id="messo" sex="MALE">
             <persName>Messo</persName>
           </person>
-          <person xml:id="emone" sex="MALE">
+          <person xml:id="emone" sex="MALE" ana="http://www.wikidata.org/entity/Q733985">
             <persName>Emone</persName>
           </person>
-          <person xml:id="tiresia" sex="MALE">
+          <person xml:id="tiresia" sex="MALE" ana="http://www.wikidata.org/entity/Q656881">
             <persName>Tiresia</persName>
           </person>
           <person xml:id="nunzio" sex="MALE">
             <persName>Nunzio</persName>
           </person>
-          <person xml:id="euridice" sex="FEMALE">
+          <person xml:id="euridice" sex="FEMALE" ana="http://www.wikidata.org/entity/Q1378457">
             <persName>Euridice</persName>
           </person>
           <person xml:id="servo" sex="MALE">
             <persName>Servo</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="siblings" mutual="#antigone #ismene"/>
+            <relation name="spouses" mutual="#creonte #euridice"/>
+            <relation name="parent_of" active="#creonte #euridice" passive="#emone"/>
+            <relation name="related_with" active="#antigone" passive="#creonte"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

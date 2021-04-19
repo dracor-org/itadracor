@@ -46,4 +46,7 @@ ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carst
 * Fix some errors in speaker IDs ([commit](https://github.com/dracor-org/itadracor/commit/f61867b47a17ac4ed200a8e5ee72886fe275ca4e)).
 
 ### 20.03.2021
-* Add gender information for all characters.
+* Add gender information for all characters ([commit](https://github.com/dracor-org/itadracor/commit/f535f4b1a7c2b32a2f7e80d160a95b7f59f00119)).
+
+### 19.04.2021
+* Add Wikidata IDs for historical and mythological characters.

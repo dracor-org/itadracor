@@ -94,7 +94,7 @@
           <person xml:id="dio" sex="UNKNOWN">
             <persName>Dio che gli appare in sogno</persName>
           </person>
-          <person xml:id="salamone" sex="MALE">
+          <person xml:id="salamone" sex="MALE" ana="http://www.wikidata.org/entity/Q37085">
             <persName>Salamone</persName>
           </person>
           <person xml:id="cognata_buona" sex="FEMALE">
@@ -109,6 +109,9 @@
           <person xml:id="angelo_che_licenzia" sex="UNKNOWN">
             <persName>L'Angelo che licenzia il popolo</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="associated_with" active="#messo" passive="#salamone"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

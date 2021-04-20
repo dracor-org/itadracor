@@ -141,6 +141,12 @@
           <personGrp xml:id="due_donne" sex="FEMALE">
             <name>Due Donne</name>
           </personGrp>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#contessa #conte"/>
+            <relation name="spouses" mutual="#susanna #figaro"/>
+            <relation name="parent_of" active="#antonio" passive="#barbarina"/>
+            <relation name="related_with" active="#antonio" passive="#susanna"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

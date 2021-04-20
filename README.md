@@ -49,4 +49,7 @@ ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carst
 * Add gender information for all characters ([commit](https://github.com/dracor-org/itadracor/commit/f535f4b1a7c2b32a2f7e80d160a95b7f59f00119)).
 
 ### 19.04.2021
-* Add Wikidata IDs for historical and mythological characters.
+* Add Wikidata IDs for historical and mythological characters ([commit](https://github.com/dracor-org/itadracor/commit/59b7f2480f7e111ee5067ce7ce74c38d40464a70)).
+
+### 20.04.2021
+* Add character relations to some plays.

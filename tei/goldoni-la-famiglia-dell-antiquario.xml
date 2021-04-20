@@ -130,6 +130,14 @@
           <person xml:id="pancrazio" sex="MALE">
             <persName>Pancrazio</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#isabella #anselmo"/>
+            <relation name="parent_of" active="#anselmo #isabella" passive="#giacinto"/>
+            <relation name="parent_of" active="#pantalone" passive="#doralice"/>
+            <relation name="spouses" mutual="#doralice #giacinto"/>
+            <relation name="associated_with" active="#colombina" passive="#isabella"/>
+            <relation name="associated_with" active="#brighella" passive="#anselmo"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

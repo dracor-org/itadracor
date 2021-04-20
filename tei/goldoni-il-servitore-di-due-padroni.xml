@@ -133,6 +133,13 @@
           <personGrp xml:id="camerieri" sex="MALE">
             <name>Camerieri d'osteria</name>
           </personGrp>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#pantalone" passive="#clarice"/>
+            <relation name="parent_of" active="#dottore" passive="#silvio"/>
+            <relation name="lover_of" active="#florindo" passive="#beatrice"/>
+            <relation name="associated_with" active="#smeraldina" passive="#clarice"/>
+            <relation name="associated_with" active="#truffaldino" passive="#beatrice #florindo"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

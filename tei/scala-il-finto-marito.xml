@@ -127,6 +127,13 @@
           <person xml:id="trapola" sex="MALE">
             <persName>Trapola</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#demetrio" passive="#lepido"/>
+            <relation name="associated_with" active="#scaramuccia #ruchetta #giulia" passive="#demetrio"/>
+            <relation name="parent_of" active="#gervasio" passive="#porzia"/>
+            <relation name="associated_with" active="#trapola" passive="#gervasio"/>
+            <relation name="spouses" mutual="#licinio #porzia"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

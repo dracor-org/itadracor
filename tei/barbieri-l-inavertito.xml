@@ -131,6 +131,13 @@
           <person xml:id="laudomia" sex="FEMALE">
             <persName>Laudomia</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#pantalone" passive="#fulvio"/>
+            <relation name="associated_with" active="#scappino" passive="#pantalone #fulvio"/>
+            <relation name="parent_of" active="#beltrame" passive="#lavinia"/>
+            <relation name="associated_with" active="#celia" passive="#mezzettino"/>
+            <relation name="siblings" mutual="#laudomia #celia"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

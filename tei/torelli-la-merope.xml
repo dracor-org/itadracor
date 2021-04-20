@@ -116,6 +116,12 @@
           <person xml:id="telefonte" sex="MALE">
             <persName>Telefonte</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="associated_with" active="#nesso" passive="#merope"/>
+            <relation name="parent_of" active="#merope" passive="#telefonte"/>
+            <relation name="associated_with" active="#nutrice" passive="#merope"/>
+            <relation name="associated_with" active="#coro" passive="#merope"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

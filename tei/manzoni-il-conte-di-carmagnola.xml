@@ -147,6 +147,11 @@
           <person xml:id="antonietta" sex="FEMALE">
             <persName>Antonietta Visconti</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#antonietta #il_conte"/>
+            <relation name="parent_of" active="#il_conte #antonietta" passive="#matilde"/>
+            <relation name="parent_of" active="#sforza" passive="#pergola"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

@@ -129,6 +129,15 @@
           <person xml:id="togato" sex="MALE">
             <persName>Uno togato</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#pantalone" passive="#cinzio"/>
+            <relation name="parent_of" active="#dottor" passive="#virginio"/>
+            <relation name="related_with" active="#celia" passive="#dottor"/>
+            <relation name="associated_with" active="#fritellino" passive="#virginio"/>
+            <relation name="spouses" mutual="#flaminia #cinzio"/>
+            <relation name="associated_with" active="#bagattino #franceschina" passive="#flaminia"/>
+            <relation name="parent_of" active="#cinzio #flaminia" passive="#carluccio"/>
+          </listRelation>
         </listPerson>
       </particDesc>
     </profileDesc>

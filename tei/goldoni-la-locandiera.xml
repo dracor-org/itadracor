@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
   <teiHeader>
     <fileDesc>
@@ -138,8 +138,10 @@
     <front>
       <div type="dedication">
         <opener>
-          <salute><hi rend="sc">ALL' ILLUSTRISSIMO E CLARISSIMO SIGNOR SENATORE</hi>
-GIULIO RUCELLAI <hi rend="sc">PATRIZIO FIORENTINO CAVALIERE DELL'ORDINE DI S. STEFANO, SEGRETARIO DELLA GIURISDIZIONE ECC.</hi></salute>
+          <salute>
+            <hi rend="sc">ALL' ILLUSTRISSIMO E CLARISSIMO SIGNOR SENATORE</hi>
+GIULIO RUCELLAI <hi rend="sc">PATRIZIO FIORENTINO CAVALIERE DELL'ORDINE DI S. STEFANO, SEGRETARIO DELLA GIURISDIZIONE ECC.</hi>
+          </salute>
         </opener>
         <p>
           <emph>Quando mi proposi nell'animo, Illustrissimo Signor Senatore, di
@@ -182,8 +184,10 @@ onde conoscendo me stesso, e l'altissima sproporzione, che da Voi mi
 allontana, arrossisco nel comparirvi dinanzi, rozzo nello stile qual sono,
 e scarsissimo di concetti.</emph>
         </p>
-        <p><emph>Pure fia necessario, che qualche cosa io vi scriva, raccomandando
-alla protezione Vostra questa Commedia mia, eh e ha per titolo</emph><title>La Locandiera</title>. <emph>Fatto questo, lo che in due sole righe consiste,
+        <p>
+          <emph>Pure fia necessario, che qualche cosa io vi scriva, raccomandando
+alla protezione Vostra questa Commedia mia, eh e ha per titolo</emph>
+          <title>La Locandiera</title>. <emph>Fatto questo, lo che in due sole righe consiste,
 miglior consiglio reputo per me certamente fermar la penna, anzi che
 sconciatamente adoprarla. Volea parlarvi della Commedia medesima, che vi
 presento, ma s' ella ha qualche cosa di buono lo rileverete Voi assai
@@ -208,7 +212,8 @@ impegno. Ho empito un Foglio non saprei dire io medesimo di quai
 parole. Inutili forse tutte fuori di queste ultime, colle quali vi chiedo
 dell'ardir mio umilmente perdono, raccomando me, e la Commedia
 mia all'altissima Protezione Vostra, e con profondissimo ossequio
-umilmente m inchino.</emph></p>
+umilmente m inchino.</emph>
+        </p>
         <p>
           <emph>Di V. S. lllustriss. e Clariss.
 Umiliss. Devotiss. e Obbligatiss. Serv.</emph>
@@ -310,16 +315,34 @@ questa comodità.</p>
             <emph>Il Conte d'Albafiorita</emph>
           </role>
         </castItem>
-        <castItem type="role"><role><emph>Mirandolina</emph></role>, <roleDesc>locandiera</roleDesc></castItem>
-        <castItem type="role"><role><emph>Ortensia</emph></role>, <roleDesc>comica</roleDesc></castItem>
-        <castItem type="role"><role><emph>Dejanira</emph></role>, <roleDesc>comica</roleDesc></castItem>
-        <castItem type="role"><role><emph>Fabrizio</emph></role>, <roleDesc>cameriere di locanda</roleDesc></castItem>
         <castItem type="role">
-          <!-- FIXME: shouldn't "Servitore" be the <role>? -->
-          <roleDesc><emph>Servitore</emph> del Cavaliere</roleDesc>
+          <role>
+            <emph>Mirandolina</emph>
+          </role>, <roleDesc>locandiera</roleDesc>
         </castItem>
         <castItem type="role">
-          <roleDesc><emph>Servitore</emph> del Conte</roleDesc>
+          <role>
+            <emph>Ortensia</emph>
+          </role>, <roleDesc>comica</roleDesc>
+        </castItem>
+        <castItem type="role">
+          <role>
+            <emph>Dejanira</emph>
+          </role>, <roleDesc>comica</roleDesc>
+        </castItem>
+        <castItem type="role">
+          <role>
+            <emph>Fabrizio</emph>
+          </role>, <roleDesc>cameriere di locanda</roleDesc>
+        </castItem>
+        <castItem type="role">
+<!-- FIXME: shouldn't "Servitore" be the <role>? -->
+          <roleDesc>
+            <emph>Servitore</emph> del Cavaliere</roleDesc>
+        </castItem>
+        <castItem type="role">
+          <roleDesc>
+            <emph>Servitore</emph> del Conte</roleDesc>
         </castItem>
       </castList>
       <set>
@@ -1373,7 +1396,8 @@ Il meglio sarà sempre per me.</p>
             <p>Portami la cioccolatta.</p>
             <stage>(<emph>Il Servitore parte</emph>)</stage>
             <stage>(<emph>Il Cavaliere apre la lettera</emph>)</stage>
-            <p><emph>Siena, primo Gennaio 1753</emph> (Chi scrive?). <emph>Orazio Taccagni. Amico carissimo. La tenera amicizia, che a voi mi lega, mi rende sollecito ad avvisarvi essere necessario il vostro ritorno in patria. È morto il conte Manna...</emph>
+            <p>
+              <emph>Siena, primo Gennaio 1753</emph> (Chi scrive?). <emph>Orazio Taccagni. Amico carissimo. La tenera amicizia, che a voi mi lega, mi rende sollecito ad avvisarvi essere necessario il vostro ritorno in patria. È morto il conte Manna...</emph>
 (Povero cavaliere! Me ne dispiace). <emph>Ha lasciato la sua unica figlia nubile erede di centocinquanta mila scudi. Tutti gli amici vostri vorrebbero, che toccasse a voi una tal fortuna, e vanno maneggiando.</emph> Non s'affatichino per me,
 che non ne voglio saper nulla. Lo sanno pure, ch'io non
 voglio donne per i piedi. E questo mio caro amico, che lo sa
@@ -3387,7 +3411,8 @@ Colle loro smorfie, mi farebbero passar l'appetito.</p>
         </div>
         <div type="scene">
           <head>Scena quarta</head>
-          <stage><emph>Mirandolina con un tondo in mano, ed il Servitore, e
+          <stage>
+            <emph>Mirandolina con un tondo in mano, ed il Servitore, e
 detto</emph>.</stage>
           <sp who="#mirandolina">
             <speaker>MIRANDOLINA</speaker>
@@ -4531,7 +4556,8 @@ anderò mai più.</p>
         <div type="scene">
           <head>Scena decima</head>
           <stage>Camera del Conte.
-<emph>Il Conte D'Albafiorita, Ortensia e Dejanira</emph></stage>
+<emph>Il Conte D'Albafiorita, Ortensia e Dejanira</emph>
+          </stage>
           <sp who="#conte">
             <speaker>CONTE</speaker>
             <p>Il marchese di Forlipopoli è un carattere
@@ -5783,7 +5809,8 @@ ora la mi butta giù. Non so niente).</p>
         </div>
         <div type="scene">
           <head>Scena seconda</head>
-          <stage><emph>Mirandolina, poi il Servitore del Cavaliere</emph>.</stage>
+          <stage>
+            <emph>Mirandolina, poi il Servitore del Cavaliere</emph>.</stage>
           <sp who="#mirandolina">
             <speaker>MIRANDOLINA</speaker>
             <p>Povero sciocco! Mi ha da servire a suo marcio
@@ -6016,7 +6043,8 @@ dica, ch'io faccio torto al sesso.</p>
         </div>
         <div type="scene">
           <head>Scena quarta</head>
-          <stage><emph>Il Cavaliere e detta</emph>.</stage>
+          <stage>
+            <emph>Il Cavaliere e detta</emph>.</stage>
           <sp who="#cavaliere">
             <speaker>CAVALIERE</speaker>
             <p>(Eccola. Non ci volevo venire, e il diavolo mi ci ha
@@ -6568,7 +6596,8 @@ disprezzare le donne).</p>
         </div>
         <div type="scene">
           <head>Scena settima</head>
-          <stage><emph>Cavaliere solo</emph>.</stage>
+          <stage>
+            <emph>Cavaliere solo</emph>.</stage>
           <sp who="#cavaliere">
             <speaker>CAVALIERE</speaker>
             <p>Oh maledetto il punto, in cui ho principiato a mirar
@@ -7274,7 +7303,8 @@ ne renderà conto.</p>
         <div type="scene">
           <head>Scena tredicesima</head>
           <stage>Camera con tre porte.</stage>
-          <stage><emph>Mirandolina sola</emph>,</stage>
+          <stage>
+            <emph>Mirandolina sola</emph>,</stage>
           <sp who="#mirandolina">
             <speaker>MIRANDOLINA</speaker>
             <p>Oh meschina me! Sono nel brutto impegno! Se il
@@ -7680,7 +7710,8 @@ miei. So io quel che ho ordinato a colei...</p>
             <speaker>CAVALIERE</speaker>
             <p>(E si trattiene con Fabrizio? E parla seco di
 matrimonio?).</p>
-            <stage><emph> (da sé</emph>)</stage>
+            <stage>
+              <emph> (da sé</emph>)</stage>
           </sp>
           <sp who="#conte">
             <speaker>CONTE</speaker>

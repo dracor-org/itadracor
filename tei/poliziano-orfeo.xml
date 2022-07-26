@@ -99,11 +99,17 @@
           <person xml:id="orpheo" sex="MALE" ana="http://www.wikidata.org/entity/Q174353">
             <persName>Orpheo</persName>
           </person>
+          <person xml:id="pastore" sex="MALE">
+            <persName>Pastore</persName>
+          </person>
           <person xml:id="pluto" sex="MALE" ana="http://www.wikidata.org/entity/Q205251">
             <persName>Pluto</persName>
           </person>
           <person xml:id="proserpina" sex="FEMALE" ana="http://www.wikidata.org/entity/Q14515330">
             <persName>Proserpina</persName>
+          </person>
+          <person xml:id="euridice" sex="FEMALE" ana="http://www.wikidata.org/entity/Q208588">
+            <persName>Euridice</persName>
           </person>
           <person xml:id="una_furia" sex="FEMALE" ana="http://www.wikidata.org/entity/Q180262">
             <persName>Una Furia</persName>
@@ -111,8 +117,8 @@
           <person xml:id="una_baccante" sex="FEMALE" ana="http://www.wikidata.org/entity/Q209599">
             <persName>Una Baccante</persName>
           </person>
-          <personGrp xml:id="el_coro_delle_baccante" sex="FEMALE" ana="http://www.wikidata.org/entity/Q209599">
-            <name>El Coro Delle Baccante</name>
+          <personGrp xml:id="coro_delle_baccanti" sex="FEMALE" ana="http://www.wikidata.org/entity/Q209599">
+            <name>Coro delle Baccanti</name>
           </personGrp>
         </listPerson>
       </particDesc>
@@ -122,6 +128,7 @@
       <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
       <change><date>2003-04-08T00:00:00.000+02:00</date><name>Marina Larena</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
       <change><date>2003-04-14T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
+      <change><date>2022-07-26</date><name>Luca Giovannini (DraCor)</name>Speaker disambiguation</change>
     </revisionDesc>
   </teiHeader>
   <standOff>
@@ -189,7 +196,9 @@
             <l>e duo piè rossi et un ginocchio e 'l fianco?</l>
           </lg>
         </sp>
-        <stage>Aristeo pastor giovane:</stage>
+        <sp who='#aristeo'>
+          <speaker>Aristeo</speaker>
+          <stage>pastor giovane:</stage>
         <lg>
           <l>Caro mio Mopso, a piè di questo fonte</l>
           <l>non son venuti questa mane armenti,</l>
@@ -215,6 +224,7 @@
           <l>ma sempre piango, e 'l cibo non mi piace,</l>
           <l>e senza mai dormir son stato in letto.</l>
         </lg>
+        </sp>
         <sp who="#mopso">
           <speaker>Mopso:</speaker>
           <lg>
@@ -253,9 +263,7 @@
           <lg>
             <l>ch'i' so che la mia nympha el canto agogna.</l>
           </lg>
-        </sp>
-        <sp who="#canzona">
-          <speaker>Canzona.</speaker>
+          <stage>Canzona.</stage>
           <lg>
             <l>Udite, selve, mie dolce parole,</l>
             <l>poi che la nympha mia udir non vuole.</l>
@@ -388,7 +396,9 @@
             <l>a me basta guardar le vacche e ' buoi.</l>
           </lg>
         </sp>
-        <stage>Aristeo ad Euridice:</stage>
+        <sp who="#aristeo">
+          <speaker>Aristeo:</speaker>
+          <stage>ad Euridice:</stage>
         <lg>
           <l>Non mi fuggir, donzella,</l>
           <l>ch'i' ti son tanto amico</l>
@@ -410,8 +420,10 @@
           <l>e' convien ch'io ti segui.</l>
           <l>Porgimi, Amor, porgimi hor le tue ale!</l>
         </lg>
+        </sp>
         <stage>Seguitando Aristeo Euridice, ella si fugge drento alla selva, dove punta dal serpente grida, e simile Aristeo.</stage>
         <stage>Segue poi un pastore ad Orpheo così:</stage>
+        <sp who="#pastore">
         <lg>
           <l>Crudel novella ti rapporto, Orpheo:</l>
           <l>che tuo nympha bellissima è defunta.</l>
@@ -422,6 +434,7 @@
           <l>e fu tanto possente e crudo el morso</l>
           <l>ch'ad un tratto finì la vita e 'l corso.</l>
         </lg>
+        </sp>
         <sp who="#orpheo">
           <speaker>Orpheo:</speaker>
           <lg>
@@ -558,6 +571,7 @@
           </lg>
         </sp>
         <stage>Orpheo vien cantando alcuni versi lieti e volgesi. Euridice parla:</stage>
+        <sp who="#euridice">
         <lg>
           <l>Oimè, che 'l troppo amore</l>
           <l>n'ha disfatti ambendua.</l>
@@ -566,6 +580,7 @@
           <l>Ben tendo a te le braccia, ma non vale,</l>
           <l>ché 'ndrieto son tirata. Orpheo mie, vale!</l>
         </lg>
+        </sp>
         <sp who="#orpheo">
           <speaker>Orpheo:</speaker>
           <lg>
@@ -641,7 +656,6 @@
             <l>O, o, caviangli il cor del pecto fora!</l>
             <l>Mora lo scelerato, mora! mora!</l>
           </lg>
-        </sp>
         <stage>Torna la Baccante colla testa di Orpheo e dice:</stage>
         <lg>
           <l>O, o, ! O, o, ! mort'è lo scelerato!</l>
@@ -653,7 +667,8 @@
           <l>Or vadi e biasimi la teda legittima!</l>
           <l>Euoè Bacco! accepta questa vittima!</l>
         </lg>
-        <sp who="#el_coro_delle_baccante">
+        </sp>
+        <sp who="#coro_delle_baccanti">
           <speaker>El coro delle Baccante</speaker>
           <lg>
             <l>Ognun segua, Bacco, te!</l>

@@ -1,0 +1,3928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ita000145" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Susanna</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Decio</forename>
+            <surname>Memmolo</surname>
+          </persName>
+          <idno type="wikidata">Q110953695</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.it/books?id=ec0PXJ6KRmkC</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Memmolo, Decio: La Susanna. Roma: Grignani, 1632.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="caio" sex="MALE">
+            <persName>CAIO</persName>
+          </person>
+          <person xml:id="claudio" sex="MALE">
+            <persName>CLAUDIO</persName>
+          </person>
+          <person xml:id="nuncio" sex="MALE">
+            <persName>NUNCIO</persName>
+          </person>
+          <person xml:id="cameriere" sex="MALE">
+            <persName>CAMERIERE</persName>
+          </person>
+          <person xml:id="susanna" sex="FEMALE">
+            <persName>SUSANNA</persName>
+          </person>
+          <person xml:id="diocletiano" sex="MALE">
+            <persName>DIOCLETIANO</persName>
+          </person>
+          <person xml:id="serena" sex="FEMALE">
+            <persName>SERENA</persName>
+          </person>
+          <person xml:id="gabinio" sex="MALE">
+            <persName>GABINIO</persName>
+          </person>
+          <person xml:id="galerio" sex="MALE">
+            <persName>GALERIO</persName>
+          </person>
+          <person xml:id="macedonio" sex="MALE">
+            <persName>MACEDONIO</persName>
+          </person>
+          <person xml:id="angelo" sex="UNKNOWN">
+            <persName>ANGELO</persName>
+          </person>
+          <person xml:id="eunuco" sex="MALE">
+            <persName>EUNUCO</persName>
+          </person>
+          <personGrp xml:id="coro" sex="UNKNOWN">
+            <persName>CORO</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-30">(LG) first encoding and formatting. Paratexts removed.</change>
+        <change when="2023-02-08"> (LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1632">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONE, CHE PARLANO:</head>
+        <castItem>DIOCLETIANO <roleDesc>Augusto Imperatore.</roleDesc></castItem>
+        <castItem>GALERIO Massimiano <roleDesc>suo figliuolo adottivo.</roleDesc></castItem>
+        <castItem>SERENA Augusta <roleDesc>moglie di Diocletiano</roleDesc></castItem>
+        <castItem>SUSANNA Vergine <roleDesc>parente di Diocletiano.</roleDesc></castItem>
+        <castItem>GABINIO Prece <roleDesc>padre di Susanna.</roleDesc></castItem>
+        <castItem>CAIO Papa <roleDesc>fratello di Gabinio.</roleDesc></castItem>
+        <castItem>CLAUDIO <roleDesc>parente di Diocletiano, e di Susanna.</roleDesc></castItem>
+        <castItem>MACEDONIO <roleDesc>Consigliere, e Ministro di Diocletiano.</roleDesc></castItem>
+        <castItem>CAMERIERO di Galerio.</castItem>
+        <castItem>EUNUCO <roleDesc>liberto di Serena.</roleDesc></castItem>
+        <castItem>NUNCIO.</castItem>
+        <castItem>CORO de Christiani occulti.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PROLOGO</head>
+        <head>IL PIACER MONDANO.</head>
+        <l>NOn so se quì frà voi, alme ben nate,</l>
+        <l>Sia chi mi riconoschi, e raffiguri.</l>
+        <l>Quelli leggiadri ammanti</l>
+        <l>Quella vaga sembianza</l>
+        <l>Quanti n’inganna, ò quanti!</l>
+        <l>Piacer m’appella il cieco Mondo, e crede,</l>
+        <l>Ch’io sia qual’ei mi scorge;</l>
+        <l> Misero, e non s’accorge,</l>
+        <l>Ch’in quello aurato calice, ch’io mostro,</l>
+        <l>In vece di dolcezzaSi beve l’amarezza.</l>
+        <l>Crede ritrovar gioia;E ne riporta noia.</l>
+        <l>Crede lieto gioir con riso, e canto;</l>
+        <l>Mà spesso il riso si rivolge in pianto.</l>
+        <l>Non il Piacer son io;</l>
+        <l>Che ‘l Piacer vero in terra non alberga.</l>
+        <l>Ei volossone al cielo</l>
+        <l>All’hor, ch’il Padre Adamo</l>
+        <l>A le lusinghe di una donna aprìo</l>
+        <l>L’orecchio; e ’l pomo colse,</l>
+        <l>Onde fù fabro à se de i proprij danni,</l>
+        <l>E cominciò à sentir noie, et affanni.</l>
+        <l>Volossene il Piacer leggiadro, e snello,</l>
+        <l>E per gir più veloce,</l>
+        <l>Quello suo manto sì leggiero, e bello</l>
+        <l>Lasciò quì ne la terra.</l>
+        <l>Io, che ramingo errante</l>
+        <l>Men già (che’l Dispiacer ciascuno aborre)</l>
+        <l>De le mentite spoglie</l>
+        <l>Tosto mi cinti: e ’l Mondo sciocco corre</l>
+        <l>Al fallace sembiante:</l>
+        <l>E quando gioir crede, trova doglie;</l>
+        <l>E per contenti le miserie accoglie.</l>
+        <l>Crede quei tra ricchezze</l>
+        <l>Godere, e per haverle, suda, e s’ange:</l>
+        <l>Frà sospetti di perderle poi teme;</l>
+        <l>E se le perde, si consuma, e piange.</l>
+        <l>Il pazzo volgo ammira</l>
+        <l>Le Corone, e gli Scettri:</l>
+        <l>Crede, ch’in Regio petto</l>
+        <l>Si trovi alto diletto;</l>
+        <l>E pur frà quelle porpore, e quegli ori,</l>
+        <l>Frà gemmati lavori</l>
+        <l>Stan celati sospetti, ombre, e paure,</l>
+        <l>Atre, e torbide cure:</l>
+        <l>E regio core ha meno</l>
+        <l>Di che più ch’altri mostra colmo il seno.</l>
+        <l>V’è chi di bestia in guisa</l>
+        <l>Frà diletti di carne</l>
+        <l>Crede trovar contento,</l>
+        <l>E trova puzza, orror, pena, e tormento;</l>
+        <l>Tutti van dietro à queste</l>
+        <l>Mie lusinghiere spoglie:</l>
+        <l>Chi di qua, chi di là mi abbraccia, e prende,</l>
+        <l>Mà nel stringermi poi ritrova vento,</l>
+        <l>Se non pena, e tormento.</l>
+        <l>Solo una nuova gente.</l>
+        <l>Che di Christo è seguace,</l>
+        <l>Mi conosce, e mi sprezza</l>
+        <l>Scorge quanto è fugace,</l>
+        <l>Quanto finta, e fallace</l>
+        <l>Questa sembianza mia leggiadra, e vaga,</l>
+        <l>E dietro al piacer vero</l>
+        <l>Per sicuro se n’va dritto sentiero.</l>
+        <l>Mà più di ogni altra altera mi calpesta,</l>
+        <l>E mi offende, e mi stratia</l>
+        <l>La Vergine Susanna.</l>
+        <l>Tutte spiegate hò l’arti, e le mie pompe</l>
+        <l>Per allettarla un poco:</l>
+        <l>Mà sempre indarno; e rompe</l>
+        <l>I miei disegni à un tratto.</l>
+        <l>Sprezza gl’imperi, e gli ostri;</l>
+        <l>Sprezza le gemme, e gli ori</l>
+        <l>Sprezza i ricchi tesori;</l>
+        <l>E le glorie, e gli honori:E dovunque mi vede</l>
+        <l>Con quel superbo piede</l>
+        <l>Mi preme; </l>
+        <l>E perche sia</l>
+        <l>Con ogni altro pietosa</l>
+        <l>Con me sempr’ella è torva, e disdegnosa.</l>
+        <l>Mà render non mi vuò, ch’anco de l’altre</l>
+        <l>Et avvedute, e scaltre</l>
+        <l>Vinte ho con le lusinghe:</l>
+        <l>E se di vincer lei</l>
+        <l>Non mi vien dato; almeno</l>
+        <l>Qualch’altra mi darà caro ricetto,</l>
+        <l>Et io di rio veleno</l>
+        <l>Vò per mercede riempirle il petto;</l>
+        <l>Mà qual del Ciel alta virtù mi sforza?</l>
+        <l>Io, che fon sempre falso, e mensogniero,</l>
+        <l>Son mio mal grado astretto</l>
+        <l>A palesar il vero.</l>
+        <l>O voi, che me seguite,</l>
+        <l>E cercate il Piacer nel basso Mondo;</l>
+        <l>Se voi non vi pentite,</l>
+        <l>Vi troverete di miserie al fondo.</l>
+        <l>Mà chi mi sprezza (ahi che pur dirlo è forza)</l>
+        <l>Lungi da le fallaci vie d’Inferno</l>
+        <l>Lieto à goder n’andrà Piacere eterno.</l>
+      </div>
+      <div type="act">
+        <head>ATTO PRIMO</head>
+        <div type="scene">
+          <head>SCENA I.</head>
+          <stage>Galerio Massimiano. Claudio.</stage>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>BEN mi è nota tua fede,</l>
+            <l>Claudio, e ‘l nodo di amor più che di sangue</l>
+            <l>Fà, ch’i più chiusi arcani</l>
+            <l>Io ti apra volentier di questo petto.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Non mai Signor havrete</l>
+            <l>Pentimento di haver fatto periglio</l>
+            <l>Del mio amor, di mia fede.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Chi crederla, ch’in me, cui largo il Cielo</l>
+            <l>Ver fa le gratie sue, ch’in me, ch’al solo</l>
+            <l>Augusto Padre cedo; e ‘l mondo tutto</l>
+            <l>Reggo con quella destra:</l>
+            <l>Possin pensier non lieti</l>
+            <l>Turbar mia pace, e partorirmi affanni?</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Se in voi, Signor che sete</l>
+            <l>De l gran Diocletiano Augusto invitto</l>
+            <l>Figlio amato, e diletto,</l>
+            <l>Posson pensier noiosi</l>
+            <l>Hor che farà di quei, che frà gli scogli</l>
+            <l>D’infiniti perigli</l>
+            <l>Solcano limar de le miserie estreme?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Son le grandezze à gli occhi altrui felici</l>
+            <l>Non in se stesse; e sotto l’ostro, e l’oro</l>
+            <l>Stanno spesso celate</l>
+            <l>Pungentissime cure; et hanno impero</l>
+            <l>Sovra quei, che l’impero hanno del mondo.</l>
+            <l>Il provo in me, che da che il Padre Augusto</l>
+            <l>Adottommi per figlio, e de le nozze</l>
+            <l>De l’unica figliuola,</l>
+            <l>De la bella Valeria mi fè degno,</l>
+            <l>Provai come col cenno</l>
+            <l>Si fan tremar l’alme soggette e come</l>
+            <l>Tutto il mondo s’inchina</l>
+            <l>Ad alta potestà, come da terra</l>
+            <l>Si sollevan gli amici a i gradi eccelsi.</l>
+            <l>Vidi sotto i miei piè gli ori, e le gemme,</l>
+            <l>E quanto mai può dar di grande il Mondo,</l>
+            <l>Anco sovra il desio</l>
+            <l>Provato ho tutto; mà non ancor provo</l>
+            <l>Pace, e vera quiete.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Mà che può destar più huomo in terra?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Quel grado sì sublime,</l>
+            <l>Che à tutti invidia move, ò quanto è lunge,</l>
+            <l>Da la felicità, ch’altri vi finge!</l>
+            <l>Quanto più in alto l’huomo ascende; tanto</l>
+            <l>Più vicino è il periglio;</l>
+            <l>E perigliosa ancor più e la caduta.</l>
+            <l>Temono altri di me; temo io di tutti</l>
+            <l>Gli argenti, e gli ori, e i più pregiati arnesi</l>
+            <l>Dan meraviglia à chi non gli ha, mà sono</l>
+            <l>Dopo che si hanno, terra vile; e ‘l solo</l>
+            <l>Color di bianco, e rosso gli distingue.</l>
+            <l>Veggio inchinarsi à me le folte turbe:</l>
+            <l>Mà pur non so discerner frà cotanti,</l>
+            <l>Chi sia, ciò il vero parli, e chi lusinghi;</l>
+            <l>Se à me pur sia, s’à mia fortuna amico</l>
+            <l>Di tè stessi (il dirò con libertate)</l>
+            <l>Claudio, appena mi fido; e se per lunga</l>
+            <l>Prova di tua bontà non fossi io certo</l>
+            <l>Non ti aprirei quel’, che hora</l>
+            <l>Son per aprirti.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>S’altri</l>
+            <l>Di me più fortunato, ò più felice</l>
+            <l>Sarà in servirvi, in fede</l>
+            <l>Non sarà chi mi vinca:</l>
+            <l>E pria vedrassi senza raggi il Sole</l>
+            <l>Ch’il mio cor senza fede.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Frà i pensier più molesti, che le notti</l>
+            <l>Mi fan menar insonni, uno è, ch’io sono</l>
+            <l>tanta altezza asceso;</l>
+            <l>Che scender non poss’io, se non caggendo</l>
+            <l>Ad alta, e inevitabile ruina.</l>
+            <l>Son io (come tu sai) d’Augusto figlio,</l>
+            <l>No di natura, mà per ch’esso volle</l>
+            <l>Per suo figlio adottarmi, e farmi sposo</l>
+            <l>De la sua cara figlia. Hor ch’ella è morta</l>
+            <l>Temo, che non s’estingua</l>
+            <l>Anco quel grande amor, che sù levommi.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Vostra virtù ben nota</l>
+            <l>Al gran Diocletian fù, ch’in lui fiamme</l>
+            <l>Destò di vero amore, e mentre vive</l>
+            <l>Quella, viverà in lui l’istesso affetto.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Miser chi ne la regìa</l>
+            <l>Solo à virtù s’appoggia: Io più mi fido</l>
+            <l>In non so che uniforme,</l>
+            <l>Che à lui mi fà di sangue: mà più stretto</l>
+            <l>Ligame io cerco; onde men possa il tosco</l>
+            <l>Di perversa calunnia farmi oltraggio;</l>
+            <l>E in ciò da tè non poca aita io spero.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Disponete di me, de ‘l voler mio,</l>
+            <l>Quanto de ‘l voler vostro voi potete.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Vorrei con nuovo nodo</l>
+            <l>Congiungermi di sangue al grande Augusto.</l>
+            <l>Tu sai, che à lui congiunta</l>
+            <l>Di sangue è la bellissima Susanna,</l>
+            <l>Susanna di Gabinio unica figlia,</l>
+            <l>A cui tu ancor non men congiunto sei.</l>
+            <l>Hor con essa vorrei far nuove nozze.</l>
+            <l>Ragione à ciò mi muove; mà mi sforza</l>
+            <l>Anco d’amore affetto. Non la veggio</l>
+            <l>Mai con l’Imperatrice</l>
+            <l>Serena, ch’io non senta</l>
+            <l>Trarmi dal petto il core.</l>
+            <l>Quella beltà si schietta</l>
+            <l>Quel modello sembiante</l>
+            <l>Quel silentio loquace</l>
+            <l>Quegli occhi sempre chini; quel disprezzo,</l>
+            <l>Ch’ella sì alteramente hà di se stessa,</l>
+            <l>Son ligami, son fiamme;</l>
+            <l>Che tutto mi hanno avvinto, et incenerito:</l>
+            <l>Ne sò, se in Ciel sì belle</l>
+            <l>Sian de le Dee le forme;</l>
+            <l>Se miri la beltà, Venere sembra</l>
+            <l>Se miri I’honestà, sembra Diana,</l>
+            <l>Mà Venere, e Diana</l>
+            <l>Saran forse di lei men belle, e caste.</l>
+            <l>In fin (Claudio) io non sono</l>
+            <l>Più mio; e tutto avampo</l>
+            <l>Di fiero, e cocentissimo desio.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Se à legitime nozze,</l>
+            <l>Signor, voi la bramate</l>
+            <l>Chi sia, che vi contenda</l>
+            <l>Sì, che non retti pago</l>
+            <l>Vostro giusto desio?</l>
+            <l>Qual fortuna magiore</l>
+            <l>Può ritrovar Susanna</l>
+            <l>Ch’esser compagna, e Sposa</l>
+            <l>Di voi, Signor, che havete il fren del mondo?</l>
+            <l>O pur Diocletian ciò vi contende?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Anzj egli più di ogni altro</l>
+            <l>Mostrò ciò desiar: Mà pur conviemmi</l>
+            <l>Coprir il mio desio, perch’ei non creda</l>
+            <l>Che di Valeria in me l’amor sia spento;</l>
+            <l>E che per nuove fiamme</l>
+            <l>Siano in me quelle de la figlia estinte.</l>
+            <l>Tu, che fuor di sospetto</l>
+            <l>Puoi portar mio desio; con destro modo</l>
+            <l>Vedi di indur il suo pensier ad atto:</l>
+            <l>Nè dispiacer dovrebbe a tè, che meco</l>
+            <l>Foste per nuovo nodo anco congiunto.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>E qua’l magior mia sorte!</l>
+            <l>Mà non potrà cagion alcuna farmi</l>
+            <l>Altro, che vostro servo; questo e ‘l nome,</l>
+            <l>De l’qua’l mi pregio, mà di servo fido.</l>
+            <l>Mi sforzerò d’indur l’invitto Augusto</l>
+            <l>Perche sia à me commesso</l>
+            <l>Di trattar con Gabinio, ò col germano</l>
+            <l>Caio, ch’ei tanto osserva:</l>
+            <l>Nè temo, che non sian per riempirsi</l>
+            <l>Di somma gioia i petti</l>
+            <l>Di Caio, e di Gabinio, e di Susanna,</l>
+            <l>Quando sapran, che voi</l>
+            <l>Di stringervi con essi in così stretti,</l>
+            <l>E nuovi nodi non havete à sdegno.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Mà le guardie venir de l grande Augusto</l>
+            <l>Qui veggio, onde non lunge</l>
+            <l>Egli sarà. Tu vattene all’incontro;</l>
+            <l>Ch'in tanto io me n’andrò di Giove al’Tempio.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>Diocletiano, e Claudio.</stage>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>OH veggio il nostro Claudio: ove n’andavi?</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Ove il mio cuore è sempre,</l>
+            <l>A riverir voi mio Signore, e Divo.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Giungi à tempo opportuno. Io teco à punto</l>
+            <l>Bramava di parlar di quella Setta,</l>
+            <l>Che mi ha messo in riuolta</l>
+            <l>quanto è grande l’Impero: Entro la Regia</l>
+            <l>Non mi posso schermir; Quei, che più fidi</l>
+            <l>Quei, che mi son più presso,</l>
+            <l>Quei, che degli altri son più forti, e saggi,</l>
+            <l>Sottopongono il collo à la vil legge</l>
+            <l>Di un Christo crocifisso. Non val forza,</l>
+            <l>Non pene, non tormenti,</l>
+            <l>Non prieghi, non promesse, non lusinghe -</l>
+            <l>Tentate ho tutte l’arti, e sempre indarno,</l>
+            <l>lo, che domato ho già lo Scita, e ‘l parto;</l>
+            <l>E posto il freno à quei, che sotto il Polo</l>
+            <l>Gelato sol dal foco</l>
+            <l>Sperar possono l’acque:</l>
+            <l>Io, che tremar fò, dove nasce il Sole,</l>
+            <l>E dotte passa, e là dove tramonta,</l>
+            <l>Dibellar pur non posso</l>
+            <l>Picciol garzone, anzi fanciulla imbelle;</l>
+            <l>Che con bocca di latte</l>
+            <l>A mia grande onta, e scorno</l>
+            <l>Fan risonar ogni hora</l>
+            <l>Quel nome odiosissimo di Christo:</l>
+            <l>Né mi val di tormenti</l>
+            <l>Nuovi, et innumerabili la schiera;</l>
+            <l>Ch’essi gli han tutti à scherno. E più fatica</l>
+            <l>A me trovar di nuove pene ordegni,</l>
+            <l>Che ad essi il superarle, et à lor laude</l>
+            <l>Volgon mia crudeltà (che tal dirolla)</l>
+            <l>Mà pia la crudeltà fà l’empia legge.</l>
+            <l>Esalan I’alme frà tormenti, e pare,</l>
+            <l>Ch’essi sian frà le gioie, io frà le pene.</l>
+            <l>Mà quel, che di stupor m’empie, e di rabbia,</l>
+            <l>E, che con molti, e più spietati ordegni</l>
+            <l>Di tormenti, e di pene</l>
+            <l>Perdono ogni viirtute, et ogni forza.</l>
+            <l>Le più feroci, e spaventose fiere,</l>
+            <l>Orsi, Leoni, e Tigri</l>
+            <l>Gli Aspidi, e le Ceraste</l>
+            <l>Oblian lor ferità, quando son presso</l>
+            <l>A questi Maghi, persidi, ribaldi,</l>
+            <l>nemici ostinatissimi de i Dei:</l>
+            <l>Le fiamme istesse, e fornaci ardenti</l>
+            <l>Son per essi aura fresca: Entro i bollori</l>
+            <l>D’olio, e di fuso piombo</l>
+            <l>Stanno più lieti, ch’altri non farebbe</l>
+            <l>Nei bagni di onde tepide odorate;</l>
+            <l>E n’escon vie più freschi, e più giocondi.</l>
+            <l>lo più volte hò veduto</l>
+            <l>Stracciar le carni lor, denudar l’ossa</l>
+            <l>E rimaner cadaveri spiranti:</l>
+            <l>Indi quandio credeva,</l>
+            <l>Che fossero già estinti</l>
+            <l>Risorgere più sani, e più feroci:</l>
+            <l>E se ‘l ferro al fin pur non gli estinguesse,</l>
+            <l>Io più nemici havrei, che non Vassalli:</l>
+            <l>Mà che? di alto cordoglio</l>
+            <l>Mi è, ch’in sì dolce morte</l>
+            <l>Chiudon la vita: E à par de la lor vita</l>
+            <l>Mi è cotal morte à noia.</l>
+            <l>Io son vinto (nol niego)</l>
+            <l>Mà, se vicer non posso, almeno ho fisso,</l>
+            <l>Che ne rimanga il seme, e ‘l nome estinto.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Maraviglia ho (Signor) come da i nostri</l>
+            <l>Sacrati Dei si soffra, che un sol Christo</l>
+            <l>Tutte lor Deità, tutto il lor culto</l>
+            <l>Metta sossopra, e abbatta; e che non vaglia</l>
+            <l>A par di lui tutta la lor possanza.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Ciò vien, perche hanno à degno,</l>
+            <l>Che da tanti mortali in ogni parte</l>
+            <l>Il loro honor si sprezzi, e si calpesti.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Perche non vendicar le lor offese</l>
+            <l>Contro quei, che le fanno? S’à le fiamme,</l>
+            <l>Et à gli altri tormenti</l>
+            <l>Manca la forza contro loro, e intanto</l>
+            <l>Ne sono spesso offesi</l>
+            <l>I fedeli Ministri, perche i nostri</l>
+            <l>Dei non danno sostegno ai lor seguaci?</l>
+            <l>Dunque può solo un Mago</l>
+            <l>che tutti gli Dei? Già tace Apollo,</l>
+            <l>Taccion gl’i doli tutti, e molti à terra</l>
+            <l>Ne vanno à un cenno filo</l>
+            <l>Di Christiana bocca.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>A noi spiar non lice</l>
+            <l>Degl’immortali Dei gli alti segreti:</l>
+            <l>Seguir vò quella legge,</l>
+            <l>Che ne lasciaro gli Avi.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Chi sa, se come Apollo</l>
+            <l>Un tempo à pasturar hebbe la greggia,</l>
+            <l>Così quel Christo, che parve huomo in terra,</l>
+            <l>Di Dio non fosse figlio?</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Come? Vuoi, ch’un ramingo ignudo, e scalzo</l>
+            <l>che mendicando il vitto</l>
+            <l>Non hebbe per posarsi pur ricetto,</l>
+            <l>Che un, che tra ladri affisso</l>
+            <l>Fu sopra un duro insame legno, sia</l>
+            <l>Figlio di Dio? Vuoi, che à tal huomo porga</l>
+            <l>Sacrificio un Augusto? Un, che hà del mondo</l>
+            <l>L'Impero tutto? lunge</l>
+            <l>Da la grandezza Imperial cotanta</l>
+            <l>Indegnità. Se Christo</l>
+            <l>E di Dio figlio, ò Dio, vedrassi allhora</l>
+            <l>Che havero tutti i suoi seguaci estinti:</l>
+            <l>Anzi ne pur il nome</l>
+            <l>Vò, che ne resti; che aspra guerra ho mossa</l>
+            <l>A i sacrilegi libri, che dan vita</l>
+            <l>A quei, che à pena, à morte</l>
+            <l>Furon condotti con travagli, e stenti.</l>
+            <l>Viva Diocletian, che dal mio sdegno</l>
+            <l>Non camparà pur un, che l’esecranda</l>
+            <l>Setta ardisca seguir, se fosse il figlio.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Temprate, mio Signor, queste noiose</l>
+            <l>Cure e chiamate l'alma</l>
+            <l>A pensieri più lieti, e più giocondi.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Il Sol più con la notte s'accompagna,</l>
+            <l>Che con lieti pensier mole d’Impero;</l>
+            <l>E se pietate, e ‘l zelo,</l>
+            <l>De l’honor de gli Dei non mi movesse,</l>
+            <l>Già fatto havrei quel, che pur far disegno</l>
+            <l>Di menar retta solitaria, e N pace</l>
+            <l>Goder al suon di placido ruscello</l>
+            <l>Hor trà campi, hor trà selve</l>
+            <l>Di augelli il canto, ò ver di Damma il corso.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Mà chi vi vieta, che hora</l>
+            <l>Non solleviate l'alma</l>
+            <l>Co i medesmi diletti?</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Non bene intende (Claudio) quel, che sia</l>
+            <l>L’arte de l’imperar colui, che crede,</l>
+            <l>Che si possa sottrar un sol momento</l>
+            <l>Da le mordaci cure de l’Impero,</l>
+            <l>Per darlo à piacer breve. O quanto asconde</l>
+            <l>Quest’oro, e quella porpora di amaro!</l>
+            <l>Mà il volgo sciocco ammira</l>
+            <l>Quel, ch'è di fuori; e corre</l>
+            <l>Almeno col desio</l>
+            <l>Come farfalla al fuoco, che l'incende.</l>
+            <l>Quanti credon saper come si regga,</l>
+            <l>Quai un arte più facile ella sia</l>
+            <l>Di quante n’habbia il Mondo? e pur frà quante</l>
+            <l>Ne seppe mai trovare il Greco, e l'Indo</l>
+            <l>E la più malagevole, e più scabra.</l>
+            <l>Chi regge non può far, che non si fidi:</l>
+            <l>Mà i più fidi s’accordano e non fanno</l>
+            <l>Che mai nel suo sembiante puro, e schietto</l>
+            <l>Il vero giunga: onde per saggio, e cauto,</l>
+            <l>Che sia l'Imperatore, al fin si vende.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Mà se frà tante noie</l>
+            <l>Sempre è la Regia involta; almen con feste</l>
+            <l>Cerchiamo alcun ristoro. Già che il Cielo</l>
+            <l>Vi niega haver d’Augusta augusta prole,</l>
+            <l>E morte invida tolse di vederla</l>
+            <l>De la bella Valeria; perche à nuove</l>
+            <l>Nozze il gran figlio non legate; onde habbia</l>
+            <l>A destarsi la speme</l>
+            <l>E ne la Regia, e in Roma, e ne l’Impero</l>
+            <l>Di veder pullular novelli heroi</l>
+            <l>Sotto i felici, e fortunati auspici</l>
+            <l>De la vostra grandezza?</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Io già più di una volta</l>
+            <l>Pensato hò di legar à nuovo nodo</l>
+            <l>Galerio: Mà le cure</l>
+            <l>De l’Imperio mi tolgono a me stesso.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Non so, se maggior cura</l>
+            <l>De l’Impero potete haver, che dargli</l>
+            <l>Certo, e felice herede.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Già fisso è il mio pensiero; E (s’io non fallo)</l>
+            <l>Pensi, che non ti spiaccia;</l>
+            <l>Io non saprei trovar Sposa più degna</l>
+            <l>De la nostra Susanna,</l>
+            <l>Figlia del buon Gabinio; ella e del nostro</l>
+            <l>Sangue; e non altra havrai, che per bellezza</l>
+            <l>O per virtù l’avanzi hoggi, ò l'agguagli.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Saggio il consiglio è sì, ch'esser non puote</l>
+            <l>D’altri, che vostro; e in ver più degna coppia</l>
+            <l>Ritrovar non saprei nel mondo tutto</l>
+            <l>Non può Galerio haver più degna Donna;</l>
+            <l>Ne Susanna trovar Sposo più degno.</l>
+            <l>Hor pensier così saggio</l>
+            <l>Non comporta dimora: Mà non altri,</l>
+            <l>Che voi di sì bell’opra esser dè fabro.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Facciasi in ogni modo:</l>
+            <l>Io già ne diedi al mio Galerio un cenno</l>
+            <l>Et egli è in mia balia: tua cura intanto</l>
+            <l>Sia di dir a Gabinio, et al Germano</l>
+            <l>Caio, ch'io così sento, e così voglio.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>E qual può giunger loro (invitto Augusto)</l>
+            <l>Più bramata novella? Io per lor parte</l>
+            <l>E per mia ancora ad adorar ne vengo</l>
+            <l>Vostra Diva clemenza, che non sdegna.</l>
+            <l>Nostra humiltate sollevar tanto alto.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Claudio mi farai sempre frà i più cari.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III</head>
+          <stage>Gabinio. Caio.</stage>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>HOr che farà Sommo Pastore, e caro</l>
+            <l>Germano? None più strada, ne soglia,</l>
+            <l>Ove non si calpesti il sangue sparsp</l>
+            <l>Dell’innocente popolo di Christo.</l>
+            <l>Già più volte vermiglio</l>
+            <l>Con la piena di sangue il Tebro è corso</l>
+            <l>A render fede al mar de la spietata</l>
+            <l>Ferina crudeltà di quello mostro,</l>
+            <l>Che ne fà desiar l’empio Nerone.</l>
+            <l>Dunque l’honor d’Imperial Diadema</l>
+            <l>Che doveva cader nel sangue nostro,</l>
+            <l>Fù per renderlo infame in Cielo, e in terra,</l>
+            <l>Esecrabile à gli huomini, et à Dio?</l>
+            <l>Qual fiera fù, qual mostro,</l>
+            <l>Ch’al mondo lo produsse, e gli diè il latte?</l>
+            <l>Ne contento di ancider, tal fà stratio,</l>
+            <l>Che istesso Satan men di lui scaltro</l>
+            <l>E in ritrovar tormenti. Horrore hà mosso</l>
+            <l>Più di una svolta in quei, che sitibondi</l>
+            <l>Eran del sangue nostro, in quelli istessi</l>
+            <l>Più esserati Ministri. S’alcun senso</l>
+            <l>Havesser quei suoi Dei d’oro, ò di fasso,</l>
+            <l>Non potrebbon soffrir con occhi aperti</l>
+            <l>L’infando horror di sì spietato empio.</l>
+            <l>Nè so, se molti, che disfatti in polve</l>
+            <l>Spesso caggion de i Martìri al cospetto,</l>
+            <l>Gli disfacci l’horror, benché sian sassi.</l>
+            <l>Mà tu Signor del Cielo, come soffri,</l>
+            <l>Chel popol tuo fedel, che così pronto</l>
+            <l>Porge per l’honor tuo le carni, e l’alme,</l>
+            <l>Sia tutto al fin consunto</l>
+            <l>Da fiera crudeltà d’empio Tiranno?</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Taci Gabinio, e frena</l>
+            <l>Il tuo cordoglio, ancorché giustio, e santo:</l>
+            <l>Che alga in mar non si muove, ò foglia in terra</l>
+            <l>Senza voler Divino; E spesso sembra</l>
+            <l>Piena di fallo quella,</l>
+            <l>Che di virtute è pruova.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Caio, ben dite; mà pur molti, e molti</l>
+            <l>Ne reggiamo cader vinti da tema</l>
+            <l>Di tormenti penosi.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Mà più sono,</l>
+            <l>Quei, che da morte ardita.</l>
+            <l>Trae l'invitta costanza.</l>
+            <l>Dei Martiri beati. Non rammenti</l>
+            <l>Quel, che di propria bocca il Signor nostro</l>
+            <l>Disse; che se non muore</l>
+            <l>Il seme, indarno il frutto se n’attende?</l>
+            <l>Quel sangue pio, che da mano empia e sparso</l>
+            <l>Sì largamente, e seme, che germoglia</l>
+            <l>Folta, e beata prole.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Mà che prò, s’egli è fermo questo mostro</l>
+            <l>D’estirparli al fin tutti, e che non resti</l>
+            <l>Nè pur del nome avanzo?</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Faccia, che vuol: che chi col Cielo pugna</l>
+            <l>Se stesso frange, et ei medesmo è fabro</l>
+            <l>Di quel, che abborre: ch’al voler superno</l>
+            <l>Ubidisce l’human contra sua voglia.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>A me par impossibil ch’huom ne campi.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>E pur crescer si vede</l>
+            <l>Ogni hor la schiera bella de fedeli.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Ahi che (tacer à voi noi posso) troppo</l>
+            <l>Può in me paterno affetto. Caio, io temo</l>
+            <l>A la mia cara, et unica Susanna,</l>
+            <l>Pupilla di questi occhi: Quando io penso,</l>
+            <l>Che à la buona Alessandra esser non valse</l>
+            <l>Moglie del fier tiranno amata, e cara:</l>
+            <l>Poiché non così tosto egli conobbe,</l>
+            <l>Ch’era di Christo ancilla, che l’uccise,</l>
+            <l>E l'istesso timor Serena ingombra</l>
+            <l>Temo, e pavento anco io.</l>
+            <l>Che se mai di Susanna à lui perviene,</l>
+            <l>Che segua l'alta Legge, non adopri</l>
+            <l>Ver lei più fiero, e dispietato sdegno.</l>
+            <l>Di me non temo, che qual fin più degno</l>
+            <l>Poss’io sperar, che versar l'alma, e ‘l sangue</l>
+            <l>Per lui, che si degno col suo lavarmi?</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Se pregiata è tal morte, e tu la brami,</l>
+            <l>Perche dunque l’invidij à la tua figlia?</l>
+            <l>E qual può à lei venir cosa più degna,</l>
+            <l>Che seguir le vestigia di Alessandra,</l>
+            <l>La cui felice morte</l>
+            <l>Degna fu di allegrezza, e non di pianto?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Poro male è il discior dal corpo l'alma.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Mà che temi tu dunque di Susanna?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Temo che da ludibrij, e da tormenti</l>
+            <l>Vinta non cada in sempiterna morte:</l>
+            <l>Temo, che morendo io, ella non resti</l>
+            <l>Esposta a le lusinghe, et à gl’inganni,</l>
+            <l>Temo, che quel suo sen tenero, e molle,</l>
+            <l>che natura sì dolce, e sì benigna</l>
+            <l>Sia mal atta à soffrir, e stratij, e scorni,</l>
+            <l>E frà lunghi martir morte penosa.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Tema di ciò ch’in sua virtù si fida.</l>
+            <l>Dunque pensi (Gabinio) che per nostro</l>
+            <l>Poter s'acquistin così chiare palme,</l>
+            <l>Che abbatton la possanza dell’Inferno,</l>
+            <l>E del Ciel fanno gloriose prede?</l>
+            <l>Non noi; mà il nostro Dio è quel, che vince:</l>
+            <l>Ei de l gran braccio suo l'onnipotenza</l>
+            <l>Mostra, ove men giunge natura imbelle.</l>
+            <l>Et trae da debolezza, onde confonda</l>
+            <l>L’humano fallo, e la superbia atterri.</l>
+            <l>Dunque sì poco il suo poter ti è noto?</l>
+            <l>Non hai tu visto frà tormenti immensi</l>
+            <l>Rider fanciulli di uno, e d’altro sesso;</l>
+            <l>E schernito da loro arder di rabbia</l>
+            <l>Il fier Tiranno, e dichiararsi vinto?</l>
+            <l>Scaccia (Gabinto) scaccia</l>
+            <l>Da tè sì rio timor non di tè degno,</l>
+            <l>Nè di Susanna nostra. Ella, che tutta</l>
+            <l>Arde in divino amor, non mai disgiunta</l>
+            <l>Per timore, ò per pena</l>
+            <l>Sarà da lui, che s’hà per Sposo eletto:</l>
+            <l>E se per lui dovesse spender l'alma</l>
+            <l>O se beata, e noi! Mà ciò che sia</l>
+            <l>Caro Germano, à noi convien, che ‘l nostro</l>
+            <l>Voler, e sempre, e in tutto si conformi</l>
+            <l>Con quel del signor Nostro, che non mai</l>
+            <l>Se non de suoi fedeli il bene agogna.</l>
+            <l>A se spiar ne lice</l>
+            <l>Gli alti secreti suoi, Gabinio, io spero,</l>
+            <l>Che non lunge sarà la desiata</l>
+            <l>Pace à la Chiesa; e risonar per tutto</l>
+            <l>S'udirà in liete voci il santo, e degno</l>
+            <l>Nome di Christo. Già di veder parmi</l>
+            <l>Le corone, e gli scettri a lui piegarsi;</l>
+            <l>Et à suo honor ergersi Altari, e Tempij.</l>
+            <l>Ne credo d’ingannarmi che quel sangue,</l>
+            <l>Che si largo si versa in ogni parte</l>
+            <l>Non può non esser di tal ben fecondo.</l>
+            <l>Mà tempo è, che n’andiamo, ove n’aspetta</l>
+            <l>Popol devoto, e spesso</l>
+            <l>Ad offerir l’immacolato Agnello,</l>
+            <l>Perche dia forza a quei, ch’in fiero agone</l>
+            <l>Imperturbati aspettano l’assalto</l>
+            <l>Di tutte le potenze</l>
+            <l>Del mondo, de la Carne, e de l’Inferno.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>CHi sia, ch’al cielo</l>
+            <l>Osi por legge, ò i suoi giudici intenda!</l>
+            <l>Se fosco velo</l>
+            <l>Fa, che sua luce non à noi risplenda</l>
+            <l>Diciam, ch’è frale</l>
+            <l>Occhio mortale:</l>
+            <l>E se ‘l Ciel chiude alti misteri in seno;</l>
+            <l>Humil l’adori, e stia la lingua à freno.</l>
+            <l>In van presume</l>
+            <l>Cinta di carne mente humana alzarsi</l>
+            <l>A quel gran lume</l>
+            <l>Ver cui vede i suoi rai tenebre farsi</l>
+            <l>L’Autor de l giorno,</l>
+            <l>Il Sole adorno:</l>
+            <l>Mà se ‘l sapere eterno a noi si copre</l>
+            <l>Chini lodiamo, et ammiriamo l’opre</l>
+            <l>Fastoso Tempio</l>
+            <l>Sen va, che tutto à suoi desiri arride:</l>
+            <l>Per crudo scempio</l>
+            <l>II giusto intanto si consuma, e stride.</l>
+            <l>Ah, se noi vedi,</l>
+            <l>Pur certo credi,</l>
+            <l>Che giusta lance l’opre nostre scerna;</l>
+            <l>Ch’errar non può l’alta cagion superna.</l>
+            <l>Mà come losco</l>
+            <l>Non sia l’occhio in mirar divino obietto;</l>
+            <l>S’ancora è fosco</l>
+            <l>In quel, che cade sotto humano aspetto?</l>
+            <l>Par, che sia gioia</l>
+            <l>E pur è noia</l>
+            <l>Quel pomposo seder in alto trono,</l>
+            <l>E di false lusinghe udire il suono.</l>
+            <l>Quell’or, quell’ostro,</l>
+            <l>Quelle folte d’intorno armate schiere</l>
+            <l>Al parer nostro</l>
+            <l>Son di chi regna le sembianze vere.</l>
+            <l>Mà sè tu togli</l>
+            <l>Quei vani invogli;</l>
+            <l>Servo sarà quel, che ti par che regni</l>
+            <l>Di timori, e desir, d’orgogli, e sdegni.</l>
+            <l>Quanti n’inganna</l>
+            <l>Cieco desio di cumular tesori?</l>
+            <l>E pur s’affanna,</l>
+            <l>Povero intanto frà gli argenti, e gli ori:</l>
+            <l>Non arche gravi</l>
+            <l>Rendon soavi.</l>
+            <l>I giorni della vita, che sen fugge</l>
+            <l>Se perdonando à l’or se stessa strugge.</l>
+            <l>Mà ‘l volgo ammira</l>
+            <l>Una vana sembianza, che l’alletti</l>
+            <l>E ingordo aspira</l>
+            <l>A imaginati suoi falsi diletti.</l>
+            <l>Mà se vi giunge</l>
+            <l>Trova, che punge</l>
+            <l>Human piacer, ch’è di piacer un ombra,</l>
+            <l>E di vero penar l’anima ingombra.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO SECONDO</head>
+        <div type="scene">
+          <head>SCENA I.</head>
+          <stage>Caio. Gabinio</stage>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>OND’è che sì turbato</l>
+            <l>Io ti veggio Gabinio? per qual nova</l>
+            <l>Cagion tu mi richiami hora, che à pena</l>
+            <l>Finito ho il Sacrificio Sacrosanto?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Io non sì dir, se buona nuova, ò rea</l>
+            <l>Sia quella, che ti porto, mà ben sento</l>
+            <l>Corrermi (Caio) un freddo gel per l'ossa.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Disvela pur quel, che di dentro chiudi.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Chiede Diocletiano, che Susanna</l>
+            <l>Sia moglie di Galerio.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Onde ciò sai?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Venne da me tutto festoso, e lieto</l>
+            <l>Claudio il nostro Cugino; e qual chi porta</l>
+            <l>D’inaspettato ben care novelle,</l>
+            <l>Mi disse, ch’era giunta</l>
+            <l>L hora da bear noi, da farci grandi,</l>
+            <l>Da sollevarci del altezza al colmo,</l>
+            <l>Che Augusto di sua bocca</l>
+            <l>Detto gli havea, che maritar Susanna</l>
+            <l>Voleva con Galerio; e ch’ei facesse</l>
+            <l>Nota a voi, et à me quella sua voglia.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Qual risposta tù desti à cotal nuova?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Stupor mi assalse, ond’ei di maraviglia,</l>
+            <l>Pieno mi disse; come à cosi lieto</l>
+            <l>Nuntio io non dessi d’allegrezza segno?</l>
+            <l>Risposi all’hor, che grande honor facea</l>
+            <l>Il grande Augusto al nostro stato humile;</l>
+            <l>Mà che nostra humiltà non parea degna</l>
+            <l>Di tant’altezza, et era</l>
+            <l>Paga de l'esser suo, qual ei si fosse.</l>
+            <l>Mà perche Claudio scuse</l>
+            <l>Non ammetteva, e si credea, che voci</l>
+            <l>Fossero di modestia; io dissi al fine,</l>
+            <l>Che à voi, et à Susanna</l>
+            <l>L’Impero aperto havrei de l grande Augusto;</l>
+            <l>E ch'ei medesmo anco venir potrebbe,</l>
+            <l>A intender il pensier de la fanciulla.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Dura conditione in ver si porge</l>
+            <l>Gabinio: E se mai tempo</l>
+            <l>Fu di chieder a Dio alto soccorso,</l>
+            <l>Hor mi par quello. Già di veder parmi</l>
+            <l>Susanna in fiero agone,</l>
+            <l>O di mancar à Dio quel, ch’ha promesso,</l>
+            <l>O d’irritar d’Augusto il grande sdegno.</l>
+            <l>Mà tentato ancor hai,</l>
+            <l>Qual’e il pensiero, la mente</l>
+            <l>De la nostra Susanna?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Non ho voluto senza voi parlarle:</l>
+            <l>Mà ben le ho fatto dir, che quì in disparte</l>
+            <l>Ne la vicina loggia hora l'attende.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Vieni, Spirto celeste, e dal ciel manda</l>
+            <l>De la tua luce un raggio: A</l>
+            <l>Vieni consolator de i miserelli,</l>
+            <l>Refrigerio de l’alme.</l>
+            <l>Vieni tu degli aissitti alto sostegno,</l>
+            <l>Del cuor dolce ristoro.</l>
+            <l>Vieni, che senza il tuo divino lume</l>
+            <l>Ogni altro lume è notte,</l>
+            <l>Con tutti i doni suoi Signor, deh scendi,</l>
+            <l>E i nostri petti del tuo fuoco accendi.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Ecco Susanna è giunta.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Andiam da lei.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>Caio, Susanna. Gabinio.</stage>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>À io ti salvi Susanna.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Lode al signor sia sempre:</l>
+            <l>Intanto à voi non spiaccia, almo Pastore,</l>
+            <l>Di benedir la vostra serva, e figlia.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>L’alto Fattor superno</l>
+            <l>Largo in tè giova di sue gratie un nembo.</l>
+            <l>Sorgi figliuola, e da tuo Padre ascolta</l>
+            <l>Quel, ch’ei farà per dirti; che richiede</l>
+            <l>Pensier maturo anzi celeste lume.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Susanna, se tu sei</l>
+            <l>Vaga di quel, che tutto il Mondo apprezza;</l>
+            <l>La pià bella cagion hor ti si porge,</l>
+            <l>Che mai possa sperar Donna mortale.</l>
+            <l>L’Imperator frà tante Donne, e tante,</l>
+            <l>Ch’ardono di desio</l>
+            <l>D’esser in nodo maritai congiunte</l>
+            <l>Al suo Galerio, elegge</l>
+            <l>Te sola, e tè sol degna</l>
+            <l>Stima che adorni Imperial Diadema.</l>
+            <l>Hor se tu brami haver del mondo il freno:</l>
+            <l>Se ti aggrada seder sovr’alto trono</l>
+            <l>E à suoi piedi veder le più sublimi</l>
+            <l>Donne di sangue Consolare, e Regio;</l>
+            <l>Se haver di gemme, e d’or gravide l’arche</l>
+            <l>Se premer co i calzari</l>
+            <l>I serici lavor contesi in oro:</l>
+            <l>Se vederti d’intorno densa siepe</l>
+            <l>D’armati Cavalier farti corona,</l>
+            <l>E pender da suoi cenni: S'esser brami</l>
+            <l>La più felice, e la più degna Sposa,</l>
+            <l>Che hoggi habbia il Mondo tutto, e in tua balìa,</l>
+            <l>Che solo il tuo consenso Augusto attende.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Mi beffi, caro Padre, ò il vero parli?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Non mai più ver di quel, ch’hora intendi.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Che cosa tu mi dici? ov’è il tuo senno?</l>
+            <l>Ovè l'antico saper tuo? sì tosto</l>
+            <l>Oblij quel, che più volte</l>
+            <l>Mi hai detto, ch'al sovrano</l>
+            <l>Sommo Signor’io tutta mè dicassi?</l>
+            <l>Hor come negli orecchi e ne la lingua</l>
+            <l>Hai sofferto, che cada</l>
+            <l>Parlar sì rio, e di te stesso indegno?</l>
+            <l>Dunque congiunger pensi</l>
+            <l>Me con sun empio, crudo e fier pagano,</l>
+            <l>Che per l’aversa fede</l>
+            <l>Il santo Padre Caio, e tu sovente</l>
+            <l>Negato havete esser à voi congiunto?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Io non fò forza al tuo voler; mà solo</l>
+            <l>Vò, ch’intendi il voler d’Augusto, e pensi</l>
+            <l>A quel, che far, a quel, che dir conviene.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Non fuor di colpa io stimo il porre in forse</l>
+            <l>Con pensier nuovo, un pensier santo, e pio.</l>
+            <l>Dunque vuoi tu, ch’io cangi</l>
+            <l>Il mio Sposo celeste.</l>
+            <l>Per un fetido, e fral, che tosto in vermi</l>
+            <l>Sarà converso, e in polve? E vuoi, ch’io manchi</l>
+            <l>A quella fè, ch’intatta</l>
+            <l>Devo serbare al mio Signore, e Dio?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Se ti ritiene il svoto, ch’hai tu fatto</l>
+            <l>Di conservar sempre Virgineo il fiore</l>
+            <l>Di castità; può Caio, che hà le chiavi</l>
+            <l>De la terra, e del ciel fartene sciolta.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Mal per me, se ‘l poter, ch'hà il nostro Santo</l>
+            <l>Padre, deve fruir per farmi ferva</l>
+            <l>De la Carne, e del monde, e tormi à Christo.</l>
+            <l>lo bramo, che mi sciogla, e non mi leghi;</l>
+            <l>E che del Ciel le porte</l>
+            <l>Ei mi apra, e non mi chiuda.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Io so, che per te stessa</l>
+            <l>Meglio è l’offrir à Dio à corpo, e l’alma;</l>
+            <l>Che l'Impero del mondo: Mà pur penso,</l>
+            <l>Che per Donna fedel può farsi Santo</l>
+            <l>L’huomo infidel. Chi sa, che te ministra</l>
+            <l>Non voglia il signor Nostro,</l>
+            <l>Perche il cuor di Galeno ò cangi, ò tempri</l>
+            <l>A prò de suoi fedeli?</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>N’hai l’esempio</l>
+            <l>Ben pronto di Serena, e di Alessandra;</l>
+            <l>Mà felice Alessandra, ch’indi trasse</l>
+            <l>Di acquietar bella, e gloriosa palma.</l>
+            <l>Mà quanto è più felice</l>
+            <l>Chi con la palma del martirio accoppia</l>
+            <l>Quella de ‘l voto Virginal? Beata</l>
+            <l>Me sovra ogni altra, s’al Signor piacesse,</l>
+            <l>Che l'importuno invito de le nozze</l>
+            <l>M’innalzasse à goder l’Eterne nozze.</l>
+            <l>Del mio Sposo celeste, e ch'ir potessi</l>
+            <l>Con la veste fregiata del mio sangue!</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Per tenerezza il pianto</l>
+            <l>Frenar non posso. O dolce ò cara figlia,</l>
+            <l>Già ch'il Signor sì chiaro</l>
+            <l>Il lume suo ti scuopre, ti sovvenga</l>
+            <l>D’esser forte, e costante; che farai</l>
+            <l>Combattuta (cred’io) con fieri assalti.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Padre non dubitar che nel mio Christo</l>
+            <l>Ho ferma fede e spero, ch’ei non voglia</l>
+            <l>Lasciar in abbandon l’humile ancella.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>A pietoso Signore, à forte amante</l>
+            <l>Tu ti appoggi, Susanna; al cui sol cenno</l>
+            <l>Tremano quei, che ‘l citi han su le spalle:</l>
+            <l>Ei ti darà vigor quando sia d’huopo,</l>
+            <l>Purché in lui solo, e nulla in tè confidi.</l>
+            <l>Hor fà buon cuore e quando</l>
+            <l>Huopo farà, l’alto Signor parole</l>
+            <l>Daratti senza, che per tè vi pensi.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Mà qual risposta noi daremo al nostro</l>
+            <l>Cugino Claudio, che dè far ritorno.;</l>
+            <l>Ad Augusto, e portargli</l>
+            <l>Il voler di Susanna?</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Versate tutta sovra mè la colpa:</l>
+            <l>E voi stessi serbate al popol Santo.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Troppo, figlia, ti fidi.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Chi mi dà lume, ancor mi darà forza</l>
+            <l>Nè farà vana mai la mia fidanza.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Habbiam petto ancor noi contro una morte.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Se sottarmi al periglio altri potesse;</l>
+            <l>Sò ben, ch'in tè non manca, ò caro Padre,</l>
+            <l>Di verace virtute animo invitto:</l>
+            <l>Mà s’io schivar non posso</l>
+            <l>Quel, che tu puoi, seguiam la certa guida</l>
+            <l>De l'eterno F attor, che sa ben quando,</l>
+            <l>E come à se ne tragga.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Saggio e ’I parlar, Gabinio, di Susanna</l>
+            <l>Che aspettar noi dobbiam, che Dio ne chiami.</l>
+            <l>Et esser sempre à la partita accinti;</l>
+            <l>E non da noi fuor di stagion esporci</l>
+            <l>Con troppo ardire à periglioso incontro:</l>
+            <l>Anzi io consiglio, che ne men Susanna</l>
+            <l>Fuor di necessità l'ira provochi</l>
+            <l>Di Augusto e che cerchiam dimore, e scuse,</l>
+            <l>Quanto possiam, salva di Dio la legge.</l>
+            <l>Mà venir Claudio veggio; e à quel, che panni</l>
+            <l>Tutto di gioia, e di letitia ardente.</l>
+            <l>Mi accosterò ver lui, ch’è già vicino.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>Claudio. Caio. Susanna.</stage>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>  
+            <l>Gabinio,O Caio, quanto a tempo</l>
+            <l>lo ti ritrovo! tutto</l>
+            <l>Di care, e liete voci alto risuona</l>
+            <l>L’Imperial Palagio; anzi pur tutta</l>
+            <l>Roma; ch’impatiente de l’indugio</l>
+            <l>Arde in desio di veder tosto accesa</l>
+            <l>La face nutiale</l>
+            <l>Frà Galerio, e Susanna. O noi beati</l>
+            <l>O felice Susanna, ò sempre fasto,</l>
+            <l>E lieto, e caro giorno! Già Serena</l>
+            <l>La qual tutta di gioia fuor trabocca,</l>
+            <l>Da le vicine Terme</l>
+            <l>Si accinge per venirne alla medesma</l>
+            <l>A raddoppiar le gioie con Susanna.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Già mi ha detto Gabinio</l>
+            <l>Di qual honor fa degno</l>
+            <l>Il grande Augusto il nostro</l>
+            <l>Humile, e basso stato; et hora a punto</l>
+            <l>Chiediamo il senso haver de la fanciulla:</l>
+            <l>Mà ella, che non mai pensato havea</l>
+            <l>Di sottoporre il collo</l>
+            <l>Al giogo marital, parche non sappia</l>
+            <l>Anco pensarvi; Ond’io Claudio, vorrei,</l>
+            <l>Che si desse à lei tempo</l>
+            <l>Di chiamar à consiglio</l>
+            <l>Tutti i pensieri suoi per alcun giorno.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Caio, non so, s’io sia</l>
+            <l>Fuor di me stesso, ò pur quel tuo gran senno</l>
+            <l>Sia caduto per terra. Ove tu sei?</l>
+            <l>Che dici? che vaneggi? Haver del mondo</l>
+            <l>Lo scettro in casa, e far pensier, se s'habbia</l>
+            <l>O non s'habbia a pigliar? O Cieli, ò Dei!</l>
+            <l>Mà non veggio Susanna? Hor di sua bocca</l>
+            <l>Saprò meglio cavar quel, che non sai,</l>
+            <l>Caro il mio Caio. Bella avventurata</l>
+            <l>O felice Susanna, à cui destina</l>
+            <l>Il Ciel quanto capir può human desio;</l>
+            <l>Quanta dolcezza io sento.</l>
+            <l>Di vedervi innalzata à quell’altezza</l>
+            <l>Ch’è di vostra virtute, e di voi degna!</l>
+            <l>Quanta à esser à parte</l>
+            <l>Anch'io di stringer si beate nozze!</l>
+            <l>Concedete à l’amor, al nostro sangue</l>
+            <l>Ch'io vi abbracci, e vi dia segno di pace.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Lunge da me quella tua bocca immonda,</l>
+            <l>Che profanata hai tante e volte, e tante,</l>
+            <l>Hor in honor degl’Idoli bugiardi;</l>
+            <l>Hor à danno del popolo innocente</l>
+            <l>De i seguaci di Christo. Lunge, ah lunge;</l>
+            <l>Che ‘l fetore, e la puzza,</l>
+            <l>In tè mi par sentir del cieco abisso.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Qual nuovo horror per l’ossa?</l>
+            <l>Qual insolita tema mi commove</l>
+            <l>Le mie viscere? Forsi ciò produce</l>
+            <l>Il Nume offeso? ò mia Signora, e Diva,</l>
+            <l>Se de l’invitto Augusto</l>
+            <l>Io l’Impero esseguì, e ’l sangue sparsi,</l>
+            <l>Del popolo di Christo, ch’(io nol niego)</l>
+            <l>E per rotta innocente, pur son rei</l>
+            <l>Per l’offesa, che fanno</l>
+            <l>A gli Dei nostri Santi, et immortali.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Di quali Dei tu parli, di quei Dei</l>
+            <l>Incestuosi, impuri, iniqui, et empij;</l>
+            <l>Le cui opre sì laide</l>
+            <l>fan per tutto sentir la puzza, e ‘l lezzo??</l>
+            <l>Di quel Giove impudico,</l>
+            <l>Che de la sua sorella</l>
+            <l>E marito, et adultero, et à mille</l>
+            <l>Letti di Donne, e di Donzelle caste</l>
+            <l>Fè insidiosi agguati? Di quel Giove,</l>
+            <l>Che al proprio Padre suo mosse empia guerra?</l>
+            <l>Di quel Giove sì forte, e sì possente</l>
+            <l>Che (perr esser degli altri il più sublime)</l>
+            <l>Non può però de Christiani à un cenno</l>
+            <l>Schermirsi sì, che vinto</l>
+            <l>Tosto non caggia convertito in polve?</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Non sò qual da voi scende</l>
+            <l>Forza, e vrtù, che mia ragion confonde.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Misero tè; che forza</l>
+            <l>Maggior t’affretta à le perpetue fiamme,</l>
+            <l>Ove i suoi Dei, e tù, et ogn’impuro</l>
+            <l>Con eterni tormenti</l>
+            <l>Pagarete dei falli vostri il fio.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Mà s’impuro son io, non puro farmi</l>
+            <l>Potrò per alcun mezzo?</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Per un solo,</l>
+            <l>Pentimento verace, e cangiar fede.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Claudio ascolta il mio dir. Quel Dio, che trasse</l>
+            <l>Di nulla à un cenno solo il Mondo tutto</l>
+            <l>E che la terra, e ‘l Ciel col cenno regge,</l>
+            <l>Ver tè benigna di sua luce un raggio</l>
+            <l>Par, che ti scopra; e spero, che sottrarti</l>
+            <l>Per mezzo dì Susanna al grave incarco</l>
+            <l>Vorrà, ch’hora ti aggrava. Non è peso</l>
+            <l>Che più l’anima opprima,</l>
+            <l>Che ‘l tristo, e duro giogo</l>
+            <l>D’Idolatria, d’doli vani, e sciocchi:</l>
+            <l>Mà scioglier non ti puote altri, che Christo.</l>
+            <l>Ei de l’eterno Padre, eterno Figlio,</l>
+            <l>Quando volle si cinse</l>
+            <l>D’humana carne il manto,</l>
+            <l>E per liberar noi da gravi colpe,</l>
+            <l>Le pene a noi donate egli sofferse:</l>
+            <l>Onde à ludibri, à scherni</l>
+            <l>E à morte indegna anco à la fin soggiacque:</l>
+            <l>Mà risorse ben tosto; e la sua possa</l>
+            <l>Si scorge ne i suoi servi, che più vale</l>
+            <l>Piccol fanciullo armato</l>
+            <l>Di Christina fede, che non vale</l>
+            <l>De i vostri De’lo stuol quanto egli è grande.</l>
+            <l>Può sol di Christo un servo</l>
+            <l>Dar lume a i ciechi, a i sordi</l>
+            <l>L'udito; ai zoppi il corso;</l>
+            <l>Dileguar dagl’Infermi ogni malore;</l>
+            <l>Può dar la vita à i morti;</l>
+            <l>Tor la forza a i tormenti, et à le fiamme;</l>
+            <l>E render mansuete</l>
+            <l>Le più feroci belve</l>
+            <l>Tu ciò vedi ogni giorno, e ‘l cuor ti punge</l>
+            <l>Stimolo, che ti adita il camin dritto:</l>
+            <l>Ah non ricalcitrar, acciò che in vece</l>
+            <l>Di quel divino amor, con che ti accoglie</l>
+            <l>Il nostro Dio, poi non si muova à sdegno.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>S’io seguo il vostro essempio,</l>
+            <l>Credo di non errar; mà tu m 'impetra</l>
+            <l>Perdon de i falli, che ho fin quì commessi.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Tutti i suoi falli puoi lavar col sangue</l>
+            <l>Di Christo, se tu prendi il suo Battesmo.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>A prenderlo io son pronto, mà frà tanto</l>
+            <l>Non si ritardi quel, che Augusto chiede.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Fa pria quel, che à tè importa,</l>
+            <l>Che se ad eterna morte tu ti danni,</l>
+            <l>Indarno peri dal tuo Augusto aita.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Dispiegami pur tu quel, ch’io far debba,</l>
+            <l>Che volentier farollo; mà conviene</l>
+            <l>Pur, ch’io sappia, onde possa</l>
+            <l>Dar risposta ad Augusto.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Segui pur mio consiglio,</l>
+            <l>Claudio, per hora e d’altro non ti caglia,</l>
+            <l>Che di emendar le colpe, ch’hai commesse,</l>
+            <l>Spargendo ingiustamente giusto sangue:</l>
+            <l>Lavale col battesmo,</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Sarò mondo</l>
+            <l>D’ogm bruttura col Battesmo Santo?</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>D’ogni fallo n’andrai sì puro, e netto;</l>
+            <l>Come Angelo del cielo, purché fede</l>
+            <l>Certa, et indubitata in te non manchi.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Deh santo Padre Caio, s’alcun merto</l>
+            <l>In me non è; per quello del mio Christo</l>
+            <l>Con le ginocchia à terra ecco io vi prego,</l>
+            <l>Che senz’altro indugiar vi piaccia tosto</l>
+            <l>Col divino lavacro render mondo,</l>
+            <l>Claudio de le sue colpe; e i duri lacci</l>
+            <l>Scior di Satan, in cui si trova avvinto;</l>
+            <l>Acciò, ch'ei nostro si a, com’è di sangue,</l>
+            <l>Così di fè, così di amor congiunto.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Veggio venir Serena. Claudio andiamo</l>
+            <l>Noi nel mio albergo: con Gabinio intanto</l>
+            <l>N’andra Susanna, ad incontrar Augusta.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Beneditemi Padre, e vi sovvenga</l>
+            <l>Di aiutarmi co i prieghi.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IV.</head>
+          <stage>Serena. Susanna. Gabinio.</stage>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>O Dolcissima mia cara Susanna,</l>
+            <l>Christo sia teco. Quanto godo, ò quanto,</l>
+            <l>Che tu debba esser nostra! Sorgi, e stringi</l>
+            <l>Con le tue care braccia</l>
+            <l>Chi ti ama al par di Madre, ò di Sorella.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Benignissima Augusta vostra serva</l>
+            <l>Sarò, qual sempre fui.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Deh poni, ò figlia,</l>
+            <l>Queste voci non tue: Dolce Compagna</l>
+            <l>Sarai; nè poteu’io</l>
+            <l>Più desiar, ch’haver te de l’Impero</l>
+            <l>E del palagio e de consigli à parte;</l>
+            <l>Mà di Sposa non veggio in tè vestigi.</l>
+            <l>So, che la tua beltà se stessa adorna;</l>
+            <l>E che tu dai quel, ch’altra chiede a i fregi:</l>
+            <l>Mà pur convien, che ‘l grado</l>
+            <l>D’una Moglie di Cesare risplenda</l>
+            <l>Sovra tutt’altre, anco al di fuori, et io</l>
+            <l>Che so, che tu non hai quel, che si deve</l>
+            <l>Al merto tuo, recato ho di monili,</l>
+            <l>E di pregiate gemme un ricco dono,</l>
+            <l>Sinche altre te n’appresti il caro Sposo.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Altri ornamenti chiede</l>
+            <l>Il mio Sposo da me: di gratie intanto</l>
+            <l>Quella copia vi rendo,</l>
+            <l>Che render può te humile, e grata ancella.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Quali ornamenti chiedi? fà ch'io sappia</l>
+            <l>Il tuo desir, che ricco è il gran Palagio</l>
+            <l>Di quanto può mai dar il Mondo tutto.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Non può ‘l Mondo mai dar cosa, che piaccia</l>
+            <l>Al mio Signori, e Sposo.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>E come? Fuor del Mondo</l>
+            <l>Trovaremo ornamenti?</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Dal Ciel vengono quei, ch'egli gradisce;</l>
+            <l>Anzi ei gli dona.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Figlia io non intendo</l>
+            <l>Quel, che tu dici.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>A voi</l>
+            <l>Io non debbo celar, benigna Augusta,</l>
+            <l>Quel, ch’in me chiudo. Sposo</l>
+            <l>Trovato ho già più di Galerie degno;</l>
+            <l>Che ama non ostro, od oro</l>
+            <l>O gemme d’Oriente;</l>
+            <l>Mà vera fè, vera humiltate, e pace</l>
+            <l>Interna, e pronta haver l’alma à suoi cenni.</l>
+            <l>Sposo celestee ho eletto; il dolce Christo,</l>
+            <l>A cui sacrato ho già il mio corpo, e l’alma;</l>
+            <l>Nè potrà forza humana</l>
+            <l>Tanto, che mi discioglia:</l>
+            <l>Da sì beati nodi,</l>
+            <l>Se pria l’alma dal corpo non si scioglie.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Quanto saggia Susanna,</l>
+            <l>Tu sei, con pianto il dico,</l>
+            <l>Che abborri questa trista, e perigliosa</l>
+            <l>Grandezza Imperial mentre di legge</l>
+            <l>Sei diversa al marito! Quante io provo</l>
+            <l>Misera ogni momento</l>
+            <l>Contese; e risse! e di veder conviemmi</l>
+            <l>Destinar à le fiere, al foco, al ferro,</l>
+            <l>Quei, che mi son più cari; e da colui,</l>
+            <l>Ch‘ogni hor mi veggio à canto:</l>
+            <l>E se ‘l tacer mi è pena;</l>
+            <l>Periglioso è il parlar. Mà come puoi</l>
+            <l>Figliuola mia tu ricusar le nozze,</l>
+            <l>Che non discopri la contraria legge;</l>
+            <l>Onde in vece di nozze habbi la morte?</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>S’al mio Signor ciò piace, ove poss'io,</l>
+            <l>Spender meglio la vita?</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Troppe, figlia, presumi: ahi, che ‘l tuo petto</l>
+            <l>Troppo è tenero, e molle a si gran passò.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Debole io sono sì, che picciol verme</l>
+            <l>Può vincermi: mà forza</l>
+            <l>Spero da lui, che può da debolezza</l>
+            <l>Destar vigore, onde il poter confonda</l>
+            <l>De i più forti, e potenti.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Pensa meglio, Susanna,</l>
+            <l>Che quando sarà presso</l>
+            <l>De la morte il sembiante,</l>
+            <l>Parerà paventoso</l>
+            <l>Assai più, che non credi.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>Non ho sì poco amor, sì poca fede</l>
+            <l>Verso il mio Dio, che possa</l>
+            <l>Ombra di morte nel piè fier sembiante</l>
+            <l>Far sì, ch'io cangi voglia.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>E tu, Gabinio, soffri,</l>
+            <l>Ch’ella nel più bel fior de gli anni suoi</l>
+            <l>Sen corra à briglia sciolta incontro a morte?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Ella ha da Dio più, che da me non have:</l>
+            <l>E mentre s’è buttata à le sue braccia;</l>
+            <l>Spero, ch’egli di Lei</l>
+            <l>Sosterra il cuor, la lingua, onde non cada.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Ahi, ch’io soffrir non posso, che sì cara</l>
+            <l>E sì vaga, e sì nobile Donzella</l>
+            <l>Nel più bel fior degli anni</l>
+            <l>Habbia per l’empie mani</l>
+            <l>Di carnefice fiero ad esser segno</l>
+            <l>Di ludibrio, ò di scherno.</l>
+            <l>Ritornate à l’albergo.</l>
+            <l>Vostro, ch'io vedrò con prieghi, e scuse,</l>
+            <l>Se tor dal suo pensier potessi Augusto</l>
+            <l>Con destinar Galerio ad altre nozze.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Ciel disponga quel, ch’è nostro meglio;</l>
+            <l>E 'I suo svoler s’adempia.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Abbracciami Susanna, pria, ch’io parta.</l>
+          </sp>
+          <sp who="#susanna">
+            <speaker>SUSANNA.</speaker>
+            <l>II mio Signor vi paghi</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>HOr va ti fida, e credi</l>
+            <l>Al módo, et à le sue vaghe sembianze</l>
+            <l>Se di dolci speranze,</l>
+            <l>Spesso dogliosi lai son fatti heredi!</l>
+            <l>Hor dolce arride, hor quasi leon rugge;</l>
+            <l>E l’suo piacer fallace</l>
+            <l>Con piè fugace</l>
+            <l>Quasi torrente rapido sen fugge.</l>
+            <l>Mondo, che fuori ha riso, e dentro pianto;</l>
+            <l>E chiude il mai sotto leggiadro manto.</l>
+            <l>Qual’è, che non ammiri;</l>
+            <l>L’esser di sangue Imperiale, ò Regio,</l>
+            <l>O di beltate un fregio,</l>
+            <l>Invida non lo brami, e non sospiri?</l>
+            <l>O Mondo folle, ò cieco occhio mortale:</l>
+            <l>Pongono in durre asprezze:</l>
+            <l>Quelle grandezze,</l>
+            <l>Che chi l’hà, di sè Donna esser non vale.</l>
+            <l>Ahi quant’è meglio essere altrui mal nota,</l>
+            <l>E menar vita placida, e remota.</l>
+            <l>Così era fiore, e fiore</l>
+            <l>Sta celato tal hor fiero serpente;</l>
+            <l>E in vaso d’or sovente</l>
+            <l>Sta mortale, e pestifero liquore.</l>
+            <l>Corre il volgo ignorante a un chiaro raggio</l>
+            <l>Mà di quel lume vago</l>
+            <l>Poi non è pago;</l>
+            <l>E tosto prova di miseria un saggio.</l>
+            <l>Cangia desir, e voglia, à voglia mesce;</l>
+            <l>E quel, che più gli piacque, hor gli rincresce.</l>
+            <l>S’alcun lieve contento</l>
+            <l>Pur ne dà il Mondo, ò di scontento un'ombra:</l>
+            <l>Ei si dilegua, e sgombra</l>
+            <l>Tosto, che nato à pena il vedi, e spento.</l>
+            <l>Ogni cosa quaggiù corre, e non resta:</l>
+            <l>E quando par più pieno,</l>
+            <l>All hòr vien meno</l>
+            <l>Il piacer breve, et al suo fin s’appresta.</l>
+            <l>Con gran desir attendi il ben, che vuoi:</l>
+            <l>Mà com’è giunto, ritener nol puoi.</l>
+            <l>A gran ragion discioglie</l>
+            <l>Le prime voci al pianto l’huom, che nasce:</l>
+            <l>Di lagrime si pasce</l>
+            <l>Pria che di latte; e prova angosce, e doglie</l>
+            <l>Presago del suo mal s’aissigge, e piange;</l>
+            <l>E che goder nel mondo</l>
+            <l>Stato giocondo</l>
+            <l>Ei non potrà, prevede; onde se n’ange:</l>
+            <l>Par che de mali suoi vegga la meta,</l>
+            <l>Misero ancor non parla, e già è profeta.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO TERZO</head>
+        <div type="scene">
+          <head>SCENA I</head>
+          <stage>Diocletiano. Serena.</stage>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Dunque sdegna Susanna</l>
+            <l>Di Galerio le nozze? ò pur presume</l>
+            <l>Che da meno di lei fosse mia figlia?</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Ella ciò non presume: anzi frà quante</l>
+            <l>Virtù splendono in lei, portano il pregio</l>
+            <l>Modestia, et humiltate.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Qual può dunque</l>
+            <l>Cagion da quel ritrarla,</l>
+            <l>Di che dovrebbe haver sommo desio?</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Non par, che piegar l’alma</l>
+            <l>Sappia à prender Marito: e la sua mente</l>
+            <l>E vaga sì di placida quiete,</l>
+            <l>Che le molestie abborre,</l>
+            <l>Quai porta seco il marital ligame.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Mà che pensa di far? tra le Vestali</l>
+            <l>Ella non è già scritta.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Cangerà, cred’io, voglia; ch’ogni frutto.</l>
+            <l>Si matura col tempo. Che di male,</l>
+            <l>Segue da indugiar? Ella non fugge;</l>
+            <l>Et io vedrò di far, che paga, e lieta</l>
+            <l>Facci quel, ch’hor farebbe</l>
+            <l>Con noia, e contro voglia,</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>D’altro temo io, e queto non rimango,</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Fors’anco si rammenta (mà nol dice)</l>
+            <l>Di quell’antico detto,</l>
+            <l>Che ‘l nodo marital sia tra gli eguali:</l>
+            <l>Ond’ella ch’in privata</l>
+            <l>Fortuna è avvezza, forse più desia</l>
+            <l>Far si à privato Cavalier compagna,</l>
+            <l>Che a Maestà d’Imperial Diadema.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Quasi che d’esser grandi</l>
+            <l>Abborrisser le Donne! Mà più degna</l>
+            <l>Non so chi sia di lei, ch’è mia congiunta;</l>
+            <l>Altro pensiero la mia mente ingombra:</l>
+            <l>Né vorrei che mi fosse</l>
+            <l>Forza d’incrudelir nel proprio sangue.</l>
+            <l>Amo Susanna al pari</l>
+            <l>Di quel, ch'amai la mia Valeria e ‘l suo</l>
+            <l>Ben più di ogni altro io bramo:</l>
+            <l>Mà sto trovassi mai, che quella legge</l>
+            <l>Maledetta, ch’io abborro, ella seguisse</l>
+            <l>Non potrebbe nè sangue,</l>
+            <l>Ne virtù, nè bellezza</l>
+            <l>A l'ira mia sottrarla.</l>
+            <l>So, ch’è proprio costume di quell’empia</l>
+            <l>Legge fuggir i maritali letti,</l>
+            <l>E sterile menar tutta la vita;</l>
+            <l>Quel suo vestir sì schietto, e sì modesto;</l>
+            <l>Quel parlar poco, e rider meno, e quello</l>
+            <l>Orror, ch'ella ha mostrato sempre a i nostri</l>
+            <l>Spettacoli, mi dan non picciol segno,</l>
+            <l>Ch’ella bevuto il tosco,</l>
+            <l>Habbia di quella setta iniqua, e ria.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Iniqua setta certo, che per altro</l>
+            <l>Non si discerne, che per santi, e degni</l>
+            <l>Costumi, e chiari di virtute essempij.</l>
+            <l>Non dico già, che sia</l>
+            <l>Susanna di tal setta: Mà mi è caro,</l>
+            <l>Che vostra lingua istessa pur confessi,</l>
+            <l>Che modestia, humiltate, e caste voglie.</l>
+            <l>Di Christiani sian le colpe, e i segni.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Poi pur prender volete la difesa</l>
+            <l>Sempre di questa gente à me rubella?</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>S'à voi fosse ribella,</l>
+            <l>In odio l’havrei più d’ogni mortale:</l>
+            <l>Mà qual dì lor più fida? qual più pronta</l>
+            <l>Ad ubidir? qual più di pace amica?</l>
+            <l>Quai misfatti han commessi? quai gran falli?</l>
+            <l>Non mai di lor s’udiro</l>
+            <l>Moti seditiosi, ò ver rapine:</l>
+            <l>Anzi paghi di poco</l>
+            <l>Ad altri dan quel, ch'à i più ricchi avanza.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Sono avveduti, e scaltri,</l>
+            <l>Che fanno, mà celar fanno i misfatti:</l>
+            <l>Onde in tenebre sempre.</l>
+            <l>Tra sotterranee cave fan ridotti;</l>
+            <l>Gente del Sol nemica, e de la luce.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Se per vostri Ministri à lor non lice</l>
+            <l>Far in palese l’opre lor: qual colpa</l>
+            <l>E, ch’essi chiusi sivi in sepolture</l>
+            <l>Faccin a l'ombra di perpetua notte</l>
+            <l>Quel che si vieta lor di far il giorno?</l>
+            <l>Dura condition, che siano rei</l>
+            <l>Per quel, che fanno a forza.</l>
+            <l>Concedete voi lor, ch’in chiaro giorno</l>
+            <l>Faccin loro adunanze, e sì vedrete</l>
+            <l>Se aborrono, ò se temono la luce.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>E si sa ben, ch'essi di humana carne</l>
+            <l>Fanno empij, et esecrabili conviti.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Querela antica: E pur per cento, e cento</l>
+            <l>Diligenze, che si usano, non mai</l>
+            <l>Trovossi, che frà loro un ne mancasse.</l>
+            <l>S'essi fanno ogni giorno</l>
+            <l>Questi empij, esecrabili conviti,</l>
+            <l>Ogni giorno mancar anco dovrebbe</l>
+            <l>Alcun de i devorati. Se si uccide</l>
+            <l>UN’huomo sol, tosto n’è pieno il volgo:</l>
+            <l>Mà questi ne divoran’ogni giorno;</l>
+            <l>Nè si può saper chi sia l’ucciso.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Più cupi, e più segreti</l>
+            <l>Sono del mar profondo: Mà di molti,</l>
+            <l>Che lascian l'empia setta, e fan ritorno</l>
+            <l>A i nostri Dei, opre sì sozze, e rie</l>
+            <l>Si veggono ad ogni hora, che dan segno,</l>
+            <l>Che germane sian quelle anco de gli altri:</l>
+            <l>Mà da lor arte ascose,</l>
+            <l>Sì che non veggan mai luce di giorno.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Bel testimonio in vero</l>
+            <l>Di color, che rubelli</l>
+            <l>Sono al suo Dio, e forsi fino à tutti;</l>
+            <l>(Che ciò creder si può d’alma inconstante)</l>
+            <l>Mà se Signor mi date,</l>
+            <l>ch'io parli in libertate: Onde può meglio</l>
+            <l>Scoprirsi, che non rea sia quella legge</l>
+            <l>Che abbandonano sol quei, ch’in costumi</l>
+            <l>Son perversi, e ribaldi, ove a l'incontro</l>
+            <l>La ritengon color che giusti, e santi</l>
+            <l>Son più di agni altro? rammentar potete</l>
+            <l>Di mille, che voi tratti havete à morte</l>
+            <l>Con cordoglio infinito che altra colpa</l>
+            <l>Non fù trovata in lor, ch’esser di Christo</l>
+            <l>Seguaci, che per altro</l>
+            <l>Erano giusti in pace, in guerra invitti.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Sia, che si vuole, io odio questo nome</l>
+            <l>Ne poserò fin che noi peggio estinto.</l>
+          </sp>
+          <sp who="#serena">
+            <speaker>SERENA.</speaker>
+            <l>Miseri, a cui non noce altra, ch’il nome:</l>
+            <l>E sol si vieta à Christiana gente</l>
+            <l>Ritener la lor fede, ov’è permesso</l>
+            <l>Di poter adorare un cane, un bue,</l>
+            <l>E tanti altri Dei barbari, et ignoti;</l>
+            <l>O la Dea Febre, ò ‘l dio Stercutio, ò pure</l>
+            <l>De le Mosche il gran Dio Miagro, ò quella.</l>
+            <l>Che nominar non puossi,</l>
+            <l>Nè meno con rossor da Donna casta.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Serena, se mi amate (come io credo)</l>
+            <l>Frenate il vostro dir, che spesso in forse</l>
+            <l>Mi mette, che non siate</l>
+            <l>Ancora voi di rio veleno infetta.</l>
+            <l>Vedete di scoprir qual di Susanna</l>
+            <l>E la mente, e se pura ella si serba</l>
+            <l>Da quella vile, et odiosa legge,</l>
+            <l>Ch’estinguer ogni legge</l>
+            <l>Può in me d’amor, di sangue, e di rispetto.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>Galeno. Macedonio.</stage>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>E sarà ver mai, ch’una sì saggia</l>
+            <l>Donzella, è sì leggiadra</l>
+            <l>Possa piegar l’anima bella à setta</l>
+            <l>Tanto vile, et indegna?</l>
+            <l>Sia ver, che me ricusi,</l>
+            <l>Anzi meco l’Impero</l>
+            <l>Di tutto l’universo.</l>
+            <l>Per serbar al suo Dio vedovo letto?</l>
+            <l>O mio scettro infelice, ò mia potenza</l>
+            <l>Abietta, et impotentw! ò bella, e fiera,</l>
+            <l>Susanna ver tè stessa anco crudele,</l>
+            <l>Che del tuo ben ti privi, perch'io sia</l>
+            <l>Privo di quel, ch'io bramo! Tu non sei</l>
+            <l>Nata già di aspe, ne tra ‘l freddo Scita?</l>
+            <l>Nè quel sembiante placido ti accusa</l>
+            <l>Per figliuola di un’Orsa, ò di una Tigre.</l>
+            <l>Mà qual tu, Macedonio, n’hai certezza</l>
+            <l>Di quella sua sì fiera,</l>
+            <l>Et ostinata voglia?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Ch’ella sia Christiana, io così certo</l>
+            <l>Né son, quanto, ch'il Sol dia luce al giorno:</l>
+            <l>E certo son ancora</l>
+            <l>Ch'ella serbar intatta, et infeconda.</l>
+            <l>Vuol sua Virginità, conforme à l’uso</l>
+            <l>Di quella maledetta iniqua legge.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Dunque fatt’han gli Dei tanta bellezza,</l>
+            <l>Perche neessun la goda, e ‘n tutto il corso</l>
+            <l>De la sua vita sterile rimanga?</l>
+            <l>Ben iniquo è il suo Dio, che ciò permette:</l>
+            <l>Mà per qual via tu havesti</l>
+            <l>Di ciò certa contezza?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Voi sapete, Signor, qual mi diè cura</l>
+            <l>Augusto di cercar tutte le r vie</l>
+            <l>Per discoprir ciascun, che creda in Christo,</l>
+            <l>Fermo già d'estirparli insino ad uno:</l>
+            <l>Ondi io, che più di ogni altro</l>
+            <l>Bramo servire al mio Signore ho mosse</l>
+            <l>Tutte le forze, e l’arti del mio ingegno</l>
+            <l>Per saper de i segreti lor ridotti;</l>
+            <l>E perche io so quanta frà lor si serba</l>
+            <l>Fede incorrotta (onde non mai ‘l un l'altro</l>
+            <l>Rivela, ò scopre) ho ritrovati alcuni</l>
+            <l>Mastri di simular persidi, e scaltri,</l>
+            <l>Che con volti dimessi,</l>
+            <l>E con logori panni, e con sembianti</l>
+            <l>Composti, qual’è l’uso</l>
+            <l>Di quella gente, fingon che seguaci</l>
+            <l>Esser bramino anch’essi</l>
+            <l>De la lor setta: e sì per questa via</l>
+            <l>Penetrano i più chiusi</l>
+            <l>Loro arcani, e segreti. Hor un di questi,</l>
+            <l>Ch’e degli altri il più accorto,</l>
+            <l>Con viso macilente, e con sospiri,</l>
+            <l>E con lagrime pronte,</l>
+            <l>Tanto ha saputo dir, hor contra i Dei.</l>
+            <l>Hor esaltando Caio, ch’è creduto</l>
+            <l>Per un de i più fedeli</l>
+            <l>Che sia ne la lor setta. Questo tristo</l>
+            <l>(Che tal dirollo) ancorché io me ne serva,</l>
+            <l>Con le sue arti è giunto</l>
+            <l>A penetrar quel, che non mai creduto</l>
+            <l>Haurei; e maraviglia</l>
+            <l>Desterà in voi, Signor, anco non poca.</l>
+            <l>Chi crederia, che Caio,</l>
+            <l>Caio ad Augusto in sangue</l>
+            <l>Congiunto, quel gran Caio.</l>
+            <l>Sì saggio, e sì prudente</l>
+            <l>Fosse die Christian, e capo, e guida?</l>
+            <l>Et Vescovo si chiama, ch’è quel grado</l>
+            <l>Che più frà lor si pregia. Dopo lui</l>
+            <l>E tra i primi Gabinio, che di Prete</l>
+            <l>Ha il nome, e l'opre. Hor dentro le lor Case</l>
+            <l>Fansi spesse adunanze; et ivi tutti</l>
+            <l>Son de la legge Christiana infetti.</l>
+            <l>Susanna è Christiana, il Padre, il Zio</l>
+            <l>Le Damigelle, e i Servi, in somma tutti;</l>
+            <l>Et hoggi stan godendo in liete feste,</l>
+            <l>Perche Claudio, ch'era ito</l>
+            <l>Per conchiuder le nozze di Susanna.</l>
+            <l>Vinto dal dir di lei, anch’egli ha preso</l>
+            <l>Con tutti i suoi quella nemica legge.</l>
+            <l>E tanto hanno potuto in lui le ciancie</l>
+            <l>Di una fanciulla, che ne pur indugio</l>
+            <l>Preso non ha per consigliarsi, ò almeno</l>
+            <l>Per portar le risposte</l>
+            <l>Ad Augusto, et à voi del vostro Impero.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>O prestigi, ò incantesimi, ò esecranda</l>
+            <l>Setta, che togli il senno anco di più saggi!</l>
+            <l>Quest’e ‘l tardar di Claudio? ò Claudio, ò Claudio</l>
+            <l>Troppo infido à l'amico queste sono</l>
+            <l>L'alte promesse tue? di fiero sdegno</l>
+            <l>Ardo più contro tè, che ‘l cor non arde</l>
+            <l>Per l'amor di Susanna.</l>
+            <l>Mà che farai tu Macedonio? Pensi</l>
+            <l>Di ridir ad Augusto</l>
+            <l>Quel, che l’astuta Spia ti hà discoperto?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>E come io tacer posso</l>
+            <l>Senza offender Augusto, e la mia fede,</l>
+            <l>Quel, ch’et più di saper brama, et agogna?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Fors’ei non gradirà, ch’i suoi congiunti</l>
+            <l>Siano chiamati rei di sì gran colpa.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Non vò per liberar altri di colpa;</l>
+            <l>Ch'ella sovra a me cada. Vi rammenti,</l>
+            <l>Che Augusto in odio ha sì l’aversa legge,</l>
+            <l>Ch'incrudelir potè contro la moglie.</l>
+            <l>S'à Gabinio, et à Caio</l>
+            <l>Ei condonar vorrà, è in sua balìa:</l>
+            <l>Mà se mai rispesse, ch'io taciuto</l>
+            <l>Havessi un tal’eccesso; qual potrei</l>
+            <l>Sperar difesa, ò scampo?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Ohimè, ch’anco à periglio</l>
+            <l>N'andrà con lor la vita di Susanna.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Anzi questa è la via</l>
+            <l>Ce a voi si porge, di acquistar Susanna.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>E qual’è questa via?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Perch’ella, come intenda,</l>
+            <l>Che voi da cruda morte</l>
+            <l>Liberar la potete, e sollevarla</l>
+            <l>Al colmo di grandezza; come à un Dio</l>
+            <l>Sarà per dedicarvi il corpo, e l’alma</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>O me beato, si mai ciò seguisse!</l>
+            <l>Mà s’ella non cangiasse quella legge;</l>
+            <l>Come potra schivar d’Augusto l'ira?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Come sia vostra moglie, ò cangia fede</l>
+            <l>O con diverso manto</l>
+            <l>La faremo apparir, fin che col tempo,</l>
+            <l>O le vostre lusinghe, ò la grandezza</l>
+            <l>Imperial le tolghino di testa</l>
+            <l>Quella viltà de la Christiana legge.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Deh pensa, Macedonio, se sia meglio</l>
+            <l>Non palesar ancor quel, che tu sai.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Signor, perdon vi chieggio; che troppo alta</l>
+            <l>Vendetta caderia sovra il mio capo,</l>
+            <l>S'io restassi di far quel, che conviemmi,</l>
+            <l>Ben vi prometto, ch'ogn’industria, et arte</l>
+            <l>Userò, perche pago</l>
+            <l>Resti il vostro desio di haver Susanna.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Altri, che tè non ho di cui mi fidi.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <sp who="#galerio">
+            <speaker>Galerio.</speaker>
+            <l>Quanto finger mi è d'huopo? Io nulla credo</l>
+            <l>A questo fier Ministro, che si ciba</l>
+            <l>De le miserie altrui; e pur mi è forza</l>
+            <l>Mostrar di confidar ne la sua fede:</l>
+            <l>Ne posso altri trovar, in cui mi fidi.</l>
+            <l>Mi veggio circondato d’ogni ntorno,</l>
+            <l>Da nemici; e non ho à cui l’interno</l>
+            <l>Poss’io aprir di quest’alma. Un Claudio solo</l>
+            <l>Che di cor generoso</l>
+            <l>Io stimai, e magnanimo, e costante,</l>
+            <l>Anch’ei mi manca al fine: onde non posso</l>
+            <l>Aprir’i chiusi arcani fuor ch’a l'aura;</l>
+            <l>benché de l’aura ancor non più mi fidi.</l>
+            <l>Maledetta grandezza, che mi toglie</l>
+            <l>Di havere, e di conoscere gli amici.</l>
+            <l>Ardo d’amor io sì; mà d’altro affetto</l>
+            <l>Anco pagato ho il core: e non mi arrischia</l>
+            <l>O di sfogar’il male,</l>
+            <l>O di prender consiglio.</l>
+            <l>Entro fieri tiranni</l>
+            <l>consumano l’alma: mà tiranni</l>
+            <l>Non men crudi di fuor temo, e pavento.</l>
+            <l>In odio ho quella legge, che mi rende</l>
+            <l>Sì cruda, e inesrabile Susanna:</l>
+            <l>Mà non men quella legge odio, et abborro,</l>
+            <l>Che mette in gran perigli,</l>
+            <l>La vita di Susanna</l>
+            <l>Hor ch’importa ad Augusto, se frà mille,</l>
+            <l>E mille Dei, ch’empiono, il Cielo, e ‘l Mare,</l>
+            <l>Entra anche un Christo? O che Susanna, e ‘l Padre</l>
+            <l>Credano quel, che vogliano, mentr’esso</l>
+            <l>Non sà quel, che si creda?</l>
+            <l>Per me creda Susanna quel, che vuole,</l>
+            <l>Che io nol contendo, purché non mi neghi</l>
+            <l>De suoi begli occhi il raggio; e mi conceda,</l>
+            <l>Ch'io possa adorar lei qual vivo Nume.</l>
+            <l>Non mi curo, che sia,</l>
+            <l>O di Christio, ò di Apollo</l>
+            <l>Purché mie sian le sue bellezze intatte.</l>
+            <l>Amor, se tu Dio sei</l>
+            <l>Che altro Dio non conosco; tu mi guida;</l>
+            <l>Tu intenerisci il cuor di quella fera;</l>
+            <l>Prendi ancor la difesa</l>
+            <l>Di lei, e falle schermo</l>
+            <l>Contro l’ira di Augusto: et io lo spero,</l>
+            <l>S'ella troppo ostinata, e troppo cruda</l>
+            <l>Esser fabra a sé stessa</l>
+            <l>Non vorrà del suo danno.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IV.</head>
+          <stage>Claudio. Caio.</stage>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>PAdre, schivar potrete</l>
+            <l>La fatica di dirmi,</l>
+            <l>E le fole, e le ciancia</l>
+            <l>Di tante Deità, che Roma adora.</l>
+            <l>Lo confesso, che mai</l>
+            <l>Adorar non potei con vero cuore</l>
+            <l>Quei nostri Dei in mille colpe involti,</l>
+            <l>Che de gli huomini son più vili, e indegni.</l>
+            <l>Io già so ben, che molti</l>
+            <l>Huomini furo da Poeti in alto:</l>
+            <l>Messi, e non da lor merto: e sò, che molti</l>
+            <l>Non son d’Elementi, e de Pianeti:</l>
+            <l>Mà quello saper bramo,</l>
+            <l>Come Christo, ch’è Dio tanto possente,</l>
+            <l>Che col cenno formò la Terra, e ‘l Cielo;</l>
+            <l>Nacque, visse, e morìo</l>
+            <l>Frà disaggi, frà stenti, e frà martiri?</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Claudio, chi vuol saper quel, che sia Christo</l>
+            <l>Non Dio solo l’intenda, nè sol huomo:</l>
+            <l>Mà sotto humana carne vero Dio.</l>
+            <l>Dio eterno, impassibile, immortale</l>
+            <l>In tempo si vestì di humana carne</l>
+            <l>E quella sottopose à stratij, à morte.</l>
+            <l>Così tal’hor vedrai</l>
+            <l>Coperto il Sol da procellose nubi,</l>
+            <l>Che facendo riparo a i chiari ràggi</l>
+            <l>Di lui, mostrano à noi un atra notte</l>
+            <l>Cinta tutta di grandine, e di pioggie:</l>
+            <l>Mà pur di quando in quando</l>
+            <l>Penetra frà le nubi un raggio ardente,</l>
+            <l>Onde l’huom saggio accoglie, ch’incorrotta</l>
+            <l>Serba il Sol la sua luce</l>
+            <l>Dal fosco de le nubi inferiori:</l>
+            <l>E chi l’opre considera di Christo,</l>
+            <l>Hor de l’Humanità vede le nubi;</l>
+            <l>Hor de la Deità lucidi i raggi.</l>
+            <l>Nasce in humil Capanna</l>
+            <l>Trà l'asinello, e ‘l bue:</l>
+            <l>Di molle piume in vece</l>
+            <l>L’accoglie ispido fieno</l>
+            <l>E vil presepio è il detto wi</l>
+            <l>Mà se vagir lo senti in così vile</l>
+            <l>Albergo, e vili arnesi;</l>
+            <l>Scendon però dal ciel nobili schiere</l>
+            <l>Di Spiriti sublimi, et immortali,</l>
+            <l>Chi di armonia celeste</l>
+            <l>Empiono l'aria, e con soavi canti</l>
+            <l>Danno à lui gloria, e pace</l>
+            <l>Promettono à la terra</l>
+            <l>Corron da l'Oriente</l>
+            <l>Ad adorarlo i Magi:</l>
+            <l>E quei, ch’è chiuso in fasce,</l>
+            <l>Fa vacillare, e fa tremar gli Scettri</l>
+            <l>De i Rè superbi, e fieri.</l>
+            <l>Se in più matura etate</l>
+            <l>Prova gelo, et arsura, e fame, e sete</l>
+            <l>Dìsaggi, povertate, onte, e dispreggi,</l>
+            <l>E calunnie mordaci;</l>
+            <l>Vedi da l'altro canto</l>
+            <l>A suoi cenni obedir il mare, e i venti;</l>
+            <l>E dileguarsi i mali:</l>
+            <l>Vedi saltar i zoppi più che cervi;</l>
+            <l>Aprirgli orecchi à i sordi, e gli occhi à i ciechi,</l>
+            <l>E vedove mandar le sepolture</l>
+            <l>I cadaveri estinti.</l>
+            <l>Vedi moltiplicare il pane, e ‘l pesce;</l>
+            <l>Onde può in sen portar picciol fanciullo,</l>
+            <l>Quanto può satiar le folte turbe,</l>
+            <l>Di cento, e cento numerose schiere:</l>
+            <l>E vedi in vino trasformarsi l’onda.</l>
+            <l>Vedi anco i Cieli aprirsi, e render fede</l>
+            <l>De l’esser suo divino.</l>
+            <l>Mà si percosso il vedi da flagelli;</l>
+            <l>Se acutissime spine fan corona</l>
+            <l>Al suo capo, e di scherno ei fatto è segno;</l>
+            <l>Se tra due ladri il vedi in Croce assiso,</l>
+            <l>E dargli per conforto amaro fiele:</l>
+            <l>Veder puoi à l’incontro</l>
+            <l>Vestirsi il Sol di tenebre; e la terra</l>
+            <l>Tutta tremar; romperi i sassi, e i monti;</l>
+            <l>E risorger de morti à cotal mossa;</l>
+            <l>E volgersi sossopra la natura.</l>
+            <l>Il vedi al fin sepolto;</l>
+            <l>Mà il terzo giorno a pena</l>
+            <l>Spunta, ch’egli è risorto</l>
+            <l>Tutto di gloria cinto,</l>
+            <l>Non più oggetto à morte, ne à i disàgi</l>
+            <l>Di questa fragil vita: e poich’egli hebbe</l>
+            <l>Fatta copia di se per molti giorni</l>
+            <l>A suoi più cari, e fidi;</l>
+            <l>A veduta di molti al fine ascese,</l>
+            <l>Calcando l’aria à le celesti sfere:</l>
+            <l>Ove à la destra del gran Padre assiso</l>
+            <l>Gode eterno bear, gioia infinita.</l>
+            <l>Indi, quando sia giunto,</l>
+            <l>Di quello Mondo il fine, egli verranne</l>
+            <l>Cinto di Maestate in trono eccelso.</l>
+            <l>Saranno tuoni, e folgori i messaggi,</l>
+            <l>E del ciel fiamma in dilatate falde.</l>
+            <l>Tutto arderà quanto egli è grande il Mondo.</l>
+            <l>All’hor ripiglieranno corpi l'alme;</l>
+            <l>All’hor tutti tremanti, e paventosi</l>
+            <l>Aspettaranno i miseri nocenti,</l>
+            <l>Tremenda, e irrevocabile sentenza;</l>
+            <l>Onde sien condennati à pene eterne.</l>
+            <l>All’hor non varrà Scettro, nè Corona;</l>
+            <l>Non ricchezza, ò potenza, non amici;</l>
+            <l>Nè quel, ch'hor ranto vale,</l>
+            <l>Pentimento, e dolor del mal commesso.</l>
+            <l>Ciascun degne del fallo havrà le pene,</l>
+            <l>Mà tutte eterne; e in mucchi</l>
+            <l>N'andranno altri à le fiamme, et altri al gelo.</l>
+            <l>lvi i rimorsi interni</l>
+            <l>Divoreran più che le fiamme, e ‘l gelo.</l>
+            <l>Horror, la puzza, e i gridi</l>
+            <l>Saranno la mercede</l>
+            <l>Di quei, ch’hora tra i lussi</l>
+            <l>Menan l'indegna, e neghittosa vita.</l>
+            <l>Mà con suoi Dei fallaci</l>
+            <l>A perpetuo penar tutti n’andranno</l>
+            <l>Quei, ch’havran ricusata</l>
+            <l>La santa fè di Christo.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Non più Padre, non più, ch'io già tutto ardo</l>
+            <l>In desio di purgar mie gravi colpe.</l>
+            <l>Ne ricuso col sangue</l>
+            <l>Purgarle, purch'io possa puro, e mondo</l>
+            <l>Sottrarmi à quel tremendo</l>
+            <l>Giudicio, a quelle pene, ch’ahi, pur troppo</l>
+            <l>Ho meritato col seguir più l'empio</l>
+            <l>Voler di Augusto, ch’i superni lumi,</l>
+            <l>Che destavano il cuor dal suo letargo.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>Se ben macchia non è, che non la lavi</l>
+            <l>Il Battesmo di Christo; pur se vuoi</l>
+            <l>Con altre opere ancora il varco aprirti,</l>
+            <l>Dar tu potrai a i poveri soccorso</l>
+            <l>Di quel, che abbondi: che qual l’acqua estingue</l>
+            <l>il fuoco, a punto tale</l>
+            <l>Estingue l'elemosina la colpa.</l>
+          </sp>
+          <sp who="#claudio">
+            <speaker>CLAUDIO.</speaker>
+            <l>Tutto darò, quanto io posseggo al Mondo;</l>
+            <l>Acciò che altri offesi, che vendetta</l>
+            <l>Chiamano contro me altri; altri co i prieghi</l>
+            <l>Possin sottrarmi a le dovute pene.</l>
+          </sp>
+          <sp who="#caio">
+            <speaker>CAIO.</speaker>
+            <l>S’altro dubio ti resta,</l>
+            <l>Per strada il disciorremo; mà di molte</l>
+            <l>Cose non aspettar prova dal senso,</l>
+            <l>Che troppo è frale à sì sublime obietto:</l>
+            <l>Sol con lume di fede</l>
+            <l>Spiar potremo quei celesti arcani,</l>
+            <l>Che avanzano anco il lume</l>
+            <l>De l'intelletto human, finche l’aggrava</l>
+            <l>Quello terreno manto de la carne.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>CHi porria dir quanto si studia, e quanto</l>
+            <l>Di prolungar di questa vita il corto,</l>
+            <l>Ch’è momentaneo, e Iieve!</l>
+            <l>Vorrebbe l’huom porre à la morte il morso,</l>
+            <l>Almen per spatio breve;</l>
+            <l>Nè ricusa patire, e doglia, e pianto</l>
+            <l>Venga, pur ferro, e foco:</l>
+            <l>Purché ritardi un poco</l>
+            <l>L'inesorabil morte il fiero strale;</l>
+            <l>Ogni pena si soffre, et ogni male.</l>
+            <l>Mà chi vivesse anco cento anni, e cento,</l>
+            <l>E che tutte schivar potesse l’onte</l>
+            <l>Del mondo cieco, e rio:</l>
+            <l>Se natura, e fortuna fosser pronte</l>
+            <l>Ad ogni suo desio:</l>
+            <l>Non altro al fin sarebbe, ch’un momento.</l>
+            <l>Se tu l’eterno miri:</l>
+            <l>Perche i celesti giri</l>
+            <l>Volano ratti, e quei mill’anni, e mille</l>
+            <l>Son ne l’eternità, nel mar due stille.</l>
+            <l>Mà chi farà già mai, ch’i fieri oltraggi</l>
+            <l>Di fortuna schivar tutti presuma,</l>
+            <l>E haver continua pace?</l>
+            <l>Natura anco ne rode, e ne consuma</l>
+            <l>Fugge l’età fallace:</l>
+            <l>Et al suo fin con rapidi viaggi</l>
+            <l>Sen và la vita; e prova</l>
+            <l>Sempre miseria nova.</l>
+            <l>A che desio pur d’indugiar c’invoglia;</l>
+            <l>E comprar poco indugio con gran doglia?</l>
+            <l>Hor se per breve; e lubrica dimora</l>
+            <l>Altri d’amari calici si pasce,</l>
+            <l>Soffre altri arida sete;</l>
+            <l>Altri trà gran martir more, e rinasce</l>
+            <l>Nè pur dolce quiete</l>
+            <l>Goder non può, nè respirar un hora:</l>
+            <l>Mà tal’hor tristo, e monco</l>
+            <l>Rimane inutil tronco:</l>
+            <l>Che si dee far per quella, che n’invita</l>
+            <l>Cara, e beata, e sempiterna vita?</l>
+            <l>Se per breve patir può l’huomo alzarsi</l>
+            <l>A eterna magion sovra le stelle</l>
+            <l>Frà gli Angeli beati;</l>
+            <l>Se spatiar tra le contrade belle</l>
+            <l>Di quei felici prati;</l>
+            <l>Se d’ogni tema vil, libero farsi;</l>
+            <l>Se ad eterno gioire</l>
+            <l>Un’huom mortal può gire:</l>
+            <l>Soffra quì lieta alma costante; e forte</l>
+            <l>Pena stratio, martir, tormento, e morte.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO QUARTO</head>
+        <div type="scene">
+          <stage>Diocletiano. Galerio. Macedonio.</stage>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Qual furia è, che mi accende? Qual cerasta</l>
+            <l>Mi rode il cor? Qual guerra entro mi han mossa</l>
+            <l>Questi miei sconoscenti, ingrati, indegni?</l>
+            <l>Dunque cotanto ardir nel petto alberga.</l>
+            <l>D’una sfacciata perfida fanciulla,</l>
+            <l>Nata de l’sangue mio, ch’aspettar’osi</l>
+            <l>Anco il secondo imperai? Dunque degna</l>
+            <l>Susanna quel, che à sdegno</l>
+            <l>Non hebbe già Valeria? Quel, che à sdegno</l>
+            <l>Non ho d’haver per Genero, e per Figlio?</l>
+            <l>Dunque cotal mercede ella mi rende</l>
+            <l>De l'amor mio? di haverla a sì sublime</l>
+            <l>Grado chiamata, e sovra l’altre eletta?</l>
+            <l>Ahi ben vile, et indegna ella si mostra,</l>
+            <l>E d’impero, e di vita. Mà pur lieve</l>
+            <l>Mi sembra l'error suo, quando ripenso</l>
+            <l>Et al padre, et al Zio. O Caio, ò Caio,</l>
+            <l>Caio di senno oracolo; quel Caio</l>
+            <l>Honor del sangue nostro; Caio specchio</l>
+            <l>Di virtù, di saper; Dunque han potuto</l>
+            <l>Ingombrarti la mente vili, e infami</l>
+            <l>Riti di un Galileo? Da qual follia</l>
+            <l>Io ti veggio tirar a cieco abisso?</l>
+            <l>Che dirò di Gabinio? Mà quel Claudio</l>
+            <l>Traditor, disleal, empio, e perverso,</l>
+            <l>Sovra gli altri ingratissimo, et indegno,</l>
+            <l>Mi fa gli altri obliar; Non già più sdegno;</l>
+            <l>Mà rabbia il cuor mi rode; nè poss’io</l>
+            <l>Pace, ò posa trovar, fin che con alta</l>
+            <l>Et esemplar vendetta io non mi sfogo.</l>
+            <l>Mà qual sia pena mai tanta, ch’adegui</l>
+            <l>I gran misfatti? O mio sprezzato Impero;</l>
+            <l>O vilipeso Scettro! Quando estinta</l>
+            <l>Io credei quella setta a me nemica,</l>
+            <l>Già risorger la veggio vigorosa</l>
+            <l>Più, che mai fosse, in quei, ch’à mè più cari.</l>
+            <l>Erano, e più congiunti, anzi più degni.</l>
+            <l>Più non posso schermirmi: Di quel sangue,</l>
+            <l>Che mi va per le vene,</l>
+            <l>Che non sia Christiano anco pavento.</l>
+            <l>Io mi trovo già vinto, e mi consumo</l>
+            <l>Trà rabbia, e tra dolor. O Cieli, ò Giove,</l>
+            <l>Ove son tue saette? A che le serbi,</l>
+            <l>Se soffri in tuo disonorati portenti?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Signor frenate l’ira; e l’altrui fallo</l>
+            <l>A voi non porti danno: alma turbata</l>
+            <l>Prima se stessa offende, che non altri.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Ahi che cagion troppo alta à ciò m'induce.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Può meglio alma sedata à la vendetta</l>
+            <l>Proceder con ragion, che non con ira.</l>
+            <l>E si mi lice, mio Signore, e Padre,</l>
+            <l>Dir aperto il mio senso, io non vorrei,</l>
+            <l>Ch’in voi potesse tanto</l>
+            <l>Il zelo de l’honor de nostri Dei</l>
+            <l>Che nota di crudele, e d’inhumano</l>
+            <l>Portasse al vostro nome.</l>
+            <l>Vi rammenti, che son del sangue nostro,</l>
+            <l>E che son del primo ordine, tra à primi</l>
+            <l>Per grado, e per valor, ne senza merto</l>
+            <l>D’opere belle e grandi. Voi sapete,</l>
+            <l>Che Roma è sempre pronta</l>
+            <l>A notar del suo Prencipe ogni gesto.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Infelice grandezza fatta segno</l>
+            <l>Di volubili lingue sempre infeste</l>
+            <l>A quei, che regna. Mà soffrir degg’io</l>
+            <l>Che tanta sceleraggine impunita</l>
+            <l>Rimanga? Ahi che di rabbia io mi disfaccio.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Non dico, ch’impunito</l>
+            <l>Vadi, Signor, il fallo; mà ben dico,</l>
+            <l>Che voi tentar potreste</l>
+            <l>Le vie più dolci, e più di far acquisto,</l>
+            <l>Che perdita d’amici: almen dal tempo</l>
+            <l>Prender consiglio. Se di me vi cale;</l>
+            <l>So dono al vostro sangue ogni mia offesa,</l>
+            <l>Se offesa si può dir, che mi ricusi</l>
+            <l>Susanna: mà non mai</l>
+            <l>Io pretesi di haverla, se non quanto</l>
+            <l>Fosse vostro voler, e con sua pace:</l>
+            <l>Ch’anzi torrei la morte,</l>
+            <l>Che Donna disguttar del vostro sangue,</l>
+            <l>E Donna tal, che non hà pari al mondo.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Susanna sarà vostra, e vostra serva</l>
+            <l>S’esser non vorrà Moglie. Io vò, che facci</l>
+            <l>No ‘l suo voler, mà del mio Impero i cenni.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Signor, se ad humil servo non disdice</l>
+            <l>Di dir, mentre di udir è fatto degno;</l>
+            <l>Io vorrei cominciar à sciorre il nodo</l>
+            <l>Di quello gruppo prima da Susanna;</l>
+            <l>Poi ch’ella è, che ricusa</l>
+            <l>Il vostro Impero; et ella è (com’io credo)</l>
+            <l>Men dura da acquistarsi con lusinghe,</l>
+            <l>Con prieghi, con minaccie, anco con forza,</l>
+            <l>Che la forza à la fine non ingrata</l>
+            <l>A lei sarà, quando vedrassi Donna</l>
+            <l>E di Roma, e del Mondo. E se si rende</l>
+            <l>Ella, può forse trarre il Padre, e ‘l Zio.</l>
+            <l>E se tolse di senno</l>
+            <l>Claudio col fio bel dir; anco ritrarlo</l>
+            <l>Potrà da sua follia. Almeno il tempo</l>
+            <l>Ci aprirà strada, e lume.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Già le preghiere tutte, e le lusinghe</l>
+            <l>Riuscite son vane; onde la forza</l>
+            <l>Sola ci resta. Itene voi Galerio,</l>
+            <l>Tiratela in disfarte, ivi di lei</l>
+            <l>Fate quel, che vi aggrada. Non vi muova</l>
+            <l>Prego, pianto, ò lamento, e non uscite</l>
+            <l>Di là, fin che spogliata</l>
+            <l>Non l’havrete di quel, che tanto stima</l>
+            <l>Pazzo Virgineo fiore.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Non piaccia al Cielo mai, che à forza io faccia</l>
+            <l>Tale offesa à Susanna.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Se voi bramate amico</l>
+            <l>Esser di Diocletiano, voi farete</l>
+            <l>Quel, ch’ho detto, e ridico. Io sì commando.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Non temete, Galerio, che tal forza</l>
+            <l>Vie più grata à Susanna</l>
+            <l>Sarà, che grande ossequio; e più che tutto</l>
+            <l>Quel ben, che può sperar da le man vostre.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Vostro Impero è sì stretto, ch’io non oso</l>
+            <l>Oppormi, à contradir: Mà ripugnanza</l>
+            <l>Infinita mi rode, et accompagna.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Scacciatela, ch’è indegna, e senza indugio</l>
+            <l>lte, ch'io quì vi attendo.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>Diocletiano, Macedonio.</stage>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>NArrami hor, Macedonio, più distinto</l>
+            <l>Il congresso, ch'haveste con Susanna;</l>
+            <l>E qual tenne ella conto del mio Impero.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Poiché mi mandaste (già che indarno</l>
+            <l>aspettate il ritorno</l>
+            <l>Di Claudio, e del Germano) io dir le feci,</l>
+            <l>Che parlar le volea per vostra parte.</l>
+            <l>Ella tosto introdur a se mi fece;</l>
+            <l>E come accorta, e saggia</l>
+            <l>Con quell’honor mi accolse, che dovea</l>
+            <l>Con un messo di Augusto:;</l>
+            <l>Frà sue Donzelle assisa mi fè forza</l>
+            <l>Che ancora io mi sedessi: Et ammirai,</l>
+            <l>Ch’in Casa di Gabinio, d’huom sì grande</l>
+            <l>Ch’è così strettamente à voi congiunto,</l>
+            <l>Altro, che povertà non si vedesse.</l>
+            <l>Nude eran le pareti i e pochi arnesi,</l>
+            <l>E vili sì, che à sdegno</l>
+            <l>Gli harebbe ogni vil servo.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>E superstition di quella legge,</l>
+            <l>Farsi mendico, e misero per tema,</l>
+            <l>Che la miseria un giorno non gli assaglia.</l>
+            <l>Mà segui quel, che avanza.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>: Io cominciata dirle che frà molte,</l>
+            <l>Gratie, ch'il Ciel sì larghe in lei piovea,</l>
+            <l>Sommamente stimar dovea, che voi</l>
+            <l>Haveste lei frà mille, e mille eletta,</l>
+            <l>Per levarla à quel trono, ove altra à pena.</l>
+            <l>Può giunger col desio;</l>
+            <l>Ch à lei s’era apprestiato</l>
+            <l>Il luogo di Valeria; e volevate,</l>
+            <l>Che del medesmo Sposo,</l>
+            <l>De le sue spoglie, e de le sue grandezze</l>
+            <l>Foss’ella fatta erede, e come figlia</l>
+            <l>L’havreste sempre accolta, e non men cara.</l>
+            <l>L’havreste di Valeria, e di Serena.</l>
+            <l>Aggiunsi poi, che quanto io le diceva</l>
+            <l>S’era già detto à Claudio, indi al Germano</l>
+            <l>Massimo: Mà di lor non comparendo</l>
+            <l>Alcun con la risposta; mia ventura</l>
+            <l>Era stata, che me voi le mandaste</l>
+            <l>Per portarle sì lieta, e sì felice</l>
+            <l>Novella; e ch’io credea</l>
+            <l>Che Donna d’alto cuor, d’alma gentile,</l>
+            <l>Qual’era ella, non tarda, e non ingrata</l>
+            <l>Sarebbe à riconoscer qual dovea</l>
+            <l>Obligo immenso à la vostra alta, e Diva</l>
+            <l>Infinita clemenza.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>E che à tal dir rispose?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Tacita m'ascoltò con occhi chini;</l>
+            <l>Sol la vidi turbar, quand’ella intese</l>
+            <l>Voci di Sposo; Mà pur si ritenne</l>
+            <l>Sin ch’io di dir fei posa. Poi volgendo</l>
+            <l>Ver me modestio e placido il sembiante,</l>
+            <l>In cotai detti la sua lingua sciolse.</l>
+            <l>Troppo ingrata sarei, e troppo indegna</l>
+            <l>Se l'amor, e l’honor non conoscessi,</l>
+            <l>Che sì largo mi vien dal grande Augusto:</l>
+            <l>Né quelli i primi segni</l>
+            <l>Sono, ch’io ne riporto:</l>
+            <l>Poiché non me qual serva</l>
+            <l>Humile, ch'io gli son; mà qual sua figlia</l>
+            <l>Trattommi sempre: e forse invidia n'hanno</l>
+            <l>Molte di me più degne.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Non mente sè ciò dice.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Mi aggiunse poi, che frà le tante, e tante</l>
+            <l>Gratie, ch’havute havea sovra ogni merto,</l>
+            <l>Da voi, bramava questa.</l>
+            <l>Di ogni altra la più grande;</l>
+            <l>Che quell’honor, che farle</l>
+            <l>Già designato havete, il rivolgeste</l>
+            <l>Ad altra Donna, e lei goder lasciaste.</l>
+            <l>In solitaria vita, come hor mena,</l>
+            <l>Quella sua cara, e placida quiete.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>S’io le parlava; vinto</l>
+            <l>Mi havria con le parole, e col sembiante:</l>
+            <l>Mà tu, che rispondeste?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Tal maraviglia fei, come s’io havessi</l>
+            <l>Bestemmie udite: e quali (io disssi) sento</l>
+            <l>Voci indegne di voi, di Donna saggia?</l>
+            <l>Dunque voi ricusate</l>
+            <l>D’esser suora di Augusto? E qual follia</l>
+            <l>Voler sola schivar quel, ch’ogni Donna</l>
+            <l>Brama d’haver, dolce di Madre il nome?</l>
+            <l>Dunque de l’universo voi pensate</l>
+            <l>Sola l'ordin cangiare? E non contenta</l>
+            <l>De l’offesa d’Augusto, anco volete</l>
+            <l>Offender la natura?</l>
+            <l>Bastino le Vestali, e à infeconda</l>
+            <l>Verginità dia sempre bando il Mondo.</l>
+            <l>Ella à ciò mi rispose</l>
+            <l>Cosa, ch’io non intendo;</l>
+            <l>Che fecondano il Cielo</l>
+            <l>Le Vergini, se l’altre</l>
+            <l>Fecondano la terra.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Credo d’intenderla io: che voci sono</l>
+            <l>Di quella iniqua setta.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Ben di ciò dubitai: E sì le dissi;</l>
+            <l>Alto timor m’ingombra,</l>
+            <l>Che rio velen nel vostro sen non serpa</l>
+            <l>Di quella setta, ahi, troppo vile, e indegna</l>
+            <l>Di un huom morto frà ladri sovra un legno.</l>
+            <l>Ella mi disse all’hor; io ti confesso,</l>
+            <l>Macedonio, ch’io seguo quella legge</l>
+            <l>Altrui vile, et indegna; à mè più degna</l>
+            <l>Di tutto l’universo.</l>
+            <l>Ohimè, che cosa io sento?</l>
+            <l>(Le dissi) se ciò mai sapesse Augusto;</l>
+            <l>Qual possanza, qual’arte</l>
+            <l>Vi potrebbe sottrar al gran periglio;</l>
+            <l>Ch’à sol pensarvi il sangue per le vene</l>
+            <l>Mi trema, e mi si agghiaccia?</l>
+            <l>Lunge, Susanna, lunge</l>
+            <l>Da Donzella Reale</l>
+            <l>Penser sì basso, e periglioso tanto.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Mostrò segni di tema?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Anzi più ardita all’hor, più baldanzosa</l>
+            <l>Proruppe in queste voci:</l>
+            <l>Non è cosa, ch'al Mondo più mi spiaccia,</l>
+            <l>Che spiacer ad Augusto; e ben torrei</l>
+            <l>Di perdere più tosto il Mondo tutto,</l>
+            <l>Che offendere di lui</l>
+            <l>La Maestate, e 'l merto:</l>
+            <l>Mà se del Ciel l'offesa entra in agone</l>
+            <l>Con l'offesa d’Augusto; io non intendo</l>
+            <l>Perder il Ciel per guadagnar la terra.</l>
+            <l>Son di Christo, nol niego: e a lui sacrata</l>
+            <l>Ho mia Verginità, sì che altro Sposo</l>
+            <l>Haver non posso, over cangiar per Christo.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Ahi sfacciata, et indegna: tanto ardire!</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>A questo le soggiunsi; io già non sono</l>
+            <l>Vostro sì fier nemico, che dir voglia.</l>
+            <l>Ad Augusto quel, ch’hor v'esce di bocca</l>
+            <l>Senza pensarvi. Troppo</l>
+            <l>Offendete, Susanna, Augusto, e voi.</l>
+            <l>Richiamate à consiglio</l>
+            <l>Più generosi Spirti, e di voi degni:</l>
+            <l>Ripensatevi meglio; e vi rimembri,</l>
+            <l>Che la fortuna è calva, e si vi fugge</l>
+            <l>Quella, ch’hor vi si porge</l>
+            <l>Via d’inalzarvi al colmo di grandezza,</l>
+            <l>La chiamante indarno</l>
+            <l>Quando sarà fuggita.</l>
+            <l>Mà saria poco perder la grandezza,</l>
+            <l>E l'Impero del Mondo. Maggior male</l>
+            <l>E che potrete haver vergogna, e danno:</l>
+            <l>Nè vi fidate molto</l>
+            <l>D’esser al Divo Augusto</l>
+            <l>Per sangue, e per amor tanto congiunta</l>
+            <l>Però che quando ei sappia,</l>
+            <l>Che voi per tener dietro à quella legge</l>
+            <l>Tant’odiosa, e vile,</l>
+            <l>Sprezzerete i suoi doni, anz’il suo Impeiro</l>
+            <l>Non più conto di voi</l>
+            <l>Terrà, che di una serva: e stratioe, morte</l>
+            <l>Già mi par di veder, ch’in sì gentile</l>
+            <l>Corpo e si delicate,</l>
+            <l>Membra, et in fresca età: io col pensiero</l>
+            <l>Solo già tremo tutto.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Nulla però si mosse?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Nulla: Mà sol mi disse,</l>
+            <l>Che nel suo Dio ella sperava tanto,</l>
+            <l>Di haver forza da star contro una morte.</l>
+            <l>Mà perche dissi à lei, ch'io non voleva</l>
+            <l>Risposta riportar, ch’à voi di noia</l>
+            <l>Fosse, e à lei di periglio: Ella rispose</l>
+            <l>Che quello è il suo pensier fermo, e costante:</l>
+            <l>Che s’altro io dir voleva, è in mia balìa,</l>
+            <l>Pur che a lei si conceda</l>
+            <l>Goderla pace sua, servendo à Christo.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Da quel, che tu mi dici, io già preveggio;</l>
+            <l>Ch'ella starà estimata in fin al fine;</l>
+            <l>E incontrerà Galerio gran contrasto.</l>
+            <l>Mà s’espugnar’ei non potralla; Dimmi,</l>
+            <l>Qual tu stimi, ch'io debba</l>
+            <l>Rimedio usar, ch’adegui</l>
+            <l>Il male, e ‘l nostro honor riponga in seggio?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Ancorche dura, e schiva</l>
+            <l>Si mostrassi per hora al vostro Impero</l>
+            <l>Susanna; Non mi par, che sì repente</l>
+            <l>Si debba à gli aspri mezzi far ricorso,</l>
+            <l>Per evitar la nota</l>
+            <l>Di troppa crudeltà contro una bella</l>
+            <l>Giovane di Real sangue, e costumi.</l>
+            <l>Farei, che la chiamassi nel palagio</l>
+            <l>Serena Augusta, e tra delitie, e canti</l>
+            <l>La tenesse frà nobili Donzelle;</l>
+            <l>Ove la compagnia di altre più liete,</l>
+            <l>I discorsi d’amor, le feste, e i giochi</l>
+            <l>Di vaghi Cavalieri l’alte prodezze;</l>
+            <l>Le visite più spesse</l>
+            <l>Di Galerio ne i più secreti alberghi</l>
+            <l>All hor quando escon fuor da laute cene,</l>
+            <l>Tor potrebbon de piedi</l>
+            <l>Nonché Susanna, anco Diana istessa.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>E che fareste intanto</l>
+            <l>Degli altri suoi congiunti?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Per non inasprir lei, terrei la mano</l>
+            <l>Sospesa contro ‘l padre, e contro il Zio,</l>
+            <l>Sin che si veda, ov’ella,</l>
+            <l>Si getti. Mà se parvi</l>
+            <l>Che non vadi impunito lungamente</l>
+            <l>Di Claudio, e del Germano il grande eccesso,</l>
+            <l>In sicura prigione</l>
+            <l>Si potrebbon tener, perche Susanna</l>
+            <l>Per essi liberar anco si renda</l>
+            <l>A voi men contumace, e men rubella.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>In tutto il tuo consiglio io non abborro</l>
+            <l>Fuor che di trarr’in lungo</l>
+            <l>Il castigo di Claudio empio fellone.</l>
+            <l>Mà qual rumor io sento, che la terra</l>
+            <l>Par, che tutta commova?</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Da Casa di Gabinio il rumor esce.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Par già fermo il rumor.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Mi maraviglio,</l>
+            <l>Se vi è cosa di mal, ch’alcun non venghi</l>
+            <l>De i Servi di Galerio à darne conto.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Fuor de l’usato mio non so qual nuovo</l>
+            <l>Orror, dentro mi turba.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Volete, voi, ch’io vada</l>
+            <l>A spiar la cagion di sì gran suono?</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Indugiate anco un poco: forse intanto</l>
+            <l>N'havrem certa contezza.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Ohimè lo Ciel mi aiti.</l>
+            <l>Già di Galerio un Camerier io veggio</l>
+            <l>Tinto il sembiante di color di morte.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>Cameriere di Galerio. Galerio. Diocletiano. Macedonio.</stage>
+          <sp who="#cameriere">
+            <speaker>CAMERIERE.</speaker>
+            <l>Accorrete, Signor; tosto accorrete;</l>
+            <l>Soccorrete à Galerio, che vicino</l>
+            <l>Io l’ho veduto al lido de la morte.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Giove, che sarà mai? Fieri incantesimi</l>
+            <l>Temo di questa gente: Così dunque</l>
+            <l>Nè al proprio sangue mio pur s'ha rispetto?</l>
+            <l>Corri tu Macedonio, e porgi aita,</l>
+            <l>Sin che io più chiari intenda i nostri mali.</l>
+            <l>Che dì tu di Galerio? il tutto svela.</l>
+          </sp>
+          <sp who="#cameriere">
+            <speaker>CAMERIERE.</speaker>
+            <l>Altro non vi sò dir, se non ch’entrato</l>
+            <l>Egli frà di Susanna al chiuso albergo:</l>
+            <l>E mentre noi di fuor</l>
+            <l>Aspettavam, ch’uscisse; un alto grido</l>
+            <l>Pria di Susanna udimmo;</l>
+            <l>Indi quasi un rumor di Terremoto</l>
+            <l>Rimaner ci fè tutti</l>
+            <l>Come fuor di noi stessi.</l>
+            <l>L’uno guardava l'altro; E non sapeva</l>
+            <l>Quel, che si fosse: E in questo</l>
+            <l>Vedemmo uscir Galerio tutto smorto,</l>
+            <l>E fuor de l’uscio cadde; onde da molti</l>
+            <l>Fu tosto preso in braccio: Et io quì corsi,</l>
+            <l>Per riferir à voi quel, ch'è seguito.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Ecco venir’il veggio: Sarà forse</l>
+            <l>Meno il mal de la tema. O dolce figlio,</l>
+            <l>Quai prestigi, e incantismi v'hanno offeso?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Padre, e Signor.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Prendete pur riposo.</l>
+            <l>Venghi quì da seder. Sete pur sano?</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Sono: Mà di terrore ho colma l'alma.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Si slarghino le vesti.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Io fui per obedir à i vostri cenni:</l>
+            <l>Dimandai di Susanna; e mi fu mostro</l>
+            <l>Il luogo, dov’ella era. Io là mi volsi,</l>
+            <l>Né volli, che novella altri à lei desse</l>
+            <l>Del mio andar: la trovai in una stanza</l>
+            <l>Con le ginocchie à terra, e con man giunte</l>
+            <l>Tacita, e solitaria à piè di un quadro,</l>
+            <l>Ove non ben notai quel, ch'era pinto.</l>
+            <l>S’alzo quando mi vide e mi fé segno</l>
+            <l>D’honor; mà con un velo</l>
+            <l>Cercò coprir le lagrime, che fuori</l>
+            <l>Sgorgavano da gli occhi.</l>
+            <l>Hor abborrendo io pur di usar la forza,</l>
+            <l>Usai ragioni, e prieghi; usai lusinghe:</l>
+            <l>Mà più forte, che scoglio incontro a l’onde;</l>
+            <l>E più sorda, ch’un Aspe, ogni speranza</l>
+            <l>Di vincerla mi tolse: ond’io le dissi,</l>
+            <l>Duolmi, che vostra crudeltà m’imponga</l>
+            <l>Dura necessità di farvi forza</l>
+            <l>Contr’ogni mio svolere. E in questo dire</l>
+            <l>Stesi ver lei con mal talento il braccio.</l>
+            <l>Ella quando si vide</l>
+            <l>Si vicina al periglioso,</l>
+            <l>Volgendo gli occhi al Ciel, con alta voce</l>
+            <l>Grido, Giesù soccorri: All’hor repente</l>
+            <l>Il suon mi parve udir di un Terremoto.</l>
+            <l>Indi venir per aria in fier sembiante</l>
+            <l>Vidi un Giovine alato, la cui destra</l>
+            <l>Pungentissimo ferro</l>
+            <l>Venia vibrando; e contro me rivolto</l>
+            <l>Librato in aria in atto di ferire</l>
+            <l>Disse: Tu tanto ardisci, vile, e indegno,</l>
+            <l>Contro costei, che Sposa è già di Christo?</l>
+            <l>Pieno d’alto spavento, io così presso</l>
+            <l>Mi vidi all’hor al varco de la morte;</l>
+            <l>Ch’altro non potei far, ch'à lei rivolto</l>
+            <l>Con cenni, in atto humil chieder soccorso.</l>
+            <l>Ella che sì mi vide,</l>
+            <l>Con pietoso sembiante al Guerrier forte</l>
+            <l>Diè segno di perdono. Egli ritrasse</l>
+            <l>L’acuta Spada, e poi mi disse, A lei</l>
+            <l>Dono hoggi la tua vita. Poi ridente</l>
+            <l>Ver lei le disse; Non temer Susanna;</l>
+            <l>Che l’hora è giunta già de le tue palme.</l>
+            <l>Intanto io mi tirai fuor de la porta,</l>
+            <l>E dal passato orror tutto gelato</l>
+            <l>Mi svenni, e caddi, e de miei servi in braccio</l>
+            <l>Poscia mi ritrovai: Mà non ancora</l>
+            <l>Libera è l’alma dal passato orrore.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Ditemi, qual sembianza</l>
+            <l>Havea ‘l Guerrier alato.</l>
+          </sp>
+          <sp who="#galerio">
+            <speaker>GALERIO.</speaker>
+            <l>Più Divina, ch’inumana: Tal bellezza</l>
+            <l>Non vide il Mondo mai: Lucidi raggi</l>
+            <l>Uscian dal volto; Era puro oro il crine:</l>
+            <l>E le membra tra lor sì ben conformi,</l>
+            <l>Ch'arte non potria fingerle simili.</l>
+            <l>Fiammeggiavan le vesti, ver cui vili</l>
+            <l>Sarian tutte le gemme d’Oriente.</l>
+            <l>Mà mi rimane ancor la maraviglia;</l>
+            <l>Che parve à me sì fiero quel sembiante;</l>
+            <l>Ch'à par di lui quel di una Tigre è dolce:</l>
+            <l>Parve poi ver Susanna così dolce,</l>
+            <l>Che potrebbe addolcir un cor di Tigre.</l>
+            <l>In somma, ò egli è Dio, ò pur de primi</l>
+            <l>Cittadini del cielo.</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Tempo è da ristorarvi col riposo:</l>
+            <l>Conducetelo voi; E tu quì meco</l>
+            <l>Rimanti Macedonio.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IV</head>
+          <stage>Diocletiano. Macedonio.</stage>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Non è più tempo da consigli. In bando</l>
+            <l>Sen vada ogni consiglio. Il ferro; e ‘l fuoco</l>
+            <l>Recidano quest’Idra. Sol di Caio</l>
+            <l>Si sospenda la morte à tempo breve.</l>
+            <l>Macedonio, che fido e buon Ministro</l>
+            <l>Ti ho ritrovato sempre incontro à questa</l>
+            <l>Malvagia setta, Io vò, che de miei detti</l>
+            <l>Tu sij l'essecutor: Hor ben gli nota;</l>
+            <l>E fà, ch’un non ne cada.</l>
+            <l>Claudio col suo Germano, e Moglie, e figli</l>
+            <l>Si dian vivi à le fiamme: E perche cessi</l>
+            <l>Qui del fatto ‘l invidia, Sian condotti</l>
+            <l>A le porte del Tebro, ove del fallo</l>
+            <l>Paghino il fio; et acciò non rimanghi</l>
+            <l>Nè meno la memoria di questi empij,</l>
+            <l>Sian le ceneri à l'onde sparse.</l>
+            <l>Sen vadi anco Gabinio in lacci invlto,</l>
+            <l>Per purgar sua follia col capo indegno</l>
+            <l>A Susanna, tù stesso vò, che porti</l>
+            <l>Di Giove il Simulacro: e da mia parte</l>
+            <l>Le dirai, che l’adori. Se ricusa</l>
+            <l>Usa sferze, e flagelli, e qual tu vuoi</l>
+            <l>Più dispietato stratio: Al fin il ferro</l>
+            <l>Tronchi quel capo contumace, e stolto.</l>
+            <l>No nti muova pietà, non bel sembiante,</l>
+            <l>Non l'età fresca, ò l'esser del mio sangue,</l>
+            <l>Non le voci fallaci, e lusinghiere</l>
+            <l>Di perfida Sirena: Il tutto sprezza.</l>
+            <l>Io sono, ch'il comando, io così voglio.</l>
+          </sp>
+          <sp who="#macedonio">
+            <speaker>MACEDONIO.</speaker>
+            <l>Dura condition: contro Donzella</l>
+            <l>Real, e à voi congiunta usar tal forza!</l>
+          </sp>
+          <sp who="#diocletiano">
+            <speaker>DIOCLETIANO.</speaker>
+            <l>Guarda à quel, che tu fai: ch’in tè crudele</l>
+            <l>Non sij per esser verso lei pietoso:</l>
+            <l>Caderà sovra tè, s’in lei non cade,</l>
+            <l>Memoranda vendetta. Sol concedo,</l>
+            <l>Che per fuggir del popolo le voci</l>
+            <l>Dentro le Casee sue il tutto segua.</l>
+            <l>CORO</l>
+            <l>ONd’è che tanto puote</l>
+            <l>Lingua mortai di un huom sovra la terra,</l>
+            <l>Che men posson natura, e gli elementi?</l>
+            <l>Se fulmine percuote</l>
+            <l>Le torri eccelle, i sacri Tempij atterra;</l>
+            <l>Se ‘l mar turbando procellosi venti</l>
+            <l>Muovono à i legni dispietata guerra;</l>
+            <l>Hanno le lor ruine</l>
+            <l>Pur moderato fine:</l>
+            <l>Mà di lingua Real il moto tragge</l>
+            <l>Città, Popoli, e Navi à fiera stragge.</l>
+            <l>Scuote à la terrai il seno</l>
+            <l>Trepido il terremoto, e di terrore</l>
+            <l>Empiendo le Città; tal hor l’abbatte:</l>
+            <l>Mà pur non così pieno</l>
+            <l>E mai ‘l suo mal, che più non sia l’orrore:</l>
+            <l>Non tutte son le case à terra tratte;</l>
+            <l>Nè la memoria, e ‘l luogo in un si muore:</l>
+            <l>Mà se lingua Reale</l>
+            <l>Una Cittate assale</l>
+            <l>La spiana; e vi fa gir l’aratro, e’I sue</l>
+            <l>Onde non può più dirsi; ella quì fue.</l>
+            <l>Se rapido torrente</l>
+            <l>Trahe ruinoso armenti, e selve, e sassi,</l>
+            <l>E l’immobil terreno anco trasporta</l>
+            <l>Se ria fiamma sovente</l>
+            <l>Va divorando con veloci passi</l>
+            <l>I campi, e danni ìnaspettati apporta:</l>
+            <l>Se fieri Mostri di ogni pietà cassi</l>
+            <l>S’armano à gli altrui danni;</l>
+            <l>Più perigliosi affanni</l>
+            <l>Di Rè, d’Imperator la lingua asconde;</l>
+            <l>Che non portano mostri, e fiamme, et onde.</l>
+            <l>Se un Rè la lingua scioglie,</l>
+            <l>Spianar veggonsi i moti, empir le valli,</l>
+            <l>E volger à gran fiumi altrove il corso:</l>
+            <l>In breve spatio accoglie</l>
+            <l>Folte le schiere d’huomini, e cavalli;</l>
+            <l>E calca al mar con mille legni il dorso;</l>
+            <l>Destansi ad un suo detto, e canti, e balli;</l>
+            <l>E correr fà le belve</l>
+            <l>Per campagne, e per selve:</l>
+            <l>E se chiede spettacoli, son presti</l>
+            <l>O che lieti gli brami, ò che funesti.</l>
+            <l>Quanti una lingua sola</l>
+            <l>Può levar da profondo ad alto stato!</l>
+            <l>Quante Vedove far in un sol giorno!</l>
+            <l>Altri tragge, altri invola</l>
+            <l>A le pene; e far misero, ò beato</l>
+            <l>Può altri empir di gloria, altri di scorno.</l>
+            <l>O Susanna, ò Gabinio, ò sventurato</l>
+            <l>Drappel, come in un falco</l>
+            <l>Precipitate d’alto,</l>
+            <l>Che una lingua vi trahe d’alta grandezza</l>
+            <l>In un momento à la maggior bassezza.</l>
+            <l>Mà non può già una lingua</l>
+            <l>(Sia pur d’Imperadore, ò di gran Rege)</l>
+            <l>Volger il cuor di un animo costante.</l>
+            <l>E bench’in lui s’estingua</l>
+            <l>Quella vita, in cui l’alma il corpo regge,</l>
+            <l>Quella estinguer però non è bastante,</l>
+            <l>In cui dà la ragione à l’alma legge:</l>
+            <l>Mà se ‘l primo morire</l>
+            <l>A viver ne fa gire</l>
+            <l>Più degno; non fà perdita, mà acquisto</l>
+            <l>Quei, che (benché penando) muor per Christo.</l>
+            <l>O superbi mortali,</l>
+            <l>Che co la lingua trarre un'huom à morte</l>
+            <l>Potete in un baleno; vi rimembri;</l>
+            <l>Che dibattendo l’ali,</l>
+            <l>Sorda sen viene, e rapida la Morte.</l>
+            <l>Nè vi val, ch’un essercito si assembri</l>
+            <l>Di schiere ben armate, ò rocca forte.</l>
+            <l>Lingua, che gli altri muta;</l>
+            <l>Per sè diverrà muta:</l>
+            <l>E render converrà conto più stretto;</l>
+            <l>Quanto la lingua havrà più fatto, ò detto.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO QUINTO</head>
+        <div type="scene">
+          <head>SCENA I.</head>
+          <stage>Coro. Eunuco liberto di Serena.</stage>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>QUELLO, che venir veggio, è il caro, e fido</l>
+            <l>Eunuco di Serena. Egli è de nostri:</l>
+            <l>Forse da lui novella haver potremo</l>
+            <l>Di Susanna, e de suoi. Ove ne vai?</l>
+          </sp>
+          <sp who="#eunuco">
+            <speaker>EUNUCO.</speaker>
+            <l>Vado a raccor gli avvanzi</l>
+            <l>De la già bella, hor misera Susanna.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Ahi miserando caso!</l>
+            <l>Dunque l’hano pur morta?</l>
+          </sp>
+          <sp who="#eunuco">
+            <speaker>EUNUCO.</speaker>
+            <l>O è morta, ò con la morte</l>
+            <l>Hor stà combattendo in fiero agone.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Non hà potuto Augusta</l>
+            <l>A Donzella sì saggia, e sì leggiadra;</l>
+            <l>A sì tenera etate</l>
+            <l>A sangue così chiaro</l>
+            <l>Impetrar, se non gratia almeno indugio?</l>
+          </sp>
+          <sp who="#eunuco">
+            <speaker>EUNUCO.</speaker>
+            <l>Più tosto i venti moveranno l’Alpi,</l>
+            <l>Che parole, ò preghiere il cuor d’Augusto.</l>
+            <l>Chiesto gli havea Serena</l>
+            <l>Con le ginocchia à terra,</l>
+            <l>E ancor con gli occhi gravidi di pianto;</l>
+            <l>Che qual sua prigioniera</l>
+            <l>Si dèsse à lei Susanna,</l>
+            <l>Almen per breve spatio, per far pruova</l>
+            <l>Di farle cangiar voglia:</l>
+            <l>Mà come, s’ella havesse</l>
+            <l>Parlato con un sasso</l>
+            <l>Alpestre, vie più duro</l>
+            <l>L’hà trovato, e più sordo.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Che fece all’hor Serena?</l>
+          </sp>
+          <sp who="#eunuco">
+            <speaker>EUNUCO.</speaker>
+            <l>Tornata à le sue stanze,</l>
+            <l>Nè la più chiusa parte,</l>
+            <l>Con la fida Nudrice,</l>
+            <l>E meco si restrinse:</l>
+            <l>Sciolse indi al pianto il freno</l>
+            <l>Con sì dogliosi lai,</l>
+            <l>Ch’havrebbe intenerito un cor di selce;</l>
+            <l>Hot di Susanna deplorando il caso;</l>
+            <l>Hora i suoi proprij mali;</l>
+            <l>Hora di tutto il popolo di Christo.</l>
+            <l>Poscia ver mè rivolta</l>
+            <l>(A le lagrime sue chiedendo tregua)</l>
+            <l>Mi disse; Prendi le più ricche conche</l>
+            <l>D’argento, e i più pregiati vasi d’oro,</l>
+            <l>E drappi pretiosi; E con quei vanne</l>
+            <l>A le fide Donzelle di Susanna:</l>
+            <l>Dì lor, che com’estinto</l>
+            <l>Sarà quel nobil corpo,</l>
+            <l>Non solo il capo, e ‘l busto;</l>
+            <l>Mà del sangue ogni stilla si raccoglia:</l>
+            <l>Che già ch’haver mi è tolto</l>
+            <l>Viva la mia Susanna; almeno io possa</l>
+            <l>Haver le sue reliquie sante, e degne;</l>
+            <l>È con esse sfogar mia dura sorte.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Infelice Serena; quanto meglio</l>
+            <l>Sarebbe in chiusa cella</l>
+            <l>Goder la tua quiete.</l>
+            <l>Che frà tante grandezze</l>
+            <l>Bever’à tutte l’hore</l>
+            <l>E d’assentio, e di fiel calici amari!</l>
+            <l>Tempo è, ch’io vadi. A Dio.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <sp who="#galerio">
+            <speaker>Galerio.</speaker>
+            <l>DUnque nè meno, ohimè, con pianto amaro</l>
+            <l>Mi lice accompagnare il tuo feretro,</l>
+            <l>Dolcissima Susanna? Ohimè son queste</l>
+            <l>Le nozze, ch'io sperai? Quella mercede</l>
+            <l>De l'amor mio riporti? Queste sono</l>
+            <l>Le feste, e i giochi? Queste son le gemme?</l>
+            <l>Queste i monili? Queste le grandezze?</l>
+            <l>Son queste le Corone, e questi i Scettri?</l>
+            <l>O misera Susanna; ove condotta</l>
+            <l>T'hanno i miei tristi, e sventurati amori?</l>
+            <l>Malvagio Macedonio; Quai consigli</l>
+            <l>Tu ministrasti? Io ben sapea, che fiero</l>
+            <l>Consiglio uscir dovea da fier Ministro</l>
+            <l>Di più fiero Tiranno. De i rubini</l>
+            <l>Ti adornerai Susanna del tuo sangue.</l>
+            <l>Ahi, che ‘l dolor mi accora. E pur conviemmi</l>
+            <l>Chiuderlo dentro il seno; E far sembiante</l>
+            <l>D’approvar quel, ch’Augusto</l>
+            <l>Mostr’approvare; e seco in lauta cena</l>
+            <l>Ridere, e farsi scherno</l>
+            <l>Di quei, che soffron crudi,</l>
+            <l>E spietati martiri.</l>
+            <l>Ohimè, Susanna mia, quando rimembro,</l>
+            <l>Come pietosa tu mi soccorresti</l>
+            <l>Contro la mano irata</l>
+            <l>Del Celeste Guerrier; tanta mi vince</l>
+            <l>Vergogna di me stesso;</l>
+            <l>Ch’in odio ho quella vita, che mi deste.</l>
+            <l>Pur meglio era cadere al tuo cospetto,</l>
+            <l>Ove sdegnato, forse</l>
+            <l>Non havreste d’accormi</l>
+            <l>Tra le tue care braccia.</l>
+            <l>Mà (lasso me) che poco</l>
+            <l>E il mal de la tua morte; ohimè, che temo,</l>
+            <l>Che quel crudo, e spietato</l>
+            <l>Macedonio non mostri</l>
+            <l>L’ingegno usato suo; e non adopri</l>
+            <l>Scherni, stratij, tormenti, ahi, troppo indegni</l>
+            <l>Di tè, mia bella Diva.</l>
+            <l>Misero, che mi è tolto</l>
+            <l>Di darti alcuna aita:</l>
+            <l>Misero, che non posso,</l>
+            <l>Nè sfogar il mio duolo; E se furtive</l>
+            <l>Queste lacrime spargo;</l>
+            <l>Tosto bisogna premerle, e con lieto</l>
+            <l>Volto adular l'altrui ferine voglie.</l>
+            <l>Misero, che non posso,</l>
+            <l>Nè pur degno sepolcro</l>
+            <l>A le nobili ceneri apprestarti,</l>
+            <l>E sfogar sovra l’urna</l>
+            <l>I miei penosi lai.</l>
+            <l>Quel, ch’il mio duol accresce,</l>
+            <l>Dolce Susanna mia, è che tu muori</l>
+            <l>Con credenza di me vile, et indegna,</l>
+            <l>Poi che l’ultime voci, e l’ultime opre,</l>
+            <l>Che tu da me provaste,</l>
+            <l>Furon’offese, et onte,</l>
+            <l>Di mano violenta, atto villano.</l>
+            <l>Questi de I’amor mio</l>
+            <l>Furon gli ultimi uffici:</l>
+            <l>Mà indegna acerba morte,</l>
+            <l>E spietati tormenti</l>
+            <l>Sono di tua beltà, di tua virtute,</l>
+            <l>Ohimè, gli ultimi premi.</l>
+            <l>O Dei, s’à voi vi cale</l>
+            <l>De le cose di qua; Come soffrite,</l>
+            <l>Che così mal si cangi</l>
+            <l>La virtute, e la colpa?</l>
+            <l>La pena, e la mercede?</l>
+            <l>Deh almen quel Dio, che presi la difesa</l>
+            <l>Di lei contro il mio ardire,</l>
+            <l>La prenda incontro l’armi</l>
+            <l>Del fiero Macedonio; e le sia scudo</l>
+            <l>Contro tutto il poter di questo Mondo.</l>
+            <l>Mà, ohimè, che venir sento</l>
+            <l>Gente; e temo di udir, non so s’io dica</l>
+            <l>La sua, ò la mia morte.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III</head>
+          <stage>Coro. Gabinio.</stage>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>VEggio venir Gabinio, e indegni lacci</l>
+            <l>Son le collane d’oro, onde s’adorna</l>
+            <l>Per le Reali nozze de la figlia.</l>
+            <l>In vece di precorrergli quei fasti,</l>
+            <l>Le Consoilari Insegne,</l>
+            <l>Misero lo circondano d’intorno,</l>
+            <l>Per dr al capo suo l'ultimo crollo.</l>
+            <l>Masnada così vile</l>
+            <l>Sono quei, ch’aspettava</l>
+            <l>Nobili purpurati, che corona</l>
+            <l>Dovean fargli, e seguirl oal gran Palagio?</l>
+            <l>Deh fermate Ministri; e concedete,</l>
+            <l>Ch'io poss’accompagnar con poche note</l>
+            <l>I sinistri accidenti</l>
+            <l>Di Gabinio infelice.</l>
+            <l>Ohimè, come in un tratto</l>
+            <l>L’incostante, e volubile fortuna</l>
+            <l>Da la più alta cima ti trabocca</l>
+            <l>Dentro il più cupo fondo</l>
+            <l>De le miserie estreme!</l>
+            <l>Tù, ch'eri pur hor dianzi</l>
+            <l>II più beato Padre</l>
+            <l>De la più degna, e più beata figlia,</l>
+            <l>Hora il più sventurato</l>
+            <l>Padre tù sei, se Padre io posso dirti,</l>
+            <l>Frà quanti vede il Sole.</l>
+            <l>Eri già fatto segno</l>
+            <l>D’invidia, et hor pietate</l>
+            <l>Puoi destar ne le fiere, anzi ne i sassi</l>
+            <l>Hoggi pur ti aspettava</l>
+            <l>L’Imperial palagio</l>
+            <l>Hoggi pur preparati</l>
+            <l>T’erano i primi honori:</l>
+            <l>Già numerosa schiera</l>
+            <l>Di nobili Matrone</l>
+            <l>Di ricche gemme ornate</l>
+            <l>Vernano ad honorar la tua Susanna:</l>
+            <l>E pur hoggi dovea</l>
+            <l>Il talamo cangiarsi</l>
+            <l>In misero feretro:</l>
+            <l>Anzi nè pur ti è dato</l>
+            <l>Raccor ‘l ultimo Spirto, che raccorre</l>
+            <l>Ella da tè dovea.</l>
+            <l>Nè chiuder puoi quegli occhi</l>
+            <l>Che davan luce à Roma:</l>
+            <l>Anzi ancor ti si niega</l>
+            <l>Di usar gli ultimi uffici</l>
+            <l>Al cadavero estinto;</l>
+            <l>A quel leggiadro corpo</l>
+            <l>Già di bellezza idea, hor fatto nulla.</l>
+            <l>Quanto di tè mi pesa,</l>
+            <l>Gabinio, e se non posso</l>
+            <l>Con altro, t’accompagno.</l>
+            <l>Ben con lagrime amare.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Gratie ti rendo amico; mà non quelle</l>
+            <l>Cagioni, che rammenti,</l>
+            <l>Son de miei mali il fonte.</l>
+            <l>Poco gl’Imperi, e poco</l>
+            <l>lo stimo le grandezze de la terra:</l>
+            <l>Altri le goda, si goder quì puossi</l>
+            <l>Cosa che passa, e mai non ha fermezza;</l>
+            <l>Quel Signor, che le dona, anco le toglie.</l>
+            <l>Ne del morir mi pesa; nè che muora</l>
+            <l>L’unica mia Susanna:</l>
+            <l>A l’Autor de la vita</l>
+            <l>Si dee la nostra vita. E come meglio</l>
+            <l>Spenderla noi potremo</l>
+            <l>Che rendendola a lui, che ce la diede?</l>
+            <l>O miei felici lacci;</l>
+            <l>O beati tormenti; ò avventurato</l>
+            <l>Morir, se ‘l mio morire</l>
+            <l>Al mio Signor è grato, e mi fà degno</l>
+            <l>Che, si com’egli sparse</l>
+            <l>Per me, poss’io per lui spargere il sangue.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Se morir sei vago, e d’altri mali</l>
+            <l>Non temi; ond’è, che mesto;</l>
+            <l>Ti veggio, e pensieroso?</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Se mia fragil natura si risente</l>
+            <l>Per tema di Susanna;</l>
+            <l>Ricordati, che Padre</l>
+            <l>Sono d’unica figlia.</l>
+            <l>Nè temo di sua morte</l>
+            <l>Benché d’udirla il cieco senso abborra.</l>
+            <l>Anzi temo, che prima</l>
+            <l>Di sì beata morte ella non resti.</l>
+            <l>Temo gli altrui inganni, ò che i tormenti</l>
+            <l>Non vincan la costanza.</l>
+            <l>Del generoso petto.</l>
+            <l>Mà, se non fallo, io veggio</l>
+            <l>Un de la famiglia; E porta forse</l>
+            <l>Nuova di quel, ch’io bramo:</l>
+            <l>E parmi, ch’il sembiante</l>
+            <l>Non spiri altro, che morte.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>O miserando Padre; qual s’appresta</l>
+            <l>Per l'altrui lingua acuto, e fiero dardo,</l>
+            <l>Per trapassargli il cuore?</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IV.</head>
+          <stage>Nuncio. Gabinio. Coro.</stage>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>O Gabinio, ò Signor, ò qual ti trovo!</l>
+            <l>Qual novella ti porto? Non bastava</l>
+            <l>Lo spettacolo fiero di tua figlia,</l>
+            <l>S’anco non m’era dato</l>
+            <l>Di vederti trà lacci, ahi, troppo indegni</l>
+            <l>Di quella sacra mano,</l>
+            <l>Che così spesso tratta</l>
+            <l>L’alto Signor del Cielo, e de la Terra!</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Più che maniglie d’oro mi son cari</l>
+            <l>Questi lacci, che stimi tanto indegni;</l>
+            <l>Questi beati lacci, onde son tratto</l>
+            <l>Vittima, come spero, non ingrata,</l>
+            <l>Al mio Signor superno.</l>
+            <l>Tù raccontami pur il caso acerbo</l>
+            <l>Di Susanna; E se mi ami</l>
+            <l>Nulla tacere, ò siano stratij, od onte;</l>
+            <l>Siano parole, ò fatti: ho preparata</l>
+            <l>Già l’alma à le ponture.</l>
+            <l>Bramo saper il vero;</l>
+            <l>Nè poteva il Signor più fida lingua</l>
+            <l>Mandarmi de la tua.</l>
+          </sp>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>Gabinio, ò Gabinio,</l>
+            <l>Che sei Padre, e non Padre</l>
+            <l>(Non so se dir mi debba)</l>
+            <l>De la più sventurata, ò più beata, '</l>
+            <l>Figlia, ch’habbia honorato il secol nostro:</l>
+            <l>Tu vuoi, ch’il vero narri e non ti asconda</l>
+            <l>Di quello, ch'han veduto</l>
+            <l>Questi occhi lagrimosi.</l>
+            <l>Io son per obedirti; e sentirai</l>
+            <l>Il più spietato scempio;</l>
+            <l>Fatto de le tue carni,</l>
+            <l>Che far potesse mai ferina rabbia.</l>
+            <l>Stavam trepidi tutti</l>
+            <l>Entro le Case tue con caldi prieghi</l>
+            <l>Implorando dal Ciel Divino aiuto;</l>
+            <l>Contro quel, ch'imminea grande periglio</l>
+            <l>Da lo sdegno di Augusto;</l>
+            <l>Quando s’udì, che giunto era à le porte</l>
+            <l>Con suoi Ministri armati</l>
+            <l>Il fiero Macedonio. Fu ben tosto</l>
+            <l>Fatta venir Susanna: Ella in sembiante</l>
+            <l>Intrepido attendea</l>
+            <l>Quello, ch’ei dir volesse.</l>
+            <l>Egli fece all’hor cenno</l>
+            <l>Ad un Ministro, E quegli discoperse</l>
+            <l>Il Tripode, e la Mensa, e un Simulacro</l>
+            <l>Di Giove tutto d’oro: E poi ch'eretto</l>
+            <l>Il vide Macedonio, ver Susanna</l>
+            <l>Rivolto disse; Il Divo, e grande Augusto</l>
+            <l>A voi mi manda, e impera,</l>
+            <l>Che, se bramate esser à lui congiunta,</l>
+            <l>E d’amor, e di sangue;</l>
+            <l>Offriate sacrificio al sommo Giove:</l>
+            <l>Se ciò farete, a parte</l>
+            <l>Sarete del suo amor, de la grandezza;</l>
+            <l>Ed ei porrà in oblio</l>
+            <l>Le già passate offese:</l>
+            <l>Mà se ciò ricusate;</l>
+            <l>Decreto irrevocabil vi minaccia,</l>
+            <l>Gli estremi mali, indegni</l>
+            <l>Di voi, del sangue vostro.</l>
+            <l>Hor s’à voi pur cale di voi stessa;</l>
+            <l>Prendete il mio consiglio:</l>
+            <l>Obedite ad Augusto; e non vogliate</l>
+            <l>Veder de l’ir sua l’ultime prove.</l>
+            <l>Potete con un cenno</l>
+            <l>Liberarvi di noia:</l>
+            <l>Adorate il gran Giove.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>E che partito all’hor prese Susanna,?</l>
+          </sp>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>Ella non così tosto il Simulacro</l>
+            <l>VidE, che gli occhi volse in altra parte:</l>
+            <l>Poscia innalzogli al Ciel, come pregando,</l>
+            <l>Che le togliesse sì nemico oggetto.</l>
+            <l>Maraviglia dirò: quando l’invito</l>
+            <l>Hebbe da Macedonio d’adorarlo,</l>
+            <l>Disdegnosa si volse con un soffio</l>
+            <l>Verso l’Idolo vano; il qual repente</l>
+            <l>Disparve. All’hòr si, vide</l>
+            <l>Da chi cieco non era, che virtute</l>
+            <l>Del Ciel regge a Susanna.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Comincio a respirare.</l>
+          </sp>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>Turbossi Macedonio; mà die segno</l>
+            <l>Di non stimar quell’apparenze: e disse,</l>
+            <l>Mi piace assai Susanna,</l>
+            <l>Che siate vaga di oro;</l>
+            <l>Né di involar vi è d’huopo,</l>
+            <l>Quel, ch’è per darvi volentieri Augusto:</l>
+            <l>Poi che non sol di Giove il simulacro;</l>
+            <l>Mà de gli altri Dei tutti</l>
+            <l>Formati d’oro puro egli è per darvi,</l>
+            <l>pur che voi siate presta</l>
+            <l>A i sacrifici, e lor dovuti honori.</l>
+            <l>A questo ella rispose:</l>
+            <l>Non temer, ch'io t’involi</l>
+            <l>I tuoi Dei di metallo sordi, e ciechi,</l>
+            <l>Se più ciechi non sono</l>
+            <l>Qua, che credono in essi.,</l>
+            <l>Volea più dir, mà tacito bisbiglio;</l>
+            <l>Indi voci più chiare.;</l>
+            <l>Di gente, ch’era corsa,</l>
+            <l>Fer Macedonio accorto, ch’in più pezzi</l>
+            <l>L'Idolo giacea rotto in su la strada.</l>
+            <l>Mutossi all’hor quel fiero</l>
+            <l>In livido sembiante,</l>
+            <l>E perdendo il rispetto, usò poi nodi</l>
+            <l>Più scortesi, e villani.</l>
+            <l>Poiché tù abusi (disse)</l>
+            <l>Sfacciata Maga, indegna,</l>
+            <l>E le gratie, e gli honor del Divo Augusto;</l>
+            <l>Proverai, se pensier non cangi, e voglie,</l>
+            <l>Nel sacrilego corpo aspre vendette:</l>
+            <l>Ecco in mezzo ti porgo</l>
+            <l>La pena, e la mercede e:</l>
+            <l>Eleggi senza indugio,</l>
+            <l>O d’adorar i nostri santi Numi;</l>
+            <l>O di Sentire acerbe, e dure pene.</l>
+            <l>Senza indugiarvi, tosto ella rispose;</l>
+            <l>Fa pur di quello corpo quanto sai,</l>
+            <l>Che io non temo le pene,</l>
+            <l>Ne bramo la mercede,</l>
+            <l>Che mi tolgono a Christo:</l>
+            <l>Quella mercede io bramo</l>
+            <l>Che mi solleva al Cielo</l>
+            <l>Quelle pene pavento</l>
+            <l>Che soffrono i tuoi Dei dentro le fiamme,</l>
+            <l>E soffrirà in eterno:</l>
+            <l>Con lor’ogni profano</l>
+            <l>Che del verace Dio sprezzando i detti</l>
+            <l>Segue le lor menzogne.</l>
+            <l>Come poca acqua accende</l>
+            <l>Il fuoco, e non l'estingue;</l>
+            <l>Così queste sue voci</l>
+            <l>Accrebbero lo sdegno, anzi la rabbia</l>
+            <l>Di quel fiero Ministrp.</l>
+            <l>Senza spender parola</l>
+            <l>Impera a i suoi Littori,</l>
+            <l>Che la spoglino nuda all’hora all’hora.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>O povera fanciulla!</l>
+          </sp>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>Erano quivi accolti,</l>
+            <l>Non sol quei, ch’havea seco</l>
+            <l>Macedonio condotti;</l>
+            <l>Mà altri ancora, e tutti</l>
+            <l>I tuoi Servi di Casa:</l>
+            <l>Erano le Donzelle di Susanna</l>
+            <l>Unite in un drappello</l>
+            <l>Tutte tremanti, se morte</l>
+            <l>A mirar lo spettacolo spietato:</l>
+            <l>Quando udiron, che nuda</l>
+            <l>Spogliata esser dovea,</l>
+            <l>Dierono un alto grido:</l>
+            <l>E l'istessa Susanna,</l>
+            <l>Far non potè, che non sentisse alquanto</l>
+            <l>Di vergogna, e di orrore;</l>
+            <l>E far vermiglio, e pallidetto il volto</l>
+            <l>Fù vista in un momento.</l>
+            <l>Vols’ella gli occhi in giro, e poscia al cielo;</l>
+            <l>Quasi che dir volesse;</l>
+            <l>Signor questa vergogna ancora io t’offro.</l>
+            <l>Mà tanta Maestà da gli occhi uscia,</l>
+            <l>E dal Real sembiante;</l>
+            <l>Ch’alcun non fù, ch'osasse</l>
+            <l>Appressarsele, e usarle atto villano.</l>
+            <l>Chiudi l’orecchie, chiudi</l>
+            <l>Gabinio, e non sentir quel che seguio;</l>
+            <l>O commanda, ch’io taccia.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Svela pur il tuo dir, ch’è ben, che ignudo</l>
+            <l>Io l’oda, s’anco ignuda:</l>
+            <l>Volle quel fier veder la mia Susanna.</l>
+          </sp>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>Poiché vide quel crudo, et inhumano,</l>
+            <l>Ch’altri non si moveva; ei per se stesso</l>
+            <l>Ardendo di furor, ver lei si spinse;</l>
+            <l>E con le proprie mani</l>
+            <l>Quelle vesti à stracciar comincio ratto.</l>
+            <l>Parea di veder sovra innocente Agnella</l>
+            <l>Un fiero Lupo; e farne crudo stratio.</l>
+            <l>Leggiere eran le vesti, quai richiede</l>
+            <l>Questa calda Stagione; onde ben tosto</l>
+            <l>N'andaro in mille pezzi.</l>
+            <l>Alzaro all’hora il pianto</l>
+            <l>Le misere Donzelle:</l>
+            <l>Nè alcun fu così fiero,</l>
+            <l>Che di lagrime il volto non bagnasse;</l>
+            <l>Sol si accrescea la rabbia</l>
+            <l>Nel tartareo Ministro.</l>
+            <l>Quando strappate tutte hebbe le vesti,</l>
+            <l>Trovò, ch’aspro cilicio la premea</l>
+            <l>Sovra l’ignuda carne:</l>
+            <l>Ei maraviglia n’hebbe; e quell’istesso</l>
+            <l>Le trasse con tanto impeto di dosso,</l>
+            <l>Che ne restaro offese</l>
+            <l>Le delicate membra, e qualche stilla</l>
+            <l>Di sangue ne diè mostra.</l>
+            <l>Qual di rubin sovra candor di perle:</l>
+            <l>Quando sì tutta ignuda ella si vide,</l>
+            <l>Io non sò, come il Sole non ascose,</l>
+            <l>In tenebre i suoi raggi;</l>
+            <l>Alcun non fù, ch’à lei temendo, il cuore</l>
+            <l>Tremar non si sentisse. Quell’istesso;</l>
+            <l>Quel fiero Macedonio più che fiera</l>
+            <l>Si commosse in vederla, e ste sospeso</l>
+            <l>Alquanto; e se n’avvide, e n’hebbe sdegno:</l>
+            <l>Onde tosto à flagelli diè di piglio</l>
+            <l>E con mano spietata</l>
+            <l>Contro quel nobil corpo tal fè guerra,</l>
+            <l>Che più d’un venne meno</l>
+            <l>A lo spettacol fiero.</l>
+            <l>Cieco non distinguea, se questa, ò quella,</l>
+            <l>Parte feriva; hor percorra le spalle,</l>
+            <l>Hor il petto, hior le braccia, hior l’altre membra,</l>
+            <l>A pena i primi colpi</l>
+            <l>Quelle membra gentili</l>
+            <l>Toccar; ch’in copia il sangue</l>
+            <l>Sgorgo da mille rivi.</l>
+            <l>Ella quando si vide</l>
+            <l>Che da per tutto il sangue la copria,</l>
+            <l>Rasserenossi alquanto;</l>
+            <l>E volta al Cielo disse;</l>
+            <l>Più bel manto, Signor, io non saprei</l>
+            <l>Chiederti di quest’ostro;</l>
+            <l>Benedetto sij tù, che mi fai degna</l>
+            <l>Di sì pregiato velo.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Non può Gabinio a freno</l>
+            <l>Le lagrime tener, che fuor da gli occhi</l>
+            <l>Cadono à mille a mille;</l>
+            <l>Mà lagrime non sono</l>
+            <l>Di duol, com’io mi aviso.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>Segui, segui il tuo dire.</l>
+          </sp>
+          <sp who="#nuncio">
+            <speaker>NUNCIO.</speaker>
+            <l>Quelle voci magnanime destaro,</l>
+            <l>Pietate in altri; In Macedonio nuovo</l>
+            <l>Furor di sdegno, quasi,</l>
+            <l>Ch'ei schernito ne fusse; onde più forte</l>
+            <l>Alzava il braccio, e già non più feriva</l>
+            <l>Le membra, mà le piaghe;</l>
+            <l>E da più d’una parte</l>
+            <l>Si vedevano l'ossa discoperte:</l>
+            <l>E in tanta copia il sangue era già corso,</l>
+            <l>Che pallidetto il viso anco languia;</l>
+            <l>E sol virtù reggea l'animo invitto.</l>
+            <l>Macedonio già stanco,</l>
+            <l>Che più morta, che viva la vedeva,</l>
+            <l>Tentò l’ultima prova.</l>
+            <l>Le disse; Ancora sei</l>
+            <l>Ostinata, e tant'odio hai di te stessa;</l>
+            <l>Che ti è la vita à noia?</l>
+            <l>Riconosci il tuo fallo,</l>
+            <l>Tempo è ancor di pentirsi, pria che scenda</l>
+            <l>L’irrevocabil colpo;</l>
+            <l>Ella quasi sdegnosa gli rispose;</l>
+            <l>Segui pur manigoldo</l>
+            <l>La cominciata impresa;</l>
+            <l>Ch'altro ben non aspetto, anzi non voglio</l>
+            <l>Da te, che queste pene;</l>
+            <l>E da la tua fucina</l>
+            <l>Uscir altra non puotè,</l>
+            <l>Altre pene malvaggio</l>
+            <l>T’aspettano più degne</l>
+            <l>Di tè, e del tuo Augusto, et de suoi Dei.</l>
+            <l>Non potè più soffrir quel crudo mostro</l>
+            <l>L’alto disprezzo; E vinto</l>
+            <l>Da vergogna, e furore,</l>
+            <l>Gettò i flagelli, e prese</l>
+            <l>Ignuda, in man la Spada.</l>
+            <l>Parve di respirar all’hor Susanna;</l>
+            <l>E piegando i ginocchi, al Ciel rivolta</l>
+            <l>Con le man giunte disse:</l>
+            <l>Quante, Signor, ti rendo</l>
+            <l>Gratie, che mi fai degna</l>
+            <l>Di seguir l’orme tue per questo calle:</l>
+            <l>Troppo poche le pene, e troppo lievi</l>
+            <l>Sono stati i tormenti;</l>
+            <l>Vorrei con mlle morti,</l>
+            <l>E con mille tormenti</l>
+            <l>Pagar solo una stilla</l>
+            <l>Del pretioso sangue,</l>
+            <l>Che tù per me spargeste:</l>
+            <l>Mà s’altro non può darti un humil serva;</l>
+            <l>Io t’offro in holocausto il corpo, e l’alma:</l>
+            <l>E si chieder mi lice</l>
+            <l>Gratie, Signor, ti prego,</l>
+            <l>Che nel popolo tuo homai descenda</l>
+            <l>De l’infinita tua pietate un raggio,</l>
+            <l>Nè più nel suo poter si vantin gli empij;</l>
+            <l>Mà se quello mio sangue, ch’io quì verso,</l>
+            <l>Può meritar mercede, anco ti prego,</l>
+            <l>Che quì, dove io lo verso, in questa foglia</l>
+            <l>S'erga, quando a te piace, un sacro albergo,</l>
+            <l>Ove Vergini caste</l>
+            <l>Con mente santa, e pura</l>
+            <l>Consecrando si stesse</l>
+            <l>Al tuo divino nome,</l>
+            <l>Cantino le tue lodi notte, e giorno;</l>
+            <l>E spendano in servirti i corpi, e l’alme.</l>
+            <l>Tacque ciò detto; E chinò gli occhi a terra.</l>
+            <l>Macedonio, ch’attento udia suoi detti,</l>
+            <l>Quando vide, che nulla rispondea</l>
+            <l>Al suo desio, colmo di rabbia il ferro</l>
+            <l>Lasciò cader, che quasi molle giunco</l>
+            <l>Dal nobil busto il capo le recise;</l>
+            <l>Indi partì pien di difetto E seco</l>
+            <l>N’andaro i suoi. Mà rinovando i pianti</l>
+            <l>Corsero le Donzelle; E ‘l degno corpo</l>
+            <l>Ricoperser di drappi pretiosi</l>
+            <l>Apprettati da Augusta. In vasi d’oro</l>
+            <l>Fu messo il capo; in altri vasi il sangue,</l>
+            <l>Che raccogliendo vanno a stilla a stilla,</l>
+            <l>Lavando con le lagrime il terreno.</l>
+            <l>Tù mi concedi intanto,</l>
+            <l>Gabinio un caro, e pretioso furto,</l>
+            <l>Ch'io ho fatto di quel sangue,</l>
+            <l>Bagnandone, qual vedi, questo velo;</l>
+            <l>Che serberò per ricco</l>
+            <l>Tesoro, perche schermo</l>
+            <l>Mi sia contro il poter del cieco abisso.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>O dolce, ò caro sangue</l>
+            <l>Ahi non dirò più parte</l>
+            <l>De le viscere mie, sangue innocente.</l>
+            <l>Sangue affinato al torchio</l>
+            <l>Di martìri, e tormenti</l>
+            <l>Sangue mio, puro, e santo;</l>
+            <l>Sangue caro, et amato, ahi troppo indegno</l>
+            <l>D’esser versato da sì crudi ordigni</l>
+            <l>Per man barbara, e fiera.</l>
+            <l>Degno eri tu di aggiunger fregi al Cielo.</l>
+            <l>D’aggiunger il vermiglio de rubini</l>
+            <l>A i zaffiri celesti, e non già degnò</l>
+            <l>Di abbeverar, d’inebriar la terra;</l>
+            <l>E che piè vil ti prema, e ti calpesti.</l>
+            <l>Porgimi Amico, porgi</l>
+            <l>Quel pretioso velo;</l>
+            <l>ch'io lo baci, e tutto il volto immerga</l>
+            <l>Frà sì pregiate, et honorate stille.</l>
+            <l>Forse darà virtute al sangue mio;</l>
+            <l>Forse daragli un’arra, perche ‘l segua.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Gelo non e sì duro,</l>
+            <l>Che non si spezzi, ò stempri</l>
+            <l>A sì funesto obietto, al sangue sparso</l>
+            <l>Di figlia unica, cara, et innocente.</l>
+            <l>Mà ferma pur rimane</l>
+            <l>Nel buon Gabinio la ragione in seggio.</l>
+          </sp>
+          <sp who="#gabinio">
+            <speaker>GABINIO.</speaker>
+            <l>O mio Signore, quì chino</l>
+            <l>Ti adoro, e benedico. Più mi dai,</l>
+            <l>Ch'io desiar non seppi. O me beato</l>
+            <l>O felice Susanna, ò santa figlia;</l>
+            <l>O mia gloria, e corona, ò chiaro pregio</l>
+            <l>Del mio sangue, e di Roman. Benedetto</l>
+            <l>Sia quanto per te mai io feci, ò dissi;</l>
+            <l>Benedetti i sudori, e le fatiche;</l>
+            <l>Benedetti i sospir, teme, et angosce;</l>
+            <l>Benedette le lagrime, che ho sparse.</l>
+            <l>Dammi, sommo Signor, ch’homai si scioglia</l>
+            <l>La prigion di quest’alma e fa ch’io calchi</l>
+            <l>Quel medesmo sentiero, e l’istesse orme.</l>
+            <l>E tu, ch’hor godi in Cielo, anima bella,</l>
+            <l>E sò, che m’ami, impetra,</l>
+            <l>Che si non ti precorsi, almen ti segua.</l>
+            <l>Conducetemi pur tosto, Ministri,</l>
+            <l>Ove io son destinato:</l>
+            <l>E piaccia al ciel, che sia</l>
+            <l>A la mia cara, e desiata morte.</l>
+            <l>A rivederci in Cielo, Amici. A Dio.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>O virtu sovr’humana,</l>
+            <l>Che di natura I’ordine rivolgi:</l>
+            <l>Altri sprezza la vita;</l>
+            <l>Altri al penar, et al morir de figli</l>
+            <l>Lieto gode, e gioisc;e</l>
+            <l>E grande in ver de Christiani il Dio;</l>
+            <l>Ch'estingue, ò cangia il naturai desio.</l>
+          </sp>
+          <sp who="#angelo">
+            <speaker>UN’ANGELO.</speaker>
+            <l>TEMPRATE il duol, temprate</l>
+            <l>E dileguate alme divote il pianto;</l>
+            <l>Che la bella Susanna</l>
+            <l>Là sù le sedi lucide, e beate</l>
+            <l>Veste già chiaro, e pretioso manto.</l>
+            <l>Già trionfa, già gode, e lieta accoglie</l>
+            <l>Il frutto de l’angoscie, e de le doglie:</l>
+            <l>Et in pieni e dolcissimi contenti</l>
+            <l>Son rivolti i tormenti.</l>
+            <l>Già di ricche corone hà il capo adorno</l>
+            <l>E vanno à mille à mille</l>
+            <l>A cingerla dintorno,</l>
+            <l>Per farle honor, quelle felice schiere;</l>
+            <l>Che in soavi concenti</l>
+            <l>Spiran ver lei di santo amor faville</l>
+            <l>Già il verace Piacer tale in lei fiocca</l>
+            <l>Soavissima gioia</l>
+            <l>Che di sommo gioir l’alma trabocca;</l>
+            <l>Già il suo celeste Amante</l>
+            <l>Con beata, e larghissima mercede</l>
+            <l>Riconosce il suo amore, e la sua fede.</l>
+            <l>Voi, che di lei quì le sacre ossa havete,</l>
+            <l>Vergini caste, e degne,</l>
+            <l>E ’l suo felice albergo vi godete,</l>
+            <l>Seguite l’orme sue; che vi prometto</l>
+            <l>Anco vicino à lei dolce ricetto:</l>
+            <l>E per breve soffrir di questa vita:</l>
+            <l>Che fugge come un ombra, anzi sen vola,</l>
+            <l>Ecco à goder v’invita:</l>
+            <l>L’alto Rè de la gloria in Cielo assiso</l>
+            <l>Quanto hà di dolce, e bello il Paradiso.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

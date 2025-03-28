@@ -1,0 +1,3929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ita000146" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Romilda</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Vincenzo</forename>
+            <surname>Nolfi</surname>
+          </persName>
+          <idno type="wikidata">Q25930112</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=0k0WFpjlohcC</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Nolfi, Vincenzo: Romilda. Venezia: Pinelli, 1643.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="carcanno" sex="MALE">
+            <persName>CARCANNO</persName>
+          </person>
+          <person xml:id="paggio" sex="MALE">
+            <persName>PAGGIO</persName>
+          </person>
+          <person xml:id="irene" sex="FEMALE">
+            <persName>IRENE</persName>
+          </person>
+          <person xml:id="romilda" sex="FEMALE">
+            <persName>ROMILDA</persName>
+          </person>
+          <person xml:id="laufredo" sex="MALE">
+            <persName>LAUFREDO</persName>
+          </person>
+          <person xml:id="rodoaldo" sex="MALE">
+            <persName>RODOALDO</persName>
+          </person>
+          <personGrp xml:id="choro" sex="UNKNOWN">
+            <persName>CHORO</persName>
+          </personGrp>
+          <person xml:id="gisolfo" sex="MALE">
+            <persName>Ombra di Gisolfo</persName>
+          </person>
+          <person xml:id="agilmondo" sex="MALE">
+            <persName>AGILMONDO</persName>
+          </person>
+          <personGrp xml:id="schiera_armati" sex="MALE">
+            <persName>SCHIERA D'ARMATI</persName>
+          </personGrp>
+          <person xml:id="soldato" sex="MALE">
+            <persName>SOLDATO</persName>
+          </person>
+          <person xml:id="messaggiero" sex="MALE">
+            <persName>MESSAGGIERO</persName>
+          </person>
+          <person xml:id="secretario" sex="MALE">
+            <persName>SECRETARIO</persName>
+          </person>
+          <person xml:id="aio" sex="MALE">
+            <persName>AIO</persName>
+          </person>
+          <person xml:id="gromoaldo" sex="MALE">
+            <persName>GROMOALDO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-29">(LG) first formatting and editing. Removed dedication.</change>
+        <change when="2023-02-08">(LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1643">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONE.</head>
+        <castItem>Ombra di GISOLFO <roleDesc>Duca del Friuli.</roleDesc></castItem>
+        <castItem>ROMILDA <roleDesc>Duchessa sua Moglie.</roleDesc></castItem>
+        <castGroup>
+          <castItem>RODOALDO</castItem>
+          <castItem>GROMOALDO</castItem>
+          <roleDesc>loro figli.</roleDesc>
+        </castGroup>
+        <castItem>LAUFREDO.</castItem>
+        <castItem>CONSIGLIERE.</castItem>
+        <castItem>IRENE <roleDesc>Nudrice.</roleDesc></castItem>
+        <castItem>SECRETARIO.</castItem>
+        <castItem>AIO.</castItem>
+        <castItem>PAGGIO.</castItem>
+        <castItem>AGILMONDO <roleDesc>figlio cadetto del Rè de Longobardi.</roleDesc></castItem>
+        <castItem>SOLDATO.</castItem>
+        <castItem>CARCANNO <roleDesc>Rè de Bavari.</roleDesc></castItem>
+        <castItem>Schiera d'armati trà quali MESSAGGIERO.</castItem>
+        <castItem>CHORO.</castItem>
+      </castList>
+      <set>
+        <p>La Scena è FRIULI Metropoli della Provintia.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>ATTO PRIMO</head>
+        <div type="scene">
+          <head>SCENA PRIMA.</head>
+          <sp who="#gisolfo">
+            <speaker>Ombra di Gisolfo.</speaker>
+            <l>Sdegno, e desio di vendicar gl’oltraggi</l>
+            <l>Che nel Cor di Romilda Amor mi tesse,</l>
+            <l>Voi che dà l'ombre de' penosi abissi</l>
+            <l>Tratto m'havete à questa infausta luce</l>
+            <l>Voi rendetemi il lume, affin ch'io possa</l>
+            <l>Scorger là dove ir deggia à la vendetta:</l>
+            <l>Ch'a le tenebre avezzo al letal pianto,</l>
+            <l>Mal del vivo Emispero à i rai mi volgo;</l>
+            <l>Sian gl'effetti hor contrari à le vostre opre,</l>
+            <l>Che se la luce di rapir v'è dato</l>
+            <l>Agl'occhi altrui, e la ragione à l'alma,</l>
+            <l>La luce, e la ragion rendete a questi</l>
+            <l>Miei torbidi occhi, a questa alma tradita;</l>
+            <l>Perch'io possa eccitar degni furori,</l>
+            <l>Perch'io faccia cader speranze indegne,</l>
+            <l>E perch'io miri al fin spento nel sangue</l>
+            <l>D'infida Donna un mal concetto ardore:</l>
+            <l>Mà già l'afflitto ciglio il proprio senso.</l>
+            <l>Nel ritrovato dì, ritrova, ond'io</l>
+            <l>Pur me stesso conosco, ecco Gisolfo</l>
+            <l>Ben ch’in squalida Larva, ecco riveggio,</l>
+            <l>La cara Patria, e ‘l nobil nido antico</l>
+            <l>Dell'illustre lignaggio, ond'io derivo.</l>
+            <l>A questa Reggia la fortuna amica</l>
+            <l>Da le cure private al Trono augusto</l>
+            <l>Mi trasse; ò quanto è lieve, o quanto è frale</l>
+            <l>Il favor di sua Rota, ella in un punto</l>
+            <l>Quasi nembo ch'estolle arida polve</l>
+            <l>Ciò ch'è ne l'auge al precipitio volve:</l>
+            <l>Per diffesa di questa io non temei</l>
+            <l>Porger al ferro hostil prodiga vena,</l>
+            <l>E se perij traffitto, invendicata</l>
+            <l>Non lasciai la mia morte, e tinto andai</l>
+            <l>Più che del mio, de l'inimico sangue</l>
+            <l>Con Bavarico Stuol, d'Averno a i regni:</l>
+            <l>Má lasso, ohimè, la libertade, e i figli,</l>
+            <l>Lo stato (ò stato, ò libertade, ò figli)</l>
+            <l>Che con gl’eccidij miei salvar tentai</l>
+            <l>Sian con voglia impudica hoggi traditi?</l>
+            <l>Romilda un tempo nome amato, e caro</l>
+            <l>Di consorte dolcissima, e fedele;</l>
+            <l>Hor di Donna infedel voce infelice;</l>
+            <l>Qual vano ardor sì nel tuo seno avampe</l>
+            <l>che con nube di fumo atro, e funesto</l>
+            <l>La mente offusca, e l'intelletto acieca?</l>
+            <l>Qual indegno desio sì l'alma assale</l>
+            <l>Che fà del senso la ragione ancella? ?</l>
+            <l>Sì presto hai dunq; in lethe, ohime, sommerso</l>
+            <l>L'amor del tuo Gisolfo, e la sua fede</l>
+            <l>Fede mal conosciuta, amor tradito:</l>
+            <l>Non è cenere ancora il corpo esangue</l>
+            <l>E ‘n té per altri un novo ardor s'accende?</l>
+            <l>Fervido fuma ancora il rogo mio,</l>
+            <l>E ‘l tuo seno per me fatto è di ghiaccio?</l>
+            <l>Vive meco trà morto il primo Amore</l>
+            <l>E ‘n tè per novo affetto il vecchio è spento?</l>
+            <l>Son queste le piramidi, son questi</l>
+            <l>I funerali honor, che mi prepari?</l>
+            <l>Negre spoglie bugiarde, e foschi veli</l>
+            <l>Non de’ la morte mia pompe ferali</l>
+            <l>Torbid’ombre voi sete in cui s'asconde</l>
+            <l>Monstruoso desio di Donna infida:</l>
+            <l>Mà s'à l'horror di quest'ombra infelice</l>
+            <l>Al miserabil suon di questa voce</l>
+            <l>Non desterai pietà de la mia fede</l>
+            <l>De la Patria, de figli, e de l'Honore,</l>
+            <l>Supplice, e lagrimante indarno al fine</l>
+            <l>A l'altrui, falsa fede, à i proprij figli,</l>
+            <l>A la Patria, a l'Honor pietà chiedrai:</l>
+            <l>Tanto veneno infonderò nel seno</l>
+            <l>Del Bavaro crudel per man d'Aletto</l>
+            <l>Ch'in vece de l'Amor, ch'a lui comparti,</l>
+            <l>Del letto maritale in cambio, havrai</l>
+            <l>Odio fiero mortal, feretro infame.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SECONDA.</head>
+          <stage>Laufredo, Irene.</stage>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Questo amor di Romilda, Irene mia,</l>
+            <l>Troppo è sfrenato, il precipitio al fine</l>
+            <l>Havrà per meta, il Ciel tolga gl’auspicij</l>
+            <l>Oh quanto io temo, oh quanto, in Oriente</l>
+            <l>Pallido il sol ascende, arde la Luna,</l>
+            <l>Stella non s'apre mai che di Cometa</l>
+            <l>Splendore infelicissimo non vesti:</l>
+            <l>Sono lingue del Ciel gl’astri del Cielo,</l>
+            <l>Che con aspetto insolito, e letale,</l>
+            <l>Nuntian portenti infausti sì, mà veri</l>
+            <l>A’ le teste reali di regni interi.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Anch'io temo</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>e tardo scorsi</l>
+            <l>Nel più profondo di quel seno amante</l>
+            <l>L'amoroso insanabile veneno:</l>
+            <l>Nasce picciolo Amore, e lieve impresa</l>
+            <l>E nella Culla ancor bambino inerme</l>
+            <l>Col ferro d'honestà torli la vita,</l>
+            <l>Mà fatto adulto, e di regnare avaro</l>
+            <l>Impiagabile, altrui sì fere, e lega,</l>
+            <l>Ch'in van d'alto saver potenza humana</l>
+            <l>Arte, od ingegno à la sua morte impiega:</l>
+            <l>Pur dissi, e sei quanto sà dir già mai,</l>
+            <l>Quanto far sà d'un fido Cor la fede</l>
+            <l>Mà nulla oprai, che nulla intende, ò cura:</l>
+            <l>Consiglio feminil, Regia fortuna;</l>
+            <l>Ove consiglia un'amorosa arsura.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Come affetto sì strano havesse in lei</l>
+            <l>Principio io nol sò ben, che riverenza</l>
+            <l>Freno più volte sul mio labro giunta</l>
+            <l>La richiesta improviso, hor à te noto</l>
+            <l>E, non t'incresca di narrarlo à questa</l>
+            <l>Canuta chioma in cui forse havran gl’anni</l>
+            <l>Qualche rimedio ascosto, huopo à chi vuole:</l>
+            <l>Sanar il male, è di saper qual fosse</l>
+            <l>Il suo primiero insulto, il suo natale</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Dopo la miserabile caduta</l>
+            <l>Del buon Gisolfo, e la sconfitta atroce</l>
+            <l>Del valoroso esercito infelice:</l>
+            <l>Col suo moto era già scorsa due volte</l>
+            <l>Cinthia il sentier del suo Celeste giro</l>
+            <l>Dal dì ch'il Rè Carcanno havea le Mura</l>
+            <l>Di questa Patria assediate, e strette,</l>
+            <l>Quando Romilda homai stanca dal pianto</l>
+            <l>Che con due fiumi parentava ogn’hora</l>
+            <l>Dell’estinto Consorte il caro affetto,</l>
+            <l>Per virtù d'un incognito desio</l>
+            <l>Sù la Torre Real si trasse, e quindi</l>
+            <l>Con palpitante Cor, con occhi molli</l>
+            <l>Mentre rimira l'accampate squadre</l>
+            <l>E ne l'Hoste possente, hoggi mai legge</l>
+            <l>De gl’estermini suoi certo il Decreto,</l>
+            <l>Ecco da ricco Padiglion superbo</l>
+            <l>Esce fastoso e nobile Guerriero</l>
+            <l>Ch’agl'altrui riverenti ossequi, a i segni</l>
+            <l>Conosce esser Carcanno, il sangue a l'hora</l>
+            <l>(Com'ella poi mi disse) intorno al Core</l>
+            <l>Arse, e turbossi in guisa tal che brama</l>
+            <l>Hebbe di lacerarlo in mille parti.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Giusto moto che contro à chi ci offende</l>
+            <l>Fà non richiesta la Natura ultrice.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Mà poi ch'ei s'accostò presso à le mura</l>
+            <l>Si che meglio scoprissi il bel sembiante</l>
+            <l>E più distinto il portamento apparve,</l>
+            <l>Un non sò che da dolce, e di soave</l>
+            <l>Senti scendersi al Cor, ch’in breve spatio</l>
+            <l>Non sol l'ira sedò, fugò lo sdegno</l>
+            <l>Mà di mirarlo, e rimirarlo il ciglio</l>
+            <l>Tanto invaghì, ch'al fine, ecco la somma</l>
+            <l>D'onde salì nemica, amante scese.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Meraviglia d'Amor ch’in un baleno</l>
+            <l>Cangia in vitale humor d'odio il veneno.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Tacque ella meco, e solo al novo ardore</l>
+            <l>Rivolta l'alma, ogn'altra cura estinse</l>
+            <l>Talche tutta diversa a sè divenne;</l>
+            <l>Più volte le diss'io, qual novo affanno</l>
+            <l>Si fuor di voi v'hà tratto? Ella dolente</l>
+            <l>Con un solo sospir mi rispondea,</l>
+            <l>Io lo credea del già perduto, e caro</l>
+            <l>Consorte amato affettuoso incarco,</l>
+            <l>E trà me stessa, havrà ben fin, dicea</l>
+            <l>Il mal che sì l'accora, il pianto, e ‘l duolo</l>
+            <l>Asciuga il tempo e la stanchezza estingue.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Vedovo Cor di lagrimoso humore</l>
+            <l>Hà ben torrente impetuoso, e vasto,</l>
+            <l>Ma non fonte perenne al suo dolore.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Quindi vedendo in lei crescer l'affanno</l>
+            <l>Cotanto la pregai, ch'al fin mi disse</l>
+            <l>Con volto di rosor tinto, e con noti</l>
+            <l>Tremanti, e sospirose il suo dolore.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Eh ch’all’hor tù dovevi oprar sagace</l>
+            <l>Il consiglio, e l'ingegno.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>in vano io spesi</l>
+            <l>Il Consiglio, e l'ingegno, onde pietosa</l>
+            <l>Per non vederla a morte al fin condotta</l>
+            <l>Col piacer che la speme il Cor lusinga</l>
+            <l>Sì la nudrij che la ritenni in vita.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Nel dolce di pietade assentio amaro</l>
+            <l>Fù ‘l tuo, che non si more, amante Core</l>
+            <l>Non perì mai di duol femineo affetto</l>
+            <l>E quel medico pio nel mal d' Amore</l>
+            <l>Che la ferita insistolisce, oh Dio,</l>
+            <l>Con questo affetto, e che far pensa alfine?</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Far Carcanno suo sposo.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ò pensier troppo</l>
+            <l>Per lei, per noi, per la Cittade infausto</l>
+            <l>Il Rè sà ch'ella l’ama?</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>E sallo, et egli</l>
+            <l>Monstra segni d'amore.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>E come il seppe?</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>E questo io ti dirò, mà vè che scende</l>
+            <l>Dà la soglia real tutta pensosa</l>
+            <l>Tutta languente, oh povera Romilda,</l>
+            <l>Com'è cangiata, ohimè, come il rosaio</l>
+            <l>De la sua verde etade entro a le nevi</l>
+            <l>c'ha seminate Amor sol volto essangue</l>
+            <l>Tempestato dal duol sfiorito langue.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Perch'ella possa teco i suoi pensieri</l>
+            <l>Creder men cauta, io quindi il piè ritiro,</l>
+            <l>A tenerezza feminil comette</l>
+            <l>Più ch'a matura austerità virile</l>
+            <l>I suoi secreti Amor, qui non veduto</l>
+            <l>Il tutto udir potrò, de sensi miei</l>
+            <l>Forse al libero affetto, al giusto zelo,</l>
+            <l>Opportuno favor porterà il Cielo.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA TERZA.</head>
+          <stage>Irene. Romilda. Laufredo.</stage>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>SIgnora ove dà voi cosi divisa</l>
+            <l>Gite che nulla par che l’occhio attenda?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Con le cure amorose, alto portento</l>
+            <l>Congiurato al mio mal cieco mi guida.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Nulla Romilda a la mia fede asconda.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Chiusa, come tù sai, nel più riposto</l>
+            <l>Dè le mie stanze, e risoluta alfine</l>
+            <l>Di far noti a Carcanno i pensier miei</l>
+            <l>Tutta in me stessa la mia mente interno,</l>
+            <l>E mentre i modi a divisar mi pongo,</l>
+            <l>Qual navicella in tempestosi flutti</l>
+            <l>L’Anima ondeggia; e trà diversi affetti</l>
+            <l>Hora vuole, hor disvuole; hor spera, hor teme,</l>
+            <l>Ove Amor la guidava, honor con fune</l>
+            <l>Di contrario desir la ritrahea</l>
+            <l>E questi eran sì eguali, e sì possenti</l>
+            <l>che la Vittoria attonita, e confusa</l>
+            <l>Ste sù l'ali tra lor librata un tempo;</l>
+            <l>Al fin vinse l' Amore, io prendo a l’hora</l>
+            <l>Per iscriver la penna, e negl'inchiostri</l>
+            <l>Intinti appena, un rigoroso gelo</l>
+            <l>Per la man, per il braccio, e per il seno</l>
+            <l>Sento giungermi al Cor che di repente,</l>
+            <l>Come fosse mortifero veleno</l>
+            <l>A deliquio improviso in braccio io cado:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Fù la ragion che l'opre indegne ischiva.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Misera a sì grand'huopo esser lontana?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Pur du' virtude interna al fin riscossa,</l>
+            <l>Scriver comincio, a l'hor novo portento</l>
+            <l>Rende il Cor palpitante, hispido il crine,</l>
+            <l>Vergar penso d'inchiostri i bianchi fogli,</l>
+            <l>E di noti sanguigne, ohimè, gl'imprimo,</l>
+            <l>Stupida la man fermo, e sangue miro</l>
+            <l>Pullullar d'ogni intorno, e pur non peggio</l>
+            <l>Dove la piaga sia, chi versi il sangue;</l>
+            <l>Tremo di novo, e gl’occhi chiudo, e poscia</l>
+            <l>Doppo breve pensier gl’apro, e ritrovo</l>
+            <l>Quel purpureo liquor converso in negri,</l>
+            <l>Et usitati inchiostri.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Il timor tratta</l>
+            <l>Tanto forse v'havea fuor di voi stessa</l>
+            <l>che traveder vi fece.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Anzi benigno</l>
+            <l>lume di Genio amico, il ver gl’offerse:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>La man timida a l'opra al fin richiamo</l>
+            <l>E mentre ciò ch'Amor mi detta, io scrivo</l>
+            <l>Sonno improviso si lusinga il ciglio</l>
+            <l>ch'a viva forza il chiude, a l’hor vegg’io</l>
+            <l>Spettacolo inhumano, ombra ferale</l>
+            <l>Ch'in rimembrando ancor la mente offende.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>E che vedeste mai? Sfingi, ò chimere?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>O come il Ciel Cortese, ò con qual arte</l>
+            <l>Da gl'imminenti, e volontari mali</l>
+            <l>Di ritrar tenta i miseri mortali.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Vidi Gisolfo mio pallido, e scuro</l>
+            <l>Pien di profonde, horride ferite</l>
+            <l>C'havea squarciato horribilmente il seno,</l>
+            <l>Per cui mirai dà due gran serpia a prova</l>
+            <l>Il suo misero Cor lacero, essangue,</l>
+            <l>Tutta mi ricapriccio, e ‘n pianto sciolgo</l>
+            <l>I miei sensi, e sospiro, ei par che dica</l>
+            <l>Getta getta la penna, e squarcia il foglio</l>
+            <l>Romilda, a che più tenti? In questa carta</l>
+            <l>Tù stessa scrivi, improvida, infelice,</l>
+            <l>La sentenza crudel de la tua morte;</l>
+            <l>Odo trà ‘l suon di queste infauste note</l>
+            <l>Un Sibilar sì strepitoso, e fiero</l>
+            <l>Che tutta impaurita in me ritorno,</l>
+            <l>E gl’occhi intorno rivolgendo infine</l>
+            <l>Nulla quivi riveggio, e nulla sento.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Infin l'Inferno il mal oprare aborre.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Sono i sogni fantasmi obloqui, e vani,</l>
+            <l>Inordinate Larve, ombre fallaci,</l>
+            <l>Che curar nulla dee saggio pensiero,</l>
+            <l>Tanto havete nel Cor Gisolfo impresso</l>
+            <l>Che miracol non è, se poi dormendo</l>
+            <l>con mente afflitta il simulacro apparvi,</l>
+            <l>E l'alma vi conturba, a gl’egri appunto</l>
+            <l>Per il mal che gl'accora, esser sovente</l>
+            <l>Par lor trà ‘l senno, estinti, al rogo, a l’Urna,</l>
+            <l>Sogna spesso nocchie rnembi, e tempeste</l>
+            <l>La Patria il Peregrin, gl’Ori l'Avaro;</l>
+            <l>Consolatevi omai, semplice troppo</l>
+            <l>Sareste ben se deste fede à i sogni</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>L'ardir già non mi tolse, io scrissi alfine</l>
+            <l>Questa lettera in cui gl’offro le nozze.</l>
+            <l>E con esse lo Stato, e la Cittade,</l>
+            <l>Mà qual fido mesaggio havrem che porte</l>
+            <l>Celere e cheto al Re mio caro il foglio?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Non vuol la fede mia, ch'io più m'infinga.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Non mancheran ministri à questa impresa,</l>
+            <l>Mà che meglio, e più certo? Un dardo sia</l>
+            <l>Messaggiero il più celere, e secreto.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>s'al mio lungo servire, a la mia fede,</l>
+            <l>Serenissima Donna, apriste mai.</l>
+            <l>Il secreto del Core hor non si neghi</l>
+            <l>Al mio lungo servire, à la mia fede</l>
+            <l>Mercè di confidenza, e che contiene</l>
+            <l>Questo foglio Signora?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>al mio fedele,</l>
+            <l>Nulla si celi; hor perche mai non valsi</l>
+            <l>Spegner del Rè l'amore, io chieggio pace</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Pace? Degno pensier, mà con qual patto?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>con le mie nozze, e con lo stato in dote,</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Nozze, e stati gl'offrite? Ò Ciel che sento;,</l>
+            <l>Sia pur l'assedio eterno, eterno il danno</l>
+            <l>Se più degna cagion non ha la Pace:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Cagion degna io lastimo, error non parmi:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Anzi il più grave, oh Dio, che mai cadesse.</l>
+            <l>In cor humano, il vuò pur dir, mi scusi</l>
+            <l>Del troppo ardir, questa canuta chioma;</l>
+            <l>Stringersi con colui, ch'empio, e protervo</l>
+            <l>Sciolse col ferro il primo laccio amato?</l>
+            <l>Unir la vostra à quella destra avara,</l>
+            <l>Che trà ceneri, sol del vostro regno,</l>
+            <l>Gl’Ori cercò? Contaminar le leggi</l>
+            <l>con barbaro stranier?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>le nostre leggi</l>
+            <l>Sian proprie sue con le mie nozze, il resto</l>
+            <l>Ei fè qual inimico.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>E di costui</l>
+            <l>Fidarvi hoggi potrete? Io non l'intendo;</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Fora la pace un nome ignudo, e vano:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Titolo Specioso, in cui ben Spesso</l>
+            <l>S'asconde il tradimento:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>à regia fede</l>
+            <l>Lungi l'insidie stanno, e i tradimenti.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Barbaro Re', non hà che regio il nome;</l>
+            <l>E la memoria di Gisolfo, amato?</l>
+            <l>I cari figli e la Città fedele?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Morte a Gisolfo ogni ragione ha tolta</l>
+            <l>Che meco havea, ne mai tradir si dice</l>
+            <l>Vedova Donna il primo Orfano letto</l>
+            <l>S'à novelli himmenei pronubo fassi</l>
+            <l>Puro, e casto desio; saranno i figli:</l>
+            <l>Figli d'un Rè magnanimo, e possente</l>
+            <l>Il cui titolo sol sia lor tal fregio,</l>
+            <l>Ch'ogni corona emuleggiar potranno;</l>
+            <l>Questa Città sede reaal, felici</l>
+            <l>Tutti popoli nostri, ed io Regina:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Corona indegna, abominabil nome:</l>
+            <l>Piaccia al Ciel, ch'al pensier che vi lusinga</l>
+            <l>Corrispondan gl’eventi, io però temo;</l>
+            <l>Chi col natale il veroamor non porta</l>
+            <l>Da le fasce à suoi popoli, Tiranno</l>
+            <l>Più che Prencipe giusto e sempre, e raro</l>
+            <l>và con Scettro inimico imperio humano.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Di vil cadente età timidi affetti:</l>
+            <l>Nulla il mio Cor paventa.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>io riverente</l>
+            <l>Il voler vostro inchino.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Ed io salubre</l>
+            <l>Consiglio istimo quel che più v'aggrada.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>SAggio tanto non è pensiero humano</l>
+            <l>Ne si provido senno ha cor prudente,</l>
+            <l>Che di Fortuna al variar repente</l>
+            <l>L'altrui consiglio ricercar sia vano.</l>
+            <l>Speso dell'intelletto i lumi accieca</l>
+            <l>Senso d'affetto in così strana guisa</l>
+            <l>Che la Ragione, ò serve, ò resta uccisa,</l>
+            <l>Onde per fine il pentimento arreca</l>
+            <l>Chi soccorso non hà, vivo non riede,</l>
+            <l>Se nel mar cade, al lido, e ‘n van presume</l>
+            <l>Senza scorta di chiaro ardente lume</l>
+            <l>Uscir da fosco speco incauto piede:</l>
+            <l>Quanto è folle colui, ch'in se confida,</l>
+            <l>Ne l'altrui cura udir saggio consiglio,</l>
+            <l>Chioma canuta sia, severo ciglio</l>
+            <l>Hà ne suoi propri casi huopo di guida.</l>
+            <l>Ma che (miseria humana) e chi sincero</l>
+            <l>Parla già mai? Chi senza avaro affetto</l>
+            <l>Altrui consiglia? Il Cor non apre il petto,</l>
+            <l>Lingua raro, o non mai discopre il vero</l>
+            <l>E sopra ogn'altro, d'imprudenza avanza</l>
+            <l>Di vil Donna il parere, e la ragione</l>
+            <l>Questa segue il piacer, certo propone</l>
+            <l>Ciò che mostra lontan dubbia speranza.</l>
+            <l>Strane voglie hà nel Cor; desir volanti</l>
+            <l>Ne l'indiscreta mente ogn’hor aduna,</l>
+            <l>A suo prò finge, e titoli, e fortuna,</l>
+            <l>Sol scaltra alfin, per ingannar gl'amanti.</l>
+            <l>Servo carco non men d'amor che d'anni</l>
+            <l>Senza senso favella, e ‘l ver predice,</l>
+            <l>Romilda, udir dei questi, hà la Nutrice</l>
+            <l>Ne’ suoi vani consigli un mar d'inganni</l>
+          </sp>
+          <trailer>Fine del Primo Atto.</trailer>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO SECONDO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>CAngiar Cor feminil, che di se stesso</l>
+            <l>Habbia fatt’esca ad amorosa arsura</l>
+            <l>oh quanto è grave impresa; ove lampeggia</l>
+            <l>Foco tal, di ragion raggio non splende;</l>
+            <l>V’ tien lo scettro tirrania d'Amore</l>
+            <l>Giusta legge non regge, e non s'intende:</l>
+            <l>Faccia pur chi per mobile, incostante</l>
+            <l>Chiama il sesso Donnesco, è più di scoglio</l>
+            <l>Fermo, ostinato, e sordo à i preghi, à i voti</l>
+            <l>Di lingua a cui dà l'intelletto i moti,</l>
+            <l>E se varia talhor voglia, e desire</l>
+            <l>Avvien perche per sua fatal ruina,</l>
+            <l>Lasciando il meglio, al suo peggior veloce,</l>
+            <l>Quasi a suo proprio centro, il Cor inclina</l>
+            <l>Tenero sen per troppo dolce apprende</l>
+            <l>Quel piacer che lusinga il senso imbelle,</l>
+            <l>Piacer, che se già mai co' la speranza</l>
+            <l>Di grandezze bramate unita, assale</l>
+            <l>Alma cupida, e vana, addio consiglio,</l>
+            <l>Ragione addio, più lieve é dar il volo</l>
+            <l>Per aria á i Pesci, al Mar di tutti i Fiumi</l>
+            <l>Il tributo involar, fermar il Sole</l>
+            <l>Che sveller quell'affetto, io già ch’indarno</l>
+            <l>Hò di Romilda l’ostinata mente</l>
+            <l>Combatuta, e non vinta, odiando omai</l>
+            <l>Fin l'ombra di me stesso, il piè rivolgo</l>
+            <l>Dal Palagio infelice e non sò dove</l>
+            <l>Io vada nò, ch'un non inteso affanno</l>
+            <l>Ogni senso m’ingombra, oh Dei, dhe sia,</l>
+            <l>De le sventure ch'il mio Cor paventa</l>
+            <l>Mendace augure al fin la mente mia.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SECONDA.</head>
+          <stage>Agilmondo, Laufredo.</stage>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Lieta può star Romilda; in breve io spero,</l>
+            <l>Ch'ella vedra con vergognosa fuga</l>
+            <l>Ceder l’hoste già stanco il campo, e queste</l>
+            <l>Mura, a primiera libertà donate;</l>
+            <l>Tutto è si ben munito, e in ogni parte</l>
+            <l>Ripartite le guardle, onde sia vano</l>
+            <l>Ogni sforzo inimico, ed io qual sempre</l>
+            <l>Pronto ho per lei, per questa Patria il sangue.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Signor di quel gran Rè che giusto impera</l>
+            <l>La più bella d'Italia, e nobil parte</l>
+            <l>Ben degno figlio, al valor vostro appoggia</l>
+            <l>Scevra di sua salute ogni sua speme</l>
+            <l>Romilda afflitta; il glorioso nome</l>
+            <l>Del Prencipe Agilmondo, ancora è ferma</l>
+            <l>De' naufragi, ch'a lei minaccia il fato:</l>
+            <l>Vincer chi tenta, di rapir Vittorie,</l>
+            <l>Opprimer gl’empi, e sollevar gl’oppressi,</l>
+            <l>Gl’innocenti ritorre a certa morte,</l>
+            <l>Lauri inestar sopra gl’altrui cipressi,</l>
+            <l>Opre sono riserbate a Regia sorte:</l>
+            <l>Mà in che potrà già mai Donna infelice</l>
+            <l>Render a sì gran merto egual mercede?</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Solo ch'il mio servir grato le sia</l>
+            <l>Altro premio non vuo?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>la vita, i figli</l>
+            <l>E lo Stato a prò vostro havrà Romilda,</l>
+            <l>Almen potessi imaginar qual fosse</l>
+            <l>Cosa da le sue mani a voi più cara?</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Ciò che tesoro incomparabil stima,</l>
+            <l>Già ch’indegno si vede, aprir non osa</l>
+            <l>Non che chieder il cor:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Quanto ha di raro</l>
+            <l>E di pregiato l'universo intero</l>
+            <l>Al sangue, a la virtù di voi Signore</l>
+            <l>E poco, ò nulla.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>il più pregiato, e raro</l>
+            <l>Che stima il Mondo è poco, ò nulla al pari</l>
+            <l>Di quel ch'io bramo.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Orsù non mi s’asconda.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Foran, dopò ch'il fin di questa guerra</l>
+            <l>Porterà pace, e libertà secura</l>
+            <l>Le sue nozze.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Le nozze? Ella di voi</l>
+            <l>Dee più bramarle; il Ciel come benigno</l>
+            <l>Doppo lunghe sventure altrui prepara</l>
+            <l>Radoppiate fortune, al pianto infine</l>
+            <l>Succede il viso, io sarò pronto a l’opra;</l>
+            <l>Favorischin pietosi i sommi Dei,</l>
+            <l>Secondin gl’astri i vostri voti, e i miei.</l>
+            <l>Infecondo desio, troppo a mè tardi</l>
+            <l>Scoperto Amor, pascer di speme un Core,</l>
+            <l>Perche non habbia a disperar salute,</l>
+            <l>Ne disperati casi anco è virtute.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA TERZA.</head>
+          <stage>Soldato. Agilmondo.</stage>
+          <sp who="#soldato">
+            <speaker>SOLDATO.</speaker>
+            <l>DA squadra di guerrieri usciti appunto</l>
+            <l>Guari non è per foraggiar, trovossi</l>
+            <l>Questo foglio diretto al Rè nemico</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Ove trovossi?</l>
+          </sp>
+          <sp who="#soldato">
+            <speaker>SOLDATO.</speaker>
+            <l>Al più vicino Ponte</l>
+            <l>Ch'è fuor de la Cittade.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>alcun di Corte</l>
+            <l>Lo vidde?</l>
+          </sp>
+          <sp who="#soldato">
+            <speaker>SOLDATO.</speaker>
+            <l>altri non già.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>vattene e taci</l>
+          </sp>
+          <sp who="#soldato">
+            <speaker>SOLDATO.</speaker>
+            <l>Tanto farò.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Che novità sia questa?</l>
+            <l>Di Romilda e ‘l sugello, e di suo pugno</l>
+            <l>E, s'io non erro, il soprascritto ancora.</l>
+            <l>L'apro, o non l'apro? Aprirlo è fatto indegno</l>
+            <l>Di regia destra, ogni ragion insegna</l>
+            <l>Veder ciò ch'ei contenga, esservi forse</l>
+            <l>Può qualche tradimento, e ‘l Ciel ministro</l>
+            <l>Di mia salute a l'innocenza invia</l>
+            <l>Scampo impensato; E che mai dissi, ò feci,</l>
+            <l>Ond’io possa temere insidie, ed onte?</l>
+            <l>Se l’amar, se ‘l servir con tanta fede</l>
+            <l>Può mercar questi premi, esser tradito,</l>
+            <l>Esser bersaglio io vuò d'oltraggij e scherni.</l>
+            <l>E però Donna: in questo sesso annida</l>
+            <l>A d'ogn’opera reamente disposta.</l>
+            <l>Ah nò che nobil alma, alma reale</l>
+            <l>Sopra il sesso s’estolle, e nel più puro</l>
+            <l>E più sereno di Virtude alberga</l>
+            <l>Mà se pur l’apro al fin che scorno, o danno</l>
+            <l>Può risultarne? Il risapersi solo</l>
+            <l>Recherà infamia. E chi di far palese</l>
+            <l>Ardirà mai, ciò ch'il mio ciglio impone</l>
+            <l>Che si taccia? È teatro ampio, e facondo</l>
+            <l>Anima retta a sè medesma, hor dunque</l>
+            <l>Rendasi a lei la carta, il resto al Cielo,</l>
+            <l>A la fortuna si cometta. E pure</l>
+            <l>Un, non so se sia genio amico, ò larva</l>
+            <l>De l'onda stigia, mi favella, e vuole</l>
+            <l>Ch'io legga il foglio, aprirlo al fin risolvo:</l>
+            <l>Par che la man tremando ischivi l'opra</l>
+            <l>E pur t'apersi: Oh traditrice, oh falsa</l>
+            <l>Donna, e che veggio? Cor vano, e lascivo</l>
+            <l>Mostro d'infedeltà, Donna impudica.</l>
+            <l>Con la scorta d'Amore, humile e pia,</l>
+            <l>Dato bado à l'hostil vindice orgoglio,</l>
+            <l>La sua fè, le sue fiamme in questo foglio,</l>
+            <l>A té Rè del suo Cor, Romilda invia.</l>
+            <l>Con la scorta d'Aletto anima indegna</l>
+            <l>Foco d'Averno a palesar venisti</l>
+            <l>sù carta infame a barbaro inimico.</l>
+            <l>Giusto sdegno sospendi i tuoi furori</l>
+            <l>Fin ch'io legga a me stesso in queste carte</l>
+            <l>D'una Donna infedel l'impuro ardore;</l>
+            <l>Che sol de gl’occhi miei si fida il Core.</l>
+            <l>Appena io vidi il tuo reale aspetto,</l>
+            <l>Appena io scorsi il portamento altero,</l>
+            <l>Che ritosto à me stessa il mio pensiero,</l>
+            <l>Su le fiamme del Cor t'offrij l'affetto.</l>
+            <l>Sovra foco infernal Vittima impura.</l>
+            <l>Mentre sotto il tuo ciglio à danni miei</l>
+            <l>Balenava crudel sdegno inimico,</l>
+            <l>Scoccò dardo dorato Amor pudico,</l>
+            <l>E presentommi al Cor novi Immenei.</l>
+            <l>Sia di questi Immenei pronuba morte.</l>
+            <l>Tacer non voglio il ver, l'anima ischiva</l>
+            <l>Il nascente desio rigettò indietro,</l>
+            <l>Ma quanto, ohimè, più dal mio sé l'arretro</l>
+            <l>Tanto più mi s’interna, e mi s’avviva:</l>
+            <l>Crebbe, Signore, in breve spatio il foco</l>
+            <l>Così, ch'inceneri l'odio, e ‘l furore,</l>
+            <l>E del consorte estinto il rio pallore,</l>
+            <l>A la tua bella imagine diè loco:</l>
+            <l>Poi su Varco il più presso, il più sovrano</l>
+            <l>Guidata sol dà miei pensieri amanti</l>
+            <l>Oh quanti giorni, forsennata, oh quanti</l>
+            <l>Hò per mirarti consumati invano.</l>
+            <l>Questi furo i pensier, queste le cure</l>
+            <l>Onde involata altrui spesso io ti scorsi,</l>
+            <l>Trà me, diss'io, come il dolor l'accora,</l>
+            <l>E pietà n'hebbi, e ‘l ciglio anco sei molle,</l>
+            <l>O mio pianto mal speso, ò pietà folle.</l>
+            <l>Quante notte infelici al sonno in braccio</l>
+            <l>Raccomandai la stanca mente afflitta.</l>
+            <l>Ma dà Larve hor sanata, et hor traffitta</l>
+            <l>Più die bando al riposo, e strinse illaccio:</l>
+            <l>Qual sia stato, ò sia dunque il viver mio</l>
+            <l>Dical chì prova Amor senza speranza,</l>
+            <l>Sol al mio fosco questo raggio avanza,</l>
+            <l>Che prode, e regio Cor suol esser pio:</l>
+            <l>Signor mercè ti chieggio, amor, e pace,</l>
+            <l>E i miei casti Immenei t'offro, e ti dono,</l>
+            <l>Pur se sposa d'un Rè degna io non sono</l>
+            <l>Anco di serva il titolo mi piace</l>
+            <l>Come fatto mancipio a voglia insana</l>
+            <l>Di servir gode un Cor nato a gl'imperi?</l>
+            <l>Pur ch'à gl’ossequi miei non interdica</l>
+            <l>Giamai, torbido il Ciel del tuo bel viso,</l>
+            <l>Breve lampo d'un sguardo, ò d'un sorriso,</l>
+            <l>Chiamami, se t'aggrada, anco in imica:</l>
+            <l>Quanto diede al mio scettro il Cielo, e ‘l fato</l>
+            <l>Sia Tesor, sia ricchezza, ò stato, ò figlio,</l>
+            <l>Sotto l'Imperio del tuo nobil ciglio</l>
+            <l>Con legge inviolabile sia dato:</l>
+            <l>Agilmondo che pensi? À l'onde a i venti</l>
+            <l>D'ingordo, e vasto Mar credansi i lini</l>
+            <l>Mà non la fede a feminile affetto,</l>
+            <l>ch'è più del Mar, ch'è più de' venti infido:</l>
+            <l>Mà che farò di tè carta essecranda?</l>
+            <l>Squarciar ti voglio in mille parti, e mille</l>
+            <l>Ah nò ch'ella è innocente, oh s'intendesse</l>
+            <l>I proprij falli, il suo candor verrebbe</l>
+            <l>Come di Tirio suol, purpureo amanto,</l>
+            <l>mà pur ben ch’insensata arder si dee</l>
+            <l>Non convien che più viva, al foco dunque,</l>
+            <l>Ch'a gl’oltraggi del foco espor conviene</l>
+            <l>Parto d'impure fiamme.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QVARTA.</head>
+          <stage>Romilda. Agilmondo. Irene.</stage>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>E Che contiene</l>
+            <l>Foglio che tanto sdegno in tè solleva? ?</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>ah Romilda, Romilda, e chisà meglio</l>
+            <l>Di tè ciò ch'egli dica; e come impreso</l>
+            <l>Porti nefando ardor tradita fede?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>oh come humano intendimento al primo</l>
+            <l>Lampo di colpa, a creder reo se ‘n corre</l>
+            <l>Chi d'innocenza, ogni innocente avanza!</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Cosi macchiar del povero Consorte</l>
+            <l>Gl'Orfani letti, e i vedovi Immenei?</l>
+            <l>Cosi tradir di questa afflitta Terra:</l>
+            <l>I geniali, e tutelari Iddi?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Non macchiai, non tradij questi, ne quelli</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Hor non è di tua man vergato il foglio?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Di mia man l’hò vergato, eccomi rea,</l>
+            <l>Eccomi traditrice; hor dove sono</l>
+            <l>I supplici, e le pene? In questa testa</l>
+            <l>Scocchi i fulmini suoi vindice Giove,</l>
+            <l>s'uccida pur Romilda? Ah dunque credi,</l>
+            <l>Credi dunque Agilmondo in mè si strana,</l>
+            <l>Ferigna voglia ah Dio si mi dirai</l>
+            <l>Perche di le n'è testimon la penna:</l>
+            <l>Hor ben che solo il mio voler sia legge</l>
+            <l>Ne giàmai deggia altrui, chi signoreggia</l>
+            <l>Portar scuse, e raggioni, a tè pur voglio</l>
+            <l>Nato far quel pensier, ch'à ciò m'indusse:</l>
+            <l>A gl'aperti inimici occulte frodi</l>
+            <l>Tesser non è chi vieti, hor queste io volli</l>
+            <l>Seco tentar, cosi mi finsi amante</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Un incerta Vittoria a troppo caro</l>
+            <l>Prezzo comprar tentasti, e l'ombra solo</l>
+            <l>D'impudicitia a nobil Donna, un angue</l>
+            <l>Che la fama avvelena:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>A le mie nozze</l>
+            <l>L'invitai, giusto titolo ciò parmi;</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Quindi che far pensasti?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Entro a le mura</l>
+            <l>Trarlo, e mio prigionier prender di lui</l>
+            <l>Aspra vendetta al fin.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Credulo tanto</l>
+            <l>Non fora ei nò:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Mà che non ponno i prieghi</l>
+            <l>D'innamorata Donna animo altero</l>
+            <l>Credulo più d’ogn'altro, a l'esca corre:</l>
+            <l>De l'altrui riverenze agevol stima</l>
+            <l>D’essersi amad’ogn’alma.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>era pur d'huopo</l>
+            <l>Consigliarsene pria:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Non volli a parte</l>
+            <l>Altri de le mie glorie, e quindi a questo,</l>
+            <l>(E questo il foglio appunto) i sdegni veri.</l>
+            <l>Tra simulati affetti in van credei;</l>
+            <l>Mà come ei qui ne la tua man pervenne?</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Fù dà squadra de' nostri, usciti fuori</l>
+            <l>A foraggiar trovata:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>io stessa il trassi</l>
+            <l>Sù la punta d'un stral, la destra imbelle</l>
+            <l>Al disegno del Cor servir non seppe:</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Fù forse opra del Ciel.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Per tal si creda,</l>
+            <l>Nè più si tenti.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>no, dona al mio sdegno</l>
+            <l>Al mio zelo, perdon, già che non erra</l>
+            <l>Colui che cede ai primi mot, e crede</l>
+            <l>Fido messo del Cor, carta furtiva.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Ah troppo offenderei tuo sangue regio</l>
+            <l>Se per reo t'assolvessi, or sol mi basta</l>
+            <l>Ch'al ver ti rendia questa Terra adunque</l>
+            <l>Il valor di tua destra hoggi conserva</l>
+            <l>A questo suol che sconsolato, e mesto</l>
+            <l>A tua virtù le sue speranze appende:</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Questa man, questa spada, e questo seno</l>
+            <l>Sian vostri eterni scudi, il Cielo arrida</l>
+            <l>Col benigno splendor de le sue roti</l>
+            <l>Ai miei giusti pensieri ai vostri voti.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>O vostro saggio accorgimento, ò folle</l>
+            <l>Mente d'amante, ei credulo si parte</l>
+            <l>Tolto d'ogni sospetto, hor che far resta?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Già che l'evento há palesato infido</l>
+            <l>Portator del mio foglio arco guerriero</l>
+            <l>Servo antico, e fedele al Rè se ‘n vada</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Io troverò chi vi girà volando.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Mà proveder convien che non disturbi</l>
+            <l>L'essito a miei disegni il Longobardo.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Sarà ciò mio pensiero, ordirò frodi</l>
+            <l>Ch'in breve troverassi in carcer chiuso;</l>
+            <l>Del secretario il zel precipitoso</l>
+            <l>Opportuno ministro a l’opra sia.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUINTA.</head>
+          <stage>Aio. Rodoaldo.</stage>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Non basta alma guerriera, ardir sovrano</l>
+            <l>Di generoso Cor, tenero troppo</l>
+            <l>Sete ancor Rodoaldo, a gl'anni adulti</l>
+            <l>Si riserbi l'ardir del vostro sdegno.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Nulla pavento io nò, ch'a destra imbelle</l>
+            <l>Ove giusta si rota, il Ciel da ‘l moto</l>
+            <l>E fa fortuna che colei si porti</l>
+            <l>Ove men l'aspetto l'arte più industre.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>E tall’hor anco la fortuna, e ‘l Cielo</l>
+            <l>Cura non han di temeraria mano.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Aio, dove non è certo il periglio</l>
+            <l>Temerità non cade.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>E più che certo,</l>
+            <l>Il periglio colà dove ineguali</l>
+            <l>son le forze.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Ben spesso uguaglia ancora</l>
+            <l>L'ardimento le forze, in van t’opponi</l>
+            <l>Già scritta è la disfida, a me sol toccan</l>
+            <l>Far col sangue del Bavaro superbo</l>
+            <l>Al Padre estinto i funerali honori:</l>
+            <l>Odi la mia querela, indi spedito</l>
+            <l>Provedimi d'Araldo:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Eccomi pronto</l>
+            <l>Ben che contrasti in obbidirvi il Core.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>O tù che reggi di Bavaria il Regno</l>
+            <l>Rodoaldo del Friuli t'invia,</l>
+            <l>Salute, e Pace nò, mà guerra, e sdegno</l>
+            <l>Se qual barbaro sei, prode tú sia,</l>
+            <l>Con scudo, e brando solo, hoggi provarte</l>
+            <l>In ristretta tenzon brama, e desia</l>
+            <l>Te chiama a l'armi, e vuol che sia tua parte</l>
+            <l>Sceglier il Campo, e la tua fè reale:</l>
+            <l>chiede, ei la sua ti dà su queste carte.</l>
+            <l>Con numeroso essercito ineguale</l>
+            <l>Opprimesti, uccidesti il Padre amato,</l>
+            <l>La pena havrai da la mia man fatale:</l>
+            <l>La fama, ch'il tuo nome hà già portato</l>
+            <l>Dà l'Istro al Gange, havrà sepolcro al fine,</l>
+            <l>Con le tue glorie, in picciolo Steccato:</l>
+            <l>E se diadema d'or ti cinge il crine,</l>
+            <l>Corona il sangue mio serie d'Eroi,</l>
+            <l>E di stato real largo confine:</l>
+            <l>Giusto non è ch'i miei Vasalli, e i tuoi</l>
+            <l>Provin più lunga martial tempesta,</l>
+            <l>Fine a gl’eccidij omai diasi trà noi.</l>
+            <l>La vendetta me chiama, a me sol resta,</l>
+            <l>E cader dee; s'al Ciel giustitia piace,</l>
+            <l>Su l’essecranda tua superba testa:</l>
+            <l>Ultrice sia questa mia destra audace</l>
+            <l>Di tanti oltraggi: e ‘l sangue tuo nocente</l>
+            <l>Porterà al Padre estinto, e requie; e pace:</l>
+            <l>Le tue Vittorie alfin col viver spente</l>
+            <l>Spiegheranno trà l'ombre d'Acheronte:</l>
+            <l>Vesillo lagrimevole, e dolente;</l>
+            <l>Mà che più con la penna io corro a l’onte</l>
+            <l>E con l'armi de’ vili, ò Re t’offendo?</l>
+            <l>Per parlar teco in breve a fronte, a fronte:</l>
+            <l>Col ferro in man, la tua risposta attendo.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Minaccie generose: il Ciel secondi:</l>
+            <l>Con auspici benigni il vostro ardire,</l>
+            <l>Io perà tremo, e temo, e troppo credo</l>
+            <l>Questo pensier precipitoso:</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Ed’io</l>
+            <l>So che quanto improviso in mente scende</l>
+            <l>E linguaggio del Ciel, ch'al Cor favella,</l>
+            <l>Ne puote errar già mai, chi i suoi consigli</l>
+            <l>Da la Celeste providenza attende.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Porta nobil natale</l>
+            <l>Generoso valor ne Cori humani,</l>
+            <l>Ch’in lor cor sangue vi trasfonde il Cielo.</l>
+            <l>Timor codardo, e vile</l>
+            <l>Col suo pavido gelo,</l>
+            <l>Non che da regie culle,</l>
+            <l>Hà dà fasce patritie eterno essiglio:</l>
+            <l>S'apre tenero ciglio</l>
+            <l>Real fanciullo al pianto</l>
+            <l>Trà quelle lagrimuccie anco si vede,</l>
+            <l>Come tall’hor pur tra la pioggia il Sole,</l>
+            <l>D'anima grande alta presagio severo:</l>
+            <l>Vagir sapeva appena</l>
+            <l>D ' Alcmena il figlio, e del gran Re de’ Dei,</l>
+            <l>Ch’a quegl'orridi serpi</l>
+            <l>Sol in virtù di pargoletta tano</l>
+            <l>Fè lor squarciando, vomitar dal seno</l>
+            <l>Cò la vita, e col sangue atro veleno.</l>
+            <l>Cresce il valor co’gl’anni</l>
+            <l>Fin che fervido bolle il sesto lustro,</l>
+            <l>Ne s'estingue giamai</l>
+            <l>Per vento di sventura,</l>
+            <l>Ne per gelido humor d'età matura.</l>
+            <l>Quel magnanimo ardir che teco nasce</l>
+            <l>Pur che costume reo pria non l'occida</l>
+            <l>Vive mentre tú vivi</l>
+            <l>s'hebbe al natal communi, e culla, e fasce</l>
+            <l>Con non diversa sorte</l>
+            <l>Feretro; e tomba insieme</l>
+            <l>Havrà ne la tua morte:</l>
+            <l>Son de la terra i figli</l>
+            <l>Per naturale istinto</l>
+            <l>Privi di pregio tal, dì si gran vanto;</l>
+            <l>Che mal puote vil sangue</l>
+            <l>Avezzo a ignobil arti,</l>
+            <l>Che facile dispera, e pronto teme</l>
+            <l>Brama nudrir di generosa speme.</l>
+            <l>Quindi il Garzon magnanimo precorre</l>
+            <l>Gl'anni immaturi, e crede</l>
+            <l>Far di più ferma età prove stupende;</l>
+            <l>Così forte d'ardire</l>
+            <l>Dal gran lignággio invitto,</l>
+            <l>Con stimoli natij,</l>
+            <l>Rodoaldo gentil tù non travij:</l>
+            <l>Mà che? Ben che vil nato</l>
+            <l>Chi con degno sudore</l>
+            <l>Compra virtù, di si bel fregio s'orna,</l>
+            <l>Ch'ella è del sangue al fin pregio maggiore.</l>
+          </sp>
+          <trailer>Il Fine del Secondo Atto.</trailer>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO TERZO</head>
+        <div type="scene">
+          <head>SCENA PRIMA.</head>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>DE regi alberghi i limiti Superbi;</l>
+            <l>Oh come raro, oh come mai non calca:</l>
+            <l>Fede pura, e sincera; ove fregiate</l>
+            <l>Di ricco insieme; e peregrin lavoro,</l>
+            <l>Sovra cardini d’or stridon le porte,</l>
+            <l>D'accostarsi paventa il Vero ignudo.</l>
+            <l>Quivi vegghian l’Insidie, e quindi a prova:</l>
+            <l>Scoccan letal saette onde piagato</l>
+            <l>Cade quel Cor che discoperto appare;</l>
+            <l>Mà chi và ben di frodi il seno armato</l>
+            <l>Temer non può d'invidiose offese;</l>
+            <l>oh d'infelice secolo protervo,</l>
+            <l>Abominabil uso; abuso insano,</l>
+            <l>Che perduti i più rari, egregi fregi,</l>
+            <l>Fecondasti d'inganni il Cor humano:</l>
+            <l>Fede candida fè, fède Divina,</l>
+            <l>Sì cara un tempo; e riverita al Mondo,</l>
+            <l>Santo Nume: immortale al Ciel poggiasti,</l>
+            <l>Ed a raggion che violate; e rotte</l>
+            <l>Le tue leggi, i tuoi riti, ohime mirasti:</l>
+            <l>Il Diadema real tolse al tuo crine</l>
+            <l>Temerario desto, superbo ardire,</l>
+            <l>Spogliotti il Collo, impoveriti il seno</l>
+            <l>Voglia avara, di gemme, e di monile;</l>
+            <l>Squarciò tua bianca stola impuro affetto,</l>
+            <l>Onde lacera al fin mendica, e vile:</l>
+            <l>Ti fe d'età corotta ebro diletto,</l>
+            <l>Ma chi creduto havria, ch'in regio Core</l>
+            <l>si nudrisser le frodi? In nobil mente</l>
+            <l>Covasse il tradimento? E ch'Agilmondo</l>
+            <l>Cosi degno guerrier, Prence si saggio</l>
+            <l>Ordito havesse al fin si grave eccesso?</l>
+            <l>Scriver al Rè nemico, e finger poscia</l>
+            <l>Quando mira scoperti i suoi disegni</l>
+            <l>Di voler con inganno assicurarlo</l>
+            <l>Ne la Città per farne strage? È troppo</l>
+            <l>avveduta Romilda, in breve io spero</l>
+            <l>Cò l'arte de miei modi, in carcer chiuso</l>
+            <l>Suo prigionier vederti, error non parmi</l>
+            <l>Franger la fede a chi la fede hà rotta.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SECONDA.</head>
+          <stage>Romilda. Irene.</stage>
+          <sp who="#romilda">
+            <speaker>ROMILDA</speaker>
+            <l>Quest'è del Re mio bene il foglio d'oro</l>
+            <l>Che vergò quella man ch'il cor mi regge</l>
+            <l>Che quell'alma detto ch'io tanto adoro,</l>
+            <l>Che quel ciglio mirò che mi dà legge.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>E che dice egli? Acetta il vostro amore?</l>
+            <l>Gemma si pretiosa, ardor si degno</l>
+            <l>Sol sprezzar può quel Cor, che non hà core:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Vuol l'amor, e le nozze, e sol lo turba</l>
+            <l>Fanciullesca disfida, impeto vano</l>
+            <l>Di Rodoaldo, cui farò ben io</l>
+            <l>Tosto pentir del temerario ardire;</l>
+            <l>In un punto medesmo il foglio mio</l>
+            <l>E la di lui querela in man gl’è giunta,</l>
+            <l>Mà ben fè che l'Araldo in carcer tenne</l>
+            <l>E ‘l mio nuntio rimesse:</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>accorto aviso</l>
+            <l>Il perder tempo, e ‘l fabricarsi ogn'hora</l>
+            <l>Nuovi dubbi, e timori, è d'alma vile</l>
+            <l>Costume indegno:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>io già rimessi indietro</l>
+            <l>Per lo stesso fedele i segni, e ‘l nome:</l>
+            <l>Al mio bel Ré Carcanno, onde pur spero,</l>
+            <l>Tanto l'impresa agevole li rendo,</l>
+            <l>Che pria c'hoggi la notte il Sol c’inuoli</l>
+            <l>Sarà ne la Cittade, ed io sua sposa.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>O fortunato giorno, sposa degna</l>
+            <l>Di quante fabricar seppe fortuna</l>
+            <l>Corone, e scettri, a vostra destra, e chiome;</l>
+            <l>Al magnanimo vostro alto valore.</l>
+            <l>Non mancava di regio altro ch’il nome.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Sol d’Agilmodo io temo.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Il Secretario</l>
+            <l>Havrà conforme al desir vostro oprato;</l>
+            <l>Spero ch'il Ciel co' gl’astri suoi più chiari</l>
+            <l>Concorrerà benigno al fin bramato.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Fabro è' ciascun di sue fortune, e ‘l cielo</l>
+            <l>Nulla puote colà, dove comanda</l>
+            <l>Libertà di volere.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>eccolo appunto</l>
+            <l>Ch'annelante, e turbato esce di Corte.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA TERZA.</head>
+          <stage>Secretario. Romilda. Irene.</stage>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>EGli in carcere è chiuso, io sì ben seppi</l>
+            <l>condurlo al varco, et ei semplice tanto</l>
+            <l>Fù, ch'agevol l'impresa hebbe l'effetto:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Come si tosto; o mio fedele oprasti</l>
+            <l>Cosa al giusto si degna, a me si cara?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Celerità del Ciel, ch'appunto arride</l>
+            <l>A la giustitia, e i tradimenti abborre:</l>
+            <l>Voltomi appena a ricercarlo, a l'uscio</l>
+            <l>Del giardin lo trovai, quindi con arte</l>
+            <l>D'opportuno discorso in corte il trassi,</l>
+            <l>Per il varco secreto, e quivi giunto</l>
+            <l>Schiera d'arcieri a cenni miei disposta;</l>
+            <l>L'arrestò.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>che diss'egli.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>in suon turbato</l>
+            <l>Cosi snodò la lingua, e che mai feci</l>
+            <l>Ch’infami lacci a meritar m’astringa!</l>
+            <l>ah Romilda, Romilda, io ben conosco</l>
+            <l>Come sotto il mio mal coprir presumi</l>
+            <l>I scelerati tuoi pensieri impuri;</l>
+            <l>Signor, io dissi allhor, ponete freno</l>
+            <l>Al'ingiurie, Romilda è Donna Illustre:</l>
+            <l>D'honestade non men che di natali,</l>
+            <l>Innocente son io, soggiunse, e figlio</l>
+            <l>Del Rè de ‘longobardi, e tanto basti,</l>
+            <l>Io nulla poscia a replicar m'accinsi,</l>
+            <l>Così condotto in questa Torre in vano</l>
+            <l>Potrà tentar l'uscita.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>ottimo il tutto,</l>
+            <l>Ne senza premio il tuo servir vedrai.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QVARTA.</head>
+          <stage>Laufredo. Romilda. Irene.</stage>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>ECCola appunto, em'hà veduto ond’io</l>
+            <l>Schivar non posso l’odioso aspetto,</l>
+            <l>E mal grado del Cor, pur mi conviene</l>
+            <l>Mentir sul labro mio senso, ed affetto.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Opportuno venisti; al Re Carcanno</l>
+            <l>Sposa son fatta, e ‘n breve ei sia qui dentro</l>
+            <l>A stringer gl’Immenei</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Signora ah troppo</l>
+            <l>Strano desire, inordinata voglia.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Altro consiglio in ciò non chiedo, o curo.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ma pur non deggio il mio parer tacervi.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Tratto è già l’dado, il più parlar non giova,</l>
+            <l>Folle affatto sarei se più volessi</l>
+            <l>Nudrir con hoste si possente, e fiero</l>
+            <l>Dura; immortale, e perigliosa guerra.</l>
+            <l>Grandezze a i figli, a la Città salute,</l>
+            <l>E pace a tutti apporteran mie nozze.</l>
+            <l>Agilmondo che solo a' pensier miei</l>
+            <l>Havrebbe contrastato, è in carcer chiuso,</l>
+            <l>Il Re già in ponto sia, perch'ei non trovi</l>
+            <l>Incontro alcun che la mia fede offenda</l>
+            <l>In virtù di quest’ordine comanda,</l>
+            <l>Ch'à lui s'aprin le Porte; è tu fedele</l>
+            <l>Quivi l'accogli, e riverente in Corte</l>
+            <l>Guidalo ov'io l'attendo, e non contenda</l>
+            <l>Tuo zel col voler mio.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>già che m'è tolto</l>
+            <l>D'aprirvi i sensi miei humil, e chino</l>
+            <l>D'ubbidirvi, e servirvi havrò sol cura.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUINTA.</head>
+          <stage>Rodoaldo; Laufredo.</stage>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>SE quel desio, che l'aspettar fa lunga</l>
+            <l>Parer ogni dimora, hove ogni punto,</l>
+            <l>Mè non inganna, esser dovrebbe omai</l>
+            <l>Ritornato l'Araldo, e pur nol veggio;</l>
+            <l>Mà dove move il Consiglier guàrdigno;</l>
+            <l>Sotto torbido ciglio il piè sospeso</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Dhe qui volgete i vostri rai felici</l>
+            <l>Astri del Ciel benigni, e luminosi,</l>
+            <l>E sian fallaci del mio Cor gl'auspici.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Anzi sian sempre à tuoi pensier fecondi</l>
+            <l>Le stelle, e ‘l Cielo.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>oh Rodoaldo, oh figlio</l>
+            <l>Vado io ministro ad opra tal ch’il Core</l>
+            <l>Ischiva e teme e pur non sà la fonte</l>
+            <l>D'onde derivi di sua tema il fiume.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>E ch'opra è questa, ch'el tuo Cor si abbore.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Pronubo involuntario io son, di nozze</l>
+            <l>Al mio volere, al mio parer difformi,</l>
+            <l>E Romilda del Bavaro già sposa,</l>
+            <l>Questa città, l'intero stato è dote</l>
+            <l>Di tal connubio.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>oh Dei, lasso, e che sento?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Il ver tu senti, e lunge esser non puote</l>
+            <l>Il Re per far l'entrata, ed ella intanto,</l>
+            <l>Lieta s’adorna al novo sposo.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>ed io.</l>
+            <l>Hor che far deggio oh Dio? Fugir non voglio</l>
+            <l>riverirlo non posso, e dunque in tale</l>
+            <l>Stato son queste nozze (ah nozze indegne)</l>
+            <l>Ch'impedir non si ponno?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>è vana ogn’opra</l>
+            <l>Troppo è Romilda affascinata, e cieca:</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Si resista con l'armi al traditore</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Impossibil impresa, il nome, e i segni</l>
+            <l>Hà in mano, e move armato il campo intero</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Canginsi i segni, e ‘l nome, e chiami a l'armi.</l>
+            <l>Tromba guerriera ogni soldato intorno</l>
+            <l>A le mura.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>E che prò se non hà capo</l>
+            <l>Che lo regga, e comandi?</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Dove si trova</l>
+            <l>Agilmondo feroce:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>è in carcer chiuso</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>E qual n'è la cagion?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Perch'ei no possa</l>
+            <l>Far resistenza, ò novità co l'armi.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Io girò dunque ad impedir l'entrata</l>
+            <l>Al fellon traditore, io per il seno</l>
+            <l>Passar li vuò con questo ferro il Core:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Inesperto garzon pon freno à l’ire,</l>
+            <l>Ch'il contrastar co’ fati è gran periglio:</l>
+            <l>Inchina il Re con lieto volto, ascondi</l>
+            <l>Nel più profondo del tuo sen lo sdegno,</l>
+            <l>Che chi nocer non puote è troppo folle</l>
+            <l>Se l'odio altrui palesa, ove non vale</l>
+            <l>Oprar l'ingiurie, è d'anima sagace</l>
+            <l>Compor lodi, e preghiere, e non disdegna</l>
+            <l>Cor regio, il simular dove il bisogno:</l>
+            <l>Il chieda anch'io la lingua havrà dal Core</l>
+            <l>Molto diversa</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>ed io non sia che mai</l>
+            <l>Possa tradir del Cor sincero i sensi.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>S'eguale a l'alma generosa, havesse</l>
+            <l>Il giovinetto esperienza, e vaglia,</l>
+            <l>oh noi felici, o fortunata Patria,</l>
+            <l>Mà che piu tardo? Io vado, e forse il cielo,</l>
+            <l>Chi sà? Con queste nozze à noi prepara</l>
+            <l>Inaspettato ben, ne sempre avviene</l>
+            <l>Ciò che pavida mente, al pensier pinge.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>VIver à proprio senso in regio tetto,</l>
+            <l>Ove il comando à Monarchia si stende,</l>
+            <l>E d'improvido Cor torbido affetto,</l>
+            <l>che nulla i riti del servire intende,</l>
+            <l>Fin gl'ingiusti desir di quel che regge</l>
+            <l>Denno à chi serve haver titol di legge,</l>
+            <l>Piede in Corte non porti un Cor che sia</l>
+            <l>Inetto à simular ciò ch'ei non crede,</l>
+            <l>Contradir al suo Prence, è gran follia:</l>
+            <l>Che quivi è più fedel chi non hà fede,</l>
+            <l>Fuggan soglia real pur quelle piante</l>
+            <l>Che non sanno mentir lingua, e sembiante,</l>
+            <l>Così franeticando il vulgo insegna,</l>
+            <l>E segue il suo parer turba infelice,</l>
+            <l>Mà troppo à nobil alma è nota indegna</l>
+            <l>Quello al labro far dir, ch'il Cor non dice,</l>
+            <l>Fomento è sol di cosi fatti errori</l>
+            <l>Quella mente ch'anhela ombre di honori:</l>
+            <l>Portisi il vero in semplici parole,</l>
+            <l>E ‘n puro affetto al suo Signor si scopra,</l>
+            <l>Risolva ei poi ciò che gli aggrada, e vuole,</l>
+            <l>Ch'al’hor non lece al servo altro che l’opra,</l>
+            <l>Laufredo hà detto, hor chino il crin di neve</l>
+            <l>Và con raggione ad ubbidir chi deve.</l>
+          </sp>
+          <trailer>Il fine dell’Atto Terzo.</trailer>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO QUARTO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <stage>Choro: Agilmondo dalle Carceri.</stage>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Qui, come io penso, à le grandezze, al fasto</l>
+            <l>De le nove allegrezze ebro Immeneo</l>
+            <l>Aprirà il varco, e in libertà de' sensi</l>
+            <l>Lascierà i regi Sposi, in questo loco</l>
+            <l>Compariran svelati i primi affetti</l>
+            <l>Ch’ignudo appar, se dentro à un Mar di gioia</l>
+            <l>Nuota gravido un Cor, d'alti diletti,</l>
+            <l>Qui dunque il piè fermiam; Cortese cielo</l>
+            <l>Mentre l'altere destre unisce il fato</l>
+            <l>Fà che benigno ogni altro in te risplenda</l>
+            <l>Perche tergendo i nostri antichi pianti</l>
+            <l>Con pace eterna, eterno ben ci renda.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Fosse qui intorno almen cortese amico</l>
+            <l>Ch'a favellar m'udisse ond’io potessi</l>
+            <l>Contezza haver qual novità comove</l>
+            <l>Questa Città con strepitosi applausi.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Sento voce che chiede esser odita;</l>
+            <l>Benche confusa d'altra parte scenda.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Evvi appunto chi parla, amico dimmi,</l>
+            <l>S'il ciel benigno i tuoi pensier secondi</l>
+            <l>E qual novella di tal moto è degna?</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>E d’Agilmondo il favellar: Signore</l>
+            <l>Novella non sò dir se lieta, ò rea</l>
+            <l>Romilda al Rè nemico hor hor consegna</l>
+            <l>La Cittade, e se stessa?</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>e la cagione?</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Perche stringersi qui pria ch'il sol cada</l>
+            <l>con nodo marital seco hà promesso</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>E narri il vero?</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>è troppo vero</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Ò vana</l>
+            <l>Femina disleal; folle ch'io fui,</l>
+            <l>Ingannaste me pria, poscia tradisti</l>
+            <l>La mia candida fede, hor con qual legge</l>
+            <l>Prezzo è l'odio d'amor, de le tue Nozze</l>
+            <l>Pronubo il sangue di Gisolfo essangue?</l>
+            <l>Voglia avara di regno, amor nefando;</l>
+            <l>Cadrà cadrà dà le tue tempie infami</l>
+            <l>Trà le cieche ombre di misfatti indegni</l>
+            <l>Rapito serto, il Ciel lungo non soffre</l>
+            <l>Che cinga un Cor ferrigno aureo diadema:</l>
+            <l>Mà che prò s'il mio capo in carcer tetro</l>
+            <l>Di vil man troncherà ferro homicida;</l>
+            <l>Al nò quindi uscir voglio, e pria ch'io resti</l>
+            <l>Senz'alma; à molti l'alma involar spero;</l>
+            <l>Cari amici, s'aita un huom tradito</l>
+            <l>(che mi tradì perche temea mia fede</l>
+            <l>Troppo ferma, e fedel Romilda ingrata)</l>
+            <l>Merta, epietade, ad un di voi non sia</l>
+            <l>Grave, di girmi a ritrovar Rambaldo,</l>
+            <l>Questi è colui ch’incanuti trà l'armi</l>
+            <l>Del Rè mio Padre, e qui mia scorta venne,</l>
+            <l>Dicale dove io son, ch'in questo calle</l>
+            <l>Ch'è qui dietro remoto udir potrammi,</l>
+            <l>Tanto diemmi di sorte il Ciel, ch'aperto</l>
+            <l>Con arte il sotteraneo oscuro speco</l>
+            <l>Pervenni a questo varco:</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>affè tradito</l>
+            <l>Fù per sua troppa fè Prence si degno:</l>
+            <l>Signor gran pietà sento, io per me voglio</l>
+            <l>Posposta ogn'altra brama, il vostro servo</l>
+            <l>Gir hor hor a trovar celere, e cheto.</l>
+          </sp>
+          <sp who="#agilmondo">
+            <speaker>AGILMONDO.</speaker>
+            <l>Ed io se sia che quindi il più ritragga</l>
+            <l>Havrò di tal pietà degna memoria:</l>
+            <l>Odo trombe vicine:</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>il Rè sen' viene.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SECONDA</head>
+          <stage>Carcano. Laufredo. Gromoaldo. Aio. Schiera d'Armati.</stage>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Città ben degna di regal diadema,</l>
+            <l>che fastosa grandezza intorno spira</l>
+            <l>L'ampie Strade, i Palagi, e i Tempi augusti</l>
+            <l>Ben la rendono illustre, e peregrina.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Nulla à Prencipi suoi fù maggior cura</l>
+            <l>Che di renderla altera, e farla degna</l>
+            <l>Sede del sangue lor nobile, e chiaro,</l>
+            <l>Mà con novelli, e più felici auspici</l>
+            <l>Sire attende dà voi più lieta sorte:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Havrà dà la mia man gratie profuse,</l>
+            <l>E dà quella d'Astrea bilancie eguali,</l>
+            <l>Fondasi su l'amor de i Cor vasalli,</l>
+            <l>Non sul vigor dell'empietadi il Regno.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Di generoso Re, saggio pensiero;</l>
+            <l>Non dei tesor le ricche auree miniere,</l>
+            <l>Non degl’invitti esserciti le spade,</l>
+            <l>Son presidij de i Regni, è la clemenza</l>
+            <l>Vallo ch’inespugnabil gl’assecura.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Ne questa sempre esercitar si dee:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Alma che senza questa altrui da legge</l>
+            <l>E' bersaglio de gl’odi.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E chi paventa</l>
+            <l>L'odio, regnar non sà, tal’hor del Regno,</l>
+            <l>Fido custode è più ch'amor, la tema:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>La tema si, mà quella sol, ch'insegna</l>
+            <l>Il Ciel che spesso tuona, e raro scocca</l>
+            <l>Fulmini:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>è non curata, e vilipesa</l>
+            <l>La voce che minaccia, e mai non fere:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Il colpo almeno esser dee tal, ch'il capo</l>
+            <l>Percosso, o ‘l sen ferito humile, e pio</l>
+            <l>Quella man che lo fè lodi, ed inchini.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Piagato Cor, come inchinar può mai</l>
+            <l>Chi lo ferì, se detestar pur suole</l>
+            <l>Ogni nocente l’innocenza offesa?</l>
+            <l>Nel Prence è ciò ch'ei vuol legge, ed impero</l>
+            <l>s'altri ciò nega estinguer tenta il raggio,</l>
+            <l>Ch’in regio Ciel sua Maestà disvela,</l>
+            <l>Mà dove è la mia sposa, ove m'aspetta?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Tardar non può già molto, Amor dà l'ali,</l>
+            <l>E giunge al volo i stimoli de’ strali.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Se tal d'ingegno provido, ed altero</l>
+            <l>E qual ne fogli suoi teste la scorsi,</l>
+            <l>Havrà del mio voler libero dono</l>
+            <l>De lo scettro, e del regno.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ò sire io chiamo</l>
+            <l>Del vero in testimon la terra, e ‘l Cielo</l>
+            <l>In terra non fù mai, non copri il Cielo</l>
+            <l>Donna c’havesse nò più regio ingegno:</l>
+            <l>Ecco il suo figlio Gromoaldo, ancora</l>
+            <l>Bambin tenero si, ma però tale,</l>
+            <l>Che col saver l'età precorre, e vince,</l>
+            <l>Mirate hor come à riverirvi intento</l>
+            <l>Tutto sen vien vezzoso, humile, e lieto?</l>
+          </sp>
+          <sp who="#gromoaldo">
+            <speaker>GROMOALDO.</speaker>
+            <l>Sure, la madre mia ratto mi manda</l>
+            <l>Ad inchinarvi, ed à portar devoto</l>
+            <l>Gl’ossequi miei, al tuo real cospetto,</l>
+            <l>Eccomi, e sempre ubbidiente à i cenni</l>
+            <l>Del ciglio invitto, havrò tutti i miei sensi:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Ed io qual figlio di ricevo, ò come</l>
+            <l>La grandezza del sangue in fronte ha scritta</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Tosto sia qui Romilda, ella ha voluto</l>
+            <l>Che precorra il suo piè, pegno si caro.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Eccola appunto, che veloce, e lieta</l>
+            <l>Del Palagio Ducal scende la soglia</l>
+            <l>Regina vera.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>andianne ad incontrarla</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA TERZA.</head>
+          <stage>Romilda. Carcanno. Laufredo. Irene. Gromoaldo. Aio. Secretario.</stage>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>QUesta è Sire colei, che già vi diede</l>
+            <l>Sol in virtù d'amor se stessa in dono,</l>
+            <l>Hor humile, e devota ecco v’inchina;</l>
+            <l>E d'Immeneo ne’ sacri lucci avvinta</l>
+            <l>L'alma in voto vi porge, e quanto hà v'offre;</l>
+            <l>Quel Magnanimo Cor per cui v'aggrada</l>
+            <l>Ch'io vostra sposa, di regal corona</l>
+            <l>Cinga le tempie, adempirà ben anco</l>
+            <l>Ciò che di regio manca hoggi a Romilda:</l>
+            <l>La Clamide, lo scettro, il solio, e ‘l nome</l>
+            <l>Ch’io ricevo dà voi, Signor, non sia</l>
+            <l>Che mi cancelli mai, quel che d'ancella</l>
+            <l>Titolo in sen mi scrisse Amor, e ‘l Cielo.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Per mia sposa v'accetto alta Signora</l>
+            <l>Che di mille corone i vostri pregi</l>
+            <l>Vi fan degna Reina, al Tempio, al Foro</l>
+            <l>Per gl’Immenei promessi, eccomi pronto,</l>
+            <l>Tanto vuol la mia fede, io così voglio</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>O d'imperar ben cento, e mille Mondi</l>
+            <l>Degno Signor, che si benigno il Nume</l>
+            <l>De la fè riverisci:</l>
+          </sp>
+          <sp who="#irene">
+            <speaker>IRENE.</speaker>
+            <l>Ò come insieme</l>
+            <l>Con alta providenza unisce il Cielo</l>
+            <l>A generosi Cori, alme si degne</l>
+            <l>Dal cui scettro ben può questa cittade</l>
+            <l>Sperar secolo d'oro.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>entro al Palagio</l>
+            <l>Vieta la legge di portar le piante</l>
+            <l>Se pria non sia del Maggior Tempio all'Ara</l>
+            <l>Di Giove, il nodo marital ben stretto:</l>
+            <l>Gir dunque ivi si dee, prima ch’in Cielo</l>
+            <l>Giunga la Luna, e spuntino le stelle:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Tanto si facci:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>andiam Signor má pria</l>
+            <l>Due grazie io chieggio al generoso Core.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Nulla si neghi à chi del tutto è Donna.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Che si perdoni il fanciullesco ardire</l>
+            <l>Al temerario figlio, à Rodoaldo</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>L'età lo scusa, et io perdon gli dono.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Di si lieta novella esser io voglio</l>
+            <l>Nuntio felice, e portator primiero.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Di queste mura il giovane Agilmondo</l>
+            <l>Del Longobardo Rè figlio ben degno,</l>
+            <l>Cortese venne à la diffesa, e fido</l>
+            <l>Per me sempre pugnò, mà perche in lui</l>
+            <l>Scorsi sensi contrari à miei dissegni</l>
+            <l>Temendola virtù de la sua destra</l>
+            <l>Mio prigionier l'hò fatto, e sanno i Dei</l>
+            <l>Ch'io di tradirlo già pensier non hebbi,</l>
+            <l>Error parer può forse, altro non seppe</l>
+            <l>Dettarmi Amor, questi bram'io che sciolto</l>
+            <l>Senza che, più quel nobil Cor s'offenda</l>
+            <l>Al vecchio Padre, ed a la Patria altera,</l>
+            <l>Ricco d'augusti doni hoggi si renda:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Questo ancor vi concedo.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Ed io v'inchino</l>
+            <l>Magnanimo Signore.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>i bei Zaffiri</l>
+            <l>s'ornan di stelle omai, Cinthia ch'il dorso</l>
+            <l>Del segno opposto al Sol preme, ed imbianca</l>
+            <l>Tardar ben poco puote a tra da l'onde</l>
+            <l>I luminosi argenti, al tempio dunque</l>
+            <l>Siré, i passi affretiam pria ch'ella giunga.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUARTA.</head>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>E senza pur ch’un brando, amica destra</l>
+            <l>Del buon Prence Gisolfo, e di sua prole</l>
+            <l>Impugni, e roti i colpi almeno al vento</l>
+            <l>Passa temuto, e riverito, oh Dio?</l>
+            <l>Per queste strade il Re nemico, il crudo</l>
+            <l>Paricida Tiranno, il Rè ch'eresse</l>
+            <l>Co’ nostri arnesi insanguinati, e franti</l>
+            <l>Trofei funesti, il fiero Re, che rese</l>
+            <l>Di questa Terra addolorata, e trista</l>
+            <l>Vedovi tanti letti, orfane tante</l>
+            <l>Illustri Case, anzi vilmente i sui</l>
+            <l>Trionfi indegni, ogni uno orna, ed inchina</l>
+            <l>Con vergognosi ossequi? I Cor guerrieri</l>
+            <l>che vantavan gramigne, e campidogli</l>
+            <l>Van hor sordidi schiavi incatennati</l>
+            <l>Con desio volontario al Carro altero</l>
+            <l>De le sue glorie e da quei seni infermi</l>
+            <l>C'han le ferite ancor di sangue asperse</l>
+            <l>Ponno le voci uscir liete, e festive?</l>
+            <l>Viva Viva colui che fù Ministro</l>
+            <l>Di tante morti? Oh del’humano ingegno</l>
+            <l>Troppo infami vicende, a voi s’aspetta</l>
+            <l>A voi di queste mura amici sassi,</l>
+            <l>Già che l'humanità perduti hà i sensi</l>
+            <l>Di far contro quell'empio aspra vendetta.</l>
+            <l>Sù l'essecrando capo a mille, a mille</l>
+            <l>Ruvinando cadete; oppresso ei cada</l>
+            <l>E nel cader, de l'armi a'i colpi, i selci</l>
+            <l>Traggan ultrici, e lucide faville</l>
+            <l>Perch'ei dà quegl'incendi incennerito</l>
+            <l>sia di Parca fedel da mano esperta</l>
+            <l>Del mio tradito Padre a l'ombra afflitta</l>
+            <l>Vittima impura in sacrifitio offerta.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUINTA.</head>
+          <stage>Paggio: Rodoaldo.</stage>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>MIrin lieti le nozze occhi più scaltri,</l>
+            <l>Cori più simulati ornin la fronte</l>
+            <l>Di mentite allegrezze, adulatrici</l>
+            <l>Lingue, più de la mia, porghino in voto</l>
+            <l>A pronubo Immeneo Talarri, e doni,</l>
+            <l>Ch'io per mè senza duol veder non posso</l>
+            <l>Del mio caro Signor l'anima offesa:</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Paggio fedel cosi turbato, e mesto</l>
+            <l>D'onde vieni? Ove vai? Che teco parli?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Vengo Signor dal Tempio, a le mie case</l>
+            <l>Io vado, e meco parlo (ò calpestata</l>
+            <l>Memoria di Gisolfo, ò giorno amaro)</l>
+            <l>Dè le novelle nozze:</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>e che di loro</l>
+            <l>Porti?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>in bocca del vulgo applausi lieti,</l>
+            <l>Nel sembiante de grandi ossequi vili,</l>
+            <l>Del mio Cor ne l'interno, auspici infausti.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>E perche infausti se v'arride il Cielo?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Perche sul limitar de l'ampia Porta</l>
+            <l>Non sò come, cadeo Romilda, e quivi</l>
+            <l>Da la tumultuante, incauta turba</l>
+            <l>Poco mancò che non restasse oppressa.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Ove son hor li sposi?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>al tempio.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>e quindi</l>
+            <l>Perche partisti.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>io di mirar non hebbi</l>
+            <l>Tanto di Cor, ciò che cotanto abborro.</l>
+            <l>Pargoletto bambino in questa Corte</l>
+            <l>A servigi del Duca io fui nudrito</l>
+            <l>(Tu l’sai ch'egual età mi ti fè noto)</l>
+            <l>Qui crebbi, e meco un riverente affetto</l>
+            <l>s'avanzò verso Prencipe si egregio</l>
+            <l>Tanto, che nulla di soffrir m'è dato</l>
+            <l>Ch’a suo scorno ridondi, altri più avezzo</l>
+            <l>A vestir frodi, a simular aspetto:</l>
+            <l>Colà gioie componga, io per me voglio</l>
+            <l>Entro ai paterni alberghi, a si noiosi</l>
+            <l>Spettacoli ritormi.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>oh Core, oh fede</l>
+            <l>Quanto in tenero sen tanto più forti.</l>
+            <l>Se giovinetto servo ha spirto, e sensi</l>
+            <l>Si. Magnanimi e degni, io che son figlio</l>
+            <l>Soffrirò neghittoso il Padre estinto</l>
+            <l>Veder con novi scherni hoggi deluso?</l>
+            <l>Mirerò timoroso ad hostil destra</l>
+            <l>Quello scettro donar madre impudica</l>
+            <l>Che riserbò per questa man natura?</l>
+            <l>Vivrò mancipio vile, entro al ristretto</l>
+            <l>Di questa afflitta Patria, io che dar legge</l>
+            <l>A questa, a tante terre un dì dovea?</l>
+            <l>Figlio disheredato a chi cometti</l>
+            <l>Le tue vendette? A tuoi vasalli? Ò folle</l>
+            <l>Questi il Tiranno ad inchinar a gara</l>
+            <l>Corrono infidi, a la fortuna? Al fato?</l>
+            <l>Che prò s'entrambi congiurati han solo</l>
+            <l>Per bersaglio a lor sdegni il capo mio?</l>
+            <l>Vindice questo ferro, a l'homicida</l>
+            <l>Al ratto del mio Regno, io vuò rapire</l>
+            <l>La vita, e ‘l Regno; andrò nel Tempio, e quivi</l>
+            <l>Trà le turbe più folte isconosciuto</l>
+            <l>Mi condurò veloce, ove i legami</l>
+            <l>De l'indegno connubio ordisce Aletto,</l>
+            <l>E de l'empio Sacrilego nocente</l>
+            <l>Traffiggerò ben mille volte il petto.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Periglioso consiglio, armata schiera</l>
+            <l>cha gl’occhi d'argo, è di quel Re Custode.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Vicino a i Sacri altari alcun non teme</l>
+            <l>Offesa, o Scorno.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>E tua salvezza a l'hora</l>
+            <l>Qual scampo havrebbe?</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>a l'anima paterna</l>
+            <l>Godrei tra ‘l sangue in holocausto darmi.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>s'affetti han l'ombre, la vendetta in loro</l>
+            <l>Cede al desio, c'han d'eternar la prole.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>lo morrei quivi almen pago, e contento</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Troppo caro il piacer de la vendetta</l>
+            <l>Comprasi co ‘la vita: a più sicuri</l>
+            <l>Pensieri inchina l'anima superba,</l>
+            <l>Vien meco a le mie case, ivi sedati</l>
+            <l>I tumulti de l’ire havrà la mente</l>
+            <l>Occhia limpido e chiaro a sceglier atto</l>
+            <l>Ciò che seguir, ciò che fuggir dovrai</l>
+            <l>Lo sdegno in Cor turbato è cieco duce</l>
+            <l>Che l’alma incauta al precipitio adduce.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Precipitio maggior temer non puote</l>
+            <l>Entro a mille infortuni alma smarita,</l>
+            <l>Perduto il Genitor, la Madre, il Regno</l>
+            <l>A che degg'io più custodir la vita?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Signor frena per hora i moti alteri,</l>
+            <l>Del magnanimo Cor, vi è più maturo</l>
+            <l>Consiglio hà d'huopo si gravosa impresa,</l>
+            <l>Vedi ch'escon del Tempio, e ver la Porta</l>
+            <l>Che colà presso del Palagio affretta</l>
+            <l>La real pompa, a le mie case vieni</l>
+            <l>Mecò, colà sedati i sensi havremo</l>
+            <l>Agio dà divisare opra si grande.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>DI là dove trà nubi, e tra procelle</l>
+            <l>Va minacciando fulmini, e tempeste,</l>
+            <l>S’agita Borea, e imperversante Arturo</l>
+            <l>Va minacciando fulmini, e tempeste,</l>
+            <l>Con piante afflitte, e meste</l>
+            <l>Timido vulgo imbelle</l>
+            <l>Fugge per ritrovar Ciel più securo</l>
+            <l>Che chi per Sangue, ò per virtù non cinge</l>
+            <l>Il crin di verdi allori</l>
+            <l>Paventa infin d’un lampo i brevi ardori.</l>
+            <l>s'entro al vasto ocean Febo s'immerge.</l>
+            <l>Oscuro velo ammanta il mondo intorno</l>
+            <l>E nel silentio ogni animal s'asconde,</l>
+            <l>Ma quando fuor da l’onde,</l>
+            <l>Del Gange il volto terge</l>
+            <l>E dona i suoi splendori al nuovo giorno</l>
+            <l>Lucida veste l’universo spiega,</l>
+            <l>Ogni anima vivente,</l>
+            <l>De l’ombre a scorno, e ride, e parla, e sente.</l>
+            <l>Sol del Pianeta che misura l'hore</l>
+            <l>A l’estremo spirar festeggia il Cielo,</l>
+            <l>E mille lampe a le sue pompe accende:</l>
+            <l>Così grato egli rende</l>
+            <l>Per unico splendore</l>
+            <l>Centuplicati raggi al Dio di Delo:</l>
+            <l>Di la sa l'alba in van gl’ossequi attende,</l>
+            <l>Ch’a le virtudi ignote</l>
+            <l>Non dan gl'honori mai l'eccelse Rote.</l>
+            <l>Quindi solo quel Cor, che da le sfere</l>
+            <l>Prende gl’essempi, il sol cadente honora,</l>
+            <l>E più la Tomba che la Culla inchina:</l>
+            <l>Chi col vulgo camina,</l>
+            <l>E ‘n pregio ha sue chimere,</l>
+            <l>Il sol nascente in oriente adora,</l>
+            <l>Ma rari immitatori il Ciel ritrova</l>
+            <l>Perche terrena mole</l>
+            <l>Scender, fuggendo il Cielo al centro suole,</l>
+            <l>Del buon Gisolfo il ruvinoso Regno</l>
+            <l>Sol un garzon non teme,</l>
+            <l>Del novo Impero il fondamento indegno</l>
+            <l>A mille invitti Heroi gl’omeri preme.</l>
+          </sp>
+          <trailer>Il fine del Quarto Atto.</trailer>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO QUINTO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>BEn che le stanche membra al sonno alletti</l>
+            <l>Dolce riposo, e lusingando il ciglio</l>
+            <l>Silentio amico a cheto oblio l'inviti;</l>
+            <l>Pur se grave pensier con dubbie piante</l>
+            <l>Và la mente calcando, in van presume</l>
+            <l>Possa trovar col fianco il Cor vegghiante.</l>
+            <l>Cotanto in me s'impresse il novo caso</l>
+            <l>De l’improvise nozze, e tanto affanno</l>
+            <l>Hebbi di non trovar quantunque io gissi</l>
+            <l>Rodoaldo cercando in ogni parte,</l>
+            <l>Ch'indarno m'han le piume il sonno offerto,</l>
+            <l>Così senza posare, hò tutta notte</l>
+            <l>Ad una, ad una annoverate l'hore,</l>
+            <l>Quindi de l'alba impatiente omai</l>
+            <l>Lasciato ho ‘l letto, ed a cercar di nuovo</l>
+            <l>L'orme di lui m'accingo affin ch'ei' vegna</l>
+            <l>A riverire il Re, che gli concesse</l>
+            <l>Perdon benigno, e come figlio il brama.</l>
+            <l>oh Ciel che grato la pieta secondi</l>
+            <l>Fa ch'io ritrovi almen per mia ventura</l>
+            <l>Chi novella me ‘n dia, perch'ei non fugga</l>
+            <l>Con disperato Cor da queste mura.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SECONDA.</head>
+          <stage>Paggio. Aio.</stage>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Timoroso pensiero in van m'assali,</l>
+            <l>Ch’io vuò servire il mio Signor, ne sia,</l>
+            <l>Che mi ritardi il piede ombra di mali:</l>
+            <l>Mà che saria s'in questa dubbia luce</l>
+            <l>Che trà il giorno, e la notte i lumi inganna</l>
+            <l>A questi panni, io fossi ohimè creduto</l>
+            <l>Rodoaldo?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Io non sò s'odo, ò pur parmi</l>
+            <l>Udir di Rodoaldo il nome, io veggio</l>
+            <l>Almeno un che furtivo il passo move.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Per queste strade alcuno anco non s'ode,</l>
+            <l>Forse è più lungi il di, di quel ch'io tenni.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Ben che l'aria sia bruna, il portamento</l>
+            <l>E di nota persona.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>ò Ciel chi sia</l>
+            <l>Questi che intorno mi s'aggira, e tanto</l>
+            <l>Fiso mi mira?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Io giurerei ch'è quegli</l>
+            <l>Ch'io vò cercando.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Io son perduto, oh Dio</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Fallir non credo.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Io fuggirei mà troppo</l>
+            <l>M'è vicino costui, mi giungerebbe.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>E pùr da mè s'invola: ò là chi sei?</l>
+            <l>Io cerco Rodoaldo, altro non chieggio</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>E questo e ‘l male, ohimè che far degg'io?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>À che teco sossurri, e ‘l pie ritiri?</l>
+            <l>O là fermati dico:</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Ecco mi fermo.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Quest'è del mio Signor l'habito, e l'armi</l>
+            <l>Onde l'hà tù rapite?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Aio voi sete?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>O sei tù Paggio? Ed a che vai con questi</l>
+            <l>Panni a quest'hora? E dove è Rodoaldo?</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Lasciate ch'io respiri: a le mie case</l>
+            <l>Iersera appena io lo condussi, e quivi</l>
+            <l>Giunto, stende sul letto il fianco afflitto</l>
+            <l>E senza prender posa a l’ire, a l’onte</l>
+            <l>Scioglie contro la Madre, e contro il Rege</l>
+            <l>La lingua ardita, e l’uno, e l'altra vuole</l>
+            <l>Svenar nel letto, io lo consolo, et egli</l>
+            <l>Maledisce il destin, minaccia il Cielo</l>
+            <l>Stanco s'avvede al fin che le sue voci</l>
+            <l>Son del furor che dentro al sen li serve</l>
+            <l>Franetici desiri, ombre di sogni.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Così nulla risolve.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Ei pur risolve,</l>
+            <l>Già che scorge impossibile a suoi sensi</l>
+            <l>Il successo che brama, a maggior huopo</l>
+            <l>Serbar la vita, e con la fuga al fine</l>
+            <l>Prepararsi lo scampo, e perche meglio</l>
+            <l>Agevolato venga il suo dissegno</l>
+            <l>Vestito m'ha de le sue spoglie, ond’io</l>
+            <l>Frà quest'ombre dubbiose in Corte sia</l>
+            <l>Pria che si desti il Re per lui tenuto</l>
+            <l>Ond'ei co’ le mie vesti intanto possa</l>
+            <l>Uscir dà la Città senza ritegno:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Mà timoroso molto il pie movevi.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Corraggioso oltre modo a questa impresa</l>
+            <l>M'accinsi si, mà tosto alfin m'avidi</l>
+            <l>Quanto sia disugual l'ardir del Core</l>
+            <l>Nel lontano periglio, e nel presente:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Ed io del tuo timor san ben m'accorsi</l>
+            <l>Ch’ardij di soverchierti, or si dia bando</l>
+            <l>Ad ogni tema, e rasserena il ciglio,</l>
+            <l>Con regia fede il Rè perdon concede</l>
+            <l>A Rodoaldo, e vuol che seco in Corte</l>
+            <l>Viva dà figlio.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>o lieta nuova andiamo</l>
+            <l>Pria ch'egli fugga:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>andiam già che si desta</l>
+            <l>Il novo giorno, e deste anco le genti</l>
+            <l>s'odon dentro al Palagio, e ragion vuole</l>
+            <l>Che pria ch'il Rè si veda, entro a le stanze,</l>
+            <l>Sia Rodoaldo a riverirlo.</l>
+          </sp>
+          <sp who="#paggio">
+            <speaker>PAGGIO.</speaker>
+            <l>Andiamo.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA TERZA.</head>
+          <stage>Secretario. Choro.</stage>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>OH miserando eccesso, oh caso degno</l>
+            <l>Di lagrime di Sangue, afflitta Patria</l>
+            <l>Infelice Romilda, ohime ch'io sento</l>
+            <l>Rapirmi per la doglia il Cor dal seno.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Oh Dio che sia? Compagni udite il suono</l>
+            <l>D'un che dolente dal Palagio scende.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Dhe perche non fui cieco, e sordo insieme</l>
+            <l>Per non veder, per non udir si strana</l>
+            <l>Crudeltade essecranda: O Ciel che fai</l>
+            <l>Che non fulmini l'empio? Ò terra e puoi</l>
+            <l>Sostener sul tuo suol mostro sì fero?</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>E qual rechi novella ond'habbia il Core</l>
+            <l>Cagion di tanto duol, di tanto affanno?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Di Tirranno homicida empia sentenza.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>E che sentenza è questa?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Io dir nol posso.</l>
+            <l>Vinto dà l'agonia del Cor Spirante.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Frena per breve spatio il duol che t'ange,</l>
+            <l>E dinne la cagion ch'è gran ristoro:</l>
+            <l>Haver compagni al pianto:</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Al primo albore,</l>
+            <l>Che testè s'è veduto in Oriente</l>
+            <l>Uscito è ‘l Rè dal Talamo, e con voce</l>
+            <l>Carca d'ira, e di rabbia, ha detto a quelli,</l>
+            <l>Ch'eran quivi custodi, armati arcieri</l>
+            <l>Ite a Romilda, e di sue membra infami</l>
+            <l>Fatene il vostro pro.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>prodigo troppo:</l>
+            <l>Del proprio honor, di si pregiata gemma.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Non è mia moglie, con qual Donna impura</l>
+            <l>Seco son io giacciuto, hor paghi il fio</l>
+            <l>De' suoi misfatti; e sian traffitti i figli:</l>
+            <l>Io son rimasto a queste voci estinto</l>
+            <l>Io che vago di nove ivi sedea:</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>E chan fatto quei barbari inhumani?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Non tantosto hanno udito il lor Signore,</l>
+            <l>Che come veltri, a cui catena un tempo</l>
+            <l>Tolse la libertà, s'avvien ch'a vista</l>
+            <l>Di sera fuor di Selva, altri li sciolga</l>
+            <l>Corron tutti rabbiosi a lacerarla,</l>
+            <l>Così corser quegl’empi al regio letto;</l>
+            <l>Ella che già vestiti havea gran parte</l>
+            <l>De suoi serici arnesi, esce veloce</l>
+            <l>Fuor de le piume, e in un balen rapisce</l>
+            <l>Dal fianco d'un di lor ferro inimico,</l>
+            <l>E con voce magnanima, non sia</l>
+            <l>Dice chi tenti impuramente queste</l>
+            <l>Membra toccar, se pur provar non vuole</l>
+            <l>Quanto sappia schermir cor disperato</l>
+            <l>Quanto sappia ferir Donna tradita:</l>
+            <l>Meraviglia d'aspetto alto, e reale</l>
+            <l>Ch’entro a gl’obbrobi ancor gl’ossequi impone</l>
+            <l>Riverente timore a queste voci</l>
+            <l>De felloni il furor frena repente:</l>
+            <l>Io vecchio, solo, e disarmato, aita</l>
+            <l>Nulla dar posso, onde partir disegno</l>
+            <l>Di Corte, e ratto l'alte scale io scendo</l>
+            <l>Si per non far questi cadenti lumi</l>
+            <l>Spettatori infelici al fatto indegno</l>
+            <l>Come per ritrovar, se vorrà ‘l Cielo</l>
+            <l>Rodoaldo meschin, perche la fuga</l>
+            <l>Lo serbi a la vendetta, a Morte il neghi.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Nutre innimico rio trà le dolcezze</l>
+            <l>Di finto aspetto, atro velen nel Core</l>
+            <l>E raro odio immortale ancide Amore;</l>
+            <l>Mal cauto è chi del hoste, antico, ò novo.</l>
+            <l>Fidasi, e crede a le parole, al volto</l>
+            <l>Che l'arte di tradire han quegl'aspetti</l>
+            <l>Che più sanno mentir voci, et affetti.</l>
+            <l>oh troppo a scorni tuoi semplice, ò troppo</l>
+            <l>Cieca Romilda, ohimè compagni udite</l>
+            <l>Lamentevoli voci, e strepitoso</l>
+            <l>Rimbombo d’armi; et ecco il Ré, sentiamo</l>
+            <l>Ciò ch'egli dica, oh Dei pietà, salute.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUARTA.</head>
+          <stage>Carcanno. Schiera d'armati.</stage>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>ALcun non sia sì temerario, e vile</l>
+            <l>Ch’osi di prevertir gl’ordini miei,</l>
+            <l>Ch’abbia pietà di sesso, etade, ò sorte:</l>
+            <l>La Città diasi al sacco, e sian le prede</l>
+            <l>Secondo i gradi e la virtù divise,</l>
+            <l>Sol del Palagio le più ricche Spoglie</l>
+            <l>Serbisi al regio fisco, e se pregiato,</l>
+            <l>E pellegrino arredo entro si trovi,</l>
+            <l>Portisi al mio cospetto, indi gl'incendi</l>
+            <l>Desti fiamma vorace in questi tetti,</l>
+            <l>Diasi bando al perdon, co' l'innimico</l>
+            <l>Chi vuol esser pietoso, è dise stesso</l>
+            <l>Empio homicida:</l>
+          </sp>
+          <sp who="#schiera_armati">
+            <speaker>SCHIERA D'ARMATI.</speaker>
+            <l>essequirassi il tutto</l>
+            <l>Io girò ratto, e ‘n in un fedele e pronto</l>
+            <l>Sarò del voler Regio e nuntio, e tromba.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUINTA.</head>
+          <stage>Aio. Rodoaldo. Carcanno.</stage>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Vien pur lieto Signor, che di Rè figlio,</l>
+            <l>già veggio a le tue chiome illustre serto</l>
+            <l>Tesser col fato, la fortuna industre</l>
+            <l>Felicissimo incontro, il Rege è questi,</l>
+            <l>Ch’è qui fuor del Palagio, a lui t'inchina.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Serenissimo Sire, il cui valore,</l>
+            <l>Conta la fama assai minor del vero,</l>
+            <l>A le cui glorie inchinasi l'Honore,</l>
+            <l>Al cui gran nome angusto e ‘l mondo intero,</l>
+            <l>Per le cui regie tempie affinan gl’ori,</l>
+            <l>Fabri de’ vostri applausi, i fati, e ‘l cielo,</l>
+            <l>Anch'io vi riverisco, anch'io v'adoro,</l>
+            <l>E de passati giovanili errori</l>
+            <l>Mercè vi chieggio, io Rodoaldo sono</l>
+            <l>Vostro servo fedele, non dirò figlio</l>
+            <l>Che di gran lunga eccede il merto mio</l>
+            <l>Titol si eccelso:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>O temerario, ò folle</l>
+            <l>Disdegna alma real, quei finti inchini</l>
+            <l>Che malgrado del Cor, porta la tema.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Da vera riverenza il moto ha ‘l labro</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Anzi neccessità la lingua snoda:</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Libero Cor necessità non stringe.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Qual sogni libertà se ligio sei?</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>L'esser vostro cattivo è gloria, e pregio,</l>
+            <l>Hor trà gl'ossequi miei pietà vi chieggio,</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Bugiardo ossequio la pietà non desta</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Dhe Sacra Maestà, per la salute</l>
+            <l>Di vostra regia testa, io giuro al Cielo</l>
+            <l>Che volontario affetto a voi l'hà Spinto.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Come l'odio si presto in amor cangia</l>
+            <l>Hieri in campo sfidommi, hoggi m’inchina?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Hier vi sfidò come imimico, hor quale</l>
+            <l>Suo Signor, e suo Padre, hoggi v’inchina.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Che Padre, che Signore? Acerbo, e duro</l>
+            <l>Mi proverà nemico:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>ah dunque ò Sire</l>
+            <l>Contaminar potrà sì di repente</l>
+            <l>Alma invitta real la data fede?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Nulla promisi.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>e di sua vita pure</l>
+            <l>Intercessor fù de la madre il priego!</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>L'error passato io perdonai, mà nulla</l>
+            <l>Del futuro promisi:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>e che comesso</l>
+            <l>Hà doppo il primo error, che pietà neghi?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Sol basta a farlo reo, che condennata</l>
+            <l>Hò la Madre a la morte, e la Cittade</l>
+            <l>A le rapine, al foco.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>oh dei che sento?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Dhe Magnanimo Re, prode guerriero,</l>
+            <l>Perdona a l'innocente, è questo seno,</l>
+            <l>Tenero ancor, de la tua destra invitta</l>
+            <l>Troppo indegno bersaglio, il suo valore</l>
+            <l>Si serbi ad atterrar moli superbe,</l>
+            <l>A l'immatura età perdona, al merto</l>
+            <l>Supplice volto, e nel mio petto immerga,</l>
+            <l>se brama sangue il ferro hostil, tuo sdegno.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Uccider nonsi dee chi non è reo</l>
+            <l>D'alcun delitto</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Hor sol per questo io fui</l>
+            <l>Degno di morte, e Rodoaldo a torto</l>
+            <l>Privar vuoi tù di vita:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>e come?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>io</l>
+            <l>Consiglier, dettator de la disfida.</l>
+          </sp>
+          <sp who="#rodoaldo">
+            <speaker>RODOALDO.</speaker>
+            <l>Anzi contro sua voglia, io sol di quella</l>
+            <l>Fui meco stesso, e consigliero, e fabro.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Pietà, pietà d'entrambi alto Signore,</l>
+            <l>E se pur dee cader, cada si, questa</l>
+            <l>Canuta testa il fulmine, e si salvi</l>
+            <l>Trà i lauri di tue gratie il biondo crine</l>
+            <l>Del giovinetto incauto, ò Cielo, ò Dei.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Frena vecchio importuno il pianto, e i prieghi</l>
+            <l>Che nè questi, ne quello han nel mio seno</l>
+            <l>Forza dà cangiar voglia, ò là guerrieri</l>
+            <l>s'impedisca la fuga a Rodoaldo,</l>
+            <l>Libero vada ovunque vuol costui.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Anch'io vuò morir seco, io che sol fui</l>
+            <l>Cagion de la sua morte, oh Dio che veggio?</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SESTA.</head>
+          <stage>Romilda. Carcanno. Schiera d'armati. Rodoaldo.</stage>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Signor, che con tal nome io vuò chiamarti</l>
+            <l>Pur, fin che formerà su questo labro</l>
+            <l>Tremula voce l'anima cadente,</l>
+            <l>Signor mio caro, ohime, qual furia infausta</l>
+            <l>Ti contamina il sen? Qual fallo indegno</l>
+            <l>Di mè tua serva, e moglie al Cor sospinge</l>
+            <l>Ira cosi letale, odio sì fiero</l>
+            <l>Che di repente i dolci amplessi, e cari</l>
+            <l>De l'amate tua braccia in lacci infami</l>
+            <l>Vegg’io cangiati?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>e chi di voi condotta</l>
+            <l>M'ha qui costei per conturbarmi il Core?</l>
+           </sp>
+           <sp who="#schiera_armati">
+            <speaker>SCH. D'AR.</speaker>
+            <l>I suoi prieghi, e scongiuri e la salvezza</l>
+            <l>De la tua regia testa, ella per questa</l>
+            <l>Chiedendoci tal grazia, era delitto</l>
+            <l>D'offesa Maestade il dennegarla.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Turbasi dunque il Cor? Quel Cor che pure</l>
+            <l>Il mio volto giurò suo Paradiso?</l>
+            <l>Turbasi, oh Dio, quel Cor ch’Idolo solo</l>
+            <l>Di quest'alma devota hebbe dà lei</l>
+            <l>Incensi di sospir, voti d'affetti?</l>
+            <l>Turbasi mentre vede a piedi tuoi</l>
+            <l>Supplice, e lagrimosa, ohimè, colei</l>
+            <l>ch'esser dovea del Trono a te consorte?</l>
+            <l>Ne pon le stille mie, ne pon gl'affanni</l>
+            <l>Lieve pietà mercar, non che conforto?</l>
+            <l>Sfortunato dolor, pianto infecondo.</l>
+            <l>Quell'affetto d'amor, ch'al mio simile,</l>
+            <l>Nacque, se pur fù ver nel tuo bel seno</l>
+            <l>Qual fascino infedele entro la culla</l>
+            <l>Bambino appena nato in fasce ancide?</l>
+            <l>Qual vento rio d'ingrata voglia hà secche</l>
+            <l>L'incaute mie speranze, e come, e quale</l>
+            <l>Torbida nube gravida di nembi</l>
+            <l>Versa sul capo mio pioggia di sdegni?</l>
+            <l>Pietà, Sire pietà, per quei bei lumi</l>
+            <l>Che mi rapiro il Cor, per quel bel Volto</l>
+            <l>Ch'idolatrar mi fece il tuo sembiante,</l>
+            <l>Errai, s'errore il troppo amar può dirsi,</l>
+            <l>D'altro fallo il mio Cor non è nocente</l>
+            <l>Mà pena è d'odio, e non d'amor lo sdegno.</l>
+            <l>Se quanto prode hai generosa l’alma,</l>
+            <l>L'ira precipitosa un poco affrena,</l>
+            <l>Che tempo havrai ben si, di darmi morte;</l>
+            <l>Ecco Romilda è tua, fuggir non puote,</l>
+            <l>Ne fuggir vuol ben che potesse ancora,</l>
+            <l>Pur s'il fin di mia vita etti si caro</l>
+            <l>Sù traffiggi a tua voglia il petto inerme,</l>
+            <l>Mà vedi, ohimè, ch'uccidi un'innocente,</l>
+            <l>che dai morte ad un Cor che per tè spire,</l>
+            <l>Che tor tenti la vita, a chi ti diede</l>
+            <l>Ciò ch'a sè diede la fortuna, e ‘l Cielo.</l>
+            <l>se stimolo d'amor nulla ti punge,</l>
+            <l>Se tenerezza di pietà non t'ange</l>
+            <l>Ponga a lo sdegno almen debile freno</l>
+            <l>Legge d'animo grato, è Rege quegli</l>
+            <l>Che Virtù Regie nutre, e non chi cinge</l>
+            <l>D'aureo Diadema il capo, ah sposo amato</l>
+            <l>Sul freddo labro mio, l'alma smarrita</l>
+            <l>Grida, pietà, pietà, salute, e vita.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>S’avessi Cor da feminile affetto;</l>
+            <l>Ed alma men che regia, al certo havrei</l>
+            <l>Mercè de preghi tuoi, pietà del pianto;</l>
+            <l>Sdegna petto real sensi di duolo,</l>
+            <l>Mente viril non cura occhio stillante,</l>
+            <l>Fermo pensier, mobil sospir non scuote:</l>
+            <l>Già tratto è ‘l dado, ogni ragion m'impone</l>
+            <l>Mà più quella, ch'al Prencipe dà legge,</l>
+            <l>Che tu muoia co’ figli, e la Cittade</l>
+            <l>Esca sia de le fiamme.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>O ria sentenza</l>
+            <l>Ragion senza ragione, e troncar puote</l>
+            <l>Con sacrilega lingua, empio volere,</l>
+            <l>Quel sacro laccio onde Immeneo n'avvinse?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Rito straniero il mio voler non strinse.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Dunque io non son tua moglie, e tù mio sposo?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Nò, ch'è tra noi religion diversa:</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Ingannasti tù dunque i nostri Dei,</l>
+            <l>Il tempio profanasti, e su gl’altari</l>
+            <l>Mè tradisti infedele? Oh Ciel che sento?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Anzi tù sei che profanando il letto</l>
+            <l>De l’estinto Gisolfo hai lui tradito,</l>
+            <l>Ingannata la Patria, i figli, e ‘l regno.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Morte disciolse ogni ragion che meco</l>
+            <l>Hebbe Gisolfo.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E morte ancor sia quella</l>
+            <l>Che troncherà qual sia ragion trà noi.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>E perche morir deggio?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>hor parti poco</l>
+            <l>Il tradimento tuo? Piacquimi ei certo,</l>
+            <l>Mà non tù ch'il tramasti, e quella fede</l>
+            <l>Ch'altrui spezzasti indegnamente infida,</l>
+            <l>Creder degg’io ch’intatta a me si serbi?</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>O mare, ò terra, ò Ciel schernito, ò stelle,</l>
+            <l>Udite empio pensier, strana menzogna,</l>
+            <l>Questo esecrando barbarò inhumano</l>
+            <l>Per dar titolo giusto ai falli sui</l>
+            <l>Quella fè di cui l'ombra anco non resta</l>
+            <l>Mi rimprovera, e come io sola sia</l>
+            <l>Traditrice, ei giustissimo, e fedele</l>
+            <l>La propria infedeltà scusa, e ricopre.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Tosto havran fin con la malvagia lingua</l>
+            <l>Gl’oltraggi, e l'onte, or si conceda ch'ella</l>
+            <l>Faccia l'estremo di sua possa.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Io dunque</l>
+            <l>Traditrice infedele? E che mai feci?</l>
+            <l>T'offrij gl’Immenei miei, ti diei con essi</l>
+            <l>La Città, ch'è pur mia, perdono, e pace</l>
+            <l>Chiesi, e l’ottenni a i figli, hor come, hor dove</l>
+            <l>Udissi ma, che donna il cui consorte</l>
+            <l>Spense già ‘l fato, a le seconde nozze</l>
+            <l>Senza nota d'infamia andar non possa?</l>
+            <l>Forse con scherzi indegni il ciglio impuro</l>
+            <l>A piaceri interdetti allettò ‘l Core?</l>
+            <l>Forse furtivamente ov’io giacea</l>
+            <l>Notturno amante, infame man ti trasse?</l>
+            <l>Con qual legge io ti diè me stessa, e ‘l regno</l>
+            <l>Lo vidde il popol tutto, il Cielo intero,</l>
+            <l>Il Ciel che tanto a fulminar provochi:</l>
+            <l>Lasciai, ben troppo è ver, tropp'oltre, ahi lassa</l>
+            <l>Da gl'amorosi stimoli portarmi,</l>
+            <l>Mà credei di trovar Rege benigno</l>
+            <l>Non Tiranno inhumano, amante fido</l>
+            <l>Non perfido inimico; error d'amore</l>
+            <l>Scusa petto viril, non ch'alma inferma,</l>
+            <l>Di non giurasti tù d'esser mio sposo?</l>
+            <l>Non promettesti perdonar a i figli?</l>
+            <l>Cosi dunque la fede hoggi mantieni?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Da l'inimico in van la fè s'attende.</l>
+            <l>Mà pur tè non sposai: perdon non diedi</l>
+            <l>Ad ambi i figli? Hor vuol cagion novella</l>
+            <l>Che teco i figli, e tutto il resto pera.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>oh sacrilego barbaro crudele</l>
+            <l>O mie frali speranze in culla uccise;</l>
+            <l>O beltà vano fregio, o voi che tanto</l>
+            <l>Questo don di natura havete in pregio</l>
+            <l>Imparate, imparate a non fidarvi</l>
+            <l>Sù privilegi suoi, che piè superbo</l>
+            <l>Calpesta i fiori, ond'ella adorna i volti.</l>
+            <l>Morir dunque degg’io, meco i miei figli</l>
+            <l>Saranno ucccisi? Ò figli, ò patria cara,</l>
+            <l>Empio Tiranno indegno, il Ciel che giusto</l>
+            <l>Punisce i rei sarà vindice mio</l>
+            <l>I suoi fulmini imploro.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Hor più non voglio</l>
+            <l>Udir tue frenesie; gl’ordini miei</l>
+            <l>Eseguite ministri, Ebra dal duolo</l>
+            <l>vaneggia.</l>
+          </sp>
+          <sp who="#romilda">
+            <speaker>ROMILDA.</speaker>
+            <l>Ebro di sangue in breve, in breve</l>
+            <l>Vaneggierai tù traditore infame.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SETTIMA.</head>
+          <stage>Laufredo. Carcanno.</stage>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Tempo non è di più fuggir la morte;</l>
+            <l>Troppo, lasso, viss'io, cosi la culla</l>
+            <l>Ne primi rai del viver mio feretro</l>
+            <l>Fossimi stata, e ‘l sen materno, tomba:</l>
+            <l>oh bianche chiome, ò crespe guancie, il fato</l>
+            <l>A che v'hà riserbate, a veder l'empio</l>
+            <l>Eccidio di Romilda, e de’ suoi figli.</l>
+            <l>O sfortunata Donna io pur tel dissi</l>
+            <l>Mà non m'udisti d'intelletto priva;</l>
+            <l>Chi per le strade lubriche del senso</l>
+            <l>Un cieco hà per sua guida, e meraviglia</l>
+            <l>Grande per Dio, s'il precipitio schiva.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Vecchio di che ti lagni? In van si duole</l>
+            <l>Del destino colui che gli fa forza</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Di mè stesso mi dolgo, e del soverchio</l>
+            <l>Amor per cui fui cieco, e pronto troppo</l>
+            <l>A compiacer Romilda, onde la mia</l>
+            <l>Indulgente pietà l’hà qui condutta.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Anzi la propria infedeltà.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ciò lascio</l>
+            <l>Al giudicio del mondo, ei saprà bene</l>
+            <l>Veder (mà con che prò Donna infelice)</l>
+            <l>A chi conuenga d'infedele il nome,</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>L'opre dei Re non son soggette al vulgo.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>A la destra del vulgo è ver, mà sono</l>
+            <l>Beni soggette a la lingua.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>è che può mai</l>
+            <l>Dar, ò torre ad un Rè lingua vulgare?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Al di lui nome infamia, ò gloria eterna.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Suono che lieve ambitione appaga.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Altro dopo la morte al fin non resta</l>
+            <l>Che la memoria altrui lodi, ò condanni.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Dopo mia morte co' la terra il Cielo</l>
+            <l>Confondasi per me.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Pensier che nutre</l>
+            <l>Sol Tirranica mente.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>horsù non voglio</l>
+            <l>Teco garrir ch'il duolo, e che l'etade</l>
+            <l>Tratto t'hà fuor di tè, partiti omai.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>O Sire habbi pietà di questa mia</l>
+            <l>Breve, infelice, e miserabil vita</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Non sarà chi t'offenda.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>anzi bram'io</l>
+            <l>Trovar chi mi dia morte, acciò non tocchi</l>
+            <l>L'infausto ufficio a questa man tremante</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Guarda come vaneggi.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Anzi direi</l>
+            <l>Di vanneggiar se più viver bramassi.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA OTTAVA.</head>
+          <stage>Schiera d'armati. Carcanno. Laufredo.</stage>
+          <sp who="#schiera_armati">
+            <speaker>SCHIERA D'ARMATI.</speaker>
+            <l>SIgnor trovato habbiamo entro a riposta</l>
+            <l>stanza di Corte, questo vago, e ricco</l>
+            <l>Scrigno.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>ben è superbo, e di lavora</l>
+            <l>Nobile, et peregrino; hor dimmi vecchio</l>
+            <l>Che vi tenea Romilda?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>in questo appunto</l>
+            <l>Serbava ella le gemme a lei più care.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Vediamle adunque, e de la chiave in vece</l>
+            <l>Serva il ferro: O bellissimo monile;</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Pretioso ornamento; ella con questo</l>
+            <l>Gl’ori del biondo crin smaltar solea:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Finissimo diamante.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>i suoi splendori</l>
+            <l>Accrescean candidezza a quella mano.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>O smisurate perle:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Erano questi</l>
+            <l>Nobil incarco a quelle belle orecchie.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E di quest'altre margherite ellette?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>s’ornava il vago suo candido collo.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Queste si ricche gemme insieme accolte?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Le risplendean sul petto emule al sole.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>O vaga, ò nobil fascia? Ella è fregiata</l>
+            <l>Di caratteri Dani, oh Dio che peggio?</l>
+            <l>Che strana benda è questa?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ah non Signore</l>
+            <l>Altro non ricercate, ohime ch'il Core</l>
+            <l>Palpita in seno, e ‘l favellar mi nega.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Sembra appunto il mio cinto: hor su non tardi</l>
+            <l>Tenero affetto a discoprir il vero:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Sappiate, ohime, che l'infelice Donna</l>
+            <l>Nacque di sangue regio, e di Canute</l>
+            <l>celebre Rè de Dani, ella fù figlia.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Figlia del Rè de Dani? E come in moglie</l>
+            <l>Venne a Gisolfo?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>il tutto a dir son pronto:</l>
+            <l>Saran sei lustri omai, ch'il gran Cuntone</l>
+            <l>Rè di Bertagna, il Danio regno ottene;</l>
+            <l>Quel giorno infausto ch'ei Rochildia prese,</l>
+            <l>Era in Corte io meschino, en’ cura havea</l>
+            <l>Romilda in fasce ancor che la nudria</l>
+            <l>Dalida mia Consorte, all'improviso</l>
+            <l>Fragor de l'armi in sen la stringo, e fuori</l>
+            <l>Del Palagio real, de la Cittade</l>
+            <l>Dà porta a me sol cognita, et aperta</l>
+            <l>Con la compagna mia fuggo, e m'ascondo</l>
+            <l>Fin che giunga la notte, in cavo albergo</l>
+            <l>All'apparir di Cinthia i passi io volgo:</l>
+            <l>Verso il lido del Mar per calle angusto</l>
+            <l>Sperando a scoglio assai riposto, et ermo</l>
+            <l>Picciol legno trovar, ch'esser solea:</l>
+            <l>Tall'hor, de le mie cure alto sollevo</l>
+            <l>Mentre per sollazzar la stanca mente</l>
+            <l>Ivo atender infidie al muto armento:</l>
+            <l>Ma non guari passò, che squadra armata</l>
+            <l>Ci assale, e prende, io ch'altro far non posso</l>
+            <l>Spendo preghiere, e Dalida sospira,</l>
+            <l>Giovinetto d'aspetto almo, e reale</l>
+            <l>Mi consola; e saper brama chi sia</l>
+            <l>Di sì pregiate spoglie il parto ornato;</l>
+            <l>Io che morte temea s'havessi il vero</l>
+            <l>Scoperto, disi, è figlia d'un Signore</l>
+            <l>Che col nostro Rè cadde, egli rispose</l>
+            <l>Stà di buon core, e tosto ad un scudiero:</l>
+            <l>Ci diede in cura, et con gran pietade</l>
+            <l>Ci condusse a l'albergo, e die ristoro</l>
+            <l>Mà qual ristoro, ohimè, prender potei</l>
+            <l>In si fiera sventura; e dilungato</l>
+            <l>Il cortese garzon, subito io spoglio</l>
+            <l>Di così ricca benda il nobil parto</l>
+            <l>E nel mio sen l'ascondo, era periglio</l>
+            <l>Troppo certo di morte, il reggio arnese.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E chi fù ‘l Cavalier così benigno?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Di Rodoaldo il vecchio Duca, e Sire</l>
+            <l>Di questa Patria, Ferdinando il figlio.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E come era colà?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Paggio ala Carte</l>
+            <l>Di quel gran Re nudrito, il suo Signore</l>
+            <l>Guereggiando seguia.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Contami il resto</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ucciso il Re, vinto quel Regno il nostro</l>
+            <l>Prence, al Padre tornar volle, e noi seco</l>
+            <l>Condure, ove repente infausto fato</l>
+            <l>Dopo breve languor morte le diede,</l>
+            <l>Mà pria ch'egli spirasse, al genitore</l>
+            <l>Raccomandò quell'innocente preda:</l>
+            <l>il vecchio affatto senza prole, e senza</l>
+            <l>Speme di successor, questa s'ellesse,</l>
+            <l>Come del figlio suo, figlia ella fosse;</l>
+            <l>De suoi stati al Domino, e giunta appena</l>
+            <l>Al terzo lustro, e bella, e saggia, in moglie</l>
+            <l>A Gisolfo la diede, e fur sua dote</l>
+            <l>Questo stato, le gemme, e le ricchezze:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>chi fu questo Gisolfo, e di qual sangue</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Privato Cavalier, mà del lignaggio</l>
+            <l>Di Rodoaldo.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E che di questi avvenne?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Morissi in breve, e quindi i sposi heredi</l>
+            <l>Visser di doppia prole assai felici</l>
+            <l>Finche voi Sire a funestar venisti</l>
+            <l>I lor sereni giorni:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Hebbe altra prole</l>
+            <l>Il Re de Dani?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Un figlio sol che nacque</l>
+            <l>Con Romilda in un parto.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E che di lui</l>
+            <l>Accadde?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Io non sò dirvi egli bambino</l>
+            <l>Era nudrito in Corte, e di lui cura</l>
+            <l>Teheva un vecchio Eunuco Anchise detto</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Come hebbe nome?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Enrico.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E la lor Madre?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Gaudelia?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Ella che fece in quel conflittto?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Era già morta in partorir quei figli.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Colei che d’anni carca, è di Romilda</l>
+            <l>Serva e nudrice, è tua consorte adunque?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>No Signor che la mia giunse a l'occaso</l>
+            <l>In pochi mesi, e questa a lei sucesse.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>che dicon queste noti, ed a qual fine</l>
+            <l>Fur qui dipinte in questa fascia?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>il nome</l>
+            <l>Narran di lei, che la sua Madre stessa</l>
+            <l>Per quei gemelli suoi parti fecondi</l>
+            <l>Pinse con ago industre, antica usanza</l>
+            <l>Di quei Re?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>mà che nome?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Il nome appunto</l>
+            <l>Di Renea.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Se Renea perche Romilda?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Il vecchio Duca a suo conforto elesse</l>
+            <l>De l’estinta Consorte il nome imporle.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Seppe ella mai da te d'esser di sangue</l>
+            <l>Regio?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Si ma non altri.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E non cercaste</l>
+            <l>Nulla mai del suo Frate?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>E come? E quando</l>
+            <l>Se sotto scettro hostile il regno cadde?</l>
+            <l>S'il palesarsi altrui, consiglio fora</l>
+            <l>Pur troppo periglioso, assai stimai</l>
+            <l>Di peregrina, e schiava haver Romilda</l>
+            <l>Fatta di sì gran stato alta Signora.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Dà l'utero materno; ella portossi</l>
+            <l>Alcun notabil segno?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Un grano appunto</l>
+            <l>Di quei che chiude in sen Punico pomo</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Ed in qual parte?</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Sù quel dito ch’orna</l>
+            <l>De la sinistra man circolo d'oro;</l>
+            <l>E simil segno quel bambin che seco</l>
+            <l>Nacque, nel luogo stesso havea:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Che sento?</l>
+            <l>Non più, troppo son certo, ò là si voli</l>
+            <l>Ad impedir la morte a quella, a i figli,</l>
+            <l>Prendere il regio anello, alla cui vista</l>
+            <l>Ogni ministro ad ubbidir sia pronto,</l>
+            <l>Enrico io son, io son l'unico Frate</l>
+            <l>Di lei, ciò che di mè fè la Fortuna</l>
+            <l>E come Rè de Bavari divenni</l>
+            <l>Narrerò poscia, e mostrerotti anch'io</l>
+            <l>Fascia simil con il mio nome impresso:</l>
+            <l>Del mio natal la miseranda historia</l>
+            <l>Qual narrata tú m'hai, più volte udij</l>
+            <l>Dal vecchio Eunucho Anchise, hor mira il</l>
+            <l>segno</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>E quello stesso di Romilda, ò come</l>
+            <l>Sù le teste superbe, alte, e reali</l>
+            <l>Porta Fortuna i scherzi suoi fatali.</l>
+            <l>Mà Sire, e che si tarda? A voi s'aspetta</l>
+            <l>Di gir veloce a liberar Romilda.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Servo fedele è già precorso, ed io</l>
+            <l>Godrò di rivederla ornata, e bella</l>
+            <l>Ch’i suoi pallori di mirar abborro.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA NONA.</head>
+          <stage>Aio, Carcanno. Laufredo.</stage>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Ite poi Madri incaute a bramar figli,</l>
+            <l>Ite co' voti da celeste destra</l>
+            <l>A rapir prole, oh misera Romilda</l>
+            <l>Quanto pur meglio ad esser steril fora</l>
+            <l>ch’avanti gl’occhi propri, i propri parti</l>
+            <l>Veder svenati</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>ohimè, Romilda è forse</l>
+            <l>Morta?</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>dal ferro nò, da grave duolo</l>
+            <l>E' più che morta.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Il messaggiero adunque</l>
+            <l>Sarà per il suo scampo a tempo giunto;</l>
+            <l>Mà che porti di reo?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>narraci il tutto.</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Nulla sò dir Signor (riconosciuto</l>
+            <l>Non l’ebbi a prima vista, oh Dio son morto)</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Non temer, dì sicuro, e non paventi</l>
+            <l>Ciò che l'occhio mirò scoprir la lingua.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Parla ch’il Rè già perdonando a tutti</l>
+            <l>Viva brama Romilda, e seco i figli:</l>
+          </sp>
+          <sp who="#aio">
+            <speaker>AIO.</speaker>
+            <l>Ciò ch'io vidi dirò, se però ‘l pianto</l>
+            <l>ch'il fonte di pietà desta nel Core</l>
+            <l>Non chiuderà dele parole il varco.</l>
+            <l>Giunta Romilda a la gran piazza in mezo</l>
+            <l>Girò priam restoso il ciglio intorno</l>
+            <l>Di torbidi pensier gravido, e poscia</l>
+            <l>Disse, con voce ch’il morir non turba</l>
+            <l>O Patria amata, e cara, ò miei fedeli</l>
+            <l>Cittadini, e vassalli, eccovi il fine</l>
+            <l>Dè l'infelice mia favola breve,</l>
+            <l>Ecco dove io son giunta, ove m'ha tratto</l>
+            <l>Desio di vano ardor ben che pudico.</l>
+            <l>Sotto la regia fede, ecco tradita</l>
+            <l>E lacerata ohime la Fede mia:</l>
+            <l>Da le fiamme d'amor, di morte al rogo,</l>
+            <l>Da le nozze a le lagrime, e dal letto</l>
+            <l>Al feretro, a la tomba empia fortuna</l>
+            <l>Vuol ch'io trapassi, il mio morir non duolmi</l>
+            <l>che disperato Cordoglia non sente:</l>
+            <l>Di tè mi cale, ò popolo diletto,</l>
+            <l>Di queste mura, ohimè, che sian bersaglio</l>
+            <l>D'hostili incendi, e barbare fierezze</l>
+            <l>(Cosi quant'io pur sono schermo infelice</l>
+            <l>Di fortuna, e d'amor, tanto foss'io</l>
+            <l>Per tuo prò menzogniera, e mentitrice)</l>
+            <l>Poscia rivolta a i figli, e voi mie care.</l>
+            <l>Viscere di quest’alma, ove condotti</l>
+            <l>Siete, diss'ella, e se li strinse al seno</l>
+            <l>Oh Dio ch'io v'ho traditi, oh Dio che troppo</l>
+            <l>A me stessa credei, Padre pensai</l>
+            <l>Farvi un buon Re, non darvi un homicida;</l>
+            <l>Morir convienci o figli, hor sú moriamo,</l>
+            <l>E se morendo alcun diletto mai</l>
+            <l>Può sognarsi il pensier, quest'uno apaghi</l>
+            <l>Il misero de i cor, ch'i sangui insieme</l>
+            <l>Confonderansi, e grideran vendetta:</l>
+            <l>Hor mentre ella dicea con suon pietoso</l>
+            <l>Si flebil note, e l’uno, e l'altro a prova</l>
+            <l>piangenti fanciulli al sen stringea</l>
+            <l>Avida man del manigoldo infame</l>
+            <l>Suena repente in due sol colpi entrambi</l>
+            <l>I garzoni infelici uniti ancora</l>
+            <l>Al sen materno, e tutti tre sul suolo</l>
+            <l>Cadon lordi di sangue, essi dal ferro</l>
+            <l>Quella dal duol miseramente esangui.</l>
+            <l>Al tragico spettacolo inhumano</l>
+            <l>Alzossi un vario, e doloroso grido</l>
+            <l>Io che più non potea, volsi le piante</l>
+            <l>Tutto mesto, e piangente, e qui pur giunto</l>
+            <l>Non sò mai come io sia che m'havean tratto</l>
+            <l>il duolo, e la pietà fuor di mè stesso.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Celere ah troppo esecutore.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>in vano</l>
+            <l>Ciò ch'è già fatto di schivar si tenta,</l>
+            <l>Serbiam, Signor, la vita a lei che vive,</l>
+            <l>Ite voi stesso, il vostro aspetto solo</l>
+            <l>Risorger la potria se fosse estinta</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Andiamo:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>ecco colui che testè corse</l>
+            <l>A sospender la morte.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>udiamlo adunque</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA DECIMA.</head>
+          <stage>Messaggiero. Carcanno. Laufredo.</stage>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>OH d'alma disperata, e generosa.</l>
+            <l>Risolution magnanima, e costante.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E che porti ò fedele? A tempo andaste</l>
+            <l>Per trovar viva almen Romilda?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>andai</l>
+            <l>e viva la trovai:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>lodato il cielo</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>E i figli morti ancor?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>morti di poco</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>D'ordine nostro comandasti all'hora</l>
+            <l>che più Romilda non restasse offesa?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>tanto fei:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E ‘l carnefice che disse?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>La man pronta, sospese a la mia voce,</l>
+            <l>Poscia ala vista del reale anello,</l>
+            <l>Per riverenza si lasciò cadere</l>
+            <l>Il ferro in terra, se si ritrasse indietro;</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Respiro, almen trà tanto mal vedremo</l>
+            <l>Viva, e lieta Romilda:</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>ed ella all'hora</l>
+            <l>Che fece, e disse?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>ed ella a me' rivolta</l>
+            <l>Chi sei tù ch'importuno a l'alma trista,</l>
+            <l>Disse, dal miser carcere pretendi</l>
+            <l>Tardar l'uscita? E chi ti manda a l'empio</l>
+            <l>Ufficio? Il Re, le dico, ella sogiunge</l>
+            <l>Dunque il Barbaro vuol mè far pur scherno</l>
+            <l>Con proroga di vita a più rea morte?</l>
+            <l>Pietà malvagia, abominabil brama</l>
+            <l>Di veder prolungarsi i dolor miei,</l>
+            <l>Replico io, nò Signora, il Re desio</l>
+            <l>Hà di rendervi in un viva, e felice,</l>
+            <l>Fatta son io pur troppo, ohimè, risponde</l>
+            <l>Con i miei propri danni accorta, e chiara</l>
+            <l>De le promesse sue false, ed infide;</l>
+            <l>D'onde repente hà la pietade appresa</l>
+            <l>L'alma proterva, e che la move adopra</l>
+            <l>Di cotanta mercede ingrato? Il sangue</l>
+            <l>Dich'io; qual sangue, ella ripiglia, il sangue</l>
+            <l>De mal nati miei figli? Ei sitibondo</l>
+            <l>Troppo ne fù, non dico il mio, che tutto</l>
+            <l>E già disposto a dar l'uscita al'alma;</l>
+            <l>Poi rivolta al ministro, eccoti il petto</l>
+            <l>Ecco piagalo, io dico, ah nò Signora</l>
+            <l>Trovato ha ‘l Consiglier, ch'il Re v'è frate</l>
+            <l>Figlio del Rè de Dani, Enrico detto,</l>
+            <l>Pensierosa ristette, indi riprese</l>
+            <l>Con un grave sospir misto di sdegno;</l>
+            <l>Infelice Romilda a la tua mano</l>
+            <l>La vendetta, ed al sen che fu ricetto</l>
+            <l>D'incestuoso amor la pena tocca,</l>
+            <l>Si destra non temer, tù che vergasti</l>
+            <l>Foglio d'impure note, hor vigorosa</l>
+            <l>Cogli del mio morir mesti trionfi:</l>
+            <l>In un mover di ciglio, in un baleno</l>
+            <l>Ciò detto, il ferro che gittato in terra</l>
+            <l>Il carnefice havea, stringe, e l'immerge</l>
+            <l>Nel bianco sen profondamente, e cade,</l>
+            <l>Senza ch'io possa ritardarle il colpo,</l>
+            <l>Che pur m'accinsi a farlo, in mezo a i figli</l>
+            <l>Di se stessa homicida, essangue, e morta.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>O troppo pigro a ritener la destra</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>O caso acerbo, e duro, ò Cor superbo;</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Ed è pur morta?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>è morta, e più non spira</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>E ch'è del corpo essangue?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>Ivi è rimasto:</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Dà l'incendio, e dal sacco, ò sire almeno</l>
+            <l>Ritogli la città.</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>sia cosi fatto;</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>Mà che prò se per tutto a le rapine</l>
+            <l>Scorsi sono i soldati, e ‘n pie d'un loco</l>
+            <l>s'alza in torbidi globi avvido il foco.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Destino inevitabile, e crudele</l>
+            <l>Sì questa afflitta, e miseranda terra</l>
+            <l>Tutta dee traboccar l'ira del Cielo?</l>
+          </sp>
+          <sp who="#carcanno">
+            <speaker>CARCANNO.</speaker>
+            <l>Ed io che deggio far, chi mi consiglia?</l>
+            <l>Andrò pietoso a rintracciar quell'ossa</l>
+            <l>ch'entro a purpureo mar naufraghe erranti</l>
+            <l>Altro porto bramar non ponno al fine</l>
+            <l>Ch’un sepolcro infelice, ah nò, quel sangue</l>
+            <l>Per non vedere il suo Tiranno, a prova</l>
+            <l>Fuggirà ‘l mio cospetto, occider voglio</l>
+            <l>Mè dunque con quel ferro, ò ferro infido,</l>
+            <l>ch'uccise gl’innocenti, ah, ch’innimico</l>
+            <l>Giungerei giù trà l'ombre, e l'ombra mia</l>
+            <l>Impaurite ischiverian quell'alme;</l>
+            <l>Mà qual novello impetuoso affanno</l>
+            <l>Mi sospinge a la fuga? E qual fatale</l>
+            <l>Furor mi presta al piè le piume, e l’ale?</l>
+          </sp>
+          <sp who="#messaggiero">
+            <speaker>MESSAGGIERO.</speaker>
+            <l>Seguianlo amici fidi, affin ch'il duolo</l>
+            <l>Non apra il varco a l'anima confusa.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA UNDECIMA.</head>
+          <stage>Laufredo. Secretario.</stage>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>ED io son qui rimasto, e vivo ancora</l>
+            <l>Avanzo della morte, ed ella è fatta</l>
+            <l>Pietosa sì ch'il mio morir non cura:</l>
+            <l>O non mai più sentita, e strana sorte,</l>
+            <l>Perch'io col fin de la mia vita, pace</l>
+            <l>A gl’affanni non trovi, il Ciel nemico</l>
+            <l>Ciò ch'altri fugge, al mio desir contende.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Non ti doler che troppo è morte presso.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Giunga pur ch'aspettata ella sen viene</l>
+            <l>Nel suo venir paventa hoggi, più l'alma,</l>
+            <l>mà tù che porti, e d'onde vieni?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>al alba</l>
+            <l>Partij di Corte all'hor che l'inhumano</l>
+            <l>Bavaro, diè quella sentenza infausta</l>
+            <l>Per trovar Rodoaldo, affin ch'ei fosse</l>
+            <l>Sottrato dà la morte, e per sventura:</l>
+            <l>solo in man del carnefice lo scorsi,</l>
+            <l>Come traffitto ei con Gromoaldo,</l>
+            <l>Come la madre lor se stessa uccise</l>
+            <l>Tutto han mirato i miei lumi infelici,</l>
+            <l>Mà ridirlo dal duol non posso.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>ah troppo</l>
+            <l>m'è noto, e che si fà dà gl’innimici.</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Le più nefande, et orride rapine</l>
+            <l>ch'odiste mai, han depredati i Tempi,</l>
+            <l>Spogliati i sacri altari, i Sacerdoti</l>
+            <l>Vilipesi, et occisi, ohimè le donne</l>
+            <l>Dishonorate pria poscia traffitte,</l>
+            <l>I vecchi infermi calpestati, e tutte</l>
+            <l>Le case impoverite, e fin in culla</l>
+            <l>I pargoletti imbelli, oh Dio svenati.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Ne v'è chi lor resista, e l’armi prenda?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Ogn'un perduto, impallidito, e muto</l>
+            <l>Se non sol quanto il duol gli dà la voce</l>
+            <l>Cerca con piè furtivo il proprio scampo</l>
+            <l>S’è veduto Agelmondo ove più folto</l>
+            <l>Era lo stuol degl’inimici, il ferro</l>
+            <l>Generoso rotar con picciol squadra</l>
+            <l>Mà ciò che di lui sia, dirti non posso</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>O magnanimo Eroe, Prencipe degno</l>
+            <l>D'eterna gloria, a te dovea Romilda</l>
+            <l>far dono del suo amor; mà chi gl’aprio</l>
+            <l>Le Carceri?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>sentito hò ch'un suo servo</l>
+            <l>Con schiera di soldati hà questa notte</l>
+            <l>Uccisi i suoi custodi, e lui disciolto.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>Benche lieve al mio duol pur questo io stimo</l>
+            <l>Qualche conforto:</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>addio più qui non voglio</l>
+            <l>Teco fermarmi.</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>dove il piè rivolgi?</l>
+          </sp>
+          <sp who="#secretario">
+            <speaker>SECRETARIO.</speaker>
+            <l>Del soccorso a la porta, ivi pur spero</l>
+            <l>Tormi a la morte, ecco gl'incendi: oh Dei</l>
+          </sp>
+          <sp who="#laufredo">
+            <speaker>LAUFREDO.</speaker>
+            <l>O Friuli superba quei tuoi fasti</l>
+            <l>Saran trà poco? In poca polve ascosti:</l>
+            <l>Sol che con Illio havesti egual la sorte</l>
+            <l>Ne la cagione, e ne l'eccidio sia</l>
+            <l>L'estremo di tua gloria, oh miseranda</l>
+            <l>Memoria, ed io che faccio, a che più penso?</l>
+            <l>A che quì mi rivolgo? Oh Cielo, ò stelle</l>
+            <l>Già ch'io sono a me stesso omai sospetto</l>
+            <l>A vostri influssi il voler mio cometto.</l>
+          </sp>
+          <sp who="#choro">
+            <speaker>CHORO.</speaker>
+            <l>Ecco, lasso, da picciola scintilla</l>
+            <l>D’amoroso desio gran foco nasce,</l>
+            <l>Oh s'havesti, Romilda, ucciso in fasce</l>
+            <l>Serpe si fier, tù viva, e queste mura</l>
+            <l>Esca non foran mai d'hostile arsura:</l>
+            <l>Chi sente Amor picchiarsi al Cor, prepri</l>
+            <l>Schermo d'honeste voglie, indarno aduna</l>
+            <l>Dopò ch'egli v’ha ‘l piè, pensieri ischivi:</l>
+            <l>Hoggi dà nostri danni il mondo impari,</l>
+            <l>Come accoppiati Amore, e la fortuna</l>
+            <l>L'un Cieco, e l'altra sorda a le preghiere</l>
+            <l>Fan lor ludibrio le Provincie intiere.</l>
+          </sp>
+        </div>
+        <trailer>IL FINE.</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

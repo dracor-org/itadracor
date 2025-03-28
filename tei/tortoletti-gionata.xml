@@ -1,0 +1,3332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ita000157" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gionata</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Bartolomeo</forename>
+            <surname>Tortoletti</surname>
+          </persName>
+          <idno type="wikidata">Q30308589</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=RwxSL1eigKcC</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Tortoletti, Bartolomeo: Gionata. Macerata: Salvioni, 1624.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="abnero" sex="MALE">
+            <persName>ABNERO</persName>
+          </person>
+          <person xml:id="altro_messo" sex="MALE">
+            <persName>ALTRO MESSO</persName>
+          </person>
+          <person xml:id="capitano" sex="MALE">
+            <persName>CAPITANO</persName>
+          </person>
+          <person xml:id="achia" sex="MALE">
+            <persName>ACHIA</persName>
+          </person>
+          <person xml:id="saulle" sex="MALE">
+            <persName>SAULLE</persName>
+          </person>
+          <person xml:id="arasia" sex="FEMALE">
+            <persName>ARASIA</persName>
+          </person>
+          <personGrp xml:id="sergenti" sex="MALE">
+            <persName>SERGENTI</persName>
+          </personGrp>
+          <personGrp xml:id="esercito" sex="MALE">
+            <persName>ESERCITO</persName>
+          </personGrp>
+          <personGrp xml:id="semicoro_1" sex="MALE">
+            <persName>SEMICORO DI SOLDATI I</persName>
+          </personGrp>
+          <personGrp xml:id="semicoro_2" sex="MALE">
+            <persName>SEMICORO DI SOLDATI II</persName>
+          </personGrp>
+          <person xml:id="samuelle" sex="MALE">
+            <persName>SAMUELLE</persName>
+          </person>
+          <personGrp xml:id="coro" sex="UNKNOWN">
+            <persName>CORO</persName>
+          </personGrp>
+          <person xml:id="messo" sex="MALE">
+            <persName>MESSO</persName>
+          </person>
+          <person xml:id="gionata" sex="MALE">
+            <persName>GIONATA</persName>
+          </person>
+          <person xml:id="providenza" sex="UNKNOWN">
+            <persName>PROVIDENZA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-10-04">(LG) first encoding and formatting. Paratexts removed. Added division in scenes.</change>
+        <change when="2023-02-08"> (LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1624">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONAGGI.</head>
+        <castItem>Providenza</castItem>
+        <castItem>Saulle <roleDesc>Rè de gl'Ebrei.</roleDesc></castItem>
+        <castItem>Achia <roleDesc>Sommo Sacerdote.</roleDesc></castItem>
+        <castItem>Abnero <roleDesc>Generale dell'Esercito.</roleDesc></castItem>
+        <castItem>Messo.</castItem>
+        <castItem>Coro.</castItem>
+        <castItem>Altro Messo</castItem>
+        <castItem>Semicoro de Soldati doppio.</castItem>
+        <castItem>Gionata <roleDesc>Figlio di Saulle.</roleDesc></castItem>
+        <castItem>Arasia <roleDesc>Prencipessa Filistea.</roleDesc></castItem>
+        <castItem>Sergenti.</castItem>
+        <castItem>Capitano della guardia del Re.</castItem>
+        <castItem>Esercito.</castItem>
+        <castItem>Samuelle <roleDesc>Profeta.</roleDesc></castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>ATTO PRIMO.</head>
+        <div type="configuration">
+          <sp who="#providenza">
+            <speaker>PROVIDENZA.</speaker>
+            <l>COSi incerto, e variabil sempre</l>
+            <l>Il tenor dele cose, à cui sovrasta</l>
+            <l>Del'istabil Pianeti, il piè d'argento,</l>
+            <l>Ch'il pensier inquieto e' vie più fermo.</l>
+            <l>Qui si volge, e travolge ogni ragione,</l>
+            <l>Ogni legge, ogni stato in un momento.</l>
+            <l>E benche sembri altrui la vita humana</l>
+            <l>Stendersi lungamente, è però vero,</l>
+            <l>Che nascer', e morir, cuna, e sepolcro</l>
+            <l>s'avviluppano insieme, e sono un punto.</l>
+            <l>Quanti cadon per Dio Regni, et imperi</l>
+            <l>Quà giù da un giorno a l'altro, e non dimeno,</l>
+            <l>Quasi di cosa inusitata, e strana,</l>
+            <l>Tutto si muone à meraviglia il Mondo,</l>
+            <l>Che non s'accorge ancor, che tanto sono</l>
+            <l>Più vicini al cader, quanto maggiori.</l>
+            <l>Sorgon’altri impensati, e dove un tronco,</l>
+            <l>Come nelle Campagne, il turbo schianta,</l>
+            <l>Ne vien riposto agevolmente un'altro,</l>
+            <l>Ch’in brevissimo tempo i rami spande,</l>
+            <l>E par, che di far guerra al Ciel pretenda,</l>
+            <l>Poi precipita anch'esso al sommo giunto;</l>
+            <l>Che peggio altri sosten la propria mole</l>
+            <l>Che non fà l'altrui peso, è del’Assiria</l>
+            <l>Antepassati, e di Caldea Monarchi,</l>
+            <l>O Persi successori, ò Greci invitti,</l>
+            <l>O finalmente voi, che fulminando</l>
+            <l>Dal'arene del Tebro, e i sette Colli</l>
+            <l>A domar l'universo un di verrete</l>
+            <l>o de Secoli andati, e de’ futuri</l>
+            <l>Superbe Monarchie, che stato è il vostro</l>
+            <l>Voi vasti, e formidabili Giganti,</l>
+            <l>Contra cui par, che pur il Ciel non vaglia,</l>
+            <l>Havete ad ogni modo il piè di fango,</l>
+            <l>Sete in terra fondate, e ne la polve,</l>
+            <l>Debolissima base à la gran mole</l>
+            <l>De' vostri simolacri: un soffio d'aura</l>
+            <l>Basta à farvi cader; da le pasate</l>
+            <l>Misurate voi stelle, ò voi future.</l>
+            <l>Sottopose la Terra il gran Tonante</l>
+            <l>Al mortal da principio, e la fè serva;</l>
+            <l>Mà poi che peccò questi, e le divine</l>
+            <l>Legg'il meschin' di violar presunse,</l>
+            <l>D'essersi vendicata</l>
+            <l>A gran ragione in libertà pretende;</l>
+            <l>Però le Signorie par, che disdegni,</l>
+            <l>E scuote spesso il violento giogo.</l>
+            <l>Regni servi del caso, esca di morte,</l>
+            <l>Giuoco del Cielo; ò poveri mortali,</l>
+            <l>Altro non v'hà di stabile nel mondo,</l>
+            <l>Che l'istabilità, che mai non manca,</l>
+            <l>Mà cosa è miserabile, ch'alcuno</l>
+            <l>Ne le vicende de mondani eventi</l>
+            <l>Rechi l'arbitrio d'ogni cosa al caso,</l>
+            <l>Altri al fato l'arroghi, e sottopponga</l>
+            <l>Con ardir folle a le cagion finite</l>
+            <l>L'infinita potenza, à le Stelle</l>
+            <l>Il fattor de le Stelle; altri Fortuna</l>
+            <l>Diva si finga, e qui per tal l'adori,</l>
+            <l>Quasi Donna di tutto, e che dispensi</l>
+            <l>Da la rota volubile, incostante</l>
+            <l>A suo folle piacer corone, et auro</l>
+            <l>O miseria, ò follia, quasi che Dio</l>
+            <l>Governar l'universo</l>
+            <l>O non possa, ò non sappia, ò pur non voglia,</l>
+            <l>Ne basti à regger lui, se bastò a farlo.</l>
+            <l>Che s'in ogn'animal, ch'aura di vita</l>
+            <l>Gode, e dal sonno al nuovo Sol si desta,</l>
+            <l>Commune istinto di natura è questo,</l>
+            <l>Ch'ami i suoi figli, e li nodrisca, e guardi,</l>
+            <l>Com'esser può, che quell'amor eterno,</l>
+            <l>Che del suo dolce foco il Mondo adempie,</l>
+            <l>Non ami l'opre sue? non le governi?</l>
+            <l>Non l'inondi di gratie, e per salute</l>
+            <l>Non corregga talor popoli, e Regni</l>
+            <l>Col flagel de le guerre, e de le pesti?</l>
+            <l>E in grembo de la Terra i frutti ancida?</l>
+            <l>E quando in guisa al ben volgonle spalle,</l>
+            <l>Che non vaglion minaccie a fargli accorti,</l>
+            <l>Non piova irreparabili ruine</l>
+            <l>Sopra il lor capo, e per esempio altrui</l>
+            <l>Libero affatto il sanguinoso freno</l>
+            <l>Non lasci a l'ira sua vendicatrice?</l>
+            <l>Vedete là da le fontane eterne</l>
+            <l>De gl'abissi del Ciel piover la morte,</l>
+            <l>E con diluvio impetuoso, e vasto</l>
+            <l>Inondar I'Universo horribil nembo,</l>
+            <l>Ela Terra sleal vedova, et orba</l>
+            <l>Tutta giacer da l'Ocean absorta</l>
+            <l>Vedete alte Cittadi à Dio rubelle,</l>
+            <l>A natura nemiche; à se spietate</l>
+            <l>Cader miseramente, e sovra loro,</l>
+            <l>Contra natura sua per la vendetta</l>
+            <l>Scender il fuoco in dilatate falde,</l>
+            <l>E tosto divenir polve, e bitume,</l>
+            <l>Torri, mura, tesor, popoli, et armi.</l>
+            <l>Ne doppo molt'etati un Re proterve</l>
+            <l>Oppressor de’ fedeli à l'onde ultrici</l>
+            <l>Esser giuoco mortal nel mar vermiglio,</l>
+            <l>E dela turba Egittia, e l'haste, e i carri</l>
+            <l>Vuoti nuotar per la salata piaggia.</l>
+            <l>Non mancano gl'esempi, onde apparisca,</l>
+            <l>Ch'il medesimo Rè, ch’in Ciel commanda,</l>
+            <l>Le cose di quà giù regge, e governa</l>
+            <l>E i casi avversi, ò per punir le colpe,</l>
+            <l>o per condire i fortunati invia,</l>
+            <l>Certo è, ch'una minuta, e lieve piuma</l>
+            <l>Da l'ale d'un'augel non si divelle</l>
+            <l>Senza il cenno di lui, che tutto vede</l>
+            <l>Tutt'ordina al suo fin, tutto dispone</l>
+            <l>Com'ab eterno ne gli immensi abissi</l>
+            <l>Del l'infinito suo saper prefisse.</l>
+            <l>Per me sua figlia Presidenza ei regge</l>
+            <l>Ogni cosa quà giú; de le ragioni</l>
+            <l>In quest'arcano mio seno fatale</l>
+            <l>Il segreto si chiude; in van procaccia</l>
+            <l>Con temeraria inchiesta altri trovarlo</l>
+            <l>Nel cupo de le cose, nel suo ingegno,</l>
+            <l>Evà cercando à mezzanotte il Sole:</l>
+            <l>Gran cosa è pur, che non si appaghi alcuno</l>
+            <l>De l'humano suo stato, è voglia il Nume</l>
+            <l>Sublime, sempiterno, onnipotente</l>
+            <l>Adeguar di saper, se non l'adegua</l>
+            <l>Di forze, e di poter, mà veramente</l>
+            <l>Cessa la meraviglia, ove sovviene,</l>
+            <l>Che questo fù quell'elemento primo,</l>
+            <l>Ch'à lo splendor d'un erudito pomo</l>
+            <l>Insegnò al Mondo l'infernal maestro;</l>
+            <l>E le prime dottrine à punto sono</l>
+            <l>Quelle, che più s'imbevono, e che fisse</l>
+            <l>Stan più tenacemente entro le menti.</l>
+            <l>Io per voler del Regnator' eterno,</l>
+            <l>Alto mio genitore, hoggi donai</l>
+            <l>Chiara vittoria al popolo di Dio;</l>
+            <l>Mà perche inacesibile, è superbo,</l>
+            <l>E nemico Saul d'ogni conseglio</l>
+            <l>Di sua natura, hor la vittoria abusa,</l>
+            <l>Et eccede il confin di Rè prudente,</l>
+            <l>Reprimer mi convien per farlo accorto</l>
+            <l>I folli impeti suoi, la sua baldanza</l>
+            <l>Con domestico rischio, e quindi avviene,</l>
+            <l>Ch'in mezzo à l'allegrezze il pianto sorga</l>
+            <l>Bene spesso à mortali, e ‘l Re del Mondo</l>
+            <l>Tempri il calor de la baldanza humana</l>
+            <l>Con l'acqua de le lagrime, se tanto</l>
+            <l>Pur'havesser di lume, e di prudenza</l>
+            <l>Che conoscesser una volta queste</l>
+            <l>Per messaggi del Ciel; son tante lingue</l>
+            <l>Fortuni, et infortuni, onde à ciascuno</l>
+            <l>La strada del suo ben si rappresenta;</l>
+            <l>Se veder non la sà, propria è la colpa;</l>
+            <l>Non si doglia d'altrui, se poi ruina.</l>
+            <l>Folle Saul, tù troverai ben tosto</l>
+            <l>A la superbia tua duro ritegno;</l>
+            <l>Buon per te, se bastasse</l>
+            <l>Cotesto esempio à le future angoscie.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Saul, Achia, Abner.</stage>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>IO crederò, ch'al Filisteo superbo</l>
+            <l>(Dela Terra, e del Ciel nome nemico)</l>
+            <l>Così fiaccate havrem l'invide corna,</l>
+            <l>Che non potrà per buona pezza alzarle:</l>
+            <l>Hoggi tal fù la strage, e così grande</l>
+            <l>Fatta per noi del maladetto germe,</l>
+            <l>Che lunghissime vie corron di sangue,</l>
+            <l>E sorgon monti di svenate genti,</l>
+            <l>Onde poche reliquie, e sbigottite</l>
+            <l>Del'esercito immenso al piè fugace</l>
+            <l>Han commissa la vita, e di prigioni,</l>
+            <l>E di superbe Spoglie, e di bandiere</l>
+            <l>Lasciato han glorioso il nostro campo,</l>
+            <l>E di fame immortal ricco, e pregnante.</l>
+            <l>Hora, ch'al regnator del'universo</l>
+            <l>Di si alta vittoria, e memoranda</l>
+            <l>Habbiam’rese le gratie, e sì gl'altari</l>
+            <l>Cento candidi Tori uccisi, et arsi,</l>
+            <l>Et al suo nome in sagrificio offerti,</l>
+            <l>s'il parer vostro ancora,</l>
+            <l>Fidi consorti miei, col mio s'accorda,</l>
+            <l>Ben fatto esser direi, finche n'avanza</l>
+            <l>Un raggio ancor de la diurna luce,</l>
+            <l>Ne ‘l Sol'ancor ne l'Ocean si corca,</l>
+            <l>Perseguitare i fuggitivi, e corre</l>
+            <l>A l'improviso le vestigia erranti,</l>
+            <l>Mentre che dura in lor l'alto spavento,</l>
+            <l>E trascorre per l'ossa il gel di morte;</l>
+            <l>Che se campo diam’ lor di prender fiato,</l>
+            <l>E riunir le forze, onde cotanto</l>
+            <l>Questo popolo infido abbonda, e serve,</l>
+            <l>Potrian farci sudar con nuovi insulti</l>
+            <l>Più, che non ci crediam, l'arida fronte</l>
+            <l>Che ben follia farebbe il porsi in core,</l>
+            <l>Che al Palestino à le vittorie avezzo</l>
+            <l>Non doglia haver perduto, e pien' di rabbia,</l>
+            <l>In guisa d'orsa insanguinata il fianco,</l>
+            <l>Fiso non pensi à vendicar l'oltraggio.</l>
+            <l>Quest’è il mio sentimento, il vostro chieggio,</l>
+            <l>Che mal senza conseglio altri risolve,</l>
+            <l>Dite liberamente.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Io che non sono</l>
+            <l>Huom di guerra, Signor, mal ti potrei</l>
+            <l>Consegliare à nostr’uopo; à queste parti</l>
+            <l>Il Prenze del'Esercito supplisca;</l>
+            <l>Dette che havrà le sue ragioni, io poscia</l>
+            <l>Se dele vostre orecchie</l>
+            <l>Non indegno penser mi verrà in mente,</l>
+            <l>Non lò preterirò sotto silentio.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Prencipe, abbonda in voi più ch'in altrui,</l>
+            <l>Providenza, e saper, ne và del pari</l>
+            <l>La debolezza mia col valor vostro;</l>
+            <l>Mà poi, che di spiegar quel, ch'io mi senta</l>
+            <l>Del seguitar i' Filistei fugaci,</l>
+            <l>Mi da licenza l'un, l'altro il commanda,</l>
+            <l>Farol per ubbidirvi. E ver, che sembra</l>
+            <l>Lo scompiglio, e ‘l terror de fuggitivi</l>
+            <l>Vantaggio grande al vincitor ardente,</l>
+            <l>Ond'ei può persuadersi agevolmente</l>
+            <l>Esser opra salubre, è gloriosa</l>
+            <l>Il seguir la vittoria infin, che tutti</l>
+            <l>Habbia gli emuli suoi svenati, e spenti,</l>
+            <l>Et io più, ch'altri un si bel fin desio.</l>
+            <l>Mà se si libra ben con giusta lance</l>
+            <l>La ragion d'ogni parte, e se ci lascia</l>
+            <l>Loco al conseglio la baldanza audace</l>
+            <l>Di cui ne colma la propitia forte,</l>
+            <l>Vedrem, che forse la contraria sia</l>
+            <l>La più sana sentenza; e più sicura.</l>
+            <l>sempre udij da Capitani esperti,</l>
+            <l>E da prodi guerrier, che far si denno,</l>
+            <l>Al nemico fuggente i ponti d'oro;</l>
+            <l>Tant'è lontan, che seguitar si deggia</l>
+            <l>Sin' al ultimo fin, chi non t'offende;</l>
+            <l>Dimmi, chi t'assicura, e ti fà certo,</l>
+            <l>O magnanimo Re, ch'entrando a dentro</l>
+            <l>Nel paese nemico à noi mal noto,</l>
+            <l>Non ti sian tesi insidiosi aguati,</l>
+            <l>Onde tu perda, e la vittoria, e peggio?</l>
+            <l>Tu vedi, che à gran passi il Sol camina,</l>
+            <l>E poco manca al tramontar del giorno;</l>
+            <l>Molti, cui luminoso il di spaventa,</l>
+            <l>Assicura la notte, e sà per l'ombré</l>
+            <l>Vestirsi d'ardimento ogni vil belva;</l>
+            <l>Perche tentar’ il Ciel? perche fidarsi</l>
+            <l>Al'oscuro imminente, e pien d'inganni?</l>
+            <l>Togli il periglio ancor de tradimenti,</l>
+            <l>E imboscate notturne, un altro rischio</l>
+            <l>Pur ci sovrasta, e non minor del primo;</l>
+            <l>Disperati costor potran far testa,</l>
+            <l>Se lor chiudiamo in qualche angusto varco,</l>
+            <l>Et offender’ uniti il nostro campo;</l>
+            <l>La disperation dura maestra</l>
+            <l>Insegna cose grandi, e in un momento</l>
+            <l>Hà fatto voltar faccia à somme imprese;</l>
+            <l>Foco nel nuvol chiuso il nuvol frange.</l>
+            <l>Lascio, ch'i tuoi Soldati, ancor che d'esca</l>
+            <l>Alquanto ricreati, e di riposo,</l>
+            <l>Son però stanchi, e non è poco impaccio</l>
+            <l>Agitar tutto un dì spade, e zagaglie</l>
+            <l>Anche il Prencipe Gionata è lontano,</l>
+            <l>E giusto è ricovrar pegno si caro</l>
+            <l>Prima, che s'intrapprenda altra battaglia,</l>
+            <l>Domani à lo spuntar da l'Oriente</l>
+            <l>De le rose del'alba, e dei crin d'oro,</l>
+            <l>Tutti raccolti, e ristorati, e franchi</l>
+            <l>Torneremo à nemici a dar la caccia,</l>
+            <l>I quali esser non può, ch’in una notte</l>
+            <l>Proveduti si sian di nuove squadre</l>
+            <l>Che s'il popolo abbonda, il tempo manca,</l>
+            <l>Io questo crederei che fosse il meglio,</l>
+            <l>Che potessimo oprare; à te il disporre,</l>
+            <l>Prudentissimo Rè, stà de le cose,</l>
+            <l>lo tanto essequirò, quanto imporrai.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Avvedute ragioni à noi recasti,</l>
+            <l>Ottimo Capitan; mà s'una notte</l>
+            <l>Non basta à rinovar bande, e falangi,</l>
+            <l>Basta bene à salvare i fuggitivi</l>
+            <l>Da le spade seguaci, e chi non sia</l>
+            <l>Dal nembo Martial, che gli fù sopra</l>
+            <l>Ridotto in porto al ritornar del giorno?</l>
+            <l>Che se, senza frapporvi indugio, e tempo,</l>
+            <l>A le fresche vestigia andiamo appresso,</l>
+            <l>Gli havré tutti à man salva; e chi sia quegli</l>
+            <l>Che provato il periglio, e la paura,</l>
+            <l>con assalti coperti, ò con palesi</l>
+            <l>Ritentarosi la fulminea destra</l>
+            <l>Del vincitor ardente? i ponti d'oro</l>
+            <l>Al nemico fuggente esser da farsi</l>
+            <l>Anch'io ‘l consento, ove il nemico sia</l>
+            <l>Tal, che non torni à rinovar l'oltraggio;</l>
+            <l>Cadano gl'altri pur; serpe reciso</l>
+            <l>Più non sparge veleno. Il nostro campo</l>
+            <l>Deh non haver', ò Capitan, si à vile,</l>
+            <l>A te suo Duce, à me suo Ré fai torto;</l>
+            <l>Non credo che di corpo ei sia si stanco,</l>
+            <l>Che non sia d'alma, e di valor più forte,</l>
+            <l>E mentre ancora è in corso, e bolle in lui</l>
+            <l>L'ira contra costor vendicatrice</l>
+            <l>E tutto spira occisioni, e morti,</l>
+            <l>Tempo mi par di proseguir l'impresa;</l>
+            <l>Che se si lascia intepidir il sangue</l>
+            <l>Ne le vene torpenti, e neghittose,</l>
+            <l>Tosto il vedrai con passi tardi, e lenti</l>
+            <l>Muoversi a l'opra; e se si reca noia</l>
+            <l>La dimora di Gionata si lunga,</l>
+            <l>Quest'à punto è la via di ricovrarlo;</l>
+            <l>Ah, che se ben vi pensi, il trattenersi</l>
+            <l>E un tradirlo à nemici.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>In questo rischio</l>
+            <l>Non è il Prenze Signor, perch'io mandai</l>
+            <l>Ben tosto à richiamarlo al primo suono</l>
+            <l>Che si diede à raccolta, et hebbi avviso,</l>
+            <l>Ch'ei già volgeva il passo, onde lontano</l>
+            <l>Non può esser molto, e nol corrà la notte</l>
+            <l>Fra l'alme de nemici, ò fra gl'inganni.</l>
+            <l>Mà s'hò lodato il ricovrarlo prima,</l>
+            <l>Che per noi s'intrapprenda altra battaglia,</l>
+            <l>L'ho fatto sol, perche pareami giusto,</l>
+            <l>Che in cosa così grave ei sia presente,</l>
+            <l>Ei, che tanto hà operato in questo giorno,</l>
+            <l>E fù l'Autor de la vittoria nostra.</l>
+            <l>Pur al fin che risolvi? il tempo fugge,</l>
+            <l>E se doviamo andar, non de' tardarsi.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Nulla risolvo ancor, benche rimosso</l>
+            <l>Non m'habbian tue ragion dal primo senso.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Tronchiam dunque gl'indugi, io non ricuso</l>
+            <l>In qualunque periglio il primo loco;</l>
+            <l>Obligai già gran tempo il capo mio,</l>
+            <l>Quasi in voto à tuoi cenni, e se mi parve</l>
+            <l>Più sicuro altrimente il fin de l'opra,</l>
+            <l>Giusto è che à tutti il tuo parer prevaglia,</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Un ottimo principio hà ‘l fin sicuro.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Non sempre à suoi principij il fin risponde.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Io non vedo cagion perche si cangi.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Cagioni inopinate il caso chiude.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>La ragion, non il caso il saggio mira.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Anzi tanto più saggio altri sarebbe,</l>
+            <l>Se potesse veder ciò, ch’è nel caso.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Se mi date licenza, hor, che non veggio</l>
+            <l>Prendersi alcun partito, anzi più tosto</l>
+            <l>Stringersi il fatto in più difficil nodi,</l>
+            <l>Dirò quel, ch'à me par, che si convenga.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Di pur'à tuo piacer, ch'ambi chiamai,</l>
+            <l>Perche liberamente ogn'un favelli.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Signori, al saper vostro,</l>
+            <l>Che non hà paragon, non si nasconde,</l>
+            <l>Che regge il sommo Ciel l'opre mortali,</l>
+            <l>Il Ciel non già, ch'à noi veggiamo intorno</l>
+            <l>Girar carco di stelle, in cui ripone</l>
+            <l>L'arbitrio de le cose il volgo folle,</l>
+            <l>Mà il gran Nume immortal, ch'in lui risiede;</l>
+            <l>E s'arroghi pur l'huom quanto si voglia</l>
+            <l>Che l'humaná prudenza al Cielo è serva,</l>
+            <l>E spesso inciampa, ove quei vuole, e spesso</l>
+            <l>Inavvedutamente</l>
+            <l>Arriva de le cose al segno certo.</l>
+            <l>s'ogni altrui forte di la sù dipende,</l>
+            <l>La nostra tanto più, che per divina</l>
+            <l>Benignitate à maggior gloria eletti</l>
+            <l>La parte siam, l’heredità di Dio.</l>
+            <l>Dunque nissuna impresa, opra nissuna</l>
+            <l>Per noi tentar, ne cominciar si deve,</l>
+            <l>S'al compenso divin non s'hà riccorso.</l>
+            <l>Errar non può colui,</l>
+            <l>C'ha ‘l Ciel per consigliere, e se pur erra</l>
+            <l>Per cupi, impenetrabili giudici</l>
+            <l>Del'increata sapienza eterna,</l>
+            <l>Almen questo conforto egli hà nel male,</l>
+            <l>Che fè quel, che dovea. In questa dubbia</l>
+            <l>Incertezza di sensi, e di pensieri</l>
+            <l>io loderei, che si chiedesse à Dio</l>
+            <l>Con amorosi, e riverenti preghi</l>
+            <l>Del suo santo voler, poi che non niego</l>
+            <l>Nel gusto, e nel calor de la vittoria</l>
+            <l>Giudicar de le cose, e farne scelta</l>
+            <l>Esser non lieve, e non sicura impresa,</l>
+            <l>Ne per saggio, che sia, dover fidarsi</l>
+            <l>Alcun del senso suo, quando l'ingombra</l>
+            <l>Sospetta passion, che molto vaglia.</l>
+            <l>A noi farà da la battaglia in tanto</l>
+            <l>Anco il Prencipe Gionata ritorno,</l>
+            <l>E novelle più vere, e più recenti</l>
+            <l>Recherà de nemici, onde seguirne</l>
+            <l>Con men incerto piè potrem la traccia.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Ottimo egli è il conseglio, e di te degno</l>
+            <l>Padre, e rettor de le divine cose;</l>
+            <l>Andiamo ubbidienti ad esequirlo.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Messo, Saul, Achia.</stage>
+          <sp who="#messo">
+            <speaker>MESSO.</speaker>
+            <l>Andai, Ré glorioso,</l>
+            <l>Per ubbidire al tuo sublime impero,</l>
+            <l>In Ramata à gran passi, e vi trovai,</l>
+            <l>Il divin Samuelle, al suo costume</l>
+            <l>Tutto in Dio sollevato, e che pascea</l>
+            <l>De' misteri del Ciel l'avida mente;</l>
+            <l>Cento minor Profeti havea d'intorno</l>
+            <l>Che pendean dal suo ciglio, io senza indugio</l>
+            <l>Al venerabil padre ammesso fui,</l>
+            <l>E chino, e riverente i tuoi dessiri</l>
+            <l>Brevemente gli esposi, e lo pregai,</l>
+            <l>Ch'essendo ne l'angustie il nostro campo,</l>
+            <l>E ne l'horror de le caverne chiuso</l>
+            <l>Da l'assedio crudel de Filistei,</l>
+            <l>E mancando il conseglio à l'alta impresa</l>
+            <l>D'uscir di man del Barbaro superbo,</l>
+            <l>Volesse à te venir; de la salute</l>
+            <l>Del popolo trattarsi, e del'Impero;</l>
+            <l>Perche s'un'altra volta i Filistei</l>
+            <l>Ci ponessero il giogo, un gran periglio</l>
+            <l>si correria di non risorger mai,</l>
+            <l>Ne di goder la libertà natia,</l>
+            <l>E di perder al fine il divin culto.</l>
+            <l>Udimmi attentamente il Santo Veglio,</l>
+            <l>Poi mi rispose vanne,</l>
+            <l>Figlio, e al Rè riferisci in nome mio,</l>
+            <l>Che non m'è cosa nuova il vostro stato,</l>
+            <l>Mà stia di buona voglia; in tutti i casi</l>
+            <l>Usi la sua prudenza, e si assicuri,</l>
+            <l>Che per quanto l'età grave mi renda,</l>
+            <l>A servirlo verronne, e verrò à tempo.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Un bel venir à tempo.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>E che sappiamo.</l>
+            <l>Ne segreti di Dio quel che si chiuda?</l>
+            <l>Non son vani gl'oracoli, e nel seno</l>
+            <l>De la divinità gl'alti Profeti,</l>
+            <l>Signor, veggiono cose,</l>
+            <l>Ch’à noi ne pur d'imaginar non lice.</l>
+            <l>Aquile son, e noi siam talpe al Sole,</l>
+            <l>Non te ‘l pigliare à scherno.</l>
+          </sp>
+          <sp who="#messo">
+            <speaker>MESSO.</speaker>
+            <l>Ei più non disse,</l>
+            <l>Et io chiesta licenza humilemente</l>
+            <l>Al profetico hostel volsi le spalle,</l>
+            <l>E tornai frettoloso al primo vallo,</l>
+            <l>Ove alzano la fronte</l>
+            <l>Contra Maemas le Gabaonie rupi;</l>
+            <l>Ma non trovando il mio Signor, ne l’oste,</l>
+            <l>E vedute le cose in altra faccia,</l>
+            <l>Carico d'allegrezza, e di diletto</l>
+            <l>Le vestigia seguij de vincitori</l>
+            <l>Per vie segnate di color di sangue,</l>
+            <l>E di corpi traffitti, e d'arme infrante.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Horsù l'attenderemo: assai per tempo</l>
+            <l>Ei verrebbe a nostr’uopo in questo punto.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>VIncesti, ò Rè, o vincesti</l>
+            <l>O del gran Rè gran figlio,</l>
+            <l>Tu sdegnando giacer ne le caverne,</l>
+            <l>Quasi leon di nido</l>
+            <l>Uscisti in campo à insanguinar l'artiglio,</l>
+            <l>Intrepido corresti,</l>
+            <l>Scuotendo la cervice alta, e superba,</l>
+            <l>A provocar il gran nemico infido,</l>
+            <l>Apena il piè leggier segnava l'herba,</l>
+            <l>E ‘l Cielo ti prestò le forze eterne.</l>
+            <l>Sante leggi superne,</l>
+            <l>Beato chi d'osserva e chi v'honora,</l>
+            <l>Questi può star sicuro,</l>
+            <l>Che per difesa sua combatte il Cielo:</l>
+            <l>Non val'argine, ò muro</l>
+            <l>Non Elefanti, ò pur quadriglie alate</l>
+            <l>Contra l'arme beate.</l>
+            <l>Sente il nemico ancora,</l>
+            <l>Ch’in una sola man forza è di mille,</l>
+            <l>Ch'il ferro d'un sol telo</l>
+            <l>Chiude virtù, che tutti gl'altri atterra.</l>
+            <l>Tal ne l'Egittia terra</l>
+            <l>La verga di Mosè cangiata in angue</l>
+            <l>Assalì le nemiche, et inghiottille.</l>
+            <l>L'alto favor di Dio,</l>
+            <l>Benche ‘l nostro peccar ne faccia guerra,</l>
+            <l>Fà, che nostra virtute ancor non langue.</l>
+            <l>Caratteri di sangue</l>
+            <l>Scrivon per sempre la vittoria bella,</l>
+            <l>Che à posteri discesa</l>
+            <l>Nemici non havrà tempo, ne oblio.</l>
+            <l>Vivrà l'eterna fama del Fanciullo,</l>
+            <l>Che con tenero piè, molle favella</l>
+            <l>Par, che la voce à pena</l>
+            <l>Intenda de la guerra, e in quest'impresa</l>
+            <l>Ei pur s'ha fatto giuoco</l>
+            <l>D'un Oste poderosa, e d'arme piena</l>
+            <l>Generosa Vittoria,</l>
+            <l>Figlia del Ciel sublime, e di prudenza,</l>
+            <l>O come tutta vai cinta di gloria,</l>
+            <l>come illustri il loco,</l>
+            <l>Ove ‘l tuo raggio Splende,</l>
+            <l>Lascia oscurato il Sol la tua presenza;</l>
+            <l>Le Spoglie, e i prigionieri,</l>
+            <l>Le palme, e le ghirlande,</l>
+            <l>E le voci d'applauso, e i gran trofei</l>
+            <l>Sono la tua famiglia, e i tuoi scudieri.</l>
+            <l>Quel'unico, quel grande</l>
+            <l>Che regge il tutto, e se medesmo intende,</l>
+            <l>O quante volte à gli Avi Semidei</l>
+            <l>Propitia ti mandò dal Ciel sereno.</l>
+            <l>Vedeansi in un baleno,</l>
+            <l>Quasi notturni augei,</l>
+            <l>Al apparir del tuo Splendor celeste</l>
+            <l>Pedoni, e cavalier volger la terga.</l>
+            <l>Tu al cenno d'una verga</l>
+            <l>I mar guidasti à sepelir le genti;</l>
+            <l>Tu ponesti nel suono</l>
+            <l>Di concavo metallo horror di morte,</l>
+            <l>Cedono al tuo poter tuoni, e tempeste,</l>
+            <l>Precipitan le porte,</l>
+            <l>Vanno le Torri à basso alte, e possenti:</l>
+            <l>Tu fermi il Sol in Ciel per farci dono,</l>
+            <l>Ubbidiscon le ruote,</l>
+            <l>Onde corron la sù Cancro, e Boote:</l>
+            <l>Ne mai ci sei ritrosa,</l>
+            <l>Se non qualor à rivoltar la faccia</l>
+            <l>Il nostro error, e la fobia ti spigne;</l>
+            <l>Alor si che da noi tu ti scompagne</l>
+            <l>Velocemente, e dandoci la caccia,</l>
+            <l>Le tepide campagne,</l>
+            <l>Del nostro sangue l'avversario tigne:</l>
+            <l>Segui, segui Reina,</l>
+            <l>Segui del bel valor vermiglia Sposa</l>
+            <l>D'usar con noi la tua pietà divina</l>
+            <l>Tutto il popolo nostro à te s'inchina.</l>
+          </sp>
+        </div>
+        <trailer>Il fine del Primo Atto.</trailer>
+      </div>
+      <div type="act">
+        <head>ATTO SECONDO</head>
+        <div type="configuration">
+          <sp who="#messo">
+            <speaker>MESSO.</speaker>
+            <l>CHI ne l'angoscie de la morte humana,</l>
+            <l>Che mal vita si chiama, à piagner viene,</l>
+            <l>Scelgasi pure un humil tetto, et ermo,</l>
+            <l>E di neglette spoglie il fianco cinga,</l>
+            <l>Se vuol quiete, e contemplando quivi</l>
+            <l>Le bellezze di Dio, s'imparadisi</l>
+            <l>Prima del tempo; ò ne le selve armato</l>
+            <l>Di verga pastoral, e di sampogna</l>
+            <l>A l'herbe fresche, à i cristallini rivi</l>
+            <l>Goda guidar la semplicetta greggia;</l>
+            <l>Colà fortuna horribil, e superba</l>
+            <l>Non entra in capo, e di vibrar non degna</l>
+            <l>La fera spada, e insanguinar la lancia,</l>
+            <l>Ne si senton frà boschi amaramente</l>
+            <l>Le vicende del mondo. Alcun vi scorgi,</l>
+            <l>D'aspetto più seren, di cor più franco,</l>
+            <l>Si che gli ride l'allegrezza in volto,</l>
+            <l>Ch'à le mense de Regi in vesti d'auro,</l>
+            <l>Ove ‘l velen trionfa</l>
+            <l>Tutto rinvolto in pretiose spoglie.</l>
+            <l>Colui cosi mendico, e cosi scalzo,</l>
+            <l>Di cui par che natura si vergogni,</l>
+            <l>Pur nutrisce il digiun, serve il disagio,</l>
+            <l>L’inopia gli è abbondanza, e stà sicuro</l>
+            <l>Di non poter cader mentre è nel fondo,</l>
+            <l>E forse il fondo è più vicino al Cielo,</l>
+            <l>Che di nostre misure Iddio non valsi,</l>
+            <l>Ne le grandezze à l’humiltate agguaglia.</l>
+            <l>o beati coloro,</l>
+            <l>A cui fu dato di la suso in sorte</l>
+            <l>Di solcar'Ocean cosi tranquillo,</l>
+            <l>E pasar gl'anni lor con tanta pace;</l>
+            <l>Questi mertan Invidia; ‬habbia chi vuole‬‬‬</l>
+            <l>I Reami, e i Tesori, e stia frà l'armi</l>
+            <l>A penar notte, e giorno, e ne le sorti</l>
+            <l>A deplorare i successivi affanni,</l>
+            <l>Ch’un piacer lieve à mille assentij è seme.</l>
+            <l>A noi misero scopo à i casi avversi</l>
+            <l>Il vincer che giovò se la vittoria</l>
+            <l>Ci pon tutti in scompiglio? e se nel fine</l>
+            <l>Cosi leggiadra madre</l>
+            <l>Ne partorisce un mostruoso figlio?</l>
+            <l>Altri, quando più gode, allor più tema,</l>
+            <l>S'asconde in placid'esca un rigid'hamo,</l>
+            <l>Chi l'ingoia, s'infilza. Ahi dove andranne</l>
+            <l>Finalmente à ferir questa saetta,</l>
+            <l>che piomba hoggi dal Ciel nel campo nostro?</l>
+            <l>Questo suono di trombe à me dà segno,</l>
+            <l>Ch'il Prencipe hor' arrivi.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>SEMICORO DI SOLDATI DOPPIO.</stage>
+          <sp who="#semicoro_1">
+            <speaker>SEMICORO I.</speaker>
+            <l>SUccessor del grande Abramo,</l>
+            <l>Vincitor de Filistei,</l>
+            <l>Tu rinovi à i forti EbreI</l>
+            <l>Il bel secolo d'Adamo.</l>
+          </sp>
+          <sp who="#semicoro_2">
+            <speaker>SEMICORO II.</speaker>
+            <l>Tal degli avoli nostri ilprimo padre</l>
+            <l>Un di tornò da debellare i Regi,</l>
+            <l>E l’alme prigioniere, e gli aurei fregi</l>
+            <l>Ricoverò da le malnate squadre.</l>
+          </sp>
+          <sp who="#semicoro_1">
+            <speaker>SEMICORO I.</speaker>
+            <l>Successor del grande Abramo,</l>
+            <l>Vincitor de Filistei,</l>
+            <l>Tu confondi i falsi Dei,</l>
+            <l>E ‘l mal genere di Camo.</l>
+          </sp>
+          <sp who="#semicoro_2">
+            <speaker>SEMICORO II.</speaker>
+            <l>Se ‘l gran legislator trasse d'Egitto</l>
+            <l>I padri oppressi, e ruppe il mar vermiglio;</l>
+            <l>Signor tu co ‘l tuo braccio, e ‘l tuo consiglio</l>
+            <l>Ci trahi di man del Filisteo sconfitto</l>
+          </sp>
+          <sp who="#semicoro_1">
+            <speaker>SEMICORO I.</speaker>
+            <l>Successor del grand' Abramo.</l>
+            <l>Vincitor de Filistei,</l>
+            <l>Tu coʻ rai di tuoi trofei</l>
+            <l>Rendi oscure Atene, e Samo.</l>
+          </sp>
+          <sp who="#semicoro_2">
+            <speaker>SEMICORO II.</speaker>
+            <l>Quel Capitan, che soggiogò il paese,</l>
+            <l>Con meraviglie i popoli distrusse</l>
+            <l>Ma ‘l tuo cor, la tua mano a fin condusse</l>
+            <l>Con la virtù le più sublimi imprese.</l>
+          </sp>
+          <sp who="#semicoro_1">
+            <speaker>SEMICORO I.</speaker>
+            <l>Successor del grand'Abramo</l>
+            <l>Vincitor de' Filistei,</l>
+            <l>Noi li veri Semidei,</l>
+            <l>Non la Grecia, qui godiamo.</l>
+          </sp>
+          <sp who="#semicoro_2">
+            <speaker>SEMICORO II.</speaker>
+            <l>Quell'altro fier, che soffocò i Leoni,</l>
+            <l>Le squadre immense solitario ancida;</l>
+            <l>Tu, cui non forza, e non l'etate affida,</l>
+            <l>La morte pure à sì grand'Oste doni.</l>
+          </sp>
+          <sp who="#semicoro_1">
+            <speaker>SEMICORO I.</speaker>
+            <l>Successor del grand' Abramo,</l>
+            <l>Vincitor de Filistei,</l>
+            <l>Tu l'aurora al regno sei</l>
+            <l>Del bel giorno, che speriamo;</l>
+            <l>Nostro liberator, da te pendiamo.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Hoggi chi dovea mia, chi mai potea</l>
+            <l>Da si folle principio, e si leggiero</l>
+            <l>Sperar tanta vittoria? Un garzon molle,</l>
+            <l>A cui le guancie ancor non segna il tempo,</l>
+            <l>Commosso hà ‘l tutto, e già ne và il nemico</l>
+            <l>Pauroso, e disfatto in fuga volto.</l>
+            <l>O tu, che col voler governi il Mondo,</l>
+            <l>Ne foglia pur di ramoscel trascuri,</l>
+            <l>Son queste opere tue, prove si grandi</l>
+            <l>Non può far altra man, ch'onnipotente.</l>
+            <l>A che il mortal del suo valor si vanta?</l>
+            <l>Tu come alzando i poveri talvolta</l>
+            <l>Da l'algose capanne à i Regij alberghi,</l>
+            <l>Ti diletti schernir l'alme de' grandi</l>
+            <l>Cosi facendo gloriose imprese</l>
+            <l>Per via di debolissimi stromenti,</l>
+            <l>Ti diletti schernir l'ire de forti,</l>
+            <l>E la superbia dei maggior confondi.</l>
+            <l>Qual più tenera mano, e men possente</l>
+            <l>Potea portarla morte à tante schiere,</l>
+            <l>Che quella d'un fanciullo? e pur le piante</l>
+            <l>Tremule di costui per via scoscesa,</l>
+            <l>Al sommo de le rupi hoggi scorgesti,</l>
+            <l>Reggesti il braccio, e l'infallibil hasta</l>
+            <l>Drizzati al cor de barbari superbi,</l>
+            <l>Padre del ciel, che non havesti a sdegno</l>
+            <l>Per me feccia del Mondo, e de mortali</l>
+            <l>Ultimo di operar cose si grandi,</l>
+            <l>Renderne degne gratie à te non posso,</l>
+            <l>Mà conosco però quel, che ti debbo;</l>
+            <l>E meco ad onta de la morte ancora</l>
+            <l>Sotterra, ignudo Spirto, anima e sangue</l>
+            <l>Salda ne porterò l'alta memoria.</l>
+            <l>Hor guida l'opre mie, reggi il conseglio,</l>
+            <l>Supplice te ne prego; e ben conosco,</l>
+            <l>Che per te sol conviene</l>
+            <l>Cinger la spada, e imbracciar lo scudo;</l>
+            <l>Sola mia gloria, sia, che io ben ti serva,</l>
+            <l>E di vanto mortale aura non merchi.</l>
+            <l>La gloria di quà giù titolo è vano,</l>
+            <l>La fama è un vento, e solo in tè si trova</l>
+            <l>Senza menzogna e l'immortale, e ‘l vero.</l>
+            <l>Se mi rapì la giovenil vaghezza</l>
+            <l>In fin’ questo giorno in altri sensi,</l>
+            <l>Et ambij la follia d'humano applauso,</l>
+            <l>Hor, che m'apra le luci, e ‘l cor mi sani,</l>
+            <l>Chiedo perdon de ‬l'importune voglie, ‬‬‬</l>
+            <l>E del peccato de l’etate, e mio,</l>
+            <l>Che pur mio lo ravviso. Hor ne le tende!</l>
+            <l>andiam, compagni, à riverire il Padre.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Messo, Gionata.</stage>
+          <sp who="#messo">
+            <speaker>MESSO.</speaker>
+            <l>O Che beato, ò che felice impero</l>
+            <l>Godrai, popol di Dio, se costui regna.</l>
+            <l>Mà perche più ritardo?</l>
+            <l>Prencipe, il Ciel ti guardi.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Onde ne vieni,</l>
+            <l>Soldato valoroso, e quai novelle</l>
+            <l>Mi rechi?</l>
+          </sp>
+          <sp who="#messo">
+            <speaker>MESSO.</speaker>
+            <l>lo vengo a te, Signor, dal campo,</l>
+            <l>Onde con diligenza il Rè tuo padre</l>
+            <l>Testè spedimmi, e mia ventura è stata</l>
+            <l>Non haver à girar con piede incerto</l>
+            <l>Mille incognite vie per ritrovarti.</l>
+            <l>Buona novella in vero io non ti reco;</l>
+            <l>Mà tanto al male prossimo il rimedio,</l>
+            <l>Quanto il ritorno tuo non è lontano.</l>
+            <l>L'honor di quest'impresa il Ciel riserba</l>
+            <l>A l'alta tua prudenza, in quella guisa,</l>
+            <l>Che serbò la vittoria al tuo valore.</l>
+            <l>Hoggi sei destinato à cose grandi,</l>
+            <l>E non hoggi sia il fine.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>E qual ci toglie</l>
+            <l>Tempesta invidiosa il Sol ridente?</l>
+            <l>Che mal è sorto? E ch'infortunio è questo:</l>
+            <l>Qual'accidente al caro Padre è occorso?</l>
+          </sp>
+          <sp who="#messo">
+            <speaker>MESSO.</speaker>
+            <l>Signor, dubbioso il Rè co' primi Eroi,</l>
+            <l>Se sbigottito il Filisteo fugace</l>
+            <l>Dovesse tuttavia da noi seguirsi,</l>
+            <l>Hebbe ricorso al Cielo; il maggior Padre,</l>
+            <l>Cui del culto divin la cura incumbe,</l>
+            <l>Tosto del sacro ammanto il sen si cinse;</l>
+            <l>E supplicando riverente, e chino</l>
+            <l>A l'oracol di Dio chiese compenso.</l>
+            <l>Ma questi, ohime, signor, nulla rispose,</l>
+            <l>E molte volte indarno</l>
+            <l>Pregollo, e ripregollo il Prenze ardente,</l>
+            <l>Che sordo, e taciturno di Sacri accenti,</l>
+            <l>A guisa d'aspe rea, chiuse l'orecchie</l>
+            <l>Fuor di suo stile, et annodò la lingua.</l>
+            <l>Qual rimanesse à tanto incontro ognuno,</l>
+            <l>Ben puoi da te medesmo imaginarti,</l>
+            <l>Fuggiro i sangui, impallidiro i volti,</l>
+            <l>Alor quel venerabile ministro,</l>
+            <l>Interprete del Ciel gridò repente.</l>
+            <l>Non è questa, non è sicuramente</l>
+            <l>Rigidezza di Dio, mà nostra colpa;</l>
+            <l>Qualche fallo è nel campo: ite, e trovato</l>
+            <l>Eroi fideli il malfattor punite.</l>
+            <l>Portò l'horribil voce à tutta l'hoste</l>
+            <l>Di schiera in schiera estremo gel per l'ossa</l>
+            <l>Il Ré colmo di doglia, e di dispetto</l>
+            <l>Fremea qual Tigre, à cui gl'amati figli</l>
+            <l>Habbia involato il cacciator dal nido,</l>
+            <l>E tutto cruccioso, e minacciante</l>
+            <l>Giurò, trovato il reo, capitalmente,</l>
+            <l>Chiunque egli si sia, farne vendetta,</l>
+            <l>Corre pel campo universal bisbiglio</l>
+            <l>Gravido di terrore, e di spavento;</l>
+            <l>Ogn'huom, che può peccar, teme, à se stesso</l>
+            <l>Tutti ferisce la mortal sentenza,</l>
+            <l>Finche il reo non si trova, ogn'uno è reo.</l>
+            <l>Il Rè fà grande inchiesta, e in tale stato</l>
+            <l>Cerca di te con disusata istanza</l>
+            <l>Tu temprarai ‘l dolor, placherai l'ira,</l>
+            <l>Et à ‘l uopo commun darai soccorso.</l>
+            <l>Vientene d'Israelle altera Speme,</l>
+            <l>Non sospender più oltre il nostro scampo,</l>
+            <l>Te sol' attende ognun, da te sol pende,</l>
+            <l>E de la sua salute unicamente</l>
+            <l>La somma in te ripone.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Doloroso successo à me spiegasti,</l>
+            <l>Ottimo messaggiero; hor te ne torna</l>
+            <l>E di, ch'io venga, e nel commun periglio</l>
+            <l>Quella parte farò, che à me conviensi,</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Gionata, Arasia, Semicoro.</stage>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Dunqe offeso Dio, sprezzato il Padre</l>
+            <l>E puertito il publico riposo,</l>
+            <l>E pretende costui, ch'anch'io non voglia</l>
+            <l>Esser compagno à vendicar l'oltraggio?</l>
+            <l>Si gabba, di gran lunga, il suo diritto</l>
+            <l>Darsi deve ad ognuno; in quelli eccessi</l>
+            <l>Che son di conseguenza, e ne deriva</l>
+            <l>Communemente universal disagio,</l>
+            <l>L'impunità è ingiustitia, e non clemenza;</l>
+            <l>Andrò, farò per Dio, qual diligenza</l>
+            <l>Non fù fatta giammai per delinquente,</l>
+            <l>E punirò con queste mani ancora,</l>
+            <l>Chi tant'osò, se mancherà chi ‘l faccia:</l>
+            <l>A rei scudo io non sono.</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>E questi il figlio</l>
+            <l>Del buon Rè degli Ebrei, gente cortese?</l>
+          </sp>
+          <sp who="#semicoro_1">
+            <speaker>SEMICORO.</speaker>
+            <l>E d’esso, punto.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Dio, ch'inciampo è questo?</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>Prencipe, ignota ancella, è senza merto,</l>
+            <l>Anzi, s'egli è demerto esser nemica,</l>
+            <l>Come ragion di guerra à te mi rende,</l>
+            <l>Col demerto maggior, che dar si possa,</l>
+            <l>Nel mio bisogno pure</l>
+            <l>Vengo à te per favor, ch'anima grande</l>
+            <l>Supplici non isdegna; à i tuoi gran vanti</l>
+            <l>Non sarà poca lode aggiunger questo,</l>
+            <l>Ch'una donna nemica in te si fidi,</l>
+            <l>E da te implori la salute; tanto</l>
+            <l>E maggior la pietà di chi concede,</l>
+            <l>Quanto meno capace è chi riceve.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Signora io per nemici hò sol coloro,</l>
+            <l>Che hanno me per nemico, e non saprei</l>
+            <l>Offender fuor de la battaglia alcuno.</l>
+            <l>Ti servirò, se mia ventura è tale,</l>
+            <l>Ch'io vaglia à l'uopo tuo, quanto confidi,</l>
+            <l>Salva la legge mia, salvo l'honore,</l>
+            <l>Ne soffrirò giammai, che tu ti penta</l>
+            <l>De la fiducia tua, cui son tenuto</l>
+            <l>Corrisponder con l'opra.</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>Altra risposta</l>
+            <l>Non attende da te chi ti conosce,</l>
+            <l>Com'io prima per fama, e poi per prova,</l>
+            <l>E la prova fin qui vince la fama.</l>
+            <l>Signor, il valor tuo, del Rè tuo padre,</l>
+            <l>De l'esercito tutto, à cui comandi,</l>
+            <l>E grande in vero, e non v'hà dura impresa,</l>
+            <l>Di cui non sia capace il braccio vostro,</l>
+            <l>Ne prometter si possa alta vittoria;</l>
+            <l>Ma se dai loco al ver, nissuna cosa</l>
+            <l>Soggiace à la fortuna, e da lei pende</l>
+            <l>Più, ch'i bellici eventi, e de la guerra</l>
+            <l>Il principio de l'huomo, il fin di Dio.</l>
+            <l>Io sò, che tù ‘l conosci, e che non toglie</l>
+            <l>A te ‘l trionfo tuo ne la ragione,</l>
+            <l>Nela memoria de passati esempi.</l>
+            <l>Vincemo ancora noi, mentre à Dio piacque</l>
+            <l>E voi per noi cadeste, e foste servi,</l>
+            <l>Cangiare hor son le vici, à voi la palma,</l>
+            <l>A noi soggiacer tocca; in questa guisa</l>
+            <l>Qui n'alterna fortuna il bene, e ‘l male,</l>
+            <l>Né longamente altrui la fede osserva,</l>
+            <l>Per questo incerto de futuri cuenti,</l>
+            <l>Come che possa un giorno esser perdente,</l>
+            <l>E provar de la sorte anch'ei lo scherno,</l>
+            <l>Dè compatire il vincitore al vinto,</l>
+            <l>Et usar la clemenza. Un de' maggiori,</l>
+            <l>Che tenga signoria trà Filistei,</l>
+            <l>Fatt’hoggi prigionier ne la battaglia,</l>
+            <l>Sua onta, e mia sventura, è vostro servo;</l>
+            <l>Se pur da l'altro lato</l>
+            <l>Mia ventura non è, che mi sia data</l>
+            <l>Si bella occasion di porger prieghi</l>
+            <l>Ad Eroe così forte, e si pietoso;</l>
+            <l>Egli è ‘l Prencipe Oronte, son sua sposa,</l>
+            <l>Che non potendo tolerare un giorno</l>
+            <l>Cattività del suo valor men degna,</l>
+            <l>A te mesta ricorro, e chieggio in gratia,</l>
+            <l>Che voglia tu da la pietà paterna</l>
+            <l>A lui impetrar la libertà primiera,</l>
+            <l>Et à me la salute, appreso al padre</l>
+            <l>Non v'hà migliore intercessor del figlio,</l>
+            <l>Ale viscere sue nulla si niega.</l>
+            <l>Io tanto à te dovrò la vita mia,</l>
+            <l>Quanto la libertate il mio consorte,</l>
+            <l>E per un corpo prigionier che lasci,</l>
+            <l>Due alme havrai cattive, e non sia senza</l>
+            <l>Com'odo del tuo regno, il tuo favore,</l>
+            <l>Lascio, ch'ancor, che la natia grandezza</l>
+            <l>Del bell'animo tuo questo non curi;</l>
+            <l>Oro non mancherà da ricomprarlo;</l>
+            <l>Mà in affari di stato al tuo domino</l>
+            <l>Potrà recare il mio Signor’aita</l>
+            <l>Più libero, che servo. E quando pure</l>
+            <l>Alcuna ripugnanza al cor tu senta,</l>
+            <l>Come che l'ira ardente</l>
+            <l>I cor più grandi à la vendetta accenda,</l>
+            <l>Raddoppierai la tua vittoria, e ‘l vanto,</l>
+            <l>Se doppo vinto altrui, vinci te stesso.</l>
+            <l>Ciò che dico di te, dico del padre</l>
+            <l>Che da te persuaso agevolmente</l>
+            <l>Non niegherà la gratia, io te ne prego</l>
+            <l>Nuovamente, Signor, per la tua vita,</l>
+            <l>Per la vita del Rè, per la fortuna</l>
+            <l>Del tuo crescente, e glorioso impero:</l>
+            <l>Cosi godan le rose, e così i gigli</l>
+            <l>D’eterna primavera i tuoi begli anni,</l>
+            <l>Ne mai d’angoscie, e di venture avverse</l>
+            <l>Nuvolo turbi i tuoi pensier sereni.</l>
+            <l>Fallo per Dio, Signor, trammi di doglia;</l>
+            <l>Onde anco il Cielo i peccator dolenti;</l>
+            <l>Dicono i vostri pur; meglio non puossi</l>
+            <l>Far per alcun, che seguitar il Cielo.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Se fosse il mio poter, qual è il volere,</l>
+            <l>Saggia, e nobile Donna, in cotal guisa</l>
+            <l>Co’ i preghi, e le ragion tu mi stringesti,</l>
+            <l>Che del consorte tuo senza dimora</l>
+            <l>Cortese ti farei libero dono,</l>
+            <l>Che di fiera vendetta io non hò sete</l>
+            <l>È non è meco il guerreggiar venale</l>
+            <l>Anch’io, benchè di giovanil'etate,</l>
+            <l>Le vicende provate hò de le cose,</l>
+            <l>E so de gli altri mali haver pietate,</l>
+            <l>Mà da l'arbitrio mio questo non pende,</l>
+            <l>Altri del suo volere à me fa legge,</l>
+            <l>E lo sai tu medesma, e lo confessi.</l>
+            <l>Ben duolmi del tuo pianto, e del disagio</l>
+            <l>Del tuo Consorte, e quanto havrà di forza</l>
+            <l>La supplice favella, e i preghi miei;</l>
+            <l>Per servir ad entrambi game stesso,</l>
+            <l>Ch’io sò, che non farò debole acquisto,</l>
+            <l>Tutto prometto adoperar col Padre.</l>
+            <l>In tanto ei sia trattato horrevolmente</l>
+            <l>(Stanne sicura pur) come conviensi</l>
+            <l>Ad huom cui rendan chiaro alti natali;</l>
+            <l>Vanne, Donna gentil, l'animo acheta,</l>
+            <l>Quanto più tosto mel conceda il tempo,</l>
+            <l>La risposta farò, che tu risappia.</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>In te, Signore ogni mia speme hò posta.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Per quello ch'io mi vaglia, in van non sia.</l>
+            <l>Farò del gusto tuo gusto à me stesso.</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>Benedetto garzon beata madre,</l>
+            <l>Onde si bello, e si cortese ei nacque.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Saul, Abner, Gionata.</stage>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Farai del gusto suo gusto à te stesso?</l>
+            <l>Non è donna colei de Filistei?</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Così mi sembra.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>E non è bella, e fresca?</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>A punto è tale.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Hor stà à veder, ch'à un tempo</l>
+            <l>Havrem trovato il fallitor, e ‘l fallo.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Ah non sia ver che di tal figlio tale</l>
+            <l>Sospetto, alto Signore il cor l'ingombri.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Il senso giovanile à tutti è uguale</l>
+            <l>Mà non sono già uguali i tempi, e i casi.</l>
+            <l>E se ne pentirà. Tornasti salvo,</l>
+            <l>Gionata figlio mio, da la battaglia?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Salvo, Signor, per lo favor del Cielo,</l>
+            <l>E di salvo trovarti il Ciel ringratio.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Che novella ci dai de Filistei?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Infino in Aialon tutto anelante</l>
+            <l>Diedi la caccia a la mal nata gente</l>
+            <l>Fiera così, che non fù alcun di loro,</l>
+            <l>Che le ferite in faccia unqua volesse;</l>
+            <l>Perduti eran sì forte, et inviliti,</l>
+            <l>Che si credean dal Ciel piover le morti,</l>
+            <l>E più mancava à noi braccio, e vigore,</l>
+            <l>Che tergo da ferire, in questa guisa</l>
+            <l>S'accorsero i meschini agevolmente,</l>
+            <l>Che l'haver disarmato il popol nostro</l>
+            <l>Poco era lor giovato, e che schernire</l>
+            <l>Iddio sà gl'artifici, un messo giunse</l>
+            <l>Poscia, che richiamommi, e ‘l piè rivolsi,</l>
+            <l>Lasciando di terror colmo il nemico,</l>
+            <l>Quasi stormo d'augei, ch'anco lontano</l>
+            <l>Dal rapace avoltoio, ond'hebbe caccia,</l>
+            <l>Non si tiene sicuro.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Ma se ‘l ciel ti protegga, amato figlio</l>
+            <l>Narrami brevemente,</l>
+            <l>Come passò il principio, e da qual moto</l>
+            <l>Così bella vittoria origin' hebbe.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Tu sai, sommo signor, che l'alte imprese,</l>
+            <l>Per giuditio di Dio, che vuolo mostrarci</l>
+            <l>Esser la mano sua, che regge il Mondo,</l>
+            <l>Han folli; e debolissimi principi;</l>
+            <l>Qui pur lo stesso è occorso, io veramente</l>
+            <l>Fastidito dal tedio, e dal dolore</l>
+            <l>(Confesso il senso mio) d’esser tenuti</l>
+            <l>Sì vilmente in assedio, e d'arme privi,</l>
+            <l>Veder deliberai con gli occhi propri</l>
+            <l>Quel, che facea il nemico, e quando il tempo</l>
+            <l>Fosse stato propitio à miei desciri,</l>
+            <l>Por la mano a tentar nobile impresa.</l>
+            <l>Così perche interrotto il mio dissegno</l>
+            <l>Da rispetto verun non rimanesse,</l>
+            <l>La riverenza mia posta in non cale</l>
+            <l>(Te ne chiedo perdon) non feci motto,</l>
+            <l>E non chiesi licenza à te medesmo;</l>
+            <l>Che dal’evento giudicar potendo,</l>
+            <l>Forse fù Dio, che ciò mi pose in core.</l>
+            <l>Notte ancora volgea, le rote oscure,</l>
+            <l>Magia vicino l'incalzava il giorno;</l>
+            <l>Meco un solo chiamai de' miei scudieri,</l>
+            <l>Che di valor, e fede ogn'altro avanza,</l>
+            <l>E scendendo nel cupo, onde divisi</l>
+            <l>Eravam da nemici, alquanto prima</l>
+            <l>Stessimo sopra noi; ci venne in mente</l>
+            <l>La grandezza del fatto, e ‘l rischio, e l'opra;</l>
+            <l>Salir dovendo ruinose rupi,</l>
+            <l>Che munian de' nemici il gran steccato,</l>
+            <l>E soli andare à si grand'oste appresso;</l>
+            <l>Poi quasi da letargo arditamente</l>
+            <l>Riscuotendo gli spirti, andiamo (io dissi)</l>
+            <l>Con la scorta del Cielo e se costoro</l>
+            <l>Ci scoprono per sorte, e ci fan cenno,</l>
+            <l>Che ne loro steccati il piè poniamo,</l>
+            <l>Seguiamo allegramente, e ciò ci vaglia</l>
+            <l>Per oracol diDio, per argomento</l>
+            <l>D’infallibil vittoria:</l>
+            <l>Ma se stan cheti, e motto alcun non fanno,</l>
+            <l>Penso, ch'ottimo sia, ch'il piè volgiamo,</l>
+            <l>E che l'habbiam per infelice augurio.</l>
+            <l>Così fù stabilito, e tosto entrambi,</l>
+            <l>Sù gl'homeri legando, e scudi, et haste,</l>
+            <l>Con le mani, e co' piè su per le balze,</l>
+            <l>Quasi capre pendenti, à gir ci diemmo;</l>
+            <l>S'aiutava l'un l'altro, e quel di sopra</l>
+            <l>Sovente al successor porgea la mano;</l>
+            <l>E se al primiero sdrucciolava il piede,</l>
+            <l>Il sostenea il secondo; alfin giungemmo</l>
+            <l>In cima al colle à l'apparir de l'alba.</l>
+            <l>Quindi movendo il piè verso le tende,</l>
+            <l>Ci scopriron le guardie, e motteggiando,</l>
+            <l>Che da le tane uscissero gli Ebrei,</l>
+            <l>Quasi fere di bosco, e di caverna</l>
+            <l>Gridavan' altamente, o valorosi,</l>
+            <l>Venite pur à non, che vi daremo</l>
+            <l>Quel, ch’andate cercando, allor deposi</l>
+            <l>Ogni senso di dubbio, e di sospetto</l>
+            <l>E volto al mio scudiero, andiam (gli dissi)</l>
+            <l>Che nostra è la vittoria, indi volgendo</l>
+            <l>Quasi il piè fuggitivo, in altra parte,</l>
+            <l>Girammo in fin, ch'à gl'occhi nostri apparve</l>
+            <l>Angolo incustodito, a pena giunti</l>
+            <l>Vibrammo l'haste, et assaltammo un gruppo</l>
+            <l>De' Filistei, che dato in preda al sonno</l>
+            <l>Giacea senza pensier; traffitti i primi</l>
+            <l>Che ci dier ne le man, fecer dal vallo</l>
+            <l>Insensibil passaggio al nero Inferno;</l>
+            <l>Poi senz'indugio ricovrando l'haste</l>
+            <l>Ci spingemm'oltre, e sopra gli altri fummo.</l>
+            <l>Al terrore, al tumulto eransi desti</l>
+            <l>Molti dal sonno, e ci movean incontra</l>
+            <l>Storditi, e con quell'arme,</l>
+            <l>Ch'il caso offerte havea nel gran scompiglio;</l>
+            <l>Ingrossava la gente à noi dintorno,</l>
+            <l>Qual stuol de’ cacciatori à nobil fera;</l>
+            <l>Mà Dio ci scorsi, e l'impeto sostenne,</l>
+            <l>Ne di coloro al cimentar de ferri</l>
+            <l>Corrisposer le forze à l'ardimento;</l>
+            <l>E poi che il doppio frassino si ruppe,</l>
+            <l>Con le spade taglienti arditamente</l>
+            <l>Seguimmo la vittoria, andò la voce</l>
+            <l>Per tutto il campo, e sotto sopra il volse;</l>
+            <l>Ne già credea communemente il volgo,</l>
+            <l>Che fosser soli due gl'assalitori,</l>
+            <l>Mà l'esercito tutto; ‬il Re del Mondo‬‬‬‬‬</l>
+            <l>Quivi l'horror piovendo, e lo spavento</l>
+            <l>Ne le torbide menti, e forsennate,</l>
+            <l>Per la confusion fè, che frà loro</l>
+            <l>(Miseri) s'uccidean; parve nemico</l>
+            <l>il fratello al fratello, il figlio al padre.</l>
+            <l>Tu poiche forse udisti al suon de l'arme,</l>
+            <l>Al nitrir de cavalli, à gl'urli, à i gridi</l>
+            <l>Strepito di battaglia à mio soccorso</l>
+            <l>Sopraggiungesti, e le tue squadre armando</l>
+            <l>De gl’arnesi de morti, e de fuggiti</l>
+            <l>Sai ciò ch'è poi seguito, in questa forma</l>
+            <l>Il ferro à noi sottratto ingiustamente:</l>
+            <l>Fé la nostra vendetta, e al fin ritorno</l>
+            <l>Il fedel brando al suo Signor'ha fatto.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Ben facesti ogni cosa, e non potevi</l>
+            <l>Regger meglio l'impresa, e se non fosse,</l>
+            <l>Ch'il peccato d’alcun turbato hà il tutto,</l>
+            <l>Più non saprei, che desiar potessi.</l>
+            <l>Mà se non può celarsi, e per le stello</l>
+            <l>Fetido fracidume al fin s'accusa;</l>
+            <l>Darà il reone la ragna, e spegneremo</l>
+            <l>L'ira del Ciel col maladetto sangue.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>A punto anch’io testè n'hebbi ragguaglio</l>
+            <l>Col dolor, che conviene, e qui son pronto</l>
+            <l>Per far le parti mie.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Quella fanciulla</l>
+            <l>D’habito peregrin, con cui parlavi</l>
+            <l>Proprio nel giunger mio, sarebbe forse</l>
+            <l>Interesse d’alcun di nostra gente?</l>
+            <l>Scopristi nulla favellando seco,</l>
+            <l>Ond'il misfatto suspicar si possa?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Nulla cosa notai, che possa darmi</l>
+            <l>Ombra di colpa tale, ella mi disse</l>
+            <l>Del prigioniero Oronte esser cose forte</l>
+            <l>E si mostra di lui si innamorata</l>
+            <l>Che prego non lascio, che non facesse,</l>
+            <l>Perche impetrargli io voglia</l>
+            <l>L'amata libertà, nel rimanente</l>
+            <l>Parvemi nobil Donna, honesta, e saggia,</l>
+            <l>Capace di pietà, degna di gratia,</l>
+            <l>La qual parendo a la tua gran clemenza</l>
+            <l>Di conceder à lei, perche non habbia</l>
+            <l>Indarno in me sperato, io grandemente</l>
+            <l>Sarei tenuto al tuo benigno affetto.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Farò, ciò, che vorrai, quando cessata</l>
+            <l>Sia la noia presente. Hor ne le tende</l>
+            <l>Torniamo, e vedrem quivi</l>
+            <l>Per la più certa via che possa darsi,</l>
+            <l>In qual cenere ascoso il foco sia.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Dio voglia, che tal foco</l>
+            <l>Noi non incenda; è meglio qualche volta</l>
+            <l>Non ricercar, che poi</l>
+            <l>Pentirsi del trovato.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Pur’in questo à se simil’è il Mondo</l>
+            <l>Che mai non si somiglia; un breve giorno</l>
+            <l>Non è uniforme, e di novella stampa,</l>
+            <l>Quasi camaleonte imprime il volto</l>
+            <l>Ad ogni cangiar d’aria, in un bel frutto,</l>
+            <l>Ohimè, di quanto mal s'ascose il seme.</l>
+            <l>A noi di crudo affanno è fatta seme</l>
+            <l>Nostr’allegrezza, e n'ha oscurato il Mondo</l>
+            <l>Il proprio Sol; de la vittoria il frutto</l>
+            <l>A noi nacque, e morio tutto in un giorno:‫‬‬</l>
+            <l>Ratto balen, che à pena scopre il volto,</l>
+            <l>Poi riede fosco à la primiera Stampa</l>
+            <l>Colpa mal nata, e de l'inferno stampa,</l>
+            <l>Con profonde radici horribil seme,</l>
+            <l>Ch'alligni in ogni campo, e mostri in volto</l>
+            <l>Al mal accorto, e temerario Mondo</l>
+            <l>D’esser salubre, e delicato frutto,</l>
+            <l>Ahi come turbi à noi così bel giorno.</l>
+            <l>Io non pensava già chiuder il giorno</l>
+            <l>Per tuo diffetto, ò maledetta stampa,</l>
+            <l>Col pianto à gl'occhi, e così amaro frutto</l>
+            <l>Io non mi promettea da sì bel seme,</l>
+            <l>Bench'io conosca lungamente il Mondo</l>
+            <l>E che nol veggia mai con un'sol volto.</l>
+            <l>Com'esser può che discoperto in volto</l>
+            <l>A tante prove, ò rio veleno, un giorno</l>
+            <l>Tu non perda la fede oppresso al Mondo</l>
+            <l>Ond'ei non sia più amico à la tua stampa?</l>
+            <l>Et ammettendo di pietate il seme</l>
+            <l>Non cominci à produr laudabil frutto</l>
+            <l>Di quel fellon, ch’è reo di simal frutto,</l>
+            <l>Deh tu padre del Ciel, palesa il volto,</l>
+            <l>Perche s'estingua il maledetto seme,</l>
+            <l>E ripurgando le tue schiere il giorno</l>
+            <l>Torni sereno à la perduta stampa,</l>
+            <l>E si rinovi ad Israelle il Mondo.</l>
+            <l>Detta le colpe, e le nasconde il Mondo</l>
+            <l>Ne l'atra notte sua, ma senza frutto,</l>
+            <l>Poiche rivela il tuo bel Sol la stampa,</l>
+            <l>E ‘l fuggitivo lor perfido volto,</l>
+            <l>Come fa l'altro in rimenare il giorno,</l>
+            <l>Che scopre de le cose il frutto, e ‘l seme</l>
+            <l>Spero che non vorrai, che spento il seme</l>
+            <l>Eletto giaccia, e per un solo il Mondo</l>
+            <l>Arrechi à tanti tuoi l'ultimo giorno;</l>
+            <l>Spero cadrà l'abominevol frutto,</l>
+            <l>C'hora sotto le foglie asconde il volto,</l>
+            <l>Per non infracidar tutta la stampa.</l>
+            <l>Quel, che più mi traffigge è, che la stampa</l>
+            <l>Fatta da le tue man del nostro seme</l>
+            <l>offeso hà ‘l clementissimo tuo volto,</l>
+            <l>Ch'eterna servitù merta dal Mondo;</l>
+            <l>Se son quell'io, quell'esecrabil frutto,</l>
+            <l>Non arrivi, Signore, al fin del giorno.</l>
+          </sp>
+        </div>
+        <trailer>Il fine del Secondo Atto.</trailer>
+      </div>
+      <div type="act">
+        <head>AΤΤΟ ΤΕRZO.</head>
+        <div type="configuration">
+          <stage>Messo, Coro.</stage>
+          <sp who="#altro_messo">
+            <speaker>MESSO.</speaker>
+            <l>Real Casa, ò generosa prole</l>
+            <l>Di Beniamino, ò gloriosi Ebrei,</l>
+            <l>Son cangiate le vici, eccoci al fondo;</l>
+            <l>Siamo tutti perduti;</l>
+            <l>Quanto vi era di ben, quanto di speme</l>
+            <l>Ohime, ch'un turbo, impetuoso, e stolto</l>
+            <l>A l'improviso horribilmente schianta.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>E ch'esclama costui?</l>
+            <l>Qualche gran novitate in campo è sorta.</l>
+            <l>Dimmi, se non t'è grave,</l>
+            <l>O soldato cortese, onde venuta</l>
+            <l>Sia l'amara cagion del tuo lamento</l>
+            <l>Piaga non tocca al popolo fedele</l>
+            <l>Ch'io non la senta, e non mi passi il core.</l>
+          </sp>
+          <sp who="#altro_messo">
+            <speaker>MESSO.</speaker>
+            <l>Troppo è quel che tu chiedi, e troppa noia</l>
+            <l>E per darti il saperlo.</l>
+            <l>E meglio non cercar quel, che saputo</l>
+            <l>Ti può recar dolore.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Ad ogni modo,</l>
+            <l>S'egli è publico fatto, un dì saprollo</l>
+            <l>A chi riman con l'animo sospeso,</l>
+            <l>Doppio dolore è differire il duolo.</l>
+          </sp>
+          <sp who="#altro_messo">
+            <speaker>MESSO.</speaker>
+            <l>Giunto il Prencipe il capo, il Rè severo</l>
+            <l>Incominciò la rigorosa inchiesta</l>
+            <l>Di chi fosse il nocente, in varie forme,</l>
+            <l>Propose premi, e minacciò; più d’uno</l>
+            <l>Circonvenne con arte, e fè ogni cosa</l>
+            <l>Per rinvenir il ver; mà da se stesso</l>
+            <l>Chi vuol’esporsi à necessaria morte?</l>
+            <l>E per salvar altrui perder se stesso?</l>
+            <l>Geloso il caro figlio,</l>
+            <l>E del gusto del Padre, e de l'amata</l>
+            <l>Salute de l'esercito, e del Regno</l>
+            <l>Non lasciava intentato alcun rimedio,</l>
+            <l>Et ogni aiuto al genitor porgea.</l>
+            <l>Al fin quando fur certi,</l>
+            <l>Ch'indarno si spargea tanta fatica,</l>
+            <l>Ricorsero à le sorti; in una parte</l>
+            <l>Rimase il popol tutto; il Rè nè l'altra</l>
+            <l>Col Prenze insieme palpitava il core</l>
+            <l>A la timida turba; allor, Saulle</l>
+            <l>Volgendo i preghi à Dio, chiese per gratia</l>
+            <l>Ch'il reo falle scoperto, ond'ei potesse</l>
+            <l>Espiar tosto il popolo dolente.</l>
+            <l>Uscir del vaso altier tutte le squadre</l>
+            <l>Libere, et innocenti; il Re col figlio</l>
+            <l>Rimasero colpevoli, la gente</l>
+            <l>Più sospesa, che prima, allor ristette;</l>
+            <l>E ‘l padre, e ‘l figlio vergognosi, e tardi</l>
+            <l>Si guardavan in faccia, infin che tratte</l>
+            <l>Frà lor le sorti poi, chi fosse il rwo,</l>
+            <l>Ohime, ch'il buon fanciul, c'hoggi cotanto</l>
+            <l>Oprato hà col sapere, e con la spada</l>
+            <l>A prò di tutti noi, gloria del padre,</l>
+            <l>E dato ne la rete; è meraviglia,</l>
+            <l>Ch'à chi dolea ‘l morir per se medesmo</l>
+            <l>Se fosse stato reo, sprezzi la vita,</l>
+            <l>Et à morir per Gionata s'esponga:</l>
+            <l>Tanto nel cor de sudditi fedeli</l>
+            <l>Può la virtú di Prencipe benigno</l>
+            <l>Gareggiar, patteggiar, scenderà l'onte</l>
+            <l>Frà lor si veggon tutti; e Dio volesse</l>
+            <l>Che fossi degno anch'io</l>
+            <l>Redimer col mio capo il signor mio.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Ahi, che novella è questa?</l>
+            <l>Dunque avanzammo à le nemiche spade,</l>
+            <l>Per cader ne le nostre</l>
+            <l>E si bella vittoria à nostri arride,</l>
+            <l>Per recar infortunio, a cui non puote</l>
+            <l>Pareggiarsi alcun'altro? è caso atroce,</l>
+            <l>O miserabil figlio di Saulle:</l>
+            <l>Mà che peccato è ‘l suo?</l>
+          </sp>
+          <sp who="#altro_messo">
+            <speaker>MESSO.</speaker>
+            <l>Non tel sò dire;</l>
+            <l>L'Oste a punto per ciò tutta è sossopra.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>E non ci è scampo?</l>
+          </sp>
+          <sp who="#altro_messo">
+            <speaker>MESSO.</speaker>
+            <l>In questo pur non posso</l>
+            <l>darti gusto verun, se non, ch’io torno</l>
+            <l>Stimolato da molti, e da maggiori</l>
+            <l>Al Profeta di Dio, perche s'opponga</l>
+            <l>A l'imminente universal ruina</l>
+            <l>Non mi tener più a bada: Io non hò tempo.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Vattene, e piaccia al Cielo,</l>
+            <l>Che con miglior novelle à noi tu rieda.</l>
+            <l>E tu gran Nume eterno,</l>
+            <l>Deh ‘l tuo favor in si grand’uopo ispira.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Saulle, Gionata, Sergenti.</stage>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Non m'oppos’io? non sospettai del vero?</l>
+            <l>Tu dunque, ò temerario,</l>
+            <l>Havesti tant'ardir, che ti die ‘l core</l>
+            <l>Di macchiar la vittoria, e offender Dio</l>
+            <l>Co’ tuoi brutti misfatti? e follemente</l>
+            <l>A punto ti credesti,</l>
+            <l>Per esser figlio mio d’andarne illeso?</l>
+            <l>Ben tosto t'avvedrai ciò, che dir voglia</l>
+            <l>Sprezzar il dritto, e provocare i Regi.</l>
+            <l>Voglio, che dal tuo esempio ogn'altro impari.</l>
+            <l>Rè giusto a tutti io sono:</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Io non offesi</l>
+            <l>Ne la terra, ne ‘l Cielo, io son l'offeso.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Gionata, il caso è chiaro, in tua presenza,</l>
+            <l>Nulla giovando à ritrovare il vero</l>
+            <l>Mile tentate vie con altra forma,</l>
+            <l>Caddero in te le sorti, e tu se ‘l reo,</l>
+            <l>Te chiede sol la capital sentenza;</l>
+            <l>Le sorti son del Cielo, il Ciel non mente.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Sono di pena reo, non reo di colpa.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Non chiama à pena il Ciel, chi non è in colpa.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Comunque imponga il Ciel, non son in colpa.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Ancor stà pertinace, ancor si crede</l>
+            <l>Il mal nato fellon con questa sua</l>
+            <l>Simulata innocenza, havermi a scherno;</l>
+            <l>Non gli varrà per Dio. Gionata, vedi,</l>
+            <l>Puoi far ciò, che tu voi, che tuo malgrado</l>
+            <l>Mi dirai ‘l tuo misfatto, ò ch'io t'uccido,</l>
+            <l>Sei morto ad ogni modo, al Ferro ultore</l>
+            <l>Già condennato è ‘l maledetto collo.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>L'uccidermi, Signore,</l>
+            <l>Stà ne le mani tue, nissun tel vieta;</l>
+            <l>Ma non posso già dir quel, che non feci;</l>
+            <l>s'occidermi t'aggrada,</l>
+            <l>Togli la vita ad uno, à cui la desti,</l>
+            <l>Nulla offendi del mio, che mio non sono,</l>
+            <l>E morrò volentier, se di tua mano</l>
+            <l>M'avverrà di morire.</l>
+            <l>Godrei ben di sapere, e te ne prego</l>
+            <l>Con profonda humiltà, per qual cagione</l>
+            <l>lomi deggia morire, e morrei pago,</l>
+            <l>Signor, curo l'honor, vita non curo.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Hor vedi l'innocente; empio, sfacciato,</l>
+            <l>Morrai, perche tú ‘l merti, e sei si folle,</l>
+            <l>Che tu ti lasci pur cader in mente</l>
+            <l>Ch'io non vegga le cose, ò non le avverta?</l>
+            <l>M'hai tu per cieco, et in sensato tronco?</l>
+            <l>Non son io certo homai, che quella Donna</l>
+            <l>Di culto peregrin, d’habito estrano</l>
+            <l>Che testè ti segui, gode ‘l tuo amore?</l>
+            <l>Non ascoltai con queste orecchie mie</l>
+            <l>Le parole amorose, e i molli vezzi,</l>
+            <l>Che vicendevolmente ambi faceste?</l>
+            <l>Lascio, che à noi per legge</l>
+            <l>Già dettata da Dio nel sacro Monte</l>
+            <l>Al fiero suon di folgori, e tempeste</l>
+            <l>Tener commercio di straniere amanti</l>
+            <l>Vien affatto interdetto e ch'al'insidie</l>
+            <l>Di Balaam, che le sue Donne offerse</l>
+            <l>Libidinoso ostacolo del bene,</l>
+            <l>Parecchi avoli nostri al giusto ferro</l>
+            <l>Pagarle pene, e si lavar col sangue;</l>
+            <l>Lascia del fier Sansone</l>
+            <l>Il fresco esempio, e lagrimevol caso,</l>
+            <l>Chea la tua passion dovea por freno</l>
+            <l>E persuaderti al detestar la peste,</l>
+            <l>Ch'inevitabilmente</l>
+            <l>Seco la morte, e la ruina adduce;</l>
+            <l>Ma non havesti pur tanto di senno,</l>
+            <l>Che non ti vergognasti,</l>
+            <l>Condurmela su gl'occhi, e far ch'io sia</l>
+            <l>Qui spettator de le lascivie tue?</l>
+            <l>Non si può tolerar cosa si enorme.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Padre del Ciel, tu sai, quanto lontana</l>
+            <l>Dal ver sia quest'accusa,</l>
+            <l>Sgombra tu da le menti il nuvol denso,</l>
+            <l>Reggi la mia innocenza, e le fà scudo.</l>
+            <l>Signore, io dissi quello,</l>
+            <l>Che veramente fù, per altro fine</l>
+            <l>Non venne à me colei, che quel che ho detto</l>
+            <l>Cangiar non posso lingua. Oso ben dire,</l>
+            <l>Se licenza men dai, che tal concetto</l>
+            <l>A Donna di tal merto, è grande oltraggio.</l>
+            <l>Ben sò, ch'interpretar sinistramente</l>
+            <l>Per costume invecchiato il volgo suole</l>
+            <l>Gli atti di cortesia frà li due sessi;</l>
+            <l>Mà un Re non deve giudicar col volgo.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Tu lodi lei per non biasmar te stelo.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Si certo che quando anco in lei talento</l>
+            <l>Contra l'honestà sua fosse caduto,</l>
+            <l>E l'opra, e lastagion dana licenza</l>
+            <l>A me di vagheggiare, e d'impudiche</l>
+            <l>Cure macchiarmi effeminato amante.</l>
+            <l>Amor si nutre d’agio, e non di stento,</l>
+            <l>Ne fra ‘l sangue, e le morti</l>
+            <l>Scherza Venere molle, e delicata,</l>
+            <l>Tutt'hoggi seguitar schiere fuggenti,</l>
+            <l>E sudar sotto l'elmo, e la lorica,</l>
+            <l>Girar laspada, incrudelir nel caldo</l>
+            <l>De la battaglia, arrivare alfine</l>
+            <l>D’un lunghissimo dì stanco, e digiuno,</l>
+            <l>Non credo, che sian'esca,</l>
+            <l>Ond'amor viva, et a piacer s'impingui;</l>
+            <l>Altro pensier, che di lascivie hò in capo.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Sei dunque ancor digiun?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Se non se in quanto</l>
+            <l>Doppo il meriggio assai tutto anelante</l>
+            <l>Si che fuggia dai languidi occhi il lume,</l>
+            <l>De la Tribù d’Efrem dentro i confini</l>
+            <l>Trovai campo di miel tutto coperto,</l>
+            <l>E ‘l sommo de la verga intinto in esso,</l>
+            <l>Gustailo à pena.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Hor quà sta l’angue à punto,</l>
+            <l>A punto in tal cespuglio egli s'appiatta:</l>
+            <l>Mà non sapevitu, non t'era noto,</l>
+            <l>Cattivello di te, che à pena, volte</l>
+            <l>Le spalle del nemico,</l>
+            <l>Fei publicare universal divieto,</l>
+            <l>Che s'astenesse di mangiar ogn'uno,</l>
+            <l>Per non dar tempo al barbaro fugace,</l>
+            <l>Finch'ei fosse sconfitto, e ‘l giorno spento?</l>
+            <l>Non sai ch'io condennai, ch'io maledissi,</l>
+            <l>Chi contra questa legge havesse ardito</l>
+            <l>Oprar? Vuoi tu, ch'il volgo osservi, e stimi</l>
+            <l>Quel che tu primo à violar cominci?</l>
+            <l>Sei reo di morte, à tal speranza, à tale</l>
+            <l>Gioia del Padre io t'allevai frà l'arme,</l>
+            <l>Scelerato garzon, perche la gola</l>
+            <l>Preferisti alla gloria, e prevalesse</l>
+            <l>A gl'imperi paterni un lieve gusto?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Signor, il Ciel mi sia</l>
+            <l>Testimonio fedel, s'altro talento</l>
+            <l>Hebbi già mai, che d’ubbidirti, e certo</l>
+            <l>Mal mi conosce alcun, s'altro ne pensa,</l>
+            <l>E questa man da me fin qui temuta</l>
+            <l>La forma è ben de le sventure mie;</l>
+            <l>Se contravenni al tuo divieto, al gusto,</l>
+            <l>Debbo da l'ignoranza esser difeso,</l>
+            <l>Che non ancor per le diverse vie,</l>
+            <l>Che facemmo divisi in varie torme,</l>
+            <l>N'era à l'orecchie mie giunta la fama;</l>
+            <l>Mà tosto che un guerrier che sopraggiunse</l>
+            <l>Me ne diede contezza, e ravvisando</l>
+            <l>Quello, ch'era purtroppo,</l>
+            <l>De l'incognito error mi fece accorto.</l>
+            <l>Gittai la verga, e ‘l miele, e ‘l viver mio</l>
+            <l>Posposi al tuo voler se reo di morte</l>
+            <l>E chi pecca ignorando, anch'io son reo;</l>
+            <l>Quando al vero però si dia licenza,</l>
+            <l>Io potrei forse dir, che se peccato</l>
+            <l>Pur alcuno vi fù, sol fù peccato</l>
+            <l>(Che sia con ogni riverenza detto)</l>
+            <l>Di così dura, e intempestiva legge;</l>
+            <l>Perche s'allor, che di vivanda agreste</l>
+            <l>Il sommo de le labra à pena tinsi,</l>
+            <l>Io mi senti con repentino aiuto</l>
+            <l>Tornar gli spirti, e invigorir la lena,</l>
+            <l>C'havrebbe fatto ogn'huom, se recrearsi</l>
+            <l>Da la stanchezza sua potuto havesse</l>
+            <l>Con quello, ò d’altro cibo? in campo certo</l>
+            <l>Capo non rimanea de Filistei.</l>
+            <l>Peccai senza peccato, e dal peccato,</l>
+            <l>Quando anco il tuo divieto havessi inteso,</l>
+            <l>Pur la necessità mi dispensava;</l>
+            <l>Io non turbai le cose, e pur son reo.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Che vuoi tu dir per questo? Osi tu forse</l>
+            <l>Torcer la colpa in me, figlio insolente?</l>
+            <l>Di tua sceleratezza e osi le leggi</l>
+            <l>Biasmar del Padre? e sei così prudente,</l>
+            <l>Ch'à si grave censore un Rè soggiaccia?</l>
+            <l>Rimproverar à me canuto veglio,</l>
+            <l>E si ne l'arti di regnar’ esperto</l>
+            <l>Consegli mal'intesi, ordini incauti,</l>
+            <l>Fanciul, che de la buccia à pena spunta?</l>
+            <l>Mal tuo grado il facesti; ò là Sergenti,</l>
+            <l>Tosto rapite in prigionia costui;</l>
+            <l>Spogliati, si, l'immeritate insegne,</l>
+            <l>Depon quell'arme Cavalier non sei.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Padre.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Padre non sono à chi mi sprezza:</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Signor, poi ch'altro nome à me non lasci,</l>
+            <l>Ond'io possa invocarti.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>E questo ancora.</l>
+            <l>Degno fellon, di nominar non sei.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Ohime, che debbo dir?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Spogliati dico.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Eccomi, sfortunato,</l>
+            <l>Ubbidisco, Signor, son reo di morte;</l>
+            <l>E poi che fisso è in Cielo,</l>
+            <l>Che si vilmente abbandonar io deggia</l>
+            <l>Le belle aure vitali, e i rai del Sole</l>
+            <l>Sul fior degl'anni miei de le speranze</l>
+            <l>In altezza di Stato, e di fortuna,</l>
+            <l>Io son pronto à morir, tronchi la scure</l>
+            <l>Quanto vuoi, questo capo, e ‘l sangue mio</l>
+            <l>Plachi l'ira del Ciel, mà perche tanto</l>
+            <l>Sdegno repente entro al tuo sen s'accoglie?</l>
+            <l>Deh non lasciar per Dio, ch'emula lingua</l>
+            <l>Possa questo giammai rimproverarti,</l>
+            <l>Imputando à furor d’ira soverchia</l>
+            <l>Più, ch’à zel di giustitia, il mio supplicio.</l>
+            <l>Non ti domando, ò Rè, che mi condoni</l>
+            <l>L'offesa fatta à Dio, fatta à te stesso;</l>
+            <l>Mà vederti placato almen desio,</l>
+            <l>Per conforto al mio male; lo son indegno</l>
+            <l>D’ogni gratia da te, sollo, e ‘l confesso;</l>
+            <l>Ne voglio rammentar, se qualche merto</l>
+            <l>Hebbi ne la vittoria, onde sei chiaro;</l>
+            <l>Mà pur mi generasti, e son tuo sangue,</l>
+            <l>Non negar à natura il suo diritto,</l>
+            <l>Più l'ira tua, che il mio morir m'è grave;</l>
+            <l>Con un placido tuo suave sguardo</l>
+            <l>Consolato n'andrò giù ne l'abisso.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Cessa per un demerto ogni gran merto.</l>
+            <l>Mà che badate, ò tepidi ministri?</l>
+            <l>Sú incatenate, e custodite il reo.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Misero, à che son giunto?</l>
+            <l>Ove homai son per ritrovar pietate,</l>
+            <l>Se fuggita se n'è dal sen paterno?</l>
+            <l>Dura legge del Ciel, se ‘l Ciel commanda,</l>
+            <l>Che muoia huomo innocente; io pur la credo</l>
+            <l>De gl'huomini rigore, onta del Mondo</l>
+            <l>Ubbidite compagni, al Signor vostro;</l>
+            <l>lo fui già Cavaliere, e Prenze, e Duce</l>
+            <l>Mi chiamavate, hor in balia son vostra,</l>
+            <l>Abbietto, vilipeso, e reo di morte,</l>
+            <l>E nato Rè per esser' infelice,</l>
+            <l>Lugubre esempio de le cose humane.</l>
+          </sp>
+          <sp who="#sergenti">
+            <speaker>SERGENTI.</speaker>
+            <l>Signor, fora di selce, e di diamante,</l>
+            <l>Chi non ti compatisse, e se vedesti</l>
+            <l>il nostro cor d’amara doglia ingombro,</l>
+            <l>Dubbio non hà, ch'à noi compatiresti,</l>
+            <l>Mà tale è il nostro ufficio, e l'altrui voglia.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Vassene il miserabile; l’aspetto,</l>
+            <l>e le querele sue più non potea,</l>
+            <l>Soffrir l'occhio paterno, e non bagnarsi.</l>
+            <l>Mal si può lungamente</l>
+            <l>Contrastar à natura; hor che m'affida</l>
+            <l>L'amica solitudine, si lasci</l>
+            <l>La briglia al mio dolor libera, e sciolta.</l>
+            <l>Ite lagrime mie, finche trovate</l>
+            <l>aperto il varco; egl'avverra ben tosto,</l>
+            <l>Che mi sia di mestier chiuder'i fonti,</l>
+            <l>E mandar'in oblio, che pur son Padre.</l>
+            <l>Misero figlio, ò pur misero Padre</l>
+            <l>Non sò qual più mi dir; mà certamente</l>
+            <l>La tua miseria in un sol colpo hà fine,</l>
+            <l>Che la mia qui comincia, e m'accompagna</l>
+            <l>Con verme inestinguibile nel core</l>
+            <l>Sin à l'ultimo di, fino al sepolcro.</l>
+            <l>In qual necessità, lasso, m'hà tratto</l>
+            <l>O sentenza del Cielo, ò mia follia;</l>
+            <l>Che pur mi deggia insanguinar le mani</l>
+            <l>Nel proprio figlio mio,</l>
+            <l>Primogenito, e tal, che di valore,</l>
+            <l>E d’ogni real pregio ogn'altro avanza?</l>
+            <l>Quelle ragioni sue, quelle parole</l>
+            <l>Tante saette al cor tutte mi furo.</l>
+            <l>Ahi, che ben fa' questo mio seno, questo</l>
+            <l>Di cure, amato figlio, egro ricetto,</l>
+            <l>Che bench'io sol sordo à preghi tuoi,</l>
+            <l>Non son però quel padre</l>
+            <l>Crudel, che tu mi credi;</l>
+            <l>Muor gran parte di me, mentre tu muori,</l>
+            <l>E muori, per ch'io volli; eccomi il frutto</l>
+            <l>De le mie saggie, et avvedute leggi,</l>
+            <l>Ecco il divieto mio, dove ferisce,</l>
+            <l>E ‘l zelo, e i giuramenti, e tante inchieste</l>
+            <l>Per ritrovar’al fin le proprie angoscie;</l>
+            <l>Io l'hò trovate se, mi son legato</l>
+            <l>Con nodi indissolubili si forte,</l>
+            <l>Che di disciormi ogni speranza è chiusa;</l>
+            <l>O non fosse mai stato</l>
+            <l>Quel pazzo armento di mio padre al Mondo;</l>
+            <l>O non si fosser pur smarrite errando</l>
+            <l>Le stolide Giumente; indi la prima</l>
+            <l>Fontana de miei mali à me deriva.</l>
+            <l>Parve al volgo ignorante,</l>
+            <l>Che ritrovando il Regno in vece loro,</l>
+            <l>Gradito al Cielo, e fortunato io fossi;</l>
+            <l>Mà io provo altrimente; ohime, ch’il Regno</l>
+            <l>Perdei de la quiete, et in suo cambio</l>
+            <l>Animali trovai, ch'eternamente</l>
+            <l>Rodommi il cor, e non mi dan riposo;</l>
+            <l>Io la pace perdei, trovai la guerra.</l>
+            <l>O mia primiera sospirata in vano</l>
+            <l>Dolce condition, chi mi ti rende</l>
+            <l>Il Regno à un verde, e dilettoso colle,</l>
+            <l>Che con la superficie adorna, e belle</l>
+            <l>Lusinga assai la curiosa vista,</l>
+            <l>Mà se tenti l'interno, e ‘l sen penetri,</l>
+            <l>Vi troverai con meraviglia grande</l>
+            <l>Caverne portentose, horribil fere,</l>
+            <l>Et atre d’angui, e tortuose spire,</l>
+            <l>Figlio, che pur la lingua in te ricade,</l>
+            <l>Se figlio deggio dirti io, che t'ancido;</l>
+            <l>Tu in vece di regnare, à morir vai,</l>
+            <l>In vece del mio foglio, havrai ‘l feretro,</l>
+            <l>t’invidio l'impero, io tronco gl'anni</l>
+            <l>Per soverchia pietà fatto spietato.</l>
+            <l>Queste son le vittorie</l>
+            <l>Promesse al tuo valor? Questi gli stati</l>
+            <l>Aggiunti al nostro, e le Provincie dome?</l>
+            <l>Questa è la speme, ond'io vivea contento</l>
+            <l>Di dover ristorar la mia vecchiezza</l>
+            <l>con le tue glorie? In questa guisa io veggio</l>
+            <l>Scherzar i figli tuoi con le tue spoglie,</l>
+            <l>E succhiar da tuoi baci il tuo valore</l>
+            <l>Ne le tenere fasce? O Cielo, o caso,</l>
+            <l>O mentecatto Rè de la Giudea.</l>
+            <l>Signor, che l'universo</l>
+            <l>Reggi con giusta, et immutabil legge,</l>
+            <l>Se quest’hostia innocente,</l>
+            <l>Quasi novello Abram ti sveno, e sacro,</l>
+            <l>Gradisci il cor ubbidiente, e porgi</l>
+            <l>Conforto al genitor, che ne la morte</l>
+            <l>Del figlio è per morire, il colpo crudo</l>
+            <l>Non può traffigger lui, ch'à me perdoni.</l>
+            <l>Signor, mi compatisci, ahi, che son padre.</l>
+            <l>Mà tanto homai, Saulle,</l>
+            <l>Al paterno dolor concesso sia,</l>
+            <l>Più oltre non convien; ne l'avvenire</l>
+            <l>Habbia senso di Rè, non più di Padre.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Abner, Achia.</stage>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>TAnto tentammo pur l'ira del Cielo,</l>
+            <l>E movessimo i nembi, e le tempeste,</l>
+            <l>Ch'il folgore in noi scocca, e siam caduti,</l>
+            <l>Ove si supponea, ch’ogn'altro fosse</l>
+            <l>Per inciampar, e per fiaccarsi il collo.</l>
+            <l>Pareami strano pur, ch’il Sol fuggente</l>
+            <l>Non interrotta, e non turbata unquanco</l>
+            <l>Tanta felicità veder dovesse.</l>
+            <l>A me lo stil de la fortuna è noto,</l>
+            <l>Che sul colmo del riso il pianto versa.</l>
+            <l>Forse non volse il meglio; ò Prenze, ò somma</l>
+            <l>Speme del popol tuo, dove sei giunto?</l>
+            <l>Qual fin t'attende, e qual cagion ti porta?</l>
+            <l>Io per me non hò core</l>
+            <l>Da soffrir si gran colpo, e vorrei pure,</l>
+            <l>Che si trovasse via di ripararmi.</l>
+            <l>Padre, e Signor, se mai</l>
+            <l>Huom meritò pietà, questi la merta,</l>
+            <l>Ne ad altri più convien d’esser pietoso,</l>
+            <l>Che à quel sovrano interprete del Cielo,</l>
+            <l>Che de le leggi di pietate hà cura.</l>
+            <l>Deh non mi lasciar solo à tanta impresa,</l>
+            <l>Porgi meco al garzon paterna aita</l>
+            <l>Contra l'ira paterna, e quanto vale</l>
+            <l>Conseglio, et opra, à suo favore impiega.</l>
+            <l>Tè ‘l grave uffitio, e la canuta etate</l>
+            <l>Rendon più venerando, e ti dan campo</l>
+            <l>Di far capace il Rè spegner il foco.</l>
+            <l>Togli, se ‘l Ciel ti guardi,</l>
+            <l>La ruina del Regno, e ‘l nostro pianto.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Signor, non piaccia à Dio, ch’il Prenze io meno</l>
+            <l>Ami de la mia vita, e meno il curi;</l>
+            <l>Volesse pur il Ciel, che col mio sangue</l>
+            <l>Ricovrar il potessi;</l>
+            <l>Ma temo assai, strane novelle intendo</l>
+            <l>E si sono spettacoli veduti</l>
+            <l>Da far gelare a più feroci il sangue.</l>
+            <l>Ben dei saper, ch'il Padre</l>
+            <l>Torvo, et inesorabile poc'anzi</l>
+            <l>Senza senso d’amor, senza riguardo</l>
+            <l>Del regio stato di si chiaro figlio</l>
+            <l>D’ogni altezza il depose, e ne le mani,</l>
+            <l>Quasi infame plebeo, diello à sergenti.</l>
+            <l>Asi tragica vista à le parole</l>
+            <l>Del misero fanciullo</l>
+            <l>Piansero i circonstanti amaramente:</l>
+            <l>Ei nel pianto commun non si commosse</l>
+            <l>Più che faccia il Carmelo ò Soffio d’aura,</l>
+            <l>Ne dal suopetto uscio</l>
+            <l>Pur un sospiro in testimon, ch'è padre.</l>
+            <l>Parmi che maggior fiamma in lui sia accesa</l>
+            <l>Di quella che da me spegner si possa,</l>
+            <l>E qual ei sia, se da soverchio sdegno</l>
+            <l>Vien sopraffatto à te per prova è noto,</l>
+            <l>Con tutto questo à le mie parti nulla</l>
+            <l>Farò di mancamento, ancor, ch'io fossi</l>
+            <l>Percorrer rischio in me medesmo; io lodo,</l>
+            <l>Che vi si aggiunga il tuo favore ancora:</l>
+            <l>A molti intercessori</l>
+            <l>E meno aperta di negar la via.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Che à le sue passioni il Rè sia servo,</l>
+            <l>E per ogni cagion tanto si accenda,</l>
+            <l>Che toglie l'ardimento a più costanti,</l>
+            <l>Io non lo niego; e se gli noccia, il miro;</l>
+            <l>Mà s'egli è tale, ove d'altrui si tratta,</l>
+            <l>A questa legge forse</l>
+            <l>Non è soggetto il figlio, e qualche forza</l>
+            <l>Hà l'affetto natio nel sen paterno.</l>
+            <l>Gran cosa è un figlio, e pria, che si risolva</l>
+            <l>D’insanguinarsi alcun ne le sue carni,</l>
+            <l>Credo che molto pensi, e molto sudi.</l>
+            <l>Se zelo il muove di giustitia e teme,</l>
+            <l>Ch'il perdonare al figlio, à lui non rechi</l>
+            <l>Da la garrula fama indegno biasmo,</l>
+            <l>Sai tu meglio di me, ch'in questi casi</l>
+            <l>Amano i saggi Rè scuse, e pretesti,</l>
+            <l>Che vaglia lor di scudo in contra i colpi</l>
+            <l>De’ susurri del volgo, e de’ censori,</l>
+            <l>E godon di far quel ne l'apparenza</l>
+            <l>Vinti da prieghi altrui, che per se fanno,</l>
+            <l>Mertan con altri in appagar se stessi.</l>
+            <l>Non ci spaventi l'horrido principio,</l>
+            <l>Grand'impeto men dura, e forse comple,</l>
+            <l>Dovendo perdonar di qui à qualche hora,</l>
+            <l>Mostrar senso si fier, perch’altri impari</l>
+            <l>A non sprezzar, ne violar le leggi.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Che che succeder deggia, io, Capitano,</l>
+            <l>Ogni mia possa certo</l>
+            <l>(Replico) impiegherò per la salute</l>
+            <l>Del povero garzon, e del seguito</l>
+            <l>Senza dimora à te darò ragguaglio,</l>
+            <l>Perch'ove ciò non vaglia, altro partito</l>
+            <l>Prender si possa; in ogni forma; in ogni</l>
+            <l>Arte mi cangierò, perch'ei si salvi.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Io pur farò lo stesso, e se non altro,</l>
+            <l>Ogni studio poniam, ch'il Rè feroce</l>
+            <l>Non precipiti il fatto, e il beneficio</l>
+            <l>Procuriamo del tempo: Intanto forse</l>
+            <l>Il Profeta di Dio, che saprà il caso,</l>
+            <l>Affrettarà di comparie in campo</l>
+            <l>Per giovare al fanciullo; il tempo ancora</l>
+            <l>Farà le parte sue, che ben tu fai,</l>
+            <l>Quanto cangi le cose; opre, e pensieri</l>
+            <l>Piglian faccia novella à nuovo giorno,</l>
+            <l>E l'ira col tardar perde la forza;</l>
+            <l>Immutabile è solo</l>
+            <l>L'onnipotente, e sempiterno Nume.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>АHi come, ò Regio figlio,</l>
+            <l>Come peccasti tu, se pur peccasti?</l>
+            <l>Come ‘l candor macchiasti,</l>
+            <l>Alma pura, innocente.</l>
+            <l>Che facea scorno al più lodevol giglio.</l>
+            <l>Non fù, non fù consiglio</l>
+            <l>Questo de la tua mente;</l>
+            <l>Fù forza, non sò qual, ma à noi nemica,</l>
+            <l>Che ti rapì contra l'usanza antica,</l>
+            <l>Ahi, perche tanta doglia,</l>
+            <l>Se l'opra sol è rea giusta la voglia?</l>
+            <l>Và forse mendicando</l>
+            <l>Cagioni contra noi lo Ciel superbo?</l>
+            <l>Forse avversario acerba</l>
+            <l>De i posteri d’Adamo</l>
+            <l>Colorisce ragion d’usare il brando</l>
+            <l>O pur in questo bando,</l>
+            <l>Che per un pomo habbiamo,</l>
+            <l>Le miserie mortali à lui son giuoco?</l>
+            <l>Nol credo io nò, che si malvagio foco</l>
+            <l>So, che la sù non arde,</l>
+            <l>E son le pene involontarie, e tarde.</l>
+            <l>Se le cadute sorti</l>
+            <l>Non fossero di lui, che non è ingiusto,</l>
+            <l>Direi, che sempre al giusto</l>
+            <l>Nemica è la fortuna,</l>
+            <l>E i mortali miglior sempre vuol morti,</l>
+            <l>O valorosi, ò forti,</l>
+            <l>Vedete, ove s'aduna</l>
+            <l>Tanta virtù, quant'infortunio è giunto;</l>
+            <l>Quanto ha ‘l Mondo di mal, che pur è un punto</l>
+            <l>Le vostre palme han chiaro</l>
+            <l>Il color de le foglie, il frutto amaro:</l>
+            <l>Ma se non è diffetto</l>
+            <l>Del Ciel, ch'anco innocente anima pia</l>
+            <l>Provi la sferza ria</l>
+            <l>D’Aletto, e di bellona,</l>
+            <l>Convien, che sia de la natura effetto,</l>
+            <l>E di questo imperfetto,</l>
+            <l>A cui nulla perdona.</l>
+            <l>Poi che spiccò con la spietata morte</l>
+            <l>Da un ramo insieme ogni malvagia sorte.</l>
+            <l>Se langue un fior, che suole</l>
+            <l>Languir, non chiami ingiurioso il Sole.</l>
+            <l>Ahi, con che ardor ci viene</l>
+            <l>Ingannando sovente il desir nostro;</l>
+            <l>In quel bugiardo chiostro,</l>
+            <l>Che questo lusinghiero</l>
+            <l>Ci mostra pinto di color di bene,</l>
+            <l>Le velenose arene</l>
+            <l>Celano un'angue fiero,</l>
+            <l>Ch'il viver nostro insidioso assale.</l>
+            <l>Credevam di fuggir (miseri) il male</l>
+            <l>Con la tenuta inchiesta</l>
+            <l>E ‘l mal à punto, e la ruina è questa.</l>
+            <l>E stato nostro voto</l>
+            <l>La salute del Regno, et ecco il crollo:</l>
+            <l>Tu stesso inesti il collo</l>
+            <l>Nel laccio, che tendesti,</l>
+            <l>Prencipe incauto, al malfattore ignoto.</l>
+            <l>Qui supplice, e divoto,</l>
+            <l>Sole, che il sol facesti,</l>
+            <l>Pregoti illuminare i nostri horrori,</l>
+            <l>Fà che vediamo i candidi Splendori</l>
+            <l>Di quella via, smarrita,</l>
+            <l>Onde il figlio real si serbi in vita.</l>
+            <l>Quest'è tua causa, quinci</l>
+            <l>Pende lo stato de seguaci tuoi:</l>
+            <l>Solvi, Signor, del turbine, che puoi,</l>
+            <l>Le rie procelle, et adre;</l>
+            <l>fà, ch'il Padre ritorni ad esser Padre.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>Il fine del Terzo Atto.</head>
+      </div>
+      <div type="act">
+        <head>ATTO QUARTO.</head>
+        <div type="configuration">
+          <stage>Saulle, Achia.</stage>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Se non interrompea quest’accidente</l>
+            <l>Le nostre gioie, e ‘l corso avventuroso</l>
+            <l>De la vittoria, Prencipe nel Mondo</l>
+            <l>Più felice di me certo non era;</l>
+            <l>Potea dir; sono à la fortuna in braccio;</l>
+            <l>Debellar in un di tutti i nemici,</l>
+            <l>Quel che fan gl'altri à pena</l>
+            <l>Con lunghissimo tempo, e dubbie imprese,</l>
+            <l>Far in un colpo, e senza rischio, e sangue,</l>
+            <l>E la maggior felicità, che possa</l>
+            <l>Desiderar huom grande.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Al Nume eterno,</l>
+            <l>invittissimo Re, gratie minori</l>
+            <l>Di quel, che ti negò render non dei,</l>
+            <l>Che di quel, che ti diè; tutto è suo dono</l>
+            <l>Ciò, che dà, ciò che toglie, indifferente,</l>
+            <l>Scorgendo a pien quell'infinita luce,</l>
+            <l>A cui nulla è futuro, ignoto nulla</l>
+            <l>Ciò, ch'à nostra salute, ò noccia, ò giovi.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Questo è vero, Signor, mà qualche volta</l>
+            <l>Così strani successi il caso porta,</l>
+            <l>Che ben saria di Saffo,</l>
+            <l>Chi qualche senso al cor non ne provasse.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Se rechi al grande Iddio, com'à lor fonte,</l>
+            <l>Tutte le cose tue, cede ogni senso.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Non sò, chi tanto vaglia, ove si tratta</l>
+            <l>Di perder figlio tal si amaramente.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Signor, quest'accidente è così grave</l>
+            <l>(Dissimular non posso il mio dolore)</l>
+            <l>Che mentre non sollevo al Ciel le penne,</l>
+            <l>Ogni talento di prudenza io perdo.</l>
+            <l>Mà come che sovente à noi siam fabri,</l>
+            <l>De le nostre sciagure, io ti ricordo</l>
+            <l>(Concedasi al mio zel questa licenza)</l>
+            <l>Ad avvertir, ch'in questo</l>
+            <l>Tu misero non sia, per ch'esser voglia,</l>
+            <l>Non perche deggia.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Io misero pur sono,</l>
+            <l>Perche far altrimente à me non lice.</l>
+            <l>Pazzo è colui, che le miserie incontra.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>La passion però spesso n'inganna;</l>
+            <l>Onde parrebbe à me che si dovesse</l>
+            <l>Frapporre un'ragionevole intervallo,</l>
+            <l>E dar in tanto campo.</l>
+            <l>A più savi consegli, e più sicuri,</l>
+            <l>Siam sempre à tempo à gastigare il reo,</l>
+            <l>Quel, c'hoggi non vedia, vedrem domani;</l>
+            <l>Nulla necessità ne circoscrive</l>
+            <l>Più questo, ch'altro giorno.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Non siamo in cose dubbie, il caso è chiaro</l>
+            <l>Più chiaro voi, ch'à mezzo giorno il Sole?</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Non sò, se chiaro sia, come tu ‘l fai;</l>
+            <l>Io con occhio più dritto il miro forse?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Come? tu, che del culto, e de le leggi</l>
+            <l>Sacrosante di Dio Preside sommo,</l>
+            <l>E difensore hereditario sei,</l>
+            <l>Tù, che dei far, ch'ognuno</l>
+            <l>osservi à lui de le promesse il voto,</l>
+            <l>In si grave bisogno à me vorrai</l>
+            <l>In dubbio revocar, quel, ch'io gli debbo</l>
+            <l>A me, ch'al popol mio semo di legge,</l>
+            <l>Da l'esempio del quale ogn'altro pende?</l>
+            <l>Gran cosa mi par questa, e veramente</l>
+            <l>D’alto stupor, e meraviglia degna.</l>
+            <l>Mà rispondi per Dio, non promulgai</l>
+            <l>Illimitato universal divieto,</l>
+            <l>Che non gustasse alcun cibo, ò bevanda</l>
+            <l>In pena de la vita infin'à notte?</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Non niego.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>E non è ver, che quando chiuse</l>
+            <l>L'oracolo Divin' la sacra bocca,</l>
+            <l>E ritenne in silentio i suoi compensi,</l>
+            <l>Questo tu stesso derivar dicesti</l>
+            <l>Dal peccato d’alcun, che de’ punirsi</l>
+            <l>Capitalmente, et io giurai di farlo.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>E questo pur è vero.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Mà s'al divieto</l>
+            <l>Gionata contravenne, e s'il peccato,</l>
+            <l>Ch'impedisce di Dio gl'alti favori</l>
+            <l>Esser di lui non d’altri</l>
+            <l>Dichiarato è dal Cielo, ed e' il confessa,</l>
+            <l>Che dubbio esser vi può, che la sentenza</l>
+            <l>In lui non cada, e che morir non deggia?</l>
+            <l>Forse il ricoprirà l'esser mio figlio?</l>
+            <l>Questo non già, che non vò figli al Mondo,</l>
+            <l>Da quali alcun disubbidir impari.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Fù così involontario il suo peccato,</l>
+            <l>Ch’ò la necessitate, ò l'ignoranza,</l>
+            <l>Qualunque ella si sia, nol fà peccato.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Mà non l'intende in questa forma il Cielo,</l>
+            <l>Ch'assai lo publicò per reo di morte,</l>
+            <l>Quando contraria in lui piobbe la sorte.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Questo non mi convince.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Perche la sorte in lui?</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Perch'è innocente.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Buono, perch'è innocente, ei, de’ punirsi.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Anzi per ch'è innocente ei de’ salvarsi;</l>
+            <l>Che non dechiarò il Ciel con le sue sorti</l>
+            <l>Il Prencipe nocente,</l>
+            <l>Ch'assai palesemente hà dimostrato</l>
+            <l>Con si bella vittoria essergli caro,</l>
+            <l>Mà dichiarò non approvar le leggi,</l>
+            <l>Che noi facciamo, e a vederne chiede,</l>
+            <l>Ch'esser dovian più cauti</l>
+            <l>In far divieti, e giuramenti, à quali</l>
+            <l>Pur troppo è ver, che spesso</l>
+            <l>Nulla necessità ci risospigne.</l>
+            <l>Non vuol'esser tentato, il Re del Mondo,</l>
+            <l>Ne giusto è il farlo, ond'ei però talvolta</l>
+            <l>Sinistri incontri a l'innocente invia,</l>
+            <l>Per ch'il reo si corregga, abissi cupi</l>
+            <l>Sono i giudici suoi, folle chi pensa</l>
+            <l>Là dentro penetrar senza il suo raggio.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Questa dottrina tua più non intesi,</l>
+            <l>Ch’ad emenda de’ rei Dio così giusto</l>
+            <l>Fulmini gl'innocenti; e potria meglio</l>
+            <l>Capir in mente mia, se tu dicesti,</l>
+            <l>Ch'il pianeta maggior, ch'è si lucente,</l>
+            <l>Porta la notte, e di pallor s'ammanta.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Signor, de le mie voci il sentimento</l>
+            <l>Sanamente s'intenda, il giusto Dio</l>
+            <l>Gli homeri non percuote à l'innocente</l>
+            <l>Per esser innocente, à lui non manca</l>
+            <l>Titolo giusto de flagelli suoi.</l>
+            <l>Sovente il fà, perche d’esempio vaglia</l>
+            <l>La costanza del buono al cor del reo;</l>
+            <l>Il fà per por ne l'esempio alto spavento</l>
+            <l>Ondà la via mortal volga le terga,</l>
+            <l>Mentre scorge in affanno huom, che nol merta;</l>
+            <l>O tal elegge pur così congiunto,</l>
+            <l>Che nel vivo ce 'n doglia, e quinci il dritto</l>
+            <l>Camin troviamo à così duro scoglio</l>
+            <l>Noi rompessimo à punto, in questa cupa,</l>
+            <l>E dubbiosa voragine ci spinse</l>
+            <l>L'eterna sapienza, e ‘l figlio elesse</l>
+            <l>Per far colpo maggior, si ch'il timore</l>
+            <l>Nel cor rimanga alteramente impresso,</l>
+            <l>E ci vaglia di scorta in altri eventi;</l>
+            <l>Misero è quel, ch'al proprio rischio impara</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Comunque il fatto siasi, io finalmente,</l>
+            <l>Saprò vincer me stesso, e non volere,</l>
+            <l>Che ciò mi faccia senso: ove si tratta</l>
+            <l>D’obligo di giustitia, io non son Padre;</l>
+            <l>Ne, Pontefice mio, la tua ragione</l>
+            <l>Fin qui mi fa cangiar mente, o sentenza,</l>
+            <l>Se Gionata per altro</l>
+            <l>E reo di morte, rimaner in vita</l>
+            <l>Non speri già, perch'à Saul sia figlio.</l>
+            <l>Se poi negar si può, che non sia reo,</l>
+            <l>Mentre con quella sua</l>
+            <l>Prava simplicità, ch’il Mondo inganna,</l>
+            <l>Contravenne à l'editto ed e' il confessa,</l>
+            <l>E ‘l giuramento, e la caduta il lega</l>
+            <l>De le sorti del Cielo, à cui soggiacque,</l>
+            <l>Il dica, chi più intende.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>L'editto (io non favello</l>
+            <l>Con chi la forza de le leggi ignori)</l>
+            <l>Non obliga colui, che non lo seppe,</l>
+            <l>Quando non fù sua colpa il non saperlo;</l>
+            <l>E quella volontaria</l>
+            <l>Confession del Prencipe fù tale,</l>
+            <l>Che più l'assolve assai, che nol condanna.</l>
+            <l>Se ti dà noia il giuramento, è vero,</l>
+            <l>Che i giuramenti sono</l>
+            <l>Opera sacrosanta, e ‘l violarli</l>
+            <l>E misfatto gravissimo; mà tutti</l>
+            <l>Non han per avventura i giuramenti</l>
+            <l>La medesma ragion, la stessa forza,</l>
+            <l>E se mal si giurò, non sia mai bene</l>
+            <l>Osservar il giuramento; aggiungi colpa,</l>
+            <l>Signor, à colpa e ‘l primo fallo aggravi.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Io dunque giurai mal, quando giurai</l>
+            <l>Di punir il misfatto? e de tuoi sensi</l>
+            <l>Seguitai le vestigia? altrui tu dunque</l>
+            <l>Comandi cose male, opere non giuste?</l>
+            <l>Guarda, che tu ne la tua stessa rete</l>
+            <l>Non avviluppi il piede.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>lo dissi sol, che si punisse il reo,</l>
+            <l>Ma distinguer del reo meglio conviene;</l>
+            <l>Quel, che di nuovo sorge,</l>
+            <l>Nuovo conseglio chiede:</l>
+            <l>Gionata a creder mio non siè mai reo,</l>
+            <l>Né legge in lui, nè giuramento cade.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Se legge, e giuramento in lui non cade,</l>
+            <l>Replico, e qui mi fermo,</l>
+            <l>Il giuditio di Dio certo vi cade</l>
+            <l>Infallibile, e dritto, e de’ bastarmi,</l>
+            <l>Che la sentenza di la sù ‘l condanni.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Così torniamo à la ragion di prima,</l>
+            <l>La qual par’ à me pure assai distrutta</l>
+            <l>Da le risposte mie, dove tu voglia</l>
+            <l>Acconsentir, che non son sempre tali</l>
+            <l>Le cose, quali à prima vista huom pensa.</l>
+            <l>Signor, questo (mi credi) è un documento,</l>
+            <l>Che non danna il Garzon, ma noi corregge,</l>
+            <l>E in via ci pon di maturar le cose,</l>
+            <l>E trar dal precipitio il piè lontano</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Mà senz'effetto il documento è nullo.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Il periglio vicin và per l'effetto.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Troppo tu l'assottigli, à me non sembra,</l>
+            <l>Che così per minuto altri dovrebbe</l>
+            <l>Disputar de le cose à Dio dovute.</l>
+            <l>Son’huom di guerra, e vò, che più mi vaglia</l>
+            <l>La mia semplicità, che gli argomenti,</l>
+            <l>E ‘l gran saper altrui; perche vogliamo</l>
+            <l>Recar tenebre al Sol? turbare il giorno</l>
+            <l>Tanto ne fece un Capitan de nostri,</l>
+            <l>Che giurò anch'esso, e fece voto à Dio,</l>
+            <l>Se da la guerra, onde s'oppose à i figli</l>
+            <l>D’Ammon, ritorno vincitor facea,</l>
+            <l>D’offrir vittima à lui la prima cosa,</l>
+            <l>Che dal soggiorno suo li venia incontra.</l>
+            <l>Vinse, e tornò; de la promessa altera</l>
+            <l>Fù rea (caso purtroppo, e noto, e pianto)</l>
+            <l>La tenera del Prenze unica figlia:</l>
+            <l>Il Padre perditor ne la vittoria</l>
+            <l>La svenò su gl'Altari, e sciolse il voto.</l>
+            <l>Eran leggi, e consegli anco à suo tempo,</l>
+            <l>E crederò, che si grand'opra fosse</l>
+            <l>Ventilata ben prima; al fin si fatto</l>
+            <l>Ciò ch'egli havea promesso, e non gli parve</l>
+            <l>Che Dio fusse un fanciul da scherzar seco</l>
+            <l>Miglior di Gefte esser non debbo in questo,</l>
+            <l>Ne vò saperne più de’ miei maggiori.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Signor, e ver, ch'ogn'altro</l>
+            <l>Il tuo giuditio, il tuo saper avanza;</l>
+            <l>Mà sono ripartiti</l>
+            <l>Gli uffici in questa vita‬, e stabiliti‬‬‬‬‬‬</l>
+            <l>A ciascuno i confin, de la sua sfera;</l>
+            <l>Se mai mi bisognasse alcun compenso</l>
+            <l>Nel mestier de la guerra, e trattar l'armi</l>
+            <l>Dovessi in campo, io certo</l>
+            <l>Tutto riportariami al tuo conseglio.</l>
+            <l>Hor che di cose al Ciel spettanti, à Dio</l>
+            <l>Sú la vita d’un huom qui si consulta,</l>
+            <l>Non sò veder quel, che del tuo tu perda;</l>
+            <l>s'a ministri di Dio tu ti rimetti;</l>
+            <l>Tratti ogn'un l'arte sua, cosi facendo,</l>
+            <l>Sia ‘l peccato non tuo, se peccherai;</l>
+            <l>Un gran vantaggio a chi comanda è questo,</l>
+            <l>Ch'in simil casi conservar si possa</l>
+            <l>Candido, et innocente anco peccando.</l>
+            <l>Se tu prendi à imitar l'opra di Gefte,</l>
+            <l>Mal'esempio per Dio, Signor, tu prendi,</l>
+            <l>Furo il voto, e ‘l disciorlo ambe follie,</l>
+            <l>Hor il segui, e raccogli</l>
+            <l>Gloria pari à la sua; protesto, e giuro,</l>
+            <l>Che ne Gefte, ne tu sete innocenti.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Esser non può nocente</l>
+            <l>Chi osserva quel, ch'egli ha promesso à Dio.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>A questa volta Dio</l>
+            <l>Ti dispensa per certo, e nong radisce</l>
+            <l>osservanza men giusta, e ben crudele.</l>
+            <l>Pensavi, te ne prego, e se i giudici</l>
+            <l>De l'opre d’altri maturar tu dei,</l>
+            <l>Perche coscienza il cor non ti rimorda,</l>
+            <l>E la garrula fama, e temeraria</l>
+            <l>Non habbia contra te ragion alcuna,</l>
+            <l>Tanto più sei tenuto, ove si tratta</l>
+            <l>Di Prencipe, e tuo sangue; ogni cagione</l>
+            <l>Schiffar di pentimento; egli è pur figlio,</l>
+            <l>In cui tutte le gratie il Ciel congiunse,</l>
+            <l>E magnanimo, e forte, e de’ paterni</l>
+            <l>Imperi esecutor fido, e costante,</l>
+            <l>Che se consente Dio, ch'egli s'avanzi</l>
+            <l>A viè più ferma età, gli anni più gravi</l>
+            <l>Poserai nel suo seno, e lungamente</l>
+            <l>Saran le sue vittorie i tuoi diporti.</l>
+            <l>Dico di più, che come Prenze, e come</l>
+            <l>Signor futuro, e successor nel Regno,</l>
+            <l>E la persona sua ragion del Regno,</l>
+            <l>Cosa ancidi non tua, se tù l'ancidi.</l>
+            <l>T'esorto, ò Rè sublime, e ti riprego,</l>
+            <l>Per quanto ami la vita, ami ‘l tuo honore,</l>
+            <l>Per la pietà, ch'al Re del Ciel tu dei,</l>
+            <l>Differisci, e matura, alcune cose</l>
+            <l>Chiedono tempo, e se talor l'affretti</l>
+            <l>Soverchiamente, il pentimento è tardo:</l>
+            <l>Che dirà ‘l Palestino? à tuoi nemici</l>
+            <l>Vuoi dar questo piacer, che così tosto</l>
+            <l>Veggano in casa tua la lor vendetta,</l>
+            <l>E sprezzin maggiormente il Divin culto</l>
+            <l>Non perdonando di bestemmie à Dio?</l>
+            <l>Cessa Rè glorioso, e con te stesso</l>
+            <l>Fà tregua alquanto, e si gran fatto libra.</l>
+            <l>E questo un sentimento universale</l>
+            <l>Del'esercito tutto, e del tuo Regno,</l>
+            <l>Che mertan pur da te gratia si giusta;</l>
+            <l>Parlo in nome di tutti, in questa voce</l>
+            <l>E la voce d’ogn'un.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Ne perdonargli</l>
+            <l>Nel suo supplicio differir prometto</l>
+            <l>Farò quel, che richiede il giusto, e ‘l pio,</l>
+            <l>E quel riguardo havrò, che si conviene</l>
+            <l>À le ragioni, à le preghiere tue.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>O Dio, gran cosa è pure,</l>
+            <l>Ch'à colpi si possenti ei non si pieghi.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Achia, Abnero.</stage>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Giungi à tempo, Signore, ò quanto avverse</l>
+            <l>Succedono le cose, il Rè severo</l>
+            <l>Stà pertinace, e saldo</l>
+            <l>Più, ch'il Tauro, ò l'Atlante incontra i venti</l>
+            <l>Che ragioni non dissi? e ch'argomenti</l>
+            <l>Non trassi in campo? e tutti in darno furo;</l>
+            <l>E benche in fine alcune</l>
+            <l>Poche parole humane ei vomitasse,</l>
+            <l>Vuote però d’ogni promessa, pure</l>
+            <l>Non me ne fido.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Hò troppo ben'udita,</l>
+            <l>Ch'io non era lontan, l'alta contesa.</l>
+            <l>E veggio con dolor, ch'ogn'altro avanza</l>
+            <l>Quanto vana speranza à noi rimanga</l>
+            <l>Da la parte del Rè; ma facciam core,</l>
+            <l>E vaglia altro rippiego: io già nel campo</l>
+            <l>Hò pensato di porre ordini tali,</l>
+            <l>Ch'ove un cenno vi sia di cose nuove</l>
+            <l>Contra il misero figlio, ogn'un s'opponga</l>
+            <l>A ministri de l'opra, e lui difenda,</l>
+            <l>Sin che questo prim'impeto trappassi,</l>
+            <l>E 'l soverchio calor s'intepidisca;</l>
+            <l>Io sarò in ogni loco, e in apparenza</l>
+            <l>Terrò col Rè, mà col fanciul con l'opra.</l>
+            <l>Così m'intenderò co' miei più fidi</l>
+            <l>Per l'esercito sparsi il cui susurro</l>
+            <l>Servirà francamente al desir nostro.</l>
+          </sp>
+          <sp who="#achia">
+            <speaker>ACHIA.</speaker>
+            <l>Accortamente, à Capitano, avvisi;</l>
+            <l>Mà andiam, che per l'esempio</l>
+            <l>Del successo crudel, che testè avvenne,</l>
+            <l>E per lo sdegno, che nel Rè non langue,</l>
+            <l>Io non giudico ben, che dimoriamo,</l>
+            <l>Da lui lontani in così gran periglio.</l>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO DELLA GUARDIA DEL RE.</speaker>
+            <l>Oh Dio, che duro ufficio il Rè m'impone;</l>
+            <l>Non già di Tigre, ò di Cerasta io nacqui,</l>
+            <l>Ne le mamme succhiai d’Orsa selvaggia</l>
+            <l>Ch'esser eletto à incrudelir dovessi.</l>
+            <l>A le sventure mie mancava questa;</l>
+            <l>Anco questo ludibrio il Ciel m'aggiunge,</l>
+            <l>Che poco meno io sia,</l>
+            <l>Ch'infame esecutor, che reo ministro</l>
+            <l>De la morte crudel del mio Signore;</l>
+            <l>E pur convien, ch'io ‘l sia mal grado mio,</l>
+            <l>Necessità di servitù mi sforza,</l>
+            <l>Così vuol fede, ò pur follia de’ servi</l>
+            <l>Con specioso titolo di fede,</l>
+            <l>Che se sia mai, ch'io torni</l>
+            <l>A la quiete, e libertà primiera,</l>
+            <l>Solo mio voto, e de’ miei premi il sommo,</l>
+            <l>Ben dovrò lagrimare amaramente</l>
+            <l>D’haver seguito di soverchio il Mondo,</l>
+            <l>E preferito in diligenza, e zelo</l>
+            <l>Il servigio d’un huomo à quel di Dio,</l>
+            <l>Comanda il Rè; ch'io vada</l>
+            <l>A far tosto eseguir l'aspra sentenza</l>
+            <l>In persona del figlio, in questo fatto</l>
+            <l>Così fiero, et atroce pensar solo,</l>
+            <l>Se sia giustitia, ò pur ragion de grandi,</l>
+            <l>Che quel pensier, che s'hanno</l>
+            <l>Fisso una volta, e stabilito in core,</l>
+            <l>Benche del proprio error si sieno accorti,</l>
+            <l>Vogliono sostener fino à l'estremo,</l>
+            <l>Disputare io non voglio: il Ré conosce</l>
+            <l>Ciò, che può, ciò, che deve; à me dà noia,</l>
+            <l>Che dovendo seguir caso si fiero,</l>
+            <l>Io v’habbia parte: e con qual cor, con quale</l>
+            <l>Lingua proferirò quelle parole</l>
+            <l>Atroci, abominevoli, e ferali,</l>
+            <l>Che denno esser cagion, che de la vita</l>
+            <l>Del buon Prencipe mio si tronchi il filo?</l>
+            <l>Con quali occhi vedrò, misero, al fine</l>
+            <l>Quell'infame spettacolo, e horrende</l>
+            <l>Àhi perche à si aborrito ministero</l>
+            <l>Non si chiudono i sensi? E la Natura</l>
+            <l>Per esser liberale à miei desiri,</l>
+            <l>Non fà qui d’improviso</l>
+            <l>Un atto d'avaritia, e non li lega?</l>
+            <l>Hor ne plorar, ne lamentar si giova</l>
+            <l>Ne questo amaro calice, e funesto</l>
+            <l>O declinar, ò differir si puote;</l>
+            <l>Andiam, guardimi Dio da qualch'incontro,</l>
+            <l>Che l'Oste non s'opponga, et io non sia</l>
+            <l>Nel sagrificio del novello Gefte</l>
+            <l>Vittima lagrimosa in vece altrui.</l>
+            <l>Mà se l'incontro mio</l>
+            <l>Con la vita del Prencipe è congiunto,</l>
+            <l>Succeda ciò, che vuole, allor mi sia</l>
+            <l>Dolce spirar per lui l'anima mia.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Misero, che far deggio?</l>
+            <l>Ove ricorro, ahi lasso?</l>
+            <l>Chi mi tempra il dolor? chi mi conforta?</l>
+            <l>A noi rivolto il passo</l>
+            <l>Han dal Tartareo seggio</l>
+            <l>Tutti i malor de la tremenda porta.</l>
+            <l>Lampa, ch'al di fai scorta,</l>
+            <l>Stelle fisse, et erranti,</l>
+            <l>Non riguardate, nò del nostro occaso</l>
+            <l>L'abominevol caso,</l>
+            <l>Lo spettacolo è indegno esservi avanti;</l>
+            <l>Quinci contaminati</l>
+            <l>Saranno i raggi vostri, occhi beati.</l>
+            <l>Perche non t'apri, ò terra?</l>
+            <l>Perche le mie sventure</l>
+            <l>Meco non copri, e per pietà m'ingoi?</l>
+            <l>Come vedro la scure</l>
+            <l>Portar l'ultima guerra</l>
+            <l>Al collo, che dà vita a tutti noi?</l>
+            <l>O vero fior d’Eroi,</l>
+            <l>Come repente passi</l>
+            <l>Da bel trionfo à miserabil morte</l>
+            <l>Come comanda forte</l>
+            <l>Che sia carro il feretro à tuoi gran passi?</l>
+            <l>Ei sangui del tuo seno</l>
+            <l>Porpora regia, e trionfal ti sieno?</l>
+            <l>Meglio era pur, e'havelle</l>
+            <l>Filisteo la gloria;</l>
+            <l>Troppo caro ci costa il vincer nostro:</l>
+            <l>Ne regno, ne vittoria,</l>
+            <l>Che pareggiar potesse</l>
+            <l>Il nostro danno hà Aquilone, ò l'ostro.</l>
+            <l>Vinciam ne l'altrui chiostro,</l>
+            <l>E nel natio perdiamo;</l>
+            <l>Vince il perdente, il vincitor soggiace:</l>
+            <l>O quanto mal la pace</l>
+            <l>Fuori con guerra interior compriamo,</l>
+            <l>Magico magistero</l>
+            <l>Entriam per vaga porta in carcer fiero.</l>
+            <l>Mà che? quel che n'offende,</l>
+            <l>E forse il nostro errore,</l>
+            <l>Tanto prevale un'ostinato ingegno.</l>
+            <l>Talor un Regio core</l>
+            <l>Così saper pretende</l>
+            <l>Come può più d’altrui, com'è più degno</l>
+            <l>Per non cangiar dissegno,</l>
+            <l>Per non parer talvolta</l>
+            <l>Volubile, e incostante, empio diventa,</l>
+            <l>Il Nume eterno tenta,</l>
+            <l>Non vuol consegli, e non ragioni ascolta;</l>
+            <l>O lusinghiero scoglio?</l>
+            <l>Se il Regno rende tal, Regni non voglio</l>
+            <l>Gionata, il primo giorno.</l>
+            <l>De la tua gloria, estremo</l>
+            <l>E de la vita, e ‘l tuo trofeo t'opprime,</l>
+            <l>Dal tuo splendor supremo</l>
+            <l>Nasce l'ultimo scorno,</l>
+            <l>Sepolto sei ne le tue spoglie opime</l>
+            <l>Queste lagrime prime</l>
+            <l>sonde gl’ossequi miei,</l>
+            <l>E novissime insieme, altro tributo</l>
+            <l>Darti non hò potuto,</l>
+            <l>Prendale il cener tuo, l'estinto sei.</l>
+            <l>Non può mancar la pioggia</l>
+            <l>Mentre sereno il tuo bel sol non poggia.</l>
+            <l>Se non è ancor disceso</l>
+            <l>A l'esecrabil prova</l>
+            <l>Il ferro audace, e s'il Monarca eterno</l>
+            <l>Si rigido, governo,</l>
+            <l>E leggi pur, e giuramenti approva,</l>
+            <l>Deh nel ferir non nieghi</l>
+            <l>La fortuna d’Abramo à nostri prieghi.</l>
+          </sp>
+        </div>
+        <trailer>Il fine del Quarto Atto.</trailer>
+      </div>
+      <div type="act">
+        <head>ATTO QUINTO</head>
+        <div type="configuration">
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>MIsera me, che per mia colpa intendo</l>
+            <l>Esser de la sua vita in gran periglio</l>
+            <l>L'infelice figliuol del Rè Giudeo;</l>
+            <l>Sospettava ben’io di mal novello,</l>
+            <l>Comparir non vedendo</l>
+            <l>Messaggiero verun con la risposta</l>
+            <l>Di far, ò non far gratia al mio consorte;</l>
+            <l>Ma non mi saria mai caduto in mente,</l>
+            <l>Che questo fosse il mal; più tosto havrei</l>
+            <l>Creduto, che Saul costantemente</l>
+            <l>Darmi negalle il mio Signor in dono,</l>
+            <l>Che troppo à lui nemici</l>
+            <l>Sono la sua grandezza, e ‘l mio desio.</l>
+            <l>Ahi miserabil Gionata, à qual fine</l>
+            <l>Hoggi, à tua ti conduce, ò mia sventura;</l>
+            <l>Ahi doppiamente sfortunata Arasia,</l>
+            <l>Perdi lo sposo, et un amico ancidi,</l>
+            <l>Sì fosti impatiente, e à le tue voglie</l>
+            <l>Non sapesti por fren, sin ch'opportuni</l>
+            <l>E tempi, e congiunture il Ciel mandasse;</l>
+            <l>Precipitoso, e rapido torrente,</l>
+            <l>Ch'arbori, e case à la ruina porti.</l>
+            <l>Mà al fin di che mi lagno? e qual misfatto</l>
+            <l>Rimprovero à me stessa? io dunque errai?</l>
+            <l>Io son la disonesta? io l'homicida,</l>
+            <l>Per domandar in gratia il mio consorte?</l>
+            <l>lo con ufficio di pietate il varco</l>
+            <l>Apersi à le lascivie, e ‘l garzon trassi</l>
+            <l>Ne le reti d’infamia? in van mi doglio</l>
+            <l>Del peccato non mio; ben sì conviene</l>
+            <l>Del giovine real pianger la sorte,</l>
+            <l>Che troppo fiera in sul fiorir l'assalse,</l>
+            <l>E giovar, se si può. Con la medesma</l>
+            <l>Impatienza io voglio</l>
+            <l>Hor’entrar ne le tende, e del successo</l>
+            <l>Saper l'intiero, in una Donna inerne</l>
+            <l>Onta sia lor se incrudelir vorranno;</l>
+            <l>Parlerò al Rè se sia bisogno ancora;</l>
+            <l>Ardir non può mancar, dov'è ragione;</l>
+            <l>Il Prencipe dal fondo, ov'è caduto,</l>
+            <l>Forse solleverò, se lò depressi,</l>
+            <l>e sanerà lo stesso male il male;</l>
+            <l>E s'altro non farò, la fama almeno</l>
+            <l>Avversaria crudel di Donna grande</l>
+            <l>La qual forse di me sparsa è pel campo,</l>
+            <l>Sopirò con mia lode, ahi, che si frale</l>
+            <l>Non è il cristallo, e così à rischi esposto,</l>
+            <l>Come l'honor di donna, a cui negati</l>
+            <l>Non habbia affatto i suoi favori il Cielo,</l>
+            <l>Mà il Rè tutto pensoso à venir veggio;</l>
+            <l>E meglio uscir d’affanno, e farmi avanti,</l>
+            <l>Finche s'offre opportuno al mio bisogno;</l>
+            <l>Interprete di me, non so migliore;</l>
+            <l>Amor, necessità, cura d’honore</l>
+            <l>Maestri ottimi son de l'eloquenza;</l>
+            <l>Perder non posso, e guadagnar confido.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Arasia, Saulle.</stage>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>Humil ancella, et à tuoi piè prostrata</l>
+            <l>A te ne vengo, ò Rè de forti Ebrei;</l>
+            <l>Donna son'io, che à te nemica nacqui,</l>
+            <l>E succhiai da le mamme il mal talento</l>
+            <l>Contra il popolo tuo, contra te stesso;</l>
+            <l>Ardisca nondimen chieder perdono,</l>
+            <l>Et in suo arbitrio, in tuo poter mi pongo.</l>
+            <l>Signor, l'humiliarsi</l>
+            <l>E la miglior ragion de supplicanti.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Sorgi, Donna gentil, tanto non chiedo;</l>
+            <l>E chi sei tu, perche honorar ti possa,</l>
+            <l>Come conviene?</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>Io son Arasia, quella</l>
+            <l>Si mal avventurata Filistea,</l>
+            <l>Che per salvarne un solo, à due dò morte:</l>
+            <l>Così de suoi furori</l>
+            <l>Hoggi mi fè stromento empia fortuna</l>
+            <l>Io venni supplichevole pur dianzi</l>
+            <l>A piè del Prenze Gionata, chiedendo,</l>
+            <l>Ch'impetrarmi volesse</l>
+            <l>Da la pietà del glorioso Padre</l>
+            <l>La cara libertà del mio consorte,</l>
+            <l>Com'io la stessa humilemente imploro;</l>
+            <l>Hor odo, che per questo</l>
+            <l>(Colpa mia se n'ha colpa) il tuo buon figlio</l>
+            <l>E posto in gran periglio,</l>
+            <l>E la sua vita, e la mia fama è in dubbio</l>
+            <l>Signor, se lingua attosicata, et empia</l>
+            <l>Istillate hà bugie ne le tue orecchie,</l>
+            <l>Siete diversamente</l>
+            <l>Uniforme sentenza ambi percuota,</l>
+            <l>Al tuo saper, à la giustitia appello,</l>
+            <l>L'innocenza d’entrambi ambi difenda</l>
+            <l>Oratrice verace, e testimoni</l>
+            <l>Vengano Terra, e Ciel, venga l'Inferno,</l>
+            <l>Che la menzogna istessa</l>
+            <l>Non potrà ritrovar, chi ci convinca.</l>
+            <l>La pudicitia mia nota è á le Stelle.</l>
+            <l>Donna, che nata Sia, come son'io,</l>
+            <l>Non può far torto à se medesma, al sangue,</l>
+            <l>E vincer i diffetti</l>
+            <l>Sa' di sesso, d’etate, e di natura.</l>
+            <l>S'errammo, è mio l'error, mà di pietate</l>
+            <l>Verso il mio sposo, e in tua virtù confido,</l>
+            <l>Che mel condonerai. Mà ‘l tuo gran figlio,</l>
+            <l>Che non fè error nissun , perche punirsi</l>
+            <l>Dovrà, Signor? Perche privare il Regno</l>
+            <l>Di si buon successor? privar te stesso</l>
+            <l>Di prole così cara, e de la gloria,</l>
+            <l>Che seguir te ne deve immortalmente?</l>
+            <l>L'innocenza del Prenze, i suoi gran merti,</l>
+            <l>E forse ancora i miei divoti prieghi,</l>
+            <l>Clementissimo Re, non son'indegni</l>
+            <l>Di conseguir da te, che piegar voglia</l>
+            <l>Al magnanimo tuo Regio pensiero</l>
+            <l>A si vive ragioni, e si possenti</l>
+            <l>E perdonar a me, che ben conosce‬‬‬‬‬‬</l>
+            <l>Il mio soverchio ardire;</l>
+            <l>Mà interesse d’honor, rischio di vita</l>
+            <l>D’una Donna gentil, d’Eroe Sovrano</l>
+            <l>Mi spinse à una forza à non havere</l>
+            <l>Si rigoroso, e timido riguardo</l>
+            <l>De la modestia à le severe leggi.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Signora, sei venuta</l>
+            <l>Ad intender pe ‘l tuo sposo, ò pure</l>
+            <l>Per Gionata mio figlio?</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>E l'un confesso,</l>
+            <l>E l'altro pur non niego.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Il primo capo</l>
+            <l>É lodevoli e giusto, e ti prometto,</l>
+            <l>Che havrò quella memoria,</l>
+            <l>A tempo più opportun di tua ricchiesta,</l>
+            <l>Che vuole ogni ragion: de l'altra parte,</l>
+            <l>Scusami, a te non spetta haver pensiero;</l>
+            <l>Lascialo à me, ti prego; io con il Padre,</l>
+            <l>Non pur il Rè; buon' orator, mi credi</l>
+            <l>E ‘l Padre appresso al Rè. Te non condanno,</l>
+            <l>Ne de la tua honestà siamo à contesa,</l>
+            <l>Credo, ch'al nome tuo non facci oltraggio</l>
+            <l>Memore di te stesa, e del tuo sangue,</l>
+            <l>Altre cagion vi sono, à te, Signora,</l>
+            <l>Deve bastar, che qui del tuo non lascia.</l>
+          </sp>
+          <sp who="#arasia">
+            <speaker>ARASIA.</speaker>
+            <l>Durissima pronuntia,</l>
+            <l>Risposta inaspettata, e rigorosa,</l>
+            <l>signor severo, à la tua serva hai data.</l>
+            <l>Poiche altro non mi lice, e che non deggio,</l>
+            <l>Investigando le cagioni occulte,</l>
+            <l>Le querele trattar tra Padre, e figlio,</l>
+            <l>Di tue benignità ti rendo gratie</l>
+            <l>Per lo favor, di che mi dar speranza,</l>
+            <l>E ‘l mio consorte amato</l>
+            <l>Qui sotto l'ombra del tuo scettro io lascio.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>GRan cosa è, ch'ognun voglia</l>
+            <l>impedir la giustitia; altri le legge</l>
+            <l>Interpreta à suo gusto, e si fà legge</l>
+            <l>De la sua passione, altri co' prieghi</l>
+            <l>Destar pietà pretende; e costei pure</l>
+            <l>Forastiera, e nemica, à cui non tocca</l>
+            <l>Nulla de fatti nostri, in campo viene</l>
+            <l>A difender il reo; pare à costoro,</l>
+            <l>Ch'io faccia sacrilegio il più crudele,</l>
+            <l>Che mai fusse commesso, e per far' bene</l>
+            <l>Compro l'odio di tutti, in fatti è vero,</l>
+            <l>Che tutto il Mondo i malfattor protegge;</l>
+            <l>Un buono, un, che tal volta</l>
+            <l>A torto sia da le calunnie oppresso,</l>
+            <l>Misero, abbandonato alcun non trova</l>
+            <l>Ch'apra la bocca à favellar per lui.</l>
+            <l>Lodato il Ciel, che con risolver tosto</l>
+            <l>Mi son levato ogni importun d’intorno</l>
+            <l>Poiche di giusto Prencipe incorrotte:</l>
+            <l>Adempiute hò le parti à la natura</l>
+            <l>Sia lecito dar loco; Io torno Padre</l>
+            <l>Hor, che non son più Padre; ò figlio, ò cara</l>
+            <l>Luce de gl'occhi miei, mentre vivesti,</l>
+            <l>O delicia del Regno, e de parenti;</l>
+            <l>O speme universale, io t'hò tradito,</l>
+            <l>Io mendicando il tuo infortunio, e ‘l mio</l>
+            <l>Tutto feci à tuo danno, io congiurai</l>
+            <l>Con la terra, e col Ciel contra il tuo capo,</l>
+            <l>La mia sola follia ti fece reo,</l>
+            <l>Io ‘l parricida fui, che ti svenai;</l>
+            <l>Che può far peggio un capital nemico?</l>
+            <l>Mà pietà il comando, lo Cielo il volse,</l>
+            <l>Necessità con violenta mano</l>
+            <l>Diede à l'opera fine; ahi, che potea</l>
+            <l>Far io meschin frà tante forze, e tante?</l>
+            <l>Deh sà gl'imperi tuoi troppo severi</l>
+            <l>Ubbidij prontamente, o Cielo irato,</l>
+            <l>s'à le viscere mie non perdonai,</l>
+            <l>Sicome in me scoccasti</l>
+            <l>Il durissimo strale</l>
+            <l>Di così acerba, e sanguinosa sorte,</l>
+            <l>Scocca nel capo mio fulmini ancora;</l>
+            <l>Non debbo viver più ministro infame</l>
+            <l>De l'estrema sciagura à si gran figlio,</l>
+            <l>Ne potrò sostener la luce infetta</l>
+            <l>Da la crudeltà mia del proprio sangue,</l>
+            <l>Horror’ havrò di me medesmo, à tergo,</l>
+            <l>Quasi Cain, che il buon germano ancise,</l>
+            <l>Parrammi haver le furie, io son nocente,</l>
+            <l>Tal mi fà la cagion, se non l'effetto,</l>
+            <l>Porto il fallo, e la pena entrambi meco,</l>
+            <l>Ne so di lor qual sia peggior tormento.</l>
+            <l>Mà dove ohime, trascorro? ove mi lascio</l>
+            <l>Femminella vilissima del volgo</l>
+            <l>Trasportar dal'affetto? Un Re sì grande,</l>
+            <l>Che de’ qual scoglio à turbini, e tempeste,</l>
+            <l>Immobilmente à colpi di fortuna</l>
+            <l>Esser sempre lo stesso, al suo dolore,</l>
+            <l>Non si vergognerà darsi per vinto?</l>
+            <l>Certamente, chi Regna</l>
+            <l>La di mortal condition' eccede,</l>
+            <l>E se distato avanza,</l>
+            <l>Ne men commune à lui co gl'altri è il sesso;</l>
+            <l>L'aere ancor ne la sovrana parte</l>
+            <l>Non patisce di nebbie, e di pruine,</l>
+            <l>L'Austro fremente, e l'Aquilon nol turba,</l>
+            <l>Ne ‘l folgore vi arriva.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Capitano della Guardia, Saulle, Gionata, Esercito, Abner, Samuelle.</stage>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
+            <l>A Questa foggia?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>O là, che grido è questo?</l>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
+            <l>Co’ ministri del Rè dunque si tratta?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Se questo non è il messo,</l>
+            <l>Che de gl'affanni miei porta novella,</l>
+            <l>Che cosa esser può mai?</l>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
+            <l>Per eseguire</l>
+            <l>il precetto del Rè dunque son reo?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Siasi ciò, che si voglia in arme tosta,</l>
+            <l>Sù mie guardie fedeli.</l>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
+            <l>E merto questi affronti?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>A me la voce</l>
+            <l>Quella del vostro Capitan rassembra;</l>
+            <l>Lo strepito de ferri altro dinota,</l>
+            <l>Che novelle, et avvisi:</l>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
+            <l>Andai, Signore,</l>
+            <l>Perch'esequito il tuo voler venisse</l>
+            <l>In persona di Gionata, che certo</l>
+            <l>Al fiero annuntio intrepido, e costante</l>
+            <l>Nulla turbò la generosa fronte,</l>
+            <l>E s'offerse al morir; ma non si tosto</l>
+            <l>Se n'avvider le genti, e per le schiere</l>
+            <l>Insospettite, e con mille occhi aperti</l>
+            <l>Corse la voce à meraviglia presta,</l>
+            <l>Ch'un nembo di Soldati à me fù sopra,</l>
+            <l>Anzi pur tutta l'Oste</l>
+            <l>Fulminante di rabbia, e di dispetto,</l>
+            <l>Quasi crudel, e furiosa fera,</l>
+            <l>Cui furar voglia il Cacciatore i figli,</l>
+            <l>E togliendolmi à un tratto à viva forma,</l>
+            <l>Così mal mi trattò, come tu vedi,</l>
+            <l>Infranto, e tutto sangue, onde à gran pena</l>
+            <l>Porto la vita à le sue furie avanzo.</l>
+            <l>Gridan tutti concordi, e minaccianti,</l>
+            <l>Che non voglio, ch'ei muoia; io già non debbo</l>
+            <l>Mai persuaderti à incrudelir nel figlio,</l>
+            <l>Ne dar tal senso a le mie voci intendo;</l>
+            <l>Che ben chi tutto scorge il mio duol vede;</l>
+            <l>Mà questa contumacia, e questo orgoglio</l>
+            <l>De’ tuoi Soldati, è sommo Re, non deve</l>
+            <l>Rimaner impunito: Un mal esempio</l>
+            <l>Lasci a sudditi tuoi, se tu ti lasci</l>
+            <l>Vilipender si forte.</l>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
+            <l>E sarà dunque</l>
+            <l>Tanta temerità ne la mi gente,</l>
+            <l>Che m'osi violar leggi, e ministri?</l>
+            <l>Gionata non morrà? Chi mi ritiene,</l>
+            <l>Ch'io non faccia passar tutti costoro</l>
+            <l>A fil di spada? Lo farò dunque un'ombre</l>
+            <l>Di Rè, non Rè in effetto? O Ciel, tu vedi,</l>
+            <l>A che sono ridotto.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Al Padre, al Padre</l>
+            <l>Non m'impedite il corso.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Oh, come costui</l>
+            <l>Vien da se stesso à provocar la morte:</l>
+            <l>E che posso più farci?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Al Padre, dico,</l>
+            <l>Lasciatemi venire, io mi protesto,</l>
+            <l>Che vi havrò per nemici.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Odo la voce</l>
+            <l>Di Gionata, e d’armati un gran tumulto.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Non ch'io vi sia tenuto,</l>
+            <l>Che m'habbiate salvato. Al Padre io debbo</l>
+            <l>ubbidir, come vuole.</l>
+          </sp>
+          <sp who="#esercito">
+            <speaker>ESERCITO.</speaker>
+            <l>Tu non hai à morire, ò qui la vita</l>
+            <l>Tutti ci lascierem.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Fermate, audaci,</l>
+            <l>Temerari Soldati; e questo dunque</l>
+            <l>Il rispetto, e l'ossequio al Rè dovuto?</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Così si tratta, ò scelerati, meco?</l>
+            <l>In cospetto del Rè tanta baldanza?</l>
+            <l>Si mal mi conoscete? e del mio sdegno</l>
+            <l>Si poco il telo, e la virtù temete?</l>
+            <l>Vi dichiaro rubelli.</l>
+          </sp>
+          <sp who="#esercito">
+            <speaker>ESERCITO.</speaker>
+            <l>Il servir nostro,</l>
+            <l>E la fede mostrata in tante imprese</l>
+            <l>Titolo così reo, Signor, non merta.</l>
+            <l>Sarem gl'istessi in ogni tempo, e caso,</l>
+            <l>Et esporremo a tutti i rischi il capo:</l>
+            <l>Mà che ‘l Prencipe muoia</l>
+            <l>Senza peccato alcun, doppo haver fatto</l>
+            <l>Beneficio si grande al popol nostro,</l>
+            <l>Nol possiam consentire; in noi più tosto</l>
+            <l>Il crudel ferro, e la sentenza cada,</l>
+            <l>Che ben si ricompensa</l>
+            <l>Con la vita di lui la nostra morte.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Deh miei compagni amati,</l>
+            <l>Assai chiaro mostrate il vostro affetto;</l>
+            <l>Far altro è parricidio, e più non lice;</l>
+            <l>Lasciate, ch's ubbidisca al Rè mio padre,</l>
+            <l>Questa vita è la sua, ragione alcuna</l>
+            <l>Ne voi tenete in lei, ne d'io la voglio,</l>
+            <l>Sono de l'ubbidir le nostre parti;</l>
+            <l>Io muoio volentier, se non per altro,</l>
+            <l>Perch'il Re lo comanda; e non è poco</l>
+            <l>Sollevamento, ond'io morro contento,</l>
+            <l>Veder nostri nemici hoggi sconfitti,</l>
+            <l>E cosi fiere, e numerose genti</l>
+            <l>In sagrificio offerte</l>
+            <l>Anticipatamente al mio sepolcro.</l>
+            <l>Ben può contrappesar bastevolmente</l>
+            <l>Ala morte d’un sol tanta vittoria.</l>
+          </sp>
+          <sp who="#esercito">
+            <speaker>ESERCITO.</speaker>
+            <l>Signor non morirai.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Non morirà?</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Convien morir per la salute vostra,</l>
+            <l>E liberar da la sentenza ognuno.</l>
+            <l>Padre, v'offero ignudo il petto, ad voi</l>
+            <l>Rendo quel, che mi deste.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>lo di mia mano</l>
+            <l>Farò quella vendetta,</l>
+            <l>Ch'altri recusa, e prohibir procura;</l>
+            <l>Non sarà per, ch'io lasci in vita un empio;</l>
+            <l>State in dietro, Soldati, io vel commando.</l>
+          </sp>
+          <sp who="#abnero">
+            <speaker>ABNERO.</speaker>
+            <l>Ahi, che non si può più.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>State vi dico,</l>
+            <l>State lontani, e ritirate l'armi;</l>
+            <l>Con chi parlo? chi sono?</l>
+            <l>Piglia, infame garzon, quel che tu merti.</l>
+          </sp>
+          <sp who="#samuelle">
+            <speaker>SAMUELLE.</speaker>
+            <l>Fermati, che voi far? le tue imprudenze,</l>
+            <l>Se non cangi costume, è non t'emendi,</l>
+            <l>Hanno à precipitarti; il ferro ultore</l>
+            <l>Ripon nel fodro, e l'ostinata mente</l>
+            <l>De l'ira folle, e del furor disarma.</l>
+            <l>Innocente è ‘l fanciullo, e Dio ‘l vuol salvo</l>
+            <l>Se la sorte cade sopra il suo capo,</l>
+            <l>Fù per tuo documento, e per mostrarti,</l>
+            <l>Ch'i saggi Rè non fanno</l>
+            <l>Le leggi à caso. Il sommo Sacerdote</l>
+            <l>Pur tel disse, e ridisse, e fosti sordo.</l>
+            <l>Homai troppo t'avezzi</l>
+            <l>A far di tuo capriccio; e poich'ardisti</l>
+            <l>Di por la man ne' Sacrosanti uffici</l>
+            <l>Ch'a suoi soli ministri Iddio riserba,</l>
+            <l>Vittime offrire, et incensare Altari,</l>
+            <l>Tu vai di mal in peggio.</l>
+            <l>Guardati, perche veggio e non m'inganno,</l>
+            <l>Ch'al fine alta ruina à te sovrasta,</l>
+            <l>E temo assai, che la giustitia eterna</l>
+            <l>Miglior di te non apparecchi al Regno.</l>
+            <l>Piaccia à Dio, che non sia, ne si conduca</l>
+            <l>Con questo duol la mia canitie à morte.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Il mio Regno, il mio fiato è in man di Dio,</l>
+            <l>Faccia ciò, che gl'aggrada, egli mel diede,</l>
+            <l>Et ei mel toglia; o sia privato, ò regni,</l>
+            <l>Sua fattura farò: nel caso nostro</l>
+            <l>Errai per non errare. Hor, se il Ciel vuole,</l>
+            <l>Che Gionata non muoia, e sia innocente,</l>
+            <l>Non muoia, io son il reo.</l>
+          </sp>
+          <sp who="#samuelle">
+            <speaker>SAMUELLE.</speaker>
+            <l>Gionata, un altra volta</l>
+            <l>Non tentar di tuo capo opre si grandi,</l>
+            <l>Defferisci à maggiori, à te fors'anco,</l>
+            <l>Mandò quest'infortunio il Rè del Mondo,</l>
+            <l>Bench'à la tua semplicità perdoni,</l>
+            <l>Perch'in questo mancasti.</l>
+          </sp>
+          <sp who="#gionata">
+            <speaker>GIONATA.</speaker>
+            <l>Io mel conobbi</l>
+            <l>Nel fatto stesso, e pentimento n’hebbi,</l>
+            <l>Ma s'era troppo quanti homai trascorso:</l>
+            <l>Tanto maggior è il dono</l>
+            <l>Che mi concede il Ciel per la tua mano.</l>
+          </sp>
+          <sp who="#saulle">
+            <speaker>SAULLE.</speaker>
+            <l>Gran turbine fù questo. O buon Profeta.</l>
+            <l>Chi mai potrebbe a beneficio tale</l>
+            <l>Risponder degnamente? Ei disse il vero;</l>
+            <l>Arrivar certo ei non potea più à tempo.</l>
+          </sp>
+          <sp who="#coro">
+            <speaker>CORO.</speaker>
+            <l>Non dissidi mortale</l>
+            <l>De la pietà de l'immortal patente;</l>
+            <l>Che l'innocenza sua non l'abbandona,</l>
+            <l>Fortissima Bellona,</l>
+            <l>Che para i colpi di fortuna ria;</l>
+            <l>E quando ei men sel pensa, à lei prevale;</l>
+            <l>Deh mente eterna, e pia,</l>
+            <l>La meta qui de nostri pianti sia.</l>
+          </sp>
+        </div>
+        <trailer>Il fine del Quinto, et ultimo Atto.</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ita000156" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'isola di Alcina</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Fulvio</forename>
+            <surname>Testi</surname>
+          </persName>
+          <idno type="wikidata">Q594614</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=4JhMp0A3_GUC</idno>
+          <availability status="free">
+            <p>in the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Testi, Fulvio: Le poesie liriche del conte d. Fulvio Testi divise in quattro parti. Volume 1. Brescia: Venturini, 1822.</title>          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ruggiero" sex="MALE">
+            <persName>RUGGIERO</persName>
+          </person>
+          <person xml:id="ariosto" sex="MALE">
+            <persName>ARIOSTO</persName>
+          </person>
+          <person xml:id="cavaliere_1" sex="MALE">
+            <persName>UN CAVALIERE</persName>
+          </person>
+          <person xml:id="cavaliere_2" sex="MALE">
+            <persName>UN'ALTRO CAVALIERE</persName>
+          </person>
+          <person xml:id="sirena_1" sex="FEMALE">
+            <persName>PRIMA SIRENA</persName>
+          </person>
+          <person xml:id="idraspe" sex="MALE">
+            <persName>IDRASPE</persName>
+          </person>
+          <person xml:id="sirena_3" sex="FEMALE">
+            <persName>TERZA SIRENA</persName>
+          </person>
+          <personGrp xml:id="coro_cavalieri" sex="MALE">
+            <persName>CORO DI CAVALIERI</persName>
+          </personGrp>
+          <person xml:id="alcina" sex="FEMALE">
+            <persName>ALCINA</persName>
+          </person>
+          <person xml:id="nunzio" sex="MALE">
+            <persName>NUNZIO</persName>
+          </person>
+          <personGrp xml:id="sirena_2" sex="MALE">
+            <persName>SECONDA SIRENA</persName>
+          </personGrp>
+          <person xml:id="melissa" sex="FEMALE">
+            <persName>MELISSA</persName>
+          </person>
+          <person xml:id="lidia" sex="FEMALE">
+            <persName>LIDIA</persName>
+          </person>
+          <personGrp xml:id="damigelle_alcina" sex="FEMALE">
+            <persName>CORO di damigelle di Alcina</persName>
+          </personGrp>
+          <person xml:id="astolfo" sex="MALE">
+            <persName>ASTOLFO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-29">(LG) first encoding and formatting.</change>
+        <change when="2023-02-08">(LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1648">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <castItem>INTERLOCUTORI</castItem>
+        <castItem>L’ARIOSTO</castItem>
+        <castItem>ALCINA</castItem>
+        <castItem>LIDIA <roleDesc>cameriera d’Alcina</roleDesc></castItem>
+        <castItem>RUGGIERO</castItem>
+        <castItem>LE SIRENE</castItem>
+        <castItem>MELISSA <roleDesc>maga</roleDesc></castItem>
+        <castItem>IDRASPE <roleDesc>ammiraglio d’ALCINA</roleDesc></castItem>
+        <castItem>NUNZIO</castItem>
+        <castItem>ASTOLFO</castItem>
+        <castItem>Coro di cavalieri trasformati d'Alcina</castItem>
+        <castItem>Coro di damigelle d’Alcina.</castItem>
+        <castItem></castItem>
+     </castList>
+    </front>
+    <body>
+      <div type="prologue">  
+        <sp who="#ariosto">
+          <speaker>ARIOSTO.</speaker>
+            <l>Quell'io, che volto a celebrar gl'onori</l>
+            <l>De gli Avi incliti tuoi, cantai con tromba,</l>
+            <l>Che sì chiara pel Ciel’anco rimbonba</l>
+            <l>Le Donne, i Cavalier, l’Arme, e gl’Amori.</l>
+            <l>Da l’Elisia magion, felice regno</l>
+            <l>De l’anime beate, ove mi vivo</l>
+            <l>Di sì lieti Imenei al suon festivo</l>
+            <l>Ebbro di gioia, o grand'Alfonso, io vegno.</l>
+            <l>E poichè d’onorar ne' regij teiti</l>
+            <l>Coppia sì gloriosa hai pur desio,</l>
+            <l>Non isdegnar, ch’in questa scena anch'io</l>
+            <l>Nuova materia accresca a i lor diletti.</l>
+            <l>Calzi l’aureo coturno, e canti Atena</l>
+            <l>Di coronata turba opre lunesie:</l>
+            <l>Qui cada esangue Egisto: ivi a Tieste</l>
+            <l>Apparecchi il fratel l'orribil cena,</l>
+            <l>Ma d' 'ogni sangue immaculato, e puro</l>
+            <l>Sian l'Italiche scene, e bastin solo,</l>
+            <l>Per destare in altrui pietate, e duolo,</l>
+            <l>D'amante cor le non mortal sciagure.</l>
+            <l>D'innocenti sospiri oggi, e di pianto</l>
+            <l>Sparga il teatro abbandonata Alcina,</l>
+            <l>E tornando a l'antica disciplina</l>
+            <l>Esca Ruggier dal dilettoso incanto.</l>
+            <l>E Voi, s’alcun pur v’ha, cui l'alma accenda</l>
+            <l>Lusinghiera beltà del cieco ardore,</l>
+            <l>Prendete esempio, e di Ruggier l'errore</l>
+            <l>Siavi scusa al fallir, sprone a l'emenda.</l>
+            <l>Non sempre è bel ciò, c'ha di bel sembianza,</l>
+            <l>E spesso offende più quel, che più piace;</l>
+            <l>Posciaché d’un gioir vano, e fugace</l>
+            <l>Null’altro al fin, che pentimento avanza.</l>
+          </sp>
+      </div>
+      <div type="act">
+        <head>ATTO PRIMO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <stage>ALCINA, LIDIA SUA CAMERIERA.</stage>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>E dove, o mia Reina,</l>
+            <l>Si sola, e frettolosa? Appena usciti</l>
+            <l>Eto, e Piroo da l’Eritrea marina</l>
+            <l>Col luminoso piè stampano i liti,</l>
+            <l>Ch'a l'albergo t’involi impaziente</l>
+            <l>Fin di dar legge al crine,</l>
+            <l>Che vagabondo, e sciolto</l>
+            <l>Del bellissimo volto</l>
+            <l>Scende a smaltar co’ suoi tesor le brine?</l>
+            <l>Qual flagellando l’agitata mente</l>
+            <l>Ti sollecita il piè cura, o pensiero?</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>A cercar di Ruggiero</l>
+            <l>Dietro l'anima mia</l>
+            <l>Anco il mio piè s’invia;</l>
+            <l>Che, se senza Ruggier io sto un momento,</l>
+            <l>Provo dolor sì forte,</l>
+            <l>Che mille volte in un momento ho morte.</l>
+            <l>Ma per trovarlo, oimé, dove mi volgo?</l>
+            <l>Chi me l'insegna, ahi lassa?</l>
+            <l>Ah, che dovunque passa:</l>
+            <l>Qualch’orma di beltà convien che resti:</l>
+            <l>Se sentirò, che per le vie celesti</l>
+            <l>Più dolce de l’usato</l>
+            <l>Batta le piume d’or zeffiro alato;</l>
+            <l>Se mirerò, che più tranquille, e quiete</l>
+            <l>Del lumicel sian l’onde;</l>
+            <l>Se vedrò su le sponde</l>
+            <l>Fiorir l’erbe più liete,</l>
+            <l>Senz'altro testimon, che me l'accenne,</l>
+            <l>Dirò, quest’è la via, che Ruggier tenne.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Merta insolito affetto</l>
+            <l>Insolita beltà; se qualch’affanno</l>
+            <l>Per sì degno Guerrier ti punge il petto,</l>
+            <l>Io già non ti condanno.</l>
+            <l>Qual cuor, benchè di selce, e d'adamante,</l>
+            <l>Al dolce balenar di que’ bei lumi</l>
+            <l>Non diverebbe amante?</l>
+            <l>Ma d'un tanto tesor posseditrice,</l>
+            <l>Perchè tanto t’affliggi, e ti consumi?</l>
+            <l>Teco in pugna amorosa</l>
+            <l>Dal tramontare a lo spuntar del giorno</l>
+            <l>Stassi il tuo Cavaliero, e sospirosa</l>
+            <l>A queste selve intorno</l>
+            <l>Ano il cerchi? anco il chiami?</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ah, che un pensiero,</l>
+            <l>Che nel mesto buio tor nacque pur dianzi,</l>
+            <l>Con lingua di dolor così mi dice:</l>
+            <l>Alcina il tuo Ruggiero</l>
+            <l>Ti lascia, e t'abbandona, e neghittosa</l>
+            <l>Tu no ‘I cerchi, e no ‘l preghi;</l>
+            <l>Tu no ‘l fermi, e no ‘l leghi?</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Non ama chi non teme;</l>
+            <l>Come gemelli a un parto</l>
+            <l>Il timore, e I amor nacquero insieme.</l>
+            <l>Di tua somma bellezza a i raggi ardenti</l>
+            <l>Si strugge egli qual suole</l>
+            <l>Falda di neve al sole.</l>
+            <l>Semplice, e crederai, che fuggir tenti?</l>
+            <l>Ma sian, (che nol cred’io) finti i desiri,</l>
+            <l>Sian bugiardi i sospiri;</l>
+            <l>E le venture sue poste in non cale</l>
+            <l>Tenti pur di lasciarte.</l>
+            <l>Come mai se n'andrà? dove? in qual parte</l>
+            <l>De l’Indico Ocean l'incognit'onda</l>
+            <l>Quest’Isola circonda;</l>
+            <l>Con cento armate antenne</l>
+            <l>Guarda Idraspe la spiaggia, il corridore,</l>
+            <l>Che fende il ciel con le volanti penne,</l>
+            <l>Legato è in tuo potere: or conne vuoi</l>
+            <l>Che se’n voli Ruggier da gli occhi tuoi?</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>No ’l so, so ben, ch’il core</l>
+            <l>Presago del suo mal con moto eterno,</l>
+            <l>Mi palpita nel seno.</l>
+            <l>Ma, se venute meno,</l>
+            <l>Le mie forze non son; se quella i’  sono,</l>
+            <l>Che con magici accenti,</l>
+            <l>Comando a gli elementi,</l>
+            <l>Turberò il ciel, sconvolgerò l'inferno,</l>
+            <l>Porrò sossopra ľuniverso intiero,</l>
+            <l>Perché resti Ruggiero.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Gran cosa apron gl’incanti,</l>
+            <l>E un magico sussur natura sforza;</l>
+            <l>Ma nel cor de gl’amanti</l>
+            <l>Lusinghiera beltade ha maggior forza:</l>
+            <l>La tua somma magia sta nel tuo viso:</l>
+            <l>Un sol cenno, un sol riso</l>
+            <l>Un guardo sol di questi rai sereni,</l>
+            <l>Che tu volgi a Ruggier, tu l’incateni;</l>
+            <l>Che a sinistra appunto,</l>
+            <l>Là vé placido al mar bacia l’arene,</l>
+            <l>Mira come festivo egli se'n viene:</l>
+            <l>Meglio dal vostro aspetto è ch’io m’involi;</l>
+            <l>Troppo caro a duo amanti è restar soli.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>RUGGIERO, ALCINA.</stage>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Qual lume disusato</l>
+            <l>Mi folgora su gl’occhi? o che splendore</l>
+            <l>M'abbaglia i sensi, e mi serena il core!</l>
+            <l>O bell’Idolo mio,</l>
+            <l>Del tuo ciglio adorato</l>
+            <l>Questi gl’effetti son; ben conobb’io</l>
+            <l>Che luce così rara, e pellegrina,</l>
+            <l>Se non era del sole, era d’Alcina.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ruggiero a te ne vegno</l>
+            <l>Trofeo de’ miei martiri,</l>
+            <l>Gloria de’ miei sospiri;</l>
+            <l>Se gli occhi tuoi son del mio cor sostegno,</l>
+            <l>E se l'anima mia vive in te solo,</l>
+            <l>Qual tormento, qual duolo</l>
+            <l>Lungi dal tuo bel volto ogn'or m'assaglia</l>
+            <l>Pensalo tu, ch’io no ’l saprei ridire</l>
+            <l>Se non co ’l mio morire.</l>
+            <l>Misera, e pur d’intorno al cor languente</l>
+            <l>Una voce dolente</l>
+            <l>Mormorando ogn’or va di tua partita.</l>
+            <l>Ah, Ruggiero mia vita,</l>
+            <l>E sia ver, che tu parta, e non ti caglia,</l>
+            <l>Che per tua sola crudeltà si muora</l>
+            <l>Colei, che si t'adora?</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Chi io parta, anima mia, ch'io t’abbandoni?</l>
+            <l>Ad, che si lento Amore</l>
+            <l>Non fabbricommi le catene al cuore.</l>
+            <l>Fisso così ne la mia mente porto</l>
+            <l>L’amoroso desio di tua bellezza,</l>
+            <l>Ch'in te vivo, in me morto</l>
+            <l>Da questi rai ben mille volte il giorno</l>
+            <l>Spirti di vita a mendicare i’  torno.</l>
+            <l>E ch’io fugga da te? ch’io m’allontani?</l>
+            <l>Prima sovra il mio capo il ciel tonante</l>
+            <l>Scocchi i fulmini suoi;</l>
+            <l>Pria la terra m’ingoi,</l>
+            <l>E m'assorba del mar l'onda spumante:</l>
+            <l>Teco vivro, finchè del Ciel io beva</l>
+            <l>I purgati alimenti;</l>
+            <l>E se a le morte genti,</l>
+            <l>Concesso è ritornare a l’aria viva;</l>
+            <l>Per teco ritrovar riposo, e pace,</l>
+            <l>Verrà spirito amante, ombra seguace.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Quale il torbido Ciel di nubi algenti</l>
+            <l>A lo spirar de gl’Aquilon si spoglia,</l>
+            <l>Tale a’ tuoi dolci accenti</l>
+            <l>L’affannato mio cor scaccia ogni doglia;</l>
+            <l>E pur ch’i tuoi bei lumi abbia presenti;</l>
+            <l>Cotanta nel mio sen dolcezza piove,</l>
+            <l>Ch’il suo gran regno io non invidio a Giove.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Non così ingorda a depredar de’ fiori</l>
+            <l>la famiglia odorata</l>
+            <l>Su mattutini albori</l>
+            <l>Suole d'Api volar schiera dorata,</l>
+            <l>Come intorno a le rose</l>
+            <l>Di tue labbra vezzose</l>
+            <l>Famelica d’amor corre quest’alma:</l>
+            <l>E ch'io fugga da te, ch'io m’allontani?</l>
+            <l>Se son di tue pupille</l>
+            <l>Parlo le mie faville,</l>
+            <l>Come trovar può loco</l>
+            <l>Lontan da la sua sfera il mio bel foco?</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Non più, ben mio, che per la gioia il cuore</l>
+            <l>Langue, e vien men; troppo son certi i segni,</l>
+            <l>Che di tuo amor, che di tua fè mi dai.</l>
+            <l>Ma se mirar de’ tuoi celesti rai</l>
+            <l>Potessi tu l’ardore,</l>
+            <l>Che questo sen voracemente infiamma,</l>
+            <l>So ben, ch’allor diresti</l>
+            <l>D’Ischia, e di Mongibel poco è la fiamma.</l>
+            <l>Ma per brev’ora ad altre cure intesa</l>
+            <l>Partir pur mi convien; tu mentre resti</l>
+            <l>Mirare in queste selve</l>
+            <l>Mille potrai di fuggitive belve,</l>
+            <l>E di volanti augei scherzi amorosi</l>
+            <l>O da i liti arenosi</l>
+            <l>Spiar ne’ regni de l'algosa Teti</l>
+            <l>De i muti abitator gl’ardor segreti.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Vanne, che mentre il sol dal mar s'innalza,</l>
+            <l>Del tuo sembiante vago</l>
+            <l>Qui resterommi a contemplar l'immago.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>RUGGERO, LE SIRENE.</stage>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Lucido Dio, ch'a la quadriga d'oro</l>
+            <l>Giugni alati destrieri,</l>
+            <l>E gl’obliqui sentieri</l>
+            <l>De l'ampio ciel rapidamente corri.</l>
+            <l>Ch’in un solo girar del ciglio ardente</l>
+            <l>Miri ciò, che nel sen, chiude la terra,</l>
+            <l>E ciò, che l'onda algente</l>
+            <l>In mar nasconde, e serra,</l>
+            <l>Or, ch'i nascenti tuoi fulgidi rai</l>
+            <l>Qui riverente adoro,</l>
+            <l>Dimmi, vedesti mai</l>
+            <l>Da i Gangetici lidi al mar d'Atlante</l>
+            <l>Di me più lieto, e fortunato amante?</l>
+            <l>Ma qual novo spettacolo improvviso</l>
+            <l>Sorger vegg’io da l’onde</l>
+            <l>Con crespe chiome, e bionde?</l>
+            <l>Pura neve il bel sen, latte il bel viso,</l>
+            <l>Tre lascive Donzelle il mar produce:</l>
+            <l>Par, che sciolgan la voce: lo qui sul lido</l>
+            <l>Ad ascoltar m'assido.</l>
+          </sp>
+          <sp who="#sirena_1">
+            <speaker>SIRENA PRIMA.</speaker>
+            <l>Non si presto il capo inchina,</l>
+            <l>Bella rosa porporina,</l>
+            <l>Che dal rastro incisa fu;</l>
+            <l>Come manca, come perde</l>
+            <l>Tutto il vago, e tutto il verde</l>
+            <l>Il bel fior di Gioventù.</l>
+          </sp>
+          <sp who="#sirena_2">
+            <speaker>SIRENA SECONDA.</speaker>
+            <l>Neve sparsa in colle, o in piaggia</l>
+            <l>Ove Febo il cielo irraggia,</l>
+            <l>Si dilegua, e si disfà:</l>
+            <l>Tal la grazia, e la beltade</l>
+            <l>Tosto langue: tosto cade</l>
+            <l>A l'ingiurie de l'età.</l>
+          </sp>
+          <sp who="#sirena_3">
+            <speaker>SIRENA TERZA.</speaker>
+            <l>Spiegò lente Aquila l'ale,</l>
+            <l>Tardo andò per l'aria strale,</l>
+            <l>Pigro il lampo in Ciel spari.</l>
+            <l>Se miriam come leggiere,</l>
+            <l>Quando il tempo è del piacere,</l>
+            <l>Fuggon l’ore, e vanno i di.</l>
+          </sp>
+          <sp who="#sirena_1 #sirena_2 #sirena_3">
+            <speaker>TUTTE TRE INSIEME.</speaker>
+            <l>Cavalier, che dentro il tetto</l>
+            <l>De la gloria, e del diletto</l>
+            <l>Per gran sorte hai posto il piè;</l>
+            <l>Godi pur, godi felice</l>
+            <l>Fin c'hai tempo, e fin che lice</l>
+            <l>Il tesor, ch’amor ti diè.</l>
+          </sp>
+          <sp who="#sirena_1">
+            <speaker>SIRENA PRIMA.</speaker>
+            <l>Vago è il Ciel, quando l’Aurora</l>
+            <l>Col suo lume intorno indora</l>
+            <l>Le campagne di lassù;</l>
+            <l>Ma s’Amore in un bel viso</l>
+            <l>Fa spuntar dolce un sorriso,</l>
+            <l>Più bell'alba apre quaggiù.</l>
+          </sp>
+          <sp who="#sirena_2">
+            <speaker>SIRENA SECONDA.</speaker>
+            <l>Ben da gL’alti aerei campi</l>
+            <l>Dileguar procelle, e lampi,</l>
+            <l>Tuoni, e nubi Iride fa;</l>
+            <l>Ma se gira una serena</l>
+            <l>Pupilletta, ah, ch’ogni pena,</l>
+            <l>Ogni duol dal cuor se’n va.</l>
+          </sp>
+          <sp who="#sirena_3">
+            <speaker>SIRENA TERZA.</speaker>
+            <l>Non sì dolci Imetto ha i favi</l>
+            <l>Nè liquor così soavi</l>
+            <l>Ebe in cielo a Giove offri;</l>
+            <l>Come cara al cuor trabbocca</l>
+            <l>La dolcezza de la bocca,</l>
+            <l>Si un bel labbro la ferì.</l>
+          </sp>
+          <sp who="#sirena_1 #sirena_2 #sirena_3">
+            <speaker>TUTTE TRE INSIEME.</speaker>
+            <l>Cavalier, se i gaudj tuoi</l>
+            <l>Fuggir lasci, indarno poi</l>
+            <l>Cercherai forse mercè,</l>
+            <l>Età lunga, e pensierosa,</l>
+            <l>Bianco crin, guancia rugosa</l>
+            <l>In Amor non trovan fè.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Ubbidirovvi, care</l>
+            <l>Precettrici d’Amor; non fuggiranno</l>
+            <l>Da me l'ore oziose e i vostri detti</l>
+            <l>Stimoli mi saran ne’ miei diletti.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO SECONDO</head>
+        <div type="scene">
+          <head>SCENA PRIMA.</head>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>TEMPO è già che fermiate,</l>
+            <l>O miei Draghi fedel dal lungo corso</l>
+            <l>Lo squalid’or de le volanti squame.</l>
+            <l>Per consolar le brame</l>
+            <l>D'innamorato cor frenai con morso</l>
+            <l>Vostre fauci infiammate,</l>
+            <l>E vie disusate</l>
+            <l>Abbandonando di Pontiero i tetti,</l>
+            <l>Ne gli ultimi confin d’India v’ho retti.</l>
+            <l>E ben di mia fatica,</l>
+            <l>Bella figlia d'Amon, degno è il tuo pianto.</l>
+            <l>Qui la Maga impudica</l>
+            <l>Con dilettoso incanto</l>
+            <l>In ozio indegno il tuo Ruggier trattiene;</l>
+            <l>Queste ingemmate arene,</l>
+            <l>Cui fan lussureggianti</l>
+            <l>Di sempiterno April corona i fiori,</l>
+            <l>I fiumi mormoranti,</l>
+            <l>Che lusingando in su gl’estivi ardori</l>
+            <l>Le stanche luci al sonno</l>
+            <l>Palpitan tra le sponde,</l>
+            <l>I teneri arboscei, tra le cui fronde</l>
+            <l>Al sibilar de’ zeffiri amorosi</l>
+            <l>Mille augellin vezzosi</l>
+            <l>Accordan l'armonia de’ canti loro,</l>
+            <l>D'apparente magia tutto è lavoro.</l>
+            <l>Ma non andrà ne la marina Ibera</l>
+            <l>Febo a lavar le polverose chiome,</l>
+            <l>Che di Ruggier saran disciolti i nodi.</l>
+            <l>Io di costei gli scoprirò le frodi,</l>
+            <l>Ch’ammaliato or non conosce; e come</l>
+            <l>Disabitata, inculta, orrida, e fiera</l>
+            <l>Fu quest’Isola già, farò, che prenda</l>
+            <l>La sembianza primiera;</l>
+            <l>E si vedranno al ciel con forma orrenda</l>
+            <l>Tra duri sassi, e nude balze alpestri</l>
+            <l>L'ispide braccia alzar piante silvestri.</l>
+            <l>Io qui nascosa al varco</l>
+            <l>Ruggiero attenderò; con saggi inganni</l>
+            <l>Cangierò volto, e panni;</l>
+            <l>E per sanargli il seno</l>
+            <l>Da quel mortal veleno</l>
+            <l>Che dilettando i sensi a l'alma noce,</l>
+            <l>D'amaro assenzio aspergerò mia voce.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>ALCINA, IDRASPE SUO AMMIRAGLIO.</stage>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Misera, e pur’è vero,</l>
+            <l>Ch’innamorato core</l>
+            <l>Viver non può giammai senza dolore.</l>
+            <l>lo so, che il mio Ruggiero,</l>
+            <l>Arde per me, più che non arde esposta</l>
+            <l>Al fiato d’'Aquilone accesa face;</l>
+            <l>E pur quel rio pensier, quel pertinace</l>
+            <l>Timor di sua partita</l>
+            <l>Torna a turbar mia vita.</l>
+            <l>Miro ne la sua fronte,</l>
+            <l>Leggo negli occhi suoi scritta la fiamma,</l>
+            <l>E d'un gelato, incognito sospetto</l>
+            <l>Sento rodermi il petto.</l>
+            <l>O dolcezze d'amor fugaci, e corte,</l>
+            <l>Il godervi è miseria, il perder morte.</l>
+          </sp>
+          <sp who="#idraspe">
+            <speaker>IDRASPE.</speaker>
+            <l>Dal porto, onde chiamommi</l>
+            <l>Con iterati messaggieri Alcina.</l>
+            <l>Pronto qui volgo il piede, e riverente:</l>
+            <l>E ben grave accidente</l>
+            <l>De l’amorosa mia bella Reina</l>
+            <l>Fors’è, che turbi il sen, che già non usa</l>
+            <l>Per leggiera cagion chiamare Idraspe.</l>
+            <l>Ma non la vegg’io qui? par, che confusa</l>
+            <l>Dentro al torbido sen volga gran cose.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Se i miei caldi sospir, se le focose</l>
+            <l>Mie lagrime stillanti</l>
+            <l>Di ritenerlo, oimè, non han possanza;</l>
+            <l>Se de gl’usati incanti</l>
+            <l>L'onnipotente mormorio non giova,</l>
+            <l>Farò l'ultima prova</l>
+            <l>Volterò il cor a l’armi, e ne la forza</l>
+            <l>Porrò la mia speranza.</l>
+          </sp>
+          <sp who="#idraspe">
+            <speaker>IDRASPE.</speaker>
+            <l>A cenni tuoi</l>
+            <l>Ubbidiente i vengo;</l>
+            <l>Tu Reina m’addita</l>
+            <l>Di qual comando il mio servir sia degno.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Tutti d'ordine mio di questo regno</l>
+            <l>Con raddoppiato stuol d’uomini, e d'armi</l>
+            <l>Sian custoditi i passi:</l>
+            <l>Tu col valor, e con l'usata fede</l>
+            <l>Guarda, qual si richiede,</l>
+            <l>La spiaggia, e i porti, e per lo mar non passi</l>
+            <l>Legno cotanto ardito,</l>
+            <l>Che chiamato da te non venga al lito.</l>
+          </sp>
+          <sp who="#idraspe">
+            <speaker>IDRASPE.</speaker>
+            <l>Non potrà augello in ciel non che per mare</l>
+            <l>Vela volar, che noto a me non sia.</l>
+            <l>Qual nuova gelosia</l>
+            <l>I tuoi dolci riposi a turbar viene?</l>
+            <l>Forse di Logistilla</l>
+            <l>L'insane turbe a queste mura intorno</l>
+            <l>Vengono a procacciar ruina, e scorno?</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Per sospetto maggior dubbia vacilla</l>
+            <l>L’anima mia, ma la cagion per ora</l>
+            <l>Giovami di celar: tu verso il porto</l>
+            <l>Vattene, o valoroso,</l>
+            <l>Che sopra la tua fè sicura i’  poso.</l>
+          </sp>
+          <sp who="#idraspe">
+            <speaker>IDRASPE.</speaker>
+            <l>A te m’inchino e parto.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ed io che scorto</l>
+            <l>Ruggiero ho di lontan, qui fermo il piede;</l>
+            <l>Che più dolce il mio cor esca non chiede.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>ALCINA, RUGGERO, LIDIA, CORO DI DAMIGELLE.</stage>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Così forte è quel laccio,</l>
+            <l>Con cui legommi il cor l’ignudo Arciero,</l>
+            <l>Che morte pria, che libertade i’ spero.</l>
+            <l>Ma si vaga è la chioma, ond’ei compose</l>
+            <l>La catena gentil, che i crini suoi</l>
+            <l>Non ha sì bei l’Aurora. Or dite, voi,</l>
+            <l>Dite la gioia mia, Ninfe amorose.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Si vorace è la fiamma,</l>
+            <l>In cui si sta questo mio core ardendo,</l>
+            <l>Che morte pria, che refrigerio attendo.</l>
+            <l>Ma da ciglia si belle, e luminose</l>
+            <l>Vien l'ardor mio, che là ne’ Regni Eoi</l>
+            <l>Fors’è men chiaro il sole; or dite, voi,</l>
+            <l>Dite la gioia mia, Ninfe amorose.</l>
+          </sp>
+          <sp who="#damigelle_alcina">
+            <speaker>CORO.</speaker>
+            <l>Sian’al gioir di sì leggiadri amanti</l>
+            <l>Concordi i nostri canti:</l>
+            <l>Non vede il ciel quaggiù maggior bellezza;</l>
+            <l>Ma nè maggior dolcezza</l>
+            <l>Amore altrui destina;</l>
+            <l>Fortunato Ruggier, beata Alcina.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Del bell’Idolo mio</l>
+            <l>Sembra il candido sen su l’Apennino</l>
+            <l>Neve pur’or caduta,</l>
+            <l>O giglio, o gelsomino,</l>
+            <l>Che con chioma canuta</l>
+            <l>Sfidi il candor de l'Alba in su ’l mattino;</l>
+            <l>Nè la via, che dal latte il nome prende</l>
+            <l>(Sia pur con vostra pace, invide stelle:)</l>
+            <l>Forme ha in Ciel così belle.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Le labbra del mio bene</l>
+            <l>Sembrano a mezzo Aprile</l>
+            <l>D'Anemone odorato un fior gentile;</l>
+            <l>E per l’erbose arene</l>
+            <l>Vaga Peonia, a cui</l>
+            <l>Di mattutino gielo</l>
+            <l>Gl’animati rubin cosparga il cielo;</l>
+            <l>E sia pur con tua pace, invida Teti,</l>
+            <l>Ne l’umide spelonche</l>
+            <l>Si bei non nutre il mar coralli, o conche.</l>
+          </sp>
+          <sp who="#damigelle_alcina">
+            <speaker>CORO.</speaker>
+            <l>Siano al gioir di sì leggiadri amanti</l>
+            <l>Concordi i nostri canti;</l>
+            <l>Non vede il Ciel quaggiù maggior bellezza,</l>
+            <l>Ma nè maggior dolcezza</l>
+            <l>Amore altrui destina,</l>
+            <l>Fortunato Ruggier, beata Alcina.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Fama è, ch’acceso di beltà terrena</l>
+            <l>Vestisse il gran Tonante ispida pelle,</l>
+            <l>Ne disdegnasse infra i Sidonj Armenti</l>
+            <l>Sparger muggiti ardenti,</l>
+            <l>Fin che varcando de l’Egee procelle</l>
+            <l>Con la salma adorata</l>
+            <l>La fals’onda gelata</l>
+            <l>Nome novel diede a lontana arena.</l>
+            <l>Lasso, chi m'assicura,</l>
+            <l>Se la mia Donna è di beltà più degna,</l>
+            <l>Ch'a rapirla dal Ciel Giove non vegna?</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ah, Ruggiero ben mio,</l>
+            <l>Ben sì quella son io,</l>
+            <l>Che per soverchio amore</l>
+            <l>Un eterno martir mi nutro al core.</l>
+            <l>De la terra, del mar, del ciel pavento.</l>
+            <l>Ho gelosia del vento,</l>
+            <l>Non mi fido del sole,</l>
+            <l>Che non ti rubi l'un, l’altro t’invole.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Nova per voi dentro a i reali alberghi</l>
+            <l>Danza s’appresta, ed oziosi ancora</l>
+            <l>Qui pur fate dimora?</l>
+            <l>Itene, o bella Coppia, a gioie estreme</l>
+            <l>Amore oggi v’invita.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Andianne, o mio tesoro.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Andiam mia vita.</l>
+          </sp>
+          <sp who="#damigelle_alcina">
+            <speaker>CORO.</speaker>
+            <l>Siano al gioir di sì leggiadri amanti</l>
+            <l>Concordi i nostri canti:</l>
+            <l>Non vede il ciel quaggiù maggior bellezza;</l>
+            <l>Ma ne maggior dolcezza</l>
+            <l>Amore altrui destina,</l>
+            <l>Fortunato Ruggier, beata Alcina.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO TERZO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <stage>RUGGIERO, MELISSA IN FORMA D'ATLANTE.</stage>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>O delizia del mondo,</l>
+            <l>Prima gloria del cielo, Amor, che puoi</l>
+            <l>Bear con gl’ardor tuoi</l>
+            <l>E l'immortale, e la caduca gente;</l>
+            <l>Se de la tua faretra onnipotente,</l>
+            <l>Per impiagarmi il petto,</l>
+            <l>Quello strale scegliesti,</l>
+            <l>Che più dolcezza aveva, e men dolore;</l>
+            <l>Se colmar d'un immenso, almo diletto</l>
+            <l>L'anima mia volesti,</l>
+            <l>Deh, raddoppiami il core,</l>
+            <l>Poichè a goder di tanta gioia appieno</l>
+            <l>Troppo angusto è quest’un ch’io chiudo in seno.</l>
+            <l>Ma parmi, o pur vegg’io d'ignoto aspetto</l>
+            <l>Scender dal Cielo immagine volante?</l>
+            <l>Oimè, che miro?</l>
+          </sp>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Dunque</l>
+            <l>La rimembranza hai sì di me perduta,</l>
+            <l>Ruggier, che tu non possa oggi il sembiante</l>
+            <l>Raffigurar del tuo maestro Atlante?</l>
+            <l>E sia ver, che quel volto, e quella chioma,</l>
+            <l>Che rugoso per te, per te canuta</l>
+            <l>Pur troppo, oimè, son fatti, or non conosca?</l>
+            <l>Ma se densa caligine, se fosca</l>
+            <l>Nube d'affetti indegni, e d'ozj impuri,</l>
+            <l>Così de la ragion t'adombra i lumi,</l>
+            <l>Che i tuoi propri costumi,</l>
+            <l>Che te stesso oggimai non raffiguri,</l>
+            <l>A torto mi doglio,</l>
+            <l>Che me non riconosca. E questo il frutto,</l>
+            <l>Questa la messe sia del sudor mio?</l>
+            <l>Dunque con forte destra</l>
+            <l>In su la cima alpestra</l>
+            <l>De l’altissimo giogo di Carena</l>
+            <l>Contra l’Orse più fiere, e più rabbiose</l>
+            <l>T'insegnai da fanciullo a curvar l'arco?</l>
+            <l>T'avvezzai dunque ad aspettare al varco</l>
+            <l>Per l'arso suol de l’Affricana arena</l>
+            <l>I Leoni più ardenti,</l>
+            <l>A sbranar Tigri, a strangolar Serpenti,</l>
+            <l>Perchè sparso d'odor, perchè fregiato</l>
+            <l>Di lascivi ornamenti,</l>
+            <l>Con crine inanellato,</l>
+            <l>Con guancia imporporata io ti vedessi</l>
+            <l>Tra feminili amplessi</l>
+            <l>Dormire il fior de la tua vita, e dopo</l>
+            <l>Si lunga disciplina</l>
+            <l>Tu fossi al fin l’Endimion d’Alcina?,</l>
+            <l>Questo non è già quel, che mi predisse</l>
+            <l>Di te il mio studio; e tai non son gl'effetti,</l>
+            <l>Ché de le stelle erranti, e de le fisse</l>
+            <l>Già mi promiser gl'osservati aspetti.</l>
+            <l>Sperai, che giunto a quest’età facessi</l>
+            <l>Opre di Cavalier così preclare,</l>
+            <l>Che di quanti passar con Agramante,</l>
+            <l>Dovean d'Africa il mare</l>
+            <l>Di quanti Carlo ha Paladin rendessi</l>
+            <l>Tu sol la gloria oscura.</l>
+            <l>O tradite speranze, o pensier vani!</l>
+            <l>Or va, misero Atlante, e ti figura</l>
+            <l>Esser nuovo Chiron di nuovo Achille.</l>
+            <l>Mira il tuo prode Eroe qual armi stringa,</l>
+            <l>Quali arnesi si vesta,</l>
+            <l>A qual pugna s'accinga.</l>
+            <l>Se di te stesso, e di’ tue proprie lodi</l>
+            <l>Non ti cale, Ruggier; se più non pensi</l>
+            <l>A la guerra di Francia; se trascuri</l>
+            <l>La fè dovuta al tuo Signor; se godi</l>
+            <l>Trar fra sozzi diletti i giorni oscuri,</l>
+            <l>Movati almen la generosa prole,</l>
+            <l>Che di te non bugiardo il Ciel promette.</l>
+            <l>Narrarti io pur solea, che de gl’Estensi</l>
+            <l>Eroi l'inclita stirpe, a cui tu devi</l>
+            <l>Dar’alti fondamenti, al par del sole</l>
+            <l>Per opre di valore in pace, e in guerra</l>
+            <l>Dovea scorrer la terra.</l>
+            <l>Or tu, che pur godevi</l>
+            <l>In ascoltar di tanti</l>
+            <l>Magnanimi Nipoti</l>
+            <l>L'eccelse imprese, ed i gloriosi vanti,</l>
+            <l>Starai vil Cavaliero</l>
+            <l>In un breve del mondo angol sepolto</l>
+            <l>Di donna infame idolatrando un volto?</l>
+            <l>Altra bellezza, altra onestà, Ruggiero,</l>
+            <l>Il Cielo a te destina.</l>
+            <l>E quai ti credi alfin, che sian d'Alcina</l>
+            <l>Gl'adorati sembianti?</l>
+            <l>Ciò, che d’intorno miri,</l>
+            <l>Ciò, ch’in lei stessa ammiri,</l>
+            <l>Tutto è forza d’Inferno, opra d'incanti.</l>
+            <l>Tien questo anello, a lei ritorna, e guarda</l>
+            <l>Come belli suoi rai, sue guance sono,</l>
+            <l>E riamala poi, ch’io te ’l perdono.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>In qual’antro mi celo?</l>
+            <l>Qual nel profondo abisso</l>
+            <l>Voragine m’inghiotte,</l>
+            <l>Sì che raggio di Cielo</l>
+            <l>Non miri più, si che in perpetua notte,</l>
+            <l>In sempiterno oblio</l>
+            <l>Meco resti sepolto il fallir mio?</l>
+            <l>Qual nume mai, se de l'estrema Tana</l>
+            <l>Con gli agghiacciati umor tutta mischiasse</l>
+            <l>L'onda il Nilo, e l’Arasse,</l>
+            <l>Potria de l'Alma insana</l>
+            <l>Quella macchia lavare; onde vermiglio</l>
+            <l>Porterò sempre il volto, e basso il ciglio?</l>
+            <l>Forsennato Ruggiero,</l>
+            <l>Così si pugna in Francia? e queste sono</l>
+            <l>Quell’armi onde agguagliarle</l>
+            <l>Già ti credesti al Sir d'Anglante in guerra.</l>
+            <l>Indegno Cavaliero,</l>
+            <l>Mentre in nimica terra</l>
+            <l>Tra i dubbi eventi de l'incerto Marte</l>
+            <l>Travaglia il mio Signor, io l'abbandono?</l>
+            <l>Misero, e come denno</l>
+            <l>Or di me favellare Africa, e Spagna?</l>
+            <l>O con quanta ragion di me si lagna</l>
+            <l>Il mio custode, il mio maestro Atlante.</l>
+            <l>E tu, che non dovrei</l>
+            <l>Con lingua indegna già chiamarti a nome,</l>
+            <l>Bella mia Bradamante,</l>
+            <l>Luce de gli occhi miei,</l>
+            <l>Anima mia, mia vita,</l>
+            <l>O se sapessi come</l>
+            <l>Sei da Ruggier tradita,</l>
+            <l>Quanti da quei celesti amanti lumi</l>
+            <l>Spargeresti di duol torrenti, e fiumi?</l>
+            <l>Leggiadro guiderdon, degna mercede</l>
+            <l>Di Cavalier cortese. Ella per trarmi</l>
+            <l>Del Castello incantato impugna l’armi,</l>
+            <l>Espone il petto a mille rischi, ed io</l>
+            <l>Libero appena ho il piede,</l>
+            <l>Ch’il suo amor la sua fede,</l>
+            <l>E i tanti obblighi miei posti in oblio,</l>
+            <l>Lascivo, ed incostante</l>
+            <l>Di straniera beltà divengo amante.</l>
+            <l>O cari occhi divini, entro a i cui giri</l>
+            <l>Di sue bellezze ascose</l>
+            <l>Un vivo simulacro il Ciel ripose,</l>
+            <l>Io sospirar per altri? E quei sospiri</l>
+            <l>Infedeli, ed ingrati</l>
+            <l>Non fur del viver mio gli ultimi fiati?</l>
+            <l>Perdonatemi pur, luci amorose,</l>
+            <l>Che se fu l'error mio forza d'incanto,</l>
+            <l>Sarà l'emenda mia forza di pianto.</l>
+            <l>Ma che più penso? a che più tardo? Ah, spoglia</l>
+            <l>Spoglia, Ruggier, l'effeminato manto:</l>
+            <l>Vestiti l’arme, e con la destra forte</l>
+            <l>O libertà racquista, o incontra morte.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>RUGGIERO, ASTOLFO IN MIRTO, CORO DI CAVALIERI TRASFORMATI DA ALCINA.</stage>
+          <sp who="#astolfo">
+            <speaker>ASTOLFO.</speaker>
+            <l>Ruggier, Ruggiero.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Io sento</l>
+            <l>Chiamarmi, e qui vicina</l>
+            <l>Parmi la voce, e pure alcun non veggio.</l>
+          </sp>
+          <sp who="#astolfo">
+            <speaker>ASTOLFO.</speaker>
+            <l>Deh, se troppo non chieggio,</l>
+            <l>Valoroso Guerrier, breve momento</l>
+            <l>Indugia ancora, ed a gl'accenti miei</l>
+            <l>Cortese per pietà l'orecchio inchina.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Questo è forse d’Alcina</l>
+            <l>Un inganno novello. E dove sei</l>
+            <l>Tu, che meco ragioni? ove t’ascondi?</l>
+          </sp>
+          <sp who="#astolfo">
+            <speaker>ASTOLFO.</speaker>
+            <l>Dentro a questa corteccia, in queste frondi</l>
+            <l>Chiuso vive il mio spirto.</l>
+            <l>Ruggiero, io son quel Mirto,</l>
+            <l>Al cui tronco infelice</l>
+            <l>L'alato corridor legasti allora,</l>
+            <l>Che stanco forse de le vie celesti</l>
+            <l>In questa infame terra il piè ponesti.</l>
+            <l>Di colei, che il tuo cuore amando adora,</l>
+            <l>Sono il Cugino Astolfo. Il primo io fui,</l>
+            <l>Che d’Alcina i costumi empj, e perversi</l>
+            <l>Ne le miserie mie già ti’ scopersi.</l>
+            <l>Or che provi in te quello,</l>
+            <l>Che non credesti allor forse in altrui,</l>
+            <l>Va, corri a la vendetta. A la tua mano</l>
+            <l>Il giustissimo cielo oggi destina</l>
+            <l>Il gastigo d'Alcina,</l>
+            <l>Mirai, nè forse invano,</l>
+            <l>Scender pur dianzi a tua salute intesa</l>
+            <l>Da gl’aerei sentier Donna divina;</l>
+            <l>Or poichè a l'alta impresa</l>
+            <l>Dato avrai fin, di me ti caglia ancora,</l>
+            <l>Nè lasciar, che si muora</l>
+            <l>Dentro a scorza infeconda</l>
+            <l>Disumanato un uom su questa sponda.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Sallo il Ciel, se mi pesa,</l>
+            <l>o del Monarca Inglese inclito Erede,</l>
+            <l>De le sciagure tue: ma in che giovarte</l>
+            <l>Possa Ruggier non so: so che a spogliarte</l>
+            <l>De la ruvida scorza</l>
+            <l>Poco l'ardir nulla varrà la forza.</l>
+            <l>Ben giuro al ciel, se il piede</l>
+            <l>Io trarrò mai da l’incantata soglia</l>
+            <l>Di tentar ogni via, provar ogn'arte,</l>
+            <l>Perchè deposta la fronzuta spoglia</l>
+            <l>Nel sembiante primier ritorni ancora.</l>
+          </sp>
+          <sp who="#cavaliere_1">
+            <speaker>UNO DEL CO.</speaker>
+            <l>Ed io starò quì lagrimando ogn'ora?</l>
+            <l>Io, che converso in liquida fontana</l>
+            <l>Da la Maga inumana,</l>
+            <l>Con sempiterno mormorio tra l'erba</l>
+            <l>Piangendo vo la mia sciagura acerba?</l>
+          </sp>
+          <sp who="#cavaliere_2">
+            <speaker>UN'ALTRO DEL CORO.</speaker>
+            <l>E chi di me pietate,</l>
+            <l>Misero, avrà? chi mi soccorre, ahi lasso?</l>
+            <l>Dunque gelida selce, immobil sasso.</l>
+            <l>Qui fisso eternamente</l>
+            <l>Starommi a l'aria fredda, al sole ardente?</l>
+          </sp>
+          <sp who="#coro_cavalieri">
+            <speaker>TUTTO IL CORO INSIEME.</speaker>
+            <l>Deh, se benigno il cielo</l>
+            <l>Secondi, o Cavaliero, i desir tuoi,</l>
+            <l>Rammentati di noi.</l>
+            <l>Le piante, i fonti, i sassi, infin le belve,</l>
+            <l>Che miri in queste selve,</l>
+            <l>Hanno spirito uman; la Fata iniqua</l>
+            <l>Con orribil incanti</l>
+            <l>Così sazia di lor tratta gl’amanti.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>La vostra libertate</l>
+            <l>Sta più nel Ciel, che nel mio braccio, amici;</l>
+            <l>Al Ciel dunque drizzate</l>
+            <l>Le vostre preci, e i voti;</l>
+            <l>Ch’ei non chiude l'orecchio a i cor divoti.</l>
+          </sp>
+          <sp who="#coro_cavalieri">
+            <speaker>CORO.</speaker>
+            <l>Santi Numi del Ciel, s’egli è pur vero,</l>
+            <l>Che giustizia tra voi regni, e pietate;</l>
+            <l>Se a quei superni giri</l>
+            <l>Giungon mortal sospiri,</l>
+            <l>Deh, lo sguardo divin ver noi girate.</l>
+            <l>E se gli errori nostri</l>
+            <l>Chiaman vendetta da gl’eterni chiostri,</l>
+            <l>Vibrate, o Dei, vibrate</l>
+            <l>Le saette infiammate,</l>
+            <l>Che troppo è dura sorte</l>
+            <l>Perder la vita, e non trovar la morte.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO QUARTO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <stage>MELISSA, RUGGIERO.</stage>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Già de gl'inganni altrui,</l>
+            <l>E de gli errori suoi Ruggiero accorto,</l>
+            <l>S'accinge a la partita:</l>
+            <l>Ben’è l'impresa ardita,</l>
+            <l>E lungo affanno, e gran periglio affronta;</l>
+            <l>Ma soccorso, e conforto</l>
+            <l>Ad arrecargli pronta</l>
+            <l>lo qui l'aspetto. E dal lascivo albergo</l>
+            <l>Parmi appunto, ch’egl’esca il braccio manco:</l>
+            <l>Arnese disusato,</l>
+            <l>Sostien lo scudo: adamantino usbergo</l>
+            <l>Arma gl’omeri, e il fianco</l>
+            <l>Preme la nobil chioma elmo lucente;</l>
+            <l>E dal sinistro lato</l>
+            <l>Sitibondo di sangue in fiera guisa</l>
+            <l>Pende il ferro tagliente.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>O prezioso anello,</l>
+            <l>O mirabile gemma,</l>
+            <l>Di cui più rara non nutri giammai</l>
+            <l>Ne l'onde sue oriental maremma.</l>
+            <l>Io tua mercè, viva conosco omai</l>
+            <l>E l'altrui froda, e il proprio fallo. Ed io</l>
+            <l>Io dunque fui sì forsennato, e stolto,</l>
+            <l>Che come Idolo mio</l>
+            <l>Riverire, adorar potei quel volto,</l>
+            <l>Quel volto, oimè, che nel Tartareo tetto</l>
+            <l>Faria scorno a Megera onta ad Aletto?</l>
+          </sp>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Or tempo è, ch’io mi scopra. A te di Francia</l>
+            <l>Mossa a pietà di carcere si indegno,</l>
+            <l>O mio Ruggier, ne vegno:</l>
+            <l>Quel, che pur dianzi udisti</l>
+            <l>Ragionarti dal ciel, non era Atlante:</l>
+            <l>Io, per destar nel generoso cuore</l>
+            <l>Il sopito valore,</l>
+            <l>Così presi di lui forma, e sembiante.</l>
+            <l>La bella Bradamante,</l>
+            <l>Che de l'anima sua molto più t’ama,</l>
+            <l>Di lontan lagrimando ogn’or ti chiama;</l>
+            <l>Quell'anel ch’io ti diedi, ella ti manda.</l>
+            <l>Or tu, che de la Maga</l>
+            <l>La natural beltà mirasti espressa,</l>
+            <l>Libero mi confessa</l>
+            <l>Quanto leggiadra sia, quanto sia vaga.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>O cortese Melissa, o di colei,</l>
+            <l>Ch'è vita del cuor mio,</l>
+            <l>Messaggiera gentil, nunzia amorosa,</l>
+            <l>Molto al tuo amor debb'io,</l>
+            <l>Molto a quella pietà, che si da lungi</l>
+            <l>Ti trasse ad emendar gl errori miei:</l>
+            <l>Peccai, no ‘I neho, indegna, vergognosa</l>
+            <l>Fu la mia colpa, ed ogni pena è lieve:</l>
+            <l>Ma se scusa riceve</l>
+            <l>Da un'anima ingannata un cuore amante:</l>
+            <l>So ben, che Bradamante</l>
+            <l>Conoscerà, che magico potere</l>
+            <l>Fe forza al mio volere.</l>
+            <l>E come potea mai sano intelletto.</l>
+            <l>Occhio non abbagliato</l>
+            <l>Per sì difforme aspetto,</l>
+            <l>Si leggiadra beltà porre in oblio?</l>
+            <l>O mio cuore ingannato,</l>
+            <l>O mie luci tradite, e che si bada?</l>
+            <l>Stringasi omai la spada,</l>
+            <l>Caggia l'infame regno;</l>
+            <l>Vegga costei qual forza abbia nel petto</l>
+            <l>Di schernito guerrier ragione, e sdegno.</l>
+          </sp>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Ira è di nobil cor non vile affetto,</l>
+            <l>E governata da ragione accresce</l>
+            <l>Forza, e valor. Or tu, Ruggier, mi ascolta.</l>
+            <l>Sai che del tuo partir fatta è gelosa</l>
+            <l>La Maga, e che di folta</l>
+            <l>Turba tien custoditi i passi intorno:</l>
+            <l>Tu strada sanguinosa</l>
+            <l>Col ferro aprir ti dei, lungi dal porto,</l>
+            <l>Se brami di fuggir periglio, e scorno,</l>
+            <l>Prendi la via. Con mille navi Idraspe</l>
+            <l>Scorre quei liti: a desira</l>
+            <l>Volgi dunque le piante; e perchè dura</l>
+            <l>Malagevole, alpestra</l>
+            <l>Può la strada parerti, a quel destriero,</l>
+            <l>Che più, che pece nero</l>
+            <l>Ne le stalle d'Alcina in ozio giace</l>
+            <l>Che passa i venti al corso,</l>
+            <l>Che sempre fresco alle fatiche dura,</l>
+            <l>Pon frettoloso il morso,</l>
+            <l>E ne la fuga a tutta briglia il caccia.</l>
+            <l>Non t'arresti per via grido, o minaccia;</l>
+            <l>Ne di beltà fallace</l>
+            <l>Invito lusinghier ritardi il piede:</l>
+            <l>Ove bisogno il chiede</l>
+            <l>Scopri de l’aureo scudo</l>
+            <l>La fiamma abbagliatrice, e non ti caglia</l>
+            <l>Di più lunga battaglia.</l>
+            <l>In riva al mar vedrai nocchiero accorto;</l>
+            <l>Ei su volante pino</l>
+            <l>Per sicuro cammino</l>
+            <l>Ti condurrà su l’altra sponda in porto.</l>
+            <l>So, che il destrier pennuto</l>
+            <l>Trar ti potrebbe in un girar di ciglio</l>
+            <l>Per l'ampie vie del ciel fuor di periglio;</l>
+            <l>Ma poco ubbidiente,</l>
+            <l>E tu per prova il sai</l>
+            <l>A gl’imperi del freno egli acconsente.</l>
+            <l>Io domerò quel pertinace orgoglio</l>
+            <l>E in breve il condurrò dove tu vai.</l>
+          </sp>
+          <sp who="#ruggiero">
+            <speaker>RUGGIERO.</speaker>
+            <l>Parto, e da’ tuoi consigli</l>
+            <l>Non sia, ch'io m’allontani. Un sol cordoglio</l>
+            <l>Mi resta ancor, Melissa. In questa sponda</l>
+            <l>Converso in steril fronda</l>
+            <l>De la mia Bradamante</l>
+            <l>Vive il cugino Astolfo. O s'io potessi</l>
+            <l>Nel primiero sembiante</l>
+            <l>Tornarlo! il sangue mio da queste vene</l>
+            <l>Come lo spargerei lieto, e contento.</l>
+          </sp>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Astolfo, ed altri cento,</l>
+            <l>Che trasformati in queste ignude arene</l>
+            <l>Con insolite pene</l>
+            <l>L'iniqua Maga opprime,</l>
+            <l>Ritorneranno a le sembianze prime.</l>
+            <l>Or tu vanne, Ruggier, che quì vicina</l>
+            <l>Sé l'occhio non m'inganna, i’ veggo Alcina.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>ALCINA, LIDIA</stage>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Dal più caldo meriggio</l>
+            <l>Il luminoso Arcier saetta i lampi,</l>
+            <l>E fulminati da gl’intensi ardori</l>
+            <l>L'odorata cervice in mezzo a i campi,</l>
+            <l>Chinan languidi i fiori:</l>
+            <l>E su quest’ora appunto</l>
+            <l>Là nel bosco de’ lauri</l>
+            <l>Che con le frondi sue fa scudo al prato,</l>
+            <l>Dove con leggier fiato</l>
+            <l>Par ch'un zeffiro dolce il ciel ristauri,</l>
+            <l>Meco promise il mio Ruggier trovarsi.</l>
+            <l>O schernite dolcezze, o passi sparsi!</l>
+            <l>Misera, ei non si vede!</l>
+            <l>Io il chiamo, ei non risponde: e pur solea</l>
+            <l>Impaziente già d'ogni dimora</l>
+            <l>Il tempo prevenir, precorrer l’ora.</l>
+            <l>Lidia istessa non torna. Ella dovea</l>
+            <l>Diligente cercarlo, e frettolosa</l>
+            <l>Recarmene novelle. O qual mi siede</l>
+            <l>Il palpitante cuor cura noiosa!</l>
+            <l>Fuggito, lassa, è il mio Ruggiero: I’ sento</l>
+            <l>L'alma, che presagisce il suo tormento.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Al bosco degl'allori,</l>
+            <l>A la spiaggia del mare, al monte, al piano</l>
+            <l>Mille volte cercato,</l>
+            <l>Mille volte chiamato,</l>
+            <l>O mia Reina, ho il tuo Ruggier, ma invano:</l>
+            <l>Parte non v’ha sì chiusa, e si riposta,</l>
+            <l>Ch’io non abbia trascorsa,</l>
+            <l>E pur Ruggier non trovo: Un sol segnale</l>
+            <l>I miei pensieri inforza.</l>
+            <l>Sai, ch'il di primo a i prieghi tuoi deposta</l>
+            <l>Fu dal guerrier la sanguinosa spada,</l>
+            <l>E che, quasi trofeo di tua bellezza,</l>
+            <l>Appo il tuo letto a le parete appesi</l>
+            <l>Di lui giaceansi i militari arnesi:</l>
+            <l>Questi dianzi io non vidi.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Oimè! sicure,</l>
+            <l>Son già le mie sciagure:</l>
+            <l>Lidia tu m’uccidesti. Almen m’addita</l>
+            <l>Da qual parte se 'n vada.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Troppo sei presta al duol. Di sua partita</l>
+            <l>Non hai fin’or certezza,</l>
+            <l>E forsi per vaghezza</l>
+            <l>Di provarsi scherzando</l>
+            <l>In marzial contese</l>
+            <l>Co’ Cavalieri tuoi: l'arme avrà prese.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Troppo Lidia è leggiero il tuo conforto</l>
+            <l>A così gran dolore.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Orribili sembianze,</l>
+            <l>Ma vane per lo più veste il timore.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ma più vane però son le speranze.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Proprio è di nobil petto</l>
+            <l>Ne gl’affanni maggior premer l’affetto.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Tenero Amor non usa opre da forte,</l>
+            <l>E mal si può dissimular la morte.</l>
+          </sp>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Fa, se Regina sei, che ti ricordi</l>
+            <l>La maestà del grado.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ah, che in un cor di rado</l>
+            <l>Amore, e maestà regnan concordi.</l>
+            <l>Partir vedrò il mio bene, e starò muta</l>
+            <l>In così gran martire?</l>
+            <l>Si ch’io vò lagrimar, ch’io vò morire.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>ALCINA, LIDIA, NUNZIO.</stage>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Oimè, tutto anelante,</l>
+            <l>Tutto sangue, e sudori un de’ custodi</l>
+            <l>De la Reggia ver noi drizza le piante.</l>
+          </sp>
+          <sp who="#nunzio">
+            <speaker>NUNZIO.</speaker>
+            <l>Di successi men rei</l>
+            <l>Messaggiero, o Reina esser vorrei.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Brevemente ragiona,</l>
+            <l>Che prima ancor, che tu favelli, ahi lassa,</l>
+            <l>Io già t'intendo. Passa,</l>
+            <l>Passami il cuor, ma tosto;</l>
+            <l>Ch’è crudeltà infinita</l>
+            <l>Tardar la morte a chi dee uscir di vita.</l>
+          </sp>
+          <sp who="#nunzio">
+            <speaker>NUNZIO.</speaker>
+            <l>Guari non è, che di lucente acciaro</l>
+            <l>Fieramente guernito il busto, e il tergo</l>
+            <l>Sovra un nero destrier dal regio albergo</l>
+            <l>Uscir tentò Ruggier: con ciglio oscuro</l>
+            <l>E con parlar superbo il passo chiede;</l>
+            <l>Negato, ove più vede</l>
+            <l>Densa la turba de’ custodi, spinge</l>
+            <l>Il feroce corsiero, e con la destra</l>
+            <l>La spada fulminante a un punto stringe.</l>
+            <l>Noi facciam fronte, e giuro</l>
+            <l>Per questo sangue, che dal crin mi gronda,</l>
+            <l>Ch'in tanti petti una viltà non scorsi.</l>
+            <l>Ma qual poteva mai riparo opporsi</l>
+            <l>A quel braccio, a quel brando? Il sangue inonda</l>
+            <l>Il real pavimento: Un ferro solo</l>
+            <l>Beve cent’alme, e non cred’io, che soglia</l>
+            <l>A le tenere biade</l>
+            <l>Tanta strage recar, qualvolta cade</l>
+            <l>Dal tempestoso ciel grandine estiva;</l>
+            <l>Ne con tal furia ad espugnar la riva,</l>
+            <l>Allor, che muta spoglia</l>
+            <l>Al primo sol invigorito il mondo,</l>
+            <l>Torrente furibondo,</l>
+            <l>Che gonfio ha il sen di liquefatta brina,</l>
+            <l>Scende da balza alpina;</l>
+            <l>Come fiero ei n’assalse, e ne disperse.</l>
+            <l>Indi lentando al corridore il freno</l>
+            <l>Per la via, che s'aperse,</l>
+            <l>Rapido se n'andò come baleno.</l>
+            <l>Me sol, perchè potessi</l>
+            <l>Forse recar gli sfortunati avvisi,</l>
+            <l>Lasciò fra tanti uccisi</l>
+            <l>Vivo, benchè ferito.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Vanne: troppo hai tu detto, io troppo udito.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUARTA</head>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>OR si misero core,</l>
+            <l>Or si lumi dolenti,</l>
+            <l>Di lagrimar, di sospirare è tempo.</l>
+            <l>Parta da me ciò, che non è dolore,</l>
+            <l>Se non han chi gl’avanzi i miei tormenti,</l>
+            <l>Non abbian chi gl’agguagli i miei lamenti.</l>
+            <l>Troppo, lassa, fu vero il mio sospetto!</l>
+            <l>Ben sentiv’io nel petto</l>
+            <l>Battermi ogn'or de le sciagure mie</l>
+            <l>Il timor messaggiero:</l>
+            <l>Questo è quel, ch’il pensiero</l>
+            <l>Mi predicea con non inteso affanno.</l>
+            <l>Or, che palese è il danno,</l>
+            <l>Chi mi soccorre, oimè? chi mi conforta?</l>
+            <l>Se Ruggiero è partito, Alcina è morta.</l>
+            <l>Dore volger debb'io,</l>
+            <l>Per ritrovarlo il piè, chi me l'addita?</l>
+            <l>Dove va la mia vita</l>
+            <l>Dove fugge il cor mio?</l>
+            <l>Chi ritarda, chi tiene,</l>
+            <l>Chi mi torna il mio bene?</l>
+            <l>E se fero, e crudele,</l>
+            <l>Se ingrato, ed infedele</l>
+            <l>Tornar non vuol chi dietro a lui mi porta?</l>
+            <l>Se Ruggiero è partito, Alcina è morta.</l>
+            <l>Ah, che nessun m'ascolta;</l>
+            <l>I zeffiri volanti</l>
+            <l>Si portan le mie pene,</l>
+            <l>E le deserte arene</l>
+            <l>Si bevono i miei pianti.</l>
+            <l>Ei con fuga felice</l>
+            <l>Di vestigia infedeli imprime il lido;</l>
+            <l>lo d'un’Amante infido</l>
+            <l>Miserabil rifiuto, ed infelice,</l>
+            <l>Ne le lagrime mie rimango absorta.</l>
+            <l>Se Ruggiero è partito, Alcina è morta.</l>
+            <l>Ma, che morta dic’io? Stelle perverse,</l>
+            <l>Voi per maggiore affanno</l>
+            <l>Mi faceste immortale: Il vostro dono</l>
+            <l>Fu mia sciagura, e danno.</l>
+            <l>Iniquissima legge! Io dunque sono</l>
+            <l>Egualmente sbandita</l>
+            <l>Dal regno de la morte, e della vita?</l>
+            <l>Ritoglietemi o Stelle i vostri doni;</l>
+            <l>Che se viver degg’io sol per languire,</l>
+            <l>Meglio sarà morire.</l>
+            <l>E tu Ruggier, (che ti dirò pur mio)</l>
+            <l>Se ben più mio non sei, deh ferma i passi:</l>
+            <l>Crudel perchè mi lasși?</l>
+            <l>In che t’offesi mai? che t'ho fatt’io?</l>
+            <l>Resta Ruggier, deh resta:</l>
+            <l>Così la fè s'osserva?</l>
+            <l>Così tratti tu questa,</l>
+            <l>Dilla qual più t'aggrada, amante, o serva?</l>
+            <l>Or va tradita Alcina</l>
+            <l>Va, credi a i giuramenti:</l>
+            <l>Lascia mesti, e dolenti</l>
+            <l>Mille antichi Amatori, ed accomuna</l>
+            <l>Il tuo letto, il tuo regno.</l>
+            <l>A un pellegrino indegno</l>
+            <l>Che non so donde qua cacciò fortuna.</l>
+            <l>Ma dei fulmini vostri,</l>
+            <l>O spergiurate Deità del Cielo</l>
+            <l>Che fate voi? se de gl’Empirei chiostri</l>
+            <l>Non s'ha giustizia, in vano</l>
+            <l>Ben v'accende gl’altari il mondo insano,</l>
+            <l>Punite voi con memorando esempio</l>
+            <l>Quel traditor, quell’empio;</l>
+            <l>E se tardo è il castigo, almen sia fiero:</l>
+            <l>Muora, muora Ruggiero.</l>
+            <l>Ovunque l'infedel volgerà i passi,</l>
+            <l>Li nieghi il sol la luce, il fiume l'onda,</l>
+            <l>La terra, l'alimenti:</l>
+            <l>E, se spiegando audace vela ai venti,</l>
+            <l>Solcar vorrà la region profonda,</l>
+            <l>Scatenato dal claustro</l>
+            <l>Esca Aquilone, ed Austro;</l>
+            <l>Caggia l’iniquo, e per l'arene incolte</l>
+            <l>Le nud’ossa insepolte</l>
+            <l>Biancheggiar di lontan miri il Nocchiero;</l>
+            <l>Muora, muora Ruggiero.</l>
+            <l>Misera, e che più spargo</l>
+            <l>Inutilmente le querele, e i gridi?</l>
+            <l>Tempo è di vendicarmi.</l>
+            <l>Su, su correte a l'armi,</l>
+            <l>O vilipesi popoli d’Alcina,</l>
+            <l>Altri cingano i lidi,</l>
+            <l>Altri per la marina</l>
+            <l>Battan l’ale de’ remi. Ove può mai</l>
+            <l>Quell’ingrato fuggir, che non gli sia</l>
+            <l>Intercetta ogni via,</l>
+            <l>Serrato ogni sentiero?</l>
+            <l>Muora, muora Ruggiero.</l>
+            <l>Folle, ma che vaneggio?</l>
+            <l>Forsennata, che chieggio?</l>
+            <l>No, no; viva Ruggier, viva, e ritorni.</l>
+            <l>Con mille morti mie, con mille scorni</l>
+            <l>Comprerei la sua vita:</l>
+            <l>Itene miei fedeli; interrompete</l>
+            <l>La cruda dipartita;</l>
+            <l>Ma pregate, e piangete.</l>
+            <l>Non sia tra voi si temeraria destra,</l>
+            <l>Che per troncare al Cavalier la strada,</l>
+            <l>Arco ardisca allentare, o stringer spada:</l>
+            <l>E tu, ben mio, perdona</l>
+            <l>A questa lingua, e de’ mal saggi accenti</l>
+            <l>Dal nobil sen la rimembranza spoglia.</l>
+            <l>Sconsigliato il mio cor ne’ suoi tormenti</l>
+            <l>Delirò per la doglia:</l>
+            <l>Arresta, arresta il piede,</l>
+            <l>Ch’altro Alcina non chiede;</l>
+            <l>E pur che tu ritorni, o Ruggier mio</l>
+            <l>Ogn’altra colpa i’ spargerò d'oblio.?</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO QUINTO</head>
+        <div type="scene">
+          <head>SCENA PRIMA</head>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Coronatemi, o lauri</l>
+            <l>Le chiome trionfanti.</l>
+            <l>Ho guerreggiato, ho vinto. Ove ora sono</l>
+            <l>Le tue superbie, Alcina, ove gl’incanti?</l>
+            <l>Or schernisci gl’Amanti,</l>
+            <l>E nel cangiar di tua incostante voglia</l>
+            <l>Cangia lor forma, e spoglia.</l>
+            <l>Negletta, vilipesa, in abbandono,</l>
+            <l>Mezza tra morta, e viva,</l>
+            <l>In solitaria riva</l>
+            <l>Trofeo del mio saper Ruggier ti lascia,</l>
+            <l>Tu, che tanto godevi</l>
+            <l>In tormentare altrui, prendi, ricevi</l>
+            <l>Di tua volubil fede</l>
+            <l>Ben dovuta mercede.</l>
+            <l>Se non m'inganna il mio pensier, già scorto</l>
+            <l>Il sagace Nocchiero</l>
+            <l>Di Logistilla al porto</l>
+            <l>Con felice passaggio avrà Ruggiero.</l>
+            <l>Altro qui non m'avanza,</l>
+            <l>Che l'immagin disfar, disciorre i nodi,</l>
+            <l>Onde a l'umana lor prima sembianza</l>
+            <l>Tornino i Cavalier, ch’in tanti modi</l>
+            <l>L'empia trasfigurò. Folle chi spera</l>
+            <l>Celar sue colpe al Ciel, ne si rammenta,</l>
+            <l>Che tanto più severa</l>
+            <l>E l’ira de gli Dei, quanto è più lenta.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II.</head>
+          <stage>LIDIA, ALCINA, IDRASPE.</stage>
+          <sp who="#lidia">
+            <speaker>LIDIA.</speaker>
+            <l>Come più di Ruggier penso a la ſuga,</l>
+            <l>Più temerario parmi</l>
+            <l>L’ardimento, e lo sforzo. Abbia per terra</l>
+            <l>Libero il passo, ed aprasi con l’armi</l>
+            <l>Il negato sentier; del mar, che serra</l>
+            <l>Quest’Isola d’intorno,</l>
+            <l>Come mai varcherà la rapid’onda?</l>
+            <l>Come da questa sponda</l>
+            <l>Sì furtiva spiegar potrà le vele</l>
+            <l>Nave, ch’al tuo fedele</l>
+            <l>Provido Idraspe il suo partir nasconda?!</l>
+            <l>Deh, fa tregua a i sospiri, e da begli occhi</l>
+            <l>Tergi i dolenti umori. lo spero ancora</l>
+            <l>Veder pria, che nel mare il di trabocchi,</l>
+            <l>Rasserenarsi il Ciel del tuo bel viso,</l>
+            <l>E germogliar di mezzo al pianto il riso.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Questa sola speranza</l>
+            <l>Con debil nutrimento</l>
+            <l>Sostenta anco mia vita. Io d'ora in ora</l>
+            <l>Qualche del dubbio evento</l>
+            <l>Novella aspetto, e impaziente accuso</l>
+            <l>Ogni breve dimora.</l>
+            <l>Ma non vegg’io sovra volante prora</l>
+            <l>Tutto ne l’armi chiuso</l>
+            <l>Di là venire un Cavalier? Io temo</l>
+            <l>Misera, i’ gelo, i’ tremo.</l>
+            <l>Pare Idraspe da lungi;</l>
+            <l>Egli è desso, il conosco. Oimè, che porte</l>
+            <l>Vita, Idraspe, o pur morte?</l>
+          </sp>
+          <sp who="#idraspe">
+            <speaker>IDRASPE.</speaker>
+            <l>Reina, il Ciel contra di noi guerreggia,</l>
+            <l>E contrastar non può forza mortale</l>
+            <l>Con possanza immortale.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>E partito Ruggiero, o il trattenesti?</l>
+            <l>In questa sol risposta</l>
+            <l>Ogni mio bene, ogni sciagura è posta;</l>
+          </sp>
+          <sp who="#idraspe">
+            <speaker>IDRASPE.</speaker>
+            <l>Stavo qual m'imponesti,</l>
+            <l>Con cento legni, e cento</l>
+            <l>Di questi lidi a la custodia intento;</l>
+            <l>Quando allora ch’il sole accerchia l'ombre,</l>
+            <l>Colà, dove la fronte</l>
+            <l>Sporge nel mar più discosceso il monte,</l>
+            <l>Spiccar vidi da riva</l>
+            <l>Picciolo abete, e breve,</l>
+            <l>Ma si rapido, e lieve,</l>
+            <l>Che strisciava per l'onde, e non l’apriva!</l>
+            <l>Di Ruggier, che fuggiva</l>
+            <l>Recommi intanto un de’ tuoi servi avviso,</l>
+            <l>Ond’io lentando a le mie navi il freno</l>
+            <l>D'ira, e di doglia pieno</l>
+            <l>Vo dietro a lui rapidamente a volo.</l>
+            <l>Da tanti remi, e tanti</l>
+            <l>Lacerato Nettun freme, e spumanti</l>
+            <l>Corrono i flutti a flagellar le sponde:</l>
+            <l>Impallidiscon l’onde</l>
+            <l>Sotto le nostre vele; e d'ogni lato</l>
+            <l>Già da noi circondato</l>
+            <l>Non restava a Ruggier scampo a la fuga;</l>
+            <l>Quando il Nocchiero in su la poppa assiso</l>
+            <l>Spogliò d’in sottil vel, ch’il ricopriva,</l>
+            <l>Maraviglioso scudo,</l>
+            <l>Che con lampo improvviso</l>
+            <l>N'acciecò i lumi, e la virtù visiva</l>
+            <l>Abbaccinata in noi, restammo come</l>
+            <l>Del misero Fineo l’armate schiere</l>
+            <l>Al disvelar de le Gorgonie chiome.</l>
+            <l>Ma dal lito vicin di Logistilla</l>
+            <l>Udiam poichè il veder n'era già tolto</l>
+            <l>Strepito d’arme, e con fragore orrendo</l>
+            <l>Intorno rimbombar trombe guerriere.</l>
+            <l>Con cieca destra brancolando i remi</l>
+            <l>Ciascun de’ nostri (e che potea più farsi</l>
+            <l>In quei perigli estremi)?</l>
+            <l>A fuggir fu, più ch'a pugnar rivolto.</l>
+            <l>Fuggiam confusi, e sparsi:</l>
+            <l>Molti dal ferro ostil caggiono estinti:</l>
+            <l>Molti dal cieco loro impeto spinti</l>
+            <l>Rompono infra gli scogli. Io con pochi altri</l>
+            <l>Fui da la sorte rigettato a riva.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>E sarà ver, ch’io viva</l>
+            <l>Senza Ruggiero? e che si lento al core</l>
+            <l>Scenda il mortal dolore,</l>
+            <l>Che mal grado del Ciclo, ei non m'uccida?</l>
+            <l>Così va, chi si fida.</l>
+            <l>Ma chi pensato avria, che sotto un vago</l>
+            <l>Angelico sembiante,</l>
+            <l>Si nascondesse mai un cor di drago,</l>
+            <l>Un anima di ferro, e d'adamante?</l>
+            <l>Lassa che far degg'io? dove mi volgo?</l>
+            <l>Se soccorso per me non ha la terra,</l>
+            <l>S'il Cielo mi fa guerra,</l>
+            <l>Movasi a le mie voci almen l'inferno.</l>
+            <l>O del caliginoso orrido Averno</l>
+            <l>Tremendi Dei, la cui possanza è pari</l>
+            <l>Forse a quella del Ciel, s'unqua v'offersi</l>
+            <l>Sovra divoti altari</l>
+            <l>Ne’ silenzj notturni ostie gradite,</l>
+            <l>Uscite al suon de’ noti accenti, uscite</l>
+            <l>Da le tartaree soglie,</l>
+            <l>Trattenete l’autor de le mie doglie;</l>
+            <l>E se non siete a tanto affar bastanti:</l>
+            <l>Questa con voi nel regno empio de’ pianti</l>
+            <l>Anima disperata omai rapite.</l>
+            <l>Uscite al suon de’ noti accenti, uscite.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III.</head>
+          <stage>ALCINA, MELISSA, CORO DI CAVALIERI.</stage>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>FRENA l'infame lingua,</l>
+            <l>Perfidissima Alcina:</l>
+            <l>Il lezzo di tue colpe al Cielo è giunto,</l>
+            <l>Ei le lagrime tue si prende a scherno.</l>
+            <l>E la forza d’Averno</l>
+            <l>Sta legata per te. Danno, e ruina</l>
+            <l>Sol ti sovrasta. Una sol ora, un punto</l>
+            <l>Scoprirà le tue frodi. E dove siete,</l>
+            <l>O Cavalieri amanti,</l>
+            <l>Che in si fieri sembianti</l>
+            <l>Disumanò questa crudel. Prendete</l>
+            <l>Le vostre antiche forme, e questa spiaggia</l>
+            <l>Vesta il natio suo manto.</l>
+            <l>Non sia sì forte incanto,</l>
+            <l>Ch'a detti miei non si disciolga, e caggia.</l>
+          </sp>
+          <sp who="#alcina">
+            <speaker>ALCINA.</speaker>
+            <l>Ove fuggo infelice? ove mi celo?</l>
+            <l>Hai vinto, ora il confesso, hai vinto, o Cielo.</l>
+          </sp>
+          <sp who="#coro_cavalieri">
+            <speaker>CORO.</speaker>
+            <l>Quali a tanta mercè grazie bastanti</l>
+            <l>Renderem noi, Donna Celeste? Il dono</l>
+            <l>E maggior d'ogni merto, e minor sono</l>
+            <l>A tanta gioia i nostri cori. Abbiamo</l>
+            <l>Per te doppio natale, e più gradita</l>
+            <l>Ne’ nuovi acquisti è la seconda vita,</l>
+            <l>Quanto più di ogni morte</l>
+            <l>Mortale in noi fu la passata sorte.</l>
+          </sp>
+          <sp who="#melissa">
+            <speaker>MELISSA.</speaker>
+            <l>Cosa umana è l’errare, e quegli è saggio,</l>
+            <l>Che dal proprio fallir prudenza impara.</l>
+            <l>Ben felice è l'oltraggio,</l>
+            <l>Ben la miseria è cara,</l>
+            <l>Che doppo breve duol l'alma ammaestra:</l>
+            <l>Or pria, ch'al patrio nido</l>
+            <l>Drizzate i passi, o Cavalier, deh, fate</l>
+            <l>Ad onta di costei segni di gioia.</l>
+            <l>Tu meco, Astolfo viene. Anzi che muoia</l>
+            <l>Dentro a l’Ibero il sole, in libertade</l>
+            <l>Sarai col tuo Ruggier su l’altro lido.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IV.</head>
+          <sp who="#coro_cavalieri">
+            <speaker>CORO DI CAVALIERI</speaker>
+            <stage>BALLETTO.</stage>
+            <l>QUANDO da l’onde</l>
+            <l>Le chiome bionde</l>
+            <l>Alza il Rettor del lume,</l>
+            <l>Su per la riva</l>
+            <l>Aura lasciva</l>
+            <l>Suol dispiegar le piume,</l>
+            <l>Al dolce spirto</l>
+            <l>Curva ogni mirte</l>
+            <l>La cima sibilante</l>
+            <l>E rugiadosa</l>
+            <l>Apre ogni rosa</l>
+            <l>Il sen porporeggiante.</l>
+            <l>Dal leggier fiato</l>
+            <l>Nereo agitato</l>
+            <l>Increspa i falsi argenti,</l>
+            <l>E per li quieti</l>
+            <l>Campi di Teti</l>
+            <l>Danzano i muti armenti.</l>
+            <l>Miser Nocchiero,</l>
+            <l>Ch'al lusinghiero</l>
+            <l>Venticel presta fede</l>
+            <l>Scioglie le vele,</l>
+            <l>E l'infedele</l>
+            <l>Onde co’ remi siede.</l>
+            <l>Ma non inchina</l>
+            <l>Ne la marina</l>
+            <l>Del Mauro Atlante il giorno</l>
+            <l>Che procelloso,</l>
+            <l>Che tempestoso</l>
+            <l>Freme Nettun d'intorno,</l>
+            <l>Or scende, or poggia</l>
+            <l>Ad orza, appoggia</l>
+            <l>L'abbandonato pino:</l>
+            <l>Al fine affonda</l>
+            <l>Dentro a quell'onda,</l>
+            <l>Ove scherzò il mattino.</l>
+            <l>Folle quell’Alma</l>
+            <l>Che crede a calma</l>
+            <l>Di femminile amore;</l>
+            <l>In un momento</l>
+            <l>Veste il contento</l>
+            <l>Abito di dolore.</l>
+            <l>Quella bellezza,</l>
+            <l>Ch'or t'accarezza,</l>
+            <l>T'anciderà fra poco;</l>
+            <l>Che non pietade</l>
+            <l>Nè fedeltade</l>
+            <l>In cor di Donna ha loco.</l>
+            <l>Splendete, ardete,</l>
+            <l>Quanto sapete,</l>
+            <l>Lusinghiere pupille,</l>
+            <l>Ch’aver ricetto</l>
+            <l>In questo petto</l>
+            <l>Non pon nove faville.</l>
+            <l>Ridete, o labbri,</l>
+            <l>E i bei cinabbri</l>
+            <l>Promettan gioia, e pace,</l>
+            <l>Il cor tradito</l>
+            <l>Sa, che l'invito</l>
+            <l>È perfido, e fallace.</l>
+            <l>Beltà sincera,</l>
+            <l>Dolcezza vera</l>
+            <l>Sol colà in Cielo alberga.</l>
+            <l>Deh, vesta l’ale,</l>
+            <l>E a l'immortale</l>
+            <l>Magion l'anima s'erga.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

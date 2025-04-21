@@ -1,0 +1,3024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ita000143" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Irene</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Vincenzo</forename>
+            <surname>Giusti</surname>
+          </persName>
+          <idno type="wikidata">Q55228359</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Interne Archive from Google Books</name>
+          <idno type="URL">https://archive.org/details/bub_gb_hI7QteR5VG4C</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Giusti, Vincenzo: Irene tragedia nova di M. Vicenzo Giusti da Udine, ristampata, et con diligenza corretta. Venezia: Eredi di Francesco Rampazzetto, 1579.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="pirro" sex="MALE">
+            <persName>PIRRO</persName>
+          </person>
+          <personGrp xml:id="soldati_armeni" sex="MALE">
+            <persName>SOLDATI ARMENI</persName>
+          </personGrp>
+          <person xml:id="egisto" sex="MALE">
+            <persName>EGISTO</persName>
+          </person>
+          <person xml:id="sacerdote" sex="MALE">
+            <persName>SACERDOTE</persName>
+          </person>
+          <personGrp xml:id="choro" sex="FEMALE">
+            <persName>CHORO</persName>
+          </personGrp>
+          <person xml:id="nutrice" sex="FEMALE">
+            <persName>NUTRICE</persName>
+          </person>
+          <person xml:id="servo" sex="MALE">
+            <persName>SERVO</persName>
+          </person>
+          <person xml:id="serva" sex="FEMALE">
+            <persName>SERVA</persName>
+          </person>
+          <person xml:id="iti" sex="MALE">
+            <persName>ITI</persName>
+          </person>
+          <person xml:id="messo" sex="MALE">
+            <persName>MESSO</persName>
+          </person>
+          <person xml:id="calasiri" sex="MALE">
+            <persName>CALASIRI</persName>
+          </person>
+          <person xml:id="irene" sex="FEMALE">
+            <persName>IRENE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-10-01">(LG) first encoding and formatting. Paratexts removed. Corrected one misattributed line.</change>
+        <change when="2023-02-08"> (LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1579">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>Persone della Tragedia.</head>
+        <castItem>SACERDOTE</castItem>
+        <castItem>SERVO</castItem>
+        <castItem>IRENE <roleDesc>REINA</roleDesc></castItem>
+        <castItem>NUTRICE D'IRENE</castItem>
+        <castItem>CHORO DI DONNE SALAMINA</castItem>
+        <castItem>ITI <roleDesc>GENTIL’HUOMO DI CORTE</roleDesc></castItem>
+        <castItem>CALASIRI <roleDesc>RE</roleDesc></castItem>
+        <castItem>EGISTO <roleDesc>PREFETTO DELLE CITTA</roleDesc></castItem>
+        <castItem>SOLDATI ARMENI</castItem>
+        <castItem>PIRRO <roleDesc>FIGLIUOLO DEL RE</roleDesc></castItem>
+        <castItem>MESSO</castItem>
+        <castItem>SERVA</castItem>          
+      </castList>
+      <set>
+        <p>La Scena si finge in Salamina Città di Cipri.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>ATTO PRIMO.</head>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE</speaker><stage> solo.</stage>
+          <l>Il formidabil fatto, e i casi avversi</l>
+          <l>Sono a l’huom, come è la fornace a l’oro:</l>
+          <l>Perché lo purgan dai terreni affetti;</l>
+          <l>Et lo rendono a prova illustre, e puro.</l>
+          <l>Anzi gli Dei, c'hanno di noi gran cura,</l>
+          <l>Mirar non ponno giù da gli alti chiostri</l>
+          <l>Il più grato spettacolo, e l più caro</l>
+          <l>Ch'un huom luttar con la fortuna irata:</l>
+          <l>Perché, mentre l'assale empio accidente,</l>
+          <l>Mostra, che; per schermirsi; non è in vano</l>
+          <l>Armato di valor, di senno, e d’arte;</l>
+          <l>Et, perdestar di se pietate in cielo,</l>
+          <l>Cangia i vitij in virtù, tutto si volge</l>
+          <l>Al culto degli Dei, che nel felice</l>
+          <l>Stato di pria lasciò, mentre iva errando</l>
+          <l>Dietro a quel finto ben, ch’è Sogno, et ombra.</l>
+          <l>Questa Città infelice, et questo Regno;</l>
+          <l>che l’otio, et gli agi, per la lunga pace,</l>
+          <l>Havean tratta lontan del dritto calle,</l>
+          <l>Da che 'l gran Zalamosso Re d'Armeni</l>
+          <l>Appresentò l'assedio a le sue mura;</l>
+          <l>È tanto in se raccolto, e tanto è volta</l>
+          <l>Al verace camin, ch'a dire ardisco,</l>
+          <l>Ch'unqua non fur ne le stagioni andate</l>
+          <l>Contra il nemico man più ardite, e pronte</l>
+          <l>Nè più intrepidi cor: gli Armeni il sanno,</l>
+          <l>Et udirassi il suon da qui a mille anni.</l>
+        </sp>
+        <stage>SERVO, SACERDOTE.</stage>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Degno Ministro de gli eterni Dei,</l>
+          <l>Il Re per me v'impone, che debbiate</l>
+          <l>Gir con serena fronte, e lieto core</l>
+          <l>Al Tempio a un novo sacrificio intento.</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Qual sarà la cagion, ch'io solo debba,</l>
+          <l>Quando altri piange, rallegrarmi tanto?</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>È fermata la pace.</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>O Dei lodati,</l>
+          <l>Io v’adoro, e inchino. O Citherea</l>
+          <l>Io gioisco del tuo serbato Impero.</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Tutti habbiamo a gioir d'un tanto bene.</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Vien meco, e fino che giungiamo al Tempio</l>
+          <l>Narrami come ella è conchiusa e quando:</l>
+          <l>Ma, perché più mi sia cara la pace,</l>
+          <l>Caminando per via con passi lenti</l>
+          <l>Che lento mi fa gir questa età grave,</l>
+          <l>Mi dirai la cagion pria de la guerra</l>
+          <l>A me fino a quest'hora in parte ignota:</l>
+          <l>Che le cose del secolo di raro</l>
+          <l>Sogliono esser palesi a’Sacerdoti,</l>
+          <l>Che per antica usanza in questo loco</l>
+          <l>Lontani dal comercio de le genti</l>
+          <l>Viviamo in hermi, et solitari alberghi.</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Andiam, che vi dirò quel ch'è più degno,</l>
+          <l>Incominciando da l'origin prima.</l>
+          <l>Ne la guerra, che fu tra Assiri, e Medi,</l>
+          <l>In cui rimaser rotti, e vinti i Medi;</l>
+          <l>Non son molt'anni; Brana Re di Cipri</l>
+          <l>Perde’ un figliuol, ch'unico havea chiamato</l>
+          <l>Diomede; ch'a i Medi era in soccorso</l>
+          <l>Fatto questo prigion del Re d'Assiri;</l>
+          <l>Perch'era di valor, et di beltate,</l>
+          <l>Quanto altro mai creasse la natura;</l>
+          <l>Quel Re lo tenne al suo servitio caro,</l>
+          <l>Benchè no'l conoscesse per figliuolo</l>
+          <l>Di Brana, perché 'l giovene l'ascose,</l>
+          <l>Per l’odio, che tra loro era. Torusè:</l>
+          <l>Che così il Re d'Assiri fa nomava,</l>
+          <l>Haveva al’hora una figliuola, detta</l>
+          <l>Eudocia, vaga, et di maniere accorte;</l>
+          <l>La qual, del grato aspetto, et del valore</l>
+          <l>Di Diomede accesa, in tanta fiamma</l>
+          <l>Arse; ch', anch'egli in egual foco ardendo,</l>
+          <l>Di secreto si fer marito, et moglie</l>
+          <l>E molto non passò dopo le nozze,</l>
+          <l>Ch'Eudocia ingravidò: ma innanzi il parto</l>
+          <l>Come havean le fatal stelle ordinato</l>
+          <l>Diomede morì: poscia al suo tempo</l>
+          <l>D'Eudocia nacque una fanciulla, e solo</l>
+          <l>A l'horsi discovrir le nozze al padre;</l>
+          <l>Il qual, riconosciuto il morto Sposo,</l>
+          <l>Ch'era Figlio di Re; ben che nimico,</l>
+          <l>Perdonando a la figlia, allevò ilparto.</l>
+          <l>Et, come fù di dodeci anni Atrea,</l>
+          <l>Ch'a la fanciulla tal fù il nome imposto;</l>
+          <l>La diede in matrimonio a Zalamosso</l>
+          <l>Re d’Armeni; per cui questo paese</l>
+          <l>Si amaramente ha sospirato, e pianto.</l>
+          <l>Fra tanto, morto Brana, ogni un credendo,</l>
+          <l>Che in quella rotta sanguinosa, et aspra</l>
+          <l>Fosse stato amazzato anco il figliuolo,</l>
+          <l>Per nova elettion fù in Re di Cipri</l>
+          <l>L'infortunato Calasiri assunto;</l>
+          <l>A cui sol di ragion toccava il regno:</l>
+          <l>Perch'a suo padre già Brana lo tolse</l>
+          <l>Con modi inusitati, e con mal' arti.</l>
+          <l>Ma; non atteso a l’honestato, e al dritto;</l>
+          <l>Zalamosso, come hebbe Atrea per moglie;</l>
+          <l>Perch’ella era discesa da quel Brana;</l>
+          <l>Incominciò a chiamarsi Re di Capri:</l>
+          <l>Et, volendo goder col nome il regno,</l>
+          <l>Quindici mesi son, con tanta gente</l>
+          <l>Ne l'isola smontò, mettendo tutto</l>
+          <l>A foco, e fiamma: e a l'ultimo comparve</l>
+          <l>Sotto questa regal misera terra;</l>
+          <l>La qual dal lungo assedio del nemico,</l>
+          <l>Et da’ suoi spessi impetuosi assalti,</l>
+          <l>Al fin vota rimase in ogni parte</l>
+          <l>Di vettovaglie; et bellici istromenti</l>
+          <l>Onde, benché l'ardir mai non scemasse;</l>
+          <l>Mancando quel, ch'è de la guerra il nervo,</l>
+          <l>Dura necessità; che non hà legge;</l>
+          <l>Consigliò il nostro Re, che, di duo mali</l>
+          <l>Eleggendo il minor, si componesse</l>
+          <l>Con Zalamosso: et già tre giorni sono</l>
+          <l>S'incominciar le tregue, entrando ostaggio</l>
+          <l>Ne la cittade un de’ contrari, e uscendo</l>
+          <l>Uno de’ nostri a le nemiche schiere,</l>
+          <l>Et questo, et quel da la contraria parte</l>
+          <l>Ricevendone honor, e 'l nostro à punto</l>
+          <l>A mezo del camin venne incontrato</l>
+          <l>Da i soggetti maggior del campo Armeno,</l>
+          <l>Et caramente arcolto. Indi gli ostaggi</l>
+          <l>Ad accordar si posero le liti,</l>
+          <l>Ch'ardea fra questi Regi, e a mano a mano</l>
+          <l>Terminaron le già dure questioni:</l>
+          <l>Et in quest'hora è giunta a noi la pace</l>
+          <l>Sottoscritta di man del Re d'Armeni,</l>
+          <l>Et contien dentro queste leggi espresse.</l>
+          <l>Che Salamina, e ’l suo bel regno in forza</l>
+          <l>Restin di Zalamosso, illese, e salve</l>
+          <l>Le persene, l'honor, l'arme, e l'havere</l>
+          <l>Con la religion de’ nostri Dei:</l>
+          <l>L'andata al nostro Re sicura in Creta,</l>
+          <l>Et a ciascun, che seco esser volesse,</l>
+          <l>Sotto la scorta de l'armata Armena.</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Fiera condition di nostra vita.</l>
+          <l>Mai non ne porge un ben Fortuna, o 'l fato,</l>
+          <l>Ch'ei non si vegga di miserie misto,</l>
+          <l>Anzi il mal segue il ben, com'ombra il corpo.</l>
+          <l>S'io mi rivolgo a le ruine estreme.</l>
+          <l>Ove già de’ nemici il ferro, e ‘l foco</l>
+          <l>Havean condotta la tremante terra;</l>
+          <l>Di ragion deve rallegrarsi il core,</l>
+          <l>Per lo stato miglior, c'hora sortisce,</l>
+          <l>Anchor che non si possa chiamar questo</l>
+          <l>Veramente fra lor stato di pace.</l>
+          <l>Ma, s'io pietoso miro Calasiri,</l>
+          <l>Che Re chiamarlo più non posso, fuori,</l>
+          <l>Misero, Spinto dal suo regno, errando</l>
+          <l>Andar ne gli anni del riposo amici,</l>
+          <l>Quanto mi tempra il mel veleno, et fiele.</l>
+          <l>Ma quel, che piace a Dio, è legge a l'huomo,</l>
+          <l>E non si deve oppor, nè men lagnarsi.</l>
+          <l>Quando ti mandò a impormi il sacrificio,</l>
+          <l>Ti disse egli altro, ch'a saper sia d'uopo?</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Mi disse prima ch’al gran padre Giano</l>
+          <l>Per la pace s'ardesse un holocausto,</l>
+          <l>Et un'altro a Nettuno, ond'al viaggio</l>
+          <l>Il vento sia propizio, e 'l mar tranquillo.</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Farassi così i Dei m'odan pietosi.</l>
+          <l>Prego, ch'io offervi un dì felice auspicio.</l>
+        </sp>
+        <stage>IRENE, NUTRICE.</stage>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>O Fallace fortuna,come spesso</l>
+          <l>Senza legge, senza ordine ti cangi,</l>
+          <l>Come più larga sei, et più benigna</l>
+          <l>Nel dispensar i tuoi cari thesori,</l>
+          <l>Che grata in conservarli, a cui li desti:</l>
+          <l>Forse, lo fai per maggior nostro scherno.</l>
+          <l>Misero stato human; poi che 'l ben godi</l>
+          <l>Sol quanto piace a l'indiscreta sorte.</l>
+          <l>O dolente, o infelice humana vita;</l>
+          <l>Poi che sovra di te l'Imperio tiene</l>
+          <l>Sì ingiusta, e sì volubile potenza,</l>
+          <l>Tu sola sei fra i miseri animanti,</l>
+          <l>Che natura creò nel mondo, tanto</l>
+          <l>Misera più, quanto più gravi senti</l>
+          <l>I colpi di Fortuna, et più noiosi,</l>
+          <l>Ch'altro animal, che qui d'aria si pasca.</l>
+          <l>O mal aventurata Irene, almeno;</l>
+          <l>S'io pur devea prender sembiante humano:</l>
+          <l>Perché, lassa, non nacqui huomo non donna:</l>
+          <l>C'havrei con queste man forse il nimico</l>
+          <l>Ucciso in campo, o gloriosamente</l>
+          <l>Combattendo sarei rimasa estinta,</l>
+          <l>Et col valor cacciati havrei gli oltraggi,</l>
+          <l>C'hanno hora in torno a me la rete tesa;</l>
+          <l>Ne sforzata sarei mesta, e dolente,</l>
+          <l>Empier di pianto, et di querele il cielo,</l>
+          <l>Peggio aspettando assai del grave danno,</l>
+          <l>C’hora, misera me, mi veggo innanzi.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Reina, se con dritto occhio mirate</l>
+          <l>La cura, et la pietà, che di voi have</l>
+          <l>L'eterna providenza; homai dovreste</l>
+          <l>Scacciar dal petto gl'importuni homei,</l>
+          <l>E serenar la nubilosa fronte.</l>
+          <l>Dite; se 'l ciel non vi trahea di mano</l>
+          <l>Di fortuna crudel, ch'a schernir v'hebbe;</l>
+          <l>Non sareste voi hor serva negletta</l>
+          <l>Di Donne Armene? eh, vi rimembri un poco</l>
+          <l>Qual sora il vostro cor, mirando gli occhi,</l>
+          <l>Innanzi il carro del nemico altiero</l>
+          <l>Nel Trionfo di gente iniqua, e strana</l>
+          <l>Incatenati il buon consorte, e 'l figlio.</l>
+          <l>Et pur, mercè di Dio, liberi siete.</l>
+          <l>Et, se perduto ben havete un regno,</l>
+          <l>Quel raggio di pietà; che dal ciel piove,</l>
+          <l>Et non è parco a chi si fida in lui,</l>
+          <l>Se v'hà serbata de’ nemici artigli,</l>
+          <l>Vi darà, spero, altre cittadi, et regni.</l>
+          <l>Et, quando vi mancaffe ogni altro aiuto</l>
+          <l>Non vi restano ancor madre, e fratello:</l>
+          <l>Che dolenti di voi chiamarvi sento</l>
+          <l>Del gran regno di Creta a parte seco?</l>
+          <l>Disponetevi pur Reina cara;</l>
+          <l>Se drittamente oprar volete; homai</l>
+          <l>A prender, et godervi in pace quello,</l>
+          <l>Che vi porge colui, ch'apien conosce</l>
+          <l>L'altrui necessità, gli altrui bisogni.</l>
+          <l>Poi vi ricordi de lo Stato humano,</l>
+          <l>In cui nasce ciascun con dura legge</l>
+          <l>D'essere ai colpi di fortuna esposto.</l>
+          <l>Ne recusar possiam viver al modo,</l>
+          <l>Che natura ordinò, che si vivesse:</l>
+          <l>Ne giusto è, ch'al dolor tanto cediamo</l>
+          <l>In quel, che riparar non può il consiglio:</l>
+          <l>Ma, ramentando ciò ch'altri patiro</l>
+          <l>Pensar, che noi non siam soli i percossi.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Dolce nutrice mia, non ti s'asconda</l>
+          <l>Novo timor, che mi distilla in pianto,</l>
+          <l>E aggiunge duolo al duol, pena a la pena;</l>
+          <l>Come mai non s'ascose à gli occhi tuoi</l>
+          <l>Gioia de la già mia lieta fortuna.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Dite Reina pur: che non potete</l>
+          <l>Scovrir i vostri affanni a chi più v'ami,</l>
+          <l>Et più di me vi sia secreta, e fida.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ti conosco per tal fin da le fasce.</l>
+          <l>E però teco volentier mi sfogo.</l>
+          <l>Sappi adunque, che 'l mal, che m'è dappresso,</l>
+          <l>Veramente è noioso, e 'l cor mi rode;</l>
+          <l>Pensando a le passate mie grandezze,</l>
+          <l>A l'infelice vita, che m'avanza;</l>
+          <l>Pensando a questi miei graditi alberghi.</l>
+          <l>Questi tetti regali, almo ricetto</l>
+          <l>Già del mio bene, et de i diletti honesti;</l>
+          <l>Chiusa fuori me sua vera Reina</l>
+          <l>Farsi stanza d'un mio crudel nemico:</l>
+          <l>Ma via maggior è ‘l duol p[er] quel, ch'aspetto.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Seguite il ragionar, non v'affannate.</l>
+          <l>Qual sià il colpo si fiero, onde 'l cor parve;</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Lo mostra un duro sogno, che m'apparve</l>
+          <l>Al partir de la notte. esser pareami</l>
+          <l>In mezo il mar, ch’una tempesta ingombra,</l>
+          <l>Entro sdruscita, e mal sicura nane:</l>
+          <l>Ove rimedio solo incontro a morte</l>
+          <l>Dopo lungo schermir con l'onde, ei venti,</l>
+          <l>Al piccol palischermo era il fidarsi.</l>
+          <l>Questo gettato in mar da l'alta poppa</l>
+          <l>Entro scendemmo il mio figliuolo, et io:</l>
+          <l>Et, volendo seguirne il mio consorte,</l>
+          <l>Cadde ne l'onde procellose; e ratto</l>
+          <l>M’uscio di vista, ohimé, l'amato aspetto,</l>
+          <l>Indi portati da la rabbia insana</l>
+          <l>Di fortuna per l'onde entro il legnetto</l>
+          <l>Fra le tenebre rie, pur mi si mostra</l>
+          <l>Al fin la luce, ch'ai nocchieri appare</l>
+          <l>Dopo l'atre tempeste, et veder fammi</l>
+          <l>Non molto indi lontan la rena, e 'l porto;</l>
+          <l>Quando un mostro marin n'assalse, e fuori.</l>
+          <l>Chi cosa udì giamai d'horror maggiore?</l>
+          <l>Di braccio mi strappò il mio caro figlio:</l>
+          <l>Et, mentre ch'io al miserabil atto</l>
+          <l>Chiamava il ciel crudele, la barchetta.</l>
+          <l>In un con me sua sventurata salma</l>
+          <l>Da un'onda, che s'aprio rimase assorta.</l>
+          <l>Qui sparve il sonno: ende il mio cor s'attr[i]sta</l>
+          <l>E teme di veder il duro scempio,</l>
+          <l>Che 'l sogno del mio mal presago addita.</l>
+          <l>O Re del cielo eterno, fà che yana</l>
+          <l>Resti l'horribil visione, e scaccia</l>
+          <l>Lontan da noi sì miserabil caso.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Havreste ben ragion di sospirare,</l>
+          <l>Et di non por mii fine al vostro pianto</l>
+          <l>Reina cara; se gl’insogni fede</l>
+          <l>Meritassero: pur sapete, come</l>
+          <l>Egli è ferma credenza presso a tutti,</l>
+          <l>Che la varietà de’ sogni nasca</l>
+          <l>Da le cose da noi pensate il giorno.</l>
+          <l>E che sognar volete altro, ch'affanni,</l>
+          <l>Se non formate ne la mente vostra</l>
+          <l>Altro il giorno, che morte? se i pensieri</l>
+          <l>Vostri fossero lieti, lieti i sogni</l>
+          <l>Sarebbono anco ne’ riposi vostri.</l>
+          <l>Fugga dunque lontan dal vostro petto</l>
+          <l>Il noioso pensier, che vi molesta,</l>
+          <l>Et col senno, et valor, ch'alberga in voi</l>
+          <l>Date rimedio a le non vere piaghe.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Il dolor, che mi strugge ha le radici</l>
+          <l>Più altamente entro al mio cor riposte:</l>
+          <l>Però che la ragion dà forza al sogno;</l>
+          <l>Indi nasce la fè, ch'alui si presta.</l>
+          <l>E legge di regnar scritta ne’ cori</l>
+          <l>A stabilir più gli acquistati Imperi</l>
+          <l>D’estirpar ben d'intorno ogni rampollo,</l>
+          <l>Onde nascer potesse ombra al Re novo,</l>
+          <l>Che nocesse al suo stato un dì crescendo:</l>
+          <l>E ‘I successor nel nostro afflitto regno</l>
+          <l>E di consigli, et di perfidia pieno:</l>
+          <l>Ond'è il sospetto, ch'ei, rotta la pace,</l>
+          <l>Non ne condanni a servitute, o a Morte:</l>
+          <l>Perché, quando ci arrida la fortuna</l>
+          <l>Non li facciamo un di render I'usura</l>
+          <l>Del nostro mal per lui goduto impero:</l>
+          <l>Et di questo timor percossa i tremo.</l>
+          <l>Come colomba, che si vede sovra</l>
+          <l>Falcon rapace star, per divorarla.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Questo no: ch'anzi i Re la fede han cara.</l>
+          <l>Non si nascondelor, c’han qua giù in terra</l>
+          <l>Gli scettri in vece de’ celesti Dei,</l>
+          <l>Et che di lor non denno esser men buoni.</l>
+          <l>Perché volete voi, che Zalamosso,</l>
+          <l>Ch'è si gran Re, che ciò, che brama, ardisce;</l>
+          <l>Non habia la bontà pari a le forze?</l>
+          <l>Deh, vani sien gli auguri, che vi fate.</l>
+          <l>lo vi prego, Reina, per quel latte,</l>
+          <l>Che con tal gloria mia, con tal dolcezza</l>
+          <l>M'usci dal petto già sol per nutrirvi,</l>
+          <l>Che facciate lontan dagli occhi vostri</l>
+          <l>Così soverchio; et importuno pianto</l>
+          <l>Altri speran la pace in mezo a l'arme,</l>
+          <l>Et voi nel grembo de la pace istessa</l>
+          <l>Temete contra ogni ragion la guerra.</l>
+          <l>Eh non siate sì priva disperanza:</l>
+          <l>Anzi questo presente ingrato assalto,</l>
+          <l>Che vi dà il crudel fato, v'assicura</l>
+          <l>Ne l'avvenir di più tranquilla vita:</l>
+          <l>Perché lo stato human sempre si gira</l>
+          <l>Di bene in mal, et poi di mal in bene;</l>
+          <l>Come l'Estate segue a Primavera,</l>
+          <l>A Estate Autunno, et aa l'Autunno il Verno</l>
+          <l>Et di novo poi torna primavera.</l>
+        </sp>
+        <stage>CHORO, IRENE.</stage>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O Infelice Irene,</l>
+          <l>Come è turbata in vista,</l>
+          <l>Ecco come s'attrista:</l>
+          <l>Se la parte divina;</l>
+          <l>Onde’l Cielo adornò l'humane menti,</l>
+          <l>Per dar legge a gli affetti;</l>
+          <l>Non la tragge d'horrore,</l>
+          <l>Lagrimando sen 'more.</l>
+          <l>Reina, il duol de le sciagure vostre</l>
+          <l>Mi fa venirvi innanzi;</l>
+          <l>Pregandovi, ch’n questi affanni vostri;</l>
+          <l>Poscia che nulla in terra</l>
+          <l>Suole avvenir senza il voler del cielo;</l>
+          <l>Ricorriate a l'aiuto</l>
+          <l>Di qualchun de gli Dei;</l>
+          <l>Che pietoso vi miri, et vi soccorra:</l>
+          <l>Et; perché si disperga in tutto il sogno,</l>
+          <l>Che mi diceste già, che v'affliggeva;</l>
+          <l>Andate ad offerir un dono al tempio</l>
+          <l>Di quel gran Dio, che porge luce al mondo.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Donne care, il pensier vostro mi piace:</l>
+          <l>Perché non spero haver altro soccorso,</l>
+          <l>Che quel, che vien da la pietà superna:</l>
+          <l>Anzi ad Apollo istesso il sogno espressi</l>
+          <l>Sì tosto, ch'egli apparve in Oriente;</l>
+          <l>Pregandol, ch'al mio danno non consenta;</l>
+          <l>Et hora appenderò al suo simulacro</l>
+          <l>Questo ricco monile, et queste gioie.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Ahi povera Reina</l>
+          <l>Quanto di lei mi dole.</l>
+          <l>Chi potria con parole,</l>
+          <l>O con pianto aguagliar l'alta ruina,</l>
+          <l>È ‘l suo martir, ch’ogni martiro avanza?</l>
+          <l>Con quai sospiri ardenti,</l>
+          <l>Et interroti accenti,</l>
+          <l>Piangendo, mi narrò dentro a la stanza</l>
+          <l>Un sogno che gli havea su 'l primo albore</l>
+          <l>Tutto trafitto il core.</l>
+          <l>O sonno; se riposo</l>
+          <l>Ne’ silentij notturni</l>
+          <l>Sei de gli error diurni</l>
+          <l>Agli huomini, e a le fere; ond'altri i oso</l>
+          <l>Dirti pace maggior di nostra vita;</l>
+          <l>Perché, quando ne ingombri,</l>
+          <l>Almen l'horror non sgombri;</l>
+          <l>Perché ne la stagion tua più gradita</l>
+          <l>Spesso teco un portento infausto ammetti?</l>
+          <l>Ahi dì nostri imperfetti.</l>
+          <l>Del quanto hà d atemere</l>
+          <l>LaReina infelice</l>
+          <l>Quel, che dal sognoe lice.</l>
+          <l>Un prodigio di mal giamai non pere.</l>
+          <l>lo veggo da vicino, ohimé, che vanno</l>
+          <l>Ad un’istesso segno</l>
+          <l>La regal casa, e ‘l regno:</l>
+          <l>Veggo sotto la fè coprir l'inganno,</l>
+          <l>La voglia d'un Tiranno è sempre ingorda,</l>
+          <l>E a i buon consigli sorda</l>
+          <l>Et che sperar si puote</l>
+          <l>D'un, che l'origin tragge</l>
+          <l>Da fere aspre selvagge?</l>
+          <l>A cui son l'opre de’ Re Armeni ignote,</l>
+          <l>Che fanno per regnar? l'atre contrade</l>
+          <l>D'Averno il sanno, ù s'ode</l>
+          <l>Il fratel, che si rode</l>
+          <l>Dal frate ucciso, dal figliuolo il padre,</l>
+          <l>Dal padre il figlio: et horror n'have l'enpio</l>
+          <l>Pluton del duro scempie.</l>
+          <l>Sacri celesti Dei;</l>
+          <l>Quà l'alme luci preste</l>
+          <l>A le sante opre deste</l>
+          <l>Volgete; e sì nefandi atti, e sì rei</l>
+          <l>Da così bel paese; ond'io sospiro;</l>
+          <l>Spingete fuori homai</l>
+          <l>Dopo sì lunghi guai;</l>
+          <l>E guardate da ogni altro empio martiro</l>
+          <l>I miseri a l'uscir del proprio stato,</l>
+          <l>Che n'han la morte a lato.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>ATTO SECONDO.</head>
+        <stage>ITI, SERVO.</stage>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Servo fedel, io ti ritrovo a tempo;</l>
+          <l>Se non ti tien qualch'altra cura involto</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Poscia ch’imposto ho il sacrificio, e presso</l>
+          <l>Ho scorto il Sacerdote al sacro loco</l>
+          <l>Ond’hora torno, i son libero, e sciolto</l>
+          <l>Che s'have a far per me; ditemi tosto.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Saprai, ch'a mano a man s'appressa l'hora,</l>
+          <l>Ch'a l'infelice Re nostro conviene</l>
+          <l>Andar al padiglion di Zalamosso</l>
+          <l>Per dar lo scetro a lui di questo Regno,</l>
+          <l>Come fermati son tra loro i patti:</l>
+          <l>Che intende poi che fatto haverà questo</l>
+          <l>Montar un nave, et col favor de venti</l>
+          <l>Verso il regno di Creta alzar le vele.</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Pria lo sapea: ma che poss'io per questo?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Hora l'intenderai. Egli ha ordinato,</l>
+          <l>Che, per honor di lui, vadano seco</l>
+          <l>I capitani de le genti nostre</l>
+          <l>Con quella squadra armata de’ soldati,</l>
+          <l>Che de la lunga sostenuta guerra</l>
+          <l>Son le reliquie estreme, et alcuno anco</l>
+          <l>De cittadini nostri de la terra.</l>
+          <l>Onde tu quanto prima n'anderai</l>
+          <l>A far, che sieno queste genti d'arme</l>
+          <l>Da un'Araldo avisate, che pian piano,</l>
+          <l>Sì tosto, che saranno insieme unite,</l>
+          <l>Si movano ad andar verso le porte;</l>
+          <l>Ivi aspettando il Re, che verrà tosto,</l>
+          <l>Che tu riporterai, che là sien giunte.</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Chi chiamerò de cittadini poi?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Và pur, ch'assai ne sono a questo in casa.</l>
+          <l>Ove trovar potrò mai la Reina,</l>
+          <l>Per dirle, che s'adagi a la partita?</l>
+          <l>Eccola a punto uscir fuori del tempio.</l>
+        </sp>
+        <stage>IRENE, ITI.</stage>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Strani son gli accidenti, onde l'humana</l>
+          <l>Vita è percossa in quest'aria infelice,</l>
+          <l>In questo mondo, ch'è'di vivi inferno:</l>
+          <l>Ma quei, ch'infestan le regali altezze</l>
+          <l>Tanto più insopportabili, et noiosi</l>
+          <l>Sono, quanto, percossi i Re, più d’alto</l>
+          <l>Cadendo, n’hanno vià maggior percossa:</l>
+          <l>O caro padre mio, o padre caro</l>
+          <l>Quanto vi sien noiosi,</l>
+          <l>O quanto turberan vostri riposi;</l>
+          <l>Se riman senso a i morti;</l>
+          <l>I miei sospir, questo mio pianto amaro.</l>
+          <l>Come fallaci son nostri disegni.</l>
+          <l>Questo stato regal, ove m'han posta</l>
+          <l>Vostri pensieri accorti,</l>
+          <l>Serva, lassa, mi fà di mille morti.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Nulla, Reina mia, rileva il pianto:</l>
+          <l>Anzi raddoppia il duol ne’ cori humani.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Chi leverà le lagrime al dolore,</l>
+          <l>Levar anco potrà la luce al Sole.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Il senno, la ragion vincono il tutto;</l>
+          <l>Quella verace patienza usando;</l>
+          <l>La qual è data negli affanni a l'huomo,</l>
+          <l>Perché forte se stesso el mondo vinca:</l>
+          <l>Come a i nocchier ne la tempesta è data</l>
+          <l>L'arte de l'alternar poggia con orza,</l>
+          <l>Ond'i legni non sien ne gli alti monti</l>
+          <l>Del mar sepolti con le ricche merci.</l>
+          <l>Verrà ancor, spero, un dì dopo gli oscuri</l>
+          <l>Nembi, onde s'apra il ciel benigno, mostri</l>
+          <l>Per gratia a voi la desiata luce.</l>
+          <l>Attendete frà tanto a diportarvi,</l>
+          <l>Come il valor, ch'è in poi, vi spira al core;</l>
+          <l>Et, deponendo hora i sospiri, e ‘l pianto,</l>
+          <l>Cominciate a disporvi a la partita:</l>
+          <l>Che ‘l Re vi fa saper, che verso fera</l>
+          <l>Con la famiglia vi troviate al porto:</l>
+          <l>Ch’ivi sono al partir le navi in punto,</l>
+          <l>Et ei sarà per tempo anco a quel loco;</l>
+          <l>Per lasciar questo miserabil regno,</l>
+          <l>Et seco tanti affanni, che v’ha dati.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Come sia ver, come possibil sia</l>
+          <l>Che in vita, e ‘n libertà possa co’ miei</l>
+          <l>Quinci partir giamai? Chi m'assicura?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Questi sono gli effetti del timore,</l>
+          <l>Quando ne ingombra il cor. io v'assicuro.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Onde prender puoi tu tanta certezza?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Da le leggi, con cui l'accordo è fatto:</l>
+          <l>Ma più da quel, che queste orecchieo udito</l>
+          <l>Hanno di bocca pur di Zalamosso;</l>
+          <l>Al qual ne fui, come sapete, ostaggio,</l>
+          <l>E trattai, e conchiusi anco la pace.</l>
+          <l>Egli al mio ritornar a la cittade,</l>
+          <l>Tutto in sembiante human, tutto cortese</l>
+          <l>Mi donò una armatura, et un cavallo:</l>
+          <l>Et da quell’hora a ogni un conceduto have</l>
+          <l>L'arbitrio di poter quinci levarsi,</l>
+          <l>Et gia molti ne sono andati al porto.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Facciano i Dei, che ‘l mio timor sia vano.</l>
+          <l>Et che t’hebbe egli a dir del mio consorte?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Spiegommi con un lungo ordine, ch'arde</l>
+          <l>Di desio di piacerli, et d'honorarlo;</l>
+          <l>Per haver scorto in lui senno, e valore,</l>
+          <l>Et ne’ nostri soldati ardire, e forza;</l>
+          <l>Di che con viva voce espresso, et chiara</l>
+          <l>Farà in eterno testimonio al mondo:</l>
+          <l>Et che li par molt'anni ogni momento,</l>
+          <l>Di vederlo, e goderlo a faccia a faccia,</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Et che? n'han forse, a ritrovarsi insieme?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Il nostro Re si porrà tosto in via</l>
+          <l>Là verso il campo, ove l'Armeno alberga.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Qual sua nemica stella lo conduce?</l>
+          <l>Misera me: questa è la mia ruina,</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Non vi turbate, nò: ch'è si conviene,</l>
+          <l>Ch'ei stesso porga al successor lo scetro,</l>
+          <l>Insegno, ch’aver vuol la pace ferma,</l>
+          <l>Et che gli dà, secondo i patti, il regno.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>L'essequir de la pace non m'attrista;</l>
+          <l>Poi ch’a forza convien, che s'essequisca:</l>
+          <l>Ma voler, che l Re vada a far quest'atto</l>
+          <l>Nel padiglion frà tante armate squadre,</l>
+          <l>Di gelosia,e d'horror m'imgombra il petto,</l>
+          <l>Che non vi sia tra l'herba un laccio teso:</l>
+          <l>E tantopiù, che cerimonie tali</l>
+          <l>Si soglion far dentro le piazze, o tempi</l>
+          <l>Lochi di libertà, done non sia</l>
+          <l>Di tradimento alcun periglio, o tema.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Anzi questo vi de’ trar di paura:</l>
+          <l>Perché ‘l Re nostro è quel, c'ha eletto andarvi.</l>
+          <l>Contra il proprio voler di Zalamosso,</l>
+          <l>Che propose venir dentro la terra:</l>
+          <l>Ma, poi c'hebber con lettere conteso</l>
+          <l>Di cortesia, il nostre Re la vinso,</l>
+          <l>Ottenendo d'andar, come bramava,</l>
+          <l>A ritrovarlo ne le proprie tende:</l>
+          <l>Et cosi a quel Ro Armeno ordito ha un nodo</l>
+          <l>Che lo stringerà più sempre ad amarlo.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Queste parole tue; che mi fan nota</l>
+          <l>Cosa, ch'io non sapeva; havranno forza,</l>
+          <l>Forse, di farmi respirar alquanto:</l>
+          <l>E ancor che ‘l duol del mio perduto regno</l>
+          <l>Troppo m'affligga, et mi molesti il core;</l>
+          <l>Però che ‘l dominar piace a ciascuno,</l>
+          <l>Nè far può la ragion, che ‘l mal non doglia,</l>
+          <l>Se ben col tempo il suol render men grave;</l>
+          <l>Benchè non sò di poter viver tanto,</l>
+          <l>Ch'ella dimostri in me questo suoe ffetto;</l>
+          <l>Pur, poi che per la fè, che data m'hai,</l>
+          <l>Non veggo sovrastarmi altro periglio,</l>
+          <l>Per ritrovarmi anzi la notte al porto,</l>
+          <l>Come m’impone il Re, vi men turbata</l>
+          <l>Anderò a riveder le cose nostre.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI</speaker><stage> solo.</stage>
+          <l>Che debbo far? ritornerò in palagio,</l>
+          <l>O pur aspetterò qui, che ‘l Re n'esca,</l>
+          <l>Per girne fuori a far l'ultimo ufficio?</l>
+          <l>Io lo può attender quì per fin che giunga:</l>
+          <l>Però che non può far lunga dimora.</l>
+          <l>Io mi sento hoggi al cor tant’allegrezza,</l>
+          <l>Che vince in me tutti i passati affanni;</l>
+          <l>Et se non che l'acerba dipartita</l>
+          <l>Di Calasiri, e ‘l suo infelice Stato;</l>
+          <l>Di cui non mi sovien mai, ch'io non pianga;</l>
+          <l>Han forza di temprar questa mia gioia,</l>
+          <l>Direi, che mai non vidi il più bel giorno</l>
+          <l>Et nessun più di me lieta si trovi,</l>
+          <l>Ma non m'è chiaro ancor ben donde venga</l>
+          <l>La cagione, onde son cangiato tanto:</l>
+          <l>Vero è, che per haversi Zalamosso.</l>
+          <l>Scoverto così human, cosi cortese,</l>
+          <l>Come scoverto s'hà, dopo la tregua,</l>
+          <l>Ha gran cagion di rallegrarsi il core;</l>
+          <l>Et dapoi ‘l haver parte in questa pace,</l>
+          <l>Come ho, che posso dir in tutto quasi</l>
+          <l>Esser condotta a fin per opra mia,</l>
+          <l>Vuol, ch'io a gran ragion mi glorij, e vanti:</l>
+          <l>Che serbai la città da tai perigli:</l>
+          <l>Onde meriterei, che la mia Patria</l>
+          <l>Consacrasse al mio nome altari, e Tempi;</l>
+          <l>Perché, s'i Dei del ciel dieron le vita</l>
+          <l>A Salamina col produrla al mondo.</l>
+          <l>Io poi, prodotta, la scampai da Morte,</l>
+          <l>Con trarla da la guerra, et porla in pace:</l>
+          <l>Indi per questo gaudio in me risorge</l>
+          <l>Un'ardente desio d'andarmen hora</l>
+          <l>Nel campo a riveder questo Re novo:</l>
+          <l>Che mi dà il cor, ch'ivi un gran ben m'attenda:</l>
+          <l>Et, se non aspettassi hora a quel loco.</l>
+          <l>Gir con l'infortunato Calasiri,</l>
+          <l>Sarei gia mosso, per andarvi solo.</l>
+          <l>Donne, vero splendor di Salamina,</l>
+          <l>Che fate qui così solinghe, e meste?</l>
+        </sp>
+        <stage>CHORO, ITI.</stage>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Stiamo bramose, e intente</l>
+          <l>Ad udir quel; che sia di noi meschine.</l>
+          <l>Quel che lice sperar de la Reina.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Fugga il timor lontan da i vostri cori:</l>
+          <l>Che si fan chiari i nubilosi giorni.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Troppo per noi gravata è l'aria intorno.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Si e mossa un'aura, onde si sperga il nembo.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Sanlo i nocchier, quanto è fallace il vento.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>La Luce al fin d’ogni tempesta apparve.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>I Dei serban per noi contrario stile.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Come han cangiato Dei per voi suo stile?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Non era Citherea già il ben di Marte?</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Lo sà Vulcan, ch'ambo a una rete colse.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>E Marte al fin gliè pur fatto nemico.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Come sapete quel, che si fa in cielo?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Lo so: perch'egli a Cipri è sì molesto.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Perché Cipri è dicato a questa Dea?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Et per questo vò dir, che sien nemici.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Copre il cielo a mortali un tal secreto.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Scopre e ben di lontan l'ira a’ miei danni.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Et vi dimostra al fin anco la pace.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Null'è il mostrarla, se non viene a l'atto.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Mal forma prende un indisposto oggetto.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Fra miseri tal'uno è a creder presto</l>
+          <l>Quel che, per ristorare il mal, desia</l>
+          <l>E tal così abbandona la speranza</l>
+          <l>Ch’al cangiar de la rea Fortuna in buona,</l>
+          <l>Non si crede veder quel che pur vede</l>
+          <l>Come fino a quell'hora anco noi fummo:</l>
+          <l>Onde pronte siam quindi a sperar bene.</l>
+        </sp>
+        <stage>CALASIRI, EGISTO, SERVO.</stage>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>Cari fedeli miei fratelli, et figli</l>
+          <l>Hor che l’occasion presente è porta</l>
+          <l>Mentre tarda a venir ancor l'aviso,</l>
+          <l>Che i capitani habbian le genti in punto,</l>
+          <l>Per farci scorta fuori al campo Armeno,</l>
+          <l>Et ch'altro agio maggior non havrò, forse,</l>
+          <l>A quest'ufficio; intenderete come</l>
+          <l>Quel d'amor caldo affetto, onde m'havete</l>
+          <l>Sempre clemente Re scorto, non soffre</l>
+          <l>Lasciar il vostro tanto amato aspetto</l>
+          <l>Senza formar quest'ultime parole:</l>
+          <l>Con cui far fede a tutto il mondo intendo,</l>
+          <l>Che; s'altro Re se n'andò altero mai</l>
+          <l>Del dominar di genti a le sue voglie,</l>
+          <l>Et secondo il suo cor disposte, e pronte</l>
+          <l>Ne la felice sua Fortuna, o avversa;</l>
+          <l>Questi rassembro me, quando reggea</l>
+          <l>Contento il fren di questo afflitto regno.</l>
+          <l>Grato mi fu mai sempre il vostro ossequio,</l>
+          <l>Graditi i cori; in cui trovai tal fede;</l>
+          <l>Che maggior desiar d'huomo non lice:</l>
+          <l>Il valor, et l'amor tanto, e sì grave</l>
+          <l>Ho scorto in voi, che basta a far felice</l>
+          <l>Il lor dominator: che, se ‘l rio fato,</l>
+          <l>Cangiando stil, m'alzasse ad altro Impero,</l>
+          <l>Gente regger vorrei simile a voi,</l>
+          <l>O privo rimaner d'ogni gran stato:</l>
+          <l>Onde ‘l dolor, che di lasciarvi porto,</l>
+          <l>Mi preme al par del mio gravoso essiglio.</l>
+          <l>Piacesse al ciel, che tal stato foss’io</l>
+          <l>A voi Re, quali voi foste al mio scettro</l>
+          <l>Vassalli, mentre il ciel non m'hebbe a sdegno:</l>
+          <l>Che, volgendomi questo hor per la mente,</l>
+          <l>Sentireimi il dolor scemarsi alquanto.</l>
+          <l>Egli è ben ver,che la giustitia, il retto,</l>
+          <l>Il desiderio, e ‘l buon voler d’altrui</l>
+          <l>Giovar in me sempre arse: e, dove, e quando</l>
+          <l>Mancò il saper, supplica hora il perdono,</l>
+          <l>Ch'io cheggio a voi, et agli Dei del cielo;</l>
+          <l>La cui pietà per commun ben di voi</l>
+          <l>Guidi lo spirto di colui, c'hor prende</l>
+          <l>A regger questa infortunata terra.</l>
+        </sp>
+        <sp who="#egisto">
+          <speaker>EGISTO.</speaker>
+          <l>Benigno Re, Re sol de’ nostri cori,</l>
+          <l>Se facesse il dolor tanto in me tregua,</l>
+          <l>Ch'io potessi scovrir la parte interna</l>
+          <l>Dei nostri petti; io mi terrei beato,</l>
+          <l>Facendovi mirar con gli occhi, quale</l>
+          <l>Ne le nostre alme siederete eterno,</l>
+          <l>Et quanto obligo havran fin dopo noi</l>
+          <l>I figliuoli, e i nipoti a la clemenza,</l>
+          <l>A gli atti giusti, et a l'amor paterno;</l>
+          <l>Con che, n'havete retti: ma l'affanno</l>
+          <l>Ch'ogn'hor più cresce in me, no I consentendo,</l>
+          <l>Tal che si possa scior la lingua in suono</l>
+          <l>Atto a simil bisogno, si rimanga</l>
+          <l>Entra al vostro giuditio intero, e saggio;</l>
+          <l>Leggendo il nostro cor fuori nel volto;</l>
+          <l>Quello, che dir vorrei. Et pur di tanto</l>
+          <l>E ‘l dual cortese a la memoria, c'hora</l>
+          <l>Mi sovien pregar voi, ch'oblio non mai</l>
+          <l>Di noi v’ingombri il cor, come non mai</l>
+          <l>Sgombreranno le lagrime, e i sospiri</l>
+          <l>Da noi, pensando a l'infelice sorte</l>
+          <l>Vostra. Pietosi i Dei miglior fortuna</l>
+          <l>Apparecchino altrove a i merti vostri,</l>
+          <l>Et sieni l'[ho]re feconde al partir nostro</l>
+          <l>A noi si accerbo et rio.</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>A Voi, Signor, sta homai mover il passo:</l>
+          <l>Che le genti son già presso le porte.</l>
+        </sp>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>Andiamo adunque col favor del cielo.</l>
+        </sp>
+        <sp who="#egisto">
+          <speaker>EGISTO.</speaker>
+          <l>Fermate il piede, o Re: perché mi pare</l>
+          <l>Che colui, ch'appar là, sia Sacerdote</l>
+          <l>Egli è pur desso: et è cinto d'alloro:</l>
+          <l>Et vien per noi con un sembiante allegro.</l>
+          <l>Et che vorrà importar quest'allegrezza?</l>
+        </sp>
+        <stage>SACERDOTE, CALASIRI, EGISTO.</stage>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Aspettate, signor, perché vi porto</l>
+          <l>Cosa dal sacrificio, che v'importa,</l>
+        </sp>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>Che novo caso è questo? è buono, o reo;</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Hor paleso vi sia. Per ubidirvi,</l>
+          <l>Come mi fu dal vostro servo imposto,</l>
+          <l>Andai al Tempio fuor la verso il lato</l>
+          <l>Dove si soglion far i sacrifici,</l>
+          <l>Hora à l’uno, hora a l'altro de gli Dei</l>
+          <l>Come da noi si fan diversi i voti:</l>
+          <l>Ma, prima che le vittime uccidessi,</l>
+          <l>O s'accendesse su’ gli altàri il foco,</l>
+          <l>Chinai la fronte humilmente a terra,</l>
+          <l>E supplice pregai il verace Apollo,</l>
+          <l>Che volesse predir, se mai potesse</l>
+          <l>Ricoverar et in che guisa il Regno.</l>
+          <l>Et ecco, mentre io era a questo ufficio</l>
+          <l>Intento, a le mie indegne impure orecchie</l>
+          <l>Fuor de l'imago del figliuol di Giove</l>
+          <l>Uscir queste parole. Tinga ardito</l>
+          <l>Iti al Re Armeno, col suo sangue il seggio</l>
+          <l>Per morte a l’hor, che ‘l regal scettro prende:</l>
+          <l>e Calasiri sia, qual era in prima.</l>
+          <l>Al suon di queste voci mi levai,</l>
+          <l>Et qua venni: perché non vi sìasconda</l>
+          <l>Cosa, ch'ancor vi potrà far contento.</l>
+          <l>Ma, perché sovra me l’ira del cielo</l>
+          <l>Non scenda, torno al tralasciato ufficio.</l>
+        </sp>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>Non vi partite, nò: tornate: udite.</l>
+        </sp>
+        <sp who="#sacerdote">
+          <speaker>SACERDOTE.</speaker>
+          <l>Non mi lice tardar: restate in pace.</l>
+        </sp>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>Qui fora d'uno interprete bisogno:</l>
+          <l>Che non mi son queste parole chiare.</l>
+          <l>EGIS.</l>
+          <l>Et men comprendo anch’io, s'Apollo chiedo</l>
+          <l>Il sangue del Re Armeno, o quello d'Iti</l>
+          <l>Sì son gli accenti suoi dubbiosi, e incerti.</l>
+        </sp>
+        <stage>ITI, CALASIRI.</stage>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Come mai vero sia, ch’alcuno quinci</l>
+          <l>Intende, ch'io dia morte a Zalamosso?</l>
+          <l>Volete che l'oracolo ne imponga</l>
+          <l>Quel, che far non si può? chi crederallo?</l>
+          <l>Non è cosa impossibile, ch'io possa</l>
+          <l>Uccider questo Re nel proprio albergo</l>
+          <l>In mezo a le sue squadre, innanzi gli occhi</l>
+          <l>Ditanti, e tanti suoi custodi armati?</l>
+          <l>A me dunque convien sparger il sangue:</l>
+          <l>Non è vopo d'interprete: il mio fato</l>
+          <l>Vuol, che qui il fine sia de la mia vita:</l>
+          <l>Questo importa l'oracolo. I son pronto</l>
+          <l>Per voi, Signor, et per la patria insieme</l>
+          <l>A morir mille volte. Eccomi il petto;</l>
+          <l>Quinci uscirà per man di me medesmo</l>
+          <l>Sangue, che tingerà la terra, e ‘l seggio</l>
+          <l>Del Re, come al mio debito conviensi.</l>
+        </sp>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>O quanto amore, o quanta fede scorgo.</l>
+          <l>Ma non consentirò, che tu ti uccida.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Come Signor? Se da la morte mia.</l>
+          <l>La vita viene a la mia patria cara,</l>
+          <l>Chi contender vorrà, ch' io non mi uccida:</l>
+          <l>Morte, che pare altrui cotanto amara</l>
+          <l>È principio del ben, fine de’ mali:</l>
+          <l>Ne può l huomo trovar la via sicura</l>
+          <l>D'uscir giamai de le miserie humane</l>
+          <l>Innanzi il dì; che lo ripon sotterra.</l>
+          <l>Ma, quando fosse ancor la nostra vita</l>
+          <l>D'affanni sciolta, s'a morir son nato:</l>
+          <l>Perché non debbo al mio terren natio,</l>
+          <l>Et al mio Re, cui son tenuto tanto,</l>
+          <l>Donar con sì gran gloria, che m'attende,</l>
+          <l>De’ fugaci anni miei sì breve parte?</l>
+        </sp>
+        <sp who="#calasiri">
+          <speaker>CALASIRI.</speaker>
+          <l>Io non posso, né debbo oppormi al bene</l>
+          <l>De la città, né di tal opra al merto;</l>
+          <l>Che ’n un ti porgerà la terra, e ‘l cielo,</l>
+          <l>Solo ammiro il valor, che ‘n te si mostra;</l>
+          <l>Il qual, malgrado de l'edace tempo,</l>
+          <l>Sia a l'eternità sacrato in terra,</l>
+          <l>E i Dei farand di lui festa nel cielo.</l>
+        </sp>
+        <sp who="#iti">
+          <speaker>ITI.</speaker>
+          <l>Sù dunque: che per via ragioneremo</l>
+          <l>Del modo, che si converrà tenere.</l>
+          <l>Per ottener quanto ha promesso Apollo.</l>
+          <l>CHORO.</l>
+          <l>Come ne le salse onde</l>
+          <l>Nave; che se ne và cangiando spesso</l>
+          <l>Dal variar de venti e corso, e stato</l>
+          <l>Hor tranquillo, hor turbato;</l>
+          <l>Non trova posa mai lungi, o d'appreso,</l>
+          <l>Se non quando al favor d'aure seconde</l>
+          <l>Entro al porto s’asconde:</l>
+          <l>Ch’ivi del pregio al suo camin promesso</l>
+          <l>Gode con pace tanta,</l>
+          <l>Che degli errori suoi si gloria, e vanta:</l>
+          <l>Così l'humana vita</l>
+          <l>Entro a queste mortal sponde terrene;</l>
+          <l>C’hor lieta, hor mesta intorno si rivolve;</l>
+          <l>Come tal'hor l'involve</l>
+          <l>O dolor, o timor, o gioia, o speme,</l>
+          <l>Al lungo travagliar sol prende aita</l>
+          <l>Da l'ultima partita:</l>
+          <l>Che quinci fuor di tante amare pene</l>
+          <l>In stato più sereno</l>
+          <l>Si riposa ad eterna pace in seno.</l>
+          <l>Cara, e pregiata morte,</l>
+          <l>Tu sol quinci ne guidi a l'altra riva</l>
+          <l>Fresca, e fiorita: ove è perpetuo il giorno</l>
+          <l>D'un più bel sole adorno;</l>
+          <l>Ove e tranquilla pace: ove ne estima</l>
+          <l>Stagion, ne’ freddo verno è, che n'apporto</l>
+          <l>Unqua noiosa sorte:</l>
+          <l>Ch'eterna primavera ivi n'aviva;</l>
+          <l>E ivi sol prendon l'alme</l>
+          <l>De le giuste opre lor corone, e palme:</l>
+          <l>Dunque, o verace guida,</l>
+          <l>Iti fedel per te, solcando Lete,</l>
+          <l>Giugnerà de’ beati a i regni santi,</l>
+          <l>E, i dolorosi pianti</l>
+          <l>Col suo sangue sgombrando, farà liete</l>
+          <l>Ancor queste contrade; in cui s’annida</l>
+          <l>Stratio, sospiri, e strida.</l>
+          <l>E così; tua mercè, qui il ben si miete,</l>
+          <l>Così un breve sospiro.</l>
+          <l>Fà sperar finea lmio lungo martiro.</l>
+          <l>Poiché morir conviene, ogni un si ingegni</l>
+          <l>Con morte sì gradita</l>
+          <l>Gloria acquistar, che lo riponga in vita.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>ATTO TERZO</head>
+        <stage>IRENE, NUTRICE.</stage>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>In mezo del dolor de l'aspre [ser]e</l>
+          <l>Che mi da questo mio perduto regno;</l>
+          <l>Cara Nutric emia non men, che madre;</l>
+          <l>Solo vorrei, per refrigerio mio,</l>
+          <l>Che la notte, hor che per calar s'adagia</l>
+          <l>Da i monti, in se l'horror trahendo, e ‘l velo,</l>
+          <l>Li tenesse lontan dal duro volto</l>
+          <l>De la terra per fin, ch'a mio bell'agio</l>
+          <l>Pascessi gli occhi de l'amata vista</l>
+          <l>De la bella città, ch'io lascio altrui:</l>
+          <l>Ne l'importunità del tempo prima.</l>
+          <l>Ch’io fossi paga; mi spingesse al lido;</l>
+          <l>Per dar mesta, le vele in alto a' venti,</l>
+          <l>Et più poi rimirar mai non poterla.</l>
+          <l>Ho compito homai dentro ogni altro ufficio</l>
+          <l>Di pietate, e d'amor: hò la dolente</l>
+          <l>Licenza estrema d'una in una presa</l>
+          <l>Da le misere Donne cittadine</l>
+          <l>Di Salamina dolorosa, e meste</l>
+          <l>Ho bagnato di lagrime il palagio,</l>
+          <l>E fra mille sospiri, e mille homei</l>
+          <l>Hò per fin detta, che restino in pace</l>
+          <l>I cari alberghi, e i geniali letti.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Gite, Reina, pur mirando intorno</l>
+          <l>Il tutto, mentre lo concedon l hore</l>
+          <l>E contentate in questa parte il senso;</l>
+          <l>sì che fatta satollo homai non curi</l>
+          <l>Quel, che cieca fortuna hoggi vi toglie:</l>
+          <l>Come tal hora un soverchio uso cangia</l>
+          <l>In oblio amore, et in dispregio il dolce.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Sforzerommi di farlo: e lodo i Dei,</l>
+          <l>Che per men nostro mal, la mercè loro,</l>
+          <l>Mi concedon poter quinci partire,</l>
+          <l>Et mi traggono fuor d'ogni periglio</l>
+          <l>Di dura servitù, di Morte indegna.</l>
+          <l>Ritorna in casa: et fà, che la famiglia</l>
+          <l>Incominci ad andar pian piano al porto.</l>
+        </sp>
+        <stage>IRENE, CHORO.</stage>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Donne mie, s'avvicina il tempo homai,</l>
+          <l>Che mi sforza lasciarvi.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Anzi con noi vi rimarrete, spero</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Si con lo spirto; il qual non potrà mai,</l>
+          <l>Bench'io mi parta, non restar con voi.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Voi mostrate, Reina, che nascosto</l>
+          <l>Il rimedio vi sia de’ danni vostri.</l>
+          <l>Non sapete, che dianzi al Sacerdote,</l>
+          <l>Mentre, ch'era ad orar nel tempio asceso,</l>
+          <l>Venne una voce d'invisibil lingua;</l>
+          <l>Che ne predice, ch'lti col suo sangue</l>
+          <l>A voi renderà il regno, e a noi la pace:</l>
+          <l>Et ei sen gio à l'hora ardito a Morte?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Il ciel può tutto: ma di raro è avezzo</l>
+          <l>Cangiar a questa nostra humana vita</l>
+          <l>Un lungo affanno sì repente in gioia.</l>
+          <l>Pur: perché speme è nel martir conforto;</l>
+          <l>Temprerò alquanto il duoI con questa nova.</l>
+        </sp>
+        <stage>SERVO, IRENE, CHORO.</stage>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Ove è, Donne, la misera Reina?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Eccola che n'apporti?</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Inaspettato nuntio.</l>
+          <l>O me infelice; a chi narrarlo aviene.</l>
+          <l>Reina, è un gran rumor fuori nel campo:</l>
+          <l>Gli Armeni fan de’ nostri una gran strage.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ahi dolorosa nova.</l>
+          <l>Ahi sventurata Irene.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O cielo, come se’ presto a cangiarti.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Et che è del mio consorte?</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Chi può saper fin hor quel, che ne sia?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ohimé, ohimé meschina.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Mai non ha fin fortuna,</l>
+          <l>Quando incomincia altrui farsi molesta.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>O cara madre, ohimé, dove son giunta:</l>
+          <l>O de l'altezze mie misero fine.</l>
+          <l>Che fai: che non ragioni</l>
+          <l>Homai quel, che vedesti?</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Lo dirò, se ‘l timor, ond'ancor tremo,</l>
+          <l>Mi renderà lo spirto, e le parole.</l>
+          <l>Aspettando pur hor con gli altri servi</l>
+          <l>Intorno al padiglion di Zalamosso,</l>
+          <l>Che ‘l Re n'uscisse, per tornar a dietro;</l>
+          <l>Sorger horribil voce entro s'udio,</l>
+          <l>Che comandò, che ‘l nostro Re con gli altri,</l>
+          <l>Ch'erano ivi con lui, fosse legato:</l>
+          <l>Indi volgendo le dolenti luci,</l>
+          <l>Ver mirar, se la nostra armata squadra;</l>
+          <l>Che non molto lontana era rimasa;</l>
+          <l>De’ miseri veniva a la difesa.</l>
+          <l>Ecco del campo Armeno un furor novo,</l>
+          <l>Come lupi far soglion de la greggia,</l>
+          <l>Ini non tratto assalirla: et non potendo</l>
+          <l>Soccorrer al mio Re, servo infelice,</l>
+          <l>Trattomi dietro al padiglion pian piano</l>
+          <l>Fuggi; salvando la mia vita, et gli occhi</l>
+          <l>Da spettacol sì rio, da man si crude.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ahi troppo infido Armeno,</l>
+          <l>Anzi fiera crudel, questa è la pace?</l>
+          <l>Questo il condegno merto d'un tal regno,</l>
+          <l>Che ricevi? o infelice</l>
+          <l>Amato mio consorte,</l>
+          <l>Dove v'han tratto le lusinghe altrui?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Ohimé, che tutte havren da pianger sempre.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Torna, servo fedel, di gratia torna</l>
+          <l>A spiar di lontan quel, che succede</l>
+          <l>Et fa, ch'io tosto di tua bocca il sappia.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Non deve un servo risparmiarla vita,</l>
+          <l>Quando in servigio dei Signor la spende.</l>
+        </sp>
+        <sp who="#servo">
+          <speaker>SERVO.</speaker>
+          <l>Io son pronto ad andar ovunque in grado</l>
+          <l>Vi sia, senza temer punto la Morte:</l>
+          <l>Pur faccia al ciel, se può, ch'al mio ritorno</l>
+          <l>Vi cangi in dolce questo amaro annuntio.</l>
+        </sp>
+        <stage>IRENE, CHORO.</stage>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>O ben tre volte aventurate, e quartro</l>
+          <l>Quelle Vergini pure a Dio si care,</l>
+          <l>Ch’indegna preda di questo empio Mostro</l>
+          <l>Undici mesi son, solcando il mare,</l>
+          <l>Abbruciaron se stesse con la nave,</l>
+          <l>Entro a cui givan serve a Donne Armene,</l>
+          <l>Et con si generosa, e dolce Morte</l>
+          <l>Sortiro al fin de la lor vita amara</l>
+          <l>O quanto invidio a quell'ardita mano,</l>
+          <l>Ch’accese il foco, et fenne opra sì bella.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>State fosser con ella.</l>
+          <l>Tutte le donne de la patria nostra.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Chi mi consiglia più? che far debb’io?</l>
+          <l>Anderò, lassa, ad incontrar la Morte</l>
+          <l>In mezo a l arme di sì fier nemico,</l>
+          <l>E tu meco verrai, caro figliuolo</l>
+          <l>Ahi, che m'arretra il piè timor di peggio,</l>
+          <l>Timor di servitute:</l>
+          <l>Ma più, che questa mia giovane etata</l>
+          <l>Tra gente sì sfrenata, e disleale</l>
+          <l>Non porga a'l honor nostro</l>
+          <l>Al candor puro oltraggio:</l>
+          <l>Dammi pietoso, o ciel, dammi tu aiuto.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Molti son certo gl'infortuni vostri,</l>
+          <l>Reina, e molti colpi, onde percossa</l>
+          <l>Vi veggo, e ‘l ciel fa purtroppo gran prova</l>
+          <l>Sovra del vostro cor: ma non cessate</l>
+          <l>Rinforzar la virtù con qualche speme</l>
+          <l>Di minor male, in aspettando il fine.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ohimé, il mio male è certo,</l>
+          <l>Et la speranza vana:</l>
+          <l>Questo, questo è quel dì, cui il ciel destina</l>
+          <l>A la nostra ruina.</l>
+          <l>Assai, lassa, di speme,</l>
+          <l>E d'ombra vissi; che m'andò marcando</l>
+          <l>Fra le man, come neve a i raggi estivi:</l>
+          <l>Et hor convien di lagrime nutrirsi:</l>
+          <l>Ch'altro, ch'amaro pianto,</l>
+          <l>Non sentirà la vita, che m'avanza.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Qualche pietoso Dio</l>
+          <l>In così grave affanno vi soccorra.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Caro consorte mio,</l>
+          <l>Come vi soffre il core hora, pensando</l>
+          <l>A l'angoscia, e al poriglio.</l>
+          <l>Che me circonda; e l pargoletto figlio,</l>
+          <l>Figlio del nostro amore</l>
+          <l>Già così dolce frutto;</l>
+          <l>In cui hora mirando,</l>
+          <l>Provo si amaro fiele.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Questa vita infelice.</l>
+          <l>Di lontan mostra il ben, poi ne l'sconde</l>
+          <l>Anzi questo, ch'a noi rassembra bene,</l>
+          <l>È proprio un'ombra fugitiva, e vana</l>
+          <l>Egli ci leva in alto:</l>
+          <l>Perché proviamo poi, cadendo al basso,</l>
+          <l>Lo stato di miserie assai più acerbe.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Veggo ben io dapresso un duro Armeno</l>
+          <l>Por mano in queste tue</l>
+          <l>Chiome dorate, o figlio,</l>
+          <l>E innanzi agli occhi miei</l>
+          <l>Darti, meschin, la morte.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>I Dei del ciel lo rendan più felice,</l>
+          <l>Ma nel resto simile in tutto al padre.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ah quante dolorose Morti altrui</l>
+          <l>Mi piagheranno il core</l>
+          <l>Pria, che giunga la mia</l>
+          <l>Sorte spietata, et ria:</l>
+          <l>Perché mi porta il ben, tarderà molto.</l>
+          <l>Et di voi, Signor mio, che fà il nemico,</l>
+          <l>L'immanissima fiera?</l>
+          <l>Dove è chi me ‘l ridica?</l>
+          <l>Se v'hà anciso il crudel’ prendere al fine</l>
+          <l>Queste voci meschine,</l>
+          <l>Questo mio pianto amaro</l>
+          <l>Per le funebri pompe,</l>
+          <l>Che ‘l ciel duro vi nega:</l>
+          <l>Et venitemi al men tal’hora in sogno</l>
+          <l>A consolar, finchè pietoso il duolo</l>
+          <l>Disgiungerà quest'alma</l>
+          <l>Da le noiose membra,</l>
+          <l>Et s'uniran gli spirti in miglior parte.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>È vivo, non temete,</l>
+          <l>Et li darà perdon, forse, il nemico:</l>
+          <l>Perché ne’ petti humani</l>
+          <l>In poco tempo l'ira viene, et parte:</l>
+          <l>Et servo poi, quando avenisse il peggio,</l>
+          <l>Lo terrà, senza condannarlo a morte.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>La servitute è da fuggir più assai</l>
+          <l>A un generoso cor, che mille morti.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Può sperar libertate.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>È la speranza un sogno,</l>
+          <l>Un falso lusinghier di gente vana:</l>
+          <l>Non le vò creder più: nulla può in alio</l>
+          <l>Levarmi; sauto é di miserie il fondo,</l>
+          <l>In cui son posta sconfolata Donna.</l>
+          <l>O disleal fortuna,</l>
+          <l>Perché non t'era assai farmi dolente</l>
+          <l>Con levarmi quel ben, che t'è soggetto;</l>
+          <l>C'hora fai veder morte</l>
+          <l>Sì fera, e sì crudel contra il mio sangue!</l>
+          <l>Donne fide conserve</l>
+          <l>Del’infelice già vostra Reina,</l>
+          <l>Lasciate il pianto a questi occhi dolenti;</l>
+          <l>Et voi, per quell'amore,</l>
+          <l>Ch'io vi mostrai già ne’ miei giomi allegri,</l>
+          <l>Et per quella pietà; che ‘n cor di Donna</l>
+          <l>Ha il suo maggior albergo; ritrovate</l>
+          <l>Alcun scampo al fanciul, si che non pera.</l>
+        </sp>
+        <stage>SOLDATI ARMENI, CHORO, IRENE, PIRRO.</stage>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Donna, e questo figliuol di Calasiri</l>
+          <l>Mal fortunato Re di questa terra?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Il regal fanciullin, che ricercate,</l>
+          <l>Qui non si trova: egli sarà in palagio.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Tu cerchi d'ingannarne: anzi è pur desso.</l>
+          <l>Ecco il vero ritratto di suo padre.</l>
+          <l>Et voi non siete la Reina Irene?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Si sono l'infelice, che voi dite:</l>
+          <l>Ma non m'è figlio, nò questo fanciullo.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Hor palese mi sia: e’ si conviene</l>
+          <l>Vincer l’arte con l’arte. S’egli adunque</l>
+          <l>Non è del Re figliuol, scannatel tosto.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ah non fate per Dio:</l>
+          <l>Uccidete me pria, perch'è ben questo</l>
+          <l>L'unico nostro figlio: io lo confesso</l>
+          <l>Ma perchè ‘l ricercate,</l>
+          <l>Misera me, che importa a voi saperlo?</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Importa, che vi converrà lasciarlo</l>
+          <l>A noi, che lo meniamo a quel, ch'è fatto</l>
+          <l>Di voi tutte signor, non che del Regno.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Non lo lascierò mai:</l>
+          <l>Con queste mani inermi</l>
+          <l>M'opporrò a l'ardir vostro</l>
+          <l>Contra voi l'ira el duol mi daran forza.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Anzi infelice voi,</l>
+          <l>Rivolgetevi a i preghi.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>O sconsolata madre.</l>
+          <l>Questo è quel; ch'io attendeva</l>
+          <l>Per ultima ruina:</l>
+          <l>Questo predisse il sogno,</l>
+          <l>Non sogno, no, ma horribil visione.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Sarete saggia, se di vostra voglia</l>
+          <l>Concederete quel; che poi la forza</l>
+          <l>V’indurrà a far con altretanto affanno.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Qual vi tornerà honor, usar la forza</l>
+          <l>Contra una Donna abbandonata e sola?</l>
+          <l>La vera gloria è vincer il nemico:</l>
+          <l>Et, dopo vinto, perdonar l'offese</l>
+          <l>Et come un infelice è sempre intento</l>
+          <l>Dietro a quello che ‘l puo render contento</l>
+          <l>Così il felice dè temer anch'egli</l>
+          <l>Di non cader ne le miserie altrui:</l>
+          <l>Onde lode vi sia tornar a dietro,</l>
+          <l>Et ottener per me tanta mercede,</l>
+          <l>Che ‘l Re vostro mi lasci almeno il figlio:</l>
+          <l>Che si conviene pur ad human petto</l>
+          <l>Usar humanità: nè credo mai,</l>
+          <l>Che Zalamosso sia sì duro, e strano,</l>
+          <l>Che per tal atto alcun biasmo vi segua:</l>
+          <l>Anzi loderà in voi tanta pietate</l>
+          <l>Perché, sendo, come è; padre egli ancora,</l>
+          <l>Deve pur ritener viva nel petto</l>
+          <l>La dolcezza de figli; per la quale</l>
+          <l>Supplicate ‘l. vi prego, et per la molta</l>
+          <l>Cortesia, che da noi ricevuta hanno</l>
+          <l>I prigioni, che ‘n questa horribil guerra</l>
+          <l>Ci Capitaro in man dal vostro lato:</l>
+          <l>Di che può farne testimonio espresso</l>
+          <l>Il non esser pur un ferito, o morto</l>
+          <l>Da l'hor, che presi fur ne’ fatti d'arme:</l>
+          <l>Anzi con carità, con studio, et arte</l>
+          <l>Curati tutti quei, c'havean bisogno</l>
+          <l>E rimandati d’uno in uno al campo.</l>
+          <l>Tosto, che si conchiusero le tregue.</l>
+          <l>Et diran meglio essi medesmi ancora,</l>
+          <l>Che non dico io, come trattati furo.</l>
+          <l>Poiché meco medesma mi vergogno</l>
+          <l>A dirne più: perché colui, che face</l>
+          <l>Il beneficio dè sempre tacerlo;</l>
+          <l>Per non mostrar di improverarlo altrui.</l>
+          <l>Non vogliate voi dunque, che ‘l Re vostro</l>
+          <l>Ch'è invicibil ne l'arme; hora sia vinto</l>
+          <l>Di cortesia, ch'è pur minor virtute;</l>
+          <l>Ne vogliate col pianto del figliuolo</l>
+          <l>Accrescer le mie lagrime, ne fare</l>
+          <l>Col danno suo, maggior la pena mia</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Grave m'è assai la noia, che vi porto:</l>
+          <l>Ma più grave mi sia l'esser rubelle.</l>
+          <l>Ai mandati de' mio signor: pertanto</l>
+          <l>Contentatevi pur darmi il fanciullo:</l>
+          <l>Et vi ricordi, che conviene altrui</l>
+          <l>Sofferir quel, c'ha destinato il cielo.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Tornate a rinforzar, Reina i preghi</l>
+          <l>Ch'ogni rocca sostiene il primo assalto.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Eh, non vogliate voi</l>
+          <l>Di tanta crudeltate esser ministri,</l>
+          <l>Ancor che ‘l mio destino,</l>
+          <l>E ‘l ciel consenta a la ruina mia;</l>
+          <l>Anzi pietà de la mia dura sorte</l>
+          <l>Movavi il core, e l alma;</l>
+          <l>Se vorrete ancor voi pietà dal cielo</l>
+          <l>Ne le necessità vostre maggiori:</l>
+          <l>E tornate a pregar il signor vostro,</l>
+          <l>Che perdoni a l'etate</l>
+          <l>Di questo fanciullin puro innocente;</l>
+          <l>Per dimostrarsi a pieno,</l>
+          <l>Ch'egli non è Tiranno</l>
+          <l>O fiera alpestre, e cruda.</l>
+          <l>Che può nocer a lui questo fanciullo,</l>
+          <l>Questo fanciul meschin privo di stato,</l>
+          <l>Privo d'aiuto human, privo di padre?</l>
+          <l>Ma ben gioverà a me madre infelice:</l>
+          <l>Che, stando meco, servirammi in vece</l>
+          <l>Di consorte, et di regno. Et per talopra</l>
+          <l>Vi farò un ricco don di gemme, e d'oro:</l>
+          <l>Et pregherò il gran Re, ch’alluma il Sole,</l>
+          <l>Ch’al tornar vostro a le contrade amate</l>
+          <l>Del nativo terreno</l>
+          <l>Mirar vi faccia intorno</l>
+          <l>Con faccie liete le consorti, e i figli.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Qual petto è così duro</l>
+          <l>D'hircana Tigre, o qual si immobil scoglio,</l>
+          <l>Ch'intenerito, et mosso</l>
+          <l>Ad un tanto cordoglio</l>
+          <l>Non diponesse il conceputo orgoglio?</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Acquetatevi alfin, ch'io vi risolvo,</l>
+          <l>ci oltre ch'avoi pregar per voi non lice;</l>
+          <l>Senza frutto l'oprar sarebbe, et vano:</l>
+          <l>Che i decreti de i Re non puon mutarsi.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Dunque, se duri, e sordi</l>
+          <l>A i preghi, al lagrimar di me dolente,</l>
+          <l>Di me madre meschina,</l>
+          <l>Il picciol don negate,</l>
+          <l>C'humil chiedervi torno</l>
+          <l>Con le ginocchia a terra</l>
+          <l>Fatemi almen, per Dio, quest'altra gratia;</l>
+          <l>Che non è contra la natura vostra;</l>
+          <l>Di trapassarmi il cor con questa spada.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Nè questo ancor vi sia da noi concesso;</l>
+          <l>Perché non è dal nostro Re disposto</l>
+          <l>Quel, ch'esser dè di vostra vita, o morte,</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Et di quella del mio miser consorte?</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Vi sia palese ben, datene il figlio.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Dove è per me pietate?</l>
+          <l>Stringerommelo al sen: nè l'haverete,</l>
+          <l>Se non mi date morte.</l>
+        </sp>
+        <sp who="#pirro">
+          <speaker>PIRRO.</speaker>
+          <l>Ohimé.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ah nemici crudeli</l>
+          <l>Satijsi del mio sangue</l>
+          <l>Il vostro empio Tiranno, il fiero mostro.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Potreste ragionar con più riguardo</l>
+          <l>D'un sublime Re di quel, che fate.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Sapendo, Armeni, voi che questa è madre</l>
+          <l>Iscusate l'affetto che la spinge</l>
+          <l>Tanto oltre.</l>
+        </sp>
+        <sp who="#pirro">
+          <speaker>PIRRO.</speaker>
+          <l>Ove mi meneranno, o madre?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Al tuo diletto padre.</l>
+          <l>Perché quelle cathene?</l>
+          <l>Perché legar si pargolette mani?</l>
+        </sp>
+        <sp who="#pirro">
+          <speaker>PIRRO.</speaker>
+          <l>Ohimé.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ah voce,</l>
+          <l>Che mi trafigge l'alma,</l>
+          <l>Baciami figliuol mio pria che mi lasci.</l>
+          <l>Dammi gli ultimi baci. O cara bocca</l>
+          <l>Ohimé, che più non puoi con le tue braccia</l>
+          <l>Cinger il collo a la dolente madre.</l>
+          <l>Và figliuol mio, col padre</l>
+          <l>Ad una istessa sorte;</l>
+          <l>E dilli, ch'io non bramo altro, che morte.</l>
+        </sp>
+        <sp who="#pirro">
+          <speaker>PIRRO.</speaker>
+          <l>O madre cara, o madre.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Che ti rivolgi a dietro,</l>
+          <l>Miser fanciullo? in vano aiuto chiedi</l>
+          <l>A chi non può salvarti.</l>
+          <l>Prendi questi sospiri</l>
+          <l>Queste lagrime mie:</l>
+          <l>Ch'altro non posso darti.</l>
+          <l>Ti raccomanda a Dio</l>
+          <l>O figlio, o figlio: o madre</l>
+          <l>Orba senza figliuolo.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Sostenetela, serve:</l>
+          <l>Ecco, che tramortisce</l>
+          <l>Riponetela in casa.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ohimé.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>È per antica usanza</l>
+          <l>Sotto la luna retto il mondo tutto</l>
+          <l>Da una Diva; non sò, s’hà ne l'inferno,</l>
+          <l>O nel cielo la stanza:</l>
+          <l>Ella và in noi destando hor gaudio, hor lutto;</l>
+          <l>Non ha alcun stato eterno:</l>
+          <l>Ma tien dal variar tutto in ischerno:</l>
+          <l>È sempre cieca, et sorda;</l>
+          <l>Non si volge unqua a dietro,</l>
+          <l>E mai sempre ad un metro</l>
+          <l>Volge una ruota, e ‘n questo sol s'accorda.</l>
+          <l>Và trionfando fopra</l>
+          <l>Un carro tratto da due horribil fiere</l>
+          <l>C'han di mille colori ombrato il dorso:</l>
+          <l>Volge tal’hor sozzopra</l>
+          <l>I distinti elementi in tempre fere:</l>
+          <l>Sola prescrive il corso</l>
+          <l>A le cose mortali: onde soccorso,</l>
+          <l>Come a lei pare, o pene</l>
+          <l>Dal fatal carro piove:</l>
+          <l>Et spesso, ardita move</l>
+          <l>L’immortal nostro hor con paura, hor spene.</l>
+          <l>Da costei; che si pente;</l>
+          <l>Invida, di quel ben, che pria ci porse.</l>
+          <l>Nacquero la discordia, et l'empie voglie</l>
+          <l>A mal far sempre intente:</l>
+          <l>Quindi la guerra sanguinosa sorse;</l>
+          <l>Cagion d'immensi danni:</l>
+          <l>E quindi crudeltà con tanti affanni</l>
+          <l>Turba il bel viso santo</l>
+          <l>A la Reina, e ‘l Regno</l>
+          <l>Prende novo Re indegno:</l>
+          <l>Ond'ha gli effetti poscia il riso, e ‘l pianto.</l>
+          <l>O Fortuna nemica</l>
+          <l>Di chi felice in questa'aria si gira,</l>
+          <l>Quando averrà, che cangi il rio costume?</l>
+          <l>Perché più ogn'hor s'intrica</l>
+          <l>Ne le sue infidie chi a tuoi doni aspira?</l>
+          <l>Perc'hà si lievi piume</l>
+          <l>Di volar ne le tenebre dal lume</l>
+          <l>Quel, ch'ala gioia in grembo</l>
+          <l>Sedea lieto, e contento?</l>
+          <l>Quando spirerà un vento,</l>
+          <l>Che dal voto del ciel disperg ail nembo?</l>
+          <l>Se vuoi, possente Dea, ch'ogniun t'honori;</l>
+          <l>Almen con egual cura</l>
+          <l>Serba ne l'alternar giusta misura:</l>
+          <l>Et; poiché d'una mano</l>
+          <l>Spargi il verde terreno</l>
+          <l>Di manna, di veleno;</l>
+          <l>Quando hai piagato un cor, fallo ancor sano.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>ATTO QUARTO.</head>
+        <stage>MESSO, CHORO.</stage>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Perché mi serbò l'acerbo fato</l>
+          <l>A questa spaventevol notte? O che</l>
+          <l>Nel defender le mura dal nemico,</l>
+          <l>Qualche ferro pietoso a tanti affanni</l>
+          <l>Non mi trapassò il core, et non m'uccise?</l>
+          <l>O perché almen, per mia minor sciagura,</l>
+          <l>Non mi trovo hor ne’ più deserti lidi,</l>
+          <l>Tra le fere più horribili, e più alpestri;</l>
+          <l>Per non veder sì scelerato, et empio</l>
+          <l>Spettacolo! o meschin Regno infelice,</l>
+          <l>Ch'albergo eri d'Amor, nido di pace</l>
+          <l>Hor se’ carcer horribile di morte.</l>
+          <l>O lagrimevol Terra, ove se’ giunta?</l>
+          <l>In mano d'un Tiranno, in man d'un Scita:</l>
+          <l>Che Tiranno? che Scita? anzi ne l'unghie</l>
+          <l>D'un Mostro atroce de l horrendo inferno.</l>
+          <l>Ah perché, nel mirar opra sì cruda,</l>
+          <l>Non chiusi gli occhi in sempiterno sonno?</l>
+          <l>O perché non divenni, come al volto.</l>
+          <l>Di medusa, a quell atto immobil scoglio?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O che duri lamenti, o che querele</l>
+          <l>Sparge questi dal petto. o Re del cielo,</l>
+          <l>Fa, c'habbian fine homai tanti spaventia</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Crederò più che providenza eterna</l>
+          <l>Curi, et regga dal ciel l humane cose?</l>
+          <l>O pur; che ‘l caso, o alcuna infida stella</l>
+          <l>Volga, et rivolga a le sue istabil voglie</l>
+          <l>Tutto quel, ch’è qua giù trà noi mortali?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Andiamo a inteder quello, onde si lagna:</l>
+          <l>Ch'esser non può, che non sia horribil cosa.</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Gran ventura è la mia fra tante angoscie,</l>
+          <l>Ch’a me non tocca dirlo a la Reina:</l>
+          <l>Che un servo ritrovato a spiar fuori</l>
+          <l>Quel che si fesse, da me inteso il fatto,</l>
+          <l>Tosto è gito a narrarlo a l'infelice</l>
+          <l>Per la più corta, e più spedita via,</l>
+          <l>Che del campo crudel mena al palagio,</l>
+          <l>Come haverei potuto farmi mai</l>
+          <l>Nuntio a lei di una tanto amara nova</l>
+          <l>Come formato havrei parola, o suono?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Che novo caso è questo, che vi face</l>
+          <l>Mandar al ciel si dolorosi accenti?</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>No 'l curate saper, Donne.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Eh di gratia</l>
+          <l>Ditelo anchor a noi: non ne ‘l celate.</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Se non m'opprime il duol gli spirti in guisa,</l>
+          <l>Che la virtù si scemi, et le parole</l>
+          <l>Si fermino interrotte; udrete cosa,</l>
+          <l>Che vi trafiggerà, misere; l'alma:</l>
+          <l>Onde meglio per poi saria tacerlo.</l>
+          <l>Ma, se pur arde in voi tanto 'il desio,</l>
+          <l>Che per me vi si dica, ritrovate</l>
+          <l>Alcun rimedio al cor, ch'ala mia voce</l>
+          <l>Non venga meno, et le luci vostre</l>
+          <l>Preparate di lagrime un gran fiume.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Incominciate pur: ch'a nove amare</l>
+          <l>Le nostre orecchie son purtroppo avezze.</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Giunto ili misero Re nostro con gli altri,</l>
+          <l>Che seco andammo al Re d'Armenia: ch'era</l>
+          <l>Nel padiglion con regal pompa assiso;</l>
+          <l>Primieramente con sembiante humano</l>
+          <l>Fummo accolti: et seder fatti coloro,</l>
+          <l>Ch'eran per anni, et per virtù più degni,</l>
+          <l>Zalamosso primier sciolse la lingua</l>
+          <l>Ingrati accenti a stabilir la pace;</l>
+          <l>Scoprendosi dolente oltra misura</l>
+          <l>De danni nostri, et de’ patiti affanni:</l>
+          <l>E al fine al nostro Re s'offerse amico,</l>
+          <l>Quanto esser più si possa con gli effetti</l>
+          <l>Ad huomo di valor, et di consiglio</l>
+          <l>Cui rispose egli in guisa accorta, e saggia,</l>
+          <l>Che commosse entro a i petti ogni dura alma</l>
+          <l>Et di sua mano, al fin de le parole,</l>
+          <l>Al successor porse l'aurato scettro:</l>
+          <l>Et, parendogli a l'hora e loco, e tempo</l>
+          <l>D'essequir il divin fatal responso,</l>
+          <l>Secondo, che tra lor s'era ordinato,</l>
+          <l>Si fa venir Iti fedel davanti</l>
+          <l>Con molti ornati fregi a fin disposti,</l>
+          <l>Ch'ei s’appressasse al Re senza sospette</l>
+          <l>Et di lor fesse lui cortese dono.</l>
+          <l>Glieli pose Iti di sua mano a piedi:</l>
+          <l>Et qui pieno d'ardir: gridando: prendi,</l>
+          <l>O cara patria mia quel, ch'io ti debbo:</l>
+          <l>Appoggiò la man manca a l'aureo seggio,</l>
+          <l>Per poter meglio poi cadendo sovra,</l>
+          <l>Tingerlo del suo sangue; et con la destra</l>
+          <l>Trasse un pugnal, ch'a questo ufficio ascoso</l>
+          <l>Portato havea con diligenza molta;</l>
+          <l>Ma non successe al suo pensier l'effetto:</l>
+          <l>Anzi fù questa degli affanni nostri</l>
+          <l>L'origine prima, et in che guisa, odite,</l>
+          <l>Mentre Iti alzava, per ferirsi, il ferro,</l>
+          <l>I custodi del Re; credendo certo,</l>
+          <l>Che costui dar volesse al lor Re morte;</l>
+          <l> Il colpo gl'impedir; tenendo il braccio.</l>
+          <l>Pria che segnasse, ove a ferir scendea.</l>
+          <l>A questo atto, per subita paura,</l>
+          <l>Trattosi a dietro il barbaro crudele.</l>
+          <l>Impallidì, poi d'ira accese il volto.</l>
+          <l>Fra tanto; come il mar per Borea, o d'Austro;</l>
+          <l>Si mosse a gran rumor tutto quel campo</l>
+          <l>Del pauroso suo Duce in aiuto;</l>
+          <l>Il qual, per così strano incontro mosso</l>
+          <l>Dal sospetto, ch'ai Re sta sempre e canto,</l>
+          <l>Contra ragione, e ‘l vero a creder hebbe,</l>
+          <l>C’havesse il nostro Re tentato contra</l>
+          <l>La sua fede, per man d'Iti innocente,</l>
+          <l>Quando meno devea, di darli morte.</l>
+          <l>Et qui, fellon, senza sentir difesa</l>
+          <l>Salendo in piè, con formidabil voce</l>
+          <l>Impose a' suoi, che ci legasser tutti:</l>
+          <l>Il che tosto essequir ministri audaci,</l>
+          <l>Senza contesa haver: che ci levaro</l>
+          <l>L'arme a l'entrar di quell'infame albergo:</l>
+          <l>E a un cenno di quell'empio, e duro Armeno,</l>
+          <l>Con quel furor, che ‘l foco d'un leggiero</l>
+          <l>Vento portato a le mature spiche</l>
+          <l>S'aventa, et fanne in un momento incendio</l>
+          <l>Assaliro i nemici d'ogn'intorno</l>
+          <l>La nostra Squadra, e ne fer strage horrenda</l>
+          <l>In aspetto sì fier, che devea il cielo</l>
+          <l>Coprir, per la pietà, d'oscuro il volto.</l>
+          <l>Indi, col Re gli habitator di Cipri</l>
+          <l>Custoditi in disparte, ad uno ad uno</l>
+          <l>I capi de l'essercito condotti</l>
+          <l>Fuori del padiglion, fè crudelmente</l>
+          <l>Cader, da mille colpi ancisi, a terra.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Dunque fu vana la celeste voce</l>
+          <l>Dal Sacerdote udita, che per morto</l>
+          <l>D'Iti ne forgeria la libertate?</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Quei, che l'intrepretar, vana la fero:</l>
+          <l>Perché; come l'aruspice; ma tardi</l>
+          <l>S'accorse d'una vittima a le vene;</l>
+          <l>Egli non s'intendea, ch'Iti tentasse</l>
+          <l>Come fece, di dar morte a se stesso,</l>
+          <l>Ma al Re nemico: a che se s'attendea</l>
+          <l>Il responso divin non venia meno.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O folto ingegno human, come spesso erri.</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Poscia movendo un huom malvagio verso</l>
+          <l>Il miser Re, che d'hora in hora ardito</l>
+          <l>Aspettava il morir, feroce il trasse</l>
+          <l>Nela piazza dinanzi a le rie tende:</l>
+          <l>Et egli a l’hor volte al nemico queste</l>
+          <l>Voci mandò dal cor tra morte, e vita.</l>
+          <l>Poi che sì crudel Re sei, che l'orecchie</l>
+          <l>Chiudi a giusta diffesa, anzi non vuoi,</l>
+          <l>Che l'innocenza altrui pur ti si mostri,</l>
+          <l>Onde negar non val quel, che m'è apposto;</l>
+          <l>Non vò, ch'innanzi a te punto mi giovi</l>
+          <l>Prego, o sospir: ch’a l' un non può piegarsi</l>
+          <l>Il core, er l'altro vil femina lascio.</l>
+          <l>Bastimi sol, ch'io non t'offesi, e meno</l>
+          <l>Tentai di farlo; e sallo il cielo, e Dio</l>
+          <l>Dinanzi a cui de l'ingiustitia appello.</l>
+          <l>Io ti pregherò ben, che qui finisca</l>
+          <l>L'ira tua sovra me, sì che ne resti</l>
+          <l>Libera l'infelice mia consorte,</l>
+          <l>E ‘l fanciul, che dal collo ancor le pende:</l>
+          <l>Ch'incrudelir contra tal gente ad huomo</l>
+          <l>Non conviensi, ea Re meno. Questi ancora</l>
+          <l>E i cittadini a lui mostro col cenno,</l>
+          <l>Scioglier devresti, e trar di mano a Morte:</l>
+          <l>Perché a temer te lor novo Re ogni uno</l>
+          <l>Impari prima da l'amor reale,</l>
+          <l>Che da l’odio, da l'ira, e da lo sdegno</l>
+          <l>E ti rimembri hor, che se’ tanto asceso,</l>
+          <l>Che siedi in cima a una volubil ruota</l>
+          <l>Et che gli Dei n'han sovra te l Impero.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Che rispose il Tiranno a queste voci?</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Chiamo il Re nostro traditore, et disse,</l>
+          <l>Che di vendetta mai non fora stanco.</l>
+          <l>E immantinente un de’ ministri atroci</l>
+          <l>Fece col nudo spaventevol ferro</l>
+          <l>Sembiante di voler tagliarli il capo:</l>
+          <l>Et ei ben quattro volte al mortal colpo,</l>
+          <l>Senza terror di Morte, il collo offerse:</l>
+          <l>Ma, perché quel martir quanto più lungo</l>
+          <l>Tanto fosse più acerbo; il Re crudele</l>
+          <l>Non gli lasciò finir e vita, e stenti:</l>
+          <l>Angi al hor cominciando a tormentarlo</l>
+          <l>Fece da quella venerabil testa</l>
+          <l>Degna di raggi, et di celeste honore,</l>
+          <l>Troncar le nari, e l'una, e l'altra orecchia,</l>
+          <l>Et così fatto de le genti scherno,</l>
+          <l>Quel Re, che dianzi il mondo in pregio tenne,</l>
+          <l>Fece veder tutto il campo Armeno.</l>
+          <l>D’indi il meschin tutto di sangue asperso,</l>
+          <l>Che dal capo stillava, ricondotto</l>
+          <l>Al padiglion di tutti i fatti enormi</l>
+          <l>Testimonio, volendo il fier nemico</l>
+          <l>Di novo crucio al fin darli pur morte:</l>
+          <l>O non più udito scempio, o rio tormento:</l>
+          <l>Deh fosse a l'empio autor di tal martiro</l>
+          <l>Fatto quel; ch'al crudel Perillo avenne:</l>
+          <l>Lo fè spogliar ignudo, et legar stretto</l>
+          <l>Ad una grossa antenna, che s'ergea</l>
+          <l>Da terra: innanzi al suo inhuman cospetto</l>
+          <l>Da un carnefice. crudo a poco a poco</l>
+          <l>Scorticar vivo, dai capelli in fino</l>
+          <l>A le piante de’ pie le vene, e i nervi</l>
+          <l>Discoprendo, et de l'ossa anco gran parte</l>
+          <l>Nel miser corpo; mentre il rio ministro.</l>
+          <l>Al tirar de la pelle iva stracciando</l>
+          <l>La carne, che versava intorno il sangue</l>
+          <l>Non a stille, ma a rivi, a fonti, a fiumi,</l>
+          <l>In così horribil vista, che ne ‘l puote</l>
+          <l>Lingua humana esplicar, ne capir mente,</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Ohimé, come potea, meschin, soffrirlo?</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Lo soffria con un cor sì saldo, et forte.</l>
+          <l>Che ne le pene; che duraro, mentre</l>
+          <l>Il carnefice crudo l'opra adempie,</l>
+          <l>Due hore, et più; mai non s'udio del petto</l>
+          <l>Parola uscir, che ‘n lui viltà mostrasse;</l>
+          <l>Ma sol vivi, et ardenti preghi a i Dei,</l>
+          <l>Che de lo spirto suo prendesser cura.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Ben de’ tanta costanza aprirli il cielo.</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>La morte, bench'a l'hor fosse vicina,</l>
+          <l>Non haveva però levati i sensi,</l>
+          <l>Ne ‘l duol gli spirti a l'infelice oppressi</l>
+          <l>A fatto ancor; quando a la sua presenza</l>
+          <l>Fu menate il figliuol tremante, e lasso;</l>
+          <l>Il qual, vedendo la spietata stampa</l>
+          <l>In quelle lacerate membra, benché</l>
+          <l>Difficilmente lui poteo perpadre</l>
+          <l>Conoscer, tremò, misero, d'horrore.</l>
+          <l>Ohimé, che mi s'aggiaccia entro a le vene</l>
+          <l>Il sangue, et vien la voce men, pensando</l>
+          <l>Come aggiunsero nove, et via più acerbe</l>
+          <l>Pene, il figliuol mostrando, al meschin padre,</l>
+          <l>Che ‘l riconobbe, e ben mirollo in volto.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Ohimé, misero padre, come, come</l>
+          <l>Si mosse? non fini la vita a l hora,</l>
+          <l>Vedendo in preda di tai fiere il figlio?</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>L'infelice volea chinar a terra</l>
+          <l>Le ginocchia, et le man supplici in alto</l>
+          <l>Levar: ma le catene, ond'era avinto,</l>
+          <l>No 'l consentendo, al me’, che puote, verso</l>
+          <l>Lo spietato nemico alzò le luci,</l>
+          <l>Et la sanguigna bocca in guisa aprio</l>
+          <l>D'un, che chiede merce: ma il gran cordoglio</l>
+          <l>El vigor, che ‘n lui già venia mancando,</l>
+          <l>L'impedir sì che non formò parola.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Non divenne il crudel pietoso a l'hora?</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>A questo atto il Tiran volse la fronte</l>
+          <l>Per non si render al paterno affetto.</l>
+          <l>Et; qual serpe da pie calcato, e oppresso</l>
+          <l>Via più fatto crudel, immantinente,</l>
+          <l>Dinanzi agli occhi del dolente padre,</l>
+          <l>Con un grave coltello ambe le mani</l>
+          <l>Fece troncar al figlio, et quelle offerse</l>
+          <l>Al padre in don con tai parole. Prendi</l>
+          <l>Prendi, cortese Re, quello che posso</l>
+          <l>Darti, per guiderdon del caro dono,</l>
+          <l>Che desiasti farmi. Ohimè, che sento.</l>
+          <l>Invisibile man stringerm il core,</l>
+          <l>S'io penso a quel, che segue sono certo</l>
+          <l>Ch'io non potrò narrarlo interamente</l>
+          <l>Assai vi sia saper, ch'ambo moriro.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Anzi vi prego a non ne lasciar parte,</l>
+          <l>Che ne la mente mia ben non s'imprima:</l>
+          <l>Perché vorrei poter morir di duolo</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Lascierò pensar voi come rimase</l>
+          <l>Il miserrimo padre a l'atto fiero,</l>
+          <l>Et dirò sol, ch'un empio, e duro Armeno</l>
+          <l>Tosto prende ne l'uno, e l'altro piede</l>
+          <l>Il fanciul; che gridava in suon si pio,</l>
+          <l>Ch’indotto havrebbe un Aspe a farsi humamo</l>
+          <l>Indi con ambo lesueforcebraccia</l>
+          <l>Lo leva in alto, e intorno un pezzo volto,</l>
+          <l>Lo percote ad un sasso una, et un'altra</l>
+          <l>Volta per fin, che ‘l capo, et l'altre membra</l>
+          <l>Tenere andaro, lacerate e sparse</l>
+          <l>Restando de le viscere, et del sangue</l>
+          <l>La dura pietra horribilmente tinta.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O ciel, come hai sofferta opra si cruda.</l>
+        </sp>
+        <sp who="#messo">
+          <speaker>MESSO.</speaker>
+          <l>Et al hora del padre la beata</l>
+          <l>Alma partì da quelle membra afflitte,</l>
+          <l>Piangendo per pietà di sì crudo atto</l>
+          <l>Non gli occhi humain pur ma i sassi alpestri.</l>
+          <l>Sol d'ogni duro Scoglio il Re più duro</l>
+          <l>Immobil stava: anzi non satio ancora</l>
+          <l>Di crudeltà, e di sdegno, gli orsi istessi</l>
+          <l>Di ferita, vincendo, da quel corpo</l>
+          <l>Levar fè il capo: e impose, che la pelle</l>
+          <l>Al suo iniquo trionfo si serbasse.</l>
+          <l>E al fin di questa abhominevol opra</l>
+          <l>Noi tutti habitatori de la Terra;</l>
+          <l>A cui fora il morir col Re più grato;</l>
+          <l>Sciolti da slacci, et dal terror di Morte,</l>
+          <l>Ripose in questa libertate acerba,</l>
+          <l>Eccetto ilpovero Iti, che rimase</l>
+          <l>Ne’ tormenti tra duo rabbiati cani,</l>
+          <l>Che li mordean la carne a brano a brano.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O Reina infelice,</l>
+          <l>Come pungente, et grave</l>
+          <l>Dove essere il dolor; che vi trafigge,</l>
+          <l>S'udita havete ancor questa novella,</l>
+          <l>Che pur deete homai haverla udita.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO</speaker><stage> diviso in due parti</stage>
+            <l>Ohimé, che mal si fugge</l>
+          <l>Quel, ch'ordinato ha il cielo:</l>
+          <l>Et quello, c’ha a venir mal si conosce:</l>
+          <l>Incerto è ‘l fin de miseri mortali.</l>
+          <l>Iti che far si volle a i Dei simile.</l>
+          <l>Dannò forse il Divin concilio a morte:</l>
+          <l>Ma non furo i demerti de! Re nostro</l>
+          <l>Che devesser condurlo a tal supplicio</l>
+          <l>Et, forse, che Giunon serba ancor l'ira</l>
+          <l>Contra Venere nostra, et la lor guerra</l>
+          <l>A noi sarà di pena, et di tormento</l>
+          <l>Et s'ei patisce a torto,</l>
+          <l>Lo permettono i Dei: perché si creda</l>
+          <l>Da gli humani intelletti,</l>
+          <l>Che, morendo, si nasce a un'altra vita,</l>
+          <l>Ove questo infelice al mondo, tanto</l>
+          <l>Riceverà de le giuste opre sue</l>
+          <l>La devuta mercede:</l>
+          <l>Poi che ‘l concilio eterno have ordinato</l>
+          <l>Che non sia bene alcun senza il suo pregio;</l>
+          <l>Nè mal senza la pena.</l>
+          <l>Prendi partito, o misera Reina:</l>
+          <l>Ch'io veggo ancora a te l'insidie tese.</l>
+          <l>O Giove eterno, o cieli, o stelle, o fato,</l>
+          <l>Difendete da ogni atto indegno tanta</l>
+          <l>Beltà, tanta honestà, ch'alberga in lei</l>
+          <l>Et che sarà di noi,</l>
+          <l>Sventurate Donzelle?</l>
+          <l>Qual pietà sia vederne,</l>
+          <l>Fuggendo le nemiche</l>
+          <l>Mani, abbracciar gli altari,</l>
+          <l>O ricovrarsi in seno</l>
+          <l>A le madri dolenti?</l>
+          <l>Qual pietà sia, più assai fatte infelici,</l>
+          <l>Vederne sveller poi da le lor braccia;</l>
+          <l>Che rimarran, meschine,</l>
+          <l>Qual Rosignolo che sovra</l>
+          <l>L'abbandonato nido piange i figli</l>
+          <l>Preda d'augel rapace?</l>
+          <l>O che notte funesta,</l>
+          <l>Ohimé: per che non mi spezza il core?</l>
+          <l>Deh perché non si può morir di duol?</l>
+          <l>Volgiamoci, cantando, a quella Dea,</l>
+          <l>Che l'altre di bellezza, et gratia avanza</l>
+          <l>A quella c'hebbe ogn hor cura di Cipri:</l>
+          <l>Onde mercè s’impetri ai danni nostri.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Venere sacra et alma</l>
+          <l>Che non men di pietate,</l>
+          <l>che di vera beltate:</l>
+          <l>Fra tutte l'altre Dee porti la palma:</l>
+          <l>Diva, ch'al mundo puoi</l>
+          <l>Ciò, ch'i desiri tuoi</l>
+          <l>Forman ne l'alta idea</l>
+          <l>Poi che co lacci, et co dorati strali;</l>
+          <l>Che tu, possente Dea,</l>
+          <l>Porgi al cieco fanciul; non pur mortali</l>
+          <l>Impiaghi, et prendi, ma celesti cori</l>
+          <l>In mille dolci amori:</l>
+          <l>Cara fiamma del cielo,</l>
+          <l>Et di felice effetto</l>
+          <l>Sempre verace aspetto;</l>
+          <l>Che con ardente, et amoroso zelo</l>
+          <l>Serbi nel ciel la gioia;</l>
+          <l>Tempri l'acerba noia</l>
+          <l>Degl'infausti pianeti;</l>
+          <l>I discordi voler degli elementi</l>
+          <l>Rendi placati, et queti;</l>
+          <l>Sola contente fai l'humane menti:</l>
+          <l>Ch'altro non han diletto, od hebber mai</l>
+          <l>De quel, che tu lor dai:</l>
+          <l>Di pietà accesa, o d'ira</l>
+          <l>Le tue luci divine</l>
+          <l>A le nostre rovine</l>
+          <l>Volgi, prego: dal ciel mira, et rimira</l>
+          <l>A che doglioso segno</l>
+          <l>Giunto è il tuo caro regno,</l>
+          <l>Et l infelice sangue</l>
+          <l>Regal: mira ove sia de le tue serve</l>
+          <l>Riposto il cor, che langue;</l>
+          <l>Et; s'amor dentro al bel petto ancor ferve,</l>
+          <l>Se del ben nostro, o del tuo honor ti cale;</l>
+          <l>Sana il colpo mortale.</l>
+          <l>Perché chi più mai fia</l>
+          <l>Che porga i preghi intensi,</l>
+          <l>Et gli odorati incensi ,</l>
+          <l>Al tuo Nume? Et chi più terrà, che sia</l>
+          <l>La tua potenza eterna,</l>
+          <l>Se con la man superna</l>
+          <l>In così grave duolo</l>
+          <l>Non soccorri al diletto almo paese,</l>
+          <l>Al tuo gradito suolo:</l>
+          <l>One fur sempre a riverirti accese</l>
+          <l>Nostre voglie: ove il tuo regal soggiorno</l>
+          <l>Si serbò ogn'hor più adorno?</l>
+          <l>Perché l'ira del ciel si cangi in pace,</l>
+          <l>E ‘l nostro ben s'eterni,</l>
+          <l>Diva, appresar convien tue luci Sante</l>
+          <l>Al padre, et a l'amante:</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>ATTO QUINTO.</head>
+        <stage>IRENE, CHORO.</stage>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Dove mi guidi, o duol, dove mi guidi?</l>
+          <l>A ciascun passo Morte</l>
+          <l>Mi si fa incontro: in ogni loco, dove</l>
+          <l>Mi volgo, veder parmi</l>
+          <l>Il lacerato corpo</l>
+          <l>Del mio caro consorte: et se l'affanno,</l>
+          <l>Gli occhi tal’hor mi vela,</l>
+          <l>Il duol presto mi stampa entro a la mente.</l>
+          <l>Le pargolette membra del fanciullo,</l>
+          <l>Le mie misere carni,</l>
+          <l>Ohimé sì duramente guaste: et l'aura</l>
+          <l>Da ogni parte agli orecchi</l>
+          <l>Risonar fammi il miserabil pianto</l>
+          <l>Che devea sparger il mio caro figlio</l>
+          <l>Tra gente sconosciutta,</l>
+          <l>Tra tanti ca[n]i. ohimé</l>
+          <l>Figliuolo ohimé marito,</l>
+          <l>Siete pur morti et io rimasa sola</l>
+          <l>Vedova sconsolata in tanti affanni.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Reina, il Re nemico a mano a mano</l>
+          <l>Sarà dentro a le mura:</l>
+          <l>Ite a salvarvi in più sicura parte.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ove farà sicuro</l>
+          <l>Salvar, se non sotterra,</l>
+          <l>Questa mia fragil spoglia,</l>
+          <l>Ponendo fin con Morte a tante offese?</l>
+          <l>Deh non foss'io mai nata, o come prima</l>
+          <l>Apersi gli occhi in questo mondo ingrato,</l>
+          <l>Morta foss'io, per non veder già mai</l>
+          <l>Per me sì horribil notte.</l>
+          <l>O marito, o figliuolo,</l>
+          <l>Come mi siete indegnamente tolti.</l>
+          <l>Ahi barbaro crudel, fiera rapace;</l>
+          <l>Come esser può, che ‘n human petto alberghi</l>
+          <l>Si cruda voglia? ohimé, dove imparasti</l>
+          <l>Le non più udite vie.</l>
+          <l>Fiero d'incrudelir contra il mio sangue?</l>
+          <l>Terra, come hai sofferta opra sì iniqua</l>
+          <l>Sovra te, senza aprirti, e immerger dentre</l>
+          <l>Al profondo infernal sì rio Tiranno?</l>
+          <l>Al come giù dal cielo, eterno Giove,</l>
+          <l>Puoi senza gran pietà, senza desio</l>
+          <l>Di vendetta mirar me poverella</l>
+          <l>Smarrita agnella, et l’empio, duro stratio,</l>
+          <l>Che fa de’ miei così vorace fiera?</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Scortò hò qualche dolor del languir vostro</l>
+          <l>Fin ne raggi del Sol; ch’ınnanzi tempo.</l>
+          <l>Parve asconder in mar l'aurato carro;</l>
+          <l>Et ne la Luna, et ne le stelle fisse,</l>
+          <l>Et erranti: che, benché homai s'annotti:</l>
+          <l>Non si veggono ancor comparse in cielo;</l>
+          <l>Et, se pur son comparse, almen pietose.</l>
+          <l>Tengon chiusa la luce entro la nebbia;</l>
+          <l>C’hor cinge l'aria intorno.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Gite homai, sventurati</l>
+          <l>Spirti, a dolervi innanzi agli alti Dei</l>
+          <l>Del vostro sparso sangue;</l>
+          <l>Ch'anch'io verrò con voi,</l>
+          <l>Facendo via col ferro a la trista alma,</l>
+          <l>Per vindice ottener al men l'Inferno,</l>
+          <l>Se non si potrà il cielo.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Temo, che non s'uccida, o dura sorte.</l>
+          <l>Deh non per Dio, Reina;</l>
+          <l>Perché darsi la morte</l>
+          <l>Non conviene ad alcuno:</l>
+          <l>Ma bisogna aspettare,</l>
+          <l>Che la destini il cielo.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Anzi è ‘l morir lodato</l>
+          <l>Quando si more per uscir di doglia:</l>
+          <l>Et la Morte a quell'hora è un don di Dio.</l>
+          <l>O che bella cagione hora mi spinge</l>
+          <l>Da questa a l'altra riva.</l>
+          <l>Sarei di lume, et di consiglio priva,</l>
+          <l>S'hor, differendo il viver mio, perdessi</l>
+          <l>La fida scorta del marito, et figlio</l>
+          <l>A i paesi de l'altra vita ignoti:</l>
+          <l>Et disleal, Et cruda</l>
+          <l>Sarei contra me stessa,</l>
+          <l>S'io aspettasi a la cara libertate,</l>
+          <l>Et al mio honore oltraggio:</l>
+          <l>Ch'altro non può, venir dal fiero Armeno.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Riponete, Reina la speranza</l>
+          <l>In più sicuro loco.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Questa è l'unica speme a lo mio scampo.</l>
+          <l>Quel, che non teme Morte, ha sempre aperta</l>
+          <l>Via da fuggir, s'ei vuol, la servitute,</l>
+          <l>E ogni altra indignità, ch'offenda il core.</l>
+        </sp>
+        <stage>NUTRICE, IRENE,</stage>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Che fià, Signora, quel che dir vi sento?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Dico, che ‘l duolo m’avvicina a Morte,</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>S'è ver, Reina,che di duol si muoia;</l>
+          <l>Verrà con voi questa mio spirto ancora</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Serbati in vita pur, Nutrice cara:</l>
+          <l>E sforzati se puoi,</l>
+          <l>Ritornar a la nostra Patria, donde</l>
+          <l>Partimmo insieme con miglior fortuna.</l>
+          <l>Hora si volge il decimo anno: Et ivi</l>
+          <l>Farai palese a la mia dolce madre,</l>
+          <l>Et al fratello il misero mio fine;</l>
+          <l>Et can la tua prudenza</l>
+          <l>Darai conforto a la dolente vecchia:</l>
+          <l>Che certa son, che col vederti, e udirti</l>
+          <l>Parlar dime sua sventurata figlia,</l>
+          <l>Sentirassi levar del duolo assai.</l>
+          <l>O madre cara, o madre</l>
+          <l>Potess'io almen vedervi una sol volta,</l>
+          <l>O che nova crude per voi sia questa</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Troppo, Reina, fate</l>
+          <l>Il morir vostre certa:</l>
+          <l>O che rimanerete in vita meco,</l>
+          <l>Od io con voi morrommi,</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>È ben ragion, che mi conduca a Morte</l>
+          <l>Il mio presente affanno, et la temenza</l>
+          <l>Del traditor; cui la cittade aspetta;</l>
+          <l>Da la cui spada agevolmente fia,</l>
+          <l>Che tu n escampi: poi che ‘l suo furore;</l>
+          <l>Per quel, che mirar lice; non si stende,</l>
+          <l>Se non contra il mio sangue,</l>
+          <l>E i poveri soldati:</l>
+          <l>Et la tua crespa fronte, o 'l bianco crine</l>
+          <l>Ti ponno assicurar d'ogni altra offesa.</l>
+          <l>Se ti succederà poscia. ch'impetri</l>
+          <l>A’ miseri sepolcro,</l>
+          <l>Farai un atto degno,</l>
+          <l>Nutrice mia, de la tua tanta fede.</l>
+        </sp>
+        <stage>SOLDATI ARMENI, IRENE, NUTRICE, CHORO.</stage>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>IL Re, Donna, vi manda in questo vaso.</l>
+          <l>Il più gradito don, che far vi possa.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Che può, che grato sia, farmi colui:</l>
+          <l>Ch'ogni gioia m'ha volta in doglia, e ’n pianto?</l>
+          <l>Come può mai farmi l'amaro dolce,</l>
+          <l>S'ei non mi manda Morte?</l>
+          <l>Che sola e ‘l fin de le miserie humane?</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Non vi manda il Signor nostro la morte:</l>
+          <l>Ch'uccider non si vol Donna sì bella.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Dunque tornate a dietro: che da lui</l>
+          <l>Non son per accettar altro presente.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Prendetel, poi ch’è de le cose vostre.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Che esser potrebbe mai quivi del mio.</l>
+          <l>Temo il lor Re crudele, e i doni suoi.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Fate oltraggio a voi stessa, et non a lui,</l>
+          <l>Tardando tanto a contentarla vista</l>
+          <l>Di cosa, che vi fu già tanto cara</l>
+          <l>Levate il velo homai per voi medesma.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Mi trema il cor: La man non può appressarsi.</l>
+        </sp>
+        <sp who="#soldati_armeni">
+          <speaker>SOLDATI ARMENI.</speaker>
+          <l>Leverol io: poi che temete tanto.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ohimé, ohimé, che cosa è quel, ch'io veggo.</l>
+          <l>S.A.</l>
+          <l>Questa è la testa del consorte vostro:</l>
+          <l>Queste sono le man poi del figliolo.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Ohimé, ohimé, meschina.</l>
+        </sp>
+        <stage>NUTRICE, IRENE, CHORO.</stage>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>O che spettacol fiero</l>
+          <l>Che spaventoso aspetto.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>O da che crudel huom, che crudel dono.</l>
+          <l>O caro capo, o mani:</l>
+          <l>O consorte, o figliolo;</l>
+          <l>O infelice me, quali vi miro,</l>
+          <l>Non feriti di sdegno,</l>
+          <l>Che da lumi in petto avampi,</l>
+          <l>Ma sbranati da fiere.</l>
+          <l>O troppo crudo Armeno,</l>
+          <l>Non fu vero il sospetto, che ‘l Re nostro</l>
+          <l>Sotto la fè t’havesse orditi inganni.</l>
+          <l>Ma, se par la credesti,</l>
+          <l>Non ti devea bastar occider lui?</l>
+          <l>Che colpa n’hebbe mai questo fanciullo,</l>
+          <l>Ond’havesse a patir sì acerba morte!</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Quando fu al mondo mai</l>
+          <l>Più lagrimevol caso?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Qual pria, lassa, di noi</l>
+          <l>O marito, e figliuol, piagner debb'io?</l>
+          <l>Se ben tanti sospiri,</l>
+          <l>Tante lagrime mai</l>
+          <l>Non mi potran dal core</l>
+          <l>Uscir; ch'a un sol dolore</l>
+          <l>De i duo sieno assai.</l>
+          <l>O man beate, o figlio</l>
+          <l>Dolce conforto mio</l>
+          <l>Tal dunque torni a riveder la madre?</l>
+          <l>È ben fallace il mondo,</l>
+          <l>Vane ben le speranze.</l>
+          <l>Io mi credeva in giorno,</l>
+          <l>O man, vedervi ornate</l>
+          <l>Di regal scettro, et gravi</l>
+          <l>D'un ricco fren; che l'oriente tutto</l>
+          <l>Reggesse a i desir vostri:</l>
+          <l>Et hora, o empio cielo,</l>
+          <l>Mi convien mirar voi lacere, e sparse</l>
+          <l>Del vostro puro sangue.</l>
+          <l>lo sperava meschina,</l>
+          <l>Ch'a la mia fragil vita,</l>
+          <l>Negli anni de l'eta matura, et grave</l>
+          <l>In voi fosse al sostegno,</l>
+          <l>Et, vedendovi hor giunte a sì rea Sorte,</l>
+          <l>Da voi vien la mia morte.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Chi potria mai tenere</l>
+          <l>In tanto duolo il pianto?</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>E tu sacrata testa,</l>
+          <l>Sola, et feconda cella</l>
+          <l>Di consiglio, et d'honor, qual mi ti mostri?</l>
+          <l>Maledetto colui,</l>
+          <l>Che tal mi fa vederti:</l>
+          <l>Ohimé che più non hai</l>
+          <l>Alcun sembiante humano:</l>
+          <l>Et io cruda ti miro,</l>
+          <l>Et viva ancor respiro?</l>
+          <l>Ove sono l'orecchie,</l>
+          <l>Ove le nari, et I altre</l>
+          <l>Parti, che ti rendean capo sì adorno:</l>
+          <l>O diletto Marito,</l>
+          <l>Spirto di queste membra,</l>
+          <l>De’ miei piè erranti guida,</l>
+          <l>Come sarà mai vero,</l>
+          <l>Ch'io ingrata al vostro amor più viva al mondo?</l>
+          <l>Sò ben, che la vostra alma, et quella insieme</l>
+          <l>Del mio dolce figliuolo</l>
+          <l>Mi van girando intorno,</l>
+          <l>Et partir non vorran senza la mia:</l>
+          <l>Et io a seguir son presta</l>
+          <l>Il mio fermo pensiero:</l>
+          <l>Dunque voi occhi miei,</l>
+          <l>Poscia, che non potete pianger tanto,</l>
+          <l>Che vada eguale al duolo il vostro pianto,</l>
+          <l>Contentatevi al men chiudervi homai,</l>
+          <l>Et più non mirar mai cosa terrena.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Cara, e dolce Reina.</l>
+          <l>Aspettate da Dio qualche conforto:</l>
+          <l>Che ‘l ciel non abbandona un giusto mai:</l>
+          <l>E ‘I Re nostro, e ‘l Fanciullo homai son fuori</l>
+          <l>Di pene, né più duol la morte loro:</l>
+          <l>Anzi felici son ne l'altra vita:</l>
+          <l>Perché l’huomo, morendo, al ben rinasce:</l>
+          <l>Et siate certa, che gli ardenti preghi;</l>
+          <l>Che spargeran per voi nel cielo tosto</l>
+          <l>Vi trarranno d'angoscia, et di periglio:</l>
+          <l>Perché le preci de’ beati spirti</l>
+          <l>Ponno l'arme di man torre a gli Dei,</l>
+          <l>Qual'hor più serve l'ira; e i fermi fati</l>
+          <l>Mutare, i cursi lor volgendo a dietro.</l>
+        </sp>
+        <sp who="#irene">
+          <speaker>IRENE.</speaker>
+          <l>Eh, Nutrice, di gratia</l>
+          <l>Non mi dar più tormento,</l>
+          <l>Et non voler ch'io sia</l>
+          <l>A la legge d'Amor rubella in guisa,</l>
+          <l>Che mi sia cara ancor la vita, dopo</l>
+          <l>La morte di color,ch'io amava tanto</l>
+          <l>Che di buon puote il ciel senza lor darmi</l>
+          <l>In questo mondo? in questo mondo; in cui</l>
+          <l>Dal materno alvo fuor si vien piangendo,</l>
+          <l>Et in cui si ritrova</l>
+          <l>Null'altro che martiri, angoscie, e morti?</l>
+          <l>Et creder voi che quell'alme beate,</l>
+          <l>Che sì cara m'havean, bramino ancora</l>
+          <l>Quà giù vedermi in tanti lacci avolta?</l>
+          <l>Anzi; se doppo morte ancor li serba</l>
+          <l>L'amor; i cari miei consorte, et figlio</l>
+          <l>Pregheran Morte, che mi meni a loro;</l>
+          <l>Et non, che qua giù i resti, e i Dei secondi</l>
+          <l>Mi rendan quel, che darmi più non ponno,</l>
+          <l>Se l'ordine del ciel non si rivolve.</l>
+          <l>Et ciò, ch’a questo mi rispondi, bramo</l>
+          <l>Udir un'altra volta: perch'intendo</l>
+          <l>Girmene hora a lavar ne l'onda pura</l>
+          <l>Questa sanguigna testa, et queste mani,</l>
+          <l>Per dar almeno lor la sepoltura;</l>
+          <l>Poi che la crudeltà del mio nemico</l>
+          <l>Havrà, misera me, l'altre lor membra</l>
+          <l>Lasciate sovra de l'ignuda terra</l>
+          <l>In preda forse, agli avoltoi, a i cani.</l>
+          <l>Intanto, perché questo empio Tiranno,</l>
+          <l>Mosso già per venir dentro la terra,</l>
+          <l>Non mi cogliesse d'improviso, desta</l>
+          <l>Qui fuor m'attende: e ‘n segno,</l>
+          <l>Che sei pronta a ubidirmi.</l>
+          <l>Lasciamiti baciar la fronte. Meco</l>
+          <l>Col [viso] ne verrai su fida serva.</l>
+        </sp>
+        <stage>NUTRICE, CHORO.</stage>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>O Reina, o Signora</l>
+          <l>Potess'io dal suo cor levare il duole,</l>
+          <l>Et riporlo entro al mio:</l>
+          <l>Potess'io il nostro Re, o al meno il figlio</l>
+          <l>Tornar in vita con la propria morte:</l>
+          <l>Che mi contenterei non una sola</l>
+          <l>Volta morir, ma mille, e mille al giorno</l>
+          <l>Che più ti resta, o fier destino? quale</l>
+          <l>Crudeltà troverai maggior più contra</l>
+          <l>Questa sì lagrimevol casa; o Giove,</l>
+          <l>Destisi la pietà d’un tanto scempia</l>
+          <l>Nel divin petto tuo; se ti cal punto .</l>
+          <l>Che crediam, che tu fia; come si dice:</l>
+          <l>In cielo, et possa, et voglia ne’ bisogni</l>
+          <l>Soccorrer a mortali; di lor curi</l>
+          <l>O vecchiezza infelice, ove sei giunta?</l>
+          <l>Hor, ch'io credea posare, et goder liete</l>
+          <l>Il bene a le fatiche mie promesso.</l>
+          <l>Un baleno, un spirar d'un vento, vario</l>
+          <l>Turbine m'ha levata ogni mia gioia</l>
+          <l>Con quella de la amala mia Reina,</l>
+          <l>Cui son rimasa sola in questa etate,</l>
+          <l>In tal necessità sostegno, e guida,</l>
+          <l>O povera Reina,  ogn'un la miri,</l>
+          <l>Ogn'un si specchi in questa sua fugace</l>
+          <l>Fortuna, ogn'un da le lusinghe infido</l>
+          <l>Del mondo fugga: nè si pensi alcuno</l>
+          <l>Di tenersi felice in questa vita,</l>
+          <l>Ne che ‘l ben duri da mattino a sera:</l>
+          <l>Anzi non si ritrova pur un solo,</l>
+          <l>Ch' unqua vedesse, standosi in un stato,</l>
+          <l>Levar, e tramontar un giorno il Sole.</l>
+          <l>Deh non fossimo almen tanto lontane</l>
+          <l>Dal nativo terren: che si potesse</l>
+          <l>Sperar qualche soccorso; o fato iniquo,</l>
+          <l>Che mi guidò tant'oltre. o dolce, o cara,</l>
+          <l>Signora mia: che devrò far di lei?</l>
+          <l>Dove scorgerla? ohimé dolente vecchia.</l>
+          <l>O quante volte misera Reina</l>
+          <l>Ti dei esser pentita dell errore,</l>
+          <l>Che facesti rompendo, la fè data</l>
+          <l>Nascosamente ne l'età tua prima</l>
+          <l>Al cavalier Roman d'esserli moglie:</l>
+          <l>Ond'egli disperato, et d'amor vinto.</l>
+          <l>Miseramente se medesmo uccise.</l>
+          <l>Ahi che se non mancavi al dato pegno</l>
+          <l>Non sareste caduta in tanti affanni.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Perché vi veggo tanto a lungo sola,</l>
+          <l>Donna, qui senza la Reina nostra?</l>
+          <l>Un vero amor dimostra</l>
+          <l>Conformi effetti ogni hora: et non si vuole</l>
+          <l>Abbandonar da noi l amato oggetto</l>
+          <l>Più, quando è sconsolato,</l>
+          <l>Che quando è in lieto stato.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Sallo il mio afflito core, et assai chiaro</l>
+          <l>Queste lagrime fanno,</l>
+          <l>Come io sia pronta ad ogni aspro tormento,</l>
+          <l>I’er ricovrar il ben de la Reina;</l>
+          <l>Senza di cui son, come nave, priva</l>
+          <l>Di governo nel mar pieno di rabbia.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Non la lasciate sola,</l>
+          <l>Misera Donna un gran dolor immola</l>
+          <l>La vita, se tal'hora</l>
+          <l>Non è chi le dia aiuto</l>
+          <l>Chiamando gli smarriti spirti al core</l>
+          <l>Con qualche grato humore.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Tanti sono i perigli, e tanti i guai</l>
+          <l>Che circondan la misera Reina,</l>
+          <l>E tutti da temere al par di morte:</l>
+          <l>Che non sò a quale ostare, et quale oppormi:</l>
+          <l>Se rimoverne voglio un, veggo un'altro</l>
+          <l>Senza riparo star sovra il suo capo:</l>
+          <l>Sì che mi manca al fine ogni speranza.</l>
+          <l>Di trarla quinci mai libera, e viva.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Faccia l eterno Re de l'universo,</l>
+          <l>Per l'infinita sua pietate almeno;</l>
+          <l>Dapoi che disperato è ogni soccorso;</l>
+          <l>Ch'ella non vada in man del suo nemico.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Anzi l'andarvi fia, forse, men male:</l>
+          <l>Perché, stanco egli homai d’usar fierezze,</l>
+          <l>Potrebbe perdonare a l'infelice:</l>
+          <l>E 'l farà, spero; perch'opra più vile</l>
+          <l>Non può venir da un huom, ch'offender Donne</l>
+          <l>Poi; quando si vedrà quel Re dinnanzi</l>
+          <l>sì bella donna, et udirà pregarsi</l>
+          <l>Da la soavità de le parole,</l>
+          <l>Ch'ella usar suol; sarà per forza vinto.</l>
+        </sp>
+        <stage>SERVA, NUTRICE, CHORO.</stage>
+        <sp who="#serva">
+          <speaker>SERVA.</speaker>
+          <l>Ohimé, Reina mia.</l>
+          <l>O pena sovra l'altre pene acerba,</l>
+          <l>O infelice casa.</l>
+          <l>O Morte, o Morte.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Ohimé, che voce e questa?</l>
+          <l>Il cor presago di maggior ruina</l>
+          <l>Incomincia a tremar, che danno è questo?</l>
+        </sp>
+        <sp who="#serva">
+          <speaker>SERVA.</speaker>
+          <l>La Reina s'è uccisa</l>
+          <l>Con le sue proprie man,</l> 
+          <l>Donne, ohimé lassa.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Ohimé, ohimé Reina,</l>
+          <l>Questo importa, questo il caro bacio.</l>
+          <l>O dolente licenza:</l>
+          <l>Et io fui mai accorta,</l>
+          <l>Che non vi feci scorta</l>
+          <l>Là dove andaste senza me. m'accorgo,</l>
+          <l>Che celarmi voleste il pensier vostro.</l>
+          <l>M'haveste almen con voi menata a Morte.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>O sventurate noi, beata lei;</l>
+          <l>Ch’uscita è fuor di tante amare pene.</l>
+        </sp>
+        <sp who="#serva">
+          <speaker>SERVA.</speaker>
+          <l>O mia strana ventura.</l>
+          <l>O quanto havrò da sospirar mai sempre</l>
+          <l>Pensando c'haerei</l>
+          <l>Impedito, Reina, il morir vostro,</l>
+          <l>S'io vi seguiva a l'hora.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>Come adunque successe</l>
+          <l>Questa sua morte acerba?</l>
+        </sp>
+        <sp who="#serva">
+          <speaker>SERVA.</speaker>
+          <l>Ella dentro al palagio</l>
+          <l>Di man mi tolse il vaso:</l>
+          <l>Et, a la mia presenza</l>
+          <l>Andata ne la sua più fida stanze,</l>
+          <l>Entro si chiuse, et io rimasi a l’uscio:</l>
+          <l>Non pensando, ch'un tanto ardir potesse</l>
+          <l>Capir in cor di Donna: e, a pena entrata</l>
+          <l>Chiamò; benché con voce</l>
+          <l>Interrotta dal pianto, et da i sospiri;</l>
+          <l>I cari nomi del marito, er figlio</l>
+          <l>E doppo queste sue meste parole;</l>
+          <l>Che m'havea punto il cor d'acuto colpo;</l>
+          <l>Fe sentirmi il rumor, ch’il suo bel corpo</l>
+          <l>Fece, cadendo a terra:</l>
+          <l>A che, vinta io d'occulta interna tema,</l>
+          <l>Ch'al hor mosse da l'alma,</l>
+          <l>Spinsi a forza la porta: et ecco, o sorte,</l>
+          <l>O miserrimo fin d'ogni mio speme;</l>
+          <l>La povera Reina</l>
+          <l>Con le sue braccia aperte in terra stesa,</l>
+          <l>Giacer col petto sovrà l'elsa dura</l>
+          <l>D'una spada, con cui s'havea trafitto</l>
+          <l>Il cor, versando un fiume</l>
+          <l>Di sangue. Ella havea il suo pallido volto</l>
+          <l>Chinato; o amor a null'altro secondo;</l>
+          <l>Presso la cara testa del marito,</l>
+          <l>Et le man del figliuol nel vaso istesso.</l>
+          <l>A questa tanto spaventevol vista</l>
+          <l>D'horror divenni, come ghiaccio, fredda,</l>
+          <l>Mi s'arricciaro i crini,</l>
+          <l>Et a gran pena i piedi infermi presso</l>
+          <l>Lei mi guidaro: dove,</l>
+          <l>Piangendo la chiamai più volte: lassa,</l>
+          <l>Ma in van: perch'era, misera, a la Morte</l>
+          <l>Troppo vicina: pur, quasi dal sonno</l>
+          <l>Al fin desta, in me volse i languidi occhi,</l>
+          <l>Et ravivò sì i quali spenti spirti,</l>
+          <l>Ch'ella mi disse in suono atto a spezzare</l>
+          <l>Il ferro, non ch'a intenerire i cori:</l>
+          <l>Rimanti in pace, a sì dogliosi accenti</l>
+          <l>Disperata mandai un grido. come</l>
+          <l>Rimarrò senza voi, Reina, in pace?</l>
+          <l>Et ella tornò a un tempo</l>
+          <l>A chiuder da se stessa le sue luci,</l>
+          <l>E in un breve sospir l'anima accolse,</l>
+          <l>Indi la rese al cielo: ond'el suo corpo,</l>
+          <l>Ch'era sì bello; ahi troppo crudo effetto</l>
+          <l>Del morir; si fè fredda immobil terra.</l>
+        </sp>
+        <sp who="#nutrice">
+          <speaker>NUTRICE.</speaker>
+          <l>O Reina mia dolce,</l>
+          <l>Ohimé, dove m'havete,</l>
+          <l>Dove m'havete, ohimé, lasciata sola?</l>
+          <l>Ma che tardo infelice ad abbracciarvi,</l>
+          <l>Et a morir con voi?</l>
+          <l>Aiutatemi, ohimé: ch'io temo, io temo</l>
+          <l>Di non poter mai giungere a la stanza,</l>
+          <l>Dove giace la misera; sì sono</l>
+          <l>Da' miei spiriti lassi</l>
+          <l>Fatti tremanti i passi.</l>
+        </sp>
+        <sp who="#choro">
+          <speaker>CHORO.</speaker>
+          <l>Chiunque vive è in doglia, e chi mor n'esce</l>
+          <l>lo meschina m'affligo: e l’Alme pure</l>
+          <l>De’ miei Signori al fin liete, e sicure</l>
+          <l>Dopo il pianto n'andranno al ciel volando?</l>
+          <l>Ove sien sempre in gioia; ove, mirando</l>
+          <l>Nel chiaro specchio de la Mente eterna</l>
+          <l>Scorgeran de’ lor stratij aspra vendetta:</l>
+          <l>Però ch'armata di mortal saetta</l>
+          <l>Contra le frodi de l humano errore,</l>
+          <l>Sta ferma in campo ogni hor l'ira superna:</l>
+          <l>E, qual'hor tarda e mover l'arme, a l hora</l>
+          <l>L'horror raddoppia col tardar del hore;</l>
+          <l>Et con forza maggior gli erranti acce[r]a.</l>
+        </sp>
+      <trailer>IL FINE.</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

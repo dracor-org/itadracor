@@ -1,0 +1,2208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ita000151" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Pantalone Bullo</title>
+        <title type="sub">overo La pusillanimità coverta</title>
+        <author>
+          <persName>
+            <forename>Giovanni</forename>
+            <surname>Bonicelli</surname>
+          </persName>
+          <idno type="wikidata">Q87067866</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca del Teatro Pregoldoniano</name>
+          <idno type="URL">https://www.usc.gal/goldoni/bancadati/34</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-NC 4.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-nc/4.0/"
+                >Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Bonicelli, Giovanni: Pantalone bullo overo La pusillanimità coverta, ed. by Maria Ghelfi. Venezia: lineadacqua, 2013.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="brighella" sex="MALE">
+            <persName>BRIGHELLA</persName>
+          </person>
+          <person xml:id="fachin" sex="MALE">
+            <persName>FACHIN</persName>
+          </person>
+          <person xml:id="rosaura" sex="FEMALE">
+            <persName>ROSAURA</persName>
+          </person>
+          <person xml:id="luganegher" sex="MALE">
+            <persName>LUGANEGHER</persName>
+          </person>
+          <person xml:id="pantalone" sex="MALE">
+            <persName>PANTALONE</persName>
+          </person>
+          <person xml:id="spinetta" sex="FEMALE">
+            <persName>SPINETTA</persName>
+          </person>
+          <person xml:id="capo_de_ballo" sex="MALE">
+            <persName>CAPO DE BALLO</persName>
+          </person>
+          <person xml:id="bettina" sex="FEMALE">
+            <persName>BETTINA</persName>
+          </person>
+          <person xml:id="madonna_laura" sex="FEMALE">
+            <persName>MADONNA LAURA</persName>
+          </person>
+          <person xml:id="bedanna" sex="MALE">
+            <persName>BEDANNA</persName>
+          </person>
+          <person xml:id="cinzio" sex="MALE">
+            <persName>CINZIO</persName>
+          </person>
+          <person xml:id="dottore" sex="MALE">
+            <persName>DOTTORE</persName>
+          </person>
+          <person xml:id="liguro" sex="MALE">
+            <persName>LIGURO</persName>
+          </person>
+          <person xml:id="gallinaro" sex="MALE">
+            <persName>GALLINARO</persName>
+          </person>
+          <person xml:id="barone" sex="MALE">
+            <persName>BARONE</persName>
+          </person>
+          <person xml:id="menacai" sex="MALE">
+            <persName>MENACAI</persName>
+          </person>
+          <person xml:id="magazenier" sex="MALE">
+            <persName>MAGAZENIER</persName>
+          </person>
+          <person xml:id="mezzetino" sex="MALE">
+            <persName>MEZZETINO</persName>
+          </person>
+          <person xml:id="varisco" sex="MALE">
+            <persName>VARISCO</persName>
+          </person>
+          <person xml:id="momoletto" sex="MALE">
+            <persName>MOMOLETTO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-10-17">(LG) first encoding and formatting.</change>
+        <change when="2023-02-07"> (LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1688">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>INTERLOCUTORI</head>
+        <castItem>PANTALONE <roleDesc>padre di Rosaura</roleDesc></castItem>
+        <castGroup>
+          <castItem>MEZZETINO</castItem>
+          <castItem>MOMOLETTO</castItem>
+          <castItem>LIGURO</castItem>
+          <castItem>VARISCO</castItem>
+          <roleDesc>soldati di Pantalone</roleDesc>
+        </castGroup>
+        <castItem>ROSAURA <roleDesc>figlia di Pantalone, amante di Cinzio</roleDesc></castItem>
+        <castItem>CINZIO <roleDesc>figlio del Dottore, amante di Rosaura</roleDesc></castItem>
+        <castItem>DOTTORE <roleDesc>padre di Cinzio</roleDesc></castItem>
+        <castItem>BRIGHELLA <roleDesc>servo di Cinzio</roleDesc></castItem>
+        <castItem>SPINETTA <roleDesc>dama di Pantalone amante</roleDesc></castItem>
+        <castItem>DUE BARONI <roleDesc>che giocano al redutto</roleDesc></castItem>
+        <castItem>UN CONTADIN <roleDesc>che vende le polastre</roleDesc></castItem>
+        <castItem>UN CESTAROL</castItem>
+        <castItem>MADONNA LAURA <roleDesc>dama di Pantalone lascivo</roleDesc></castItem>
+        <castItem>BETTINA DE’ CARAMPANE <roleDesc>dama di Mezzetino</roleDesc></castItem>
+        <castItem>CAPO DEL MAGAZEN</castItem>
+        <castItem>LUGANEGHER</castItem>
+        <castGroup>
+          <castItem>BEDANA</castItem>
+          <castItem>MENACAI</castItem>
+          <roleDesc>ebrei</roleDesc>
+        </castGroup>
+        <castItem>CAPO DE BALLO</castItem>
+        <castItem>UN FORNER</castItem>
+      </castList>
+      <set>
+        <p>La scena è in Venezia</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+      <head>ATTO PRIMO</head>
+        <div type="scene">
+          <head>SCENA I</head>
+          <stage>Dame e cavallieri che giocano alle carte in capo della scena.</stage>
+          <stage>Altra gente che giuoca per terra; Pantalone intabarato, accompagnato da Mezzetino e suoi soldati, dà una buonissima occhiata a’ giocatori e poi dice:</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Se zioga, se zioga; oh, visetti inzuccam! Mo vardé che pani d'ontosottil, mo no falli vogia? Che diséu, compare Liguro, no falle andar in aqua de viole?</p>
+          </sp>
+          <sp who="#liguro">
+            <speaker>LIGURO</speaker>
+            <p>Eh, sior Pantalon, mi no me piase veder sti panetti perché no i xe carne per i mi’ denti, ma me piase, se m’ intende sior, trucar o traversar i campi.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh, che bestia! Ti no gh’ha altro inte’l cuor ch’impenirte la panza; di’, caro compare, risegheràvistu un mezo ferro co sti zovenotti?</p>
+          </sp>
+          <sp who="#liguro">
+            <speaker>LIGURO</speaker>
+            <p>Mi, sior patron, si ghe podesse far de so nona, el risegheria po anca mi, ma ohimè, che sento che le mie scarselle fa el verso del gatto: gnaun, gnaun!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Orsù, non te dubitar, che mi metterò in tela sie bezzi, per veder se ghe podesse trucar a sti polachi un per de ferri: orsù, varda cossa che vogio far.</p>
+          </sp>
+          <stage>(Pantalone si porta al banco detti baroni e così dice)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA II</head>
+          <stage>Pantalone ed un Barone.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Zioghéu, meloni?</p>
+          </sp>
+          <sp who="#barone">
+            <speaker>BARONE</speaker>
+            <p>Sior sì che zioghemo, sior Pantalon; se ve piase anca vu metter un ponto se’ paron.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi no vogio tante ciaccolo: re a sto mezo ferro!</p>
+            <stage>(Pantalone pone in banco mezo ducato, poi dice verso il barone)</stage>
+            <p>Ah, ti ghe fa de so nona nina nana, sier fio d’una curarisi; no vogio altro, no.</p>
+            <stage>(Pantalone ritorna ad un altro banco de baroni e poi dice)</stage>
+            <p>Zioghéu forsi a descarga barile, disé, gambari da Treviso?</p>
+          </sp>
+          <sp who="#barone">
+            <speaker>BARONE</speaker>
+            <p>Nu zioghemo alla bona bassotta: se ve sentì de ziogar anca vu, fuora bezzi, che tagio.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Pian, sier muso de màmera, sier fio d’una pestapévere, mùete quel muso, sino te darò sta sgnièsola su quel bàbio! Senti, mi metto in tola i bezzi da galantomo, varda mo, no me burlar.</p>
+            <stage>(Pantalone pone in banco un scudo rasonato, poi così dice)</stage>
+            <p>Cavallo a sto gechin!</p>
+          </sp>
+          <sp who="#barone">
+            <speaker>BARONE</speaker>
+            <p>Questo l’è un scudo rasonato! Podé giusto andarlo a taccar al collo alla gatta.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Liguro, adesso 1’ è il tempo de fargliela far in cainello: ah, sier muso de tola, voléu che ve tazza andar el naso da drio la copa e le gambe in cima la testa?</p>
+          </sp>
+          <sp who="#barone">
+            <speaker>BARONE</speaker>
+            <p>Mi burlo? Sior Pantalon, se’ patron de questo e anca de altro, ma zioghé da galantomo, se volé ziogar.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Da galantomo, sier bestia? Ti gh’ha tanto ardir de dir?</p>
+            <stage>(li getta le carte nel viso e poi si porta al banco de’ cavalieri e poi senz’altro pone sopra il giuoco una liraza)</stage>
+            <p>Cavallo a un mocenigo!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III</head>
+          <stage>Cinzia incognito; Pantalone e i suoi soldati e anco Mezettino.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ah, chi v’insegna il modo di mischiarvi tra dame e cavallieri?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>È fenio el mandolato, è saltào su un citronato: se le busse dame o pedine, mi son un galantomo, e no me vegnì a romper el cào, perché, al sangue de tre lire e do soldi, ve farò andar quell’albasiazza furora de quel corpazzo, sier muso da zaletto, e fin che seme su ste piere cotte no gh’avemo paura de quelle màmere!</p>
+            <stage>(ritorna a giocar e vi pone mezo ducato sul banco)</stage>
+            <p>A nu, siori scartozzi. Re e asso a sie bezzi per banda; questo è un mezo ferro; vardé, no ghe fé de deolìn, perché no gh’ho i occi fodrài de persuto, no so se m’intendé.</p>
+          </sp>
+          <stage>(Cinzio li getta di nuovo il denaro per terra e poi dice)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Signore, io non so chi vi siate, ma mi maraviglio che non vi sete servito del primo avviso: ve l’ho detto un’altra volta che questo non è giuoco per voi, ora intendetemi, se non vi farò imparar la creanza.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Che creanza, che creanza? Della creanza ghe n’ho da dar via, sier canapiolo!</p>
+            <stage>(verso i soldati)</stage>
+            <p>Momoletto, Liguro, gué quel vostro subiotto, che vogio che ghe la sonemo. Alla prima ho tasesto, alla segonda ho fatto vista de no incurarmene, ma alla terza (se la ghe passa) el puoi ben dir che l’è nassùo do volte. Allerta omeni, metté la vita per el vostro campion. Adesso vago, e co vede che quei conti da Marocco i me faga gniente de brutto muso, sté allestì.</p>
+            <stage>(torna di nuovo al banco de’ cavalieri e li dice)</stage>
+            <p>Zioghemo, zioghemo siora maschera a qualche bel ziogo; gh’ho dei bezzi, vede siora.</p>
+            <stage>(verso della medesima)</stage>
+            <p>U me fazzo onor anca mi co veggio; digo mo, perderla qualche cessa o alla bassettina o a trionfetti o alla meneghella.</p>
+          </sp>
+          <stage>(Cinzio lo piglia per un braccio, poi li dice)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Guardate che bricone! Io non so chi mi tenga che non sfoghi cotesta destra sopra di voi; questo sol mi trattiene: che sarei stimato d’animo vile se mi cimentassi con un barone.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>A pian, sior, a pian; parléu forsi co mi? Si parie co mi vardé che ve taglerò la ose e ve darò sta seppa su quella zuca, sier muso de luna, sier mandolato grande, sier schena da legnàe! No so chi me tegna che no ve tazza batter la calcosa a Legnago. No vegnì a far el bell’umor con chi è nassùo su ste piere cotte.</p>
+          </sp>
+          <stage>(Pantalone li dà una mano nel volto)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>A me, pezzo di bullo?</p>
+          </sp>
+          <stage>(Quivi Mezettino, Liguro, Varisco e Momoletto, soldati di Pantalone, combattono contro i cavallieri e Pantalone sta sempre indietro; fuggono le dame e li soldati, assieme con Pantalone, restano vittoriosi)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA IV</head>
+          <stage>Pantalone con Mezzetino e suoi soldati doppo il combattimento restano.</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Vittoria, vittoria! Cancher siur patria, se a’ no foss stat mi a’ restévim tutt mort senz magnar più macherù ben informaiabili e imbutirabili: ma a’ me sent che 'l me ventr a’ 'l pianz, quasi dicat: «Signor Pantalone, andiamo un poco a manducare?»</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh poltron, ti tiravi delle stoccàe alle mosche per àgiere! Ma zà che i è scampai bisogna mo che andemo a cattar da magnar, perché sento che ti gh’ha fame. Oh via, tìrete da una banda, che vien un polaco: vogio vardar se podesse cavarghe un puoco de moneaza.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA V</head>
+          <stage>Vien il Dottore travagliato, Pantalone in disparte.</stage>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Una ziezolina, a’ ho zust catad chi andav a cercand; a’ ì dis ben el proverbi che chi cerca a’ i catta: mi a’ ho cercad, volt de zà, volt de là, pu al fin (lanciai el ciel) a’ ho zust calaci chi andav a cercanti. A’ ve salud, el me car sior Panz-de-limon.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi, panza de limon? Me tiolé in fallo, caro Dottor da buèi, mi son ben sior Pantalon de’ Bisognosi, el più ricco che sia in ceca, el più potente che sia in sta cittàe, el più bello che sia in sto mondo: mo varré, caro sior Dottor, che bel vi sin che gh’ho; son allesto, son gagiardo, e me piase anca mi, sior, se m’intendé, far quel che fa ogni galantuomo: mi tagio nasi, rompo brazzi, scavezzo gambe, e se ve piase un puoco provar la mia bravura lasseve dar sta baccherina de legno dolce sora el cào.</p>
+          </sp>
+          <stage>(Pantalone li mostra un grosso bastone)</stage>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Una fava, ‘na bagattella, a’ non son miga un bu o un sumàr, viddì sier Pianta-limon, a’ son venud ca per un servici, mi; a’ so che l’avrò.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Comandò pur liberamente. Voléu che ghe daga a qualchedun sta</p>
+            <p>seppa su la magnaòra, opur voléu che ghe daga una cinquantina de bastonàe su la crepa co sto baicolo?</p>
+          </sp>
+          <stage>(li fa vedere un altro pezzo di legno)</stage>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Una zizolazza! Mi a’ ho ricevutd un affront...</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Un affronto al sior Grazian? I poi ben dir colori che, co se’ vegnùo da mi, che i è morti avanti che i veda.</p>
+            <stage>(verso Mezzetino) </stage>
+            <p>Adesso è el tempo, compare Mezetin, che ghe caverne un po’ de moneaza.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <stage>(verso Pantalone) </stage>
+            <p>Fé prest, caro sior Pantalun, che a’ ho una fam che crep!</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Ah, cosa dist pultrun, che ti ha fam?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi a’ digli che a’ maglieria un piat de macherù ben infurmaiadi.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Comparilo, sior Dottor, siben che el dise così, el vuol mo dir che el beveria l’acqua de vita.</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>A’ i’ la pagherò mi, po anch che a’ son liberal e no me faz guardar dieter.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>A pian, sior Dottor, che so che se’ galantuomo, che la beveremo po anca insieme co sti mi’ compagni </p>
+            <stage>(aparte) </stage>
+            <p>oh che polacco!</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Uh, uh, uh, uh, poveret mi!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No ve spaurì, no sior, conteme pur le vostre desgrazie.</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Stamattina a’ sun andà in Pescaria per comprar del pes, ed in quel che a’ so el mercad a’ 'l vien un pez de baron e sì a’ 'l dis: mi a’ vói quel pes.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>A un Dottor incalzargli el pesce? I merita la morte!</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Quest l’è una bagattella! A’ disi pur che in quel che digli: «l’è me sto pes», lu el l’ha ciapad e sì el me l’ha pesta sul mustaz.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sul mustazo? Oh, co’ dovevi parer bon perché se’ tanto una bella riviera!</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Quest l’è podi! In quel che li sgrid el me diede un cortelaz inter utraque iura.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh, caro sior Dottor, le me despiase po ben ste desgrazie; ma certo che avanti che passa mezo dì el vogio sbudelar.</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>A’ no vogi tant mal, a’ son compassionevol; me basta sol che ghe die quater legnad per targhe far un po’ la cachina infi calzun.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Eh, no me metto in ste bagattele; co no gh’ho da voltargli la panza da drio no faremo gniente: queste le è cose da putèi e no da bravi de la mia sorte. Oh via, per contentarle, ghe darò cinquanta bastoni su la crepa; ma chi èlio mo costò, che mi no 'l cognosso?</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Quest l’è un che el prattica in bottega del salumier dal Bus, l’è un bui che porta el tabar sott el braz, l’è moro in vis, grassot come mi, co la caviadda rizzotta.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No me stè a dir altro, el cognosso. L’è un porco (co reverenda</p>
+            <p>parlando) che no 'l val un bezo, so co chi ho da far, avanti stasera vogio che el vedé a portar via in quattro.</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>A’ ringrazi anch mi el vostr affet, a’ sodisfarò po anch le mie obligazion.</p>
+          </sp>
+          <stage>(Dottor riparte e Pantalone li va dietro e poi lo trattiene)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sior Dottor, una parolina in recia: gli’è sti mi’ omini che i dise che i beveria volontiera la malvasia, accioché la ghe faza più forza, se volé che i faza el servizio come che el va fatto. Per mi no vogio gnente, vedé sior.</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <stage>(aparte) </stage>
+            <p>L’ho intes el me om.</p>
+            <stage>(ad alta voce) </stage>
+            <p>A’ no ho troppo moneda ados, ma però a’ ho cinque ducat: tolì e godéli da parte mia, ma fé almanch el servici come el va fat.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No, no sior, dégheli pur a mio compare Liguro, che de questi mi no ghe ne vogio; me basta solo che me vogié ben.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <stage>(aparte) </stage>
+            <p>Co fa el gatt all’ aiada!</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Mo no gh’è el più galantom del signor Panza-de-limon, veni zà, che a’ ve vogi dar un per de doble, acciò le godi da parte mia.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ve ringrazio, no so che dir, sior: a bon véderse, sior eccellentissimo.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA VI</head>
+          <stage>Restano Pantalone, Mezzetino e suoi soldati.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sàstu mo cosa che avemo da far, Mezetin?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A’ 'l so mi, sior.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Che cosa?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Se no me 'l desi!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh, bestiaza! Nu averne da andar a visàrghelo a custù che el sior Dottor ghe voi far dar, e lu subito el dirà: ve ringrazio del vostro aviso; de più el ne darà della maroca. Anzi ghe diremo se el vuol che ghe demo delle bastonàe al Dottor, lu dirà de sì, e nu i mincioneremo tutti do e ghe caveremo della moneaza. Ma vien qua, senti, dighe a costù, sastu, che l’è Tolereto dal pesce, quel fante nostro amigo, che ti sa che l’è veccio della nostra bottega, che el camina per sti do dì in Castello, e che mi e aminerò per Arzere a Santa Marta, che così no se catteremo certo.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Ben, sior patrù, ma mi me sent una fam che a’ crep, vorìa un po’ magnar.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <stage>(verso i suoi soldati) </stage>
+            <p>E vuàltre, canagie, avéu fame?</p>
+          </sp>
+          <sp who="#mezzetino #liguro #momoletto #varisco">
+            <speaker>TUTTI I SOLDATI</speaker>
+            <p>Nu no podemo più star così, si no andemo a magnar!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh via, Mezetin, ti ti ha da andar a tior siora Bettina; vu, compare Liguro, dorè siora Betta Potòn, e mi tiorò la priora de’ Carampane.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Chi élla mo, sior patrù?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>L’è madonna Laura, quella sguerza, ma poco importa; e quando le saré andàe a levar, andeeremo al magazen.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A qual mo, sior? Al Gàfar? O alla Calesella?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi, si ti vuol che te diga la veritàe, Nane a Castello l’è galantomo, ma quei calafài co quelle so manere, mi no vorria che catessimo da criar. Toni, in Ruga Giuffa, el gh’ha del bon vin, ma gh’è quei barcarioli dal traghetto, che i è tante bestie che per niente i catta da dir. Tita alla Crosera l’altro dì ti sa che el n’ha dà un vin che el m’ha fatto voltar le buèlle. Zanetto al Gafaro el me fa ciera, ma no ghe credo a sti gattoni. Momolo a San Polo l’è una bestia, che avemo fatto tante volte le manàtole per i pironi.</p> 
+            <p>Checo in Canareggio no 'l gh’ha vin che vaga un bezzo. S’andemo alla Luna gh’è quei conti dalla Mirandola che i me fa paura. Vustu che andemo alla Cerva? Ma, ohimè, che gh’è quei fachini da San Bortolamio co quelle so mazoche che i fa star in cervello. Mi anderia al Salvadego, ma gh’è quei spaderi che i porta sotto certi baiceli che no i me piase.</p> 
+            <p>Si andemo alla Scóa, gh’è quei fachini dalla Riva dall’Ogio che sempre i varda i fatti d’ altri. Mi andaria da Giacomo a Sant'Apostolo,. ma gh’è sempre sier Silvio che el me varda co malloccio. Si andemo alla Corona a Santa Margherita el capo è mio compare, ma no 'l sta mai a bottega, e sì el lassa che quel muso de màmera de Dorigo el faza el paron, ma mi no me piase quel so muso. Ma varda, revarda, no trovo el più galantomo, né el più magazen che gh’abbia bon vin, che mio compare Menegon ai Barri. Orsù, andé vualtri a far quel che v’ho ditto, che mi anelerò dall’Orese dal Capriccio per véder de cavarghe un po’ de moneazza, perché l’altro dì gh’ho tagiào le gambe al so nemigo. Orsù, andemo.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>E mi anelerò a tior siora Bettina e sì magnerém!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA VII</head>
+          <stage>Cinzio e Brighella.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ah, Brighella, ben m’aveggo ch’amore va bendato se mi fece invaghire d’una maschera che co suoi splendori offuscò i miei lumi. Ma come, oh numi, lasciate ch’io resti in preda del mio dolore? Nel gioco con quella dama perdei, ma non contenta essa di vincere, mi volse ancor rubbare il core. Ah, Brighella, si può ritrovare alcuno più di me sfortunato? Mentre n’ero per indagar chi fosse quella dama mascherata, ne venne un pezzo di bullo che co sue impertinenze fece fuggire il mio sole, benché coperto con nuvole di veluto.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Eh, sior Cinci, no v’affligì tant per non aver possud conuscer quella mascherina, che mi a’ 'l procurerò de saver chi l’è stada, ma a’ 'l me despiase ben de sto nego ci, che me desi, de sto bul: se a’ podissi darme almanch qualche segn, forsi che a’ rimedieria a la viltad della vostra fuga; compatim, vidi, se pari liberament.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ah, sai perché ne fugii da quel bullo? Non perché temessi di sua bravura, ma per seguir il mio bene, benché nella fuga, per mio maggior dolore, l’abbia smarrito. Di questi se desideri che ti dia contezza, questa, dico, è una persona già avanzata negli anni: incanutisse sopra il crine l’età, armato di spido nello cimento, smonto il volto, aride le membra, e quasi che trema per tante armi che seco porta, ed in vero non saprei a chi potessi meglio assimigliarlo se non ad un gambaro pe’ 'l il suo fiammeggiante colore.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Non più sior Cinci, me basta sol quest contrasigni: lu, sior, è el mazor pultrun che zappi terra, el fa un podi el brav perché el va compagna co certi banani, ma no 'l val miga un quattrin. Mi siguro, se però el ve pias, a’ 'l andrò a sfidar da sol a sol, e ghe dirò che el signur Cinci desidera de far duel, e così a’ scoprire la so codardia.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Accetto il partito. Ma più mi calle il poter sapere chi ne fosse quella maschera, che veruna già ben formata dalla natura sotto d’un volto rassembromi. Eh, caro Brighella, già so che per il passato mi fusti servo fedele, or ne farò prova maggiore della tua fedeltà: se tu mi prometti di farmi avere per isposa quella maschera io ti giuro, da cavaliere che sono, d’amarti come amico, non come servo.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>No ve sti’ miga a indubitar, sior Cinci, che farò tant che saprò: andò pur a far i fatti vostri e mi andrò a cercane! de costò per dirgh quel che a’ v' ho dett.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ricordati di me, caro Brighella, se l’alma mia non vuoi che presto pera.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA Vili</head>
+          <stage>Brighella solo.</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Oh che bell’imbroi che è quest! El me patrù ama siora Rosaura come mascherina non conosuda e po el l’abboris senza maschera: a’ 'l bisogna certo cattar qualche industria, perché el me fa compassisi, sto me patruncin.</p> 
+            <p>Anca mi co giera zovenot a’ 'l me piasiva le putàzole, ma ades el me pias più i macherù, perché debot a’ no ho più dent, ma quest podi importa. </p>
+            <p>A’ 'l bisogna che a’ vaghi da sior Pantalun e che a’ ghe dighi com el sior Cinci a’ 'l vuol combatter da corp a corp, e po’ a’ 'l bisogna che me porti dalla siora Rosaura a raccontargli l'affan del me patrù, che no a’ 'l doma né dì né nott per le so bellezze, quand che l’è mascherada, perché a’ 'l no la conòs. Ma apunt la vien fuor de l’us: a’ vogi un podi sentir qui int’un cantò quel che la dis.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IX</head>
+          <stage>Rosaura appassionata e Brighella in diparte.</stage>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>E quando mai, oh stelle, lascierete d’influire sopra di me sì maligni influssi? Quando mai, oh cielo, darai termine a’ tuoi furori per bersagliarmi? E quando mai, oh cieca dea, ti stancherai di girarne la rota a’ miei danni? Amo, qual Medea costante, Cinzio il mio bene, ed egli, qual Giasone, m’abborre; egli solo è la meta alla qual si accollerà ogni mio desiderio e pur mi fugge, egli è il foco intorno alla quale di continuo aggirasi la farfalla degl’occhi miei, lui solo è la morte che non desiste d’affliggermi. Sommergetevi pertanto in un mar di pianto, oh miei lumi, e date loco al dolore, acciò sempre mai si stempri in duri affanni.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Cos’è, siora Rosaura, perché pianzìu?</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Ah Brighella, lascia che mi sommergili ne’ pianti perché mi scorgo mal corrisposta dal tuo patrone. Egli sa pure che qual fenice mi do vanto d’arder ne’ suoi bei lumi senza punto incenerirmi.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Eh siora patruncina, impromettìm de darme qualch cos de bel, che mi a’ farò tant che el sior Cinci el sii voster spus avanti che a’ 'l passi duman.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Tu mi lusinghi, ch? Ma come, se sai pure che egli m’abborre qual più fiero mostro della Libia.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Tant'è: no occur alter se a’ voli che ve fagli el serviz co 'l va fiat, me content solament che a’ me fi’ un par d’abiti megiur de quest, che cert a’ v’impromet che el ve dagli le zattine.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Ma come, oh cieli, se egli forsi deve sapere anco che mio padre, or ch’è già avanzato negl’anni, sempre più si dà in preda d’ogni sorte di lascivie e di ribaldarie? Si può ritrovar sotto il cielo più sfortunata di me, che il genitore ancora coi suoi vizi ne sii remora alle mie contentezze?</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Avi da savìr, signura, che el sior Cinci el m’ha promes de spusarvi, non come vu, siora Rosaura, ma com mascherina non conossuda. Mi a’ farò così: a’ vi farò andar dinanz a lu mas cherada come che a’ gieri l’altra sira, che così a’ 'l se contenta de far, e si el m’ha zurad che si a’ 'l savise che la se fusse, che lu, per la parte sua, a’ 'l la turave subito per spusa.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Oh me felice: non fu altra che io che giocò seco, ma sempre il labro mio fu muto.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Vu, siora, avi dunca da far così: avi da venir medi co la maschera come v’ho dett e mi gli e dirò che so chi l’è; lu el me dirà che a’ ghe 'l diga, e mi ghe dirò che la è una bella zovenotta, ma che a’ vogio che el la spusi avanti che el la conussa; lu cert, dal grand amur, el dirà de sì, e così a’ sarò so spusa.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Oh caro Brighella, sappi che Rosaura non saprà in che modo maggiore ricompensare le sue obligazioni se non con il proprio sangue.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Orsù, andem signura, a’ no perdim tempi</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <l>Sì, sì, vengo al gioir felice sorte: </l>
+            <l>se di Cinzio non son, sarò di morte!</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA X</head>
+          <stage>Pantalone e Mezzetino.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Orsù compare Mezetin, nu averne da andar a far spesa per la putta: la m’ha ditto che ghe mandasse un bon per de capponi, che i magneremo stasera a cena, che ti vegnirà anca ti, sastu?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Anca mi, sior patrù? A’ vogio dar una manzada che a’ vogi che la serva per quater. Cancar, co se tratta de manzar: slargatevi budelle bene, acciò toto corpore impleantur; no parli mo ben latezin?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sento qua in calle della Bissa un contadin che cria: «polastre grosse, grosse!», vustu che provento si ghe le podessimo truccar? Mi andarò a far marcào e in quel che farò el prezzo ti ti me vegnerà a incalzar el pelame e ti te tignerà le polastre in man e mi te farò vista de dar, e così ti scamperà co le polastre e po’ le magneremo insieme co la putta. Scéndete, che el vien.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XI</head>
+          <stage>Pantalone e Mezzetino in disparte; si sente di dentro un gallinaro.</stage>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>Polastre grosse, polastre! Son qua a sto per, che no gh’ho altro: oh che marzadeghe! Son qua; chi le magna?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Dalle polastre!</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>A chiaméu, sior? Oh che polastre che ve tocca, a saìu che le è giusto un smalzo!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cos’è sto saìu? Che semio a Teolo, sier tocco de villan? Cosa vustu che te daga de sti do struzzi?</p>
+            <stage>(Pantalon guarda ben bene le polastre)</stage>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>Queste le è bone polastre, se v’intendi, vede, sior.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Che crédistu, che sti denti no i ghe ne traversa ogni dì, di’, pezzo de salghèr? Ma basta: èstu forsi da Campo San Piero? So che la to ciera te mostra galante mo.</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>Mi son da Campo Nogara, dove se ingrassa le coche.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Magari fùsistu anca dal Zocco o da Legnago! Dimme, èlle morte sul so letto?</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>Da vero, da Campo Nogara, che le ho mazzàe stamattina.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ti vuol dir che ti le ha viste morte stamattina, e così ti me le vorravi mo fracar adesso, n’ è vero, sier birba? Orsù, cosa vusto che te daga?</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>Mi vogio quattro lire.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Quattro lire, sier villan, de ste do celeghe?</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>Mi a’ ve le dago per polastrazze squarzadonazze.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi te vogio dar un quarto de ferro.</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>A’ no voli magnar polame, a’ saìu che l'è caro.</p>
+            <stage>(in questo mentre sopragiunge Mezzetino)</stage>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Che conscienza, trenta soldi de ste polastre! Du, tre e quatter, quattordese: le val zust un ducat. Dim, car compar, a’ vustu venderle a mi, che a’ gh’ho conscienza? Lassa mo veder...</p>
+            <stage>(a parte) </stage>
+            <p>Cancar, le è bone!</p>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <p>A’ ve le darò mi, se a’ le volli comprare.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cos’è qua, sier fio de so sàntola da Castello? Cosa vegnìu, a incalzar el pelame? No so chi me tegna che no te cazza sto cavadenti in un occio!</p>
+            <stage>(li mostra la cinquadéa)</stage>
+          </sp>
+          <sp who="#gallinaro">
+            <speaker>GALLINARO</speaker>
+            <stage>(aparte) </stage>
+            <p>Cancabarazzo! </p>
+            <stage>(ad alta voce) </stage>
+            <p>A’ saìu che l’è più galantomo de vu; lu el conosce el pelame.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Si el lo cognosse, mi le veggio, sier piegorazza, e dò, per caparra del to parlar, un po’ sta spienza sul mustazze!</p>
+          </sp>
+          <stage>(Pantalone dà una mano nel volto al galliner e poi finge di dar a Mezetino, che tiene le polastre nelle mani, ed il galliner corre dietro a Mezzetino. E così si dà termine con un finto combattimento al primo atto, tanto che l’infelice galliner perde le polastre e per non essere ucciso si contenta piutosto di metter in sicuro la sua vita che di seguitar Mezzetino per aver l'istesse polastre)</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO SECONDO</head>
+        <div type="scene">
+          <head>SCENA I</head>
+          <stage>Mezzetino con un fachin col cesto.</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Così se compra le polastre! Ma sentirne, caro fradel, che nome a’ gh’hastu?</p>
+          </sp>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>Mi ho nome Nicolò.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Nicolò, Nicolò, onorato Nicolò: dim, caro ti, chi è to pader?</p>
+          </sp>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>Cosa voléu saver vu, sior, de mio pare? Parecié pur la monéa, che mi son stuffo: mi v’ho portào el cesto, è ben de dover che me paghe.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Abbi un po’ de pazienza, caro el me Nicolò, a tant che ciami</p>
+            <p>Spinettina e che ghe 'l daga, che po te pagherò, el me caro Nicolò, Nicolò, Nicolò.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II</head>
+          <stage>Mezzetino batte alla porta di Spinetta ed essa li risponde ed il fachino resta di fuori fintanto che ritorna Mezzetino.</stage>
+          <sp who="#spinetta">
+            <speaker>SPINETTA</speaker>
+            <p>Chi batte?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Spinetta! Oh, de casa!</p>
+          </sp>
+          <sp who="#spinetta">
+            <speaker>SPINETTA</speaker>
+            <p>Chi è la bestia?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Averzi la bottega, che sior patria a’ 'l te manda el cest!</p>
+          </sp>
+          <sp who="#spinetta">
+            <speaker>SPINETTA</speaker>
+            <p>Vieni di sopra.</p>
+          </sp>
+          <stage>(Merlettino ed il fachino vanno di sopra)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA III</head>
+          <stage>Brighella solo.</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Mi a’ no so che cos a’ 'l sii che no trovo el sior Pantalon: a’ son andà al magazin e all’ostarla ed al Redut, a’ son andà in Canaregi, ma no 'l catt'in vergù loch: a’ vogio batter un po’ alla porta della so Spinetta per veder se a’ 'l ghe fus.</p>
+            <stage>(Brighella batte alla porta ma nessuno li rifonde)</stage>
+            <p>A’ 'l bisogna cert che a’ 'l sii andad a sulaz, e mi in sto tant andrò a far i fat me.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA IV</head>
+          <stage>Mezzetino e il fachino ch’escono di casa di Spinetta.</stage>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>Le ho portà mo anca de su, è ben el dover che me tratte da</p>
+            <p>galantomo come che se’: mi me merito in conscienza un marcello, ma, per esser vu, mi no vogio altro che tre gazettine.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Oh, el me car Nicolò, va’ pur a far i fatti to, el me car Nicolò, Nicolò, Nicolò!</p>
+          </sp>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>Coss’è? Mi vogio esser pagào, m’intendéu?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Dime, car fradel, chi t’ha mo manda a portar el cest?</p>
+          </sp>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>M’ha manda quel sior vestìo de rosso che giera con vu.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Vatf mo a far pagar da lu.</p>
+          </sp>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>Coss’è sto pagar da lu? Lu el m’ha dito che vu me paghe.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Ma come a’ vut che te paga se a’ no ho miga un quattri?</p>
+          </sp>
+          <sp who="#fachin">
+            <speaker>FACHIN</speaker>
+            <p>Mi no so tante istorie, mi vogio che ti me paghi, sino te tirò el fongo.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A chi, cospetton, a chi?</p>
+          </sp>
+          <stage>(quivi Mezzetino fa i pugni ben bene col fachino e dipoi va dentro vittorioso)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA V</head>
+          <stage>Magazino aperto. Magazenier e Luganegher, Pantalone accompagnato con madona Laura e seguito da Momoleto, Liguro e Varisco suoi soldati, e dipoi Mezetin con Bettina.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Bondì, capo.</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Siorìa vostra, sior Pantalon, ve gieri desmentegào vu, sior, de vegnime a cattar e de saldar anca quel conteselo dell’altro dì e mi anzi stava a dir: cos’è mai del sior Pantalon che no 'l se lassa più veder? Anzi diseva a costosi: l’avéu forsi tratta mal? Arrecordéve che l’è un galantomo de tegnirghene conto, perché da stì tempi se ne trova può chi.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Obligào del to affetto. Mi, si ti vuol che te diga la veritàe, so un puoco col cervello furora della testa, anzi son vegnùo qua con co stia per magnar un puoco e per saldar el to conto. Ma senti, dime, caro ti, gh’è Menegon a bottega e sarave per fortuna vegnùo mio compare Mezzetin?</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Sentì, sior: Menegon l’è andào a far un servizio al ponte del Meggio e adesso adesso el sarà qua; ma vostro compare Mezzetin no l’ho gniancora visto, ma ho ben sentìo a dir che, zà un tantin, l’ha fatto i pugni col cestariol che gh’ha porta el cesto, per no pagarlo.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh che bestia che è colù: mi gh’ho ben dào sie bezzi da pagarlo, ma lu s’averà piutosto contenta de tior dei pugni su la magnaòra che pagarlo, per andar po a bever una piccola. Ma senti, caro capo, zà che no l’è gnancora vegnùo, pareccia un puoco da magnar per sie, perché anca lu l’ha da vegnìr co la so strazzetta. Ma senti, gh’averàstu un puoco de zambellotto, qualcosa de roana che fusse bona, o veramente una puinetta? E si ghe fusse anca quattro sèileni, per poder béver una volta, accioché no se ingossemo. Mi vorrave spender puoco ma esser tratta ben. Orsù, pòrteme, fintanto che i pareccia, un puoco de vin da ponticiò.</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Saré servìo subito, sior Pantalon. Me maravegio ben che me domande si gh’ho del zambelloto e della puina, che xe forsi la prima volta che vegnì a sto magazen? No savéu, sior, che mi tegno de tutto? Vardé il luganegher, che el gh’ha una coraeletta bona: vardé, sior, se podé far marcào, che ve la farò cusinar subito, fintanto che ve sago parecciar. Con licenza, sior Pantalon.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Còmodete, no me far minga cerimonie.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA VI</head>
+          <stage>In questo mentre sopragiunge Mezzetino con Bettina.</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Avem da manzar, vede, siora Bettina.</p>
+          </sp>
+          <sp who="#bettina">
+            <speaker>BETTINA</speaker>
+            <p>Magnémo pur, che ho pareccià tanto de bocca.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Tanto de bocca ave parecciào, siora? Ohimèi, poveretto mi, la me magna certo anca i ossi! Ma sentirne un poco, caro sier bestiaza, dove séu stào fin adesso, che no se v’ha mai visto? Come stà i occhi, disé, caro el me fio verzene, v’ha 'l dà dei boni marobolani el cestariol? Disé, perché no l’avéu pagào quando el v’ha portà el cesto?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Bonzorno a vu, siorìa! Così a’ ho imparad dal me patrù a pagar el cestariol.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi t'insegno ste cose, sior poltron? T’insegno ben, asenazo, a sarte stimar e no a tior dei pugni su quella màmera, ma questo no m’importa gnanca tanto. Diséme, caro sier carne de cavallo, dove séu mai stào fin adesso, che no te s’ha mai visto?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi, sior, a’ son sta a metter de mez in una costin, perché a’ i’ giera cinque contra un, ou, ou, ou, ou.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Chi èlli costori, che ghe vogio tagiar i garétoli? Così se trata in sto paese, a vegnìr cinque contra uno?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Signorsì, cinque contra uno: mo che gran co-co-co-codardia!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Contente, su presto, perché certo vogio de lori far un sguazeto adesso adesso!</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi, sior, a’ ve 'l dirò, ma pianzì a fort a sentir un cas così</p>
+            <p>smacrimabile: gite giera, sior, a’ pianzì, caro sior, mo pianzì; caricar che a’ no si’ gnente comprassionevole!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mo contente el fatto, caro bestiaza, che se vorrò pianzer pianzerò.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>No voli pianzer? A’ no ve 'l dirò miga, perché propri el fa vegnìr le lagrime rosse rosse co’ fa el brod de macheroni e si a’ no 'l credi, a’ domandéghe 'l, dopo che a’ 'l avi sentì, a vostro fradel.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cosa vustu che gite domanda, si no i m’ha gniancora ditto gniente?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Ah, sior, a’ 'l gh’era —oh caso acerbo!— in piazza cinque cani che i correva deter a una chizza, e mi a’ gh’ ho cria, e po, perché no i mi ha volsud obbedir, a’ gh’ ho dad delle legnade. Cinque contra uno, puttana cagna, cinque contra uno! Mo a’ no ho mi forsi fatto ben?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh che bestiaza, mo quando mai faràstu giudizio? Orsù, mettente a monte ste frascarie: dime, caro ti, vustu che compremo quella coraeletta dal sbrodega, che la magneremo co ste putte, perché el capo el m’ha ditto che el me la cusinerà a sguazzetto?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A’ comprela pur, siur, a’ no ve lassi gabar!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No te indubitar, che no son miga polaco!</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A’ volin che mi a’ tazza el macca per vu?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>E va’ via ti, che no ti te ne intendi. Oe, sbrodega, gh’hastu gniente de bon?</p>
+          </sp>
+          <stage>(Il luganegher le mostra una coraella e poi dice)</stage>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Mi gh’ho sta coraella, oh che robba che ve tocca, sior Pantalon, se la tiolé: la è grassa che la colla, che si la magnerò ve parerà giusto da magnar un balsamo!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Chi sarave quel fio d’una solenissima che te credesse? Co sago marcào de qualche cosa mi no vogio che i me faga tante ciaccole, perché no ghe credo a ste donnette. Ma, dimme, cosa vustu che te daga, in puoche parole, de ste pelegate?</p>
+          </sp>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Mi, per esser vu, sior, ve le darò per un mocenigo, siben che i è bezzi refundài.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ti 'l tioravi, n’è vero ben mio, chi te 'l dasse? Mo vare che caro sbrodega: va’ mo a spender quei bezzi che ti ha refudào! Tioràvistu tre gazetine a tagiarmela po anca ben, siben che no la val tanto?</p>
+          </sp>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Scuséme, sior Pantalon, vegnì a burlar vu qua? Che crédeu, chegh’abbia fame opur che l’abbia robbada?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Me la vustu dar, di’, co le bone? Sino me la dorò, vè!</p>
+          </sp>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Sior no, che no ve la posso dar: la costa vinti soldi a bottega, vardé mo si ve la darò per tre gazette: me maraveggio, sior!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No? No ti me la voi dar? E mi me la tiorò!</p>
+          </sp>
+          <stage>(Pantalone sì mette la cornetta in scarsella)</stage>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Eh, caro sior, la me costa bezzi sta coraella: tiolévela per el costo!</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Eh, sior patrun, cosa fìu? A’ no vedi che la spuzza co’ fa una carogna? Avi pur i occi e sì a’ no la sentì!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Eh, ti me burli? Ti ti fa accioché ghe la daga, n’è vero? Ma no ti farà gniente. Veggio che l’impara la creanza per un’altra volta.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>No da bon, sior, che no ve burlo: da vero bergamasco, che la impesta!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Vustu che te la diga la veritàe? Che sento dalla scarsella vegnir un certo oderete che no 'l me piase...</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mo cosa a’ digli mi? Puttana cagna, oh che om accorti</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE %</speaker>
+            <stage>(verso il luganegher) </stage>
+            <p>Vien qua, muso de seppa, te vedo a pianzer: te la veggio dar; ma sentì, caro ti, mi te darò po anca vinti soldi se la sarà bona.</p>
+          </sp>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>In quanto a questo la è bellissima e giusto degna per i vostri denti.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Per i mi’ denti, sier fio d’una magnabisatì? Mi vogio saver si l’è fresca e quanto è che ti l’ha cavada furora del corpo de quella vacca.</p>
+          </sp>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Questa la è una bona coraella de manzo e no de vacca: mi no ghe ne dogo de vacca, che no vogio andar miga in Gallilea. Vede, sior, questa la è fresca da stamattina, che la son stada a tior da Mazzacan scortegaór.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Donca ti me la dà per fresca?</p>
+          </sp>
+          <sp who="#luganegher">
+            <speaker>LUGANEGHER</speaker>
+            <p>Per freschissima ve la dago!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Senti mo se la xe fresca!</p>
+          </sp>
+          <stage>(li dà da odorar la camelia e poi la pesta su per la testa e se la mette anco di nuovo in scarsella)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA VII</head>
+          <stage>Torna di nuovo il magazenier e restano li sudetti.</stage>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Così me piasé, a farve stimar, sior: mi credeva certo che la fusse bona, perché la vedeva sguardolina, ma infatti vede più quattro occi che do. laste mo sto vin da ponticiò, che el m’è vegnùo gieri.</p>
+          </sp>
+          <stage>(Co 'l magazenier li dà un gotto di vino Pantalone lo gusta e di poi ghe lo getta nel viso)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Vin delle conchette ti me porti, bestia?</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Bisogna che abbia fallào la spina della botta, ma adesso, sior, anderò a tior de quel marzemin.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA VIII</head>
+          <stage>Pantalone, Madona Laura, Momoleto e gl'altri suoi soldati, Mezzetino con Bettina.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sentirne, care pute, avéu fame?</p>
+          </sp>
+          <sp who="#madonna_laura #bettina">
+            <speaker>MADONNA LAURA e BETTINA</speaker>
+            <p>Oh, che fame che avemo!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Orsù via, Tita, fa’ presto, porta da magnar!</p>
+          </sp>
+          <stage>(tutti vanno a tavola e Mezzetino si pone appresso a Pantalone in mezzo delle donne)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA IX</head>
+          <stage>Restano li sudetti e sopragiunge di nuovo il magazenier.</stage>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Son qua, sior Pantalon, tasté mo questo si l’è marzemin.</p>
+          </sp>
+          <stage>(Pantalone beve)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Via via, che ti è galantomo. Bevé putte, bevi anca ti Mezzetin, bevemo tutti! Ma mi, per esser el più vecchio de tutti, vogio esser el primo a béver, e far un prìndese a tutta questa onorata udienza.</p>
+            <l>Compare Pantalon, adesso è l’ora</l>
+            <l>de Larve onor col vostro bocaletto,</l>
+            <l>perché l’è un vin el più caro e diletto</l>
+            <l>che se possa trovar ai Barri ancora!</l>
+            <p>Ma mi vogio béver, perché adesso Bacco farà i pugni co le muse e ho paura che el ghe rompa el muso!</p>
+          </sp>
+          <stage>(Pantalon beve, dipoi tutti mangiano, ed in questo mentre il magazenier porta una puina ed altra robba)</stage>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Oh, che puinetta, tasté un poco co’ l’è bona!</p>
+          </sp>
+          <stage>(Pantalone tasta)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>La è squisitonazza: sentì, cara siora Lauretta, ve piase sta puinetta?</p>
+          </sp>
+          <stage>(Pantalone imbratta il volto da puina a Madonna Laura, ella si netta, poi dimanda da béver) </stage>
+          <sp who="#madonna_laura">
+            <speaker>MADONNA LAURA</speaker>
+            <p>Demme da béver.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Magné, bevé, no abbié respetto: fé giusto conto d’esser a casa vostra, siora, e no abbié paura!</p>
+          </sp>
+          <sp who="#madonna_laura">
+            <speaker>MADONNA LAURA</speaker>
+            <p>Fazzo un prìndese a tutta questa onorata udienza!</p>
+          </sp>
+          <stage>(Madonna Laura beve e tutti mangiano, di poi Mezzetino fa un prìndese col favellar in tal guisa)</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Cancher, a’ vói bever anche mi, cospetton! Mi a’ vorria far un prìndese, ma a’ no so miga com far. Mi a’ son un om virtuos, cancar, a’ ho caminad el mondi son sta in Boemia, in Gallia —no miga in gallìa!—, son sta nell’ India —oh, com i parla ben quei indiani e quei boemi!—, a’ son sta anch dalla reina d’Inghisterra. Ma vogio far un prindes alla Boemia: hù, ù, ù, ù, ù! A’ ghe ne vogio far uno alla Gallia: cucurucù, codech, codech, co, co, co, codech! Sentìghen mo uno alla indiana: troch, troch, troch, grò, grò, grò, grò! </p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh che bel dindiazo! Ma séntime, caro ti, nu averne ben magnào e ben bevùo e si no gh’ho gnianca un bezo da pagar el capo: vu, compare Mezzetin, avé da cavarve el zacco, che ghe 'l daremo per el debito vecchio e per el niovo.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi a’ ghe 'l darò volentier, ma no 'l lo vorrà, perché l’è vecchio e no 'l val miga do lire.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Orsù, no te indubitar. Vualtri, fioli, sté allestì e si vedé che catta gnente da criar sai té furora e mazzémoli. Ma vien el capo: òe, capo, sanarne el conto che me vogio sbrigar!</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>El conto è bel e fatto: trenta de pan, vintiquattro de puina, diese de fenochi, sie lire in vin —che fa niove— e quattro e tredese del conto vecchio, che fa vintido e quattro. Me podé, per esser vu, menar quei quattro, che le resta vintido lire.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>A pian, a pian: cos’è ste vintido lire? Chi ha magna trenta soldi de pan?</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Quelle care bocchette!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Vintiquattro soldi ti me metti una puina de vacca che no la val niente più de tre gazzettino, a pagartela sora la brocca? Nu no averne magnào seno tre seno ci e tre seno ci i val un marcello? I val giusto un bezzo!</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Andé a comprar della panada e no fenociazzi; adesso è inverno: la terra se strenze!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi no ghe ne vogio saver, che la se strenza o che la se slarga, puoco m’ importa. Oe, fidi, chi ha bevùo sie lire de vin? Mostréme quel zeffo, che mi la commoderò! Dodese de pan, sie de puina, un bezzo de seno ci e trenta soldi de vin: ti ha giusto d’aver quarantotto soldi e mezzo, e del debito veccio mi no ghe ne so gniente.</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Cos’è sti quarantotto soldi e del debito veccio mi no ghe ne so gniente? Voggia o no voggia, vu m’avé da dar vintido lire, sino a bon conto ve dorò el tappo!</p>
+          </sp>
+          <stage>(il magazenier finge di prender il tabaro a Pantalone)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <stage>(a parte) </stage>
+            <p>Momoleto, Liguro, Varisco!</p>
+            <stage>(ad alta voce) </stage>
+            <p>Orsù, tien tra quella magnaóra quella lenguazza, sino te la tagierò! Tió sto zacco e dente quarantotto soldi e damme niove ducati e mezo indrio.</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Cos’è sto zacco? Mi in prima ho da aver vintido lire, e le veggio, vede: de sto zacco mi no ghe darla un marcello gnianca a borio a rason de ferro vecchio: ch, caro sior, buttélo in canal!</p>
+          </sp>
+          <stage>(il magazenier gli butta il zacco per terra)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Coss’è sto strapazzar la robba co buttarla per terra? A mi el me costa diese ducati e ghe ne vogio almanco niove e mezzo, m’inténdistu? Tiòlo e tasi, che sarà megio per ti.</p>
+          </sp>
+          <sp who="#magazenier">
+            <speaker>MAGAZENIER</speaker>
+            <p>Coss’è sto sarà megio per ti? Mi ve digo che vogio esser pagà, e no me sté a romper i ori!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mo cosa è questo: no èllo un zacco bon e bello? Tiòlo e tasi, che te l'ho ditto un'altra volta.</p>
+            <stage>(verso i suoi soldati) </stage>
+            <p>Momoleto, Liguro, Varisco; sté allestì; che adesso adesso ghe la femo fuora: tegnì le arme in sagiaòr, vedere mi co petto man, petté man anca vu, che così el pagheremo.</p>
+            <stage>(Pantalon mette man alla sua cinquedea e tutti i suoi soldati ancor essi pestano man e pagano con delle pistolesate el magazenier)</stage>
+            <p>A chi, sanguenazzo da drio, tioràstu el tappo? A chi?</p>
+          </sp>
+          <stage>(incalza di nuovo con pistolesate al magazenier fintanto che vanno tutti dentro)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA X</head>
+          <stage>Brighella, Rosaura.</stage>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Mo cosa è mai questa, che mio padre fa sempre baronate? Già intesi pocanzi che s’attrova al magazino con diversi baroni, che si ubbriaca e che fa molt'altre ribalderie.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Quest l’è podi, a’ disi pur —ades ho intes— che a’ 'l gh’ha fat andar de mal più de quatordes botte de vin, e cert si lu el vien quarelà alla Giustizia l’andrà all’Avogaria, opur in Picardia.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Ah, caro Brighella, ti prego con tutto il core a far sì di sottrarlo dall’imminente rovina: egli, già avanzato negl’anni, corre precipitosamente con iterati passi a doppia morte.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>A’ lassi far a mi, cara signura, che farò tant che a’ procurerò col magazinier da salvarlo: a’ ho impromes al signur Cinci, me patrù, de andar a sfidarlo da sul a sul, ma a’ no 'l vogio miga far, perché cert si a’ 'l se ciment el resta mort.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Ma senti, caro Brighella, favellasti per anco al mio sole della maschera che lui adora?</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Signura sì, a’ no v’indubité miga, che farò che a’ ghe si’ spusa avant che passi du ur.</p>
+          </sp>
+          <stage>(In questo mentre Pantalone sopragiunge; prendendo mano ad uno stille corre verso Rosaura, e Brighella di nascosto si parte)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA XI</head>
+          <stage>Pantalone, Rosaura</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ah fiazaza, fiazazonaza, fia d’un beconazazo fotùo, cosa fastu, di’, a ste ore furora della porta? Aspéttistu forsi el to moroso, di’, sporchetta? Ghe vuol altro che amori, i vuol esser panetti! Va’ in casa subito, sino te cazzo sto baicolo in corpo!</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Vado, signor padre, vado...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XII</head>
+          <stage>Pantalone, Mezzetino e Momoletto e gl'altri sopraggiungono.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Compare Mezzetin, sette ghe ne avemo fatto sta settemana, mo disé pur, compare, che avemo anca recuperào el zacco, e mentre che ghe dévimo le frittole al magazenier gh’ho anca porta via un pan che gh’è casca per terra.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Avi fat ben: a’ i’ è scampaci co’ fa tant gatt mort!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ma senti, caro ti, no ti sa che a no vogiando ho catào un naso per terra e credo che el sia del capo, perché so certo che ghe l’ho tagiào? Adesso bisogna che femmo una cossa de sta sorte: mi, si ti voi che te diga la veritàe, son mezzo imbriàgo, no vorrave mo farme intender da costori, perché subito i anderave in gatezo e sì i me lasserave in le pettole; e ti, èstu gniente cotto?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi a’ no pos più cert, perché l’era un vin che el m’ha toccad le budello: a’ 'l bisogna cert che andem a dormir.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Eh, porcazzo, per gniente ti vorrà vi dormir co’ fa una màmera! Sàstu cosa che vogio far? Perché el dise el proverbio che co se xe imbriaghi se fa le cose a proposito... Mi ho pensào de ander da Bedanna in Ghetto per far un moscon, perché gh’ho anca mi della robba là da Bochina in calle Valaressa, e però vogio che ti vaghi là e che la te daga quel che mi gh’ho ditto l’altro dì, e dighe che ghe ne vogio far de niova, perché questa veccia ghe la vogio dar a mia sia</p>
+            <p>Rosaura, siben che no l’è vero gniente, perché la vogio andar a vender in Ghetto.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi andarò, ma sigiar che no la me la vorrà dar.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Eh no te indubitar, che la m’ha ditto che la te la darà.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XIII</head>
+          <stage>Pantalone solo; Mezzetino e Momoletto vanno a prendere la robba da vender; si sente rumor grande nel Ghetto delli ebrei; Pantalone di fuori così dice:</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sento a far strepito in Ghetto: mi credo che certo i saga el so sabbà, ma no che ancùo xe domenega! Lori certo i tien banco. El dise el proverbio —si mi no fallo— che chi canta gh’ha: mi ghe canterò un puoco a sti smerdacài, per poderli animar a darme qualche cosa de più de quel che vaierà la robba che ghe darò, e fin che vien mio compare Mezetin ghe vogio cantar qualche improvisada. Oe, sonadori, vegnime drio quando che canto!</p>
+            <stage>(Pantalone canta)</stage>
+            <l>Sier Bedanna, son vegnùo</l>
+            <l>per veder si gh’avé bezzi,</l>
+            <l>ho porta diversi pezzi</l>
+            <l>de robbetta de vellùo.</l>
+            <l>Sier Bedanna, ecc.</l>
+            <l>Ma no la me piase questa, voltemo a stagando!</l>
+            <l>Vualtri se’ l’onor de sta cittàe,</l>
+            <l>ricca, potente e de gran signoria,</l>
+            <l>ma spesso fé delle vostre smerdàe</l>
+            <l>col dir «misier Abram, sta robba è mia».</l>
+            <l>Ma mi no son polacco in veritàe</l>
+            <l>e i occi inte le scarpe mi no gh’ho</l>
+            <l>e non son miga de quei dalle valide</l>
+            <l>né son de quei che sta a San Nicolò,</l>
+            <l>ma son sior Pantalon, bullo e bravazzo,</l>
+            <l>che tagia gambe e che scavezza brazzi</l>
+            <l>e che me dago sempre gran solazzo</l>
+            <l>col metter in scompiglio ancora i zaffi.</l>
+            <p>Ma gniancora no i me sente, bisogna certo che i chiama un puoco più a forte. Oh, oh, oh, oh, sier Bedanna, sier Abram, sier Aron, sier Badanai, sier Mosé, sier Smerdacài, òe, vegni zò della Sinagoga per comprar della robba!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XIV</head>
+          <stage>Si sente strepito d’ebrei che fanno rumor di dentro; poi vien Mezzetino con un sacco sopra le spalle a gridando.</stage>
+          <stage>Mezzetino, Pantalone.</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Chi ha strazze veccie, chi ha camise veccie, chi ha drapi vecci, chi ha mas sere veccie da vender? Chi compra un bel follo? Oh, oh, oh, oh!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Anca el strazzariol vien a criar in Ghetto? Òe, da’ folli!</p>
+          </sp>
+          <stage>(Mezzetino si fa vedere da Pantalone con Momoletto, Liguro, Varisco, pieni di diverse massarie)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ah, sier besbazza, così me cogionbaré? Ve par mo che questa sia robba veccia da vender, sier piegorazza? Orsù, butté in terra quei cài de robba e despieghelli fintanto che vien Bedanna.</p>
+          </sp>
+          <stage>(Mezzetino spiega diverse strazze)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA XV</head>
+          <stage>Bedanna ebreo che vien furora del Ghetto e li sudetti.</stage>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Oh, benvegnù, sior Pantalon. Menacai, Menacai, vien da basso, che è vegnùo sior Pantalon per far moscon!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Coss’è sto far mescon? Mi no vogio né mosconi né callalini, mi son vegnùo qua con della robba niova e fiammante accioché me de’ quaranta ducati: savé pur che no gh’è altri che sostien el Ghetto se non Pantaloni co vien fatto qualche affronto, da chi andéu se no da Pantalon? Savé pur che mi son l’Atlante de Ghetto! Ma no credé minga per questo che voggia gniente de quel de altri, né che voggia vegnìr qua a Larve qualche garanghello, opur a tior bezzi in prestio: vegno co della robba bella e bona e col pegno in man, acciocché vedé che no vogio gniente del vostro.</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Davero, sior, che restemmo tutti nualtri obligài al vostro affetto. Mostrane la robba, che vedemmo de darve de più de quel che la merita: manco mal che no facessimo qualche sorte de piasér al nostro caro sior Pantalon, col qual averne tante obligazion.</p>
+          </sp>
+          <stage>(Pantalon li mostra un telo di ninziol arsirato tutto sporco e pieno di sangue)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Questo l’è un ninziol de tella muneghina, l’è mo un puoco sporco, che con una lavada el vien netto.</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Mi no so de sporco, mi so ben che l’è tutto brusi: lassane 'l véder ben.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cosa ghe voléu véder? Ghe voléu forsi véder una falliva che gh’ha dà adesso?</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Eh, che l’è una strazza!</p>
+          </sp>
+          <stage>(Bedana li butta il ninziol da un capo della scena)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>La robba per terra ti me buti? Ti me l’ha sbregào, sàstu? Veggio che ti me paghi quel collo de robba. Ma varda un puoco sta cottolina de raso rasào, che l’ha portào giusto una volta la mia putta, che l’ho menada a Malamoco.</p>
+          </sp>
+          <stage>(Pantalone li mostra una cottola tutta rotta)</stage>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Eh, me maraveggio, sior Pantalon, che no ve vergogné a portar sta robba in Ghetto: buttéla in canal, che no la val gniente!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi te digo che questa è più stimada dell’oro, perché l’oro luse e questa straluse.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XVI</head>
+          <stage>Menacai, collega di Bedanna, sopra un balcone così li dice:</stage>
+          <sp who="#menacai">
+            <speaker>MENACAI</speaker>
+            <p>Ah, Bedanna, cosa fasta, no védistu che le è strazze?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cos’è, ti, barbarossa? Vasto che te tagia la codega, di’, e che te cazza furora de Ghetto?</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Tasi, Menacai, tasi, che no ghe darò niente!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Orsù, gh’è dell’altra robbeta: mi veggio che sta volta la tiolé a occio, perché ve la dago anca col sacco. Via via, me contento de trenta scudi sotto e sora: conté bezzi.</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Mi no vedo cosa che valla più se non el sacco, ma per l’obligazion che gh’ho con va, mi ve darò mezzo zaù.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cos’èlio sto mezzo zaù? Èllo forsi sie doppie? Si l’è sie doppie mi no ve la posso dar no, varra no, varra no che no ve la darò, e varra no.</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>A no v’indubité, che no ve dago più de mezzo zaù, certo.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Via via, conte bezzi, avé rason sta volta perché me catté affamào.</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Tegni: uno, do, tre, quattro, cinque, sie, sette, otto, niove, diese...</p>
+          </sp>
+          <stage>(e segue fin nego ducato)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Oh, co sté a principiar a contar soldi? Starò qua fin domattina finché fé sie doppie co tanta flema!</p>
+          </sp>
+          <sp who="#bedanna">
+            <speaker>BEDANNA</speaker>
+            <p>Mi a no ve dago più de mezo zaù, che l’è mezo ducato.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mezo ducato, sier Bedanaza, de tutta sta robba?</p>
+          </sp>
+          <stage>(Pantalone tira fuori di scarsella la coraella e dipoi ghe la pesta su la testa a Bedanna e Mezzetino, con gl'altri suoi soldati, danno fuoco al Ghetto)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA XVII</head>
+          <stage>Pantalone resta solo.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No hoggio mo ditto che ghe ne faremo otto? Ho fatta l’ottava, mi, avanti che passa la settemana. Mi mo vogio véder se Mezetin m’è fedel, me veggio scender qua da drio perché vedo che el vien a barbotando, certo che el gi’ eser dir mal de mi: vogio sentir quel che el dise, seguro.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XVIII</head>
+          <stage>Mezzetino viene discorrendo fra sé e Pantalone in disparte ascolta quel che lui dice:</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Va’ pur in malora, vece mal! Mi a’ no vogi star più co lu cert, perché mi andarò alla Avogaria: lu l’è el mazzur porch che zappi terra, siben che el fa el bui l’è un desgraziadaz e un pez de barù. Mi a’ confess che anca mi el me pias a far sto mester, ma co pens che a’ si vagli trop alla lunga a’ no magnerò più macherù cert, cotesta considerazione l’è quella che me met el cervel nel cò, e sì a’ digli intra de mi squomodo questa cosa sarà, che mi che son us a svegliarmi quando che sona mezz giorno e che me pias a magnar e bever co’ fa un porch e che un par mio, allevai dalla siura Simona, nostra mader, tra i matarazz più fini delle stalle, avezz a non mai lavorar, debbi far sta vit, tutto el zorn manezar arm, siben che in conscienza mi no dago mai a nissun. Questo no 'l farò mai, ma alla più drit ho risolt de andar al pais e de no star più co sto vece porch: a’ farò così, andarò alla Giustizia a darghe una squaquarela finché lu l’è andà a spas. A’ 'l me rincres po ben d’abbandonar la me cara Spinettina. Mi a’ cred cert che costò el sii mul, cert, cert.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XIX</head>
+          <stage>Pantalon corre con un stillo per uccider Mezzetino ed in quel mentre sopragiunge Brighella che lo trattiene.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ah, fiazazo, così se tratta co mi? Ti ti magni el mio pan, ti bevi el mio vin, ti fa el mestier anca ti che sago mi e sì ti me vuol quarelar? Adesso te mazzo! E dirme che son mullo?</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Fermév, siur Pantalù, perdonégh sta volta, che no 'l farà più cert!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Vàrdete, che el veggio sbuelàr, tanto ardir el gh’ha de volerme andar a quarelar!</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Eh via, caro siur Pantalù, perdonégh, perché a’ 'l sarà stà mes su da qualchedun.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Perdoném, siur, che a’ ve conterò una gran scongiura che vu andevi a far contra, eccetera...</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cessa distu, degraziadazzo?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A’ digli, sior, che a’ ho fat sta gran sceleragine per provar la vostra fredeltà: che a’ credìu, che a’ non v’abbi vist qui dieter, caricar?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Non occorre altro: te veggio squartar!</p>
+          </sp>
+          <stage>(Pantalone corre dietro Mezzetino, Brighella trattiene Pantalone ed in questa guisa termina l'atto secondo)</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>ATTO TERZO</head>
+        <div type="scene">
+          <head>SCENA I</head>
+          <stage>Rosaura.</stage>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Invan, qual farfalla, m’aggiro per rimirar Cinzio, il mio foco. Ma ecco apunto Brighella, suo servo, che tutt'anelan te verso di me indirizza le piante: o che vien per bearmi, opur per crocciarmi ed accrescer dolore alle mie miserie. Brighella, svela tosto ciò che anelante desideri di palesarmi: buone nuove o cattive?</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA II</head>
+          <stage>Brighella, Rosaura.</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>A pian, siura, a pian! Voster siur pader cert cert ancù o dumi i ve lo metri in cotegh, opur che i’ ve lo porterà a ca’ in quater.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>E perché? Svelami tosto la cagione.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Tu ha, siura, l’ha tacad fogli al Ghet e po dop el volev mazzar el me paesan Mezzetin; mi a’ no so cos più far: a’ ho procuraci de parlar ai sbir accioché a’ f no 'l ciappi, ma a’ ved che sempr se va de mal in pez; se a’ no fem sì, metter anzi nu l’accord coi sbir, che i lo ciap per Farm e che i lo fazz star in presù almanch un par de mes, sino lu cert —compatirne, vidi, siura— l’andrà in Piccardia, e la s’arrecordi</p>
+            <p>che ex duobus malis, minus est eligendum.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Sai che tu la pensasti bene? Ma sappi ancora che l’amor figliale non può tollerar di veder tra ceppi il genitore.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Eh, cara siura Rosaura, a’ 'l bisogna cuntentarse così! Mi a’ i’ ho un podi de prissa, mettive su in sto tant la muretta, perché a’ 'l vien siur Cinci, accioché più a’ 'l se innamura, vedendo d’improvis quella che pur no 'l sa chi la se sipi. Vedi 'l apunt, breve un podi int’un cantù avant che a’ 'l ve vidda.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA III</head>
+          <stage>Sopragiunge Cinzio, restano li sudetti.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Brighella, io son felice come teco conduci parte dell’anima mia: ritirati, di grazia, in disparte, che voglio scoprir il mio foco.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Bonzurno a vu, siorìa, a’ no veggi far troppe parole, fé pur el fat voster che mi a’ no ve vogh far lum.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <stage>(verso Rosaura non conosciuta)</stage>
+            <l>Bella, se tu non sdegni,</l>
+            <l>Cinzio per sua ti chiama</l>
+            <l>E il ciel arride a sì grand’imenei.</l>
+            <l>Parla, ammutisci, sciogli la lingua, o bella,</l>
+            <l>acciò il mio cor non spezzi</l>
+            <l>e che Cinzio non cada.</l>
+            <l>Dal servo avrai apreso</l>
+            <l>che al letto ti destino, o bella mia,</l>
+            <l>e pur a casti nodi: perché non condescendi?</l>
+            <l>Ma perché sì avara de’ detti tuoi</l>
+            <l>Verso di me ti vanti?</l>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <l>Ah, Cinzio, se prometti di sposa farmi,</l>
+            <l>condescendo a tue voglie.</l>
+            <l>Sappi, con doppio strale</l>
+            <l>Amore ci ferì. Ecco la destra</l>
+            <l>ed acciò sii la colpa tua condegna</l>
+            <l>Rosaura esserti sposa essa non sdegna.</l>
+          </sp>
+          <stage>(Rosaura si scopre e Cinzio resta confuso)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <l>Rosaura esserti sposa essa non sdegna:</l>
+            <l>mi pervenne l’inganno</l>
+            <l>e Amor, ch’è cieco,</l>
+            <l>fece ch’oggi i miei lumi</l>
+            <l>tra le fint'ombre d’un sereno volto</l>
+            <l>perdessero il splendore!</l>
+            <l>Sappi che alla promessa,</l>
+            <l>qual fido servo e consorte ancora,</l>
+            <l>le leggi non divieto,</l>
+            <l>anzi, che l’imeneo approvo.</l>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Oh, caro, più mi leghi!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Bella, più m’innamori!</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Brighella, vanne tosto da mio padre, e dille che sposa son di Cinzio, mio diletto.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Sii pur laudat el ciel, a’ ho pur fat tant che el gh’ ha dad le zatte a chi tant l’aborriva!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Non altro avvelena le dolcezze dell’imeneo se non il vedere il vostro genitore così sfacciato e importuno; non seppi per il passato che fosse vostro padre, perciò mi condonacele se non gl’ho portato il dovuto rispetto, però vi prometto, oh bella, di far sì che desista da’ suoi cattivi costumi e ch’una volta, alla fine, reghi con le redini della prudenza il corso d’ogni sua dissolutezza.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Grazie ti rendo, oh caro.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ma per felicitar i nostri affetti, assieme con tua fede, voglio che segua della mano alla danza, quella del piede. Orsù, si suoni!</p>
+          </sp>
+          <stage>(Qui s’apre il prospetto e si vede una sala preparata per la danza)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA IV</head>
+          <stage>Dame e cavallieri alla danza; capo de ballo, Cinzio e Rosaura che passeggiano per la danza.</stage>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Eviva la zoventù! Cangia, e un’altra cangiadina: una, do, tre, quattro, cinque! Donne, avant! Indrio! Allerta, siori, e man alle scarselline! Sior conte, commandela che femmo sonar quella de «Donna mare e un bel marì»?</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <l>No no, che contento io sono:</l>
+            <l>segua la danza e il suono!</l>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Avanti, siori!</p>
+          </sp>
+          <stage>(Quivi ritornano a far il passo e mezzo; fra tanto sopragiunge Pantalone con Mezzetino e suoi soldati)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA V</head>
+          <stage>Pantalone mascherato insolenta le maschere assieme con Mezzetino.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Scostati, bricone!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cào de ballo!</p>
+          </sp>
+          <stage>(Il capo non li risponde)</stage>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Allerta, siori! Soné a pian, che no i se stracca! Contéghela giusta, zovenotti, alle vostre putte!</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cào de ballo! Capo de ballo! Cào de ballo e capo de ballo e cào de ballo un’altra volta per chi è sordo!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <stage>(verso il capo di ballo) </stage>
+            <p>Cos’è qui cotesto rumore?</p>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Son qua, siora maschera, cosa commàndela?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Senti, mi vogio far quattro balloni.</p>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Da galantomo, siora maschera, che i è dài via a quei zentilomeni o conti che i sia.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Se i è dai via mi voggio ballar, che tanto è i mi’ bezzi quanto che è i sói: ma senti, caro ti, èlli forsi conti da Malamoco che fa la guardia ai melloni?</p>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Mi no so tante istorie, mi ve digo, cara siora maschera, che i è dai via.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ah, sonadori, lasse star de sonar, sino mi ve tagierò le corde.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>E mi ve pesterò i istrument su la testa e po a’ v’i’ darò da béver in sirop!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Perché non si suona?</p>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Gh’è quella maschera, lustrissimo sior, che no la vuol che i sona.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <stage>(verso Pantalone) </stage>
+            <p>Ah, sentite, io non so chi vi siete: ben mi date a divedere d’esser un gran sfacciato arrogante.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mi son quello, sior, che no vogio che i sona, perché veggio ballar. No savé chi sia, vu, sotto sto volto? Si vu se’ conte mi no ghe ne vogio saver gniente, so ben che ai conti e ai zentilomeni ghe sago una sprofondissima reverenzia, ai cittadini e ai marcanti ghe la sago a mezza vita e ai pari vostri ghe sago de queste: el zirandonarve in le tempie!</p>
+            <stage>(Pantalone li getta il capello nel viso e dipoi si cava la maschera, dicendo)</stage>
+            <p>E si avé desiderio de saver chi sia, vardeme mo un puoco ben...</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Un pezzo di bullo ha tanto ardire di farmi un tal affronto!</p>
+            <stage>(Cinzio pone mano alla spada)</stage>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Fermati, Cinzio, che questi si è mio padre, che non mi conosce, altrimenti guai a me, misera, se mi vedesse teco.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <stage>(verso di Rosaura) </stage>
+            <p>Eh, taci, caro mio bene...</p>
+            <stage>(verso di Pantalone) </stage>
+            <p>Sappi che, per dar a divedere la mia bontà, io ti concedo che facci due balli solamente, ma non più: m’intendi?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Obligào, sior, del vostro affetto. Quando po che sarò in ballo ghe ne farò quanti che me parerà e piaserà. Savéu, sieri, perché el me lassa ballar? Perché l’ha abùo paura che el tagia in fette co’ se fa la sopresada. Via, sonaóri, che no vogio perder tempo! Sonéme quella de Salano, e vu, compare Mezettin, aspettò, che ballerò doppo de mi e ve farò sonar quella della masserina che fava l’amor col so Nicolò.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Ballò pur, siur Pantalù, che ballerem po anca tutti nu oter.</p>
+          </sp>
+          <stage>(Tutti si ritirano in disparte. Pantalone getta tutte le sue armi per terra e poi va a prender alla danza una dama dicendo)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Care ste manine: se’ più molesina, maschereta, che no xe el bombaso!</p>
+            <stage>(verso li sonadori) </stage>
+            <p>Oe, sonadori, soné a pian, che saré causa che cascherò per terra! Sonéme un puoco, cari vu, una furlanaza.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Desistete dal ballo, già n’avete fatti due.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>O do o tre, ghe ne vogio far quanti che me par e piase! Oe, sonadori, soné, sino ve sfracasserò i strumenti e ve scavezerò i archetti su la testa, m’intendéu?</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ah, scelerato, cotanto ardisci?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Chi commanda le feste? Allerta, Liguro, che ghe la temo furora, e vualtri tegnì le arme in sagiaòr finché me metto le mie.</p>
+            <stage>(Pantalone incomincia a mettersi il zaco, la celata, il guanto di ferro, la targa e la cinquedea)</stage>
+            <p>Sentirne, caro sior carissimo, voléu aver un puoco de creanza da lassar ballar i omeni?</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Io ti dico che non voglio e non te lo ritorno a dire.</p>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
+            <p>Eh, sior conte, fermeve, caro sior, no savé co che omo sproposita che avé da far!</p>
+          </sp>
+          <stage>(In questo mentre tutte le dame si partono dalla festa; restano li cavallieri per por mano alla spada; il capo de ballo fugge)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Coss’è sto dar del ti? Cosa è sto sai? Avendo forsi magnào el gebibo in baretta, disé, sier canapiolo?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A’ no voli che balla, siori arsure? Adesso v’insegnerò la creanza.</p>
+          </sp>
+          <stage>(Mezzetino accompagnato da Momoleto, Liguro e 1 Prisco; e Pantalone pone prima mano al pistolese. Cinzio e gl'altri cavallieri si riparano e segue un formidabile combattimento, del quale li soldati di Pantalone restano vittoriosi)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA VI</head>
+          <stage>Brighella solo.</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Mi a’ no so mai a dov a’ 'l sii andà el sior Lan taluni mi a’ son vegnù qua al bai ma no ved né più bai né sior Cinci né la signura Rosaura, ma a’ me vogio ben infurmar com’ è passad el so nego ci col sior Cinci.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA VII</head>
+          <stage>Brighella batte alla porta della signora Rosaura.</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>De ca’!</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Chi batte?</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>A’ son Brighella, el vo s ter servi tur, siura Rosaura!</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Che vuoi, Brighella, da me? Sei torse venuto quivi acciò ti dii la mancia? Piglia e compatisci se non ti do quello che meriti, perché sai che non ho commodità di darti di più.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Me maravegh mi, siura, me bastava anch del doppi! Oh, com’è passad el negoci del sior Cinci? Perché a’ no 'l ved qua con vu?</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Benissimo al certo, ma non vi è altro di male senonché mio padre col suo venir a fare il bravo sul ballo ne turbò di maniera che tutte le dame che vi erano fuggirono, onde son dubbiosa dell’evento di tal fatto.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Oh, cos che me cunté, siura: mi a’ no so quand che quell’om benedet a’ 'l finirà de far più baronad. Ma a’ no vogio perder tempi a’ me vogio infurmar del fatt com l’è stad, e vu, siura, andé in ca', accioché se el veniss el siur Cinci no 'l ve ritrovas qui sula.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Vado tosto in casa, ma dammi ragguaglio del successo dopo la mia partenza.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Andé pur, siura. A’ i’ ho pur vanzad un scud, la è poveretta, la siura, la cumpatiss, ma aspett ben un per de duble dal me patrù. Ella po, co l’andrà a ca’ del so spus, la me farà qualche piatt de macherù per el benefici che a’ li ho fatt, che la sii spusa del me patrù. Fra tant andrò, per non perder temp.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA VIII</head>
+          <stage>Pantalone e Mezzetino ubbriachi, vengono soli con una pipa in bocca.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Che distia, Mezettin, te séntistu gniente de caldo?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi, siur Pantalun, a’ son un podi imbriàgh; quel vin che avena bevud nu soli, zà un tantin, ades el fa la so part.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Se ti vuol che te diga la veritàe, credo che quel vin el gh’abbia la conza, perché me sento certi dolori in te 'l stomego e gh’ho anca un gran sonno.</p>
+          </sp>
+          <stage>(Pantalone cadde per terra e rompe la pippa)</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Oh, com che si’ imbriàgh, siur patrù, siur patrù, siur patria! </p>
+          </sp>
+          <stage>(Mezzetino ancor esso cadde per terra, poi così stordito dice)</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Arma virumque cano: po belle parole de Verzilio da’ Maroni, quand che l’andava, eccetera; bona nott a vusiorìa, a vusiorìa, a vusioria...</p>
+          </sp>
+          <stage>(Mesettino s ’addormenta per terra; Pantalone si risveglia un poco poi dice)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>«Canto l’armi pietose e 'l capitano», ma no... «Donna, disse Satan, perché crudele verso di me ti mostri e inumanata»?</p>
+          </sp>
+          <stage>(di nuovo s’addormenta per terra)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA IX</head>
+          <stage>Pantalone e Mezettino addormentati per terra; sopragiunge Cinzio non osservandoli.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Già m’inoltro sempre più nell’amore della mia bella Rosaura, né posso far di meno di non raggirarmi qual elitropio anch’io intorno al sole de’ suoi bei lumi.</p>
+            <stage>(Cinzio s’inciampa a caso in Pantalone che dorme per terra)</stage>
+            <p>Ma chi è remora alle mie piante? Oh, dei, che scorgo! Questi, sparso di vino, con Mezettino suo collega, si è Pantalone mio suocero. Ma come, oh numi, lasciate ch’un già avanzato negl’anni si dii in preda a tanti vizi? Questi io temo che sii per funestar i sponsali con la mia cara Rosaura. Contuttociò mi muove il pianto nel vederlo gettato sul suolo. Olà, miei servi, accompagnate costoro entro quella casa!</p>
+          </sp>
+          <stage>(Pantalone e Mezettino vengono portati in un palagio addormentati)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA X</head>
+          <stage>Cingio e Brighella.</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Cos’è, siur patrù, avi furs mazad el siur Pantalun? Perché ved du omeni che i lo porta dentr in ca’.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Non è morto ma ben è poco lontano dalla morte, perché si dice che il sonno è fratello dell’istessa; e perciò, come a suocero si conviene, lo feci trasportare assieme con Mezetino in quel palazzo. E sappi ch’io non so che partito pigliare per farlo desistere di fare una vita così sgraziata.</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Mi ho catad il mod de farlo riturnar in se stess, perché lu è persona ricca e pur el par un mendichi lu a’ 1’ è un dei primi cittadi e pur el se trà co la pleb più infam. A’ 'l bisogna far osi: lu, subit che a’ 'l se sarà svegiad, l’andrà cert a cattar la so Spinettina e sì l’anderà cert, e vu, sior, tolive deter un pez de legn e quand che lu el lo vederà el se tacherà a fuzir, perché el fa el brav sulament quand che l’è compagna e così, co 'l vederi a fuzir, procurerà con le belle e con le bone de dirgh che vu savivi che no 'l valeva un bez, perché l’è vece, ma che a’ no Favi volsud far mal perché a’ voli per vostra morosa so stola Rosaura, e disighe anche che vostra signoria a’ se’ stol del siur Duttur, che cert lu a’ 'l se contenterà che a’ sié so zender e sì anch a’ 'l ve darà della bona dot, tant più che a’ se’ persona ben nata, perché lu adess no 'l ve conoss negot.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Sai, Brighella, che è bello il pensiero?</p>
+          </sp>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Andé, e no perdi temp, che vad via anch mi.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XI</head>
+          <stage>Mezzetino e Pantalone escono dalla casa ove erano stati portati.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Mo no s’avemio indormenzào qua in piazza, ma chi n’ha portài qua in sto palazzo?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Mi no 'l so miga, se no l’è stad qualche spirit macabreo, del rest mi a’ no so negotta.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sarà stào qualche nostro amigo o el compare Liguro, o Momoletto, opur Varisco. Ma senti, Mezetin, mi te son molto obligào, mi no gh’ho visto nissun più fedel de ti: quelle canagie, co i ha visto che senio andài a bever senza de lori e che senio vegnùi furora della taverna un puoco all’orza, elli i xe andài alla bettola. Mi no posso più star così solo, bisogna che ti ti vaghi a cattarli, accioché i tegna le arme in sagiaòr, perché nu no savemo chi ne vogia mal o chi ne vogia ben.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Adess mi vad a cattarli, siur.</p>
+          </sp>
+          <stage>(Mezzetino si parte)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Va’ pur, ma vien presto, che te aspetto qua. Mo l’è una gran cossa de mi: basta che qualchedun me veda che subito i scampa, gnianca se i vedesse el babào; co i me sente all’usmo i va via gitti gitti, co’ fa tanti gatti, che tutti i trema co i vede sto baicoletto. </p>
+            <stage>(verso la sua cinquedea)</stage>
+            <p>Ma chi è sto sior garbato che vien in qua? Mi certo, si no fallo.. .oh, poveretto mi, che l’è quello che gh’ho tagiào i garettoli! Certo che el gì’ esser vegnìr qua per refarse! Compare Momoletto, dove séu? Oh poveretto mi, che i m’ ha lassào solo in le pettole: adesso adesso i me la fa far in cainello!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XII</head>
+          <stage>Viene Cinzio e resta Pantalone.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Che si fa qui soli?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Qua, sior, se batte le piere cotte: cossa voressi dir per questo?</p>
+            <stage>(a parte) </stage>
+            <p>El gh’ha messo anca quella parola, soli, cossa mai vuolla significar?</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Nulla io voglio dire: compatitemi se sono venuto a frastornare i vostri affari.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Digo mo, sior, se m’intendé, chi è galantomo no recerca i fatti d’altri, però contenteve d’andar via de qua più presto che podé, e che la ve passa anca così.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Vado signore, non v’irritate.</p>
+          </sp>
+          <stage>(Cinzio finge di partirsi)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Cossa ho ditto mi? Che subito co i me vede i muor da paura.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Voglio finger di temere costui.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sentirne, caro sior, voléu gniancora andar via de qua?</p>
+          </sp>
+          <stage>(Cinzio di nuovo ritorna)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Non v’ho detto un’altra volta ch’io vado? Abbiate almeno un poco di pazienza. Ma se per sorte, signore, io non volesse andarvi, cosa mai mi fareste?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>I poderave ben dir che i ha senio de viver a sto mondo, quando no i volesse andar via de qua, e po, el manco mal che ghe podesse far, ghe tagieria le reccie co sta brittoleta, m’intendéu?</p>
+          </sp>
+          <stage>(Pantalone li mostra la cinquedea)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Adesso t'intendo! Io non mi voglio partire.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>No? No ve volò partir? Diséu daseno, dasenazzo, o dasenonazzo? Se no volò andar via vu, anderò mi: siorìa vostra!</p>
+          </sp>
+          <stage>(Pantalone riparte)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Oh, che disgraziato, è pur partito alla buon’ora: voglio gettar questo pezzo di legno.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XIII</head>
+          <stage>Cinzio; Pantalone sopragiunge accompagnato con Mezzetino.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <stage>(verso Mezettin) </stage>
+            <p>M’avé lassào mi solo inte le pettole, compare Mezetin. Ma la ghe xe passarla ben a uno, perché no 'l voleva andar via de qua, e mi gh’ho tagiào el naso e un brazzo, ma l’è stào molto fortunào, che no l’abbia fenio da mazzar.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>È possibil?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Sì dasenazzo: aspetta, che varderò per terra, che certo el catterò...</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>A’ 'l cred pur tropp, a’ no ve descomodé miga, mi a’ no ho mai cattar! i nostri omen e sì a’ son andad per tutt dove che i suol pratticà.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ma guarda, caro ti, che quel zaletto che te diseva che gh’ho tagiào el naso e un brazzo l’è andào molto presto dal conzaossi e si el torna a far el bell’umor ghe vogio certo voltar la panza da drio. Oh, séu qua, sier scartozzo? Mi no vogio andar via de qua, ma vogio che vu ghe andò, sior clarissimo! Allerta, Mezzetin!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Cosa mi dite, che io vadi via di qua? Mi tolete in fallo, vedete, signori, ma se anco volete ch’io me ne vadi, io me ne vado subito per servirvi.</p>
+            <stage>(aparte) </stage>
+            <p>Oh, che pezzo di bullo: bisogna che io finghi di temere di costui per giunger a’ miei disegni.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Certo che l’avemo tiolto in fallo, voleva ben dir mi che el busse vario così presto! Sentirne, Mezzetin, veggio che andemo a trovar mio compare Momoletto, perché co son con lu gh’ho un puoco più d’animo e se femmo più stimar.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XIV</head>
+          <stage>Cinzio con un pezzo di legno nelle mani; Pantalone e Mezzetino restano.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ah, bricone, non ti vuoi per anco partir di qui?</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Ghe andem, sior, ghe andem, siur... 
+              Ah, siur patrù, è 'l mat colù che a’ 'l voi che vagli via de qua?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Tasi, caro ti, perché el sarà bon de dir che l’avemo strapazzào. Pàrlela co mi, patron? Si la parla co mi, vago via subito subito subito, manco mal, patron, la vegna almanco con un puoco de flemma, tanto che possa respirar, che la servirò: velia che vaga? Vago e stravago, sioriazza!</p>
+          </sp>
+          <stage>(Pantalone si parte con Mezzetino)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Oh, che poltrone, chi l’avrebbe mai creduto che quando costui vede un pezzo di legno tutto s’arrossisce e quando mi vede co la spada al fianco sempre più audace si dimostra? Voglio gettar di nuovo il bastone e finger per anco, se più torna, d’aver timore de’ fatti suoi.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XV</head>
+          <stage>Resta Cinzio, sopragiunge Pantalone acompagnato da Mezzetino e Momoletto.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Se’ qua ancora, sior liccapiatti? A zioghemo alle scondariole? Mi m’ho voleste fin adesso tior spasso con finzer d’andar via, ma vedo che la musica va troppo alla longa. Finilla, sior, e no ve 'l fé dir un’altra volta, perché adesso adesso ve volterò le ganasse co sto curadenti, e andéghe, che sarà meggio per vu, perché sento che me spuzzé da morto.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Io n’andrò, ma sappi che me la pagherai.</p>
+            <stage>(aparte) </stage>
+            <p>Vado, ma sol per alletarlo un poco.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <stage>(tra sé, guardando dietro Cinzio che si parte) </stage>
+            <p>Si no andessi po non so cosa che farave, forsi che mi anderia via: ma no femmo più ciaccole; Mezzetin, l’è andà via.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XVI</head>
+          <stage>Restano li sudetti e ritorna di nuovo Cinzio con un bastone nelle mani.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>A chi dico io? Bricone, scostati tosto e portati altrove, perché questo non è loco per te: m’intendi? Partiti di repente, se non ti calcherò la schena con grossissime bastonate.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>A pian, a pian, co chi parléu? Si parlé co mi vago via, caro sior, perché zà savé che non occorre che ve 'l staga a dir che mi ve veggio ben, caro visetto d’oro. Commàndella gniente, mio patron, in calle Dolera, che possa servirla, no? Servitor acutissimo.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Di già è partito, benché fosse accompagnato da tre canaglie: voglio di nuovo nasconder cotesto bastone, perché, se si porta, giuro al cielo che non li voglio più perdonare.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XVII</head>
+          <stage>Cinzio; ritorna di nuovo Pantalone con Mezzetino, Momoletto, Liguro e Varisco</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Adesso mo veggio che ti vaghi via de qua, brutto brusa pagiarizzi, e tiò questo per caparra, caro ti, con dir, el zirandonarve ben, ben, ben, mai fa dì.</p>
+          </sp>
+          <stage>(Pantalone li getta il capello nel volto)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>A me questi oltraggi?</p>
+          </sp>
+          <stage>(Cinzio incomincia a dar delle legnate a Pantalone e suoi soldati, fintantoché tutti si danno ad una ignominosa fuga)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA XVIII</head>
+          <stage>Resta Cinzio solo.</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Invero bravi soldati! Povero vecchio insensato, compiango anch’io le tue follie!</p>
+          </sp>
+          <stage>(Viene Pantalone solo fuori da un lato della scena e dice fuggendo)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Ave ras on, che son sbrissào!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Cosa dici, pezzo de bullo?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Digo, sior, che questo no l’è trattar da galantomo, el vegnir trenta contra uno.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Ah, desgraziato!</p>
+          </sp>
+          <stage>(Cinzio impugna la la spada per incalzarlo e Pantalone fugge)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Finora i miei disegni toccan il porto: or c’è d’uopo che mi porti alla mia cara Rosaura per narrarle il successo del tutto.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XIX</head>
+          <stage>Mezzetino solo.</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Oh, sem molto bravi: trenta i è scampaci contra nu do soli! Orsù, mi a’ no veggio perder temp, perché i dis che el temp a’ 'l val tant or: mi a’ vogio in sto tant andar a cattar la me cara Spinettina, per aspettar a cena el me car onorat patrun, el signur Pantalun, om verament bravo, ma anzi bravissim.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA XX</head>
+          <stage>Diventa notte. Pantalone si porta a cantando con una pippa in bocca alla casa di Spinetta.%(qui si sente il canto d’un gallo) </stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Anca el gallo canta! Oe, chi è là? Che ora è, zente? Ma, sarà otto ore certo. I m’ha ditto, i sonaòri, che i sarà qua a mezzanotte, ma mi no i vedo: vogio cantar intanto una ottava finché i vien, per veder anca se la siora Spinettina volesse vegnir al balcon senza che batta, perché xe scuro e mi no so cattar el battaòr.</p>
+            <stage>(Pantalone canta)</stage>
+            <l>Subito che mangiò del lot il tiglio,</l>
+            <l>Itaco si scordò la patria e il duce;</l>
+            <l>così l’uom, nel cui petto il ferro artiglio</l>
+            <l>pone Cupido, e tal sovente aduce</l>
+            <l>che, povero di mente e di consiglio,</l>
+            <l>ha smarrito del ciel la vera luce,</l>
+            <l>e aminando per vie ciech’e infelici,</l>
+            <l>di se stesso si scorda e degl’amici.</l>
+            <p>Gniancora no la me sente, bisogna che tioga el mio subiotto.</p>
+          </sp>
+          <stage>(quivi suona di subiotto ed in questo mentre sopragiunge Cinzio all’oscuro)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA XXI</head>
+          <stage>Pantalone e Cinzio all’oscuro.</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Chi passa mo anca a otf ore de notte? Bisogna che el sia certo l’orco. Chi è là? Ma nissun no responde, e sarà stà forsi qualche can che sarà vegnùo a pissar al muro.</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Chi va lì?</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Gh’è zente certo!</p>
+          </sp>
+          <stage>(Pantalone si getta boccone per terra con il stile in bocca, con la targa in una mano e la cinquadea nell’altra, con la celata in capo. Cinzio tira delle stoccate ed a caso urta sopra la celata di Pantalone)</stage>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Qui non v’è alcuno, sono all’oscuro: ah, ben l’intendo, saran stati i miei tormentosi pensieri che vanno sempre aggitandomi.</p>
+          </sp>
+          <stage>(Cinzio riparte)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>I m’ha sentìo all’usmo e sì i è andài via. Cosa mai gh’è qua per terra? Ho cattào una reccia e un naso, certo ghe l’ho tagiào e sì no l’ha ditto gniente, ma n’importa, l’è andào via, sia chi se sia, doman el cognosserò, che el sarà quello che no gh’averà naso.</p>
+            <stage>(in questo mentre un somaro tiene fischiando, con un mappa di canne accese)</stage>
+            <p>Anca el forner passa a ste ore?</p>
+            <stage>(li dà una pistolesata sul concollo ed il somaro fugge)</stage>
+            <p>La è ben curiosa stasera che tutti i va attorno, gnianca se i la tasse a posta, ma no i sa in che robba che i se incontra! Orsù, no veggio più aspettar, perché adesso adesso vien l’alba e no sarà più tempo de dormir.</p>
+          </sp>
+          <stage>(Pantalone tira diversi colpi con la so cinquadea sopra la porta, la getta a terra, poi va di sopra e fa fuggir Mezzetino e diverse donne in camiscia)</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA XXII</head>
+          <stage>Ad un tal rumore escono tutti fuori della casa di Spinetta, cioè Mezetin, Momoletto, Liguro, Varisco e diverse altre donne in camiscia e Pantalone con un pugnale le fa fuggire. Escono dall’altro lato della scena Cinzio, Dottore, Rosaura e Brighella.</stage>
+          <sp who="#cinzio #rosaura #brighella">
+            <speaker>CINZIO e ROSAURA BRIGHELLA</speaker>
+            <p>Che rumor è mai questo?</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <stage>(verso Cinzio) Ah, fiol d’un becch comù, ah, dove situ sta fin ades, che a’ no t’ho mai vist da du an in zà? </stage>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Tacete, signor padre, che vi narrerò il tutto in disparte: sappiate solamente che me son fatto sposo.</p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Ti t’ha fat spus? Oh, poveret mi, che me venirà la nura in ca’!</p>
+          </sp>
+          <sp who="#cinzio">
+            <speaker>CINZIO</speaker>
+            <p>Fermatevi, signore; e voi, signor Pantalone, cedete e potete gloriarvi ch’io vi salvi la vita. Io son Cinzio, figlio del signor Dottore, che se non sdegnate desidera in consorte la signora Rosaura, vostra figlia. Dovete condonarmi se usai termini non convenienti verso di voi, perché vedendovi accompagnato da certi baroni, vi stimavo esser di</p>
+            <p>tal sorte di gente. Io fui quello che per salvar una dama al Redutto finsi di temere di voi; fui quello, parimente, ch’alia danza lasciai sfogar la vostra bile, purché la signora Rosaura restasse illesa dal vostro furore. E, compatitemi di nuovo, io fui quello che per sottrar voi (non più Rosaura, mia diletta, perché di già n’era in sicuro) dall’iminente pericolo di morte, vi feci fuggire con un bastone, benché foste accompagnato da diversi briconi, e perciò, avvedendomi che Rosaura ardeva dell’amor mio, io, parimenti anelando a’ sue voglie, li diedi la fede di sposa. Compatite finalmente una tanta arroganza e sappiate che la legge d’amore ogni difficoltà scioglie, se constituisce ogni persona d’un grado solo per maggiormente unir gl’animi degl’amanti in nodi in dissolubili.</p>
+          </sp>
+          <stage>(Pantalone si prostra per terra)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Vu donca se’ sior Cinzio, mio amorevolissimo patron. Compatì, donca, anca mi, se ho usào certi tira indegni della mia e della vostra persona. Ma, caro sior Cinzio, si gh’avé dào la zatta, col so restante, a Rosaura, mia fiola, toméghela a dar un’altra volta, accioché veda anca so missier pare. È vero che fin adesso ho fatto una vita infame e, se andava troppo alla longa, anca mi so che saria andào a cattar l'ostaria dai tre palli, e però ve prometto de muàr vita, tanto più che ho visto che anca i mii omeni, insieme co Mezettin, i m’ha fatto una barca coll’andar dalla mia putta, che me credeva esser solo. Ma adesso cognosso che no gh’è più amighi e che quei che finze d’esser tutti vostri, i è po quei che ve minciona. Ma adesso vedo che 'l cielo me vuol ben, perché in mia vecchiezza el me dà un sostegno, che se’ vu, el mio caro sior zenero, che doppo la mia morte resterò patron assoluto de tutto el mio. E vu, sior Dottor, ve baso e v’abbrazzo, e vogio che da qua avanti siemo sempre più amighi che mai, tanto più</p>
+            <p>che vostro sior sto se degna de tior mia sta Rosaura per mugier. </p>
+          </sp>
+          <sp who="#dottore">
+            <speaker>DOTTORE</speaker>
+            <p>Oh, el me car siur Pantalun, a’ pianz per l’allegrezza de veder che un om dad a tanti vizi pur al fin el se remetta nella voluntà del ciel, e se può ben dir, com a’ 'l dis Verzil dai Marù: Post nubila Phoebus, che dopp el nuvol della mala vita al riturna il splendor dell’emenda.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <stage>(verso Rosaura) </stage>
+            <p>E vu, la mia cocca? Ve baso e v’abbrazzo come la mia cara fia, e sappié che mi no gh’ho la mazor consolaron se no de sentir che v’avé almanco cattào un mario che l’è un zentilomo garbatissimo.</p>
+          </sp>
+          <sp who="#rosaura">
+            <speaker>ROSAURA</speaker>
+            <p>Compatitemi, signor padre, che senza i vostri comandi ho data la fede di sposa al mio caro Cinzio: questi è stato un eccesso di vivo amore. Onde mi prostro tutta lagrimante a’ vostri piedi, per ricevere un total perdono d’ogni mio mancamento.</p>
+          </sp>
+          <stage>(Rosaura piange)</stage>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Alzete, cara la mia fia, perché ti sarà causa che adesso adesso cascherò in terra morto per la gran allegrezza.</p>
+          </sp>
+          <stage>(Rosaura s’alga da terra, Brighella tutto piangente insieme con Mezzetino s'inginocchiano per terra)</stage>
+          <sp who="#brighella">
+            <speaker>BRIGHELLA</speaker>
+            <p>Zà aneti l’è un zumo de perdunar, me butt anch mi, assiem col me paesan Mezetin, a’ pie del siur Pantalun, perché mi a’ son stà causa che la siura Rusaura, vostra stola, la xe spusa del siur Cinci me patria.</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Alzete anca ti, che te perdono.</p>
+          </sp>
+          <stage>(Brighella risorge)</stage>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Ahu, ahu, ahu, povero Mezettin Boccal, sto de Madona Limona Saltarelli e de missier Trufaldin, om onorat tamquam becch comù! Me sprostro, tutto sstrizimante alle scarpe no no, alle siole del me patria, perché so che anca mi a’ ho fallad coll’andar dalla so cara Spinettina a targhe una sonadina: ma quest l’è stad un dessert di quel cieco Cupidino, ragazino, fantolino, picciolino, tirin dino. Ma a’ poss ben dir —se el me perdona— come a’ 'l dis una volta Neseca</p>
+            <p>filosofro: oh, oh, oh, oh, quam dulcis, quam suavis,  a’ no me ricord più...</p>
+          </sp>
+          <sp who="#pantalone">
+            <speaker>PANTALONE</speaker>
+            <p>Te perdono, e tutti questi siori so certo che i te perdonerà anca lori, perché se ti m’è sta collega nelle furbarie ti è stào almanco più fedel che no xe stào né compare Momoletto, né Liguro, né Varisco. Alzete in pie, che te vogio basar e vogio che da qua avanti ti sii mio omo de casa, insieme co Brighella to camerada.</p>
+          </sp>
+          <sp who="#mezzetino">
+            <speaker>MEZZETINO</speaker>
+            <p>Oh, el me car siur Pantalù, a’ pianz di nov d’allegrezza!</p>
+          </sp>
+          <sp who="#brighella #rosaura #cinzio">
+            <speaker>BRIGHELLA, ROSAURA e CINZIO</speaker>
+            <l>Oh felice, oh beata, oh lieta sorte,</l>
+            <l>che ci sottrasti, alfin, da dura morte!</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

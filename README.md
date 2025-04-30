@@ -1,6 +1,6 @@
 # ItaDraCor
 ## Corpus Description
-The **Ita**lian **Dra**ma **Cor**pus contains 139 original Italian plays, retrieved from [Biblioteca Italiana](http://www.bibliotecaitaliana.it/). They were originally encoded in [TEI P4](https://www.tei-c.org/Vault/P4/) and updated by us to [TEI P5](https://tei-c.org/guidelines/p5/). We did some other minor adjustments so they can be connected to the DraCor portal, where they are now ready to be used by researchers (https://dracor.org/ita). Adjustments are documented in the changelog below.
+The **Ita**lian **Dra**ma **Cor**pus contains 157 original Italian plays, mostly retrieved from [Biblioteca Italiana](http://www.bibliotecaitaliana.it/). They were originally encoded in [TEI P4](https://www.tei-c.org/Vault/P4/) and updated by us to [TEI P5](https://tei-c.org/guidelines/p5/). We did some other minor adjustments so they can be connected to the DraCor portal, where they are now ready to be used by researchers (https://dracor.org/ita). Adjustments are documented in the changelog below.
 
 Actually, 171 items are categorised as "Letteratura teatrale" in Biblioteca Italiana's catalogue, but 32 were not imported, because:
 
@@ -11,9 +11,10 @@ Actually, 171 items are categorised as "Letteratura teatrale" in Biblioteca Ital
 
 The ```<availability>``` information given in each file reads: "Questa risorsa digitale è liberamente accessibile per uso personale o scientifico." ("This digital resource is freely accessible for personal or scientific use.")
 
-ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carsten Milling. – Thanks go to [Michael Sonkin](https://twitter.com/Migabaj) for additional character annotations (gender, relations, Wikidata IDs) and to Fabio Ciotti for helpful advice.
+ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/), Carsten Milling, and [Luca Giovannini](https://lucagiovannini7.github.io/). – Thanks go to [Michael Sonkin](https://twitter.com/Migabaj) for additional character annotations (gender, relations, Wikidata IDs) and to Fabio Ciotti for helpful advice.
 
 ## Changelog
+
 ### 03.02.2020
 * Import of 139 plays.
 * Adjust filenames (e.g., "bibit001163" → "alfieri-oreste.xml").
@@ -56,3 +57,6 @@ ItaDraCor is maintained by [Frank Fischer](https://lehkost.github.io/) and Carst
 
 ### 10.05.2021
 * Add missing ```<stage>``` directions.
+
+### 21.04.2025
+* Add 18 new plays.

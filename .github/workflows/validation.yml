@@ -3,11 +3,11 @@ name: Validate TEI documents
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ main ]
+    branches: [main]
     paths:
       - "tei/*.xml"
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - "tei/*.xml"
 
@@ -55,4 +55,5 @@ jobs:
             ${{ steps.changed-tei-files.outputs.all_changed_files }}
             ${{ steps.all-tei-files.outputs.files }}
           schema: dracor
+          unique-ids: tei/*.xml
           warn-only: yes
